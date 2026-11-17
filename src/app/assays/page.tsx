@@ -7,11 +7,18 @@ import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { EntityBrowser, type BrowserRow, type ColDef, type FacetDef } from "@/components/EntityBrowser";
 import { assays } from "@/data/assays";
 import { biomarkers } from "@/data/biomarkers";
+import { RegulatoryClaims } from "@/components/ScopedEvidence";
 
 export const metadata: Metadata = pageMeta({ title: "Companion diagnostics and assays", description: "Every companion diagnostic and key assay with its cut-off: PD-L1 CPS and TPS, HER2 IHC and ISH, EGFR, KRAS, BRAF, ALK, MSI, TMB, HRD, FLT3, FOLR1, CLDN18.2 and the multi-gene panels, linked to the drugs and cancers they gate.", path: "/assays/" });
 
 const PLATFORM_TIPS: Record<string, string> = { IHC: "Immunohistochemistry: antibody staining scored by a pathologist.", "FISH/ISH": "In situ hybridisation: counts gene copies or breaks in the nucleus.", PCR: "Polymerase chain reaction for a fixed list of mutations; fast, cheap, narrow.", "NGS tissue": "Next-generation sequencing of a tumour sample across many genes.", "NGS plasma": "Sequencing of circulating tumour DNA from blood (liquid biopsy).", "Gene expression": "RNA-based signature scored as a continuous risk number.", "Germline NGS": "Sequencing of inherited DNA from blood or saliva.", Imaging: "A PET tracer or other imaging read-out used to select patients." };
-const REG_TIPS: Record<string, string> = { "FDA CDx": "Approved by the FDA as a companion diagnostic named in a drug label.", "FDA cleared": "Cleared by the FDA but not as a required companion test.", "CE-IVD": "CE-marked for in vitro diagnostic use in Europe.", LDT: "Laboratory-developed test run under CLIA; not FDA-approved as a device.", "Breakthrough device": "FDA breakthrough designation; approval pending." };
+const REG_TIPS: Record<string, string> = {
+  "FDA CDx": "Approved by the FDA as a companion diagnostic: a test named for use with a particular drug. Each approval covers one cancer, one treatment, one kind of sample and one cut-off, so check the one that applies.",
+  "FDA cleared": "Cleared by the FDA, but not as a companion test required for a drug. The clearance covers the use the maker stated.",
+  "CE-IVD": "CE-marked for in vitro diagnostic use in Europe, for the use the maker states. The mark is about the test meeting the rules, not about whether it helps any one person.",
+  LDT: "Laboratory-developed test: designed and run by one laboratory rather than sold as a kit. The laboratory can be certified without the test itself being approved as a product.",
+  "Breakthrough device": "An FDA designation that speeds up review. It is not an approval.",
+};
 
 export default function AssaysPage() {
   const g = graph();
@@ -46,12 +53,12 @@ export default function AssaysPage() {
   const columns: ColDef[] = [
     { key: "platform", label: "Platform", sortable: true, valueTips: PLATFORM_TIPS },
     { key: "analyte", label: "Analyte", hide: "hidden md:table-cell" },
-    { key: "cutoff", label: "Cut-off that gates therapy", tip: "The threshold or positivity rule from the label or the trial that set it." },
-    { key: "drugs", label: "Gates", hide: "hidden sm:table-cell", tip: "Products whose use depends on this test." },
+    { key: "cutoff", label: "Cut-off", tip: "The result that counts as positive, from the label or the trial that set it. One test can carry different cut-offs for different cancers and treatments." },
+    { key: "drugs", label: "Treatments it is used with", hide: "hidden sm:table-cell", tip: "Treatments this test is used to select people for. The cut-off that applies depends on the cancer and the treatment." },
     { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" },
     { key: "targets", label: "Target dossier", hide: "hidden xl:table-cell" },
     { key: "regulatory", label: "Status", sortable: true, valueTips: REG_TIPS, hide: "hidden md:table-cell" },
-    { key: "approved", label: "First approved", sortable: true, numeric: true, hide: "hidden lg:table-cell", tip: "Year of first FDA companion-diagnostic approval, where read from the FDA list; blank is unrecorded, not unapproved." },
+    { key: "approved", label: "First approved", sortable: true, numeric: true, hide: "hidden lg:table-cell", tip: "Year of the first FDA companion-diagnostic approval on record. Later uses of the same test were approved in later years. Blank means not recorded here, not unapproved." },
     { key: "biomarkers", label: "Tumour-board biomarker", hide: "hidden xl:table-cell", tip: "The matching entries in the tumour-board biomarker list." },
     { key: "source", label: "Source", hide: "hidden xl:table-cell" },
   ];
@@ -59,15 +66,20 @@ export default function AssaysPage() {
   return (
     <>
       <PageHeader kicker={<GroupKicker id="intel" />} title="Companion diagnostics and assays"
-        lede={`Cut-offs gate every biomarker-selected drug: PD-L1 CPS 10, HER2 IHC 1+ or 2+, MSI-high, TMB 10 and the rest. ${assays.length} assays (${cdx} FDA companion diagnostics) with vendor, platform, analyte, the exact threshold, the products and cancers they gate, and the tumour-board biomarker they correspond to.`} />
+        lede={`The tests that decide who is offered a biomarker-selected drug. ${assays.length} assays, ${cdx} of them FDA companion diagnostics, each with its maker, its method, what it measures and the cut-off that counts as positive. One test can be approved for several cancers and treatments with a different cut-off for each, so read the one that matches yours.`} />
       <Container className="pb-16">
         <EntityBrowser rows={rows} facets={facets} columns={columns} noun="assays" hideStatus defaultSort={{ key: "name", dir: 1 }} />
+        {assays.some(a => a.regulatoryClaims?.length) && <section className="mt-8 space-y-6" aria-labelledby="scoped-assay-uses">
+          <h2 id="scoped-assay-uses" className="font-medium text-xl">What each approval covers</h2>
+          <p className="text-sm text-muted max-w-3xl">A status such as &ldquo;FDA CDx&rdquo; does not say which cancer, treatment and cut-off an approval is for. Where OnCo has read the individual approvals, they are set out below, each with its source. This list is not complete yet: a use that is missing here has not been added, which is different from not being approved.</p>
+          {assays.filter(a => a.regulatoryClaims?.length).map(a => <div key={a.id} className="card p-4 scroll-mt-28" id={a.id}><RegulatoryClaims claims={a.regulatoryClaims!} /></div>)}
+        </section>}
         <div className="grid gap-4 md:grid-cols-3 mt-8 text-sm">
           <div className="card p-4"><div className="kicker mb-1">Back to the biomarker matrix</div><p className="text-muted">Tick the biomarkers a report shows on the <Link className="underline" href="/tumor-board/">tumour board</Link> to see matched options; see how common each target is per cancer on the <Link className="underline" href="/prevalence/">prevalence matrix</Link>.</p></div>
-          <div className="card p-4"><div className="kicker mb-1">Read the cut-off, not just the name</div><p className="text-muted">The same analyte gates different drugs at different thresholds (PD-L1 TPS 1% versus 50%; HER2 3+ versus low). A positive result on one assay is not a positive result on another; SP142 and 22C3 are the classic example.</p></div>
-          <div className="card p-4"><div className="kicker mb-1">Primary source</div><p className="text-muted">The FDA list of cleared or approved companion diagnostic devices is the reference for every FDA CDx row; cut-offs are quoted from labels and trials. Corrections welcome via <Link className="underline" href="/suggest/">suggest an edit</Link>.</p></div>
+          <div className="card p-4"><div className="kicker mb-1">Read the cut-off, not just the name</div><p className="text-muted">The same marker can have a different cut-off for each treatment: PD-L1 at 1% for one drug and 50% for another. A positive result on one test is not automatically a positive result on another, because the stain, the scoring method and the sample differ.</p></div>
+          <div className="card p-4"><div className="kicker mb-1">Primary source</div><p className="text-muted">The FDA list of companion diagnostic devices is the reference for every FDA CDx row, and the drug labels give the full conditions of use. The status and year in the table summarise each test; the individual approvals are in the list above where OnCo has them. Corrections welcome via <Link className="underline" href="/suggest/">suggest an edit</Link>.</p></div>
         </div>
-        <div className="sr-only">{assays.map((a) => <span key={a.id} id={a.id}>{a.name}</span>)}</div>
+        <div className="sr-only">{assays.filter(a => !a.regulatoryClaims?.length).map((a) => <span key={a.id} id={a.id}>{a.name}</span>)}</div>
       </Container>
     </>
   );

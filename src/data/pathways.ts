@@ -89,7 +89,7 @@ export const pathways: PathwayInput[] = [
       "PIK3CA encodes the PI3K-alpha catalytic subunit. PIKFYVE is a different lipid kinase involved in endolysosomal regulation. Similar names do not make them the same target, and evidence about one does not automatically describe the other."],
 }),
   p({
-    id: "ras-mapk", name: "RAS / RAF / MEK / ERK (MAPK)", wikipedia: W("MAPK/ERK_pathway"),
+    id: "ras-mapk", name: "RAS / RAF / MEK / ERK (MAPK)", wikipedia: W("MAPK/ERK_pathway"), asOf: "2026-11-10",
     tldr: "A signalling network in which RAS proteins act as molecular switches and RAF, MEK and ERK relay signals. A gene alteration or downstream signal alone does not establish dependence or treatment benefit.",
     summary: "A measured downstream signal does not uniquely identify its upstream driver, survival dependence or clinical benefit. Particular alleles and drug mechanisms matter: Poulikakos found RAS-dependent RAF-dimer transactivation and increased ERK signaling in wild-type-BRAF cell settings exposed to certain ATP-competitive RAF inhibitors. This is an experimental context-dependent effect, not a direction assigned to every RAF drug or RAS alteration.\n\nThis MAPK branch relays signals from receptor and other inputs through the GDP/GTP RAS switch to RAF kinases, MEK and ERK. RAS is a GTP-binding switch; RAF, MEK and ERK are protein kinases. Moodie examined active-RAS complexes, and Kyriakis tested Raf-1 activation of MAP kinase kinase. These defined experiments support steps in the relay; other MAPK branches exist and the simplified map omits regulators.\n\nA fictional compound that lowers phospho-ERK within an hour without changing growth has demonstrated a sampled downstream biochemical effect, subject to assay controls. It has not alone proved direct target binding, attributed growth dependence or patient benefit. Specify the allele, protein site, total-protein normalization, preservation, exposure, timing and cell population, then confirm engagement and functional effects with independent perturbations and appropriate controls.\n\nShared inputs, branches and feedback can alter the magnitude or even direction of a perturbation response over time. High pathway-associated RNA is not a universal activity meter, and a changed ERK site cannot identify a sole upstream receptor. Davies' BRAF work established transforming activity for specific mutations in defined models, not a common effect for every uncertain BRAF variant. Drug selection still needs its own allele-, disease- and setting-specific evidence.",
     analogy: "A relay race: receptor hands the baton to RAS, RAS to RAF, RAF to MEK, MEK to ERK, ERK runs into the nucleus and shouts 'divide'. A KRAS mutation is a runner who never stops running whether or not anyone handed them the baton.",
@@ -98,14 +98,22 @@ export const pathways: PathwayInput[] = [
       { id: "sos", label: "GRB2 / SOS1", x: 50, y: 20 },
       { id: "ras", label: "RAS (KRAS)", x: 50, y: 36, targetId: "kras" },
       { id: "nf1", label: "NF1 (GAP)", x: 15, y: 36 },
-      { id: "raf", label: "RAF (BRAF)", x: 50, y: 52, targetId: "braf" },
+      { id: "raf", label: "RAF (BRAF, CRAF)", x: 50, y: 52, targetId: "braf" },
       { id: "mek", label: "MEK1/2", x: 50, y: 68 },
       { id: "erk", label: "ERK1/2", x: 50, y: 82 },
       { id: "out", label: "Cyclin D1, MYC → proliferation", x: 50, y: 97 },
       { id: "fb", label: "DUSP / SPRY feedback", x: 85, y: 60 },
     ],
     edges: [
-      { from: "rtk", to: "sos" }, { from: "sos", to: "ras" }, { from: "nf1", to: "ras", type: "inhibits" }, { from: "ras", to: "raf" }, { from: "raf", to: "mek" }, { from: "mek", to: "erk" }, { from: "erk", to: "out" }, { from: "erk", to: "fb" }, { from: "fb", to: "rtk", type: "inhibits" },
+      { from: "rtk", to: "sos" }, { from: "sos", to: "ras" }, { from: "nf1", to: "ras", type: "inhibits" }, { from: "ras", to: "raf" },
+      { from: "raf", to: "mek", evidence: [{
+        basis: "observed", context: "Recombinant Raf-1 (CRAF) and Mek1 proteins produced in Sf9 insect cells; association and phosphorylation experiments.",
+        statement: "The study reported that Raf-1 and Mek1 form a stable complex, and that Mek1 was activated, with serine phosphorylation, when it was produced together with Raf-1.",
+        limitation: "This experiment concerns CRAF and MEK1 in a recombinant system. It does not establish the same behaviour for every RAF isoform or show patient benefit from a drug combination.",
+        sources: [{ label: "Huang et al., PNAS 1993 (primary experiment)", url: "https://doi.org/10.1073/pnas.90.23.10947" }],
+        sourceDate: "1993-12-01", checkedOn: "2026-11-08",
+      }] },
+      { from: "mek", to: "erk" }, { from: "erk", to: "out" }, { from: "erk", to: "fb" }, { from: "fb", to: "rtk", type: "inhibits" },
     ],
     interventions: ["KRAS G12C inhibitors (sotorasib, adagrasib) ± anti-EGFR in colorectal cancer", "Pan-RAS(ON) inhibitor daraxonrasib (phase 3, pancreatic)", "BRAF + MEK inhibitors (dabrafenib/trametinib, encorafenib/binimetinib)", "Encorafenib + cetuximab (+ chemo) in BRAF V600E CRC", "Upstream: EGFR, ALK, RET, MET, NTRK inhibitors and bispecifics"],
     targets: ["kras", "braf", "egfr", "alk", "ret", "met", "ntrk", "fgfr2", "kit", "nras", "shp2", "nf1"], drugs: ["sotorasib", "adagrasib", "daraxonrasib", "encorafenib", "osimertinib", "lorlatinib"], cancers: ["pancreatic", "colorectal", "nsclc", "melanoma"], links: [
@@ -130,9 +138,7 @@ export const pathways: PathwayInput[] = [
     "url": "https://pubmed.ncbi.nlm.nih.gov/12068308/"
   }
 ],
-
-"asOf": "2026-11-10"
-}),
+  }),
   p({
     id: "p53-cell-cycle", name: "p53 / RB / cell-cycle checkpoint", wikipedia: W("Cell_cycle_checkpoint"),
     tldr: "The p53 and RB checkpoints are the cell's brakes. p53 senses damage and stops the cell from copying itself; RB holds the cell at the G1 gate until CDK4/6 unlocks it. Cancers cut these brakes.",

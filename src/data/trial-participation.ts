@@ -59019,7 +59019,7 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06382142",
       "source": "https://clinicaltrials.gov/study/NCT06382142",
-      "fetchedAt": "2026-10-07T16:54:36.402Z",
+      "fetchedAt": "2026-11-09T01:56:04.268Z",
       "studySha256": "1d1c9feb493ba1a2c39f7b15eb2759c2ac344f307836f7aa8d2cbfbc29bbd973",
       "overallStatus": "ACTIVE_NOT_RECRUITING",
       "lastUpdatePosted": "2026-07-23",
@@ -59036,6 +59036,15 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0,
       "countries": [
         "China"
+      ],
+      "responseStudySha256": "1d1c9feb493ba1a2c39f7b15eb2759c2ac344f307836f7aa8d2cbfbc29bbd973",
+      "facilities": [
+        {
+          "facility": "Fudan University Shanghai Cancer Center",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "country": "China"
+        }
       ]
     }
   ],

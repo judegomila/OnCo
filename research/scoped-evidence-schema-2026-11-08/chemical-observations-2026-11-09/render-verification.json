@@ -1,0 +1,877 @@
+{
+  "scope": "Matched static markup from the actual data in baseline versus proposed readers. No browser hydration, responsive screenshot or hosted-preview claim.",
+  "canonicalOwners": 65,
+  "newCanonicalOwners": 34,
+  "existingCanonicalOwners": 31,
+  "datedNov9Owners": 27,
+  "canonicalDifferencesBeyondChemicalObservations": 0,
+  "rawRegistryObservations": 46,
+  "canonicalStructuredObservationsBeforeSchema": 0,
+  "canonicalStructuredObservationsAfterSchema": 46,
+  "comparisonPage": {
+    "oldCleavableLinkerRequirementRemoved": true,
+    "sourceScopedLoading": true,
+    "missingMeasurementsExplicit": true,
+    "unqualifiedBooleanOrEffluxValues": 0
+  },
+  "ownerChecks": [
+    {
+      "id": "sn-38",
+      "observationsRetainedAndRendered": 3,
+      "sourceMethodContextAndLimitationChecks": "pass"
+    },
+    {
+      "id": "dxd",
+      "observationsRetainedAndRendered": 6,
+      "sourceMethodContextAndLimitationChecks": "pass"
+    },
+    {
+      "id": "t030",
+      "observationsRetainedAndRendered": 2,
+      "sourceMethodContextAndLimitationChecks": "pass"
+    },
+    {
+      "id": "mmae",
+      "observationsRetainedAndRendered": 4,
+      "sourceMethodContextAndLimitationChecks": "pass"
+    },
+    {
+      "id": "mmaf",
+      "observationsRetainedAndRendered": 5,
+      "sourceMethodContextAndLimitationChecks": "pass"
+    },
+    {
+      "id": "dm1",
+      "observationsRetainedAndRendered": 4,
+      "sourceMethodContextAndLimitationChecks": "pass"
+    },
+    {
+      "id": "dm4",
+      "observationsRetainedAndRendered": 5,
+      "sourceMethodContextAndLimitationChecks": "pass"
+    },
+    {
+      "id": "pbd-sg3199",
+      "observationsRetainedAndRendered": 6,
+      "sourceMethodContextAndLimitationChecks": "pass"
+    },
+    {
+      "id": "calicheamicin",
+      "observationsRetainedAndRendered": 4,
+      "sourceMethodContextAndLimitationChecks": "pass"
+    },
+    {
+      "id": "duocarmycin",
+      "observationsRetainedAndRendered": 2,
+      "sourceMethodContextAndLimitationChecks": "pass"
+    },
+    {
+      "id": "af-hpa",
+      "observationsRetainedAndRendered": 2,
+      "sourceMethodContextAndLimitationChecks": "pass"
+    },
+    {
+      "id": "dm21-c-maytansinoid-system",
+      "observationsRetainedAndRendered": 3,
+      "sourceMethodContextAndLimitationChecks": "pass"
+    }
+  ],
+  "before": [
+    {
+      "id": "dual-payload-adc",
+      "bytes": 66679,
+      "sha256": "50585fa30171f7e3fde725a648b7cc06dfea6aa835e2dea4f3d612975f1b2e93",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "degrader-antibody-conjugate",
+      "bytes": 39899,
+      "sha256": "be8bf80c3182323bc2bb96f170416fa18e5d0ef6e24367b84cf1974c9df63f01",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "immune-stimulating-adc",
+      "bytes": 48571,
+      "sha256": "72dc4bd38f114edbc6490944be7bf6e96e591e2b77651be8a02bc1a6a0f66de1",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "polr2a",
+      "bytes": 42778,
+      "sha256": "06f46eda95e703ed2ba7eff86a16f2ad08ce16b81d28a69aeb61f55879fdd694",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "payload",
+      "bytes": 43146,
+      "sha256": "707f9d697e0a46bdb92300c8c53ca981881318b3c1bef7d8ba8a989e9f3dacaa",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "topoisomerase-i-payloads",
+      "bytes": 48212,
+      "sha256": "469ee587ddcf7373ed1dc1eee7065bf139b1158daa390cd477795f1d30be2391",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "exatecan",
+      "bytes": 29424,
+      "sha256": "10acdbaa8bddc9d9b9b16be7f2fb1d83926007a073d34f5508d641d5ec8afc69",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "next-generation-adc-payloads",
+      "bytes": 29146,
+      "sha256": "40e800cf7f9364c102029bccea45f78d4254edd8289dc90dee89c2b71486b387",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "transcription-inhibitor-payloads",
+      "bytes": 33936,
+      "sha256": "661b76b4db63398c27ebb8130a4894da232088d477c75f551ab41a246402ad8e",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "amanitin-payloads",
+      "bytes": 31312,
+      "sha256": "2dc16c3df43336c17b7105aef419d1bb24f5b2ac37ccbc70ec16e022b6f3c194",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "triptolide-payloads",
+      "bytes": 20996,
+      "sha256": "3977f01ed05e8fda7ea7ff8aaa67a80d20a784c0db309134309bbc5d729ae98e",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "spliceosome-inhibitor-payloads",
+      "bytes": 24298,
+      "sha256": "dd1876fff82b1c71e5d2fe5a60b6064717075de01909a52b5603a031458b717e",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cdk-inhibitor-payloads",
+      "bytes": 21932,
+      "sha256": "95616339978eb3472a2b755394c8bdd9fbe2392e476f915fb8e93aa958dd63fe",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "ddr-inhibitor-payloads",
+      "bytes": 24050,
+      "sha256": "d4b9d606791af915052520cd3496eea27aaa5de793e3ef6a5049eacb68218543",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "atr-inhibitor-payloads",
+      "bytes": 22481,
+      "sha256": "b613ebce68b6e26162db57d6393184cc0f09ce99748c724a900846af7f3ac6dc",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "nampt-inhibitor-payloads",
+      "bytes": 21106,
+      "sha256": "745343ed3fe10172fd198262ebfbc2d605a84b9cef6a84d6036a76032f652011",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "bcl-xl-inhibitor-payloads",
+      "bytes": 21580,
+      "sha256": "bf220211c2cbeced8967366a439867c0114522d60ad50d1c538abcc649217438",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "mcl1-inhibitor-payloads",
+      "bytes": 25858,
+      "sha256": "2cdfdee1d3b507844656458f60b408d7776eaa7880ba8454bb836a63ece3a58b",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "hdac-inhibitor-payloads",
+      "bytes": 21053,
+      "sha256": "5e7696e1400fa57e9c14de7d2828165fc62bf299d072f9a2b8fc2fff026689cb",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "gspt1-degrader-payloads",
+      "bytes": 24711,
+      "sha256": "c5a6e88da7e2707e6590cc0308d8aa9393c025a6840881f3f96f35432933765e",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "brd4-degrader-payloads",
+      "bytes": 22732,
+      "sha256": "a383de6c2c6954e887d2e795bf33478fd4100bf9105c76cce1478b431f5d419e",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "kif11-degrader-payloads",
+      "bytes": 21278,
+      "sha256": "00603d5254fd4bbcc61a4d9ad7e957999ba813025d3e99c9024eddfb9c09d540",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "ksp-inhibitor-payloads",
+      "bytes": 21505,
+      "sha256": "b5f56974fba47ca9ee5c54224046cdb3137a74efcbe6b7d13f97c82b3a225d20",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "sting-agonist-payloads",
+      "bytes": 21674,
+      "sha256": "6cb4265ace0653de548aba32361d578c6502fde411d2480b636d3a130909299c",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tlr-agonist-payloads",
+      "bytes": 22360,
+      "sha256": "258a4d9eca902951e9a6c4ea7f68bebc1340ed7cb368f2b567f12f4dd6e24847",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "gq11-inhibitor-payloads",
+      "bytes": 22653,
+      "sha256": "4a6ed3d13066b11699770c7d855a1d4a7f2e4e6bcc22931c09f4be152df8c624",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "pi3k-pikk-inhibitor-payloads",
+      "bytes": 21828,
+      "sha256": "2f8b7d38ad37c8b00f23604c6b67dd021e89d9835dafdbac46e5759082de7ad3",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "anthracycline-payloads",
+      "bytes": 20379,
+      "sha256": "84c65cc100cb8d679014173a978439e57ecce7a2b1bbdce6e3a95c1c96bd4aad",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "eribulin-payload",
+      "bytes": 26017,
+      "sha256": "1be15f8b19fcac92d86d61399625362339f23feb7c72e2a9c421a3c545139dad",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tubulysin-payloads",
+      "bytes": 20871,
+      "sha256": "e5dc9d610319fce4ccfd406731eb02a254408b808767b9f3926667dd70974181",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "hemiasterlin-payloads",
+      "bytes": 24260,
+      "sha256": "57046734d7186388b611a5d6f51ec8e439acdf907b68b103f8bc1541992bf0f8",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cryptophycin-payloads",
+      "bytes": 21973,
+      "sha256": "a5bace7069438ca9bdae852d61e592d06b8fc0265bfd63ce27eecabe95ffdf98",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "ign-payloads",
+      "bytes": 20594,
+      "sha256": "3f849a5cd331ea758317a38b11842e9caa806e3d7e4bf688dce2e7cae0c71fcc",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "pdd-payloads",
+      "bytes": 21457,
+      "sha256": "cae929b8a9faca6bf9f9362bec31d4524257c9123ee8ed1f61de66961392dcb6",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "protein-alkylator-payloads",
+      "bytes": 20781,
+      "sha256": "0cbd85e1e20cd0dccd90a46cf3277e9c93cbd25c4bfd55ce65080680a6689a5e",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "proteasome-inhibitor-payloads",
+      "bytes": 22998,
+      "sha256": "8c46f7cfc5b1931379e9c5808a9aba3975fe07ad4ff79f7a8873261e624ba8f2",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "ferroptosis-conjugate-payloads",
+      "bytes": 23034,
+      "sha256": "685d8853e610d781172a868f263a12398473f9f0430e603a99ee01581ae43018",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "protein-toxin-payloads",
+      "bytes": 20946,
+      "sha256": "35b59f5a4025035f93cb8633dfd9639cd3e376af9caf01c76fae87426ba60ec2",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "pamlectabart-tismanitin",
+      "bytes": 40502,
+      "sha256": "79be8f5b13dca4f208111e8a4d05b53394f21459c0f81559d140943a1ddc4442",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "sn-38",
+      "bytes": 27304,
+      "sha256": "9ab204718dc4f38fbfc96a50c34d8379b0fa67eacf6d6b208257dafa3ad3f624",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dxd",
+      "bytes": 29887,
+      "sha256": "2909ece9865f0d009522b91c443ab9950d219c682001c07dd1da1e3dc0465e1f",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "t030",
+      "bytes": 25850,
+      "sha256": "29c12073d826860d373cf0546a10c403a4e4579e1748e90d44abc18b2ae327d1",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "mmae",
+      "bytes": 31111,
+      "sha256": "922e34082cf7d1f30cdd853f2cd24f9c6b926d99c84af7b7379111f5c6e1a128",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "mmaf",
+      "bytes": 24728,
+      "sha256": "500bdcd3b4c99a4eb3180b87fb2164589caa71441f3afef4ea9c270c0c0d05c2",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dm1",
+      "bytes": 25454,
+      "sha256": "8a24dc5ca6c9782455297b5f18b7cb61d4aa3df3c4dc35e08a11945c2cacd886",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dm4",
+      "bytes": 28069,
+      "sha256": "efca4e163fee74368d1ccacbed4688fb0faaac3a17735eae86cab47bf1499a28",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "pbd-sg3199",
+      "bytes": 25604,
+      "sha256": "b0791040118ccb453f5e1c68cfcaba47843e5a6b14ba00734962a99555fb7861",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "calicheamicin",
+      "bytes": 26332,
+      "sha256": "06fd1fba3a5a6d70109ed4945c77b637b33d6d95ed2ad4b2e24d8669429ad37a",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "duocarmycin",
+      "bytes": 26001,
+      "sha256": "116d64ac503c9e9180d5674c02a6184958a93918516fd06911c87a643cba5805",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "af-hpa",
+      "bytes": 24623,
+      "sha256": "2d2cf9a1961002bdad94a9d4235759b92852af6dc94a0317ffc07862eb17fa71",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dm21-c-maytansinoid-system",
+      "bytes": 23430,
+      "sha256": "418d5b67f18ba82396b887d5fda0ae7db4283e8a5e21baf2adca20961b5af7b5",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cl2a",
+      "bytes": 23983,
+      "sha256": "cd7e6f6c4cff9d79ede9e712465caa798a4a7d2feea7416ac487803d78c664a4",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "ggfg",
+      "bytes": 28660,
+      "sha256": "53af09661e641fdadee0d6c711ec883043ebfee01ad01607087bd5ac1f1707e8",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "mc-vc-pabc",
+      "bytes": 28080,
+      "sha256": "ad51e0df3ef7c7e156536c78722277386844d985d1c5902f0514dfbb44600813",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "smcc",
+      "bytes": 22045,
+      "sha256": "cc56ac95511691ba8daee8c82665dd94bba8246a6d4627e5eb257f94e4d38724",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "sulfo-spdb",
+      "bytes": 24705,
+      "sha256": "0597c329871f46a37a02c2f244afd55949ebd7a4bcda891cded74fd957ed59c9",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "hydrazone",
+      "bytes": 22771,
+      "sha256": "364b6aef93f7fa6da75dd34ed78bf46ac8cb494ac3178c14fe5bc2dac91d3006",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "val-ala",
+      "bytes": 23499,
+      "sha256": "16068e5f5d6bb3661ca677a5713fa6c2ff9e5a89dd4863a5042ab2452ce3fddd",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "mc-non-cleavable",
+      "bytes": 24439,
+      "sha256": "e0d5bd4632610dba74ae72d4e9c3448801ca3604be8d9d16b37a4a98b4be2091",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "hydrophilic-next-gen",
+      "bytes": 27361,
+      "sha256": "074a57d380b828ebc3ee2b25ab1cd38c12ba6f445e15a4b27f8d24faa7c7871d",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tubulin-inhibitor-payloads",
+      "bytes": 37814,
+      "sha256": "f7c7df4bf2361c65047a91bd07e36d94de025a61ba5e3c255d5c24365a628ec3",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "pbd-dimer-payloads",
+      "bytes": 23417,
+      "sha256": "6ffbfdcccf64b321e8a6f77646c363c211fc9482744bd345af5c34a489d2461c",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dna-cleaver-payloads",
+      "bytes": 24339,
+      "sha256": "1e328e3a950f855ef7786761e117f923dfd754f4069991e90406b042a238fcb1",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dna-alkylator-payloads",
+      "bytes": 24159,
+      "sha256": "a9922a09f2db89be9dc6024ef9f910aeb6abf89f5a444397f36d2a6543ef20a9",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "upifitamab-rilsodotin",
+      "bytes": 40146,
+      "sha256": "0def362b2f420134f50f3b08c8283c59d7752a296d0602b9aa2a9fb4f548bd93",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "payloads",
+      "bytes": 40685,
+      "sha256": "4277fae7cfeac18be3c7e7605803985e29146bfe9bc74f323f879667823a92d3",
+      "nestedAnchors": 0
+    }
+  ],
+  "after": [
+    {
+      "id": "dual-payload-adc",
+      "bytes": 66487,
+      "sha256": "8f7b7e95b56de672ad734132a6d747e715fc5d0a9a2d544f42da3b8052dc9357",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "degrader-antibody-conjugate",
+      "bytes": 39899,
+      "sha256": "be8bf80c3182323bc2bb96f170416fa18e5d0ef6e24367b84cf1974c9df63f01",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "immune-stimulating-adc",
+      "bytes": 48571,
+      "sha256": "72dc4bd38f114edbc6490944be7bf6e96e591e2b77651be8a02bc1a6a0f66de1",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "polr2a",
+      "bytes": 42778,
+      "sha256": "06f46eda95e703ed2ba7eff86a16f2ad08ce16b81d28a69aeb61f55879fdd694",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "payload",
+      "bytes": 43146,
+      "sha256": "707f9d697e0a46bdb92300c8c53ca981881318b3c1bef7d8ba8a989e9f3dacaa",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "topoisomerase-i-payloads",
+      "bytes": 48020,
+      "sha256": "4524fcd62c871925601cb66f66f434d04e4222249c93342b406b9cdd0012cf65",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "exatecan",
+      "bytes": 29424,
+      "sha256": "10acdbaa8bddc9d9b9b16be7f2fb1d83926007a073d34f5508d641d5ec8afc69",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "next-generation-adc-payloads",
+      "bytes": 29146,
+      "sha256": "40e800cf7f9364c102029bccea45f78d4254edd8289dc90dee89c2b71486b387",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "transcription-inhibitor-payloads",
+      "bytes": 33744,
+      "sha256": "f01cb7fb37c2a5f256b5bce0116423d296c51a0c717009dc7b4f311c411477c4",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "amanitin-payloads",
+      "bytes": 31120,
+      "sha256": "5997b56de7437a084365851ba8750c80cbbf87b5ab8f4d5948406b8354e045e8",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "triptolide-payloads",
+      "bytes": 20996,
+      "sha256": "3977f01ed05e8fda7ea7ff8aaa67a80d20a784c0db309134309bbc5d729ae98e",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "spliceosome-inhibitor-payloads",
+      "bytes": 24298,
+      "sha256": "dd1876fff82b1c71e5d2fe5a60b6064717075de01909a52b5603a031458b717e",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cdk-inhibitor-payloads",
+      "bytes": 21932,
+      "sha256": "95616339978eb3472a2b755394c8bdd9fbe2392e476f915fb8e93aa958dd63fe",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "ddr-inhibitor-payloads",
+      "bytes": 24050,
+      "sha256": "d4b9d606791af915052520cd3496eea27aaa5de793e3ef6a5049eacb68218543",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "atr-inhibitor-payloads",
+      "bytes": 22481,
+      "sha256": "b613ebce68b6e26162db57d6393184cc0f09ce99748c724a900846af7f3ac6dc",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "nampt-inhibitor-payloads",
+      "bytes": 21106,
+      "sha256": "745343ed3fe10172fd198262ebfbc2d605a84b9cef6a84d6036a76032f652011",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "bcl-xl-inhibitor-payloads",
+      "bytes": 21580,
+      "sha256": "bf220211c2cbeced8967366a439867c0114522d60ad50d1c538abcc649217438",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "mcl1-inhibitor-payloads",
+      "bytes": 25858,
+      "sha256": "2cdfdee1d3b507844656458f60b408d7776eaa7880ba8454bb836a63ece3a58b",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "hdac-inhibitor-payloads",
+      "bytes": 21053,
+      "sha256": "5e7696e1400fa57e9c14de7d2828165fc62bf299d072f9a2b8fc2fff026689cb",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "gspt1-degrader-payloads",
+      "bytes": 24711,
+      "sha256": "c5a6e88da7e2707e6590cc0308d8aa9393c025a6840881f3f96f35432933765e",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "brd4-degrader-payloads",
+      "bytes": 22732,
+      "sha256": "a383de6c2c6954e887d2e795bf33478fd4100bf9105c76cce1478b431f5d419e",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "kif11-degrader-payloads",
+      "bytes": 21278,
+      "sha256": "00603d5254fd4bbcc61a4d9ad7e957999ba813025d3e99c9024eddfb9c09d540",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "ksp-inhibitor-payloads",
+      "bytes": 21505,
+      "sha256": "b5f56974fba47ca9ee5c54224046cdb3137a74efcbe6b7d13f97c82b3a225d20",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "sting-agonist-payloads",
+      "bytes": 21674,
+      "sha256": "6cb4265ace0653de548aba32361d578c6502fde411d2480b636d3a130909299c",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tlr-agonist-payloads",
+      "bytes": 22360,
+      "sha256": "258a4d9eca902951e9a6c4ea7f68bebc1340ed7cb368f2b567f12f4dd6e24847",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "gq11-inhibitor-payloads",
+      "bytes": 22653,
+      "sha256": "4a6ed3d13066b11699770c7d855a1d4a7f2e4e6bcc22931c09f4be152df8c624",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "pi3k-pikk-inhibitor-payloads",
+      "bytes": 21828,
+      "sha256": "2f8b7d38ad37c8b00f23604c6b67dd021e89d9835dafdbac46e5759082de7ad3",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "anthracycline-payloads",
+      "bytes": 20379,
+      "sha256": "84c65cc100cb8d679014173a978439e57ecce7a2b1bbdce6e3a95c1c96bd4aad",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "eribulin-payload",
+      "bytes": 26017,
+      "sha256": "1be15f8b19fcac92d86d61399625362339f23feb7c72e2a9c421a3c545139dad",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tubulysin-payloads",
+      "bytes": 20871,
+      "sha256": "e5dc9d610319fce4ccfd406731eb02a254408b808767b9f3926667dd70974181",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "hemiasterlin-payloads",
+      "bytes": 24260,
+      "sha256": "57046734d7186388b611a5d6f51ec8e439acdf907b68b103f8bc1541992bf0f8",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cryptophycin-payloads",
+      "bytes": 21973,
+      "sha256": "a5bace7069438ca9bdae852d61e592d06b8fc0265bfd63ce27eecabe95ffdf98",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "ign-payloads",
+      "bytes": 20402,
+      "sha256": "f888b0fc661714914610051d92d1267dd840832756fa47c70218bce6cf81df41",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "pdd-payloads",
+      "bytes": 21457,
+      "sha256": "cae929b8a9faca6bf9f9362bec31d4524257c9123ee8ed1f61de66961392dcb6",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "protein-alkylator-payloads",
+      "bytes": 20781,
+      "sha256": "0cbd85e1e20cd0dccd90a46cf3277e9c93cbd25c4bfd55ce65080680a6689a5e",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "proteasome-inhibitor-payloads",
+      "bytes": 22998,
+      "sha256": "8c46f7cfc5b1931379e9c5808a9aba3975fe07ad4ff79f7a8873261e624ba8f2",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "ferroptosis-conjugate-payloads",
+      "bytes": 23034,
+      "sha256": "685d8853e610d781172a868f263a12398473f9f0430e603a99ee01581ae43018",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "protein-toxin-payloads",
+      "bytes": 20946,
+      "sha256": "35b59f5a4025035f93cb8633dfd9639cd3e376af9caf01c76fae87426ba60ec2",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "pamlectabart-tismanitin",
+      "bytes": 40502,
+      "sha256": "79be8f5b13dca4f208111e8a4d05b53394f21459c0f81559d140943a1ddc4442",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "sn-38",
+      "bytes": 29952,
+      "sha256": "bc48f57ca0fddeb3ff8485f54f006ba15499f5b831881ce35c4d72ec7a57c496",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dxd",
+      "bytes": 35009,
+      "sha256": "8b8d28c5612b5f63dc54098b4846fbc22ad0121a976bc14a371d402c5afc882d",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "t030",
+      "bytes": 27679,
+      "sha256": "cfe747d269c081f45375aee5fc1b791889d951629d576a56f6f55c7d17075b51",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "mmae",
+      "bytes": 34451,
+      "sha256": "eab434f65c4f0535492f541cd4e3082a606e958ce2a5138adbe816724a98b88c",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "mmaf",
+      "bytes": 28922,
+      "sha256": "b56cce1da3398f1e7542286482e2333729c393dfc3ddf4a293be3d2b083ca6c4",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dm1",
+      "bytes": 28898,
+      "sha256": "df1f80b64029027b9677d530c5072675deac489dd8a86ce44a494c4bb4884a1b",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dm4",
+      "bytes": 32429,
+      "sha256": "3c554fe947cb4ae56e5cdb4a12188f87ee1d4e7243c1f5e3b0ee21b8a7338da5",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "pbd-sg3199",
+      "bytes": 30761,
+      "sha256": "091087754d12c20094326ee6b1c895c0afbad5b31b15d3969e1c508032e9d279",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "calicheamicin",
+      "bytes": 30055,
+      "sha256": "7b521770421f22ded40051198bd65f314768d016c1d33103ff66eaccb33720d9",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "duocarmycin",
+      "bytes": 27908,
+      "sha256": "378a6b3d81951d4219f5deb644c683a5caeb41f5a4f765863a965c6f8363935f",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "af-hpa",
+      "bytes": 26261,
+      "sha256": "dab8f81acf2b670708de7c6ec769155a5b6923cbf83381c1221d2f932366034e",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dm21-c-maytansinoid-system",
+      "bytes": 26112,
+      "sha256": "92e71fef97fd01425cbf2c9a49958141a1b8c31019fe7552d5b7592a070717e5",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cl2a",
+      "bytes": 23983,
+      "sha256": "cd7e6f6c4cff9d79ede9e712465caa798a4a7d2feea7416ac487803d78c664a4",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "ggfg",
+      "bytes": 28660,
+      "sha256": "53af09661e641fdadee0d6c711ec883043ebfee01ad01607087bd5ac1f1707e8",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "mc-vc-pabc",
+      "bytes": 28080,
+      "sha256": "ad51e0df3ef7c7e156536c78722277386844d985d1c5902f0514dfbb44600813",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "smcc",
+      "bytes": 22045,
+      "sha256": "cc56ac95511691ba8daee8c82665dd94bba8246a6d4627e5eb257f94e4d38724",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "sulfo-spdb",
+      "bytes": 24705,
+      "sha256": "0597c329871f46a37a02c2f244afd55949ebd7a4bcda891cded74fd957ed59c9",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "hydrazone",
+      "bytes": 22771,
+      "sha256": "364b6aef93f7fa6da75dd34ed78bf46ac8cb494ac3178c14fe5bc2dac91d3006",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "val-ala",
+      "bytes": 23499,
+      "sha256": "16068e5f5d6bb3661ca677a5713fa6c2ff9e5a89dd4863a5042ab2452ce3fddd",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "mc-non-cleavable",
+      "bytes": 24439,
+      "sha256": "e0d5bd4632610dba74ae72d4e9c3448801ca3604be8d9d16b37a4a98b4be2091",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "hydrophilic-next-gen",
+      "bytes": 27361,
+      "sha256": "074a57d380b828ebc3ee2b25ab1cd38c12ba6f445e15a4b27f8d24faa7c7871d",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tubulin-inhibitor-payloads",
+      "bytes": 37814,
+      "sha256": "f7c7df4bf2361c65047a91bd07e36d94de025a61ba5e3c255d5c24365a628ec3",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "pbd-dimer-payloads",
+      "bytes": 23417,
+      "sha256": "6ffbfdcccf64b321e8a6f77646c363c211fc9482744bd345af5c34a489d2461c",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dna-cleaver-payloads",
+      "bytes": 24339,
+      "sha256": "1e328e3a950f855ef7786761e117f923dfd754f4069991e90406b042a238fcb1",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dna-alkylator-payloads",
+      "bytes": 24159,
+      "sha256": "a9922a09f2db89be9dc6024ef9f910aeb6abf89f5a444397f36d2a6543ef20a9",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "upifitamab-rilsodotin",
+      "bytes": 40146,
+      "sha256": "0def362b2f420134f50f3b08c8283c59d7752a296d0602b9aa2a9fb4f548bd93",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "payloads",
+      "bytes": 86452,
+      "sha256": "60de8baa13717812a7645c75e81ff1f45340da0619a305f22d0aa29be380109e",
+      "nestedAnchors": 0
+    }
+  ],
+  "integrationTypecheckExit": 0,
+  "temporaryDataOverlayRestoredByHash": true
+}

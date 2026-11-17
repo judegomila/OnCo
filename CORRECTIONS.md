@@ -259,6 +259,11 @@ The [assessment receipt](https://github.com/judegomila/OnCo/pull/375) separates 
 | 2026-11-08 | [Payload](/terms/payload/) | Defined every payload as a poison too toxic to give freely | Primary cargo/formulation evidence and FDA terminology | Distinguishes cargo, chemical species, delivery product and measured exposure; [draft #369](https://github.com/judegomila/OnCo/pull/369) |
 | 2026-11-08 | [HDP-101 source scope](/drugs/pamlectabart-tismanitin/) | The Chinese registry's structured maximumAge=18 conflicts with its narrative age-at-least-18 criterion | Direct API capture reconciled with semantic discovery | Discloses both source fields and leaves eligibility confirmation external; no corrected age is invented and the registry itself is not changed; [draft #369](https://github.com/judegomila/OnCo/pull/369) |
 
+### Payload comparison species and endpoints
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-09 | [Payload comparison](/payloads/) | Used a free-drug permeability flag as a bystander result, assigned family-wide efflux/loading values and required a cleavable linker universally | Named product labels, exact-species membrane/cell experiments and actual export checks | Reads sourced chemical and conjugate observations, keeps differing findings with their contexts and makes missing evidence explicit; [verification](research/scoped-evidence-schema-2026-11-08/chemical-observations-2026-11-09/README.md); contributed in [#376](https://github.com/judegomila/OnCo/pull/376) |
 
 Every factual correction to the OnCo corpus, newest first. Format: date · entity · what was wrong · how it was found · fix.
 
@@ -590,6 +595,12 @@ Exact fields, source identities and read-depth limits are retained in the [binde
 | 2026-11-08 | [Sample preanalytics](/technologies/preanalytics-sample-stabilisation/) | Combined named preservation products and a numerical fixation window in a general specimen explanation without keeping the downstream assay scope | Paired fixed/frozen studies, the NCI preanalytical-variables study and biospecimen best practices | Uses documented, assay-specific preparation and validation rather than a universal handling rule |
 | 2026-11-08 | [Proteomics and phosphoproteomics](/technologies/proteomics/) | Described protein and signalling measurements as direct drug-target information without separating abundance, modification and functional dependence | Protein-normalized phosphoproteomics experiments and multilaboratory targeted-assay validation | Distinguishes protein-derived signals, modification state, functional claims and clinical prediction; retains the normalization study's yeast setting |
 | 2026-11-08 | [Reverse-phase protein arrays](/terms/rppa/) | Called RPPA the only pan-cancer protein data at scale and presented a broad panel count as a platform definition | Original RPPA study and phospho-antibody characterization experiments | Removes the exclusive claim and fixed panel size; explains sample lysates, antibody specificity and controls |
+
+### Pathway product highlighting
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-08 | Pathway product highlighting | Diagnostic tests with target metadata appeared among products said to hit and block a pathway | Rendered RAS-MAPK review showed cobas BRAF/EGFR tests in the treatment selector; checked against the shared product classification | Restrict treatment highlighting to the existing medicine class; retain test records and their graph relationships |
 
 ## 2026-11-04
 

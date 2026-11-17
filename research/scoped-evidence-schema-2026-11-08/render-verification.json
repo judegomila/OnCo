@@ -1,0 +1,241 @@
+{
+  "rows": [
+    {
+      "label": "mobile",
+      "width": 393,
+      "height": 852,
+      "viewport": 393,
+      "docWidth": 389,
+      "summary": {
+        "x": 33,
+        "y": 230.765625,
+        "width": 312,
+        "height": 44,
+        "bottom": 274.765625
+      },
+      "source": {
+        "x": 33,
+        "y": 542.765625,
+        "width": 288.828125,
+        "height": 44,
+        "bottom": 586.765625
+      },
+      "panel": {
+        "x": 17,
+        "y": 217.765625,
+        "width": 344,
+        "height": 401,
+        "bottom": 618.765625
+      },
+      "list": {
+        "x": 33,
+        "y": 286.765625,
+        "width": 312,
+        "height": 320,
+        "bottom": 606.765625
+      },
+      "sourceHref": "https://doi.org/10.1073/pnas.90.23.10947",
+      "text": "Relationship evidence and context\nReported in a specified context: RAF (BRAF, CRAF) \u2192 MEK1/2\n\nThe study reported a Raf-1\u2013Mek1 complex and Mek1 activation associated with serine phosphorylation after coexpression with Raf-1.\n\nContext: Recombinant Raf-1 (CRAF) and Mek1 proteins produced in Sf9 insect cells; association and phosphorylation experiments.\n\nThis experiment concerns CRAF and MEK1 in a recombinant system. It does not establish the same behaviour for every RAF isoform or show patient benefit from a drug combination.\n\nHuang et al., PNAS 1993 (primary experiment)\n\nChecked 2026-11-08",
+      "sourceColor": "rgb(27, 31, 28)",
+      "mutedColor": "rgb(91, 101, 94)",
+      "background": "rgb(252, 251, 248)",
+      "keyboardClosed": true,
+      "keyboardOpened": true,
+      "contrast": {
+        "sourceOnCard": 16.11,
+        "mutedOnCard": 5.85
+      }
+    },
+    {
+      "label": "reflow",
+      "width": 320,
+      "height": 852,
+      "viewport": 320,
+      "docWidth": 359,
+      "summary": {
+        "x": 33,
+        "y": 170.765625,
+        "width": 239,
+        "height": 64,
+        "bottom": 234.765625
+      },
+      "source": {
+        "x": 33,
+        "y": 602.765625,
+        "width": 239,
+        "height": 44,
+        "bottom": 646.765625
+      },
+      "panel": {
+        "x": 17,
+        "y": 157.765625,
+        "width": 271,
+        "height": 521,
+        "bottom": 678.765625
+      },
+      "list": {
+        "x": 33,
+        "y": 246.765625,
+        "width": 239,
+        "height": 420,
+        "bottom": 666.765625
+      },
+      "sourceHref": "https://doi.org/10.1073/pnas.90.23.10947",
+      "text": "Relationship evidence and context\nReported in a specified context: RAF (BRAF, CRAF) \u2192 MEK1/2\n\nThe study reported a Raf-1\u2013Mek1 complex and Mek1 activation associated with serine phosphorylation after coexpression with Raf-1.\n\nContext: Recombinant Raf-1 (CRAF) and Mek1 proteins produced in Sf9 insect cells; association and phosphorylation experiments.\n\nThis experiment concerns CRAF and MEK1 in a recombinant system. It does not establish the same behaviour for every RAF isoform or show patient benefit from a drug combination.\n\nHuang et al., PNAS 1993 (primary experiment)\n\nChecked 2026-11-08",
+      "sourceColor": "rgb(27, 31, 28)",
+      "mutedColor": "rgb(91, 101, 94)",
+      "background": "rgb(252, 251, 248)",
+      "keyboardClosed": true,
+      "keyboardOpened": true,
+      "documentOverflow": [
+        {
+          "tag": "SPAN",
+          "class": "inline-block ",
+          "text": "3.4Growth-factor signalling: RTKs and RAS/RAF/MEK"
+        },
+        {
+          "tag": "A",
+          "class": "tab",
+          "text": "Key papers45"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "text": "Key papers"
+        },
+        {
+          "tag": "SPAN",
+          "class": "tab-count",
+          "text": "45"
+        },
+        {
+          "tag": "A",
+          "class": "tab",
+          "text": "Connected228"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "text": "Connected"
+        },
+        {
+          "tag": "SPAN",
+          "class": "tab-count",
+          "text": "228"
+        },
+        {
+          "tag": "g",
+          "class": "transition-opacity ",
+          "text": "RTK (EGFR, ALK, RET, MET) activates GRB2 / SOS1"
+        },
+        {
+          "tag": "path",
+          "class": "text-foreground/60",
+          "text": ""
+        },
+        {
+          "tag": "path",
+          "class": "cursor-help",
+          "text": ""
+        }
+      ],
+      "contrast": {
+        "sourceOnCard": 16.11,
+        "mutedOnCard": 5.85
+      }
+    },
+    {
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": 1440,
+      "docWidth": 1425,
+      "summary": {
+        "x": 113.5,
+        "y": 382.6875,
+        "width": 858,
+        "height": 44,
+        "bottom": 426.6875
+      },
+      "source": {
+        "x": 113.5,
+        "y": 554.6875,
+        "width": 288.828125,
+        "height": 44,
+        "bottom": 598.6875
+      },
+      "panel": {
+        "x": 97.5,
+        "y": 369.6875,
+        "width": 890,
+        "height": 261,
+        "bottom": 630.6875
+      },
+      "list": {
+        "x": 113.5,
+        "y": 438.6875,
+        "width": 858,
+        "height": 180,
+        "bottom": 618.6875
+      },
+      "sourceHref": "https://doi.org/10.1073/pnas.90.23.10947",
+      "text": "Relationship evidence and context\nReported in a specified context: RAF (BRAF, CRAF) \u2192 MEK1/2\n\nThe study reported a Raf-1\u2013Mek1 complex and Mek1 activation associated with serine phosphorylation after coexpression with Raf-1.\n\nContext: Recombinant Raf-1 (CRAF) and Mek1 proteins produced in Sf9 insect cells; association and phosphorylation experiments.\n\nThis experiment concerns CRAF and MEK1 in a recombinant system. It does not establish the same behaviour for every RAF isoform or show patient benefit from a drug combination.\n\nHuang et al., PNAS 1993 (primary experiment)\n\nChecked 2026-11-08",
+      "sourceColor": "rgb(27, 31, 28)",
+      "mutedColor": "rgb(91, 101, 94)",
+      "background": "rgb(252, 251, 248)",
+      "keyboardClosed": true,
+      "keyboardOpened": true,
+      "contrast": {
+        "sourceOnCard": 16.11,
+        "mutedOnCard": 5.85
+      }
+    },
+    {
+      "label": "wide",
+      "width": 1920,
+      "height": 1080,
+      "viewport": 1920,
+      "docWidth": 1905,
+      "summary": {
+        "x": 353.5,
+        "y": 422.6875,
+        "width": 858,
+        "height": 44,
+        "bottom": 466.6875
+      },
+      "source": {
+        "x": 353.5,
+        "y": 594.6875,
+        "width": 288.828125,
+        "height": 44,
+        "bottom": 638.6875
+      },
+      "panel": {
+        "x": 337.5,
+        "y": 409.6875,
+        "width": 890,
+        "height": 261,
+        "bottom": 670.6875
+      },
+      "list": {
+        "x": 353.5,
+        "y": 478.6875,
+        "width": 858,
+        "height": 180,
+        "bottom": 658.6875
+      },
+      "sourceHref": "https://doi.org/10.1073/pnas.90.23.10947",
+      "text": "Relationship evidence and context\nReported in a specified context: RAF (BRAF, CRAF) \u2192 MEK1/2\n\nThe study reported a Raf-1\u2013Mek1 complex and Mek1 activation associated with serine phosphorylation after coexpression with Raf-1.\n\nContext: Recombinant Raf-1 (CRAF) and Mek1 proteins produced in Sf9 insect cells; association and phosphorylation experiments.\n\nThis experiment concerns CRAF and MEK1 in a recombinant system. It does not establish the same behaviour for every RAF isoform or show patient benefit from a drug combination.\n\nHuang et al., PNAS 1993 (primary experiment)\n\nChecked 2026-11-08",
+      "sourceColor": "rgb(27, 31, 28)",
+      "mutedColor": "rgb(91, 101, 94)",
+      "background": "rgb(252, 251, 248)",
+      "keyboardClosed": true,
+      "keyboardOpened": true,
+      "contrast": {
+        "sourceOnCard": 16.11,
+        "mutedOnCard": 5.85
+      }
+    }
+  ],
+  "scope": "Actual webpack static export served on loopback; no deployment claimed"
+}

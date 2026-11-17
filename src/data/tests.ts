@@ -14,6 +14,7 @@
  */
 import type { CompanyInput, DrugInput, EntityInput, PaperInput, TechnologyInput, TermInput, TrialInput } from "@/lib/schema";
 import { TRIAL_OUTCOMES } from "./trial-outcomes";
+import { ASSAY_REGULATORY_CLAIMS } from "./assay-regulatory-claims";
 
 const asOf = "2026-09-10";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
@@ -88,8 +89,8 @@ const companionDiagnostics: DrugInput[] = [
     targets: ["pdl1"], drugs: ["durvalumab", "atezolizumab"], cancers: ["urothelial", "nsclc"], companies: ["roche-genentech"],
     technologies: ["companion-diagnostic", "histopathology-ihc"], terms: ["pd-l1-testing", "ihc"],
     links: [PMA("P160046")] }),
-  d({
-    asOf:"2026-11-09", id: "dako-pd-l1-22c3-pharmdx", name: "PD-L1 IHC 22C3 pharmDx", brand: "PD-L1 IHC 22C3 pharmDx", modality: "PD-L1 immunohistochemistry companion diagnostic assay", status: "approved",
+  d({ id: "dako-pd-l1-22c3-pharmdx", name: "PD-L1 IHC 22C3 pharmDx", brand: "PD-L1 IHC 22C3 pharmDx", modality: "PD-L1 immunohistochemistry companion diagnostic assay", status: "approved",
+    asOf: "2026-11-09", regulatoryClaims: ASSAY_REGULATORY_CLAIMS["dako-pd-l1-22c3-pharmdx"],
     mechanism: "Mouse monoclonal antibody 22C3 on the Dako Autostainer Link 48, reported as tumour proportion score (TPS) in lung cancer or combined positive score (CPS, tumour plus immune cells relative to tumour cells) in other cancers.",
     tldr: "PD-L1 IHC 22C3 pharmDx is an assay whose scoring and cutoff depend on the medicine, disease and regimen. Valid esophageal uses include both CPS 1 and CPS 10 under different pembrolizumab treatment conditions.",
     summary: "FDA lists multiple tissue- and treatment-specific intended uses for the 22C3 PD-L1 assay. TPS and CPS are different scores. Even within one cancer family, one generic cutoff loses important conditions.\n\nFor locally advanced or metastatic esophageal or GEJ carcinoma with a tumour epicenter 1 to 5 centimeters above the junction not amenable to surgical resection or definitive chemoradiation, the current U.S. KEYTRUDA label uses CPS at least 1 with platinum- and fluoropyrimidine-based chemotherapy. Its single-agent use after one or more prior systemic lines is restricted to squamous histology with CPS at least 10. The FDA diagnostic listing retains the esophageal/GEJ CPS 1 authorization P150013/S032 and the ESCC CPS 10 authorization P150013/S016. Both are valid scoped uses, not contradictory generic thresholds.\n\nOther tissue, medicine and regimen combinations have their own intended uses. A result described as positive without the score type, assay, disease and treatment context is incomplete.",

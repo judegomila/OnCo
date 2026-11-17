@@ -11,10 +11,12 @@ import { COUNTRY_TRIALS_PAGE, countryTrialRows, countryTrials, countryTrialsTabl
 import { recruitingIn } from "@/lib/trials-here";
 
 /**
- * The automatic country pages render from data alone. Three shapes: a small Pacific island whose incidence IARC
- * built from neighbouring countries (Samoa), the automatic page with the most trials (Estonia; Peru held this place
- * until its deep dive arrived), and a territory reported on its own (Guam). Each must state GLOBOCAN's figures and edition, cite IARC, and name what
- * OnCo does not hold, inside the markup budget the automatic pages share.
+ * The automatic country pages render from data alone. Three shapes: a territory reported on its own, whose incidence
+ * IARC built from neighbouring countries (Gaza Strip and West Bank), the automatic page with the most trials (Estonia;
+ * Peru held this place until its deep dive arrived), and a country whose estimate is derived from mortality with
+ * neighbours' ratios (Montenegro). Each must state GLOBOCAN's figures and edition, cite IARC, and name what OnCo does
+ * not hold, inside the markup budget the automatic pages share. The examples are places that country waves 14, 15 and
+ * 16 leave automatic: Samoa, Guam, Timor-Leste and the Maldives held these places before those waves wrote their deep dives.
  */
 vi.mock("next/font/google", () => ({ Geist: () => ({ variable: "font-geist-sans" }), Geist_Mono: () => ({ variable: "font-geist-mono" }) }));
 
@@ -25,7 +27,7 @@ const BUDGET = 120 * 1024;
 const fmt = (n: number | null | undefined) => (n ?? 0).toLocaleString("en-GB");
 
 describe("automatic country pages", () => {
-  for (const iso of ["ws", "ee", "gu"]) {
+  for (const iso of ["ps", "ee", "me"]) {
     it(`/countries/${iso}/ states GLOBOCAN's figures, the citation and the gaps`, async () => {
       const c = autoCountry(iso)!;
       const html = await render(iso);
@@ -41,8 +43,8 @@ describe("automatic country pages", () => {
     });
   }
 
-  it("says when IARC built the estimate from neighbouring countries (Samoa, method 5)", async () => {
-    const html = await render("ws");
+  it("says when IARC built the estimate from neighbouring countries (Gaza Strip and West Bank, method 5)", async () => {
+    const html = await render("ps");
     expect(html).toContain("Built partly from other countries");
     expect(html).toContain("neighbouring countries");
   });
@@ -64,9 +66,9 @@ describe("automatic country pages", () => {
   });
 
   it("names a trial gap rather than showing an empty table", async () => {
-    const html = await render("ws");
-    expect(autoCountry("ws")!.trials.length).toBe(0);
-    expect(html).toContain("No trial record in OnCo lists a site in Samoa");
+    const html = await render("ps");
+    expect(autoCountry("ps")!.trials.length).toBe(0);
+    expect(html).toContain("No trial record in OnCo lists a site in Gaza Strip and West Bank");
   });
 });
 

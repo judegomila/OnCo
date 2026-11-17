@@ -40,8 +40,9 @@ describe("country pages", () => {
   it("lets a deep dive win: no automatic page is generated for a code with its own folder", () => {
     const clash = params.filter((c) => deepDiveCodes().includes(c));
     expect(clash).toEqual([]);
-    // Peru had an automatic page until its deep dive arrived; Samoa has none.
-    expect(params).toContain("WS");
+    // Peru and Timor-Leste had automatic pages until their deep dives arrived; Gaza Strip and West Bank has none.
+    expect(params).toContain("PS");
+    expect(params).not.toContain("TL");
     expect(params).not.toContain("PE");
     expect(params).not.toContain("FR");
     expect(params).not.toContain("AR");
@@ -86,9 +87,9 @@ describe("country pages", () => {
   });
 
   it("flags estimates IARC built from neighbouring countries", () => {
-    const ws = autoCountry("WS")!;
-    expect(ws.methodInc.code).toBe("5");
-    expect(ws.methodInc.neighbours).toBe(true);
+    const ps = autoCountry("PS")!;
+    expect(ps.methodInc.code).toBe("5");
+    expect(ps.methodInc.neighbours).toBe(true);
     expect(autoCountry("PE")!.methodInc.neighbours).toBe(false);
   });
 });

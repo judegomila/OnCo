@@ -26,11 +26,11 @@ export const JO_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Jordan",
   description:
-    "Cancer in Jordan: IARC's estimate of 9,975 new cancers and 4,762 deaths in 2024, a population-based registry that WHO rated high quality, the King Hussein Cancer Center with six linear accelerators, breast screening from age 40 but no cervical screening programme in WHO's 2020 profile, no HPV vaccination data at WHO, and 13 trials in OnCo's records with a site in Jordan.",
+    "Cancer in Jordan: IARC's estimate of 9,975 new cancers and 4,762 deaths in 2024, a population-based registry that WHO rated high quality, the King Hussein Cancer Center with six linear accelerators, breast screening from age 40 but no cervical screening programme in WHO's 2020 profile, no HPV vaccination data at WHO, and 12 trials in OnCo's records with a site in Jordan.",
   lede:
     "Breast cancer is the commonest cancer in Jordan, and lung cancer causes the most deaths. WHO's 2020 profile recorded a high-quality population-based registry and a breast screening programme, but no cervical screening programme and no national cancer plan in effect.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Jordan is 9,975 new cancers and 4,762 deaths, an age-standardised incidence of 111.7 per 100,000 (117.3 in men, 111.3 in women). IARC's fact sheet gives the country-specific source for incidence as \"no data\", with national mortality estimates applied to modelled mortality-to-incidence ratios, and mortality from WHO's national data projected to 2024. That sits oddly beside WHO's 2020 country profile, which recorded a high-quality population-based registry for Jordan in 2019; OnCo did not read the Jordan Cancer Registry's own reports, so it cannot say how its counts compare (see the gaps).",
+    "IARC's GLOBOCAN 2024 figure for Jordan is 9,975 new cancers and 4,762 deaths, an age-standardised incidence of 111.7 per 100,000 (117.3 in men, 111.3 in women). IARC's fact sheet gives the country-specific source for incidence as \"No data\", with national mortality estimates applied to modelled mortality-to-incidence ratios, and mortality from WHO's national data projected to 2024. That sits oddly beside WHO's 2020 country profile, which recorded a high-quality population-based registry for Jordan in 2019; OnCo did not read the Jordan Cancer Registry's own reports, so it cannot say how its counts compare (see the gaps).",
   sections: [
     {
       id: "profile",
@@ -54,9 +54,9 @@ export const JO_DIVE: CountryDive = {
           id: "system-2020",
           title: "What WHO recorded in 2020: a high-quality registry, no national cancer plan yet",
           plain:
-            "WHO's 2020 country profile, from Jordan's answers to WHO surveys, recorded a high-quality population-based cancer registry, a national cancer control plan still under development, cancer management guidelines, pathology services generally available, and palliative care generally not available in the community.",
+            "WHO's 2020 country profile recorded a high-quality population-based cancer registry, a national cancer control plan still under development, cancer management guidelines, pathology services generally available, and palliative care generally not available in the community.",
           detail:
-            "The profile's health system page lists, for 2019: a population-based registry rated high quality; the quality of mortality registration for 2007 to 2016 rated low; an integrated NCD plan not in effect; a national cancer control plan under development; cancer management guidelines in place; a defined referral system for childhood cancer; and community or home-based palliative care generally not available. A footnote on the profile says the mortality estimates for the country have a high degree of uncertainty because they are not based on any national NCD mortality data. These are 2019 and 2020 answers and may have changed since.",
+            "The profile's health system page lists, for 2019: a population-based registry rated high quality; the quality of mortality registration for 2007 to 2016 rated low; an integrated NCD plan not in effect; a national cancer control plan under development; cancer management guidelines in place; a defined referral system for childhood cancer; and community or home-based palliative care generally not available. A footnote on the profile says the mortality estimates for the country have a high degree of uncertainty because they are not based on any national NCD mortality data. These are entries for 2019 and 2020 and may have changed since.",
           links: [{ label: "WHO: Cancer Country Profile 2020, Jordan (PDF)", url: WHO_PROFILE }],
         },
       ],
@@ -110,9 +110,9 @@ export const JO_DIVE: CountryDive = {
           id: "jfda",
           title: "OnCo could not reach the Jordan Food and Drug Administration",
           plain:
-            "Medicines and clinical trials in Jordan are overseen by the Jordan Food and Drug Administration. Its website did not answer when OnCo tried to read it, so this page states nothing about its approval routes or timelines.",
+            "Medicines and clinical trials in Jordan are overseen by the Jordan Food and Drug Administration. Its website did not answer when OnCo tried to read it, so this page states nothing about its approval routes or timelines, and its role is given here without a source OnCo could read.",
           detail:
-            "jfda.jo returned no response on 11 November 2026. OnCo will add the regulator's registration and trial authorisation rules when it can read them from the source. Thirteen trials in OnCo's records do list sites in Jordan (see research below), so trials are authorised there.",
+            "jfda.jo returned no response on 11 November 2026 or on 16 November 2026. OnCo will add the regulator's registration and trial authorisation rules when it can read them from the source. Twelve trials in OnCo's records do list sites in Jordan (see research below), so cancer trials do run there. The site still did not answer on 16 November 2026, so the statement that it oversees medicines and trials could not be checked against the regulator's own pages.",
           links: [{ label: "Jordan Food and Drug Administration", url: "https://www.jfda.jo/" }],
         },
       ],
@@ -127,13 +127,14 @@ export const JO_DIVE: CountryDive = {
           id: "screening-2020",
           title: "Breast screening from 40, no cervical screening programme, no HPV vaccination data",
           plain:
-            "WHO's 2020 profile recorded a breast cancer screening programme starting at age 40 and early detection guidelines for one cancer, but no cervical cancer screening programme. WHO's immunisation database holds no HPV vaccination coverage figures for Jordan.",
+            "WHO's 2020 profile recorded a breast cancer screening programme starting at age 40 and an early detection programme or guidelines for one cancer, but no cervical cancer screening programme. WHO's immunisation database holds no HPV vaccination coverage figures for Jordan.",
           detail:
-            "The profile lists, for 2019, a breast cancer screening programme with a starting age of 40, early detection guidelines for one of the four cancers it asks about (breast, cervix, colon, childhood), and no cervical screening programme; HPV vaccination coverage is marked not available for 2018. A query of WHO's immunisation data API for Jordan's HPV programme coverage on 11 November 2026 returned no rows. The Jordan Breast Cancer Program, run by the King Hussein Cancer Foundation, had a holding page saying its website was under construction.",
+            "The profile lists, for 2019, a breast cancer screening programme with a starting age of 40, an early detection programme or guidelines for one of the four cancers it asks about (breast, cervix, colon, childhood), and no cervical screening programme; HPV vaccination programme coverage is marked \"n/a\" for 2018. A query of WHO's immunisation data API for Jordan's HPV programme coverage returned no rows on 11 November and again on 16 November 2026; the same database holds country-reported HPV rows for Jordan for 2018 to 2025, every one with an empty coverage figure. The Jordan Breast Cancer Program, which the King Hussein Cancer Center's accreditations page describes as led by the foundation and the centre, still had a holding page on 16 November 2026 saying its website was under construction.",
           links: [
             { label: "WHO: Cancer Country Profile 2020, Jordan (PDF)", url: WHO_PROFILE },
             { label: "WHO: HPV vaccination coverage query for Jordan (data API, no rows)", url: WHO_HPV_API },
             { label: "Jordan Breast Cancer Program (holding page)", url: JBCP },
+            { label: "KHCC: accreditations", url: KHCC_ACCRED },
           ],
         },
       ],
@@ -166,11 +167,11 @@ export const JO_DIVE: CountryDive = {
       cards: [
         {
           id: "trial-count",
-          title: "13 trials in OnCo's records list a site in Jordan, 11 of them phase 3",
+          title: "12 trials in OnCo's records list a site in Jordan, 11 of them phase 3",
           plain:
-            "Thirteen trials in OnCo's records include Jordan among their countries, 11 of them phase 3. Two were recruiting when the registry was last read; most were active but no longer recruiting.",
+            "Twelve trials in OnCo's records include Jordan among their countries, 11 of them phase 3. One was recruiting when the registry was last read; most were active but no longer recruiting.",
           detail:
-            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 11 November 2026: 13 trials list Jordan, 11 phase 3, 1 phase 2 and 1 phase 2/3. ClinicalTrials.gov lists 2 as recruiting, 10 as active and not recruiting and 1 as completed. Novartis and Hoffmann-La Roche each lead 3. They include EMPOWER-Lung 1 (cemiplimab in non-small cell lung cancer). OnCo holds a selection of trials, not the whole registry.",
+            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 16 November 2026: 12 trials list Jordan, 11 phase 3 and 1 phase 2. When OnCo read the registry on 7 October 2026 it listed 1 as recruiting, 10 as active and not recruiting and 1 as completed. An earlier count of 13 included a trial of a bladder medicine in children that was not a cancer trial and has been removed from OnCo's records. Novartis and Hoffmann-La Roche each lead 3. They include EMPOWER-Lung 1 (cemiplimab in non-small cell lung cancer). OnCo holds a selection of trials, not the whole registry.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with sites in Jordan", url: CTGOV },
             { label: "EMPOWER-Lung 1 (NCT03088540)", url: "https://clinicaltrials.gov/study/NCT03088540" },
@@ -186,7 +187,7 @@ export const JO_DIVE: CountryDive = {
       plain:
         "OnCo did not read the Jordan Cancer Registry's reports, the Ministry of Health's rules for covering cancer treatment, the King Hussein Cancer Center's insurance terms, the regulator's rules, or sources on cancer care for refugees in Jordan. Its web searches for this wave ran out before these were found.",
       detail:
-        "The Jordan Food and Drug Administration's site did not respond on 11 November 2026, and the Jordan Breast Cancer Program's site was under construction. A future pass should read the Jordan Cancer Registry's latest annual report, the Ministry of Health's and the Royal Court's arrangements for paying for cancer care, KHCC's cancer insurance terms, UNHCR's and WHO's sources on refugees' access to cancer care, and IAEA figures for radiotherapy outside KHCC. None of these is described here from memory.",
+        "The Jordan Food and Drug Administration's site did not respond on 11 November or on 16 November 2026, and the Jordan Breast Cancer Program's site was under construction on both dates. A future pass should read the Jordan Cancer Registry's latest annual report, the Ministry of Health's and the Royal Court's arrangements for paying for cancer care, KHCC's cancer insurance terms, UNHCR's and WHO's sources on refugees' access to cancer care, and IAEA figures for radiotherapy outside KHCC. None of these is described here from memory.",
       links: [
         { label: "Jordan Food and Drug Administration", url: "https://www.jfda.jo/" },
         { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: "https://dirac.iaea.org/" },

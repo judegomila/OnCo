@@ -108,7 +108,7 @@ export const MD_DIVE: CountryDive = {
           plain:
             "Medicines in Moldova are regulated by the Agenția Medicamentului și Dispozitivelor Medicale (AMDM), the Medicines and Medical Devices Agency, in Chișinău. OnCo read only its home page for this page, so it states nothing about approval routes or timelines.",
           detail:
-            "AMDM's home page (read 11 November 2026) carries notices on its meeting schedule, pharmaceutical market statistics and the 2026 #MedSafetyWeek campaign on reporting side effects. Its rules for registering medicines and authorising clinical trials were not read for this page. Twenty-two trials in OnCo's records list a site in Moldova (see research below), so cancer trials are authorised there.",
+            "AMDM's home page (read 11 November 2026) carries notices on its meeting schedule, pharmaceutical market statistics and the 2026 #MedSafetyWeek campaign on reporting side effects. The home page describes the agency as the authority that regulates and supervises medicines, pharmaceutical activity and medical devices, and its menu has a section on clinical trials. Its rules for registering medicines and authorising clinical trials were not read for this page. Twenty-two trials in OnCo's records list a site in Moldova (see research below).",
           links: [{ label: "Agenția Medicamentului și Dispozitivelor Medicale (AMDM)", url: AMDM }],
         },
       ],
@@ -123,7 +123,7 @@ export const MD_DIVE: CountryDive = {
           id: "hpv",
           title: "HPV vaccination at 43% of girls, short of a 60% target",
           plain:
-            "WHO's data give 43% of girls a first dose of HPV vaccine in 2025, down from 52% in 2023 and 2024. The Ministry of Health's 2024 action plan had set a target of more than 60% for 2025, from 39.9% in 2021, and its 2026 note lists falling HPV vaccination among the causes of Moldova's cancer burden.",
+            "WHO's data give 43% of girls a first dose of HPV vaccine in 2025, down from 52% in 2023 and 2024. The Ministry of Health's draft action plan for 2024 and 2025 set a target of more than 60% of children vaccinated in 2025, from 39.9% in 2021, and its 2026 note lists falling HPV vaccination among the causes of Moldova's cancer burden.",
           detail:
             "WHO's immunisation data give HPV programme coverage among females of 52% (first dose) and 42% (last dose) in 2023, 52% and 42% in 2024, and 43% and 43% in 2025; the series has non-zero coverage for Moldova from 2018. The draft action plan for 2024 and 2025 sets the share of children vaccinated with HPV vaccine at 39.9% in 2021 and a target above 60% in 2025, citing the National Immunisation Programme 2023 to 2027 approved by Government Decision 211/2023. WHO's Cancer Country Profile 2020 recorded cervical screening by Pap smear on an opportunistic basis, not by invitation, and a breast screening programme. The 2024 action plan includes a new standard for the early detection of breast cancer, updated standards for cervical and colorectal screening, a cervical screening register used by all providers, and a feasibility study on moving to HPV testing.",
           links: [
@@ -145,7 +145,7 @@ export const MD_DIVE: CountryDive = {
           plain:
             "Moldova's next cancer programme, for 2026 to 2030, is a task in its national programme for joining the European Union and is aligned with Europe's Beating Cancer Plan. It was drafted by the Ministry of Health and the Oncological Institute after review missions by WHO, IARC, the IAEA and St. Jude Children's Research Hospital.",
           detail:
-            "The explanatory note says the draft rests on action 64 of annex A, cluster 2, chapter 28 of the National Programme for Moldova's Accession to the European Union for 2025 to 2029, approved by Government Decision 306/2025, and follows the programme for 2016 to 2025 approved by Government Decision 1291/2016. It drew on imPACT missions held from 10 to 14 November 2025 and 23 to 27 January 2026 with experts from WHO, IARC, the IAEA and St. Jude. New in this programme are an objective on governance, a sub-objective on childhood cancer, and a National Cancer Registry run to IARC and European Network of Cancer Registries standards. The draft was validated by the Council for the Coordination of Sustainable Development on 14 May 2026. OnCo has not confirmed whether the government has adopted it.",
+            "The explanatory note says the draft rests on action 64 of annex A, cluster 2, chapter 28 of the National Programme for Moldova's Accession to the European Union for 2025 to 2029, approved by Government Decision 306/2025, and follows the programme for 2016 to 2025 approved by Government Decision 1291/2016. It drew on imPACT missions held from 10 to 14 November 2025 and 23 to 27 January 2026 with experts from WHO, IARC, the IAEA and St. Jude. The note names as new an objective on governance and a sub-objective on childhood cancer, and lists among the expected results a National Cancer Registry working to IARC and European Network of Cancer Registries standards; the 2024 action plan already had an objective on running the registry to IARC recommendations. The draft was validated by the Council for the Coordination of Sustainable Development on 14 May 2026. OnCo has not confirmed whether the government has adopted it.",
           links: [
             { label: "Ministry of Health: explanatory note to the draft programme 2026 to 2030 (PDF, in Romanian)", url: NOTE_2026 },
             { label: "Public consultation on the draft programme 2026 to 2030 (particip.gov.md)", url: CONSULT_2026 },
@@ -176,11 +176,11 @@ export const MD_DIVE: CountryDive = {
       id: "gap-sources",
       title: "Sources not read for this page",
       plain:
-        "OnCo could not reach the Oncological Institute's or the National Health Insurance Company's websites, did not read a National Cancer Registry report, and found no source saying whether Moldova's cancer counts include the Transnistrian region. It did not read radiotherapy figures.",
+        "OnCo did not read the Oncological Institute's website for this page and could not reach the National Health Insurance Company's. It did not read a National Cancer Registry report, found no source saying whether Moldova's cancer counts include the Transnistrian region, and did not read radiotherapy figures.",
       detail:
-        "oncology.md and cnam.gov.md did not respond on 11 November 2026. The registry figures here are those the Ministry of Health quotes in its 2026 explanatory note. Radiotherapy capacity is published in IAEA's DIRAC database, which needs an account for most queries. OnCo did not confirm whether the government adopted the 2026 to 2030 programme after its consultation.",
+        "The two addresses tried on 11 November 2026, oncology.md and cnam.gov.md, did not respond, and neither resolved on 16 November 2026. The Oncological Institute's own website is at onco.md, which answered on 16 November 2026; OnCo has not yet read it for figures. The registry figures here are those the Ministry of Health quotes in its 2026 explanatory note. IAEA's DIRAC database lists radiotherapy centres and machines by country; OnCo has not read Moldova's entry. OnCo did not confirm whether the government adopted the 2026 to 2030 programme after its consultation.",
       links: [
-        { label: "Compania Națională de Asigurări în Medicină", url: "https://cnam.gov.md/" },
+        { label: "IMSP Institutul Oncologic (in Romanian)", url: "http://onco.md/" },
         { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: "https://dirac.iaea.org/" },
       ],
     },

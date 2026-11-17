@@ -79,7 +79,7 @@ export const SV_DIVE: CountryDive = {
           plain:
             "El Salvador spent about 501 US dollars a person on health in 2023, and households paid 32.5% of it out of their own pockets, according to WHO's health expenditure figures. OnCo did not read what the Ministry of Health or the Instituto Salvadoreño del Seguro Social covers for cancer.",
           detail:
-            "The World Bank's series, from WHO's Global Health Expenditure Database, gives out-of-pocket spending of 30.5% of current health spending in 2021, 31.1% in 2022 and 32.5% in 2023, and current health spending per person of USD 470, 500 and 501. These figures cover all health care. The home pages of the Ministry of Health and the social security institute, read on 11 November 2026, carried nothing on cancer services.",
+            "The World Bank's series, from WHO's Global Health Expenditure Database, gives out-of-pocket spending of 30.5% of current health spending in 2021, 31.1% in 2022 and 32.5% in 2023, and current health spending per person of USD 470, 500 and 501. These figures cover all health care. The social security institute's home page, read again on 16 November 2026, carried no text on cancer services. The Ministry of Health's home page could not be re-read on 16 November 2026, because it answered with an automated browser check, so the reading of it on 11 November 2026 is not re-verified.",
           links: [
             { label: "World Bank: out-of-pocket expenditure, % of current health expenditure, El Salvador", url: WB_OOP },
             { label: "World Bank: current health expenditure per capita, El Salvador", url: WB_CHE },
@@ -166,9 +166,9 @@ export const SV_DIVE: CountryDive = {
       id: "gap-sources",
       title: "Sources not found or not read for this page",
       plain:
-        "OnCo did not read El Salvador's cancer law, its national cancer registry or plan, the Ministry of Health's or social security institute's cancer services, the medicines regulator's rules, or WHO's 2020 cancer profile for El Salvador. It describes none of these from memory.",
+        "OnCo did not read any cancer law, national cancer registry report or cancer plan that El Salvador may have, the Ministry of Health's or social security institute's cancer services, the medicines regulator's rules, or WHO's 2020 cancer profile for El Salvador. It describes none of these from memory, and it does not know from its own reading whether each exists.",
       detail:
-        "OnCo's web searches ran out during this wave. WHO's 2020 profile was not at cdn.who.int/media/docs/default-source/country-profiles/cancer/slv-2020.pdf, the address that served the other countries' profiles. The home pages of salud.gob.sv and isss.gob.sv were read and carried nothing on cancer. Radiotherapy capacity is published in IAEA's DIRAC database, which needs an account for most queries.",
+        "OnCo's web searches ran out during this wave. WHO's 2020 profile was not at cdn.who.int/media/docs/default-source/country-profiles/cancer/slv-2020.pdf, the address that served the other countries' profiles. The home page of isss.gob.sv, read again on 16 November 2026, carried no text on cancer services. The home page of salud.gob.sv could not be re-read on 16 November 2026, because it answered with an automated browser check. WHO's 2020 profile was still not at that address on the same day. IAEA's DIRAC database publishes radiotherapy capacity, and its public table of countries, read on 16 November 2026, lists five radiotherapy centres in El Salvador; OnCo has not read each centre's entry for this page.",
       links: [
         { label: "Ministerio de Salud de El Salvador", url: MINSAL },
         { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: "https://dirac.iaea.org/" },

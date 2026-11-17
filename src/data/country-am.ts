@@ -27,7 +27,7 @@ export const AM_DIVE: CountryDive = {
   lede:
     "Breast and lung cancer are the commonest cancers in Armenia, and lung cancer causes the most deaths, nearly a quarter of them. Households paid about 80% of the country's health spending out of their own pockets in 2023, the highest share of the ten countries OnCo added in this wave.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Armenia is 10,718 new cancers and 5,468 deaths, an age-standardised incidence of 215.8 per 100,000 (260.1 in men, 193.4 in women). IARC's fact sheet gives the country-specific source for incidence as \"no data\", with national mortality estimates applied to modelled mortality-to-incidence ratios, and mortality from WHO's national data projected to 2024. So IARC worked backwards from Armenia's recorded deaths. OnCo did not find or read Armenia's own cancer statistics for this page; see the gaps.",
+    "IARC's GLOBOCAN 2024 figure for Armenia is 10,718 new cancers and 5,468 deaths, an age-standardised incidence of 215.8 per 100,000 (260.1 in men, 193.4 in women). IARC's fact sheet gives the country-specific source for incidence as \"No data\", with national mortality estimates applied to modelled mortality-to-incidence ratios, and mortality from WHO's national data, with trends in national rates projected to 2024. So the incidence figure is modelled from mortality estimates, not counted from registered cases. OnCo did not find or read Armenia's own cancer statistics for this page; see the gaps.",
   sections: [
     {
       id: "profile",
@@ -167,10 +167,10 @@ export const AM_DIVE: CountryDive = {
       plain:
         "OnCo did not read Armenia's national cancer statistics or registry, the Ministry of Health's cancer programmes or screening rules, the state programmes that pay for cancer treatment, the medicines regulator's rules, or WHO's 2020 cancer profile for Armenia. It describes none of these from memory.",
       detail:
-        "OnCo's web searches ran out during this wave. WHO's 2020 profile was not at cdn.who.int/media/docs/default-source/country-profiles/cancer/arm-2020.pdf, the address that served the other countries' profiles. The Ministry of Health's site (moh.am) returned a page that needs a browser to render. Radiotherapy capacity is published in IAEA's DIRAC database, which needs an account for most queries.",
+        "OnCo's web searches ran out during this wave. WHO's 2020 profile was not at cdn.who.int/media/docs/default-source/country-profiles/cancer/arm-2020.pdf, the address that served the other countries' profiles. The Ministry of Health's site (moh.am) returned a page that needs a browser to render. Radiotherapy capacity is published in IAEA's DIRAC database. Its public country table, read on 16 November 2026, lists three radiotherapy centres in Armenia; OnCo has not read the equipment detail behind that count.",
       links: [
         { label: "Ministry of Health of Armenia", url: "https://www.moh.am/" },
-        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries table", url: "https://dirac.iaea.org/Query/Countries" },
       ],
     },
   ],

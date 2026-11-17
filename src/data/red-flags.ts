@@ -25,6 +25,12 @@ export type RedFlag = {
   threshold: string;
   action: RedFlagAction;
   source: { label: string; url: string };
+  /**
+   * Care protocols (records of kind `protocol`) that manage what this line warns of, so the protocol's page can show
+   * the line and a red card reaches the protocol. Only where the protocol's own population covers this treatment:
+   * a blistering rash is not linked to the skin-care protocol, which puts severe reactions outside its scope.
+   */
+  protocols?: string[];
 };
 
 export type RedFlagSet = {
@@ -138,11 +144,11 @@ export const GENERAL_RED_FLAGS: RedFlagSet = {
   id: "general",
   label: "Anyone on cancer treatment",
   flags: [
-    { symptom: "Fever or feeling unwell", threshold: "Temperature of 38 C or higher, or shivering, or feeling unwell with signs of infection, at any time during treatment that can lower white cells.", action: "call-now", source: NICE_CG151 },
+    { symptom: "Fever or feeling unwell", threshold: "Temperature of 38 C or higher, or shivering, or feeling unwell with signs of infection, at any time during treatment that can lower white cells.", action: "call-now", source: NICE_CG151, protocols: ["febrile-neutropenia-first-hour", "acute-oncology-telephone-triage"] },
     { symptom: "Signs of sepsis", threshold: "Breathing very fast, confusion or slurred speech, blue, pale or blotchy skin, a very high or very low temperature or shivering, or a rash that does not fade when you press it.", action: "emergency", source: NHS_SEPSIS },
-    { symptom: "Breathlessness", threshold: "Shortness of breath at rest, or any chest pain or tightness: the triage tool sends both straight to 999.", action: "emergency", source: UKONS },
-    { symptom: "Uncontrolled vomiting or diarrhoea", threshold: "Six or more episodes of vomiting in 24 hours, or an increase of seven or more bowel movements a day over your pre-treatment normal.", action: "call-now", source: UKONS },
-    { symptom: "Bleeding", threshold: "Bleeding that does not stop by itself, heavy or continuous bleeding, or bruising in several places or one large area.", action: "emergency", source: UKONS },
+    { symptom: "Breathlessness", threshold: "Shortness of breath at rest, or any chest pain or tightness: the triage tool sends both straight to 999.", action: "emergency", source: UKONS, protocols: ["acute-oncology-telephone-triage"] },
+    { symptom: "Uncontrolled vomiting or diarrhoea", threshold: "Six or more episodes of vomiting in 24 hours, or an increase of seven or more bowel movements a day over your pre-treatment normal.", action: "call-now", source: UKONS, protocols: ["treatment-induced-diarrhoea-grading-and-management"] },
+    { symptom: "Bleeding", threshold: "Bleeding that does not stop by itself, heavy or continuous bleeding, or bruising in several places or one large area.", action: "emergency", source: UKONS, protocols: ["bleeding-precautions-when-platelets-are-low"] },
     { symptom: "Confusion or drowsiness", threshold: "Severe confusion, an altered level of consciousness, or being difficult to rouse.", action: "emergency", source: UKONS },
     { symptom: "Rash that blisters", threshold: "A rash over more than 30 percent of the body, or blistering, ulceration, weeping skin, spontaneous bleeding or severe pain in the skin.", action: "emergency", source: UKONS },
   ],
@@ -156,14 +162,14 @@ export const redFlagSets: RedFlagSet[] = [
     drugIds: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "cemiplimab", "dostarlimab", "tremelimumab", "relatlimab-nivolumab", "tislelizumab", "toripalimab", "avelumab", "retifanlimab"],
     window: "Immune-related reactions can start at any time during treatment and for months after the last dose; carry the alert card.",
     flags: [
-      { symptom: "Diarrhoea or colitis", threshold: "Four or more stools a day above your usual, or abdominal pain, or mucus or blood in the stool (grade 2). Seven or more stools a day or severe abdominal pain is grade 3.", action: "call-now", source: ASCO_IRAE },
-      { symptom: "Pneumonitis", threshold: "Any new or worsening cough, breathlessness or chest pain. Breathless at rest or needing oxygen is grade 3 to 4.", action: "call-now", source: ASCO_IRAE },
-      { symptom: "Hepatitis", threshold: "Yellow skin or eyes, dark urine, pain under the right ribs, or nausea with tiredness; blood tests showing ALT or AST above 3 times normal.", action: "call-today", source: ASCO_IRAE },
-      { symptom: "Hypophysitis or adrenal crisis", threshold: "Persistent headache with extreme tiredness, nausea, dizziness on standing or low blood pressure. Vomiting, severe weakness or collapse is adrenal crisis.", action: "emergency", source: ASCO_IRAE },
-      { symptom: "Myocarditis", threshold: "Chest pain, palpitations, breathlessness or leg swelling, especially in the first weeks; ASCO treats any suspected myocarditis as an emergency and holds treatment permanently after a confirmed case of grade 2 or higher.", action: "emergency", source: ASCO_IRAE },
-      { symptom: "New diabetes", threshold: "Excessive thirst, passing lots of urine, or blurred vision; vomiting, abdominal pain or fast deep breathing suggests ketoacidosis.", action: "emergency", source: ASCO_IRAE },
-      { symptom: "Neurological symptoms", threshold: "Weakness, numbness, drooping eyelids, double vision, difficulty swallowing or severe headache (possible myasthenia, Guillain-Barre or encephalitis).", action: "emergency", source: ASCO_IRAE },
-      { symptom: "Skin reaction", threshold: "Rash covering more than 30 percent of the body, blisters, or sores in the mouth or eyes.", action: "call-now", source: ASCO_IRAE },
+      { symptom: "Diarrhoea or colitis", threshold: "Four or more stools a day above your usual, or abdominal pain, or mucus or blood in the stool (grade 2). Seven or more stools a day or severe abdominal pain is grade 3.", action: "call-now", source: ASCO_IRAE, protocols: ["irae-colitis"] },
+      { symptom: "Pneumonitis", threshold: "Any new or worsening cough, breathlessness or chest pain. Breathless at rest or needing oxygen is grade 3 to 4.", action: "call-now", source: ASCO_IRAE, protocols: ["irae-pneumonitis"] },
+      { symptom: "Hepatitis", threshold: "Yellow skin or eyes, dark urine, pain under the right ribs, or nausea with tiredness; blood tests showing ALT or AST above 3 times normal.", action: "call-today", source: ASCO_IRAE, protocols: ["irae-hepatitis"] },
+      { symptom: "Hypophysitis or adrenal crisis", threshold: "Persistent headache with extreme tiredness, nausea, dizziness on standing or low blood pressure. Vomiting, severe weakness or collapse is adrenal crisis.", action: "emergency", source: ASCO_IRAE, protocols: ["irae-hypophysitis-adrenal"] },
+      { symptom: "Myocarditis", threshold: "Chest pain, palpitations, breathlessness or leg swelling, especially in the first weeks; ASCO treats any suspected myocarditis as an emergency and holds treatment permanently after a confirmed case of grade 2 or higher.", action: "emergency", source: ASCO_IRAE, protocols: ["irae-myocarditis"] },
+      { symptom: "New diabetes", threshold: "Excessive thirst, passing lots of urine, or blurred vision; vomiting, abdominal pain or fast deep breathing suggests ketoacidosis.", action: "emergency", source: ASCO_IRAE, protocols: ["irae-diabetes"] },
+      { symptom: "Neurological symptoms", threshold: "Weakness, numbness, drooping eyelids, double vision, difficulty swallowing or severe headache (possible myasthenia, Guillain-Barre or encephalitis).", action: "emergency", source: ASCO_IRAE, protocols: ["irae-neurological"] },
+      { symptom: "Skin reaction", threshold: "Rash covering more than 30 percent of the body, blisters, or sores in the mouth or eyes.", action: "call-now", source: ASCO_IRAE, protocols: ["irae-skin"] },
     ],
   },
   {
@@ -173,7 +179,7 @@ export const redFlagSets: RedFlagSet[] = [
     window: "Interstitial lung disease can occur at any time; the Enhertu label carries a boxed warning and says to advise patients to report symptoms immediately.",
     flags: [
       { symptom: "Interstitial lung disease or pneumonitis", threshold: "Any new or worsening cough, breathlessness or fever. The label says to interrupt treatment for any suspected ILD and to permanently discontinue for grade 2 or higher.", action: "call-now", source: label("Enhertu") },
-      { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher (the label: severe neutropenia including febrile neutropenia can occur; monitor counts).", action: "call-now", source: label("Enhertu") },
+      { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher (the label: severe neutropenia including febrile neutropenia can occur; monitor counts).", action: "call-now", source: label("Enhertu"), protocols: ["febrile-neutropenia-first-hour"] },
       { symptom: "Heart failure", threshold: "New breathlessness on exertion, swollen ankles, or waking breathless (left ventricular dysfunction is a labelled warning).", action: "call-today", source: label("Enhertu") },
       { symptom: "Eye symptoms (datopotamab)", threshold: "Dry eye, blurred vision, eye pain or light sensitivity; the Datroway label lists ocular adverse reactions including keratitis and requires eye examinations.", action: "call-today", source: label("Datroway") },
     ],
@@ -183,7 +189,7 @@ export const redFlagSets: RedFlagSet[] = [
     label: "Other antibody-drug conjugates",
     modalityRe: "^adc|bispecific adc",
     flags: [
-      { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher, or feeling shivery and unwell even without a fever. Antibody-drug conjugates suppress the bone marrow, and several carry a boxed warning for severe neutropenia.", action: "call-now", source: NICE_CG151 },
+      { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher, or feeling shivery and unwell even without a fever. Antibody-drug conjugates suppress the bone marrow, and several carry a boxed warning for severe neutropenia.", action: "call-now", source: NICE_CG151, protocols: ["febrile-neutropenia-first-hour"] },
     ],
   },
   // Split out of the class set on 29 September 2026. The class card named enfortumab's and sacituzumab's boxed
@@ -196,8 +202,8 @@ export const redFlagSets: RedFlagSet[] = [
     label: "Sacituzumab govitecan",
     drugIds: ["sacituzumab-govitecan"],
     flags: [
-      { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher. Sacituzumab govitecan carries a boxed warning for severe or life-threatening neutropenia.", action: "call-now", source: label("Trodelvy") },
-      { symptom: "Severe diarrhoea", threshold: "Diarrhoea not controlled by loperamide, or with fever or dehydration. Sacituzumab govitecan carries a boxed warning for severe diarrhoea.", action: "call-now", source: label("Trodelvy") },
+      { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher. Sacituzumab govitecan carries a boxed warning for severe or life-threatening neutropenia.", action: "call-now", source: label("Trodelvy"), protocols: ["febrile-neutropenia-first-hour"] },
+      { symptom: "Severe diarrhoea", threshold: "Diarrhoea not controlled by loperamide, or with fever or dehydration. Sacituzumab govitecan carries a boxed warning for severe diarrhoea.", action: "call-now", source: label("Trodelvy"), protocols: ["irinotecan-early-cholinergic-syndrome-and-late-diarrhoea"] },
     ],
   },
   {
@@ -223,7 +229,7 @@ export const redFlagSets: RedFlagSet[] = [
     label: "Antibody-drug conjugates that injure the eye",
     drugIds: ["belantamab-mafodotin", "tisotumab-vedotin", "mirvetuximab-soravtansine"],
     flags: [
-      { symptom: "Eye symptoms", threshold: "Blurred vision, dry or gritty eyes, eye pain or light sensitivity; these products carry boxed warnings or requirements for eye examinations before each dose.", action: "call-today", source: label("Tivdak") },
+      { symptom: "Eye symptoms", threshold: "Blurred vision, dry or gritty eyes, eye pain or light sensitivity; these products carry boxed warnings or requirements for eye examinations before each dose.", action: "call-today", source: label("Tivdak"), protocols: ["eye-care-with-ocular-toxic-antibody-drug-conjugates"] },
     ],
   },
   {
@@ -240,12 +246,12 @@ export const redFlagSets: RedFlagSet[] = [
     modalityRe: "car-t",
     window: "The labels require patients to remain within proximity of the treating centre for at least four weeks after infusion and not to drive or operate heavy machinery for at least eight weeks. Most CRS and neurotoxicity starts in the first two weeks.",
     flags: [
-      { symptom: "Cytokine release syndrome", threshold: "Fever of 38 C or higher is grade 1 CRS; fever with low blood pressure, fast heartbeat, breathlessness or low oxygen is grade 2 or higher. The labels carry a boxed warning and say to report fever immediately.", action: "emergency", source: ASTCT },
-      { symptom: "Neurotoxicity (ICANS)", threshold: "Difficulty finding words, confusion, drowsiness, change in handwriting, tremor or a seizure. The labels carry a boxed warning for neurologic toxicities.", action: "emergency", source: label("Yescarta") },
-      { symptom: "Infection", threshold: "Fever, cough, burning on passing urine, or any infection sign, for months after infusion while blood counts and antibodies stay low.", action: "call-now", source: label("Yescarta") },
-      { symptom: "Prolonged low blood counts", threshold: "Bleeding, bruising, breathlessness or recurrent infections; cytopenias can persist for weeks after infusion.", action: "call-today", source: label("Yescarta") },
+      { symptom: "Cytokine release syndrome", threshold: "Fever of 38 C or higher is grade 1 CRS; fever with low blood pressure, fast heartbeat, breathlessness or low oxygen is grade 2 or higher. The labels carry a boxed warning and say to report fever immediately.", action: "emergency", source: ASTCT, protocols: ["crs-grading-and-management"] },
+      { symptom: "Neurotoxicity (ICANS)", threshold: "Difficulty finding words, confusion, drowsiness, change in handwriting, tremor or a seizure. The labels carry a boxed warning for neurologic toxicities.", action: "emergency", source: label("Yescarta"), protocols: ["icans-grading-and-management"] },
+      { symptom: "Infection", threshold: "Fever, cough, burning on passing urine, or any infection sign, for months after infusion while blood counts and antibodies stay low.", action: "call-now", source: label("Yescarta"), protocols: ["car-t-infection-prevention"] },
+      { symptom: "Prolonged low blood counts", threshold: "Bleeding, bruising, breathlessness or recurrent infections; cytopenias can persist for weeks after infusion.", action: "call-today", source: label("Yescarta"), protocols: ["icaht-prolonged-cytopenia"] },
       { symptom: "Movement or personality changes (BCMA CAR-T)", threshold: "Slowness, stiffness, tremor, or changes in personality or handwriting weeks to months after infusion; the Carvykti label warns of parkinsonism and Guillain-Barre syndrome.", action: "call-now", source: label("Carvykti") },
-      { symptom: "Haemophagocytic lymphohistiocytosis", threshold: "Persistent fever with enlarged liver or spleen, very low counts and bleeding after CRS; a labelled warning for BCMA CAR-T products.", action: "emergency", source: label("Carvykti") },
+      { symptom: "Haemophagocytic lymphohistiocytosis", threshold: "Persistent fever with enlarged liver or spleen, very low counts and bleeding after CRS; a labelled warning for BCMA CAR-T products.", action: "emergency", source: label("Carvykti"), protocols: ["iec-hs-management"] },
     ],
   },
   {
@@ -254,9 +260,9 @@ export const redFlagSets: RedFlagSet[] = [
     modalityRe: "t-cell engager|immtac|bispecific t-cell",
     window: "The step-up doses are given in hospital because CRS and neurotoxicity are most likely in the first cycle; several labels require 48 hours of monitoring after each step-up dose.",
     flags: [
-      { symptom: "Cytokine release syndrome", threshold: "Fever of 38 C or higher, chills, low blood pressure, fast heartbeat or breathlessness, especially after a step-up dose. Boxed warning on teclistamab, epcoritamab, glofitamab, tarlatamab and blinatumomab.", action: "emergency", source: label("Tecvayli") },
-      { symptom: "Neurotoxicity (ICANS)", threshold: "Confusion, word-finding difficulty, drowsiness, tremor, seizures or weakness. Boxed warning on teclistamab, talquetamab, elranatamab, tarlatamab and blinatumomab.", action: "emergency", source: label("Tecvayli") },
-      { symptom: "Infection", threshold: "Fever or any infection sign; serious and fatal infections including opportunistic infections are labelled warnings because antibody levels fall.", action: "call-now", source: label("Tecvayli") },
+      { symptom: "Cytokine release syndrome", threshold: "Fever of 38 C or higher, chills, low blood pressure, fast heartbeat or breathlessness, especially after a step-up dose. Boxed warning on teclistamab, epcoritamab, glofitamab, tarlatamab and blinatumomab.", action: "emergency", source: label("Tecvayli"), protocols: ["bispecific-step-up-dosing"] },
+      { symptom: "Neurotoxicity (ICANS)", threshold: "Confusion, word-finding difficulty, drowsiness, tremor, seizures or weakness. Boxed warning on teclistamab, talquetamab, elranatamab, tarlatamab and blinatumomab.", action: "emergency", source: label("Tecvayli"), protocols: ["bispecific-step-up-dosing"] },
+      { symptom: "Infection", threshold: "Fever or any infection sign; serious and fatal infections including opportunistic infections are labelled warnings because antibody levels fall.", action: "call-now", source: label("Tecvayli"), protocols: ["bispecific-step-up-dosing"] },
       { symptom: "Low blood counts", threshold: "Bleeding, bruising or breathlessness; neutropenia and thrombocytopenia are labelled warnings.", action: "call-today", source: label("Tecvayli") },
       { symptom: "Weight loss, taste or skin changes (talquetamab)", threshold: "Marked weight loss, inability to eat because of taste changes or mouth soreness, or severe skin peeling and nail loss; the Talvey label lists oral, skin and nail toxicity and weight loss.", action: "call-today", source: label("Talvey") },
     ],
@@ -267,13 +273,13 @@ export const redFlagSets: RedFlagSet[] = [
     modalityRe: "cytotoxic|alkylating|platinum|taxane|anthracycline|antifolate|nucleoside|topoisomerase|vinca|fluoropyrimidine|hypomethylating|nitrosourea|glycopeptide antibiotic|actinomycin|halichondrin|purine nucleoside|liposomal|antibiotic \\(bioreductive\\)",
     window: "White cells are usually lowest 7 to 14 days after each dose.",
     flags: [
-      { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher, or other signs consistent with sepsis, while on chemotherapy: NICE says to refer immediately for assessment as suspected neutropenic sepsis.", action: "call-now", source: NICE_CG151 },
+      { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher, or other signs consistent with sepsis, while on chemotherapy: NICE says to refer immediately for assessment as suspected neutropenic sepsis.", action: "call-now", source: NICE_CG151, protocols: ["febrile-neutropenia-first-hour"] },
       { symptom: "Uncontrolled vomiting", threshold: "Six or more episodes of vomiting in 24 hours, or no significant food or fluid intake, despite taking your anti-sickness medicines as prescribed.", action: "call-now", source: UKONS },
-      { symptom: "Severe diarrhoea", threshold: "Seven or more stools a day above your usual, or diarrhoea with fever or dizziness. With fluorouracil or capecitabine, severe early diarrhoea and mouth ulcers in the first cycle can indicate DPD deficiency.", action: "call-now", source: label("fluorouracil injection") },
-      { symptom: "Mouth ulcers", threshold: "Painful ulcers or redness that make eating and drinking difficult.", action: "call-today", source: UKONS },
-      { symptom: "Bleeding or bruising", threshold: "Bleeding that does not stop by itself, bleeding from more than one site, or new bruising in several places or one large area.", action: "emergency", source: UKONS },
-      { symptom: "Chest pain (fluoropyrimidines)", threshold: "Chest pain or tightness during or after fluorouracil or capecitabine; the label warns of cardiotoxicity including angina and myocardial infarction.", action: "emergency", source: label("fluorouracil injection") },
-      { symptom: "Heart failure (anthracyclines)", threshold: "New breathlessness, swollen ankles or a racing heart during or years after doxorubicin; the boxed warning covers cardiomyopathy, including late onset.", action: "call-today", source: label("doxorubicin") },
+      { symptom: "Severe diarrhoea", threshold: "Seven or more stools a day above your usual, or diarrhoea with fever or dizziness. With fluorouracil or capecitabine, severe early diarrhoea and mouth ulcers in the first cycle can indicate DPD deficiency.", action: "call-now", source: label("fluorouracil injection"), protocols: ["treatment-induced-diarrhoea-grading-and-management", "dpyd-testing-before-fluoropyrimidines"] },
+      { symptom: "Mouth ulcers", threshold: "Painful ulcers or redness that make eating and drinking difficult.", action: "call-today", source: UKONS, protocols: ["oral-mucositis-prevention-and-oral-care"] },
+      { symptom: "Bleeding or bruising", threshold: "Bleeding that does not stop by itself, bleeding from more than one site, or new bruising in several places or one large area.", action: "emergency", source: UKONS, protocols: ["bleeding-precautions-when-platelets-are-low"] },
+      { symptom: "Chest pain (fluoropyrimidines)", threshold: "Chest pain or tightness during or after fluorouracil or capecitabine; the label warns of cardiotoxicity including angina and myocardial infarction.", action: "emergency", source: label("fluorouracil injection"), protocols: ["acute-oncology-telephone-triage"] },
+      { symptom: "Heart failure (anthracyclines)", threshold: "New breathlessness, swollen ankles or a racing heart during or years after doxorubicin; the boxed warning covers cardiomyopathy, including late onset.", action: "call-today", source: label("doxorubicin"), protocols: ["cardio-oncology-risk-assessment-and-cardiac-surveillance"] },
       { symptom: "Blood in urine (cyclophosphamide, ifosfamide)", threshold: "Visible blood in the urine or pain on passing urine; haemorrhagic cystitis is a labelled warning and mesna and hydration are used to prevent it.", action: "call-now", source: label("cyclophosphamide") },
       { symptom: "Hearing or kidney changes (cisplatin)", threshold: "New ringing in the ears or hearing loss, or passing much less urine; boxed warnings cover nephrotoxicity and ototoxicity.", action: "call-today", source: label("cisplatin") },
       { symptom: "Breathlessness (bleomycin)", threshold: "New cough or breathlessness at any time during or after bleomycin; pulmonary fibrosis is a boxed warning.", action: "call-now", source: label("bleomycin") },
@@ -290,7 +296,7 @@ export const redFlagSets: RedFlagSet[] = [
       { symptom: "Bowel perforation", threshold: "Sudden severe abdominal pain, a hard or very tender abdomen, or abdominal pain with vomiting and fever. Boxed warning for gastrointestinal perforation on bevacizumab.", action: "emergency", source: AVASTIN },
       { symptom: "Serious bleeding", threshold: "Coughing blood (more than a teaspoon), vomiting blood, black stools, or a nosebleed that will not stop. Boxed warning for haemorrhage on bevacizumab.", action: "emergency", source: AVASTIN },
       { symptom: "Hypertensive crisis or brain swelling", threshold: "Severe headache, confusion, visual disturbance, seizure, or a blood pressure reading of 160 or more over 100 or more; the labels warn of hypertensive crisis and posterior reversible encephalopathy syndrome.", action: "emergency", source: AVASTIN },
-      { symptom: "Wound that will not heal", threshold: "A surgical wound that opens, leaks or is not healing; the label says to withhold treatment for at least 28 days around surgery. Boxed warning for wound healing complications on bevacizumab.", action: "call-today", source: AVASTIN },
+      { symptom: "Wound that will not heal", threshold: "A surgical wound that opens, leaks or is not healing; the label says to withhold treatment for at least 28 days around surgery. Boxed warning for wound healing complications on bevacizumab.", action: "call-today", source: AVASTIN, protocols: ["anti-vegf-drugs-around-surgery"] },
       { symptom: "Stroke or heart attack signs", threshold: "Sudden weakness on one side, slurred speech, facial droop, or chest pain; arterial thromboembolic events are a labelled warning.", action: "emergency", source: AVASTIN },
       { symptom: "Protein in urine or swelling", threshold: "Foamy urine, swollen ankles or rapid weight gain; nephrotic syndrome is a labelled warning and urine protein is monitored.", action: "call-today", source: AVASTIN },
     ],
@@ -303,8 +309,8 @@ export const redFlagSets: RedFlagSet[] = [
       { symptom: "Fainting or palpitations", threshold: "Fainting, near-fainting, or an irregular or racing heartbeat; several kinase inhibitors prolong the QT interval and the labels require ECG and electrolyte monitoring.", action: "emergency", source: label("ribociclib") },
       { symptom: "Liver injury", threshold: "Yellow skin or eyes, dark urine, pain under the right ribs, or unusual tiredness with nausea; hepatotoxicity is a labelled warning for many kinase inhibitors and blood tests are checked before each cycle.", action: "call-today", source: label("lapatinib") },
       { symptom: "Lung inflammation (EGFR inhibitors)", threshold: "New or worsening cough, breathlessness or fever; the osimertinib label says to withhold for suspected ILD and permanently discontinue if confirmed.", action: "call-now", source: label("osimertinib") },
-      { symptom: "Severe diarrhoea", threshold: "Diarrhoea not controlled by loperamide within 24 hours, or with dehydration; a labelled warning for HER2 and pan-HER inhibitors such as neratinib and afatinib.", action: "call-now", source: label("neratinib") },
-      { symptom: "Rash that blisters or infects", threshold: "Blistering or peeling skin, or an acne-like rash with pus and fever.", action: "call-now", source: label("osimertinib") },
+      { symptom: "Severe diarrhoea", threshold: "Diarrhoea not controlled by loperamide within 24 hours, or with dehydration; a labelled warning for HER2 and pan-HER inhibitors such as neratinib and afatinib.", action: "call-now", source: label("neratinib"), protocols: ["treatment-induced-diarrhoea-grading-and-management", "neratinib-diarrhoea-prophylaxis-and-dose-escalation"] },
+      { symptom: "Rash that blisters or infects", threshold: "Blistering or peeling skin, or an acne-like rash with pus and fever.", action: "call-now", source: label("osimertinib"), protocols: ["egfr-inhibitor-rash-prophylaxis"] },
       { symptom: "Vision changes (MEK and FGFR inhibitors)", threshold: "Blurred vision, floaters, or a dark area in vision; serous retinopathy and retinal vein occlusion are labelled warnings.", action: "call-today", source: label("trametinib") },
     ],
   },
@@ -327,8 +333,8 @@ export const redFlagSets: RedFlagSet[] = [
     flags: [
       { symptom: "Signs of MDS or AML", threshold: "Unusual tiredness, breathlessness, easy bruising or bleeding, or frequent infections, especially if blood counts have not recovered within four weeks of stopping; the labels warn of myelodysplastic syndrome and acute myeloid leukaemia.", action: "call-today", source: label("Lynparza") },
       { symptom: "Pneumonitis", threshold: "New or worsening cough, breathlessness or fever; the label says to interrupt treatment and investigate.", action: "call-now", source: label("Lynparza") },
-      { symptom: "Severe anaemia", threshold: "Breathlessness on mild exertion, dizziness or palpitations; anaemia is common and transfusion is sometimes needed.", action: "call-today", source: label("Lynparza") },
-      { symptom: "Blood clot", threshold: "A swollen painful calf, or sudden breathlessness with chest pain; venous thromboembolism including pulmonary embolism is a labelled warning.", action: "emergency", source: label("Lynparza") },
+      { symptom: "Severe anaemia", threshold: "Breathlessness on mild exertion, dizziness or palpitations; anaemia is common and transfusion is sometimes needed.", action: "call-today", source: label("Lynparza"), protocols: ["red-cell-and-platelet-transfusion-thresholds"] },
+      { symptom: "Blood clot", threshold: "A swollen painful calf, or sudden breathlessness with chest pain; venous thromboembolism including pulmonary embolism is a labelled warning.", action: "emergency", source: label("Lynparza"), protocols: ["cancer-associated-vte-treatment"] },
       { symptom: "High blood pressure or palpitations (niraparib)", threshold: "Severe headache, or a racing or irregular heartbeat; hypertension and hypertensive crisis are labelled warnings for niraparib.", action: "call-today", source: label("Zejula") },
     ],
   },
@@ -338,11 +344,11 @@ export const redFlagSets: RedFlagSet[] = [
     modalityRe: "radioligand|alpha therapy|radiopharmaceutical|theranostic|radioactive",
     window: "Blood counts fall over the weeks after each dose and are checked before the next one.",
     flags: [
-      { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher; myelosuppression is a labelled warning for lutetium-177 PSMA and lutetium-177 dotatate.", action: "call-now", source: label("Pluvicto") },
-      { symptom: "Bleeding or bruising", threshold: "Unexplained bruising, tiny red spots, or bleeding that will not stop; thrombocytopenia can be severe.", action: "call-now", source: label("Pluvicto") },
+      { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher; myelosuppression is a labelled warning for lutetium-177 PSMA and lutetium-177 dotatate.", action: "call-now", source: label("Pluvicto"), protocols: ["febrile-neutropenia-first-hour"] },
+      { symptom: "Bleeding or bruising", threshold: "Unexplained bruising, tiny red spots, or bleeding that will not stop; thrombocytopenia can be severe.", action: "call-now", source: label("Pluvicto"), protocols: ["bleeding-precautions-when-platelets-are-low"] },
       { symptom: "Kidney problems", threshold: "Passing much less urine, swollen ankles, or dehydration from vomiting; renal toxicity is a labelled warning and the label advises hydration and frequent urination after treatment.", action: "call-today", source: label("Pluvicto") },
       { symptom: "Severe dry mouth", threshold: "Dryness that stops you eating, or a painful swollen gland; dry mouth and salivary gland toxicity are labelled for PSMA-targeted therapy.", action: "call-today", source: label("Pluvicto") },
-      { symptom: "Bone pain flare or fracture (radium-223)", threshold: "Sudden severe bone pain, or back pain with weakness or numbness in the legs (possible spinal cord compression).", action: "emergency", source: label("Xofigo") },
+      { symptom: "Bone pain flare or fracture (radium-223)", threshold: "Sudden severe bone pain, or back pain with weakness or numbness in the legs (possible spinal cord compression).", action: "emergency", source: label("Xofigo"), protocols: ["metastatic-spinal-cord-compression-emergency"] },
       { symptom: "Hormonal crisis (lutetium dotatate)", threshold: "Flushing, diarrhoea, wheezing or low blood pressure soon after a dose in people with functioning neuroendocrine tumours; neuroendocrine hormonal crisis is a labelled warning.", action: "emergency", source: label("Lutathera") },
     ],
   },
@@ -351,11 +357,11 @@ export const redFlagSets: RedFlagSet[] = [
     label: "CDK4/6 inhibitors",
     modalityRe: "cdk4",
     flags: [
-      { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher; neutropenia is the most common serious adverse reaction and febrile neutropenia has been fatal.", action: "call-now", source: label("Ibrance") },
+      { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher; neutropenia is the most common serious adverse reaction and febrile neutropenia has been fatal.", action: "call-now", source: label("Ibrance"), protocols: ["febrile-neutropenia-first-hour"] },
       { symptom: "Lung inflammation", threshold: "New or worsening cough or breathlessness; severe and fatal interstitial lung disease and pneumonitis are labelled warnings for all three drugs.", action: "call-now", source: label("Ibrance") },
-      { symptom: "Severe diarrhoea (abemaciclib)", threshold: "Diarrhoea not controlled by loperamide, or with dehydration; the label says to start loperamide at the first loose stool and to call if it does not settle within 24 hours.", action: "call-today", source: label("Verzenio") },
+      { symptom: "Severe diarrhoea (abemaciclib)", threshold: "Diarrhoea not controlled by loperamide, or with dehydration; the label says to start loperamide at the first loose stool and to call if it does not settle within 24 hours.", action: "call-today", source: label("Verzenio"), protocols: ["treatment-induced-diarrhoea-grading-and-management"] },
       { symptom: "Fainting or palpitations (ribociclib)", threshold: "Fainting, dizziness or an irregular heartbeat; QT prolongation is a labelled warning and ECGs are checked in the first cycles.", action: "emergency", source: label("Kisqali") },
-      { symptom: "Blood clot (abemaciclib)", threshold: "A swollen painful calf or sudden breathlessness with chest pain; venous thromboembolism is a labelled warning.", action: "emergency", source: label("Verzenio") },
+      { symptom: "Blood clot (abemaciclib)", threshold: "A swollen painful calf or sudden breathlessness with chest pain; venous thromboembolism is a labelled warning.", action: "emergency", source: label("Verzenio"), protocols: ["cancer-associated-vte-treatment"] },
       { symptom: "Liver injury", threshold: "Yellow skin or eyes, dark urine or pain under the right ribs; hepatobiliary toxicity is a labelled warning and liver tests are checked before each cycle.", action: "call-today", source: label("Verzenio") },
     ],
   },
@@ -364,11 +370,11 @@ export const redFlagSets: RedFlagSet[] = [
     label: "Hormone therapies",
     modalityRe: "serd|serm|aromatase|gnrh|antiandrogen|ar antagonist|cyp17a1|progestin|hormonal therapy|ar n-terminal",
     flags: [
-      { symptom: "Blood clot (tamoxifen and others)", threshold: "A swollen painful calf, or sudden breathlessness with chest pain; the tamoxifen boxed warning covers pulmonary embolism and stroke.", action: "emergency", source: label("tamoxifen") },
+      { symptom: "Blood clot (tamoxifen and others)", threshold: "A swollen painful calf, or sudden breathlessness with chest pain; the tamoxifen boxed warning covers pulmonary embolism and stroke.", action: "emergency", source: label("tamoxifen"), protocols: ["cancer-associated-vte-treatment"] },
       { symptom: "Vaginal bleeding (tamoxifen)", threshold: "Any unexpected vaginal bleeding, spotting or discharge after the menopause; uterine cancers are a boxed warning.", action: "call-today", source: label("tamoxifen") },
       { symptom: "Seizure or severe headache (enzalutamide, apalutamide, darolutamide)", threshold: "A seizure, sudden severe headache, confusion or visual loss; seizure and posterior reversible encephalopathy syndrome are labelled warnings.", action: "emergency", source: label("Xtandi") },
       { symptom: "Swelling, weakness or palpitations (abiraterone)", threshold: "Swollen ankles, muscle weakness or an irregular heartbeat; low potassium, fluid retention and hypertension from mineralocorticoid excess are labelled warnings, as is adrenal insufficiency during illness or if prednisone is interrupted.", action: "call-today", source: label("Zytiga") },
-      { symptom: "Fall or fracture (androgen deprivation, aromatase inhibitors)", threshold: "A fall with new persistent bone pain, or sudden back pain with numbness or weakness in the legs.", action: "call-today", source: label("Xtandi") },
+      { symptom: "Fall or fracture (androgen deprivation, aromatase inhibitors)", threshold: "A fall with new persistent bone pain, or sudden back pain with numbness or weakness in the legs.", action: "call-today", source: label("Xtandi"), protocols: ["bone-health-on-hormone-therapy", "metastatic-spinal-cord-compression-emergency"] },
     ],
   },
   {
@@ -389,8 +395,8 @@ export const redFlagSets: RedFlagSet[] = [
     modalityRe: "bcl-2 inhibitor",
     window: "Tumour lysis syndrome risk is highest during the five-week dose ramp-up in CLL and at the start of treatment in AML.",
     flags: [
-      { symptom: "Tumour lysis syndrome", threshold: "Nausea, vomiting, muscle cramps, palpitations, seizures, confusion or passing much less urine in the first days of a new dose; the label requires hydration, anti-hyperuricaemic drugs and blood tests around each ramp-up step.", action: "emergency", source: label("Venclexta") },
-      { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher; grade 3 to 4 neutropenia is common.", action: "call-now", source: label("Venclexta") },
+      { symptom: "Tumour lysis syndrome", threshold: "Nausea, vomiting, muscle cramps, palpitations, seizures, confusion or passing much less urine in the first days of a new dose; the label requires hydration, anti-hyperuricaemic drugs and blood tests around each ramp-up step.", action: "emergency", source: label("Venclexta"), protocols: ["tumour-lysis-syndrome-prevention-and-treatment"] },
+      { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher; grade 3 to 4 neutropenia is common.", action: "call-now", source: label("Venclexta"), protocols: ["febrile-neutropenia-first-hour"] },
     ],
   },
   {
@@ -402,10 +408,10 @@ export const redFlagSets: RedFlagSet[] = [
     // treatment and those pages have few enough drugs for the cards to reach the top six.
     modalityRe: "cereblon|\\bimids?\\b|immunomodulatory|proteasome",
     flags: [
-      { symptom: "Blood clot (lenalidomide, pomalidomide, thalidomide)", threshold: "A swollen painful calf, or sudden breathlessness with chest pain; venous and arterial thromboembolism is a boxed warning and blood-thinning prophylaxis is recommended.", action: "emergency", source: label("Revlimid") },
-      { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher; haematologic toxicity is a boxed warning for lenalidomide.", action: "call-now", source: label("Revlimid") },
-      { symptom: "Numbness or pain in hands and feet (bortezomib)", threshold: "Tingling, burning or numbness that affects walking or using the hands; peripheral neuropathy is a labelled warning and doses are adjusted at grade 2.", action: "call-today", source: label("Velcade") },
-      { symptom: "Breathlessness or swelling (carfilzomib)", threshold: "New breathlessness, swollen ankles, chest pain or palpitations; cardiac toxicities including heart failure are labelled warnings.", action: "call-now", source: label("Kyprolis") },
+      { symptom: "Blood clot (lenalidomide, pomalidomide, thalidomide)", threshold: "A swollen painful calf, or sudden breathlessness with chest pain; venous and arterial thromboembolism is a boxed warning and blood-thinning prophylaxis is recommended.", action: "emergency", source: label("Revlimid"), protocols: ["vte-risk-assessment-and-thromboprophylaxis-ambulatory", "cancer-associated-vte-treatment"] },
+      { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher; haematologic toxicity is a boxed warning for lenalidomide.", action: "call-now", source: label("Revlimid"), protocols: ["febrile-neutropenia-first-hour"] },
+      { symptom: "Numbness or pain in hands and feet (bortezomib)", threshold: "Tingling, burning or numbness that affects walking or using the hands; peripheral neuropathy is a labelled warning and doses are adjusted at grade 2.", action: "call-today", source: label("Velcade"), protocols: ["chemotherapy-induced-peripheral-neuropathy-assessment-and-prevention"] },
+      { symptom: "Breathlessness or swelling (carfilzomib)", threshold: "New breathlessness, swollen ankles, chest pain or palpitations; cardiac toxicities including heart failure are labelled warnings.", action: "call-now", source: label("Kyprolis"), protocols: ["cardio-oncology-risk-assessment-and-cardiac-surveillance"] },
       { symptom: "Rash that blisters", threshold: "Blistering or peeling skin; severe cutaneous reactions including Stevens-Johnson syndrome are labelled warnings for lenalidomide and pomalidomide.", action: "emergency", source: label("Revlimid") },
     ],
   },
@@ -463,7 +469,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "tnbc-immune-reactions",
     label: "Triple-negative breast cancer: immune-related reactions on pembrolizumab (bowel, lungs, liver, glands)",
     cancerIds: ["tnbc"],
-    concernIds: ["pembrolizumab", "irae", "irae-colitis", "irae-pneumonitis", "irae-hepatitis"],
+    concernIds: ["pembrolizumab", "irae", "irae-colitis", "irae-pneumonitis", "irae-hepatitis", "irae-thyroid"],
     window: "Pembrolizumab runs for about a year around surgery in early disease; Macmillan says immune-related side effects can start during treatment or after it ends, and Breast Cancer Now says to carry the alert card and use its out-of-hours number.",
     flags: [
       { symptom: "Diarrhoea, stools at night or tummy cramps (colitis)", threshold: "Macmillan says to contact the hospital straight away on the 24-hour number if you pass more stools than is normal for you, pass stools at night, have watery or loose stools, or have uncomfortable tummy cramps or pain, during treatment or after it ends; Breast Cancer Now adds blood or mucus in the stool.", action: "call-now", source: MAC_PEMBRO },
@@ -913,7 +919,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "lymphoma-crs-icans",
     label: "After engineered T cells or a bispecific antibody: cytokine release syndrome and neurotoxicity, and what a relative should watch for",
     cancerIds: ["non-hodgkin-lymphoma", "dlbcl", "primary-mediastinal-b-cell-lymphoma", "follicular-lymphoma", "mantle-cell-lymphoma", "marginal-zone-lymphoma"],
-    concernIds: ["crs", "icans", "lymphoma-tx-crs-icans", "lymphoma-tx-car-t-pathway", "lymphoma-tx-bispecific-step-up", "crs-grading-and-management", "icans-grading-and-management"],
+    concernIds: ["crs", "icans", "lymphoma-tx-crs-icans", "lymphoma-tx-car-t-pathway", "lymphoma-tx-bispecific-step-up", "crs-grading-and-management", "icans-grading-and-management", "bispecific-step-up-dosing"],
     window: "Cytokine release syndrome most commonly develops within 10 days of an engineered T-cell infusion; neurotoxicity generally within 28 days and often within a few days. The step-up doses of a bispecific antibody are given in hospital for the same reason. This is why Lymphoma Action says to stay within about an hour or two of the centre for four weeks and to have someone with you at all times.",
     flags: [
       { symptom: "Fever, chills, a racing heart, feeling faint or short of breath", threshold: "Lymphoma Action says almost everyone treated with engineered T cells has some level of cytokine release syndrome, most commonly within 10 days of the infusion, and lists fever and chills, a rapid heart rate, low blood pressure, low oxygen, headache, and feeling or being sick. Most cases are mild and easily treated, and they are treated faster the earlier the team hears.", action: "call-now", source: LA_CAR_T_RF },

@@ -319,6 +319,22 @@ import { recordsAL } from "./country-records-al"; // wave 13
 import { recordsMK } from "./country-records-mk"; // wave 13
 import { recordsME } from "./country-records-me"; // wave 13
 import { recordsMN } from "./country-records-mn"; // wave 13
+import { recordsSL } from "./country-records-sl"; // wave 14
+import { recordsLR } from "./country-records-lr"; // wave 14
+import { recordsTG } from "./country-records-tg"; // wave 14
+import { recordsBJ } from "./country-records-bj"; // wave 14
+import { recordsGM } from "./country-records-gm"; // wave 14
+import { recordsGW } from "./country-records-gw"; // wave 14
+import { recordsMR } from "./country-records-mr"; // wave 14
+import { recordsCV } from "./country-records-cv"; // wave 14
+import { recordsST } from "./country-records-st"; // wave 14
+import { recordsGA } from "./country-records-ga"; // wave 14
+import { recordsCG } from "./country-records-cg"; // wave 14
+import { recordsCF } from "./country-records-cf"; // wave 14
+import { recordsGQ } from "./country-records-gq"; // wave 14
+import { recordsBI } from "./country-records-bi"; // wave 14
+import { recordsSS } from "./country-records-ss"; // wave 14
+import { recordsER } from "./country-records-er"; // wave 14
 import { china } from "./china";
 import { approvedWave1 } from "./drugs-approved-wave1";
 import { targetsWave1 } from "./targets-wave1";
@@ -646,6 +662,8 @@ const RAW_INPUTS: EntityInput[] = [
   ...recordsRW, ...recordsGN, ...recordsMD, ...recordsLV, ...recordsHN, ...recordsAM, ...recordsSO, ...recordsJO, ...recordsSV, ...recordsPA, // wave 12
   ...recordsJM, ...recordsTT, ...recordsBS, ...recordsBB, ...recordsBZ, ...recordsGY, ...recordsSR, ...recordsLC, ...recordsCW, ...recordsFJ, ...recordsWS, ...recordsSB, ...recordsVU, ...recordsGU, ...recordsPF, ...recordsNC, // wave 16
   ...recordsAE, ...recordsKW, ...recordsQA, ...recordsOM, ...recordsBH, ...recordsLY, ...recordsPS, ...recordsCY, ...recordsMT, ...recordsLU, ...recordsIS, ...recordsEE, ...recordsAL, ...recordsMK, ...recordsME, ...recordsMN, // wave 13
+  ...recordsSL, ...recordsLR, ...recordsTG, ...recordsBJ, ...recordsGM, ...recordsGW, ...recordsMR, ...recordsCV, // wave 14
+  ...recordsST, ...recordsGA, ...recordsCG, ...recordsCF, ...recordsGQ, ...recordsBI, ...recordsSS, ...recordsER, // wave 14
   ...china,
   ...approvedWave1,
   ...targetsWave1,

@@ -70,6 +70,10 @@ const GCO_SLUG: Record<number, string> = {
   // Wave 13 (16 November 2026): each answered with the GLOBOCAN 2024 PDF that day.
   784: "united-arab-emirates", 414: "kuwait", 634: "qatar", 512: "oman", 48: "bahrain", 434: "libya", 275: "gaza-strip-and-west-bank", 196: "cyprus",
   470: "malta", 442: "luxembourg", 352: "iceland", 233: "estonia", 8: "albania", 807: "north-macedonia", 499: "montenegro", 496: "mongolia",
+  // Wave 14 (16 November 2026): each answered with the GLOBOCAN 2024 PDF that day. Three bare slugs do not: "270-the-gambia" serves the
+  // 2022 sheet, and "132-cabo-verde" and "178-congo" answer 403.
+  694: "sierra-leone", 430: "liberia", 768: "togo", 204: "benin", 270: "the-republic-of-the-gambia", 624: "guinea-bissau", 478: "mauritania", 132: "cape-verde",
+  678: "sao-tome-and-principe", 266: "gabon", 178: "congo-republic-of", 140: "central-african-republic", 226: "equatorial-guinea", 108: "burundi", 728: "south-sudan", 232: "eritrea",
 };
 const gco = (code: number) => `https://gco.iarc.who.int/media/globocan/factsheets/populations/${code}-${GCO_SLUG[code]}-fact-sheet.pdf`;
 
@@ -259,4 +263,23 @@ export const countryExtras: Record<string, CountryExtra> = {
   MK: { name: "North Macedonia", population: 1.8, incidence: 232, mortality: 114, gcoUrl: gco(807) },
   ME: { name: "Montenegro", population: 0.6, incidence: 280, mortality: 120, gcoUrl: gco(499) },
   MN: { name: "Mongolia", population: 3.5, incidence: 240, mortality: 171, gcoUrl: gco(496) },
+  // Wave 14 (16 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series (SP.POP.TOTL, read from api.worldbank.org that day) to one decimal, as most of these countries are small. No funder is given;
+  // each country page names who pays.
+  SL: { name: "Sierra Leone", population: 8.6, incidence: 118, mortality: 79, gcoUrl: gco(694) },
+  LR: { name: "Liberia", population: 5.6, incidence: 120, mortality: 82, gcoUrl: gco(430) },
+  TG: { name: "Togo", population: 8.4, incidence: 118, mortality: 77, gcoUrl: gco(768) },
+  BJ: { name: "Benin", population: 14.5, incidence: 113, mortality: 74, gcoUrl: gco(204) },
+  GM: { name: "The Gambia", population: 2.8, incidence: 118, mortality: 88, gcoUrl: gco(270) },
+  GW: { name: "Guinea-Bissau", population: 2.2, incidence: 117, mortality: 83, gcoUrl: gco(624) },
+  MR: { name: "Mauritania", population: 5.2, incidence: 119, mortality: 79, gcoUrl: gco(478) },
+  CV: { name: "Cabo Verde", population: 0.5, incidence: 86, mortality: 61, gcoUrl: gco(132) },
+  ST: { name: "São Tomé and Príncipe", population: 0.2, incidence: 55, mortality: 36, gcoUrl: gco(678) },
+  GA: { name: "Gabon", population: 2.5, incidence: 84, mortality: 55, gcoUrl: gco(266) },
+  CG: { name: "Republic of the Congo", population: 6.3, incidence: 94, mortality: 61, gcoUrl: gco(178) },
+  CF: { name: "Central African Republic", population: 5.3, incidence: 113, mortality: 77, gcoUrl: gco(140) },
+  GQ: { name: "Equatorial Guinea", population: 1.9, incidence: 85, mortality: 57, gcoUrl: gco(226) },
+  BI: { name: "Burundi", population: 14, incidence: 113, mortality: 76, gcoUrl: gco(108) },
+  SS: { name: "South Sudan", population: 11.9, incidence: 108, mortality: 73, gcoUrl: gco(728) },
+  ER: { name: "Eritrea", population: 3.5, incidence: 111, mortality: 73, gcoUrl: gco(232) },
 };

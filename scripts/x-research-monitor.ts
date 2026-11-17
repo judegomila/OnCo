@@ -21,6 +21,7 @@ type ApiPost = {
   id: string; author_id: string; created_at: string; text?: string;
   entities?: { urls?: { expanded_url?: string; unwound_url?: string }[] };
 };
+type TimelinePage = { data?: ApiPost[]; errors?: unknown[]; meta?: { result_count?: number; next_token?: string } };
 type Opts = {
   token: string; accounts?: Account[]; now?: Date; fetcher?: typeof fetch;
   maxPages?: number; maxEvidence?: number;
@@ -202,7 +203,7 @@ async function fromAccount(account: Account, prev: AccountState | undefined, opt
   let pageToken: string | undefined;
   const pages = opts.maxPages ?? 2;
   for (let i = 0; i < pages; i++) {
-    const url = new URL(`/2/users/${userId}/tweets`, X);
+    const url: URL = new URL(`/2/users/${userId}/tweets`, X);
     url.search = new URLSearchParams({
       max_results: "10", exclude: "retweets,replies", "post.fields": "created_at,entities", expansions: "author_id",
       // New accounts do not backfill beyond 24 h. Empty windows use a timestamp; after a
@@ -212,7 +213,7 @@ async function fromAccount(account: Account, prev: AccountState | undefined, opt
       }),
       ...(pageToken ? { pagination_token: pageToken } : {}),
     }).toString();
-    const result = await requestJson<{ data?: ApiPost[]; errors?: unknown[]; meta?: { result_count?: number; next_token?: string } }>(fetcher, url, X, token);
+    const result: TimelinePage | undefined = await requestJson<TimelinePage>(fetcher, url, X, token);
     if (!result?.meta || !Number.isInteger(result.meta.result_count) || result.errors?.length
       || result.meta.result_count !== (result.data?.length ?? 0)) throw new Error(`Incomplete X timeline: @${account.handle}`);
     for (const post of result.data ?? []) {

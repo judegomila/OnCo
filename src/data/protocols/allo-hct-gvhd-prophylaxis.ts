@@ -25,6 +25,9 @@ import { protocol } from "./helpers";
  *
  * OnCo's technology record `gvhd-prophylaxis` explains the drugs and the trial evidence; this protocol is the choice
  * of regimen as the guidelines set it out.
+ * Doses independently re-read on 17 November 2026 against the BMT CTN 1703 full text (PubMed Central author
+ * manuscript), the ABHH/SBTMO 2026 full text and the Orencia label fetched again from DailyMed; the gap on tacrolimus
+ * now gives the starting doses the trial prints.
  */
 export const alloHctGvhdProphylaxis = protocol({
   id: "allo-hct-gvhd-prophylaxis",
@@ -177,7 +180,7 @@ export const alloHctGvhdProphylaxis = protocol({
   upgrades: [],
   gaps: [
     "The EBMT 2024 recommendations could be read only as their abstract: on 17 November 2026 the journal page answered 403 and no open copy was found. The strength of each recommendation, the doses, and the advice for matched sibling and haploidentical donors are not stated here. The same is true of the EBMT 2020 edition it replaces, so the levels of consensus printed in either edition could not be checked.",
-    "No source read prints target blood levels for ciclosporin or tacrolimus, or a dose of antithymocyte globulin by product. BMT CTN 1703 gives tacrolimus starting doses 'in accordance with institutional practices' and no target level. ABHH/SBTMO 2026 splits rabbit ATG at 6 mg/kg without naming the product, although the trials it pools carry both thymoglobulin and anti-T-lymphocyte globulin in their titles, so no ATG dose is given on this page.",
+    "No source read prints target blood levels for ciclosporin or tacrolimus, or a dose of antithymocyte globulin by product. BMT CTN 1703 reports tacrolimus started 'in accordance with institutional practices', by mouth at 0.05 to 0.06 mg/kg a day or intravenously at 0.02 to 0.03 mg/kg a day, and prints no target level; these are the trial's protocol doses, not a recommendation. ABHH/SBTMO 2026 splits rabbit ATG at 6 mg/kg without naming the product, although the trials it pools carry both thymoglobulin and anti-T-lymphocyte globulin in their titles, so no ATG dose is given on this page.",
     "The methotrexate doses and the tacrolimus taper on this page are those of one trial (BMT CTN 1703), which reports them as its protocol and does not recommend them; its supplementary tables, including other toxic effects, were not read. The two-year results come from the abstract of the follow-up report.",
     "ABHH/SBTMO 2026 is internally inconsistent on antithymocyte globulin: the evidence synthesis and the recommendation find the chronic GVHD reduction significant only in the high-dose subgroup, while the closing summary says the low-dose subgroup. The supplementary forest plots that would settle it were not read.",
     "ABHH/SBTMO 2026 calls GVHD outcomes comparable between mycophenolate and methotrexate after myeloablative conditioning, yet for the one tacrolimus trial behind its toxicity finding (reduced-dose methotrexate with mycophenolate against full-dose methotrexate) it also reports a higher incidence of grade III to IV acute GVHD.",

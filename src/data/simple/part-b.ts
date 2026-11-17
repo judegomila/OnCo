@@ -250,7 +250,7 @@ export const simpleB: Record<string, string> = {
   "tropion-breast01": "The trial that got Datroway approved in hormone-driven breast cancer, though people did not live longer.",
   "tropion-breast02": "This trial compared datopotamab deruxtecan with chemotherapy in advanced triple-negative breast cancer that had not yet been treated, when immunotherapy was not an option.",
   "tropion-breast05": "Tests whether Datroway plus an immune drug beats today's standard.",
-  "bl-b01d1-307": "The first big-trial win for a two-target antibody-drug, in triple-negative breast cancer, in February 2026.",
+  "bl-b01d1-307": "A big-trial win for a two-target antibody-drug, in triple-negative breast cancer, announced in February 2026.",
   "izabright-breast01": "The global first-line trial of the two-target antibody-drug iza-bren in triple-negative breast cancer.",
   "optimice-pcr": "This trial asks whether people with no invasive cancer left at surgery can omit the next 27 weeks of pembrolizumab.",
   "scarlet-s2212": "Tests whether one harsh chemotherapy can be dropped from pre-surgery treatment without losing effect.",

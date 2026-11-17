@@ -629,7 +629,7 @@ export const targets: TargetInput[] = [
     cancers: ["tnbc", "nsclc", "urothelial", "sclc"],
     tags: ["checkpoint", "biomarker"],
     prevalence: [
-      { cancerId: "tnbc", pct: "35-40", measure: "CPS >=10 (22C3), metastatic", source: "https://en.wikipedia.org/wiki/PD-L1", note: "KEYNOTE-355 screening" },
+      { cancerId: "tnbc", pct: "38", measure: "CPS >=10 (22C3), metastatic", source: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287", note: "KEYNOTE-355: share of the 847 randomised patients, not of those screened (US prescribing information)" },
       { cancerId: "nsclc", pct: "25-30", measure: "TPS >=50%", source: "https://en.wikipedia.org/wiki/PD-L1", note: "~60-65% TPS >=1%" },
       { cancerId: "urothelial", pct: "25-30", measure: "CPS >=10", source: "https://en.wikipedia.org/wiki/PD-L1" },
       { cancerId: "sclc", pct: "15-20", measure: "Any tumour-cell expression", source: "https://en.wikipedia.org/wiki/PD-L1" },

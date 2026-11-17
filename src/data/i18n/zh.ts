@@ -2562,7 +2562,7 @@ export const tldr_zh: Record<string, string> = {
   "bill-gates": "Gates Foundation已承诺向Gavi捐资41亿美元；Gavi是其在2000年协助创立的疫苗联盟，其HPV项目到2024年底已为近6000万女孩完成宫颈癌疫苗全程接种。",
   "bimatoprost-eyelash-regrowth": "化疗常导致睫毛和眉毛脱落，且恢复缓慢。Bimatoprost是一种获批用于睫毛稀疏的青光眼滴眼液，每晚沿睫毛线涂抹，在一项包括化疗后人群的随机试验中增加了睫毛的长度和浓密度。",
   "bispecific-infection-prophylaxis": "骨髓瘤双特异性抗体和CAR-T对抗体生成的抑制极为严重，以至于在早期试验中感染而非癌症成为主要死因之一。",
-  "bl-b01d1-307": "双特异性ADC的首个3期试验胜利，在三阴性乳腺癌中取得，于2026年2月宣布。",
+  "bl-b01d1-307": "双特异性ADC在三阴性乳腺癌中取得的一项3期试验胜利，于2026年2月宣布。",
   "black-diamond-therapeutics": "Black Diamond Therapeutics设计的抗癌口服药可同时打击某一生长蛋白上的整个突变家族。其主打药物silevertinib靶向肺癌和脑肿瘤中的突变EGFR。",
   "bladder-cancer-signalling": "KEGG的膀胱癌图谱显示两条路径：由FGFR3或HRAS激活MAPK级联驱动的低级别乳头状肿瘤，以及丢失TP53和RB1的高级别浸润性肿瘤。Erdafitinib针对第一条路径；抗体药物偶联物和PD-1抗体如今是第二条路径治疗的支柱。",
   blasts: "本应在骨髓中成熟的不成熟血细胞，在急性白血病中却不断增殖而不成熟。骨髓中原始细胞的百分比定义了疾病：20%或以上即为急性白血病。",

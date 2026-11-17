@@ -70,7 +70,7 @@ const papers: PaperInput[] = [
       "In men the commonest cancers were colorectal (551), lung (323), prostate (258), liver (195) and non-Hodgkin lymphoma (172); in women breast (906), colorectal (455), lung (293), cervix (286) and corpus uteri (284).",
       "Deaths were led by lung (293) and colorectal cancer (278) in men and by breast (309) and lung cancer (250) in women; cervical cancer incidence declined and corpus uteri incidence rose significantly over the decade.",
     ],
-    whatItMeans: "Brunei is one of the countries where national cancer figures are counted, not modelled, and this paper is the fullest published set of those counts. IARC's GLOBOCAN 2024 fact sheet names a national registry as its source for Brunei's incidence.",
+    whatItMeans: "Brunei is one of the countries where national cancer figures are counted, not modelled, and the authors describe this paper as the first study of ten-year changes in incidence and mortality for the common cancers there. IARC's GLOBOCAN 2024 fact sheet names a national registry as its source for Brunei's incidence.",
     caveats: ["Covers citizens and permanent residents only.", "Reporting to the registry is not required by law; the registry collects cases actively."],
     institutions: ["brunei-darussalam-cancer-registry", "brunei-ministry-of-health"], cancers: ["colorectal", "breast-cancer", "lung-cancer", "cervical"],
     links: [{ label: "BMC Cancer 2023", url: `https://doi.org/${INCIDENCE_DOI}` }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37217954/" }, { label: "Full text as read (Europe PMC API, XML)", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10201047/fullTextXML" }] }),

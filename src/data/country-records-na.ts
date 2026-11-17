@@ -60,7 +60,7 @@ const papers: PaperInput[] = [
       "The median age at diagnosis was 5.13 years.",
     ],
     whatItMeans: "The pattern of childhood cancer seen at the country's referral unit has shifted over three decades, though blood cancers remain the commonest; the authors recommend prospective studies.",
-    caveats: ["A single hospital's admissions, read from files; it does not measure incidence.", "The low share of brain tumours may reflect who is referred and diagnosed, which the abstract does not examine."],
+    caveats: ["A single hospital's admissions, read from files; it does not measure incidence.", "The abstract does not examine whether the 3.4% share of brain tumours reflects who is referred and diagnosed."],
     institutions: ["windhoek-central-hospital-oncology"], cancers: ["childhood-cancers"], related: [STEFAN, BOUCHERON],
     links: [doi("10.1371/journal.pone.0292794", "PLoS One 2023"), pubmed("37972109")] }),
 
@@ -73,7 +73,7 @@ const papers: PaperInput[] = [
       "Leukaemias (22.5%) and retinoblastomas (16.2%) were the commonest, followed by kidney tumours, soft tissue sarcomas and lymphomas.",
       "6.8% of the children with cancer had HIV.",
     ],
-    whatItMeans: "Beside the lower recorded incidence, the authors say many cancers are still not diagnosed or reported and that others are not treated in the country. They describe a twinning programme with Tygerberg Hospital in Cape Town that includes setting up a childhood cancer registry.",
+    whatItMeans: "Beside the lower recorded incidence, the authors say many cancers are still not diagnosed or reported and that others are not treated in the country. They describe a twinning programme with Tygerberg Hospital in Cape Town that includes setting up a cancer registry.",
     caveats: ["Cases recorded at one hospital; children never referred are not counted.", "The data end in 2010."],
     institutions: ["windhoek-central-hospital-oncology"], cancers: ["childhood-cancers"], related: [KAHOLONGO, KORN],
     links: [doi("10.11604/pamj.2014.17.191.3830", "Pan African Medical Journal 2014"), pubmed("25396017")] }),

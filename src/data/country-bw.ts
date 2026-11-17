@@ -63,11 +63,11 @@ export const BW_DIVE: CountryDive = {
   asOf: "2026-11-16",
   title: "Cancer in Botswana",
   description:
-    "Cancer in Botswana: a national cancer registry kept by the Ministry of Health, IARC's modelled estimate of 2,900 new cancers and 1,558 deaths in 2024 with cervical cancer leading, health spending of about USD 490 a person with three quarters paid by government and 4.3% out of pocket, four public oncology centres, a public radiotherapy centre opened in Gaborone in July 2023, HPV vaccination since 2015 with 93% first-dose coverage reported for 2024, a national cancer control plan still being finalised at the end of 2025, and no trial in OnCo's records with a site in Botswana.",
+    "Cancer in Botswana: a national cancer registry kept by the Ministry of Health, IARC's modelled estimate of 2,900 new cancers and 1,558 deaths in 2024 with cervical cancer leading, health spending of about USD 490 a person with three quarters paid by government and 4.3% out of pocket, four public oncology centres, a public radiotherapy centre opened in Gaborone in July 2023, HPV vaccination since 2015 with 93% first-dose coverage reported for 2024, a national cancer control plan being finalised in the last quarter of 2025, and no trial in OnCo's records with a site in Botswana.",
   lede:
     "Botswana's government pays for about three quarters of the country's health spending, has designated four public hospitals as oncology centres, and opened a public radiotherapy centre in Gaborone in July 2023. Girls have been offered HPV vaccination since 2015, and cervical cancer is the commonest cancer in IARC's estimates for the country, which are modelled figures, not counts.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Botswana is 2,900 new cancers and 1,558 deaths, an age-standardised incidence of 165.0 per 100,000 (182.6 in men, 154.3 in women). These are modelled figures, not counts. The fact sheet gives the incidence method as \"National or subnational rates scaled to regional all-cancer rates\" and names no country-specific data source beside it; deaths come from \"National incidence estimates applied to model-based M:I ratios (registry survival data)\". The Botswana National Cancer Registry's own published figures are older and are set out in the registry table on this page; the ministry's strategy gave an average of about 1,200 cancers registered a year for 2005 to 2012.",
+    "IARC's GLOBOCAN 2024 figure for Botswana is 2,900 new cancers and 1,558 deaths, an age-standardised incidence of 165.0 per 100,000 (182.6 in men, 154.3 in women). These are modelled figures, not counts. The fact sheet gives the incidence method as \"National or subnational rates scaled to regional all-cancer rates\" and names no country-specific data source beside it; deaths come from \"National incidence estimates applied to model-based M:I ratios (registry survival data)\". The Botswana National Cancer Registry's own published figures are older and are set out in the registry table on this page; the ministry's 2018 strategy counted 11,398 cancers registered from 2005 to 2012 and said an average of 1,200 are registered a year.",
   sections: [
     {
       id: "profile",
@@ -90,7 +90,7 @@ export const BW_DIVE: CountryDive = {
           plain:
             "The Botswana National Cancer Registry is population-based and sits in the Ministry of Health's non-communicable disease programme. A 2025 analysis of its data counted 27,726 cancers in adults from 1990 to 2021, about half of them in people living with HIV.",
           detail:
-            "The registry's page on the African Cancer Registry Network, which is undated and cites 2012 figures, says the ministry set it up in 1999 with help from the International Association of Cancer Registries; the ministry's 2018 strategy gives 1998. The page says staff collect cases from the two referral hospitals, Princess Marina and Nyangabgwe, and from the radiotherapy department of Gaborone Private Hospital, using notification forms, laboratory reports, death certificates and the electronic patient system, and that cancer is not a notifiable disease, which puts the work on a small team. The strategy says 11,398 cancers were registered from 2005 to 2012, an average of about 1,200 a year, and that the registry had published two incidence reports, in 2006 and 2008. In the 2025 analysis, 13,737 of the 27,726 adults (49.5%) were living with HIV, 3,505 (12.6%) were not, and HIV status was unknown for 10,484 (37.8%). OnCo did not find a registry report more recent than those the page and the strategy mention.",
+            "The registry's page on the African Cancer Registry Network, which is undated and cites 2012 figures, says the ministry set it up in 1999 with help from the International Association of Cancer Registries; the ministry's 2018 strategy gives 1998. The page says staff collect cases from the two referral hospitals, Princess Marina and Nyangabgwe, and from the radiotherapy department of Gaborone Private Hospital, using notification forms, laboratory reports, death certificates and the electronic patient system, and that cancer is not a notifiable disease, which puts the work on a small team. The strategy says 11,398 cancers were diagnosed and registered from 2005 to 2012, says separately that an average of 1,200 are registered a year, and says the registry had published two incidence reports, in 2006 and 2008. In the 2025 analysis, which used cases reported to the registry and to the National Data Warehouse, 13,737 of the 27,726 adults (49.5%) were living with HIV, 3,505 (12.6%) were not, and HIV status was unknown for 10,484 (37.8%). OnCo did not find a registry report more recent than those the page and the strategy mention.",
           links: [L_AFCRN, L_NCD, L_MATHOMA],
         },
         {
@@ -126,8 +126,8 @@ export const BW_DIVE: CountryDive = {
           rows: [
             { period: "1986 to 2004", cases: 2000, what: "Malignant cancers in the registry's first report, 56.7% in women", source: "Registry's network page" },
             { period: "2003 to 2008", cases: 8479, what: "Incident cancers used in a study of HIV treatment and cancer", source: "PLoS One, 2015" },
-            { period: "2005 to 2012", cases: 11398, what: "Cancers diagnosed and registered, about 1,200 a year", source: "Ministry strategy, 2018" },
-            { period: "1990 to 2021", cases: 27726, what: "Cancers in adults aged 18 and over", source: "Cancers, 2025" },
+            { period: "2005 to 2012", cases: 11398, what: "Cancers diagnosed and registered; the strategy also gives an average of 1,200 registered a year", source: "Ministry strategy, 2018" },
+            { period: "1990 to 2021", cases: 27726, what: "Cancers in adults aged 18 and over, reported to the registry and the National Data Warehouse", source: "Cancers, 2025" },
           ],
           note: "A registry counts new cases, not deaths. The registry's page says cancer is not a notifiable disease in Botswana, so these are the cases its staff were able to collect.",
           sources: [L_AFCRN, L_DRYDEN, L_NCD, L_MATHOMA],
@@ -170,7 +170,7 @@ export const BW_DIVE: CountryDive = {
       cards: [
         {
           id: "bomra",
-          title: "The Botswana Medicines Regulatory Authority, in operation since 2018",
+          title: "The Botswana Medicines Regulatory Authority, established in 2018",
           plain:
             "Medicines in Botswana, including cancer medicines, are regulated by the Botswana Medicines Regulatory Authority, known as BoMRA, a statutory body under the Ministry of Health. It is working with WHO towards the standard WHO calls maturity level 3.",
           detail:
@@ -237,11 +237,11 @@ export const BW_DIVE: CountryDive = {
         },
         {
           id: "radiotherapy",
-          title: "Radiotherapy: a public centre opened in July 2023; the IAEA's table gives three centres without naming them",
+          title: "Radiotherapy: a public centre opened in July 2023; the IAEA's directory lists three centres, all in Gaborone",
           plain:
             "The radiotherapy centre at Sir Ketumile Masire Teaching Hospital in Gaborone opened on 27 July 2023 with support from the International Atomic Energy Agency. The UN in Botswana described it as the country's first public radiotherapy centre.",
           detail:
-            "The public country table of the IAEA's Directory of Radiotherapy Centres gives Botswana, last updated in 2026, three radiotherapy centres, three high-energy photon and electron beam units and three brachytherapy units. The UN's report says five IAEA technical cooperation projects supported the new centre, with long-term training for radiation oncologists, medical physicists, oncology nurses and radiotherapy technologists, help with shielded rooms and with specifying and commissioning equipment, and that the minister expected it to serve patients from other countries in the region as well. WHO's 2020 profile, from 2019 data, had recorded no medical physicists. WHO's 2021 cervical profile marks radiotherapy as not generally available, which predates the public centre.",
+            "The IAEA's Directory of Radiotherapy Centres lists three radiotherapy centres in Botswana, all in Gaborone: Sir Ketumile Masire Teaching Hospital (entry last updated in 2025), Lifehealthcare Gaborone, which is Gaborone Private Hospital (2022), and Village Oncology (2026). Each is listed with one high-energy photon and electron beam unit and one brachytherapy unit. The directory does not say whether each machine is in use. The UN's report says five IAEA technical cooperation projects supported the new centre, with long-term training for radiation oncologists, medical physicists, oncology nurses and radiotherapy technologists, help with shielded rooms and with specifying and commissioning equipment, and that the minister expected it to serve patients from other countries in the region as well. WHO's 2020 profile, from 2019 data, had recorded no medical physicists. WHO's 2021 cervical profile marks radiotherapy as not generally available, which predates the public centre.",
           links: [L_UN, L_DIRAC, L_WHO_2020, L_WHO_CX],
         },
         {
@@ -308,7 +308,7 @@ export const BW_DIVE: CountryDive = {
       plain:
         "OnCo did not find an official source on fees for cancer care in public hospitals, on referral of patients to other countries, or a registry report more recent than 2008. The Cancer Association of Botswana's member profile at UICC refused a plain request and was not read.",
       detail:
-        "The statement that radiotherapy at Gaborone Private Hospital was paid for by government comes from a 2021 survey and predates the public centre; whether that arrangement continues is not known here. The registry's network page is undated and names staff who may have moved on, so no one is named on this page. The IAEA's public table gives national totals and does not say which machines are in use. A future pass should read the ministry's referral policy and the registry's latest report; meanwhile the treating hospital's social worker or the Cancer Association of Botswana are the places to ask about costs and accommodation.",
+        "The statement that radiotherapy at Gaborone Private Hospital was paid for by government comes from a 2021 survey and predates the public centre; whether that arrangement continues is not known here. The registry's network page is undated and names staff who may have moved on, so no one is named on this page. The IAEA's directory lists one treatment machine and one brachytherapy unit at each of three centres in Gaborone and does not say whether they are in use. A future pass should read the ministry's referral policy and the registry's latest report; meanwhile the treating hospital's social worker or the Cancer Association of Botswana are the places to ask about costs and accommodation.",
       links: [L_SWART, L_AFCRN, L_DIRAC],
     },
   ],

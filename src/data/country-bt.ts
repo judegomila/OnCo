@@ -73,7 +73,7 @@ export const BT_DIVE: CountryDive = {
           id: "stomach-and-cervix",
           title: "Rates of stomach and cervical cancer are higher than in most neighbouring registries",
           plain:
-            "The registry's 2014 to 2022 paper sets Bhutan beside registries in Nepal, Sri Lanka, India and Thailand: Bhutan's rates of stomach cancer in both sexes and of cervical cancer are higher than most of them, its breast cancer rate is lower than all of them, and its lung cancer rates are lower than most.",
+            "The registry's 2014 to 2022 paper sets Bhutan beside registries in Nepal, Sri Lanka, India and Thailand: Bhutan's rates of stomach cancer in both sexes and of cervical cancer are higher than most of them, its breast cancer rate is lower than all of them except two Indian registries, Meghalaya and Tripura, and its lung cancer rate in men is lower than most.",
           detail:
             "Age-adjusted rates per 100,000 for 2014 to 2022 were 20.9 for stomach cancer in men and 15.3 in women, against 8.3 and 4.5 in Kathmandu and 3.7 and 1.5 in Sri Lanka; cervical cancer was 19.5 in Bhutan against 8.3 in Kathmandu and 9.1 in Sri Lanka. Breast cancer was 8.6 in Bhutanese women against 40.5 in Sri Lanka. The paper notes that stomach cancer rates in men are higher still in parts of north-east India such as Mizoram (39.1) and Aizawl (44.2), where its table also shows higher rates of cervical cancer. A 2013 study of 372 volunteers in three Bhutanese cities concluded that the high incidence of gastric cancer may be attributed to a high prevalence of Helicobacter pylori infection.",
           links: [
@@ -258,7 +258,7 @@ export const BT_DIVE: CountryDive = {
           plain:
             "Cancer treatment is centred on Jigme Dorji Wangchuck National Referral Hospital in Thimphu, which has had an oncology ward for chemotherapy since November 2011. Published accounts from 2024 and 2026 say there is no radiotherapy in the country and patients who need it are referred to India.",
           detail:
-            "The 2019 strategy said radiotherapy had recently become available at the hospital; the registry report says radiation was available in the country from 2018 to 2021, and the 2024 review says it was discontinued in August 2021. That review also says that in 2023 Bhutan had no oncologists, radiation specialists, medical physicists or oncology-trained nurses, and that surgeons led chemotherapy for stomach and breast cancer. A 2026 study still lists the lack of radiotherapy in the country. IAEA's DIRAC public country table has no entry for Bhutan. A 2025 paper describes the hospital as the only one in Bhutan with cancer surgery services. Home-based palliative care has run from the hospital for residents of Thimphu since 2018.",
+            "The 2019 strategy said radiotherapy had recently become available at the hospital; the registry report says radiation was available in the country from 2018 to 2021, and the 2024 review says it was discontinued in August 2021. That review also says that in 2023 Bhutan had no oncologists, radiation specialists, medical physicists or oncology-trained nurses, and that surgeons led chemotherapy for stomach and breast cancer; it counts two cancer surgeons, two gynaecological cancer surgeons and one head and neck cancer surgeon in the country that year. A 2026 study still lists the lack of radiotherapy in the country. IAEA's DIRAC public country table has no entry for Bhutan. A 2025 paper describes the hospital as the only one in Bhutan with cancer surgery services. Home-based palliative care has run from the hospital for residents of Thimphu since 2018.",
           links: [
             { label: "Dorji et al., population-level cancer screening and cancer care in Bhutan (Lancet Reg Health Southeast Asia 2024)", url: LANSEA },
             { label: "Bhutan Cancer Control Strategy 2019 to 2025 (PDF, ICCP portal)", url: STRATEGY },
@@ -308,11 +308,11 @@ export const BT_DIVE: CountryDive = {
   gaps: [
     {
       id: "gap-who-profile",
-      title: "WHO's 2020 profile is used sparingly, and it disagrees with later accounts on radiotherapy",
+      title: "WHO's profiles record radiotherapy that later accounts say has stopped",
       plain:
-        "OnCo read WHO's Cancer Country Profile 2020 for Bhutan as text and used little of it, because the columns of its health system table do not pair cleanly once the PDF is turned into text.",
+        "OnCo read WHO's Cancer Country Profile 2020 for Bhutan as text and used little of it on this page, because its health system entries are for 2019 or earlier, before the changes that later accounts describe.",
       detail:
-        "What reads without ambiguity: a population-based registry recorded for 2019, an integrated non-communicable disease plan recorded as operational in 2019, cancer management guidelines recorded as present, and cervical screening recorded as opportunistic and by Pap smear. Its counts of radiotherapy machines and staff could not be paired with their labels and are not used on this page. WHO's 2021 cervical cancer profile lists radiotherapy as generally available in 2021, the year the 2024 review says the service stopped. A future pass should read the 2020 profile as a rendered PDF.",
+        "The profile records a population-based registry for 2019, an integrated non-communicable disease plan as operational in 2019, a national cancer control plan as under development in 2019, cancer management guidelines as present, and cervical screening as opportunistic and by Pap smear. An earlier reading could not pair its capacity table with its labels; read again with the page layout kept, the rows pair. For 2019 it gives external beam radiotherapy as 17.1 per 10,000 cancer patients, which is a rate and not a count of machines, medical physicists as 0.0 and radiation oncologists as \"n/a\". Those entries fall inside the years 2018 to 2021 in which the registry report says radiation was available in the country. WHO's 2021 cervical cancer profile lists radiotherapy as generally available in 2021, the year the 2024 review says the service stopped.",
       links: [
         { label: "WHO: Cancer Country Profile 2020, Bhutan (PDF)", url: WHO_PROFILE },
         { label: "WHO: cervical cancer country profile 2021, Bhutan (PDF)", url: WHO_CX },

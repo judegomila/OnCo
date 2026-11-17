@@ -483,12 +483,12 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
 
   i({ id: "eswatini-national-cancer-registry", name: "Eswatini National Cancer Registry", aka: ["Swaziland National Cancer Registry", "SNCR"],
     city: "Mbabane", country: "SZ", lat: -26.326, lng: 31.145, institutionType: "research-institute", website: AFCRN_SZ,
-    tldr: "Eswatini's national cancer registry, re-established by the Ministry of Health in 2015. Every hospital and laboratory that diagnoses or treats cancer must report cases to it.",
+    tldr: "Eswatini's national cancer registry, re-established by the Ministry of Health in 2015. Reporting requirements set in October 2015 oblige hospitals and laboratories to make their data available, according to a 2017 page; the Ministry's plan for 2025 to 2029 says cancer is not legally notifiable.",
     summary: "The African Cancer Registry Network's page (updated May 2017) says the Ministry of Health re-established a cancer registry in August 2015 and made it a national registry, and in October 2015 set reporting requirements obliging all public and private hospitals and laboratories that diagnose or treat cancer to make data available. It aims to record every cancer diagnosed among residents, including site, stage and treatment, finding cases actively in hospitals, pathology and radiology reports, oncology reports, death certificates and chemotherapy units, and enters data in CanReg5. The coordinates are an approximate city point for Mbabane.",
     programs: ["National cancer registration (from 2015)", "African Cancer Registry Network member registry"],
     institutions: ["eswatini-ministry-of-health"], related: ["cancer-registries-surveillance"],
     keyPapers: ["paper-msibi-cervical-cancer-survival-eswatini-pgph-2026", "paper-vilakati-early-onset-cervical-cancer-eswatini-canep-2026"],
-    links: [{ label: "African Cancer Registry Network: Eswatini National Cancer Registry", url: AFCRN_SZ }, AFCRN_L] }),
+    links: [{ label: "African Cancer Registry Network: Eswatini National Cancer Registry", url: AFCRN_SZ }, AFCRN_L, { label: "Ministry of Health: National Cancer Control Strategic Plan 2025-2029 (PDF, ICCP portal)", url: "https://www.iccp-portal.org/sites/default/files/2026-03/Final%20NCCU%20Strategic%20Plan%20Document.pdf" }] }),
 
   i({ id: "mbabane-government-hospital", name: "Mbabane Government Hospital", aka: ["Mbabane National Hospital"],
     city: "Mbabane", country: "SZ", lat: -26.331, lng: 31.144, institutionType: "hospital",

@@ -7,6 +7,9 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 16 November 2026
+- Payload, drug and test pages say what was measured in words a patient can follow
+- The RAS pathway page keeps its plain explanation, and a sourced link no longer switches off the drug highlighting
+- Weekly gap-fill automation, with the model's fetching limited to an allow-list of regulators, registries and societies
 - Antibody-drug conjugate payloads get deeper coverage from a contributor: 34 new records and 31 supplemented ones that keep free drugs, attached linker-drugs and released forms apart, each measurement with its experiment and source
 - Glossary links now respect capitals, so ordinary words such as platinum, select, open and decision no longer link to trials and acronyms that share their spelling, about twelve thousand false links fewer; with the weekly refresh of trial counts, universe lists, logos, the fact check and two EU register rows
 - Names with a digit link in any case again, and the ordinary words "verify" and "alliance" stop linking
@@ -168,12 +171,15 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Redirect the retired drug ids and the moved nonprofits' company routes
 - Merge GFH375 with VS-7375 and AZD0120 with GC012F, and move ten nonprofits from company to institution records
 - Classifier patterns read whole words: antagonists are no longer agonists, benzimidazoles no longer IMiDs
+- Clarify RAS signalling evidence boundaries
 - chore: weekly maintenance (logos, structures, trial links, acronyms, orphan links)
 - chore: draft change proposals that need review (#385)
 - chore: EU regional rows read from the EMA register pages (#384)
 
 ### 9 November 2026
+- Retain chemical species and assay context across evidence consumers
 - Distinguish ADC chemical species and add tubulin cargo designs
+- Restore review captures and disclose expired temporary artifacts
 - chore: weekly fact check, audit, and provenance refresh (#383)
 - chore: render this week's issue to public/newsletter/ (#382)
 - chore: refresh public/votes.json from Discussions reactions (#381)
@@ -182,8 +188,11 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - chore: EU regional rows read from the EMA register pages (#377)
 
 ### 8 November 2026
+- Preserve legacy cargo identities and avoid ordinary-word glossary links
 - Explain dose coupling in fixed-composition dual-payload conjugates
 - Clarify payload identities and evidence scopes
+- Preserve scoped observations in readers and queries
+- Add scoped evidence to oncology records
 - Expand sourced antibody-conjugate payload concepts beyond TOP1
 - chore: draft change proposals that need review (#367)
 - chore: EU regional rows read from the EMA register pages (#366)

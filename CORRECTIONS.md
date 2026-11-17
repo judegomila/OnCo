@@ -48,6 +48,11 @@
 | 2026-11-08 | [Payload](/terms/payload/) | Defined every payload as a poison too toxic to give freely | Primary cargo/formulation evidence and FDA terminology | Distinguishes cargo, chemical species, delivery product and measured exposure; [draft #369](https://github.com/judegomila/OnCo/pull/369) |
 | 2026-11-08 | [HDP-101 source scope](/drugs/pamlectabart-tismanitin/) | The Chinese registry's structured maximumAge=18 conflicts with its narrative age-at-least-18 criterion | Direct API capture reconciled with semantic discovery | Discloses both source fields and leaves eligibility confirmation external; no corrected age is invented and the registry itself is not changed; [draft #369](https://github.com/judegomila/OnCo/pull/369) |
 
+### Payload comparison species and endpoints
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-09 | [Payload comparison](/payloads/) | Used a free-drug permeability flag as a bystander result, assigned family-wide efflux/loading values and required a cleavable linker universally | Named product labels, exact-species membrane/cell experiments and actual export checks | Reads sourced chemical and conjugate observations, keeps differing findings with their contexts and makes missing evidence explicit; [verification](research/scoped-evidence-schema-2026-11-08/chemical-observations-2026-11-09/README.md); contributed in [#376](https://github.com/judegomila/OnCo/pull/376) |
 
 Every factual correction to the OnCo corpus, newest first. Format: date · entity · what was wrong · how it was found · fix.
 
@@ -61,6 +66,12 @@ Every factual correction to the OnCo corpus, newest first. Format: date · entit
 | 2026-11-08 | [Dual-payload conjugates](/technologies/dual-payload-adc/) | Said a tumor cannot escape resistance and listed delayed resistance as an established strength | Primary dual-payload model study and CLIO-8221 trial-design abstract | Describes co-delivery as a strategy; requires construct-specific evidence for resistance and human benefit |
 | 2026-11-08 | [Degrader conjugates](/technologies/degrader-antibody-conjugate/) | Called degrader payloads non-cytotoxic, claimed lower potency as a class and described intracellular delivery as solved | BRD4 primary study, ORM-5029 primary abstract, direct trial records | Removes class-wide potency and safety assumptions; links distinct GSPT1, BRD4 and KIF11 concepts and records terminated clinical trials |
 | 2026-11-08 | [Immune-stimulating conjugates](/technologies/immune-stimulating-adc/) | Described delivery only to myeloid cells and named clinical examples without current trial lifecycle context | Raw TLR and STING primary abstracts and ClinicalTrials.gov records | Separates construct-specific cancer-cell and immune-cell activity and identifies terminated example studies |
+
+### Pathway product highlighting
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-08 | Pathway product highlighting | Diagnostic tests with target metadata appeared among products said to hit and block a pathway | Rendered RAS-MAPK review showed cobas BRAF/EGFR tests in the treatment selector; checked against the shared product classification | Restrict treatment highlighting to the existing medicine class; retain test records and their graph relationships |
 
 ## 2026-11-04
 

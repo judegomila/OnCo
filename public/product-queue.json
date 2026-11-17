@@ -1,11 +1,1 @@
-[
-  {
-    "branch": "product/scoped-evidence-20261108",
-    "why": "preserve scoped evidence and chemical species across consumers",
-    "pr": "https://github.com/judegomila/OnCo/pull/376",
-    "preview": "",
-    "files": 69,
-    "proposed": "2026-11-09",
-    "state": "waiting"
-  }
-]
+[]

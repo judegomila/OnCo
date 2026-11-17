@@ -1,0 +1,54 @@
+{
+  "scope": "Local webpack export over loopback; not production",
+  "pages": [
+    {
+      "route": "/drugs/clio-8221/",
+      "status": 200,
+      "bytes": 235677,
+      "sha256": "a6b245ad26a36e28df185398375303771f28600e6eea79f012900d2033df34e2",
+      "markerFound": true
+    },
+    {
+      "route": "/drugs/trastuzumab-emtansine/",
+      "status": 200,
+      "bytes": 339985,
+      "sha256": "838dc7732bd7ef321c93887653f1c3b59814b1adbf3d5d8c8c40ce6a76a6e9d9",
+      "markerFound": true
+    },
+    {
+      "route": "/drugs/dako-pd-l1-22c3-pharmdx/",
+      "status": 200,
+      "bytes": 269404,
+      "sha256": "d1e46af6a2ccfd1ede19b1d5fc311284dc6f1399fee903609025bd64cf00cca2",
+      "markerFound": true
+    },
+    {
+      "route": "/trials/bl-b01d1-307/",
+      "status": 200,
+      "bytes": 253563,
+      "sha256": "c23541300ff05963beeb711d894fd20ff58af3513638f707276a5d03386cc15f",
+      "markerFound": true
+    },
+    {
+      "route": "/pathways/ras-mapk/",
+      "status": 200,
+      "bytes": 409478,
+      "sha256": "9a11e128df6dc8d1691022704c5da7bd19f98fd7503d026e7258b972d748e6f1",
+      "markerFound": true
+    },
+    {
+      "route": "/cancers/map/",
+      "status": 200,
+      "bytes": 1786164,
+      "sha256": "9770009153a5f3b69ce81f5efc41d6c993c974249408e9d36969c9364b305dac",
+      "markerFound": true
+    },
+    {
+      "route": "/assays/",
+      "status": 200,
+      "bytes": 409192,
+      "sha256": "a24e5dfde7ccc25972dd8f3edb7dfeb3b4bb9af20d4d33ff87264de697e00f81",
+      "markerFound": true
+    }
+  ]
+}

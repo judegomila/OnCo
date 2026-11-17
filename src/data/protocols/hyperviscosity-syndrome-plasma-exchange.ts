@@ -4,6 +4,14 @@ import { protocol } from "./helpers";
  * Hyperviscosity syndrome caused by a paraprotein (Waldenström macroglobulinaemia, myeloma): recognition, urgent plasma
  * exchange, and the rituximab IgM flare.
  *
+ * Second accuracy pass, 16 November 2026: every source below was fetched again raw with curl and every claim, quote
+ * and grade re-read against the saved text; the quotes were checked verbatim by script. Changed in that pass: the
+ * "same day" time limit taken out of the BSH step (no source read gives a clock), the transfusion step reworded to what
+ * the two reviews say (caution against excessive transfusion; a theoretical argument), "top rating" for ASFA corrected
+ * (category I is its first-line category, grade 1B is not its highest grade), four "why" lines cut back to their
+ * sources, one grade quote replaced with the sentence that states the claim, and the Mayo mSMART guideline, which now
+ * reads from PubMed Central, added as a source.
+ *
  * What was read, and how (all on 16 November 2026, fetched raw with curl into a scratch directory and read as text):
  * - ASFA Guidelines on the Use of Therapeutic Apheresis in Clinical Practice, the Tenth Special Issue (Zantek et al.,
  *   J Clin Apher, published September 2026 per Crossref): full text of the fact sheet "Hyperviscosity in
@@ -15,6 +23,10 @@ import { protocol } from "./helpers";
  *   publisher page (onlinelibrary.wiley.com) returned 403 to a script and Europe PMC holds no full text; the PDF of the
  *   published article hosted by the International Waldenstrom's Macroglobulinemia Foundation (iwmf.com) was read with
  *   pdftotext. Europe PMC lists no later BSH guideline on Waldenström macroglobulinaemia. Grades are quoted as printed.
+ *   Crossref registers the title without the opening words "Guidelines on the"; the label follows the printed article.
+ * - Mayo mSMART guideline on Waldenström macroglobulinaemia (Kapoor et al., JAMA Oncol 2017, titled "Guidelines 2016"):
+ *   the author manuscript on the PubMed Central article page (PMC5556979), stripped to text. Its supplement
+ *   (eAppendix 4, which holds the detail on plasma exchange) is not part of that page and was not read.
  * - Gertz, "Acute hyperviscosity: syndromes and management" (Blood 2018): full text, PubMed Central article page
  *   (PMC6161773). A single-author narrative review from Mayo Clinic, ungraded; the author declares personal fees from
  *   several drug companies outside the work.
@@ -26,14 +38,16 @@ import { protocol } from "./helpers";
  * - ESMO Clinical Practice Guidelines on Waldenström's macroglobulinaemia (Kastritis et al., Ann Oncol 2018): not
  *   reachable. annalsofoncology.org returned 403, Europe PMC holds neither abstract nor full text, and the esmo.org
  *   guideline page serves no text to a script. Named in sources; nothing rests on it.
- * - Not read and not cited: the NCCN guideline (login), the Mayo mSMART guideline of 2016 (PubMed Central answered with
- *   a browser check), the full reports of the IWWM consensus panels, and the BSH myeloma guideline of 2021 (no abstract,
- *   publisher 403). No myeloma guideline that could be read addresses hyperviscosity; myeloma is covered here only
- *   through the ASFA fact sheet and the two reviews.
+ * - Not read and not cited: the NCCN guideline (login), the full reports of the IWWM consensus panels (ScienceDirect
+ *   returned 403 again), and the BSH myeloma guideline of 2021 (no abstract, publisher 403 again). No myeloma guideline
+ *   that could be read addresses hyperviscosity; myeloma is covered here only through the ASFA fact sheet and the two
+ *   reviews. The 12th workshop's panel reports (2025), as Europe PMC lists them, are on other subjects (neuropathy, Bing-Neel
+ *   syndrome, transformation and others), so the 2023 panel 1 report stands.
  *
- * Red cell transfusion before viscosity is lowered: the two reviews say to hold back or be cautious, and Gertz says
- * plainly that there is no scientific proof. Neither ASFA nor BSH mentions it. It is a step sourced to the reviews and
- * flagged as unproven, not a guideline recommendation.
+ * Red cell transfusion before viscosity is lowered: Weaver says to take caution to avoid excessive red cell or platelet
+ * transfusion, and Gertz says a theoretical argument could be made to withhold transfusion in stable patients and that
+ * there is no scientific proof. Neither ASFA nor BSH mentions it. It is a step sourced to the reviews and flagged as
+ * unproven, not a guideline recommendation.
  *
  * Every DOI was resolved through Crossref or Europe PMC and its title checked. Quotes are copied from the raw text with
  * line breaks joined and end-of-line hyphenation undone, nothing else changed. The ASFA and BSH texts print en dashes
@@ -46,13 +60,13 @@ export const hyperviscositySyndromePlasmaExchange = protocol({
   domain: "emergencies",
   tldr: "In Waldenström macroglobulinaemia, and less often in myeloma, an abnormal antibody protein can build up until the blood is too thick to flow through small vessels. Warning signs are nosebleeds or bleeding gums that will not stop, blurred or lost vision, headache, dizziness or drowsiness. It is an emergency: a machine removes and replaces the plasma (plasma exchange), then the cancer is treated.",
   simple: "Too much of an abnormal protein can make the blood thick. Nosebleeds that will not stop, blurry sight, headache or sleepiness are the signs. Call your team or go to hospital the same day. A machine can wash the protein out of the blood, and then the cancer itself is treated.",
-  summary: "Hyperviscosity syndrome (HVS) is a clinical diagnosis (BSH 2022): mucosal bleeding, visual disturbance and neurological symptoms in someone with a high paraprotein. ASFA 2026 puts it in 10% to 30% of people with Waldenström macroglobulinaemia and 2% to 6% with myeloma (typically IgA or IgG3). In two retrospective cohorts it occurred in 14% of 825 and 13% of 997 patients with Waldenström macroglobulinaemia and did not change overall survival. Fundoscopy is part of the assessment: retinal changes can be present without visual symptoms and are themselves a reason to treat (Gertz 2018, Weaver 2020). Plasma exchange is not held for a viscosity result (Gertz 2018).\n\nBoth guidelines read give plasma exchange their top rating for symptomatic HVS: ASFA category I, grade 1B, with no randomised trial behind it (3 controlled trials and more than 10 case series); BSH Grade A1, calling it a haematological emergency and also an indication for definitive treatment. ASFA: 1 to 1.5 total plasma volumes, daily or every other day, albumin or plasma replacement, generally 1 to 3 procedures, with viscosity and immunoglobulin monitored; IgG is less intravascular than IgM, so 4 to 5 exchanges may be needed, with fluid shifts after the procedure. Exchange does not treat the disease: ASFA says IgM returns to baseline about 3 to 5 weeks later, so systemic treatment follows.\n\nThe sources differ on three points. Viscosity threshold: ASFA says most patients are symptomatic at 6 to 7 cp and that HVS can occur above 4 cP; BSH says it should be considered above 3 mPas, citing a series in which about half of 85 symptomatic patients were below 4 mPas; Gertz says no level can be specified for exchange without symptoms. Rituximab IgM flare: ASFA (category I, grade 1C, from 3 case series and 3 case reports) says to consider exchange first when viscosity is above 3.5 cp or IgM above 4 g/dL (40 g/L), or else to hold rituximab for 1 to 3 cycles; BSH (Grade C1) says to defer rituximab or perform prophylactic plasmapheresis when IgM is above 40 g/L; Gertz calls pre-emptive exchange unproven against close monitoring. Whether an IgM above 60 g/L alone should start treatment: one cohort says yes, another no (variants).\n\nBoth reviews advise holding red cell transfusion in stable patients until viscosity is lowered; Gertz states there is no scientific proof for this, and neither guideline mentions it. The reader's own haematology team's protocol comes first; this page is for understanding the care, not for directing it.",
+  summary: "Hyperviscosity syndrome (HVS) is a clinical diagnosis (BSH 2022): mucosal bleeding, visual disturbance and neurological symptoms in someone with a high paraprotein. ASFA 2026 puts it in 10% to 30% of people with Waldenström macroglobulinaemia and 2% to 6% with myeloma (typically IgA or IgG3). In two retrospective cohorts it occurred in 14% of 825 and 13% of 997 patients with Waldenström macroglobulinaemia and did not change overall survival. Fundoscopy is part of the assessment: retinal changes can be present without visual symptoms and are themselves a reason to treat (Gertz 2018, Weaver 2020). Plasma exchange is not held for a viscosity result (Gertz 2018).\n\nThe guidelines read agree on plasma exchange for symptomatic HVS. ASFA puts it in category I (accepted first-line therapy) with grade 1B, a strong recommendation on moderate-quality evidence, and counts no randomised trial behind it (3 controlled trials and more than 10 case series). BSH gives Grade A1, calling hyperviscosity a haematological emergency and also an indication for definitive treatment. The Mayo mSMART guideline (2016) says exchange should be promptly initiated before cytoreductive therapy (level 3, grade B). ASFA: 1 to 1.5 total plasma volumes, daily or every other day, albumin or plasma replacement, generally 1 to 3 procedures, with viscosity and immunoglobulin monitored; IgG is less intravascular than IgM, so 4 to 5 exchanges may be needed, with fluid shifts after the procedure. Exchange does not treat the disease: ASFA says IgM returns to baseline about 3 to 5 weeks later, so systemic treatment follows.\n\nThe sources differ on three points. Viscosity threshold: ASFA says most patients are symptomatic at 6 to 7 cp and that HVS can occur above 4 cP; BSH says it should be considered above 3 mPas, citing a series in which about half of 85 symptomatic patients were below 4 mPas; Gertz says no level can be specified for exchange without symptoms. Rituximab IgM flare: ASFA (category I, grade 1C, from 3 case series and 3 case reports) says to consider exchange first when viscosity is above 3.5 cp or IgM above 4 g/dL (40 g/L), or else to hold rituximab for 1 to 3 cycles; BSH (Grade C1) says to defer rituximab or perform prophylactic plasmapheresis when IgM is above 40 g/L; mSMART (level 3, grade A) says rituximab alone is best avoided at a very high IgM without pre-emptive plasmapheresis, and names no figure; Gertz calls pre-emptive exchange unproven against close monitoring. Whether an IgM above 60 g/L alone should start treatment: one cohort says yes, another no (variants).\n\nOn red cell transfusion before viscosity is lowered, Weaver 2020 says to take caution to avoid excessive red cell or platelet transfusion, and Gertz 2018 says a theoretical argument could be made to withhold transfusion in haemodynamically stable patients while stating there is no scientific proof; neither ASFA nor BSH mentions it. The reader's own haematology team's protocol comes first; this page is for understanding the care, not for directing it.",
   asOf: "2026-11-16",
   setting: {
     who: ["doctor", "nurse", "emergency-team", "patient-or-carer"],
     where: ["emergency-department", "acute-oncology-service", "ward", "intensive-care", "telephone-triage"],
   },
-  population: "Adults with hyperviscosity caused by a blood protein: Waldenström macroglobulinaemia (monoclonal IgM), myeloma (the ASFA fact sheet names IgA and IgG3), and, in the ASFA fact sheet, polyclonal causes such as Sjögren's syndrome. The BSH guideline covers Waldenström macroglobulinaemia only. Thick blood from a very high white cell count in leukaemia or a high red cell count is a different condition with its own protocol (linked), as is cryoglobulinaemia. None of the sources read addresses children. Your own team's protocol comes first: the steps describe what hospital teams do and are not instructions for care at home, apart from knowing the warning signs and calling early.",
+  population: "Adults with hyperviscosity caused by a blood protein: Waldenström macroglobulinaemia (monoclonal IgM), myeloma (the ASFA fact sheet names IgA and IgG3), and, in the ASFA fact sheet, polyclonal causes such as Sjögren's syndrome. The BSH guideline covers Waldenström macroglobulinaemia only. Thick blood from a very high white cell count in leukaemia or a high red cell count is a different condition with its own protocol (linked). Cryoglobulinaemia has its own ASFA fact sheet and is not covered here. None of the sources read gives guidance for children. Your own team's protocol comes first: the steps describe what hospital teams do and are not instructions for care at home, apart from knowing the warning signs and calling early.",
   trigger: "A person with Waldenström macroglobulinaemia, myeloma or a known high paraprotein develops bleeding from the nose or gums, a change in vision, or headache, dizziness, drowsiness or confusion; or rituximab is about to be started in someone with a high IgM.",
   steps: [
     {
@@ -62,20 +76,20 @@ export const hyperviscositySyndromePlasmaExchange = protocol({
       quote: "The classic triad of hyperviscosity includes mucosal bleeding, visual abnormalities, and neurological abnormalities.",
     },
     {
-      action: "Treat symptomatic hyperviscosity as an emergency and act the same day",
-      why: "Acting early stops the damage going further; bleeding or a blocked vein in the eye or brain can leave lasting harm.",
+      action: "Treat hyperviscosity as a haematological emergency",
+      why: "Treatment stops it getting worse (ASFA). The serious forms include bleeding in the brain and a blocked vein at the back of the eye, which can cost sight for good (Gertz, Weaver). No source read sets a time limit in hours.",
       source: "bsh-wm-2022",
       quote: "Hyperviscosity is a haematological emergency and is an indication for therapeutic plasma exchange.",
       grade: "Grade A1",
     },
     {
       action: "Look at the back of both eyes (fundoscopy) whenever hyperviscosity is suspected",
-      why: "The small veins of the retina show the strain first, sometimes before sight is affected, and what is seen there is a reason to treat.",
+      why: "Bleeding in the retina can be present before sight is affected, and retinal changes caused by hyperviscosity are themselves a reason to treat.",
       source: "gertz-2018",
       quote: "Whenever HVS is suspected, ophthalmoscopy should be performed.",
     },
     {
-      action: "Make the diagnosis on the symptoms and signs, and measure the paraprotein and the plasma or serum viscosity to support it",
+      action: "Make the diagnosis on the symptoms and signs, with a plasma viscosity measurement in support where there is concern",
       why: "No single viscosity number separates people with symptoms from people without, so the picture in front of the doctor decides.",
       source: "bsh-wm-2022",
       quote: "The diagnosis of HVS remains a clinical one.",
@@ -114,32 +128,32 @@ export const hyperviscositySyndromePlasmaExchange = protocol({
     },
     {
       action: "Where the protein is IgG, as in some myeloma, plan for more sessions and watch fluid balance at the end of and after each one",
-      why: "Much of the IgG protein sits outside the blood vessels and moves back in after an exchange, so the level rebounds and fluid shifts with it.",
+      why: "ASFA puts 45% to 65% of IgG inside the blood vessels, against 75% to 80% of IgM, so one exchange removes a smaller share of it. Because of the IgG outside the vessels, significant fluid shifts may occur at the end of a procedure or shortly after it.",
       source: "asfa-2026",
       quote: "In IgG‐associated HVS, IgG is 45%–65% intravascular. Therefore, 4–5 TPE may be needed.",
     },
     {
-      action: "In a stable patient, hold back red cell transfusion until plasma exchange has lowered the viscosity",
-      why: "Added red cells thicken the blood further, and the anaemia is partly dilution from expanded plasma. This rests on reasoning, not trials: Gertz writes that there is no scientific proof for it.",
+      action: "Avoid excessive red cell or platelet transfusion until plasma exchange has lowered the viscosity",
+      why: "Added red cells change how the blood flows, and the anaemia may be partly dilution from expanded plasma. This rests on reasoning, not trials: Gertz writes that a theoretical argument could be made to withhold transfusion in a stable patient and that there is no scientific proof for it.",
       source: "weaver-2020",
       quote: "Caution should be taken to avoid excessive packed red blood cell or platelet transfusions until TPE has successfully reduced hyperviscosity",
     },
     {
       action: "Start definitive treatment of the Waldenström macroglobulinaemia or myeloma promptly after the exchange",
-      why: "Without treatment the protein climbs back to where it was within weeks and the symptoms return.",
+      why: "Exchange does not affect the disease itself: ASFA says the IgM is back at its starting level about 3 to 5 weeks later.",
       source: "asfa-2026",
       quote: "For this reason, following TPE, it is important to initiate definitive systemic treatment (chemotherapy and/or immunotherapy).",
     },
     {
       action: "Before giving rituximab to someone with an IgM above 40 g/L, either defer the rituximab or perform plasma exchange first",
-      why: "Rituximab can push the IgM up for a few weeks before it brings it down (the IgM flare), which can tip a person with a high level into hyperviscosity.",
+      why: "Rituximab can push the IgM up for a time before it brings it down (the IgM flare), which can tip a person with a high level into hyperviscosity.",
       source: "bsh-wm-2022",
       quote: "The introduction of rituximab should be deferred (or prophylactic plasmapheresis performed) in patients considered at a higher risk of hyperviscosity, this being defined by an IgM/ M-protein >40 g/L",
       grade: "Grade C1",
     },
     {
-      action: "After any rituximab dose in Waldenström macroglobulinaemia, follow the IgM level and check for symptoms of hyperviscosity",
-      why: "A flare cannot be predicted from the person's features, so everyone given rituximab is watched for it.",
+      action: "In everyone given rituximab for Waldenström macroglobulinaemia, follow the IgM level, check for symptoms of hyperviscosity, and measure plasma viscosity where it is available",
+      why: "BSH asks for this in all patients, not only those with a high IgM. The Eastern Cooperative Oncology Group study (Ghobrial 2004) could not identify factors that predicted a rise.",
       source: "bsh-wm-2022",
       quote: "Given the risk of IgM flare, careful monitoring of all patients receiving rituximab is required with monitoring of sequential IgM levels, clinical assessment for hyperviscosity syndrome (HVS) and monitoring of plasma viscosity if available",
       grade: "Grade A1",
@@ -151,15 +165,15 @@ export const hyperviscositySyndromePlasmaExchange = protocol({
     },
   ],
   bestInClass: {
-    statement: "For hyperviscosity with symptoms, the two guidelines read agree and give their highest ratings: urgent therapeutic plasma exchange (ASFA 2026 category I, grade 1B; BSH 2022 Grade A1), 1 to 1.5 plasma volumes daily or every other day until symptoms settle, generally 1 to 3 procedures, followed by systemic treatment because exchange does not treat the disease. No randomised trial supports this: ASFA counts 3 controlled trials and more than 10 case series. The diagnosis is clinical, the retina is examined, and exchange is not delayed for a viscosity result (Gertz 2018). On preventing a rituximab IgM flare the positions differ. ASFA (category I, grade 1C) says plasma exchange should be considered before rituximab when viscosity is above 3.5 cp or IgM above 4 g/dL, or rituximab held for 1 to 3 cycles until IgM is below 4 g/dL. BSH (Grade C1) says to defer rituximab or perform prophylactic plasmapheresis when IgM or M-protein is above 40 g/L, and to monitor everyone given rituximab (Grade A1). Gertz 2018 says pre-emptive exchange is unproven against close monitoring and that a flare from below 4000 mg/dL is unlikely to cause symptoms. On the viscosity at which to think of the syndrome, ASFA says most patients have symptoms at 6 to 7 cp, BSH says to consider it above 3 mPas, and Gertz says no threshold applies to everyone. Holding red cell transfusion until viscosity is lowered is advised by two reviews and is, in Gertz's words, without scientific proof; neither guideline addresses it.",
-    sources: ["asfa-2026", "bsh-wm-2022", "gertz-2018", "weaver-2020"],
+    statement: "For hyperviscosity with symptoms, the guidelines read agree on therapeutic plasma exchange: ASFA 2026 category I (accepted first-line therapy), grade 1B (strong recommendation, moderate-quality evidence); BSH 2022 Grade A1, as a haematological emergency; Mayo mSMART 2016 level 3, grade B, promptly and before cytoreductive therapy. ASFA gives the schedule: 1 to 1.5 plasma volumes daily or every other day until symptoms settle, generally 1 to 3 procedures, followed by systemic treatment because exchange does not treat the disease. No randomised trial supports this: ASFA counts 3 controlled trials and more than 10 case series. The diagnosis is clinical, the retina is examined, and exchange is not delayed for a viscosity result (Gertz 2018). On preventing a rituximab IgM flare the positions differ. ASFA (category I, grade 1C) says plasma exchange should be considered before rituximab when viscosity is above 3.5 cp or IgM above 4 g/dL, or rituximab held for 1 to 3 cycles until IgM is below 4 g/dL. BSH (Grade C1) says to defer rituximab or perform prophylactic plasmapheresis when IgM or M-protein is above 40 g/L, and to monitor everyone given rituximab (Grade A1). mSMART (level 3, grade A) says rituximab alone is contraindicated in symptomatic hyperviscosity and, without pre-emptive plasmapheresis, best avoided at a very high IgM. Gertz 2018 says pre-emptive exchange is unproven against close monitoring and that a flare from below 4000 mg/dL is unlikely to cause symptoms. On the viscosity at which to think of the syndrome, ASFA says most patients have symptoms at 6 to 7 cp, BSH says to consider it above 3 mPas, and Gertz says no threshold applies to everyone. Caution with red cell transfusion until viscosity is lowered comes from two reviews and is, in Gertz's words, without scientific proof; neither ASFA nor BSH addresses it.",
+    sources: ["asfa-2026", "bsh-wm-2022", "msmart-2016", "gertz-2018", "weaver-2020"],
   },
   variants: [
     {
       name: "Preventing the rituximab IgM flare: plasma exchange first, rituximab later, or close watching",
-      differs: "Three approaches are in use for a person with a high IgM who needs a rituximab regimen. Plasma exchange before the first rituximab dose: ASFA says \"Prophylactic TPE is performed to lower IgM to < 4 g/dL prior to rituximab therapy.\" Leaving rituximab out of the first cycles: ASFA says rituximab can be held at first, with the chemotherapy component given for 1 to 3 cycles until the serum IgM is below 4 g/dL, and BSH allows either route above 40 g/L. Close monitoring with treatment only if symptoms develop, which Gertz describes as the comparator that pre-emptive exchange has not been shown to beat.",
-      evidence: "No trial compares them. ASFA grades prophylactic exchange 1C on 3 case series and 3 case reports; BSH grades its recommendation C1. Gertz: \"It is unproven that preemptive plasma exchange in asymptomatic patients with IgM levels >5000 prevent complications when compared with close monitoring following rituximab and the initiation of treatment if symptoms develop.\" How often a flare happens also differs by source: ASFA says 30% to 70% of patients within 4 weeks of starting rituximab; Gertz says 22%; in an Eastern Cooperative Oncology Group study of rituximab alone, IgM rose in 29 of 54 patients (54%) and was still raised at 4 months in 4 of 15, and no predicting factor was found.",
-      sources: ["asfa-2026", "bsh-wm-2022", "gertz-2018", "ghobrial-2004"],
+      differs: "Three approaches are in use for a person with a high IgM who needs a rituximab regimen. Plasma exchange before the first rituximab dose: ASFA says \"Prophylactic TPE is performed to lower IgM to < 4 g/dL prior to rituximab therapy.\" Leaving rituximab out of the first cycles: ASFA says rituximab can be held at first, with the chemotherapy component given for 1 to 3 cycles until the serum IgM is below 4 g/dL, and BSH allows either route above 40 g/L. The Mayo mSMART guideline sets no figure: rituximab alone is contraindicated in symptomatic hyperviscosity and, without pre-emptive plasmapheresis, \"is best avoided in patients with very high serum IgM\". Close monitoring with treatment only if symptoms develop, which Gertz describes as the comparator that pre-emptive exchange has not been shown to beat.",
+      evidence: "No trial compares them. ASFA grades prophylactic exchange 1C on 3 case series and 3 case reports; BSH grades its recommendation C1; mSMART grades its own level 3, grade A. Gertz: \"It is unproven that preemptive plasma exchange in asymptomatic patients with IgM levels >5000 prevent complications when compared with close monitoring following rituximab and the initiation of treatment if symptoms develop.\" How often a flare happens also differs by source: ASFA says 30% to 70% of patients within 4 weeks of starting rituximab; Gertz says 22%; in an Eastern Cooperative Oncology Group study of rituximab alone, IgM rose in 29 of 54 patients (54%) and was still raised at 4 months in 4 of 15, and no predicting factor was found.",
+      sources: ["asfa-2026", "bsh-wm-2022", "msmart-2016", "gertz-2018", "ghobrial-2004"],
     },
     {
       name: "The viscosity level at which to consider the syndrome or to exchange without symptoms",
@@ -181,7 +195,7 @@ export const hyperviscositySyndromePlasmaExchange = protocol({
     },
     {
       name: "Maintenance plasma exchange where systemic treatment cannot be given",
-      differs: "Repeated exchange every 1 to 4 weeks, guided by symptoms or retinal changes, to keep a person below the level at which their own symptoms appear. ASFA: \"Pregnant patients and those who are unable to receive systemic therapy may be candidates for maintenance TPE.\"",
+      differs: "Repeated exchange every 1 to 4 weeks, guided by symptoms or retinal changes, to keep a person below the level at which their own symptoms appear, either while chemotherapy is being started or where it cannot be given. ASFA: \"Pregnant patients and those who are unable to receive systemic therapy may be candidates for maintenance TPE.\"",
       evidence: "Described in the ASFA fact sheet without a separate grade. It holds the protein down while it lasts and does not treat the disease.",
       sources: ["asfa-2026"],
     },
@@ -199,12 +213,15 @@ export const hyperviscositySyndromePlasmaExchange = protocol({
     { claim: "Hyperviscosity is an emergency, an indication for plasma exchange and an indication for definitive treatment", grade: "Grade A1", source: "bsh-wm-2022", quote: "This is also an indication for definitive treatment" },
     { claim: "Defer rituximab or perform prophylactic plasmapheresis when IgM or M-protein is above 40 g/L", grade: "Grade C1", source: "bsh-wm-2022" },
     { claim: "Monitor IgM, symptoms and plasma viscosity in everyone given rituximab", grade: "Grade A1", source: "bsh-wm-2022" },
+    { claim: "Start plasma exchange promptly for hyperviscosity syndrome, before cytoreductive therapy", grade: "level 3, grade B", source: "msmart-2016", quote: "Therapeutic plasma exchange should be promptly initiated for hyperviscosity syndrome, prior to commencement of cytoreductive therapy" },
+    { claim: "Rituximab alone is contraindicated in symptomatic hyperviscosity and, without pre-emptive plasmapheresis, best avoided at a very high IgM", grade: "level 3, grade A", source: "msmart-2016", quote: "Rituximab monotherapy is contraindicated in patients with symptomatic hyperviscosity, and, without preemptive plasmapheresis, is best avoided in patients with very high serum IgM" },
     { claim: "A single-volume exchange lowers the paraprotein by about 40%, and 1 to 3 procedures are usually needed", grade: "ungraded text", source: "bsh-wm-2022", quote: "Single-volume plasma exchange will reduce the paraprotein by approximately 40%. It usually takes 1–3 procedures for symptoms and viscosity to reduce." },
     { claim: "Consider hyperviscosity when viscosity is above 3 mPas", grade: "ungraded text", source: "bsh-wm-2022", quote: "approximately half of 85 patients with symptomatic HVS had a serum viscosity less that 4 mPas and so it should be considered if greater than 3 mPas" },
     { claim: "Each exchange lowers viscosity by 20% to 30%, so about 1 to 2 are needed for IgM", grade: "ungraded text", source: "asfa-2026", quote: "Each TPE reduces viscosity by 20%–30%. Therefore, only about 1–2 TPE are needed." },
     { claim: "IgM returns to baseline about 3 to 5 weeks after exchange", grade: "ungraded text", source: "asfa-2026", quote: "After about 3–5 weeks following TPE, serum IgM levels return to baseline." },
     { claim: "Withholding red cell transfusion in stable patients until viscosity is normal has no trial evidence", grade: "ungraded (narrative review)", source: "gertz-2018", quote: "Although there is no scientific proof, there is a theoretical argument that could be made to withhold transfusion in hemodynamically stable patients until serum viscosity is normalized in order to avoid the rheological impact of adding red cells to the circulation." },
-    { claim: "Retinal signs can be present without visual symptoms and are a reason to treat", grade: "ungraded (narrative review)", source: "weaver-2020", quote: "Due to the high prevalence of ophthalmologic manifestations of HVS, a fundoscopic examination should be performed in any patient with suspected HVS or with a serum IgM > 3 g/dL." },
+    { claim: "Retinal signs can be present without visual symptoms and are a reason to treat", grade: "ungraded (narrative review)", source: "weaver-2020", quote: "Epistaxis is a common presenting symptom, and if present in a patient with a possible paraproteinemia, should prompt additional evaluation for HVS, particularly fundoscopic examination, as evidence of ocular HVS can be present without visual symptoms and is a treatment indication." },
+    { claim: "Fundoscopy for anyone with suspected hyperviscosity or a serum IgM above 3 g/dL", grade: "ungraded (narrative review)", source: "weaver-2020", quote: "Due to the high prevalence of ophthalmologic manifestations of HVS, a fundoscopic examination should be performed in any patient with suspected HVS or with a serum IgM > 3 g/dL." },
     { claim: "Add rituximab only once IgM is below 4,000 mg/dL", grade: "ungraded (narrative review)", source: "weaver-2020", quote: "However, given the risk of rituximab induced IgM flare, the addition of rituximab is recommended only when the serum IgM level is <4,000 mg/dL." },
     { claim: "Severe adverse events with plasma exchange: 1.0% in a European registry of over 7,000 patients", grade: "ungraded (narrative review)", source: "weaver-2020", quote: "In general, TPE is a safe procedure, with a severe adverse event rate of 1.0% in a European registry study of over 7,000 patients undergoing filtration-based exchange" },
   ],
@@ -228,6 +245,17 @@ export const hyperviscositySyndromePlasmaExchange = protocol({
       url: "https://doi.org/10.1111/bjh.18036",
       doi: "10.1111/bjh.18036",
       gradingScheme: "GRADE nomenclature for the level of evidence and the strength of the recommendation, printed after each recommendation as a letter and a number (Grade A1, Grade B1, Grade C1, Grade B2); statements in the body text carry no grade.",
+      read: "full-text",
+      accessed: "2026-11-16",
+    },
+    {
+      key: "msmart-2016",
+      label: "Diagnosis and Management of Waldenström Macroglobulinemia: Mayo Stratification of Macroglobulinemia and Risk-Adapted Therapy (mSMART) Guidelines 2016",
+      publisher: "JAMA Oncology (Kapoor et al., Mayo Clinic; read as the author manuscript on PubMed Central, supplement not read)",
+      year: 2017,
+      url: "https://doi.org/10.1001/jamaoncol.2016.5763",
+      doi: "10.1001/jamaoncol.2016.5763",
+      gradingScheme: "A level of evidence from 1 (meta-analysis or high-powered randomised trials) to 5 (case reports) and a grade of recommendation from A (type 1 evidence, or consistent findings from multiple studies of type 2, 3 or 4) to D (minimal or no systematic empirical evidence), printed after each recommendation as, for example, (level 3, grade B). Level 3 is well-designed quasi-experimental studies such as non-randomised, cohort or matched case-control series.",
       read: "full-text",
       accessed: "2026-11-16",
     },
@@ -312,11 +340,11 @@ export const hyperviscositySyndromePlasmaExchange = protocol({
   gaps: [
     "No randomised trial of plasma exchange for hyperviscosity exists in the sources read: the ASFA fact sheet counts 0 randomised trials, 3 controlled trials and more than 10 case series for symptomatic disease, and 3 case series and 3 case reports for prophylaxis before rituximab.",
     "Whether plasma exchange before rituximab prevents harm better than deferring rituximab or watching closely has not been tested; ASFA and BSH recommend acting at an IgM of 4 g/dL (40 g/L) on low-grade evidence and Gertz 2018 calls pre-emptive exchange unproven.",
-    "Holding red cell transfusion until viscosity is lowered rests on a theoretical argument. Gertz 2018 says there is no scientific proof; neither the ASFA fact sheet nor the BSH guideline mentions transfusion in this setting.",
-    "The ESMO guideline on Waldenström's macroglobulinaemia (2018) could not be read: the journal site returned 403 to a script, Europe PMC holds no abstract or full text, and the ESMO page serves no text to a script. Nothing here rests on it.",
-    "The full reports of the International Workshop consensus panels (2020 and 2023), the NCCN guideline and the Mayo mSMART guideline were not read; only the abstract of the 2023 panel 1 report is cited.",
-    "No myeloma guideline that could be read addresses hyperviscosity. The BSH myeloma guideline of 2021 could not be read (no abstract, publisher 403), and the myeloma content here comes from the ASFA fact sheet and two reviews.",
+    "Caution with red cell transfusion until viscosity is lowered rests on a theoretical argument. Gertz 2018 says there is no scientific proof and Weaver 2020 speaks only of avoiding excessive transfusion; neither the ASFA fact sheet nor the BSH guideline mentions transfusion in this setting.",
+    "The ESMO guideline on Waldenström's macroglobulinaemia (2018, with a correction in 2019; Europe PMC lists no later edition) could not be read. On 16 November 2026 the journal site again returned 403 to a script, Europe PMC holds no abstract or full text, and the ESMO page serves no guideline text to a script. Nothing here rests on it.",
+    "The full reports of the International Workshop consensus panels (2020 and 2023) and the NCCN guideline were not read; only the abstract of the 2023 panel 1 report is cited, and on 16 November 2026 the publisher's page for it returned 403 to a script. The Mayo mSMART guideline of 2016, unreadable at first writing, was read on 16 November 2026 as the author manuscript on PubMed Central; its supplement, which holds its detail on plasma exchange, was not read, and any later version published only on the mSMART website was not checked.",
+    "No myeloma guideline that could be read addresses hyperviscosity. The BSH myeloma guideline of 2021 could not be read (no abstract, and the publisher returned 403 again on 16 November 2026), and the myeloma content here comes from the ASFA fact sheet and two reviews.",
     "The sources print viscosity in different units and against different references (cp or cP relative to water in ASFA, mPas in BSH, plasma in some places and serum in others), so their thresholds cannot be lined up exactly.",
-    "None of the sources read gives a time target, such as hours from recognition to the first exchange, and none addresses children.",
+    "None of the sources read gives a time target, such as hours from recognition to the first exchange: they say prompt, promptly or emergency. None gives guidance for children.",
   ],
 });

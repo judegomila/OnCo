@@ -13,21 +13,32 @@ import { ASTCT_2026, EBMT_2019, SITC_IEC_2020 } from "./cell-therapy-sources";
  *   paragraph): full text, see ./cell-therapy-sources.ts.
  * - ASTCT 2026 updated consensus grading: abstract only, see ./cell-therapy-sources.ts.
  * Quotes checked by script against the raw text.
+ *
+ * Second accuracy pass, 16 November 2026: every source fetched raw again and each claim re-read against the text.
+ * - ASTCT 2023 (Hines et al.): PMC10330221 through NCBI efetch again (Europe PMC's full-text service still returned an
+ *   error), with the tables and the Figure 3 legend. The publisher's erratum (DOI 10.1016/j.jtct.2025.09.016,
+ *   PMC12677140) was read too: it says the anakinra dose in Table 3 is in mg, not mcg, as the manuscript read here
+ *   already prints.
+ * - SITC 2020 (PMC7745688) and EBMT/JACIE 2019 (PMC7012497): Europe PMC full-text XML.
+ * - ASTCT 2026: still abstract only; the DOI leads to a subscription page. The EBMT 2025 recommendations on less
+ *   frequent CAR T-cell complications, HLH among them, were found and read as their abstract only.
+ * Quotes re-checked by script; three match once the reference-number markers the XML carries inside the sentence are
+ * dropped with their tags (two in ASTCT 2023, one in SITC 2020).
  */
 export const iecHsManagement = protocol({
   id: "iec-hs-management",
   name: "IEC-HS after CAR T-cell therapy: recognition and stepwise treatment",
   aka: ["IEC-HS", "immune effector cell-associated HLH-like syndrome", "carHLH", "HLH/MAS after CAR T", "macrophage activation syndrome after CAR T", "MAS-L"],
   domain: "cell-therapy-toxicity",
-  tldr: "Rarely after CAR T-cell therapy the immune system stays switched on after cytokine release syndrome has settled, and starts damaging the blood, liver and clotting (IEC-HS). It shows as very high ferritin, falling blood counts, low clotting proteins and liver test changes. It is treated with anakinra and steroids, adding other drugs if it worsens, while infection and relapse are ruled out.",
-  simple: "After CAR T-cell therapy a rare, serious inflammation can follow the early fever. It is found on blood tests and treated in hospital with medicines that calm the immune system.",
-  summary: "ASTCT 2023 named and defined IEC-HS: a hyperinflammatory syndrome with features of macrophage activation or HLH, attributable to immune effector cell therapy, with new or worsening cytopenias, hyperferritinaemia, coagulopathy with hypofibrinogenaemia and/or transaminitis. It usually follows CRS and appears as CRS resolves; it is a diagnosis of exclusion, and a substantially raised (more than twice the upper limit or baseline) or rapidly rising ferritin is a prerequisite. Fever is deliberately not a criterion, to keep it distinct from CRS. Grading (Table 2) follows CTCAE 'immune system disorder, other', grade 1 to 5.\n\nTreatment (expert opinion, Figure 3 and Table 3): start before life-threatening complications with anakinra (adults 100 to 200 mg subcutaneous or intravenous every 6 to 12 hours) with or without corticosteroids (adults dexamethasone 10 to 40 mg daily), allowing about 48 hours to judge effect before adding agents; ruxolitinib second line, dose-reduced with azoles or renal impairment; for refractory life-threatening disease, etoposide 50 to 100 mg/m2 once (not HLH-94 induction doses), or emapalumab where IFN-gamma is high (debated). Tocilizumab is discouraged for IEC-HS without CRS. Supportive: daily blood count, PT/PTT and fibrinogen, daily renal and liver tests, fibrinogen replacement, transfusion, cautious G-CSF, infectious disease input and prophylaxis matched to the immunosuppression. SITC 2020 (LE: 4): cryoprecipitate for delayed hypofibrinogenaemia, anakinra and steroids for late tocilizumab-refractory HLH/MAS-like toxicity, etoposide only as a last resort.",
-  asOf: "2026-11-11",
+  tldr: "Sometimes after CAR T-cell therapy the immune system stays switched on after cytokine release syndrome has settled, and starts damaging the blood, liver and clotting (IEC-HS). It shows as very high ferritin, falling blood counts, low clotting proteins and liver test changes. It is treated with anakinra, steroids or both, adding other drugs if it worsens, while infection and relapse are ruled out.",
+  simple: "After CAR T-cell therapy a serious inflammation can follow the early fever. It is found on blood tests and treated in hospital with medicines that calm the immune system.",
+  summary: "ASTCT 2023 named and defined IEC-HS: a hyperinflammatory syndrome with features of macrophage activation or HLH, attributable to immune effector cell therapy, with new or worsening cytopenias, hyperferritinaemia, coagulopathy with hypofibrinogenaemia and/or transaminitis. It is often delayed and appears as CRS is resolving or has resolved; it is a diagnosis of exclusion, and a substantially raised (more than twice the upper limit or baseline) or rapidly rising ferritin is a prerequisite. Fever is deliberately not a criterion, to keep it distinct from CRS. Grading (Table 2) is based largely on the CTCAE category 'immune system disorder, other', grade 1 to 5.\n\nTreatment (expert opinion, Figure 3 and Table 3): start before life-threatening complications with anakinra (adults 100 to 200 mg subcutaneous or intravenous every 6 to 12 hours), corticosteroids (adults dexamethasone 10 to 40 mg daily) or both, allowing where possible about 48 hours to judge effect before adding agents; ruxolitinib second line (adults 10 mg twice daily), dose-reduced with azoles or renal impairment; for refractory life-threatening disease the panel reached no consensus, and discussed etoposide 50 to 100 mg/m2 once, with re-dosing weekly considered (not HLH-94 induction doses), or emapalumab where IFN-gamma is high. Tocilizumab is discouraged for IEC-HS without CRS. Supportive: daily blood count, PT/PTT and fibrinogen, frequent (for example daily) renal and liver tests, fibrinogen replacement, transfusion, cautious G-CSF, infectious disease input and prophylaxis matched to the immunosuppression. SITC 2020 (LE: 4): cryoprecipitate for delayed hypofibrinogenaemia; anakinra and steroids may be considered for late HLH/MAS-like toxicity, which may be tocilizumab-refractory; etoposide only as a last resort.",
+  asOf: "2026-11-16",
   setting: {
     who: ["doctor", "nurse", "pharmacist", "multidisciplinary-team"],
     where: ["ward", "intensive-care"],
   },
-  population: "Adults and children after CAR T-cell therapy (CD19, CD22 or BCMA directed), usually as cytokine release syndrome is resolving. The ASTCT panel notes similar toxicity after bispecific T-cell engagers, but its framework was built on CAR T-cell experience. Paediatric starting doses differ (ASTCT Table 3).",
+  population: "Adults and children after CAR T-cell therapy (CD19, CD22 or BCMA directed), often as cytokine release syndrome is resolving. The ASTCT framework was built on CAR T-cell experience; the panel lists bispecific T-cell engagers among the treatments that can trigger secondary HLH, and names how the syndrome differs after them as future research. Paediatric starting doses differ (ASTCT Table 3).",
   trigger: "Rising ferritin with new or worsening cytopenias, falling fibrinogen or rising liver enzymes after CAR T-cell infusion, typically as CRS settles.",
   steps: [
     {
@@ -62,19 +73,19 @@ export const iecHsManagement = protocol({
     },
     {
       action: "Replace fibrinogen (cryoprecipitate) when it falls",
-      why: "Low fibrinogen out of proportion to other clotting tests is a hallmark and causes delayed, severe bleeding.",
+      why: "Fibrinogen falling out of proportion to the other clotting tests may be a hallmark of the late form, and needs close follow-up.",
       source: "sitc-iec-2020",
       quote: "Delayed coagulopathy may possibly be one hallmark of delayed onset HLH/MAS-like toxicity, typically hypofibrinogenemia disproportionately worse than changes in PT/PTT, which requires close follow-up and replacement with cryoprecipitate",
       grade: "LE: 4",
     },
     {
-      action: "Start anakinra, with or without corticosteroids, before life-threatening complications, and allow about 48 hours to judge the effect before adding another drug",
+      action: "Start anakinra, corticosteroids or both before life-threatening complications, and where possible allow about 48 hours to judge the effect before adding another drug",
       why: "Early treatment may stop it progressing; piling on drugs too fast adds infection risk.",
       source: "astct-iechs-2023",
       quote: "Therapy should generally be initiated with corticosteroids +/− anakinra prior to development of life-threatening complications and, if possible, a time interval to evaluate for efficacy (e.g., 48 hours) should elapse before additional agents are added to avoid cumulative toxicity of multiple immunosuppressive agents.",
     },
     {
-      action: "Do not give tocilizumab for IEC-HS without CRS features",
+      action: "Avoid tocilizumab for IEC-HS without CRS features",
       why: "There is no evidence it works in HLH-like illness, and most patients have already had it for CRS.",
       source: "astct-iechs-2023",
       quote: "Additionally, despite established efficacy in CRS, use of tocilizumab or other IL-6 blocking agents (e.g., siltuximab) for IEC-HS, without CRS manifestations, was specifically discouraged due to lack of evidence for efficacy in any HLH-related context, and since most patients will have already received tocilizumab prior to the onset of IEC-HS.",
@@ -106,8 +117,8 @@ export const iecHsManagement = protocol({
     },
   ],
   bestInClass: {
-    statement: "The ASTCT 2023 consensus is the only document that defines, grades and sets out treatment for IEC-HS as a named syndrome, and is the best available source; its treatment advice is expert opinion, stated by the panel as not evidence-based. SITC 2020, written before the term existed, agrees on the shape: cryoprecipitate for disproportionate hypofibrinogenaemia, anakinra and steroids for late tocilizumab-refractory HLH/MAS-like toxicity, and etoposide only as a last resort (all LE: 4). The two differ in emphasis on etoposide: SITC limits it to a last resort; ASTCT also places it after first- and second-line therapy but gives a moderate single dose (50 to 100 mg/m2, possibly weekly) and advises against HLH-94 induction dosing. EBMT/JACIE 2019 says only that delayed macrophage activation syndrome is managed with standard approaches. The ASTCT 2026 update to the consensus grading, which includes IEC-HS, was read only as its abstract.",
-    sources: ["astct-iechs-2023", "sitc-iec-2020", "ebmt-2019", "astct-2026"],
+    statement: "The ASTCT 2023 consensus is the document that named IEC-HS, and of the sources read in full here it is the only one that defines it, grades it and sets out its treatment; its treatment advice is expert opinion, stated by the panel as not evidence-based. SITC 2020, written before the term existed, agrees on the shape: cryoprecipitate for disproportionate hypofibrinogenaemia, anakinra and steroids as agents that may be considered for late HLH/MAS-like toxicity, and etoposide only as a last resort (all LE: 4). The two differ in emphasis on etoposide: SITC limits it to a last resort; ASTCT also places it after first- and second-line therapy, reached no clear consensus on how best to use it, suggests a moderate single dose (50 to 100 mg/m2, with weekly re-dosing considered) and advises against HLH-94 induction dosing. EBMT/JACIE 2019 says only that delayed macrophage activation syndrome is managed with standard approaches. The ASTCT 2026 update to the consensus grading, which includes IEC-HS, and the EBMT 2025 best practice recommendations on less frequent CAR T-cell complications, which cover HLH, were read only as their abstracts.",
+    sources: ["astct-iechs-2023", "sitc-iec-2020", "ebmt-2019", "astct-2026", "ebmt-less-frequent-2025"],
   },
   variants: [
     {
@@ -119,7 +130,7 @@ export const iecHsManagement = protocol({
     {
       name: "Switching off the CAR T cells with a safety switch (ASTCT 2023)",
       differs: "For constructs carrying a targetable safety switch (for example truncated EGFR, targeted by cetuximab), turning the CAR T cells off is considered before etoposide in rapidly progressive disease.",
-      evidence: "Expert opinion; applies only to constructs that carry such a switch, which commercial products in the sources do not describe.",
+      evidence: "Expert opinion; applies only to constructs that carry such a switch.",
       sources: ["astct-iechs-2023"],
     },
     {
@@ -151,17 +162,30 @@ export const iecHsManagement = protocol({
       doi: "10.1016/j.jtct.2023.03.006",
       gradingScheme: "Expert consensus of a 30-member ASTCT panel; treatment recommendations are stated to be derived from expert opinion and not evidence-based. Grading of IEC-HS severity follows CTCAE 'immune system disorder, other' (grades 1 to 5).",
       read: "full-text",
-      accessed: "2026-11-11",
+      accessed: "2026-11-16",
     },
-    SITC_IEC_2020,
-    EBMT_2019,
-    ASTCT_2026,
+    { ...SITC_IEC_2020, accessed: "2026-11-16" },
+    { ...EBMT_2019, accessed: "2026-11-16" },
+    { ...ASTCT_2026, accessed: "2026-11-16" },
+    {
+      key: "ebmt-less-frequent-2025",
+      label: "Less frequent complications following CAR T-cell therapies: hemophagocytic lymphohistiocytosis, graft-versus-host disease, thrombotic microangiopathy, coagulation disorders and secondary malignancies: best practice recommendations from the EBMT Practice Harmonization and Guidelines Committee",
+      publisher: "EBMT Practice Harmonization and Guidelines Committee, Bone Marrow Transplantation",
+      year: 2025,
+      url: "https://europepmc.org/abstract/MED/40205032",
+      doi: "10.1038/s41409-025-02567-5",
+      gradingScheme: "Best practice recommendations; the abstract gives no grades.",
+      read: "abstract",
+      accessed: "2026-11-16",
+    },
   ],
   upgrades: [],
   gaps: [
-    "The ASTCT 2026 updated consensus grading, which reconsidered the IEC-HS criteria, was read only as its abstract; whether the definition or grade boundaries above changed is not known here.",
+    "The ASTCT 2026 updated consensus grading, which reconsidered the IEC-HS criteria, was read only as its abstract; whether the definition or grade boundaries above changed is not known here. On 16 November 2026 its full text was still behind a subscription and no open copy was found.",
+    "Newer European guidance exists and could not be read in full. On 16 November 2026 the EBMT 2025 best practice recommendations on less frequent CAR T-cell complications, which cover HLH, and the EBMT/JACIE/EHA 2022 recommendations that replace the 2019 edition cited here, were available only as abstracts; what they advise for IEC-HS is not reflected above.",
+    "The publisher issued an erratum to the ASTCT 2023 paper (DOI 10.1016/j.jtct.2025.09.016): the anakinra dose in Table 3 is in mg, not mcg, as printed in the manuscript read here and in the summary above.",
     "No prospective trial of any IEC-HS treatment exists in the sources read; every treatment step is expert opinion or LE: 4.",
-    "The ASTCT panel reached no consensus on etoposide, emapalumab or other salvage agents, and on how fast to taper; the role of pre-emptive treatment is unknown.",
+    "The ASTCT panel reached no consensus on etoposide, emapalumab or other salvage agents; it calls the best approach to tapering unclear and the role of pre-emptive treatment unknown.",
     "The ASTCT diagnostic table (Table 1) and Figure 3 drawing were read as text and legend only; the figure image itself was not read.",
     "Whether the same framework applies after bispecific T-cell engagers is named as future research by the ASTCT panel.",
   ],

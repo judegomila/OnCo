@@ -4,20 +4,29 @@ import { protocol } from "./helpers";
  * Recognising and treating an infusion reaction (allergic, anaphylactic or cytokine-release type) during anticancer
  * treatment, and deciding whether to give the drug again.
  *
- * What was read, and how (all on 11 November 2026, fetched raw into a scratch directory and read as text):
+ * First written on 11 November 2026. Second accuracy pass on 16 November 2026: every source was fetched again raw into
+ * a scratch directory and each claim, quote and grade checked against the text (quotes by script, whitespace only).
  * - ESMO Clinical Practice Guidelines, management of infusion reactions to systemic anticancer therapy (Roselló et al.,
- *   Ann Oncol 2017; 28 suppl 4): full text. The publisher's pages refuse a script and Europe PMC holds no full text, so
- *   the article HTML was read from the Internet Archive's capture of annalsofoncology.org (1 May 2024), stripped to
- *   text and searched. No newer ESMO guideline on infusion reactions was found. Grades are quoted as printed.
+ *   Ann Oncol 2017; 28 suppl 4: iv100-iv118): full text, re-read on 16 November 2026. annalsofoncology.org returns 403 to
+ *   a script and Europe PMC holds no full text, so the article HTML was read from the Internet Archive's capture of
+ *   annalsofoncology.org (1 May 2024), stripped to text and searched. A correction notice exists (Ann Oncol 2018; 29
+ *   suppl 4: iv260, doi 10.1093/annonc/mdy158): the publisher refused it, no archive capture exists, and PubMed and
+ *   Europe PMC hold no text, so what it corrects is not known. No newer ESMO guideline on infusion reactions was found
+ *   in Europe PMC. Grades are quoted as printed.
  * - Resuscitation Council UK, Emergency treatment of anaphylaxis: guidelines for healthcare providers (May 2021): full
- *   text of the PDF from resus.org.uk, with pdftotext.
- * - EAACI position paper, hypersensitivity reactions to chemotherapy (Allergy 2022): abstract only.
- * - ASCO-ONS administration safety standards (2024): full text (see sact-administration-checks-at-the-chair); cited for
- *   the requirement that reaction drugs and order sets are at hand.
+ *   text of the PDF from resus.org.uk, with pdftotext, re-read on 16 November 2026. The RCUK anaphylaxis page says that
+ *   day that the May 2021 version is the most recent.
+ * - EAACI position paper, hypersensitivity reactions to chemotherapy (Allergy 2022; 77): abstract only, from Europe
+ *   PMC, again on 16 November 2026. Wiley returns 403 to a script and there is no PubMed Central copy.
+ * - ASCO-ONS administration safety standards (2024): read in full on 11 November 2026 from an Internet Archive capture
+ *   (see sact-administration-checks-at-the-chair). NOT re-read on 16 November 2026: ascopubs.org returned 403, there is
+ *   no PubMed Central copy, and the archive fetch was not permitted in the checking session. Its one quote and the
+ *   standard number rest on the first reading.
+ * - European Medicines Agency, ranitidine referral page: read raw on 16 November 2026, for the EU suspension only.
  * - World Allergy Organization anaphylaxis guidance 2020: identified (PMC7607509), not read; not cited.
  *
- * Every DOI was resolved through Europe PMC or Crossref and its title checked. Quotes are copied from the raw text with
- * line breaks joined; where a sentence carries an inline reference, the quote stops before it.
+ * Every DOI was resolved through Crossref and Europe PMC and its title checked. Quotes are copied from the raw text
+ * with line breaks joined; where a sentence carries an inline reference, the quote stops before it.
  */
 export const infusionReactionManagement = protocol({
   id: "infusion-reaction-management",
@@ -26,13 +35,13 @@ export const infusionReactionManagement = protocol({
   domain: "chemotherapy-administration",
   tldr: "Some cancer drugs can cause a reaction while they go in: flushing, itching, a rash, chills, tightness in the chest or throat, or feeling faint. Tell the nurse at once. They will stop the drip and check you; most reactions are mild and settle, and many people can then carry on more slowly. A severe allergic reaction (anaphylaxis) is treated at once with an adrenaline injection into the thigh.",
   simple: "If you feel strange, itchy, flushed, short of breath or faint during your drip, say so at once. The nurse will stop it and help you. It is common and is treated quickly.",
-  summary: "ESMO (2017) is the only oncology guideline read; it is mostly graded [V, C] (expert opinion), because reactions are unpredictable and hard to study in trials. Preparation: ask about allergy and atopy, check oral premedication was taken, have the protocol and resuscitation equipment at hand (ESMO [V, C]; ASCO-ONS 2024 standard 3.12.7). Early odd sensations or an urge to pass urine or stool can precede a reaction and warrant blood pressure and pulse.\n\nManagement: stop the drug, keep the line, assess airway, breathing, circulation and consciousness, call for help, oxygen if needed. Anaphylaxis is treated with intramuscular adrenaline into the anterolateral thigh: ESMO gives 0.01 mg/kg up to 0.5 mL of 1 mg/mL [IV, B], repeatable every 5 to 15 minutes [V, C]; Resuscitation Council UK (2021) gives 500 micrograms for adults and repeats after 5 minutes if problems persist, with IV fluids early for shock. The two differ on adjuncts: ESMO recommends H1 plus H2 antihistamines [I, B] and allows corticosteroids against biphasic reactions [V, D]; RCUK calls antihistamines third-line, for skin symptoms after stabilisation, and no longer advises corticosteroids routinely (very low-certainty evidence). RCUK keeps the patient supine and warns against sudden sitting or standing.\n\nCytokine-release type reactions to antibodies (rituximab, for example) are managed by stopping, symptomatic treatment and restarting at half the rate [IV, B]. Document with a CTCAE grade [V, B]. Rechallenge with a slower rate and more premedication usually succeeds [V, C], but ESMO advises against rechallenge after grade 3 or higher or true anaphylaxis [V, B]; desensitisation in experienced centres is the alternative. RCUK refers everyone with anaphylaxis to an allergy clinic and measures tryptase when the diagnosis is uncertain.",
-  asOf: "2026-11-11",
+  summary: "ESMO (2017) is the only oncology guideline on reactions read; most of its recommendations are graded [V, C] (level V is uncontrolled studies, case reports and expert opinion; grade C is optional), and it says reactions are hard to study in prospective randomised trials because they are unexpected. Preparation: ask about allergy and atopy, check oral premedication was taken, have the protocol and resuscitation equipment at hand (ESMO [V, C]; ASCO-ONS 2024 standard 3.12.7). Early odd sensations or an urge to pass urine or stool can precede a reaction and warrant blood pressure and pulse.\n\nManagement: stop the drug, keep the line, assess airway, breathing, circulation and consciousness, call for medical help, oxygen if needed (ESMO, each [V, C]). Anaphylaxis is treated with intramuscular adrenaline into the thigh: ESMO gives 0.01 mg/kg up to 0.5 mL of 1 mg/mL into the lateral thigh [IV, B], repeatable every 5 to 15 minutes [V, C]; Resuscitation Council UK (2021) gives 500 micrograms into the anterolateral thigh for adults and children over 12 and repeats after 5 minutes if problems persist, with IV fluids early for shock. The two differ on position: ESMO advises the Trendelenburg position for low blood pressure and sitting up for respiratory distress [V, C]; RCUK keeps the patient lying flat, with or without the legs raised, allows a semi-recumbent position if that makes breathing easier, and warns that standing, walking or sitting up suddenly can be fatal. They also differ on adjuncts: ESMO rates combined H1 and H2 antihistamines as superior to either alone [I, B], and says corticosteroids prevent biphasic reactions but are not critical, graded [V, D] (D is generally not recommended in its scheme), with a dose if they are given [V, C]; RCUK calls antihistamines third-line, for skin symptoms after stabilisation, and no longer advises corticosteroids routinely (very low-certainty evidence).\n\nCytokine-release type reactions to antibodies (rituximab, for example) are managed by stopping, symptomatic treatment and restarting at half the rate [IV, B]. Document with a CTCAE grade [V, B]. Rechallenge with a slower rate and more premedication usually succeeds [V, C], but ESMO advises against rechallenge after grade 3 or higher or true anaphylaxis [V, B]; for people whose reactions recur despite premedication it describes desensitisation in experienced centres, with varying success. ESMO advises an allergist's opinion when anaphylaxis is strongly suspected [V, B]; RCUK refers everyone with anaphylaxis to an allergy clinic and measures tryptase when the diagnosis is uncertain.",
+  asOf: "2026-11-16",
   setting: {
     who: ["nurse", "doctor", "pharmacist"],
     where: ["chemotherapy-day-unit", "ward", "home"],
   },
-  population: "Adults receiving intravenous anticancer drugs, chemotherapy or antibodies. ESMO's adrenaline dose is weight-based; the RCUK guideline covers adults and children with separate doses. Cytokine release syndrome after CAR-T cells or bispecific antibodies has its own grading and treatment and is not covered here.",
+  population: "People receiving intravenous anticancer drugs, chemotherapy or antibodies; ESMO's guideline states no age range. ESMO's adrenaline dose is weight-based; the RCUK guideline covers adults and children with separate doses, and the dose in the steps is its dose for adults and children over 12. Cytokine release syndrome after CAR-T cells or bispecific antibodies has its own grading and treatment and is not covered here.",
   trigger: "During or soon after an infusion, the patient develops flushing, itch, rash, chills, fever, chest or back pain, breathlessness, wheeze, throat tightness, dizziness, low blood pressure, or says they feel odd.",
   steps: [
     {
@@ -44,7 +53,7 @@ export const infusionReactionManagement = protocol({
     },
     {
       action: "If premedication was to be taken by mouth, check the patient actually took it",
-      why: "A missed steroid dose before a taxane, for example, raises the chance of a reaction.",
+      why: "Some premedication is taken at home, such as the dexamethasone tablets started the day before docetaxel, so a dose can be missed without anyone knowing.",
       source: "esmo-2017",
       quote: "If premedications are to be taken orally, oncology nurses should check that the patient has actually taken them",
       grade: "[V, C]",
@@ -71,14 +80,14 @@ export const infusionReactionManagement = protocol({
       grade: "[V, C]",
     },
     {
-      action: "Assess airway, breathing, circulation and consciousness; keep the patient lying flat, or sitting if breathing is easier, and do not let them stand or sit up suddenly",
-      why: "In anaphylaxis, sitting or standing up suddenly can make blood pressure collapse.",
+      action: "Assess airway, breathing, circulation and consciousness; keep the patient lying flat, or half sitting (semi-recumbent) if that makes breathing easier, and do not let them stand, walk or sit up suddenly",
+      why: "In anaphylaxis, sitting or standing up suddenly can make the circulation collapse. ESMO words the position differently: head down (Trendelenburg) for low blood pressure and sitting up for respiratory distress [V, C].",
       source: "rcuk-2021",
       quote: "Changes in posture from supine to standing or sitting upright have been associated with cardiovascular collapse and death during anaphylaxis.",
     },
     {
-      action: "If it is anaphylaxis, give adrenaline into the muscle of the outer thigh (adult 500 micrograms, 0.5 mL of 1 mg/mL), and repeat after 5 minutes if breathing or circulation problems persist",
-      why: "Adrenaline is the only drug that reverses the airway swelling, wheeze and collapse of anaphylaxis; delay is the main avoidable cause of death.",
+      action: "If it is anaphylaxis, give adrenaline into the muscle of the outer thigh (adults and children over 12: 500 micrograms, 0.5 mL of 1 mg/mL), and repeat after 5 minutes if airway, breathing or circulation problems persist",
+      why: "RCUK calls adrenaline the most important drug in anaphylaxis: it opens the airways and reverses the fall in blood pressure. It seems to work best given early, and delay is associated with longer reactions, low blood pressure and deaths.",
       source: "rcuk-2021",
       quote: "Repeat IM adrenaline after 5 minutes if Airway/Breathing/Circulation problems persist.",
     },
@@ -89,21 +98,21 @@ export const infusionReactionManagement = protocol({
       quote: "IV fluids are recommended for refractory anaphylaxis, and must be given early if hypotension or shock is present.",
     },
     {
-      action: "Do not let antihistamines or steroids delay adrenaline; once the patient is stable, a non-sedating antihistamine can treat itch and hives",
-      why: "Antihistamines help the skin but do nothing for the life-threatening part of the reaction.",
+      action: "Do not give antihistamines or steroids ahead of adrenaline; once the patient is stable, a non-sedating antihistamine by mouth can treat skin symptoms such as hives",
+      why: "Antihistamines help the skin but do nothing for the life-threatening part of the reaction, and giving them first can delay adrenaline.",
       source: "rcuk-2021",
       quote: "Antihistamines are considered a third-line intervention and should not be used to treat Airway/Breathing/Circulation problems during initial emergency treatment.",
     },
     {
       action: "For a cytokine-release type reaction to an antibody, stop briefly, treat the symptoms, then restart at half the rate and increase as tolerated",
-      why: "These reactions, common with the first dose of drugs such as rituximab, usually settle and become milder with later doses.",
+      why: "These reactions are typically seen with the first treatment with an antibody, in the first hours after the infusion; most are mild to moderate, and a reaction becomes less likely with each later course.",
       source: "esmo-2017",
       quote: "After resolution of symptoms, the infusion can be restarted at half the rate and titrated to tolerance",
       grade: "[IV, B]",
     },
     {
       action: "If the diagnosis of anaphylaxis is uncertain, take blood for mast cell tryptase",
-      why: "A raised tryptase supports the diagnosis, which matters for deciding whether the drug can ever be given again.",
+      why: "A raised tryptase can help confirm afterwards that the reaction was anaphylaxis. Taking the sample must not delay treatment.",
       source: "rcuk-2021",
       quote: "Mast cell tryptase should be measured in all patients with suspected anaphylaxis where the diagnosis is uncertain.",
     },
@@ -123,33 +132,33 @@ export const infusionReactionManagement = protocol({
     },
     {
       action: "Do not rechallenge after a grade 3 or higher reaction or true anaphylaxis; after milder reactions, restart slower with extra premedication",
-      why: "After a mild reaction most people can continue safely; after anaphylaxis the next dose could be fatal unless given by a specialist desensitisation.",
+      why: "ESMO says rechallenge at a slower rate with more premedication is usually successful once all symptoms have resolved [V, C], and that it should not be attempted after a severe reaction or true anaphylaxis.",
       source: "esmo-2017",
       quote: "However, rechallenge in IRs with CTCAE severity grade 3 or higher or in true anaphylaxis should not be attempted",
       grade: "[V, B]",
     },
     {
       action: "Refer anyone who had anaphylaxis to an allergy clinic",
-      why: "Specialist testing can confirm which drug caused it and whether a desensitisation or an alternative is possible.",
+      why: "The clinic investigates the cause, so the risk of another reaction can be reduced. ESMO also says an allergist's opinion is warranted when anaphylaxis is strongly suspected [V, B].",
       source: "rcuk-2021",
       quote: "All patients should be referred to a specialist clinic for allergy assessment.",
     },
   ],
   bestInClass: {
-    statement: "Prepare (history, premedication taken, protocol and equipment at hand), stop the drug at the first sign, assess ABC, and give intramuscular adrenaline promptly for anaphylaxis, repeated after 5 minutes if needed (RCUK 2021; ESMO 2017 [IV, B]), with early IV fluids for shock and the patient kept flat. The guidelines disagree on adjuncts: ESMO 2017 recommends combined H1 and H2 antihistamines [I, B] and allows corticosteroids against biphasic reactions [V, D], while RCUK 2021, developed later with GRADE methods, makes antihistamines third-line for skin symptoms after stabilisation and no longer advises corticosteroids routinely. Restart antibody cytokine-release reactions at half rate [IV, B]; grade and document [V, B]; no rechallenge after grade 3 or more or anaphylaxis except by desensitisation [V, B].",
+    statement: "Prepare (history, premedication taken, protocol and equipment at hand), stop the drug at the first sign, assess ABC, and give intramuscular adrenaline promptly for anaphylaxis (ESMO 2017 [IV, B]; RCUK 2021), repeated after 5 minutes if airway, breathing or circulation problems persist (RCUK; ESMO says every 5 to 15 minutes [V, C]), with early IV fluids for shock. The guidelines differ on position (RCUK: flat, or semi-recumbent if breathing is easier, and no sudden sitting or standing; ESMO: Trendelenburg for low blood pressure, sitting up for respiratory distress [V, C]) and on adjuncts: ESMO 2017 rates combined H1 and H2 antihistamines above either alone [I, B] and says corticosteroids prevent biphasic reactions but are not critical [V, D], while RCUK 2021, developed later with GRADE methods, makes antihistamines third-line for skin symptoms after stabilisation and no longer advises corticosteroids routinely. Restart antibody cytokine-release reactions at half rate [IV, B]; grade and document [V, B]; no rechallenge after grade 3 or more or true anaphylaxis [V, B].",
     sources: ["esmo-2017", "rcuk-2021", "asco-ons-2024"],
   },
   variants: [
     {
       name: "ESMO adjuncts: H1 plus H2 antihistamine and corticosteroids",
-      differs: "Gives an H1 antihistamine (diphenhydramine) with an H2 antagonist intravenously, and corticosteroids at the equivalent of 1 to 2 mg/kg of methylprednisolone every 6 hours, as part of reaction treatment.",
-      evidence: "ESMO grades the combined antihistamines [I, B] and says corticosteroids are effective in preventing biphasic reactions but not critical [V, D]. RCUK (2021) found little evidence that corticosteroids prevent biphasic reactions, notes data linking early steroids to more intensive care admission, and no longer advises them routinely, on very low-certainty evidence. ESMO names ranitidine as the H2 antagonist; it has since been withdrawn in several countries.",
-      sources: ["esmo-2017", "rcuk-2021"],
+      differs: "An H1 antihistamine (diphenhydramine 1 to 2 mg/kg or 25 to 50 mg, slowly intravenously) may be given with an H2 antagonist (ranitidine 50 mg intravenously over 5 minutes) and, if corticosteroids are given, the intravenous dose is the equivalent of 1 to 2 mg/kg of (methyl)prednisolone every 6 hours, as part of reaction treatment.",
+      evidence: "ESMO grades the superiority of combined antihistamines [I, B], the doses [V, C], and the statement that corticosteroids are effective in preventing biphasic reactions but not critical [V, D]. RCUK (2021) says there is little evidence that corticosteroids prevent biphasic reactions, notes emerging data linking early steroids to more intensive care admission, and no longer advises them routinely, on very low-certainty evidence; it considers them after initial resuscitation for refractory reactions or ongoing asthma or shock. ESMO names ranitidine as the H2 antagonist to give; the European Medicines Agency confirmed in September 2020 its recommendation to suspend all ranitidine medicines in the EU because of an impurity (NDMA).",
+      sources: ["esmo-2017", "rcuk-2021", "ema-ranitidine-2020"],
     },
     {
       name: "Desensitisation instead of stopping the drug for good",
-      differs: "After a reaction to a drug that is still the best treatment (a platinum, a taxane or an antibody), it is given again starting from a small diluted dose with a long infusion and stepwise increases, in an experienced centre, for every course.",
-      evidence: "ESMO notes desensitisation has been used with varying success, gives tolerance only while exposure continues, and has no standard protocol. The EAACI position paper (2022) covers skin tests, drug provocation and desensitisation for chemotherapy reactions; only its abstract was read.",
+      differs: "For patients whose reactions recur despite premedication, the drug is given again starting from a small diluted dose with a long infusion and stepwise increases, in an experienced centre, for every course.",
+      evidence: "ESMO notes desensitisation has been used with certain drugs with varying success, gives tolerance only while exposure continues, has no standard protocol and is not widely accepted because it takes time; its drug tables add 'Consider desensitisation' [IV, B] for several chemotherapy drugs. The EAACI position paper (2022) covers skin tests, drug provocation and desensitisation for chemotherapy reactions; only its abstract was read.",
       sources: ["esmo-2017", "eaaci-2022"],
     },
     {
@@ -160,7 +169,7 @@ export const infusionReactionManagement = protocol({
     },
   ],
   grades: [
-    { claim: "IM adrenaline 0.01 mg/kg (1 mg/mL, maximum 0.5 mL) into the lateral thigh for anaphylaxis", grade: "[IV, B]", source: "esmo-2017", quote: "When a patient fulfils any of the three criteria of anaphylaxis (see Table 2 ), epinephrine (adrenaline) must be delivered immediately at a dose of 0.01 mg/kg (1 mg/mL dilution, to a maximum total dose of 0.5 mL) intramuscularly into the lateral thigh muscle" },
+    { claim: "IM adrenaline 0.01 mg/kg (1 mg/mL, maximum 0.5 mL) into the lateral thigh for anaphylaxis", grade: "[IV, B]", source: "esmo-2017", quote: "When a patient fulfils any of the three criteria of anaphylaxis (see Table 2), epinephrine (adrenaline) must be delivered immediately at a dose of 0.01 mg/kg (1 mg/mL dilution, to a maximum total dose of 0.5 mL) intramuscularly into the lateral thigh muscle" },
     { claim: "Adrenaline may be repeated every 5 to 15 minutes", grade: "[V, C]", source: "esmo-2017" },
     { claim: "Combined H1 and H2 antagonists are superior to either alone", grade: "[I, B]", source: "esmo-2017", quote: "Antihistamines: the combined use of H1 and H2 antagonists is superior to the use of H1 (diphenhydramine) or H2 antagonists (ranitidine, cimetidine) alone" },
     { claim: "Corticosteroids prevent biphasic reactions but are not critical", grade: "[V, D]", source: "esmo-2017", quote: "Corticosteroids are effective in preventing biphasic reactions, but are not critical in the management of anaphylaxis" },
@@ -180,7 +189,17 @@ export const infusionReactionManagement = protocol({
       doi: "10.1093/annonc/mdx216",
       gradingScheme: "[level, grade]: levels I (large randomised trial or meta-analysis) to V (studies without control group, case reports, expert opinion); grades A (strongly recommended) to E (never recommended), adapted from the IDSA/USPHS system.",
       read: "full-text",
-      accessed: "2026-11-11",
+      accessed: "2026-11-16",
+    },
+    {
+      key: "esmo-2018-correction",
+      label: "Corrections to 'Management of infusion reactions to systemic anticancer therapy: ESMO Clinical Practice Guidelines' (Ann Oncol 2018; 29 suppl 4: iv260)",
+      publisher: "ESMO (Annals of Oncology)",
+      year: 2018,
+      url: "https://doi.org/10.1093/annonc/mdy158",
+      doi: "10.1093/annonc/mdy158",
+      read: "not-reachable",
+      accessed: "2026-11-16",
     },
     {
       key: "rcuk-2021",
@@ -188,9 +207,9 @@ export const infusionReactionManagement = protocol({
       publisher: "Resuscitation Council UK",
       year: 2021,
       url: "https://www.resus.org.uk/sites/default/files/2021-05/Emergency%20Treatment%20of%20Anaphylaxis%20May%202021_0.pdf",
-      gradingScheme: "Developed with GRADE Evidence to Decision frameworks (GRADE-ADOLOPMENT); certainty of evidence high, moderate, low or very low.",
+      gradingScheme: "Developed with GRADE Evidence to Decision frameworks (GRADE-ADOLOPMENT). The guideline does not print a grade beside each recommendation; it states the certainty of evidence in places (very low for corticosteroids).",
       read: "full-text",
-      accessed: "2026-11-11",
+      accessed: "2026-11-16",
     },
     {
       key: "eaaci-2022",
@@ -200,7 +219,7 @@ export const infusionReactionManagement = protocol({
       url: "https://doi.org/10.1111/all.15113",
       doi: "10.1111/all.15113",
       read: "abstract",
-      accessed: "2026-11-11",
+      accessed: "2026-11-16",
     },
     {
       key: "asco-ons-2024",
@@ -213,16 +232,27 @@ export const infusionReactionManagement = protocol({
       read: "full-text",
       accessed: "2026-11-11",
     },
+    {
+      key: "ema-ranitidine-2020",
+      label: "Ranitidine-containing medicinal products: Article 31 referral (EMA confirms recommendation to suspend all ranitidine medicines in the EU)",
+      publisher: "European Medicines Agency",
+      year: 2020,
+      url: "https://www.ema.europa.eu/en/medicines/human/referrals/ranitidine-containing-medicinal-products",
+      read: "public-summary",
+      accessed: "2026-11-16",
+    },
   ],
   drugs: ["paclitaxel", "docetaxel", "carboplatin", "oxaliplatin", "etoposide", "asparaginase", "pegylated-liposomal-doxorubicin", "rituximab", "cetuximab", "trastuzumab", "daratumumab"],
   terms: ["extravasation-infusion-reaction", "crs"],
   related: ["sact-administration-checks-at-the-chair", "premedication-before-reaction-prone-anticancer-drugs"],
   upgrades: [],
   gaps: [
-    "The ESMO guideline dates from 2017 and most of its recommendations are expert opinion ([V, C]); no newer ESMO guideline on infusion reactions was found. Some drugs it names have changed since (ranitidine withdrawn in several countries).",
-    "ESMO and RCUK disagree on antihistamines and corticosteroids; RCUK is newer and GRADE-based but general rather than oncology-specific.",
-    "The EAACI position paper on chemotherapy hypersensitivity (2022), the most detailed source on skin testing and desensitisation, was read as an abstract only. The World Allergy Organization guidance (2020) was not read.",
+    "The ESMO guideline dates from 2017 and most of its recommendations are graded [V, C]; on 16 November 2026 no newer ESMO guideline on infusion reactions was found. A correction notice was published in 2018 (Annals of Oncology 29, supplement 4, page iv260). On 16 November 2026 it could not be read: the journal refused a script, no archive copy exists and the indexes hold no text. So it is not known what it corrects, or whether the archived article text read here includes it. The ESMO adrenaline dose and the other ESMO figures on this page are as printed in that archived text.",
+    "ESMO names ranitidine as the H2 antagonist; ranitidine medicines have been suspended in the EU since 2020 (European Medicines Agency). ESMO has not said what to use instead.",
+    "ESMO and RCUK disagree on positioning, antihistamines and corticosteroids; RCUK is newer and GRADE-based but general rather than oncology-specific. Resuscitation Council UK's anaphylaxis page said on 16 November 2026 that the May 2021 version is the most recent.",
+    "The ASCO-ONS standards (2024) were read in full on 11 November 2026 but could not be read again on 16 November 2026: the publisher refused a script and there is no open copy. The standard number (3.12.7) and the quoted wording about hypersensitivity order sets rest on the first reading only.",
+    "The EAACI position paper on chemotherapy hypersensitivity (2022), the most detailed source on skin testing and desensitisation, was read as an abstract only, again on 16 November 2026. The World Allergy Organization guidance (2020) was not read.",
     "No national nursing standard for reaction management in the chemotherapy unit (ONS, UKONS) could be read.",
-    "ESMO advises 24 hours of observation after a severe reaction; RCUK sets risk-stratified observation times (from 2 hours to at least 12 hours) for anaphylaxis in general. Neither addresses the day unit specifically.",
+    "ESMO advises 24 hours of close observation after a severe reaction [V, C] and says observation should be individualised; RCUK sets risk-stratified observation times (from 2 hours to at least 12 hours) for anaphylaxis in general. Neither addresses the day unit specifically.",
   ],
 });

@@ -8,12 +8,20 @@ import type { CountryDive } from "@/data/country-dive";
  * insurance fund CNAM, the health assessment body INEAS and the pharmacy and medicines directorate) did not answer a
  * plain request on that date, nor did the Internet Archive's copy of CNAM's site, so this page names them as gaps
  * rather than describing what they do from memory.
+ *
+ * Second accuracy pass, 17 November 2026: every claim re-read against raw source text. Corrected: the comparison of
+ * IARC's rate with the registry's (both include non-melanoma skin cancer), the "run from" title, the Monastir paper's
+ * registry (the Cancer Register of the Centre), the HPV rows (wider query) and the Internet Archive note. The IAEA's
+ * DIRAC feed was read and added. The open-access full text of the three papers was searched through Europe PMC for the
+ * statements about the registries; figures still come from the abstracts.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/788-tunisia-fact-sheet.pdf";
 const NTCR_2023 = "https://doi.org/10.31557/APJCP.2024.25.12.4359";
 const NTCR_CERVIX = "https://doi.org/10.1186/s12885-025-13626-x";
 const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'TUN'%20and%20startswith(ANTIGEN,'PRHPV')";
 const WHO_GHED_API = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'TUN'";
+const WHO_HPV_WIDE_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'TUN'%20and%20contains(ANTIGEN,'HPV')";
+const DIRAC = "https://dirac.iaea.org/";
 const CTGOV = "https://clinicaltrials.gov/search?country=Tunisia&cond=cancer";
 
 export const TN_DIVE: CountryDive = {
@@ -24,11 +32,11 @@ export const TN_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Tunisia",
   description:
-    "Cancer in Tunisia: IARC's estimate of 16,332 new cancers and 9,059 deaths in 2024, built on Tunisia's regional cancer registries; the Northern Tunisia Cancer Registry's own rates, with lung cancer leading in men and breast cancer in women; a cervical cancer rate in the north that fell from 6.6 to 4.7 per 100,000 women from 1994 to 2018; HPV vaccination first reported in 2025; out-of-pocket payments at 38% of health spending; and the government sources OnCo could not reach.",
+    "Cancer in Tunisia: IARC's estimate of 16,332 new cancers and 9,059 deaths in 2024, built from subnational registry data; the Northern Tunisia Cancer Registry's own rates, with lung cancer leading in men and breast cancer in women once skin cancer is set aside; a cervical cancer rate in the north that fell from 6.6 to 4.7 per 100,000 women from 1994 to 2018; HPV vaccination first reported in 2025; out-of-pocket payments at 38% of health spending; and the government sources OnCo could not reach.",
   lede:
-    "Tunisia counts cancer through regional population-based registries, and IARC applies their rates to the whole country: 16,332 new cancers and 9,059 deaths in 2024. Lung cancer is the leading cancer in men and the leading cause of cancer death; breast cancer is the commonest cancer overall. Households pay about 38% of health spending themselves.",
+    "Tunisia counts cancer through three regional population-based registries, and IARC applies subnational registry rates to the whole country: 16,332 new cancers and 9,059 deaths in 2024. Lung cancer is the leading cancer in men and the leading cause of cancer death; breast cancer is the commonest cancer overall. Households pay about 38% of health spending themselves.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Tunisia is 16,332 new cancers and 9,059 deaths, an age-standardised incidence of 105.7 per 100,000 (119.6 in men, 94.5 in women) and mortality of 58.0. IARC's incidence method is subnational registry rates applied to the 2024 population, and its mortality is national incidence applied to modelled mortality-to-incidence ratios from registry survival data. The Northern Tunisia Cancer Registry's own estimate for 2023, from an age-period-cohort model, is higher: 165.9 per 100,000 men and 141.4 per 100,000 women, but it includes non-melanoma skin cancer and covers the north only, so the two are not directly comparable.",
+    "IARC's GLOBOCAN 2024 figure for Tunisia is 16,332 new cancers and 9,059 deaths, an age-standardised incidence of 105.7 per 100,000 (119.6 in men, 94.5 in women) and mortality of 58.0. IARC's incidence method is subnational registry rates applied to the 2024 population, and its mortality is national incidence applied to modelled mortality-to-incidence ratios from registry survival data. The Northern Tunisia Cancer Registry's own estimate for 2023, from an age-period-cohort model, is higher: 165.9 per 100,000 men and 141.4 per 100,000 women. Both IARC's rate and the registry's include non-melanoma skin cancer. The registry's is a model estimate for the north only, standardised to what its paper calls the WHO standard population, while IARC's fact sheet says it standardises to the world population, so the two are not directly comparable.",
   sections: [
     {
       id: "profile",
@@ -82,11 +90,11 @@ export const TN_DIVE: CountryDive = {
       cards: [
         {
           id: "northern-registry",
-          title: "The Northern Tunisia Cancer Registry, run from the Institut Salah Azaïez",
+          title: "The Northern Tunisia Cancer Registry, one of three regional registries",
           plain:
-            "Tunisia's national figures are built from regional registries. The Northern Tunisia Cancer Registry collects cases actively from public and private health services and projects that colorectal cancer rates will more than double by 2040, as will breast, thyroid and uterine cancer in women.",
+            "IARC builds Tunisia's national estimate from subnational registry data. The Northern Tunisia Cancer Registry collects cases actively from public and private health services and projects that colorectal cancer rates will more than double by 2040, as will breast, thyroid and uterine cancer in women.",
           detail:
-            "The registry's authors are at the Department of Epidemiology and Biostatistics of the Institut Salah Azaïez in Tunis. Their 2024 paper describes active collection from all health services, public and private, that care for cancer patients, and uses an age-period-cohort model to project incidence to 2040: lung and bladder cancer rates in men would increase, stomach cancer would be stable, and cervical cancer in women would stay stable. Their 2025 paper counts 3,092 cervical cancers in northern Tunisia in 1994 to 2018, about 129 a year, with the age-standardised rate falling from 6.6 to 4.7 per 100,000 women. A registry in Monastir has published breast cancer incidence and predictions to 2030. IARC's fact sheet names the source of its estimate as subnational registries.",
+            "The first and last authors of the registry's two papers are at the Department of Epidemiology and Biostatistics of the Institut Salah Azaïez in Tunis; some co-authors are at hospitals in Jendouba, Ariana and Tunis and at the Directorate of Basic Healthcare. The 2024 paper says Tunisia has three regional population-based registries, for the north, the centre and the south, which it dates to 1997, and that there is not yet a national registry because the southern registry's coverage is very low. The northern registry covers eleven governorates. The paper describes active collection from all health services, public and private, that care for cancer patients, and uses an age-period-cohort model to project incidence to 2040: lung and bladder cancer rates in men would increase, stomach cancer would be stable, and cervical cancer in women would stay stable. Their 2025 paper counts 3,092 cervical cancers in northern Tunisia in 1994 to 2018, about 129 a year, with the age-standardised rate falling from 6.6 to 4.7 per 100,000 women. A 2022 paper from Monastir used the Cancer Register of the Centre to report breast cancer incidence in Monastir governorate in 2002 to 2013 and predictions to 2030. IARC's fact sheet gives the source of its incidence estimate as \"Registry (subnational)\" and does not say which registry.",
           links: [
             { label: "Khiari et al., northern Tunisia incidence 2023 (Asian Pac J Cancer Prev 2024)", url: NTCR_2023 },
             { label: "Khiari et al., cervical cancer trends in northern Tunisia 1994 to 2040 (BMC Cancer 2025)", url: NTCR_CERVIX },
@@ -106,7 +114,7 @@ export const TN_DIVE: CountryDive = {
           plain:
             "WHO estimates that out-of-pocket payments were 37.9% of Tunisia's current health expenditure in 2023. OnCo could not reach the national health insurance fund's own pages to describe what it pays for cancer care, so this page does not describe it.",
           detail:
-            "WHO's Global Health Expenditure Database gives out-of-pocket spending of 37.2% of current health expenditure in 2021, 36.3% in 2022 and 37.9% in 2023. The site of the Caisse Nationale d'Assurance Maladie (CNAM), Tunisia's national health insurance fund, did not answer a plain request on 11 November 2026, and neither did the Internet Archive's copy of it. How cancer is covered as a long-term or serious illness, which cancer medicines the fund pays for, and what a patient pays in public hospitals are therefore not on this page; see the gaps.",
+            "WHO's Global Health Expenditure Database gives out-of-pocket spending of 37.2% of current health expenditure in 2021, 36.3% in 2022 and 37.9% in 2023. The site of the Caisse Nationale d'Assurance Maladie (CNAM), Tunisia's national health insurance fund, did not answer a plain request on 11 November 2026 or on 17 November 2026. The Internet Archive's copy of its home page, captured on 9 August 2025, loaded on 17 November 2026: it is a menu page in Arabic and says nothing about cancer cover, and OnCo did not read archived pages beneath it. How cancer is covered as a long-term or serious illness, which cancer medicines the fund pays for, and what a patient pays in public hospitals are therefore not on this page; see the gaps.",
           links: [{ label: "WHO Global Health Expenditure Database: out-of-pocket share, Tunisia (API)", url: WHO_GHED_API }],
         },
       ],
@@ -120,9 +128,9 @@ export const TN_DIVE: CountryDive = {
           id: "regulator-gap",
           title: "The medicines regulator's pages could not be reached",
           plain:
-            "Tunisia regulates medicines nationally, but the site of its pharmacy and medicines directorate did not answer a plain request on 11 November 2026, and neither did the health assessment body INEAS. OnCo does not describe their rules from memory.",
+            "The site of Tunisia's pharmacy and medicines directorate did not answer a plain request on 11 November 2026, and neither did the health assessment body INEAS. OnCo does not describe their rules from memory.",
           detail:
-            "OnCo tried the sites of the Direction de la Pharmacie et du Médicament (dpm.tn) and the Instance Nationale de l'Évaluation et de l'Accréditation en Santé (ineas.tn) on 11 November 2026: the first did not respond and the second returned errors. How a new cancer medicine is authorised, priced and assessed in Tunisia, and whether a new medicines agency has replaced the directorate, are therefore named as gaps rather than stated.",
+            "OnCo tried the sites of the Direction de la Pharmacie et du Médicament (dpm.tn) and the Instance Nationale de l'Évaluation et de l'Accréditation en Santé (ineas.tn) on 11 November 2026: the first did not respond and the second returned errors. Both did the same on 17 November 2026. How a new cancer medicine is authorised, priced and assessed in Tunisia, and whether a new medicines agency has replaced the directorate, are therefore named as gaps rather than stated.",
           links: [{ label: "ClinicalTrials.gov: cancer studies with a site in Tunisia (search)", url: CTGOV }],
         },
       ],
@@ -136,11 +144,12 @@ export const TN_DIVE: CountryDive = {
           id: "hpv",
           title: "HPV vaccination appears in WHO's data for the first time in 2025",
           plain:
-            "WHO and UNICEF's figures for Tunisia show HPV vaccination coverage of 3% of girls in 2025, the first year with a figure. The registry's cervical cancer paper calls for HPV vaccination of girls.",
+            "WHO's immunisation data for Tunisia show HPV vaccination coverage of 3% of girls in 2025, the first year with a figure. The registry's cervical cancer paper calls for HPV vaccination for females.",
           detail:
-            "WHO's immunisation data for Tunisia have no HPV coverage figure before 2025; for 2025 they give 3% for the first and the last dose in girls. OnCo did not find a Ministry of Health source on the programme's start date or target ages. The 2025 cervical cancer paper from the Northern Tunisia Cancer Registry recommends a cervical cancer control programme with screening, HPV vaccination for girls and timely treatment. OnCo did not read a primary source describing organised breast or cervical screening in Tunisia.",
+            "WHO's immunisation data for Tunisia, read again with a wider query on 17 November 2026, hold HPV rows from 2010, and every one before 2025 is blank. For 2025 the programme rows give 3% for the first and the last dose in girls, and the administrative row for girls' first dose gives 2,977 doses against a target of 104,151 girls (the programme row gives a target of 103,782). The 2025 rows for girls' final dose in the administrative and official series, every row for boys and the rows for coverage by age 15 are blank. OnCo did not find a Ministry of Health source on the programme's start date or target ages. The 2025 cervical cancer paper from the Northern Tunisia Cancer Registry recommends a cervical cancer control programme with screening, HPV vaccination for females and timely treatment. OnCo did not read a primary source describing organised breast or cervical screening in Tunisia.",
           links: [
             { label: "WHO immunisation data: HPV programme coverage, Tunisia (API)", url: WHO_HPV_API },
+            { label: "WHO immunisation data: all HPV rows, Tunisia (API, read 17 November 2026)", url: WHO_HPV_WIDE_API },
             { label: "Khiari et al., cervical cancer trends in northern Tunisia (BMC Cancer 2025)", url: NTCR_CERVIX },
           ],
         },
@@ -157,7 +166,7 @@ export const TN_DIVE: CountryDive = {
           plain:
             "In Tunisia lung and bladder cancer are far commoner in men than in women, and the northern registry projects colorectal cancer rates to more than double by 2040.",
           detail:
-            "IARC's 2024 estimate puts lung cancer incidence at 24.9 per 100,000 in men against 2.2 in women, and bladder cancer at 16.4 against 1.8. The Northern Tunisia registry's 2023 estimate puts lung cancer first in men (37.6 per 100,000) and bladder third (24.1), and projects increases in both by 2040, with colorectal cancer more than doubling in both sexes. The registry's authors conclude that prevention, screening and early diagnosis should be strengthened. The abstracts read do not measure risk factors such as smoking, so this page does not attribute the pattern to a cause.",
+            "IARC's 2024 estimate puts lung cancer incidence at 24.9 per 100,000 in men against 2.2 in women, and bladder cancer at 16.4 against 1.8. The Northern Tunisia registry's 2023 estimate puts lung cancer first in men (37.6 per 100,000) and bladder third (24.1), skin cancer apart, and projects increases in both by 2040, with colorectal cancer more than doubling in both sexes. The registry's authors conclude that prevention, screening and early diagnosis should be strengthened. The abstracts read do not measure risk factors such as smoking, so this page does not attribute the pattern to a cause.",
           links: [
             { label: "IARC: GLOBOCAN 2024 fact sheet, Tunisia (PDF)", url: IARC_FACTSHEET },
             { label: "Khiari et al., northern Tunisia incidence 2023 (Asian Pac J Cancer Prev 2024)", url: NTCR_2023 },
@@ -189,17 +198,20 @@ export const TN_DIVE: CountryDive = {
       plain:
         "The national health insurance fund (CNAM), the pharmacy and medicines directorate and the health assessment body INEAS did not answer plain requests on 11 November 2026. What Tunisia pays for cancer care, how medicines are approved and priced, and the national cancer plan are therefore not described here.",
       detail:
-        "cnam.nat.tn and dpm.tn did not respond, ineas.tn returned a not-found error, and the Internet Archive's copy of the CNAM site did not load. The Ministry of Health's national cancer plan was not read. OnCo has not stated anything about these bodies from memory. A reader in Tunisia should ask the treating hospital and the CNAM regional office what applies.",
+        "cnam.nat.tn and dpm.tn did not respond and ineas.tn returned a not-found error, on 11 November and again on 17 November 2026. The Internet Archive's copy of the CNAM home page, captured on 9 August 2025, did load on 17 November 2026, but it is a menu page that says nothing about cancer cover, and the archived pages beneath it were not read. The Ministry of Health's national cancer plan was not read. OnCo has not stated anything about these bodies from memory. A reader in Tunisia should ask the treating hospital and the CNAM regional office what applies.",
       links: [{ label: "WHO Global Health Expenditure Database: Tunisia (API)", url: WHO_GHED_API }],
     },
     {
       id: "unread-sources",
       title: "Other figures not found or not verified",
       plain:
-        "Survival after a cancer diagnosis, radiotherapy capacity, screening programmes and the registries for the centre and south of the country are not on this page, because OnCo did not read them from a primary source.",
+        "Survival after a cancer diagnosis, screening programmes and the registries for the centre and south of the country are not on this page, because OnCo did not read them from a primary source. For radiotherapy this page has only the IAEA directory's list of 17 centres, some of it years old.",
       detail:
-        "Only the abstracts of the two northern registry papers were read, and only the title of the Monastir breast cancer paper. The Monastir registry's other papers, the IAEA's DIRAC radiotherapy database and IARC's detailed data sources page for Tunisia were not read.",
-      links: [{ label: "IARC: GLOBOCAN 2024 fact sheet, Tunisia (PDF)", url: IARC_FACTSHEET }],
+        "The figures from the two northern registry papers come from their abstracts; on 17 November 2026 their open-access full text, and that of the Monastir breast cancer paper, was searched only to check what they say about the registries. Other papers from the Cancer Register of the Centre and IARC's detailed data sources page for Tunisia were not read. The IAEA's Directory of Radiotherapy Centres (DIRAC), read from its public data feed on 17 November 2026, lists 17 radiotherapy centres in Tunisia with 21 linear accelerators and 11 cobalt-60 units between them: four centres in Tunis, four in Sfax, two in Ariana, two on Djerba and one each in Ennasr, Hammam Sousse, Sousse, Jendouba and Kairouan. Two list brachytherapy, the Institut Salah Azaïez in Tunis (which has four of the linear accelerators and two of the cobalt-60 units) and Habib Bourguiba Hospital in Sfax. DIRAC entries are reported by the centres and carry the year of their last update: 2026 for two of Tunisia's, 2025 for one, 2024 for four, 2023 for two, 2022 for two, 2020 for two, and 2017, 2016, 2015 and 2011 for one each, so some of the machine counts are old. DIRAC does not say how many of the machines are in public hospitals or how long patients wait.",
+      links: [
+        { label: "IARC: GLOBOCAN 2024 fact sheet, Tunisia (PDF)", url: IARC_FACTSHEET },
+        { label: "IAEA DIRAC: directory of radiotherapy centres (read 17 November 2026)", url: DIRAC },
+      ],
     },
   ],
   institutions: ["institut-salah-azaiez", "iarc", "who"],
@@ -209,7 +221,7 @@ export const TN_DIVE: CountryDive = {
   papers: ["paper-khiari-northern-tunisia-incidence-2023-apjcp-2024", "paper-khiari-cervical-trends-northern-tunisia-bmc-cancer-2025"],
   people: ["senda-tounsi"],
   how:
-    "Every card was written from sources read in full rather than through a summary: IARC's GLOBOCAN 2024 fact sheet; the abstracts of two Northern Tunisia Cancer Registry papers through Europe PMC; and WHO's HPV coverage and health expenditure rows from its public data APIs. Tunisian government sites did not answer plain requests and are named as gaps. Trials were counted from OnCo's ClinicalTrials.gov participation data, and research output from OpenAlex. The two papers added for this page carry their own sources.",
+    "Every card was written from sources read in full rather than through a summary: IARC's GLOBOCAN 2024 fact sheet; the abstracts of two Northern Tunisia Cancer Registry papers through Europe PMC, with their full text searched for what they say about the registries; WHO's HPV coverage and health expenditure rows from its public data APIs; and the IAEA's DIRAC feed for radiotherapy centres. Tunisian government sites did not answer plain requests and are named as gaps. Trials were counted from OnCo's ClinicalTrials.gov participation data, and research output from OpenAlex. The two papers added for this page carry their own sources.",
   verify:
     "This page has no Tunisian government source for insurance, medicines or screening. Ask the treating hospital, the Institut Salah Azaïez or the CNAM what is covered and available.",
   verifyLinks: [

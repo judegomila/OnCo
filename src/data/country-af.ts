@@ -139,10 +139,11 @@ export const AF_DIVE: CountryDive = {
           plain:
             "The 2026 capacity assessment found no established programmes for cancer screening and early detection in Afghanistan. WHO's immunisation data hold no HPV vaccination coverage for Afghanistan in any year.",
           detail:
-            "The assessment found no screening or early detection programmes. WHO's public immunisation data, queried for HPV programme coverage for Afghanistan on 11 November 2026, returned no rows, while they return rows for every other country in this wave except North Korea. IARC estimates 790 cervical cancers and 456 cervical cancer deaths in Afghanistan in 2024. In 2026 The Lancet Oncology published a piece titled \"Afghan women's cancer crisis deserves its own response\"; only its title and authors were read, as it has no abstract.",
+            "The assessment found no screening or early detection programmes. WHO's public immunisation data, queried for HPV on 17 November 2026, hold rows for Afghanistan for 2018 to 2025, but every one is blank: none gives coverage, doses or a target population. A narrower query for programme coverage on 11 November 2026 returned no rows at all. IARC estimates 790 cervical cancers and 456 cervical cancer deaths in Afghanistan in 2024. In 2026 The Lancet Oncology published a piece titled \"Afghan women's cancer crisis deserves its own response\"; only its title and authors were read, as it has no abstract.",
           links: [
             { label: "Abdullah et al. (Int J Cancer 2026)", url: CAPACITY },
             { label: "WHO immunisation data: HPV programme coverage, Afghanistan (API; returns no rows)", url: WHO_HPV_API },
+            { label: "WHO immunisation data: all HPV rows, Afghanistan, 2018 to 2025 (API; every row blank)", url: "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'AFG'%20and%20contains(ANTIGEN,'HPV')" },
             { label: "Nasari et al., Afghan women's cancer crisis deserves its own response (Lancet Oncol 2026)", url: LANCET_WOMEN },
           ],
         },
@@ -159,8 +160,11 @@ export const AF_DIVE: CountryDive = {
           plain:
             "A 2026 assessment of Afghanistan's cancer control capacity found no national cancer control plan, no radiotherapy facilities and palliative care services that were nearly non-existent. Its authors name a national plan, wider diagnosis and treatment, palliative care and workforce as the priorities.",
           detail:
-            "The assessment used the WHO and IAEA National Cancer Control Programmes Core Capacity Self-Assessment Tool. A team of nine experts visited 12 public and 5 private facilities in June and July 2021, complemented by a questionnaire survey and by desk and literature review that continued to January 2025. It found services concentrated in cities, limited radiology, pathology and systemic therapy, no radiotherapy and almost no palliative care. Its immediate priorities are finalising and implementing a national cancer control plan, expanding diagnostic and treatment infrastructure, integrating palliative care and strengthening the workforce, and it calls for international investment and technical assistance.",
-          links: [{ label: "Abdullah et al. (Int J Cancer 2026)", url: CAPACITY }],
+            "The assessment used the WHO and IAEA National Cancer Control Programmes Core Capacity Self-Assessment Tool. A team of nine experts visited 12 public and 5 private facilities in June and July 2021, complemented by a questionnaire survey and by desk and literature review that continued to January 2025. It found services concentrated in cities, limited radiology, pathology and systemic therapy, no radiotherapy and almost no palliative care. Its immediate priorities are finalising and implementing a national cancer control plan, expanding diagnostic and treatment infrastructure, integrating palliative care and strengthening the workforce, and it calls for international investment and technical assistance. The IAEA's Directory of Radiotherapy Centres (DIRAC), read on 17 November 2026, has no row for Afghanistan, neither in its table of countries nor in its list of centres.",
+          links: [
+            { label: "Abdullah et al. (Int J Cancer 2026)", url: CAPACITY },
+            { label: "IAEA DIRAC: radiotherapy centres by country (read 17 November 2026)", url: "https://dirac.iaea.org/Query/Countries" },
+          ],
         },
       ],
     },
@@ -197,8 +201,11 @@ export const AF_DIVE: CountryDive = {
       plain:
         "The registry's first report counts Kabul residents only, and there is no survival figure on this page. A 2026 registry paper reports gastric cancer rates for eight regions of Afghanistan; OnCo has read only its abstract. IARC's national numbers are modelled from neighbouring countries.",
       detail:
-        "Only the abstracts of the registry and capacity papers were read, and only titles for the other papers named. The IAEA's DIRAC radiotherapy database was not read; the statement that radiotherapy is absent comes from the 2026 assessment.",
-      links: [{ label: "IARC: GLOBOCAN 2024 fact sheet, Afghanistan (PDF)", url: IARC_FACTSHEET }],
+        "Only the abstracts of the registry and capacity papers were read, and only titles for the other papers named. The IAEA's DIRAC radiotherapy directory was not read when this page was written. Its public data feed, read on 17 November 2026, has no row for Afghanistan in either its table of countries or its list of centres. DIRAC is built from replies to IAEA questionnaires, so a missing row is not by itself a finding that no machine exists; the statement that radiotherapy is absent comes from the 2026 assessment.",
+      links: [
+        { label: "IARC: GLOBOCAN 2024 fact sheet, Afghanistan (PDF)", url: IARC_FACTSHEET },
+        { label: "IAEA DIRAC: radiotherapy centres by country (read 17 November 2026)", url: "https://dirac.iaea.org/Query/Countries" },
+      ],
     },
   ],
   institutions: ["kabul-cancer-registry", "iarc", "who"],

@@ -16,6 +16,7 @@ import type { CountryDive } from "@/data/country-dive";
  * against it. The four agency and insurer sites still did not answer; the Internet Archive did, and the `gaps` card says so.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/504-morocco-fact-sheet.pdf";
+const DIRAC = "https://dirac.iaea.org/Query/Countries";
 const WHO_PROFILE_2020 = "https://cdn.who.int/media/docs/default-source/country-profiles/cancer/mar-2020.pdf";
 const PNPCC2_FR = "https://lodj.ma/attachment/2414341";
 const PNPCC2_AR = "https://www.iccp-portal.org/system/files/plans/Plan_National_de_Prevention_et_de_Controle_du_Cancer_2020-2029_VA.pdf";
@@ -242,12 +243,13 @@ export const MA_DIVE: CountryDive = {
           id: "radiotherapy-ma",
           title: "45 linear accelerators, more than half of them private",
           plain:
-            "When the second cancer plan was written, Morocco had 45 linear accelerators: 21 in the public sector, two of them military, and 24 in private clinics. Brachytherapy was available in every university hospital's regional oncology centre. WHO counted 8 external beam radiotherapy machines per 10,000 cancer patients in 2019.",
+            "When the second cancer plan was written, Morocco had 45 linear accelerators: 21 in the public sector, two of them military, and 24 in private clinics. Brachytherapy was available in every university hospital's regional oncology centre. WHO counted 8 external beam radiotherapy machines per 10,000 cancer patients in 2019. The IAEA's directory of radiotherapy centres, read on 17 November 2026, lists 91 linear accelerators in 60 centres, in entries last updated in 2026.",
           detail:
-            "The 2020 to 2029 plan says the first plan's investment put Morocco among the countries meeting WHO's recommended norms for radiotherapy, that good practice guidelines are used in every radiotherapy service, and that it counted more than 190 radiation oncologists and nearly 180 medical oncologists, above the first plan's norms of one radiation oncologist per 400 new cancers and one medical oncologist per 300. It budgets a further programme of accelerator purchases. WHO's 2020 profile gives, per 10,000 cancer patients, 8.0 external beam radiotherapy units, 9.5 medical physicists, 43.6 mammographs, 53.0 CT scanners, 22.7 MRI scanners and 2.3 PET scanners. IAEA's directory of radiotherapy centres could not be queried, so no more recent machine count is given here.",
+            "The 2020 to 2029 plan says the first plan's investment put Morocco among the countries meeting WHO's recommended norms for radiotherapy, that good practice guidelines are used in every radiotherapy service, and that it counted more than 190 radiation oncologists and nearly 180 medical oncologists, above the first plan's norms of one radiation oncologist per 400 new cancers and one medical oncologist per 300. It budgets a further programme of accelerator purchases. WHO's 2020 profile gives, per 10,000 cancer patients, 8.0 external beam radiotherapy units, 9.5 medical physicists, 43.6 mammographs, 53.0 CT scanners, 22.7 MRI scanners and 2.3 PET scanners. The IAEA's Directory of Radiotherapy Centres (DIRAC), which is built from replies to IAEA questionnaires, was read on 17 November 2026 from its public data feed. Its country table counts 61 centres, 60 of them with radiotherapy, and its centre list has 60 entries, every one last updated in 2026, in 23 cities: nine in Rabat, seven in Casablanca, five each in Agadir and Fès, four each in Marrakech, Oujda and Tangier, three each in Béni Mellal and Meknès, two each in Kénitra and Laâyoune, and one each in twelve other cities. Summed over the centres, that is 91 linear accelerators and no cobalt-60 unit, and 24 centres list brachytherapy. The plan's 45 and DIRAC's 91 are counts by different bodies about six years apart; DIRAC does not divide its list into public and private.",
           links: [
             { label: "Plan National de Prévention et de Contrôle du Cancer 2020 to 2029, situation analysis (PDF)", url: PNPCC2_FR },
             { label: "WHO: cancer country profile 2020, Morocco (PDF)", url: WHO_PROFILE_2020 },
+            { label: "IAEA DIRAC: radiotherapy centres by country (read 17 November 2026)", url: DIRAC },
           ],
         },
         {
@@ -339,10 +341,11 @@ export const MA_DIVE: CountryDive = {
       plain:
         "No national cancer registry was found for Morocco, and WHO rated the quality of its death registration very low for 2007 to 2016. The latest Casablanca report found covers 2013 to 2017 and the only Rabat report found covers 2006 to 2008, so every national figure on this page is an estimate built on city data.",
       detail:
-        "The Casablanca report for 2013 to 2017 was read from its PDF, whose damaged structure stopped text extraction at page 164 of 184, so the annex with the yearly population of the covered area was not read; the 2008 to 2012 report was not read and its figures are as the national plan quotes them. Registry-based studies from the Oriental region, Marrakech and Kenitra exist in the literature but were not read for this page. The plan's promised national children's cancer registry and hospital registries in each regional centre were not found online. No Moroccan population-based survival figures were read. IAEA's directory of radiotherapy centres is a script-driven application that returned no data to a plain request, so the radiotherapy count is the plan's figure from 2019 to 2020.",
+        "The Casablanca report for 2013 to 2017 was read from its PDF, whose damaged structure stopped text extraction at page 164 of 184, so the annex with the yearly population of the covered area was not read; the 2008 to 2012 report was not read and its figures are as the national plan quotes them. Registry-based studies from the Oriental region, Marrakech and Kenitra exist in the literature but were not read for this page. The plan's promised national children's cancer registry and hospital registries in each regional centre were not found online. No Moroccan population-based survival figures were read. An earlier version of this page said the IAEA's directory of radiotherapy centres returned no data. Its application loads a public data feed, which was read on 17 November 2026; the radiotherapy card now gives its listing (60 centres with 91 linear accelerators, in entries dated 2026) beside the plan's figure from 2019 to 2020.",
       links: [
         { label: "RCGC: incidence report 2013 to 2017 (PDF)", url: RCGC_2013_17 },
         { label: "WHO: cancer country profile 2020, Morocco (PDF)", url: WHO_PROFILE_2020 },
+        { label: "IAEA DIRAC: radiotherapy centres by country (read 17 November 2026)", url: DIRAC },
       ],
     },
     {

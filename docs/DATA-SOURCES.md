@@ -38,7 +38,7 @@ Seven lists that say how much of what a patient is most likely to meet OnCo hold
 
 | List | Source | Licence | What one item is |
 |---|---|---|---|
-| `fda-oncology-approvals` | FDA Oncology (Cancer) / Hematologic Malignancies Approval Notifications (fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications) | Public domain (US government work) | One notification, one indication, from 1 January 2020 |
+| `fda-oncology-approvals` | FDA Oncology (Cancer) / Hematologic Malignancies Approval Notifications (fda.gov/drugs/cancer-approvals/oncology-cancerhematologic-malignancies-approval-notifications) | Public domain (US government work) | One notification, one indication, from 1 January 2020 |
 | `fda-novel-oncology` | FDA CDER Novel Drug Approvals, 2020 onwards (fda.gov/drugs/development-approval-process-drugs/novel-drug-approvals-fda) | Public domain | One new medicine whose approved use is a cancer, cancer imaging or a cancer-treatment complication |
 | `fda-cdx-oncology` | FDA List of Cleared or Approved Companion Diagnostic Devices (`FDA_CDX_URL`) | Public domain | One device, indication and drug row |
 | `ema-oncology` | EMA medicines report spreadsheet (ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) | EMA legal notice: reproduction with the source acknowledged | One centrally authorised originator medicine with ATC L01/L02 or a cancer therapeutic area |

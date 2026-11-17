@@ -8,7 +8,7 @@ import { existsSync, mkdirSync, readFileSync, readdirSync, renameSync, writeFile
 import { join } from "node:path";
 import { graph } from "../src/lib/graph";
 import { TRIAL_PARTICIPATION } from "../src/data/trial-participation";
-import { PARTICIPATION_FIELDS, assertNoContacts, assertNoFacilityContacts, makeSnapshot, participationReference, participationSummary, readParticipationPages, registryIds, studyHash, type ParticipationSnapshot, type ParticipationStudy } from "./trial-participation";
+import { PARTICIPATION_FIELDS, acceptedCrossReferences, assertNoContacts, assertNoFacilityContacts, makeSnapshot, participationReference, participationSummary, readParticipationPages, registryIds, studyHash, type ParticipationSnapshot, type ParticipationStudy } from "./trial-participation";
 
 const root = process.cwd();
 // The ISRCTN snapshots and the cross-reference file are small (640 KB for 53 studies) and stay published.
@@ -71,8 +71,8 @@ async function main() {
   type AlternateTrial = { crossReferences: Array<{ nct: string; source: string; registryId: string; registryTitle?: string }>; captures: Array<{ registry: string; registryId: string; source: string; snapshot: string; fetchedAt: string; lastUpdated?: string; hasEligibility: boolean; siteCount: number; sponsors: string[] }>; sourceAudits: Array<{ source: string; status: string; expectedRegistryId?: string; observedRegistryId?: string; observedTitle?: string }> };
   const alternates: Record<string, AlternateTrial> = existsSync(alternatePath) ? JSON.parse(readFileSync(alternatePath, "utf8")).trials : {};
   const canonical = graph().kind("trial").map((t) => ({ id: t.id, name: t.name, nctField: t.nct,
-    ncts: [...new Set([...registryIds(t), ...(alternates[t.id]?.crossReferences ?? []).map((r) => r.nct)])].sort(),
-    registryCrossReferences: alternates[t.id]?.crossReferences ?? [],
+    ncts: [...new Set([...registryIds(t), ...acceptedCrossReferences(t.id, alternates[t.id]?.crossReferences).map((r) => r.nct)])].sort(),
+    registryCrossReferences: acceptedCrossReferences(t.id, alternates[t.id]?.crossReferences),
     originalSponsor: t.sponsor, sources: t.links.map((l) => l.url), sourceLinks: t.links }));
   const drugMap = new Map<string, Set<string>>();
   let drugSnapshotRows = 0;

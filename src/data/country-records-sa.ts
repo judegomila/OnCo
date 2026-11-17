@@ -165,7 +165,7 @@ const papers: PaperInput[] = [
     institutions: ["saudi-council-of-health-insurance"], cancers: ["breast-cancer", "cervical", "colorectal"],
     links: [doi("10.3389/fonc.2026.1837321", "Front Oncol 2026"), pubmed("42729116")] }),
 
-  p({ id: "paper-althabaiti-private-insurance-saudi-plos-one-2026", name: "Who has private health insurance in Saudi Arabia, and how it relates to outpatient care",
+  p({ id: "paper-althabaiti-private-insurance-saudi-plos-one-2026", name: "Private health insurance in Saudi Arabia: the people enrolled and their use of outpatient care",
     journal: "PLoS One", year: 2026, doi: "10.1371/journal.pone.0312887", pmid: "42060621", authors: "Althabaiti KS, Hunsberger M, Khan J, Ahmed S.", paperType: "observational", participants: 8276,
     tldr: "In the 2018 Saudi Family Health Survey, 26.2% of adults had private health insurance, 72.8% of non-Saudis against 12.1% of Saudis, and those with it used outpatient services less than people covered by government care.",
     summary: "Published as \"Characteristics of private health insurance enrollees and the association between health coverage type and outpatient service utilization in Saudi Arabia: Insights from the National Saudi Family Health Survey\". The authors describe Saudi Arabia's mixed financing of government health coverage and private health insurance, and use the 2018 survey of 8,276 adults as a baseline before the first phase of the Vision 2030 reform in 2019.",

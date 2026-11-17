@@ -26,7 +26,7 @@
  *
  * The hospitals on the list that OnCo held no record for at all are written, each with its rank inline, in
  * ./newsweek-oncology-2026-records-europe.ts and ./newsweek-oncology-2026-records-world.ts (UKSH takes Lübeck's 160 and
- * names Kiel's 195). Not yet written because the hospital's own site refused a script on 11 November 2026: Vancouver
+ * names Kiel's 195). Not yet written because the hospital's own site refused a script on 11 November 2026, and again on 16 November 2026 (HTTP 403 or 429 for ten, a page with no content without JavaScript for the two Korea University hospitals): Vancouver
  * General 153, Mayo Clinic Health System Eau Claire 174, Korea University Anam 185 and Guro 206, Instituto Oncológico
  * Teknon 217, Hospital Universitario Quirónsalud Madrid 245, Parkway Cancer Centre 247, Hospital Alemão Oswaldo Cruz 252,
  * Jewish General Hospital 263, Gleneagles Singapore 266, Tan Tock Seng 269 and CarolinaEast 274.

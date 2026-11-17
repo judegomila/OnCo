@@ -4076,7 +4076,6 @@ export const TRIAL_REGISTRY_RESULTS_ABSENT: string[] = [
   "nct03435796",
   "nct04851717",
   "nct04910685",
-  "nct05491525",
   "nct05948943",
   "nct06055959",
   "nct06062810",

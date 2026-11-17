@@ -9773,7 +9773,6 @@ export const tldr_zh: Record<string, string> = {
   nct06514534: "一项在慢性髓性白血病中评估Asciminib的2期试验，由Novartis Pharmaceuticals开展，正在招募。",
   nct05735080: "一项在卵巢癌、晚期实体瘤中评估Fulvestrant、Abemaciclib的1/2期试验，由Incyclix Bio开展，正在招募。",
   nct05563220: "一项在晚期实体瘤中评估Elacestrant、Alpelisib、Everolimus的1/2期试验，由Stemline Therapeutics, Inc.开展，进行中、不再招募。",
-  nct05491525: "一项在儿童癌症中评估一种在研治疗的2/3期试验，由Urovant Sciences GmbH开展，正在招募。",
   nct05438420: "一项在宫颈癌中评估Pembrolizumab的1/2期试验，由Qurient Co., Ltd.开展，进行中、不再招募。",
   nct03315364: "一项在晚期实体瘤中评估一种在研治疗的2/3期试验，由Daehwa Pharmaceutical Co., Ltd.开展，进行中、不再招募。",
   nct04938583: "一项在卵巢癌中评估Oregovomab、Bevacizumab、Paclitaxel / nab-paclitaxel的1/2期试验，由CanariaBio Inc.开展，进行中、不再招募。",

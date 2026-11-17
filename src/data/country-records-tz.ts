@@ -201,7 +201,7 @@ const papers: PaperInput[] = [
     institutions: ["kilimanjaro-christian-medical-centre", "tanzania-population-based-cancer-registry"],
     links: [doi("10.1200/jgo.2015.002873", "J Glob Oncol 2016"), pubmed("28717724")] }),
 
-  p({ id: "paper-mphuru-hpv-vaccine-introduction-tanzania-vaccine-2022", name: "How Tanzania introduced HPV vaccine nationally in 2018",
+  p({ id: "paper-mphuru-hpv-vaccine-introduction-tanzania-vaccine-2022", name: "Tanzania's national introduction of HPV vaccine in 2018",
     journal: "Vaccine", year: 2022, doi: "10.1016/j.vaccine.2021.04.025", pmid: "33962839", authors: "Mphuru A, Li AJ, Kyesi F, et al.", paperType: "observational",
     tldr: "Tanzania introduced two doses of HPV vaccine for 14-year-old girls nationwide in April 2018, after a two-year pilot in Kilimanjaro; by the end of 2019 administrative coverage was 78% for the first dose and 49% for the second.",
     summary: "Published as \"National introduction of human papillomavirus (HPV) vaccine in Tanzania: Programmatic decision-making and implementation\". Key informant interviews in 2019 and a desk review of planning documents and administrative coverage data.",

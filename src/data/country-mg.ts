@@ -19,6 +19,7 @@ const WHO_PBCR = "https://ghoapi.azureedge.net/api/NCD_CCS_PBCR?$filter=SpatialD
 const WB_EXT = "https://api.worldbank.org/v2/country/MDG/indicator/SH.XPD.EHEX.CH.ZS?format=json";
 const WB_PC = "https://api.worldbank.org/v2/country/MDG/indicator/SH.XPD.CHEX.PC.CD?format=json";
 const CTGOV = "https://clinicaltrials.gov/search?country=Madagascar&cond=cancer";
+const DIRAC = "https://dirac.iaea.org/api/DataGridWebApi/GetCountriesAndRegions";
 
 export const MG_DIVE: CountryDive = {
   iso2: "MG",
@@ -50,6 +51,18 @@ export const MG_DIVE: CountryDive = {
           links: [
             { label: "IARC: GLOBOCAN 2024 fact sheet, Madagascar (PDF)", url: IARC_FACTSHEET },
             { label: "Kutz et al., schistosomiasis, HPV and cervical cancer in rural Madagascar (Infect Dis Poverty 2023)", url: FGS_2023 },
+          ],
+        },
+        {
+          id: "radiotherapy-dirac",
+          title: "Two radiotherapy centres and three treatment machines in the IAEA's directory",
+          plain:
+            "The International Atomic Energy Agency's directory of radiotherapy centres lists two centres in Madagascar, both giving radiotherapy, with three high-energy treatment machines between them. The entry was last updated in 2022, so it may not show what is working today. Madagascar itself told WHO in 2021 that radiotherapy was not generally available in the public sector.",
+          detail:
+            "The public country table of the IAEA's Directory of Radiotherapy Centres (DIRAC), read through its data service on 16 November 2026, gives Madagascar (last update 2022) 2 radiotherapy centres, 2 of them with radiotherapy, 3 high-energy photon and electron beam teletherapy units, a brachytherapy count of 1 and no proton or ion therapy. Against IARC's estimate of 21,354 new cancers in 2024, 3 machines is one for about 7,100 new cancers a year. DIRAC holds what each country and centre has reported to the IAEA; it counts machines and does not say whether each one is working, or who can reach it.",
+          links: [
+            { label: "IAEA DIRAC: countries and regions table (JSON)", url: DIRAC },
+            { label: "WHO Global Health Observatory: radiotherapy availability, Madagascar (API)", url: WHO_RADIO },
           ],
         },
       ],
@@ -201,10 +214,10 @@ export const MG_DIVE: CountryDive = {
       plain:
         "The Ministry of Public Health (sante.gov.mg) and the medicines agency (agmed.mg) did not answer on 11 November 2026. This page therefore has no national cancer plan, no list of treatment centres, no rules on costs and no description of the regulator from Madagascar's own sources.",
       detail:
-        "Madagascar told WHO in 2021 that it has an operational cancer plan, but OnCo could not read it. The IAEA's directory of radiotherapy centres works only in a browser, so whether any radiotherapy machine is working in the country is not stated here. OnCo's web search budget was spent during this round.",
+        "Madagascar told WHO in 2021 that it has an operational cancer plan, but OnCo could not read it. An earlier version of this page said the IAEA's directory of radiotherapy centres could be read only in a browser. Its public data service can be read, and its counts for Madagascar (2 centres, 3 machines, last updated 2022) are now in the profile above; the directory does not say whether a machine is working, so that is still not stated here. OnCo's web search budget was spent during this round.",
       links: [
         { label: "Ministry of Public Health, Madagascar", url: "https://www.sante.gov.mg/" },
-        { label: "IAEA: DIRAC, directory of radiotherapy centres", url: "https://dirac.iaea.org/" },
+        { label: "IAEA DIRAC: countries and regions table (JSON)", url: DIRAC },
       ],
     },
   ],
@@ -215,7 +228,7 @@ export const MG_DIVE: CountryDive = {
   papers: ["paper-benski-madagascar-hpv-self-test-triage-plosone-2019", "paper-dumont-madagascar-rural-via-screening-jogoh-2017"],
   people: [],
   how:
-    "Every card was written from sources read in full rather than through a summary: IARC's GLOBOCAN 2024 fact sheet for Madagascar; three papers' abstracts through Europe PMC; WHO's Global Health Observatory (HPV coverage and the 2019 and 2021 country capacity surveys); and the World Bank's health expenditure series. Trials were counted from OnCo's ClinicalTrials.gov participation data. The two new paper records carry their own sources.",
+    "Every card was written from sources read in full rather than through a summary: IARC's GLOBOCAN 2024 fact sheet for Madagascar; three papers' abstracts through Europe PMC; WHO's Global Health Observatory (HPV coverage and the 2019 and 2021 country capacity surveys); the World Bank's health expenditure series; and the IAEA's DIRAC country table (read 16 November 2026). Trials were counted from OnCo's ClinicalTrials.gov participation data. The two new paper records carry their own sources.",
   verify:
     "None of the national figures here is a Malagasy count. Whether treatment is available, and at what cost, needs to be asked of the hospital that receives the referral.",
   verifyLinks: [

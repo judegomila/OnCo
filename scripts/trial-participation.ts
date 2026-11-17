@@ -44,6 +44,21 @@ export function studyHash(study: ParticipationStudy): string {
   return createHash("sha256").update(JSON.stringify(study)).digest("hex");
 }
 
+/**
+ * Cross-references another registry declares that were read against ClinicalTrials.gov and are wrong: the NCT number
+ * names a different study. Without this list the fetcher attaches that study's sites, sponsor and status to the record.
+ * Keyed by record id, then by NCT number, with what was checked.
+ */
+export const REJECTED_CROSS_REFERENCES: Record<string, Record<string, string>> = {
+  "espac-4": {
+    NCT00058201: "ISRCTN96397434 (ESPAC-4) lists NCT00058201 as a secondary number, but ClinicalTrials.gov NCT00058201 is ESPAC-3 version 2 (secondary id RLUH-NCRI-ESPAC-3V2; observation or fluorouracil or gemcitabine, from July 2001). Read 16 November 2026.",
+  },
+};
+/** The cross-references a record may be fetched by: every declared one except those REJECTED_CROSS_REFERENCES names. */
+export function acceptedCrossReferences<T extends { nct: string }>(id: string, refs: T[] | undefined): T[] {
+  return (refs ?? []).filter((r) => !REJECTED_CROSS_REFERENCES[id]?.[r.nct]);
+}
+
 /** Explicit registry identifiers only, including multiple studies named by a combined record. No title matching. */
 export function registryIds(t: { nct?: string; links: Array<{ url: string }> }): string[] {
   const ids = new Set(t.nct?.toUpperCase().match(/\bNCT\d{8}\b/g) ?? []);

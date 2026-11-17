@@ -154,7 +154,7 @@ const papers: PaperInput[] = [
     institutions: ["ncdc-georgia", "georgia-population-cancer-registry"], cancers: ["hcc"],
     links: [doi("10.1371/journal.pone.0347697", "PLOS ONE 2026"), pubmed("42048314")] }),
 
-  p({ id: "paper-surguladze-hcv-attributable-liver-cancer-georgia-bmcid-2024", name: "How much liver cancer in Georgia is due to hepatitis C: a case-control study, 2015 to 2019",
+  p({ id: "paper-surguladze-hcv-attributable-liver-cancer-georgia-bmcid-2024", name: "Liver cancer attributable to hepatitis C in Georgia: a case-control study, 2015 to 2019",
     journal: "BMC Infectious Diseases", year: 2024, doi: "10.1186/s12879-024-09916-7", pmid: "39333949", authors: "Surguladze S, Armstrong PA, Beckett GA, et al.", paperType: "observational", participants: 3874,
     tldr: "Using hepatitis C programme and cancer registry data, people in Georgia with hepatitis C had about 20 times the odds of liver cancer of people without it.",
     summary: "Published as \"Hepatitis C virus attributable liver cancer in the country of Georgia, 2015-2019: a case-control study\". The study used data from Georgia's Hepatitis C Elimination Program and the Georgian Cancer Registry for 2015 to 2019, with 496 liver cancer cases and 3,378 controls, to estimate the share of liver cancer attributable to hepatitis C as an indicator of the programme's impact.",
@@ -196,7 +196,7 @@ const papers: PaperInput[] = [
     cancers: ["breast-cancer"], related: ["mammography"],
     links: [doi("10.1016/j.vhri.2023.09.002", "Value Health Reg Issues 2024"), pubmed("37992568")] }),
 
-  p({ id: "paper-topuridze-phc-cancer-screening-georgia-ejgp-2025", name: "How Georgia's primary care doctors and nurses recommend and refer for cancer screening, 2023",
+  p({ id: "paper-topuridze-phc-cancer-screening-georgia-ejgp-2025", name: "Cancer screening recommendation and referral by Georgia's primary care doctors and nurses, 2023",
     journal: "European Journal of General Practice", year: 2025, doi: "10.1080/13814788.2025.2582292", pmid: "41284371", authors: "Topuridze M, Kareli A, Javashvili G, et al.", paperType: "observational", participants: 2958,
     tldr: "With cancer screening uptake in Georgia at 13%, a survey of 2,958 primary care doctors and nurses found nearly all said they refer for screening, but two thirds referred only one to five people a week.",
     summary: "Published as \"Primary healthcare providers' knowledge, attitudes, and practices regarding cancer screening recommendation and referral in Georgia, 2023\". A cross-sectional survey in November 2023 of doctors and nurses in primary care, two thirds of them in rural practice; the first author is in the National Center for Disease Control and Public Health's health promotion division, and co-authors are at Tbilisi State Medical University.",

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { assertNoFacilityContacts, facilityObservations, makeSnapshot, participationReference, participationSummary, readParticipationPages, registryIds, studyHash, type ParticipationStudy } from "./trial-participation";
+import { acceptedCrossReferences, assertNoFacilityContacts, facilityObservations, makeSnapshot, participationReference, participationSummary, readParticipationPages, registryIds, studyHash, type ParticipationStudy } from "./trial-participation";
 
 const study: ParticipationStudy = { protocolSection: {
   identificationModule: { nctId: "NCT01578239" },
@@ -90,6 +90,14 @@ describe("registry participation custody", () => {
       { url: "https://example.org/NCT99999999" },
     ] })).toEqual(["NCT00687986", "NCT00840749", "NCT01578239"]);
     expect(registryIds({ nct: "ISRCTN26715889", links: [] })).toEqual([]);
+  });
+
+  it("drops a cross-reference that names a different study, and keeps the rest", () => {
+    // ISRCTN's ESPAC-4 record lists NCT00058201, which ClinicalTrials.gov holds as ESPAC-3.
+    expect(acceptedCrossReferences("espac-4", [{ nct: "NCT00058201" }])).toEqual([]);
+    expect(acceptedCrossReferences("espac-3", [{ nct: "NCT00058201" }])).toEqual([{ nct: "NCT00058201" }]);
+    expect(acceptedCrossReferences("espac-4", [{ nct: "NCT99999999" }])).toEqual([{ nct: "NCT99999999" }]);
+    expect(acceptedCrossReferences("anything", undefined)).toEqual([]);
   });
 
   it("follows a cursor even after every requested study has arrived", async () => {

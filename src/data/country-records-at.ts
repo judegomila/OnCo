@@ -155,7 +155,7 @@ const papers: PaperInput[] = [
     cancers: ["breast-cancer"],
     links: [doi("10.1007/s00508-017-1293-9", "Wien Klin Wochenschr 2018"), pubmed("29209825")] }),
 
-  p({ id: "paper-waser-hpv-vaccination-parents-tyrol-2022", name: "Why parents in Tyrol, Austria, accept or reject HPV vaccination for their children",
+  p({ id: "paper-waser-hpv-vaccination-parents-tyrol-2022", name: "Parents' reasons for accepting or rejecting HPV vaccination for their children in Tyrol, Austria",
     journal: "Human Vaccines & Immunotherapeutics", year: 2022, doi: "10.1080/21645515.2022.2126251", pmid: "36251011", authors: "Waser M, Heiss R, Borena W", paperType: "observational", participants: 334,
     tldr: "In a survey of 334 parents in Tyrol, 81.9% accepted HPV vaccination for their children; fear of side effects, too little information and feeling the child was too young were the commonest reasons for hesitancy.",
     summary: "Published as \"Factors affecting children's HPV vaccination in Austria: Evidence from a parent survey\". In Austria HPV vaccination is free for children, yet coverage remains below the level needed for herd immunity. The authors surveyed 334 parents in Tyrol on their knowledge of HPV, attitudes to vaccination, information sources and intentions, and modelled what predicted acceptance.",

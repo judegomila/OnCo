@@ -109,7 +109,7 @@ const papers: PaperInput[] = [
     institutions: ["zambia-national-cancer-registry"], cancers: ["cervical", "prostate", "breast-cancer", "kaposi-sarcoma"],
     links: [doi("10.4314/mmj.v33i3.6", "Malawi Med J 2021"), pubmed("35233276")] }),
 
-  p({ id: "paper-shumba-oesophageal-cancer-zncr-pamj-2023", name: "How many oesophageal cancers reach the Zambia National Cancer Registry",
+  p({ id: "paper-shumba-oesophageal-cancer-zncr-pamj-2023", name: "Oesophageal cancer cases recorded in the Zambia National Cancer Registry",
     journal: "Pan African Medical Journal", year: 2023, doi: "10.11604/pamj.2023.44.128.32907", pmid: "37275285", authors: "Shumba S, Musonda P, Lombe D, Chongwe G, Kayamba V.", paperType: "observational", participants: 222,
     tldr: "Of 222 patients with confirmed oesophageal cancer at the University Teaching Hospital in Lusaka in 2015 to 2017, only 51 appeared in the national cancer registry, so official figures for the disease are likely to be underestimates.",
     summary: "Published as \"Oesophageal cancer cases recorded in the Zambia National Cancer Registry: a cross-sectional study\". The authors reviewed oesophageal cancer records at the University Teaching Hospital (UTH) and in the Zambia National Cancer Registry between 2015 and 2017.",
@@ -221,7 +221,7 @@ const papers: PaperInput[] = [
     institutions: ["cancer-diseases-hospital-lusaka", "zambia-ministry-of-health"], cancers: ["cervical"],
     links: [doi("10.3332/ecancer.2025.1942", "ecancermedicalscience 2025"), pubmed("40949475")] }),
 
-  p({ id: "paper-chisha-zamra-good-review-practices-fmed-2025", name: "How Zambia's medicines regulator reviews applications: good review practices at ZAMRA",
+  p({ id: "paper-chisha-zamra-good-review-practices-fmed-2025", name: "Good review practices at ZAMRA, Zambia's medicines regulator",
     journal: "Frontiers in Medicine", year: 2025, doi: "10.3389/fmed.2025.1706139", pmid: "41306499", authors: "Chisha CS, Leigh S, Siyanga M, McAuslane N, Walker S.", paperType: "observational", participants: 12,
     tldr: "Twelve of the Zambia Medicines Regulatory Authority's 16 medicine assessors answered a structured questionnaire; good review practices were in place, but target timelines were not well followed.",
     summary: "Published as \"Assessment of compliance with good review practices by medicine assessors within the Zambia medicines regulatory authority\". The Centre for Innovation in Regulatory Science's good review practices questionnaire was completed by ZAMRA's scientific reviewers.",

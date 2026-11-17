@@ -354,7 +354,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   imlunestrant: { US: A(2025), EU: V(A(2026, epar("inluriyo"), "ESR1-mutant ER+/HER2- mBC; 9 Jan 2026")), UK: A(2026, govuk("mhra-approves-imlunestrant-tosylate-inluryo-a-new-treatment-for-breast-cancer"), "24 Feb 2026"), JP: A(2025, PMDA, "Inluriyo; 22 Dec 2025") },
   camizestrant: { US: A(2026, undefined, "Etcamah, 4 Sep 2026, after 6-3 negative ODAC"), EU: V(A(2026, epar("etcamah"), "ER+/HER2- advanced breast cancer with emergent ESR1 mutation, with a CDK4/6 inhibitor; 20 Jul 2026")) },
   vepdegestrant: { US: A(2026), EU: UR("MAA (Arvinas/Pfizer)") },
-  giredestrant: { US: UR("evERA positive; NDA 2026") },
+  giredestrant: { US: A(2026, "https://www.fda.gov/drugs/cancer-approvals/fda-approves-giredestrant-combination-everolimus-er-positive-her2-negative-esr1-mutated-locally", "ER-positive, HER2-negative, ESR1-mutated locally advanced or metastatic breast cancer, with everolimus", "Wilserdly: FDA notice of 16 November 2026 (evERA)") },
   "megestrol-progestins": global("Megace", "megestrol", 1971, 1970, 1970, 1980, 1995, 1975, "Legacy product"),
   "octreotide-lanreotide": global("Sandostatin", "sandostatin", 1988, 1988, 1988, 1991, 1996, 1990),
   bicalutamide: { US: A(1995), EU: EU_NATIONAL(1995, "National authorisations (Casodex); no centralised EPAR"), UK: A(1995, mhra("Casodex")), JP: A(1999, PMDA), CN: A(undefined, NMPA), AU: A(undefined, tga("Casodex")) },

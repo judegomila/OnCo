@@ -1,0 +1,452 @@
+[
+  {
+    "path": "primary/absence-classic.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1136%2Fbmj.311.7003.485&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.1136/bmj.311.7003.485",
+    "sha256": "0235ff259eefae093481c4c10a0cc5b128379967eab5133b46d25528f1709235",
+    "capturedAtFilesystemUTC": "2026-11-08T18:42:43.313284+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/absence-method.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.7554%2FeLife.92311&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.7554/eLife.92311",
+    "sha256": "83ccccd9fd83ae1a181b8854d61c36a22919fd38526099ca4b5504b4d9458a3e",
+    "capturedAtFilesystemUTC": "2026-11-08T18:42:43.313294+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/absence.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Absence+of+evidence+is+not+evidence+of+absence%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Absence of evidence is not evidence of absence\"",
+    "sha256": "9f18fb37e46da53076f6ebd0da4317d65b1a1f9f4093194d81979de90456108c",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:35.742456+00:00",
+    "reportedHitCount": 66,
+    "capturedResults": 6,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/actionability.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30137196+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "EXT_ID:30137196 AND SRC:MED",
+    "sha256": "ac3b912851929d5c1191cfe7893658ed7bf9e66a8f1ea0a6c5f5da475cd8f0aa",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:33.200776+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/atp-assay.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22A+simple+high-content+cell+cycle+assay+reveals+frequent+discrepancies+between+cell+number+and+ATP+and+MTS+proliferation+assays%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"A simple high-content cell cycle assay reveals frequent discrepancies between cell number and ATP and MTS proliferation assays\"",
+    "sha256": "552299b209e9b212b574eca811c939a2bf00c2e2305d5596a5c99c031a4dbcd7",
+    "capturedAtFilesystemUTC": "2026-11-08T18:43:48.007769+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/binding-barrier-adc.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1158%2F0008-5472.CAN-17-1638&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.1158/0008-5472.CAN-17-1638",
+    "sha256": "83bd593c805453f74e12343953fd22156b6fddab0bcb537ef84a7ffdcc88b378",
+    "capturedAtFilesystemUTC": "2026-11-08T18:42:42.642977+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/binding-barrier-experiment.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A1327501+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "EXT_ID:1327501 AND SRC:MED",
+    "sha256": "71519ce231a33c403e2c32fdd45274bc8030d26b0317d6b9d500fdb5b8af6b04",
+    "capturedAtFilesystemUTC": "2026-11-08T18:42:42.642988+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/binding-barrier.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22binding+site+barrier%22+AND+AUTH_LAST%3ACilliers&format=json&resultType=core&pageSize=6",
+    "query": "\"binding site barrier\" AND AUTH_LAST:Cilliers",
+    "sha256": "9acf249a089b9a18129c0df62b4930b23af9550c7f193c265c366c5993b6d568",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:31.844504+00:00",
+    "reportedHitCount": 0,
+    "capturedResults": 0,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/clinical-utility.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35657320+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "EXT_ID:35657320 AND SRC:MED",
+    "sha256": "b3ca7cb81e853a0a78705c896d435527b07d3a24644659b4b24dabd6ca253505",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:34.286112+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/competing-method.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Competing+risks+in+epidemiology%3A+possibilities+and+pitfalls%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Competing risks in epidemiology: possibilities and pitfalls\"",
+    "sha256": "9280ee05352c6334457f92a061ddaa73040ab004d708abbc6a23e05f072f4516",
+    "capturedAtFilesystemUTC": "2026-11-08T18:45:08.445370+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/competing-risks.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22A+proportional+hazards+model+for+the+subdistribution+of+a+competing+risk%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"A proportional hazards model for the subdistribution of a competing risk\"",
+    "sha256": "bc020634f23a8e0fc83707122687759560b45782dcd2b05725f7c80d337c6016",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:35.988373+00:00",
+    "reportedHitCount": 0,
+    "capturedResults": 0,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/confounding-breast.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A19457638+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "EXT_ID:19457638 AND SRC:MED",
+    "sha256": "b6edc0b5a32a701937ce0c207efe27c9b8599359e83d3ac0acc30f876f2e4c8f",
+    "capturedAtFilesystemUTC": "2026-11-08T18:42:44.411720+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/confounding.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Confounding+by+indication%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Confounding by indication\"",
+    "sha256": "c737f0db2122d656761ca5af73014d72e6b4a257049f4b775d046bb4d8e83284",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:36.213017+00:00",
+    "reportedHitCount": 143,
+    "capturedResults": 6,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/crispr-artifacts.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27260156+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "EXT_ID:27260156 AND SRC:MED",
+    "sha256": "70f164fcfeaacea806dfef7ae119b931241121d24cd0cef41228faedd3429e22",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:34.103097+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/crispr-correction.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Computational+correction+of+copy+number+effect+improves+specificity%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Computational correction of copy number effect improves specificity\"",
+    "sha256": "6e9e93e88bdcf433518bc530e085e166326bc56a213d5658a218a63a217dc803",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:34.700919+00:00",
+    "reportedHitCount": 2,
+    "capturedResults": 2,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/crispr-offtarget.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Genetic+and+pharmacological+interrogation+of+cancer+vulnerability%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Genetic and pharmacological interrogation of cancer vulnerability\"",
+    "sha256": "8bb11e11510b79145b6d20e8227d2a772159ae2eca9fc3b0fdfb81cdc43b4a76",
+    "capturedAtFilesystemUTC": "2026-11-08T18:42:44.743119+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/ctdna-origin.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22High-intensity+sequencing+reveals+the+sources%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"High-intensity sequencing reveals the sources\"",
+    "sha256": "61dba56baab93aac511b404021cb15328d024b5d396c0854c896064336a7904d",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:33.266737+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/ctdna-sampling.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.15252%2Femmm.202216505&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.15252/emmm.202216505",
+    "sha256": "ba4ef9b8ceb5c6f604d2e99cb813bf5f15d2202f19a735c219ac44820e5b114d",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:33.343400+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/ctdna-shedding-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24553385+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "EXT_ID:24553385 AND SRC:MED",
+    "sha256": "fed0457aafebe4c465f84d51f3480932d808398bfe624f7da9376c6a3cee47fe",
+    "capturedAtFilesystemUTC": "2026-11-08T18:42:43.924638+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/ctdna-shedding.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Detection+of+circulating+tumor+DNA+in+early-+and+late-stage+human+malignancies%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Detection of circulating tumor DNA in early- and late-stage human malignancies\"",
+    "sha256": "9f505b9922d3deac22d79f24fbd969b36bfe84d4233e217c8f57d5360e63bb99",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:33.352027+00:00",
+    "reportedHitCount": 2,
+    "capturedResults": 2,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/cutoff-finder.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Cutoff+Finder%3A+a+comprehensive+and+straightforward%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Cutoff Finder: a comprehensive and straightforward\"",
+    "sha256": "888bfa3a21f12f1bc70c8d0d0585824de9e70022b2395505487ee6d8b630247f",
+    "capturedAtFilesystemUTC": "2026-11-08T18:45:07.832361+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/cutpoint-doi.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1093%2Fjnci%2F86.11.829&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.1093/jnci/86.11.829",
+    "sha256": "b27e8c19059b8c0ebf8d4a1c77354b59639534187e9d7bad9c9cd63402b34dcf",
+    "capturedAtFilesystemUTC": "2026-11-08T18:42:44.048957+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/cutpoint.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Dangers+of+using+optimal+cutpoints%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Dangers of using optimal cutpoints\"",
+    "sha256": "4e1bedb71cc2df5435addd46cd8165c8e24cb91155ab24a0374449e35c6111bf",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:35.477854+00:00",
+    "reportedHitCount": 2,
+    "capturedResults": 2,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/cytostasis.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22An+unbiased+metric+of+antiproliferative+drug+effect%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"An unbiased metric of antiproliferative drug effect\"",
+    "sha256": "35c6bf34490720a9adef81dad440208bfa7b595ece23a7b5d325618d88a68195",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:34.928784+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/decision-curve.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1177%2F0272989X06295361&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.1177/0272989X06295361",
+    "sha256": "8f27aff2f24d24bdbfb1b9faa362feae2beffe82ed4b34bdf7fea48cfe64c54b",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:35.366318+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/detection-method.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22A+partly+nonparametric+approach+for+determining+the+limit+of+detection%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"A partly nonparametric approach for determining the limit of detection\"",
+    "sha256": "988e45bcb57d22780d2448180833f93b889e410dd878da9c389e56ecf11e069a",
+    "capturedAtFilesystemUTC": "2026-11-08T18:43:46.703354+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/dmiqe.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22The+Digital+MIQE+Guidelines+Update%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"The Digital MIQE Guidelines Update\"",
+    "sha256": "5a2e3d7314a0e6494bc69e32754ac05ad7eedae12979f94a83a52af7301ec7c6",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:33.946554+00:00",
+    "reportedHitCount": 2,
+    "capturedResults": 2,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/engagement-indirect.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs42003-020-0795-6&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.1038/s42003-020-0795-6",
+    "sha256": "1e948b70986da3ba14874e5a41b5e768528aeadd7316775df2d251876dddbe20",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:32.494954+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/engagement.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1126%2Fscience.1233606&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.1126/science.1233606",
+    "sha256": "5130c5d165d3ad68ee233bfc51192f43a3aa55558e4f902f762f5cd2f8018eda",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:31.881252+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/exposure.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Clinically+Relevant+Concentrations+of+Anticancer+Drugs%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Clinically Relevant Concentrations of Anticancer Drugs\"",
+    "sha256": "b4ecbd1877d625fe7bd4d8ac45e7ad98ffe457332c42dffaad44c0085a68b6bd",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:34.762359+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/expression-response.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A37488289+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "EXT_ID:37488289 AND SRC:MED",
+    "sha256": "0647220e681a18210cf6735f714ecb811bebe847a5e3f63d7d7a62c30af8bb21",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:32.555865+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/functional-variant.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Recommendations+for+application+of+the+functional+evidence+PS3%2FBS3%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Recommendations for application of the functional evidence PS3/BS3\"",
+    "sha256": "d8431dfa2bbe5ae2efc045356ab6b7d2da2d3320cd54e7b270161e5637ce254f",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:32.641903+00:00",
+    "reportedHitCount": 2,
+    "capturedResults": 2,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/gdsc-resource.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1093%2Fnar%2Fgks1111+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.1093/nar/gks1111 AND SRC:MED",
+    "sha256": "86499057e35d41bda9885a4316dd3a7b2f23bc962666fc1d494524c4e07bf006",
+    "capturedAtFilesystemUTC": "2026-11-08T19:06:37.234986+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/generalizing.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22The+use+of+propensity+scores+to+assess+the+generalizability%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"The use of propensity scores to assess the generalizability\"",
+    "sha256": "ecf0d5d3a7cf9b3bd5e085e1b64aa7d2fb9ae44940455cfd700cc0d165b93a5c",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:36.137174+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/genetic-controls.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Off-target+toxicity+is+a+common+mechanism+of+action+of+cancer+drugs+undergoing+clinical+trials%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Off-target toxicity is a common mechanism of action of cancer drugs undergoing clinical trials\"",
+    "sha256": "4c9cef3e5cc1b4bb51ad6bfd978e7614615b100dc46bf09d39128d22341b4039",
+    "capturedAtFilesystemUTC": "2026-11-08T18:42:45.231292+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/growth-rate.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Growth+rate+inhibition+metrics+correct%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Growth rate inhibition metrics correct\"",
+    "sha256": "3681f9749960a12999a9882906c63f7d762a670b118f3aa1002b249ed362ba11",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:34.032256+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/immortal-time.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A18056625+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "EXT_ID:18056625 AND SRC:MED",
+    "sha256": "727648e7cf2fb57f153da19996ae111a6413f6068ca91d20e0ac273a9d794204",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:35.361680+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/lysosomal-egress.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22SLC46A3+Is+Required%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"SLC46A3 Is Required\"",
+    "sha256": "72b900b54366d03270dd495d0d087ea41e3c0c46d7ab203e9e80b2a513920ab0",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:31.861535+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/model-context.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Organoid+Modeling+of+the+Tumor+Immune+Microenvironment%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Organoid Modeling of the Tumor Immune Microenvironment\"",
+    "sha256": "18ec4edc45cc87e5d01a4f281b46c083979b6ac11357ddc4e58a887d7db328a6",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:34.709073+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/molecular-counting.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Integrated+digital+error+suppression+for+improved+detection+of+circulating+tumor+DNA%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Integrated digital error suppression for improved detection of circulating tumor DNA\"",
+    "sha256": "af0631f72183be3e6606e981c24356dc5d29eb53b333c3726a4108547645c68f",
+    "capturedAtFilesystemUTC": "2026-11-08T18:43:47.380274+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/prediction-validation.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22Transparent+reporting+of+a+multivariable+prediction+model+for+individual+prognosis+or+diagnosis%22+AND+FIRST_PDATE%3A%5B2014-01-01+TO+2015-12-31%5D+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE_ABS:\"Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis\" AND FIRST_PDATE:[2014-01-01 TO 2015-12-31] AND SRC:MED",
+    "sha256": "ed660c1e027e258f9e077b18dd59e144d03151b81111734285715aac8812c7cf",
+    "capturedAtFilesystemUTC": "2026-11-08T18:53:58.471099+00:00",
+    "reportedHitCount": 17,
+    "capturedResults": 6,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/processing.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Determination+of+Cellular+Processing+Rates%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Determination of Cellular Processing Rates\"",
+    "sha256": "bd38c79fcbc518e0fe6d941bada76c7738c697b6bead8c21b998320c563b808f",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:31.906293+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/prognostic-predictive.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1200%2FJCO.2015.63.3651&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.1200/JCO.2015.63.3651",
+    "sha256": "d124614bc07c0e6e8eff7fa6d04bc0b03d17a61cf01c412c60dba741c014415b",
+    "capturedAtFilesystemUTC": "2026-11-08T18:41:32.555839+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/target-trial.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Using+Big+Data+to+Emulate+a+Target+Trial%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Using Big Data to Emulate a Target Trial\"",
+    "sha256": "d38b88bfb21e676eaf4a1250762dd722be02a9216093b07e94ccfe5da2458eec",
+    "capturedAtFilesystemUTC": "2026-11-08T18:42:44.540313+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  },
+  {
+    "path": "primary/viability-orthogonal.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Systematic+comparison+of+cell+viability+assays%22&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Systematic comparison of cell viability assays\"",
+    "sha256": "e9832e08fbff464f242c9b4194be55fc066e0f492ad5049fb8b9c314d8558ad8",
+    "capturedAtFilesystemUTC": "2026-11-08T18:42:45.173873+00:00",
+    "reportedHitCount": 0,
+    "capturedResults": 0,
+    "paginationScope": "First page only; identifier resolution or bounded discovery, not a complete literature census."
+  }
+]

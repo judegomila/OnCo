@@ -4,7 +4,7 @@ import type { CountryDive } from "@/data/country-dive";
  * Myanmar deep dive: the hand-written cards for /countries/mm/ (wave 5). Every figure was read on 11 November 2026 from
  * the raw text of its source, not from a summary of it: IARC's GLOBOCAN 2024 fact sheet for Myanmar (PDF text) and
  * OnCo's copy of the GLOBOCAN data, WHO's Cancer Country Profile 2020 for Myanmar (PDF text), the World Bank's API for
- * the WHO Global Health Expenditure Database indicators, the WHO/UNICEF estimates of HPV vaccination coverage (WHO's
+ * the WHO Global Health Expenditure Database indicators, WHO's estimates of HPV vaccination coverage (WHO's
  * Global Health Observatory and immunization data APIs), the IAEA's DIRAC country table (its public JSON), OCHA's
  * Myanmar page, ClinicalTrials.gov's API, the Department of Food and Drug Administration's own pages, and six
  * papers resolved through Europe PMC, read in full text where open access. Where a figure could not be read it is named
@@ -285,13 +285,15 @@ export const MM_DIVE: CountryDive = {
       cards: [
         {
           id: "hpv-vaccine-mm",
-          title: "HPV vaccination of 9-year-old girls since 2020, with coverage falling to 8% in 2022 and recovering",
+          title: "HPV vaccination of 9-year-old girls since 2020, with WHO's first-dose estimate falling to 8% in 2022 and recovering",
           plain:
-            "Myanmar began vaccinating 9-year-old girls against human papillomavirus, the cause of most cervical cancers, in 2020, and WHO now records a one-dose schedule. WHO and UNICEF estimate that 89% of girls in the target group were vaccinated in 2020, 8% in 2022 and 94% in 2025.",
+            "Myanmar began vaccinating 9-year-old girls against human papillomavirus, the cause of most cervical cancers, in 2020, and WHO now records a one-dose schedule. WHO estimates that 89% of girls in the target group had a first dose in 2020, 8% in 2022 and 94% in 2025. For 2022 Myanmar itself reported final-dose coverage of about 37%.",
           detail:
-            "WHO's immunization data record HPV vaccine introduction in 2020, a school-based primary delivery strategy, girls aged 9 and a schedule of one dose; they do not say whether the schedule has been one dose since 2020. The WHO/UNICEF estimates of coverage in the primary target cohort are 89% for 2020, none published for 2021, 8% for 2022, 76% for 2023, 83% for 2024 and 94% for 2025, with first-dose and complete coverage both 94% in the latest year. Clinicians writing in 2023 describe the vaccine as the 13th new vaccine in the national immunization programme and say that, because schools were closed during the COVID-19 pandemic, the first round in 2020 was given in the community and reached more than 90% of 9-year-old girls. The estimates do not say why coverage fell in 2022; no source read for this page explains it.",
+            "WHO's immunization data record HPV vaccine introduction in 2020, a school-based primary delivery strategy, girls aged 9 and a schedule of one dose; WHO's vaccine introduction table marks the schedule as one dose from 2023. WHO's estimates of first-dose coverage in the primary target cohort are 89% for 2020, none published for 2021, 8% for 2022, 76% for 2023, 83% for 2024 and 94% for 2025, with first-dose and complete coverage both 94% in the latest year. For 2022 the same WHO data, read on 17 November 2026, also hold a last-dose estimate of 44%, and the administrative and official coverage Myanmar reported for the final dose was 36.82%, so the 8% describes first doses only. Clinicians writing in 2023 describe the vaccine as the 13th new vaccine in the national immunization programme and say that, because schools were closed during the COVID-19 pandemic, the first round in 2020 was given in the community and reached more than 90% of 9-year-old girls. The estimates do not say why first-dose coverage fell in 2022; no source read for this page explains it.",
           links: [
             { label: "WHO Global Health Observatory: HPV coverage estimates, Myanmar (data API)", url: WHO_HPV },
+            { label: "WHO immunization data: all HPV coverage rows, Myanmar (data API)", url: "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'MMR'%20and%20contains(ANTIGEN,'HPV')" },
+            { label: "WHO immunization data: vaccine introduction rows, Myanmar (data API)", url: "https://xmart-api-public.who.int/WIISE/MT_AD_INTRO_LONG?$filter=ISO_3_CODE%20eq%20'MMR'" },
             { label: "WHO immunization data: HPV schedule and introduction, Myanmar (data API)", url: WHO_HPV_SCHEDULE },
             { label: "Thinn MM et al., cervical cancer prevention in Myanmar (South Asian J Cancer 2023)", url: THINN_FULL },
           ],
@@ -314,7 +316,7 @@ export const MM_DIVE: CountryDive = {
         {
           id: "hpv-coverage-mm",
           title: "HPV vaccination coverage, girls in the primary target cohort, 2020 to 2025",
-          caption: "WHO/UNICEF estimates of the share of girls in the target cohort (age 9 in Myanmar) vaccinated, per cent.",
+          caption: "WHO's estimates of the share of girls in the target cohort (age 9 in Myanmar) vaccinated, per cent.",
           columns: [
             { key: "year", label: "Year" },
             { key: "coverage", label: "Coverage (%)", numeric: true },
@@ -327,7 +329,7 @@ export const MM_DIVE: CountryDive = {
             { year: "2024", coverage: 83 },
             { year: "2025", coverage: 94 },
           ],
-          note: "No estimate is published for 2021. These are estimates, not counts of doses given, and WHO and UNICEF revise them as new data arrive.",
+          note: "No estimate is published for 2021. These are WHO's estimates, not counts of doses given, and they can be revised as new data arrive.",
           sources: [
             { label: "WHO Global Health Observatory, indicator SDGHPVRECEIVED, Myanmar (data API)", url: WHO_HPV },
             { label: "WHO immunization data: Myanmar", url: WHO_IMM },
@@ -376,9 +378,9 @@ export const MM_DIVE: CountryDive = {
           id: "single-dose-community",
           title: "A one-dose HPV vaccine schedule, delivered in the community when schools closed",
           plain:
-            "WHO records that Myanmar gives the HPV vaccine to 9-year-old girls as a single dose. When schools closed in 2020, the first round was taken into communities instead and reached most girls. Coverage then fell sharply in 2022 and has since climbed back.",
+            "WHO records that Myanmar gives the HPV vaccine to 9-year-old girls as a single dose. When schools closed in 2020, the first round was taken into communities instead and reached most girls. WHO's estimate of first-dose coverage then fell sharply in 2022 and has since climbed back.",
           detail:
-            "WHO's immunization data record the vaccine's introduction in 2020 and a schedule of one dose at age 9, without saying when the schedule became one dose. Yangon clinicians write that it was planned as school-based but given in the community in 2020 because of COVID-19 closures, reaching more than 90% of 9-year-old girls with a first dose. WHO/UNICEF estimates show 8% coverage in 2022, the year after the military takeover, and 94% in 2025. With one dose, WHO's figures for first-dose and complete coverage are the same, 94% in 2025.",
+            "WHO's immunization data record the vaccine's introduction in 2020 and a schedule of one dose at age 9; WHO's vaccine introduction table marks the schedule as one dose from 2023. Yangon clinicians write that it was planned as school-based but given in the community in 2020 because of COVID-19 closures, reaching more than 90% of 9-year-old girls with a first dose. WHO's first-dose estimates show 8% coverage in 2022, the year after the military takeover, and 94% in 2025. With one dose, WHO's figures for first-dose and complete coverage are the same, 94% in 2025.",
           links: [
             { label: "WHO immunization data: HPV schedule, Myanmar (data API)", url: WHO_HPV_SCHEDULE },
             { label: "Thinn MM et al., South Asian J Cancer 2023 (full text)", url: THINN_FULL },
@@ -476,7 +478,7 @@ export const MM_DIVE: CountryDive = {
       plain:
         "No published source was found that measures how many cancer patients have lost treatment since 2021, how many oncology staff have left their posts, or how radiotherapy centres have operated during the conflict.",
       detail:
-        "The sources on this page measure attacks on health care, displacement, distance to general hospitals and humanitarian need, but none measures cancer care. The WHO workforce and equipment figures are from 2019 and 2020, and DIRAC's entries, four of the nine last updated in 2017, do not say whether each machine is working. The fall in HPV vaccination coverage to 8% in 2022 is recorded but not explained by WHO or UNICEF. Screening uptake after the 2021 to 2022 pilots was not found. What became of the breast screening programme WHO recorded in 2019 was not found either; IARC's CanScreen5 records no breast screening policy or protocol in its 2025 entry. The March 2025 earthquake's damage to cancer services specifically was not found.",
+        "The sources on this page measure attacks on health care, displacement, distance to general hospitals and humanitarian need, but none measures cancer care. The WHO workforce and equipment figures are from 2019 and 2020, and DIRAC's entries, four of the nine last updated in 2017, do not say whether each machine is working. The fall in WHO's first-dose estimate of HPV vaccination coverage to 8% in 2022 is recorded but not explained by WHO. Screening uptake after the 2021 to 2022 pilots was not found. What became of the breast screening programme WHO recorded in 2019 was not found either; IARC's CanScreen5 records no breast screening policy or protocol in its 2025 entry. The March 2025 earthquake's damage to cancer services specifically was not found.",
       links: [
         { label: "Thu H et al., BMJ Glob Health 2026", url: BMJGH },
         { label: "Usmany J et al., Popul Health Metr 2025", url: USMANY },
@@ -493,7 +495,7 @@ export const MM_DIVE: CountryDive = {
   ],
   people: [],
   how:
-    "Every card was written from sources read in their raw text on 11 November 2026: IARC's GLOBOCAN 2024 fact sheet for Myanmar, WHO's Cancer Country Profile 2020, WHO's health expenditure figures as published by the World Bank, the WHO/UNICEF HPV vaccination estimates, the IAEA's DIRAC country table, OCHA's Myanmar page, the Department of Food and Drug Administration's own pages, ClinicalTrials.gov, and papers resolved through Europe PMC and read in full where open access. Statements about the period since February 2021 are attributed to the UN agency or paper that makes them. The corpus held no Myanmar institution before this page; the new records are the Nay Pyi Taw registry, the regulator, two patient groups and six papers.",
+    "Every card was written from sources read in their raw text on 11 November 2026: IARC's GLOBOCAN 2024 fact sheet for Myanmar, WHO's Cancer Country Profile 2020, WHO's health expenditure figures as published by the World Bank, WHO's HPV vaccination estimates and coverage rows, the IAEA's DIRAC country table, OCHA's Myanmar page, the Department of Food and Drug Administration's own pages, ClinicalTrials.gov, and papers resolved through Europe PMC and read in full where open access. Statements about the period since February 2021 are attributed to the UN agency or paper that makes them. The corpus held no Myanmar institution before this page; the new records are the Nay Pyi Taw registry, the regulator, two patient groups and six papers.",
   verify:
     "Myanmar's cancer figures are IARC estimates built from subnational registry data and modelled deaths, beside the counts of two regional registries, and the most recent registry data are from 2018. The situation since 2021 changes quickly; check OCHA's and WHO's current figures. Before relying on whether a medicine or a treatment is available, ask the treating hospital, because no published source lists what is registered and in stock.",
   verifyLinks: [

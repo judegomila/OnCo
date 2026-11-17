@@ -71,7 +71,12 @@ export const SRC = {
   bshTls: D("10.1111/bjh.13403"),
   entecavirRchop: D("10.1001/jama.2014.15704"),
   // Guideline hubs (landing pages, not appraisals; a specific NICE number is written out in full where it is used)
+  // Checked 17 November 2026: NCI has split the adult non-Hodgkin lymphoma summary. This address now redirects to the
+  // indolent B-cell summary; the aggressive B-cell and peripheral T-cell summaries have addresses of their own.
   nciPdqNhl: "https://www.cancer.gov/types/lymphoma/hp/adult-nhl-treatment-pdq",
+  nciPdqAggressiveB: "https://www.cancer.gov/types/lymphoma/hp/aggressive-b-cell-lymphoma-treatment-pdq",
+  nciPdqPtcl: "https://www.cancer.gov/types/lymphoma/hp/peripheral-t-cell-lymphoma-pdq",
+  nciPdqMcl: "https://www.cancer.gov/types/lymphoma/hp/mantle-cell-lymphoma-treatment",
   nciPdqHodgkin: "https://www.cancer.gov/types/lymphoma/hp/adult-hodgkin-treatment-pdq",
   nciPdqMf: "https://www.cancer.gov/types/lymphoma/hp/mycosis-fungoides-treatment-pdq",
   nciPdqCns: "https://www.cancer.gov/types/lymphoma/hp/primary-cns-lymphoma-treatment-pdq",

@@ -228,7 +228,7 @@ export const simpleQ: Record<string, string> = {
   "nct05246514": "AstraZeneca runs this phase 2 trial of trastuzumab deruxtecan in advanced HER2 mutant non-small-cell lung cancer, and it is no longer recruiting.",
   "nct05247684": "Akeso runs this phase 2 trial of ivonescimab, alone or with chemotherapy, given before and after surgery for lung cancer, and it is no longer recruiting.",
   "nct05257590": "TaiRx runs this phase 2 trial of CVM-1118 with nivolumab in unresectable advanced liver cancer, and it is now recruiting.",
-  "nct05263583": "Cothera Bioscience runs this phase 2 trial of sepantronium bromide in high-grade B-cell lymphoma that has come back or stopped responding to treatment, and it is no longer recruiting.",
+  "nct05263583": "Cothera Bioscience runs this phase 2 trial of sepantronium bromide in high-grade B-cell lymphoma that has come back or stopped responding to treatment, and it has completed.",
   "nct05280314": "IO Biotech runs this phase 2 trial of the IO102-IO103 vaccine with pembrolizumab before and after surgery in selected cancers that can be removed, and it is now recruiting.",
   "nct05280470": "Daiichi Sankyo runs this randomised phase 2 trial of ifinatamab deruxtecan in pretreated extensive-stage small-cell lung cancer, and it is no longer recruiting.",
   "nct05283226": "NATCO Pharma runs this phase 2 trial of oral NRC-2694-A with paclitaxel in head and neck cancer that has come back or spread, and it is now recruiting.",

@@ -10057,7 +10057,7 @@ export const tldr_zh: Record<string, string> = {
   nct04079166: "一项在黑色素瘤中评估一种在研治疗的2期试验，由Scancell Ltd开展，进行中、不再招募。",
   nct02227251: "一项在弥漫大B细胞淋巴瘤中评估Selinexor的2期试验，由Karyopharm Therapeutics Inc开展，进行中、不再招募。",
   nct02343042: "一项在多发性骨髓瘤中评估Selinexor、Dexamethasone、Lenalidomide的1/2期试验，由Karyopharm Therapeutics Inc开展，正在招募。",
-  nct05263583: "一项在非霍奇金淋巴瘤、Burkitt淋巴瘤、弥漫大B细胞淋巴瘤中评估一种在研治疗的2期试验，由Cothera Bioscience, Inc开展，进行中、不再招募。",
+  nct05263583: "一项在非霍奇金淋巴瘤、Burkitt淋巴瘤、弥漫大B细胞淋巴瘤中评估一种在研治疗的2期试验，由Cothera Bioscience, Inc开展，已完成。",
   nct07181499: "一项在非小细胞肺癌中评估Carboplatin、Pemetrexed的2期试验，由Betta Pharmaceuticals Co., Ltd.开展，正在招募。",
   nct06080776: "一项在非小细胞肺癌中评估一种在研治疗的3期试验，由Nanjing Sanhome Pharmaceutical, Co., Ltd.开展，正在招募。",
   nct05300269: "一项在结直肠癌中评估Capecitabine、Oxaliplatin、Retlirafusp alfa的2期试验，由Suzhou Suncadia Biopharmaceuticals Co., Ltd.开展，正在招募。",

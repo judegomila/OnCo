@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 17 November 2026
+- Fourteen more care protocols, for side effects that had none: high blood pressure and protein in the urine on VEGF drugs, heart rhythm changes, bleeding on BTK inhibitors, raised liver enzymes, lung inflammation on antibody-drug conjugates, fluid retention, high blood sugar, low magnesium, high phosphate, thyroid changes, differentiation syndrome, capillary leak, tumour flare and constipation; 226 protocols in all
 - Second accuracy pass on the original 39 country pages, among them the United States, China, India, Japan, Germany, Brazil and the United Kingdom: about 660 claims corrected after each was read against its source again
 - Second accuracy pass on live country pages, last batch for waves 5 to 12: corrections to Austria, Serbia, Denmark, Finland, Norway, Ireland, Hungary, Belarus, Bulgaria and North Korea, each claim read against its source again
 - Second accuracy pass on live country pages, continued: corrections to eighteen more pages, among them Haiti, Senegal, Slovenia, Mali, Papua New Guinea, Burkina Faso, Costa Rica, Paraguay, Belgium, Cuba, Czechia, Greece and Portugal, each claim read against its source again
@@ -21,6 +22,11 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - chore: draft records for gaps in the freshness issue, for review
 
 ### 16 November 2026
+- Differentiation syndrome protocol: drop a field the protocol record does not have
+- Care protocols for seven more side effects: high blood pressure and urine protein on VEGF-pathway inhibitors, QT prolongation, atrial fibrillation and bleeding on BTK inhibitors, differentiation syndrome, capillary leak syndrome, tumour flare, and constipation
+- Care protocols for four metabolic side effects: high blood sugar on PI3K, AKT and mTOR inhibitors, low magnesium on cetuximab and panitumumab, high phosphate on FGFR inhibitors, and underactive thyroid on VEGFR-targeted kinase inhibitors
+- Care protocols for three side effects that had none: raised liver enzymes on targeted drugs, interstitial lung disease on antibody-drug conjugates and targeted drugs, and fluid retention and pleural effusion on kinase inhibitors
+- Second accuracy pass on the original 39 country pages, among them the United States, China, India, Japan, Germany, Brazil and the United Kingdom: about 660 claims corrected after each was read against its source again
 - Equecabtagene autoleucel: one-line description shortened to fit, facts unchanged
 - Second accuracy pass, the original country pages, batch four: Colombia, South Africa, Romania, Ethiopia, Algeria, Sweden, Switzerland, Malaysia, Israel and Taiwan
 - Second accuracy pass, the original country pages, batch three: Vietnam, Thailand, Iran, Ukraine, Nigeria, the Philippines, Argentina, Egypt and the Netherlands

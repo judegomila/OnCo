@@ -1,0 +1,721 @@
+[
+  {
+    "capture": "primary/absence-classic.json",
+    "source": "MED",
+    "id": "7647644",
+    "title": "Absence of evidence is not evidence of absence.",
+    "doi": "10.1136/bmj.311.7003.485",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/absence-method.json",
+    "source": "MED",
+    "id": "38739437",
+    "title": "Replication of null results: Absence of evidence or evidence of absence?",
+    "doi": "10.7554/elife.92311",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "inconclusive-and-negative-evidence"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/absence.json",
+    "source": "MED",
+    "id": "42549957",
+    "title": "Absence of Evidence Is Not Evidence of Absence in Head-to-Head Exercise Intervention Studies.",
+    "doi": "10.1111/sms.70357",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/absence.json",
+    "source": "MED",
+    "id": "42874764",
+    "title": "When Absence of Evidence Is Not Evidence of Absence: Limitations of Claims-Based Assessments of Fertility Care.",
+    "doi": "10.1016/j.fertnstert.2026.10.003",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/absence.json",
+    "source": "MED",
+    "id": "41951228",
+    "title": "When Absence of Evidence Is Not Evidence of Absence: What an Advanced Case Reveals about Plastic Impacts on Seabirds.",
+    "doi": "10.1021/acs.est.5c17272",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/absence.json",
+    "source": "MED",
+    "id": "40036740",
+    "title": "The SWEDEGRAFT trial: when absence of evidence is not evidence of absence.",
+    "doi": "10.1093/eurheartj/ehaf043",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/absence.json",
+    "source": "MED",
+    "id": "41085736",
+    "title": "\"Absence of evidence is not evidence of absence\"-Rethinking NHS England`s inguinal hernia surgery decision aid.",
+    "doi": "10.1007/s10029-025-03495-5",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/absence.json",
+    "source": "MED",
+    "id": "39252685",
+    "title": "Varicella Vaccine Safety: Absence of Evidence Is Not Evidence of Absence.",
+    "doi": "10.3346/jkms.2024.39.e245",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/actionability.json",
+    "source": "MED",
+    "id": "30137196",
+    "title": "A framework to rank genomic alterations as targets for cancer precision medicine: the ESMO Scale for Clinical Actionability of molecular Targets (ESCAT).",
+    "doi": "10.1093/annonc/mdy263",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "measurement-to-benefit-evidence",
+      "functional-variant-evidence",
+      "cancer-drivers-vs-actionable"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/atp-assay.json",
+    "source": "MED",
+    "id": "23691072",
+    "title": "A simple high-content cell cycle assay reveals frequent discrepancies between cell number and ATP and MTS proliferation assays.",
+    "doi": "10.1371/journal.pone.0063583",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "cytostasis-versus-cell-death",
+      "drug-response-sensitivity"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/binding-barrier-adc.json",
+    "source": "MED",
+    "id": "29217763",
+    "title": "Improved Tumor Penetration and Single-Cell Targeting of Antibody-Drug Conjugates Increases Anticancer Efficacy and Host Survival.",
+    "doi": "10.1158/0008-5472.can-17-1638",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "binding-site-barrier"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/binding-barrier-experiment.json",
+    "source": "MED",
+    "id": "1327501",
+    "title": "Micropharmacology of monoclonal antibodies in solid tumors: direct experimental evidence for a binding site barrier.",
+    "doi": null,
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/clinical-utility.json",
+    "source": "MED",
+    "id": "35657320",
+    "title": "Circulating Tumor DNA Analysis Guiding Adjuvant Therapy in Stage II Colon Cancer.",
+    "doi": "10.1056/nejmoa2200075",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "analytical-vs-clinical-validation"
+    ],
+    "existingPaperRecord": "paper-dynamic-nejm-2022"
+  },
+  {
+    "capture": "primary/competing-method.json",
+    "source": "MED",
+    "id": "22253319",
+    "title": "Competing risks in epidemiology: possibilities and pitfalls.",
+    "doi": "10.1093/ije/dyr213",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "competing-risks"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/confounding-breast.json",
+    "source": "MED",
+    "id": "19457638",
+    "title": "A most stubborn bias: no adjustment method fully resolves confounding by indication in observational studies.",
+    "doi": "10.1016/j.jclinepi.2009.03.001",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "confounding-by-indication"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/confounding.json",
+    "source": "MED",
+    "id": "42887687",
+    "title": "Confounding by indication beyond exposure misclassification in cesarean anesthesia and postpartum depression.",
+    "doi": "10.1016/j.accpm.2026.101942",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/confounding.json",
+    "source": "MED",
+    "id": "42913728",
+    "title": "Letter to the editor: Confounding by indication in comparing posterior longitudinal ligament resection and preservation.",
+    "doi": "10.31616/asj.2026.0903.r1",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/confounding.json",
+    "source": "MED",
+    "id": "42561889",
+    "title": "Phenylephrine and postoperative acute kidney injury: Association or confounding by indication?",
+    "doi": "10.1016/j.jclinane.2026.112298",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/confounding.json",
+    "source": "MED",
+    "id": "42813295",
+    "title": "Reported anti-TNF-induced vasculitis: clarifying incidence, causality, confounding by indication.",
+    "doi": "10.1080/00325481.2026.2740378",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/confounding.json",
+    "source": "MED",
+    "id": "42913727",
+    "title": "Response to the letter to the editor: Confounding by indication in comparing posterior longitudinal ligament resection and preservation.",
+    "doi": "10.31616/asj.2026.0903.r2",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/confounding.json",
+    "source": "MED",
+    "id": "42631880",
+    "title": "Confounding by indication in corticosteroid use and nutritional outcomes in advanced pancreatic cancer.",
+    "doi": "10.1007/s00520-026-11126-7",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/crispr-artifacts.json",
+    "source": "MED",
+    "id": "27260156",
+    "title": "Genomic Copy Number Dictates a Gene-Independent Cell Response to CRISPR/Cas9 Targeting.",
+    "doi": "10.1158/2159-8290.cd-16-0154",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "crispr-copy-number-artifact"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/crispr-correction.json",
+    "source": "MED",
+    "id": "29083409",
+    "title": "Computational correction of copy number effect improves specificity of CRISPR-Cas9 essentiality screens in cancer cells.",
+    "doi": "10.1038/ng.3984",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "crispr-copy-number-artifact"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/crispr-correction.json",
+    "source": "PPR",
+    "id": "PPR21986",
+    "title": "Computational correction of copy-number effect improves specificity of CRISPR-Cas9 essentiality screens in cancer cells",
+    "doi": "10.1101/160861",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/crispr-offtarget.json",
+    "source": "MED",
+    "id": "34215850",
+    "title": "Genetic and pharmacological interrogation of cancer vulnerability using a multiplexed cell line screening platform.",
+    "doi": "10.1038/s42003-021-02352-2",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/ctdna-origin.json",
+    "source": "MED",
+    "id": "31768066",
+    "title": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants.",
+    "doi": "10.1038/s41591-019-0652-7",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "blood-cell-variants-liquid-biopsy"
+    ],
+    "existingPaperRecord": "paper-razavi-cfdna-variant-sources-clonal-haematopoiesis-nat-med-2019"
+  },
+  {
+    "capture": "primary/ctdna-sampling.json",
+    "source": "MED",
+    "id": "37161793",
+    "title": "Comparison of tumor-informed and tumor-na\u00efve sequencing assays for ctDNA detection in breast cancer.",
+    "doi": "10.15252/emmm.202216505",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "finite-molecule-sampling",
+      "tumor-informed-assay-design"
+    ],
+    "existingPaperRecord": "paper-santonja-tumour-informed-vs-naive-breast-embo-mol-med-2023"
+  },
+  {
+    "capture": "primary/ctdna-shedding-med.json",
+    "source": "MED",
+    "id": "24553385",
+    "title": "Detection of circulating tumor DNA in early- and late-stage human malignancies.",
+    "doi": "10.1126/scitranslmed.3007094",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "ctdna-shedding-negative-results"
+    ],
+    "existingPaperRecord": "paper-bettegowda-ctdna-early-late-stage-stm-2014"
+  },
+  {
+    "capture": "primary/ctdna-shedding.json",
+    "source": "PMC",
+    "id": "PMC4144489",
+    "title": "DETECTION OF CIRCULATING TUMOR DNA IN EARLY AND LATE STAGE HUMAN MALIGNANCIES",
+    "doi": null,
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/ctdna-shedding.json",
+    "source": "MED",
+    "id": "24553385",
+    "title": "Detection of circulating tumor DNA in early- and late-stage human malignancies.",
+    "doi": "10.1126/scitranslmed.3007094",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "ctdna-shedding-negative-results"
+    ],
+    "existingPaperRecord": "paper-bettegowda-ctdna-early-late-stage-stm-2014"
+  },
+  {
+    "capture": "primary/cutoff-finder.json",
+    "source": "MED",
+    "id": "23251644",
+    "title": "Cutoff Finder: a comprehensive and straightforward Web application enabling rapid biomarker cutoff optimization.",
+    "doi": "10.1371/journal.pone.0051862",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "biomarker-cutpoint-selection"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/cutpoint-doi.json",
+    "source": "MED",
+    "id": "8182763",
+    "title": "Dangers of using \"optimal\" cutpoints in the evaluation of prognostic factors.",
+    "doi": "10.1093/jnci/86.11.829",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/cutpoint.json",
+    "source": "MED",
+    "id": "8182763",
+    "title": "Dangers of using \"optimal\" cutpoints in the evaluation of prognostic factors.",
+    "doi": "10.1093/jnci/86.11.829",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/cutpoint.json",
+    "source": "MED",
+    "id": "7966421",
+    "title": "Re: Dangers of using \"optimal\" cutpoints in the evaluation of prognostic factors.",
+    "doi": "10.1093/jnci/86.23.1798-a",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/cytostasis.json",
+    "source": "MED",
+    "id": "27135974",
+    "title": "An unbiased metric of antiproliferative drug effect in vitro.",
+    "doi": "10.1038/nmeth.3852",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "cytostasis-versus-cell-death"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/decision-curve.json",
+    "source": "MED",
+    "id": "17099194",
+    "title": "Decision curve analysis: a novel method for evaluating prediction models.",
+    "doi": "10.1177/0272989x06295361",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "decision-curve-net-benefit"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/detection-method.json",
+    "source": "MED",
+    "id": "14764644",
+    "title": "Partly nonparametric approach for determining the limit of detection.",
+    "doi": "10.1373/clinchem.2003.029983",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "detection-versus-quantification"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/dmiqe.json",
+    "source": "MED",
+    "id": "32746458",
+    "title": "The Digital MIQE Guidelines Update: Minimum Information for Publication of Quantitative Digital PCR Experiments for 2020.",
+    "doi": "10.1093/clinchem/hvaa125",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/dmiqe.json",
+    "source": "MED",
+    "id": "33141900",
+    "title": "Erratum: The Digital MIQE Guidelines Update: Minimum Information for Publication of Quantitative Digital PCR Experiments for 2020.",
+    "doi": "10.1093/clinchem/hvaa219",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/engagement-indirect.json",
+    "source": "MED",
+    "id": "32060372",
+    "title": "An isothermal shift assay for proteome scale drug-target identification.",
+    "doi": "10.1038/s42003-020-0795-6",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/engagement.json",
+    "source": "MED",
+    "id": "23828940",
+    "title": "Monitoring drug target engagement in cells and tissues using the cellular thermal shift assay.",
+    "doi": "10.1126/science.1233606",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "measurement-to-benefit-evidence",
+      "drug-target-engagement"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/exposure.json",
+    "source": "MED",
+    "id": "28364015",
+    "title": "Clinically Relevant Concentrations of Anticancer Drugs: A Guide for Nonclinical Studies.",
+    "doi": "10.1158/1078-0432.ccr-16-3083",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "experimental-versus-clinical-exposure",
+      "drug-response-sensitivity"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/expression-response.json",
+    "source": "MED",
+    "id": "37488289",
+    "title": "Trastuzumab deruxtecan in metastatic breast cancer with variable HER2 expression: the phase 2 DAISY trial.",
+    "doi": "10.1038/s41591-023-02478-2",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "antigen-expression-and-response"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/functional-variant.json",
+    "source": "MED",
+    "id": "31892348",
+    "title": "Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework.",
+    "doi": "10.1186/s13073-019-0690-2",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "functional-variant-evidence",
+      "cancer-drivers-vs-actionable"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/functional-variant.json",
+    "source": "PPR",
+    "id": "PPR87004",
+    "title": "Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework",
+    "doi": "10.1101/709428",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/gdsc-resource.json",
+    "source": "MED",
+    "id": "23180760",
+    "title": "Genomics of Drug Sensitivity in Cancer (GDSC): a resource for therapeutic biomarker discovery in cancer cells.",
+    "doi": "10.1093/nar/gks1111",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "drug-response-sensitivity"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/generalizing.json",
+    "source": "MED",
+    "id": "24926156",
+    "title": "The use of propensity scores to assess the generalizability of results from randomized trials.",
+    "doi": "10.1111/j.1467-985x.2010.00673.x",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "trial-population-transportability"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/genetic-controls.json",
+    "source": "MED",
+    "id": "31511426",
+    "title": "Off-target toxicity is a common mechanism of action of cancer drugs undergoing clinical trials.",
+    "doi": "10.1126/scitranslmed.aaw8412",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "drug-target-engagement",
+      "on-target-drug-validation"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/growth-rate.json",
+    "source": "MED",
+    "id": "27135972",
+    "title": "Growth rate inhibition metrics correct for confounders in measuring sensitivity to cancer drugs.",
+    "doi": "10.1038/nmeth.3853",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "growth-rate-inhibition",
+      "drug-response-sensitivity"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/immortal-time.json",
+    "source": "MED",
+    "id": "18056625",
+    "title": "Immortal time bias in pharmaco-epidemiology.",
+    "doi": "10.1093/aje/kwm324",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "immortal-time-bias"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/lysosomal-egress.json",
+    "source": "MED",
+    "id": "26631267",
+    "title": "SLC46A3 Is Required to Transport Catabolites of Noncleavable Antibody Maytansine Conjugates from the Lysosome to the Cytoplasm.",
+    "doi": "10.1158/0008-5472.can-15-1610",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "lysosomal-payload-egress"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/model-context.json",
+    "source": "MED",
+    "id": "30550791",
+    "title": "Organoid Modeling of the Tumor Immune Microenvironment.",
+    "doi": "10.1016/j.cell.2018.11.021",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "model-context-of-use"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/molecular-counting.json",
+    "source": "MED",
+    "id": "27018799",
+    "title": "Integrated digital error suppression for improved detection of circulating tumor DNA.",
+    "doi": "10.1038/nbt.3520",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "ctdna-shedding-negative-results",
+      "finite-molecule-sampling"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/prediction-validation.json",
+    "source": "MED",
+    "id": "25984857",
+    "title": "Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD).",
+    "doi": "10.7326/l15-5093-2",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/prediction-validation.json",
+    "source": "MED",
+    "id": "25984856",
+    "title": "Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD).",
+    "doi": "10.7326/l15-5093",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/prediction-validation.json",
+    "source": "MED",
+    "id": "25894039",
+    "title": "Correction: transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): the TRIPOD statement.",
+    "doi": "10.7326/l15-0078-4",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/prediction-validation.json",
+    "source": "MED",
+    "id": "25562432",
+    "title": "Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): the TRIPOD statement.",
+    "doi": "10.1038/bjc.2014.639",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "external-validation"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/prediction-validation.json",
+    "source": "MED",
+    "id": "25560730",
+    "title": "Transparent Reporting of a multivariable prediction model for Individual Prognosis or Diagnosis (TRIPOD): explanation and elaboration.",
+    "doi": "10.7326/m14-0698",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/prediction-validation.json",
+    "source": "MED",
+    "id": "25561516",
+    "title": "Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): the TRIPOD statement. The TRIPOD Group.",
+    "doi": "10.1161/circulationaha.114.014508",
+    "disposition": "Discovery or alternative record; not used",
+    "usedBy": [],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/processing.json",
+    "source": "MED",
+    "id": "26912181",
+    "title": "Determination of Cellular Processing Rates for a Trastuzumab-Maytansinoid Antibody-Drug Conjugate (ADC) Highlights Key Parameters for ADC Design.",
+    "doi": "10.1208/s12248-016-9892-3",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "antigen-expression-and-response",
+      "antibody-internalization-trafficking"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/prognostic-predictive.json",
+    "source": "MED",
+    "id": "26392104",
+    "title": "Biomarker: Predictive or Prognostic?",
+    "doi": "10.1200/jco.2015.63.3651",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "prognostic-versus-predictive-biomarkers",
+      "biomarker"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/target-trial.json",
+    "source": "MED",
+    "id": "26994063",
+    "title": "Using Big Data to Emulate a Target Trial When a Randomized Trial Is Not Available.",
+    "doi": "10.1093/aje/kwv254",
+    "disposition": "Used resolved publication",
+    "usedBy": [
+      "immortal-time-bias",
+      "target-trial-emulation"
+    ],
+    "existingPaperRecord": null
+  },
+  {
+    "capture": "primary/competing-risks-crossref.json",
+    "source": "Crossref",
+    "id": "10.1080/01621459.1999.10474144",
+    "doi": "10.1080/01621459.1999.10474144",
+    "title": "A Proportional Hazards Model for the Subdistribution of a Competing Risk",
+    "disposition": "Identity resolved; no abstract/full text inspected, not used",
+    "usedBy": [],
+    "resolvedURL": "https://api.crossref.org/works/10.1080%2F01621459.1999.10474144"
+  },
+  {
+    "capture": "primary/cutpoint-full-crossref.json",
+    "source": "Crossref",
+    "id": "10.1093/jnci/86.11.829",
+    "doi": "10.1093/jnci/86.11.829",
+    "title": "Dangers of Using \"Optimal\" Cutpoints in the Evaluation of Prognostic Factors",
+    "disposition": "Identity resolved; no abstract/full text inspected, not used",
+    "usedBy": [],
+    "resolvedURL": "https://api.crossref.org/works/10.1093%2Fjnci%2F86.11.829"
+  }
+]

@@ -17,7 +17,7 @@ const NCI = (slug: string) => `https://www.cancer.gov/about-cancer/treatment/dru
 const EPAR = (slug: string) => `https://www.ema.europa.eu/en/medicines/human/EPAR/${slug}`;
 const label = (q: string, slug: string, extra: Array<{ label: string; url: string }> = []) => [{ label: "US label (DailyMed)", url: DM(q) }, { label: "NCI drug page", url: NCI(slug) }, ...extra];
 
-const d = (x: Omit<DrugInput, "kind" | "asOf">): DrugInput => ({ kind: "drug", asOf, status: "approved", ...x });
+const d = (x: Omit<DrugInput, "kind" | "asOf"> & Partial<Pick<DrugInput, "asOf">>): DrugInput => ({ kind: "drug", asOf, status: "approved", ...x });
 
 // =====================================================================================
 // Batch 1: classic cytotoxics, antimetabolites and the first hormonal and targeted agents
@@ -39,10 +39,68 @@ const batch1: DrugInput[] = [
     approvals: [{ region: "US", year: 1954, indication: "Palliative treatment of chronic myelogenous leukaemia (Myleran tablets)" }, { region: "US", year: 1999, indication: "Conditioning with cyclophosphamide before allogeneic HPC transplantation for CML (Busulfex)" }, { region: "EU", year: 2003, indication: "Conditioning before haematopoietic progenitor cell transplantation (Busilvex)" }],
     cancers: ["cml"], companies: ["otsuka"], technologies: ["cytotoxic-chemotherapy", "allogeneic-hsct"], links: label("busulfan", "busulfan", [{ label: "EPAR (Busilvex)", url: EPAR("busilvex") }]), tags: ["nci-list"] }),
   d({ id: "capecitabine", trials: ["rapido", "nct04854668", "nct06435429", "nct07412613", "nct06118333", "nct04430738", "nct07805551", "nct05009069", "nct07432295", "nct05126719", "nct06324357", "nct05382442", "nct02955940", "nct05093907", "nct06493760", "nct05489211", "nct06081959", "nct06393374", "nct05300269", "nct07554521", "nct05980481", "nct06202261", "nct03899155", "nct05702229", "nct06469944", "nct06155383", "nct05814354", "nct06901531", "nct07331155", "nct06942234", "nct05785741", "nct06247956", "nct06312176", "nct06764875", "nct05840211", "nct06343948", "nct06771622", "nct06568692", "nct05700084", "nct07060807", "nct07056777", "nct05934331", "nct06109779", "nct05144854", "nct07007559", "nct06764940", "nct07582315", "nct07606599", "nct07431281", "nct04895358", "nct06957886", "nct07315750", "nct04379596", "nct07069712", "nct06247995", "nct07679360", "nct06279364", "spotlight-glow", "nct04721977", "nct07390383", "nct06313983", "nct06825494", "nct07283367", "nct07140393", "nct06703177", "nct04550260", "nct07648914", "nct07071337", "nct06741644", "nct04639986", "nct05671822", "nct06256328", "nct04919226", "nct04725994"], name: "Capecitabine", brand: "Xeloda", modality: "Oral fluoropyrimidine prodrug (antimetabolite)", mechanism: "Converted in three steps, the last by thymidine phosphorylase enriched in tumours, to fluorouracil; FdUMP blocks thymidylate synthase and FUTP is incorporated into RNA.", wikipedia: W("Capecitabine"),
-    tldr: "Capecitabine (Xeloda) is a tablet form of the chemotherapy fluorouracil. It is a backbone of treatment for bowel cancer and a standard option in advanced breast cancer.",
-    summary: "Capecitabine was approved by the FDA in 1998 for anthracycline- and taxane-resistant metastatic breast cancer and later for adjuvant stage III colon cancer (X-ACT: disease-free survival at least equivalent to bolus fluorouracil and leucovorin), metastatic colorectal cancer, perioperative chemoradiotherapy for rectal cancer and, with docetaxel, for anthracycline-pretreated breast cancer. The EU authorised Xeloda in 2001; it is also approved there for gastric cancer. It is the oral partner in CAPOX and CAPTEM and in the CREATE-X post-neoadjuvant breast regimen. Hand-foot syndrome, diarrhoea and cardiotoxicity are the key toxicities, and DPD deficiency (DPYD variants) causes severe or fatal toxicity, so genotype-guided dosing is increasingly used. Warfarin interaction carries a boxed warning.",
+    tldr: "Capecitabine is an oral prodrug that the body converts to fluorouracil. It is used in specified cancer treatments, and oral delivery does not remove the risk of serious toxicity.",
+    summary: "Capecitabine is a fluoropyrimidine antimetabolite, converted through enzyme steps to fluorouracil. Its active metabolites interfere with nucleotide production and RNA function in normal as well as tumour cells. It is not simply a tablet containing fluorouracil, and the names, formulations and doses must not be exchanged.\n\nThe US label calls for DPYD variant testing before starting unless immediate treatment is necessary. It carries warnings for serious or fatal toxicity in complete DPD deficiency and for bleeding with vitamin K antagonists. Partial DPD deficiency can also increase risk; no capecitabine dose has been proven safe in complete deficiency, and a negative genetic result does not remove all risk. Clinical benefit and combinations belong to the specific disease, setting and comparison.",
     approvals: [{ region: "US", year: 1998, indication: "Metastatic breast cancer after anthracycline and taxane; later adjuvant and metastatic colorectal cancer, rectal chemoradiotherapy" }, { region: "EU", year: 2001, indication: "Colorectal, gastric and breast cancer" }],
-    cancers: ["colorectal", "breast-hr-positive", "tnbc", "breast-her2-positive", "gastric", "pancreatic", "her2-positive-breast-brain-metastases", "tnbc-early"], companies: ["roche-genentech"], technologies: ["cytotoxic-chemotherapy"], related: ["fluorouracil", "capox", "capecitabine-temozolomide", "uridine-triacetate"], links: label("capecitabine", "capecitabine", [{ label: "EPAR", url: EPAR("xeloda") }]), tags: ["nci-list", "generic"] }),
+    cancers: ["colorectal", "breast-hr-positive", "tnbc", "breast-her2-positive", "gastric", "pancreatic", "her2-positive-breast-brain-metastases", "tnbc-early"], companies: ["roche-genentech"], technologies: ["cytotoxic-chemotherapy"], related: ["fluorouracil", "capox", "capecitabine-temozolomide", "uridine-triacetate"], links: [
+  {
+    "label": "US label (DailyMed)",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=capecitabine"
+  },
+  {
+    "label": "NCI drug page",
+    "url": "https://www.cancer.gov/about-cancer/treatment/drugs/capecitabine"
+  },
+  {
+    "label": "EPAR",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xeloda"
+  },
+  {
+    "label": "Capecitabine label: activation, mechanism and DPD warnings",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e7d6317-1439-4976-ae00-6f62619ec3dd"
+  },
+  {
+    "label": "Fluorouracil label: active metabolites and DPD",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b268684b-487f-4716-a2e8-6e6d3e117b14"
+  },
+  {
+    "label": "Masuda et al., CREATE-X residual invasive HER2-negative breast cancer (2017)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28564564/"
+  },
+  {
+    "label": "FDA: updated capecitabine and fluorouracil safety labelling",
+    "url": "https://www.fda.gov/drugs/cancer-approvals/safety-labeling-update-capecitabine-and-fluorouracil-5-fu-risks-associated-dihydropyrimidine"
+  },
+  {
+    "label": "Palmer et al., ESPAC4 long-term outcomes (JCO 2025)",
+    "url": "https://doi.org/10.1200/JCO.24.01118"
+  },
+  {
+    "label": "NICE NG85 recommendations 1.8.6 and 1.9.3",
+    "url": "https://www.nice.org.uk/guidance/ng85/chapter/Recommendations"
+  },
+  {
+    "label": "Patient education sheet (ONS, NCODA, HOPA and ACCC): Capecitabine",
+    "url": "https://ncoda.org/pes/capecitabine/"
+  },
+  {
+    "label": "NCI: CAPOX components",
+    "url": "https://www.cancer.gov/about-cancer/treatment/drugs/capox"
+  },
+  {
+    "label": "NCI: FOLFOX components",
+    "url": "https://www.cancer.gov/about-cancer/treatment/drugs/folfox"
+  }
+], tags: ["nci-list", "generic"] ,
+"asOf": "2026-11-11",
+"notes": [
+  "Activation, cellular action and host breakdown are separate steps. Capecitabine becomes fluorouracil through several enzyme reactions; the simplified arrow omits intermediates. FdUMP limits the DNA building block thymidylate by inhibiting thymidylate synthase, while FUTP can enter RNA and disrupt its work. DPD-mediated breakdown affects host exposure. A fictional brochure claiming tumour-enriched activation has not thereby shown that normal tissues avoid active metabolites or toxicity. CAPOX combines capecitabine with oxaliplatin; FOLFOX instead combines fluorouracil, leucovorin and oxaliplatin. These are separate regimens, and the prodrug relationship does not make their instructions interchangeable.",
+  "The current capecitabine label says an FDA-authorised DPYD test is not available and available panels differ in variants and performance. It calls for individualising dosing in partial DPD deficiency and notes that serious adverse reactions may occur despite no identified variant. Tablet strength in milligrams, administered amount, and capecitabine or metabolite concentrations in ng/mL describe different quantities; none is itself a tumour-response measurement.",
+  "CREATE-X randomised 910 people with HER2-negative residual invasive breast cancer after neoadjuvant chemotherapy containing an anthracycline, a taxane or both. Five-year disease-free survival was 74.1% with additional capecitabine versus 67.6% with control, and overall survival was 89.2% versus 83.6%. These are the trial’s populations and comparisons, not a universal instruction for all residual disease or a test of every modern immunotherapy combination.",
+  "Triple-negative breast cancer: in the CREATE-X triple-negative subgroup with residual invasive disease after neoadjuvant chemotherapy, capecitabine improved five-year disease-free survival (69.8 versus 56.1 percent, hazard ratio 0.58) and overall survival (78.8 versus 70.3 percent, hazard ratio 0.52). One year of low-dose metronomic capecitabine after standard adjuvant chemotherapy improved disease-free survival in SYSUCC-001 (five-year 82.8 versus 73.0 percent; ten-year 78.1 versus 66.6 percent) without a significant overall survival gain, while eight cycles of extended adjuvant capecitabine did not reach significance in the Spanish GEICAM/CIBOMA trial (hazard ratio 0.82). In EA1131 platinum was not better than capecitabine for residual basal-like disease. It is the physician's-choice comparator or control in ASCENT, ASCENT-05, TROPION-Breast03, KEYNOTE-119 and OlympiAD. NICE has never appraised it for this use; it is a generic prescribed on the CREATE-X evidence.",
+  "Pancreatic cancer: with gemcitabine, capecitabine is the adjuvant regimen NICE NG85 recommends in England (1.8.6, an off-label use) on ESPAC-4 (median overall survival 28.0 against 25.5 months, hazard ratio 0.82; long-term 31.6 against 28.4 months and 49.9 against 32.2 months after R0 resection, JCO 2025), the standard for people not eligible for modified FOLFIRINOX. It is the preferred radiosensitiser for chemoradiotherapy (SCALOP: median survival 15.2 against 13.4 months with gemcitabine-based chemoradiotherapy; NG85 1.9.3) and the chemoradiotherapy partner in LAP07 and ESPAC-5."
+]
+}),
   d({ id: "carmustine", trials: ["nct06915246"], name: "Carmustine", brand: "BiCNU / Gliadel Wafer", aka: ["BCNU", "Carmustine implant"], modality: "Alkylating agent (nitrosourea); intravenous and implantable wafer", mechanism: "Alkylates and cross-links DNA and RNA and carbamoylates proteins; lipophilic, so it crosses the blood-brain barrier. The Gliadel wafer releases carmustine slowly into the resection cavity.", wikipedia: W("Carmustine"),
     tldr: "Carmustine is a chemotherapy that reaches the brain. It is given by infusion for brain tumours, lymphoma and myeloma, and as a slow-release wafer left in the cavity after a brain tumour is removed.",
     summary: "Intravenous carmustine (BiCNU, approved 1977) is indicated as palliative therapy, alone or in combination, for brain tumours (glioblastoma, brainstem glioma, medulloblastoma, astrocytoma, ependymoma and metastatic brain tumours), multiple myeloma with prednisone, and relapsed or refractory Hodgkin and non-Hodgkin lymphoma; it is also part of the BEAM conditioning regimen before autologous transplant in lymphoma. The Gliadel wafer (approved 1996 for recurrent glioblastoma, 2003 for newly diagnosed high-grade glioma) is a biodegradable polifeprosan 20 implant placed in the resection cavity; the pivotal 240-patient placebo-controlled trial in newly diagnosed high-grade glioma showed a modest survival benefit. Delayed cumulative myelosuppression and dose-related pulmonary fibrosis limit lifetime dosing.",

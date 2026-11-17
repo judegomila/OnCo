@@ -93,7 +93,7 @@ export const CANCER_TEXT = /(?:\b(?:cancers?|cancerous|neoplastic|tumou?rs?|leuk
 // ---------------------------------------------------------------------------------------------------
 // FDA OCE approval notifications, one item per notification, 2020 onwards.
 // ---------------------------------------------------------------------------------------------------
-export const FDA_OCE_LIVE = "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications";
+export const FDA_OCE_LIVE = "https://www.fda.gov/drugs/cancer-approvals/oncology-cancerhematologic-malignancies-approval-notifications";
 export const FDA_OCE_ARCHIVE = "https://web.archive.org/web/20230307000830/https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications";
 export type OceDrug = { generic: string; brand?: string; sponsor?: string };
 export type OceApproval = { date: string; title: string; url: string; drugs: OceDrug[]; accelerated: boolean; text: string; via: "live" | "archive" };
@@ -179,6 +179,27 @@ export function parseOceRows(html: string, via: OceApproval["via"]): OceApproval
   return out;
 }
 
+/** The path FDA publishes approval notices under since November 2026; the same notices used to sit under /drugs/resources-information-approved-drugs/. */
+const OCE_CURRENT_PATH = /^https:\/\/www\.fda\.gov\/drugs\/cancer-approvals\//;
+const oceTitleKey = (title: string) => title.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+/**
+ * One item per notification. A notice is its date plus its title, not its address: when FDA moved the notices to
+ * /drugs/cancer-approvals/ the same 183 notices came back under a second URL and a list keyed by URL counted each twice
+ * (364 items became 548). Of two items for one notice the one at the current path is kept, then the later one in the
+ * input (the newest read). Newest first, then by title.
+ */
+export function dedupeOce(all: OceApproval[]): OceApproval[] {
+  const byNotice = new Map<string, OceApproval>();
+  for (const i of all) {
+    const key = `${i.date}|${oceTitleKey(i.title)}`;
+    const held = byNotice.get(key);
+    if (held && OCE_CURRENT_PATH.test(held.url) && !OCE_CURRENT_PATH.test(i.url)) continue;
+    byNotice.set(key, i);
+  }
+  return [...byNotice.values()].sort((a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title));
+}
+
 async function fdaOncologyApprovals(): Promise<Envelope | null> {
   const prev = previous<OceApproval>("fda-oncology-approvals");
   let archived = (prev?.items ?? []).filter((i) => i.via === "archive");
@@ -191,12 +212,10 @@ async function fdaOncologyApprovals(): Promise<Envelope | null> {
   if (!liveHtml) return null;
   const live = parseOceRows(liveHtml, "live");
   if (!live.length) throw new Error("live page parsed zero rows");
-  const byUrl = new Map<string, OceApproval>();
-  for (const i of [...archived, ...(prev?.items ?? []).filter((x) => x.via === "live"), ...live]) byUrl.set(i.url, i);
-  const items = [...byUrl.values()].filter((i) => i.date >= "2020-01-01").sort((a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title));
+  const items = dedupeOce([...archived, ...(prev?.items ?? []).filter((x) => x.via === "live"), ...live]).filter((i) => i.date >= "2020-01-01");
   return {
     checked: today(), source: { label: "FDA: Oncology (Cancer) / Hematologic Malignancies Approval Notifications", url: FDA_OCE_LIVE },
-    method: "One item per approval notification dated 1 January 2020 or later: the live FDA page (19 January 2023 onwards when first read) plus, for 2020 to early 2023, the same FDA page as the Internet Archive kept it on 7 March 2023 (" + FDA_OCE_ARCHIVE + "). Each item links to its own fda.gov notification. Drug names are the generic names the notification's first sentence gives before a (Brand, Sponsor) bracket. Public domain (US government work).",
+    method: "One item per approval notification dated 1 January 2020 or later: the live FDA page (19 January 2023 onwards when first read) plus, for 2020 to early 2023, the same FDA page as the Internet Archive kept it on 7 March 2023 (" + FDA_OCE_ARCHIVE + "). Each item links to its own fda.gov notification; a notice is identified by its date and title, so one that FDA has moved to a new address is counted once, at the newer address. Drug names are the generic names the notification's first sentence gives before a (Brand, Sponsor) bracket. Public domain (US government work).",
     total: items.length, window: { from: items[items.length - 1]?.date, to: items[0]?.date }, drugs: new Set(items.flatMap((i) => i.drugs.map((d) => d.generic))).size,
     licence: "Public domain (US government work)", items,
   };

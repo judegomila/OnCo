@@ -1,0 +1,563 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T18:41:35.892Z",
+  "request": {
+    "query": "What primary studies show limits of cancer biomarker interpretation, including clonal hematopoiesis in plasma DNA, tumor DNA shedding, detection versus quantification limits, prognostic versus predictive biomarkers, and randomized evidence of clinical utility?",
+    "searchMode": "semantic",
+    "maxResults": 20,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-292125173",
+        "title": "ctDNA in the Management of Resectable & Advanced Colorectal Cancer: Current Status and Future Directions",
+        "authors": [
+          "H. Al-Shamsi",
+          "S. Rafii",
+          "S. Tirmazy",
+          "Deborah Mukherji",
+          "A. Abuhelwa",
+          "Faryal Iqbal",
+          "S. Abdelwahab",
+          "H. Kourie",
+          "M. Abdelrahim"
+        ],
+        "year": 2026,
+        "abstract": "Abstract Circulating tumor DNA (ctDNA) is an increasingly important biomarker for molecular residual disease (MRD) after curative-intent treatment of colorectal cancer (CRC), but its prognostic value must be distinguished from proven clinical utility. This structured narrative review synthesizes evidence from PubMed/MEDLINE, Embase, ClinicalTrials.gov, and major oncology conference proceedings, covering stage I–III CRC and selected patients with resected or ablated oligometastatic stage IV disease. We review tumor-informed and tumor-agnostic assay strategies, postoperative sampling, serial versus landmark testing, low-shedding disease, clonal hematopoiesis, and major prospective and randomized studies. Postoperative ctDNA positivity consistently identifies patients at substantially increased risk of recurrence, while serial ctDNA dynamics provide additional prognostic information. In stage II colon cancer, the randomized DYNAMIC trial showed that a ctDNA-guided strategy reduced adjuvant chemotherapy use without compromising long-term recurrence outcomes. By contrast, DYNAMIC-III did not establish non-inferiority for ctDNA-guided de-escalation and showed no recurrence-free survival benefit from conventional chemotherapy escalation in ctDNA-positive stage III disease. The Phase III ALTAIR trial likewise did not meet its pre specified primary disease-free survival endpoint for treatment of molecular relapse with trifluridine/tipiracil. Current professional guidance therefore supports a cautious distinction between clinical validity and clinical utility: ctDNA can inform prognosis, counseling, and clinical-trial eligibility, but should not routinely replace standard surveillance or independently determine treatment escalation or de-escalation outside evidence-based indications or clinical trials. Future progress requires harmonized assays, randomized demonstration of outcome benefit, and prospective validation of integrated ctDNA, pathology, transcriptomic, and AI-derived risk models.",
+        "doi": "10.2147/OTT.S619488",
+        "pmid": "42763649",
+        "venue": "OncoTargets and Therapy",
+        "citedByCount": 0,
+        "urls": [
+          "https://www.dovepress.com/article/download/119651",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13589515/pdf/OTT-19-619488.pdf"
+        ],
+        "studyTypeTags": [
+          "Review",
+          "RCT"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://www.dovepress.com/article/download/119651"
+      },
+      {
+        "elicitId": "ss-290941339",
+        "title": "Circulating tumor DNA in colorectal cancer: assay selection, clinical applications, and practical integration for gastroenterologists",
+        "authors": [
+          "Ashish Sharma",
+          "J. Tan",
+          "Harendra Kumar",
+          "A. Dhali",
+          "Ruchir Paladiya",
+          "Rajvardhan Sisodia",
+          "H. Bharadwaj",
+          "D. Dahiya",
+          "Saikat Mandal"
+        ],
+        "year": 2026,
+        "abstract": "Background Circulating tumor DNA (ctDNA) has rapidly evolved from a research tool to a clinically applicable biomarker in colorectal cancer (CRC), transforming the assessment of minimal residual disease (MRD) and recurrence risk. The growing availability of commercial assays has complicated test selection and interpretation, particularly for gastroenterologists who increasingly encounter ctDNA data in postoperative and surveillance settings. Methods We conducted a narrative review of the literature using PubMed, Embase, and Cochrane databases from January 2015 through March 2026, prioritizing randomized controlled trials, prospective cohort studies, and clinical practice guidelines relevant to ctDNA applications in CRC. The search employed predefined keyword combinations applied independently to each database. Two authors (A.S. and S.M.) independently screened titles and abstracts against the prespecified inclusion criteria, with disagreements resolved by discussion. Results Tumor-informed assays that analyze patient-specific mutations exhibit high specificity for MRD detection, with serial sampling sensitivity reaching 88% compared to 59% for tumor-agnostic approaches, based on a 2026 systematic review and diagnostic accuracy meta-analysis that pooled data across multiple platforms and settings; the authors note substantial study-level heterogeneity in platform design and patient populations, and results should be interpreted accordingly, but require tissue access and extended processing times. Tumor-agnostic tests are more rapid and accessible, incorporating genomic and epigenomic signals, though they exhibit site-specific sensitivity variations ranging from 100% for liver metastases to 40% for peritoneal recurrence and remain vulnerable to biological confounders such as clonal hematopoiesis (CH). Importantly, ctDNA interpretation is subject to additional biological limitations including tumor shedding variability by anatomical site and disease burden, the timing of sample collection relative to surgery or chemotherapy, platform-specific detection thresholds, and pre-analytical variables such as hemolysis and delayed plasma processing. Randomized evidence supports ctDNA-guided de-escalation of adjuvant therapy in stage II colon cancer, with 5-year follow-up from the DYNAMIC trial demonstrating comparable recurrence-free survival (88% vs. 87%) and overall survival (93.8% vs. 93.3%) despite reduced chemotherapy use. In stage III disease, ctDNA is strongly prognostic, but chemotherapy intensification based solely on molecular positivity has not improved outcomes. This review additionally addresses underexplored areas including ctDNA in rectal cancer and neoadjuvant therapy, the influence of microsatellite instability (MSI) status on assay performance, and disparities in ctDNA access across racial, socioeconomic, and geographic populations. Conclusions For gastroenterologists encountering ctDNA results in postoperative and surveillance settings, three principles should guide practice (i): match assay selection to clinical intent - tumor-informed platforms for MRD-directed adjuvant decisions, tumor-agnostic platforms when tissue is unavailable (ii); interpret results within biological and technical context, accounting for platform-specific sensitivity limitations, biological confounders, and quantitative VAF trajectory rather than binary thresholds; and (iii) integrate ctDNA findings into multidisciplinary pathways - de-escalation is supported by high-quality randomized evidence in stage II disease (Grade A; Level I), while chemotherapy escalation based solely on ctDNA positivity in stage III disease is not supported outside clinical trials (Grade C; Level I). Standardization of assay performance benchmarks and equitable access to testing remain critical unmet needs.",
+        "doi": "10.3389/fonc.2026.1894198",
+        "pmid": "42609878",
+        "venue": "Frontiers in Oncology",
+        "citedByCount": 0,
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13479687/pdf/fonc-16-1894198.pdf",
+          "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2026.1894198/pdf"
+        ],
+        "studyTypeTags": [
+          "Review",
+          "Meta-Analysis",
+          "Systematic Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2026.1894198/pdf"
+      },
+      {
+        "elicitId": "ss-293025993",
+        "title": "Cellular origins and evolutionary dynamics of plasma cfDNA in solid tumors: integrating germline, tumor-derived, and hematopoietic variation for MRD and treatment guidance",
+        "authors": [
+          "Quan-Neng Zhao",
+          "Chun-Lei Wu",
+          "Xiao Huang",
+          "Mi-Yuan Yang",
+          "Bing Zhang"
+        ],
+        "year": 2026,
+        "abstract": "Plasma cell-free DNA (cfDNA) is a heterogeneous and rapidly changing biological pool derived from malignant cells, normal tissues, and hematopoietic cells. The abundance and molecular composition of circulating tumor DNA (ctDNA) are determined not only by tumor burden but also by tissue architecture, vascular access, cell-death programs, chromatin organization, nuclease processing, systemic clearance, treatment exposure, and clonal evolution. These biological determinants shape the mutation, methylation, fragmentation, nucleosomal, and temporal features exploited by contemporary liquid-biopsy assays. Accurate clinical interpretation therefore requires both sensitive detection and reliable source attribution, particularly the distinction of tumor-derived variants from constitutional germline alterations and clonal hematopoiesis. In this review, we integrate the biological origins and processing of plasma cfDNA with analytical strategies for low-tumor-fraction detection and critically evaluate the evidence supporting postoperative molecular residual disease (MRD), recurrence surveillance, treatment-response assessment, resistance monitoring, and ctDNA-guided therapy across solid tumors. Particular emphasis is placed on distinguishing prognostic validity, treatment-predictive value, and demonstrated clinical utility. Current evidence is strongest in colorectal cancer and, more recently, ctDNA-selected urothelial cancer, whereas routine ctDNA-directed intervention in resected non-small cell lung cancer and breast cancer remains insufficiently validated. By linking cfDNA biology to an explicit hierarchy of clinical evidence, this review defines both the established applications and the major limitations that must be addressed before broader implementation of ctDNA-guided precision oncology.",
+        "doi": "10.3389/fcell.2026.1928945",
+        "pmid": null,
+        "venue": "Frontiers in Cell and Developmental Biology",
+        "citedByCount": 0,
+        "urls": [
+          "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2026.1928945/pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2026.1928945/pdf"
+      },
+      {
+        "elicitId": "ss-218891947",
+        "title": "Clinical significance of clonal hematopoiesis in the interpretation of blood liquid biopsy",
+        "authors": [
+          "Hiu-Ting Chan",
+          "S. Nagayama",
+          "Y. Chin",
+          "Masumi Otaki",
+          "R. Hayashi",
+          "K. Kiyotani",
+          "Y. Fukunaga",
+          "M. Ueno",
+          "Yusuke Nakamura",
+          "Siew-Kee Low"
+        ],
+        "year": 2020,
+        "abstract": "As the use of next‐generation sequencing (NGS) for plasma cell‐free DNA (cfDNA) continues to expand in clinical settings, accurate identification of circulating tumor DNA mutations is important to validate its use in the clinical management for cancer patients. Here, we aimed to characterize mutations including clonal hematopoiesis (CH)‐related mutations in plasma cfDNA and tumor tissues using the same ultradeep NGS assay and evaluate the clinical significance of CH‐related mutations on the interpretation of liquid biopsy results. Ultradeep targeted NGS using Oncomine Pan‐Cancer Panel was performed on matched surgically resected tumor tissues, peripheral blood cells (PBCs), and 120 plasma cfDNA samples from 38 colorectal cancer patients. The clinical significance of the CH‐related mutations in plasma cfDNA was evaluated by longitudinal monitoring of the postoperative plasma samples. Among the 38 patients, 74 nonsynonymous mutations were identified from tumor tissues and 64 mutations from the preoperative plasma samples. Eleven (17%) of the 64 mutations identified in plasma cfDNA were also detected in PBC DNA and were identified to be CH‐related mutations. Overall, 11 of 38 (29%) patients in this cohort harbored at least one CH‐related mutation in plasma cfDNA. These CH‐related mutations were continuously detected in subsequent postoperative plasma samples from three patients which could be misinterpreted as the presence of residual disease or as lack of treatment response. Our results indicated that it is essential to integrate the mutational information of PBCs to differentiate tumor‐derived from CH‐related mutations in liquid biopsy analysis. This would prevent the misinterpretation of results to avoid misinformed clinical management for cancer patients.",
+        "doi": "10.1002/1878-0261.12727",
+        "pmid": "32449983",
+        "venue": "Molecular Oncology",
+        "citedByCount": 94,
+        "urls": [
+          "https://febs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/1878-0261.12727"
+        ],
+        "studyTypeTags": [
+          "Longitudinal"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://febs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/1878-0261.12727"
+      },
+      {
+        "elicitId": "ss-233238900",
+        "title": "Circulating tumor DNA (ctDNA) as a pan-cancer screening test: is it finally on the horizon?",
+        "authors": [
+          "M. Duffy",
+          "E. Diamandis",
+          "J. Crown"
+        ],
+        "year": 2021,
+        "abstract": "Abstract The detection of cancer at an early stage while it is curable by surgical resection is widely believed to be one of the most effective strategies for reducing cancer mortality. Hence, the intense interests in the development of a simple pan-cancer screening test. Lack of sensitivity and specificity when combined with the low prevalence of most types of cancer types in the general population limit the use of most of the existing protein biomarkers for this purpose. Like proteins, tumor DNA also can be released into the circulation. Such circulating tumor DNA (ctDNA) can be differentiated from normal cell DNA by the presence of specific genetic alteration such as mutations, copy number changes, altered methylation patterns or being present in different sized fragments. Emerging results with test such as CancerSEEK or GRAIL suggest that the use of ctDNA can detect cancer with specificities >99%. Sensitivity however, is cancer type and stage-dependent, varying from approximately 40% in stage I disease to approximately 80% in stage III disease. It is important to stress however, that most of the studies published to date have used patients with an established diagnosis of cancer while the control population were healthy individuals. Although the emerging results are promising, evidence of clinical utility will require demonstration of reduced mortality following evaluation in a prospective randomized screening trial.",
+        "doi": "10.1515/cclm-2021-0171",
+        "pmid": "33856748",
+        "venue": "Clinical Chemistry and Laboratory Medicine",
+        "citedByCount": 46,
+        "urls": [
+          "https://www.degruyter.com/document/doi/10.1515/cclm-2021-0171/pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.degruyter.com/document/doi/10.1515/cclm-2021-0171/pdf"
+      },
+      {
+        "elicitId": "ss-198290298",
+        "title": "Abstract 2509: Analysis of clonal hematopoiesis-associated mutations in the cell-free DNA of advanced cancer patients",
+        "authors": [
+          "J. Yen",
+          "K. Quinn",
+          "E. Helman",
+          "Andrey Chursov",
+          "Tracy Nance",
+          "A. Jaimovich",
+          "K. Banks",
+          "A. Franovic",
+          "K. Gleitsman",
+          "J. Latham",
+          "A. Yablonovitch",
+          "Marcin Sikora",
+          "Stephen R. Fairclough",
+          "Darya I. Chudova",
+          "R. Lanman",
+          "Amirali Talasaz"
+        ],
+        "year": 2019,
+        "abstract": "Background: Clonal hematopoiesis (CH) is the acquisition of mutations in hematopoietic progenitor cells that can lead to clonal expansion. Recent studies suggest that CH-derived mutations can confound interpretation of cell-free DNA (cfDNA) sequencing results. To better understand the contribution of CH to cfDNA analysis in the metastatic cancer setting, we characterized CH-associated alterations observed in the cfDNA of late-stage cancer patients. Methods: We analyzed somatic variants from cfDNA profiles of over 62,000 patients in four late-stage cohorts: lung (>35,000), gastro-intestinal (>14,000), urogenital (>4,700), breast (>8,600). Matched white blood cell (WBC) and cfDNA was obtained for a subset of patient samples. Plasma cfDNA was processed using a 73-gene (150Kb, Guardant360 TM ) or 500-gene (2Mb, GuardantOMNI TM ) panel and sequenced to average depth of ~5000 molecules, with a 95% limit of detection (LOD) of 0.3-0.4% and 0.15-0.6% variant allele fraction (VAF) for SNVs, and 0.2%-0.7% and 0.4-0.8% for indels (for G360 and OMNI, respectively). Results: In samples processed on the 500-gene panel, DNMT3A, TET2, PPM1D, ASXL1 and SF3B1 were the most frequently mutated CH-associated genes (75% of samples). While the majority (73%) of these mutations were at low variant allele fractions (VAF) of 60,000 samples, JAK2 V617F, a known CH mutation, was observed in 927 samples with VAFs between 0.29% and 98%. Across the combined cohort, we found that in samples with a known CH variant (n=7,717), half of samples had a max CH VAF less than 50% of max tumor VAF. Interestingly, in >25% of samples, the max CH VAF was higher than the max tumor VAF. Initial comparisons of matched plasma and WBC DNA show that 100% (16/16) of clinically relevant and 92% (84/91) of variants of unknown significance (VUSs) across the 73-gene panel were found exclusively in plasma DNA and not in WBC DNA testing. Conclusions: We characterize the distribution of CH mutations across a large number of late-stage plasma samples and show that within highly pre-treated metastatic patients, the VAFs of CH mutations often differ from the tumor and can surpass the level of tumor shedding in circulation. Further investigation of these variants will enable improved understanding of CH in metastatic disease and its differentiation from the circulating tumor DNA. Citation Format: Jennifer Yen, Katie Quinn, Elena Helman, Andrey Chursov, Tracy Nance, Ariel Jaimovich, Kimberly Banks, Aleksandra Franovic, Kristin Gleitsman, John Latham, Arielle Yablonovitch, Marcin Sikora, Stephen Fairclough, Darya Chudova, Richard B. Lanman, AmirAli Talasaz. Analysis of clonal hematopoiesis-associated mutations in the cell-free DNA of advanced cancer patients [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2019; 2019 Mar 29-Apr 3; Atlanta, GA. Philadelphia (PA): AACR; Cancer Res 2019;79(13 Suppl):Abstract nr 2509.",
+        "doi": "10.1158/1538-7445.SABCS18-2509",
+        "pmid": null,
+        "venue": "Molecular and Cellular Biology / Genetics",
+        "citedByCount": 3,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-13706662",
+        "title": "Clonal Hematopoiesis: A New Layer in the Liquid Biopsy Story in Lung Cancer",
+        "authors": [
+          "J. Bauml",
+          "B. Levy"
+        ],
+        "year": 2018,
+        "abstract": "Cell-free DNA (cfDNA) is a unique biospecimen that contains multiple sources of DNA, including tumor, germline, fetal, and others. Clonal hematopoiesis, a process that leads to expansion of mutations in peripheral blood cells, is an additional source of DNA that adds a layer of complexity when interpreting results. Clin Cancer Res; 24(18); 4352–4. ©2018 AACR. See related article by Hu et al., p. 4437",
+        "doi": "10.1158/1078-0432.CCR-18-0969",
+        "pmid": "29748181",
+        "venue": "Clinical Cancer Research",
+        "citedByCount": 42,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-80134777",
+        "title": "Cell-free DNA (cfDNA) mutations from clonal hematopoiesis: Implications for interpretation of liquid biopsy tests.",
+        "authors": [
+          "P. Razavi",
+          "Bob T. Li",
+          "C. Hou",
+          "R. Shen",
+          "O. Venn",
+          "R. Lim",
+          "E. Hubbell",
+          "I. de Bruijn",
+          "Qin-Wen Liu",
+          "R. Satya",
+          "Hui Xu",
+          "Ling Shen",
+          "A. Sehnert",
+          "T. Maddala",
+          "M. Berger",
+          "A. Aravanis",
+          "J. Reis-Filho",
+          "Mark Lee",
+          "D. Solit",
+          "J. Baselga"
+        ],
+        "year": 2017,
+        "abstract": "11526Background: A large fraction of cfDNA fragments are derived from hematopoietic sources. Somatic alterations in cfDNA can be tumor-derived but also could represent somatic changes associated with clonal hematopoiesis. We performed deep sequencing of both plasma cfDNA and matched white blood cell (WBC) genomic DNA (gDNA) to determine the contribution of clonal hematopoiesis to the variants observed in cfDNA. Four cohorts were investigated: metastatic breast (BC), non-small cell lung (NSCLC), castration-resistant prostate cancer (CRPC), and non-cancer participants (pts). Methods: Metastatic cancer pts with de novo or progressive disease were prospectively enrolled. Non-cancer pts were blood bank donors. Plasma cfDNA and matched WBC gDNA were sequenced using a targeted 508-gene panel (2 Mb) to > 60,000X raw depth. Variant calling used a novel pipeline that employed molecular barcoding for error suppression followed by de novo assembly and graph-based variant calling. Results: Of 151 metastatic cancer pts...",
+        "doi": "10.1200/JCO.2017.35.15_SUPPL.11526",
+        "pmid": null,
+        "venue": "Journal of Clinical Oncology",
+        "citedByCount": 25,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-211085238",
+        "title": "Plasma Circulating Tumor DNA and Clonal Hematopoiesis in Metastatic Renal Cell Carcinoma.",
+        "authors": [
+          "J. Bacon",
+          "Matti Annala",
+          "M. Soleimani",
+          "J. Lavoie",
+          "A. So",
+          "M. Gleave",
+          "L. Fazli",
+          "Gang-ping Wang",
+          "K. Chi",
+          "C. Kollmannsberger",
+          "A. Wyatt",
+          "L. Nappi"
+        ],
+        "year": 2020,
+        "abstract": null,
+        "doi": "10.1016/j.clgc.2019.12.018",
+        "pmid": "32046920",
+        "venue": "Clinical Genitourinary Cancer",
+        "citedByCount": 52,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-254912646",
+        "title": "Circulating tumor DNA in early-stage colon cancer: ready for prime time or needing refinement?",
+        "authors": [
+          "J. P. Solar Vasconcelos",
+          "M. Boutin",
+          "J. Loree"
+        ],
+        "year": 2022,
+        "abstract": "Liquid biopsies are the detection of molecular information in fluids from patients with cancer. In colorectal cancer (CRC), the most promising liquid biopsy strategy is the use of circulating tumor DNA (ctDNA) from plasma. In early-stage CRC, the potential for ctDNA to impact care stems from the detection of minimal residual disease (MRD) to guide adjuvant therapy after curative intent treatment and in identifying recurrences during surveillance. As for any new diagnostic test, ctDNA assays must overcome pre-analytical and analytical challenges before clinical implementation. We will discuss important logistical and assay considerations that clinicians and patients should understand when assessing ctDNA assays. We will also delve into important concepts to aid in interpreting ctDNA results and potential incidental findings that may arise. Sequencing errors, germline variants, and clonal hematopoiesis of indeterminate potential (CHIP) must be addressed to properly interpret results. CHIP is also an important consideration that impacts patient prognosis through association with cardiovascular and hematologic diseases. With this background in place, we next review the best available evidence for the use of ctDNA in early-stage colon cancer. Observational cohorts have established MRD after surgery as a significant prognostic factor for recurrence in stage II and III colon cancer. It also has the ability to anticipate clinical recurrence before standard investigations when used in surveillance. The first and only interventional randomized trial to date evaluating ctDNA is DYNAMIC. The study demonstrated the noninferiority of a MRD detection-guided approach in selecting patients with stage II colon cancer for adjuvant treatment. Notwithstanding the important results, there are still important questions to be answered before ctDNA enters prime time in the clinic. However, future appears bright and ongoing trials will help clarify how to best use this technology in early-stage colon cancer.",
+        "doi": "10.1177/17588359221143975",
+        "pmid": "36570410",
+        "venue": "Therapeutic Advances in Medical Oncology",
+        "citedByCount": 11,
+        "urls": [
+          "https://doi.org/10.1177/17588359221143975"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1177/17588359221143975"
+      },
+      {
+        "elicitId": "ss-289812245",
+        "title": "The ctDNA Paradigm: Dynamic Observation, Quantitative Analysis, and Interpretive Limits in Precision Oncology",
+        "authors": [
+          "M. Chetta",
+          "N. Bukvic",
+          "Alessandra Rosati"
+        ],
+        "year": 2026,
+        "abstract": "Circulating tumor DNA (ctDNA) was initially conceived as a minimally invasive surrogate for interrogating cancer biology; however, three decades of evidence have demonstrated that plasma is not a passive reservoir of tumor-derived material, but rather a dynamic and biologically heterogeneous milieu in which multiple competing genomic signals coexist. This review explores the level of interpretive rigor required to translate ctDNA detection into clinically actionable precision oncology. Clonal hematopoiesis of indeterminate potential (CHIP) is discussed not as an occasional confounder, but as an intrinsic source of biological background noise, underscoring the critical importance of matched leukocyte sequencing to discriminate tumor-derived alterations from hematopoietic variants, particularly in older individuals and in patients previously exposed to cytotoxic therapies. The widespread assumption that variant allele frequency (VAF) directly reflects tumor burden is critically re-evaluated through the mathematical relationships linking VAF to tumor fraction, local copy-number architecture, and mutation multiplicity. Within this framework, estimation of cancer cell fraction (CCF) and probabilistic discrimination between clonal and subclonal events are examined, including the emergence of reversion mutations as molecular evidence of therapy-driven evolutionary adaptation. The review also addresses the central paradox of ultra-sensitive sequencing technologies: although unique molecular identifiers and duplex sequencing can extend analytical sensitivity below 0.01% VAF, sensitivity in the absence of contextual specificity risks conflating technical artifacts and biologically insignificant alterations with clinically meaningful disease. Equal emphasis is placed on pre-analytical variables, highlighting how sample collection, stabilization, and processing protocols define the upper limit of downstream analytical reliability. Beyond single-nucleotide variants, fragmentomic and methylation-based approaches are presented as complementary orthogonal dimensions capable of revealing tumor-associated signals even when mutational evidence is limited or absent. Longitudinal ctDNA assessment is argued to provide substantially greater biological and clinical insight than isolated static measurements, while robust clinical reporting is shown to depend on transparent disclosure of assay limitations, residual uncertainty related to CHIP, and structured bidirectional communication between molecular laboratories and treating clinicians. Ultimately, the transition from a biomarker-centered model toward an integrated systems-based framework, combining genomics, epigenomics, fragmentomics, and evolutionary modeling, emerges as the defining challenge for the next generation of liquid biopsy in precision oncology.",
+        "doi": "10.3390/genes17070754",
+        "pmid": "42510794",
+        "venue": "Genes",
+        "citedByCount": 0,
+        "urls": [
+          "https://www.mdpi.com/2073-4425/17/7/754/pdf?version=1782812696"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://www.mdpi.com/2073-4425/17/7/754/pdf?version=1782812696"
+      },
+      {
+        "elicitId": "ss-278029995",
+        "title": "CHIP'ing Signal from Noise in Liquid Biopsy.",
+        "authors": [
+          "Elsa Bernard",
+          "J. Micol"
+        ],
+        "year": 2025,
+        "abstract": "The presence of clonal hematopoiesis (CH) in cell-free DNA (cfDNA) analysis can distort the interpretation of results and impact cancer treatment decisions. This CCR Translations discusses the importance of distinguishing the origin of cfDNA variants as tumoral or hematopoietic and its potential clinical implications.",
+        "doi": "10.1158/1078-0432.CCR-25-0569",
+        "pmid": "40272282",
+        "venue": "Clinical Cancer Research",
+        "citedByCount": 2,
+        "urls": [
+          "https://aacrjournals.org/clincancerres/article-pdf/doi/10.1158/1078-0432.CCR-25-0569/3599234/ccr-25-0569.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://aacrjournals.org/clincancerres/article-pdf/doi/10.1158/1078-0432.CCR-25-0569/3599234/ccr-25-0569.pdf"
+      },
+      {
+        "elicitId": "ss-4272126",
+        "title": "False-Positive Plasma Genotyping Due to Clonal Hematopoiesis",
+        "authors": [
+          "Yue-Bi Hu",
+          "B. Ulrich",
+          "Julianna G. Supplee",
+          "Y. Kuang",
+          "Patrick H. Lizotte",
+          "N. Feeney",
+          "N. Guibert",
+          "M. Awad",
+          "Kwok-Kin Wong",
+          "P. Jänne",
+          "C. Paweletz",
+          "G. Oxnard"
+        ],
+        "year": 2018,
+        "abstract": "Purpose: Plasma cell-free DNA (cfDNA) genotyping is increasingly used in cancer care, but assay accuracy has been debated. Because most cfDNA is derived from peripheral blood cells (PBC), we hypothesized that nonmalignant mutations harbored by hematopoietic cells (clonal hematopoiesis, CH) could be a cause of false-positive plasma genotyping. Experimental Design: We identified patients with advanced non–small cell lung cancer (NSCLC) with KRAS, JAK2, or TP53 mutations identified in cfDNA. With consent, PBC DNA was tested using droplet digital PCR (ddPCR) or next-generation sequencing (NGS) to test for CH-derived mutations. Results: We first studied plasma ddPCR results from 58 patients with EGFR-mutant NSCLC. Two had KRAS G12X detected in cfDNA, and both were present in PBC, including one where the KRAS mutation was detected serially for 20 months. We then studied 143 plasma NGS results from 122 patients with NSCLC and identified 5 JAK2 V617F mutations derived from PBC. In addition, 108 TP53 mutations were detected in cfDNA; for 33 of the TP53 mutations, PBC and tumor NGS were available for comparison, and 5 were present in PBC but absent in tumor, consistent with CH. Conclusions: We find that most JAK2 mutations, some TP53 mutations, and rare KRAS mutations detected in cfDNA are derived from CH not tumor. Clinicians ordering plasma genotyping must be prepared for the possibility that mutations detected in plasma, particularly in genes mutated in CH, may not represent true tumor genotype. Efforts to use plasma genotyping for cancer detection may need paired PBC genotyping so that CH-derived mutations are not misdiagnosed as occult malignancy. Clin Cancer Res; 24(18); 4437–43. ©2018 AACR. See related commentary by Bauml and Levy, p. 4352",
+        "doi": "10.1158/1078-0432.CCR-18-0143",
+        "pmid": "29567812",
+        "venue": "Clinical Cancer Research",
+        "citedByCount": 402,
+        "urls": [
+          "https://doi.org/10.1158/1078-0432.22470314"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1158/1078-0432.22470314"
+      },
+      {
+        "elicitId": "ss-253449246",
+        "title": "Towards clinical implementation of circulating tumor DNA in metastatic prostate cancer: Opportunities for integration and pitfalls to interpretation",
+        "authors": [
+          "E. Kwan",
+          "A. Wyatt",
+          "K. Chi"
+        ],
+        "year": 2022,
+        "abstract": "Plasma circulating tumor DNA (ctDNA) represents short fragments of tumor-derived DNA released into the bloodstream primarily from cancer cells undergoing apoptosis. In metastatic castration-resistant prostate cancer (mCRPC), characterizing genomic alterations in ctDNA identifies mutations, copy number alterations, and structural rearrangements with predictive and prognostic biomarker utility. These associations with clinical outcomes have resulted in ctDNA increasingly incorporated into routine clinical care. In this review, we summarize current and emerging applications for ctDNA analysis in metastatic prostate cancer, including outcome prediction, treatment selection, and characterization of treatment resistance. We also discuss potential pitfalls with interpreting ctDNA findings, namely false negatives arising from low tumor content and optimal assay design, including correction for clonal hematopoiesis of indeterminate potential and germline variants. Understanding the influence of these limitations on interpretation of ctDNA results is necessary to overcome barriers to clinical implementation. Nevertheless, as assay availability and technology continue to improve, recognizing both opportunities and shortcomings of ctDNA analysis will retain relevance with informing the implementation of precision-oncology initiatives for metastatic prostate cancer.",
+        "doi": "10.3389/fonc.2022.1054497",
+        "pmid": "36439451",
+        "venue": "Frontiers in Oncology",
+        "citedByCount": 33,
+        "urls": [
+          "https://www.frontiersin.org/articles/10.3389/fonc.2022.1054497/pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://www.frontiersin.org/articles/10.3389/fonc.2022.1054497/pdf"
+      },
+      {
+        "elicitId": "ss-282690755",
+        "title": "Accurate and reliable detection of clonal hematopoiesis in plasma cell-free DNA",
+        "authors": [
+          "A. Parker",
+          "J. V. Van Amburg",
+          "Y. Pershad",
+          "David A. Ong",
+          "Ketan J Hoey",
+          "C. Farady",
+          "Philipp J Rauch",
+          "Michael M Mendelson",
+          "J. Heimlich",
+          "P. Ferrell",
+          "Alexander G. Bick"
+        ],
+        "year": 2025,
+        "abstract": "No abstract",
+        "doi": "10.1182/bloodadvances.2025017293",
+        "pmid": "41170909",
+        "venue": "Blood Advances",
+        "citedByCount": 1,
+        "urls": [
+          "https://ashpublications.org/bloodadvances/article-pdf/doi/10.1182/bloodadvances.2025017293/2418968/bloodadvances.2025017293.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://ashpublications.org/bloodadvances/article-pdf/doi/10.1182/bloodadvances.2025017293/2418968/bloodadvances.2025017293.pdf"
+      },
+      {
+        "elicitId": "ss-291897829",
+        "title": "Blood-based tumor biomarkers: integrating biological layers and analytical strategies for precision cancer detection",
+        "authors": [
+          "Yi Zhang",
+          "Zhen Wang"
+        ],
+        "year": 2026,
+        "abstract": "Blood-based cancer biomarkers promise minimally invasive, longitudinal monitoring, yet their clinical utility varies profoundly by analyte class, disease stage, and analytical methodology. This Review critically evaluates six circulating biomarker classes, such as CTCs, ctDNA, cfDNA methylation, exosomes, circulating miRNAs, and tumor-educated platelets—moving beyond a descriptive catalog to a comparative analysis of their performance characteristics. We find that the dominant challenge is no longer signal detection per se, but rather signal interpretation in the presence of biological confounders like clonal hematopoiesis and pre-analytical variability. We argue that a disciplined pairing of a biomarker’s biological origin with the physico-chemical principles of its detection platform is the primary determinant of assay robustness. The Review concludes by outlining a pragmatic framework for integrating orthogonal biomarker readouts, emphasizing that how we combine signals is a more pressing question than how many markers we can measure.",
+        "doi": "10.3389/fmed.2026.1815382",
+        "pmid": "42774839",
+        "venue": "Frontiers in Medicine",
+        "citedByCount": 0,
+        "urls": [
+          "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1815382/pdf"
+        ],
+        "studyTypeTags": [
+          "Longitudinal"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1815382/pdf"
+      },
+      {
+        "elicitId": "ss-276258074",
+        "title": "Characterization of Plasma Cell-Free DNA Variants as of Tumor or Clonal Hematopoiesis Origin in 16,812 Advanced Cancer Patients",
+        "authors": [
+          "Dan Magee",
+          "V. Domenyuk",
+          "J. Abraham",
+          "Nieves Perdigones Borderias",
+          "J. Swensen",
+          "Praveena R Solipuram",
+          "Adanma Ayanambakkam",
+          "Raja Mehdi",
+          "Jagathi Challagalla",
+          "Elisabeth I. Heath",
+          "M. Landsverk",
+          "Magdalena Jurkiewicz",
+          "Brian Shimkus",
+          "I. Pinto",
+          "D. Patterson",
+          "D. Hsiehchen",
+          "S. Koya",
+          "B. Somer",
+          "M. Velez",
+          "A. Shields",
+          "Jennifer Cultrera",
+          "Jennifer R. Ribeiro",
+          "R. Hahn-Lowry",
+          "G. Sledge",
+          "M. Oberley",
+          "M. Radovich",
+          "D. Spetzler"
+        ],
+        "year": 2025,
+        "abstract": "Abstract Purpose: Plasma-based liquid biopsy tests can detect tumor-specific genetic alterations and offer many advantages that complement tissue-based comprehensive genomic profiling. However, age-related clonal hematopoiesis (CH) mutations can confound liquid biopsy results and potentially lead to incorrect therapy choice. Experimental Design: We assessed the landscape of 16,812 liquid profiles across 49 cancer types using the Caris Assure assay, a whole-exome and whole-transcriptome next-generation sequencing workflow that independently sequences both plasma-derived cell-free total nucleic acids and the white blood cell DNA and RNA from the buffy coat. The variant source was identified algorithmically by comparing plasma and buffy coat variant frequency and read quality metrics. Results: Of 16,812 patients, 42.3% presented at least one CH variant among reportable clinical genes. We found 39% of BRCA2 variants to be of CH origin, as well as 37.9% of CHEK2, 27.4% of BRCA1, 20.1% of ATM, 7.3% of NRAS, 5.8% of BRAF, 2.1% of EGFR, 2.1% of KRAS, and 18.5% of TP53. For patients aged 65 to 69 years, the median proportion of CH variant classification was 20%, whereas it was 33% for patients aged 70 to 74 years, 33% for ages 75 to 79 years, and 50% for ages 80+ years. We found high rates of CH detected in what would be otherwise druggable targets in many cancer types typically treated with PARP inhibitors, including breast, female genital tract, ovarian, pancreatic, prostate, and endometrial cancers. Conclusions: This large study highlights the need for thorough CH classification during liquid biopsy to appropriately recommend therapies, especially PARP inhibitors. See related commentary by Bernard and Micol, p. 2545",
+        "doi": "10.1158/1078-0432.CCR-24-3335",
+        "pmid": "39932457",
+        "venue": "Clinical Cancer Research",
+        "citedByCount": 33,
+        "urls": [
+          "https://aacrjournals.org/clincancerres/article-pdf/31/13/2710/3624876/ccr-24-3335.pdf",
+          "https://doi.org/10.1158/1078-0432.ccr-24-3335"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://aacrjournals.org/clincancerres/article-pdf/31/13/2710/3624876/ccr-24-3335.pdf"
+      },
+      {
+        "elicitId": "ss-290799043",
+        "title": "Circulating tumor DNA in gastrointestinal cancers: promise, pitfalls, and the path forward",
+        "authors": [
+          "Sarbajit Mukherjee",
+          "A. Sarfraz",
+          "K. Aung",
+          "M. Ahluwalia"
+        ],
+        "year": 2026,
+        "abstract": null,
+        "doi": "10.1016/j.eclinm.2026.104122",
+        "pmid": "42571422",
+        "venue": "EClinicalMedicine",
+        "citedByCount": 1,
+        "urls": [
+          "https://doi.org/10.1016/j.eclinm.2026.104122"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1016/j.eclinm.2026.104122"
+      },
+      {
+        "elicitId": "ss-33805977",
+        "title": "Heterogeneous tumor clones as an explanation of discordance between plasma DNA and tumor DNA alterations",
+        "authors": [
+          "J. García",
+          "Jose Silva",
+          "G. Domínguez",
+          "Javier Silva",
+          "F. Bonilla"
+        ],
+        "year": 2001,
+        "abstract": "Genetic and epigenetic alterations have been proved to be present in plasma DNA of patients with malignancies, ranging between 20% and 80%, depending on tumor type and detection methods (Chen et al., 1996; Anker et al., 1997; Esteller et al., 1999; Silva et al., 1999b). A previous study, published in Genes Chromosomes and Cancer (Silva et al., 1999b), found TP53 gene mutations in tumor and plasma DNA in a small series of patients with breast cancer and small-cell lung cancer. No microsatellite markers were used in this study. Although almost all circulating DNA alterations match tumor DNA changes (as in the former report), the majority of studies show a small number of alterations present only in plasma, mainly when microsatellite polymorphic markers are used to characterize tumor and plasma DNA (Goessl et al., 1998; Silva et al., 1999a). This finding also has been noted in leukemia patients, in whom NRAS mutations detected in plasma DNA were sometimes absent in the DNA of peripheral blood cells or even in bone marrow samples (Vasioukhin et al., 1994). Some authors suggest that these nonmatched alterations are pitfalls, arguing that the DNA is not pure enough and that small quantities of template can result in polymerase chain reaction artifacts (Chen et al., 1999; Mayall et al., 1999; Coulet et al., 2000). On the other hand, other investigators propose the existence of heterogeneous tumor clones as an alternative explanation (Chen et al., 1996; Goessl et al., 1998), although this possibility has not been proved. To clarify this issue, we analyzed six microsatellite markers—D10S541, D10S2491, D10S583, D17S855, D17S1323, and D17S1322—and KRAS2 mutations in tumor samples from 42 colon cancer patients (in 19 cases, the samples were taken without contiguity from the same tumor, and in 23 patients they were chosen from synchronous multifocal tumors). Microsatellite analysis was done in nondenaturing 8% polyacrylamide followed by a silver-staining method. KRAS2 changes were identified by single-strand conformational polymorphism (SSCP). Samples that showed a differential band at SSCP were sequenced by the deoxynucleotide triphosphate (dNTP) method with the Sequenase Kit (United States Biochemical Corp., Cleveland, OH) to identify the mutations. Second, we tested for the presence of the same DNA tumor alterations in the plasma of patients who had different alteration patterns among their tumor samples. Fourteen (33%) patients had heterogeneous patterns among their samples in at least one of the markers, suggesting the presence of different cell clones in the tumor of each patient. Eight were multifocal neoplasias, and six were tumors with multiple samples. The plasma study was done on seven blood samples available from these patients. In five samples, three corresponding to patients with multifocal tumors and two to patients with different tumor fragments, we found that the genetic alterations detected in plasma DNA were present only in some of the tumor samples analyzed (Table 1). Usually, molecular studies check a small portion of the tumor, but it is possible that the supposedly homogeneous neoplastic tissue could be a mixture of different proliferating clones. In conclusion, although polymerase chain reaction artifact can be linked to plasma DNA changes that are not present in tumor tissues, and plasma analysis must be done carefully to select adequate markers and avoid false-positive results, our results show that the existence of different neoplastic clones could explain some nonmatched alterations between plasma and tumor DNA, on the basis of the heterogeneous genetic appearance of tumor cells.",
+        "doi": "10.1002/gcc.1148",
+        "pmid": "11391802",
+        "venue": "Genes, Chromosomes and Cancer",
+        "citedByCount": 33,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 2,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-208475333",
+        "title": "P2.03-25 Assessing the Impact of Clonal Hematopoiesis in Disease Monitoring Using Targeted Cell-Free DNA (cfDNA) Sequencing Technology",
+        "authors": [
+          "S. Yaung",
+          "Liu Xi",
+          "C. Woestmann",
+          "C. Ju",
+          "D. Klass",
+          "Fergal Casey",
+          "B. Hinzmann",
+          "C. Heussel",
+          "Mark G. Thomas",
+          "F. Herth",
+          "T. Muley",
+          "B. Wehnl",
+          "J. Palma",
+          "X. Ma"
+        ],
+        "year": 2019,
+        "abstract": null,
+        "doi": "10.1016/j.jtho.2019.08.1472",
+        "pmid": null,
+        "venue": "Journal of Thoracic Oncology",
+        "citedByCount": 0,
+        "urls": [
+          "http://www.jto.org/article/S1556086419321550/pdf"
+        ],
+        "studyTypeTags": [
+          "Longitudinal"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "http://www.jto.org/article/S1556086419321550/pdf"
+      }
+    ],
+    "warnings": []
+  }
+}

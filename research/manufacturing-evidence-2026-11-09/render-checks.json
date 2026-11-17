@@ -1,0 +1,659 @@
+{
+  "scope": "Actual EntityDetail static rendering; source URLs, dates, anchors and visible body checked. No browser hydration, mobile screenshot, preview or production verification claimed.",
+  "records": [
+    {
+      "id": "proteomics",
+      "route": "/technologies/proteomics/",
+      "asOf": "2026-11-08",
+      "bytes": 68567,
+      "sha256": "f9855d1241ab4320c598deb5f576d93814c79ece3dcbbc3dde2a676d90e14613",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "imaging-mass-cytometry",
+      "route": "/technologies/imaging-mass-cytometry/",
+      "asOf": "2026-11-08",
+      "bytes": 30187,
+      "sha256": "3ec439ffe1da04d67ba9736056589fb13e826401425a04b0bc34d8fbc2cb330b",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "neoantigen",
+      "route": "/terms/neoantigen/",
+      "asOf": "2026-11-08",
+      "bytes": 53634,
+      "sha256": "4573f838b3b7243ecd6838aaeaec8f246e068bcd8ef78afdb900a6a5c60d484f",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "immune-product-evidence",
+      "route": "/terms/immune-product-evidence/",
+      "asOf": "2026-11-08",
+      "bytes": 25591,
+      "sha256": "6c3ebebdc10c752e4784929d22b63b6753fe93cbba960f4050a1cff8e32c5900",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "elispot",
+      "route": "/terms/elispot/",
+      "asOf": "2026-11-08",
+      "bytes": 18905,
+      "sha256": "d0ab0923e05df8b24e924af3d1868fd21bf6367dcbea8bea79ed6ae92faed138",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "intracellular-cytokine-staining",
+      "route": "/terms/intracellular-cytokine-staining/",
+      "asOf": "2026-11-08",
+      "bytes": 18036,
+      "sha256": "86e037bf0f689b4863eb5950e4f4510072c58380b47c6ae9e08c91dc86e008f9",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "peptide-hla-multimer-staining",
+      "route": "/terms/peptide-hla-multimer-staining/",
+      "asOf": "2026-11-08",
+      "bytes": 20106,
+      "sha256": "65891b6d76a6daed1a1c94c43e15bdadeea59741364769d957be6db24357c7d9",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "immune-cytotoxicity-assays",
+      "route": "/terms/immune-cytotoxicity-assays/",
+      "asOf": "2026-11-08",
+      "bytes": 20514,
+      "sha256": "305428d285966b8691533761e1dab521b52603151e74099400eee4e7d1cafc56",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tcr-repertoire-sequencing",
+      "route": "/terms/tcr-repertoire-sequencing/",
+      "asOf": "2026-11-08",
+      "bytes": 20693,
+      "sha256": "f7797c133246536aea3576c8ad098d581f2c58dab17207d9bcbff72bc9f34c39",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tcr-repertoire-clonality",
+      "route": "/terms/tcr-repertoire-clonality/",
+      "asOf": "2026-11-08",
+      "bytes": 20261,
+      "sha256": "dca57df6a4ae075d83a153e6928cbd9dbb9619434d63ed30a454189e420abe24",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "pbmc-specimens",
+      "route": "/terms/pbmc-specimens/",
+      "asOf": "2026-11-08",
+      "bytes": 21260,
+      "sha256": "3ad80658c8fda079717e0f7a10afaecc168e0a3ef3e1b7f573f5b42f5f19923c",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "binding-presentation-recognition",
+      "route": "/terms/binding-presentation-recognition/",
+      "asOf": "2026-11-08",
+      "bytes": 21584,
+      "sha256": "f07106bde919f2f25fefa143cd862eac4e7ef4347eda8a0cb526fd13f9857309",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "immunopeptidome",
+      "route": "/terms/immunopeptidome/",
+      "asOf": "2026-11-08",
+      "bytes": 20671,
+      "sha256": "70db9199cdbfa161a599d74435f50976e265c4bdd749ead4bb1badf52327167e",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "immunopeptidomics",
+      "route": "/terms/immunopeptidomics/",
+      "asOf": "2026-11-08",
+      "bytes": 20601,
+      "sha256": "d18c83772896cacee971cb0bec14d167d7e8da32a6a5cf0d4e50f521544df3dc",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "peptide-hla-binding-prediction",
+      "route": "/terms/peptide-hla-binding-prediction/",
+      "asOf": "2026-11-08",
+      "bytes": 19831,
+      "sha256": "98f3a202a274d53ec6bc31601b705aabf81a323d63094f404e344ef4de185833",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "immunodominance",
+      "route": "/terms/immunodominance/",
+      "asOf": "2026-11-08",
+      "bytes": 18991,
+      "sha256": "907945da9ad8bfb1c547f62155a223ef565148b785cbcc2e842f9daf2aee99d9",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "epitope-spreading",
+      "route": "/terms/epitope-spreading/",
+      "asOf": "2026-11-08",
+      "bytes": 18008,
+      "sha256": "7fa43c771067a5fa101d3bf75dfe1c51a09a4db16d28fd4fd3debb7eee2e4a1e",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "self-similarity-immune-recognition",
+      "route": "/terms/self-similarity-immune-recognition/",
+      "asOf": "2026-11-08",
+      "bytes": 22114,
+      "sha256": "75c53a02ead097fbc0165b0fe39cab9a1eb889116cf991cd9e1c04d165817bbc",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "immunogenicity-versus-efficacy",
+      "route": "/terms/immunogenicity-versus-efficacy/",
+      "asOf": "2026-11-08",
+      "bytes": 21254,
+      "sha256": "4c46dcb6a3d66013a71f39a9aa2ab078a5836424486f685e6f3b8626381c06dc",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tissue-preparation-assay-fit",
+      "route": "/terms/tissue-preparation-assay-fit/",
+      "asOf": "2026-11-08",
+      "bytes": 21127,
+      "sha256": "e0fe27da6116a3b9aa84498d9fb8770f724ff13c6cab29738b54b88100f31849",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "finite-tissue-budget",
+      "route": "/terms/finite-tissue-budget/",
+      "asOf": "2026-11-08",
+      "bytes": 19342,
+      "sha256": "7a4c1606f5489ace4d93edbcef08c8fd41311031827f0239c27289057b832895",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "rna-integrity",
+      "route": "/terms/rna-integrity/",
+      "asOf": "2026-11-08",
+      "bytes": 17597,
+      "sha256": "cb32e2afa9b5ad05269ef0dc5f5f244ec4495c2121f7ee6d18f13ebb5cfd0804",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "specimen-provenance",
+      "route": "/terms/specimen-provenance/",
+      "asOf": "2026-11-08",
+      "bytes": 17733,
+      "sha256": "7ae7098a89637153a1ec3dcfaa948c635e857d320a34dea6562272581a991a5e",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "mrna-construct-anatomy",
+      "route": "/terms/mrna-construct-anatomy/",
+      "asOf": "2026-11-08",
+      "bytes": 19853,
+      "sha256": "c6ffd9d69b9ac9c2f62b2377348d4f8743ecbfe80689118535bc6b6bf61113e9",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "codon-optimization",
+      "route": "/terms/codon-optimization/",
+      "asOf": "2026-11-08",
+      "bytes": 17236,
+      "sha256": "2660cfc58fb5e4ef386113ee71291035907e326d02cb6ff17c07142d2173d909",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "modified-rna-nucleosides",
+      "route": "/terms/modified-rna-nucleosides/",
+      "asOf": "2026-11-08",
+      "bytes": 18747,
+      "sha256": "1b3d807a23ff3fa8a93c4d543695a58df177e5799b78588b76bd15c9d1249262",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "in-vitro-transcription",
+      "route": "/terms/in-vitro-transcription/",
+      "asOf": "2026-11-08",
+      "bytes": 18935,
+      "sha256": "9cd81cb0b4bbe5bdbf05b7c919a73a4f6363438ffb028672aed546ab73ac8a00",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dsrna-impurities",
+      "route": "/terms/dsrna-impurities/",
+      "asOf": "2026-11-08",
+      "bytes": 16967,
+      "sha256": "e82f0116e714ced07f5fa1a63e3178eb5395c420c8130a367669dcd5f8198fa4",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "multi-epitope-constructs",
+      "route": "/terms/multi-epitope-constructs/",
+      "asOf": "2026-11-08",
+      "bytes": 19549,
+      "sha256": "1bd0d10ebfd857306c4447badababcf3b5f94f07848eb263c524514af75608f9",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "binder-targeting-module",
+      "route": "/terms/binder-targeting-module/",
+      "asOf": "2026-11-08",
+      "bytes": 17203,
+      "sha256": "4c491df2d9651a4005c1ce598371aa05f1dd215c040c3b30216e5b2cc2d2de97",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "binder-affinity-epitope-developability",
+      "route": "/terms/binder-affinity-epitope-developability/",
+      "asOf": "2026-11-08",
+      "bytes": 20800,
+      "sha256": "17b7de89bfebbdc9cb7a77004e5e725bd081645be0d6d99b62202a86876d6f1d",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "binder-format-constraints",
+      "route": "/terms/binder-format-constraints/",
+      "asOf": "2026-11-08",
+      "bytes": 17029,
+      "sha256": "61e926cf2145b64a09632b0844285b288d59a2378348409b4dc9053e34c1cbce",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "scfv-vhh-formats",
+      "route": "/terms/scfv-vhh-formats/",
+      "asOf": "2026-11-08",
+      "bytes": 16507,
+      "sha256": "3d78e2bb7fc48dd7d8e400621f26795652db73377357c4ed19fd2b91bd99e322",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "delivery-target-versus-therapeutic-target",
+      "route": "/terms/delivery-target-versus-therapeutic-target/",
+      "asOf": "2026-11-08",
+      "bytes": 19544,
+      "sha256": "5095887206fcc3928c4eef3e82df1729ab98b2b92b12f1e0cc2258453758736f",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "chemistry-manufacturing-controls",
+      "route": "/terms/chemistry-manufacturing-controls/",
+      "asOf": "2026-11-08",
+      "bytes": 20252,
+      "sha256": "c60c69e5b6d87f1131a7252560be398860b55c0efa1db19b7aa73e370b851adf",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "certificate-of-analysis",
+      "route": "/terms/certificate-of-analysis/",
+      "asOf": "2026-11-08",
+      "bytes": 17711,
+      "sha256": "b0c4953d66e7b37640e38ee96715452c05931ab4f8fe6a3c10ca21b1452f3d7a",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "manufacturing-process-comparability",
+      "route": "/terms/manufacturing-process-comparability/",
+      "asOf": "2026-11-08",
+      "bytes": 18191,
+      "sha256": "f04f1d7154ce940071174fb2095bec2f5cf0c69d988b511766655b4ea4a03946",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cell-segmentation",
+      "route": "/terms/cell-segmentation/",
+      "asOf": "2026-11-08",
+      "bytes": 16311,
+      "sha256": "05be8001bd626c22ece8a695ba082d0dcf91ce57331810231f6da5ec41228ada",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "targeted-proteomics-quantification",
+      "route": "/terms/targeted-proteomics-quantification/",
+      "asOf": "2026-11-08",
+      "bytes": 19725,
+      "sha256": "42843e0863613904150c18fd44d71ad783dbc4355fa578d99c71ddc9611fe2a0",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "antigen-presentation-immunoediting",
+      "route": "/pathways/antigen-presentation-immunoediting/",
+      "asOf": "2026-11-08",
+      "bytes": 68780,
+      "sha256": "8823a9b4f23ac275e92dee31219e5f08e70a466a445c01ca0ae6c9bf6622dc15",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cell-therapy-release-testing",
+      "route": "/technologies/cell-therapy-release-testing/",
+      "asOf": "2026-11-09",
+      "bytes": 40926,
+      "sha256": "f51cb8890b9493f17c38bba77ae51a542a9eaf7a11c749c6cdcfc82d2f5c4f9c",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "preanalytics-sample-stabilisation",
+      "route": "/technologies/preanalytics-sample-stabilisation/",
+      "asOf": "2026-11-08",
+      "bytes": 33673,
+      "sha256": "40cc0229a395dfd8f91ceec835b8bed030a4f1324ff17c3870dfdec516aa058d",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "flow-cytometry",
+      "route": "/terms/flow-cytometry/",
+      "asOf": "2026-11-08",
+      "bytes": 29867,
+      "sha256": "8b8a77843401b84e7d4e328d7babedb98d93068cafa81b6f70b179f3452e6cc6",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "vein-to-vein-time",
+      "route": "/terms/vein-to-vein-time/",
+      "asOf": "2026-11-09",
+      "bytes": 31253,
+      "sha256": "fc6e7e4f2a549de779176bc7d16e6e08138a1c4de88d07e27347256dba763380",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    },
+    {
+      "id": "rppa",
+      "route": "/terms/rppa/",
+      "asOf": "2026-11-08",
+      "bytes": 24342,
+      "sha256": "a4cf02c4ac95dcffe721f5681104dd9c7c8f0ad89f6521523c1a17e232825f88",
+      "missingSources": 0,
+      "nestedAnchors": 0
+    }
+  ],
+  "authoredFields": [
+    {
+      "id": "cell-therapy-release-testing",
+      "field": "notes",
+      "part": 0,
+      "readerBodyMatched": true,
+      "valueSha256": "54aca1c0087851a88a8b08d392183264baffd33f3522628111f31a299f8151ba"
+    },
+    {
+      "id": "cell-therapy-release-testing",
+      "field": "notes",
+      "part": 1,
+      "readerBodyMatched": true,
+      "valueSha256": "b153f6202e0a1f636ce43ee0221599629ae2a55db8fae0a9b7d9f5d7bc1b4542"
+    },
+    {
+      "id": "cell-therapy-release-testing",
+      "field": "notes",
+      "part": 2,
+      "readerBodyMatched": true,
+      "valueSha256": "099fb1a0162ab60937a65d8faa8815c4220880d2df3e1ab88b92524c547adbc1"
+    },
+    {
+      "id": "cell-therapy-release-testing",
+      "field": "notes",
+      "part": 3,
+      "readerBodyMatched": true,
+      "valueSha256": "ca0b357e7abd9f4316b8ed711acf761be5d2540098839ad27982498d124afd3a"
+    },
+    {
+      "id": "cell-therapy-release-testing",
+      "field": "notes",
+      "part": 4,
+      "readerBodyMatched": true,
+      "valueSha256": "e96a3bc17ec6b7f78a562aa955cbf903af90631d80718c399e282f2df8866193"
+    },
+    {
+      "id": "cell-therapy-release-testing",
+      "field": "notes",
+      "part": 5,
+      "readerBodyMatched": true,
+      "valueSha256": "8550ba1b485fb25db43c35b66a681639d1381399129c98b1ecd44a7c7d111620"
+    },
+    {
+      "id": "cell-therapy-release-testing",
+      "field": "notes",
+      "part": 6,
+      "readerBodyMatched": true,
+      "valueSha256": "f908181307a258ee221a0af2ff208c510175c3ca9bc0e6f127294fea1900203f"
+    },
+    {
+      "id": "vein-to-vein-time",
+      "field": "notes",
+      "part": 2,
+      "readerBodyMatched": true,
+      "valueSha256": "57eb83fd4f1ac806d29c3f07f9c354e35fbb9ea5cf940a8301bff6c497f0d974"
+    },
+    {
+      "id": "vein-to-vein-time",
+      "field": "notes",
+      "part": 3,
+      "readerBodyMatched": true,
+      "valueSha256": "6ad64999a5037ad37fde1f3aed6d164711516b10d6409fafcc285f5243247c22"
+    },
+    {
+      "id": "vein-to-vein-time",
+      "field": "notes",
+      "part": 4,
+      "readerBodyMatched": true,
+      "valueSha256": "315609999f96872203aa591f7857db60c4a3df5b18f1bcbc1337c7395c069919"
+    },
+    {
+      "id": "vein-to-vein-time",
+      "field": "notes",
+      "part": 5,
+      "readerBodyMatched": true,
+      "valueSha256": "03badf0f855f853a51f3f64006811794d28639f44c9ec795a9e5aa9e8f1c3f00"
+    },
+    {
+      "id": "vein-to-vein-time",
+      "field": "tldr",
+      "part": 0,
+      "readerBodyMatched": true,
+      "valueSha256": "86602dc8089a66dfe6cf5835255f5e9f050510362d2ff7b665a64df6ea6db389"
+    }
+  ],
+  "additionalConsumers": {
+    "scope": "Actual lazy-loaded dictionary lookup; selected text SSR, not browser hydration or fluent-human review.",
+    "checks": [
+      {
+        "id": "vein-to-vein-time",
+        "lang": "ar",
+        "path": "src/data/i18n/ar.ts",
+        "sha256": "3b9394059f7c61d1b2637cb3198787c08ca6b36f7368966c1a71eb712c54f6a6",
+        "loadedLookupMatched": true,
+        "reviewStatus": "machine-assisted",
+        "renderedTextSha256": "2bb069e2e491dfd9951b665937b94867f3e38f953aa91eaf8e908ba98ddcea50"
+      },
+      {
+        "id": "cell-therapy-release-testing",
+        "lang": "ar",
+        "path": "src/data/i18n/ar.ts",
+        "sha256": "6159d733a5df0cc45b309a65d9df6302b271a8d6e72acf734e6396bb6cbd5caf",
+        "loadedLookupMatched": true,
+        "reviewStatus": "machine-assisted",
+        "renderedTextSha256": "2b0be3734e3e6473edbe665b696a287e0ed611bd24081df351eb4ed906e37c9e"
+      },
+      {
+        "id": "vein-to-vein-time",
+        "lang": "de",
+        "path": "src/data/i18n/de.ts",
+        "sha256": "3ee64ce5821d4127e46fd550d4630850f3389506dee03cde21b62fd8979e4555",
+        "loadedLookupMatched": true,
+        "reviewStatus": "machine-assisted",
+        "renderedTextSha256": "1b5689653cc99e3beb39cd48ddcbd0190422aaa94bedc2a24f6c66aa3efd122e"
+      },
+      {
+        "id": "cell-therapy-release-testing",
+        "lang": "de",
+        "path": "src/data/i18n/de.ts",
+        "sha256": "83124e3c864b05b0aa8d58153bec545d5c388d86ba2f6e93c114de207d10b7d2",
+        "loadedLookupMatched": true,
+        "reviewStatus": "machine-assisted",
+        "renderedTextSha256": "20e79ab21edcd07f2994d63c8a0f349189221b42bd11d1fdf4cb1a9e88d3895d"
+      },
+      {
+        "id": "vein-to-vein-time",
+        "lang": "es",
+        "path": "src/data/i18n/es.ts",
+        "sha256": "c7fe2f6d325a3463ef329d62da18f2390ae931df49edeb24c60f99b73bd52c7f",
+        "loadedLookupMatched": true,
+        "reviewStatus": "machine-assisted",
+        "renderedTextSha256": "442a1e7d662e034379f017700212898944ba58e39ea2244760883382c0f9ad5b"
+      },
+      {
+        "id": "cell-therapy-release-testing",
+        "lang": "es",
+        "path": "src/data/i18n/es.ts",
+        "sha256": "99324504ff46e41d18c1006bae1e675e90e3fdc42fdcf17da2a07240a9ff17d1",
+        "loadedLookupMatched": true,
+        "reviewStatus": "machine-assisted",
+        "renderedTextSha256": "c8c54a246eb5549020e22bdae9411cab6c1e5db769de71af1de75a4f8ad4cfbd"
+      },
+      {
+        "id": "vein-to-vein-time",
+        "lang": "fr",
+        "path": "src/data/i18n/fr.ts",
+        "sha256": "c9a881ff6d509718361b7fc1a3a442042c1cf910e79a29e3c4b8c3de8504694e",
+        "loadedLookupMatched": true,
+        "reviewStatus": "machine-assisted",
+        "renderedTextSha256": "8f0f2c4ed98a1aea00861d29976d8ec64c203d70ac1e829af5e118c57494cea9"
+      },
+      {
+        "id": "cell-therapy-release-testing",
+        "lang": "fr",
+        "path": "src/data/i18n/fr.ts",
+        "sha256": "2ea2b61e38939ee3cd8a50bf6608b7b249504041607f2e4c53ed5cc22fa611d5",
+        "loadedLookupMatched": true,
+        "reviewStatus": "machine-assisted",
+        "renderedTextSha256": "f1336da49f5082a80fa8902eb26629b7218009ace78b98772dd417a54ffe4156"
+      },
+      {
+        "id": "vein-to-vein-time",
+        "lang": "hi",
+        "path": "src/data/i18n/hi.ts",
+        "sha256": "9d3ce204432221fd9ca6bb5826c07bb2821d0d5e1053c7383e8918f3e1abe306",
+        "loadedLookupMatched": true,
+        "reviewStatus": "machine-assisted",
+        "renderedTextSha256": "c13c30241bccd48a8b7fbeb999dd8219fa77d0762491181d521ec5852dbc4ec9"
+      },
+      {
+        "id": "cell-therapy-release-testing",
+        "lang": "hi",
+        "path": "src/data/i18n/hi.ts",
+        "sha256": "e5b85a5642e080a1e39ea8f7cd9d5d14724335b454bfbd95cb5b089cbe332bd2",
+        "loadedLookupMatched": true,
+        "reviewStatus": "machine-assisted",
+        "renderedTextSha256": "d59ec6a9675f3f4280e16be6347d0673dc18ffd9eb3158233a8120c812988e44"
+      },
+      {
+        "id": "vein-to-vein-time",
+        "lang": "ja",
+        "path": "src/data/i18n/ja.ts",
+        "sha256": "f847d31f7d328021885b585e1c40ff3e1b5c2d5206a62c00446ecc0eed78c07e",
+        "loadedLookupMatched": true,
+        "reviewStatus": "machine-assisted",
+        "renderedTextSha256": "038a0d52745508377fbd7d794836a95920853ffa2bdeb1dfc81eaf631f151493"
+      },
+      {
+        "id": "cell-therapy-release-testing",
+        "lang": "ja",
+        "path": "src/data/i18n/ja.ts",
+        "sha256": "99909a17c80ca919d7de665c2967086d86f07d01c265f62a5d5b89d83af3819b",
+        "loadedLookupMatched": true,
+        "reviewStatus": "machine-assisted",
+        "renderedTextSha256": "3842c73a902749e9d3679cdbc6b698998a6104aad1cac3b7d54dc66ffa6dba49"
+      },
+      {
+        "id": "vein-to-vein-time",
+        "lang": "pt",
+        "path": "src/data/i18n/pt.ts",
+        "sha256": "63ce81a6ba89cc72e870284d29df8c407215fa6d2a75bc0e5f901b6dec1742ee",
+        "loadedLookupMatched": true,
+        "reviewStatus": "machine-assisted",
+        "renderedTextSha256": "5b7ee715276299677cf3f110356c4a959b5d3a5793dc7cc23cdf513014679d38"
+      },
+      {
+        "id": "cell-therapy-release-testing",
+        "lang": "pt",
+        "path": "src/data/i18n/pt.ts",
+        "sha256": "444f1fac79b77b24359acc6f7936711f910f0faa9f079633232b5d62dcade3ba",
+        "loadedLookupMatched": true,
+        "reviewStatus": "machine-assisted",
+        "renderedTextSha256": "0003a6b8ec469d5dab95775074917b84c74dc2a0d077527ac6b51534f90341b1"
+      },
+      {
+        "id": "vein-to-vein-time",
+        "lang": "zh",
+        "path": "src/data/i18n/zh.ts",
+        "sha256": "e4d3a7764a54a532d9ae94a87a52ac535db9dd04a8dd6f5864221e7e9365eb80",
+        "loadedLookupMatched": true,
+        "reviewStatus": "machine-assisted",
+        "renderedTextSha256": "8683bb745229360744b8ebc4abc57d16be1595cdaf774effe4b77aab09a1f873"
+      },
+      {
+        "id": "cell-therapy-release-testing",
+        "lang": "zh",
+        "path": "src/data/i18n/zh.ts",
+        "sha256": "cee8b89ed9bda4d382a0a5132c556657c36275661c83395e4aef28c62a7e899f",
+        "loadedLookupMatched": true,
+        "reviewStatus": "machine-assisted",
+        "renderedTextSha256": "07b941bfc333aa13a34aae026f5595b582078b046dab3e4dfbc0a218b0e34234"
+      },
+      {
+        "id": "cell-therapy-release-testing",
+        "lang": "simple",
+        "sha256": "4a090b6a03078f266e825520e949a46cb6a02ac9628e391a4a40b2b1455c8996",
+        "loadedLookupMatched": true,
+        "reviewStatus": "unreviewed simplified English"
+      },
+      {
+        "id": "vein-to-vein-time",
+        "lang": "simple",
+        "sha256": "c314e0afc3025a056ee8135c28bbc8c1d7eb4758390bce75b0dc856e7a90f4f9",
+        "loadedLookupMatched": true,
+        "reviewStatus": "unreviewed simplified English"
+      }
+    ]
+  }
+}

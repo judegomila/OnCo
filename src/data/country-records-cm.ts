@@ -185,7 +185,7 @@ const papers: PaperInput[] = [
     institutions: ["mbingo-baptist-hospital"], cancers: ["burkitt-lymphoma", "childhood-cancers"],
     links: [doi("10.1371/journal.pone.0299777", "PLOS ONE 2024"), pubmed("38466670")] }),
 
-  p({ id: "paper-mobit-radiotherapy-cost-cameroon-oncology-center-radiatoncol-2026", name: "What radiotherapy costs to deliver in Cameroon: the Cameroon Oncology Center",
+  p({ id: "paper-mobit-radiotherapy-cost-cameroon-oncology-center-radiatoncol-2026", name: "The cost of delivering radiotherapy in Cameroon: the Cameroon Oncology Center",
     journal: "Radiation Oncology", year: 2026, doi: "10.1186/s13014-026-02813-0", pmid: "42231461", authors: "Mobit P, Ade N, Njeh CF, et al.", paperType: "methods", participants: 215,
     tldr: "A private Douala centre with one linear accelerator estimated its operating cost at about 2,106 US dollars per radiotherapy patient in 2021, or 3,651 US dollars including equipment and building.",
     summary: "Published as \"The cost of providing high-quality radiotherapy services in a resource-limited setting: a case study of the Cameroon Oncology Center\". The authors estimated operating costs over calendar year 2021 from the 215 patients treated that year at the privately owned centre, which began clinical operations in 2019 and had treated more than 1,000 patients on its single linear accelerator.",
@@ -227,7 +227,7 @@ const papers: PaperInput[] = [
     cancers: ["cervical"],
     links: [doi("10.1002/cam4.3355", "Cancer Med 2020"), pubmed("32757469")] }),
 
-  p({ id: "paper-woks-cervical-screening-disparities-cameroon-ijeh-2023", name: "Why cervical screening reaches so few women in Cameroon: a scoping review",
+  p({ id: "paper-woks-cervical-screening-disparities-cameroon-ijeh-2023", name: "Barriers to cervical screening in Cameroon: a scoping review",
     journal: "International Journal for Equity in Health", year: 2023, doi: "10.1186/s12939-023-01942-2", pmid: "37592286", authors: "Woks NIE, Anwi MM, Kefiye TB, et al.", paperType: "review",
     tldr: "A review of 20 studies on cervical screening in Cameroon, where its authors say only 3 to 5% of eligible women have been screened, found no national training curriculum and little information reaching women.",
     summary: "Published as \"Disparities in cervical cancer screening programs in Cameroon: a scoping review of facilitators and barriers to implementation and uptake of screening\". The authors searched six databases for 2012 to 2022 and included 20 articles on cervical screening programmes in Cameroon, analysed with WHO's health system building blocks.",

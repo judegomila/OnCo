@@ -125,7 +125,7 @@ const papers: PaperInput[] = [
     institutions: ["batut-institute-of-public-health-serbia", "oncology-institute-of-vojvodina"], cancers: ["lung-cancer", "breast-cancer", "colorectal", "cervical", "prostate"],
     links: [doi("10.1186/1471-2407-13-18", "BMC Cancer 2013"), pubmed("23320890")] }),
 
-  p({ id: "paper-djordjevic-cervical-screening-serbia-fph-2023", name: "Who in Serbia has had a cervical screening test: the 2019 National Health Survey",
+  p({ id: "paper-djordjevic-cervical-screening-serbia-fph-2023", name: "Cervical screening uptake in Serbia by demographic and socioeconomic group: the 2019 National Health Survey",
     journal: "Frontiers in Public Health", year: 2023, doi: "10.3389/fpubh.2023.1275354", pmid: "38249409", authors: "Djordjevic S, Boricic K, Radovanovic S, Simic Vukomanovic I, Mihaljevic O, Jovanovic V.", paperType: "observational", participants: 6747,
     tldr: "In Serbia's 2019 National Health Survey, 67.2% of women had ever had a Pap test and about a quarter (24.3%) never had; younger, unmarried and poorer women were more likely never to have been tested.",
     summary: "Published as \"Demographic and socioeconomic factors associated with cervical cancer screening among women in Serbia\". A cross-sectional analysis of the 2019 National Health Survey, a representative sample of Serbia's population, looking at which demographic and socioeconomic factors go with having had cervical screening; the authors note that Serbia introduced organised cervical screening in 2012.",

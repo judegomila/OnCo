@@ -13,7 +13,7 @@ const doi = (id: string, label: string) => ({ label, url: `https://doi.org/${id}
 const pubmed = (pmid: string) => ({ label: "PubMed", url: `https://pubmed.ncbi.nlm.nih.gov/${pmid}/` });
 
 const papers: PaperInput[] = [
-  p({ id: "paper-benski-madagascar-hpv-self-test-triage-plosone-2019", name: "HPV self-testing for cervical screening in Madagascar, and how many women came back for triage",
+  p({ id: "paper-benski-madagascar-hpv-self-test-triage-plosone-2019", name: "HPV self-testing for cervical screening in Madagascar, and attendance for triage",
     journal: "PLoS One", year: 2019, doi: "10.1371/journal.pone.0220632", pmid: "31408474", authors: "Benski AC, Viviano M, Jinoro J, et al.", paperType: "observational", participants: 1232,
     tldr: "In a 2015 screening campaign in Madagascar, 28.0% of 1,232 women who took an HPV self-test were positive, and those invited for VIA/VILI triage immediately were the most likely to attend (95.0%).",
     summary: "Published as \"HPV self-testing for primary cervical cancer screening in Madagascar: VIA/VILI triage compliance in HPV-positive women\". Women recruited from February to October 2015 took a self-sample for HPV testing, first sent away (cobas) and later tested on site (Xpert); HPV-positive women were invited for visual inspection with acetic acid and Lugol's iodine.",

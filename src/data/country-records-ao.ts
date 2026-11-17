@@ -18,10 +18,10 @@ const pubmed = (pmid: string) => ({ label: "PubMed", url: `https://pubmed.ncbi.n
 const AFCRN_LUBANGO = "https://afcrn.org/index.php/membership/membership-list/179-angola-lubango";
 
 const institutions: InstitutionInput[] = [
-  i({ id: "iacc-angola", name: "Instituto Angolano de Controlo do Cancro (IACC)", aka: ["IACC", "Angolan Institute of Cancer Control", "Instituto Angolano de Controlo do Cancer"],
-    city: "Luanda", country: "AO", lat: -8.84, lng: 13.23, institutionType: "cancer-center", website: "https://doi.org/10.1186/s13027-019-0249-2",
+  { ...i({ id: "iacc-angola", name: "Instituto Angolano de Controlo do Cancro (IACC)", aka: ["IACC", "Angolan Institute of Cancer Control", "Instituto Angolano de Controlo do Cancer"],
+    city: "Luanda", country: "AO", lat: -8.84, lng: 13.23, institutionType: "cancer-center",
     tldr: "Angola's national cancer institute in Luanda. Its hospital-based cancer registry recorded 5,609 valid new cancers in 2012 to 2016, with breast and cervical cancer together 60% of cancers in women.",
-    summary: "The Instituto Angolano de Controlo do Cancro in Luanda keeps a hospital-based cancer registry that its authors describe as the oldest and most organised in Angola, covering cancers treated in several hospital facilities in Luanda. A 2019 paper from the registry counted 6,638 malignant tumours newly diagnosed in 2012 to 2016, of which 5,609 were valid for analysis after removing duplicates, missing data and non-melanoma skin cancers: 2,059 in men and 3,550 in women, 9.7% in children under 15. Breast (21.4%), cervical (16.8%) and prostate cancer (7.1%), non-Hodgkin lymphoma (4.5%) and Kaposi sarcoma (4.3%) were the commonest. The authors called for a true population-based registry in Luanda. A 2026 analysis of women with breast cancer followed at the institute from 2013 to 2019 found a median survival of 560 days. OnCo did not find a website of the institute's own; the record links the registry paper. The coordinates are an approximate Luanda city point.",
+    summary: "The Instituto Angolano de Controlo do Cancro in Luanda keeps a hospital-based cancer registry that its authors describe as the oldest and most organised in Angola, covering cancers treated in several hospital facilities in Luanda. A 2019 paper from the registry counted 6,638 malignant tumours newly diagnosed in 2012 to 2016, of which 5,609 were valid for analysis after removing duplicates, missing data and non-melanoma skin cancers: 2,059 in men and 3,550 in women, 9.7% in children under 15. Breast (21.4%), cervical (16.8%) and prostate cancer (7.1%), non-Hodgkin lymphoma (4.5%) and Kaposi sarcoma (4.3%) were the commonest. The authors called for a true population-based registry in Luanda. A 2026 analysis of women with breast cancer followed at the institute from 2013 to 2019 found a median survival of 560 days. OnCo did not find a website of the institute's own (searched again on 16 November 2026), so the record carries no website and links the registry paper instead. The coordinates are an approximate Luanda city point.",
     programs: ["Hospital-based cancer registry (Luanda)", "Oncology treatment"],
     institutions: ["lubango-cancer-registry", "iarc"],
     cancers: ["breast-cancer", "cervical", "prostate", "kaposi-sarcoma"], related: ["cancer-registries-surveillance"],
@@ -29,7 +29,7 @@ const institutions: InstitutionInput[] = [
     links: [
       doi("10.1186/s13027-019-0249-2", "Miguel et al., the IACC hospital-based cancer registry in Luanda (Infect Agent Cancer 2019)"),
       doi("10.3934/mbe.2026068", "Jerónimo et al., survival of women with breast cancer in Angola (Math Biosci Eng 2026)"),
-    ] }),
+    ] }), asOf: "2026-11-16" },
 
   i({ id: "lubango-cancer-registry", name: "Lubango Cancer Registry", aka: ["Registo de Cancro do Lubango", "Lubango population-based cancer registry"],
     city: "Lubango", country: "AO", lat: -14.92, lng: 13.49, institutionType: "research-institute", website: AFCRN_LUBANGO,

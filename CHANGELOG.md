@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 17 November 2026
-- Trial records brought into line with the registry: 206 stale statuses refreshed, fourteen phases corrected, trials that shared a registration number separated, and a terminated trial no longer shown as active; and 785 institution records read against their sources again, with 22 corrections
+- Second accuracy pass on 104 care protocols, the emergencies, immunotherapy side effects, cell therapy and everything with drug doses first: 413 wrong and 1,623 overstated claims corrected against the guidelines and labels, among them the fluoropyrimidine dose table for DPYD carriers, the vaccine advice for patients, and steroid doses for a CAR-T side effect; newer guideline editions noted or built in
 - Fourteen more care protocols, for side effects that had none: high blood pressure and protein in the urine on VEGF drugs, heart rhythm changes, bleeding on BTK inhibitors, raised liver enzymes, lung inflammation on antibody-drug conjugates, fluid retention, high blood sugar, low magnesium, high phosphate, thyroid changes, differentiation syndrome, capillary leak, tumour flare and constipation; 226 protocols in all
 - Second accuracy pass on the original 39 country pages, among them the United States, China, India, Japan, Germany, Brazil and the United Kingdom: about 660 claims corrected after each was read against its source again
 - Second accuracy pass on live country pages, last batch for waves 5 to 12: corrections to Austria, Serbia, Denmark, Finland, Norway, Ireland, Hungary, Belarus, Bulgaria and North Korea, each claim read against its source again
@@ -18,6 +18,11 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Twenty-two more care protocols close the gaps in the census, among them stoma care, drain care at home, transplant conditioning, veno-occlusive disease, lung biopsy, intrathecal chemotherapy in children, end-of-life care for children, advance care planning and stopping smoking after a diagnosis; 212 protocols in all, with a table of what is covered and what is still open
 - Shasqi in depth: its clinical programme SQ3370, its trial and the click-activated chemistry behind it, from the company's own pages, the registry and the published papers; the weekly gap-fill job gets the tools it needs to read its allowed sources; and the command-line tool and MCP server are rebuilt to know about care protocols
 - A contributor's education work arrives, 215 new records on biomarkers, immune tests, specimens, RNA and clinical evidence, with every source checked; and a backlog of corrections lands: new FDA approvals including pimicotinib, four generic icons removed from logos, mislabelled trials fixed, radiotherapy counts for Madagascar and Angola, the two Cuban lung cancer vaccines, and 33 records renamed for their subject
+- Second accuracy pass on care protocols, batch five: 23 transplant, paediatric, pharmacy and safety protocols re-read against their sources
+- Second accuracy pass on care protocols, batch four: 20 dosing, palliative and symptom protocols re-read against their sources
+- Second accuracy pass on care protocols, batch three: 20 protocols on CAR T care, opioids, antiemetics, anticoagulation and antimicrobial prophylaxis
+- Second accuracy pass on care protocols, batch two: 20 immunotherapy and cell-therapy protocols re-read against their sources
+- Trial records brought into line with the registry: 206 stale statuses refreshed, fourteen phases corrected, trials that shared a registration number separated, and a terminated trial no longer shown as active; and 785 institution records read against their sources again, with 22 corrections
 - Institution records re-read against their sources, last batch: the records behind 43 more country pages, the log of all 24 corrections, and Belgium's note about its medicines agency, whose pages answered again
 - Institution records re-read against their sources, second batch: the Newsweek hospitals in Europe, the census of 83 smaller countries, and the records behind 36 more country pages, among them Indonesia, Turkey, Australia, Poland, Pakistan, Nigeria, Colombia, Belgium and Sweden
 - chore: draft change proposals that need review (#441)
@@ -26,6 +31,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 
 ### 16 November 2026
 - Fourteen more care protocols, for side effects that had none: high blood pressure and protein in the urine on VEGF drugs, heart rhythm changes, bleeding on BTK inhibitors, raised liver enzymes, lung inflammation on antibody-drug conjugates, fluid retention, high blood sugar, low magnesium, high phosphate, thyroid changes, differentiation syndrome, capillary leak, tumour flare and constipation; 226 protocols in all
+- Second accuracy pass on care protocols, batch one: 21 emergency and cell-therapy protocols re-read against their sources
 - Differentiation syndrome protocol: drop a field the protocol record does not have
 - Trials whose registry status changed say so in their plain-language and Chinese lines, and the recruiting-site file follows the refreshed registry entries
 - Care protocols for seven more side effects: high blood pressure and urine protein on VEGF-pathway inhibitors, QT prolongation, atrial fibrillation and bleeding on BTK inhibitors, differentiation syndrome, capillary leak syndrome, tumour flare, and constipation

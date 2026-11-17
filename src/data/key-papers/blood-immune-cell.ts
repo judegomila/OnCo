@@ -8,7 +8,7 @@ import type { PaperInput } from "@/lib/schema";
  * uncertain it is described qualitatively rather than invented.
  */
 const asOf = "2026-09-08";
-type P = Omit<PaperInput, "kind" | "asOf">;
+type P = Omit<PaperInput, "kind" | "asOf"> & Partial<Pick<PaperInput, "asOf">>;
 const p = (x: P): PaperInput => ({ kind: "paper", asOf, ...x });
 const doi = (d: string, label = "Full text (DOI)") => ({ label, url: `https://doi.org/${d}` });
 const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https://clinicaltrials.gov/study/${nct}` });
@@ -443,15 +443,16 @@ export const papersBloodImmuneCell: PaperInput[] = [
     cancers: ["all-leukemia"], targets: ["cd19"], technologies: ["allogeneic-cell-therapy", "car-t", "in-vivo-car-t"], terms: ["crs"], companies: ["servier", "allogene"], related: ["allogeneic-cell-banking", "point-of-care-cell-manufacturing", "paper-eliana-tisagenlecleucel-nejm-2018"], bottlenecks: ["b-manufacturing-cell-therapy", "b-resistance"], journals: ["lancet"] }),
 
   // ======================= TIL AND TCR-T =======================
-  p({ id: "paper-c-144-01-lifileucel-melanoma-jco-2021", name: "C-144-01: lifileucel, tumour-infiltrating lymphocytes grown from a patient's own tumour, in melanoma after checkpoint inhibitors have failed",
-    tldr: "Immune cells harvested from a patient's tumour, expanded in the lab and reinfused shrank melanoma in 36% of patients whose disease had progressed on PD-1 blockade, with responses that mostly lasted.",
-    summary: "Cohort 2 of the C-144-01 phase 2 trial treated 66 patients with advanced melanoma that had progressed after anti-PD-1 therapy (and BRAF/MEK inhibitors where indicated; median 3.3 prior lines) with a single infusion of lifileucel, autologous tumour-infiltrating lymphocytes expanded centrally over about 22 days, after non-myeloablative lymphodepletion and followed by up to six doses of high-dose interleukin-2. The objective response rate was 36% (2 complete, 22 partial) with disease control in 80%; median duration of response was not reached at 18.7 months of follow-up. Adverse events were largely attributable to lymphodepletion and IL-2 and resolved within two weeks, with two treatment-related deaths. Pooled analysis of 153 patients from cohorts 2 and 4 showed a 31% response rate and supported FDA accelerated approval in February 2024, the first TIL therapy and first cell therapy for a solid tumour.",
+  p({
+    asOf:"2026-11-08", id: "paper-c-144-01-lifileucel-melanoma-jco-2021", name: "C-144-01: lifileucel, tumour-infiltrating lymphocytes grown from a patient's own tumour, in melanoma after checkpoint inhibitors have failed",
+    tldr: "The reported 66-person phase 2 lifileucel cohort had a 36% objective response rate after prior checkpoint therapy. It tested a complete TIL regimen without a randomized comparator.",
+    summary: "This open-label, single-arm phase 2 report evaluated centrally manufactured lifileucel in advanced melanoma after checkpoint treatment. Sixty-six patients received lymphodepletion, a single lifileucel infusion and up to six high-dose IL-2 doses. The abstract reports a mean of 3.3 prior therapies, not a median. Investigator-assessed objective response was the primary endpoint.\n\nObjective response was 36% (95% CI 25 to 49), comprising two complete and 22 partial responses. Median response duration had not been reached at 18.7 months of median follow-up. These are the reported cohort and cutoff; they are separate from later pooled analyses and the FDA regulatory analysis.",
     journal: "Journal of Clinical Oncology", year: 2021, doi: "10.1200/JCO.21.00612", pmid: "33979178", authors: "Sarnaik AA, Hamid O, Khushalani NI, et al.", paperType: "translational",
-    findings: ["66 patients with anti-PD-1-refractory advanced melanoma; median 3.3 prior therapies; single lifileucel infusion after cyclophosphamide-fludarabine lymphodepletion, then up to 6 doses of high-dose IL-2.", "Objective response 36% (3% complete); disease control 80%.", "Median duration of response not reached at 18.7 months; responses deepened over time in some patients.", "Grade 3-4 adverse events mostly cytopenias, febrile neutropenia and IL-2-related hypotension, resolving within 2 weeks; 2 treatment-related deaths.", "Pooled cohorts 2 and 4 (153 patients): objective response 31.4%, supporting accelerated approval in 2024."],
-    whatItMeans: "Lifileucel proved that Steven Rosenberg's decades-old TIL concept could be industrialised into a licensed product and gave patients with checkpoint-refractory melanoma, who otherwise have few options, a chance of durable remission. It is the first cell therapy approved for any solid tumour. The treatment requires surgery to harvest tumour, hospitalisation for lymphodepletion and IL-2, and specialised centres, so its reach is limited.",
-    caveats: ["Single-arm trial; approval rested on response rate rather than survival.", "Toxic conditioning and high-dose IL-2 make the regimen unsuitable for frail patients.", "Manufacturing takes about three weeks and needs a resectable lesion; not all patients yield a product.", "Cost (list price above 500,000 US dollars) and centre requirements restrict access."],
+    findings: ["66 treated patients; the reported mean number of prior therapies was 3.3. All had prior anti-PD-1 or anti-PD-L1 treatment.","Objective response was 36% (95% CI 25 to 49): two complete and 22 partial responses. Disease control was 80% (95% CI 69 to 89).","Median response duration was not reached after median follow-up of 18.7 months. This is a censored response-duration estimate, not proof that every response persists indefinitely.","The regimen included lymphodepletion and high-dose IL-2. The abstract describes a safety profile consistent with those treatments; it does not isolate adverse effects or benefit attributable to the infused cells alone."],
+    whatItMeans: "The report supports activity of a specified manufactured TIL regimen in previously treated melanoma. FDA’s February 2024 decision subsequently granted accelerated approval to lifileucel for a defined melanoma use, describing it as the first FDA-approved tumor-derived T-cell immunotherapy. That is a product, modality and jurisdiction scope, rather than a statement about every cellular cancer treatment. The current product label retains serious warnings and requires an inpatient setting with appropriate intensive-care support.",
+    caveats: ["Single-arm response evidence does not establish comparative survival benefit. The reported 66-person cohort is not interchangeable with later pooled or regulatory populations.","Response among treated patients is different from the probability of obtaining tissue or successfully manufacturing a product.","The product label has a boxed warning covering treatment-related mortality, prolonged severe cytopenia, severe infection, and cardiopulmonary and renal impairment. Conditioning and IL-2 are part of the complete regimen.","The primary abstract is not a complete adverse-event account. Full-study safety and current prescribing information need to be read alongside the activity results."],
     changedPractice: true, participants: 66,
-    links: [pubmed("C-144-01 lifileucel tumor-infiltrating lymphocyte melanoma Sarnaik JCO 2021"), ct("NCT02360579")],
+    links: [{"label":"Sarnaik et al.: exact 2021 C-144-01 report and abstract","url":"https://pubmed.ncbi.nlm.nih.gov/33979178/"},{"label":"ClinicalTrials.gov NCT02360579","url":"https://clinicaltrials.gov/study/NCT02360579"},{"label":"FDA: February 2024 Amtagvi approval announcement and precise modality scope","url":"https://www.fda.gov/news-events/press-announcements/fda-approves-first-cellular-therapy-treat-patients-unresectable-or-metastatic-melanoma"},{"label":"AMTAGVI label: intended use, complete regimen and boxed warnings","url":"https://www.fda.gov/media/176417/download"}],
     cancers: ["melanoma"], drugs: ["lifileucel", "aldesleukin", "cyclophosphamide"], technologies: ["til-therapy"], trials: ["c-144-01"], terms: ["tils", "orr"], people: ["amod-sarnaik", "steven-rosenberg"], institutions: ["moffitt", "nci"], companies: ["iovance"], related: ["paper-rohaas-til-vs-ipilimumab-nejm-2022"], bottlenecks: ["b-manufacturing-cell-therapy", "b-immunotherapy-response"], journals: ["jco"] }),
 
   p({ id: "paper-rohaas-til-vs-ipilimumab-nejm-2022", name: "Rohaas 2022: the first randomised trial of TIL therapy, against ipilimumab, in advanced melanoma",
@@ -533,7 +534,20 @@ export const papersBloodImmuneCell: PaperInput[] = [
     whatItMeans: "Pancreatic cancer was thought to be immunologically inert because of its low mutation burden; this study showed that with the right vaccine platform its few neoantigens can still be targeted. It is the strongest human evidence so far that personalised cancer vaccines can generate durable, tumour-specific immunity, and it justifies the randomised trials now running in pancreatic cancer and melanoma. Benefit is not yet proven, because responders may simply have had more immunogenic tumours.",
     caveats: ["Tiny, non-randomised study; the association between immune response and recurrence could reflect confounding.", "Half the patients did not mount a response, for reasons that are only partly understood (for example, splenectomy).", "Manufacturing an individual vaccine within weeks of surgery is expensive and logistically complex.", "Clinical benefit awaits the randomised IMCODE003 result."],
     changedPractice: false, participants: 16,
-    links: [pubmed("Personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer Rojas Nature 2023"), ct("NCT04161755")],
+    links: [
+  {
+    "label": "PubMed search",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37165196/"
+  },
+  {
+    "label": "ClinicalTrials.gov NCT04161755",
+    "url": "https://clinicaltrials.gov/study/NCT04161755"
+  },
+  {
+    "label": "Personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer.",
+    "url": "https://doi.org/10.1038/s41586-023-06063-y"
+  }
+],
     cancers: ["pancreatic", "melanoma"], drugs: ["autogene-cevumeran", "atezolizumab", "intismeran-autogene"], targets: ["pd1"], technologies: ["neoantigen-mrna-vaccine"], trials: ["interpath-001"], terms: ["neoantigen", "tmb"], institutions: ["mskcc"], companies: ["biontech", "roche-genentech"], related: ["vaccine-plus-pd1"], bottlenecks: ["b-immunotherapy-response", "b-manufacturing-cell-therapy", "b-tme-immunosuppression"], journals: ["nature"] }),
 
   // paper-checkmate-067-ten-year-nejm-2025 merged into paper-checkmate-067-10-year-nejm-2025 on 2026-09-25: see src/data/merged-records.ts.

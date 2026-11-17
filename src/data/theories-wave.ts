@@ -12,7 +12,7 @@ import type { PathwayInput, TermInput } from "@/lib/schema";
 const asOf = "2026-09-17";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 const doi = (d: string, label: string) => ({ label, url: `https://doi.org/${d}` });
-type T = Omit<TermInput, "kind" | "asOf" | "category"> & { category?: string };
+type T = Omit<TermInput, "kind" | "asOf" | "category"> & { category?: string; asOf?: string };
 const t = ({ category = "Cancer biology", ...x }: T): TermInput => ({ kind: "term", asOf, category, tags: ["theory"], ...x });
 
 export const THEORY_HUB_ID = "theories-of-cancer";
@@ -124,21 +124,56 @@ export const theoryTerms: TermInput[] = [
   t({
     id: "clonal-evolution-theory", name: "Clonal evolution and the ecological view of cancer", wikipedia: W("Somatic_evolution_in_cancer"),
     aka: ["clonal evolution theory", "evolutionary theory of cancer", "cancer as an evolutionary process", "ecological view of cancer", "Darwinian model of cancer", "branched evolution"],
-    tldr: "A tumour is a population of cells that mutate, compete and are selected, exactly as species are, and treatment is one more selective pressure. Peter Nowell proposed this in 1976; it explains why tumours are mixtures of clones, why resistance to almost any single drug appears, and why some researchers now try to steer a tumour's evolution rather than eradicate it.",
-    summary: "The claim. Cancer proceeds by Darwinian evolution within the body: heritable variation (mutations, epigenetic states, chromosome changes) arises in a founding clone, natural selection in the tissue favours variants that grow or survive better, and the tumour diversifies into subclones. The ecological extension (Merlo, Maley, Gatenby) adds that cells compete for space, oxygen and nutrients, cooperate through shared growth factors and face predators in the immune system, so a tumour is an ecosystem and therapy is a perturbation of it.\n\nWho and when. Nowell's 1976 Science paper The clonal evolution of tumor cell populations stated the theory and predicted that each patient's tumour would be genetically unique and that therapy would select resistant variants. Cairns (1975) argued that tissue architecture limits somatic evolution. Merlo, Pepper, Reid and Maley (2006) set out cancer as an evolutionary and ecological process; Greaves and Maley reviewed the evidence in 2012; Gerlinger and Swanton's 2012 multi-region sequencing of kidney cancer showed branched evolution directly; Gatenby proposed adaptive therapy in 2009 and Zhang and colleagues reported a pilot in prostate cancer in 2017; Sottoriva and Graham proposed the Big Bang model of colorectal tumour growth in 2015.\n\nEvidence for. Multi-region and single-cell sequencing show every tumour as a tree of related clones with a truncal set of early mutations and branches that differ between regions and metastases. Resistance arises by selection of pre-existing or newly mutated clones (EGFR T790M and C797S in lung cancer, KRAS clones under EGFR antibodies in colorectal cancer, BCR::ABL1 T315I in chronic myeloid leukaemia), and circulating tumour DNA tracks their rise and fall in real time. Intratumour heterogeneity predicts worse outcome. Mel Greaves' studies of childhood leukaemia in twins showed the founding clone can form in the womb years before diagnosis.\n\nEvidence against and limits. Some tumours evolve neutrally after an early burst rather than by continuous selection (the Big Bang model), and some change by punctuated catastrophe (chromothripsis, whole-genome doubling) rather than gradual accumulation. Evolution is hard to predict for an individual patient, and the theory does not by itself say what starts the process. Randomised evidence that evolution-informed dosing beats standard dosing is still awaited.\n\nPredictions that held or failed. Held: acquired resistance to any single targeted drug is close to inevitable; combinations and sequential monitoring delay it; rechallenge with an EGFR antibody works after resistant clones recede (CHRONOS). Failed: the Goldie-Coldman prediction that alternating non-cross-resistant regimens would improve outcomes was not borne out in trials; efforts to model a tumour's trajectory precisely enough to time therapy remain experimental.\n\nTherapies that came from it. Combination therapy as a principle, minimal residual disease monitoring, liquid biopsy surveillance for resistance mutations, adaptive and intermittent dosing (adaptive therapy in prostate cancer), evolutionary herding and collateral sensitivity, and the mathematical oncology programme that models these dynamics. It is the theory the driver and passenger model feeds into, the ageing tissue view builds on (aged tissue changes what is selected), and the immunoediting theory applies to the immune system as predator.\n\nStatus: established. Tumours evolve, and the clinic already acts on it through monitoring and combinations; the ecological programme of steering evolution rather than eradicating the tumour is partly confirmed and awaits randomised trials.",
+    tldr: "An evolutionary framework explains how inherited variation, selection and chance change cancer populations. Sampling and model assumptions limit what can be inferred for one tumour.",
+    summary: "The claim. Cancer proceeds by Darwinian evolution within the body: heritable variation (mutations, epigenetic states, chromosome changes) arises in a founding clone, natural selection in the tissue favours variants that grow or survive better, and the tumour diversifies into subclones. The ecological extension (Merlo, Maley, Gatenby) adds that cells compete for space, oxygen and nutrients, cooperate through shared growth factors and face predators in the immune system, so a tumour is an ecosystem and therapy is a perturbation of it.\n\nWho and when. Nowell's 1976 Science paper The clonal evolution of tumor cell populations stated the theory and predicted that each patient's tumour would be genetically unique and that therapy would select resistant variants. Cairns (1975) argued that tissue architecture limits somatic evolution. Merlo, Pepper, Reid and Maley (2006) set out cancer as an evolutionary and ecological process; Greaves and Maley reviewed the evidence in 2012; Gerlinger and Swanton's 2012 multi-region sequencing of kidney cancer showed branched evolution directly; Gatenby proposed adaptive therapy in 2009 and Zhang and colleagues reported a pilot in prostate cancer in 2017; Sottoriva and Graham proposed the Big Bang model of colorectal tumour growth in 2015.\n\nEvidence for. Multi-region and single-cell studies can reconstruct sampled populations as related clones with a truncal set of early mutations and branches that differ between regions and metastases. Resistance arises by selection of pre-existing or newly mutated clones (EGFR T790M and C797S in lung cancer, KRAS clones under EGFR antibodies in colorectal cancer, BCR::ABL1 T315I in chronic myeloid leukaemia), and repeated circulating tumour DNA measurements can track detected variants subject to sampling and assay limits. Outcome associations depend on the cancer, measure and setting. Mel Greaves' studies of childhood leukaemia in twins showed the founding clone can form in the womb years before diagnosis.\n\nEvidence against and limits. Neutral and early-burst models offer alternatives to continuous subclonal selection, but a frequency-model fit alone does not prove neutral evolution, and some change by punctuated catastrophe (chromothripsis, whole-genome doubling) rather than gradual accumulation. Evolution is hard to predict for an individual patient, and the theory does not by itself say what starts the process. Randomised evidence that evolution-informed dosing beats standard dosing is still awaited.\n\nPredictions that held or failed. Held in particular settings: resistant populations can emerge under targeted treatment, and combinations or monitoring can inform further treatment; rechallenge with an EGFR antibody works after resistant clones recede (CHRONOS). Failed: the Goldie-Coldman prediction that alternating non-cross-resistant regimens would improve outcomes was not borne out in trials; efforts to model a tumour's trajectory precisely enough to time therapy remain experimental.\n\nTherapies that came from it. Combination therapy as a principle, minimal residual disease monitoring, liquid biopsy surveillance for resistance mutations, adaptive and intermittent dosing (adaptive therapy in prostate cancer), evolutionary herding and collateral sensitivity, and the mathematical oncology programme that models these dynamics. It is the theory the driver and passenger model feeds into, the ageing tissue view builds on (aged tissue changes what is selected), and the immunoediting theory applies to the immune system as predator.\n\nStatus: evolutionary change is supported by multiple research designs. Inference about an individual tumour and benefit from a particular evolution-informed treatment strategy require their own sampling, model and comparative evidence.",
     related: ["theories-of-cancer", "somatic-mutation-theory", "driver-passenger-model", "ageing-tissue-field-theory", "immune-surveillance-immunoediting", "aneuploidy-theory-of-cancer", "cancer-stem-cell-theory", "clonal-evolution", "clonal-evolution-models", "adaptive-therapy-dynamics", "evolutionary-game-theory-cancer", "mathematical-oncology", "drug-tolerant-persisters", "field-cancerisation", "resistance", "mrd", "ctdna"],
     pathways: ["clonal-evolution", "drug-tolerant-persisters", "field-cancerisation", "resistance-routes-map"], technologies: ["mrd-testing", "liquid-biopsy", "wes-wgs", "adaptive-therapy-dynamics", "clonal-evolution-models", "evolutionary-game-theory-cancer"], cancers: ["cml", "nsclc", "colorectal", "prostate"],
     people: ["mel-greaves", "robert-gatenby", "charles-swanton"], keyPapers: ["paper-gerlinger-intratumour-heterogeneity-nejm-2012"],
     links: [
-      doi("10.1126/science.959840", "Nowell, The clonal evolution of tumor cell populations (Science 1976)"),
-      doi("10.1038/nrc2013", "Merlo, Pepper, Reid and Maley, Cancer as an evolutionary and ecological process (Nature Reviews Cancer 2006)"),
-      doi("10.1038/nature10762", "Greaves and Maley, Clonal evolution in cancer (Nature 2012)"),
-      doi("10.1056/NEJMoa1113205", "Gerlinger et al., Intratumor heterogeneity and branched evolution revealed by multiregion sequencing (NEJM 2012)"),
-      doi("10.1158/0008-5472.CAN-08-3658", "Gatenby et al., Adaptive therapy (Cancer Research 2009)"),
-      doi("10.1038/s41467-017-01968-5", "Zhang et al., Integrating evolutionary dynamics into treatment of metastatic castrate-resistant prostate cancer (Nature Communications 2017)"),
-      doi("10.1038/ng.3214", "Sottoriva et al., A Big Bang model of human colorectal tumor growth (Nature Genetics 2015)"),
-    ],
-  }),
+  {
+    "label": "Nowell, The clonal evolution of tumor cell populations (Science 1976)",
+    "url": "https://doi.org/10.1126/science.959840"
+  },
+  {
+    "label": "Merlo, Pepper, Reid and Maley, Cancer as an evolutionary and ecological process (Nature Reviews Cancer 2006)",
+    "url": "https://doi.org/10.1038/nrc2013"
+  },
+  {
+    "label": "Greaves and Maley, Clonal evolution in cancer (Nature 2012)",
+    "url": "https://doi.org/10.1038/nature10762"
+  },
+  {
+    "label": "Gerlinger et al., Intratumor heterogeneity and branched evolution revealed by multiregion sequencing (NEJM 2012)",
+    "url": "https://doi.org/10.1056/NEJMoa1113205"
+  },
+  {
+    "label": "Gatenby et al., Adaptive therapy (Cancer Research 2009)",
+    "url": "https://doi.org/10.1158/0008-5472.CAN-08-3658"
+  },
+  {
+    "label": "Zhang et al., Integrating evolutionary dynamics into treatment of metastatic castrate-resistant prostate cancer (Nature Communications 2017)",
+    "url": "https://doi.org/10.1038/s41467-017-01968-5"
+  },
+  {
+    "label": "Sottoriva et al., A Big Bang model of human colorectal tumor growth (Nature Genetics 2015)",
+    "url": "https://doi.org/10.1038/ng.3214"
+  },
+  {
+    "label": "Nowell, The clonal evolution of tumor cell populations. (1976)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/959840/"
+  },
+  {
+    "label": "Williams et al., Identification of neutral tumor evolution across cancer types. (2016)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26780609/"
+  }
+],
+
+"notes": [
+  "Nowell proposed an evolutionary framework; Gerlinger’s multiregion study of four renal cancers supplied evidence for branching in its sampled setting. Neither study is a census of every tumour. Genetic drift is chance-driven change in variant frequency, and bottlenecks can change composition without the same selective explanation. A frequency change alone does not identify drift, selection or resistance. Williams tested a defined neutral-growth model in which newly arising variants have no further fitness differences during the modelled expansion, relating frequencies to mutation timing. Tarabichi showed why a good frequency-model fit is not sufficient proof of neutrality or the absence of historical selection.",
+  "Fictional direct counts change from 900 A and 100 B to 90 A and 90 B. B rises from 10% to 50% of the total while falling from 100 to 90 cells. Relative enrichment is not absolute expansion. Any supplied ancestry is separate evidence; the counts do not establish a resistance mechanism or the cause of change."
+],
+"asOf": "2026-11-10"
+}),
   t({
     id: "hallmarks-synthesis", name: "Hallmarks of cancer as a synthesis of the theories", wikipedia: W("The_Hallmarks_of_Cancer"),
     aka: ["hallmarks framework", "hallmarks as synthesis", "Hanahan and Weinberg framework"],
@@ -237,22 +272,60 @@ export const theoryTerms: TermInput[] = [
   t({
     id: "microenvironment-inflammation-theory", name: "Microenvironment and inflammation: tumours as wounds that do not heal", wikipedia: W("Tumor_microenvironment"),
     aka: ["microenvironment theory", "inflammation theory of cancer", "wounds that do not heal", "tumour as an overhealing wound", "Virchow hypothesis", "stromal theory of cancer"],
-    tldr: "A tumour is not a lump of cancer cells but a tissue: fibroblasts, vessels and immune cells, recruited by the signals a wound uses and never told to stop. Virchow saw white cells in tumours in 1863; Dvorak called tumours 'wounds that do not heal' in 1986. It explains why chronic inflammation causes about a fifth of cancers and why aspirin, HPV and hepatitis vaccines and anti-angiogenic drugs work.",
-    summary: "The claim. Cancer cells cannot make a tumour alone. They recruit and corrupt normal cells (fibroblasts, macrophages, endothelium, nerves) using the programme of wound healing, and chronic inflammation from infection, irritation or autoimmunity supplies growth factors, survival signals, new vessels and mutagenic oxidants that initiate and promote tumours. In the strong form, the microenvironment is where cancer begins; in the mainstream form, it is an enabling characteristic and a full participant.\n\nWho and when. Virchow described leukocytes in tumours in 1863 and proposed that irritation causes cancer. Dvorak's 1986 essay noted that tumour stroma is generated by the same vascular leak, fibrin deposition and fibroblast activation as granulation tissue. Balkwill and Mantovani (2001) and Coussens and Werb (2002) set out the molecular case for inflammation as a cause; Hanahan and Coussens (2012) catalogued the recruited cells as 'accessories to the crime'; Schäfer and Werner (2008) revisited the overhealing wound. Judah Folkman's angiogenesis hypothesis (1971) and Mina Bissell's microenvironment work are part of the same lineage.\n\nEvidence for. Infections and inflammatory conditions cause cancer: Helicobacter pylori and gastric cancer, hepatitis B and C and liver cancer, ulcerative colitis and colorectal cancer, asbestos and mesothelioma, reflux and oesophageal adenocarcinoma. Long-term aspirin reduces colorectal cancer incidence and cancer death in randomised trial follow-up (Rothwell 2011). Tumour stroma has the cell types and signals of a healing wound, and cancer-associated fibroblasts and tumour-associated macrophages promote growth, invasion and immune exclusion. Anti-inflammatory interleukin-1 beta blockade with canakinumab reduced incident lung cancer in the CANTOS cardiovascular trial. Inflammation became an enabling characteristic in the 2011 hallmarks.\n\nEvidence against and limits. Many cancers arise without recognisable inflammation, and inflammation is also how the immune system attacks tumours: an inflamed, T-cell-rich tumour responds best to checkpoint inhibitors. Anti-inflammatory treatment of established cancer has largely failed: canakinumab did not improve survival in the CANOPY lung cancer trials, and matrix metalloproteinase inhibitors failed in the 1990s. The claim that the microenvironment initiates cancer is hard to separate from the mutations that inflammation causes.\n\nPredictions that held or failed. Held: chronic inflammation is a preventable cause of cancer; removing the cause (H. pylori eradication, hepatitis B vaccination, HPV vaccination, treating hepatitis C) prevents cancer; aspirin prevents colorectal cancer; stroma predicts prognosis. Failed: anti-angiogenic therapy as a broad cure (bevacizumab adds months and resistance follows); anti-inflammatory drugs as treatment for established cancer; stroma depletion in pancreatic cancer (hyaluronidase failed in phase 3).\n\nTherapies that came from it. Aspirin and non-steroidal anti-inflammatory chemoprevention, the HPV and hepatitis B vaccines and H. pylori eradication, anti-VEGF antibodies and kinase inhibitors, and the current trials of fibroblast, macrophage and interleukin targeting. The theory feeds the seed and soil hypothesis (the soil is a microenvironment), the immune surveillance theory and the hallmarks, and it carries forward the tissue organisation field theory's evidence in a form the mainstream accepts.\n\nStatus: established for inflammation's role in causing and promoting cancer and for the stroma as a participant; contested as the primary origin of cancer in place of mutation.",
+    tldr: "Cancer cells interact with surrounding tissue and immune cells. Inflammation and stromal responses can help or restrain cancer, with effects depending on the population and context.",
+    summary: "The claim. Cancer cells interact with fibroblasts, macrophages, endothelium and other neighbours through signals and structural changes. Some processes resemble wound repair. Chronic inflammatory conditions can contribute to particular cancers, while immune and stromal responses can also restrain disease. In the strong form, the microenvironment is where cancer begins; in the mainstream form, it is an enabling characteristic and a full participant.\n\nWho and when. Virchow described leukocytes in tumours in 1863 and proposed that irritation causes cancer. Dvorak's 1986 essay noted that tumour stroma is generated by the same vascular leak, fibrin deposition and fibroblast activation as granulation tissue. Balkwill and Mantovani (2001) and Coussens and Werb (2002) set out the molecular case for inflammation as a cause; Hanahan and Coussens (2012) catalogued the recruited cells as 'accessories to the crime'; Schäfer and Werner (2008) revisited the overhealing wound. Judah Folkman's angiogenesis hypothesis (1971) and Mina Bissell's microenvironment work are part of the same lineage.\n\nEvidence for. Infections and inflammatory conditions cause cancer: Helicobacter pylori and gastric cancer, hepatitis B and C and liver cancer, ulcerative colitis and colorectal cancer, asbestos and mesothelioma, reflux and oesophageal adenocarcinoma. Long-term aspirin reduces colorectal cancer incidence and cancer death in randomised trial follow-up (Rothwell 2011). Tumour stroma has the cell types and signals of a healing wound, and particular fibroblast and macrophage populations can promote growth, invasion or immune exclusion, while others have different or opposing effects. Anti-inflammatory interleukin-1 beta blockade with canakinumab reduced incident lung cancer in the CANTOS cardiovascular trial. Inflammation became an enabling characteristic in the 2011 hallmarks.\n\nEvidence against and limits. Many cancers arise without recognisable inflammation, and inflammation is also how the immune system attacks tumours: an inflammatory or T-cell-rich pattern alone does not establish benefit from a checkpoint inhibitor. Anti-inflammatory treatment of established cancer has largely failed: canakinumab did not improve survival in the CANOPY lung cancer trials, and matrix metalloproteinase inhibitors failed in the 1990s. The claim that the microenvironment initiates cancer is hard to separate from the mutations that inflammation causes.\n\nPredictions that held or failed. Held in defined prevention settings: treating an infection or preventing infection can reduce related cancer risk. Aspirin findings and stromal prognostic associations require their own populations, outcomes and safety context. Failed: anti-angiogenic therapy as a broad cure; its clinical effects vary by regimen and setting; anti-inflammatory drugs as treatment for established cancer; stroma depletion in pancreatic cancer (hyaluronidase failed in phase 3).\n\nTherapies that came from it. Aspirin and non-steroidal anti-inflammatory chemoprevention, the HPV and hepatitis B vaccines and H. pylori eradication, anti-VEGF antibodies and kinase inhibitors, and the current trials of fibroblast, macrophage and interleukin targeting. The theory feeds the seed and soil hypothesis (the soil is a microenvironment), the immune surveillance theory and the hallmarks, and it carries forward the tissue organisation field theory's evidence in a form the mainstream accepts.\n\nStatus: established for inflammation's role in causing and promoting cancer and for the stroma as a participant; contested as the primary origin of cancer in place of mutation.",
     related: ["theories-of-cancer", "inflammation", "tumor-microenvironment", "tissue-organisation-field-theory", "seed-and-soil-hypothesis", "immune-surveillance-immunoediting", "hallmarks-synthesis", "mechanical-theory-of-cancer", "ageing-tissue-field-theory", "inflammation-nfkb", "tumor-promoting-inflammation", "cancer-associated-fibroblasts", "caf-activation-desmoplasia", "angiogenic-switch", "vegf-angiogenesis", "oncogenic-viruses", "aspirin-cancer-prevention", "hpv-vaccine", "macrophage", "cold-vs-hot"],
     pathways: ["tumor-microenvironment", "inflammation-nfkb", "caf-activation-desmoplasia", "angiogenic-switch", "vegf-angiogenesis", "oncogenic-viruses", "myeloid-suppression-axis"], drugs: ["bevacizumab", "aspirin"], technologies: ["aspirin-cancer-prevention", "hpv-vaccine", "chemoprevention"], targets: ["vegf", "il6", "fap"], trials: ["add-aspirin"], cancers: ["colorectal", "hcc", "cervical"],
     people: ["johanna-joyce", "judah-folkman"], keyPapers: ["paper-balkwill-mantovani-inflammation-virchow-lancet-2001", "paper-coussens-werb-inflammation-cancer-nature-2002", "paper-quail-joyce-microenvironment-metastasis-natmed-2013"],
     links: [
-      doi("10.1056/NEJM198612253152606", "Dvorak, Tumors: wounds that do not heal (NEJM 1986)"),
-      doi("10.1016/S0140-6736(00)04046-0", "Balkwill and Mantovani, Inflammation and cancer: back to Virchow? (Lancet 2001)"),
-      doi("10.1038/nature01322", "Coussens and Werb, Inflammation and cancer (Nature 2002)"),
-      doi("10.1016/j.ccr.2012.02.022", "Hanahan and Coussens, Accessories to the crime: functions of cells recruited to the tumor microenvironment (Cancer Cell 2012)"),
-      doi("10.1038/nrm2455", "Schäfer and Werner, Cancer as an overhealing wound: an old hypothesis revisited (Nature Reviews Molecular Cell Biology 2008)"),
-      doi("10.1016/S0140-6736(10)62110-1", "Rothwell et al., Effect of daily aspirin on long-term risk of death due to cancer (Lancet 2011)"),
-      doi("10.1016/S0140-6736(17)32247-X", "Ridker et al., Effect of interleukin-1 beta inhibition with canakinumab on incident lung cancer (CANTOS, Lancet 2017)"),
-      doi("10.1200/JCO.20.00590", "Van Cutsem et al., Randomized phase III trial of pegvorhyaluronidase alfa with nab-paclitaxel plus gemcitabine (HALO 109-301, JCO 2020)"),
-    ],
-  }),
+  {
+    "label": "Dvorak, Tumors: wounds that do not heal (NEJM 1986)",
+    "url": "https://doi.org/10.1056/NEJM198612253152606"
+  },
+  {
+    "label": "Balkwill and Mantovani, Inflammation and cancer: back to Virchow? (Lancet 2001)",
+    "url": "https://doi.org/10.1016/S0140-6736(00)04046-0"
+  },
+  {
+    "label": "Coussens and Werb, Inflammation and cancer (Nature 2002)",
+    "url": "https://doi.org/10.1038/nature01322"
+  },
+  {
+    "label": "Hanahan and Coussens, Accessories to the crime: functions of cells recruited to the tumor microenvironment (Cancer Cell 2012)",
+    "url": "https://doi.org/10.1016/j.ccr.2012.02.022"
+  },
+  {
+    "label": "Schäfer and Werner, Cancer as an overhealing wound: an old hypothesis revisited (Nature Reviews Molecular Cell Biology 2008)",
+    "url": "https://doi.org/10.1038/nrm2455"
+  },
+  {
+    "label": "Rothwell et al., Effect of daily aspirin on long-term risk of death due to cancer (Lancet 2011)",
+    "url": "https://doi.org/10.1016/S0140-6736(10)62110-1"
+  },
+  {
+    "label": "Ridker et al., Effect of interleukin-1 beta inhibition with canakinumab on incident lung cancer (CANTOS, Lancet 2017)",
+    "url": "https://doi.org/10.1016/S0140-6736(17)32247-X"
+  },
+  {
+    "label": "Van Cutsem et al., Randomized phase III trial of pegvorhyaluronidase alfa with nab-paclitaxel plus gemcitabine (HALO 109-301, JCO 2020)",
+    "url": "https://doi.org/10.1200/JCO.20.00590"
+  },
+  {
+    "label": "Keren et al., A Structured Tumor-Immune Microenvironment in Triple Negative Breast Cancer Revealed by Multiplexed Ion Beam Imaging. (2018)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30193111/"
+  },
+  {
+    "label": "Salmon et al., Matrix architecture defines the preferential localization and migration of T cells into the stroma of human lung tumors. (2012)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22293174/"
+  }
+],
+
+"notes": [
+  "Keren used multiplexed protein imaging in 41 human triple-negative breast cancers to describe composition and spatial organisation. This is observational evidence. Salmon used viable human lung-tumour slices to investigate matrix and T-cell movement, including a perturbation. The two designs answer different questions, and neither makes stromal removal a universal treatment instruction. Presence or proximity alone does not demonstrate signalling, recognition, killing or suppression.",
+  "Retain site, date, treatment, region and denominator: cells per area differs from a fraction of detected cells. Selected-protein imaging, spatial RNA capture with cell assignment and a controlled functional experiment are different outputs. Segmentation can misassign boundaries and dissociation changes which cells are recovered. There is no universal TME score that establishes treatment benefit."
+],
+"asOf": "2026-11-10"
+}),
   t({
     id: "seed-and-soil-hypothesis", name: "Seed and soil hypothesis of metastasis (Paget)", wikipedia: W("Metastasis"),
     aka: ["seed and soil", "Paget's hypothesis", "organ tropism", "pre-metastatic niche", "Ewing's mechanical hypothesis"],
@@ -272,20 +345,113 @@ export const theoryTerms: TermInput[] = [
   t({
     id: "immune-surveillance-immunoediting", name: "Immune surveillance and cancer immunoediting", wikipedia: W("Cancer_immunoediting"),
     aka: ["immunosurveillance", "immune surveillance hypothesis", "cancer immunoediting", "three Es", "elimination equilibrium escape", "Burnet-Thomas hypothesis"],
-    tldr: "The immune system patrols for cells that have turned malignant and destroys most of them; the tumours we see are the ones that learned to hide. Ehrlich guessed this in 1909, Burnet and Thomas argued it in the 1950s, it was declared dead in the 1970s, and Robert Schreiber's mouse experiments revived it in 2001. Checkpoint inhibitors, which can cure some metastatic melanoma, are its vindication.",
-    summary: "The claim. Immune surveillance: lymphocytes continuously recognise and eliminate nascent transformed cells, so clinical cancer is a failure of immunity. Immunoediting (Dunn, Old and Schreiber 2002) refines this into three phases: elimination, in which most transformed cells are destroyed; equilibrium, in which immunity holds a tumour in check for years while selecting less immunogenic variants; and escape, in which edited tumours grow out by losing antigens or antigen presentation, recruiting suppressive cells, or expressing checkpoint ligands. The immune system therefore both protects against cancer and shapes the cancers that emerge.\n\nWho and when. Ehrlich 1909; Burnet 1957 and 1970 and Thomas 1959 stated the surveillance hypothesis. Stutman's 1974 finding that athymic nude mice were no more prone to chemically induced tumours seemed to refute it. Shankaran, Old and Schreiber showed in 2001 that mice lacking lymphocytes or interferon-gamma signalling develop more tumours and that tumours from immunodeficient mice are more immunogenic, which is the signature of editing. Dunn and colleagues named immunoediting in 2002; Schreiber, Old and Smyth reviewed it in 2011. Allison's 1996 CTLA-4 blockade and Honjo's PD-1 discovery gave it its therapy; Chen and Mellman's cancer-immunity cycle (2013) is its clinical map.\n\nEvidence for. Immunodeficient mice develop more spontaneous and induced tumours. Organ transplant recipients on immunosuppression have higher rates of many cancers, not only virus-driven ones. Tumour-infiltrating lymphocytes predict survival across cancers, and tumours show evidence of neoantigen depletion and loss of HLA consistent with editing. Checkpoint inhibitors produce durable remissions in melanoma, lung, kidney, bladder and mismatch repair-deficient cancers, and responses track with mutational burden and neoantigen load. Virus-driven tumours, rich in foreign antigens, respond well.\n\nEvidence against and limits. Nude mice have natural killer cells, which explains Stutman's result, but the episode showed how hard surveillance is to demonstrate. Most cancers arise in people with normal immunity, and the immune system also promotes cancer through inflammation. Equilibrium is difficult to observe directly in humans. Immunotherapy fails in most patients with pancreatic, prostate and brain cancers, and the reasons are only partly understood.\n\nPredictions that held or failed. Held: releasing checkpoints unleashes anti-tumour immunity; immunogenic tumours have lower mutational burden after editing; adoptive transfer of tumour-reactive T cells can cure. Failed: most therapeutic cancer vaccines of the 1990s and 2000s; the expectation that boosting immunity non-specifically (interferon, interleukin-2 in most settings) would be broadly effective.\n\nTherapies that came from it. Checkpoint inhibitors (ipilimumab, nivolumab, pembrolizumab and successors), CAR-T cells, tumour-infiltrating lymphocyte therapy (lifileucel), T-cell engagers, neoantigen mRNA vaccines and the use of mutational burden and mismatch repair deficiency as predictive biomarkers. It applies clonal evolution to the immune system as predator, draws on the microenvironment view for the mechanisms of escape, and entered the hallmarks in 2011.\n\nStatus: established. Immunoediting is the accepted account of how tumours and immunity co-evolve, and it underpins the most important therapeutic advance of the last two decades.",
-    related: ["theories-of-cancer", "cancer-immunity-cycle", "clonal-evolution-theory", "microenvironment-inflammation-theory", "hallmarks-synthesis", "antigen-presentation-immunoediting", "pd1-checkpoint", "t-cell-exhaustion", "immune-desert-exclusion", "avoiding-immune-destruction", "checkpoint-inhibitor", "neoantigen", "tils", "cold-vs-hot", "tmb"],
+    tldr: "Immune responses can control cancer and select which populations persist. Immunoediting is a testable framework, not a way to assign a phase or recurrence risk from one scan.",
+    summary: "The claim. Immune surveillance concerns recognition and control of transformed cells. Immunoediting adds selection of the populations that persist. Elimination, equilibrium and escape are conceptual processes that can coexist or occur independently. Their assignment requires evidence of control, restraint or outgrowth and its mechanism; they are not a compulsory calendar for every clinical cancer. The immune system therefore both protects against cancer and shapes the cancers that emerge.\n\nWho and when. Ehrlich 1909; Burnet 1957 and 1970 and Thomas 1959 stated the surveillance hypothesis. Stutman's 1974 finding that athymic nude mice were no more prone to chemically induced tumours seemed to refute it. Shankaran, Old and Schreiber showed in 2001 that mice lacking lymphocytes or interferon-gamma signalling develop more tumours and that tumours from immunodeficient mice are more immunogenic, which is the signature of editing. Dunn and colleagues named immunoediting in 2002; Schreiber, Old and Smyth reviewed it in 2011. Allison's 1996 CTLA-4 blockade and Honjo's PD-1 discovery gave it its therapy; Chen and Mellman's cancer-immunity cycle (2013) is its clinical map.\n\nEvidence for. Immunodeficient mice develop more spontaneous and induced tumours. Organ transplant recipients on immunosuppression have higher rates of many cancers, not only virus-driven ones. Immune-cell and outcome associations vary across cancers and measurements. Some tumour studies show neoantigen depletion or HLA loss consistent with editing, with other explanations and sampling limits still relevant. Checkpoint inhibitors produce durable remissions in melanoma, lung, kidney, bladder and mismatch repair-deficient cancers, while mutation count, candidate neoantigens or viral origin alone do not establish an individual response.\n\nEvidence against and limits. Nude mice retain immune functions and are not a clean comparison of every immune mechanism; Shankaran also noted that they do not completely lack functional T cells. The episode illustrates the importance of the precise model. Most cancers arise in people with normal immunity, and the immune system also promotes cancer through inflammation. Equilibrium is difficult to observe directly in humans. Immunotherapy fails in most patients with pancreatic, prostate and brain cancers, and the reasons are only partly understood.\n\nPredictions that held or failed. Held: releasing checkpoints unleashes anti-tumour immunity; particular studies find loss of recognised antigens under immune pressure; adoptive transfer of tumour-reactive T cells can cure. Failed: most therapeutic cancer vaccines of the 1990s and 2000s; the expectation that boosting immunity non-specifically (interferon, interleukin-2 in most settings) would be broadly effective.\n\nTherapies that came from it. Checkpoint inhibitors (ipilimumab, nivolumab, pembrolizumab and successors), CAR-T cells, tumour-infiltrating lymphocyte therapy (lifileucel), T-cell engagers, neoantigen mRNA vaccines and the use of mutational burden and mismatch repair deficiency as predictive biomarkers. It applies clonal evolution to the immune system as predator, draws on the microenvironment view for the mechanisms of escape, and entered the hallmarks in 2011.\n\nStatus: model experiments and human observations support immune control and selection. They do not establish a universal sequence of phases, the fraction of all cancers prevented, or a personal recurrence forecast.",
+    related: [
+  "theories-of-cancer",
+  "cancer-immunity-cycle",
+  "clonal-evolution-theory",
+  "microenvironment-inflammation-theory",
+  "hallmarks-synthesis",
+  "antigen-presentation-immunoediting",
+  "pd1-checkpoint",
+  "t-cell-exhaustion",
+  "immune-desert-exclusion",
+  "avoiding-immune-destruction",
+  "checkpoint-inhibitor",
+  "neoantigen",
+  "tils",
+  "cold-vs-hot",
+  "tmb",
+  "adaptive-immune-resistance",
+  "immune-exclusion"
+],
     pathways: ["cancer-immunity-cycle", "antigen-presentation-immunoediting", "pd1-checkpoint", "t-cell-exhaustion", "immune-desert-exclusion"], drugs: ["ipilimumab", "nivolumab", "pembrolizumab", "lifileucel"], technologies: ["checkpoint-inhibitor", "car-t", "til-therapy", "t-cell-engager", "neoantigen-mrna-vaccine"], targets: ["pd1", "ctla4"], cancers: ["melanoma", "nsclc"],
     people: ["robert-schreiber", "james-allison", "tasuku-honjo", "drew-pardoll"], keyPapers: ["paper-schreiber-cancer-immunoediting-science-2011", "paper-chen-mellman-cancer-immunity-cycle-immunity-2013", "paper-leach-allison-ctla4-blockade-science-1996", "paper-pardoll-immune-checkpoint-blockade-nrc-2012"],
     links: [
-      doi("10.1136/bmj.1.5022.779", "Burnet, Cancer: a biological approach (BMJ 1957)"),
-      doi("10.1159/000386035", "Burnet, The concept of immunological surveillance (Progress in Experimental Tumor Research 1970)"),
-      doi("10.1126/science.183.4124.534", "Stutman, Tumor development after 3-methylcholanthrene in immunologically deficient athymic-nude mice (Science 1974)"),
-      doi("10.1038/35074122", "Shankaran et al., IFN-gamma and lymphocytes prevent primary tumour development and shape tumour immunogenicity (Nature 2001)"),
-      doi("10.1038/ni1102-991", "Dunn et al., Cancer immunoediting: from immunosurveillance to tumor escape (Nature Immunology 2002)"),
-      doi("10.1126/science.1203486", "Schreiber, Old and Smyth, Cancer immunoediting: integrating immunity's roles in cancer suppression and promotion (Science 2011)"),
-    ],
-  }),
+  {
+    "label": "Burnet, Cancer: a biological approach (BMJ 1957)",
+    "url": "https://doi.org/10.1136/bmj.1.5022.779"
+  },
+  {
+    "label": "Burnet, The concept of immunological surveillance (Progress in Experimental Tumor Research 1970)",
+    "url": "https://doi.org/10.1159/000386035"
+  },
+  {
+    "label": "Stutman, Tumor development after 3-methylcholanthrene in immunologically deficient athymic-nude mice (Science 1974)",
+    "url": "https://doi.org/10.1126/science.183.4124.534"
+  },
+  {
+    "label": "Shankaran et al., IFN-gamma and lymphocytes prevent primary tumour development and shape tumour immunogenicity (Nature 2001)",
+    "url": "https://doi.org/10.1038/35074122"
+  },
+  {
+    "label": "Dunn et al., Cancer immunoediting: from immunosurveillance to tumor escape (Nature Immunology 2002)",
+    "url": "https://doi.org/10.1038/ni1102-991"
+  },
+  {
+    "label": "Schreiber, Old and Smyth, Cancer immunoediting: integrating immunity's roles in cancer suppression and promotion (Science 2011)",
+    "url": "https://doi.org/10.1126/science.1203486"
+  },
+  {
+    "label": "Matsushita et al., Cancer exome analysis reveals a T-cell-dependent mechanism of cancer immunoediting (Nature 2012)",
+    "url": "https://doi.org/10.1038/nature10755"
+  },
+  {
+    "label": "Shankaran et al., immune control and selection in mouse models (2001)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11323675/"
+  },
+  {
+    "label": "Koebel et al., immune equilibrium in mouse models (2007)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18026089/"
+  },
+  {
+    "label": "Matsushita et al., selection of pre-existing antigen-distinct clones (2012)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22318521/"
+  },
+  {
+    "label": "Luksza et al., neoantigen quality and pancreatic cancer evolution (2022)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35589842/"
+  },
+  {
+    "label": "The three Es of cancer immunoediting.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15032581/"
+  },
+  {
+    "label": "Evolution of Neoantigen Landscape during Immune Checkpoint Blockade in Non-Small Cell Lung Cancer.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28031159/"
+  },
+  {
+    "label": "Allele-Specific HLA Loss and Immune Escape in Lung Cancer Evolution.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29107330/"
+  },
+  {
+    "label": "Somatic HLA Class I Loss Is a Widespread Mechanism of Immune Evasion Which Refines the Use of Tumor Mutational Burden as a Biomarker of Checkpoint Inhibitor Response.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33127846/"
+  },
+  {
+    "label": "Mutations Associated with Acquired Resistance to PD-1 Blockade in Melanoma.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27433843/"
+  },
+  {
+    "label": "Overcoming Genetically Based Resistance Mechanisms to PD-1 Blockade.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32467343/"
+  }
+],
+
+"notes": [
+  "Immune surveillance concerns immune control of transformed cells. Immunoediting adds that immune pressure can alter which cancer populations persist. Elimination, equilibrium and escape describe processes that can coexist or occur independently, not a mandatory three-stage calendar. Shankaran’s genetically defined mouse experiments support lymphocyte and interferon-gamma contributions to control and selection. They do not measure what fraction of all human cancers immunity prevents.",
+  "Koebel used immune perturbation in chemical-carcinogenesis mouse models to demonstrate equilibrium; a quiet scan alone is not such an experiment. Matsushita combined sequencing, antigen recognition and immune comparisons in mouse sarcoma to support selection of pre-existing antigen-distinct clones. This is different from T cells creating every mutation that appears later.",
+  "Luksza followed 70 pancreatic ductal adenocarcinomas from 15 people longitudinally over ten years, comparing primary and recurrent tumours and modelling neoantigen quality and clonal fitness. Long-term survivors had stronger primary T-cell activity and recurrent tumours with fewer high-quality neoantigens under the model. This is human cohort and modelling evidence, not a vaccine experiment or direct observation of every selection event. Treatment and sampling history and model assumptions remain relevant.",
+  "In a fictional immune-pressure comparison, both arms begin with A/B counts of 80/20. Later, the control has 160/40 and the pressure arm 10/40. B is 20% versus 80% of the later populations, although its later count is 40 in both. Recognition and comparable conditions are separate evidence; a larger share does not mean that pressure created more B cells. This example is distinct from 900/100 becoming 90/90, where B’s share rises while its count falls.",
+  "An editing claim combines longitudinal populations or antigens, recognition or functional assays and relevant comparisons. Apparent antigen loss can instead reflect sampling, detection limits, expression change or another treatment. Neither sequencing alone nor a killing experiment reconstructs the whole history. One immune-rich sample, negative blood test or model cannot assign an individual postoperative phase, explain every recurrence or forecast personal risk; different lesions can face different pressures.",
+  "Immune escape can involve loss of a targeted antigen, altered HLA alleles or processing, defective inducible signalling, inhibition after entry or impaired access. Anagnostou found loss of putative neoantigens in checkpoint-resistant lung tumours with accompanying T-cell evidence. McGranahan described allele-specific HLA loss in lung cancer evolution. Montesion’s commercial pan-cancer genomic series contained 83,644 samples with HLA-I loss of heterozygosity in 17%; this assay-defined pan-cancer observation is not a breast-specific prevalence. Allele loss differs from reversible expression change or a B2M defect affecting class-I surface display.",
+  "In Zaretsky’s selected four-person melanoma relapse series, two cases had JAK1 or JAK2 loss-of-function changes with loss of the normal allele and another had a truncating B2M change. The JAK2-deficient relapse cells failed to increase interferon-gamma signalling, PD-L1 and class I while retaining interferon-alfa/beta responsiveness. Engineered JAK1- or JAK2-deficient melanoma cells were still recognized by the tested NY-ESO-1-specific T cells. Baseline display, inducibility, recognition and killing are separate dependencies; neither a JAK variant nor detectable HLA alone answers all of them.",
+  "In a fictional controlled comparison, both cultures have baseline class I; only the control increases its signal and surface display after interferon gamma. The candidate retains an interferon-alfa response, and restoring JAK2 restores the tested gamma response. With matched handling, viability and restoration controls, this supports a model-specific JAK2-dependent inducibility defect. It is not proof of a particular displayed peptide, safe clinical rescue, tumour access or useful killing. JAK1 and JAK2 have different interferon dependencies.",
+  "Treatment can select a pre-existing population and new changes can arise. Earlier specimens, retained alleles, expression, stimulation and controlled functional comparisons help test an escape explanation. Different sites may have different bottlenecks; several mechanisms may coexist. Blood tumour DNA alone does not identify a particular escape route. A proposed HLA-independent recognizer or combination still needs its own target, access, function and safety evidence, and a restored laboratory endpoint does not establish clinical benefit."
+],
+"asOf": "2026-11-11"
+}),
   t({
     id: "ageing-tissue-field-theory", name: "Ageing tissue and clonal fields: cancer as a disease of old tissue", wikipedia: W("Clonal_hematopoiesis"),
     aka: ["adaptive oncogenesis", "ageing theory of cancer", "clonal fields", "somatic mosaicism and cancer", "cancer as a disease of ageing", "field theory of cancer"],

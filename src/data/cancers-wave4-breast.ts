@@ -59,7 +59,7 @@ const SRC = {
   plcis: doi("Annals of Surgical Oncology 2015: pleomorphic lobular carcinoma in situ, features and management", "10.1245/s10434-015-4552-x"),
 };
 
-type Sub = Omit<CancerInput, "kind" | "asOf" | "group" | "parent">;
+type Sub = Omit<CancerInput, "kind" | "asOf" | "group" | "parent"> & { asOf?: CancerInput["asOf"] };
 const sub = (x: Sub): CancerInput => ({ kind: "cancer", asOf, group: "breast", parent: "breast-cancer", tags, ...x });
 
 export const cancersWave4Breast: CancerInput[] = linkSiblings([
@@ -89,7 +89,45 @@ export const cancersWave4Breast: CancerInput[] = linkSiblings([
     ],
     drugs: ["oncotype-dx"],
     related: ["breast-cancer", "breast-hr-positive", "breast-her2-positive", "tnbc", "invasive-lobular-carcinoma", "medullary-pattern-breast-carcinoma", "ductal-carcinoma-in-situ"],
-    links: [SRC.crukTypes, SRC.pdq, SRC.who2019, SRC.ciriello] }),
+    links: [
+  {
+    "label": "Cancer Research UK: types of breast cancer",
+    "url": "https://www.cancerresearchuk.org/about-cancer/breast-cancer/types"
+  },
+  {
+    "label": "NCI PDQ: breast cancer treatment",
+    "url": "https://www.cancer.gov/types/breast/treatment"
+  },
+  {
+    "label": "Tan 2020, Histopathology: the 2019 WHO classification of tumours of the breast",
+    "url": "https://doi.org/10.1111/his.14091"
+  },
+  {
+    "label": "Ciriello 2015, Cell: comprehensive molecular portraits of invasive lobular breast cancer (TCGA)",
+    "url": "https://doi.org/10.1016/j.cell.2015.09.033"
+  },
+  {
+    "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+    "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+  },
+  {
+    "label": "NCI SEER breast histologies",
+    "url": "https://training.seer.cancer.gov/breast/types.html"
+  },
+  {
+    "label": "WHO/IARC breast tumour classification structure",
+    "url": "https://whobluebooks.iarc.who.int/structures/breast-tumours/"
+  }
+] ,
+"notes": [
+  "Invasive carcinoma has entered surrounding tissue; distant metastasis is a separate finding. No special type (NST), commonly called invasive ductal carcinoma, is a histological category for invasive breast carcinoma without the defining morphology of a special type. NST does not mean an unknown primary or an absence of molecular features.",
+  "Histological type, Nottingham grade, receptor results and stage describe different axes. NST alone establishes neither triple-negative status nor a molecular subtype or prognosis. An associated DCIS component does not negate invasion.",
+  "Diagnosis integrates morphology with supporting immunohistochemistry when needed. A myoepithelial stain is not a universal binary invasion test. Limited biopsy may not show the entire lesion; preserve specimen and treatment timing when a larger resection reveals more components. Ductal naming does not prove ancestry in a particular large duct.",
+  "Carcinoma is an epithelial malignancy. Invasive ductal carcinoma and infiltrating ductal carcinoma are common names corresponding to the CAP category invasive carcinoma of no special type (ductal); retain the full report wording. A DCIS-only sample has not demonstrated invasion in that sample, while associated DCIS does not cancel separately identified invasion.",
+  "SEER's 2013 histology inquiry connects ductal NOS terminology with no special type; the WHO/IARC classification structure lists NST as a category, and CAP supplies current reporting terminology. These naming references do not replace morphology. A diagram comparing in situ and invasive arrangements shows a spatial distinction, not a claim that every lesion must pass through those scenes."
+],
+"asOf": "2026-11-10"
+}),
 
   sub({ id: "tubular-carcinoma-breast", name: "Tubular carcinoma of the breast", wikipedia: W("Tubular_carcinoma"),
     aka: ["Tubular carcinoma", "Tubular breast cancer", "Pure tubular carcinoma"],

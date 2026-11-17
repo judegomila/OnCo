@@ -11,11 +11,12 @@ import { b, cdx, FDA_CDX_LABEL, FDA_CDX_URL, LABEL, th } from "./biomarker-reado
 const CT = (nct: string) => `https://clinicaltrials.gov/study/${nct}`;
 const NO_TEST = "The label names the antigen in the drug's description but does not require it to be measured before treatment; no approval threshold exists for this readout.";
 
-/** An expression readout that no label gates on: the antigen is the drug's target, not a test result. */
-const expr = (x: { id: string; name: string; aka: string[]; target: string; tldr: string; summary: string; quote: string; source: string; sourceLabel: string; cancers: string[]; drugs: string[]; forPatient: string; terms?: string[]; related?: string[]; definedBy?: { label: string; url: string }; tests?: string[] }): BiomarkerInput =>
+/** Research-only readouts supply their own scoring rule rather than inheriting label language. */
+const expr = (x: { id: string; name: string; aka: string[]; target: string; tldr: string; summary: string; quote: string; source: string; sourceLabel: string; cancers: string[]; drugs: string[]; forPatient: string; terms?: string[]; related?: string[]; definedBy?: { label: string; url: string }; tests?: string[]; asOf?: BiomarkerInput["asOf"]; notes?: BiomarkerInput["notes"]; links?: BiomarkerInput["links"]; scoringRule?: BiomarkerInput["scoringRule"] }): BiomarkerInput =>
   b({ id: x.id, name: x.name, aka: x.aka, target: x.target, measurement: "ihc-score", tldr: x.tldr, summary: x.summary,
-    scoringRule: { text: NO_TEST, quote: x.quote, source: x.source, sourceLabel: x.sourceLabel }, definedBy: x.definedBy,
-    cancers: x.cancers, drugs: x.drugs, tests: x.tests, forPatient: x.forPatient, terms: x.terms, related: x.related, links: [{ label: x.sourceLabel, url: x.source }], tags: ["biomarker", "surface-antigen", "no-threshold"] });
+    scoringRule: x.scoringRule ?? { text: NO_TEST, quote: x.quote, source: x.source, sourceLabel: x.sourceLabel }, definedBy: x.definedBy,
+    ...(x.asOf !== undefined ? { asOf: x.asOf } : {}), ...(x.notes !== undefined ? { notes: x.notes } : {}),
+    cancers: x.cancers, drugs: x.drugs, tests: x.tests, forPatient: x.forPatient, terms: x.terms, related: x.related, links: [{ label: x.sourceLabel, url: x.source }, ...(x.links ?? [])], tags: ["biomarker", "surface-antigen", "no-threshold"] });
 
 export const biomarkerReadouts4: BiomarkerInput[] = [
   // ---- Lineage antigens with a label requirement ----
@@ -120,27 +121,62 @@ export const biomarkerReadouts4: BiomarkerInput[] = [
     forPatient: "If your ovarian cancer is platinum-resistant and at least three quarters of the cells stain moderately or strongly for folate receptor alpha, mirvetuximab soravtansine is on label. Eye examinations before and during treatment are required because the drug can blur vision. Lower expression does not qualify under the current label.",
     terms: ["ihc", "platinum-sensitivity"], related: ["brca-somatic", "hrd-positive"], links: [{ label: "ELAHERE prescribing information (DailyMed)", url: LABEL.elahere }], tags: ["biomarker", "surface-antigen"] }),
 
-  { ...expr({ id: "trop2-expression", name: "TROP2 expression", aka: ["TROP2", "TROP-2", "Trop-2 expression", "TACSTD2 expression", "TROP2 QCS", "TROP2 normalised membrane ratio"], target: "trop2",
-    tldr: "TROP2 is on the surface of most breast and lung cancers. Sacituzumab govitecan and datopotamab deruxtecan are given without measuring it; a computational TROP2 score is being tested as a selector in lung cancer.",
-    summary: "In the United States, sacituzumab govitecan (Trodelvy) is labelled for specified unresectable locally advanced or metastatic triple-negative and HR-positive/HER2-negative breast cancer settings; its urothelial indication was withdrawn on November 22, 2024. The June 24, 2026 first-line TNBC approvals cover monotherapy when PD-1/PD-L1 treatment is unsuitable, or pembrolizumab-based combination therapy when PD-L1 CPS is at least 10. Datopotamab deruxtecan (Datroway) is labelled for specified advanced HR-positive/HER2-negative breast cancer and EGFR-mutant NSCLC settings, and since May 22, 2026 for unresectable or metastatic TNBC when PD-1/PD-L1 treatment is unsuitable. These breast-cancer indications do not require a TROP2 test; the pembrolizumab combination still requires its separate PD-L1 test. The TROPION-Lung01 exploratory analysis introduced a quantitative continuous scoring (normalised membrane ratio) that separated responders in non-squamous NSCLC; it is being validated prospectively (TROPION-Lung12, NCT06564844 and other studies) and is not in any label.",
-    quote: "TRODELVY is a Trop-2-directed antibody and topoisomerase inhibitor conjugate", source: LABEL.trodelvy, sourceLabel: "TRODELVY prescribing information (DailyMed)",
+  b({ measurement: "ihc-score", tags: ["biomarker", "surface-antigen", "no-threshold"],
+    scoringRule:{"text":"ASCENT used a validated research immunohistochemistry assay and histochemical H-score in a prespecified exploratory analysis. Its high, medium and low research groups are not a labelled TROP2 cutoff for the U.S. breast indications described here.","quote":"prespecified, exploratory biomarker analysis","source":"https://doi.org/10.1016/j.annonc.2021.06.002","sourceLabel":"Bardia and colleagues, ASCENT exploratory biomarker analysis, 2021"}, notes:["A biopsy samples one lesion at one time. Surface staining does not measure binding, uptake, released active drug, intracellular transport or sensitivity to that drug. Those steps can differ even when two samples have similar staining. Drug-specific mechanistic evidence and clinical evidence are needed before turning expression into a treatment rule.",
+"Two retrospective TNBC series used different assays. Jacot's 2025 nonmetastatic series used the Enzo ENZ-ABS380 antibody and H-scores below 100, 100 to 200, and above 200: 225 of 228 tumours had membrane expression and 58.8% were in the strong group. Izci's 2022 series included 685 patients overall, with 589 scored for these groups using Abcam ab227689: 97 high (201 to 300), 149 medium (100 to 200) and 343 low (below 100), or 16.5%, 25.3% and 58.2%. These are assay- and cohort-specific distributions, not harmonised prevalence estimates or validated individual treatment thresholds.",
+"Stepan's 2011 transcript and protein survey found substantial TROP2 expression in several essential normal tissues. Tumour enrichment and a current label's lack of a TROP2 selection test answer different questions from accessible normal-tissue expression and the finished product's therapeutic window. A fictional 85%-positive, minimally normal-staining proposal still needs the antibody, cutoff, cohort, positive-cell distribution within tumours, normal tissues and methods, and full-product distribution, processing and response evidence. A single stain or an antigen count does not supply those results."
+], links:[{"label":"TRODELVY prescribing information (DailyMed)","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d"},{"label":"DATROWAY prescribing information (DailyMed)","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0"},{"label":"FDA: Trodelvy urothelial indication withdrawal","url":"https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-sacituzumab-govitecan-advanced-urothelial-cancer"},{"label":"FDA: first-line sacituzumab TNBC indications, June 24, 2026","url":"https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sacituzumab-govitecan-hziy-monotherapy-and-combination-pembrolizumab-first-line"},{"label":"FDA: Dato-DXd TNBC indication, May 22, 2026","url":"https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-datopotamab-deruxtecan-dlnk-unresectable-or-metastatic-triple-negative-breast-cancer"},{"label":"ASCENT prespecified exploratory TROP2 analysis: primary populations and subgroup limits","url":"https://pubmed.ncbi.nlm.nih.gov/34116144/"},
+{
+  "label": "Jacot et al.: assay-defined TROP2 staining in 228 nonmetastatic TNBCs (2025)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40059728/"
+},
+{
+  "label": "Izci et al.: TROP2 assay and H-score groups in a retrospective TNBC cohort (2022)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36577919/"
+},
+{
+  "label": "Stepan et al.: TROP2 transcript and protein expression in normal and tumour tissues (2011)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/21551320/"
+}
+], asOf:"2026-11-11", id: "trop2-expression", name: "TROP2 expression", aka: ["TROP2", "TROP-2", "Trop-2 expression", "TACSTD2 expression", "TROP2 QCS", "TROP2 normalised membrane ratio"], target: "trop2",
+    tldr: "TROP2 expression is a measured feature, not a universal ADC selection rule. The current U.S. breast-cancer uses of sacituzumab govitecan and datopotamab deruxtecan do not require a TROP2 test; other treatment requirements still apply.",
+    summary: "In ASCENT, a prespecified exploratory analysis used an immunohistochemical H-score to examine TROP2 expression. Results were available for 290 of the 468 patients in the primary population without brain metastases. The authors supported benefit in the high and medium groups and said the low group was too small for a definitive benefit conclusion. This analysis does not establish equal effects at every expression level or a validated universal threshold. A marker association, a randomised treatment comparison and a treatment-by-marker interaction answer different questions.\n\nThe current U.S. breast indications for sacituzumab govitecan and datopotamab deruxtecan do not require a TROP2 selection assay. That regulatory rule does not prove that the target or its delivery is biologically irrelevant. Check the exact drug, subtype, setting and prior treatment. The first-line sacituzumab-pembrolizumab regimen has a separate PD-L1 CPS requirement of at least 10 using an FDA-authorized test. A research H-score or computational membrane score is not automatically an interchangeable clinical selection test.",
     cancers: ["tnbc", "tnbc-metastatic", "breast-hr-positive", "urothelial", "nsclc"], drugs: ["sacituzumab-govitecan", "datopotamab-deruxtecan", "sacituzumab-tirumotecan"],
-    forPatient: "The U.S. breast-cancer indications for sacituzumab govitecan and datopotamab deruxtecan do not require TROP2 testing. Other requirements still depend on the drug and treatment setting, including PD-L1 testing for the first-line sacituzumab-pembrolizumab combination. A computerised TROP2 score is under study in lung cancer and may become a selection test later.", terms: ["ihc"], related: ["her2-low", "nectin-4-expression"] }),
-    asOf: "2026-10-06",
-    links: [
-      { label: "TRODELVY prescribing information (DailyMed)", url: LABEL.trodelvy },
-      { label: "DATROWAY prescribing information (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0" },
-      { label: "FDA: Trodelvy urothelial indication withdrawal", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-sacituzumab-govitecan-advanced-urothelial-cancer" },
-      { label: "FDA: first-line sacituzumab TNBC indications, June 24, 2026", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sacituzumab-govitecan-hziy-monotherapy-and-combination-pembrolizumab-first-line" },
-      { label: "FDA: Dato-DXd TNBC indication, May 22, 2026", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-datopotamab-deruxtecan-dlnk-unresectable-or-metastatic-triple-negative-breast-cancer" },
-    ] },
+    forPatient: "A TROP2 result describes the tested sample. It does not by itself tell whether an ADC will work. These two U.S. breast-cancer drug labels do not require a TROP2 test, but the exact subtype, prior treatment and regimen still matter; the first-line sacituzumab-pembrolizumab combination requires its separate PD-L1 result.", terms: ["ihc"], related: ["her2-low", "nectin-4-expression"] }),
 
   expr({ id: "nectin-4-expression", name: "Nectin-4 expression", aka: ["Nectin-4", "NECTIN4 expression", "Nectin-4 positive", "Nectin-4 H-score"], target: "nectin4",
-    tldr: "Nectin-4 is expressed by almost every urothelial cancer, so enfortumab vedotin is given without a test. Nectin-4 amplification is being studied as a marker of especially strong response.",
-    summary: "Enfortumab vedotin (Padcev) is labelled alone and with pembrolizumab for locally advanced or metastatic urothelial cancer with no Nectin-4 requirement; the pivotal EV-201 and EV-301 trials enrolled without testing after screening showed near-universal expression. Retrospective work links NECTIN4 amplification to higher response rates; a Nectin-4 PET tracer is in early trials. No approval or guideline sets a threshold.",
+    tldr: "Nectin-4 is a surface protein targeted by enfortumab vedotin. Its U.S. label does not require a Nectin-4 test; that rule does not guarantee response or safety.",
+    summary: "The U.S. PADCEV label defines particular bladder and urothelial cancer uses, combinations and prior-treatment settings without requiring a Nectin-4 expression cutoff. Other eligibility conditions and product warnings still apply. A tissue stain measures the tested sample; it is different from accessible binding, delivered active drug and a useful therapeutic window.\n\nThe 2017 TNBC staining study and the 2025 EV-202 breast cohorts are separate, assay- and population-specific sources. Neither supplies a universal prevalence, a validated individual response threshold or a comparison against a TROP2 ADC.",
     quote: "PADCEV is a Nectin-4-directed antibody and microtubule inhibitor conjugate", source: LABEL.padcev, sourceLabel: "PADCEV prescribing information (DailyMed)",
     cancers: ["urothelial"], drugs: ["enfortumab-vedotin"],
-    forPatient: "Enfortumab vedotin does not need a Nectin-4 test; the antigen is present in nearly all bladder cancers. Research is looking at whether tumours with extra copies of the Nectin-4 gene respond even better, but that is not part of routine care.", terms: ["ihc", "gene-amplification"], related: ["trop2-expression", "fgfr3-alteration"] }),
+    forPatient: "A Nectin-4 result belongs to the tested sample. The U.S. PADCEV label does not use an expression cutoff to select patients for its labelled uses. That rule does not make the marker biologically irrelevant, demonstrate an individual response or establish normal-tissue safety.", terms: ["ihc", "gene-amplification"], related: ["trop2-expression", "fgfr3-alteration"] ,
+"asOf": "2026-11-11",
+"notes": [
+  "M-Rabet's 2017 study found membranous Nectin-4 staining in 62% of 61 TNBCs and did not detect protein in the adult normal tissues examined by that assay. That negative assay result is not universal normal-tissue absence or a safety advantage. PADCEV, a different finished Nectin-4-directed construct, carries a boxed warning for severe and fatal skin reactions. Keep antibody, preparation, tissue coverage, detection limits, product and exposure with the comparison.",
+  "A staining prevalence, activity of an experimental conjugate in a mouse and a response rate in a nonrandomised clinical cohort are different observations. The EV-202 breast-cohort results are on the trial record. Comparing them with a different product's randomised trial or an unrelated tissue survey cannot rank Nectin-4 against TROP2 as an intrinsically better target, a safer target or a more effective clinical choice."
+],
+"links": [
+  {
+    "label": "M-Rabet et al.: Nectin-4 staining and experimental conjugate activity (2017)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27998973/"
+  },
+  {
+    "label": "EV-202: the existing trial record and cohort-specific results",
+    "url": "https://clinicaltrials.gov/study/NCT04225117"
+  },
+  {
+    "label": "Giordano et al.: previously treated breast cohorts in phase 2 EV-202 (2025)",
+    "url": "https://doi.org/10.1200/OA-25-00053"
+  }
+]
+,
+"scoringRule": {
+  "text": "The U.S. PADCEV label does not require a Nectin-4 expression threshold for its specified uses. This label rule is separate from research assays and other investigational products.",
+  "quote": "PADCEV is a Nectin-4-directed antibody and microtubule inhibitor conjugate",
+  "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed",
+  "sourceLabel": "PADCEV U.S. prescribing information: indications and patient selection"
+}
+}),
 
   expr({ id: "her3-expression", name: "HER3 expression", aka: ["HER3", "ERBB3 expression", "HER3-positive", "HER3 IHC"], target: "her3",
     tldr: "HER3 is a signalling partner of EGFR and HER2 present on most lung and breast cancers. Patritumab deruxtecan was studied in EGFR-mutant lung cancer without a HER3 threshold, and no approval exists.",
@@ -150,11 +186,38 @@ export const biomarkerReadouts4: BiomarkerInput[] = [
     forPatient: "There is no approved HER3-directed drug and no HER3 test you would routinely have. Patritumab deruxtecan is available only in trials, which enrol on the EGFR mutation rather than on HER3 staining.", related: ["egfr-exon-19-deletion", "her2-ihc-3-plus"] }),
 
   expr({ id: "b7-h3-expression", name: "B7-H3 (CD276) expression", aka: ["B7-H3", "CD276 expression", "B7-H3 positive"], target: "b7h3",
-    tldr: "B7-H3 is an immune checkpoint protein overexpressed on small-cell lung, prostate and many solid tumours. Ifinatamab deruxtecan is in phase 3 for small-cell lung cancer without an expression cut-off; nothing is approved.",
-    summary: "Ifinatamab deruxtecan (I-DXd) is being compared with topotecan or other chemotherapy in relapsed small-cell lung cancer in IDeate-Lung02 (NCT06203210) with no B7-H3 selection; earlier phase studies found responses across expression levels. Other B7-H3 ADCs and radioligands are in early trials. No regulator has approved a B7-H3-directed drug.",
-    quote: "IDeate-Lung02: ifinatamab deruxtecan versus treatment of physician's choice in relapsed small cell lung cancer", source: CT("NCT06203210"), sourceLabel: "ClinicalTrials.gov NCT06203210 (IDeate-Lung02)", definedBy: { label: "IDeate-Lung02 (NCT06203210)", url: CT("NCT06203210") },
+    tldr: "B7-H3 expression is an assay result. A positive stain does not by itself establish drug activity, safety or eligibility.",
+    summary: "B7-H3, also called CD276, has been studied on cancer cells and tumour-associated vessels. Expression in a tissue sample is different from accessible binding, delivered active material and clinical benefit. Preclinical compartment-targeting experiments and clinical trial registrations answer different questions; neither supplies a universal expression threshold or a breast-cancer prevalence estimate.",
+    quote: "B7-H3 protein expression", source: CT("NCT06203210"), sourceLabel: "ClinicalTrials.gov NCT06203210 (IDeate-Lung02)", definedBy: { label: "IDeate-Lung02 (NCT06203210)", url: CT("NCT06203210") },
     cancers: ["sclc", "extensive-stage-sclc", "prostate-mcrpc"], drugs: ["ifinatamab-deruxtecan"],
-    forPatient: "B7-H3 is a research target. If you have small-cell lung cancer that has returned, a trial of ifinatamab deruxtecan may be open to you without any B7-H3 test; ask your team.", related: ["dll3-expression"] }),
+    forPatient: "A B7-H3 staining result does not by itself establish eligibility for ifinatamab deruxtecan. Each study has its own disease, prior-treatment, other eligibility and site requirements; a recruiting entry is not an approval or a promise that a place is available.", related: ["dll3-expression"] ,
+"asOf": "2026-11-11",
+"notes": [
+  "Seaman's 2017 preclinical work compared defined CD276 conjugates in mouse tumour models. The MMAE construct acted on CD276-positive cancer cells but did not effectively ablate tumour vessels; the PBD construct acted on both compartments and eradicated large established tumours and metastases in the reported models. Preserve the particular antibody, payload, compartment and model. This result does not mean that every B7-H3 payload will behave alike or establish the frequency of expression or benefit in people with breast cancer.",
+  "In the ClinicalTrials.gov entries checked on 11 November 2026, three named ifinatamab deruxtecan studies were phase 3 and recruiting: NCT06203210 in relapsed small-cell lung cancer, NCT06925737 in metastatic castration-resistant prostate cancer and NCT06644781 in previously treated advanced or metastatic oesophageal squamous-cell cancer. Their diseases and comparators remain separate. Phase and recruitment are dated registry facts, not reported efficacy, an approval decision, guaranteed enrolment or a breast-cancer indication."
+],
+"links": [
+  {
+    "label": "Seaman et al.: CD276 cancer-cell and vascular targeting in preclinical models (2017)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28399408/"
+  },
+  {
+    "label": "ClinicalTrials.gov NCT06925737 (captured 11 November 2026)",
+    "url": "https://clinicaltrials.gov/study/NCT06925737"
+  },
+  {
+    "label": "ClinicalTrials.gov NCT06644781 (captured 11 November 2026)",
+    "url": "https://clinicaltrials.gov/study/NCT06644781"
+  }
+]
+,
+"scoringRule": {
+  "text": "The IDeate-Lung02 registry describes B7-H3 protein expression as a research variable. A trial objective is not a universal clinical expression threshold.",
+  "quote": "B7-H3 protein expression",
+  "source": "https://clinicaltrials.gov/study/NCT06203210",
+  "sourceLabel": "ClinicalTrials.gov NCT06203210: secondary objectives"
+}
+}),
 
   expr({ id: "dll3-expression", name: "DLL3 expression", aka: ["DLL3", "DLL3-positive", "delta-like ligand 3 expression", "DLL3 IHC"], target: "dll3",
     tldr: "DLL3 sits on the surface of about 85 percent of small-cell lung cancers and almost no normal adult tissue. Tarlatamab is given without a DLL3 test.",
@@ -232,19 +295,66 @@ export const biomarkerReadouts4: BiomarkerInput[] = [
 
   b({ id: "ctdna-mrd-positive", name: "ctDNA MRD positivity (molecular residual disease after curative treatment)", aka: ["ctDNA MRD", "ctDNA positive", "ctDNA-positive", "molecular residual disease", "MRD-positive ctDNA", "Signatera positive", "ctDNA detected after surgery"],
     measurement: "ctdna-detection",
-    tldr: "A ctDNA MRD test looks for the tumour's own mutations in blood after surgery. Detection predicts relapse months before scans, and in 2026 the FDA approved Signatera as the companion test selecting bladder cancer patients for adjuvant atezolizumab.",
-    summary: "Tumour-informed assays sequence the tumour first and track a personalised set of variants in plasma: Signatera, RaDaR ST, Oncodetect and Haystack MRD from an exome, and NeXT Personal, FoundationOne MRD, Precise MRD, TrueMRD and Labcorp Plasma Detect Genome from a whole genome. Tumour-naive assays (Guardant Reveal, Tempus xM) read mutations, methylation or fragment patterns without a tumour sample, and NavDx counts HPV DNA shed by HPV-driven throat and anal cancers. Medicare's MolDX billing article A58376 names the tests it covers for residual disease and the cancers each is covered in. A positive result is any detection above the assay's calling threshold, reported as detected or not detected with a level. IMvigor011 showed a survival benefit for atezolizumab over placebo in ctDNA-positive muscle-invasive bladder cancer after cystectomy, and the FDA list carries Signatera CDx as the companion diagnostic for Tecentriq in that setting (P260004, 15 May 2026); the Tecentriq label read on 20 May 2026 predates the indication text in the openFDA copy, so the threshold here is quoted from the FDA list. In colorectal cancer the DYNAMIC trial and the ongoing CIRCULATE trials use ctDNA to guide adjuvant chemotherapy. As a genome-wide readout it sits under no target.",
+    tldr: "A positive ctDNA residual-disease result means a qualifying signal was detected under the assay's rules after treatment. Its source, sample and clinical setting determine what it means; recurrence and treatment benefit are separate questions.",
+    summary: "Tumour-informed assays sequence the tumour first and track a personalised set of variants in plasma: Signatera, RaDaR ST, Oncodetect and Haystack MRD from an exome, and NeXT Personal, FoundationOne MRD, Precise MRD, TrueMRD and Labcorp Plasma Detect Genome from a whole genome. Tumour-naive assays (Guardant Reveal, Tempus xM) read mutations, methylation or fragment patterns without a tumour sample, and NavDx counts HPV DNA shed by HPV-driven throat and anal cancers. Medicare's MolDX billing article A58376 names the tests it covers for residual disease and the cancers each is covered in. A positive result meets the assay's calling rule; some methods return a qualitative call and others also report a level. IMvigor011 showed a survival benefit for atezolizumab over placebo in ctDNA-positive muscle-invasive bladder cancer after cystectomy, and FDA approved Signatera CDx on 15 May 2026 (P260004) to identify ctDNA MRD-positive muscle-invasive bladder cancer for the associated Tecentriq therapies, in accordance with the approved therapeutic labelling. That specific indication does not make all MRD assays interchangeable. In colorectal cancer the DYNAMIC trial and the ongoing CIRCULATE trials use ctDNA to guide adjuvant chemotherapy. As a genome-wide readout it sits under no target.",
     scoringRule: { text: "Detection of tumour-derived DNA in plasma above the assay's validated calling threshold after curative treatment (Signatera: two or more of 16 patient-specific variants detected), reported as MRD-positive with a mean tumour molecules per millilitre level.", quote: "Circulating tumor DNA (ctDNA) molecular residual disease (MRD): Signatera CDx (Natera, Inc.) Muscle Invasive Bladder Cancer (MIBC) - Plasma TECENTRIQ (atezolizumab), TECENTRIQ HYBREZA BLA 761347 P260004 (05/15/2026)", source: FDA_CDX_URL, sourceLabel: FDA_CDX_LABEL },
     thresholds: [th({ value: "ctDNA MRD-positive by Signatera CDx after cystectomy", drugId: "atezolizumab", cancerId: "urothelial", regulator: "FDA", source: FDA_CDX_URL, quote: "Circulating tumor DNA (ctDNA) molecular residual disease (MRD): ctDNA MRD", note: "FDA companion diagnostic row P260004 (15 May 2026) for Tecentriq in muscle-invasive bladder cancer; the atezolizumab label copy read on DailyMed on 23 Sept 2026 (effective 20 May 2026) is the label version to check for the indication text." })],
     cancers: ["urothelial", "colorectal", "tnbc", "nsclc", "breast-cancer"], drugs: ["atezolizumab", "signatera", "guardant-reveal", "radar-mrd", "oncodetect", "next-personal", "foundationone-mrd", "haystack-mrd", "labcorp-plasma-detect", "precise-mrd", "truemrd", "tempus-xm-mrd", "navdx", "clonoseq"], tests: ["signatera", "guardant-reveal", "radar-mrd", "next-personal", "oncodetect", "foundationone-mrd", "haystack-mrd", "labcorp-plasma-detect", "precise-mrd", "truemrd", "tempus-xm-mrd", "navdx"],
     companionDiagnostics: [cdx("Signatera CDx", "Natera", "Muscle Invasive Bladder Cancer (MIBC) - Plasma", ["atezolizumab"], "P260004 (05/15/2026)", "natera")],
     forPatient: "A positive ctDNA test after surgery means traces of the cancer's DNA are still in your blood and relapse is likely without more treatment. In muscle-invasive bladder cancer a positive Signatera result now selects a year of atezolizumab; in bowel cancer it is used in trials and by some teams to decide on chemotherapy. A negative result is reassuring but not a guarantee, and testing is usually repeated over time.",
-    terms: ["ctdna", "mrd", "tumour-informed-assay", "cfdna"], related: ["tmb-high", "esr1-mutation-ctdna"], links: [{ label: FDA_CDX_LABEL, url: FDA_CDX_URL }, { label: "TECENTRIQ prescribing information (DailyMed)", url: LABEL.tecentriq }, { label: "CMS MolDX billing article A58376: minimal residual disease testing for solid tumour cancers", url: "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58376" }], tags: ["biomarker", "genome-wide", "ctdna", "precision"] }),
+    terms: ["ctdna", "mrd", "tumour-informed-assay", "cfdna"], related: [
+  "tmb-high",
+  "esr1-mutation-ctdna",
+  "b-subclone-attribution-residual-disease",
+  "ctdna-imaging-discordance"
+], links: [
+  {
+    "label": "FDA: List of FDA-Authorized Companion Diagnostic Devices",
+    "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+  },
+  {
+    "label": "TECENTRIQ prescribing information (DailyMed)",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee"
+  },
+  {
+    "label": "CMS MolDX billing article A58376: minimal residual disease testing for solid tumour cancers",
+    "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58376"
+  },
+  {
+    "label": "Scherer et al., Sci Transl Med 2016: ctDNA genotyping classifies cell of origin and tracks genome evolution in lymphoma (92 patients)",
+    "url": "https://doi.org/10.1126/scitranslmed.aai8545"
+  },
+  {
+    "label": "Kurtz et al., Nat Biotechnol 2021: PhasED-seq, phased variants for residual disease detection in B-cell lymphoma (213 participants)",
+    "url": "https://doi.org/10.1038/s41587-021-00981-w"
+  },
+  {
+    "label": "Circulating tumor DNA and magnetic resonance imaging to predict neoadjuvant chemotherapy response and recurrence risk",
+    "url": "https://doi.org/10.1038/s41523-021-00239-3"
+  },
+  {
+    "label": "Powles et al.: ctDNA-guided adjuvant atezolizumab in muscle-invasive bladder cancer (IMvigor011, 2025)",
+    "url": "https://doi.org/10.1056/NEJMoa2511885"
+  },
+  {
+    "label": "FDA: Signatera CDx P260004 summary of safety and effectiveness (2026)",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/P260004B.pdf"
+  }
+], tags: ["biomarker", "genome-wide", "ctdna", "precision"], notes: [
+  "What the call and the number each say: a positive is detection above the assay's calling rule in one finite plasma aliquot, and any accompanying concentration or fraction has its own unit and validated range, so a detected value below the quantitation range does not support an exact fold change. In the I-SPY 2 pilot of 84 patients, ctDNA positivity after neoadjuvant chemotherapy added significantly to MRI functional tumour volume for predicting distant recurrence and death (p = 0.004), while ctDNA early in treatment gave only a numerical gain for predicting pathological complete response (Magbanua 2021). A positive can also come from a blood-cell clone unless origin is checked, and a blood result and an imaging or pathology result can differ because they sample different material, regions and times.",
+  "A molecular detection is evidence about the sampled material under an assay's rule. It is not a direct count of living cancer cells, a location, or a guarantee of later recurrence. Source attribution, specimen quality and the intended clinical use remain necessary. FDA's Signatera CDx summary describes a qualitative positive or negative result for its defined bladder-cancer use; a generic residual-disease result should therefore not be assumed to include a validated quantitative concentration."
+],
+"asOf": "2026-11-10"
+}),
 
-  b({ id: "hla-a-02-01", name: "HLA-A*02:01 (HLA typing for TCR therapies)", aka: ["HLA-A*02:01", "HLA-A2", "HLA-A*02:01-positive", "HLA-A0201", "HLA typing", "HLA-A*02"],
+  b({ id: "hla-a-02-01", name: "HLA-A*02:01 (HLA typing for TCR therapies)", aka: [
+  "HLA-A*02:01",
+  "HLA-A*02:01-positive",
+  "HLA-A0201"
+],
     target: "hla-a", measurement: "hla-typing",
-    tldr: "HLA-A*02:01 is the commonest tissue-type molecule in people of European descent and the one the first T-cell receptor therapies were built for. Tebentafusp and afamitresgene autoleucel work only in patients who carry it, so a blood HLA test comes before the tumour test.",
-    summary: "HLA typing by sequencing (the SeCore CDx HLA Sequencing System is the FDA-listed companion diagnostic for both drugs) reports the patient's HLA-A alleles. Tebentafusp (Kimmtrak) is labelled for HLA-A*02:01-positive adults with unresectable or metastatic uveal melanoma; afamitresgene autoleucel (Tecelra) for synovial sarcoma in patients who are HLA-A*02:01P, -A*02:02P, -A*02:03P or -A*02:06P positive and whose tumour expresses MAGE-A4 by the MAGE-A4 IHC 1F9 pharmDx, with HLA-A*02:05P as an exclusion allele. About 45 percent of Europeans and fewer people of African or East Asian ancestry carry A*02:01, which limits access and drives development of TCR therapies for other alleles.",
+    tldr: "HLA-A*02:01 is a specific allele used as an eligibility marker for some T-cell receptor therapies. Typing alone does not establish eligibility, target display or benefit.",
+    summary: "HLA typing by sequencing (the SeCore CDx HLA Sequencing System is the FDA-listed companion diagnostic for both drugs) reports the patient's HLA-A alleles. Tebentafusp (Kimmtrak) is labelled for HLA-A*02:01-positive adults with unresectable or metastatic uveal melanoma; afamitresgene autoleucel (Tecelra) for synovial sarcoma in patients who are HLA-A*02:01P, -A*02:02P, -A*02:03P or -A*02:06P positive and whose tumour expresses MAGE-A4 by the MAGE-A4 IHC 1F9 pharmDx, with HLA-A*02:05P as an exclusion allele. About 45 percent of Europeans and fewer people of African or East Asian ancestry carry A*02:01, which limits access and drives development of TCR therapies for other alleles. A typing report is read with its resolution: a group-level result such as HLA-A*02 cannot be completed as A*02:01, because the group holds different protein variants, and typing of inherited DNA does not show whether the tumour still expresses the allele or displays the target peptide.",
     scoringRule: { text: "Presence of the HLA-A*02:01 allele (for tebentafusp) or of HLA-A*02:01P, A*02:02P, A*02:03P or A*02:06P without A*02:05P (for afamitresgene autoleucel) by HLA sequencing of blood.", quote: "Eligible alleles: HLA-A*02:01, HLA-A*02:02, HLA-A*02:03 or HLA-A*02:06 and their P-group alleles. Exclusion alleles: HLA-A*02:05 and its P-group alleles.", source: FDA_CDX_URL, sourceLabel: FDA_CDX_LABEL },
     thresholds: [
       th({ value: "HLA-A*02:01-positive", drugId: "tebentafusp", cancerId: "uveal-melanoma", regulator: "FDA", source: LABEL.kimmtrak, quote: "KIMMTRAK is indicated for the treatment of HLA-A*02:01-positive adult patients with unresectable or metastatic uveal melanoma." }),
@@ -253,7 +363,29 @@ export const biomarkerReadouts4: BiomarkerInput[] = [
     cancers: ["uveal-melanoma", "synovial-sarcoma", "melanoma"], drugs: ["tebentafusp", "afamitresgene-autoleucel"],
     companionDiagnostics: [cdx("SeCore CDx HLA Sequencing System", "One Lambda (Thermo Fisher Scientific)", "Uveal Melanoma - Whole Blood", ["tebentafusp"], "BR220737 (11/28/2022)", "one-lambda"), cdx("SeCore CDx HLA Sequencing System", "One Lambda (Thermo Fisher Scientific)", "Synovial sarcoma - Whole blood", ["afamitresgene-autoleucel"], "BK241074 (08/01/2024)", "one-lambda"), cdx("MAGE-A4 IHC 1F9 pharmDx", "Agilent Technologies", "Synovial sarcoma - Tissue", ["afamitresgene-autoleucel"], "P230016 (08/01/2024)", "agilent")],
     forPatient: "Your HLA type is inherited and tested from a blood sample. If you carry HLA-A*02:01, tebentafusp is on label for advanced uveal melanoma, the only drug shown to extend survival in that disease, and afamitresgene autoleucel is an option for synovial sarcoma if the tumour also expresses MAGE-A4. If you do not carry the allele these particular treatments cannot work, and trials for other HLA types are the route to ask about.",
-    terms: ["hla-a02-restriction", "uveal-melanoma-prognostic-markers"], related: ["pd-l1-cps"], links: [{ label: "KIMMTRAK prescribing information (DailyMed)", url: LABEL.kimmtrak }, { label: "TECELRA prescribing information (DailyMed)", url: LABEL.tecelra }], tags: ["biomarker", "hla"] }),
+    terms: ["hla-a02-restriction", "uveal-melanoma-prognostic-markers"], related: [
+  "pd-l1-cps",
+  "hla-typing-and-nomenclature"
+], links: [
+  {
+    "label": "KIMMTRAK prescribing information (DailyMed)",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=24a49f57-d2fc-4ffe-9eb1-fe0460c6b067"
+  },
+  {
+    "label": "TECELRA prescribing information (DailyMed)",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ab24631f-3364-46e1-8074-7244863bcbab"
+  },
+  {
+    "label": "OptiType: precision HLA typing from next-generation sequencing data.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25143287/"
+  },
+  {
+    "label": "Phase-defined complete sequencing of the HLA genes by next-generation sequencing.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23714642/"
+  }
+], tags: ["biomarker", "hla"] ,
+"asOf": "2026-11-09"
+}),
 ];
 
 /**

@@ -1,0 +1,879 @@
+[
+  {
+    "queryId": "elispot-origin",
+    "capture": "primary/elispot-origin.json",
+    "rank": 1,
+    "pmid": "1752401",
+    "doi": "10.1007/bf02781690",
+    "title": "A solid-phase enzyme-linked immunospot (ELISPOT) assay for detection of Helicobacter pylori antibody-producing cells in gastric mucosa.",
+    "disposition": "lookup alternative or discovery; not used for new claims",
+    "recordIds": [],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Preserved as a retrieved result; no substantive claim is drawn from this result in this patch."
+  },
+  {
+    "queryId": "elispot-origin",
+    "capture": "primary/elispot-origin.json",
+    "rank": 2,
+    "pmid": "6361139",
+    "doi": "10.1016/0022-1759(83)90308-3",
+    "title": "A solid-phase enzyme-linked immunospot (ELISPOT) assay for enumeration of specific antibody-secreting cells.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "elispot"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "elispot-origin",
+    "capture": "primary/elispot-origin.json",
+    "rank": 3,
+    "pmid": "6381602",
+    "doi": "10.1016/0022-1759(84)90013-9",
+    "title": "Solid-phase enzyme-linked immunospot (ELISPOT) assay for enumeration of IgG rheumatoid factor-secreting cells.",
+    "disposition": "lookup alternative or discovery; not used for new claims",
+    "recordIds": [],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Preserved as a retrieved result; no substantive claim is drawn from this result in this patch."
+  },
+  {
+    "queryId": "elispot-harmonization",
+    "capture": "primary/elispot-harmonization.json",
+    "rank": 1,
+    "pmid": "17721781",
+    "doi": "10.1007/s00262-007-0380-6",
+    "title": "Results and harmonization guidelines from two large-scale international Elispot proficiency panels conducted by the Cancer Vaccine Consortium (CVC/SVI).",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "elispot"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "ics-origin",
+    "capture": "primary/ics-origin.json",
+    "rank": 1,
+    "pmid": "9120019",
+    "doi": "10.1172/jci119338",
+    "title": "Determination of antigen-specific memory/effector CD4+ T cell frequencies by flow cytometry: evidence for a novel, antigen-specific homeostatic mechanism in HIV-associated immunodeficiency.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "flow-cytometry",
+      "intracellular-cytokine-staining"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "multimer-origin",
+    "capture": "primary/multimer-origin.json",
+    "rank": 1,
+    "pmid": "21690331",
+    "doi": null,
+    "title": "Phenotypic analysis of antigen-specific T lymphocytes. Science. 1996. 274: 94-96.",
+    "disposition": "lookup alternative or discovery; not used for new claims",
+    "recordIds": [],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Preserved as a retrieved result; no substantive claim is drawn from this result in this patch."
+  },
+  {
+    "queryId": "multimer-origin",
+    "capture": "primary/multimer-origin.json",
+    "rank": 2,
+    "pmid": "8810254",
+    "doi": "10.1126/science.274.5284.94",
+    "title": "Phenotypic analysis of antigen-specific T lymphocytes.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "peptide-hla-multimer-staining",
+      "tcr-repertoire-clonality",
+      "tcr-repertoire-sequencing"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "degranulation-readout",
+    "capture": "primary/degranulation-readout.json",
+    "rank": 1,
+    "pmid": "14580882",
+    "doi": "10.1016/s0022-1759(03)00265-5",
+    "title": "Sensitive and viable identification of antigen-specific CD8+ T cells by a flow cytometric assay for degranulation.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "immune-cytotoxicity-assays",
+      "intracellular-cytokine-staining",
+      "peptide-hla-multimer-staining"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "tcr-repertoire",
+    "capture": "primary/tcr-repertoire.json",
+    "rank": 1,
+    "pmid": "19706884",
+    "doi": "10.1182/blood-2009-04-217604",
+    "title": "Comprehensive assessment of T-cell receptor beta-chain diversity in alphabeta T cells.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "tcr-repertoire-clonality",
+      "tcr-repertoire-sequencing"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "pbmc-processing",
+    "capture": "primary/pbmc-processing.json",
+    "rank": 1,
+    "pmid": "26121226",
+    "doi": "10.1667/rr13897.1",
+    "title": "Defining Blood Processing Parameters for Optimal Detection of γ-H2AX Foci: A Small Blood Volume Method.",
+    "disposition": "lookup alternative or discovery; not used for new claims",
+    "recordIds": [],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Preserved as a retrieved result; no substantive claim is drawn from this result in this patch."
+  },
+  {
+    "queryId": "pbmc-processing",
+    "capture": "primary/pbmc-processing.json",
+    "rank": 2,
+    "pmid": "17382342",
+    "doi": "10.1016/j.jim.2007.02.003",
+    "title": "Defining blood processing parameters for optimal detection of cryopreserved antigen-specific responses for HIV vaccine trials.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "pbmc-specimens"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "immunopeptidomics",
+    "capture": "primary/immunopeptidomics.json",
+    "rank": 1,
+    "pmid": "27869121",
+    "doi": "10.1038/ncomms13404",
+    "title": "Direct identification of clinically relevant neoepitopes presented on native human melanoma tissue by mass spectrometry.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "antigen-presentation-immunoediting",
+      "binding-presentation-recognition",
+      "immune-product-evidence",
+      "immunopeptidome",
+      "immunopeptidomics",
+      "neoantigen"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "netmhcpan",
+    "capture": "primary/netmhcpan.json",
+    "rank": 1,
+    "pmid": "28978689",
+    "doi": "10.4049/jimmunol.1700893",
+    "title": "NetMHCpan-4.0: Improved Peptide-MHC Class I Interaction Predictions Integrating Eluted Ligand and Peptide Binding Affinity Data.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "binding-presentation-recognition",
+      "peptide-hla-binding-prediction"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "neoantigen-consortium",
+    "capture": "primary/neoantigen-consortium.json",
+    "rank": 1,
+    "pmid": "33038342",
+    "doi": "10.1016/j.cell.2020.09.015",
+    "title": "Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium Approach Improve Neoantigen Prediction.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "antigen-presentation-immunoediting",
+      "binding-presentation-recognition",
+      "immunopeptidomics",
+      "neoantigen",
+      "peptide-hla-binding-prediction"
+    ],
+    "existingCanonicalPaperOwnerIds": [
+      "paper-wells-cell"
+    ],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "neoantigen-vaccine",
+    "capture": "primary/neoantigen-vaccine.json",
+    "rank": 1,
+    "pmid": "29542692",
+    "doi": "10.1038/nature25145",
+    "title": "Corrigendum: An immunogenic personal neoantigen vaccine for patients with melanoma.",
+    "disposition": "lookup alternative or discovery; not used for new claims",
+    "recordIds": [],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Preserved as a retrieved result; no substantive claim is drawn from this result in this patch."
+  },
+  {
+    "queryId": "neoantigen-vaccine",
+    "capture": "primary/neoantigen-vaccine.json",
+    "rank": 2,
+    "pmid": "28678778",
+    "doi": "10.1038/nature22991",
+    "title": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "immunogenicity-versus-efficacy"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "epitope-spreading",
+    "capture": "primary/epitope-spreading.json",
+    "rank": 1,
+    "pmid": "33479501",
+    "doi": "10.1038/s41591-020-01206-4",
+    "title": "Personal neoantigen vaccines induce persistent memory T cell responses and epitope spreading in patients with melanoma.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "epitope-spreading",
+      "immunogenicity-versus-efficacy"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "immunodominance",
+    "capture": "primary/immunodominance.json",
+    "rank": 1,
+    "pmid": "11034600",
+    "doi": "10.1084/jem.192.8.1105",
+    "title": "T cells compete for access to antigen-bearing antigen-presenting cells.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "immunodominance",
+      "multi-epitope-constructs"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "cross-recognition",
+    "capture": "primary/cross-recognition.json",
+    "rank": 1,
+    "pmid": "23926201",
+    "doi": "10.1126/scitranslmed.3006034",
+    "title": "Identification of a Titin-derived HLA-A1-presented peptide as a cross-reactive target for engineered MAGE A3-directed T cells.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "self-similarity-immune-recognition"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "cross-recognition-clinical",
+    "capture": "primary/cross-recognition-clinical.json",
+    "rank": 1,
+    "pmid": "23770775",
+    "doi": "10.1182/blood-2013-03-490565",
+    "title": "Cardiovascular toxicity and titin cross-reactivity of affinity-enhanced T cells in myeloma and melanoma.",
+    "disposition": "lookup alternative or discovery; not used for new claims",
+    "recordIds": [],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Preserved as a retrieved result; no substantive claim is drawn from this result in this patch."
+  },
+  {
+    "queryId": "rna-integrity",
+    "capture": "primary/rna-integrity.json",
+    "rank": 1,
+    "pmid": "16448564",
+    "doi": "10.1186/1471-2199-7-3",
+    "title": "The RIN: an RNA integrity number for assigning integrity values to RNA measurements.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "rna-integrity"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "paired-preservation",
+    "capture": "primary/paired-preservation.json",
+    "rank": 1,
+    "pmid": "24878701",
+    "doi": "10.1371/journal.pone.0098187",
+    "title": "Next-generation sequencing of RNA and DNA isolated from paired fresh-frozen and formalin-fixed paraffin-embedded samples of human cancer and normal tissue.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "preanalytics-sample-stabilisation",
+      "tissue-preparation-assay-fit"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "viable-organoids",
+    "capture": "primary/viable-organoids.json",
+    "rank": 1,
+    "pmid": "29224780",
+    "doi": "10.1016/j.cell.2017.11.010",
+    "title": "A Living Biobank of Breast Cancer Organoids Captures Disease Heterogeneity.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "tissue-preparation-assay-fit"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "pathology-specimen",
+    "capture": "primary/pathology-specimen.json",
+    "rank": 1,
+    "pmid": "32721405",
+    "doi": "10.1016/j.chest.2020.07.053",
+    "title": "Key Highlights for the College of American Pathology Statement on Collection and Handling of Thoracic Small Biopsy and Cytology Specimens for Ancillary Studies.",
+    "disposition": "lookup alternative or discovery; not used for new claims",
+    "recordIds": [],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Preserved as a retrieved result; no substantive claim is drawn from this result in this patch."
+  },
+  {
+    "queryId": "pathology-specimen",
+    "capture": "primary/pathology-specimen.json",
+    "rank": 2,
+    "pmid": "32439185",
+    "doi": "10.1016/j.jasc.2020.04.001",
+    "title": "Collection and Handling of Thoracic Small Biopsy and Cytology Specimens for Ancillary Studies Guideline from the College of American Pathologists (CAP): implications for the cytology community.",
+    "disposition": "lookup alternative or discovery; not used for new claims",
+    "recordIds": [],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Preserved as a retrieved result; no substantive claim is drawn from this result in this patch."
+  },
+  {
+    "queryId": "pathology-specimen",
+    "capture": "primary/pathology-specimen.json",
+    "rank": 3,
+    "pmid": "32401054",
+    "doi": "10.5858/arpa.2020-0119-cp",
+    "title": "Collection and Handling of Thoracic Small Biopsy and Cytology Specimens for Ancillary Studies: Guideline From the College of American Pathologists in Collaboration With the American College of Chest Physicians, Association for Molecular Pathology, American Society of Cytopathology, American Thoracic Society, Pulmonary Pathology Society, Papanicolaou Society of Cytopathology, Society of Interventional Radiology, and Society of Thoracic Radiology.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "finite-tissue-budget"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "modified-nucleosides",
+    "capture": "primary/modified-nucleosides.json",
+    "rank": 1,
+    "pmid": "16111635",
+    "doi": "10.1016/j.immuni.2005.06.008",
+    "title": "Suppression of RNA recognition by Toll-like receptors: the impact of nucleoside modification and the evolutionary origin of RNA.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "modified-rna-nucleosides"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "rna-purification",
+    "capture": "primary/rna-purification.json",
+    "rank": 1,
+    "pmid": "21890902",
+    "doi": "10.1093/nar/gkr695",
+    "title": "Generating the optimal mRNA for therapy: HPLC purification eliminates immune activation and improves translation of nucleoside-modified, protein-encoding mRNA.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "dsrna-impurities",
+      "in-vitro-transcription",
+      "modified-rna-nucleosides",
+      "mrna-construct-anatomy"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "dsrna-removal",
+    "capture": "primary/dsrna-removal.json",
+    "rank": 1,
+    "pmid": "30933724",
+    "doi": "10.1016/j.omtn.2019.02.018",
+    "title": "A Facile Method for the Removal of dsRNA Contaminant from In Vitro-Transcribed mRNA.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "dsrna-impurities",
+      "in-vitro-transcription"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "mrna-structure",
+    "capture": "primary/mrna-structure.json",
+    "rank": 1,
+    "pmid": "31712433",
+    "doi": "10.1073/pnas.1908052116",
+    "title": "mRNA structure regulates protein expression through changes in functional half-life.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "codon-optimization",
+      "mrna-construct-anatomy"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "codon-optimality",
+    "capture": "primary/codon-optimality.json",
+    "rank": 1,
+    "pmid": "25768907",
+    "doi": "10.1016/j.cell.2015.02.029",
+    "title": "Codon optimality is a major determinant of mRNA stability.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "codon-optimization"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "multiepitope-design",
+    "capture": "primary/multiepitope-design.json",
+    "rank": 1,
+    "pmid": "40877653",
+    "doi": "10.1007/s10517-025-06462-3",
+    "title": "The Immunogenicity of an Artificial Tick-Borne Encephalitis Virus Polyepitope Immunogen May Depend on Spacers Flanking Epitope.",
+    "disposition": "lookup alternative or discovery; not used for new claims",
+    "recordIds": [],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Preserved as a retrieved result; no substantive claim is drawn from this result in this patch."
+  },
+  {
+    "queryId": "multiepitope-design",
+    "capture": "primary/multiepitope-design.json",
+    "rank": 2,
+    "pmid": "24107711",
+    "doi": "10.1186/1756-0500-6-407",
+    "title": "PolyCTLDesigner: a computational tool for constructing polyepitope T-cell antigens.",
+    "disposition": "lookup alternative or discovery; not used for new claims",
+    "recordIds": [],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Preserved as a retrieved result; no substantive claim is drawn from this result in this patch."
+  },
+  {
+    "queryId": "multiepitope-design",
+    "capture": "primary/multiepitope-design.json",
+    "rank": 3,
+    "pmid": "19644347",
+    "doi": "10.1097/qad.0b013e32832fae88",
+    "title": "Design of a HIV-1-derived HLA-B07.02-restricted polyepitope construct.",
+    "disposition": "lookup alternative or discovery; not used for new claims",
+    "recordIds": [],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Preserved as a retrieved result; no substantive claim is drawn from this result in this patch."
+  },
+  {
+    "queryId": "multiepitope-design",
+    "capture": "primary/multiepitope-design.json",
+    "rank": 4,
+    "pmid": "11249673",
+    "doi": null,
+    "title": "The polyepitope approach to DNA vaccination.",
+    "disposition": "lookup alternative or discovery; not used for new claims",
+    "recordIds": [],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Preserved as a retrieved result; no substantive claim is drawn from this result in this patch."
+  },
+  {
+    "queryId": "multiepitope-design",
+    "capture": "primary/multiepitope-design.json",
+    "rank": 5,
+    "pmid": "7541138",
+    "doi": "10.1073/pnas.92.13.5845",
+    "title": "Minimal epitopes expressed in a recombinant polyepitope protein are processed and presented to CD8+ cytotoxic T cells: implications for vaccine design.",
+    "disposition": "lookup alternative or discovery; not used for new claims",
+    "recordIds": [],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Preserved as a retrieved result; no substantive claim is drawn from this result in this patch."
+  },
+  {
+    "queryId": "scfv-origin",
+    "capture": "primary/scfv-origin.json",
+    "rank": 1,
+    "pmid": "3045807",
+    "doi": "10.1073/pnas.85.16.5879",
+    "title": "Protein engineering of antibody binding sites: recovery of specific activity in an anti-digoxin single-chain Fv analogue produced in Escherichia coli.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "binder-targeting-module",
+      "scfv-vhh-formats"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "vhh-origin",
+    "capture": "primary/vhh-origin.json",
+    "rank": 1,
+    "pmid": "8502296",
+    "doi": "10.1038/363446a0",
+    "title": "Naturally occurring antibodies devoid of light chains.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "binder-targeting-module",
+      "scfv-vhh-formats"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "antibody-developability",
+    "capture": "primary/antibody-developability.json",
+    "rank": 1,
+    "pmid": "28096333",
+    "doi": "10.1073/pnas.1616408114",
+    "title": "Biophysical properties of the clinical-stage antibody landscape.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "binder-affinity-epitope-developability"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "binder-format",
+    "capture": "primary/binder-format.json",
+    "rank": 1,
+    "pmid": "20309546",
+    "doi": "10.1007/s00262-010-0844-y",
+    "title": "Epitope distance to the target cell membrane and antigen size determine the potency of T cell-mediated lysis by BiTE antibodies specific for a large melanoma surface antigen.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "antigen-presentation-immunoediting",
+      "binder-affinity-epitope-developability",
+      "binder-format-constraints",
+      "binder-targeting-module"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "delivery-versus-target",
+    "capture": "primary/delivery-versus-target.json",
+    "rank": 1,
+    "pmid": "34990237",
+    "doi": "10.1126/science.abm0594",
+    "title": "CAR T cells produced in vivo to treat cardiac injury.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "delivery-target-versus-therapeutic-target"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "cell-segmentation",
+    "capture": "primary/cell-segmentation.json",
+    "rank": 1,
+    "pmid": "34795433",
+    "doi": "10.1038/s41587-021-01094-0",
+    "title": "Whole-cell segmentation of tissue images with human-level performance using large-scale data annotation and deep learning.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "cell-segmentation",
+      "imaging-mass-cytometry"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "imaging-mass-cytometry",
+    "capture": "primary/imaging-mass-cytometry.json",
+    "rank": 1,
+    "pmid": "24584193",
+    "doi": "10.1038/nmeth.2869",
+    "title": "Highly multiplexed imaging of tumor tissues with subcellular resolution by mass cytometry.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "imaging-mass-cytometry"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "phosphosite-normalization",
+    "capture": "primary/phosphosite-normalization.json",
+    "rank": 1,
+    "pmid": "21551504",
+    "doi": "10.1074/mcp.m111.009654",
+    "title": "Correct interpretation of comprehensive phosphorylation dynamics requires normalization by protein expression changes.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "proteomics",
+      "rppa"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "rppa-origin",
+    "capture": "primary/rppa-origin.json",
+    "rank": 1,
+    "pmid": "11360182",
+    "doi": "10.1038/sj.onc.1204265",
+    "title": "Reverse phase protein microarrays which capture disease progression show activation of pro-survival pathways at the cancer invasion front.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "rppa"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "targeted-proteomics",
+    "capture": "primary/targeted-proteomics.json",
+    "rank": 1,
+    "pmid": "19561596",
+    "doi": "10.1038/nbt.1546",
+    "title": "Multi-site assessment of the precision and reproducibility of multiple reaction monitoring-based measurements of proteins in plasma.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "proteomics",
+      "targeted-proteomics-quantification"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "potency-survey",
+    "capture": "primary/potency-survey.json",
+    "rank": 1,
+    "pmid": "40038737",
+    "doi": "10.1186/s12967-025-06253-4",
+    "title": "Analysis of the measurements used as potency tests for the 31 US FDA-approved cell therapy products.",
+    "disposition": "lookup alternative or discovery; not used for new claims",
+    "recordIds": [],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Preserved as a retrieved result; no substantive claim is drawn from this result in this patch."
+  },
+  {
+    "queryId": "mrna-construct-resolved",
+    "capture": "primary/mrna-construct-resolved.json",
+    "rank": 1,
+    "pmid": "16940422",
+    "doi": "10.1182/blood-2006-04-015024",
+    "title": "Modification of antigen-encoding RNA increases stability, translational efficacy, and T-cell stimulatory capacity of dendritic cells.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "in-vitro-transcription",
+      "mrna-construct-anatomy",
+      "multi-epitope-constructs"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "multiepitope-processing",
+    "capture": "primary/multiepitope-processing.json",
+    "rank": 1,
+    "pmid": "11535313",
+    "doi": "10.1016/s0264-410x(01)00233-x",
+    "title": "Optimization of epitope processing enhances immunogenicity of multiepitope DNA vaccines.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "multi-epitope-constructs"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "cytotoxicity-assay",
+    "capture": "primary/cytotoxicity-assay.json",
+    "rank": 1,
+    "pmid": "17617419",
+    "doi": "10.1016/j.jim.2007.05.013",
+    "title": "A novel multiparametric flow cytometry-based cytotoxicity assay simultaneously immunophenotypes effector cells: comparisons to a 4 h 51Cr-release assay.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "flow-cytometry",
+      "immune-cytotoxicity-assays"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "assay-validation-comparison",
+    "capture": "primary/assay-validation-comparison.json",
+    "rank": 1,
+    "pmid": "18366814",
+    "doi": "10.1186/1471-2172-9-9",
+    "title": "Precision and linearity targets for validation of an IFNgamma ELISPOT, cytokine flow cytometry, and tetramer assay using CMV peptides.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "elispot",
+      "flow-cytometry",
+      "immune-product-evidence",
+      "intracellular-cytokine-staining"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "binder-format-comparison",
+    "capture": "primary/binder-format-comparison.json",
+    "rank": 1,
+    "pmid": "42272105",
+    "doi": "10.1016/j.ymthe.2026.06.017",
+    "title": "Antibody format matters: A comparative analysis of VHH and scFv domains reveals superior in vivo CAR T cell function with VHH domains.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "binder-format-constraints",
+      "scfv-vhh-formats"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "rna-quality-comparison",
+    "capture": "primary/rna-quality-comparison.json",
+    "rank": 1,
+    "pmid": "29679021",
+    "doi": "10.1038/s41598-018-24781-6",
+    "title": "Systematic evaluation of RNA quality, microarray data reliability and pathway analysis in fresh, fresh frozen and formalin-fixed paraffin-embedded tissue samples.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "preanalytics-sample-stabilisation",
+      "rna-integrity"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "preanalytic-variables",
+    "capture": "primary/preanalytic-variables.json",
+    "rank": 1,
+    "pmid": "30785788",
+    "doi": "10.5858/arpa.2018-0172-oa",
+    "title": "The Biospecimen Preanalytical Variables Program: A Multiassay Comparison of Effects of Delay to Fixation and Fixation Duration on Nucleic Acid Quality.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "preanalytics-sample-stabilisation",
+      "rna-integrity",
+      "tissue-preparation-assay-fit"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "rppa-antibody-validation",
+    "capture": "primary/rppa-antibody-validation.json",
+    "rank": 1,
+    "pmid": "36572710",
+    "doi": "10.1038/s41598-022-26715-9",
+    "title": "A reverse phase protein array based phospho-antibody characterization approach and its applicability for clinical derived tissue specimens.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "proteomics",
+      "rppa"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "segmentation-errors",
+    "capture": "primary/segmentation-errors.json",
+    "rank": 1,
+    "pmid": "41559218",
+    "doi": "10.1038/s41588-025-02497-4",
+    "title": "Impact and correction of segmentation errors in spatial transcriptomics.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "cell-segmentation"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "manufacturing-failure",
+    "capture": "primary/manufacturing-failure.json",
+    "rank": 1,
+    "pmid": "40032870",
+    "doi": "10.1038/s41408-025-01225-9",
+    "title": "Risk factors for CAR T-cell manufacturing failure and patient outcomes in large B-cell lymphoma: a report from the UK National CAR T Panel.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "vein-to-vein-time"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "mibi",
+    "capture": "primary/mibi.json",
+    "rank": 1,
+    "pmid": "24584119",
+    "doi": "10.1038/nm.3488",
+    "title": "Multiplexed ion beam imaging of human breast tumors.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "imaging-mass-cytometry"
+    ],
+    "existingCanonicalPaperOwnerIds": [],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "existing-her2-source",
+    "capture": "primary/existing-her2-source.json",
+    "rank": 1,
+    "pmid": "29846122",
+    "doi": "10.1200/jco.2018.77.8738",
+    "title": "Human Epidermal Growth Factor Receptor 2 Testing in Breast Cancer: American Society of Clinical Oncology/College of American Pathologists Clinical Practice Guideline Focused Update.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "preanalytics-sample-stabilisation"
+    ],
+    "existingCanonicalPaperOwnerIds": [
+      "paper-wolff-j-clin-oncol-2018"
+    ],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "existing-immunoediting-source",
+    "capture": "primary/existing-immunoediting-source.json",
+    "rank": 1,
+    "pmid": "21436444",
+    "doi": "10.1126/science.1203486",
+    "title": "Cancer immunoediting: integrating immunity's roles in cancer suppression and promotion.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "antigen-presentation-immunoediting"
+    ],
+    "existingCanonicalPaperOwnerIds": [
+      "paper-schreiber-cancer-immunoediting-science-2011"
+    ],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  },
+  {
+    "queryId": "existing-resistance-source",
+    "capture": "primary/existing-resistance-source.json",
+    "rank": 1,
+    "pmid": "27433843",
+    "doi": "10.1056/nejmoa1604958",
+    "title": "Mutations Associated with Acquired Resistance to PD-1 Blockade in Melanoma.",
+    "disposition": "used in final record sources; abstract reviewed",
+    "recordIds": [
+      "antigen-presentation-immunoediting"
+    ],
+    "existingCanonicalPaperOwnerIds": [
+      "paper-zaretsky-n-engl-j-med"
+    ],
+    "rationale": "Exact DOI/PMID identity matched against final source links."
+  }
+]

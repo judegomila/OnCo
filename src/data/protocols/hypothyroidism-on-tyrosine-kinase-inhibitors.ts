@@ -338,7 +338,7 @@ export const hypothyroidismOnTyrosineKinaseInhibitors = protocol({
   drugs: ["sunitinib", "pazopanib", "axitinib", "cabozantinib", "lenvatinib", "tivozanib", "vandetanib", "sorafenib", "fruquintinib"],
   targets: ["vegf"],
   terms: [],
-  related: ["irae-thyroid", "levothyroxine"],
+  related: ["irae-thyroid", "levothyroxine", "hypertension-and-proteinuria-on-vegf-pathway-inhibitors"],
   gaps: [
     "No ESMO, ASCO or European Thyroid Association guideline specific to thyroid dysfunction from kinase inhibitors was found. The two schedules shown come from a 2011 review that calls its own advice not evidence based and from a 2018 French expert opinion.",
     "The French expert opinion (Drui 2018) was read as its abstract only: the publisher's page served no article text to a script and no open copy was found. Four steps (timing the test to day 1 of the cycle, managing the overactive phase, not stopping the kinase inhibitor, and withdrawing levothyroxine afterwards) rest on sentences of that abstract; its full reasoning, grading and any funding statement could not be checked.",

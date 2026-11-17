@@ -222,7 +222,7 @@ export const fluidRetentionAndEffusionsOnKinaseInhibitors = protocol({
   ],
   drugs: ["imatinib", "dasatinib", "avapritinib", "capmatinib", "tepotinib", "amivantamab"],
   terms: ["ctcae-grading", "vte"],
-  related: ["cardio-oncology-risk-assessment-and-cardiac-surveillance", "lymphoedema-risk-reduction-surveillance-and-treatment"],
+  related: ["cardio-oncology-risk-assessment-and-cardiac-surveillance", "lymphoedema-risk-reduction-surveillance-and-treatment", "capillary-leak-syndrome-on-anticancer-drugs", "differentiation-syndrome-recognition-and-treatment"],
   upgrades: [],
   gaps: [
     "No graded guideline on drug-induced oedema from kinase inhibitors was read. The CML recommendations are ungraded expert opinion from 2016; for MET inhibitors the only management paper read is a review whose outline and first draft were written by medical writers funded by Novartis, the maker of capmatinib, and which itself calls management empiric.",

@@ -1,0 +1,795 @@
+{
+  "scripts": [
+    {
+      "script": "scripts/build-api.ts",
+      "exit": 0,
+      "logSha256": "02e818a9e07819852ba308be72c26098d0d910a62c343f82a4cdd5a3de0c662a"
+    },
+    {
+      "script": "scripts/build-openapi.ts",
+      "exit": 0,
+      "logSha256": "37f38fe841d3f68d051dbe3a61182907e2ec102104974238812fceb9c89a6081"
+    },
+    {
+      "script": "scripts/build-context.ts",
+      "exit": 0,
+      "logSha256": "163ef2c030e49c78370204a06a64047862794ded9c0ccf8df4a57454b15ddc31"
+    }
+  ],
+  "integrationTypecheckExit": 0,
+  "canonicalOwners": 65,
+  "jsonAndMarkdownObservationCount": 46,
+  "owners": [
+    {
+      "id": "sn-38",
+      "jsonAndMarkdownObservationCount": 3
+    },
+    {
+      "id": "dxd",
+      "jsonAndMarkdownObservationCount": 6
+    },
+    {
+      "id": "t030",
+      "jsonAndMarkdownObservationCount": 2
+    },
+    {
+      "id": "mmae",
+      "jsonAndMarkdownObservationCount": 4
+    },
+    {
+      "id": "mmaf",
+      "jsonAndMarkdownObservationCount": 5
+    },
+    {
+      "id": "dm1",
+      "jsonAndMarkdownObservationCount": 4
+    },
+    {
+      "id": "dm4",
+      "jsonAndMarkdownObservationCount": 5
+    },
+    {
+      "id": "pbd-sg3199",
+      "jsonAndMarkdownObservationCount": 6
+    },
+    {
+      "id": "calicheamicin",
+      "jsonAndMarkdownObservationCount": 4
+    },
+    {
+      "id": "duocarmycin",
+      "jsonAndMarkdownObservationCount": 2
+    },
+    {
+      "id": "af-hpa",
+      "jsonAndMarkdownObservationCount": 2
+    },
+    {
+      "id": "dm21-c-maytansinoid-system",
+      "jsonAndMarkdownObservationCount": 3
+    }
+  ],
+  "exportedSchemaHasStructuralEndpointRequirements": true,
+  "schemaRequirements": [
+    {
+      "property": {
+        "type": "string",
+        "enum": [
+          "chemical-identity",
+          "release",
+          "membrane-access",
+          "bystander-killing"
+        ]
+      },
+      "required": [
+        "sources",
+        "checkedOn",
+        "species",
+        "context",
+        "method",
+        "statement",
+        "evidenceType",
+        "property"
+      ]
+    },
+    {
+      "property": {
+        "type": "string",
+        "enum": [
+          "transporter-substrate",
+          "transporter-inhibition"
+        ]
+      },
+      "required": [
+        "sources",
+        "checkedOn",
+        "species",
+        "context",
+        "method",
+        "statement",
+        "evidenceType",
+        "property",
+        "transporters"
+      ]
+    },
+    {
+      "property": {
+        "type": "string",
+        "const": "conjugate-loading"
+      },
+      "required": [
+        "sources",
+        "checkedOn",
+        "species",
+        "conjugate",
+        "context",
+        "method",
+        "statement",
+        "evidenceType",
+        "property"
+      ]
+    }
+  ],
+  "independentJsonSchemaValidator": "Not installed; no independent-validator claim.",
+  "productionBuild": "Not rerun for this chemical follow-up.",
+  "scope": "Actual generators with the current data and product implementations temporarily integrated. No deployed API or hosted-preview claim.",
+  "artifacts": [
+    {
+      "path": "entities/dual-payload-adc.json",
+      "bytes": 9772,
+      "sha256": "1448abfd253b4914d8173be506691f6c93415ba54fab64f4ec6fc8e3d22dc076"
+    },
+    {
+      "path": "context/dual-payload-adc.md",
+      "bytes": 7944,
+      "sha256": "8e9c8f06aae12a7df21bb16eb560e37771f829dd4cae4a4d5d9acf8c047fd59d"
+    },
+    {
+      "path": "entities/degrader-antibody-conjugate.json",
+      "bytes": 5968,
+      "sha256": "8c65aae41f88959f26e004feef69650b356b4cb4b0d4a26d103f6662604c85e1"
+    },
+    {
+      "path": "context/degrader-antibody-conjugate.md",
+      "bytes": 4494,
+      "sha256": "1562d346159d31044f0e426e875cad4ca3884a9fbe818ce2f4096568c0634340"
+    },
+    {
+      "path": "entities/immune-stimulating-adc.json",
+      "bytes": 7901,
+      "sha256": "2376889208d202c699338a8a404c587a5d9a56311631c7f2121540b5265b2d01"
+    },
+    {
+      "path": "context/immune-stimulating-adc.md",
+      "bytes": 6924,
+      "sha256": "3cde8e2c6aecb3da06464c7ffa3e1b56e27f84a6b737b34b670348d81d6f612e"
+    },
+    {
+      "path": "entities/polr2a.json",
+      "bytes": 5256,
+      "sha256": "df4a9c63ed827e7da675324e711f52b25daafc230220c159812fd9ec4cf4689c"
+    },
+    {
+      "path": "context/polr2a.md",
+      "bytes": 4362,
+      "sha256": "4f562ff92e0cc5fd8aa03662790a0c49c2c130be1acbead519f6f3a7e307f623"
+    },
+    {
+      "path": "entities/payload.json",
+      "bytes": 11828,
+      "sha256": "755885c620c0f3096898e62412552cecf82388672f891323f34251387f75cc02"
+    },
+    {
+      "path": "context/payload.md",
+      "bytes": 8364,
+      "sha256": "57758f525e032b334addaab7d4c12b948019792a50b53f904ec2c78169304cd5"
+    },
+    {
+      "path": "entities/topoisomerase-i-payloads.json",
+      "bytes": 7548,
+      "sha256": "b0aeb0c473f60534a173873125186868c1c199491be2a0617ae70270a2649786"
+    },
+    {
+      "path": "context/topoisomerase-i-payloads.md",
+      "bytes": 6082,
+      "sha256": "ed30c661f86568e40a8b4998672b5713dceed66ed6708d95f75ab4bf50c8a5f6"
+    },
+    {
+      "path": "entities/exatecan.json",
+      "bytes": 4491,
+      "sha256": "3b1b9b8e0a8e074a108757e76040d76ea51c6ca51c5e17ca917832d18189e5de"
+    },
+    {
+      "path": "context/exatecan.md",
+      "bytes": 3911,
+      "sha256": "f75b5605bc97bb3e486242f997d5bedf4f36b85e4c2d2e46d8070242b39b085f"
+    },
+    {
+      "path": "entities/next-generation-adc-payloads.json",
+      "bytes": 9062,
+      "sha256": "40d51dff443195338b9d9fdff881c269b5b24c3da6041ad1b2bf92aff6591b1e"
+    },
+    {
+      "path": "context/next-generation-adc-payloads.md",
+      "bytes": 6051,
+      "sha256": "3463c751ee76da9ef258c99af339d7fc198ff734ddf2381d1289574df362716b"
+    },
+    {
+      "path": "entities/transcription-inhibitor-payloads.json",
+      "bytes": 5474,
+      "sha256": "cd33470a166ae45f6a17c714220c20946d8e99094c0667f282e9d33d41442dcf"
+    },
+    {
+      "path": "context/transcription-inhibitor-payloads.md",
+      "bytes": 4790,
+      "sha256": "1b90496b4e1e53909c8895ba1f79e997e2229994621ce5feade056947b8d8f5b"
+    },
+    {
+      "path": "entities/amanitin-payloads.json",
+      "bytes": 3692,
+      "sha256": "f8160d6a47e8f9aae5e115cc1f51e8395d2e0302d81a6cde2a44b7808c2cf61e"
+    },
+    {
+      "path": "context/amanitin-payloads.md",
+      "bytes": 3211,
+      "sha256": "48707249b32595c6904a7e7e3ab08bbc0d245c853ae5c7815a15f924b08e38fc"
+    },
+    {
+      "path": "entities/triptolide-payloads.json",
+      "bytes": 1740,
+      "sha256": "81744424c452366f03a43a6493fa5747e8cf540bdca622c595a410fffd50610a"
+    },
+    {
+      "path": "context/triptolide-payloads.md",
+      "bytes": 1433,
+      "sha256": "bb5b0293e15144379ff43ff337ebb0eea7b38c67cef1a7956a76d72d7589a402"
+    },
+    {
+      "path": "entities/spliceosome-inhibitor-payloads.json",
+      "bytes": 2116,
+      "sha256": "52b2f77bb568a1dd8aebf15da7844d4a797fdc43edc6bd222450d54196fbd055"
+    },
+    {
+      "path": "context/spliceosome-inhibitor-payloads.md",
+      "bytes": 1798,
+      "sha256": "716b5f4ee7f63a4402bb7e91f1254eb85ecef5cb386f92526aa916e7ea0e7f94"
+    },
+    {
+      "path": "entities/cdk-inhibitor-payloads.json",
+      "bytes": 1802,
+      "sha256": "eb9a7d0a2263355aac0ccc9c99df87896dfa5ea1b949f73062413259365fcb69"
+    },
+    {
+      "path": "context/cdk-inhibitor-payloads.md",
+      "bytes": 1498,
+      "sha256": "21cc26a646e7b1211089bc0342a3e95993541a186c4389d979b609d3d32d9535"
+    },
+    {
+      "path": "entities/ddr-inhibitor-payloads.json",
+      "bytes": 2474,
+      "sha256": "5b62bba18302b96c4044bb953212cfb1c03d8eb5b44edeee9be3249c59146b6e"
+    },
+    {
+      "path": "context/ddr-inhibitor-payloads.md",
+      "bytes": 2072,
+      "sha256": "288601f48b5425c3a325fda3267ccf6c8ee00d9557ddd52f1860eff74575c8e9"
+    },
+    {
+      "path": "entities/atr-inhibitor-payloads.json",
+      "bytes": 2170,
+      "sha256": "1524db80a05594ddb68d7762dcc81ea2becbcec888b1e9ea2399d6ff82de31cb"
+    },
+    {
+      "path": "context/atr-inhibitor-payloads.md",
+      "bytes": 1754,
+      "sha256": "f989bf1abf67c2f5fdbcbf0563878f5d7e4db5319392341d8b46a31ce74b9fb7"
+    },
+    {
+      "path": "entities/nampt-inhibitor-payloads.json",
+      "bytes": 1824,
+      "sha256": "aeeaf36714194b7bae66c162d54f84dd5d5f8a1b342970eef85f96d31d38a444"
+    },
+    {
+      "path": "context/nampt-inhibitor-payloads.md",
+      "bytes": 1597,
+      "sha256": "803ec08fed13156ca04d9da0d5408b593dfd7089dd27fe1c9ebd926f0463af52"
+    },
+    {
+      "path": "entities/bcl-xl-inhibitor-payloads.json",
+      "bytes": 1917,
+      "sha256": "64e422c39027ba6d824999835f686f9d9f80ece2849115bb8550a9b93985ab01"
+    },
+    {
+      "path": "context/bcl-xl-inhibitor-payloads.md",
+      "bytes": 1618,
+      "sha256": "5d4159caf913eb63147625fd4d8994f0ab82a79e7339cd18952264156cea515e"
+    },
+    {
+      "path": "entities/mcl1-inhibitor-payloads.json",
+      "bytes": 2287,
+      "sha256": "e3e65aa47ca5b74f26cd5e08a97963440148efbc26fad86de571f1a0caf4ad49"
+    },
+    {
+      "path": "context/mcl1-inhibitor-payloads.md",
+      "bytes": 1957,
+      "sha256": "30e1d3153b5064decedd19efeed400936de9563a8299968dadcee304d45d567e"
+    },
+    {
+      "path": "entities/hdac-inhibitor-payloads.json",
+      "bytes": 1614,
+      "sha256": "a4f2aa047b617c04b70bbd0c44c969b35d41e27e0af146e5d1c5782c219e3d20"
+    },
+    {
+      "path": "context/hdac-inhibitor-payloads.md",
+      "bytes": 1403,
+      "sha256": "bebf5f470db7676a948aa1b1e20f0c38e0f4bf42d668a02b9df3e5147a2bacfa"
+    },
+    {
+      "path": "entities/gspt1-degrader-payloads.json",
+      "bytes": 2241,
+      "sha256": "0ed57c0a783a1b128b53b9d2c478a2b575057fca5dfba8526ec6bc2fe2fc1b28"
+    },
+    {
+      "path": "context/gspt1-degrader-payloads.md",
+      "bytes": 1822,
+      "sha256": "45f5aed3ed1f69597111d553d23ccce99bfe428c46a59e4ee42e88284eb3a29e"
+    },
+    {
+      "path": "entities/brd4-degrader-payloads.json",
+      "bytes": 2101,
+      "sha256": "8c0c156cf61969a037ea5183ddee3527898ebd54a52fbe87d6bf1c69719473d1"
+    },
+    {
+      "path": "context/brd4-degrader-payloads.md",
+      "bytes": 1702,
+      "sha256": "d6848ac01de28cbf6336b8a43f1e747ca5434cef270427f3fdc0f4dba6e09f2e"
+    },
+    {
+      "path": "entities/kif11-degrader-payloads.json",
+      "bytes": 1933,
+      "sha256": "b8884a86e2a902a540e153dc757638bdf54717373f8217bb251d130e9e875c1e"
+    },
+    {
+      "path": "context/kif11-degrader-payloads.md",
+      "bytes": 1564,
+      "sha256": "6985aba2c62a018da20a4acc0d6e83a4deab777b887065621981fe00c505b890"
+    },
+    {
+      "path": "entities/ksp-inhibitor-payloads.json",
+      "bytes": 2037,
+      "sha256": "e63e2f9f93b2377a91346549e557f4fee912128b9baa311c0bec0b02fbf3b800"
+    },
+    {
+      "path": "context/ksp-inhibitor-payloads.md",
+      "bytes": 1672,
+      "sha256": "88e1c2e5f5168eec1148213686239d34ba2c900ce05c36e02ef56483bef0eb59"
+    },
+    {
+      "path": "entities/sting-agonist-payloads.json",
+      "bytes": 2150,
+      "sha256": "3e9ce737eab8b8f33e11b42db285b098f0421fe3eb4704b8b569e94183977caa"
+    },
+    {
+      "path": "context/sting-agonist-payloads.md",
+      "bytes": 1768,
+      "sha256": "7810af4f4ffcaf3d0ce85e2e4d23d990183a6506e81daa419fc138f3d21cc89e"
+    },
+    {
+      "path": "entities/tlr-agonist-payloads.json",
+      "bytes": 2240,
+      "sha256": "df9a6811cf2d454659d5c929fd022122ab2bd4f961ea5e4b4df7454a3bb54e02"
+    },
+    {
+      "path": "context/tlr-agonist-payloads.md",
+      "bytes": 1880,
+      "sha256": "1908e49e8c6aec814589db1b695ff9994ea8bdb7e505a2465cafee5b0296b2a2"
+    },
+    {
+      "path": "entities/gq11-inhibitor-payloads.json",
+      "bytes": 1900,
+      "sha256": "ada0d559869155ff0601a055378eb8eff1b2e54b81bee96249343e8e4b2a7168"
+    },
+    {
+      "path": "context/gq11-inhibitor-payloads.md",
+      "bytes": 1621,
+      "sha256": "302123400deaf8a22399ca0951fc4804a9fec3f6229f5a28653f79cc4b990f8d"
+    },
+    {
+      "path": "entities/pi3k-pikk-inhibitor-payloads.json",
+      "bytes": 1706,
+      "sha256": "b84317384e1db8751079cd31b723b7f84beb56764f44d49be593a7b437fceac4"
+    },
+    {
+      "path": "context/pi3k-pikk-inhibitor-payloads.md",
+      "bytes": 1500,
+      "sha256": "e884cc9fdec06b207048caeffaa222882f48c60ad1deb039a9551f20a36ef1de"
+    },
+    {
+      "path": "entities/anthracycline-payloads.json",
+      "bytes": 1669,
+      "sha256": "93c599fbff7fb72cc1e8f651f088476e44c3f6f1390def88c2ce57fe37542d41"
+    },
+    {
+      "path": "context/anthracycline-payloads.md",
+      "bytes": 1456,
+      "sha256": "8a5ae1199f73012e92f418ed81e86c8574dad46952cc8b0c40c8cbbd954eded0"
+    },
+    {
+      "path": "entities/eribulin-payload.json",
+      "bytes": 2068,
+      "sha256": "8b851d21e80edffd4fb80bf07a8f6b7bf8f696197a3c8e0b36279630280b8eca"
+    },
+    {
+      "path": "context/eribulin-payload.md",
+      "bytes": 1652,
+      "sha256": "ff2d4411ef41f45c09550fcb8b74dcf1f0e89ea4284028ac2964ac6003faf70c"
+    },
+    {
+      "path": "entities/tubulysin-payloads.json",
+      "bytes": 1751,
+      "sha256": "085fa9ebf73616e25558ac76800384d67d11809f0e7545afc61c4093a6278763"
+    },
+    {
+      "path": "context/tubulysin-payloads.md",
+      "bytes": 1456,
+      "sha256": "b1716cdfaa211016974c3cfd6ea85bd75a2302d3e2bd8b1bebb01f9947a1fbdb"
+    },
+    {
+      "path": "entities/hemiasterlin-payloads.json",
+      "bytes": 1967,
+      "sha256": "0dfe2b48ad5ba3b268ab4b8da340878c412da210291a45d78c888672f2e1e02a"
+    },
+    {
+      "path": "context/hemiasterlin-payloads.md",
+      "bytes": 1602,
+      "sha256": "a6cfd94bc10f306936a4615ab9fc4f08388879eab31a0062dd91376edb2c5691"
+    },
+    {
+      "path": "entities/cryptophycin-payloads.json",
+      "bytes": 1744,
+      "sha256": "eb29d95f9bc945c3667a038817aad118deaa05719bb03957202d78f90716c20b"
+    },
+    {
+      "path": "context/cryptophycin-payloads.md",
+      "bytes": 1451,
+      "sha256": "0a38af0a111ec4a6bc9464fc7c6e543bb9db027d150e6a1a55d4e7285b984446"
+    },
+    {
+      "path": "entities/ign-payloads.json",
+      "bytes": 1989,
+      "sha256": "71d8ae1b5b291df7a23bff8efc4febefabcde098e3744771528984a41a057e52"
+    },
+    {
+      "path": "context/ign-payloads.md",
+      "bytes": 1582,
+      "sha256": "a405da3346c0c1c5db61be4bf52fc123567a8fcfe3ace69ba97546340d58c6b9"
+    },
+    {
+      "path": "entities/pdd-payloads.json",
+      "bytes": 1987,
+      "sha256": "1cdbe4af269d0dd869ed1ee14672070655426cc6af6ec0107a3d2c6c66f2fd91"
+    },
+    {
+      "path": "context/pdd-payloads.md",
+      "bytes": 1581,
+      "sha256": "c37e097a6cd865c40c252942195007172915718c87e2166ab3ce79dae259da22"
+    },
+    {
+      "path": "entities/protein-alkylator-payloads.json",
+      "bytes": 1638,
+      "sha256": "cb81177ab99fa4990acf2ce6d373c8f6040c258219ab0154156a6936d71dfca7"
+    },
+    {
+      "path": "context/protein-alkylator-payloads.md",
+      "bytes": 1429,
+      "sha256": "a5b52145cebc56957bbb423618eda0d4d93911dd10a73ab190852a40bba4e23d"
+    },
+    {
+      "path": "entities/proteasome-inhibitor-payloads.json",
+      "bytes": 1951,
+      "sha256": "2039c5c55fddcc9b0cd2ee6cda67585beb8b51f4a2e916485b01b8cb51083f9a"
+    },
+    {
+      "path": "context/proteasome-inhibitor-payloads.md",
+      "bytes": 1638,
+      "sha256": "fd677929082bc70583ec500244709764d9eb7e7df82d17c1d3dcc0f10cdda132"
+    },
+    {
+      "path": "entities/ferroptosis-conjugate-payloads.json",
+      "bytes": 2102,
+      "sha256": "f0883046a464ffd42dc548a3b88192068e347a7796d73cfdf3e147e2a6a451de"
+    },
+    {
+      "path": "context/ferroptosis-conjugate-payloads.md",
+      "bytes": 1892,
+      "sha256": "d96a349ecea65b2af9571ac2053eb5353e80eec09e8c15ccb5d6ad55d0a42575"
+    },
+    {
+      "path": "entities/protein-toxin-payloads.json",
+      "bytes": 1767,
+      "sha256": "1436ad13bcc505b8b63943635fdc92009f5279bc9aa963abdfc132b59d9b3636"
+    },
+    {
+      "path": "context/protein-toxin-payloads.md",
+      "bytes": 1554,
+      "sha256": "012cf64658faffc6799a6f0a195d1aac865d439658e7b6a366ffc2991c69eaa6"
+    },
+    {
+      "path": "entities/pamlectabart-tismanitin.json",
+      "bytes": 4124,
+      "sha256": "5f7082915024d6cf5430ab7fda5e13f61a9f017db0c8b14c473a1344d73144d3"
+    },
+    {
+      "path": "context/pamlectabart-tismanitin.md",
+      "bytes": 3492,
+      "sha256": "aba9f2b4ad0e617df76f66b7552600542f6a9326aa717a75389051ae92704093"
+    },
+    {
+      "path": "entities/sn-38.json",
+      "bytes": 5166,
+      "sha256": "fca5d0de8762299365883e986278bbdeb1e2bc0a9c713b85591d09276b01fcb2"
+    },
+    {
+      "path": "context/sn-38.md",
+      "bytes": 4997,
+      "sha256": "ff3b265aaa5f2689a8653bbcab51144e95393f0d8f1af6550c4ad735515672aa"
+    },
+    {
+      "path": "entities/dxd.json",
+      "bytes": 8242,
+      "sha256": "3c4b32a6bc91508ab7eedee59e82864ac51fbb4203d8fe4bc02bc2fa7408112d"
+    },
+    {
+      "path": "context/dxd.md",
+      "bytes": 8267,
+      "sha256": "a1f1faac0df067ce58f9a51a4729e3109457595d8c955182ad0a393f78b2428f"
+    },
+    {
+      "path": "entities/t030.json",
+      "bytes": 3841,
+      "sha256": "15d12cc41ba0504399645aa6ecf4ebb1c666b7a36bf6bfbd52185ebc3ed1a494"
+    },
+    {
+      "path": "context/t030.md",
+      "bytes": 3655,
+      "sha256": "65ea0c10573f638c9e42015e8db4bd59f599825286ce8b7acc60dcd4bb477ef8"
+    },
+    {
+      "path": "entities/mmae.json",
+      "bytes": 6189,
+      "sha256": "1c39610652dd2a0627ee3351b6a46bc3ca59250bf61f358ee5e4f21df22cfb57"
+    },
+    {
+      "path": "context/mmae.md",
+      "bytes": 5927,
+      "sha256": "6a83a4d074bece19398a89c8f3747ac33f865658c6322fdcb7ba6c413ae3eb83"
+    },
+    {
+      "path": "entities/mmaf.json",
+      "bytes": 5888,
+      "sha256": "5c145669a921b36d0143efb24ac0831127a71927d4131838f334b8ac6c852732"
+    },
+    {
+      "path": "context/mmaf.md",
+      "bytes": 6312,
+      "sha256": "2ce33b7b18bb4ee6f64c37de2be34cc5a9141a228993b767ca6c9742cb9a758c"
+    },
+    {
+      "path": "entities/dm1.json",
+      "bytes": 5368,
+      "sha256": "b8869f73c59b61b1750891fddf69e302633fe98c4283770f5c75158731c75104"
+    },
+    {
+      "path": "context/dm1.md",
+      "bytes": 5511,
+      "sha256": "56369abce0b218c6c28515aae15fd092f409bc4ee8f40f1250ae150f5f4b1b56"
+    },
+    {
+      "path": "entities/dm4.json",
+      "bytes": 6202,
+      "sha256": "6f21d4f0b23fb4681b2290c54ac82c2825c6cfc55ed85019176c571f793e892a"
+    },
+    {
+      "path": "context/dm4.md",
+      "bytes": 6446,
+      "sha256": "fcb4dc0daf71a1fb88fb7fa92e4b3bff274402c439ca55f6093d70e4d0bae65f"
+    },
+    {
+      "path": "entities/pbd-sg3199.json",
+      "bytes": 6665,
+      "sha256": "c7eda4ef46ec063ff7003968ad868a7ce7934c175bee0a82072db55263c74276"
+    },
+    {
+      "path": "context/pbd-sg3199.md",
+      "bytes": 7303,
+      "sha256": "11e88122a96de89451ccb7c86b96c91ffbd653cdb23b5d310d93cc4b43ffdb2b"
+    },
+    {
+      "path": "entities/calicheamicin.json",
+      "bytes": 5757,
+      "sha256": "8726b539d23e54f21fec5f16d8d513e6e88282b64c13fa6752bb3f229fe2d34a"
+    },
+    {
+      "path": "context/calicheamicin.md",
+      "bytes": 5928,
+      "sha256": "3bffd18f0c67c96884249c2cd1e7729563ed9263113d885bc46b99df641f3493"
+    },
+    {
+      "path": "entities/duocarmycin.json",
+      "bytes": 3926,
+      "sha256": "996f027c30d1e4cb7281538c7d32684ea3aa50930cb2cabca64193023997a640"
+    },
+    {
+      "path": "context/duocarmycin.md",
+      "bytes": 3842,
+      "sha256": "fe592c5df3b7246ada6ebf0a57160894c573a72c6dc807b87227f922b75c5351"
+    },
+    {
+      "path": "entities/af-hpa.json",
+      "bytes": 3995,
+      "sha256": "8586d7b2ede0ededbb3a83234bcf2f640e5f200a63b425696e6bf0ba71fc70c0"
+    },
+    {
+      "path": "context/af-hpa.md",
+      "bytes": 3851,
+      "sha256": "5b9695ba3399bac2ae54e817354550aba5e11225516c93cfe4bab584e663617f"
+    },
+    {
+      "path": "entities/dm21-c-maytansinoid-system.json",
+      "bytes": 4750,
+      "sha256": "a577658f3dadaaf4e95afa35a34114bbf9425d98f8134f7c531aa9a1c7b4842d"
+    },
+    {
+      "path": "context/dm21-c-maytansinoid-system.md",
+      "bytes": 4828,
+      "sha256": "6aaf9aa848ddaec4ecb5b6a079900f38404ae2b557a4f9e681abb2eccf3ecb6e"
+    },
+    {
+      "path": "entities/cl2a.json",
+      "bytes": 2027,
+      "sha256": "83489a1a8b777acd91b304357a9e05a169fae8ccf6226d596a30d2d4a4fe7ea9"
+    },
+    {
+      "path": "context/cl2a.md",
+      "bytes": 1568,
+      "sha256": "4ca663ba1d0adbed2b5e255f68a2e2dfed9249b517e60a7410510953b7bdbb19"
+    },
+    {
+      "path": "entities/ggfg.json",
+      "bytes": 2684,
+      "sha256": "2b78a6d97a781b5c90a7ad647bca4a6f364d0083cf4a76163737cae4e6d6c76a"
+    },
+    {
+      "path": "context/ggfg.md",
+      "bytes": 1991,
+      "sha256": "ef9b1b4e4aab047bc740fd0215da0fdc74356c267e7ba8b55422844e8381c706"
+    },
+    {
+      "path": "entities/mc-vc-pabc.json",
+      "bytes": 2508,
+      "sha256": "b5d8b4ab267953c03819ea66e13d3f4beffe75bbe4eae9bd111a24da0e62e19f"
+    },
+    {
+      "path": "context/mc-vc-pabc.md",
+      "bytes": 1809,
+      "sha256": "6ab80af36bd7808ddcc1a751029eb7e2f7937122138e1d28145e0f41b6a9a86a"
+    },
+    {
+      "path": "entities/smcc.json",
+      "bytes": 1926,
+      "sha256": "73d8a6a049a360c691a3a010b6bb95e23bfe5560822706efc52ceedaaea89e0f"
+    },
+    {
+      "path": "context/smcc.md",
+      "bytes": 1597,
+      "sha256": "857176116a99bf7b02494a67d46c348130f5dad9f696c58aff73905579284174"
+    },
+    {
+      "path": "entities/sulfo-spdb.json",
+      "bytes": 1985,
+      "sha256": "2005ff5d6de721df5173f9fd824f00effd32ff0cf7f0be9249fc1ca6acbb03a3"
+    },
+    {
+      "path": "context/sulfo-spdb.md",
+      "bytes": 1591,
+      "sha256": "83a726830fb0e178110346c48d82fe3e05f63cef66a9963498e896593cd50aa8"
+    },
+    {
+      "path": "entities/hydrazone.json",
+      "bytes": 1965,
+      "sha256": "dcd6ed93c56330a285fa5186285fbf71d3ff2e4557c06ab2aaca57a24c0b8757"
+    },
+    {
+      "path": "context/hydrazone.md",
+      "bytes": 1569,
+      "sha256": "f5e7ad47c253f44d257e4ee70c22b2076ea7f3ed87f34cd293e3d307c1972f3e"
+    },
+    {
+      "path": "entities/val-ala.json",
+      "bytes": 1852,
+      "sha256": "969dc5803346c033b577e64196088aab3ca504d202b3ba783697c70bbe2a06f6"
+    },
+    {
+      "path": "context/val-ala.md",
+      "bytes": 1489,
+      "sha256": "548472df1c98eb2fe47c7aaf843753a08e90a6d38036dceb8f2d2e50eecab218"
+    },
+    {
+      "path": "entities/mc-non-cleavable.json",
+      "bytes": 1990,
+      "sha256": "bbfb7638dd98afd3d987d90ea6d173ce5aed6bc38bd6de6b77ee5963c63b6691"
+    },
+    {
+      "path": "context/mc-non-cleavable.md",
+      "bytes": 1592,
+      "sha256": "2e1dc4e20f6f03c031abbe54df042e2e98240cfa88a8a8486eea699fb04b3126"
+    },
+    {
+      "path": "entities/hydrophilic-next-gen.json",
+      "bytes": 3077,
+      "sha256": "44aca534de4f7eebd0aca6365908bb0ba1ad55375074ca7131dc1c79868f54c7"
+    },
+    {
+      "path": "context/hydrophilic-next-gen.md",
+      "bytes": 2454,
+      "sha256": "61444159782df8561294d6bde558ec47baafea998b495b98dd72b76ecef9b18a"
+    },
+    {
+      "path": "entities/tubulin-inhibitor-payloads.json",
+      "bytes": 5509,
+      "sha256": "0d52637410943b08951b3179cdcc5cef1f8f6ee9d8090807bf26351557a184ae"
+    },
+    {
+      "path": "context/tubulin-inhibitor-payloads.md",
+      "bytes": 3896,
+      "sha256": "0d7a4946b8b93954208e9bea0f2458841decc4d5cbc12ffab696a8d4adaf8706"
+    },
+    {
+      "path": "entities/pbd-dimer-payloads.json",
+      "bytes": 2322,
+      "sha256": "41eca749981e17b585c1643aec1e3e99257de2614f954f394855571cf8c070bf"
+    },
+    {
+      "path": "context/pbd-dimer-payloads.md",
+      "bytes": 1960,
+      "sha256": "951c72c134fd8b7874f2d2bd59db5c0368a4ab877e296d5270b365e6508fbff4"
+    },
+    {
+      "path": "entities/dna-cleaver-payloads.json",
+      "bytes": 2302,
+      "sha256": "522b8cd3db8d58a77ed0fe819a898fd348f440c75945519b0944d24c9c8add41"
+    },
+    {
+      "path": "context/dna-cleaver-payloads.md",
+      "bytes": 1913,
+      "sha256": "52610999e5067c3c68d39e48b882928b74102ea663f36e27a197505522488eeb"
+    },
+    {
+      "path": "entities/dna-alkylator-payloads.json",
+      "bytes": 2338,
+      "sha256": "d7c308e4ef9486cea5bf110b3dd569cbdf3966b551e9bfaa66e84840462884a1"
+    },
+    {
+      "path": "context/dna-alkylator-payloads.md",
+      "bytes": 1910,
+      "sha256": "180c29821ef86aa2475d1f988ff867051b06c5d3b82fdeb03c5fcf7402106ea8"
+    },
+    {
+      "path": "entities/upifitamab-rilsodotin.json",
+      "bytes": 3168,
+      "sha256": "c003d6089a3333c61d4a3d0ba70d7e3867e891d1cf68d4805f537303dd57114d"
+    },
+    {
+      "path": "context/upifitamab-rilsodotin.md",
+      "bytes": 2533,
+      "sha256": "0d9ecae0271d3c620e2f2da69133e55d68c89851a4eef98d002e7c5c61cfbe53"
+    },
+    {
+      "path": "schema.json",
+      "bytes": 110900,
+      "sha256": "03682fefebee92daaa84f85528a6008651c0425e7911b14d40286147268b903a"
+    }
+  ],
+  "allSourceOverlayBytesRestored": true,
+  "standaloneApiRegeneratedAfterRestoration": true
+}

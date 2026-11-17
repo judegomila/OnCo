@@ -1,0 +1,2133 @@
+{
+  "version": "6.9",
+  "hitCount": 4,
+  "request": {
+    "queryString": "TITLE:\"antibody\" AND (TITLE:\"ATR inhibitor\" OR TITLE:\"WEE1\" OR TITLE:\"CHK1\") AND SRC:MED",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "42410700",
+        "source": "MED",
+        "pmid": "42410700",
+        "pmcid": "PMC13337527",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13337527"
+          ]
+        },
+        "doi": "10.1002/cam4.72071",
+        "title": "Duocarmycin-Bearing Antibody-Mimetic Drug Conjugate Combined With an ATR Inhibitor Results in Complete Tumor Regression in a KPL-4 Xenograft Model.",
+        "authorString": "Tanaka T, Sugiyama A, Sakata J, Tatsumi T, Katoh H, Maeda K, Inagaki Y, Yamashita T, Kawamura T, Kuratani M, Nakano T, Ishii M, Miura M, Kamiya W, Shiratori Y, Kitanoya H, Chansler M, Harada N, Tsuchiya M, Osawa T, Ishikawa S, Kodama T, Yamatsugu K, Tokuyama H, Kanai M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tanaka T",
+              "lastName": "Tanaka",
+              "firstName": "Toshiya",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1224-7898"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratories for Systems Biology and Medicine (LSBM) at Research Center for Advanced Science and Technology (RCAST), The University of Tokyo, Meguro-ku, Japan."
+                  },
+                  {
+                    "affiliation": "Division of Drug Discovery and Medical Device Development, Institute for Biomedical Sciences of Iwate Medical University, Shiwa-gun, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sugiyama A",
+              "lastName": "Sugiyama",
+              "firstName": "Akira",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4406-9475"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratories for Systems Biology and Medicine (LSBM) at Research Center for Advanced Science and Technology (RCAST), The University of Tokyo, Meguro-ku, Japan."
+                  },
+                  {
+                    "affiliation": "Isotope Science Center, The University of Tokyo, Bunkyo-ku, Japan."
+                  },
+                  {
+                    "affiliation": "CompleCure, Inc, Shibuya-ku, Japan."
+                  },
+                  {
+                    "affiliation": "Department of Clinical Pharmaceutical Sciences, School of Pharmacy and Pharmaceutical Science, Hoshi University, Shinagawa-ku, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sakata J",
+              "lastName": "Sakata",
+              "firstName": "Juri",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate School of Pharmaceutical Sciences, Tohoku University, Sendai, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tatsumi T",
+              "lastName": "Tatsumi",
+              "firstName": "Toshifumi",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Isotope Science Center, The University of Tokyo, Bunkyo-ku, Japan."
+                  },
+                  {
+                    "affiliation": "Graduate School of Pharmaceutical Sciences, The University of Tokyo, Bunkyo-ku, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Katoh H",
+              "lastName": "Katoh",
+              "firstName": "Hiroto",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9440-728X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Preventive Medicine, Graduate School of Medicine, The University of Tokyo, Bunkyo-ku, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Maeda K",
+              "lastName": "Maeda",
+              "firstName": "Keisuke",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5278-4500"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratories for Systems Biology and Medicine (LSBM) at Research Center for Advanced Science and Technology (RCAST), The University of Tokyo, Meguro-ku, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Inagaki Y",
+              "lastName": "Inagaki",
+              "firstName": "Yuya",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate School of Pharmaceutical Sciences, Tohoku University, Sendai, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yamashita T",
+              "lastName": "Yamashita",
+              "firstName": "Takefumi",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratories for Systems Biology and Medicine (LSBM) at Research Center for Advanced Science and Technology (RCAST), The University of Tokyo, Meguro-ku, Japan."
+                  },
+                  {
+                    "affiliation": "Department of Physical Chemistry, School of Pharmacy and Pharmaceutical Sciences, Hoshi University, Shinagawa-ku, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kawamura T",
+              "lastName": "Kawamura",
+              "firstName": "Takeshi",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratories for Systems Biology and Medicine (LSBM) at Research Center for Advanced Science and Technology (RCAST), The University of Tokyo, Meguro-ku, Japan."
+                  },
+                  {
+                    "affiliation": "Isotope Science Center, The University of Tokyo, Bunkyo-ku, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kuratani M",
+              "lastName": "Kuratani",
+              "firstName": "Mayu",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate School of Pharmaceutical Sciences, Chiba University, Chiba, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nakano T",
+              "lastName": "Nakano",
+              "firstName": "Taiki",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate School of Pharmaceutical Sciences, Chiba University, Chiba, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ishii M",
+              "lastName": "Ishii",
+              "firstName": "Masazumi",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratories for Systems Biology and Medicine (LSBM) at Research Center for Advanced Science and Technology (RCAST), The University of Tokyo, Meguro-ku, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Miura M",
+              "lastName": "Miura",
+              "firstName": "Mai",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratories for Systems Biology and Medicine (LSBM) at Research Center for Advanced Science and Technology (RCAST), The University of Tokyo, Meguro-ku, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kamiya W",
+              "lastName": "Kamiya",
+              "firstName": "Wakana",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratories for Systems Biology and Medicine (LSBM) at Research Center for Advanced Science and Technology (RCAST), The University of Tokyo, Meguro-ku, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shiratori Y",
+              "lastName": "Shiratori",
+              "firstName": "Yuko",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "CompleCure, Inc, Shibuya-ku, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kitanoya H",
+              "lastName": "Kitanoya",
+              "firstName": "Hisato",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "CompleCure, Inc, Shibuya-ku, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chansler M",
+              "lastName": "Chansler",
+              "firstName": "Michael",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "CompleCure, Inc, Shibuya-ku, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Harada N",
+              "lastName": "Harada",
+              "firstName": "Naoki",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "CompleCure, Inc, Shibuya-ku, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tsuchiya M",
+              "lastName": "Tsuchiya",
+              "firstName": "Masayuki",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "CompleCure, Inc, Shibuya-ku, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Osawa T",
+              "lastName": "Osawa",
+              "firstName": "Tsuyoshi",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9479-6665"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratories for Systems Biology and Medicine (LSBM) at Research Center for Advanced Science and Technology (RCAST), The University of Tokyo, Meguro-ku, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ishikawa S",
+              "lastName": "Ishikawa",
+              "firstName": "Shumpei",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4392-090X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Preventive Medicine, Graduate School of Medicine, The University of Tokyo, Bunkyo-ku, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kodama T",
+              "lastName": "Kodama",
+              "firstName": "Tatsuhiko",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratories for Systems Biology and Medicine (LSBM) at Research Center for Advanced Science and Technology (RCAST), The University of Tokyo, Meguro-ku, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yamatsugu K",
+              "lastName": "Yamatsugu",
+              "firstName": "Kenzo",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4260-414X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate School of Pharmaceutical Sciences, Chiba University, Chiba, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tokuyama H",
+              "lastName": "Tokuyama",
+              "firstName": "Hidetoshi",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate School of Pharmaceutical Sciences, Tohoku University, Sendai, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kanai M",
+              "lastName": "Kanai",
+              "firstName": "Motomu",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1977-7648"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Graduate School of Pharmaceutical Sciences, The University of Tokyo, Bunkyo-ku, Japan."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9440-728X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4260-414X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5278-4500"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9479-6665"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1224-7898"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1977-7648"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4392-090X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4406-9475"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "15",
+          "journalIssueId": 4220241,
+          "dateOfPublication": "2026 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Cancer Med",
+            "title": "Cancer medicine",
+            "essn": "2045-7634",
+            "issn": "2045-7634",
+            "isoabbreviation": "Cancer Med",
+            "nlmid": "101595310"
+          },
+          "printPublicationDate": "2026-07-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "e72071",
+        "affiliation": "Laboratories for Systems Biology and Medicine (LSBM) at Research Center for Advanced Science and Technology (RCAST), The University of Tokyo, Meguro-ku, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Japan Agency for Medical Research and Development",
+              "grantId": "JP23ama121040j0002",
+              "orderIn": 0
+            },
+            {
+              "agency": "Japan Society for the Promotion of Science",
+              "grantId": "JP24K09704",
+              "orderIn": 0
+            },
+            {
+              "agency": "Mochida Memorial Foundation for Medical and Pharmaceutical Research",
+              "orderIn": 0
+            },
+            {
+              "agency": "Japan Society for the Promotion of Science",
+              "grantId": "JP20H03627",
+              "orderIn": 0
+            },
+            {
+              "agency": "Japan Society for the Promotion of Science",
+              "grantId": "JP22H05024",
+              "orderIn": 0
+            },
+            {
+              "agency": "Japan Society for the Promotion of Science",
+              "grantId": "JP24H00591",
+              "orderIn": 0
+            },
+            {
+              "agency": "Japan Agency for Medical Research and Development",
+              "grantId": "JP24am0521003h0001",
+              "orderIn": 0
+            },
+            {
+              "agency": "Kobayashi Foundation for Cancer Research",
+              "orderIn": 0
+            },
+            {
+              "agency": "Japan Society for the Promotion of Science",
+              "grantId": "JP21H02779",
+              "orderIn": 0
+            },
+            {
+              "agency": "Takeda Science Foundation",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Breast Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Indoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antineoplastic Combined Chemotherapy Protocols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Protein Kinase Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xenograft Model Antitumor Assays"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Synergism"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Ataxia Telangiectasia Mutated Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Duocarmycins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Erb-b2 Receptor Tyrosine Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Duocarmycin",
+            "Targeted Combination Therapy",
+            "S‐Phase Arrest",
+            "Antibody‐mimetic Drug Conjugate",
+            "Ataxia Telangiectasia And Rad3‐related Protein (Atr) Inhibitor"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Indoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Protein Kinase Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ERBB2 protein, human",
+              "registryNumber": "EC 2.7.10.1"
+            },
+            {
+              "name": "Ataxia Telangiectasia Mutated Proteins",
+              "registryNumber": "EC 2.7.11.1"
+            },
+            {
+              "name": "ATR protein, human",
+              "registryNumber": "EC 2.7.11.1"
+            },
+            {
+              "name": "Duocarmycins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Erb-b2 Receptor Tyrosine Kinases",
+              "registryNumber": "EC 2.7.10.1"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/cam4.72071"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13337527"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13337527?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2026-07-07",
+        "dateOfCreation": "2026-07-07",
+        "dateOfRevision": "2026-08-13",
+        "firstPublicationDate": "2026-07-01",
+        "firstIndexDate": "2026-07-08",
+        "fullTextReceivedDate": "2026-09-03",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "2dc5f62ae307d10644f76d01bb83dc2f0696ec2a7c83bfc08a154b5a089a6e53",
+          "characters": 2012
+        }
+      },
+      {
+        "id": "42338483",
+        "source": "MED",
+        "pmid": "42338483",
+        "pmcid": "PMC13285682",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13285682"
+          ]
+        },
+        "doi": "10.1016/j.isci.2026.116390",
+        "title": "The WEE1 inhibitor azenosertib broadly enhances efficacy of antibody-drug conjugates with topoisomerase I and microtubule inhibitor payloads.",
+        "authorString": "Guo X, Kim D, Harismendy O, Cabrera E, Chung H, Meric-Bernstam F, Lackner MR, Lee C, Ma J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Guo X",
+              "lastName": "Guo",
+              "firstName": "Xiao",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Zentalis Pharmaceuticals, Inc., 10275 Science Center Drive, Suite 200, San Diego, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kim D",
+              "lastName": "Kim",
+              "firstName": "Doris",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Zentalis Pharmaceuticals, Inc., 10275 Science Center Drive, Suite 200, San Diego, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Harismendy O",
+              "lastName": "Harismendy",
+              "firstName": "Olivier",
+              "initials": "O",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Zentalis Pharmaceuticals, Inc., 10275 Science Center Drive, Suite 200, San Diego, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cabrera E",
+              "lastName": "Cabrera",
+              "firstName": "Erika",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Zentalis Pharmaceuticals, Inc., 10275 Science Center Drive, Suite 200, San Diego, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chung H",
+              "lastName": "Chung",
+              "firstName": "Heekyung",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Zentalis Pharmaceuticals, Inc., 10275 Science Center Drive, Suite 200, San Diego, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Meric-Bernstam F",
+              "lastName": "Meric-Bernstam",
+              "firstName": "Funda",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Investigational Cancer Therapeutics, Division of Cancer Medicine, University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lackner MR",
+              "lastName": "Lackner",
+              "firstName": "Mark R",
+              "initials": "MR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Zentalis Pharmaceuticals, Inc., 10275 Science Center Drive, Suite 200, San Diego, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lee C",
+              "lastName": "Lee",
+              "firstName": "Catherine",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Zentalis Pharmaceuticals, Inc., 10275 Science Center Drive, Suite 200, San Diego, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ma J",
+              "lastName": "Ma",
+              "firstName": "Jianhui",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Zentalis Pharmaceuticals, Inc., 10275 Science Center Drive, Suite 200, San Diego, CA, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "29",
+          "journalIssueId": 4218907,
+          "dateOfPublication": "2026 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "iScience",
+            "title": "iScience",
+            "essn": "2589-0042",
+            "issn": "2589-0042",
+            "isoabbreviation": "iScience",
+            "nlmid": "101724038"
+          },
+          "printPublicationDate": "2026-07-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "116390",
+        "affiliation": "Zentalis Pharmaceuticals, Inc., 10275 Science Center Drive, Suite 200, San Diego, CA, USA.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Champions Oncology",
+              "orderIn": 0
+            },
+            {
+              "agency": "Pharmaron",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Molecular biology",
+            "Biotechnology",
+            "Therapeutics"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.isci.2026.116390"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13285682"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13285682?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "cellosaurus",
+            "nct",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2026-06-24",
+        "dateOfCreation": "2026-06-24",
+        "dateOfRevision": "2026-08-13",
+        "electronicPublicationDate": "2026-06-15",
+        "firstPublicationDate": "2026-06-15",
+        "firstIndexDate": "2026-06-24",
+        "fullTextReceivedDate": "2026-06-26",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "eab34c24e5b693380edb0b05b91fa664dc4b5ba473f5b44e3156cf46c98630ac",
+          "characters": 1193
+        }
+      },
+      {
+        "id": "40139833",
+        "source": "MED",
+        "pmid": "40139833",
+        "pmcid": "PMC11950992",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11950992"
+          ]
+        },
+        "doi": "10.1136/jitc-2024-010791",
+        "title": "Oxaliplatin, ATR inhibitor and anti-PD-1 antibody combination therapy controls colon carcinoma growth, induces local and systemic changes in the immune compartment, and protects against tumor rechallenge in mice.",
+        "authorString": "Fauvre A, Ursino C, Garambois V, Culerier E, Milazzo LA, Vezzio-Vié N, Jeanson L, Marchive C, Andrade AF, Combes E, Atis S, Lossaint G, Quenet F, Michaud HA, Khellaf L, Corbeau I, Tosi D, Houede N, Bonnefoy N, Sgarbura O, Gongora C, Faget J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Fauvre A",
+              "lastName": "Fauvre",
+              "firstName": "Alexandra",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0002-8967-7538"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Résistance aux traitements et thérapies innovantes, Institut de Recherche en Cancérologie de Montpellier (IRCM), Université de Montpellier (UM), CNRS, Institut Régional du Cancer de Montpellier (ICM), Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ursino C",
+              "lastName": "Ursino",
+              "firstName": "Chiara",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Immunity and Cancer Team, Institut de Recherche en Cancérologie de Montpellier (IRCM), Université de Montpellier (UM), Institut Régional du Cancer de Montpellier (ICM), Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Garambois V",
+              "lastName": "Garambois",
+              "firstName": "Veronique",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Résistance aux traitements et thérapies innovantes, Institut de Recherche en Cancérologie de Montpellier (IRCM), Université de Montpellier (UM), CNRS, Institut Régional du Cancer de Montpellier (ICM), Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Culerier E",
+              "lastName": "Culerier",
+              "firstName": "Elodie",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Immunity and Cancer Team, Institut de Recherche en Cancérologie de Montpellier (IRCM), Université de Montpellier (UM), Institut Régional du Cancer de Montpellier (ICM), Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Milazzo LA",
+              "lastName": "Milazzo",
+              "firstName": "Louis-Antoine",
+              "initials": "LA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0004-8155-9021"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Résistance aux traitements et thérapies innovantes, Institut de Recherche en Cancérologie de Montpellier (IRCM), Université de Montpellier (UM), CNRS, Institut Régional du Cancer de Montpellier (ICM), Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vezzio-Vié N",
+              "lastName": "Vezzio-Vié",
+              "firstName": "Nadia",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Résistance aux traitements et thérapies innovantes, Institut de Recherche en Cancérologie de Montpellier (IRCM), Université de Montpellier (UM), CNRS, Institut Régional du Cancer de Montpellier (ICM), Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jeanson L",
+              "lastName": "Jeanson",
+              "firstName": "Laura",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Résistance aux traitements et thérapies innovantes, Institut de Recherche en Cancérologie de Montpellier (IRCM), Université de Montpellier (UM), CNRS, Institut Régional du Cancer de Montpellier (ICM), Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Marchive C",
+              "lastName": "Marchive",
+              "firstName": "Candice",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Résistance aux traitements et thérapies innovantes, Institut de Recherche en Cancérologie de Montpellier (IRCM), Université de Montpellier (UM), CNRS, Institut Régional du Cancer de Montpellier (ICM), Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Andrade AF",
+              "lastName": "Andrade",
+              "firstName": "Augusto Faria",
+              "initials": "AF",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5866-0501"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "McGill University/Research Institute of McGill University, Nada Jabado Lab, Montreal, Quebec, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Combes E",
+              "lastName": "Combes",
+              "firstName": "Eve",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0001-7145-7599"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Résistance aux traitements et thérapies innovantes, Institut de Recherche en Cancérologie de Montpellier (IRCM), Université de Montpellier (UM), CNRS, Institut Régional du Cancer de Montpellier (ICM), Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Atis S",
+              "lastName": "Atis",
+              "firstName": "Salima",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Résistance aux traitements et thérapies innovantes, Institut de Recherche en Cancérologie de Montpellier (IRCM), Université de Montpellier (UM), CNRS, Institut Régional du Cancer de Montpellier (ICM), Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lossaint G",
+              "lastName": "Lossaint",
+              "firstName": "Gérald",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut regional du Cancer de Montpellier, Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Quenet F",
+              "lastName": "Quenet",
+              "firstName": "François",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut regional du Cancer de Montpellier, Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Michaud HA",
+              "lastName": "Michaud",
+              "firstName": "Henri-Alexandre",
+              "initials": "HA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6165-1929"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Immunity and Cancer Team, Institut de Recherche en Cancérologie de Montpellier (IRCM), Université de Montpellier (UM), Institut Régional du Cancer de Montpellier (ICM), Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Khellaf L",
+              "lastName": "Khellaf",
+              "firstName": "Lakhdar",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Montpellier University, Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Corbeau I",
+              "lastName": "Corbeau",
+              "firstName": "Ileana",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut regional du Cancer de Montpellier, Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tosi D",
+              "lastName": "Tosi",
+              "firstName": "Diego",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0401-7400"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Medical Oncology Department, Institut régional du Cancer de Montpellier, Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Houede N",
+              "lastName": "Houede",
+              "firstName": "Nadine",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Oncology, University Hospital of Nimes, Nîmes, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bonnefoy N",
+              "lastName": "Bonnefoy",
+              "firstName": "Nathalie",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4814-6722"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Immunity and Cancer Team, Institut de Recherche en Cancérologie de Montpellier (IRCM), Université de Montpellier (UM), Institut Régional du Cancer de Montpellier (ICM), Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sgarbura O",
+              "lastName": "Sgarbura",
+              "firstName": "Olivia",
+              "initials": "O",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6965-3697"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut regional du Cancer de Montpellier, Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gongora C",
+              "lastName": "Gongora",
+              "firstName": "Céline",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9034-4031"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Résistance aux traitements et thérapies innovantes, Institut de Recherche en Cancérologie de Montpellier (IRCM), Université de Montpellier (UM), CNRS, Institut Régional du Cancer de Montpellier (ICM), Montpellier, France julien.faget@inserm.fr celine.gongora@inserm.fr."
+                  },
+                  {
+                    "affiliation": "CNRS, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Faget J",
+              "lastName": "Faget",
+              "firstName": "Julien",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0848-7135"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Immunity and Cancer Team, Institut de Recherche en Cancérologie de Montpellier (IRCM), Université de Montpellier (UM), Institut Régional du Cancer de Montpellier (ICM), Montpellier, France julien.faget@inserm.fr celine.gongora@inserm.fr."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5866-0501"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9034-4031"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6165-1929"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6965-3697"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0401-7400"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0848-7135"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4814-6722"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0001-7145-7599"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0002-8967-7538"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0004-8155-9021"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "13",
+          "journalIssueId": 3909019,
+          "dateOfPublication": "2025 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "J Immunother Cancer",
+            "title": "Journal for immunotherapy of cancer",
+            "essn": "2051-1426",
+            "issn": "2051-1426",
+            "isoabbreviation": "J Immunother Cancer",
+            "nlmid": "101620585"
+          },
+          "printPublicationDate": "2025-03-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "e010791",
+        "affiliation": "Résistance aux traitements et thérapies innovantes, Institut de Recherche en Cancérologie de Montpellier (IRCM), Université de Montpellier (UM), CNRS, Institut Régional du Cancer de Montpellier (ICM), Montpellier, France.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Colonic Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antineoplastic Combined Chemotherapy Protocols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Programmed Cell Death 1 Receptor",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Oxaliplatin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immune Checkpoint Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "T cell",
+            "Neutropenia",
+            "Colorectal Cancer",
+            "Immune Checkpoint Inhibitor"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Programmed Cell Death 1 Receptor",
+              "registryNumber": "0"
+            },
+            {
+              "name": "oxaliplatin",
+              "registryNumber": "04ZR38536J"
+            },
+            {
+              "name": "Immune Checkpoint Inhibitors",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1136/jitc-2024-010791"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11950992"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11950992?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 8,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2025-05-15",
+        "dateOfCreation": "2025-03-26",
+        "dateOfRevision": "2026-05-20",
+        "electronicPublicationDate": "2025-03-26",
+        "firstPublicationDate": "2025-03-26",
+        "firstIndexDate": "2025-04-01",
+        "fullTextReceivedDate": "2025-11-28",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "4ba0544b78fadf404896906f2b84c325a45897832154ea93bbfcb265b2f53410",
+          "characters": 2402
+        }
+      },
+      {
+        "id": "33745032",
+        "source": "MED",
+        "pmid": "33745032",
+        "pmcid": "PMC10992262",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10992262"
+          ]
+        },
+        "doi": "10.1007/s00262-021-02910-x",
+        "title": "Immune modulating activity of the CHK1 inhibitor prexasertib and anti-PD-L1 antibody LY3300054 in patients with high-grade serous ovarian cancer and other solid tumors.",
+        "authorString": "Do KT, Manuszak C, Thrash E, Giobbie-Hurder A, Hu J, Kelland S, Powers A, de Jonge A, Shapiro GI, Severgnini M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Do KT",
+              "lastName": "Do",
+              "firstName": "Khanh T",
+              "initials": "KT",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9411-8899"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical Oncology, Dana-Farber Cancer Institute, 450 Brookline Avenue-DA2010, Boston, MA, 02215, USA. khanhdomd@gmail.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Manuszak C",
+              "lastName": "Manuszak",
+              "firstName": "Claire",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Immuno-Oncology, Dana-Farber Cancer Institute, Boston, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Thrash E",
+              "lastName": "Thrash",
+              "firstName": "Emily",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Immuno-Oncology, Dana-Farber Cancer Institute, Boston, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Giobbie-Hurder A",
+              "lastName": "Giobbie-Hurder",
+              "firstName": "Anita",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2496-7737"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Biostatistics, Department of Data Science, Dana-Farber Cancer Institute, Boston, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hu J",
+              "lastName": "Hu",
+              "firstName": "Jiani",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Biostatistics, Department of Data Science, Dana-Farber Cancer Institute, Boston, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kelland S",
+              "lastName": "Kelland",
+              "firstName": "Sarah",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical Oncology, Dana-Farber Cancer Institute, 450 Brookline Avenue-DA2010, Boston, MA, 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Powers A",
+              "lastName": "Powers",
+              "firstName": "Allison",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical Oncology, Dana-Farber Cancer Institute, 450 Brookline Avenue-DA2010, Boston, MA, 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "de Jonge A",
+              "lastName": "de Jonge",
+              "firstName": "Adrienne",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical Oncology, Dana-Farber Cancer Institute, 450 Brookline Avenue-DA2010, Boston, MA, 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shapiro GI",
+              "lastName": "Shapiro",
+              "firstName": "Geoffrey I",
+              "initials": "GI",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3331-4095"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical Oncology, Dana-Farber Cancer Institute, 450 Brookline Avenue-DA2010, Boston, MA, 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Severgnini M",
+              "lastName": "Severgnini",
+              "firstName": "Mariano",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Immuno-Oncology, Dana-Farber Cancer Institute, Boston, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3331-4095"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9411-8899"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2496-7737"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "70",
+          "journalIssueId": 3229841,
+          "dateOfPublication": "2021 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Cancer Immunol Immunother",
+            "title": "Cancer immunology, immunotherapy : CII",
+            "essn": "1432-0851",
+            "issn": "0340-7004",
+            "isoabbreviation": "Cancer Immunol Immunother",
+            "nlmid": "8605732"
+          },
+          "printPublicationDate": "2021-10-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "2991-3000",
+        "affiliation": "Department of Medical Oncology, Dana-Farber Cancer Institute, 450 Brookline Avenue-DA2010, Boston, MA, 02215, USA. khanhdomd@gmail.com.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Eli Lilly and Company",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cystadenocarcinoma, Serous",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ovarian Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pyrazines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pyrazoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Ovarian cancer",
+            "PD-L1",
+            "Cyclin E1",
+            "Checkpoint Kinase 1",
+            "Immune Checkpoint"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Pyrazoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Pyrazines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "prexasertib",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00262-021-02910-x"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10992262"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10992262?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00262-021-02910-x"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 28,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2021-09-29",
+        "dateOfCreation": "2021-03-21",
+        "dateOfRevision": "2024-04-26",
+        "electronicPublicationDate": "2021-03-20",
+        "firstPublicationDate": "2021-03-20",
+        "firstIndexDate": "2021-03-22",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "7e85521b95d3aed94a8a3db357d8b942ceebfcb20dcc8b977b20640c1b207fc2",
+          "characters": 1840
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "a20aac15b1a8066e86015609620ef2337ae13b067c1ac613462c66f1f2b9971b",
+    "sourceBytes": 47174,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

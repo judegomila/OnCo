@@ -1,0 +1,1145 @@
+{
+  "version": "6.9",
+  "hitCount": 2,
+  "request": {
+    "queryString": "TITLE:\"cryptophycin\" AND TITLE:\"antibody\" AND SRC:MED",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "39462215",
+        "source": "MED",
+        "pmid": "39462215",
+        "doi": "10.1002/cbic.202400738",
+        "title": "Evaluation of Potency and Specificity of Cryptophycin-Loaded Antibody-Drug Conjugates.",
+        "authorString": "Bitsch P, Dessin C, Bitsch S, Voss J, Becker J, Sharma P, Biyani N, Kochat H, Sewald N, Kolmar H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bitsch P",
+              "lastName": "Bitsch",
+              "firstName": "Peter",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clemens-Schöpf Institute for Organic Chemistry and Biochemistry, Technical University of Darmstadt, Peter-Grünberg-Str. 4, 64287, Darmstadt, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dessin C",
+              "lastName": "Dessin",
+              "firstName": "Cedric",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Organic and Bioorganic Chemistry, Faculty of Chemistry, University of Bielefeld, Universitätsstraße 25, 33615, Bielefeld, Deutschland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bitsch S",
+              "lastName": "Bitsch",
+              "firstName": "Sebastian",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clemens-Schöpf Institute for Organic Chemistry and Biochemistry, Technical University of Darmstadt, Peter-Grünberg-Str. 4, 64287, Darmstadt, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Voss J",
+              "lastName": "Voss",
+              "firstName": "Jona",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4823-8646"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Organic and Bioorganic Chemistry, Faculty of Chemistry, University of Bielefeld, Universitätsstraße 25, 33615, Bielefeld, Deutschland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Becker J",
+              "lastName": "Becker",
+              "firstName": "Janine",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clemens-Schöpf Institute for Organic Chemistry and Biochemistry, Technical University of Darmstadt, Peter-Grünberg-Str. 4, 64287, Darmstadt, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sharma P",
+              "lastName": "Sharma",
+              "firstName": "Panna",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Lantern Pharma Inc., 1920 McKinney Ave, 7th Floor, Dallas 75201, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Biyani N",
+              "lastName": "Biyani",
+              "firstName": "Neha",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Lantern Pharma Inc., 1920 McKinney Ave, 7th Floor, Dallas 75201, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kochat H",
+              "lastName": "Kochat",
+              "firstName": "Harry",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The University of Tennessee, Health Science Center, 208 S., Dudley Street, Memphis, 38163, TN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sewald N",
+              "lastName": "Sewald",
+              "firstName": "Norbert",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0309-2655"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Organic and Bioorganic Chemistry, Faculty of Chemistry, University of Bielefeld, Universitätsstraße 25, 33615, Bielefeld, Deutschland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kolmar H",
+              "lastName": "Kolmar",
+              "firstName": "Harald",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8210-1993"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clemens-Schöpf Institute for Organic Chemistry and Biochemistry, Technical University of Darmstadt, Peter-Grünberg-Str. 4, 64287, Darmstadt, Germany."
+                  },
+                  {
+                    "affiliation": "Centre of Synthetic Biology, Technical University of Darmstadt, Peter-Grünberg-Str. 4, 64287, Darmstadt, Germany."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0309-2655"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4823-8646"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8210-1993"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0005-9904-0890"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "full_text"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "26",
+          "journalIssueId": 3892933,
+          "dateOfPublication": "2025 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Chembiochem",
+            "title": "Chembiochem : a European journal of chemical biology",
+            "essn": "1439-7633",
+            "issn": "1439-4227",
+            "nlmid": "100937360",
+            "isoabbreviation": "Chembiochem"
+          },
+          "printPublicationDate": "2025-01-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "e202400738",
+        "affiliation": "Clemens-Schöpf Institute for Organic Chemistry and Biochemistry, Technical University of Darmstadt, Peter-Grünberg-Str. 4, 64287, Darmstadt, Germany.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "German Research Foundation (DFG)",
+              "grantId": "163/445-1",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Depsipeptides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Screening Assays, Antitumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Survival",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Trastuzumab",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Erb-b2 Receptor Tyrosine Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Trastuzumab",
+            "Cryptophycin",
+            "Adc",
+            "Thiomab",
+            "Mmae"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Depsipeptides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ERBB2 protein, human",
+              "registryNumber": "EC 2.7.10.1"
+            },
+            {
+              "name": "trastuzumab",
+              "registryNumber": "P188ANX8CK"
+            },
+            {
+              "name": "Erb-b2 Receptor Tyrosine Kinases",
+              "registryNumber": "EC 2.7.10.1"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/cbic.202400738"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-04-25",
+        "dateOfCreation": "2024-10-27",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2024-11-13",
+        "firstPublicationDate": "2024-11-13",
+        "firstIndexDate": "2024-10-27",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "3fffe9938dfc5a649cb8a1a885fece078192e0dd8063601aceab7ccbd6a0b045",
+          "characters": 1012
+        }
+      },
+      {
+        "id": "32402935",
+        "source": "MED",
+        "pmid": "32402935",
+        "doi": "10.1016/j.ejmech.2020.112364",
+        "title": "Cryptophycin-55/52 based antibody-drug conjugates: Synthesis, efficacy, and mode of action studies.",
+        "authorString": "Lai Q, Wu M, Wang R, Lai W, Tao Y, Lu Y, Wang Y, Yu L, Zhang R, Peng Y, Jiang X, Fu Y, Wang X, Zhang Z, Guo C, Liao W, Zhang Y, Kang T, Chen H, Yao Y, Gou L, Yang J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lai Q",
+              "lastName": "Lai",
+              "firstName": "Qinhuai",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu M",
+              "lastName": "Wu",
+              "firstName": "Mengdan",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang R",
+              "lastName": "Wang",
+              "firstName": "Ruixue",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lai W",
+              "lastName": "Lai",
+              "firstName": "Weirong",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tao Y",
+              "lastName": "Tao",
+              "firstName": "Yiran",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8894-5943"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lu Y",
+              "lastName": "Lu",
+              "firstName": "Ying",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China; West China School of Public Health and West China Fourth Hospital, Healthy Food Evaluation Research Center/ Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yuxi",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Respiratory and Critical Care Medicine, West China Hospital, Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yu L",
+              "lastName": "Yu",
+              "firstName": "Lin",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China; Department of Clinical Laboratory, Mianyang Central Hospital, Mianyang, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang R",
+              "lastName": "Zhang",
+              "firstName": "Ruirui",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Peng Y",
+              "lastName": "Peng",
+              "firstName": "Yujia",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jiang X",
+              "lastName": "Jiang",
+              "firstName": "Xiaohua",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fu Y",
+              "lastName": "Fu",
+              "firstName": "Yuyin",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang X",
+              "lastName": "Wang",
+              "firstName": "Xin",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang Z",
+              "lastName": "Zhang",
+              "firstName": "Zhixiong",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guo C",
+              "lastName": "Guo",
+              "firstName": "Cuiyu",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liao W",
+              "lastName": "Liao",
+              "firstName": "Wei",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The 32265 Army Hospital of PLA, Guangzhou, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang Y",
+              "lastName": "Zhang",
+              "firstName": "Yiwen",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kang T",
+              "lastName": "Kang",
+              "firstName": "Tairan",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "College of Pharmacy and Biological Engineering, Chengdu University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen H",
+              "lastName": "Chen",
+              "firstName": "Hao",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yao Y",
+              "lastName": "Yao",
+              "firstName": "Yuqin",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China; West China School of Public Health and West China Fourth Hospital, Healthy Food Evaluation Research Center/ Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gou L",
+              "lastName": "Gou",
+              "firstName": "Lantu",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang J",
+              "lastName": "Yang",
+              "firstName": "Jinliang",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China; Research Unit of Gene and Immunotherapy, Chinese Academy of Medical Sciences, Beijing, PR China. Electronic address: jinliangyang@scu.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8894-5943"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "199",
+          "journalIssueId": 2968806,
+          "dateOfPublication": "2020 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Eur J Med Chem",
+            "title": "European journal of medicinal chemistry",
+            "essn": "1768-3254",
+            "issn": "0223-5234",
+            "nlmid": "0420510",
+            "isoabbreviation": "Eur J Med Chem"
+          },
+          "printPublicationDate": "2020-08-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "112364",
+        "affiliation": "State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, Chengdu, PR China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81703553",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Major Science and Technology Projects of China",
+              "grantId": "2017ZX09302010",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81572995",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81602169",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "81872907",
+              "orderIn": 0
+            },
+            {
+              "agency": "Postdoctor al Research Project, West China Hospital, Sichuan University",
+              "grantId": "2018HXBH057",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tumor Cells, Cultured"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred BALB C"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Nude"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neoplasms, Experimental",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lactams",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lactones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Depsipeptides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Screening Assays, Antitumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apoptosis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Structure"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Structure-Activity Relationship"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Cycle Checkpoints",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Trastuzumab",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Chemical synthesis",
+            "Antitumor",
+            "Trastuzumab",
+            "Antibody-drug Conjugate (Adc)",
+            "Cryptophycin-52 (Cr52)",
+            "Cryptophycin-55 (Cr55)"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "cryptophycin 55",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Lactones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Lactams",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Depsipeptides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "trastuzumab",
+              "registryNumber": "P188ANX8CK"
+            },
+            {
+              "name": "cryptophycin 52",
+              "registryNumber": "I7FQ5A183L"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ejmech.2020.112364"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 27,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-02-01",
+        "dateOfCreation": "2020-05-14",
+        "dateOfRevision": "2021-02-01",
+        "electronicPublicationDate": "2020-04-30",
+        "firstPublicationDate": "2020-04-30",
+        "firstIndexDate": "2020-05-15",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "505a1b6ffaa31e75883efcf8450533c8e485911e8f51f9635b0529d7e0f69224",
+          "characters": 1791
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "bdc17d624d91e3875c94bc906f075af731d006d1d35d77f62e030a115466ca2a",
+    "sourceBytes": 23863,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

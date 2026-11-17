@@ -1,0 +1,966 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:33596073 AND SRC:MED",
+    "internalQuery": "EXT_ID:33596073 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "33596073",
+        "source": "MED",
+        "pmid": "33596073",
+        "doi": "10.1021/acs.jmedchem.0c01846",
+        "title": "Antibody-Mediated Delivery of Chimeric BRD4 Degraders. Part 2: Improvement of In Vitro Antiproliferation Activity and In Vivo Antitumor Efficacy.",
+        "authorString": "Dragovich PS, Pillow TH, Blake RA, Sadowsky JD, Adaligil E, Adhikari P, Chen J, Corr N, Dela Cruz-Chuh J, Del Rosario G, Fullerton A, Hartman SJ, Jiang F, Kaufman S, Kleinheinz T, Kozak KR, Liu L, Lu Y, Mulvihill MM, Murray JM, O'Donohue A, Rowntree RK, Sawyer WS, Staben LR, Wai J, Wang J, Wei B, Wei W, Xu Z, Yao H, Yu SF, Zhang D, Zhang H, Zhang S, Zhao Y, Zhou H, Zhu X.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Dragovich PS",
+              "lastName": "Dragovich",
+              "firstName": "Peter S",
+              "initials": "PS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7372-2862"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pillow TH",
+              "lastName": "Pillow",
+              "firstName": "Thomas H",
+              "initials": "TH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Blake RA",
+              "lastName": "Blake",
+              "firstName": "Robert A",
+              "initials": "RA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sadowsky JD",
+              "lastName": "Sadowsky",
+              "firstName": "Jack D",
+              "initials": "JD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0712-5450"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Adaligil E",
+              "lastName": "Adaligil",
+              "firstName": "Emel",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Adhikari P",
+              "lastName": "Adhikari",
+              "firstName": "Pragya",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen J",
+              "lastName": "Chen",
+              "firstName": "Jinhua",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "WuXi AppTec, 288 Fute Zhong Road, Waigaoqiao Free Trade Zone, Shanghai 200131, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Corr N",
+              "lastName": "Corr",
+              "firstName": "Nicholas",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dela Cruz-Chuh J",
+              "lastName": "Dela Cruz-Chuh",
+              "firstName": "Josefa",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Del Rosario G",
+              "lastName": "Del Rosario",
+              "firstName": "Geoffrey",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fullerton A",
+              "lastName": "Fullerton",
+              "firstName": "Aaron",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hartman SJ",
+              "lastName": "Hartman",
+              "firstName": "Steven J",
+              "initials": "SJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8561-3417"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jiang F",
+              "lastName": "Jiang",
+              "firstName": "Fan",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Viva Biotech, Structural Biology, 334 Aidisheng Road, Zhangjiang High-Tech Park, Shanghai 201203, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kaufman S",
+              "lastName": "Kaufman",
+              "firstName": "Susan",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kleinheinz T",
+              "lastName": "Kleinheinz",
+              "firstName": "Tracy",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kozak KR",
+              "lastName": "Kozak",
+              "firstName": "Katherine R",
+              "initials": "KR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu L",
+              "lastName": "Liu",
+              "firstName": "Liling",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lu Y",
+              "lastName": "Lu",
+              "firstName": "Ying",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "WuXi AppTec, 288 Fute Zhong Road, Waigaoqiao Free Trade Zone, Shanghai 200131, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mulvihill MM",
+              "lastName": "Mulvihill",
+              "firstName": "Melinda M",
+              "initials": "MM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Murray JM",
+              "lastName": "Murray",
+              "firstName": "Jeremy M",
+              "initials": "JM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2161-9326"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "O'Donohue A",
+              "lastName": "O'Donohue",
+              "firstName": "Aimee",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rowntree RK",
+              "lastName": "Rowntree",
+              "firstName": "Rebecca K",
+              "initials": "RK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sawyer WS",
+              "lastName": "Sawyer",
+              "firstName": "William S",
+              "initials": "WS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Staben LR",
+              "lastName": "Staben",
+              "firstName": "Leanna R",
+              "initials": "LR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wai J",
+              "lastName": "Wai",
+              "firstName": "John",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "WuXi AppTec, 288 Fute Zhong Road, Waigaoqiao Free Trade Zone, Shanghai 200131, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang J",
+              "lastName": "Wang",
+              "firstName": "Jian",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "WuXi AppTec, 288 Fute Zhong Road, Waigaoqiao Free Trade Zone, Shanghai 200131, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wei B",
+              "lastName": "Wei",
+              "firstName": "BinQing",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wei W",
+              "lastName": "Wei",
+              "firstName": "Wentao",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Viva Biotech, Structural Biology, 334 Aidisheng Road, Zhangjiang High-Tech Park, Shanghai 201203, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu Z",
+              "lastName": "Xu",
+              "firstName": "Zijin",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "WuXi AppTec, 288 Fute Zhong Road, Waigaoqiao Free Trade Zone, Shanghai 200131, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yao H",
+              "lastName": "Yao",
+              "firstName": "Hui",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "WuXi AppTec, 288 Fute Zhong Road, Waigaoqiao Free Trade Zone, Shanghai 200131, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yu SF",
+              "lastName": "Yu",
+              "firstName": "Shang-Fan",
+              "initials": "SF",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang D",
+              "lastName": "Zhang",
+              "firstName": "Donglu",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang H",
+              "lastName": "Zhang",
+              "firstName": "Hongyan",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "WuXi AppTec, 288 Fute Zhong Road, Waigaoqiao Free Trade Zone, Shanghai 200131, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang S",
+              "lastName": "Zhang",
+              "firstName": "Shenhua",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Viva Biotech, Structural Biology, 334 Aidisheng Road, Zhangjiang High-Tech Park, Shanghai 201203, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhao Y",
+              "lastName": "Zhao",
+              "firstName": "Yongxin",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "WuXi AppTec, 288 Fute Zhong Road, Waigaoqiao Free Trade Zone, Shanghai 200131, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhou H",
+              "lastName": "Zhou",
+              "firstName": "Hao",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "WuXi AppTec, 288 Fute Zhong Road, Waigaoqiao Free Trade Zone, Shanghai 200131, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhu X",
+              "lastName": "Zhu",
+              "firstName": "Xiaoyu",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "WuXi AppTec, 288 Fute Zhong Road, Waigaoqiao Free Trade Zone, Shanghai 200131, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7372-2862"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0712-5450"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2161-9326"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8561-3417"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "64",
+          "journalIssueId": 3129877,
+          "dateOfPublication": "2021 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "J Med Chem",
+            "title": "Journal of medicinal chemistry",
+            "essn": "1520-4804",
+            "issn": "0022-2623",
+            "isoabbreviation": "J Med Chem",
+            "nlmid": "9716531"
+          },
+          "printPublicationDate": "2021-03-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "2576-2607",
+        "affiliation": "Genentech Inc., 1 DNA Way, South San Francisco, California 94080, United States.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "CIHR",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, SCID"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Heterocyclic Compounds, 3-Ring",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxidoreductases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dipeptides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Cycle Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transcription Factors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CS",
+                    "qualifierName": "chemical synthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antigens, Neoplasm",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xenograft Model Antitumor Assays"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Von Hippel-Lindau Tumor Suppressor Protein",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proteolysis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bromodomain Containing Proteins"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "BRD4 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antigens, Neoplasm",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Dipeptides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antibodies, Monoclonal",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Transcription Factors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cell Cycle Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Heterocyclic Compounds, 3-Ring",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Oxidoreductases",
+              "registryNumber": "EC 1.-"
+            },
+            {
+              "name": "STEAP1 protein, human",
+              "registryNumber": "EC 1.16.1.-"
+            },
+            {
+              "name": "Von Hippel-Lindau Tumor Suppressor Protein",
+              "registryNumber": "EC 2.3.2.27"
+            },
+            {
+              "name": "VHL protein, human",
+              "registryNumber": "EC 6.3.2.-"
+            },
+            {
+              "name": "Bromodomain Containing Proteins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.jmedchem.0c01846"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 144,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-06-07",
+        "dateOfCreation": "2021-02-17",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2021-02-17",
+        "firstPublicationDate": "2021-02-17",
+        "firstIndexDate": "2021-02-18",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "8750c25a4c0a41b83e19dbc5483d57fe51467d29127b2bf419d2c0fc50bfaf6b",
+          "characters": 1128
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "df1a14263773ca8588ef8cf7d24b710020c83077fb906d7614780b7c9fe90eb7",
+    "sourceBytes": 17332,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

@@ -1,0 +1,495 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:27412791 AND SRC:MED",
+    "internalQuery": "EXT_ID:27412791 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "27412791",
+        "source": "MED",
+        "pmid": "27412791",
+        "doi": "10.1021/acs.bioconjchem.6b00291",
+        "title": "Natural Product Splicing Inhibitors: A New Class of Antibody-Drug Conjugate (ADC) Payloads.",
+        "authorString": "Puthenveetil S, Loganzo F, He H, Dirico K, Green M, Teske J, Musto S, Clark T, Rago B, Koehn F, Veneziale R, Falahaptisheh H, Han X, Barletta F, Lucas J, Subramanyam C, O'Donnell CJ, Tumey LN, Sapra P, Gerber HP, Ma D, Graziani EI.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Puthenveetil S",
+              "lastName": "Puthenveetil",
+              "firstName": "Sujiet",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9005-8422"
+              }
+            },
+            {
+              "fullName": "Loganzo F",
+              "lastName": "Loganzo",
+              "firstName": "Frank",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Oncology-Rinat Research & Development, Pfizer , 401 North Middletown Road, Pearl River, New York 10965, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "He H",
+              "lastName": "He",
+              "firstName": "Haiyin",
+              "initials": "H"
+            },
+            {
+              "fullName": "Dirico K",
+              "lastName": "Dirico",
+              "firstName": "Ken",
+              "initials": "K"
+            },
+            {
+              "fullName": "Green M",
+              "lastName": "Green",
+              "firstName": "Michael",
+              "initials": "M"
+            },
+            {
+              "fullName": "Teske J",
+              "lastName": "Teske",
+              "firstName": "Jesse",
+              "initials": "J"
+            },
+            {
+              "fullName": "Musto S",
+              "lastName": "Musto",
+              "firstName": "Sylvia",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Oncology-Rinat Research & Development, Pfizer , 401 North Middletown Road, Pearl River, New York 10965, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Clark T",
+              "lastName": "Clark",
+              "firstName": "Tracey",
+              "initials": "T"
+            },
+            {
+              "fullName": "Rago B",
+              "lastName": "Rago",
+              "firstName": "Brian",
+              "initials": "B"
+            },
+            {
+              "fullName": "Koehn F",
+              "lastName": "Koehn",
+              "firstName": "Frank",
+              "initials": "F"
+            },
+            {
+              "fullName": "Veneziale R",
+              "lastName": "Veneziale",
+              "firstName": "Robert",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Drug Safety Research and Development, Pfizer , 401 North Middletown Road, Pearl River, New York 10977, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Falahaptisheh H",
+              "lastName": "Falahaptisheh",
+              "firstName": "Hadi",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Drug Safety Research and Development, Pfizer , 401 North Middletown Road, Pearl River, New York 10977, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Han X",
+              "lastName": "Han",
+              "firstName": "Xiaogang",
+              "initials": "X"
+            },
+            {
+              "fullName": "Barletta F",
+              "lastName": "Barletta",
+              "firstName": "Frank",
+              "initials": "F"
+            },
+            {
+              "fullName": "Lucas J",
+              "lastName": "Lucas",
+              "firstName": "Judy",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Oncology-Rinat Research & Development, Pfizer , 401 North Middletown Road, Pearl River, New York 10965, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Subramanyam C",
+              "lastName": "Subramanyam",
+              "firstName": "Chakrapani",
+              "initials": "C"
+            },
+            {
+              "fullName": "O'Donnell CJ",
+              "lastName": "O'Donnell",
+              "firstName": "Christopher J",
+              "initials": "CJ"
+            },
+            {
+              "fullName": "Tumey LN",
+              "lastName": "Tumey",
+              "firstName": "L Nathan",
+              "initials": "LN"
+            },
+            {
+              "fullName": "Sapra P",
+              "lastName": "Sapra",
+              "firstName": "Puja",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Oncology-Rinat Research & Development, Pfizer , 401 North Middletown Road, Pearl River, New York 10965, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gerber HP",
+              "lastName": "Gerber",
+              "firstName": "Hans Peter",
+              "initials": "HP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Oncology-Rinat Research & Development, Pfizer , 401 North Middletown Road, Pearl River, New York 10965, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ma D",
+              "lastName": "Ma",
+              "firstName": "Dangshe",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Oncology-Rinat Research & Development, Pfizer , 401 North Middletown Road, Pearl River, New York 10965, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Graziani EI",
+              "lastName": "Graziani",
+              "firstName": "Edmund I",
+              "initials": "EI"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9005-8422"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "27",
+          "journalIssueId": 2442018,
+          "dateOfPublication": "2016 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Bioconjug Chem",
+            "title": "Bioconjugate chemistry",
+            "essn": "1520-4812",
+            "issn": "1043-1802",
+            "isoabbreviation": "Bioconjug Chem",
+            "nlmid": "9010319"
+          },
+          "printPublicationDate": "2016-08-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "1880-1888",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Transformation, Neoplastic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carboxylic Acids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Maleimides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cysteine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pyrans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lysine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biological Products",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tissue Distribution"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "ATP Binding Cassette Transporter, Subfamily B, Member 1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Pyrans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Carboxylic Acids",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Biological Products",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Maleimides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "thailanstatin A",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cysteine",
+              "registryNumber": "K848JZ4886"
+            },
+            {
+              "name": "Lysine",
+              "registryNumber": "K3Z4F929H6"
+            },
+            {
+              "name": "maleimide",
+              "registryNumber": "2519R1UGP8"
+            },
+            {
+              "name": "ATP Binding Cassette Transporter, Subfamily B, Member 1",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.bioconjchem.6b00291"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 57,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-06-19",
+        "dateOfCreation": "2016-07-15",
+        "dateOfRevision": "2018-12-02",
+        "electronicPublicationDate": "2016-07-28",
+        "firstPublicationDate": "2016-07-28",
+        "firstIndexDate": "2016-07-15",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "8255c3302d615f9868d2a26af91305ac2a46a38487853f011fcc8c26ac5dada8",
+          "characters": 1743
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "5f78b74862e69b6e1dda229642756dc866dbbcd4f3408eb86833d509ff344d38",
+    "sourceBytes": 9628,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

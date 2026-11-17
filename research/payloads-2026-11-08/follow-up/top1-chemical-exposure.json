@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-09T05:52:06.004Z",
+  "request": {
+    "query": "Which primary studies compare free exatecan clinical outcomes with antibody-delivered exatecan or redesigned TOP1 payloads, including defined transporter or TOP1-mutant resistance, payload release and bystander controls?",
+    "searchMode": "semantic",
+    "maxResults": 10,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-207688867",
+        "title": "Intracellular Released Payload Influences Potency and Bystander-Killing Effects of Antibody-Drug Conjugates in Preclinical Models.",
+        "authors": [
+          "Fu Li",
+          "Kim K. Emmerton",
+          "M. Jonas",
+          "Xin-Qun Zhang",
+          "J. Miyamoto",
+          "J. Setter",
+          "Nicole D. Nicholas",
+          "N. Okeley",
+          "Robert P. Lyon",
+          "Dennis R. Benjamin",
+          "C. Law"
+        ],
+        "year": 2016,
+        "doi": "10.1158/0008-5472.CAN-15-1795",
+        "pmid": "26921341",
+        "venue": "Cancer Research",
+        "citedByCount": 291,
+        "urls": [
+          "https://doi.org/10.1158/0008-5472.22410507"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1158/0008-5472.22410507",
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "f7fadaf7360550134e6557b602df8d8df0938ac7e98d1d515f272313a5dac843",
+          "characters": 1649
+        }
+      },
+      {
+        "elicitId": "ss-288787935",
+        "title": "Clinical impact of\n TOP1\n alterations on outcomes to topoisomerase-I–directed therapies across chemotherapy and antibody-drug conjugates.",
+        "authors": [
+          "Amro al-Omari",
+          "Umer Javaid",
+          "Ayham Alomari",
+          "Rana Uzair Ahmad",
+          "Minahil Imran",
+          "Hamza Abdul Fattah"
+        ],
+        "year": 2026,
+        "doi": "10.1200/jco.2026.44.16_suppl.e15044",
+        "pmid": null,
+        "venue": "Journal of Clinical Oncology",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [
+          "Longitudinal"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "482375728958ac333ee080779c4d3a73cd0bd9228c0f5401d40f5d51696286ec",
+          "characters": 2342
+        }
+      },
+      {
+        "elicitId": "ss-276113350",
+        "title": "The Mode of Action and Clinical Outcomes of Sacituzumab Govitecan in Solid Tumors",
+        "authors": [
+          "S. Tolaney",
+          "Thomas M Cardillo",
+          "Chih-Chien Chou",
+          "Carrie Dornan",
+          "M. Faris"
+        ],
+        "year": 2025,
+        "doi": "10.1158/1078-0432.CCR-24-1525",
+        "pmid": "39903492",
+        "venue": "Clinical Cancer Research",
+        "citedByCount": 37,
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995006/pdf/ccr-24-1525.pdf",
+          "https://aacrjournals.org/clincancerres/article-pdf/31/8/1390/3566372/ccr-24-1525.pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://aacrjournals.org/clincancerres/article-pdf/31/8/1390/3566372/ccr-24-1525.pdf",
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "c3986d42f01377b50fe2b775197c86d4406d64a2aa2131bc46ff9fc0355771a5",
+          "characters": 1775
+        }
+      },
+      {
+        "elicitId": "ss-288043933",
+        "title": "Repurposing payloads: next generation of antibody-drug conjugates.",
+        "authors": [
+          "Katherine Shatzer",
+          "F. Muller"
+        ],
+        "year": 2026,
+        "doi": "10.1016/j.trecan.2026.04.001",
+        "pmid": "42091414",
+        "venue": "Trends in Cancer",
+        "citedByCount": 7,
+        "urls": [
+          "https://doi.org/10.1016/j.trecan.2026.04.001"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1016/j.trecan.2026.04.001",
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-268661060",
+        "title": "Abstract 2600: Novel dual TOP1i ADC inducing superior tumour growth inhibition at low-drug load vs. trastuzumab deruxtecan",
+        "authors": [
+          "P. Spycher",
+          "Rachael Fay",
+          "R. Bertrand",
+          "Philipp Probst",
+          "Ramona Stark",
+          "Roger Santimaria",
+          "Patrick Maurhofer",
+          "Lia Kallenberger",
+          "Emma Renard",
+          "Bernd Schlereth",
+          "D. Grabulovski",
+          "Isabella Attinger-Toller"
+        ],
+        "year": 2024,
+        "doi": "10.1158/1538-7445.am2024-2600",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "8ac2ffb335f1ae54ed06211c72f4348505e33b4cec642ed8adf2682b2f1ec05b",
+          "characters": 3412
+        }
+      },
+      {
+        "elicitId": "ss-202847910",
+        "title": "Synthesis and Evaluation of Camptothecin Antibody–Drug Conjugates",
+        "authors": [
+          "Wei Li",
+          "Karen H. Veale",
+          "Qifeng Qiu",
+          "K. Sinkevicius",
+          "E. K. Maloney",
+          "Juliet A. Costoplus",
+          "Janet T. F. Lau",
+          "Helen Evans",
+          "Y. Setiady",
+          "O. Ab",
+          "Stephen M. Abbott",
+          "Jenny Lee",
+          "Somsinee Wisitpitthaya",
+          "A. Skaletskaya",
+          "Lintao Wang",
+          "T. Keating",
+          "R. Chari",
+          "W. Widdison"
+        ],
+        "year": 2019,
+        "doi": "10.1021/acsmedchemlett.9b00301",
+        "pmid": "31620223",
+        "venue": "ACS Medicinal Chemistry Letters",
+        "citedByCount": 41,
+        "urls": [
+          "https://doi.org/10.1021/acsmedchemlett.9b00301"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1021/acsmedchemlett.9b00301",
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "f8bd86af8e551717b3c2a03ba3acbdb0c79d340c7ee4901bc31a7d20abf5d3c8",
+          "characters": 760
+        }
+      },
+      {
+        "elicitId": "ss-263969278",
+        "title": "Design and Evaluation of Phosphonamidate-Linked Exatecan Constructs for Highly Loaded, Stable, and Efficacious Antibody–Drug Conjugates",
+        "authors": [
+          "Saskia Schmitt",
+          "Paul Machui",
+          "I. Mai",
+          "Sarah Herterich",
+          "Swetlana Wunder",
+          "Philipp Cyprys",
+          "M. Gerlach",
+          "P. Ochtrop",
+          "C. P. R. Hackenberger",
+          "Dominik Schumacher",
+          "Jonas Helma",
+          "Annette M Vogl",
+          "M. Kasper"
+        ],
+        "year": 2023,
+        "doi": "10.1158/1535-7163.MCT-23-0359",
+        "pmid": "37828728",
+        "venue": "Molecular Cancer Therapeutics",
+        "citedByCount": 13,
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10831470/pdf/199.pdf",
+          "https://aacrjournals.org/mct/article-pdf/doi/10.1158/1535-7163.MCT-23-0359/3372565/mct-23-0359.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://aacrjournals.org/mct/article-pdf/doi/10.1158/1535-7163.MCT-23-0359/3372565/mct-23-0359.pdf",
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "7f3e566b5ec4a7b3bfb95dbc22c2812e2749ff6fb6669aa144aa432709cc799e",
+          "characters": 1772
+        }
+      },
+      {
+        "elicitId": "ss-288060587",
+        "title": "Molecular Determinants of Response and Rational Drug Combinations for Antibody-Drug Conjugates (ADCs) with Topoisomerase I (TOP1) Inhibitor payloads",
+        "authors": [
+          "Yves Pommier"
+        ],
+        "year": 2026,
+        "doi": "10.1016/j.jmb.2026.169841",
+        "pmid": "42092629",
+        "venue": "Journal of Molecular Biology",
+        "citedByCount": 4,
+        "urls": [
+          "https://doi.org/10.2139/ssrn.6265122"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.2139/ssrn.6265122",
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-289151365",
+        "title": "Antibody-Drug Conjugates in Solid Tumor Oncology and the Frontier of Precision Immunosuppression: A Mechanistic, Translational, and Clinical Review",
+        "authors": [
+          "Ibraheem Masoud",
+          "N. Al Shaer",
+          "Ahmadi Masoud",
+          "Ahmad Al Jandali",
+          "Abdulrahman Aldahash",
+          "Abdullah Jabri",
+          "Mohamed Alsharif",
+          "Fareeha Arshad",
+          "Itika Arora",
+          "Mohammed Imran Khan",
+          "Ahmed Yaqinuddin"
+        ],
+        "year": 2026,
+        "doi": "10.3390/ijms27125196",
+        "pmid": "42352921",
+        "venue": "International Journal of Molecular Sciences",
+        "citedByCount": 4,
+        "urls": [
+          "https://doi.org/10.3390/ijms27125196"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.3390/ijms27125196",
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "287f24401430fed84b604414fe184fdcee9a4dc550ba033fb1d0408cf23661d9",
+          "characters": 1855
+        }
+      },
+      {
+        "elicitId": "ss-288791844",
+        "title": "Phase 1/2 study of CLIO-8221, a HER2-targeted, dual-payload exatecan and ATR inhibitor antibody-drug conjugate (ADC) in patients with advanced HER2-expressing solid tumors.",
+        "authors": [
+          "T. Yap",
+          "C. Lemech",
+          "P. Lau",
+          "J. Coward",
+          "M. Ameratunga",
+          "S. Luen",
+          "A. Patnaik",
+          "J. Call",
+          "E. Hamilton",
+          "Hong-Xia Wang",
+          "N. Hunder",
+          "Sharon Ma",
+          "Alyson Smith",
+          "A. Bansal",
+          "Benjamin J. Ayers",
+          "J. Boyd-Kirkup",
+          "P. Ingram",
+          "F. Lynce"
+        ],
+        "year": 2026,
+        "doi": "10.1200/jco.2026.44.16_suppl.tps3162",
+        "pmid": null,
+        "venue": "Journal of Clinical Oncology",
+        "citedByCount": 0,
+        "urls": [
+          "https://ascopubs.org/doi/pdf/10.1200/JCO.2026.44.16_suppl.TPS3162"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://ascopubs.org/doi/pdf/10.1200/JCO.2026.44.16_suppl.TPS3162",
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "87b6a4a3f666ceef1099d60c5f018f9b789bd43d9859b5d70296169c31a6db80",
+          "characters": 2860
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "representation": "metadata-only",
+    "rawCaptureSha256": "3b4aef8ed1d6c9b3b6972b9f7c990a2b1ed6116e8079403aac644db081a8fdb3",
+    "rawBytes": 26252,
+    "excludedFields": [
+      "response.papers[].abstract"
+    ],
+    "rawLocation": "Exact original response retained outside public checkout; bodies excluded in full, not edited quotations."
+  }
+}

@@ -1,0 +1,704 @@
+[
+  {
+    "file": "doi-dm4-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1021%2Fjm060319f%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:02:55.812736+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1021%2Fjm060319f%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 6776,
+    "sha256": "229fe5169d702463892143336413bbe40bc7c90560d322c8c2bab396f134c6bb"
+  },
+  {
+    "file": "doi-cl2a-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1078-0432.CCR-10-2939%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:02:56.717091+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1078-0432.CCR-10-2939%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 8638,
+    "sha256": "7009e5fc396f31b6c9ea394a9ed918df3931246e8339a1f23dd69728c96e892f"
+  },
+  {
+    "file": "doi-ggfg-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1078-0432.CCR-15-2822%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:02:57.391846+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1078-0432.CCR-15-2822%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 12446,
+    "sha256": "9638a93084bf58ec29dfd8008f172f2db54872c0db3dd69d4431132e501223f7"
+  },
+  {
+    "file": "doi-mc-vc-pabc-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fnbt832%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:02:58.097665+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fnbt832%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 7859,
+    "sha256": "8398a12c0bd0350a0008bb23406fc4f9b487a8a81d966a39aee804e4d72c2885"
+  },
+  {
+    "file": "doi-sulfo-spdb-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1021%2Fbc100480a%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:03:07.391016+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1021%2Fbc100480a%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 7527,
+    "sha256": "3bed948cca6d7c1df99bb6d8049707b9edbae4a1fe26bc4d6b126e8d8359e7e4"
+  },
+  {
+    "file": "doi-val-ala-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1182%2Fblood-2017-10-813493%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:03:15.684736+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1182%2Fblood-2017-10-813493%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 10384,
+    "sha256": "5ccdf23d6ea40237074d2515747a3ecda0c80372ca68d3c5ac47784062c8f864"
+  },
+  {
+    "file": "doi-mc-non-cleavable-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1021%2Fbc0502917%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:03:16.405015+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1021%2Fbc0502917%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 7795,
+    "sha256": "97b5ef634ea31c11bee27bb103b44fa5774bea84906c56eb5088e65a97c4698d"
+  },
+  {
+    "file": "doi-hydrophilic-next-gen-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F0008-5472.CAN-15-0129%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:03:17.422265+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F0008-5472.CAN-15-0129%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 9312,
+    "sha256": "fe3120ab40b240c6887cb6c2b96217e421adf4b900083c7baa63e33a98634aec"
+  },
+  {
+    "file": "med-29992976.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A29992976+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:03:18.194023+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A29992976+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 11144,
+    "sha256": "49d3d8a1154e037309fce3a9e27e2cb6df3d511a9d0b9cbcda988983fd194589"
+  },
+  {
+    "file": "med-27166974.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27166974+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:03:19.067172+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27166974+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 10331,
+    "sha256": "e96415ec2772c85b3bac58d9b77dcfa61d979f24b045d7dd86f9f530433ea682"
+  },
+  {
+    "file": "skb264-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3389%2Ffonc.2022.951589%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:03:19.747989+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3389%2Ffonc.2022.951589%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 8135,
+    "sha256": "e730ceae79b0f52662a633db2bd180cd6d73ab87ad3ffd6fccacf51eb2119b11"
+  },
+  {
+    "file": "elahere-ema-assessment.pdf",
+    "url": "https://www.ema.europa.eu/en/documents/assessment-report/elahere-epar-public-assessment-report_en.pdf",
+    "capturedAt": "2026-11-10T01:03:20.394181+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "file": "elahere-fda-chemistry.pdf",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761310Orig1s000ChemR.pdf",
+    "capturedAt": "2026-11-10T01:03:20.869001+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "elicit-rank-1-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1101%2F2025.05.22.651305%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:04:59.320123+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1101%2F2025.05.22.651305%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 208,
+    "sha256": "c7deab944792ca435d88569e42fdda40bdda701889dab0701de3bfbbd41d01d8"
+  },
+  {
+    "file": "elicit-rank-2-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.20517%2Fcdr.2025.151%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:05:00.050526+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.20517%2Fcdr.2025.151%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 7263,
+    "sha256": "d3012d10f89bcb2fbc7d00c2c4abc198251a63b9dae71de8626eca51640bf031"
+  },
+  {
+    "file": "elicit-rank-3-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1538-7445.SABCS18-538%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:05:00.763675+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1538-7445.SABCS18-538%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 212,
+    "sha256": "141eda2e82dd30c8c6a154c468e1c09c807507541c3a003152b239cf78f53d12"
+  },
+  {
+    "file": "elicit-rank-4-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F0008-5472.CAN-15-1795%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:05:01.805523+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F0008-5472.CAN-15-1795%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 8163,
+    "sha256": "f4ce73ba77a4c3385a80c818c5410e8c799f7bf4fdc300f2360f40a30f2b00d7"
+  },
+  {
+    "file": "elicit-rank-5-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Fcas.12966%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:05:02.449454+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Fcas.12966%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 10295,
+    "sha256": "495f6f743379aea900453e0ad8258808320f41d2b6b438a57d98b0f96c16294f"
+  },
+  {
+    "file": "elicit-rank-6-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1124%2Fdmd.115.064253%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:05:03.122331+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1124%2Fdmd.115.064253%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 5780,
+    "sha256": "82f46d3eb7ae924cedfd076b1c1221961d309d670944553916ef43c07bb8a2bf"
+  },
+  {
+    "file": "elicit-rank-7-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1021%2Facs.bioconjchem.6b00192%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:05:03.822454+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1021%2Facs.bioconjchem.6b00192%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 13220,
+    "sha256": "472080d27f5778922cf1236c550d1e0746c5478b06846be1184a2cde3015c5f9"
+  },
+  {
+    "file": "elicit-rank-8-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1538-7445.AM2015-5507%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:05:04.567795+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1538-7445.AM2015-5507%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 212,
+    "sha256": "02d0666f3cc5f7f1fc3c647c2baeb7aff6ff08dc8ce30cb6ea59fd16d92ed318"
+  },
+  {
+    "file": "elicit-rank-9-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.bmc.2017.04.010%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:05:05.187866+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.bmc.2017.04.010%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 6340,
+    "sha256": "5d1c4edae6cc828813078da3458f30e6b87f4f71f6dc8fe0f728179e0dbd29bd"
+  },
+  {
+    "file": "elicit-rank-10-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Intracellular+metabolism+of+antibody-drug+conjugates%3A+identification+and+quantitation+of+released+drugs%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:05:05.824854+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Intracellular+metabolism+of+antibody-drug+conjugates%3A+identification+and+quantitation+of+released+drugs%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 288,
+    "sha256": "c279ca8cee17b4f3aefe91bdc77c988c83f20bd2eec83f7fd0d4f2c9c9240e77"
+  },
+  {
+    "file": "elicit-rank-11-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1535-7163.targ-25-a136%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:05:06.476100+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1535-7163.targ-25-a136%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 213,
+    "sha256": "e0ef178fcac786b5ccff6ef2815cb6d26f81190d6a69f1c81c271297a1e700b8"
+  },
+  {
+    "file": "elicit-rank-12-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Linker+selection+in+antibody-maytansinoid+conjugates+impacts+bystander+killing+in+mouse+xenograft+models%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:05:07.103428+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Linker+selection+in+antibody-maytansinoid+conjugates+impacts+bystander+killing+in+mouse+xenograft+models%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 289,
+    "sha256": "8d3e8d0890305c4033ed8bd53be10d063ef98e19d5002313c9e5b6c244ba80ed"
+  },
+  {
+    "file": "kadcyla-label.pdf",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125427s125lbl.pdf",
+    "capturedAt": "2026-11-10T01:05:07.745453+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "elahere-label.pdf",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761310Origs005lbl.pdf",
+    "capturedAt": "2026-11-10T01:05:08.020284+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "zynlonta-label.pdf",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761196s012lbl.pdf",
+    "capturedAt": "2026-11-10T01:05:08.200481+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "elahere-label.html",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00c424b5-6ccd-48ab-9e88-1986451120e2",
+    "capturedAt": "2026-11-10T01:05:08.378787+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00c424b5-6ccd-48ab-9e88-1986451120e2",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 240594,
+    "sha256": "4d9c040cd8c3d4e8b839fad46d408941a112b81c53f5d78a6bdfc83b460579a9"
+  },
+  {
+    "file": "blenrep-label.html",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aef7c34c-fef8-407c-99c0-a68aded53c60",
+    "capturedAt": "2026-11-10T01:05:09.184271+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aef7c34c-fef8-407c-99c0-a68aded53c60",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 234648,
+    "sha256": "5c74ddd84869a0297c5c326094061f36f579c6d1611840bd737bbe5408277ec8"
+  },
+  {
+    "file": "trastuzumab-emtansine-label.html",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Trastuzumab%20emtansine",
+    "capturedAt": "2026-11-10T01:06:23.465695+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 287667,
+    "sha256": "b0bc20e3fcd9a7cb907adc605b5972045820fabba739f1ac4a3eb437e89b16b6"
+  },
+  {
+    "file": "zynlonta-label.html",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Loncastuximab%20tesirine",
+    "capturedAt": "2026-11-10T01:06:24.420463+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=af54af12-3edf-4301-8bc5-0446bc813c1d",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 206372,
+    "sha256": "e79f5ba5afc14144fcf62cdae0fc769f1a187d0b6d26d79d5a330760bf702593"
+  },
+  {
+    "file": "sacituzumab-govitecan-label.html",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d",
+    "capturedAt": "2026-11-10T01:06:25.313882+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 328675,
+    "sha256": "5d93ee557a146400a4352d796ed814fe3f313d9aa8a1ac89651e43c1a6dfda1d"
+  },
+  {
+    "file": "trastuzumab-deruxtecan-label.html",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Trastuzumab%20deruxtecan",
+    "capturedAt": "2026-11-10T01:06:25.975284+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 492974,
+    "sha256": "59dedf4863eb00d153ee4db06bc1ee9ab7534056348f8e27d1129111aad9d09a"
+  },
+  {
+    "file": "datopotamab-deruxtecan-label.html",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0",
+    "capturedAt": "2026-11-10T01:06:27.073783+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 256746,
+    "sha256": "937726711767d219a40473fc1bc831cecfa8d69a7a7dd4de7164e9ffc050a0e3"
+  },
+  {
+    "file": "brentuximab-vedotin-label.html",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Brentuximab%20vedotin",
+    "capturedAt": "2026-11-10T01:06:27.701529+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 472320,
+    "sha256": "ffeb9c1193ca3cb924c0736bbb05df44f4632870e7bfae2c3a63eb0a88d35dbd"
+  },
+  {
+    "file": "gemtuzumab-ozogamicin-label.html",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Gemtuzumab%20ozogamicin",
+    "capturedAt": "2026-11-10T01:06:28.727374+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=32fd2bb2-1cfa-4250-feb8-d7956c794e05",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 239461,
+    "sha256": "2a8bf1a1ec1c4efe72bb2105bc4a67ed46280860a87181ba9c2a35a444e6f76e"
+  },
+  {
+    "file": "inotuzumab-ozogamicin-label.html",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Inotuzumab%20ozogamicin",
+    "capturedAt": "2026-11-10T01:06:29.663437+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc7014b1-c775-411d-b374-8113248b4077",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 290702,
+    "sha256": "33d7f912080f430f2a581882b3746bfbbe394c0394320ea3bba46a2b211a1057"
+  },
+  {
+    "file": "kadcyla-label-current.html",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+    "capturedAt": "2026-11-10T01:06:30.605132+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 287667,
+    "sha256": "b0bc20e3fcd9a7cb907adc605b5972045820fabba739f1ac4a3eb437e89b16b6"
+  },
+  {
+    "file": "zynlonta-label-current.html",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=af54af12-3edf-4301-8bc5-0446bc813c1d",
+    "capturedAt": "2026-11-10T01:06:31.230469+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=af54af12-3edf-4301-8bc5-0446bc813c1d",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 206372,
+    "sha256": "e79f5ba5afc14144fcf62cdae0fc769f1a187d0b6d26d79d5a330760bf702593"
+  },
+  {
+    "file": "med-33722857.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33722857+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:06:31.761331+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33722857+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 9773,
+    "sha256": "216a93372962bf01fcc526c66766394910f7d8097d2232ce76a3655f3a0addc9"
+  },
+  {
+    "file": "med-33722858.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33722858+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:06:32.485647+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33722858+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 11009,
+    "sha256": "7c673b97cace3faa6c4bac6c386ba16534bebd48bf7df48ee36cf232ae945ed1"
+  },
+  {
+    "file": "slc46a3-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22SLC46A3+Is+Required+to+Transport+Catabolites%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:06:33.158695+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22SLC46A3+Is+Required+to+Transport+Catabolites%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 9290,
+    "sha256": "33dd856d7b9ade72504597429b6ffae7fcbed9fe9b65f4bc7df26fd0e01aba85"
+  },
+  {
+    "file": "abc-preprint-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40501953+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:06:33.820798+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40501953+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 7354,
+    "sha256": "d39615fda004b2101844b1af20fefc63805281f243eaac52a84bc678562b2fb7"
+  },
+  {
+    "file": "elicit-rank-3-crossref.json",
+    "url": "https://api.crossref.org/works/10.1158%2F1538-7445.SABCS18-538",
+    "capturedAt": "2026-11-10T01:07:27.653547+00:00",
+    "status": 200,
+    "finalURL": "https://api.crossref.org/works/10.1158/1538-7445.am2019-538",
+    "contentType": "application/json",
+    "bytes": 5924,
+    "sha256": "009e9a793309407a90ba1243235f7c6d04c2ce0daeaf3c1bc57e499525b19e2f"
+  },
+  {
+    "file": "elicit-rank-8-crossref.json",
+    "url": "https://api.crossref.org/works/10.1158%2F1538-7445.AM2015-5507",
+    "capturedAt": "2026-11-10T01:07:28.186898+00:00",
+    "status": 200,
+    "finalURL": "https://api.crossref.org/works/10.1158%2F1538-7445.AM2015-5507",
+    "contentType": "application/json",
+    "bytes": 5814,
+    "sha256": "4be1c59d25405b5aa2d79b30865669d6a35ad91a130c339b6ba52b433e09fc7a"
+  },
+  {
+    "file": "elicit-rank-11-crossref.json",
+    "url": "https://api.crossref.org/works/10.1158%2F1535-7163.targ-25-a136",
+    "capturedAt": "2026-11-10T01:07:28.449991+00:00",
+    "status": 200,
+    "finalURL": "https://api.crossref.org/works/10.1158%2F1535-7163.targ-25-a136",
+    "contentType": "application/json",
+    "bytes": 6522,
+    "sha256": "ffb182c2f630fd51b5d54ac5445b25d104394e78129b198b32e8c8a8f1f77df3"
+  },
+  {
+    "file": "elicit-rank-10-crossref-title.json",
+    "url": "https://api.crossref.org/works?query.title=Intracellular+metabolism+of+antibody-drug+conjugates%3A+identification+and+quantitation+of+released+drugs&rows=5",
+    "capturedAt": "2026-11-10T01:07:28.696049+00:00",
+    "status": 200,
+    "finalURL": "https://api.crossref.org/works?query.title=Intracellular+metabolism+of+antibody-drug+conjugates%3A+identification+and+quantitation+of+released+drugs&rows=5",
+    "contentType": "application/json",
+    "bytes": 77311,
+    "sha256": "824c0fe0d1244ef0004095dbccca5b55787a293ab67eedd57608db4330b38a3a"
+  },
+  {
+    "file": "elicit-rank-12-crossref-title.json",
+    "url": "https://api.crossref.org/works?query.title=Linker+selection+in+antibody-maytansinoid+conjugates+impacts+bystander+killing+in+mouse+xenograft+models&rows=5",
+    "capturedAt": "2026-11-10T01:07:30.916048+00:00",
+    "status": 200,
+    "finalURL": "https://api.crossref.org/works?query.title=Linker+selection+in+antibody-maytansinoid+conjugates+impacts+bystander+killing+in+mouse+xenograft+models&rows=5",
+    "contentType": "application/json",
+    "bytes": 90533,
+    "sha256": "5075bffb689bbdffc30fe1df2e8c084b1d7f2f46947c9e352e67a645f43cca46"
+  },
+  {
+    "file": "fulltext-sg3199.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6041317/fullTextXML",
+    "capturedAt": "2026-11-10T01:07:31.692725+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6041317/fullTextXML",
+    "contentType": "application/xml",
+    "bytes": 79536,
+    "sha256": "d610538a4e1fa860209da2b4d7f2f9873df25d705bd824be4ea82ff6cbd40216"
+  },
+  {
+    "file": "fulltext-skb264.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9817100/fullTextXML",
+    "capturedAt": "2026-11-10T01:07:47.058345+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9817100/fullTextXML",
+    "contentType": "application/xml",
+    "bytes": 148428,
+    "sha256": "93230f8d89c88e476fae9aa1e7c6b754688ecaa8719a5e731698347a3e2ac420"
+  },
+  {
+    "file": "fulltext-abc-final.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12883344/fullTextXML",
+    "capturedAt": "2026-11-10T01:08:04.374405+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12883344/fullTextXML",
+    "contentType": "application/xml",
+    "bytes": 121655,
+    "sha256": "87dde5adff8efa95796e7f90176c48d39c1cb20a3fe2874495b06aea63fc1010"
+  },
+  {
+    "file": "fulltext-cl2a.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10766325/fullTextXML",
+    "capturedAt": "2026-11-10T01:08:08.045810+00:00",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "file": "fulltext-dxd-bystander.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4946713/fullTextXML",
+    "capturedAt": "2026-11-10T01:08:08.831502+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4946713/fullTextXML",
+    "contentType": "application/xml",
+    "bytes": 81600,
+    "sha256": "c37d4f75f935b87c5d655c30496b7e50416b43e55ee2514b678bf3445b3c4026"
+  },
+  {
+    "file": "dm21-peer-reviewed-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1021%2Facsmedchemlett.9b00310%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:13:32.727775+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1021%2Facsmedchemlett.9b00310%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 7789,
+    "sha256": "35815965c02b4170e57d74f2193697105a5ff1c5048bb6aa866381ac8098e6e2"
+  },
+  {
+    "file": "dm21-canonical-meeting-crossref.json",
+    "url": "https://api.crossref.org/works/10.1158%2F1538-7445.AM2019-538",
+    "capturedAt": "2026-11-10T01:13:46.462530+00:00",
+    "status": 200,
+    "finalURL": "https://api.crossref.org/works/10.1158%2F1538-7445.AM2019-538",
+    "contentType": "application/json",
+    "bytes": 5924,
+    "sha256": "009e9a793309407a90ba1243235f7c6d04c2ce0daeaf3c1bc57e499525b19e2f"
+  },
+  {
+    "file": "maytansinoid-linker-meeting.html",
+    "url": "https://aacrjournals.org/mct/article/6/11_Supplement/A86/240727/Linker-selection-in-antibody-maytansinoid",
+    "capturedAt": "2026-11-10T01:13:46.741752+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "imgn151-med-query.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3AIMGN151+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:13:46.844094+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3AIMGN151+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 192,
+    "sha256": "89f3e7da2575196dd3c26927aec45908cc140e45de3efa7310c4e20eac0b416d"
+  },
+  {
+    "file": "imgc936-med-query.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3AIMGC936+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:13:59.272599+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3AIMGC936+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 25626,
+    "sha256": "548d5403294baa83de591a88d08cb72067d75a1b606a1053fdf8a66111773399"
+  },
+  {
+    "file": "registry-NCT05527184.json",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT05527184",
+    "capturedAt": "2026-11-10T01:14:00.100459+00:00",
+    "status": 200,
+    "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT05527184",
+    "contentType": "application/json",
+    "bytes": 22821,
+    "sha256": "c0c3e39d7083e80fbe225eb81405938e3dbc7ed546de0d62df750976db86c16e"
+  },
+  {
+    "file": "registry-NCT03013933.json",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT03013933",
+    "capturedAt": "2026-11-10T01:14:00.300952+00:00",
+    "status": 200,
+    "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT03013933",
+    "contentType": "application/json",
+    "bytes": 19858,
+    "sha256": "d200c6817c7ec69d318309a817852050ec8192bfb5cd4a6265c8d02e5b774980"
+  },
+  {
+    "file": "fulltext-dm21.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6792174/fullTextXML",
+    "capturedAt": "2026-11-10T01:15:47.783974+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6792174/fullTextXML",
+    "contentType": "application/xml",
+    "bytes": 73189,
+    "sha256": "a5abae0df4708e88994cdf11714c6574ba5d548b7f069481f45ba2e5d7707bc2"
+  },
+  {
+    "file": "med-31620223-check.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31620223+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:16:03.537938+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31620223+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 7729,
+    "sha256": "2bf74a7785e505f2931fad83f2a4ceeb52fe479c2ea554e9816dac8453f7eaee"
+  },
+  {
+    "file": "duocarmazine-tulip-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3ATULIP+AND+TITLE_ABS%3Aduocarmazine+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:16:07.082575+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3ATULIP+AND+TITLE_ABS%3Aduocarmazine+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 25045,
+    "sha256": "9faa6229b1d16aa97dea5bb4edb7ba148d8390d84e5f76c87448e82ed34e8f92"
+  },
+  {
+    "file": "sgn35-metabolism-title-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22Intracellular+metabolism+of+antibody%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:16:07.856311+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22Intracellular+metabolism+of+antibody%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 225,
+    "sha256": "0cc7fa679543dd124ee9123a4458336153d9febdf27b3df8b2573ff7b7efa3c1"
+  },
+  {
+    "file": "registry-NCT04622774.json",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT04622774",
+    "capturedAt": "2026-11-10T01:18:34.391358+00:00",
+    "status": 200,
+    "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT04622774",
+    "contentType": "application/json",
+    "bytes": 205672,
+    "sha256": "65facd3c8e1209f6e3f01ffe7b1a5c8414284c3882eb3fab3a565e562e0456e5"
+  },
+  {
+    "file": "registry-NCT06723236.json",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT06723236",
+    "capturedAt": "2026-11-10T01:18:34.714870+00:00",
+    "status": 200,
+    "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT06723236",
+    "contentType": "application/json",
+    "bytes": 13815,
+    "sha256": "54c3aefa5fa61aa697d20678c8f582406afb38e6cb2f3e70b4835c9a54d37bab"
+  },
+  {
+    "file": "dm4-catabolites-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1535-7163.MCT-16-0021%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-10T01:18:34.890690+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1535-7163.MCT-16-0021%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 11373,
+    "sha256": "d7fbc1eb598618dfa9df4d9f39ef97592051e9becbd456f430b7b4bc74f00248"
+  },
+  {
+    "file": "registry-NCT03319628.json",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT03319628",
+    "capturedAt": "2026-11-10T01:28:08.402136+00:00",
+    "status": 200,
+    "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT03319628",
+    "contentType": "application/json",
+    "bytes": 17534,
+    "sha256": "cb555b17dbb303bc0c0960d34be787a29758567f0a5ee8d87622bcf3f5dcc63f"
+  },
+  {
+    "file": "duocarmazine-original-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&query=TITLE_ABS%3A%22trastuzumab%20duocarmazine%22%20AND%20%28AUTH_FIRST%3AElgersma%20OR%20AUTH_FIRST%3ADokter%29%20AND%20SRC%3AMED",
+    "capturedAt": "2026-11-10T01:28:08.590622+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&query=TITLE_ABS%3A%22trastuzumab%20duocarmazine%22%20AND%20%28AUTH_FIRST%3AElgersma%20OR%20AUTH_FIRST%3ADokter%29%20AND%20SRC%3AMED",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 260,
+    "sha256": "4fa8a60aeb1b56c88b316cd056f27ef290f31124aca2a0fa99f43e36306f0cc0"
+  },
+  {
+    "file": "duocarmazine-phase1-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&query=TITLE%3A%22Trastuzumab%20duocarmazine%20in%20locally%20advanced%20and%20metastatic%20solid%20tumours%22%20AND%20SRC%3AMED",
+    "capturedAt": "2026-11-10T01:28:12.349422+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&query=TITLE%3A%22Trastuzumab%20duocarmazine%20in%20locally%20advanced%20and%20metastatic%20solid%20tumours%22%20AND%20SRC%3AMED",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 14194,
+    "sha256": "b93e3dd3ad6d836f06a64c4f4e72012e76e4e99f9c8b0fcfa7104f4cc3ac19fd"
+  },
+  {
+    "file": "duocarmazine-early-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&query=SYD985%20AND%20FIRST_PDATE%3A%5B2013-01-01%20TO%202016-12-31%5D%20AND%20SRC%3AMED",
+    "capturedAt": "2026-11-10T01:29:11.555868+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&query=SYD985%20AND%20FIRST_PDATE%3A%5B2013-01-01%20TO%202016-12-31%5D%20AND%20SRC%3AMED",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 96994,
+    "sha256": "6c152b517af544b41106a56241aaeae33e5895b3c224e75239da425b35d7d331"
+  },
+  {
+    "file": "registry-NCT02277717.json",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT02277717",
+    "capturedAt": "2026-11-10T01:29:12.710527+00:00",
+    "status": 200,
+    "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT02277717",
+    "contentType": "application/json",
+    "bytes": 10103,
+    "sha256": "5baf77dc0e55c0d03e9a3e68695f8f8fc294165a9466ef96dabeb51b3403832d"
+  }
+]

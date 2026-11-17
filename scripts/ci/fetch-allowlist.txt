@@ -1,0 +1,36 @@
+# Hosts the weekly gap-fill model job may read. One host per line; `#` starts a comment.
+#
+# scripts/ci/fetch-allowed.sh is the only way that job can reach the network, and it refuses any host that is not
+# listed here. An entry matches the host itself and its subdomains: `fda.gov` covers www.fda.gov, api.fda.gov and
+# www.accessdata.fda.gov; it does not cover notfda.gov. Redirects are checked against the same list at every hop.
+#
+# Adding a host widens what a crafted page could ask the model to contact, so add one only where the corpus needs a
+# primary source that lives there, and never a host that stores or echoes what it is sent (a paste site, a webhook
+# receiver, a URL shortener, a search engine, a general file host). A change to this file is a pull request a
+# person reads. docs/AUTOMATION-FILL-GAPS.md has the reasoning.
+
+# Regulators and public health agencies
+fda.gov
+ema.europa.eu
+nice.org.uk
+who.int
+iarc.who.int
+cancer.gov
+cdc.gov
+dailymed.nlm.nih.gov
+
+# Literature and registries
+pubmed.ncbi.nlm.nih.gov
+pmc.ncbi.nlm.nih.gov
+eutils.ncbi.nlm.nih.gov
+api.crossref.org
+www.ebi.ac.uk
+clinicaltrials.gov
+api.openalex.org
+
+# Professional societies and agencies (public pages)
+esmo.org
+asco.org
+mascc.org
+nccn.org
+iaea.org

@@ -239,12 +239,12 @@ export const NZ_DIVE: CountryDive = {
       id: "unread-sources",
       title: "Sources not reached or not read",
       plain:
-        "OnCo did not read Medsafe's guidance on its approval routes and timelines, Health New Zealand's cancer web tool (which works only in a browser), or the IAEA directory of radiotherapy centres. Counts of new cancers by cancer type for the latest year are therefore not given from the registry here.",
+        "OnCo did not read Medsafe's guidance on its approval routes and timelines or Health New Zealand's cancer web tool (which works only in a browser). Counts of new cancers by cancer type for the latest year are therefore not given from the registry here. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists 10 centres in New Zealand with 35 linear accelerators between them; four of the entries date from 2017 or 2018, so the listing may be out of date.",
       detail:
-        "The registry's web tool and the agency's online dashboard are interactive and return no figures to a plain request. Te Aho o Te Kahu's report says workforce requirements have not been quantified except for radiation oncologists, so no official count of oncologists is given. OnCo's web search budget was spent during this round, so pages had to be reached by known addresses, and some Health New Zealand addresses returned an empty page.",
+        "The registry's web tool and the agency's online dashboard are interactive and return no figures to a plain request. Te Aho o Te Kahu's report says workforce requirements have not been quantified except for radiation oncologists, so no official count of oncologists is given. IAEA's directory of radiotherapy centres (DIRAC), read on 16 November 2026, lists 10 centres in New Zealand, with 35 linear accelerators and no cobalt-60 unit. The largest entries are Auckland Regional Cancer and Blood Service, Auckland City Hospital (Auckland) and Waikato Hospital Regional Cancer Centre (Hamilton), with seven linear accelerators each, then Palmerston North Hospital with five and Christchurch Hospital with four. Three centres are also listed with an X-ray generator, and four with brachytherapy. The entries were last updated between 2017 and 2024: two date from 2017 and two from 2018. A directory can lag, so machines replaced or added since may be missing, and it does not say whether a machine is working. OnCo found no official New Zealand count of machines to set beside it. OnCo's web search budget was spent during this round, so pages had to be reached by known addresses, and some Health New Zealand addresses returned an empty page.",
       links: [
         { label: "Health New Zealand: cancer data and statistics", url: "https://www.healthnz.govt.nz/about-us/health-data/data-sets-and-collections/cancer-data-and-statistics" },
-        { label: "IAEA: DIRAC, directory of radiotherapy centres", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
       ],
     },
   ],

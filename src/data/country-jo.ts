@@ -14,9 +14,10 @@ const KHCC_ACCRED = "https://www.khcc.jo/en/accreditations";
 const KHCC_FEATURES = "https://www.khcc.jo/en/uniqueness";
 const KHCC_BUILDINGS = "https://www.khcc.jo/en/khcc-buildings-and-capacity";
 const JBCP = "https://www.jbcp.jo/";
-const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'JOR'%20and%20startswith(ANTIGEN,'PRHPV')";
+const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'JOR'%20and%20contains(ANTIGEN,'HPV')";
 const WB_OOP = "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=JO";
 const CTGOV = "https://clinicaltrials.gov/search?country=Jordan&cond=cancer";
+const DIRAC_DATA = "https://dirac.iaea.org/Data/CountriesLight";
 
 export const JO_DIVE: CountryDive = {
   iso2: "JO",
@@ -26,7 +27,7 @@ export const JO_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Jordan",
   description:
-    "Cancer in Jordan: IARC's estimate of 9,975 new cancers and 4,762 deaths in 2024, a population-based registry that WHO rated high quality, the King Hussein Cancer Center with six linear accelerators, breast screening from age 40 but no cervical screening programme in WHO's 2020 profile, no HPV vaccination data at WHO, and 12 trials in OnCo's records with a site in Jordan.",
+    "Cancer in Jordan: IARC's estimate of 9,975 new cancers and 4,762 deaths in 2024, a population-based registry that WHO rated high quality, the King Hussein Cancer Center, whose own page lists six linear accelerators while IAEA's directory lists twelve there, breast screening from age 40 but no cervical screening programme in WHO's 2020 profile, no HPV vaccination data at WHO, and 12 trials in OnCo's records with a site in Jordan.",
   lede:
     "Breast cancer is the commonest cancer in Jordan, and lung cancer causes the most deaths. WHO's 2020 profile recorded a high-quality population-based registry and a breast screening programme, but no cervical screening programme and no national cancer plan in effect.",
   globocanNote:
@@ -129,10 +130,10 @@ export const JO_DIVE: CountryDive = {
           plain:
             "WHO's 2020 profile recorded a breast cancer screening programme starting at age 40 and an early detection programme or guidelines for one cancer, but no cervical cancer screening programme. WHO's immunisation database holds no HPV vaccination coverage figures for Jordan.",
           detail:
-            "The profile lists, for 2019, a breast cancer screening programme with a starting age of 40, an early detection programme or guidelines for one of the four cancers it asks about (breast, cervix, colon, childhood), and no cervical screening programme; HPV vaccination programme coverage is marked \"n/a\" for 2018. A query of WHO's immunisation data API for Jordan's HPV programme coverage returned no rows on 11 November and again on 16 November 2026; the same database holds country-reported HPV rows for Jordan for 2018 to 2025, every one with an empty coverage figure. The Jordan Breast Cancer Program, which the King Hussein Cancer Center's accreditations page describes as led by the foundation and the centre, still had a holding page on 16 November 2026 saying its website was under construction.",
+            "The profile lists, for 2019, a breast cancer screening programme with a starting age of 40, an early detection programme or guidelines for one of the four cancers it asks about (breast, cervix, colon, childhood), and no cervical screening programme; HPV vaccination programme coverage is marked \"n/a\" for 2018. WHO's immunisation data API, queried for every HPV antigen on 16 November 2026, held 40 rows for Jordan for 2018 to 2025, none with a number of doses or a coverage figure. An earlier query on 11 November used a narrower filter and returned no rows. The Jordan Breast Cancer Program, which the King Hussein Cancer Center's accreditations page describes as led by the foundation and the centre, still had a holding page on 16 November 2026 saying its website was under construction.",
           links: [
             { label: "WHO: Cancer Country Profile 2020, Jordan (PDF)", url: WHO_PROFILE },
-            { label: "WHO: HPV vaccination coverage query for Jordan (data API, no rows)", url: WHO_HPV_API },
+            { label: "WHO: HPV vaccination coverage query for Jordan (data API, rows with no values)", url: WHO_HPV_API },
             { label: "Jordan Breast Cancer Program (holding page)", url: JBCP },
             { label: "KHCC: accreditations", url: KHCC_ACCRED },
           ],
@@ -146,15 +147,16 @@ export const JO_DIVE: CountryDive = {
       cards: [
         {
           id: "khcc",
-          title: "A cancer-only hospital with six linear accelerators and a transplant programme",
+          title: "A cancer-only hospital with a radiotherapy department and a transplant programme",
           plain:
-            "The King Hussein Cancer Center in Amman treats adults and children with cancer and is run with a fundraising foundation. It lists six linear accelerators, a bone marrow transplant laboratory it says will be able to support up to 300 procedures a year, and a public umbilical cord stem cell bank.",
+            "The King Hussein Cancer Center in Amman treats adults and children with cancer and is run with a fundraising foundation. Its own page lists six linear accelerators, and IAEA's directory of radiotherapy centres, read on 16 November 2026, lists twelve there. The centre also lists a bone marrow transplant laboratory it says will be able to support up to 300 procedures a year, and a public umbilical cord stem cell bank.",
           detail:
-            "KHCC's facilities page describes a radiation oncology department with six linear accelerators fitted with X-ray tracking, a bone marrow transplant laboratory that it says will be able to support up to 300 procedures a year, and what it calls the first and only public umbilical cord stem cell bank in Jordan. Its accreditations page says it was the first institution in Jordan to hold Joint Commission International accreditation (since 2006), the first centre outside the United States to obtain Joint Commission International's Clinical Care Program Certification for cancer care, and accredited by the Foundation for the Accreditation of Cellular Therapy for transplantation. Its buildings page gives 108,700 square metres in three buildings, in addition to a building in Aqaba. These are the centre's own statements.",
+            "KHCC's facilities page describes a radiation oncology department with six linear accelerators fitted with X-ray tracking, a bone marrow transplant laboratory that it says will be able to support up to 300 procedures a year, and what it calls the first and only public umbilical cord stem cell bank in Jordan. Its accreditations page says it was the first institution in Jordan to hold Joint Commission International accreditation (since 2006), the first centre outside the United States to obtain Joint Commission International's Clinical Care Program Certification for cancer care, and accredited by the Foundation for the Accreditation of Cellular Therapy for transplantation. Its buildings page gives 108,700 square metres in three buildings, in addition to a building in Aqaba. These are the centre's own statements, read on 11 November 2026. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists King Hussein Cancer Center (Previously Al-Amal Hospital), Amman, with 12 linear accelerators and brachytherapy, in an entry last updated in 2025. The two counts differ, six on the centre's page and twelve in the directory. OnCo cannot say which is current.",
           links: [
             { label: "KHCC: our features (facilities)", url: KHCC_FEATURES },
             { label: "KHCC: accreditations", url: KHCC_ACCRED },
             { label: "KHCC: buildings and capacity", url: KHCC_BUILDINGS },
+            { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC_DATA },
           ],
         },
       ],
@@ -187,10 +189,10 @@ export const JO_DIVE: CountryDive = {
       plain:
         "OnCo did not read the Jordan Cancer Registry's reports, the Ministry of Health's rules for covering cancer treatment, the King Hussein Cancer Center's insurance terms, the regulator's rules, or sources on cancer care for refugees in Jordan. Its web searches for this wave ran out before these were found.",
       detail:
-        "The Jordan Food and Drug Administration's site did not respond on 11 November or on 16 November 2026, and the Jordan Breast Cancer Program's site was under construction on both dates. A future pass should read the Jordan Cancer Registry's latest annual report, the Ministry of Health's and the Royal Court's arrangements for paying for cancer care, KHCC's cancer insurance terms, UNHCR's and WHO's sources on refugees' access to cancer care, and IAEA figures for radiotherapy outside KHCC. None of these is described here from memory.",
+        "The Jordan Food and Drug Administration's site did not respond on 11 November or on 16 November 2026, and the Jordan Breast Cancer Program's site was under construction on both dates. A future pass should read the Jordan Cancer Registry's latest annual report, the Ministry of Health's and the Royal Court's arrangements for paying for cancer care, KHCC's cancer insurance terms, and UNHCR's and WHO's sources on refugees' access to cancer care. For radiotherapy across the country, IAEA's directory of radiotherapy centres, read on 16 November 2026, lists five centres in Jordan, all in Amman, with 21 linear accelerators between them and no cobalt-60 unit: King Hussein Cancer Center (Previously Al-Amal Hospital) (12 linear accelerators, with brachytherapy; entry last updated 2025), Al-Bashir Hospital (four linear accelerators; 2019), Afia Radiotherapy and Nuclear Medicine Center (three linear accelerators; 2026), Royal Medical Services(RMC) (two linear accelerators; 2023) and IBN Al-Haytham Hospital (one Gamma Knife; 2019). Only the King Hussein Cancer Center is listed with brachytherapy. The entries were last updated between 2019 and 2026. A directory can lag, so the two entries from 2019 may be out of date. OnCo has not read these hospitals' own pages. None of these is described here from memory.",
       links: [
         { label: "Jordan Food and Drug Administration", url: "https://www.jfda.jo/" },
-        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC_DATA },
       ],
     },
   ],
@@ -201,7 +203,7 @@ export const JO_DIVE: CountryDive = {
   papers: [],
   people: ["asem-mansour"],
   how:
-    "Every card was written from public sources read as raw text on 11 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 country profile and immunisation data, the World Bank, and the King Hussein Cancer Center's own pages. Where a Jordanian source could not be found or read, the page says so.",
+    "Every card was written from public sources read as raw text on 11 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 country profile and immunisation data, the World Bank, and the King Hussein Cancer Center's own pages. IAEA's directory of radiotherapy centres was read from its public equipment data on 16 November 2026. Where a Jordanian source could not be found or read, the page says so.",
   verify:
     "WHO's profile describes 2019 and 2020; check with the Ministry of Health for the current screening programmes and national plan. KHCC's statements about itself are its own.",
   verifyLinks: [

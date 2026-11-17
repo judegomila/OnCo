@@ -7,19 +7,21 @@ import type { CountryDive } from "@/data/country-dive";
  * it: IARC's GLOBOCAN 2024 fact sheet for Somalia, WHO's Cancer Country Profile 2020 for Somalia (PDF text), WHO's
  * immunisation data API and the World Bank's health expenditure series. OnCo's web searches ran out during this wave,
  * and the Ministry of Health's site carried nothing on cancer; each missing source is named under `gaps`. On 16 November
- * 2026 the ministry's page on the medicines regulatory authority and the IAEA DIRAC country table were read and added.
+ * 2026 the ministry's page on the medicines regulatory authority and the IAEA DIRAC country table were read and added; the
+ * directory's public equipment feed, which has one row per centre, was read the same day and has no row for Somalia.
+ *
  * A second claim-by-claim pass on 16 November 2026 re-read every source, checked the spending figures against WHO's
  * Global Health Observatory API (the World Bank API timed out), and added the one Somali hospital study already cited
  * elsewhere in the corpus, read as its Europe PMC abstract.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/706-somalia-fact-sheet.pdf";
 const WHO_PROFILE = "https://cdn.who.int/media/docs/default-source/country-profiles/cancer/som-2020.pdf";
-const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'SOM'%20and%20startswith(ANTIGEN,'PRHPV')";
+const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'SOM'%20and%20contains(ANTIGEN,'HPV')";
 const WB_OOP = "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SO";
 const WB_CHE = "https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD?locations=SO";
 const MOH = "https://moh.gov.so/";
 const MOH_NMRA = "https://moh.gov.so/en/nmra/";
-const DIRAC = "https://dirac.iaea.org/api/DataGridWebApi/GetCountriesAndRegions";
+const DIRAC = "https://dirac.iaea.org/Data/CountriesLight";
 const CTGOV = "https://clinicaltrials.gov/search?country=Somalia&cond=cancer";
 const WHO_GHO_CHE = "https://ghoapi.azureedge.net/api/GHED_CHE_pc_US_SHA2011?$filter=SpatialDim%20eq%20'SOM'";
 const WHO_GHO_OOP = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'SOM'";
@@ -145,10 +147,10 @@ export const SO_DIVE: CountryDive = {
           plain:
             "WHO's 2020 profile recorded cervical screening by Pap smear and a breast screening programme as present in Somalia in 2019, with the type of cervical screening programme unknown, and no early detection guidelines for any of the four cancers WHO asks about. WHO's immunisation database holds no HPV vaccination coverage figures for Somalia.",
           detail:
-            "The profile's answers for 2019 list cervical screening present, programme type \"don't know\", method Pap smear; a breast cancer screening programme present; early detection guidelines for 0 of 4 cancers; and a defined referral system for childhood cancer. They do not say how many women were screened or where, and OnCo found no source that does. HPV vaccination programme coverage for 2018 is marked \"n/a\", which the profile does not define, and a query of WHO's immunisation data API for Somalia's HPV programme coverage returned no rows on 11 November 2026 and again on 16 November 2026.",
+            "The profile's answers for 2019 list cervical screening present, programme type \"don't know\", method Pap smear; a breast cancer screening programme present; early detection guidelines for 0 of 4 cancers; and a defined referral system for childhood cancer. They do not say how many women were screened or where, and OnCo found no source that does. HPV vaccination programme coverage for 2018 is marked \"n/a\", which the profile does not define, and WHO's immunisation data API, queried for every HPV antigen on 16 November 2026, held 44 rows for Somalia for 2018 to 2025, none with a number of doses or a coverage figure. An earlier query on 11 November used a narrower filter and returned no rows.",
           links: [
             { label: "WHO: Cancer Country Profile 2020, Somalia (PDF)", url: WHO_PROFILE },
-            { label: "WHO: HPV vaccination coverage query for Somalia (data API, no rows)", url: WHO_HPV_API },
+            { label: "WHO: HPV vaccination coverage query for Somalia (data API, rows with no values)", url: WHO_HPV_API },
           ],
         },
       ],
@@ -164,10 +166,10 @@ export const SO_DIVE: CountryDive = {
           plain:
             "WHO's 2020 profile recorded no external beam radiotherapy machines in Somalia, \"n/a\" for a national cancer control plan, no cancer management guidelines, and community or home-based palliative care generally not available. Pathology services were recorded as generally available.",
           detail:
-            "The profile's health system page gives external beam radiotherapy machines for 2019 as 0.0 per 10,000 cancer patients, PET scanners and nuclear medicine physicians as 0, the national cancer control plan and integrated NCD plan as \"n/a\", cancer management guidelines as absent, and no staff in the Ministry of Health dedicating a significant share of their time to cancer. These are answers for 2019 and 2020; OnCo did not find a more recent authoritative account, and does not speculate about what has changed since. The IAEA's Directory of Radiotherapy Centres (DIRAC) agrees as far as it goes: its public country table, read through its data service on 16 November 2026, has rows for 155 countries and territories and none for Somalia. That is the absence of an entry in a directory built from what countries and centres report, not proof that no machine exists.",
+            "The profile's health system page gives external beam radiotherapy machines for 2019 as 0.0 per 10,000 cancer patients, PET scanners and nuclear medicine physicians as 0, the national cancer control plan and integrated NCD plan as \"n/a\", cancer management guidelines as absent, and no staff in the Ministry of Health dedicating a significant share of their time to cancer. These are answers for 2019 and 2020; OnCo did not find a more recent authoritative account, and does not speculate about what has changed since. IAEA's directory of radiotherapy centres (DIRAC), read on 16 November 2026, lists no centre in Somalia: its public equipment data had 8,627 rows, one for each centre, covering 157 countries, and none was for Somalia. That is the absence of an entry in a directory that can lag behind a newly opened centre, not proof that no machine exists.",
           links: [
             { label: "WHO: Cancer Country Profile 2020, Somalia (PDF)", url: WHO_PROFILE },
-            { label: "IAEA DIRAC: countries and regions table (JSON)", url: DIRAC },
+            { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC },
           ],
         },
       ],
@@ -209,10 +211,10 @@ export const SO_DIVE: CountryDive = {
       plain:
         "OnCo did not find a published national cancer plan, a cancer registry report, a primary source describing what cancer treatment any hospital in Somalia offers today, or arrangements in Somaliland and Puntland. It describes none of these from memory.",
       detail:
-        "OnCo's web searches ran out during this wave, and the Federal Ministry of Health and Human Services' home page carried nothing on cancer. Two sources this page first listed as unread have since been read, on 16 November 2026: the ministry's page on medicines regulation, which says Somalia has no functioning regulator yet, and the IAEA's DIRAC country table, which has no entry for Somalia. OnCo holds records for two hospitals in Mogadishu, listed under Institutions. One rests on the pathology study described under Research. The other, the Oasis Cancer Hospital, rests on a report in The Star, a Kenyan newspaper, of August 2024, in which its chief executive said the hospital aims to offer awareness programmes, screening and treatment; that is a press report of the hospital's own account, and OnCo found no source describing the services it provides. The health ministry's member profile at the Union for International Cancer Control refused an automated read on 16 November 2026, so what it says about a national cancer plan is not described here. A future pass should look for WHO Eastern Mediterranean Region reports on Somalia, hospital-based studies through Europe PMC, and WHO's updated country profile.",
+        "OnCo's web searches ran out during this wave, and the Federal Ministry of Health and Human Services' home page carried nothing on cancer. Two sources this page first listed as unread have since been read, on 16 November 2026: the ministry's page on medicines regulation, which says Somalia has no functioning regulator yet, and IAEA's directory of radiotherapy centres (DIRAC), which lists no centre in Somalia. OnCo holds records for two hospitals in Mogadishu, listed under Institutions. One rests on the pathology study described under Research. The other, the Oasis Cancer Hospital, rests on a report in The Star, a Kenyan newspaper, of August 2024, in which its chief executive said the hospital aims to offer awareness programmes, screening and treatment; that is a press report of the hospital's own account, and OnCo found no source describing the services it provides. The health ministry's member profile at the Union for International Cancer Control refused an automated read on 16 November 2026, so what it says about a national cancer plan is not described here. A future pass should look for WHO Eastern Mediterranean Region reports on Somalia, hospital-based studies through Europe PMC, and WHO's updated country profile.",
       links: [
         { label: "Federal Ministry of Health and Human Services, Somalia", url: MOH },
-        { label: "IAEA DIRAC: countries and regions table (JSON)", url: DIRAC },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC },
         { label: "The Star: Somalia steps up fight against cancer with awareness programme (August 2024)", url: STAR_SO },
         { label: "UICC member profile: Ministry of Health, Somalia (not read on 16 November 2026)", url: UICC_MOH },
       ],
@@ -225,7 +227,7 @@ export const SO_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from international public sources read as raw text on 11 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 country profile and immunisation data, and the World Bank's health expenditure series; and, on 16 November 2026, the Federal Ministry of Health's page on the medicines regulatory authority and the IAEA's DIRAC country table. A second pass on 16 November 2026 re-read each source and added one hospital study from Mogadishu, read as its abstract. No Somali national cancer plan or registry report was found.",
+    "Every card was written from international public sources read as raw text on 11 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 country profile and immunisation data, and the World Bank's health expenditure series; and, on 16 November 2026, the Federal Ministry of Health's page on the medicines regulatory authority and IAEA's directory of radiotherapy centres (DIRAC), which lists no centre in Somalia. A second pass on 16 November 2026 re-read each source and added one hospital study from Mogadishu, read as its abstract. No Somali national cancer plan or registry report was found.",
   verify:
     "Every number on this page is a modelled estimate, a spending figure, a survey answer from 2019 or 2020, or a count from one hospital's pathology records for 2017 to 2020. Anyone seeking care should ask the treating hospital or WHO's country office what is available now.",
   verifyLinks: [

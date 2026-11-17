@@ -18,6 +18,7 @@ const WHO_ML3 = "https://www.who.int/news/item/05-12-2024-senegal-and-rwanda-ach
 const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'RWA'%20and%20startswith(ANTIGEN,'PRHPV')";
 const WB_OOP = "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=RW";
 const CTGOV = "https://clinicaltrials.gov/search?country=Rwanda&cond=cancer";
+const DIRAC_DATA = "https://dirac.iaea.org/Data/CountriesLight";
 const AFCRN_RW = "https://afcrn.org/index.php/membership/membership-list/167-rwanda-ncr";
 
 export const RW_DIVE: CountryDive = {
@@ -180,10 +181,11 @@ export const RW_DIVE: CountryDive = {
           plain:
             "Before 2019 Rwandans who needed radiotherapy were sent abroad. The Rwanda Cancer Centre at Rwanda Military Hospital in Kanombe, Kigali, began treating patients in March 2019 with two linear accelerators. The national plan still calls it the sole radiotherapy provider and plans two more centres.",
           detail:
-            "The Ministry of Health's page on the inauguration says that four years earlier less than 10% of the population in need could get treatment and about USD 1 million was spent on transfers abroad for radiotherapy; that the centre, conceived in 2016 at Rwanda Military Hospital, was built by the French company UNTEC and funded by the Government of Rwanda, the Global Fund and the CDC; that it became operational in March 2019 and was launched on 4 February 2020; and that its radiotherapy unit has two linear accelerators using volumetric modulated arc therapy. The plan for 2025 to 2029 says treatment is concentrated at the Rwanda Cancer Centre, Butaro Hospital and King Faisal Hospital, that radiotherapy capacity is below the IAEA's recommended 4 units per million people with only two machines, that brachytherapy was expected by June 2025, and plans two further radiotherapy centres, at the University Teaching Hospital of Butare in the south and Butaro in the north.",
+            "The Ministry of Health's page on the inauguration says that four years earlier less than 10% of the population in need could get treatment and about USD 1 million was spent on transfers abroad for radiotherapy; that the centre, conceived in 2016 at Rwanda Military Hospital, was built by the French company UNTEC and funded by the Government of Rwanda, the Global Fund and the CDC; that it became operational in March 2019 and was launched on 4 February 2020; and that its radiotherapy unit has two linear accelerators using volumetric modulated arc therapy. The plan for 2025 to 2029 says treatment is concentrated at the Rwanda Cancer Centre, Butaro Hospital and King Faisal Hospital, that radiotherapy capacity is below the IAEA's recommended 4 units per million people with only two machines, that brachytherapy was expected by June 2025, and plans two further radiotherapy centres, at the University Teaching Hospital of Butare in the south and Butaro in the north. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists one centre in Rwanda: Rwanda Military Hospital, Kigali City, with two linear accelerators, no cobalt-60 unit and no brachytherapy, in an entry last updated in 2023. That matches the plan's count of one centre and two machines. The entry is older than the plan, and a directory can lag, so it does not show whether brachytherapy has started since.",
           links: [
             { label: "Ministry of Health: President Kagame inaugurates Rwanda Cancer Centre", url: MOH_RCC },
             { label: "National Cancer Control Plan 2025 to 2029, sections 2.2.2.4 and 3.3.4 (PDF)", url: NCCP_2025 },
+            { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC_DATA },
           ],
         },
         {
@@ -254,12 +256,12 @@ export const RW_DIVE: CountryDive = {
       id: "gap-sources",
       title: "Sources not read for this page",
       plain:
-        "OnCo did not read the Rwanda FDA's clinical trial guidelines or its list of registered cancer medicines, a registry report from the Rwanda National Cancer Registry itself, or IAEA radiotherapy figures for Rwanda. The figures on this page come from the national plan instead.",
+        "OnCo did not read the Rwanda FDA's clinical trial guidelines, its list of registered cancer medicines, or a registry report from the Rwanda National Cancer Registry itself. The registry figures on this page come from the national plan instead.",
       detail:
-        "The registry figures here are those the National Cancer Control Plan 2025 to 2029 quotes; OnCo did not find a separate published registry report. IAEA's DIRAC database needs an account for most queries. The Rwanda FDA site (rwandafda.gov.rw) was not read for this page. Each is a named gap, not a claim that the source does not exist.",
+        "The registry figures here are those the National Cancer Control Plan 2025 to 2029 quotes; OnCo did not find a separate published registry report. IAEA's directory of radiotherapy centres, which this page first listed as unread, was read on 16 November 2026: it lists one centre in Rwanda, Rwanda Military Hospital in Kigali City, with two linear accelerators, in an entry last updated in 2023. The Rwanda FDA site (rwandafda.gov.rw) was not read for this page. Each is a named gap, not a claim that the source does not exist.",
       links: [
         { label: "Rwanda Food and Drugs Authority", url: "https://rwandafda.gov.rw/" },
-        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC_DATA },
       ],
     },
   ],
@@ -270,7 +272,7 @@ export const RW_DIVE: CountryDive = {
   papers: [],
   people: ["nadine-karema"],
   how:
-    "Every card was written from Rwandan public sources read as raw text on 11 November 2026: the National Cancer Control Plan 2025 to 2029 (PDF), the Ministry of Health's page on the Rwanda Cancer Centre, RSSB's page on community-based health insurance, WHO's maturity level announcement and immunisation data, the World Bank's out-of-pocket series and IARC's GLOBOCAN 2024 fact sheet. Most figures come from the national plan, which quotes the national registry.",
+    "Every card was written from Rwandan public sources read as raw text on 11 November 2026: the National Cancer Control Plan 2025 to 2029 (PDF), the Ministry of Health's page on the Rwanda Cancer Centre, RSSB's page on community-based health insurance, WHO's maturity level announcement and immunisation data, the World Bank's out-of-pocket series and IARC's GLOBOCAN 2024 fact sheet. Most figures come from the national plan, which quotes the national registry. IAEA's directory of radiotherapy centres was read from its public equipment data on 16 November 2026.",
   verify:
     "Check the plan's figures against its own tables before relying on them, and ask RSSB or the treating hospital what community insurance covers today. Treatment capacity changes as centres open.",
   verifyLinks: [

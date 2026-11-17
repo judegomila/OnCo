@@ -213,14 +213,14 @@ export const MZ_DIVE: CountryDive = {
     },
     {
       id: "radiotherapy",
-      title: "Radiotherapy and the cancer workforce are not counted here",
+      title: "One radiotherapy centre is listed by the IAEA; the cancer workforce is not counted here",
       plain:
-        "WHO's 2021 country capacity survey records radiotherapy and chemotherapy as generally available in Mozambique's public sector, but OnCo found no source it could read giving the number of radiotherapy machines or oncologists, or where they are.",
+        "IAEA's directory of radiotherapy centres, read on 16 November 2026, lists one centre in Mozambique: Maputo Central Hospital, in Maputo, with one linear accelerator. WHO's 2021 country capacity survey records radiotherapy and chemotherapy as generally available in Mozambique's public sector. OnCo found no Mozambican source it could read giving the number of radiotherapy machines or oncologists.",
       detail:
-        "The IAEA's directory of radiotherapy centres, DIRAC, publishes country tables that load in a browser; OnCo did not read Mozambique's row on 16 November 2026. A 2014 paper comparing cancer incidence and radiotherapy in Mozambique and Sweden has no abstract in Europe PMC and was not used. WHO's survey also reports oral morphine as not generally available in the public health sector.",
+        "IAEA's directory of radiotherapy centres (DIRAC) lists Maputo Central Hospital with one linear accelerator, no cobalt-60 unit and no brachytherapy, in an entry last updated in 2025. It lists no other centre in Mozambique. That is what the directory holds; it does not say whether the machine is working today, and a centre missing from a directory is not proof that none exists. A 2014 paper comparing cancer incidence and radiotherapy in Mozambique and Sweden has no abstract in Europe PMC and was not used. WHO's survey also reports oral morphine as not generally available in the public health sector.",
       links: [
         { label: "WHO Global Health Observatory: radiotherapy availability, Mozambique (API)", url: "https://ghoapi.azureedge.net/api/NCD_CCS_radio?$filter=SpatialDim%20eq%20'MOZ'" },
-        { label: "IAEA: DIRAC, directory of radiotherapy centres (countries table)", url: "https://dirac.iaea.org/Data/CountriesLight" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
       ],
     },
   ],

@@ -234,13 +234,13 @@ export const SG_DIVE: CountryDive = {
   gaps: [
     {
       id: "radiotherapy-count",
-      title: "No official count of radiotherapy machines or cancer specialists was read",
+      title: "No official Singapore count of radiotherapy machines or cancer specialists was read; IAEA's directory lists 11 centres",
       plain:
-        "OnCo found no Singapore source it could read that counts radiotherapy machines or oncologists. The IAEA's directory of radiotherapy centres works only in a browser, and WHO's 2021 survey records that radiotherapy is generally available in the public sector without giving numbers.",
+        "OnCo found no Singapore source it could read that counts radiotherapy machines or oncologists. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists 11 centres in Singapore with 27 linear accelerators between them; six of the 11 entries were last updated in 2018, so the listing may be out of date. WHO's 2021 survey records that radiotherapy is generally available in the public sector without giving numbers.",
       detail:
-        "The IAEA DIRAC directory is a Tableau application that does not return its figures to a plain request, so no machine count is given. WHO's country capacity survey for 2021 reports radiotherapy, chemotherapy and pathology services as generally available in the public sector in Singapore; it also reports oral morphine as not generally available in the public health sector and no operational cancer plan, both of which may reflect how the questions were answered rather than practice, and OnCo has not checked them against a Ministry source.",
+        "IAEA's directory of radiotherapy centres (DIRAC), read on 16 November 2026, lists 11 centres in Singapore, with 27 linear accelerators and no cobalt-60 unit. The largest entry is National Cancer Centre Singapore, with 12 linear accelerators; National University Cancer Institute Singapore (NCIS) has three, and each of the other centres with a linear accelerator has one or two. The directory lists one Gamma Knife, at Mount Elizabeth Hospital, and proton or ion therapy at three centres: National Cancer Centre Singapore, Mount Elizabeth Hospital and Singapore Institute of Advanced Medicine. Four centres are listed with brachytherapy. The entries were last updated between 2018 and 2024, and six of them date from 2018; a directory can lag, so machines installed or retired since may be missing. This is IAEA's listing, not a count published by Singapore, and it does not say whether a machine is working. WHO's country capacity survey for 2021 reports radiotherapy, chemotherapy and pathology services as generally available in the public sector in Singapore; it also reports oral morphine as not generally available in the public health sector and no operational cancer plan, both of which may reflect how the questions were answered rather than practice, and OnCo has not checked them against a Ministry source.",
       links: [
-        { label: "IAEA: DIRAC, directory of radiotherapy centres", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
         { label: "WHO Global Health Observatory: radiotherapy availability (API)", url: "https://ghoapi.azureedge.net/api/NCD_CCS_radio?$filter=SpatialDim%20eq%20'SGP'" },
       ],
     },

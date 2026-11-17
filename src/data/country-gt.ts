@@ -89,7 +89,7 @@ export const GT_DIVE: CountryDive = {
           id: "no-registry",
           title: "Cancer is counted through deaths, not diagnoses",
           plain:
-            "Guatemala has no population-based cancer registry, according to its answers to WHO in 2019 and 2021, so there is no national count of how many people are diagnosed with cancer each year. IARC's incidence estimate is worked back from death certificates.",
+            "Guatemala told WHO in 2019 and 2021 that it has no population-based cancer registry, and OnCo found no national count of how many people are diagnosed with cancer each year. IARC's incidence estimate is worked back from death certificates.",
           detail:
             "IARC's fact sheet gives its method for Guatemala as national mortality estimates applied to modelled ratios of deaths to new cases, which it bases on registry survival data. An estimate built this way falls short wherever deaths from cancer are not certified as cancer. Guatemala had answered yes to WHO's registry question in 2015 and 2017, before the two answers of no. The only Guatemalan cancer counts in the sources read for this page come from single centres, such as UNOP's records of children treated for cancer.",
           links: [
@@ -197,12 +197,12 @@ export const GT_DIVE: CountryDive = {
       id: "national-sources",
       title: "Government sources could not be read",
       plain:
-        "The Ministry of Public Health and Social Assistance (mspas.gob.gt) refused a plain request with HTTP 403 on 11 November 2026 and again on 16 November 2026. This page therefore has no national cancer plan, no list of treatment centres, and no description of what public care or social security covers.",
+        "The Ministry of Public Health and Social Assistance (mspas.gob.gt) refused a plain request with HTTP 403 on 11 November 2026 and again on 16 November 2026. This page therefore has no national cancer plan, no government list of treatment centres, and no description of what public care or social security covers. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists five radiotherapy centres in Guatemala with eight linear accelerators between them.",
       detail:
-        "OnCo does not bypass a site's protection. The IAEA's directory of radiotherapy centres, DIRAC, answered a plain request on 16 November 2026, and its public table of countries lists five radiotherapy centres in Guatemala. OnCo has not read each centre's entry for this page, so the number of radiotherapy machines is not given. Guatemala told WHO in 2021 that radiotherapy is generally available in the public sector. OnCo's web search budget was spent during this round.",
+        "OnCo does not bypass a site's protection. IAEA's directory of radiotherapy centres (DIRAC), read on 16 November 2026, lists five centres in Guatemala, with eight linear accelerators and no cobalt-60 unit. Four are listed in the city of Guatemala: Liga Nacional Contra el Cáncer (three linear accelerators and an X-ray generator), Clinica de Radioterapia La Asuncion (two), Centro de Radioterapia y Oncología, S.A. (one) and El Centro de Radioterapia Hope International (one). The fifth is Corporación de Especialidades Médicas, S.A. in Quetzaltenango (one). Four of the five are listed with brachytherapy; Clinica de Radioterapia La Asuncion is not. The entries were last updated between 2023 and 2026. The directory does not say whether a centre is public or private, or whether a machine is working today. Guatemala told WHO in 2021 that radiotherapy is generally available in the public sector. OnCo's web search budget was spent during this round.",
       links: [
         { label: "Ministry of Public Health and Social Assistance, Guatemala", url: "https://www.mspas.gob.gt/" },
-        { label: "IAEA: DIRAC, directory of radiotherapy centres", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
       ],
     },
   ],

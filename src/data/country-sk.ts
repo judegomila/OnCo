@@ -215,12 +215,13 @@ export const SK_DIVE: CountryDive = {
       id: "nczi-data",
       title: "The registry's counts could not be read",
       plain:
-        "The National Health Information Centre publishes its cancer counts in interactive infographics that open only in a browser, and its written reports on a separate data server, data.nczisk.sk. That server did not respond to repeated requests on 11 November 2026 or again on 16 November 2026, and the Internet Archive holds no copy of the report. So this page gives no national registry or expected count for any year, and no national radiotherapy figures.",
+        "The National Health Information Centre publishes its cancer counts in interactive infographics that open only in a browser, and its written reports on a separate data server, data.nczisk.sk. That server did not respond to repeated requests on 11 November 2026 or again on 16 November 2026, and the Internet Archive holds no copy of the report. So this page gives no national registry or expected count for any year, and no radiotherapy figures from the Centre. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists 13 centres in Slovakia with 21 linear accelerators and three cobalt-60 units; ten of the 13 entries were last updated in 2018, so the listing may be out of date.",
       detail:
-        "The report on expected cancer cases for 1996 to 2025 and its methodology, the radiation oncology datasets for 2013 to 2024 and the annual oncology activity reports are all hosted on that server. When it answers, they will give the national counts by cancer and region and the number of patients treated with radiotherapy. The IAEA's directory of radiotherapy centres works only in a browser.",
+        "The report on expected cancer cases for 1996 to 2025 and its methodology, the radiation oncology datasets for 2013 to 2024 and the annual oncology activity reports are all hosted on that server. When it answers, they will give the national counts by cancer and region and the number of patients treated with radiotherapy. IAEA's directory of radiotherapy centres (DIRAC), read on 16 November 2026, lists 13 centres in Slovakia, with 21 linear accelerators and four radionuclide teletherapy units, three of them cobalt-60 units. The largest entries are National Cancer Institute (Bratislava), with four linear accelerators, and St. Elisabeth Cancer Institute (Bratislava) and East Slovakia cancer Institute (Kosice), with three each. The cobalt-60 units are listed at St. Elisabeth Cancer Institute, Faculty Hospital of F.D. Roosevelt (Banska Bystrica) and General Hospital (Lucenec). Nine centres are also listed with an X-ray generator, and six with brachytherapy. Ten of the 13 entries were last updated in 2018, and the others in 2020, 2021 and 2026. A directory can lag, so machines replaced or added since 2018 may be missing, and it does not say whether a machine is working. It counts machines, not patients treated.",
       links: [
         { label: "NCZI: report on cancer including expected cases, 1996 to 2025 (PDF)", url: NCZI_EXPECTED_PDF },
         { label: "NCZI: nuclear medicine, clinical and radiation oncology", url: NCZI_RT },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
       ],
     },
     {
@@ -229,10 +230,9 @@ export const SK_DIVE: CountryDive = {
       plain:
         "OnCo did not read the rules on insurers paying for uncategorised medicines (the insurer page returned an error), ŠÚKL's pages beyond its home page, or the National Oncology Programme 2026 to 2030 document itself.",
       detail:
-        "The Všeobecná zdravotná poisťovňa page on exceptions returned HTTP 502. OnCo's web search budget was spent during this round, so pages had to be reached by known addresses. WHO's 2021 country capacity survey records 'No response' for Slovakia on radiotherapy, chemotherapy and pathology availability, so it cannot fill the gap.",
+        "The Všeobecná zdravotná poisťovňa page on exceptions returned HTTP 502. OnCo's web search budget was spent during this round, so pages had to be reached by known addresses. WHO's 2021 country capacity survey records 'No response' for Slovakia on radiotherapy, chemotherapy and pathology availability, so it adds nothing here.",
       links: [
         { label: "NOI: National Oncology Programme", url: NOI_NOP },
-        { label: "IAEA: DIRAC, directory of radiotherapy centres", url: "https://dirac.iaea.org/" },
       ],
     },
   ],

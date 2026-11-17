@@ -30,11 +30,11 @@ export const MZ_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Mozambique",
   description:
-    "Cancer in Mozambique from Mozambican sources: IARC's estimate of 25,058 new cancers and 14,645 deaths in 2024, cervical cancer and Kaposi sarcoma as the commonest, the Maputo and Beira registries behind the estimates, a regulator rated at WHO maturity level 3, health spending more than half paid by donors, high HPV vaccine coverage, and no trial in our records with a site in Mozambique.",
+    "Cancer in Mozambique from Mozambican sources: IARC's estimate of 25,058 new cancers and 14,645 deaths in 2024, cervical cancer and Kaposi sarcoma as the commonest, the Maputo and Beira city registries, a regulator that reports reaching WHO maturity level 3, health spending more than half paid by donors, high HPV vaccine coverage, and no trial in our records with a site in Mozambique.",
   lede:
-    "IARC estimates 25,058 new cancers and 14,645 cancer deaths in Mozambique in 2024, six in ten of the cancers in women. Cervical cancer is the commonest cancer and the commonest cause of cancer death, and Kaposi sarcoma comes second. Two city registries, in Maputo and Beira, are the country's direct counts.",
+    "IARC estimates 25,058 new cancers and 14,645 cancer deaths in Mozambique in 2024, six in ten of the cancers in women. Cervical cancer is the commonest cancer and the commonest cause of cancer death, and Kaposi sarcoma comes second. Two city registries, in Maputo and Beira, are the direct counts this page found.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Mozambique is 25,058 new cancers and 14,645 deaths, an age-standardised incidence of 119.1 per 100,000 (108.6 in men, 129.8 in women) and mortality of 75.2. IARC's fact sheet names a sub-national registry as its incidence source and its method as sub-national rates applied to the 2024 population; mortality comes from national incidence and modelled mortality-to-incidence ratios based on registry survival data (Survcan). The fact sheet does not name the registry; Mozambique's members of the African Cancer Registry Network are the Maputo City and Beira registries, so the national figure applies city rates to the whole country. The Maputo registry measured cervical cancer at 32.4 per 100,000 women in 2015 to 2016; IARC's national estimate is 45.7.",
+    "IARC's GLOBOCAN 2024 figure for Mozambique is 25,058 new cancers and 14,645 deaths, an age-standardised incidence of 119.1 per 100,000 (108.6 in men, 129.8 in women) and mortality of 75.2. IARC's fact sheet names a sub-national registry as its incidence source and its method as sub-national rates applied to the 2024 population; mortality comes from national incidence and modelled mortality-to-incidence ratios based on registry survival data (Survcan). The fact sheet does not name the registry. The African Cancer Registry Network has member pages for the Maputo City and Beira registries, which suggests the national figure applies city rates to the whole country, though the fact sheet does not say so. The Maputo registry measured cervical cancer at 32.4 per 100,000 women in 2015 to 2016; IARC's national estimate is 45.7.",
   sections: [
     {
       id: "profile",
@@ -91,9 +91,9 @@ export const MZ_DIVE: CountryDive = {
           id: "registries",
           title: "Maputo, about 1.2 million people, and Beira, about 458,000",
           plain:
-            "Mozambique has no national cancer registry in the sources read. The Maputo registry covers the capital, about 1.2 million people in 2014, and since 2015 has merged Maputo Central Hospital's registry with the city's population registry. The Beira registry, founded in 2005 at Beira Central Hospital, covers about 458,000 people.",
+            "The registries described in the sources read cover two cities, not the whole country. The Maputo registry covers the capital, about 1.2 million people in 2014, and since 2015 has merged Maputo Central Hospital's registry with the city's population registry. The Beira registry, founded in 2005 at Beira Central Hospital, covers about 458,000 people.",
           detail:
-            "The African Cancer Registry Network's page for Maputo describes passive and active registration, coding checked by pathologists, CanReg 5, death certificates mentioning cancer from the mortuary, and plans to add deaths from the civil registry. Its page for Beira says the registry was founded after its director trained in Lyon and Goiânia, that staff posts once paid by the hospital lapsed, and that an IARC grant from 2008 supported salaries, equipment and running costs, with some government help for indirect costs. Beira had 443,369 people at the 2007 census and an estimated 457,799 in 2013.",
+            "The African Cancer Registry Network's page for Maputo describes passive and active registration, coding checked by pathologists, CanReg 5, death certificates mentioning cancer from the mortuary, and plans to add deaths from the civil registry. Its page for Beira says the registry was founded after its director trained in Lyon and Goiânia, that staff posts once paid by the hospital lapsed, and that an IARC grant from 2008 supported salaries, equipment and running costs, with some government help for indirect costs. Neither page is dated; the Beira page gives a population estimate for 2013, so staffing and funding may have changed since. Beira had 443,369 people at the 2007 census and an estimated 457,799 in 2013.",
           links: [
             { label: "African Cancer Registry Network: Maputo", url: AFCRN_MAPUTO },
             { label: "African Cancer Registry Network: Beira", url: AFCRN_BEIRA },
@@ -129,11 +129,11 @@ export const MZ_DIVE: CountryDive = {
       cards: [
         {
           id: "anarme",
-          title: "ANARME, rated at WHO maturity level 3",
+          title: "ANARME, which reports reaching WHO maturity level 3",
           plain:
-            "Medicines in Mozambique are authorised by the Autoridade Nacional Reguladora de Medicamento (ANARME). Its marketing authorisation can come by registration, notification, or special and emergency import. In September 2026 the Minister of Health named its attainment of WHO maturity level 3 as one of the sector's main achievements.",
+            "Medicines in Mozambique are authorised by the Autoridade Nacional Reguladora de Medicamento (ANARME). Its marketing authorisation can come by registration, notification, or special and emergency import. In September 2026 ANARME reported that the Minister of Health had named its reaching maturity level 3 as one of the sector's greatest achievements of recent years.",
           detail:
-            "ANARME's news item of 10 September 2026 reports the Minister, Ussene Isse, highlighting maturity level 3 at the 51st Health Coordinating Council in Beira, and says the level shows consolidated structures, processes and skills for regulating medicines. Its website lists services covering licensing of manufacturers, importers and pharmacies, pharmacovigilance and clinical trials, and quality testing. OnCo did not read its registration guidelines, so this page does not say whether it relies on other regulators' approvals for cancer medicines or how long registration takes.",
+            "ANARME's news item, dated 10 September 2026 and published the next day, reports the Minister, Ussene Isse, highlighting maturity level 3 at the opening of the 51st Health Coordinating Council in Beira, and says the level shows consolidated structures, processes and skills for regulating medicines. The item does not name WHO; a headline on ANARME's home page ties the level to meeting WHO's recommendations, and OnCo did not read a WHO announcement of it. The website lists services covering licensing of those who make, import, export, distribute and sell medicines, pharmacovigilance and clinical trials, and quality testing. OnCo did not read its registration guidelines, so this page does not say whether it relies on other regulators' approvals for cancer medicines or how long registration takes.",
           links: [
             { label: "ANARME: home page (Portuguese)", url: ANARME },
             { label: "ANARME: maturity level 3 highlighted at the Health Coordinating Council (Portuguese)", url: ANARME_ML3 },
@@ -157,6 +157,7 @@ export const MZ_DIVE: CountryDive = {
           links: [
             { label: "WHO Global Health Observatory: HPV coverage, Mozambique (API)", url: WHO_HPV },
             { label: "WHO Global Health Observatory: cervical screening method, Mozambique (API)", url: WHO_CCS },
+            { label: "WHO Global Health Observatory: national breast screening programme, Mozambique (API)", url: "https://ghoapi.azureedge.net/api/NCD_CCS_breastcancerscreening?$filter=SpatialDim%20eq%20'MOZ'" },
           ],
         },
       ],
@@ -168,11 +169,11 @@ export const MZ_DIVE: CountryDive = {
       cards: [
         {
           id: "registry-merge",
-          title: "Registries based in central hospitals, one kept going by an IARC grant",
+          title: "Registries based in central hospitals, one supported by an IARC grant",
           plain:
-            "Mozambique's cancer counts depend on two registries based in its central hospitals. In Maputo the hospital and city registries were merged in 2015 to share staff time, and Maputo Central Hospital pays the registrars; in Beira, where hospital-funded posts lapsed, an IARC grant from 2008 has paid for salaries, equipment and running costs.",
+            "The cancer counts on this page come from two registries based in central hospitals. In Maputo the hospital and city registries have worked as one since 2015, with staff time reorganised, and Maputo Central Hospital pays the registrars; in Beira, where hospital-funded posts appear to have lapsed, the registry's undated network page says an IARC grant from 2008 was still paying for salaries, equipment and running costs.",
           detail:
-            "The registries' papers compare Maputo's rates for 2015 to 2016 with 1956 to 1961: prostate cancer rose 172.2% and breast cancer 237.1%, while bladder and liver cancer fell. The 2024 colorectal paper used both registries, plus pathology and hospital registries, and calls for early diagnosis and investment in health infrastructure.",
+            "The 2019 paper from the Maputo Central Hospital registry compares Maputo's rates for 2015 to 2016 with 1956 to 1961: prostate cancer rose 172.2% and breast cancer 237.1%, while bladder and liver cancer fell. The 2024 colorectal paper used both registries, plus pathology and hospital registries, and calls for early diagnosis and investment in health infrastructure.",
           links: [
             { label: "Carrilho et al., cancer incidence in Maputo 2015 to 2016 (Eur J Cancer Prev 2019)", url: MAPUTO_2019 },
             { label: "African Cancer Registry Network: Beira", url: AFCRN_BEIRA },
@@ -189,9 +190,9 @@ export const MZ_DIVE: CountryDive = {
           id: "trials-research",
           title: "No trial in OnCo's records has a site in Mozambique",
           plain:
-            "Counted from OnCo's ClinicalTrials.gov participation data, fetched on 7 October 2026, none of the cancer trials in our records lists a site in Mozambique. The Mozambican research on this page is registry work. That reflects the trials OnCo holds, mostly large trials of new medicines, not every study in Mozambique.",
+            "Counted from OnCo's ClinicalTrials.gov participation data, almost all of it fetched on 7 and 8 October 2026, none of the cancer trials in our records lists a site in Mozambique. The Mozambican research on this page is registry work. That reflects the trials OnCo holds, mostly large trials of new medicines, not every study in Mozambique.",
           detail:
-            "OnCo's participation data cover 5,899 trials. The ClinicalTrials.gov search linked here shows any cancer studies registered with a site in Mozambique; ANARME's website lists clinical trial oversight among its services.",
+            "OnCo's participation data cover 5,897 trials, 5,578 of which list their countries. The ClinicalTrials.gov search linked here shows any cancer studies registered with a site in Mozambique; ANARME's website lists clinical trial oversight among its services.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with a site in Mozambique (search)", url: CTGOV },
             { label: "ANARME: home page (Portuguese)", url: ANARME },
@@ -205,9 +206,9 @@ export const MZ_DIVE: CountryDive = {
       id: "ministry",
       title: "The Ministry of Health's website did not answer",
       plain:
-        "OnCo could not reach the Ministry of Health (misau.gov.mz) on 11 November 2026, so this page has no national cancer plan, no rules on what public hospitals charge, no essential medicines list and no official description of the screening programmes.",
+        "OnCo could not reach the Ministry of Health (misau.gov.mz) on 11 November 2026 or again on 16 November 2026, so this page does not describe the national cancer plan, the rules on what public hospitals charge, the essential medicines list or the screening programmes from official documents.",
       detail:
-        "Without the Ministry's own documents, the health system cards rely on World Bank and WHO data. OnCo's web search budget was spent during this round, so other copies of Ministry documents could not be looked for.",
+        "Without the Ministry's own documents, the health system cards rely on World Bank and WHO data. WHO's 2021 country capacity survey records that Mozambique has an operational cancer plan, and the registry network's Maputo page names the registry's director as director of the National Cancer Control Plan; OnCo has not read the plan. OnCo's web search budget was spent during this round, so other copies of Ministry documents could not be looked for.",
       links: [{ label: "Ministry of Health, Mozambique", url: "https://www.misau.gov.mz/" }],
     },
     {
@@ -216,10 +217,10 @@ export const MZ_DIVE: CountryDive = {
       plain:
         "WHO's 2021 country capacity survey records radiotherapy and chemotherapy as generally available in Mozambique's public sector, but OnCo found no source it could read giving the number of radiotherapy machines or oncologists, or where they are.",
       detail:
-        "The IAEA's directory of radiotherapy centres works only in a browser. A 2014 paper comparing cancer incidence and radiotherapy in Mozambique and Sweden has no abstract in Europe PMC and was not used. WHO's survey also reports oral morphine as not generally available in the public health sector.",
+        "The IAEA's directory of radiotherapy centres, DIRAC, publishes country tables that load in a browser; OnCo did not read Mozambique's row on 16 November 2026. A 2014 paper comparing cancer incidence and radiotherapy in Mozambique and Sweden has no abstract in Europe PMC and was not used. WHO's survey also reports oral morphine as not generally available in the public health sector.",
       links: [
         { label: "WHO Global Health Observatory: radiotherapy availability, Mozambique (API)", url: "https://ghoapi.azureedge.net/api/NCD_CCS_radio?$filter=SpatialDim%20eq%20'MOZ'" },
-        { label: "IAEA: DIRAC, directory of radiotherapy centres", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: DIRAC, directory of radiotherapy centres (countries table)", url: "https://dirac.iaea.org/Data/CountriesLight" },
       ],
     },
   ],

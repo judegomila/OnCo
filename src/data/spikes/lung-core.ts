@@ -335,7 +335,7 @@ const nsclcPatch: Spike["patch"] = {
     // Kept as a record link when the five one-line standard-of-care settings in cancers.ts were folded into the sixteen
     // written in full by spikes/nsclc.ts: they were the only place the NCCN guideline was cited on this record.
     { label: "NCCN Clinical Practice Guidelines in Oncology: Non-Small Cell Lung Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1450" },
-    // Source of the US screening uptake figure in the open problems (spikes/nsclc.ts): 18.2% of eligible people screened in 2022.
+    // Source of the US screening uptake figure in the open problems (spikes/nsclc.ts): 24.4% of eligible people screened (page updated 10 November 2026).
     { label: "American Lung Association, State of Lung Cancer: key findings (screening rate)", url: "https://www.lung.org/research/state-of-lung-cancer/key-findings" },
     // OptiTROP-Lung04, cited in the open problem on ADCs after TKI failure (spikes/nsclc.ts).
     { label: "OptiTROP-Lung04, NEJM 2026: sacituzumab tirumotecan versus platinum chemotherapy after EGFR TKI", url: "https://doi.org/10.1056/nejmoa2512071" },

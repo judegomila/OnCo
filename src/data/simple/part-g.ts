@@ -65,7 +65,7 @@ export const simpleG: Record<string, string> = {
   "platinum-etoposide": "Platinum plus etoposide has been the chemotherapy backbone of small-cell lung cancer for over forty years, and is now given together with immunotherapy.",
   lurbinectedin: "Lurbinectedin is a marine-derived chemotherapy that jams cancer's gene-reading machinery, approved since 2025 as maintenance with atezolizumab; its US approval for relapsed disease was removed in 2026.",
   topotecan: "Topotecan is the long-standing second-line chemotherapy for relapsed small-cell lung cancer, and now the comparator that new drugs such as tarlatamab must beat.",
-  serplulimab: "Serplulimab is a Chinese PD-1 antibody with the largest survival gain of any first-line small-cell lung cancer immunotherapy trial, approved in China, Europe and the UK but not the US.",
+  serplulimab: "Serplulimab is a Chinese PD-1 antibody that added 4.5 months to median survival in widespread small-cell lung cancer, approved in China, Europe and the UK but not the US.",
   pemetrexed: "Pemetrexed is the chemotherapy that, with a platinum drug, became the first approved treatment for mesothelioma in 2004, and is still the backbone today.",
   nintedanib: "Nintedanib is a blood-vessel-blocking pill that looked promising in mesothelioma in a small trial but failed in the large one, a lesson in unreliable early signals.",
   "bcg-intravesical": "Intravesical BCG is a weakened tuberculosis vaccine put into the bladder; since 1976 it has been the most effective treatment for early bladder cancer, and it remains in short supply.",

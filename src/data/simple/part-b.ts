@@ -193,7 +193,7 @@ export const simpleB: Record<string, string> = {
   "keynote-671": "Showed that an immune drug given before and after lung cancer surgery lengthens life.",
   "keynote-024-189": "The two trials that made immune drugs the first treatment for most advanced lung cancers.",
   "harmoni-2": "The first head-to-head trial in which a new drug beat Keytruda, in China.",
-  "harmoni-3": "The global test of whether ivonescimab beats the Keytruda standard; an early look in 2026 fell short, final results pending.",
+  "harmoni-3": "The global test of whether ivonescimab beats the Keytruda standard; after an early look in 2026 its monitors said to continue, and no results have been reported.",
   "herthena-lung02": "A HER3 antibody-drug barely beat chemotherapy and did not extend life, so its US application was withdrawn.",
   "tropion-lung05": "The study that got Datroway approved for EGFR lung cancer after other treatments fail.",
   "krystal-12": "Confirmed that the KRAS pill adagrasib beats chemotherapy after first treatment, by a modest margin.",

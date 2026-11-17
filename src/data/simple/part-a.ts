@@ -296,7 +296,7 @@ export const simpleA: Record<string, string> = {
   tebentafusp: "The first drug to help people live longer with eye melanoma that has spread.",
   blinatumomab: "The first immune-cell-recruiting drug, from 2014, now given to children and adults with leukaemia even in remission.",
   amivantamab: "A two-armed antibody blocking EGFR and MET, now a first treatment for EGFR lung cancer with lazertinib.",
-  zanidatamab: "An antibody that grabs HER2 at two different spots, approved for HER2-positive bile duct cancer.",
+  zanidatamab: "An antibody that grabs HER2 at two different spots, approved for HER2-positive bile duct cancer and, in the US since August 2026, for HER2-positive stomach and oesophageal adenocarcinoma.",
   zenocutuzumab: "The first drug for cancers driven by NRG1 gene fusions.",
   ivonescimab: "A Chinese two-armed antibody that beat Keytruda head to head in lung cancer, the first drug ever to do so.",
   "ciltacabtagene-autoleucel": "A one-time engineered cell therapy for myeloma that cut the risk of death by about 45% compared with standard treatment.",

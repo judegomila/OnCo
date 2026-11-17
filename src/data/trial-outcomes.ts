@@ -248,7 +248,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
       { endpoint: "Progression-free survival", unit: "months", arms: [{ name: "Tarlatamab", value: 4.2 }, { name: "Chemotherapy", value: 3.7 }], hr: 0.71, ci: [0.59, 0.86], source: ct("NCT05740566") },
       { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Tarlatamab", value: 35 }, { name: "Chemotherapy", value: 20 }], source: "https://doi.org/10.1056/NEJMoa2502099" },
     ],
-    replication: "Confirms the single-arm DeLLphi-301 result (ORR 40%) that supported accelerated approval; first-line data (DeLLphi-305) pending.",
+    replication: "Confirms the single-arm DeLLphi-301 result (ORR 40%) that supported accelerated approval; in first-line maintenance, DeLLphi-305 reported an overall survival gain at an interim analysis in October 2026 (median 21.1 vs 12.7 months, HR 0.42).",
   },
 
   // ---------------- Melanoma / IO ----------------
@@ -406,12 +406,12 @@ const RAW: Record<string, TrialOutcomeIn> = {
   "harmoni-2": {
     enrolled: 398,
     outcomes: [{ endpoint: "Progression-free survival (IRRC)", primary: true, unit: "months", arms: [{ name: "Ivonescimab", n: 198, value: 11.1 }, { name: "Pembrolizumab", n: 200, value: 5.8 }], hr: 0.51, ci: [0.38, 0.69], p: "<0.0001", source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02722-3/fulltext" }],
-    replication: "Single-country (China) trial; OS immature. The global HARMONi-3 interim did not reproduce the PFS margin, so replication outside China is unresolved.",
+    replication: "Single-country (China) trial; OS immature. The global HARMONi-3 trial has not yet reported its primary analysis, so replication outside China is unresolved.",
   },
   "harmoni-3": {
-    enrolled: 1080,
-    outcomes: [{ endpoint: "Progression-free survival (interim analysis, May 2026)", primary: true, unit: "months", arms: [{ name: "Ivonescimab + chemotherapy" }, { name: "Pembrolizumab + chemotherapy" }], note: "Interim PFS analysis did not reach statistical significance per the sponsor (announced 30 April 2026); hazard ratio and medians not disclosed. Final PFS and OS analyses pending.", source: ct("NCT05899608") }],
-    replication: "Ongoing; interim PFS analysis in 2026 did not meet significance per the sponsor; OS pending.",
+    enrolled: 1600,
+    outcomes: [{ endpoint: "Progression-free survival (primary analysis not yet reported)", primary: true, unit: "months", arms: [{ name: "Ivonescimab + chemotherapy" }, { name: "Pembrolizumab + chemotherapy" }], note: "No efficacy result has been reported and the trial remains blinded. The sponsor's first-quarter 2026 report (30 April 2026) said an early interim PFS analysis of the squamous cohort, with a higher bar for significance than the final analysis, was reviewed only by the independent data monitoring committee, which recommended that the study continue as planned. The registry lists an estimated enrolment of 1,600.", source: "https://web.archive.org/web/20260430210422/https://smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Reports-Financial-Results-and-Operational-Progress-for-the-First-Quarter-Ended-March-31-2026/default.aspx" }],
+    replication: "Ongoing; no efficacy result reported. The sponsor expected the primary PFS analysis of the squamous cohort in the second half of 2026 and of the non-squamous cohort in the first half of 2027.",
   },
   "herthena-lung02": {
     enrolled: 586,
@@ -878,9 +878,9 @@ const RAW: Record<string, TrialOutcomeIn> = {
   "dellphi-305": {
     enrolled: 563,
     outcomes: [
-      { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Tarlatamab + durvalumab maintenance" }, { name: "Durvalumab maintenance" }], note: "Met at the pre-specified interim analysis: Amgen's 8 September 2026 release describes a statistically significant and clinically meaningful improvement; medians and hazard ratio not yet disclosed, detailed data promised for an upcoming congress", source: "https://www.amgen.com/newsroom/press-releases/2026/09/imdelltra-in-combination-with-imfinzi-demonstrated-landmark-improvement-in-overall-survival-in-first-line-extensive-stage-small-cell-lung-cancer" },
-      { endpoint: "Progression-free survival", unit: "months", arms: [{ name: "Tarlatamab + durvalumab maintenance" }, { name: "Durvalumab maintenance" }], note: "Statistically significant and clinically meaningful improvement per the sponsor; figures not yet public", source: "https://www.amgen.com/newsroom/press-releases/2026/09/imdelltra-in-combination-with-imfinzi-demonstrated-landmark-improvement-in-overall-survival-in-first-line-extensive-stage-small-cell-lung-cancer" },
-      { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Tarlatamab + durvalumab maintenance" }, { name: "Durvalumab maintenance" }], note: "Statistically significant improvement per the sponsor; figures not yet public", source: "https://www.amgen.com/newsroom/press-releases/2026/09/imdelltra-in-combination-with-imfinzi-demonstrated-landmark-improvement-in-overall-survival-in-first-line-extensive-stage-small-cell-lung-cancer" },
+      { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Tarlatamab + durvalumab maintenance", n: 282, value: 21.1 }, { name: "Durvalumab maintenance", n: 281, value: 12.7 }], hr: 0.42, ci: [0.32, 0.54], p: "<0.001", note: "Prespecified interim analysis, data cutoff 7 July 2026; survival measured from randomisation at the start of maintenance", source: "https://doi.org/10.1056/NEJMoa2609482" },
+      { endpoint: "Progression-free survival", unit: "months", arms: [{ name: "Tarlatamab + durvalumab maintenance", value: 7.4 }, { name: "Durvalumab maintenance", value: 1.9 }], hr: 0.34, ci: [0.28, 0.42], p: "<0.001", source: "https://doi.org/10.1056/NEJMoa2609482" },
+      { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Tarlatamab + durvalumab maintenance" }, { name: "Durvalumab maintenance" }], note: "Statistically significant improvement per the sponsor's 8 September 2026 release; the published abstract (N Engl J Med, 24 October 2026) gives no response-rate figure", source: "https://www.amgen.com/newsroom/press-releases/2026/09/imdelltra-in-combination-with-imfinzi-demonstrated-landmark-improvement-in-overall-survival-in-first-line-extensive-stage-small-cell-lung-cancer" },
     ],
     replication: "First phase 3 of a DLL3 T-cell engager in first-line maintenance; consistent in direction with the DeLLphi-303 phase 1b cohort (median OS 25.3 months). DeLLphi-312 (tarlatamab added to induction chemo-immunotherapy) is the confirmatory sibling.",
   },

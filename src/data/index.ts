@@ -151,6 +151,11 @@ import { protocolUpgradesPharmacyAccess } from "./spikes/protocol-upgrades-pharm
 import { protocolUpgradesFillGi } from "./spikes/protocol-upgrades-fill-gi";
 import { protocolUpgradesFillSkin } from "./spikes/protocol-upgrades-fill-skin";
 import { protocolUpgradesFillBody } from "./spikes/protocol-upgrades-fill-body";
+import { protocolUpgradesCensusB } from "./spikes/protocol-upgrades-census-b";
+import { protocolUpgradesCensusD } from "./spikes/protocol-upgrades-census-d";
+import { protocolUpgradesCensusE } from "./spikes/protocol-upgrades-census-e";
+import { protocolUpgradesCensusG } from "./spikes/protocol-upgrades-census-g";
+import { protocolUpgradesCensusH } from "./spikes/protocol-upgrades-census-h";
 import { rejuvenationMeasurement } from "./spikes/rejuvenation-measurement";
 import { tests } from "./tests";
 import { testsCdxDevices } from "./tests-cdx-devices";
@@ -568,6 +573,11 @@ const RAW_INPUTS: EntityInput[] = [
   ...protocolUpgradesFillGi,
   ...protocolUpgradesFillSkin,
   ...protocolUpgradesFillBody,
+  ...protocolUpgradesCensusB,
+  ...protocolUpgradesCensusD,
+  ...protocolUpgradesCensusE,
+  ...protocolUpgradesCensusG,
+  ...protocolUpgradesCensusH,
   ...rejuvenationMeasurement,
   ...tests,
   ...testsCdxDevices,

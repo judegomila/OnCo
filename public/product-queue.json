@@ -43,5 +43,14 @@
     "files": 92,
     "proposed": "2026-11-17",
     "state": "waiting"
+  },
+  {
+    "branch": "product/cross-links-round-2",
+    "why": "funder pages list their trials, person pages their trial reports, test pages who pays, protocol pages when to call, and long paragraphs keep their glossary hovers",
+    "pr": "https://github.com/judegomila/OnCo/pull/437",
+    "preview": "",
+    "files": 41,
+    "proposed": "2026-11-17",
+    "state": "waiting"
   }
 ]

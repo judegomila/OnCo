@@ -172,7 +172,7 @@ export const openQuestions: OpenQuestion[] = [
     source: nct("NCT04607421", "BREAKWATER (ClinicalTrials.gov)") },
   { id: "folr1-threshold", subject: "folr1", stage: "clinical", actor: "industry",
     question: "Can folate-receptor-alpha ADCs work below the 75% high-expression cut-off used for mirvetuximab, and in platinum-sensitive disease?",
-    why: "MIRASOL enrolled only FRalpha-high platinum-resistant patients; newer FRalpha ADCs with topoisomerase payloads (rinatabart sesutecan, luveltamab tazevibulin) claim activity at lower expression but lack randomised data.",
+    why: "MIRASOL enrolled only FRalpha-high platinum-resistant patients; rinatabart sesutecan, a newer FRalpha ADC with a topoisomerase payload, claims activity at lower expression but lacks randomised data; luveltamab tazevibulin, which carries a tubulin-inhibiting hemiasterlin payload, was deprioritised by its sponsor and its phase 2/3 trial terminated in 2025.",
     wouldAnswer: "Randomised trials in FRalpha-medium and platinum-sensitive populations with a standardised FRalpha assay.",
     refs: ["mirvetuximab-soravtansine", "rinatabart-sesutecan", "luveltamab-tazevibulin", "mirasol", "rainfol-01", "idea-fra-adc-sequencing-ovarian"],
     source: nct("NCT04209855", "MIRASOL (ClinicalTrials.gov)") },

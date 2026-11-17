@@ -21,7 +21,7 @@ export const simpleI: Record<string, string> = {
   aveo: "AVEO Oncology developed the kidney cancer pill tivozanib and was acquired by the Korean company LG Chem in 2023.",
   karyopharm: "Karyopharm makes selinexor, the first nuclear export blocker, approved in myeloma; its bet on womb cancer failed in 2026 and it refocused on blood cancers.",
   "kura-oncology": "Kura Oncology developed ziftomenib, the second menin-blocking pill approved for leukaemia in November 2025, in partnership with Japan's Kyowa Kirin.",
-  "taiho-oncology": "Taiho Oncology makes Inqovi, the oral decitabine pill that in May 2026 became the first all-oral backbone for venetoclax treatment in acute myeloid leukaemia.",
+  "taiho-oncology": "Taiho Oncology makes Inqovi, the oral decitabine pill that in May 2026 became an approved all-oral backbone for venetoclax treatment in acute myeloid leukaemia.",
   "rigel-pharmaceuticals": "Rigel Pharmaceuticals sells olutasidenib, an IDH1-blocking pill for relapsed acute myeloid leukaemia, which it licensed in 2022.",
   autolus: "Autolus is a UCL spin-out whose fast-release CD19 CAR-T, obe-cel, was approved for adult leukaemia in 2024 with less brain toxicity than earlier products.",
   "adaptive-biotechnologies": "Adaptive Biotechnologies makes clonoSEQ, the FDA-cleared sequencing test that finds one leukaemia cell in a million and now guides treatment in leukaemia and myeloma.",

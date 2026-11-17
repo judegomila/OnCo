@@ -1317,7 +1317,7 @@ export const simpleR: Record<string, string> = {
   "nct07761429": "Shandong New Time Pharmaceutical Co. is testing F520 with paclitaxel and carboplatin in people with cancer of unknown primary in a mid to late stage (phase 2/3) trial, and it is recruiting now.",
   "nct07265622": "Mabwell (Shanghai) Bioscience is testing 7MW4911 in people with advanced solid tumours in an early stage (phase 1/2) trial, and it is recruiting now.",
   "nct06751329": "Xadcera Biopharmaceutical (Suzhou) is testing DM002 in people with ovarian cancer, prostate cancer, endometrial cancer and other cancers in an early stage (phase 1/2) trial, and it is recruiting now.",
-  "nct04910022": "Nerviano Medical Sciences is testing temozolomide in people with glioma and glioblastoma in an early stage (phase 1/2) trial, and it is running but no longer recruiting.",
+  "nct04910022": "Nerviano Medical Sciences tested its PARP inhibitor with temozolomide in recurrent glioblastoma in an early (phase 1/2) trial, which it stopped for reasons it says are not related to safety.",
   "nct06603844": "Corbus Pharmaceuticals is testing the antibody CRB-601 in people with advanced solid tumours in an early stage (phase 1/2) trial, and it is recruiting now.",
   "nct06334432": "Nuvation Bio is testing NUV-1511 in people with prostate cancer, pancreatic ductal adenocarcinoma and ovarian cancer in an early stage (phase 1/2) trial, and it is running but no longer recruiting.",
   "nct06149559": "UCB Biopharma is testing rozanolixizumab in people with childhood cancers in a mid to late stage (phase 2/3) trial, and it has completed.",

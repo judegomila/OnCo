@@ -326,7 +326,7 @@ export const targets: TargetInput[] = [
   {
     id: "folr1", trials: ["nct07480954"], drugs: ["pafolacianine", "sofetabart-mipitecan", "chiauranib", "farletuzumab-exatecan"], kind: "target", name: "Folate receptor alpha", symbol: "FOLR1", hgnc: "HGNC:3791", ensembl: "ENSG00000110195", uniprot: "P15328", entrez: "2348", targetClass: "surface-antigen", asOf, wikipedia: W("Folate_receptor_1"),
     tldr: "Folate receptor alpha is a vitamin receptor that ovarian cancer cells carry in large numbers, used as the docking site for the ADC mirvetuximab.",
-    summary: "FRα is overexpressed in high-grade serous ovarian cancer, endometrial cancer, and lung adenocarcinoma. Mirvetuximab soravtansine (Elahere) is approved in FRα-high platinum-resistant ovarian cancer (MIRASOL). Next-generation FRα ADCs with topoisomerase-I payloads (ZW191, luveltamab tazevibulin, rinatabart sesutecan) target lower-expressing tumours.",
+    summary: "FRα is overexpressed in high-grade serous ovarian cancer, endometrial cancer, and lung adenocarcinoma. Mirvetuximab soravtansine (Elahere) is approved in FRα-high platinum-resistant ovarian cancer (MIRASOL). Next-generation FRα ADCs with topoisomerase-I payloads (ZW191, rinatabart sesutecan) target lower-expressing tumours; luveltamab tazevibulin, which carries a hemiasterlin (tubulin) payload, had its phase 2/3 trial terminated in 2025 when the sponsor deprioritised it.",
     biology: "GPI-anchored folate transporter; limited to apical surfaces in normal kidney, lung, and choroid plexus.",
     whereFound: ["High-grade serous ovarian (~80% any expression)", "Endometrial", "NSCLC adenocarcinoma", "TNBC (subset)"],
     cancers: ["ovarian", "endometrial", "nsclc"],

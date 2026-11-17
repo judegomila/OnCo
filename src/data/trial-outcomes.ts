@@ -265,10 +265,10 @@ const RAW: Record<string, TrialOutcomeIn> = {
   "interpath-001": {
     enrolled: 1137,
     outcomes: [
-      { endpoint: "Recurrence-free survival", primary: true, arms: [{ name: "Intismeran autogene + pembrolizumab" }, { name: "Placebo + pembrolizumab" }], note: "Met; hazard ratio and medians not yet disclosed (topline 19 August 2026).", source: "https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/" },
-      { endpoint: "Distant metastasis-free survival", arms: [{ name: "Intismeran autogene + pembrolizumab" }, { name: "Placebo + pembrolizumab" }], note: "Met; numbers pending presentation." },
+      { endpoint: "Recurrence-free survival at 24 months", primary: true, unit: "%", arms: [{ name: "Intismeran autogene + pembrolizumab", n: 757, value: 82.2 }, { name: "Placebo + pembrolizumab", n: 380, value: 70.0 }], p: "<0.001", note: "Met. Piecewise hazard ratio 0.99 (95% CI 0.66 to 1.49) before 6 months and 0.42 (0.30 to 0.58) after 6 months; median follow-up 24.6 months.", source: "https://doi.org/10.1056/NEJMoa2609762" },
+      { endpoint: "Distant metastasis-free survival at 24 months", unit: "%", arms: [{ name: "Intismeran autogene + pembrolizumab", n: 757, value: 88.5 }, { name: "Placebo + pembrolizumab", n: 380, value: 80.2 }], p: "0.002", note: "Met. Piecewise hazard ratio 1.01 (0.58 to 1.79) before 6 months and 0.50 (0.34 to 0.73) after 6 months.", source: "https://doi.org/10.1056/NEJMoa2609762" },
     ],
-    replication: "Confirms the phase 2b KEYNOTE-942 signal (RFS HR 0.51 at 3 years) in a randomised phase 3; full data pending.",
+    replication: "Confirms the phase 2b KEYNOTE-942 signal (RFS HR 0.510, 95% CI 0.294 to 0.887, at five years in 157 patients) in a randomised phase 3, published in the New England Journal of Medicine on 11 November 2026.",
   },
 
   // ---------------- GU ----------------
@@ -752,8 +752,8 @@ const RAW: Record<string, TrialOutcomeIn> = {
   },
   // Renal
   "litespark-012": {
-    enrolled: 1854,
-    outcomes: [{ endpoint: "Progression-free survival (BICR) and overall survival (dual primary)", primary: true, unit: "months", arms: [{ name: "Pembrolizumab + lenvatinib + belzutifan" }, { name: "Pembrolizumab/quavonlimab + lenvatinib" }, { name: "Pembrolizumab + lenvatinib" }], note: "Neither investigational regimen met the dual primary PFS and OS endpoints at the pre-specified interim analysis (sponsor release, 21 April 2026); hazard ratios not disclosed", source: "https://www.merck.com/news/merck-and-eisai-provide-update-on-phase-3-litespark-012-trial-evaluating-first-line-combination-treatments-for-certain-patients-with-advanced-renal-cell-carcinoma-rcc/" }],
+    enrolled: 1688,
+    outcomes: [{ endpoint: "Progression-free survival (BICR; dual primary with overall survival)", primary: true, unit: "months", arms: [{ name: "Pembrolizumab + lenvatinib + belzutifan", n: 560, value: 20.8 }, { name: "Pembrolizumab/quavonlimab + lenvatinib", n: 562, value: 20.7 }, { name: "Pembrolizumab + lenvatinib", n: 566, value: 23.7 }], note: "Neither investigational regimen met the dual primary PFS and OS endpoints (data cutoff 4 February 2026, median follow-up 43.6 months). Among all participants, belzutifan triplet versus pembrolizumab + lenvatinib: PFS HR 1.08 (95% CI 0.93 to 1.26), OS HR 1.04 (0.87 to 1.25); quavonlimab triplet versus pembrolizumab + lenvatinib: PFS HR 1.07 (0.92 to 1.25), OS HR 1.12 (0.94 to 1.35). First announced by the sponsor on 21 April 2026", source: "https://doi.org/10.1016/j.annonc.2026.10.1281" }],
     replication: "Consistent with COSMIC-313: adding a third agent to a first-line IO doublet has not improved outcomes in clear-cell RCC. The phase Ib/II KEYMAKER-U03 signal for the belzutifan triplet did not carry into phase 3.",
   },
   "litespark-022": {
@@ -788,8 +788,8 @@ const RAW: Record<string, TrialOutcomeIn> = {
   "panku-esophagus01": {
     enrolled: 497,
     outcomes: [
-      { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Izalontamab brengitecan", value: 9.8 }, { name: "Chemotherapy (physician's choice)", value: 7.2 }], hr: 0.64, ci: [0.49, 0.83], p: "0.0004", source: "https://www.prnewswire.com/news-releases/systimmune-announces-second-approval-of-iza-bren-in-china-for-the-treatment-of-recurrent-or-metastatic-esophageal-squamous-cell-carcinoma-302827983.html" },
-      { endpoint: "Progression-free survival (BICR)", primary: true, unit: "months", arms: [{ name: "Izalontamab brengitecan", value: 4.2 }, { name: "Chemotherapy (physician's choice)", value: 2.0 }], hr: 0.50, ci: [0.40, 0.63], p: "<0.0001", source: "https://www.prnewswire.com/news-releases/systimmune-announces-second-approval-of-iza-bren-in-china-for-the-treatment-of-recurrent-or-metastatic-esophageal-squamous-cell-carcinoma-302827983.html" },
+      { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Izalontamab brengitecan", n: 249, value: 9.79 }, { name: "Chemotherapy (physician's choice)", n: 248, value: 7.2 }], hr: 0.63, ci: [0.48, 0.82], p: "<0.001", source: "https://doi.org/10.1001/jama.2026.20250" },
+      { endpoint: "Progression-free survival (BICR)", primary: true, unit: "months", arms: [{ name: "Izalontamab brengitecan", n: 249, value: 4.17 }, { name: "Chemotherapy (physician's choice)", n: 248, value: 1.97 }], hr: 0.50, ci: [0.40, 0.63], p: "<0.001", source: "https://doi.org/10.1001/jama.2026.20250" },
     ],
     replication: "Single Chinese phase 3 (ASCO 2026 oral; NMPA approval July 2026); consistent with the positive iza-bren phase 3s in nasopharyngeal carcinoma and TNBC (BL-B01D1-307). No data outside China yet.",
   },

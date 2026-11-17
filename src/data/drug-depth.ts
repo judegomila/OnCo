@@ -282,7 +282,7 @@ export const drugDepth: Record<string, DrugDepth> = {
     dosing: { route: "IV infusion", schedule: "Obinutuzumab 1,000 mg on cycle 1 day 1, then glofitamab 2.5 mg day 8, 10 mg day 15, then 30 mg every 3 weeks for up to 12 cycles (fixed duration)", modifications: "Hold for grade ≥2 CRS; dexamethasone premedication", monitoring: "Hospitalisation for the first 2.5 mg dose; CRS, neurology, infections", source: FDA_ONC },
     toxicity: [tx("Cytokine release syndrome"), tx("Neutropenia"), tx("Musculoskeletal pain"), tx("Rash"), tx("Fatigue"), tx("Infections"), tx("Tumour flare")],
     access: [US_PARTB("https://www.genentech-access.com"), UK_NICE("recommended for relapsed/refractory DLBCL after ≥2 therapies (TA927)")],
-    regulatoryEvents: [ev("2023-06-15", "approval", "US", "Accelerated approval, relapsed/refractory DLBCL after ≥2 lines"), ev("2023-07", "approval", "EU", "Conditional marketing authorisation"), ev("2025-07-02", "crl", "US", "Complete response letter for STARGLO combination (regional heterogeneity); approved in EU")],
+    regulatoryEvents: [ev("2023-06-15", "approval", "US", "Accelerated approval, relapsed/refractory DLBCL after ≥2 lines"), ev("2023-07", "approval", "EU", "Conditional marketing authorisation"), ev("2025-07-02", "crl", "US", "Complete response letter for STARGLO combination (regional heterogeneity); approved in EU. The letter was not confirmed against a primary source on 17 November 2026; an FDA advisory committee voted 8 to 1 on 20 May 2025 that the trial did not apply to US patients, and the US label has no second-line indication")],
     mechanismSteps: TCE_STEPS("CD20 (bivalent, 2:1 format)"),
   },
   tebentafusp: {

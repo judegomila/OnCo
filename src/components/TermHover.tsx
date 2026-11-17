@@ -32,7 +32,7 @@ export function TermHover({ term, children }: { term: TermRef; children: React.R
 
   return (
     <span ref={ref} className="inline" onMouseEnter={move} onMouseMove={move} onMouseLeave={leave} onFocus={focus} onBlur={blur} onKeyDown={key}>
-      <span tabIndex={0} role="button" aria-describedby={pos ? `term-${term.id}` : undefined} className="cursor-help underline decoration-dotted decoration-foreground/40 underline-offset-[3px] hover:decoration-foreground">{children}</span>
+      <span tabIndex={0} role="button" aria-describedby={pos ? `term-${term.id}` : undefined} className="term-hover">{children}</span>
       {pos && (
         <span ref={pop} id={`term-${term.id}`} role="tooltip" style={{ left: pos.left, top: pos.top, width: 288 }} className="fixed z-[80] max-w-[85vw] card shadow-xl p-3 text-sm not-italic font-normal normal-case tracking-normal pointer-events-auto">
           <span className="block font-semibold mb-0.5">{term.name}</span>

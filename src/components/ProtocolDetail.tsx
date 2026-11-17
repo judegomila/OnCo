@@ -3,6 +3,8 @@ import type { Protocol, ProtocolSource } from "@/lib/schema";
 import { PROTOCOL_ACTOR_LABEL, PROTOCOL_DOMAIN_LABEL, PROTOCOL_PLACE_LABEL, routeFor, type ProtocolDomain } from "@/lib/kinds";
 import { graph } from "@/lib/graph";
 import type { ProtocolMember } from "@/lib/members";
+import { ACTION_LABEL } from "@/data/red-flags";
+import { redFlagsForProtocol } from "@/lib/red-cards";
 import { KindIcon } from "./KindIcon";
 import { TL } from "./T";
 
@@ -65,12 +67,36 @@ export function ProtocolSteps({ p }: { p: Protocol }) {
   );
 }
 
-/** The overview body: setting strip and the steps. */
+/**
+ * The warning lines that name this protocol (src/data/red-flags.ts, `protocols` on a line): what a patient watches
+ * for, how fast to act and the source, under the steps the team follows. At most four, one per symptom, and nothing
+ * at all on a protocol no line names (src/lib/red-cards.ts `redFlagsForProtocol`).
+ */
+function ProtocolRedFlags({ p }: { p: Protocol }) {
+  const flags = redFlagsForProtocol(graph(), p.id);
+  if (!flags.length) return null;
+  return (
+    <section id="when-to-call" className="scroll-mt-28" data-protocol-red-flags>
+      <h2 className="text-lg font-semibold tracking-tight mb-3"><TL text="When to call" /></h2>
+      <ul className="space-y-3 max-w-3xl" lang="en">
+        {flags.map((f) => (
+          <li key={`${f.setId}:${f.symptom}`} className="text-[15px] leading-relaxed">
+            <span className="font-medium">{f.symptom}.</span> {f.threshold}
+            <div className="text-xs text-muted mt-1"><span className="font-medium text-foreground/80">{ACTION_LABEL[f.action]}</span> · {f.setLabel} · <a className="underline" href={f.source.url} rel="noopener">{f.source.label}</a></div>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+/** The overview body: setting strip, the steps, and the warning lines that name the protocol. */
 export function ProtocolOverview({ p }: { p: Protocol }) {
   return (
     <div className="mt-8 space-y-8">
       <SettingStrip p={p} />
       <ProtocolSteps p={p} />
+      <ProtocolRedFlags p={p} />
       <p className="text-xs text-muted max-w-3xl">How care is usually carried out, read from the guidelines and standards cited. Your own team&apos;s protocol and their judgement come first; this page is for understanding it, not for doing it yourself.</p>
     </div>
   );

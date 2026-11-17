@@ -1,5 +1,6 @@
-import { graph } from "./graph";
+import { graph, type Graph } from "./graph";
 import { routeFor } from "./kinds";
+import type { Drug, Protocol } from "./schema";
 
 /**
  * Symptom-first index of product toxicities.
@@ -176,12 +177,14 @@ export function buildSideEffectIndex(): SideEffectRow[] {
  * - `general`: the protocol for the symptom whatever caused it (fever after any treatment that lowers white cells,
  *   hand-foot syndrome, nausea). Shown for the group.
  * - `specific`: a protocol for the symptom on particular treatments (immune-related colitis on checkpoint inhibitors,
- *   irinotecan's early diarrhoea, CRS after a bispecific). Shown only for the products it names, by the structured
- *   link: the protocol's `drugs` include the product, or its `technologies` include one of the product's.
+ *   irinotecan's early diarrhoea, CRS after a bispecific). Shown only beside the products it reaches, which is read
+ *   from the protocol record unless `PROTOCOL_REACH` below says otherwise.
  *
  * Which protocols belong to which group is written here because the groups are the rules' own plain-language labels
- * and exist nowhere in the corpus; which products a specific protocol applies to is read from the protocol record.
- * src/lib/side-effects.test.ts checks that every id is a protocol and every key a group the rules produce.
+ * and exist nowhere in the corpus. A protocol is listed only after its own population and trigger have been read:
+ * where no protocol in the corpus fits (high blood pressure, QT prolongation, lung inflammation on a drug that is not
+ * a checkpoint inhibitor), the group or the row stays without one, and `scripts/measure-side-effect-chain.ts --gaps`
+ * names it. src/lib/side-effects.test.ts checks that every id is a protocol and every key a group the rules produce.
  */
 export const SYMPTOM_PROTOCOLS: Record<string, { general?: string[]; specific?: string[] }> = {
   "Cytokine release syndrome": { general: ["crs-grading-and-management"], specific: ["bispecific-step-up-dosing"] },
@@ -192,26 +195,30 @@ export const SYMPTOM_PROTOCOLS: Record<string, { general?: string[]; specific?: 
   "Low white cells (neutropenia)": { general: ["g-csf-prophylaxis-by-febrile-neutropenia-risk", "febrile-neutropenia-first-hour"] },
   "Low red cells (anaemia)": { general: ["chemotherapy-induced-anaemia-esa-and-iron", "red-cell-and-platelet-transfusion-thresholds"] },
   "Low platelets (thrombocytopenia)": { general: ["bleeding-precautions-when-platelets-are-low", "red-cell-and-platelet-transfusion-thresholds"], specific: ["irae-haematological"] },
-  "Low blood counts (general)": { specific: ["icaht-prolonged-cytopenia", "irae-haematological"] },
+  // Red cells and platelets are both low, whatever lowered them. The first-hour fever protocol is not listed: the rows
+  // here are CAR T cells and leukaemia induction, and it leaves acute leukaemia and transplant to local haematology protocols.
+  "Low blood counts (general)": { general: ["red-cell-and-platelet-transfusion-thresholds"], specific: ["icaht-prolonged-cytopenia", "irae-haematological"] },
   "Low antibody levels (hypogammaglobulinaemia)": { specific: ["car-t-infection-prevention", "bispecific-step-up-dosing"] },
-  "Infections": { specific: ["hepatitis-b-screening-and-reactivation-prophylaxis", "pneumocystis-pneumonia-prophylaxis", "herpes-simplex-and-zoster-antiviral-prophylaxis", "car-t-infection-prevention"] },
+  "Infections": { specific: ["hepatitis-b-screening-and-reactivation-prophylaxis", "pneumocystis-pneumonia-prophylaxis", "herpes-simplex-and-zoster-antiviral-prophylaxis", "car-t-infection-prevention", "bispecific-step-up-dosing", "vaccination-around-cancer-treatment"] },
   "Colitis (bowel inflammation)": { general: ["treatment-induced-diarrhoea-grading-and-management"], specific: ["irae-colitis"] },
   "Diarrhoea": { general: ["treatment-induced-diarrhoea-grading-and-management"], specific: ["irinotecan-early-cholinergic-syndrome-and-late-diarrhoea", "neratinib-diarrhoea-prophylaxis-and-dose-escalation", "irae-colitis"] },
   "Nausea or vomiting": { general: ["antiemetic-prophylaxis-by-emetic-risk"] },
   "Mouth soreness or ulcers (stomatitis)": { general: ["oral-mucositis-prevention-and-oral-care"] },
   "Loss of appetite or weight loss": { general: ["nutrition-screening-and-support-during-cancer-treatment"] },
   "Lung inflammation (pneumonitis, ILD)": { specific: ["irae-pneumonitis"] },
+  "Breathlessness or cough": { specific: ["acute-oncology-telephone-triage"] },
   "Liver inflammation or raised liver enzymes": { specific: ["irae-hepatitis"] },
-  "Kidney problems": { specific: ["irae-nephritis"] },
+  "Kidney problems": { specific: ["irae-nephritis", "renal-dose-adjustment-of-anticancer-drugs"] },
   "Heart muscle weakness or inflammation": { general: ["cardio-oncology-risk-assessment-and-cardiac-surveillance"], specific: ["irae-myocarditis"] },
   "Blood clots": { general: ["cancer-associated-vte-treatment"] },
   "Bleeding or bruising": { general: ["bleeding-precautions-when-platelets-are-low"] },
   "Hand-foot syndrome": { general: ["hand-foot-syndrome-prevention-and-dose-modification"] },
   "Nail changes": { general: ["skin-and-nail-care-during-cancer-drug-treatment"] },
   "Hair loss": { specific: ["scalp-cooling-during-chemotherapy"] },
-  "Rash, itching or skin reactions": { general: ["skin-and-nail-care-during-cancer-drug-treatment"], specific: ["egfr-inhibitor-rash-prophylaxis", "irae-skin"] },
+  "Rash, itching or skin reactions": { general: ["skin-and-nail-care-during-cancer-drug-treatment"], specific: ["egfr-inhibitor-rash-prophylaxis", "irae-skin", "sun-protection-during-and-after-cancer-treatment"] },
+  "Poor wound healing": { specific: ["anti-vegf-drugs-around-surgery"] },
   "Nerve damage (peripheral neuropathy)": { general: ["chemotherapy-induced-peripheral-neuropathy-assessment-and-prevention"] },
-  "Muscle or joint pain": { specific: ["irae-rheumatological"] },
+  "Muscle or joint pain": { specific: ["irae-rheumatological", "chronic-pain-in-cancer-survivors"] },
   "Tiredness (fatigue)": { general: ["cancer-related-fatigue-screening-and-management"] },
   "Eye problems": { specific: ["eye-care-with-ocular-toxic-antibody-drug-conjugates", "irae-ocular"] },
   "Hearing problems": { specific: ["paediatric-cisplatin-hearing-protection"] },
@@ -223,7 +230,73 @@ export const SYMPTOM_PROTOCOLS: Record<string, { general?: string[]; specific?: 
   "Bone loss or fractures": { specific: ["bone-health-on-hormone-therapy"] },
 };
 
-/** A care protocol for a symptom group; for a specific one, `drugs` are the products in the group's rows it names. */
+/**
+ * How a treatment-specific protocol reaches a product, where reading the protocol's `drugs` and `technologies` is not
+ * the whole answer. Each entry restates the protocol's own population, read on 16 November 2026.
+ *
+ * Every pattern here is word-bounded. A fragment is not a class: `imid` matched inside `pyrimidine` once and put a
+ * myeloma warning on a skin cream (AGENTS.md), and src/lib/side-effects.test.ts holds the non-matches for these.
+ */
+export type ProtocolReach = {
+  /**
+   * Which products the protocol record itself reaches. "named" (the default): its `drugs` include the product, or a
+   * technology both name. "drugs": its `drugs` only, where the protocol says the rest of the class is not covered.
+   * "class": the products whose modality matches `modality` and no others, where the protocol's `drugs` also list
+   * the medicines that treat the problem. "any": every product, for a protocol about the symptom itself (use `event`).
+   */
+  products?: "named" | "drugs" | "class" | "any";
+  /** The class the protocol's population names, as a pattern on `drug.modality`. With "named" or "drugs" it adds to them. */
+  modality?: RegExp;
+  /** The protocol is for solid tumours only: the product must treat at least one cancer that is not a blood cancer. */
+  solidTumour?: true;
+  /** The protocol covers only the rows whose event matches. */
+  event?: RegExp;
+  /** The protocol says it does not cover the rows whose event matches. */
+  notEvent?: RegExp;
+};
+
+/** A drug that blocks an immune checkpoint, by its modality: "anti-PD-1", "PD-1×VEGF", not a PD-L1 assay. */
+export const CHECKPOINT_MODALITY = /\banti-(?:pd-1|pd-l1|ctla-4|lag-3)\b|\bpd-1(?: ?[×x] ?| (?:antibody|antagonist)\b)/i;
+/** A T-cell engager, by its modality. A bispecific antibody that engages no T cell (EGFR×MET, HER2×HER3) is not one. */
+export const T_CELL_ENGAGER_MODALITY = /\bt[- ]cell engagers?\b|\bimmtac\b/i;
+
+/**
+ * Immune-related adverse event protocols (domain `immunotherapy-toxicity`) are for people treated with a checkpoint
+ * inhibitor and for nobody else. The shared `checkpoint-inhibitor` technology is not enough: ivermectin carries it,
+ * as a drug studied beside checkpoint antibodies, and was being sent to the immune-related protocols for its own
+ * dizziness, itching and raised liver enzymes. Nor is being named in `drugs`: those lists hold the steroids and
+ * infliximab that treat the reaction.
+ */
+const IRAE_REACH: ProtocolReach = { products: "class", modality: CHECKPOINT_MODALITY };
+
+export const PROTOCOL_REACH: Record<string, ProtocolReach> = {
+  // "Radiation pneumonitis and infection are differential diagnoses, not covered here."
+  "irae-pneumonitis": { ...IRAE_REACH, notEvent: /\bradiation\b/i },
+  // Population: BCMA and CD20 bispecifics, and "other T-cell engagers (blinatumomab, tarlatamab, talquetamab,
+  // tebentafusp) follow the same principles". Its `drugs` also hold tocilizumab, dexamethasone and immunoglobulin.
+  "bispecific-step-up-dosing": { products: "class", modality: T_CELL_ENGAGER_MODALITY },
+  // "Other ADCs with eye effects in their labels are not covered here": the shared `adc` technology is not the scope.
+  "eye-care-with-ocular-toxic-antibody-drug-conjugates": { products: "drugs" },
+  // "Adults starting neratinib": lapatinib and tucatinib share the technology and not the loperamide schedule.
+  "neratinib-diarrhoea-prophylaxis-and-dose-escalation": { products: "drugs" },
+  // "Adults with solid tumours receiving chemotherapy that causes hair loss"; not blood cancers. Its gaps say the
+  // trials read do not cover antibody-drug conjugates, whose modality is "ADC" and does not match.
+  "scalp-cooling-during-chemotherapy": { modality: /\bcytotoxic\b/i, solidTumour: true },
+  // "starting an aromatase inhibitor, ovarian suppression ... androgen deprivation therapy"; tamoxifen alone is excluded by a step.
+  "bone-health-on-hormone-therapy": { modality: /\baromatase\b|\bgnrh\b|\blhrh\b/i },
+  // One step is about this and nothing else: "For joint pain from aromatase inhibitors, recommend acupuncture".
+  "chronic-pain-in-cancer-survivors": { products: "class", modality: /\baromatase\b/i, event: /\barthr(?:algia|itis)\b|\bjoint\b/i },
+  // Names carboplatin, cisplatin and methotrexate as the drugs whose dose follows measured kidney function.
+  "renal-dose-adjustment-of-anticancer-drugs": { products: "drugs" },
+  // Vaccines against pneumonia-causing infections and COVID-19 for adults on treatment; says nothing about a cold or a urinary infection.
+  "vaccination-around-cancer-treatment": { products: "any", event: /\bpneumonia\b|\bcovid(?:-19)?\b/i },
+  // "with breathlessness, think of superior vena cava obstruction, clots, pneumonitis and infection": the step is about breathlessness; cough is not named.
+  "acute-oncology-telephone-triage": { products: "any", event: /\bdyspnoea\b|\bdyspnea\b|\bbreathless(?:ness)?\b/i },
+  // "Which drugs cause photosensitivity is set out in each drug's label; this protocol does not list them."
+  "sun-protection-during-and-after-cancer-treatment": { products: "any", event: /\bphotosensitivity\b/i },
+};
+
+/** A care protocol for a symptom group; for a specific one, `drugs` are the products in the group's rows it reaches. */
 export type SideEffectProtocol = { id: string; name: string; route: string; general: boolean; drugs: string[] };
 
 /** Whether a protocol names a product: in its `drugs`, or through a technology both name. */
@@ -231,29 +304,49 @@ export function protocolNamesProduct(p: { drugs: string[]; technologies: string[
   return p.drugs.includes(d.id) || d.technologies.some((t) => p.technologies.includes(t));
 }
 
-/** Server-side: the protocols for each symptom group present in `rows`, general first; a specific one only with the products it names. */
+const reachOf = (p: Pick<Protocol, "id" | "domain">): ProtocolReach => PROTOCOL_REACH[p.id] ?? (p.domain === "immunotherapy-toxicity" ? IRAE_REACH : {});
+
+/** Whether a treatment-specific protocol applies to one toxicity row: this product, with this event. */
+export function protocolReaches(p: Pick<Protocol, "id" | "domain" | "drugs" | "technologies">, d: Pick<Drug, "id" | "modality" | "technologies" | "cancers">, event: string, g: Graph = graph()): boolean {
+  const r = reachOf(p);
+  if (r.event && !r.event.test(event)) return false;
+  if (r.notEvent?.test(event)) return false;
+  if (r.solidTumour && !d.cancers.some((id) => { const c = g.get(id); return c?.kind === "cancer" && c.group !== "haematologic"; })) return false;
+  const mode = r.products ?? "named";
+  if (mode === "any" || r.modality?.test(d.modality)) return true;
+  if (mode === "class") return false;
+  return mode === "drugs" ? p.drugs.includes(d.id) : protocolNamesProduct(p, d);
+}
+
+/** The protocols of one group as records, general first, each id once. */
+function groupProtocols(g: Graph, group: string): Array<{ p: Protocol; general: boolean }> {
+  const spec = SYMPTOM_PROTOCOLS[group];
+  const out: Array<{ p: Protocol; general: boolean }> = [];
+  const add = (id: string, general: boolean) => { const p = g.get(id); if (p?.kind === "protocol" && !out.some((x) => x.p.id === id)) out.push({ p, general }); };
+  for (const id of spec?.general ?? []) add(id, true);
+  for (const id of spec?.specific ?? []) add(id, false);
+  return out;
+}
+
+/** Server-side: the protocols shown for one toxicity row, general first. An empty list is a named gap, not an error. */
+export function rowProtocols(row: Pick<SideEffectRow, "group" | "drugId" | "event">, g: Graph = graph()): string[] {
+  const d = g.get(row.drugId);
+  return groupProtocols(g, row.group).filter(({ p, general }) => general || (d?.kind === "drug" && protocolReaches(p, d, row.event, g))).map(({ p }) => p.id);
+}
+
+/** Server-side: the protocols for each symptom group present in `rows`, general first; a specific one only with the products it reaches. */
 export function symptomProtocols(rows: SideEffectRow[]): Record<string, SideEffectProtocol[]> {
   const g = graph();
-  const drugsByGroup = new Map<string, Set<string>>();
-  for (const r of rows) {
-    const set = drugsByGroup.get(r.group) ?? new Set<string>();
-    set.add(r.drugId);
-    drugsByGroup.set(r.group, set);
-  }
+  const rowsByGroup = new Map<string, SideEffectRow[]>();
+  for (const r of rows) rowsByGroup.set(r.group, [...(rowsByGroup.get(r.group) ?? []), r]);
   const out: Record<string, SideEffectProtocol[]> = {};
-  for (const [group, drugIds] of drugsByGroup) {
-    const spec = SYMPTOM_PROTOCOLS[group];
-    if (!spec) continue;
-    const list: SideEffectProtocol[] = [];
-    const add = (id: string, general: boolean) => {
-      const p = g.get(id);
-      if (p?.kind !== "protocol" || list.some((x) => x.id === id)) return;
-      const drugs = general ? [] : [...drugIds].filter((d) => { const e = g.get(d); return e?.kind === "drug" && protocolNamesProduct(p, e); });
-      if (general || drugs.length) list.push({ id, name: p.name, route: routeFor(p), general, drugs });
-    };
-    for (const id of spec.general ?? []) add(id, true);
-    for (const id of spec.specific ?? []) add(id, false);
-    if (list.length) out[group] = list;
+  for (const [group, list] of rowsByGroup) {
+    const shown: SideEffectProtocol[] = [];
+    for (const { p, general } of groupProtocols(g, group)) {
+      const drugs = general ? [] : [...new Set(list.filter((r) => { const d = g.get(r.drugId); return d?.kind === "drug" && protocolReaches(p, d, r.event, g); }).map((r) => r.drugId))];
+      if (general || drugs.length) shown.push({ id: p.id, name: p.name, route: routeFor(p), general, drugs });
+    }
+    if (shown.length) out[group] = shown;
   }
   return out;
 }

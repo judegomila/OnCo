@@ -1,7 +1,7 @@
 import type { Cancer, Drug, Term } from "./schema";
 import { routeFor } from "./kinds";
 import type { Graph } from "./graph";
-import { redFlagsFor, redFlagsForCancerId, type RedFlagAction, type RedFlagSet } from "@/data/red-flags";
+import { GENERAL_RED_FLAGS, redFlagSets, redFlagsFor, redFlagsForCancerId, type RedFlag, type RedFlagAction, type RedFlagSet } from "@/data/red-flags";
 import { checkPairs, singleFlags, type Flag, type SingleFlag } from "./interactions";
 
 /**
@@ -143,4 +143,39 @@ export function redCardsForCancer(g: Graph, c: Cancer, max = RED_CARD_MAX): RedC
     sideEffectTerms,
     cancerSets,
   }, max);
+}
+
+/** A "when to call" line beside the care protocol that manages it, with the card it comes from. */
+export type ProtocolRedFlag = RedFlag & { setId: string; setLabel: string };
+
+export const PROTOCOL_RED_FLAG_MAX = 4;
+
+/**
+ * The warning lines that go with a care protocol: the lines whose `protocols` name it (src/data/red-flags.ts), from
+ * the general card and the drug and class cards. The link is written line by line in the data and never guessed from
+ * the wording: matching by symptom put tamoxifen's vaginal bleeding beside the low-platelet protocol.
+ *
+ * Several cards carry the same symptom (nine say "Neutropenic fever", four "Blood clot" with a drug in brackets), so
+ * one line is kept per symptom, read without its bracket: the general card's if it has one, else the card that
+ * applies to the most products. Most urgent first, at most `max`.
+ */
+export function redFlagsForProtocol(g: Graph, protocolId: string, max = PROTOCOL_RED_FLAG_MAX): ProtocolRedFlag[] {
+  const drugs = g.kind("drug");
+  const width = new Map<string, number>();
+  const widthOf = (s: RedFlagSet) => {
+    if (s.id === GENERAL_RED_FLAGS.id) return Infinity;
+    if (!width.has(s.id)) { const re = s.modalityRe ? new RegExp(s.modalityRe, "i") : undefined; width.set(s.id, drugs.filter((d) => s.drugIds?.includes(d.id) || re?.test(d.modality)).length); }
+    return width.get(s.id) ?? 0;
+  };
+  const bySymptom = new Map<string, { flag: RedFlag; set: RedFlagSet }>();
+  for (const set of [GENERAL_RED_FLAGS, ...redFlagSets]) for (const flag of set.flags) {
+    if (!flag.protocols?.includes(protocolId)) continue;
+    const key = flag.symptom.replace(/\s*\([^)]*\)/g, "").trim().toLowerCase();
+    const cur = bySymptom.get(key);
+    if (!cur || widthOf(set) > widthOf(cur.set)) bySymptom.set(key, { flag, set });
+  }
+  return [...bySymptom.values()]
+    .sort((a, b) => TONE_ORDER.indexOf(ACTION_TONE[a.flag.action]) - TONE_ORDER.indexOf(ACTION_TONE[b.flag.action]) || widthOf(b.set) - widthOf(a.set) || a.flag.symptom.localeCompare(b.flag.symptom))
+    .slice(0, max)
+    .map(({ flag, set }) => ({ ...flag, setId: set.id, setLabel: set.label }));
 }

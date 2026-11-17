@@ -590,6 +590,9 @@ export const SCHEMATIC_ALIAS: Record<string, string> = {
   // so they share the psycho-oncology drawing.
   "dignity-therapy": "psycho-oncology",
   "calm-psychotherapy": "psycho-oncology",
+  // Click-activated prodrugs (src/data/shasqi-depth.ts): a payload that stays inert until something at the tumour
+  // uncovers it, which is what the masked conjugate drawing shows; the nearest real drawing, not a likeness.
+  "click-activated-prodrugs": "masked-adc",
   ...radiationSchematicAliases,
   ...modelSchematicAliases,
   ...machineSchematicAliases,

@@ -73,6 +73,7 @@ import { papersRareWave } from "./papers-rare-wave";
 import { papersPancreaticWave } from "./papers-pancreatic-wave";
 import { papersWatch202609 } from "./papers-watch-2026-09";
 import { papersWatch202611 } from "./papers-watch-2026-11";
+import { shasqiTechnologies, shasqiDrugs, shasqiTrials, shasqiPapers } from "./shasqi-depth";
 import { ivermectinDrugs, ivermectinTrials, ivermectinPapers } from "./ivermectin";
 import { papersTrialsWave1 } from "./papers-trials-wave1";
 import { trialKeyPapersWave1 } from "./trial-key-papers-wave1";
@@ -150,6 +151,11 @@ import { protocolUpgradesPharmacyAccess } from "./spikes/protocol-upgrades-pharm
 import { protocolUpgradesFillGi } from "./spikes/protocol-upgrades-fill-gi";
 import { protocolUpgradesFillSkin } from "./spikes/protocol-upgrades-fill-skin";
 import { protocolUpgradesFillBody } from "./spikes/protocol-upgrades-fill-body";
+import { protocolUpgradesCensusB } from "./spikes/protocol-upgrades-census-b";
+import { protocolUpgradesCensusD } from "./spikes/protocol-upgrades-census-d";
+import { protocolUpgradesCensusE } from "./spikes/protocol-upgrades-census-e";
+import { protocolUpgradesCensusG } from "./spikes/protocol-upgrades-census-g";
+import { protocolUpgradesCensusH } from "./spikes/protocol-upgrades-census-h";
 import { rejuvenationMeasurement } from "./spikes/rejuvenation-measurement";
 import { tests } from "./tests";
 import { testsCdxDevices } from "./tests-cdx-devices";
@@ -526,7 +532,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...radiationPapersWave5,
   ...papersRareWave,
   ...papersPancreaticWave,
-  ...papersWatch202609, ...papersWatch202611, ...ivermectinDrugs, ...ivermectinTrials, ...ivermectinPapers,
+  ...papersWatch202609, ...papersWatch202611, ...shasqiTechnologies, ...shasqiDrugs, ...shasqiTrials, ...shasqiPapers, ...ivermectinDrugs, ...ivermectinTrials, ...ivermectinPapers,
   ...papersTrialsWave1,
   ...papersCitedWave7,
   ...papersPeopleWave6,
@@ -583,6 +589,11 @@ const RAW_INPUTS: EntityInput[] = [
   ...protocolUpgradesFillGi,
   ...protocolUpgradesFillSkin,
   ...protocolUpgradesFillBody,
+  ...protocolUpgradesCensusB,
+  ...protocolUpgradesCensusD,
+  ...protocolUpgradesCensusE,
+  ...protocolUpgradesCensusG,
+  ...protocolUpgradesCensusH,
   ...rejuvenationMeasurement,
   ...tests,
   ...testsCdxDevices,

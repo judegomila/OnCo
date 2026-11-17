@@ -139,6 +139,29 @@ jobs:
           status=0; /opt/onco-fetch/fetch-allowed.sh -d probe https://clinicaltrials.gov/ >/dev/null 2>&1 || status=$?
           [ "$status" -eq 2 ] || { echo "::error::the fetch tool did not refuse a request body (status $status)"; exit 1; }
 
+      # CLAUDE_CODE_SUBPROCESS_ENV_SCRUB (set on this job) makes Claude Code start every command inside its sandbox,
+      # which on Linux needs bubblewrap and socat. The action installs them itself only when `allowed_non_write_users`
+      # is set (action.yml at the pinned commit, "Install subprocess isolation dependencies"), and this workflow does
+      # not set it. Without them no command can start: in the first run, 43978573818, every call to the fetch tool
+      # failed with "Sandbox dependencies not available: socat not installed" and no source was read. This is the
+      # action's own step, copied: the same two packages, and the same setting for Ubuntu 24.04, where AppArmor
+      # otherwise stops bubblewrap from making its namespace. Unlike the action's, it stops the job if either is
+      # missing, so a run that cannot fetch does not go on to spend the key.
+      - name: Install what the command sandbox needs
+        if: steps.issue.outputs.number != ''
+        run: |
+          for i in 1 2 3; do
+            sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends bubblewrap socat && break
+            echo "apt-get attempt $i failed, retrying"
+            sleep 5
+          done
+          if [ -f /proc/sys/kernel/apparmor_restrict_unprivileged_userns ]; then
+            sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+          fi
+          for tool in bwrap socat; do
+            command -v "$tool" >/dev/null || { echo "::error::$tool is not installed, so the command sandbox cannot start and no source could be fetched"; exit 1; }
+          done
+
       # A settings file or MCP configuration in the checkout would be read by Claude Code and could add tools to the
       # list below. There is none in the repository today; if one is ever committed, it does not apply to this job.
       # Then keep a copy of the two places the model may write, to compare against afterwards without using git.

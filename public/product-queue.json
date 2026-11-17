@@ -16,5 +16,41 @@
     "files": 94,
     "proposed": "2026-11-17",
     "state": "waiting"
+  },
+  {
+    "branch": "product/chip-title-hydration",
+    "why": "chip titles render the same on server and client",
+    "pr": "https://github.com/judegomila/OnCo/pull/432",
+    "preview": "",
+    "files": 5,
+    "proposed": "2026-11-17",
+    "state": "waiting"
+  },
+  {
+    "branch": "product/country-wave-13",
+    "why": "country deep dives, wave 13 (16 countries)",
+    "pr": "https://github.com/judegomila/OnCo/pull/433",
+    "preview": "",
+    "files": 97,
+    "proposed": "2026-11-17",
+    "state": "waiting"
+  },
+  {
+    "branch": "product/country-wave-15",
+    "why": "country deep dives, wave 15 (16 countries)",
+    "pr": "https://github.com/judegomila/OnCo/pull/434",
+    "preview": "",
+    "files": 92,
+    "proposed": "2026-11-17",
+    "state": "waiting"
+  },
+  {
+    "branch": "product/cross-links-round-2",
+    "why": "funder pages list their trials, person pages their trial reports, test pages who pays, protocol pages when to call, and long paragraphs keep their glossary hovers",
+    "pr": "https://github.com/judegomila/OnCo/pull/437",
+    "preview": "",
+    "files": 41,
+    "proposed": "2026-11-17",
+    "state": "waiting"
   }
 ]

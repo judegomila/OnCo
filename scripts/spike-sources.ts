@@ -132,6 +132,8 @@ export const NON_SPIKE_FILES = ["index", "gap-cancers",
   // The Precision and protocol-upgrades run (20 October 2026): entity modules, same shape as the rejuvenation ones.
   "precision-molecular", "precision-radiation", "precision-surgery", "precision-dosing", "precision-roadmap", "protocol-upgrades-rt-surgery", "protocol-upgrades-care",
   // The care protocol fill rounds (11 November 2026): protocol-upgrade ideas, entity modules of the same shape.
-  "protocol-upgrades-administration", "protocol-upgrades-pharmacy-access", "protocol-upgrades-fill-gi", "protocol-upgrades-fill-skin", "protocol-upgrades-fill-body"];
+  "protocol-upgrades-administration", "protocol-upgrades-pharmacy-access", "protocol-upgrades-fill-gi", "protocol-upgrades-fill-skin", "protocol-upgrades-fill-body",
+  // Closing the census gaps (16 November 2026): protocol-upgrade ideas, same shape.
+  "protocol-upgrades-census-b", "protocol-upgrades-census-d", "protocol-upgrades-census-e", "protocol-upgrades-census-g", "protocol-upgrades-census-h"];
 
 export const spikeSources: Spike[] = Object.values(SPIKE_FILES);

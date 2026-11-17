@@ -1,6 +1,6 @@
 {
   "name": "onco-cc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "OnCo, the public cited knowledge graph of oncology, from the terminal: search, records, lists, cited answers (Ask OnCo), Markdown context and CSV/JSON exports, read from the static API at onco.cc.",
   "license": "MIT",
   "homepage": "https://onco.cc/api/",

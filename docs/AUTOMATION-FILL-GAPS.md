@@ -40,6 +40,13 @@ The model job is given these tools and no others (`--allowedTools` in the workfl
 It has no `curl`, `wget`, `git`, `gh`, `npm`, `npx`, `node` or `python`, and no web search or web fetch tool. No
 permission mode is set, so a call to anything not on the list is refused rather than judged.
 
+Claude Code starts that command inside its own sandbox, because the job sets `CLAUDE_CODE_SUBPROCESS_ENV_SCRUB` so
+that the command does not inherit the key. On a Linux runner the sandbox needs two packages, `bubblewrap` and `socat`,
+and the action installs them itself only for workflows that set `allowed_non_write_users`. This one does not, so the
+workflow installs them in a step of its own before the model starts, and stops there if either is missing. The first
+run, on 16 November 2026, had no such step: every fetch failed with "Sandbox dependencies not available: socat not
+installed", and that run read no source.
+
 The fetch script reads one https page and prints it. It can read from the hosts in `scripts/ci/fetch-allowlist.txt`
 and their subdomains: regulators (FDA, EMA, NICE, WHO, IARC, NCI, CDC, DailyMed), literature and registries (PubMed,
 PMC, E-utilities, Crossref, Europe PMC, ClinicalTrials.gov, OpenAlex) and five societies and agencies (ESMO, ASCO,

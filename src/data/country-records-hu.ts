@@ -54,7 +54,7 @@ const institutions: InstitutionInput[] = [
     city: "Budapest", country: "HU", lat: 47.498, lng: 19.04, institutionType: "government", website: "https://ogyei.gov.hu",
     tldr: "Hungary's medicines authority. The work was done by OGYÉI until 2023, then by the National Centre for Public Health and Pharmacy, and from 1 November 2026 by a new National Institute of Pharmacy. New cancer medicines are authorised for the whole EU through the European Medicines Agency.",
     summary: "The National Centre for Public Health and Pharmacy (NNGYK) states that it was formed on 1 August 2023 when the National Institute of Pharmacy and Nutrition (Országos Gyógyszerészeti és Élelmezés-egészségügyi Intézet, OGYÉI) merged into the National Public Health Centre, and that as an authority it was responsible for medicines supervision and the pharmaceutical market. Its notice of 3 November 2026 says that under Government Decree 324/2026 (X. 29.) the pharmaceutical tasks were split off on 1 November 2026 into the Országos Gyógyszerészeti Intézet (OGYI), a separate central office that is the legal successor for those tasks.\n\nNew active substances for cancer go through the EU centralised procedure, so they are authorised in Hungary at the same time as elsewhere in the EU. The OECD and European Commission's 2025 profile notes that since August 2023 the pharmacy authority has also carried out the mandatory health technology assessment of new medicines. The authority's medicines database and adverse reaction reporting site at ogyei.gov.hu were suspended from 22 to 26 October 2026 after a national cyber security alert, according to NNGYK.",
-    programs: ["Medicines supervision and authorisation", "Health technology assessment of new medicines", "Clinical trial authorisation", "Pharmacovigilance and adverse reaction reporting", "Permits for medicines without a Hungarian marketing authorisation"],
+    programs: ["Medicines supervision and authorisation", "Health technology assessment of new medicines", "Pharmacovigilance and adverse reaction reporting", "Permits for medicines without a Hungarian marketing authorisation"],
     institutions: ["ema", "neak-hungary"],
     links: [
       { label: "NNGYK: rólunk (about us, with the November 2026 notice)", url: NNGYK_ROLUNK },
@@ -65,9 +65,9 @@ const institutions: InstitutionInput[] = [
 
   i({ id: "oni-hungary", name: "National Institute of Public Health of Hungary (Országos Népegészségügyi Intézet)", aka: ["Országos Népegészségügyi Intézet", "ONI", "NNGYK", "Nemzeti Népegészségügyi és Gyógyszerészeti Központ", "National Centre for Public Health and Pharmacy"],
     city: "Budapest", country: "HU", lat: 47.474, lng: 19.095, institutionType: "government", website: "https://nngyk.gov.hu",
-    tldr: "Hungary's public health institute, called the National Centre for Public Health and Pharmacy until 1 November 2026. It organises the national breast, cervical and colorectal screening programmes, sends the cervical screening invitations and runs the mobile screening buses.",
-    summary: "The Nemzeti Népegészségügyi és Gyógyszerészeti Központ (NNGYK) states that from 1 November 2026, under Government Decree 323/2026 (X. 29.), its name changed to Országos Népegészségügyi Intézet (ONI), and that its pharmaceutical tasks passed on the same day to a new National Institute of Pharmacy. It is led by the national chief medical officer and works under the health minister, with national responsibility for public health, epidemics, health promotion, occupational health and the planning and organisation of population screening.\n\nIts screening directorate coordinates the targeted public health screening programmes: mammography every two years for women aged 45 to 65, cervical screening every three years for women aged 25 to 65, which it says has been organised since 2003, and colorectal screening for women and men aged 50 to 70. It prepares and sends the cervical screening invitations centrally and runs the mobile programme \"Helybe visszük a szűrővizsgálatokat\" (bring the screening to people), whose buses the OECD's 2025 profile says had visited 300 disadvantaged communities by November 2023.",
-    programs: ["Breast screening (mammography, women 45 to 65, every two years)", "Cervical screening (women 25 to 65, every three years)", "Colorectal screening (FIT then colonoscopy, ages 50 to 70)", "Mobile screening programme (Helybe visszük a szűrővizsgálatokat)", "Oral cavity screening", "National vaccine procurement"],
+    tldr: "Hungary's public health institute, called the National Centre for Public Health and Pharmacy until 1 November 2026. It organises the national breast, cervical and colorectal screening programmes and sends the cervical screening invitations. It ran the mobile screening buses from 2018 until April 2023, when the National Directorate General for Hospitals took them over.",
+    summary: "The Nemzeti Népegészségügyi és Gyógyszerészeti Központ (NNGYK) states that from 1 November 2026, under Government Decree 323/2026 (X. 29.), its name changed to Országos Népegészségügyi Intézet (ONI), and that its pharmaceutical tasks passed on the same day to a new National Institute of Pharmacy. It is led by the national chief medical officer and works under the health minister, with national responsibility for public health, epidemics, health promotion, occupational health and the planning and organisation of population screening.\n\nIts screening directorate coordinates the targeted public health screening programmes: mammography every two years for women aged 45 to 65, cervical screening every three years for women aged 25 to 65, which it says has been organised since 2003, and colorectal screening for women and men aged 50 to 70. It prepares and sends the cervical screening invitations centrally. Its own page says it operated the mobile programme \"Helybe visszük a szűrővizsgálatokat\" (bring the screening to people) from 2018 to 2023, and that since 1 April 2023 the programme has been organised and carried out by the National Directorate General for Hospitals (Országos Kórházi Főigazgatóság); the OECD's 2025 profile says its buses had visited 300 disadvantaged communities by November 2023.",
+    programs: ["Breast screening (mammography, women 45 to 65, every two years)", "Cervical screening (women 25 to 65, every three years)", "Colorectal screening (FIT then colonoscopy, ages 50 to 70)", "Mobile screening programme (Helybe visszük a szűrővizsgálatokat), operated 2018 to 2023", "Oral cavity screening", "National vaccine procurement"],
     institutions: ["neak-hungary", "ogyi-hungary"], related: ["hungarian-league-against-cancer", "screening-hun-colorectal"], cancers: ["breast-cancer", "cervical", "colorectal"],
     people: ["beatrix-oroszi"],
     links: [
@@ -76,6 +76,7 @@ const institutions: InstitutionInput[] = [
       { label: "NNGYK: emlőszűrés (breast screening)", url: "https://nngyk.gov.hu/hu/nepegeszsegugyi-celu-szuresi-koordinacios-osztaly/emloszures.html" },
       { label: "NNGYK: méhnyakszűrés (cervical screening)", url: "https://nngyk.gov.hu/hu/nepegeszsegugyi-celu-szuresi-koordinacios-osztaly/mehnyakszures.html" },
       { label: "NNGYK: vastagbélszűrés (colorectal screening)", url: "https://nngyk.gov.hu/hu/nepegeszsegugyi-celu-szuresi-koordinacios-osztaly/vastagbelszures.html" },
+      { label: "NNGYK: Helybe visszük a szűrővizsgálatokat (mobile screening, 2018 to 2023)", url: "https://nngyk.gov.hu/hu/szuroprogram-iranyitasi-es-modszertani-osztaly/helybe-visszuk-a-szurovizsgalatokat.html" },
     ] }),
 
   i({ id: "hungarian-national-cancer-registry", name: "Hungarian National Cancer Registry (Nemzeti Rákregiszter)", aka: ["Nemzeti Rákregiszter", "NRR", "HNCR", "Nemzeti Rákregiszter és Biostatisztikai Központ"],
@@ -95,8 +96,8 @@ const institutions: InstitutionInput[] = [
 
   i({ id: "hungarian-league-against-cancer", name: "Hungarian League Against Cancer (Magyar Rákellenes Liga)", aka: ["Magyar Rákellenes Liga", "Rákliga", "Hungarian Cancer League"],
     city: "Budapest", country: "HU", lat: 47.498, lng: 19.04, institutionType: "consortium", website: "https://rakliga.hu",
-    tldr: "A Hungarian patient and prevention charity with local branches across the country. It offers emotional support, patient information, patient rights advice, rehabilitation and support groups, and runs awareness weeks on screening.",
-    summary: "The League's home page, as captured by the Internet Archive in August 2025, says it supports health maintenance, cancer risk reduction, early detection and recovery; offers emotional support, patient information, patient rights advice and rehabilitation; builds community through regular club meetings for patients and families run by local branches (alapszervezetek); and takes part in school health education and screening awareness. It lists seven yearly events: World Cancer Day, the National Day Against Cancer, Movember, Pink October, Cervical Cancer Prevention Week, a patient rights conference and World Lymphoma Day. It names Balázs Rozványi as president.",
+    tldr: "A Hungarian patient and prevention charity with local branches. It offers emotional support, patient information, patient rights advice, rehabilitation and support groups, and runs awareness weeks on screening.",
+    summary: "The League's home page, as captured by the Internet Archive in August 2025, says it supports health maintenance, cancer risk reduction, early detection and recovery; offers emotional support, patient information, patient rights advice and rehabilitation; holds regular club meetings for patients, their families and friends, and has local branches (alapszervezetek); and takes part in school health education and screening awareness. It lists seven yearly events: World Cancer Day, the National Day Against Cancer, Movember, Pink October, Cervical Cancer Prevention Week, a patient rights conference and World Lymphoma Day. It names Balázs Rozványi as president.",
     programs: ["Emotional support and patient information", "Patient rights advice and an annual patient rights conference", "Local branches with support groups", "Screening awareness: Pink October, Movember, Cervical Cancer Prevention Week"],
     sections: ["supportive-care", "prevention"], bottlenecks: ["b-patient-voice"],
     links: [
@@ -150,7 +151,7 @@ const papers: PaperInput[] = [
     institutions: ["koranyi-institute-budapest", "hungarian-national-cancer-registry"], people: ["krisztina-bogos"], cancers: ["lung-cancer", "nsclc"],
     links: [doi("10.1007/s00330-023-10379-8", "Eur Radiol 2024"), pubmed("37921926")] }),
 
-  p({ id: "paper-kiss-hulc-postmortem-lung-cancer-hungary-front-oncol-2022", name: "Underlying reasons for post-mortem diagnosed lung cancer cases: a retrospective comparative study from Hungary (HULC study)",
+  p({ id: "paper-kiss-hulc-postmortem-lung-cancer-hungary-front-oncol-2022", name: "Underlying reasons for post-mortem diagnosed lung cancer cases: a robust retrospective comparative study from Hungary (HULC study)",
     journal: "Frontiers in Oncology", year: 2022, doi: "10.3389/fonc.2022.1032366", pmid: "36505881", authors: "Kiss ZN, Bogos K, Tamási L, et al.", paperType: "real-world", participants: 8435,
     tldr: "Of 8,435 people who died of lung cancer in Hungary in 2019, 1,203 (14.24%) had never had lung cancer recorded in insurance data while alive: their cancer was found only after death.",
     summary: "The Hungarian Undiagnosed Lung Cancer study linked the Central Statistical Office's death records with the National Health Insurance Fund's care records for everyone who died of lung cancer in 2019, and compared those diagnosed only after death with those diagnosed in life.",
@@ -161,7 +162,7 @@ const papers: PaperInput[] = [
     ],
     whatItMeans: "Part of Hungary's high recorded lung cancer mortality comes from cancers found at post-mortem examination, which the OECD links to Hungary's high autopsy rate.",
     caveats: ["Based on administrative codes; a missing code may not always mean a missed diagnosis.", "One year of deaths."],
-    institutions: ["neak-hungary", "koranyi-institute-budapest", "hungarian-national-cancer-registry"], people: ["krisztina-bogos"], cancers: ["lung-cancer"],
+    institutions: ["neak-hungary", "koranyi-institute-budapest", "noi-budapest"], people: ["krisztina-bogos"], cancers: ["lung-cancer"],
     links: [doi("10.3389/fonc.2022.1032366", "Front Oncol 2022"), pubmed("36505881")] }),
 
   p({ id: "paper-hofmarcher-cee-cancer-medicine-access-esmo-open-2023", name: "Access to novel cancer medicines in four countries in Central and Eastern Europe in relation to clinical benefit",
@@ -189,7 +190,7 @@ const papers: PaperInput[] = [
     ],
     whatItMeans: "Children's cancers in Hungary are counted by a dedicated registry with five decades of data, not only by the adult national registry.",
     caveats: ["A descriptive account in Hungarian; the abstract gives no incidence or survival figures."],
-    institutions: ["hungarian-national-cancer-registry"], cancers: ["childhood-cancers"],
+    cancers: ["childhood-cancers"],
     links: [doi("10.1556/650.2024.33061", "Orv Hetil 2024"), pubmed("38888981")] }),
 ];
 

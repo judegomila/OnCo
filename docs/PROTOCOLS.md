@@ -61,10 +61,19 @@ from a typed list:
 
 Three other places link protocols from data. A cancer's red cards (`src/data/red-flags.ts`) name the protocol that
 manages each emergency in the set's `concernIds` (neutropenic sepsis links the first-hour protocol, cord compression
-the MSCC protocol); the drug and modality sets have no link field yet. A first-60-days checklist item names the
-protocols it is about in `protocols` (a fertility referral, a DPD test, port care). The side-effects page lists, for
-each symptom group, the protocols in `SYMPTOM_PROTOCOLS` in `src/lib/side-effects.ts`: the general ones always, and a
-treatment-specific one (immune-related colitis, irinotecan's diarrhoea) only beside the products the protocol names.
+the MSCC protocol). On the general, drug and class cards the link is on the line: a warning line names the protocols
+that manage it in `protocols`, and the protocol's page shows those lines under its steps as "When to call"
+(`redFlagsForProtocol` in `src/lib/red-cards.ts`: one line per symptom, at most four). Link a line only after reading
+the protocol's population: a blistering rash names no protocol, because the skin-care protocol puts severe reactions
+outside its scope. A first-60-days checklist item names the protocols it is about in `protocols` (a fertility
+referral, a DPD test, port care). The side-effects page lists, for each symptom group, the protocols in
+`SYMPTOM_PROTOCOLS` in `src/lib/side-effects.ts`: the general ones always, and a treatment-specific one
+(immune-related colitis, irinotecan's diarrhoea) only beside the products it reaches. A specific protocol reaches a
+product through its own `drugs` and `technologies` unless `PROTOCOL_REACH` in the same file says otherwise: by class
+(immune-related protocols reach checkpoint inhibitors and nothing else, step-up dosing every T-cell engager), by named
+product only (the eye-care protocol says other conjugates are not covered), or by the wording of the event (sun
+protection beside photosensitivity). `npx tsx scripts/measure-side-effect-chain.ts --gaps` counts the chain and lists
+every side effect that still reaches no protocol; `scripts/measure-side-effect-chain.test.ts` is the ratchet.
 
 The reverse link is written at build time in `src/data/index.ts` (as for biomarker readouts), so no protocol is an orphan. So to put a protocol on the right pages, link the right records. Those protocols are then dropped from the page's
 Connected section, which would otherwise list them twice.

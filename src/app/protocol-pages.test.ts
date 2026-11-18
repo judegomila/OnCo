@@ -54,6 +54,22 @@ describe("care protocol pages", () => {
     });
   }
 
+  it("a protocol a warning line names shows that line under its steps, and one no line names shows nothing", { timeout: SLOW_MS }, async () => {
+    const page = async (id: string) => decode(render(await EntityPage({ params: Promise.resolve({ kind: "protocols", id }) })));
+    const fever = await page("febrile-neutropenia-first-hour");
+    const block = fever.slice(fever.indexOf("data-protocol-red-flags"));
+    expect(fever.indexOf("data-protocol-red-flags")).toBeGreaterThan(fever.indexOf('id="steps"'));
+    const lines = block.slice(0, block.indexOf("</ul>"));
+    // The general card's fever line and one of the nine "Neutropenic fever" lines, each with how fast to act and its source.
+    expect((lines.match(/<li/g) ?? []).length).toBe(2);
+    expect(lines).toContain("Temperature of 38 C or higher, or shivering");
+    expect(lines).toContain("Call the 24-hour line now");
+    expect(lines).toContain('href="https://www.nice.org.uk/guidance/cg151"');
+    // Small and derived: the two lines cost under 2 KB of markup on the page.
+    expect(lines.length).toBeLessThan(2000);
+    expect(await page("implanted-port-access-and-care")).not.toContain("data-protocol-red-flags");
+  });
+
   it("a device page lists its care protocols and does not repeat them in Connected", { timeout: SLOW_MS }, async () => {
     const device = graph().must("implanted-ports");
     const members = protocolsFor(device);

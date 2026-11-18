@@ -78,8 +78,13 @@ import { defaultOpen, eraBody, eraCounts, roadmapFile, WATCH_PAGE, watchRows } f
 import { RoadmapEra, RoadmapWatchMore, WatchRowView } from "./RoadmapEras";
 import structureIndex from "../../public/structures/index.json";
 import { DrugAvailability } from "./DrugAvailability";
+import { TestCoverage } from "./TestCoverage";
 import { InstitutionTrialsHere } from "./TrialsHere";
 import { recruitingAt } from "@/lib/trials-here";
+import { InstitutionTrialsSponsored } from "./TrialsSponsored";
+import { PersonTrialReports } from "./PersonTrialReports";
+import { trialsAuthoredBy } from "@/lib/person-trials";
+import { sponsoredBy } from "@/lib/trials-sponsored";
 import { RegistryCheck } from "./RegistryCheck";
 import { CancerIcon } from "./CancerIcon";
 import { YearEvents, YearNav, YearStats } from "./YearRecord";
@@ -104,7 +109,7 @@ import { OpenMedicalPanel } from "./OpenMedicalPanel";
 import { OpenSourcePanel } from "./OpenSourcePanel";
 import { SoftwarePanel } from "./SoftwarePanel";
 import { hotspotsFor } from "@/data/hotspots";
-import { questionsFor } from "@/data/open-questions";
+import { questionsFor, questionsNaming, questionsThrough, type OpenQuestion } from "@/data/open-questions";
 import { assaysForTarget, assaysForDrug } from "@/data/assays";
 import { modelFor, datasetFor } from "@/data/model-registry";
 import { modelsFor } from "@/data/preclinical-models";
@@ -304,6 +309,12 @@ function QuickLinks({ e }: { e: Entity }) {
 }
 
 /** Key papers in the corpus that cite this object, with what they mean in plain English (record-blocks.tsx renders the cards). */
+/** An open question as a link to where it is listed in full, with the target or technology it is asked about. */
+function questionLink(q: OpenQuestion) {
+  const subject = graph().get(q.subject);
+  return <><Link className="hover:underline" href={`/open-questions/?subject=${encodeURIComponent(subject?.name ?? "")}`}>{q.question}</Link>{subject && <span className="text-muted"> · {subject.name}</span>}</>;
+}
+
 function keyPapersTab(e: Entity): Tab[] {
   const all = keyPapersFor(e);
   if (!all.length) return [];
@@ -419,6 +430,8 @@ function kindTabs(e: Entity): Tab[] {
           <div className="mt-6 space-y-4"><ExclusivityPanel drugId={e.id} /><DealsPanel id={e.id} /><CatalystsPanel id={e.id} /></div>
           {/* Replaces the seven-region strip: the same regional rows, plus who pays, help with the cost, the WHO list and the country pages that name the drug. */}
           <DrugAvailability drug={e} />
+          {/* What a payer's own document says about a test, and the tests looked for and not confirmed (src/data/test-coverage.ts). */}
+          <TestCoverage testId={e.id} />
         </>),
         ...(e.approvals.length || e.regulatoryEvents.length || e.regulatoryClaims?.length ? [{ id: "approvals", label: "Regulatory", count: e.regulatoryEvents.length || e.approvals.length || e.regulatoryClaims?.length, content: (<>
           {!!e.regulatoryClaims?.length && <Block title="What each approval covers"><RegulatoryClaims claims={e.regulatoryClaims} /></Block>}
@@ -474,6 +487,8 @@ function kindTabs(e: Entity): Tab[] {
         ...(e.programs.length ? [{ id: "programmes", label: "Programmes", count: e.programs.length, content: <Bullets items={e.programs} linked={(t) => withTermHovers(t, { skipId: e.id })} /> }] : []),
         // Derived from the registry's site lists (src/lib/trials-here.ts), not typed on the record.
         ...(recruitingAt(e.id).length ? [{ id: "recruiting", label: "Trials recruiting here", count: recruitingAt(e.id).length, content: <InstitutionTrialsHere id={e.id} name={e.name} /> }] : []),
+        // Derived from the sponsor and funder fields of the trial records (src/lib/trials-sponsored.ts), not typed on either record.
+        ...(sponsoredBy(e.id).length ? [{ id: "sponsored", label: "Trials it sponsors or funds", count: sponsoredBy(e.id).length, content: <InstitutionTrialsSponsored id={e.id} name={e.name} /> }] : []),
         ...peopleTab([...(g.incoming(e.id).get("person") ?? []), ...e.people.map((id) => g.must(id))]),
       ];
     }
@@ -535,6 +550,8 @@ function kindTabs(e: Entity): Tab[] {
             {e.horizonYears !== undefined && <Field label="Years to first evidence">{e.horizonYears}</Field>}
           </div>}
           {e.bottlenecks.length > 0 && <Field label="Bottlenecks it attacks"><ul className="space-y-1">{e.bottlenecks.map((id) => { const b = g.get(id); return b ? <li key={id}><Link className="underline" href={routeFor(b)}>{b.name}</Link><span className="text-muted"> · {b.tldr}</span></li> : null; })}</ul></Field>}
+          {/* Only the question holds this link (a question is not a record), so the idea page reads it in reverse. */}
+          {questionsNaming(e.id).length > 0 && <Field label="Open questions"><ul className="list-disc ps-5 space-y-1">{questionsNaming(e.id).map((q) => <li key={q.id}>{questionLink(q)}</li>)}</ul></Field>}
         </div>),
       ];
     case "paper": {
@@ -589,6 +606,8 @@ function kindTabs(e: Entity): Tab[] {
           {e.causes.length > 0 && <Field label="Root causes"><ul className="list-disc ps-5 space-y-1">{e.causes.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
           {e.currentEfforts.length > 0 && <Field label="Current efforts"><ul className="list-disc ps-5 space-y-1">{e.currentEfforts.map((c, i) => <li key={i}>{withTermHovers(c)}</li>)}</ul></Field>}
           {e.successLooksLike && <Field label="Success criteria">{e.successLooksLike}</Field>}
+          {/* No question names a bottleneck; it reaches one through an idea it names that attacks this bottleneck. */}
+          {questionsThrough(ideas.map((i) => i.id)).length > 0 && <Field label="Open questions"><ul className="list-disc ps-5 space-y-1">{questionsThrough(ideas.map((i) => i.id)).map(({ question: q, via }) => { const i = g.get(via); return <li key={q.id}>{questionLink(q)}{i && <span className="text-muted"> · through the idea <Link className="underline" href={routeFor(i)}>{i.name}</Link></span>}</li>; })}</ul></Field>}
         </div>),
         ...(ideas.length ? [{ id: "ideas", label: "Ideas to fix it", count: ideas.length, content: (
           <div className="grid *:min-w-0 gap-3 sm:grid-cols-2 lg:grid-cols-3">{ideas.map((i) => i.kind === "idea" && <Link key={i.id} href={routeFor(i)} className="card p-3 hover:shadow-md transition"><div className="flex flex-wrap gap-1 mb-1"><span className={`chip ${statusClass(i.maturity === "being-tested-at-scale" ? "phase-3" : i.maturity === "early-clinical" ? "phase-2" : i.maturity === "preclinical-evidence" ? "phase-1" : "concept")}`}>{i.maturity.replace(/-/g, " ")}</span>{i.actor && <span className="chip bg-foreground/5">{i.actor}</span>}{i.cost && <span className="chip bg-foreground/5">{i.cost} cost</span>}</div><div className="font-medium">{i.name}</div><p className="text-sm text-muted mt-0.5 line-clamp-3">{i.tldr}</p></Link>)}</div>) }] : []),
@@ -630,6 +649,8 @@ function kindTabs(e: Entity): Tab[] {
           <Field label="Specialisms"><div className="flex flex-wrap gap-1">{e.specialisms.map((s) => <span key={s} className="chip bg-foreground/5">{s}</span>)}</div></Field>
           <Field label="Profiles"><ul className="space-y-0.5">{e.profiles.map((p) => <li key={p.url}><a className="underline" href={p.url} rel="noopener">{p.label}</a></li>)}{e.orcid && <li><a className="underline" href={`https://orcid.org/${e.orcid}`} rel="noopener">ORCID {e.orcid}</a></li>}</ul></Field>
         </div>),
+        // Derived from the author lists of the papers that report each trial (src/lib/person-trials.ts), not typed on the record.
+        ...(trialsAuthoredBy(e.id).length ? [{ id: "trial-reports", label: "Trial reports authored", count: trialsAuthoredBy(e.id).length, content: <PersonTrialReports id={e.id} name={e.name} /> }] : []),
         ...(e.papers.length ? [{ id: "papers", label: "Papers", count: e.papers.length, content: (
           <div className="card"><ScrollRow><table className="onco" lang="en"><thead><tr><th>Title</th><th>Journal</th><th>Year</th></tr></thead>
             <tbody>{e.papers.map((p, i) => <tr key={i}><td>{p.url || p.doi ? <a className="underline" href={p.url ?? `https://doi.org/${p.doi}`} rel="noopener">{p.title}</a> : p.title}{p.note && !PAPER_PROVENANCE[p.note] && <div className="text-xs text-muted">{p.note}</div>}</td><td className="text-muted">{p.journal}</td><td className="tabular-nums text-muted">{p.year}</td></tr>)}</tbody></table></ScrollRow>

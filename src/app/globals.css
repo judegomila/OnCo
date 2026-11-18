@@ -269,6 +269,11 @@
      (CitationChipDefs) so the page's markup does not grow with the Europe PMC snapshot's coverage. */
   .chip-ref { @apply border transition-[filter] hover:brightness-95 dark:hover:brightness-125; }
   .cite { @apply bg-foreground/5 tabular-nums cursor-help; }
+  /* A hovered term in running text (src/components/TermHover.tsx). One short class for the same reason as the pills
+     above: a long cancer page carries three hundred of them, and the six utilities were 110 of the 190 bytes of
+     markup each one cost. Naming the class is what paid for raising the cap on hovers in one paragraph from 12 to 24
+     (src/lib/term-hover.tsx) without the page growing. */
+  .term-hover { @apply cursor-help underline decoration-dotted decoration-foreground/40 underline-offset-[3px] hover:decoration-foreground; }
   .k-cancer { @apply bg-rose-50 text-rose-700 border-rose-200 dark:bg-rose-950/40 dark:text-rose-200 dark:border-rose-900; }
   .k-section { @apply bg-slate-50 text-slate-700 border-slate-200 dark:bg-slate-900 dark:text-slate-200 dark:border-slate-700; }
   .k-technology { @apply bg-sky-50 text-sky-700 border-sky-200 dark:bg-sky-950/40 dark:text-sky-200 dark:border-sky-900; }

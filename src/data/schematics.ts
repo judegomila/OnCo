@@ -651,6 +651,10 @@ export const SCHEMATIC_ALIAS: Record<string, string> = {
   "idh-inhibitors": "epigenetic-drugs",
   "pi3k-akt-mtor-inhibitors": "kinase-inhibitors",
   "mdm2-inhibitors": "molecular-glue-platforms",
+  // RAS(ON) tri-complex inhibitors (src/data/technologies.ts) glue cyclophilin A to active RAS. The glue drawing shows a
+  // small molecule remodelling one protein so that it grips another, which is the shared idea; its example ends in
+  // degradation, which a tri-complex inhibitor does not cause. The nearest real drawing, not a likeness.
+  "ras-on-tri-complex-inhibitors": "molecular-glue-platforms",
   "her2-tyrosine-kinase-inhibitors": "kinase-inhibitors",
   "oral-serds": "endocrine-therapy",
   "hedgehog-inhibitors": "kinase-inhibitors",

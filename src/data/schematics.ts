@@ -593,6 +593,9 @@ export const SCHEMATIC_ALIAS: Record<string, string> = {
   // Click-activated prodrugs (src/data/shasqi-depth.ts): a payload that stays inert until something at the tumour
   // uncovers it, which is what the masked conjugate drawing shows; the nearest real drawing, not a likeness.
   "click-activated-prodrugs": "masked-adc",
+  // Alpha DaRT (src/data/technologies.ts) is an implanted source, so it borrows the brachytherapy drawing of sources in
+  // a tumour; the isotope and the organ in that drawing are the prostate seed implant's, not its own.
+  "diffusing-alpha-emitter-radiotherapy": "brachytherapy",
   ...radiationSchematicAliases,
   ...modelSchematicAliases,
   ...machineSchematicAliases,

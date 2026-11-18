@@ -31,6 +31,15 @@ function csvOf(rows: ForestRow[]): string {
 }
 
 /**
+ * Where a hazard ratio sits on the log axis, to a hundredth of a unit. The rounding is not cosmetic. `Math.log` is
+ * not required to be correctly rounded, and Node and Chrome disagree in the last digit for some inputs: the server
+ * wrote `x1="270.91218157957235"`, the browser computed `270.9121815795723`, and React reported 55 attributes on
+ * /forest/ as a hydration mismatch. A hundredth of a unit on an 820-unit drawing is below anything a screen shows.
+ */
+export const forestX = (v: number, domain: readonly [number, number], x0: number, x1: number): number =>
+  Math.round((x0 + ((Math.log(v) - Math.log(domain[0])) / (Math.log(domain[1]) - Math.log(domain[0]))) * (x1 - x0)) * 100) / 100;
+
+/**
  * Forest plot of hazard ratios with confidence intervals, one row per trial endpoint, on a log axis.
  * Square area follows the number of participants; fill follows the evidence score. Filters by cancer,
  * setting and endpoint family; the plotted rows can be downloaded as CSV and the plot as SVG or PNG.
@@ -62,7 +71,7 @@ export function ForestPlot({ rows }: { rows: ForestRow[] }) {
     return [lo, hi] as const;
   }, [shown]);
   const x0 = LABEL_W + 10, x1 = W - VALUE_W - 10;
-  const xOf = (v: number) => x0 + ((Math.log(v) - Math.log(domain[0])) / (Math.log(domain[1]) - Math.log(domain[0]))) * (x1 - x0);
+  const xOf = (v: number) => forestX(v, domain, x0, x1);
   const H = PAD_T + shown.length * ROW + PAD_B;
   const maxN = Math.max(1, ...shown.map((r) => r.n ?? 0));
   const sizeOf = (n?: number) => 6 + (n ? Math.sqrt(n / maxN) * 10 : 0);

@@ -18,15 +18,6 @@
     "state": "waiting"
   },
   {
-    "branch": "product/chip-title-hydration",
-    "why": "chip titles render the same on server and client",
-    "pr": "https://github.com/judegomila/OnCo/pull/432",
-    "preview": "",
-    "files": 5,
-    "proposed": "2026-11-17",
-    "state": "waiting"
-  },
-  {
     "branch": "product/country-wave-13",
     "why": "country deep dives, wave 13 (16 countries)",
     "pr": "https://github.com/judegomila/OnCo/pull/433",
@@ -59,15 +50,6 @@
     "pr": "https://github.com/judegomila/OnCo/pull/444",
     "preview": "",
     "files": 352,
-    "proposed": "2026-11-17",
-    "state": "waiting"
-  },
-  {
-    "branch": "product/side-effect-protocol-mappings",
-    "why": "side effects link the fourteen new protocols that manage them",
-    "pr": "https://github.com/judegomila/OnCo/pull/450",
-    "preview": "",
-    "files": 2,
     "proposed": "2026-11-17",
     "state": "waiting"
   }

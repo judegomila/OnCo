@@ -373,7 +373,7 @@ export const KG_DIVE: CountryDive = {
   ],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026, many of them in Russian: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 country profiles, WHO's health expenditure and immunisation data, the IAEA's radiotherapy directory and 2015 review summary, the State Guarantees Programme on the Mandatory Health Insurance Fund's site, the Ministry of Health's cancer strategy for 2021 to 2025, the European Observatory's 2022 review, the medicines regulator's site, news reports on the linear accelerators, and paper abstracts through Europe PMC.",
+    "Every card was written from public sources read as raw text on 16 November 2026, many of them in Russian: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 country profiles, WHO's health expenditure and immunisation data, the IAEA's radiotherapy directory and 2015 review summary, the State Guarantees Programme on the Mandatory Health Insurance Fund's site, the Ministry of Health's cancer strategy for 2021 to 2025, the European Observatory's 2022 review, the medicines regulator's site, news reports on the linear accelerators, and paper abstracts through Europe PMC. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "Co-payment amounts, what is free and which machines are working change. Check with the Mandatory Health Insurance Fund (telephone 113), the Ministry of Health or the treating hospital before relying on this page.",
   verifyLinks: [

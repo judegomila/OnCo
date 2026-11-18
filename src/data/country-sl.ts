@@ -280,7 +280,7 @@ export const SL_DIVE: CountryDive = {
   papers: ["paper-cummings-john-breast-cancer-connaught-bmc-cancer-2025"],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the Ministry of Health and Sanitation's Non-Communicable Diseases Strategic Plan 2020 to 2024, WHO's 2012 news page on the registry, the NIH ClinRegs profile, the Pharmacy Board's site, WHO's list of regulators, the African Union's treaty list, WHO's immunisation data, the World Bank's health expenditure series, IAEA's radiotherapy directory and the Europe PMC record of the Connaught Hospital study.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the Ministry of Health and Sanitation's Non-Communicable Diseases Strategic Plan 2020 to 2024, WHO's 2012 news page on the registry, the NIH ClinRegs profile, the Pharmacy Board's site, WHO's list of regulators, the African Union's treaty list, WHO's immunisation data, the World Bank's health expenditure series, IAEA's radiotherapy directory and the Europe PMC record of the Connaught Hospital study. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "The cancer numbers here are modelled estimates, and much of what is known about services comes from a plan written in early 2020. Check with the Ministry of Health or the treating hospital before relying on it.",
   verifyLinks: [

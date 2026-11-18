@@ -271,7 +271,7 @@ export const LR_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the Ministry of Health's news page of 1 October 2025, the JFK Medical Center's oncology page, the contents page of the National Cancer Policy 2018 to 2022, the NIH ClinRegs profile, the regulator's site, WHO's list of regulators, the African Union's treaty list, WHO's immunisation data, the World Bank's health expenditure series, IAEA's radiotherapy directory and two paper abstracts on Europe PMC.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the Ministry of Health's news page of 1 October 2025, the JFK Medical Center's oncology page, the contents page of the National Cancer Policy 2018 to 2022, the NIH ClinRegs profile, the regulator's site, WHO's list of regulators, the African Union's treaty list, WHO's immunisation data, the World Bank's health expenditure series, IAEA's radiotherapy directory and two paper abstracts on Europe PMC. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "The cancer numbers here are modelled estimates, and the account of services rests on a hospital page, a ministry news item and WHO survey answers from 2019 to 2021. Check with the Ministry of Health or the treating hospital before relying on it.",
   verifyLinks: [

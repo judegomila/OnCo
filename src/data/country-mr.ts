@@ -339,7 +339,7 @@ export const MR_DIVE: CountryDive = {
   papers: ["paper-baba-nouakchott-hospital-register-pamj-2013", "paper-mamina-breast-cancer-cno-nouakchott-pamj-2025"],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, Mauritania's cancer plan for 2018 to 2022 on the ICCP portal, WHO's 2020 and 2021 country profiles and immunisation data, the national essential medicines list for 2024 to 2026, IAEA's DIRAC directory, the health insurance fund's site, the World Bank's health expenditure series, the African Union's treaty list, ClinicalTrials.gov and two Pan African Medical Journal articles read in full.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, Mauritania's cancer plan for 2018 to 2022 on the ICCP portal, WHO's 2020 and 2021 country profiles and immunisation data, the national essential medicines list for 2024 to 2026, IAEA's DIRAC directory, the health insurance fund's site, the World Bank's health expenditure series, the African Union's treaty list, ClinicalTrials.gov and two Pan African Medical Journal articles read in full. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "IARC's figures for Mauritania are modelled, and much of what is described here comes from a plan written in 2018 and a directory entry from 2019. Check with the Centre National d'Oncologie, CNAM or the Ministry of Health before relying on this page.",
   verifyLinks: [

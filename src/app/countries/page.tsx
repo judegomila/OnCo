@@ -10,7 +10,8 @@ import { countryIndex } from "@/lib/country-pages";
 import { CountryDirectory, type DirectoryRow } from "@/components/CountryDirectory";
 import data from "../../../public/openalex/countries.json";
 
-export const metadata: Metadata = pageMeta({ title: "Country research rankings", description: "A page for every country in GLOBOCAN, with the deep dives marked, and countries ranked by oncology research output (OpenAlex), growth, highly cited share, open access, registered trials, and a disclosed composite score, with GLOBOCAN burden and national funders.", path: "/countries/" });
+// The description says the deep dives are marked only while some page is not one (the tag in CountryDirectory follows the same rule).
+export const metadata: Metadata = pageMeta({ title: "Country research rankings", description: `${countryIndex().every((c) => c.deepDive) ? "A deep dive on every country in GLOBOCAN" : "A page for every country in GLOBOCAN, with the deep dives marked"}, and countries ranked by oncology research output (OpenAlex), growth, highly cited share, open access, registered trials, and a disclosed composite score, with GLOBOCAN burden and national funders.`, path: "/countries/" });
 
 type Raw = { built: string; years: number[]; source: string; countries: Record<string, { name: string; works: Record<string, number>; total: number; citedHigh: number; oa: number; trials?: number }> };
 

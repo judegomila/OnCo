@@ -306,7 +306,7 @@ export const CV_DIVE: CountryDive = {
   papers: ["paper-silva-santiago-hospital-cancer-registry-ecancer-2019", "paper-borges-breast-cancer-cape-verde-partnership-jcogo-2026", "paper-vilares-cervical-cancer-cape-verde-referral-ecancer-2022"],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, the Ministry of Health's own pages, WHO's 2020 and 2021 country profiles and immunisation data, Portaria 50/2021, the African Cancer Registry Network's page, IAEA's DIRAC directory, the World Bank's health expenditure series, the African Union's treaty list, ClinicalTrials.gov and papers resolved through Europe PMC.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, the Ministry of Health's own pages, WHO's 2020 and 2021 country profiles and immunisation data, Portaria 50/2021, the African Cancer Registry Network's page, IAEA's DIRAC directory, the World Bank's health expenditure series, the African Union's treaty list, ClinicalTrials.gov and papers resolved through Europe PMC. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "The ministry pages read here date from 2023 and the registry has published no report that OnCo found. Check with the Ministry of Health, INPS or the treating hospital before relying on this page, above all on evacuation.",
   verifyLinks: [

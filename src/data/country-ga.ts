@@ -298,7 +298,7 @@ export const GA_DIVE: CountryDive = {
   ],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the World Bank's health expenditure series, WHO's immunisation data, IAEA's directory of radiotherapy centres, the pages of the national insurance fund, the medicines agency and the health ministry, ClinicalTrials.gov, and the abstracts of six papers resolved through Europe PMC.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the World Bank's health expenditure series, WHO's immunisation data, IAEA's directory of radiotherapy centres, the pages of the national insurance fund, the medicines agency and the health ministry, ClinicalTrials.gov, and the abstracts of six papers resolved through Europe PMC. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "Equipment counts here are IAEA's and the insurance rules are the CNAMGS's own description; neither says what a given patient will be offered or charged. Check with the treating hospital, the CNAMGS or the health ministry before relying on them.",
   verifyLinks: [L_IARC, L_CNAMGS_PANIER, L_DIRAC],

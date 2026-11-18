@@ -243,7 +243,7 @@ export const SS_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the Ministry of Health's Noncommunicable Disease Department plan for 2020 to 2021 and its website, two news reports (The Radio Community, February 2026; Xinhua, August 2020), two news items from WHO's Regional Office for Africa (February and November 2026), the World Bank's health expenditure series, WHO's immunisation data, IAEA's directory of radiotherapy centres and ClinicalTrials.gov.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the Ministry of Health's Noncommunicable Disease Department plan for 2020 to 2021 and its website, two news reports (The Radio Community, February 2026; Xinhua, August 2020), two news items from WHO's Regional Office for Africa (February and November 2026), the World Bank's health expenditure series, WHO's immunisation data, IAEA's directory of radiotherapy centres and ClinicalTrials.gov. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "A news report of February 2026 describes cancer services being set up in South Sudan, and the sources here are few. Check with the Ministry of Health's cancer department or Juba Teaching Hospital before relying on this page.",
   verifyLinks: [L_IARC, L_TRC],

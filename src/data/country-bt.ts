@@ -356,7 +356,7 @@ export const BT_DIVE: CountryDive = {
   ],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, the registry's 2026 paper and its 2019 to 2022 report, the Bhutan Cancer Control Strategy 2019 to 2025, peer-reviewed papers resolved through Europe PMC, WHO's 2020 and 2021 profiles, WHO's health expenditure and immunisation data, the Bhutan Food and Drug Authority's site, WHO's lists of regulators and IAEA's DIRAC table.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, the registry's 2026 paper and its 2019 to 2022 report, the Bhutan Cancer Control Strategy 2019 to 2025, peer-reviewed papers resolved through Europe PMC, WHO's 2020 and 2021 profiles, WHO's health expenditure and immunisation data, the Bhutan Food and Drug Authority's site, WHO's lists of regulators and IAEA's DIRAC table. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "Registry counts run to 2022, the screening figures to 2023, and the accounts of radiotherapy and referral to India date from 2024 and 2026. Services change. Anyone seeking care should ask Jigme Dorji Wangchuck National Referral Hospital or the Ministry of Health what is available now and how referral abroad is arranged.",
   verifyLinks: [

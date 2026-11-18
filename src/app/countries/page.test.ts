@@ -8,7 +8,8 @@ import { autoCountryCodes, countryIndex } from "@/lib/country-pages";
 
 /**
  * /countries/ as the corpus stands, with no fixture: the sentence above the directory gives the real number of deep
- * dives and of automatic pages, and the "deep dives only" switch is offered only while it would change something.
+ * dives and of automatic pages, and the "deep dive" tag and the "deep dives only" switch are offered only while they
+ * would tell a reader something.
  * Since 16 November 2026 every country is a deep dive. src/app/countries/[iso]/render.test.ts renders the same page
  * with three fixture territories on automatic pages, where both counts and the switch must appear.
  */
@@ -33,9 +34,25 @@ describe("/countries/ counts what it lists", () => {
     } else {
       expect(html).toContain(`${dives} deep dives written from each country&#x27;s own sources, and ${auto} ${auto === 1 ? "page" : "pages"} assembled from GLOBOCAN`);
     }
-    // Every country is linked and every deep dive is marked, whichever state the corpus is in.
+    // Every country is linked, whichever state the corpus is in.
     for (const c of index) expect(html, c.iso2).toMatch(new RegExp(`href="${c.route}?"`));
-    expect((html.match(/>deep dive</g) ?? []).length).toBe(dives);
+    // The "deep dive" tag marks a deep dive only while some page is not one. When every country is a deep dive the
+    // tag beside every name says nothing, so there is none; in the mixed state there is exactly one per deep dive.
+    expect((html.match(/>deep dive</g) ?? []).length).toBe(auto === 0 ? 0 : dives);
+  });
+
+  it("tags the deep dives only while some country is not one", () => {
+    const tags = (rows: DirectoryRow[]) => (wrap(createElement(CountryDirectory, { rows, regions: ["Europe"] })).match(/>deep dive</g) ?? []).length;
+    const all: DirectoryRow[] = [{ c: "AA", n: "Aland", r: "Europe", d: true }, { c: "BB", n: "Bland", r: "Europe", d: true }];
+    expect(tags(all)).toBe(0);
+    // Mixed: one tag for each deep dive, directly after its own link, and none after the automatic page's.
+    const mixedRows = [...all, { c: "CC", n: "Cland", r: "Europe", d: false }];
+    expect(tags(mixedRows)).toBe(2);
+    const mixed = wrap(createElement(CountryDirectory, { rows: mixedRows, regions: ["Europe"] }));
+    for (const c of ["aa", "bb"]) expect(mixed).toMatch(new RegExp(`href="/countries/${c}/?"[^>]*>[^<]*</a><span[^>]*>deep dive<`));
+    expect(mixed).not.toMatch(/href="\/countries\/cc\/?"[^>]*>[^<]*<\/a><span[^>]*>deep dive</);
+    // No deep dive at all: nothing to tag.
+    expect(tags([{ c: "CC", n: "Cland", r: "Europe", d: false }])).toBe(0);
   });
 
   it("offers the deep-dives-only switch only while some country is not a deep dive", () => {

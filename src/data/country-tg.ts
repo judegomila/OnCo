@@ -307,7 +307,7 @@ export const TG_DIVE: CountryDive = {
   papers: ["paper-darre-cancers-togo-2009-2016-apjcp-2017", "paper-amegbor-cancers-togo-1984-2008-jce-2011"],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 country profiles and immunisation data, the draft Plan cancer Togo 2022 to 2025 on the ICCP portal, the 2023 decrees on universal health insurance, IAEA's DIRAC directory, the World Bank's health expenditure series, the African Union's treaty list, ClinicalTrials.gov and papers resolved through Europe PMC.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 country profiles and immunisation data, the draft Plan cancer Togo 2022 to 2025 on the ICCP portal, the 2023 decrees on universal health insurance, IAEA's DIRAC directory, the World Bank's health expenditure series, the African Union's treaty list, ClinicalTrials.gov and papers resolved through Europe PMC. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "IARC's figures for Togo are modelled, the cancer plan read here is a draft from 2021, and services change. Check with the Ministry of Health's national cancer programme, your insurer (INAM or CNSS) or the treating hospital before relying on this page.",
   verifyLinks: [

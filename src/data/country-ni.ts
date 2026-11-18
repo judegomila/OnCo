@@ -317,7 +317,7 @@ export const NI_DIVE: CountryDive = {
   ],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 country profiles, WHO's health expenditure and immunisation data, the IAEA's public radiotherapy directory and country fact sheet, the Ministry of Health's pages and the General Health Law in Spanish, PAHO's profiles and notices, and the abstracts of the papers cited, each resolved by its DOI through Europe PMC, with the open full text read for the HPV screening paper.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 country profiles, WHO's health expenditure and immunisation data, the IAEA's public radiotherapy directory and country fact sheet, the Ministry of Health's pages and the General Health Law in Spanish, PAHO's profiles and notices, and the abstracts of the papers cited, each resolved by its DOI through Europe PMC, with the open full text read for the HPV screening paper. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "The case and death numbers are modelled estimates, the survey answers date from 2019 to 2021, and the published treatment results are for children diagnosed up to 2007. Anyone seeking care should ask the treating hospital, the Hospital Nacional de Radioterapia Nora Astorga or the Ministry of Health what is available now.",
   verifyLinks: [

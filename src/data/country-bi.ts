@@ -251,7 +251,7 @@ export const BI_DIVE: CountryDive = {
   papers: ["paper-sauvaget-thermal-ablation-burundi-ijc-2022"],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: the Ministry of Public Health's national cancer plan for 2024 to 2028, IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, two WHO Africa news pages, the World Bank's health expenditure series, WHO's immunisation data, IAEA's directory of radiotherapy centres, ClinicalTrials.gov, and the abstract of one paper resolved through Europe PMC.",
+    "Every card was written from public sources read as raw text on 16 November 2026: the Ministry of Public Health's national cancer plan for 2024 to 2028, IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, two WHO Africa news pages, the World Bank's health expenditure series, WHO's immunisation data, IAEA's directory of radiotherapy centres, ClinicalTrials.gov, and the abstract of one paper resolved through Europe PMC. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "The counts of units and staff here are the cancer plan's, dated January 2024. Check with the treating unit or the Ministry of Public Health before relying on them.",
   verifyLinks: [L_PLAN, L_IARC],

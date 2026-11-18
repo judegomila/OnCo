@@ -319,7 +319,7 @@ export const TM_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 country profiles, WHO's health expenditure and immunisation data, the IAEA's public radiotherapy table, the Ministry of Health and Medical Industry's own site, its 2016 to 2018 cancer strategy in Russian, and two WHO event pages from 2025. Turkmenistan publishes few health statistics, so the page is short and each statement carries its source and date.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 country profiles, WHO's health expenditure and immunisation data, the IAEA's public radiotherapy table, the Ministry of Health and Medical Industry's own site, its 2016 to 2018 cancer strategy in Russian, and two WHO event pages from 2025. Turkmenistan publishes few health statistics, so the page is short and each statement carries its source and date. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "The case and death numbers are modelled estimates, the vaccination figures are reported by the country to WHO, the spending figures are rows in WHO's health expenditure database, the radiotherapy entry dates from 2018 and the survey answers from 2019 to 2021. Anyone seeking care should ask the Scientific-Clinical Center of Oncology in Ashgabat, the regional oncology hospital or the ministry what is available and what it costs now.",
   verifyLinks: [

@@ -356,7 +356,7 @@ export const SZ_DIVE: CountryDive = {
   ],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, the Ministry of Health's cancer plans and presentation as posted on the ICCP portal, its 2021 pharmacovigilance policy, WHO's country profiles and its health expenditure, immunisation and legislation data, the African Cancer Registry Network's page, and IAEA documents. Papers were resolved by DOI through Europe PMC and their abstracts read. The government's own website could not be reached.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, the Ministry of Health's cancer plans and presentation as posted on the ICCP portal, its 2021 pharmacovigilance policy, WHO's country profiles and its health expenditure, immunisation and legislation data, the African Cancer Registry Network's page, and IAEA documents. Papers were resolved by DOI through Europe PMC and their abstracts read. The government's own website could not be reached. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "Plans describe intentions as well as services, the registry counts come from a 2024 slide, and referral arrangements change. Anyone seeking care should ask the oncology unit at Manzini or Mbabane Government Hospital, or the Ministry of Health, what is available now and how referral through the Phalala fund works.",
   verifyLinks: [

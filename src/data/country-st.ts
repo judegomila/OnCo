@@ -229,7 +229,7 @@ export const ST_DIVE: CountryDive = {
   papers: ["paper-david-cancer-medical-evacuees-sao-tome-ecancer-2026"],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the World Bank's health expenditure series, WHO's immunisation data, IAEA's directory of radiotherapy centres, and the 2026 study of medical evacuations, resolved through Europe PMC and read in full.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the World Bank's health expenditure series, WHO's immunisation data, IAEA's directory of radiotherapy centres, and the 2026 study of medical evacuations, resolved through Europe PMC and read in full. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "This page rests on international estimates and one hospital study. Check with the Ministry of Health's Patient Evacuation Board or the treating doctors at Hospital Ayres de Menezes before relying on it.",
   verifyLinks: [L_IARC, L_EVAC],

@@ -234,7 +234,7 @@ export const GQ_DIVE: CountryDive = {
   papers: ["paper-jayakumar-cervical-screening-equatorial-guinea-jcogo-2025"],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the World Bank's health expenditure series, WHO's immunisation data, IAEA's directory of radiotherapy centres, two news pages of the Ministry of Health and Social Welfare, and the abstracts of two papers resolved through Europe PMC.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the World Bank's health expenditure series, WHO's immunisation data, IAEA's directory of radiotherapy centres, two news pages of the Ministry of Health and Social Welfare, and the abstracts of two papers resolved through Europe PMC. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "Most of what is known about cancer services in Equatorial Guinea here comes from WHO profiles of 2020 and 2021. Check with the Ministry of Health and Social Welfare or the treating hospital before relying on it.",
   verifyLinks: [L_IARC, L_CX],

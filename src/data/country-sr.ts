@@ -355,7 +355,7 @@ export const SR_DIVE: CountryDive = {
   ],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, the Ministry of Health's National Cancer Control Plan 2019 to 2028, WHO's 2020 and 2021 country profiles and its immunisation and health expenditure data, IAEA DIRAC's public equipment data, a Dutch government guide to export rules, the Ministry of Health's page on its Registration Committee for medicines, CARPHA's pages on the Caribbean Regulatory System, the State Health Insurance Fund's home page, and five papers resolved through Europe PMC.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, the Ministry of Health's National Cancer Control Plan 2019 to 2028, WHO's 2020 and 2021 country profiles and its immunisation and health expenditure data, IAEA DIRAC's public equipment data, a Dutch government guide to export rules, the Ministry of Health's page on its Registration Committee for medicines, CARPHA's pages on the Caribbean Regulatory System, the State Health Insurance Fund's home page, and five papers resolved through Europe PMC. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "National cancer figures for Suriname are modelled, not counted, and most of what is said here about services, insurance and referral abroad comes from a plan written in 2019. Ask the treating hospital, the State Health Insurance Fund or the Ministry of Health what applies to you now.",
   verifyLinks: [

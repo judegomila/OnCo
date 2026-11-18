@@ -239,7 +239,7 @@ export const CF_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the summary of the 2021 imPACT review by the IAEA, WHO and IARC, the health ministry's plan against non-communicable diseases, the World Bank's health expenditure series, WHO's immunisation data, IAEA's directory of radiotherapy centres, and the abstract of one paper resolved through Europe PMC.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the summary of the 2021 imPACT review by the IAEA, WHO and IARC, the health ministry's plan against non-communicable diseases, the World Bank's health expenditure series, WHO's immunisation data, IAEA's directory of radiotherapy centres, and the abstract of one paper resolved through Europe PMC. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "The newest description of cancer services here is from 2021, in a country where conditions change. Check with the Ministry of Health and Population or the treating hospital in Bangui before relying on it.",
   verifyLinks: [L_IMPACT, L_IARC],

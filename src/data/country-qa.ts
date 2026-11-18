@@ -396,7 +396,7 @@ export const QA_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: the Ministry of Public Health's Qatar Cancer Plan 2023-2026 and National Cancer Framework 2017-2022, the Qatar National Cancer Registry's report for 2020 (an archived scan, read by character recognition), Hamad Medical Corporation's and the Primary Health Care Corporation's pages, Qatar News Agency notices, IARC's GLOBOCAN 2024 fact sheet and its 2026 note on Qatar, the IAEA's radiotherapy directory, WHO's immunisation data and the World Bank. All were read in English; Arabic versions were not compared.",
+    "Every card was written from public sources read as raw text on 16 November 2026: the Ministry of Public Health's Qatar Cancer Plan 2023-2026 and National Cancer Framework 2017-2022, the Qatar National Cancer Registry's report for 2020 (an archived scan, read by character recognition), Hamad Medical Corporation's and the Primary Health Care Corporation's pages, Qatar News Agency notices, IARC's GLOBOCAN 2024 fact sheet and its 2026 note on Qatar, the IAEA's radiotherapy directory, WHO's immunisation data and the World Bank. All were read in English; Arabic versions were not compared. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "The latest registry report OnCo could read is for 2020, and the cancer plan runs to the end of 2026, so both are due to be replaced. Charges, insurance rules and the school HPV campaign are changing; ask Hamad Medical Corporation or the Primary Health Care Corporation what applies to you.",
   verifyLinks: [

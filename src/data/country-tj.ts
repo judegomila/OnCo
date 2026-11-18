@@ -364,7 +364,7 @@ export const TJ_DIVE: CountryDive = {
   ],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 country profiles, WHO's health expenditure and immunisation data, the IAEA's radiotherapy directory, country sheet, 2019 highlights report and United Nations partnership entry, the European Observatory's 2025 health system review, WHO Europe and UNICEF on the HPV vaccine launch, the Ministry of Health and Social Protection's site, its 2016 to 2017 cancer plan in Tajik, the 2010 to 2015 cancer programme in Russian, and paper abstracts through Europe PMC.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 country profiles, WHO's health expenditure and immunisation data, the IAEA's radiotherapy directory, country sheet, 2019 highlights report and United Nations partnership entry, the European Observatory's 2025 health system review, WHO Europe and UNICEF on the HPV vaccine launch, the Ministry of Health and Social Protection's site, its 2016 to 2017 cancer plan in Tajik, the 2010 to 2015 cancer programme in Russian, and paper abstracts through Europe PMC. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "Much of what is known about cancer services in Tajikistan here comes from international agencies, not from the services themselves. Check with the Ministry of Health and Social Protection or the treating hospital before relying on it.",
   verifyLinks: [

@@ -310,7 +310,7 @@ export const TL_DIVE: CountryDive = {
   papers: ["paper-fordyce-breast-disease-timor-leste-anzjs-2020"],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 profiles, the Ministry of Health's non-communicable disease plans on the ICCP portal, WHO Timor-Leste's news pages, UNICEF, NCIRS, the national news agency Tatoli, the Electronic Single Window's page on the Ministry, WHO's health expenditure and immunisation data, WHO's lists of regulators, IAEA's DIRAC table and one paper resolved through Europe PMC. The Ministry of Health's own site could not be reached.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 profiles, the Ministry of Health's non-communicable disease plans on the ICCP portal, WHO Timor-Leste's news pages, UNICEF, NCIRS, the national news agency Tatoli, the Electronic Single Window's page on the Ministry, WHO's health expenditure and immunisation data, WHO's lists of regulators, IAEA's DIRAC table and one paper resolved through Europe PMC. The Ministry of Health's own site could not be reached. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "The cancer figures on this page are modelled estimates, and the account of treatment rests on a small number of reports from 2022 to 2025. Anyone seeking care should ask Hospital Nacional Guido Valadares or the Ministry of Health what is available now and how referral abroad is arranged.",
   verifyLinks: [

@@ -398,7 +398,7 @@ export const AL_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from Albanian and international public sources read as raw text on 16 November 2026: the Institute of Public Health's cancer report, statements and screening evaluation, the insurance fund's pages and 2026 reimbursement list, the government decision in the Official Gazette, the medicines agency's pages, the national health strategy and non-communicable disease programme, the university hospital's oncology page, WHO, UNFPA and IAEA documents, the World Bank's series and IARC's GLOBOCAN 2024 fact sheet. Albanian sources were read in Albanian.",
+    "Every card was written from Albanian and international public sources read as raw text on 16 November 2026: the Institute of Public Health's cancer report, statements and screening evaluation, the insurance fund's pages and 2026 reimbursement list, the government decision in the Official Gazette, the medicines agency's pages, the national health strategy and non-communicable disease programme, the university hospital's oncology page, WHO, UNFPA and IAEA documents, the World Bank's series and IARC's GLOBOCAN 2024 fact sheet. Albanian sources were read in Albanian. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "The reimbursed medicines list is updated each year and its conditions change; check the fund's current list before relying on a medicine being covered. The registry's latest totals come from short statements and may be revised. IARC's death figures for Albania are modelled, not counted.",
   verifyLinks: [

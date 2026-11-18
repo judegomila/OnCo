@@ -372,7 +372,7 @@ export const LS_DIVE: CountryDive = {
   ],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 country profiles, WHO's health expenditure and immunisation data, the Government of Lesotho's news pages, WHO's Africa office, the IAEA's fact sheet and directory, the African Union's treaty list, and dated reports in Newsday, The Reporter and The Namibian. Papers were resolved by DOI through Europe PMC or Crossref and their abstracts read. Where sources disagree the page gives each with its date.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 country profiles, WHO's health expenditure and immunisation data, the Government of Lesotho's news pages, WHO's Africa office, the IAEA's fact sheet and directory, the African Union's treaty list, and dated reports in Newsday, The Reporter and The Namibian. Papers were resolved by DOI through Europe PMC or Crossref and their abstracts read. Where sources disagree the page gives each with its date. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "The GLOBOCAN numbers are modelled estimates, the clinic's counts and costs come from newspaper reports and a court statement, and services change. Anyone seeking care should ask the Senkatana Oncology Clinic or the Ministry of Health what is available now and how referral to South Africa is arranged.",
   verifyLinks: [

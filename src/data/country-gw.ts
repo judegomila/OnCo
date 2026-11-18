@@ -250,7 +250,7 @@ export const GW_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, a Forbes África Lusófona report of March 2025, the Europe PMC record of a 2023 paper from the national hospital, WHO's list of regulators, the African Union's treaty list, WHO's immunisation data, the World Bank's health expenditure series and IAEA's radiotherapy directory. No source from the Ministry of Public Health could be read.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, a Forbes África Lusófona report of March 2025, the Europe PMC record of a 2023 paper from the national hospital, WHO's list of regulators, the African Union's treaty list, WHO's immunisation data, the World Bank's health expenditure series and IAEA's radiotherapy directory. No source from the Ministry of Public Health could be read. Trials were recounted from OnCo's graph on 18 November 2026, after its trial statuses were refreshed from the registry on 17 November, and the count on this page is unchanged.",
   verify:
     "The cancer numbers on this page are modelled estimates, survey answers from 2019 to 2021 and the counts of one visiting surgical team at one hospital, and the account of treatment abroad rests on one news report. Anyone seeking care should ask the national hospital or the Ministry of Public Health what is available now.",
   verifyLinks: [

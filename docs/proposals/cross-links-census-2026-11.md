@@ -7,7 +7,9 @@ measuring scripts were throwaway; each section states its rule precisely enough 
 no page-view data, so where "worst" ranks by importance it uses incoming links, and says so.
 
 Pairs 1 and 2 are the two the owner's coordinator recommended building first. Both are built in the pull request
-that adds this file (`product/cross-links-2026-11`), and their sections give the numbers before and after.
+that adds this file (`product/cross-links-2026-11`), and their sections give the numbers before and after. Pairs 3 to 8
+followed on 16 November; their numbers before and after are in "Round 2" below, and the sections further down are
+left as measured on 11 November.
 
 ## Summary
 
@@ -21,6 +23,67 @@ that adds this file (`product/cross-links-2026-11`), and their sections give the
 | 6 | Glossary term -> mention in prose | 170,157 term mentions | 134,389 hovered or linked | 35,768 (21%), mostly a per-paragraph cap and unhovered fields |
 | 7 | Idea <-> bottleneck <-> open question | 3,336 idea-bottleneck links; 89 question-idea links | 1,725 and 65 one-way; question-idea links shown on no idea page | 46 isolated ideas; no open question names a bottleneck |
 | 8 | Test -> who pays, per country | 183 tests | 41 with any coverage fact (US 37, UK 9, every other country 0) | 142 tests (78%) |
+
+## Round 2: pairs 3 to 8, built 16 November 2026
+
+Built in two pull requests, `data/cross-links-fill-2026-11` (records, caches and coverage facts) and
+`product/cross-links-round-2` (the derivations and what the pages show). Measured on the corpus at 24,172 records.
+Each "before" is the census figure where a script reproduces it, and otherwise the same script run on `origin/main`;
+the script is named so the count can be rerun.
+
+| # | Pair | Before | After | Still open |
+|---|---|---:|---:|---|
+| 3 | Side effects reaching a protocol | 136 of 259 | 141 of 261 (139 of 259 on the census corpus) | 120 side effects have no fitting protocol in the corpus |
+| 3 | Side effects with the full chain to a red card, linked | 68 of 259 | 103 of 261 | 10 side-effect protocols are named by no red card |
+| 3 | Toxicity rows showing a protocol | 667 of 960 | 686 of 962 | |
+| 4 | Institution pages listing the trials they sponsor or fund | 0 (116 of 612 pairs linked by a typed field) | 116 pages, 612 pairs | 217 trial records name a sponsor the map files under a relative; counted on the page, not listed |
+| 4 | National Cancer Institute; Cancer Research UK | 31 and 20 trials shown (census) | 128 and 49 | no paper-level funder data |
+| 5 | Person-trial links in the graph | 638 (494 pivotal), 424 people | 1,667 (1,183 pivotal), 604 people | 1,273 matching names left unlinked as ambiguous |
+| 6 | Glossary terms in hovered prose that get their hover | 173,165 of 194,872 (88.9%) | 193,659 of 194,872 (99.4%) | plain-text fields (`tldr`, `simple`, idea fields) are still not hovered |
+| 7 | Idea-bottleneck links running one way | 1,725 and 65 | 0 and 0 (2,563 links, each stated by both records) | 46 isolated ideas |
+| 7 | Open questions shown on the ideas they name; reaching a bottleneck page | 0 of 89; 0 of 57 | 89 of 89 on 80 idea pages; 44 of 57 on 34 bottleneck pages | 13 questions name no idea that attacks a bottleneck |
+| 8 | Tests with a structured coverage row | 4 of 183 | 25 of 183, and 24 more with a named gap | 138 tests not looked up; Medicare local documents unread |
+
+- **Pair 3** (`scripts/measure-side-effect-chain.ts`, which reproduces the census table exactly on the census corpus).
+  Reach to a protocol barely moved because the protocols do not exist: nothing in the corpus manages drug-caused
+  high blood pressure, QT prolongation, raised liver enzymes off immunotherapy, or lung inflammation on an
+  antibody-drug conjugate or kinase inhibitor, and an immune-related protocol is never mapped onto another class of
+  drug. `--gaps` prints the 120; the largest are hypertension (21 products), headache (9), hyperglycaemia (8),
+  oedema (7), ALT increased (7), constipation, differentiation syndrome and QT prolongation (6 each). Eleven side
+  effects gained a protocol and eight lost a wrong one (ivermectin was reaching six immune-related protocols through
+  a shared technology). The chain to a red card moved because 50 red-flag lines now name the protocol that manages
+  them (`protocols` on a line in `src/data/red-flags.ts`), and 33 protocol pages show those lines as "When to call".
+  Deriving the red-card link from the symptom group, as proposed above, was tried and dropped: it put tamoxifen's
+  vaginal bleeding beside the low-platelet protocol.
+- **Pair 4** (`src/lib/trials-sponsored.ts`). Derived for every institution, not only funders, from the registry
+  lead sponsor, the ISRCTN sponsor and funder lists and the record's sponsor line, through `resolveSponsor`. A row
+  is listed only when the sponsor's own words contain the institution's name or a recorded alias; "Fudan
+  University", which the map files under the Shanghai Cancer Center, is counted under the table and not listed. The
+  census's 179 and 47 used a wider definition of funder that no script reproduces, so the row above counts all
+  institutions.
+- **Pair 5** (`scripts/fetch-trial-authors.ts`, `src/data/person-trial-authorship.ts`). Author lists of the 818
+  paper records that report a trial were read from Europe PMC on 17 November 2026, UTC (817 found, 1 missing) and
+  are cached in `src/data/trial-paper-authors.json` with the fetch date. A person is linked on an equal ORCID, or on
+  a full first name with an affiliation on that paper naming one of their institutions: 1,251 person-trial pairs
+  for 436 people, 234 of which a record already stated. Left unlinked and counted: 1,273 rows, a matching name with
+  neither confirmation, initials with an affiliation, two person records matching one author, or two different
+  ORCIDs. Principal investigators are still not captured.
+- **Pair 6** (`scripts/measure-term-hovers.ts`, which replays the site's own matcher over the hovered fields; its
+  totals differ from the census's, which used a wider pattern set). The cap on hovers in one paragraph went from 12
+  to 24, which takes the terms it cuts from 21,707 to 1,213. The exact-case rule for capitalised aliases was already
+  in place and is unchanged. Each hover's six utility classes became one named class, so pages got lighter, not
+  heavier: on a development server `/cancers/breast-cancer/` went from 804,658 to 792,706 bytes with 15 more hovers,
+  and `/cancers/pancreatic/` from 687,452 to 685,130. The live `/cancers/breast-cancer/` weighed 740 KB against a
+  recorded ceiling of 694 KB before this change; that excess is not from this work and is not fixed by it.
+- **Pair 7** (`src/data/cross-links-derived.ts`, with a test that fails on a one-way link). The reverse of every
+  idea-bottleneck link is written when the graph is built. Bottlenecks were not inferred for the 46 isolated ideas:
+  that needs a review of each, as the proposal above says.
+- **Pair 8** (`src/data/test-coverage.ts`). 22 rows for 21 tests, each from the payer's or guidance body's own page
+  with the day it was read: Medicare national coverage determinations 90.2, 210.2.1 and 210.3 (13 tests) and NICE
+  HTG719, HTG316, HTG690 and NG131 (9 tests). 32 named-gap rows for tests that were looked for and not confirmed.
+  Not read: every Medicare local coverage document, including the MolDX ones, because the Medicare Coverage
+  Database serves their text only after accepting the AMA, ADA and AHA licence terms, which is the owner's decision
+  (`docs/DATA-SOURCES.md`). No country beyond the United States and the United Kingdom was attempted.
 
 One defect found on the way, outside these pairs (pair 6): the glossary hover matcher ignores case, so an
 all-capitals alias matches an ordinary word. The term `hta` lists the alias "HAS" (France's Haute Autorité de

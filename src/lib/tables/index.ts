@@ -8,6 +8,8 @@ import { PATHWAY_MATRIX_TABLE, PATHWAY_NODES_TABLE, pathwayDrugViews, pathwayMat
 import { dossierTrialTables } from "./dossier-trials";
 import { countryTrialTables } from "./country-trials";
 import { institutionTrialTables } from "./institution-trials";
+import { institutionSponsoredTables } from "./institution-sponsored";
+import { personTrialReportTables } from "./person-trial-reports";
 import { STARTUPS_TABLE, startupBrowser } from "./startups";
 import { OPEN_SOURCE_TABLE, openSourceBrowser } from "./open-source";
 import { SOFTWARE_TABLE, softwareBrowser } from "./software";
@@ -50,6 +52,8 @@ export function allTables(): TableFile[] {
     ...dossierTrialTables(dossierData),
     ...countryTrialTables(),
     ...institutionTrialTables(),
+    ...institutionSponsoredTables(),
+    ...personTrialReportTables(),
     ...engineTables(),
     ...modalityTables(),
     ...tagTables(),

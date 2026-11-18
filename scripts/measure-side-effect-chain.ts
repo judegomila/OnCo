@@ -6,8 +6,10 @@
  *
  *   side effect        one distinct normalised `drug.toxicity[].event`: lower-cased, bracketed qualifiers removed,
  *                      whitespace collapsed. Its group is `symptomGroup()`.
- *   reaches a protocol for at least one product carrying it, /side-effects/ shows a protocol beside that product:
- *                      what `symptomProtocols()` returns for the group, a general one or one listing the product.
+ *   reaches a protocol for at least one product carrying it, a protocol applies to that row: `rowProtocols()`, a
+ *                      general one for the group or a specific one that reaches this product with this event.
+ *                      (Until 16 November 2026 a specific protocol reached a product for every row in the group;
+ *                      on the corpus of that day the two rules gave the same 667 rows and 136 side effects.)
  *   red card, linked   a red-flag set names the protocol in `concernIds`, or one of its lines does in `protocols`
  *                      (the line-level link was added on 16 November 2026; before it, `concernIds` was the only one).
  *   red card, topical  a red-flag line, in any set, falls in a group the protocol is listed under. For an event:
@@ -22,7 +24,7 @@
  *   npx tsx scripts/measure-side-effect-chain.ts --json     everything, as JSON
  */
 import { graph } from "../src/lib/graph";
-import { buildSideEffectIndex, SYMPTOM_GROUPS, SYMPTOM_PROTOCOLS, symptomGroup, symptomProtocols, type SideEffectRow } from "../src/lib/side-effects";
+import { buildSideEffectIndex, rowProtocols, SYMPTOM_GROUPS, SYMPTOM_PROTOCOLS, symptomGroup } from "../src/lib/side-effects";
 import { GENERAL_RED_FLAGS, redFlagSets, redFlagsFor } from "../src/data/red-flags";
 
 export function normaliseEvent(event: string): string {
@@ -56,10 +58,6 @@ export type SideEffectChain = {
 export function measureSideEffectChain(): SideEffectChain {
   const g = graph();
   const rows = buildSideEffectIndex();
-  const byGroup = symptomProtocols(rows);
-
-  /** The protocols /side-effects/ shows beside this product in this row's group. */
-  const protocolsForRow = (r: SideEffectRow): string[] => (byGroup[r.group] ?? []).filter((p) => p.general || p.drugs.includes(r.drugId)).map((p) => p.id);
 
   // Red cards. Linked: named in a set's concernIds. Topical: by the group of each line's symptom.
   const allSets = [GENERAL_RED_FLAGS, ...redFlagSets];
@@ -85,7 +83,7 @@ export function measureSideEffectChain(): SideEffectChain {
     const key = normaliseEvent(r.event);
     const ev = events.get(key) ?? { event: key, group: r.group, products: new Set<string>(), protocols: new Set<string>(), topical: false, ownCard: false };
     ev.products.add(r.drugId);
-    const ps = protocolsForRow(r);
+    const ps = rowProtocols(r, g);
     for (const p of ps) ev.protocols.add(p);
     if (ps.length) rowsWithProtocol++; else unprotocolledProducts.add(r.drugId);
     const d = g.get(r.drugId);

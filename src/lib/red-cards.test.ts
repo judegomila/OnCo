@@ -1,6 +1,8 @@
 import { describe, expect, it } from "vitest";
 import type { RedFlagSet } from "@/data/red-flags";
-import { buildRedCards, RED_CARD_MAX, type RedCardInput } from "./red-cards";
+import { GENERAL_RED_FLAGS, redFlagSets } from "@/data/red-flags";
+import { graph } from "./graph";
+import { buildRedCards, PROTOCOL_RED_FLAG_MAX, RED_CARD_MAX, redFlagsForProtocol, type RedCardInput } from "./red-cards";
 
 const src = { label: "US prescribing information", url: "https://dailymed.nlm.nih.gov/" };
 const ICI: RedFlagSet = { id: "ici", label: "Immune checkpoint inhibitors", modalityRe: "checkpoint", flags: [
@@ -67,5 +69,31 @@ describe("buildRedCards", () => {
     const terms = Array.from({ length: 10 }, (_, i) => ({ id: `t${i}`, name: `Term ${i}`, tldr: "t", route: `/terms/t${i}/`, drugs: ["carboplatin"] }));
     expect(buildRedCards({ ...base, sideEffectTerms: terms })).toHaveLength(RED_CARD_MAX);
     expect(buildRedCards({ ...base, sideEffectTerms: terms }, 3)).toHaveLength(3);
+  });
+});
+
+describe("redFlagsForProtocol", () => {
+  const g = graph();
+
+  it("gives a protocol the warning lines that name it, one per symptom, the general card's first", () => {
+    const fever = redFlagsForProtocol(g, "febrile-neutropenia-first-hour");
+    // Nine cards say "Neutropenic fever"; the page shows the general line and one of the nine, the chemotherapy card's.
+    expect(fever.map((f) => f.setId)).toEqual(["general", "cytotoxic"]);
+    expect(fever.every((f) => f.protocols?.includes("febrile-neutropenia-first-hour"))).toBe(true);
+    // Four cards say "Blood clot" with a different drug in brackets: one line, not four.
+    expect(redFlagsForProtocol(g, "cancer-associated-vte-treatment")).toHaveLength(1);
+    expect(redFlagsForProtocol(g, "irae-colitis").map((f) => f.setId)).toEqual(["checkpoint-inhibitors"]);
+  });
+
+  it("gives nothing to a protocol no line names, and never more than the cap", () => {
+    expect(redFlagsForProtocol(g, "implanted-port-access-and-care")).toEqual([]);
+    // Severe skin reactions are outside the skin-care protocol's own scope, so a blistering rash is not put on its page.
+    expect(redFlagsForProtocol(g, "skin-and-nail-care-during-cancer-drug-treatment")).toEqual([]);
+    const named = new Set([GENERAL_RED_FLAGS, ...redFlagSets].flatMap((s) => s.flags.flatMap((f) => f.protocols ?? [])));
+    for (const id of named) {
+      const shown = redFlagsForProtocol(g, id);
+      expect(shown.length, id).toBeGreaterThan(0);
+      expect(shown.length, id).toBeLessThanOrEqual(PROTOCOL_RED_FLAG_MAX);
+    }
   });
 });

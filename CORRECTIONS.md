@@ -1,5 +1,13 @@
 # Corrections
 
+### A hover that explained the wrong RAS, 18 November 2026
+
+Found while adding the trial and label figures to the daraxonrasib record: the rendered page explained the word RAS with a gallbladder anatomy term.
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-18 | [Rokitansky-Aschoff sinus](/terms/rokitansky-aschoff-sinus/) | The entry listed "RAS" as an alias, so the word RAS on pages about the RAS oncogenes, among them the daraxonrasib page, showed this gallbladder term on hover | Reading the live daraxonrasib page, where the hover text appears | The alias is removed; the term still links by its full name |
+
 ### Second accuracy pass on the cancer pages: fourteen more high-burden cancers, 17 November 2026
 
 The second group of high-burden cancers: diffuse large B-cell lymphoma, chronic lymphocytic, acute myeloid and acute lymphoblastic leukaemia, oesophageal, kidney, endometrial and ovarian cancer, melanoma, glioblastoma, multiple myeloma, and the skin cancer family (basal cell and squamous cell carcinoma with their treatment, living-with and UK layers). 2,189 ledger rows, of which 337 were wrong, 162 were not supported by the source cited and 116 could not be re-read. The most serious faults: odronextamab was shown as approved in the United States under another drug's brand name, when the regulator has twice declined it; niraparib was offered to a group its US label has excluded since March 2026; a melanoma page said half of patients with advanced disease live ten years, where the trial reports 43 per cent overall survival; first-line immunotherapy for oesophageal cancer was described as approved for all patients, where the current US labels require PD-L1 expression; and a gilteritinib trial after transplant (MORPHO) was written as positive although it missed its primary endpoint.

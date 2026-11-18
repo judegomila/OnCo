@@ -13,7 +13,7 @@ export const peopleIQ: PersonInput[] = [
   p({ id: "tahseen-al-rubai", name: "Tahseen Al-Rubai", aka: ["Tahseen Al Rubai"], role: "General Secretary, Iraqi Cancer Board, Ministry of Health, Iraq",
     institutionId: "iraqi-cancer-board", institutions: ["iraqi-cancer-board"],
     specialisms: ["Clinical oncology", "Cancer registration"],
-    tldr: "A clinical oncologist who is General Secretary of the Iraqi Cancer Board, the Ministry of Health body that runs Iraq's national cancer registry, and who reviewed its annual report for 2022.",
+    tldr: "A clinical oncologist listed as General Secretary of the Iraqi Cancer Board, the Ministry of Health body that runs Iraq's national cancer registry, in its annual report for 2022, which he reviewed.",
     summary: "The Iraqi Cancer Board's Cancer Registry of Iraq annual report 2022 lists Dr Tahseen Al-Rubai, clinical oncologist (MBChB, DMTR), as General Secretary of the Cancer Board in Iraq and as a reviewer of the report, and names him last in its list of the Board's secretaries general since it was set up in 1985, whose main responsibility was preparing the registry's annual report. In 2023, as director general of the Board, he told The National that the true number of cancers could be higher than the registry's count because it does not include Iraqis treated outside the country.",
     profiles: [
       { label: "Iraqi Cancer Board: Cancer Registry of Iraq, annual report 2022 (PDF)", url: "https://storage.moh.gov.iq/2024/03/31/2024_03_31_11983087032_3940351786864953.pdf" },

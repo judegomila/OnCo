@@ -35,13 +35,13 @@ const KIM: ToolSource = { label: "OnCo paper record: Kim et al., Optimal surgica
  */
 const ROW_ESMO: ToolSource = { label: "OnCo standard-of-care row for gallbladder cancer (gallbladder-treatment.ts), written from NCCN Biliary Tract Cancers (category 2A) and the ESMO biliary tract cancer guideline 2023 (Vogel et al., Annals of Oncology)", url: "https://doi.org/10.1016/j.annonc.2022.10.506" };
 const ROW_NCCN: ToolSource = { label: "OnCo standard-of-care row for gallbladder cancer (gallbladder-treatment.ts), written from NCCN Biliary Tract Cancers (category 2A)", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1517" };
-const ROW_BILCAP: ToolSource = { label: "OnCo standard-of-care row for gallbladder cancer (gallbladder-treatment.ts), written from BILCAP (Lancet Oncology 2019; NCCN category 1; ESMO-MCBS A)", url: "https://doi.org/10.1016/S1470-2045(18)30915-X" };
+const ROW_BILCAP: ToolSource = { label: "OnCo standard-of-care row for gallbladder cancer (gallbladder-treatment.ts), written from BILCAP (Lancet Oncology 2019; NCCN category 1)", url: "https://doi.org/10.1016/S1470-2045(18)30915-X" };
 
 /** Row text quoted from gallbladderStandardOfCare in src/data/spikes/gallbladder-treatment.ts; src/lib/decision-tools.test.ts keeps these equal to the data. */
 export const QUOTED_ROWS: Record<string, string> = {
   "Incidental T1a cancer at cholecystectomy": "No further surgery when the tumour is confined to the lamina propria with a negative cystic duct margin; the cholecystectomy is curative. Refer T1b and deeper to a hepatobiliary centre.",
   "Incidental T1b, T2 or T3 cancer, no disseminated disease": "Radical re-resection of the gallbladder bed (segments IVb/V) with portal lymphadenectomy, ideally 4 to 8 weeks after the index operation, after cross-sectional imaging and staging laparoscopy in selected cases; bile duct excision only for a positive cystic duct margin; port-site excision not routine. Neoadjuvant chemotherapy before re-resection is being tested in OPT-IN.",
-  "After resection (any stage from T1b, or node-positive)": "Adjuvant capecitabine 1,250 mg/m² twice daily, days 1 to 14 of 21, for eight cycles (BILCAP, UK); S-1 is the Japanese alternative (ASCOT) and is not licensed in the UK; chemoradiation after an R1 margin is case by case on the SWOG S0809 phase 2. ACTICCA-1 (gemcitabine-cisplatin, separate gallbladder cohort, 24 UK sites) is awaited.",
+  "After resection (any stage from T1b, or node-positive)": "Adjuvant capecitabine 1,250 mg/m² twice daily, days 1 to 14 of 21, for eight cycles (BILCAP, UK); S-1 is the Japanese alternative (ASCOT) and is not licensed for biliary cancer in Europe; chemoradiation after an R1 margin is case by case on the SWOG S0809 phase 2. ACTICCA-1 (gemcitabine-cisplatin versus capecitabine, 16 percent gallbladder cancer) reported in October 2026 without a significant gain in disease-free or overall survival, so capecitabine remains the standard.",
 };
 
 const LINKS = {
@@ -210,7 +210,7 @@ const cards: ToolCard[] = [
       { text: "Adjuvant chemotherapy is poorly documented and probably underused.", source: SOREIDE },
     ],
     meaning: "Six months of capecitabine tablets is the standard offered after surgery in the UK, on the BILCAP trial. The two UK CAPBIL papers read differently: patients who completed chemotherapy did better in the incidental-cancer cohort, but a matched analysis of all operated patients showed no benefit. Ask how the team reads that for you.",
-    questions: ["Will capecitabine be offered after the operation, and for how long?", "Is there a trial, such as ACTICCA-1, that I could join?"],
+    questions: ["Will capecitabine be offered after the operation, and for how long?", "Is there a trial that I could join?"],
     links: [LINKS.bilcap, LINKS.capecitabine, LINKS.ukFunding] },
 
   { id: "uk-pathway", title: "In the UK: the specialist HPB team, and what happened to patients like you", tone: "refer",

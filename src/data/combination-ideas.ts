@@ -846,7 +846,7 @@ export const combinationIdeas: CombinationIdeaInput[] = [
     components: { targetA: "folr1", targetB: "cd3" },
     targets: ["folr1", "cd3"],
     cancers: ["ovarian", "platinum-resistant-ovarian-cancer", "endometrial", "nsclc"],
-    rationale: "Folate receptor alpha is validated by an approved ADC (mirvetuximab-soravtansine) with two more in phase 3 (rinatabart-sesutecan, luveltamab-tazevibulin), and the CD3 arm by approved solid-tumour engagers (tarlatamab). The corpus holds an ovarian engager against MUC16 (ubamatamab) but none against folate receptor alpha.",
+    rationale: "Folate receptor alpha is validated by an approved ADC (mirvetuximab-soravtansine) with one more in phase 3 (rinatabart-sesutecan; the phase 2/3 trial of luveltamab-tazevibulin was terminated in 2025), and the CD3 arm by approved solid-tumour engagers (tarlatamab). The corpus holds an ovarian engager against MUC16 (ubamatamab) but none against folate receptor alpha.",
     plausibilityNote: "Folate receptor alpha is dense and homogeneous in high-grade serous ovarian cancer and largely absent from normal tissue except the kidney tubule and choroid plexus; ovarian cancer's ascites is rich in T cells, which an engager could recruit, and the corpus already has an ovarian engager against MUC16 (ubamatamab).",
     validation: {
       a: { level: "approved", via: ["mirvetuximab-soravtansine"] },

@@ -293,7 +293,7 @@ export const REPORT_FIELDS: ReportField[] = [
   { id: "crc-ras", form: "colorectal", label: "KRAS / NRAS", termId: "driver-mutation", input: { kind: "select", options: [{ value: "wt", label: "Wild-type (no mutation)" }, { value: "g12c", label: "KRAS G12C" }, { value: "other", label: "Other KRAS or NRAS mutation" }] },
     readings: [
       { when: { eq: "wt" }, means: "No mutation in KRAS or NRAS: the RAS pathway is not switched on by mutation.", changes: "EGFR antibodies (cetuximab, panitumumab) can work, best in left-sided tumours." },
-      { when: { eq: "g12c" }, means: "A specific KRAS mutation with its own inhibitors.", changes: "Sotorasib or adagrasib combined with an EGFR antibody is approved after chemotherapy; EGFR antibody alone does not work." },
+      { when: { eq: "g12c" }, means: "A specific KRAS mutation with its own inhibitors.", changes: "Sotorasib combined with the EGFR antibody panitumumab is approved after chemotherapy; the US approval of adagrasib with cetuximab was removed in August 2026. EGFR antibody alone does not work." },
       { when: { eq: "other" }, means: "A RAS mutation (about half of colorectal cancers).", changes: "EGFR antibodies are not used; chemotherapy with bevacizumab is the usual backbone; pan-RAS inhibitors are in trials." },
     ], source: CAP },
   { id: "crc-braf", form: "colorectal", label: "BRAF V600E", termId: "driver-mutation", input: yesNo("Mutated", "Not mutated"),

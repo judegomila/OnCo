@@ -38,7 +38,7 @@ const GTR = (acc: string) => ({ label: `NIH Genetic Testing Registry ${acc}`, ur
 const GTR_DATA = { label: "NIH Genetic Testing Registry data file (test_version.gz)", url: "https://ftp.ncbi.nlm.nih.gov/pub/GTR/data/test_version.gz" };
 const DENOVO = (n: string) => ({ label: `FDA De Novo ${n}`, url: `https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?id=${n}` });
 const K510 = (n: string) => ({ label: `FDA 510(k) ${n}`, url: `https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=${n}` });
-const NHS_DIRECTORY = { label: "NHS England National Genomic Test Directory, rare and inherited disease, version 9 (spreadsheet)", url: "https://www.england.nhs.uk/wp-content/uploads/2018/08/rare-and-inherited-disease-national-genomics-test-directory-v9.xlsx" };
+const NHS_DIRECTORY = { label: "NHS England National Genomic Test Directory, rare and inherited disease (spreadsheet; the version 9 file has been withdrawn and the link is to version 9.2 of 9 November 2026)", url: "https://www.england.nhs.uk/wp-content/uploads/2018/08/rare-and-inherited-disease-national-genomics-test-directory-v9.2.xlsx" };
 
 const BSG_2020 = DOI("Monahan, Gut 2020: BSG, ACPGBI and UKCGG guidelines for the management of hereditary colorectal cancer", "10.1136/gutjnl-2019-319915");
 const AACR_GI_2024 = DOI("MacFarland, Clin Cancer Res 2024: paediatric screening in hereditary gastrointestinal cancer syndromes (AACR update)", "10.1158/1078-0432.ccr-24-0953");

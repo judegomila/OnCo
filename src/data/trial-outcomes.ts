@@ -248,7 +248,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
       { endpoint: "Progression-free survival", unit: "months", arms: [{ name: "Tarlatamab", value: 4.2 }, { name: "Chemotherapy", value: 3.7 }], hr: 0.71, ci: [0.59, 0.86], source: ct("NCT05740566") },
       { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Tarlatamab", value: 35 }, { name: "Chemotherapy", value: 20 }], source: "https://doi.org/10.1056/NEJMoa2502099" },
     ],
-    replication: "Confirms the single-arm DeLLphi-301 result (ORR 40%) that supported accelerated approval; first-line data (DeLLphi-305) pending.",
+    replication: "Confirms the single-arm DeLLphi-301 result (ORR 40%) that supported accelerated approval; in first-line maintenance, DeLLphi-305 reported an overall survival gain at an interim analysis in October 2026 (median 21.1 vs 12.7 months, HR 0.42).",
   },
 
   // ---------------- Melanoma / IO ----------------
@@ -265,10 +265,10 @@ const RAW: Record<string, TrialOutcomeIn> = {
   "interpath-001": {
     enrolled: 1137,
     outcomes: [
-      { endpoint: "Recurrence-free survival", primary: true, arms: [{ name: "Intismeran autogene + pembrolizumab" }, { name: "Placebo + pembrolizumab" }], note: "Met; hazard ratio and medians not yet disclosed (topline 19 August 2026).", source: "https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/" },
-      { endpoint: "Distant metastasis-free survival", arms: [{ name: "Intismeran autogene + pembrolizumab" }, { name: "Placebo + pembrolizumab" }], note: "Met; numbers pending presentation." },
+      { endpoint: "Recurrence-free survival at 24 months", primary: true, unit: "%", arms: [{ name: "Intismeran autogene + pembrolizumab", n: 757, value: 82.2 }, { name: "Placebo + pembrolizumab", n: 380, value: 70.0 }], p: "<0.001", note: "Met. Piecewise hazard ratio 0.99 (95% CI 0.66 to 1.49) before 6 months and 0.42 (0.30 to 0.58) after 6 months; median follow-up 24.6 months.", source: "https://doi.org/10.1056/NEJMoa2609762" },
+      { endpoint: "Distant metastasis-free survival at 24 months", unit: "%", arms: [{ name: "Intismeran autogene + pembrolizumab", n: 757, value: 88.5 }, { name: "Placebo + pembrolizumab", n: 380, value: 80.2 }], p: "0.002", note: "Met. Piecewise hazard ratio 1.01 (0.58 to 1.79) before 6 months and 0.50 (0.34 to 0.73) after 6 months.", source: "https://doi.org/10.1056/NEJMoa2609762" },
     ],
-    replication: "Confirms the phase 2b KEYNOTE-942 signal (RFS HR 0.51 at 3 years) in a randomised phase 3; full data pending.",
+    replication: "Confirms the phase 2b KEYNOTE-942 signal (RFS HR 0.510, 95% CI 0.294 to 0.887, at five years in 157 patients) in a randomised phase 3, published in the New England Journal of Medicine on 11 November 2026.",
   },
 
   // ---------------- GU ----------------
@@ -341,7 +341,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
       { endpoint: "Recurrence-free survival at 2 years (non-inferiority)", primary: true, unit: "%", arms: [{ name: "ctDNA-guided management", n: 302, value: 93.5 }, { name: "Standard management", n: 153, value: 92.4 }], note: "Non-inferiority met (margin −8.5 points)", source: nejm("NEJMoa2200075") },
       { endpoint: "Patients receiving adjuvant chemotherapy", unit: "%", arms: [{ name: "ctDNA-guided management", value: 15 }, { name: "Standard management", value: 28 }], p: "<0.001", source: nejm("NEJMoa2200075") },
     ],
-    replication: "Supported by observational cohorts (CIRCULATE-Japan GALAXY); DYNAMIC-III in stage III gave a more nuanced result, and randomised escalation trials are ongoing.",
+    replication: "Supported by observational cohorts (CIRCULATE-Japan GALAXY); in stage III, DYNAMIC-III (2025) found that de-escalation for ctDNA-negative patients did not meet non-inferiority (three-year recurrence-free survival 85.3% against 88.1%) and that escalated chemotherapy for ctDNA-positive patients did not improve two-year recurrence-free survival (51% against 61%); in ALTAIR (2026), trifluridine/tipiracil for patients who turned ctDNA-positive after standard treatment did not significantly improve disease-free survival (hazard ratio 0.79, 95% CI 0.60 to 1.05).",
   },
 
   // ---------------- Pipeline (ongoing) ----------------
@@ -406,12 +406,12 @@ const RAW: Record<string, TrialOutcomeIn> = {
   "harmoni-2": {
     enrolled: 398,
     outcomes: [{ endpoint: "Progression-free survival (IRRC)", primary: true, unit: "months", arms: [{ name: "Ivonescimab", n: 198, value: 11.1 }, { name: "Pembrolizumab", n: 200, value: 5.8 }], hr: 0.51, ci: [0.38, 0.69], p: "<0.0001", source: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02722-3/fulltext" }],
-    replication: "Single-country (China) trial; OS immature. The global HARMONi-3 interim did not reproduce the PFS margin, so replication outside China is unresolved.",
+    replication: "Single-country (China) trial; OS immature. The global HARMONi-3 trial has not yet reported its primary analysis, so replication outside China is unresolved.",
   },
   "harmoni-3": {
-    enrolled: 1080,
-    outcomes: [{ endpoint: "Progression-free survival (interim analysis, May 2026)", primary: true, unit: "months", arms: [{ name: "Ivonescimab + chemotherapy" }, { name: "Pembrolizumab + chemotherapy" }], note: "Interim PFS analysis did not reach statistical significance per the sponsor (announced 30 April 2026); hazard ratio and medians not disclosed. Final PFS and OS analyses pending.", source: ct("NCT05899608") }],
-    replication: "Ongoing; interim PFS analysis in 2026 did not meet significance per the sponsor; OS pending.",
+    enrolled: 1600,
+    outcomes: [{ endpoint: "Progression-free survival (primary analysis not yet reported)", primary: true, unit: "months", arms: [{ name: "Ivonescimab + chemotherapy" }, { name: "Pembrolizumab + chemotherapy" }], note: "No efficacy result has been reported and the trial remains blinded. The sponsor's first-quarter 2026 report (30 April 2026) said an early interim PFS analysis of the squamous cohort, with a higher bar for significance than the final analysis, was reviewed only by the independent data monitoring committee, which recommended that the study continue as planned. The registry lists an estimated enrolment of 1,600.", source: "https://web.archive.org/web/20260430210422/https://smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Reports-Financial-Results-and-Operational-Progress-for-the-First-Quarter-Ended-March-31-2026/default.aspx" }],
+    replication: "Ongoing; no efficacy result reported. The sponsor expected the primary PFS analysis of the squamous cohort in the second half of 2026 and of the non-squamous cohort in the first half of 2027.",
   },
   "herthena-lung02": {
     enrolled: 586,
@@ -601,12 +601,12 @@ const RAW: Record<string, TrialOutcomeIn> = {
   },
   alphabreak: { enrolled: 600, outcomes: [], replication: "Ongoing phase 3 of 225Ac-PSMA-I&T after 177Lu-PSMA; no results." },
   xalute: { enrolled: 707, outcomes: [], replication: "Ongoing phase 3 of xaluritamig vs cabazitaxel/ARPI; no results." },
-  "mevpro-1": { enrolled: 600, outcomes: [], replication: "Ongoing phase 3 of mevrometostat + enzalutamide; no results." },
+  "mevpro-1": { enrolled: 609, outcomes: [], replication: "Ongoing phase 3 of mevrometostat + enzalutamide; no results." },
   // Pancreatic
   "rasolute-302": {
     enrolled: 500,
     outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Daraxonrasib", value: 13.2 }, { name: "Chemotherapy (gemcitabine/nab-paclitaxel or mFOLFOX6)", value: 6.7 }], hr: 0.40, source: ct("NCT06625320") }],
-    replication: "Single pivotal trial reported 2026; consistent with the phase 1/2 signal (median OS ~14.5 months in second line). First-line RASolute 303 ongoing.",
+    replication: "Single pivotal trial reported 2026; consistent with the phase 1/2 report (median overall survival 13.1 months in 26 second-line patients with RAS G12 mutations at 300 mg, and 15.6 months among 38 patients with RAS G12, G13 or Q61 mutations). First-line RASolute 303 ongoing.",
   },
   "napoli-3": {
     enrolled: 770,
@@ -752,8 +752,8 @@ const RAW: Record<string, TrialOutcomeIn> = {
   },
   // Renal
   "litespark-012": {
-    enrolled: 1854,
-    outcomes: [{ endpoint: "Progression-free survival (BICR) and overall survival (dual primary)", primary: true, unit: "months", arms: [{ name: "Pembrolizumab + lenvatinib + belzutifan" }, { name: "Pembrolizumab/quavonlimab + lenvatinib" }, { name: "Pembrolizumab + lenvatinib" }], note: "Neither investigational regimen met the dual primary PFS and OS endpoints at the pre-specified interim analysis (sponsor release, 21 April 2026); hazard ratios not disclosed", source: "https://www.merck.com/news/merck-and-eisai-provide-update-on-phase-3-litespark-012-trial-evaluating-first-line-combination-treatments-for-certain-patients-with-advanced-renal-cell-carcinoma-rcc/" }],
+    enrolled: 1688,
+    outcomes: [{ endpoint: "Progression-free survival (BICR; dual primary with overall survival)", primary: true, unit: "months", arms: [{ name: "Pembrolizumab + lenvatinib + belzutifan", n: 560, value: 20.8 }, { name: "Pembrolizumab/quavonlimab + lenvatinib", n: 562, value: 20.7 }, { name: "Pembrolizumab + lenvatinib", n: 566, value: 23.7 }], note: "Neither investigational regimen met the dual primary PFS and OS endpoints (data cutoff 4 February 2026, median follow-up 43.6 months). Among all participants, belzutifan triplet versus pembrolizumab + lenvatinib: PFS HR 1.08 (95% CI 0.93 to 1.26), OS HR 1.04 (0.87 to 1.25); quavonlimab triplet versus pembrolizumab + lenvatinib: PFS HR 1.07 (0.92 to 1.25), OS HR 1.12 (0.94 to 1.35). First announced by the sponsor on 21 April 2026", source: "https://doi.org/10.1016/j.annonc.2026.10.1281" }],
     replication: "Consistent with COSMIC-313: adding a third agent to a first-line IO doublet has not improved outcomes in clear-cell RCC. The phase Ib/II KEYMAKER-U03 signal for the belzutifan triplet did not carry into phase 3.",
   },
   "litespark-022": {
@@ -788,8 +788,8 @@ const RAW: Record<string, TrialOutcomeIn> = {
   "panku-esophagus01": {
     enrolled: 497,
     outcomes: [
-      { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Izalontamab brengitecan", value: 9.8 }, { name: "Chemotherapy (physician's choice)", value: 7.2 }], hr: 0.64, ci: [0.49, 0.83], p: "0.0004", source: "https://www.prnewswire.com/news-releases/systimmune-announces-second-approval-of-iza-bren-in-china-for-the-treatment-of-recurrent-or-metastatic-esophageal-squamous-cell-carcinoma-302827983.html" },
-      { endpoint: "Progression-free survival (BICR)", primary: true, unit: "months", arms: [{ name: "Izalontamab brengitecan", value: 4.2 }, { name: "Chemotherapy (physician's choice)", value: 2.0 }], hr: 0.50, ci: [0.40, 0.63], p: "<0.0001", source: "https://www.prnewswire.com/news-releases/systimmune-announces-second-approval-of-iza-bren-in-china-for-the-treatment-of-recurrent-or-metastatic-esophageal-squamous-cell-carcinoma-302827983.html" },
+      { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Izalontamab brengitecan", n: 249, value: 9.79 }, { name: "Chemotherapy (physician's choice)", n: 248, value: 7.2 }], hr: 0.63, ci: [0.48, 0.82], p: "<0.001", source: "https://doi.org/10.1001/jama.2026.20250" },
+      { endpoint: "Progression-free survival (BICR)", primary: true, unit: "months", arms: [{ name: "Izalontamab brengitecan", n: 249, value: 4.17 }, { name: "Chemotherapy (physician's choice)", n: 248, value: 1.97 }], hr: 0.50, ci: [0.40, 0.63], p: "<0.001", source: "https://doi.org/10.1001/jama.2026.20250" },
     ],
     replication: "Single Chinese phase 3 (ASCO 2026 oral; NMPA approval July 2026); consistent with the positive iza-bren phase 3s in nasopharyngeal carcinoma and TNBC (BL-B01D1-307). No data outside China yet.",
   },
@@ -878,9 +878,9 @@ const RAW: Record<string, TrialOutcomeIn> = {
   "dellphi-305": {
     enrolled: 563,
     outcomes: [
-      { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Tarlatamab + durvalumab maintenance" }, { name: "Durvalumab maintenance" }], note: "Met at the pre-specified interim analysis: Amgen's 8 September 2026 release describes a statistically significant and clinically meaningful improvement; medians and hazard ratio not yet disclosed, detailed data promised for an upcoming congress", source: "https://www.amgen.com/newsroom/press-releases/2026/09/imdelltra-in-combination-with-imfinzi-demonstrated-landmark-improvement-in-overall-survival-in-first-line-extensive-stage-small-cell-lung-cancer" },
-      { endpoint: "Progression-free survival", unit: "months", arms: [{ name: "Tarlatamab + durvalumab maintenance" }, { name: "Durvalumab maintenance" }], note: "Statistically significant and clinically meaningful improvement per the sponsor; figures not yet public", source: "https://www.amgen.com/newsroom/press-releases/2026/09/imdelltra-in-combination-with-imfinzi-demonstrated-landmark-improvement-in-overall-survival-in-first-line-extensive-stage-small-cell-lung-cancer" },
-      { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Tarlatamab + durvalumab maintenance" }, { name: "Durvalumab maintenance" }], note: "Statistically significant improvement per the sponsor; figures not yet public", source: "https://www.amgen.com/newsroom/press-releases/2026/09/imdelltra-in-combination-with-imfinzi-demonstrated-landmark-improvement-in-overall-survival-in-first-line-extensive-stage-small-cell-lung-cancer" },
+      { endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Tarlatamab + durvalumab maintenance", n: 282, value: 21.1 }, { name: "Durvalumab maintenance", n: 281, value: 12.7 }], hr: 0.42, ci: [0.32, 0.54], p: "<0.001", note: "Prespecified interim analysis, data cutoff 7 July 2026; survival measured from randomisation at the start of maintenance", source: "https://doi.org/10.1056/NEJMoa2609482" },
+      { endpoint: "Progression-free survival", unit: "months", arms: [{ name: "Tarlatamab + durvalumab maintenance", value: 7.4 }, { name: "Durvalumab maintenance", value: 1.9 }], hr: 0.34, ci: [0.28, 0.42], p: "<0.001", source: "https://doi.org/10.1056/NEJMoa2609482" },
+      { endpoint: "Objective response rate", unit: "%", arms: [{ name: "Tarlatamab + durvalumab maintenance" }, { name: "Durvalumab maintenance" }], note: "Statistically significant improvement per the sponsor's 8 September 2026 release; the published abstract (N Engl J Med, 24 October 2026) gives no response-rate figure", source: "https://www.amgen.com/newsroom/press-releases/2026/09/imdelltra-in-combination-with-imfinzi-demonstrated-landmark-improvement-in-overall-survival-in-first-line-extensive-stage-small-cell-lung-cancer" },
     ],
     replication: "First phase 3 of a DLL3 T-cell engager in first-line maintenance; consistent in direction with the DeLLphi-303 phase 1b cohort (median OS 25.3 months). DeLLphi-312 (tarlatamab added to induction chemo-immunotherapy) is the confirmatory sibling.",
   },

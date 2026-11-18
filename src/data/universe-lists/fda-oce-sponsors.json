@@ -1,15 +1,15 @@
 {
- "checked": "2026-11-11",
+ "checked": "2026-11-18",
  "source": {
   "label": "FDA Oncology Center of Excellence: approval notifications",
   "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications"
  },
  "method": "Sponsor named in brackets in each FDA OCE oncology approval notification on the current page, grouped after removing corporate suffixes. Covers the notifications the page still lists (see window), so it is a floor for 'companies with a recent FDA oncology approval'.",
  "total": 80,
- "notifications": 206,
+ "notifications": 209,
  "window": {
   "from": "2023-01-19",
-  "to": "2026-11-10"
+  "to": "2026-11-17"
  },
  "items": [
   {
@@ -25,22 +25,22 @@
    "last": "2026-11-05"
   },
   {
+   "name": "AstraZeneca",
+   "approvals": 10,
+   "first": "2024-08-15",
+   "last": "2026-11-13"
+  },
+  {
    "name": "Bristol-Myers Squibb Company",
    "approvals": 10,
    "first": "2023-10-13",
    "last": "2026-08-13"
   },
   {
-   "name": "AstraZeneca",
-   "approvals": 9,
-   "first": "2024-08-15",
-   "last": "2026-09-04"
-  },
-  {
    "name": "Genentech, Inc.",
-   "approvals": 9,
+   "approvals": 10,
    "first": "2023-04-19",
-   "last": "2026-10-08"
+   "last": "2026-11-16"
   },
   {
    "name": "Eli Lilly and Company",
@@ -155,6 +155,12 @@
    "approvals": 2,
    "first": "2024-09-17",
    "last": "2026-07-31"
+  },
+  {
+   "name": "Nuvalent, Inc.",
+   "approvals": 2,
+   "first": "2026-07-22",
+   "last": "2026-11-17"
   },
   {
    "name": "Regeneron Pharmaceuticals Inc.",
@@ -401,12 +407,6 @@
    "approvals": 1,
    "first": "2024-06-21",
    "last": "2024-06-21"
-  },
-  {
-   "name": "Nuvalent, Inc.",
-   "approvals": 1,
-   "first": "2026-07-22",
-   "last": "2026-07-22"
   },
   {
    "name": "Nuvation Bio Inc.",

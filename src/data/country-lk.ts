@@ -11,7 +11,9 @@ import type { CountryDive } from "@/data/country-dive";
  * WHO's 2023 crisis appeal and January 2023 news release for Sri Lanka, WHO's HPV and hepatitis B coverage rows and its
  * Global Health Expenditure Database rows from the public APIs, IARC's GLOBOCAN 2024 fact sheet for Sri Lanka, a
  * ClinicalTrials.gov API count, and the papers' abstracts through Europe PMC. Where a figure could not be read it is
- * named under `gaps`.
+ * named under `gaps`. Second accuracy pass, 17 November 2026: every source re-read as raw text; Colombo district's share
+ * of the population corrected to 11.4%, and the IAEA DIRAC feed (dirac.iaea.org/api/DataGridWebApi/EquipmentReport)
+ * read for the radiotherapy cards.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/144-sri-lanka-fact-sheet.pdf";
 const CID_2022 = "https://www.nccp.health.gov.lk/storage/post/pdfs/cancer_incidence_and_mortality_data_sri_lanka_2022.pdf";
@@ -47,7 +49,7 @@ export const LK_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Sri Lanka",
   description:
-    "Cancer in Sri Lanka from Sri Lankan sources: 35,855 new cancers counted by the national registry in 2022 and IARC's estimate of 43,428 in 2024, mouth cancer as the commonest cancer in men, free state cancer care through 25 treatment centres and the National Cancer Institute at Maharagama, the 2022 economic crisis that left 150 essential medicines out of stock, the National Medicines Regulatory Authority, HPV vaccination reported to WHO from 2017, and why no trial in our records has a site in Sri Lanka.",
+    "Cancer in Sri Lanka from Sri Lankan sources: 35,855 new cancers counted by the national registry in 2022 and IARC's estimate of 43,428 in 2024, mouth cancer as the commonest cancer in men, free state cancer care through 25 treatment centres and the National Cancer Institute at Maharagama, the 2022 economic crisis that left 150 essential medicines out of stock, the National Medicines Regulatory Authority, HPV vaccination in the national schedule since 2017 according to WHO, and why no trial in our records has a site in Sri Lanka.",
   lede:
     "Sri Lanka has counted cancer nationally since 1985, and its registry recorded 35,855 new cancers in 2022, with breast cancer leading in women and lip, tongue and mouth cancer in men. Care in state hospitals is free at the point of delivery, but the 2022 economic crisis left essential imported medicines, cancer drugs among them, out of stock, and the national cancer programme reports long waits for diagnosis and treatment across the country.",
   globocanNote:
@@ -75,7 +77,7 @@ export const LK_DIVE: CountryDive = {
           id: "deaths",
           title: "Deaths are counted three ways, and the counts do not agree",
           plain:
-            "Sri Lanka records cancer deaths through civil registration, through hospital returns and through IARC's model. Civil registration recorded 15,242 cancer deaths in 2020, its latest published year; government hospitals recorded 5,734 in 2022; IARC estimates 27,165 for 2024. OnCo cannot say how much of the gap is uncertified deaths and how much is the model.",
+            "Cancer deaths in Sri Lanka are counted by civil registration and by hospital returns, and estimated by IARC's model. Civil registration recorded 15,242 cancer deaths in 2020, its latest published year; government hospitals recorded 5,734 in 2022; IARC estimates 27,165 for 2024. OnCo cannot say how much of the gap is uncertified deaths and how much is the model.",
           detail:
             "The registry's 2022 report takes mortality from two national sources. The Department of Census and Statistics publishes cause-of-death data from the vital registration system: 15,598 cancer deaths in 2019 (10.7% of all deaths) and 15,242 in 2020, with no published figures for 2008, 2016 to 2018, 2021 or 2022. The Ministry of Health's Annual Health Bulletin, from hospital returns, counted 5,734 cancer deaths in government hospitals in 2022, 8.6% of hospital deaths. For Colombo district only, the registry also receives cancer deaths directly from 47 divisional death registrars. IARC's estimate is modelled from incidence and survival, not counted. OnCo does not know how much of the gap is deaths at home that were not certified as cancer and how much is the model; the registry gives no completeness figure for death certification.",
           links: [
@@ -107,7 +109,7 @@ export const LK_DIVE: CountryDive = {
             { source: "Population-based registry, Colombo district (about 2.3 million people)", year: "2012", cases: 2896, crudeMen: 119.8, crudeWomen: 129.2, asr: null },
             { source: "Population-based registry, Colombo district", year: "2019", cases: 4115, crudeMen: 150.8, crudeWomen: 184.8, asr: null },
           ],
-          note: "The national registry counts cancers reported by 25 state cancer centres, laboratories and oral surgery units, so its rises partly track better reporting: it jumped from 17,482 cases in 2011 to 23,136 in 2012. The Colombo rows come from a scanned report read by text recognition; they are used only because men and women add to each total (1,366 and 1,530; 1,811 and 2,304) and the report states a 42% rise. Its age-standardised rates could not be read reliably.",
+          note: "The national registry counts cancers reported by 25 state cancer centres, laboratories and oral surgery units, so a rise can reflect fuller reporting as well as more cancer: the count went from 17,482 cases in 2011 to 23,136 in 2012. The Colombo rows come from a scanned report read by text recognition; they are used only because men and women add to each total (1,366 and 1,530; 1,811 and 2,304) and the report states a 42% rise. Its age-standardised rates could not be read reliably.",
           sources: [
             { label: "NCCP: Cancer Incidence and Mortality Data Sri Lanka 2022, table 6 (PDF)", url: CID_2022 },
             { label: "NCCP: Cancer Incidence and Mortality Data, Colombo District 2013 to 2019, executive summary (scanned PDF)", url: PBCR_COLOMBO },
@@ -149,7 +151,7 @@ export const LK_DIVE: CountryDive = {
           plain:
             "The National Cancer Control Programme runs the registry, collecting new cancers from 25 state cancer centres, over 100 pathology laboratories and 34 oral surgery units. Almost all cancers (96.7% in 2022) are confirmed under the microscope. Its report on 2022 appeared in November 2025, and the Ministry's own officials ask why it is late.",
           detail:
-            "The 2022 report describes three streams: patient and tumour details extracted at 25 government cancer treatment centres on the National Cancer Surveillance Form H 1256 and entered into IARC's CanReg5 software, sometimes by pre-intern doctors paid through WHO funds; monthly paper returns from 68 histopathology, 34 haematology and 3 oral pathology laboratories, four of them private; and, from 2022, CanReg5 entries from 34 oral and maxillofacial surgery units. Records are merged through Rupantaran, a tool built by the IARC regional hub in Mumbai, which merged 47,402 records when introduced. Of the 2022 cancers, 93.8% were confirmed by histology of the primary tumour and 2.0% were registered from a death certificate only. The Deputy Director General's message in the report says there is a delay in generating the registry's publications and asks that the reasons be identified. The report lists four private laboratories among its sources and no private treatment centre, so cancers diagnosed and treated wholly in private care may be missed. The programme published its first childhood cancer registry report in November 2021.",
+            "The 2022 report describes three streams: patient and tumour details extracted at 25 government cancer treatment centres on the National Cancer Surveillance Form H 1256 and entered into IARC's CanReg5 software, sometimes by pre-intern doctors paid through WHO funds; monthly returns, most of them on paper, from 68 histopathology, 34 haematology and 3 oral pathology laboratories, four of them private; and, from 2022, CanReg5 entries from 34 oral and maxillofacial surgery units. Records are merged through Rupantaran, a tool built by the IARC regional hub in Mumbai, which merged 47,402 records when introduced. Of the 2022 cancers, 93.8% were confirmed by histology of the primary tumour and 2.0% were registered from a death certificate only. The Deputy Director General's message in the report says there is a delay in generating the registry's publications and asks that the reasons be identified. The report lists four private laboratories among its sources and no private treatment centre, so cancers diagnosed and treated wholly in private care may be missed. The programme published its first childhood cancer registry report in November 2021.",
           links: [
             { label: "NCCP: Cancer Incidence and Mortality Data Sri Lanka 2022, methodology (PDF)", url: CID_2022 },
             { label: "Sawant et al., Rupantaran software for the Sri Lankan registry (ecancermedicalscience 2023)", url: "https://doi.org/10.3332/ecancer.2023.1553" },
@@ -160,9 +162,9 @@ export const LK_DIVE: CountryDive = {
           id: "registry-colombo",
           title: "Colombo district: the first population-based registry, from 2012",
           plain:
-            "Since 2012 the programme has counted every cancer among residents of Colombo district, 12.4% of Sri Lankans at the 2012 census, adding records from other hospitals and from death registrars. Its counts rose 42% from 2012 to 2019, and its crude rates are higher than the national registry's, which the report reads as more complete case-finding.",
+            "Since 2012 the programme has run a population-based registry for residents of Colombo district, 11.4% of Sri Lankans at the 2012 census, adding records from other hospitals and from death registrars. Its counts rose 42% from 2012 to 2019, and its crude rates are higher than the national registry's, which the report puts down to drawing on more sources.",
           detail:
-            "The programme's history page dates the Colombo population-based registry to 2012, and its second report covers 2013 to 2019. It was built on the national registry's sources and adds quarterly returns from medical records departments of other hospitals in and around Colombo and cancer deaths from the district's divisional death registrars, with residents identified by permanent address. The report counts 2,896 cancers in 2012 (1,366 men, 1,530 women) and 4,115 in 2019 (1,811 men, 2,304 women), with crude rates rising from 119.8 to 150.8 per 100,000 in men and from 129.2 to 184.8 in women. It says the district's rates were higher than the national rates because of the more extensive methodology of population-based registration, and suggests extending such registries to other provinces in phases. The 2022 national report thanks Vital Strategies for supporting population-based registries in selected districts. OnCo read the Colombo report through text recognition of a scanned PDF and has not used its age-standardised rates; IARC's fact sheet names a subnational registry as its incidence source without naming which.",
+            "The programme's history page dates the Colombo population-based registry to 2012, and its second report covers 2013 to 2019. It was built on the national registry's sources and adds quarterly returns from medical records departments of other hospitals in and around Colombo and cancer deaths from the district's divisional death registrars, with residents identified by permanent address. The report counts 2,896 cancers in 2012 (1,366 men, 1,530 women) and 4,115 in 2019 (1,811 men, 2,304 women), with crude rates rising from 119.8 to 150.8 per 100,000 in men and from 129.2 to 184.8 in women. It says the district's incidence rates were higher than the national rates because its data came from multiple sources, and suggests extending such registries to other provinces in phases. The 2022 national report thanks Vital Strategies for supporting population-based registries in selected districts. OnCo read the Colombo report through text recognition of a scanned PDF and has not used its age-standardised rates; IARC's fact sheet names a subnational registry as its incidence source without naming which.",
           links: [
             { label: "NCCP: Cancer Incidence and Mortality Data, Colombo District 2013 to 2019 (scanned PDF)", url: PBCR_COLOMBO },
             { label: "NCCP: history of the National Cancer Control Programme", url: NCCP_HISTORY },
@@ -193,7 +195,7 @@ export const LK_DIVE: CountryDive = {
         },
         {
           id: "novel-drugs",
-          title: "Which new cancer drugs the state buys: no appraisal body, but costed proposals",
+          title: "Which new cancer drugs the state buys: OnCo found no appraisal body, but there are costed proposals",
           plain:
             "OnCo found no Sri Lankan agency that appraises each new cancer medicine for value. Researchers working with Ministry prices estimate that giving 42 novel cancer drugs to every eligible patient would cost almost 300 million US dollars a year, and that restricting them to uses that pass a cost-effectiveness test would cost 6 to 13 million.",
           detail:
@@ -249,7 +251,7 @@ export const LK_DIVE: CountryDive = {
           id: "nmra",
           title: "An independent authority since 2015 that registers medicines and sets their prices",
           plain:
-            "The National Medicines Regulatory Authority was set up by an Act of Parliament in 2015. It registers medicines and devices, licenses pharmacies and checks quality in its own laboratory. It also fixes a maximum retail price for every medicine it registers, using the import price plus taxes and a set markup.",
+            "The National Medicines Regulatory Authority was set up by an Act of Parliament in 2015. It regulates medicines, devices and pharmacies, and a quality assurance laboratory works under it. Under a pricing rule of July 2025 it also sets a maximum retail price for each medicine it newly registers or renews, using the import price plus taxes and a set markup.",
           detail:
             "The NMRA Act, No. 5 of 2015, certified on 19 March 2015, replaced the Cosmetics, Devices and Drugs Act of 1980. The Authority describes itself as independent within the Ministry of Health, governed by a board with no involvement in regulatory decisions, which rest with the Chief Executive Officer and expert committees such as the Medicines Evaluation Committee, whose policy decisions it posts. Under Gazette Extraordinary No. 2446/34 of 21 July 2025 and its pricing guideline GL-033 (version 1.1, effective 22 July 2025), the maximum retail price of a newly registered or renewed medicine is its cost, insurance and freight plus duties and taxes plus a supply chain total markup, with the declared import price checked against external reference prices (the guideline names India's, Bangladesh's and Pakistan's regulators, the British National Formulary and the price in the country of origin) and internal ones; maximum ceiling prices are set for some products from the median market price. Prices are published monthly. OnCo found no published target or measured time for registering a new medicine; see the gaps.",
           links: [
@@ -283,20 +285,21 @@ export const LK_DIVE: CountryDive = {
           id: "centres-workforce",
           title: "25 state cancer centres, radiotherapy in seven, and about 49 clinical oncologists in 2020",
           plain:
-            "Sri Lanka treats cancer in 25 government cancer centres, from Apeksha Hospital at Maharagama to district hospitals. In 2020 the national plan counted radiotherapy in seven centres of excellence, 49 board-certified clinical oncologists and 33 working mammography units, most of them analogue, and said nearly a third of oncologists had no radiotherapy in their public hospital.",
+            "Sri Lanka treats cancer in 25 government cancer centres, from Apeksha Hospital at Maharagama to district hospitals. In 2020 the national plan counted radiotherapy in seven centres of excellence, 49 board-certified clinical oncologists and 33 working mammography units, most of them analogue, and said nearly a third of oncologists had no access to radiotherapy in the public sector. The IAEA's directory, read on 17 November 2026, lists nine radiotherapy centres.",
           detail:
-            "The registry's 2022 report lists 25 government cancer treatment centres: two national hospitals (Apeksha Hospital Maharagama and National Hospital Kandy), eight teaching hospitals, fourteen district general hospitals and Tellippalai base hospital in Jaffna. The National Strategic Plan 2020 to 2024 counted 49 board-certified clinical oncologists, 44 in the public sector and 5 in the private, who practise both medical and radiation oncology, 2 paediatric oncologists, 18 onco-surgeons and 6 gynaecological oncologists; radiotherapy was provided in seven centres of excellence, with a plan to add linear accelerators to the others, on the basis that one modern machine treats about 500 patients a year. It counted 33 functional mammography units and no public laboratory accredited by the Sri Lanka Accreditation Board. In 2022, 48.4% of newly registered patients had surgery, 43.6% radiotherapy and 41.3% chemotherapy. The programme's 2024 report says talks were continuing on a second phase of linear accelerator procurement, and that an IAEA project with the Sri Lanka Atomic Energy Board is training physicists and radiographers in radiation safety. OnCo could not read a current machine count; see the gaps.",
+            "The registry's 2022 report lists 25 government cancer treatment centres: two national hospitals (Apeksha Hospital Maharagama and National Hospital Kandy), eight teaching hospitals, fourteen district general hospitals and Tellippalai base hospital in Jaffna. The National Strategic Plan 2020 to 2024 counted 49 board-certified clinical oncologists, 44 in the public sector and 5 in the private, who practise both medical and radiation oncology, 2 paediatric oncologists, 18 onco-surgeons and 6 gynaecological oncologists; radiotherapy was provided in seven centres of excellence, with a plan to add linear accelerators to the others, on the basis that one modern machine treats about 500 patients a year. It counted 33 functional mammography units and no public laboratory accredited by the Sri Lanka Accreditation Board. In 2022, 48.4% of newly registered patients had surgery, 43.6% radiotherapy and 41.3% chemotherapy. The programme's 2024 report says talks were continuing on a second phase of linear accelerator procurement, and that an IAEA project with the Sri Lanka Atomic Energy Board is training physicists and radiographers in radiation safety. The plan's seven radiotherapy centres are a 2020 figure. The IAEA's Directory of Radiotherapy Centres, read on 17 November 2026, lists nine centres with 16 linear accelerators and 13 cobalt-60 units, in entries dated 2022 to 2026; the centres are named under the gaps.",
           links: [
             { label: "National Strategic Plan on Prevention and Control of Cancer 2020 to 2024, diagnosis and treatment (PDF)", url: NSP_2020 },
             { label: "NCCP: Cancer Incidence and Mortality Data Sri Lanka 2022, table 1 and figure 59 (PDF)", url: CID_2022 },
             { label: "NCCP: Annual Report 2024, diagnosis and treatment unit (PDF)", url: AR_2024 },
+            { label: "IAEA: DIRAC, directory of radiotherapy centres (read 17 November 2026)", url: "https://dirac.iaea.org/" },
           ],
         },
         {
           id: "waits",
           title: "The national programme reports long waits and travel to Maharagama",
           plain:
-            "In its 2024 report the National Cancer Control Programme wrote that there is an unusual waiting list and long delay for cancer diagnosis and treatment all over the country, because specialised care is concentrated at Apeksha Hospital and a few major hospitals. Patients from other regions travel long distances and lose time waiting.",
+            "In its 2024 report the National Cancer Control Programme wrote that there is an unusual waiting list and long delay for cancer diagnosis and treatment all over the country, and that specialised facilities are concentrated at Apeksha Hospital and a few major hospitals, so patients from other regions travel long distances and many lose time waiting.",
           detail:
             "The 2024 annual report's diagnosis and treatment unit describes a gap analysis of the cancer treatment centres and centres of excellence (it says Sri Lanka has nine cancer care treatment centres, one per province), aimed at shortening waits for diagnosis and treatment and the travel between regions; it records visits to the centres at Ratnapura and Kurunegala teaching hospitals. The 2020 to 2024 plan had already named long waits at clinics, for confirmation reports, diagnostics and treatment, a lack of standard operating procedures, ad hoc referrals and no electronic reporting in histopathology as causes of delay, and observed that a large majority of patients present at advanced stages. Apeksha Hospital, founded in 1956 as a ten-ward radiotherapy centre, describes itself as the leading tertiary hospital for cancer treatment in Sri Lanka; researchers using its registry say it sees about 40% of the country's cancer patients. The report gives no measured waiting time.",
           links: [
@@ -328,13 +331,15 @@ export const LK_DIVE: CountryDive = {
         },
         {
           id: "hpv-hbv",
-          title: "HPV vaccine for schoolgirls, reported to WHO from 2017; coverage fell in 2023 and recovered in 2025",
+          title: "HPV vaccine for schoolgirls since 2017; WHO's estimate fell in 2023 while the coverage Sri Lanka reported stayed above 90%",
           plain:
-            "Sri Lanka's HPV vaccination figures reported to WHO begin in 2017. In the coverage Sri Lanka reports to WHO, first-dose coverage reached 99% in 2019, fell to 31% in 2023, and was 96% in 2025, with 74% completing the course. Hepatitis B vaccine, which prevents liver cancer, reaches over 95% of infants.",
+            "WHO records the HPV vaccine as introduced nationwide in Sri Lanka in 2017. WHO's programme estimates put first-dose coverage at 99% in 2019, 31% in 2023 and 96% in 2025, with 74% completing the course. The figures Sri Lanka itself reported show no fall in 2023: about 92% for the first dose that year. Hepatitis B vaccine, which prevents liver cancer, reaches over 95% of infants.",
           detail:
-            "In the programme coverage rows Sri Lanka reported to WHO, the first year with HPV data is 2017, when 65% of 180,924 girls received a first dose. First-dose coverage was 87% in 2018, 99% in 2019, 67% in 2020, 68% in 2021, 81% in 2022, 31% in 2023, 48% in 2024 (against a target of 335,100 girls, about twice the usual cohort) and 96% of 169,476 in 2025; last-dose coverage was 82% in 2019, 25% in 2023 and 74% in 2025. WHO's rows give no reason for the 2023 fall, and OnCo has not found one in a primary source. The 2020 to 2024 cancer plan quoted 66.8% coverage in 2018 and set a target of 90% by 2025, with girls in grade six (10 to 11 years) as its indicator. Third-dose hepatitis B coverage in infants was 98% in 2022 and 96% in WHO and UNICEF's estimate for 2025. Oral cancer prevention leans on betel and tobacco control: in 2024 the programme printed 10,000 posters on the ban on using and selling betel, tobacco and areca nut products in state premises.",
+            "WHO's vaccine introduction rows record the HPV vaccine as introduced nationwide in 2017. In WHO's programme coverage estimates, the first year with HPV data is 2017, when 65% of 180,924 girls received a first dose. First-dose coverage was 87% in 2018, 99% in 2019, 67% in 2020, 68% in 2021, 81% in 2022, 31% in 2023, 48% in 2024 (against a target of 335,100 girls, about twice the usual cohort) and 96% of 169,476 in 2025; last-dose coverage was 82% in 2019, 25% in 2023 and 74% in 2025. These are WHO's estimates, not the figures Sri Lanka reported. The administrative coverage Sri Lanka reported, in the same WHO data read on 17 November 2026, gives first-dose coverage of 74% in 2020, 84% in 2021, 90% in 2022, 91.56% in 2023, 94.26% in 2024 and 95.47% in 2025, and final-dose coverage of 82% in 2019, 91.71% in 2023, 87.5% in 2024 and 73.64% in 2025. WHO's rows give no reason for the gap between its estimates and the reported figures in 2023 and 2024, and OnCo has not found one in a primary source. The 2020 to 2024 cancer plan quoted 66.8% coverage in 2018 and set a target of 90% by 2025, with girls in grade six (10 to 11 years) as its indicator. Third-dose hepatitis B coverage in infants was 98% in 2022 and 96% in WHO and UNICEF's estimate for 2025. Oral cancer prevention leans on betel and tobacco control: in 2024 the programme printed 10,000 posters on the ban on using and selling betel, tobacco and areca nut products in state premises.",
           links: [
             { label: "WHO immunisation data: HPV programme coverage rows for Sri Lanka (API)", url: WHO_HPV_API },
+            { label: "WHO immunisation data: all HPV coverage rows for Sri Lanka, estimates, administrative and official (API)", url: "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'LKA'%20and%20contains(ANTIGEN,'HPV')" },
+            { label: "WHO immunisation data: vaccine introduction rows for Sri Lanka (API)", url: "https://xmart-api-public.who.int/WIISE/MT_AD_INTRO_LONG?$filter=ISO_3_CODE%20eq%20'LKA'" },
             { label: "National Strategic Plan on Prevention and Control of Cancer 2020 to 2024, strategy 2.8 (PDF)", url: NSP_2020 },
             { label: "NCCP: Annual Report 2024, oral cancer prevention and control unit (PDF)", url: AR_2024 },
           ],
@@ -343,8 +348,8 @@ export const LK_DIVE: CountryDive = {
       tables: [
         {
           id: "lk-hpv",
-          title: "HPV vaccination coverage reported to WHO",
-          caption: "Girls in the target cohort, percentage receiving a first dose and completing the course, by year, as Sri Lanka reported them.",
+          title: "HPV vaccination coverage in WHO's programme estimates",
+          caption: "Girls in the target cohort, percentage receiving a first dose and completing the course, by year, in WHO's programme estimates.",
           columns: [
             { key: "year", label: "Year" },
             { key: "target", label: "Target girls", numeric: true },
@@ -360,7 +365,7 @@ export const LK_DIVE: CountryDive = {
             { year: "2024", target: 335100, first: 48, last: 12 },
             { year: "2025", target: 169476, first: 96, last: 74 },
           ],
-          note: "Administrative coverage from the national programme. In 2024 the first-dose target was 335,100 and the last-dose target 522,477, larger cohorts than usual; the reason is not stated in the rows. Male vaccination rows are empty.",
+          note: "These are WHO's programme estimates, not the administrative coverage Sri Lanka reported, which was 91.56% for the first dose and 91.71% for the final dose in 2023. In 2024 the first-dose target was 335,100 and the last-dose target 522,477, larger cohorts than usual; the reason is not stated in the rows. Male vaccination rows are empty.",
           sources: [{ label: "WHO immunisation data: HPV programme coverage rows for Sri Lanka (API)", url: WHO_HPV_API }],
         },
       ],
@@ -417,11 +422,11 @@ export const LK_DIVE: CountryDive = {
         },
         {
           id: "plan",
-          title: "The 2020 to 2024 plan has ended, and its successor is not yet published",
+          title: "The 2020 to 2024 plan has ended, and OnCo found no published successor",
           plain:
             "Sri Lanka's National Strategic Plan on Prevention and Control of Cancer ran from 2020 to 2024, alongside plans for childhood cancer (2021 to 2025) and cervical cancer elimination (2021 to 2030). The programme's 2024 report called that year the plan's last; OnCo found no published plan for 2025 onward.",
           detail:
-            "The National Strategic Plan 2020 to 2024, first printed in November 2020 and built on the recommendations of the October 2019 imPACT review, set strategies from governance and prevention through early detection, diagnosis and treatment, palliative care and surveillance, under the National Advisory Committee on Prevention and Control of Cancers and its technical advisory committees. The programme's strategic plans page also lists the National Strategic Plan on Childhood and Adolescent Cancer Care 2021 to 2025, the National Strategic Framework on Palliative Care Development 2019 to 2023 and a social and behaviour change communication strategy; its roadmap adds a National Strategic Plan to reach the interim targets of cervical cancer elimination 2021 to 2030. The 2024 annual report says 2024 was the final year of the 2020 to 2024 plan and that a palliative care framework for 2025 to 2030 was being developed. Its list of research priorities includes survival rates for oral, colorectal, thyroid and oesophageal cancers and for childhood cancers, figures Sri Lanka does not yet publish nationally.",
+            "The National Strategic Plan 2020 to 2024, first printed in November 2020 and built on the recommendations of the October 2019 imPACT review, set strategies from governance and prevention through early detection, diagnosis and treatment, palliative care and surveillance, under the National Advisory Committee on Prevention and Control of Cancers and its technical advisory committees. The programme's strategic plans page also lists the National Strategic Plan on Childhood and Adolescent Cancer Care 2021 to 2025, the National Strategic Framework on Palliative Care Development 2019 to 2023 and a social and behaviour change communication strategy; its roadmap adds a National Strategic Plan to reach the interim targets of cervical cancer elimination 2021 to 2030. The 2024 annual report says 2024 was the final year of the 2020 to 2024 plan and, under a heading on a palliative care framework for 2025 to 2030, that work on a plan it names as the National Strategic Plan on Prevention and Control of Cancer in Sri Lanka for 2025 to 2030 began with a first consultative meeting on 29 November 2024. Its list of research priorities includes survival rates for oral, colorectal, thyroid and oesophageal cancers and for childhood cancers, figures Sri Lanka does not yet publish nationally.",
           links: [
             { label: "National Strategic Plan on Prevention and Control of Cancer 2020 to 2024 (PDF)", url: NSP_2020 },
             { label: "NCCP: strategic plans", url: NCCP_STRATEGIC },
@@ -434,11 +439,11 @@ export const LK_DIVE: CountryDive = {
   gaps: [
     {
       id: "radiotherapy-count",
-      title: "No current count of radiotherapy machines",
+      title: "Radiotherapy machines: the IAEA directory gives a count, and OnCo found no official Sri Lankan one",
       plain:
-        "OnCo could not read a dated, official count of radiotherapy machines in Sri Lanka. The 2020 plan says radiotherapy is given in seven centres; the IAEA's directory of radiotherapy centres would hold machine counts but serves its data only through an interactive page OnCo could not read as text.",
+        "OnCo found no dated count of radiotherapy machines published by Sri Lanka's own health authorities. The 2020 plan says radiotherapy is given in seven centres. The IAEA's directory of radiotherapy centres, read on 17 November 2026, lists nine centres with 16 linear accelerators and 13 cobalt-60 units; its entries are reported by the centres and dated 2022 to 2026. An earlier version of this page said the directory could not be read, which was wrong.",
       detail:
-      "The IAEA's DIrectory of RAdiotherapy Centres (DIRAC) returned only its navigation shell to a plain request on 11 November 2026. The National Cancer Institute's treatment page lists cobalt teletherapy and brachytherapy machines but is undated, so its counts are not used. The programme's 2024 report mentions both cobalt and linear accelerator machines and a planned second phase of linear accelerator procurement without giving numbers. The full reports of the 2008 and 2019 imPACT reviews were not found; the recommendations quoted here come through the 2020 to 2024 plan and the 2024 annual report.",
+      "The IAEA's Directory of Radiotherapy Centres (DIRAC), read on 17 November 2026, lists nine radiotherapy centres in Sri Lanka with 16 linear accelerators and 13 cobalt-60 units between them: Apeksha Hospital at Maharagama (8 linear accelerators and 6 cobalt-60 units), National Hospital Kandy (2 and 2), National Hospital Galle, the Teaching Hospital Karapitiya (1 and 1), Tellippalai base hospital in Jaffna (1 and 1), Teaching Hospital Badulla (2 cobalt-60 units), Teaching Hospital Anuradhapura (1 cobalt-60 unit), Teaching Hospital Batticaloa (1 linear accelerator), Ceylinco Healthcare Centre in Colombo (2 linear accelerators) and the Asiri AOI Cancer Centre in Colombo (1 linear accelerator). Three entries record brachytherapy: Apeksha, Kandy and Ceylinco. The entries are reported by the centres themselves and are dated 2022 (Ceylinco), 2024 (Asiri AOI), 2025 (six centres) and 2026 (Galle). The directory's country row gives the same nine centres and 29 megavoltage units. The two sources differ: the 2020 to 2024 plan counted radiotherapy in seven centres of excellence in 2020, and the directory lists nine centres in entries dated 2022 to 2026; OnCo gives both and cannot say which centres account for the difference. The National Cancer Institute's own treatment page says it has six cobalt machines and one brachytherapy machine but is undated. The programme's 2024 report mentions both cobalt and linear accelerator machines and a planned second phase of linear accelerator procurement without giving numbers. The full reports of the 2008 and 2019 imPACT reviews were not found; the recommendations quoted here come through the 2020 to 2024 plan and the 2024 annual report.",
       links: [
         { label: "IAEA: DIRAC, directory of radiotherapy centres", url: "https://dirac.iaea.org/" },
         { label: "NCCP: Annual Report 2024 (PDF)", url: AR_2024 },
@@ -446,7 +451,7 @@ export const LK_DIVE: CountryDive = {
     },
     {
       id: "approval-times",
-      title: "No published registration times or cancer medicine list",
+      title: "No published registration times or cancer medicine list found",
       plain:
         "OnCo found no published target or measured time for the NMRA to register a new cancer medicine, no read of Sri Lanka's national essential medicines list for cancer, and no list of which cancer medicines state hospitals stock. Whether a medicine is registered, priced and actually in stock are separate questions this page cannot answer medicine by medicine.",
       detail:
@@ -460,7 +465,7 @@ export const LK_DIVE: CountryDive = {
       id: "unread-sources",
       title: "Other figures not found or not verified",
       plain:
-        "Some figures a reader would want are not here: population-based survival after a cancer diagnosis, what cancer patients pay themselves, the reason HPV coverage fell in 2023, the Colombo registry's age-standardised rates, and anything about Sri Lankan patient groups, whose pages OnCo could not reach.",
+        "Some figures a reader would want are not here: population-based survival after a cancer diagnosis, what cancer patients pay themselves, the reason WHO's estimate of HPV coverage for 2023 is far below the coverage Sri Lanka reported, the Colombo registry's age-standardised rates, and anything about Sri Lankan patient groups, whose pages OnCo could not reach.",
       detail:
         "No national cancer survival figures were found; the programme lists survival studies among its research priorities. The Colombo registry report is a scanned image; its counts were checked by adding men and women, but its age-standardised rates and site tables were not readable. The 2022 national report's executive summary gives the female breast cancer crude rate as 487.6 per 100,000, an evident misprint, so OnCo uses its counts. The UICC directory lists the Indira Cancer Trust and the Sri Lanka Cancer Society as members, but their UICC pages refused a scripted request and OnCo has not written records for them. IARC's detailed data sources and methods page for Sri Lanka was not read, so which subnational registry IARC used is not named. The National Cancer Institute's performance reports end in 2019.",
       links: [

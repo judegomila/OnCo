@@ -8,12 +8,13 @@ import type { CountryDive } from "@/data/country-dive";
  * regulator's pages, the SEN-CSU agency's site (read from its own script bundle, because the page text is built by
  * script), the Ministry of Health's site (under maintenance, so the Internet Archive copy of 31 December 2025), IAEA
  * DIRAC's public equipment data, and the papers' abstracts and one full text through Europe PMC. Where a figure could
- * not be read it is named under `gaps`.
+ * not be read it is named under `gaps`. A second claim-by-claim pass on 16 November 2026 re-read each source as raw text;
+ * WHO's HPV rows were read with the broad antigen filter, which also returns the country-reported rows.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/686-senegal-fact-sheet.pdf";
 const WHO_PROFILE = "https://cdn.who.int/media/docs/default-source/country-profiles/cancer/sen-2020.pdf";
 const AFCRN = "https://afcrn.org/index.php/membership/membership-list";
-const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'SEN'%20and%20startswith(ANTIGEN,'PRHPV')";
+const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'SEN'%20and%20contains(ANTIGEN,'HPV')";
 const WHO_OOP_API = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'SEN'";
 const WHO_CHE_API = "https://ghoapi.azureedge.net/api/GHED_CHEGDP_SHA2011?$filter=SpatialDim%20eq%20'SEN'";
 const SEN_CSU = "https://www.agencecmu.sn/";
@@ -34,11 +35,11 @@ export const SN_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Senegal",
   description:
-    "Cancer in Senegal from Senegalese and international sources: IARC's estimate of 14,358 new cancers and 9,659 deaths in 2024, made without Senegalese incidence data, cervical and breast cancer the commonest and liver cancer the deadliest, free chemotherapy since 2019, the ARP regulator, four radiotherapy machines in three centres, and first-dose HPV vaccination of girls reaching 69%.",
+    "Cancer in Senegal from Senegalese and international sources: IARC's estimate of 14,358 new cancers and 9,659 deaths in 2024, made without Senegalese incidence data, cervical and breast cancer the commonest and liver cancer the deadliest, chemotherapy reported free since 2019, the ARP regulator, four radiotherapy machines in three centres, and first-dose HPV vaccination of girls reaching 69%.",
   lede:
-    "Senegal has no population-based cancer registry that IARC can use, so its national figures are estimates borrowed from neighbouring countries: 14,358 new cancers and 9,659 deaths in 2024. Cervical and breast cancer are the commonest, and liver cancer, mostly following hepatitis B, causes the most deaths. Since 2019 the state has paid for chemotherapy, first for breast and cervical cancer and from 2022 for all anticancer medicines.",
+    "IARC's fact sheet for Senegal names no Senegalese source of incidence data: its national figures are estimates built from neighbouring countries' data, 14,358 new cancers and 9,659 deaths in 2024. Cervical and breast cancer are the commonest, and liver cancer, which in West Africa mostly follows hepatitis B, causes the most deaths. A peer-reviewed review reports that the state has paid for chemotherapy since 2019, first for breast and cervical cancer and three years later for all anticancer treatments.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Senegal is 14,358 new cancers (5,688 in men, 8,670 in women) and 9,659 deaths, an age-standardised incidence of 121.1 per 100,000 (101.7 in men, 140.6 in women) and mortality of 84.9. The fact sheet names no country-specific incidence source: incidence rates are based on estimates or registry data from neighbouring countries. Mortality is then derived from those incidence estimates using model-based mortality-to-incidence ratios from registry survival data (the fact sheet names SURVCAN as the source). So neither figure is counted in Senegal, and WHO's 2020 profile notes that Senegal had no coverage by mortality registration in 2007 to 2016. IARC counts 154 non-melanoma skin cancers among the 14,358 (14,204 excluding them).",
+    "IARC's GLOBOCAN 2024 figure for Senegal is 14,358 new cancers (5,688 in men, 8,670 in women) and 9,659 deaths, an age-standardised incidence of 121.1 per 100,000 (101.7 in men, 140.6 in women) and mortality of 84.9. The fact sheet names no country-specific incidence source: incidence rates are based on estimates or registry data from neighbouring countries. Mortality is then derived from those incidence estimates using model-based mortality-to-incidence ratios from registry survival data (the fact sheet names SURVCAN as the source). On that method neither figure is a count made in Senegal, and WHO's 2020 profile notes that Senegal had no coverage by mortality registration in 2007 to 2016. IARC counts 154 non-melanoma skin cancers among the 14,358 (14,204 excluding them).",
   sections: [
     {
       id: "profile",
@@ -57,7 +58,7 @@ export const SN_DIVE: CountryDive = {
         },
         {
           id: "liver",
-          title: "Liver cancer causes the most cancer deaths, and mostly follows hepatitis B",
+          title: "Liver cancer causes the most cancer deaths, and in West Africa mostly follows hepatitis B",
           plain:
             "Liver cancer is the commonest cancer in Senegalese men and the leading cause of cancer death overall, with 1,705 deaths in 2024 against 1,926 new cases. In West Africa it mostly follows long-term hepatitis B infection, and a Dakar study showed that regular ultrasound checks for people with hepatitis B can be run there.",
           detail:
@@ -69,11 +70,11 @@ export const SN_DIVE: CountryDive = {
         },
         {
           id: "no-registry",
-          title: "No population-based registry, and only a hospital registry for children",
+          title: "No Senegalese registry behind the national figures, and a hospital registry for children",
           plain:
-            "Senegal has no cancer registry whose figures IARC uses, and no Senegalese registry is on the African Cancer Registry Network's current member list. For children, a hospital registry at Le Dantec Hospital in Dakar recorded 568 cancers in 2017 to 2019, and researchers have tested whether a population registry for the Dakar region is possible.",
+            "IARC's fact sheet names no Senegalese registry as a source for its figures, and no Senegalese registry is on the African Cancer Registry Network's current member list. For children, a hospital registry at Le Dantec Hospital in Dakar recorded 568 cancers in 2017 to 2019, and researchers have tested whether a population registry for the Dakar region is possible.",
           detail:
-            "WHO's 2020 cancer country profile records no information on a population-based registry and warns that Senegal's incidence and mortality estimates carry a high degree of uncertainty because they rest on neither a population registry nor national mortality data. The AFCRN membership list, read on 11 November 2026, has 35 registries and none in Senegal. The paediatric oncology unit at Le Dantec Hospital keeps a hospital-based registry that takes children from all of Senegal: 568 cancers in children under 18 from 2017 to 2019, 133 of them in Dakar residents. A search of other Dakar hospitals found 283 more cases, 149 without a recorded home address, and an estimated incidence of 33 per million person-years, which the GFAOP authors judge too low to be complete.",
+            "WHO's 2020 cancer country profile records no information on a population-based registry and warns that Senegal's incidence and mortality estimates carry a high degree of uncertainty because they rest on neither a population registry nor national mortality data. The AFCRN membership list, read on 11 and 16 November 2026, has 35 registries and none in Senegal. The paediatric oncology unit at Le Dantec Hospital keeps a hospital-based registry that takes children from all of Senegal: 568 cancers in children under 18 from 2017 to 2019, 133 of them in Dakar residents. A search of other Dakar hospitals found 283 more cases, 149 without a recorded home address, and an estimated incidence of 33 per million person-years, which the GFAOP authors judge too low to be complete.",
           links: [
             { label: "WHO: cancer country profile 2020, Senegal (PDF)", url: WHO_PROFILE },
             { label: "AFCRN: current membership list", url: AFCRN },
@@ -128,7 +129,7 @@ export const SN_DIVE: CountryDive = {
         },
         {
           id: "free-chemotherapy",
-          title: "Free chemotherapy, first for breast and cervical cancer, then for all cancers",
+          title: "Free chemotherapy, first for breast and cervical cancer, then for all anticancer treatments",
           plain:
             "A peer-reviewed review reports that Senegal made chemotherapy free in 2019 for all women with cervical or breast cancer and, three years later, extended this to all anticancer treatments. A 2019 account of medical oncology in Senegal had called for a large subsidy of anticancer drugs.",
           detail:
@@ -172,9 +173,9 @@ export const SN_DIVE: CountryDive = {
           id: "hpv",
           title: "HPV vaccination of 9-year-old girls since 2018, with first-dose coverage of 69%",
           plain:
-            "Senegal added the HPV vaccine to its routine schedule in 2018 for 9-year-old girls, through health centres, schools and outreach. WHO's figures show first-dose coverage of 90% in 2019, a fall to 48% in 2020, and a climb back to 69% in 2025. WHO gives no coverage figures for boys.",
+            "Senegal added the HPV vaccine to its routine schedule in 2018 for 9-year-old girls, through health centres, schools and outreach. WHO's programme coverage estimates show first-dose coverage of 90% in 2019, a fall to 48% in 2020, and a climb back to 69% in 2025. The programme is for girls. WHO's data holds one figure for boys, a country-reported final dose for 24.13% in 2021, and none in any other year.",
           detail:
-            "WHO's immunisation coverage rows for Senegal give first-dose HPV coverage for girls of 90% in 2019, 48% in 2020, 67% in 2021, 50% in 2022, 58% in 2023, 66% in 2024 and 69% in 2025. Coverage of the last dose in the schedule rose from 26% in 2019 to 51% in 2024 and 60% in 2025. A review of the introduction says school-based demonstrations ran from 2014 to 2016, that the global vaccine shortage limited the start to one age group, and that a health worker strike, rumours and hesitancy held it back. A costing study counted 375,608 doses given and a financial cost of US$7.75 a dose.",
+            "WHO's programme coverage estimates for Senegal give first-dose HPV coverage for girls of 90% in 2019, 48% in 2020, 67% in 2021, 50% in 2022, 58% in 2023, 66% in 2024 and 69% in 2025. Coverage of the last dose in the schedule rose from 26% in 2019 to 51% in 2024 and 60% in 2025. The same WHO data, read on 16 November 2026, also carries the figures Senegal reported itself, which differ: for 2025 an official figure of 100% for girls' first dose and 62% for the final dose. For boys every row is empty except 2021, where the country-reported final-dose row gives 49,974 doses and coverage of 24.13%; the programme coverage estimates give nothing for boys in any year. A review of the introduction says school-based demonstrations ran from 2014 to 2016, that the global vaccine shortage limited the start to one age group, and that a health worker strike, rumours and hesitancy held it back. A costing study counted 375,608 doses given and a financial cost of US$7.75 a dose.",
           links: [
             { label: "WHO: HPV vaccination coverage rows for Senegal (public API)", url: WHO_HPV_API },
             { label: "Casey et al., HPV vaccine introduction in Senegal (Vaccine 2022)", url: "https://doi.org/10.1016/j.vaccine.2021.08.042" },
@@ -183,7 +184,7 @@ export const SN_DIVE: CountryDive = {
         },
         {
           id: "cervical-screening",
-          title: "About one woman in ten has ever been screened for cervical cancer",
+          title: "About one woman in ten of reproductive age has been screened for cervical cancer",
           plain:
             "In the 2023 national health survey, 9.5% of women of reproductive age said they had been screened for cervical cancer, from 2.4% in Matam to 14.6% in Thiès. WHO recorded screening in 2019 as opportunistic, by visual inspection, rather than an organised programme.",
           detail:
@@ -208,9 +209,9 @@ export const SN_DIVE: CountryDive = {
           plain:
             "IAEA's radiotherapy directory lists three centres in Senegal with four linear accelerators between them: two at Dalal Jamm Hospital in Dakar, one at the Centre International de Cancérologie de Dakar and one at the national hospital in Touba. That is roughly one machine for every 4.7 million people.",
           detail:
-            "IAEA DIRAC's public equipment data, read on 11 November 2026, lists Dalal Jamm Hospital in Dakar (2 linear accelerators and brachytherapy, entry last updated 2019), the Centre International de Cancérologie de Dakar, K.G. Oncologie (1, updated 2023) and the Centre Hospitalier National Cheikh Ahmadoul Khadim in Touba (1, updated 2026), with one CT simulator. DIRAC's population figure for Senegal is about 18.9 million. Because the Dalal Jamm entry dates from 2019, the current count may differ. A team in Dakar has published results of volumetric modulated arc therapy for rectal cancer in 59 patients.",
+            "IAEA's directory of radiotherapy centres, read on 11 November 2026 and again on 16 November 2026, lists three centres: Dalal Jamm Hospital in Dakar (2 linear accelerators, with brachytherapy, one CT and one TPS also listed; entry last updated 2019), the Centre International de Cancérologie de Dakar, K.G.Oncologie (1 linear accelerator, updated 2023) and the Centre Hospitalier National Cheikh Ahmadoul Khadim in Touba (1 linear accelerator, updated 2026). It lists no cobalt-60 unit, and brachytherapy at one centre only. DIRAC's population figure for Senegal is about 18.9 million. Because the Dalal Jamm entry dates from 2019, the current count may differ. A team at the Centre International de Cancérologie de Dakar has published results of volumetric modulated arc therapy for locally advanced rectal cancer in 59 patients.",
           links: [
-            { label: "IAEA DIRAC: radiotherapy equipment by centre (read 11 November 2026)", url: DIRAC },
+            { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC },
             { label: "Ka et al., VMAT for rectal cancer in Senegal (Pan Afr Med J 2026)", url: "https://doi.org/10.11604/pamj.2026.53.107.47465" },
           ],
         },
@@ -259,9 +260,9 @@ export const SN_DIVE: CountryDive = {
           id: "trials-and-studies",
           title: "No ClinicalTrials.gov cancer trials in OnCo's data, but local studies",
           plain:
-            "OnCo's ClinicalTrials.gov participation data has no cancer trial with a site in Senegal. Research still happens: a French and Senegalese study treated lymphoma in Dakar with standard R-CHOP, and Senegalese women were part of the study that found triple-negative breast cancer common in West Africa.",
+            "OnCo's ClinicalTrials.gov participation data, almost all of it fetched on 7 and 8 October 2026, has no cancer trial with a site in Senegal. Research still happens: a French and Senegalese study treated lymphoma in Dakar with standard R-CHOP, and Senegalese women were part of the study that found triple-negative breast cancer common in West Africa.",
           detail:
-            "The LYMPHODAK pilot, registered nationally as SEN18/11, used Senegalese pathology with remote review in France to diagnose 31 diffuse large B-cell lymphomas among 70 biopsies, and treated 30 patients with six cycles of R-CHOP between July 2018 and May 2022: 73% responded, 57% completely, and 24-month overall survival was 80%. Huo and colleagues' 2009 study of 507 women with breast cancer in Nigeria and Senegal found triple-negative tumours predominant, basal-like in 27% and unclassified in 28%, with a mean age of 44.8 in the first cohort; OnCo's triple-negative breast cancer page cites it. The SEN-B hepatitis B cohort at Fann hospital is described in the profile above.",
+            "The LYMPHODAK pilot, registered as SEN18/11, used Senegalese pathology with remote review in France to diagnose 31 diffuse large B-cell lymphomas among 70 biopsies, and treated 30 patients with six cycles of R-CHOP between July 2018 and May 2022: 73% responded, 57% completely, and 24-month overall survival was 80%. Huo and colleagues' 2009 study of 507 women with breast cancer in Nigeria and Senegal found triple-negative tumours predominant, basal-like in 27% and unclassified in 28%, with a mean age of 44.8 in the first cohort; OnCo's triple-negative breast cancer page cites it. The SEN-B hepatitis B cohort at Fann hospital is described in the profile above.",
           links: [
             { label: "Diop et al., the LYMPHODAK study (EJHaem 2025)", url: "https://doi.org/10.1002/jha2.70133" },
             { label: "Huo et al., triple-negative breast cancer in West African women (J Clin Oncol 2009)", url: "https://doi.org/10.1200/jco.2008.19.6873" },
@@ -279,10 +280,11 @@ export const SN_DIVE: CountryDive = {
       plain:
         "OnCo could not read the decree or ministry notice behind Senegal's free chemotherapy policy. The Ministry of Health's site was under maintenance, and the coverage agency's site does not list cancer, so which medicines and hospitals are covered comes from a review, not the source.",
       detail:
-        "The live sante.gouv.sn site showed a maintenance page on 11 November 2026, and its Internet Archive copy of 31 December 2025 showed no cancer programme page. The 2019 and 2022 dates come from a peer-reviewed review that cites a news report and the ministry's site. That news report (AlloDocteurs Africa, a press report, not a government text) quotes a Ministry of Health communiqué saying anticancer medicines are free in all facilities that give chemotherapy, and names hospitals mostly in the Dakar region plus the regional hospitals of Thiès and Fatick; OnCo has not read the communiqué itself. What the policy leaves to patients (surgery, radiotherapy, imaging, pathology), which hospitals give free chemotherapy outside Dakar, and whether targeted and immunotherapy drugs are included were not found in a primary source. A national essential medicines list was not read.",
+        "The live sante.gouv.sn site showed a maintenance page on 11 November 2026 and again on 16 November 2026, and its Internet Archive copy of 31 December 2025 showed no cancer programme page. The 2019 and 2022 dates come from a peer-reviewed review that cites a news report and the ministry's site. That news report (AlloDocteurs Africa, a press report, not a government text) quotes a Ministry of Health communiqué saying anticancer medicines are free in all facilities that give chemotherapy, and the reporter names hospitals mostly in the Dakar region plus the regional hospitals of Thiès and Fatick; OnCo has not read the communiqué itself. What the policy leaves to patients (surgery, radiotherapy, imaging, pathology), which hospitals give free chemotherapy outside Dakar, and whether targeted and immunotherapy drugs are included were not found in a primary source. A national essential medicines list was not read.",
       links: [
         { label: "Ministry of Health (Internet Archive copy, 31 December 2025)", url: MSHP_ARCHIVE },
         { label: "Gbenonsi et al., breast cancer public policies in sub-Saharan Africa (BMC Public Health 2024)", url: GBENONSI },
+        { label: "AlloDocteurs Africa: Les anticancéreux deviennent gratuits au Sénégal (press report)", url: "https://www.allodocteurs.africa/les-anticancereux-deviennent-gratuits-au-senegal-7205.html" },
       ],
     },
     {
@@ -304,7 +306,7 @@ export const SN_DIVE: CountryDive = {
       plain:
         "The Joliot-Curie cancer institute at Aristide Le Dantec Hospital and the patient groups LISCA and AFEC have no records here yet, because OnCo could not read a primary source for them.",
       detail:
-        "UICC's member pages for the Ligue Sénégalaise Contre le Cancer (LISCA) and ONG Action Femme et Enfant contre le Cancer (AFEC) refused OnCo's requests and no archived copy was found, so their membership is not confirmed here. The Joliot-Curie Institute at Aristide Le Dantec Hospital is named in published studies, such as a 2022 study of the direct medical costs of breast cancer treatment there, but no institutional page was read, and the hospital's current status was not checked. The text of Senegal's national cancer control plan, recorded as operational by WHO in 2019, was not found, and an IAEA imPACT review of Senegal was not checked.",
+        "UICC's member pages for the Ligue Sénégalaise Contre le Cancer (LISCA) and ONG Action Femme et Enfant contre le Cancer (AFEC) refused OnCo's requests on 11 November 2026, UICC's site refused a request again on 16 November 2026, and no archived copy was found, so their membership is not confirmed here. The Joliot-Curie Institute at Aristide Le Dantec Hospital is named in published studies, such as a 2022 study of the direct medical costs of breast cancer treatment there, but no institutional page was read, and the hospital's current status was not checked. The text of Senegal's national cancer control plan, recorded as operational by WHO in 2019, was not found, and an IAEA imPACT review of Senegal was not checked.",
       links: [
         { label: "WHO: cancer country profile 2020, Senegal (PDF)", url: WHO_PROFILE },
         { label: "Direct medical costs of breast cancer treatment at the Joliot Curie Institute, Dakar (Pan Afr Med J 2022)", url: "https://doi.org/10.11604/pamj.2022.42.266.32967" },

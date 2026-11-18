@@ -322,7 +322,7 @@ export const simpleL: Record<string, string> = {
   "florian-roser": "Florian Roser is a neurosurgeon specialising in brain and skull base tumours who serves as chief medical officer of Cleveland Clinic Abu Dhabi.",
   "fran-visco": "Fran Visco, a lawyer treated for breast cancer, founded the National Breast Cancer Coalition and won a Department of Defense programme that put trained patient advocates on scientific review panels.",
   "francisca-vazquez": "Francisca Vazquez leads DepMap at the Broad Institute, the public map of which genes each cancer cell line cannot live without, built from genome-wide CRISPR and drug screens.",
-  "francisco-berrospi-espinoza": "Francisco Berrospi Espinoza is a cancer surgeon who heads INEN, Peru's national cancer institute in Lima, after more than two decades as an abdominal surgeon there.",
+  "francisco-berrospi-espinoza": "Francisco Berrospi Espinoza is a cancer surgeon who directs the surgery directorate at INEN, Peru's national cancer institute in Lima, after more than two decades as an abdominal surgeon there.",
   "franck-morschhauser": "Franck Morschhauser is a Lille haematologist and president of LYSA, the French-Belgian lymphoma trials group, who led the RELEVANCE trial of chemotherapy-free treatment in follicular lymphoma.",
   "franco-cavalli": "Franco Cavalli is a Swiss oncologist from Bellinzona who presides over the board of the international study group that runs trials in lymphomas arising outside the lymph nodes.",
   "francois-clement-bidard": "François-Clément Bidard, head of medical oncology at Institut Curie, led PADA-1, the first trial to switch hormone therapy when an ESR1 mutation appeared in a blood test.",

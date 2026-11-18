@@ -27,7 +27,7 @@ export const AM_DIVE: CountryDive = {
   lede:
     "Breast and lung cancer are the commonest cancers in Armenia, and lung cancer causes the most deaths, nearly a quarter of them. Households paid about 80% of the country's health spending out of their own pockets in 2023, the highest share of the ten countries OnCo added in this wave.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Armenia is 10,718 new cancers and 5,468 deaths, an age-standardised incidence of 215.8 per 100,000 (260.1 in men, 193.4 in women). IARC's fact sheet gives the country-specific source for incidence as \"no data\", with national mortality estimates applied to modelled mortality-to-incidence ratios, and mortality from WHO's national data projected to 2024. So IARC worked backwards from Armenia's recorded deaths. OnCo did not find or read Armenia's own cancer statistics for this page; see the gaps.",
+    "IARC's GLOBOCAN 2024 figure for Armenia is 10,718 new cancers and 5,468 deaths, an age-standardised incidence of 215.8 per 100,000 (260.1 in men, 193.4 in women). IARC's fact sheet gives the country-specific source for incidence as \"No data\", with national mortality estimates applied to modelled mortality-to-incidence ratios, and mortality from WHO's national data, with trends in national rates projected to 2024. So the incidence figure is modelled from mortality estimates, not counted from registered cases. OnCo did not find or read Armenia's own cancer statistics for this page; see the gaps.",
   sections: [
     {
       id: "profile",
@@ -132,10 +132,13 @@ export const AM_DIVE: CountryDive = {
           id: "nco",
           title: "A national oncology centre in Yerevan with its own brachytherapy department",
           plain:
-            "The National Center of Oncology named after V. A. Fanarjyan, in Yerevan, has departments for surgery by organ, medical oncology, external beam radiotherapy and brachytherapy, palliative care and psychosocial support. It describes its brachytherapy department as the first and only one in Armenia.",
+            "The National Center of Oncology named after V. A. Fanarjyan, in Yerevan, has departments for surgery by organ, medical oncology, external beam radiotherapy and brachytherapy, palliative care and psychosocial support. It describes its brachytherapy department as the first and only one in Armenia; IAEA's directory, read on 16 November 2026, lists brachytherapy at two centres in Yerevan.",
           detail:
-            "The centre's home page, read in Armenian, lists departments of oncological urology, gynaecology, musculoskeletal oncology (named after Sergey Seinyan), abdominal and endoscopic surgery, intracavitary and interstitial radiotherapy, neuro-oncology (formed in October 1983), mammology, external beam radiotherapy, medical oncology for almost all sites except leukaemias, general and paediatric oncology and reconstructive surgery, thoracic surgery, and vascular surgery (created on 12 September 2023). It names Karen Tsarukyan as director, and says palliative care in Armenia began in 2003 with the founding of an association for pain relief and palliative care. The claims about firsts are the centre's own.",
-          links: [{ label: "National Center of Oncology named after V. A. Fanarjyan (in Armenian)", url: NCO }],
+            "The centre's home page, read in Armenian, lists departments of oncological urology, gynaecology, musculoskeletal oncology (named after Sergey Seinyan), abdominal and endoscopic surgery, intracavitary and interstitial radiotherapy, neuro-oncology (formed in October 1983), mammology, external beam radiotherapy, medical oncology for almost all sites except leukaemias, general and paediatric oncology and reconstructive surgery, thoracic surgery, and vascular surgery (created on 12 September 2023). It names Karen Tsarukyan as director, and says palliative care in Armenia began in 2003 with the founding of an association for pain relief and palliative care. The claims about firsts are the centre's own. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists brachytherapy at two centres in Yerevan, this one and Erebuni Radiotherapy Centre, in entries last updated in 2026. That differs from the centre's description of its department as the only one, and OnCo cannot say which is current.",
+          links: [
+            { label: "National Center of Oncology named after V. A. Fanarjyan (in Armenian)", url: NCO },
+            { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
+          ],
         },
       ],
     },
@@ -167,10 +170,10 @@ export const AM_DIVE: CountryDive = {
       plain:
         "OnCo did not read Armenia's national cancer statistics or registry, the Ministry of Health's cancer programmes or screening rules, the state programmes that pay for cancer treatment, the medicines regulator's rules, or WHO's 2020 cancer profile for Armenia. It describes none of these from memory.",
       detail:
-        "OnCo's web searches ran out during this wave. WHO's 2020 profile was not at cdn.who.int/media/docs/default-source/country-profiles/cancer/arm-2020.pdf, the address that served the other countries' profiles. The Ministry of Health's site (moh.am) returned a page that needs a browser to render. Radiotherapy capacity is published in IAEA's DIRAC database, which needs an account for most queries.",
+        "OnCo's web searches ran out during this wave. WHO's 2020 profile was not at cdn.who.int/media/docs/default-source/country-profiles/cancer/arm-2020.pdf, the address that served the other countries' profiles. The Ministry of Health's site (moh.am) returned a page that needs a browser to render. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists three centres in Armenia, all in Yerevan, with seven linear accelerators between them and no cobalt-60 unit: V.A. Fanarjyan National Centre of Oncology (three linear accelerators, with brachytherapy), Erebuni Radiotherapy Centre (three linear accelerators, with brachytherapy) and IRA Medical Group Radiotherapy Center (one linear accelerator). All three entries were last updated in 2026. The directory lists brachytherapy at two centres, while the national centre's own page describes its brachytherapy department as the only one in Armenia; OnCo reports both and cannot say which is current.",
       links: [
         { label: "Ministry of Health of Armenia", url: "https://www.moh.am/" },
-        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
       ],
     },
   ],
@@ -181,7 +184,7 @@ export const AM_DIVE: CountryDive = {
   papers: [],
   people: ["karen-tsarukyan"],
   how:
-    "Every card was written from public sources read as raw text on 11 November 2026: IARC's GLOBOCAN 2024 fact sheet, the National Center of Oncology's home page in Armenian, WHO's immunisation data and the World Bank's health expenditure series.",
+    "Every card was written from public sources read as raw text on 11 November 2026: IARC's GLOBOCAN 2024 fact sheet, the National Center of Oncology's home page in Armenian, WHO's immunisation data and the World Bank's health expenditure series. IAEA's directory of radiotherapy centres was read from its public equipment data on 16 November 2026.",
   verify:
     "This page has no Armenian national statistics yet. Check with the Ministry of Health or the National Center of Oncology for what is covered and available.",
   verifyLinks: [

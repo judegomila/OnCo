@@ -84,4 +84,63 @@ describe("side-effect protocols", () => {
     expect(colitis.find((p) => p.id === "irae-colitis")?.drugs).not.toContain("capecitabine");
     expect((byGroup["Hand-foot syndrome"] ?? []).map((p) => p.id)).toContain("hand-foot-syndrome-prevention-and-dose-modification");
   });
+
+  // The fourteen protocols written for side effects of targeted drugs, each under the groups it manages. A specific one
+  // is pinned with a product it must appear beside and, where the group holds other causes, one it must not.
+  const TARGETED: Array<{ group: string; id: string; general?: true; beside?: string[]; notBeside?: string[] }> = [
+    { group: "High blood pressure", id: "hypertension-and-proteinuria-on-vegf-pathway-inhibitors", beside: ["bevacizumab", "axitinib", "lenvatinib"], notBeside: ["ibrutinib", "zanubrutinib", "carfilzomib", "lorlatinib"] },
+    { group: "High blood pressure", id: "atrial-fibrillation-and-bleeding-on-btk-inhibitors", beside: ["ibrutinib", "zanubrutinib"], notBeside: ["bevacizumab", "axitinib", "carfilzomib"] },
+    { group: "Kidney problems", id: "hypertension-and-proteinuria-on-vegf-pathway-inhibitors", beside: ["bevacizumab", "ramucirumab"], notBeside: ["cisplatin", "nivolumab", "adagrasib"] },
+    { group: "Heart rhythm changes (QT, atrial fibrillation)", id: "qt-prolongation-monitoring-on-anticancer-drugs", beside: ["ribociclib", "osimertinib", "quizartinib"], notBeside: ["ibrutinib", "acalabrutinib", "camizestrant"] },
+    { group: "Heart rhythm changes (QT, atrial fibrillation)", id: "atrial-fibrillation-and-bleeding-on-btk-inhibitors", beside: ["ibrutinib", "acalabrutinib", "zanubrutinib", "pirtobrutinib"], notBeside: ["ribociclib", "osimertinib", "camizestrant"] },
+    { group: "Bleeding or bruising", id: "atrial-fibrillation-and-bleeding-on-btk-inhibitors", beside: ["ibrutinib", "pirtobrutinib"], notBeside: ["bevacizumab", "trastuzumab-emtansine", "gemtuzumab-ozogamicin"] },
+    { group: "High blood sugar", id: "hyperglycaemia-on-pi3k-akt-mtor-inhibitors", beside: ["alpelisib", "capivasertib", "everolimus"], notBeside: ["enfortumab-vedotin"] },
+    { group: "Blood chemistry or blood count changes (other)", id: "hypomagnesaemia-on-egfr-antibodies", beside: ["cetuximab", "panitumumab"], notBeside: ["erdafitinib", "lorlatinib", "ivosidenib"] },
+    { group: "Blood chemistry or blood count changes (other)", id: "hyperphosphataemia-on-fgfr-inhibitors", beside: ["erdafitinib", "pemigatinib", "futibatinib"], notBeside: ["cetuximab", "panitumumab", "nirogacestat"] },
+    { group: "Thyroid changes", id: "hypothyroidism-on-tyrosine-kinase-inhibitors", beside: ["fruquintinib"], notBeside: ["pembrolizumab", "nivolumab", "ipilimumab"] },
+    { group: "Liver inflammation or raised liver enzymes", id: "raised-liver-enzymes-on-targeted-anticancer-drugs", beside: ["ribociclib", "pazopanib", "sotorasib"], notBeside: ["pembrolizumab", "nivolumab", "gemtuzumab-ozogamicin"] },
+    { group: "Lung inflammation (pneumonitis, ILD)", id: "interstitial-lung-disease-on-antibody-drug-conjugates-and-targeted-drugs", beside: ["trastuzumab-deruxtecan", "osimertinib", "everolimus"], notBeside: ["pembrolizumab", "nivolumab", "durvalumab"] },
+    { group: "Fluid retention (swelling, effusions)", id: "fluid-retention-and-effusions-on-kinase-inhibitors", beside: ["imatinib", "dasatinib", "avapritinib"], notBeside: ["belzutifan", "ivermectin", "lorlatinib"] },
+    { group: "Differentiation syndrome", id: "differentiation-syndrome-recognition-and-treatment", beside: ["ivosidenib", "enasidenib", "gilteritinib", "revumenib"] },
+    { group: "Capillary leak syndrome", id: "capillary-leak-syndrome-on-anticancer-drugs", beside: ["tagraxofusp", "dinutuximab"] },
+    { group: "Tumour flare", id: "tumour-flare-on-bispecific-antibodies-and-immunomodulatory-drugs", beside: ["glofitamab"] },
+    { group: "Constipation", id: "constipation-in-adults-with-cancer", general: true },
+  ];
+
+  it("lists the fourteen targeted-drug protocols under the groups they manage", () => {
+    expect(new Set(TARGETED.map((t) => t.id)).size).toBe(14);
+    for (const t of TARGETED) {
+      const spec = SYMPTOM_PROTOCOLS[t.group];
+      expect((t.general ? spec?.general : spec?.specific) ?? [], `${t.group}: ${t.id}`).toContain(t.id);
+      // Never both: a protocol written for named treatments is not also offered to everyone with the symptom.
+      expect((t.general ? spec?.specific : spec?.general) ?? [], `${t.group}: ${t.id}`).not.toContain(t.id);
+    }
+    // Adding to a group kept what was already there.
+    expect(SYMPTOM_PROTOCOLS["Bleeding or bruising"].general).toContain("bleeding-precautions-when-platelets-are-low");
+    for (const [group, id] of [["Kidney problems", "irae-nephritis"], ["High blood sugar", "irae-diabetes"], ["Thyroid changes", "irae-thyroid"], ["Liver inflammation or raised liver enzymes", "irae-hepatitis"], ["Lung inflammation (pneumonitis, ILD)", "irae-pneumonitis"]]) {
+      expect(SYMPTOM_PROTOCOLS[group].specific, group).toContain(id);
+    }
+  });
+
+  it("shows each of them beside the products it names and beside no other cause of the same symptom", () => {
+    for (const t of TARGETED) {
+      const shown = (byGroup[t.group] ?? []).find((p) => p.id === t.id);
+      expect(shown, `${t.group}: ${t.id} is shown`).toBeDefined();
+      if (!shown) continue;
+      expect(shown.general, t.id).toBe(Boolean(t.general));
+      const inGroup = new Set(rows.filter((r) => r.group === t.group).map((r) => r.drugId));
+      for (const d of t.beside ?? []) expect(shown.drugs, `${t.group}: ${t.id} beside ${d}`).toContain(d);
+      for (const d of t.notBeside ?? []) {
+        // The product does carry the symptom, so its absence is the protocol's own list at work and not a missing row.
+        expect(inGroup.has(d), `${d} has a row in ${t.group}`).toBe(true);
+        expect(shown.drugs, `${t.group}: ${t.id} not beside ${d}`).not.toContain(d);
+      }
+      // Every product listed is one the protocol record names itself: none of the fourteen reaches a product through a shared technology.
+      const rec = g.must(t.id);
+      if (rec.kind === "protocol" && !t.general) for (const d of shown.drugs) expect(rec.drugs, `${t.id} names ${d}`).toContain(d);
+    }
+    // The immune-related protocols stay with the checkpoint inhibitors: the kinase-inhibitor thyroid row does not gain one.
+    expect((byGroup["Thyroid changes"] ?? []).find((p) => p.id === "irae-thyroid")?.drugs).not.toContain("fruquintinib");
+    expect((byGroup["Liver inflammation or raised liver enzymes"] ?? []).find((p) => p.id === "irae-hepatitis")?.drugs).not.toContain("ribociclib");
+  });
 });

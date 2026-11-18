@@ -396,7 +396,7 @@ export const trop2DeeperRegistry: EntityInput[] = [
     "asOf": "2026-10-06",
     "setting": "Phase 1 Dose Escalation And Expansion Study Of Intralesional TROP2-CAR/ IL15 TGFBR2 KO Engineered Cord Blood-Derived NK Cells In Patients With Diffused Or Multifocal Oral Premalignant Lesions",
     "sponsor": "M.D. Anderson Cancer Center",
-    "tldr": "This study tests TROP-2-directed treatment; the registry reports that it is not yet recruiting.",
+    "tldr": "This study tests TROP-2-directed treatment; the registry reports that it is recruiting.",
     "summary": "The registry lists NCT07631013 as not yet recruiting, last updated 2026-06-11. Enrolment is 36 planned participants, an estimate. Interventions: TROP2 CAR/IL-15 TGFBR2 KO NK cells. Primary measures include Safety and Adverse Events (AEs). No results are posted in the registry; this does not exclude separate publications.",
     "targets": [
       "trop2"

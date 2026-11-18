@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-11",
+ "checked": "2026-11-18",
  "source": {
   "label": "CIViC: genes with accepted clinical evidence (levels A and B)",
   "url": "https://civicdb.org/features/home"
@@ -7,7 +7,7 @@
  "method": "CIViC GraphQL API (https://civicdb.org/api/graphql): every accepted evidence item, grouped by the gene of its molecular profile (a gene feature, or each named partner gene of a fusion feature); one item per gene, with its accepted evidence count and the count at each evidence level (A validated to E inferential); kept when at least one item is level A (validated) or B (clinical evidence). Fusions count for both partner genes. CIViC content is CC0 1.0; cite Griffith et al., Nat Genet 2017.",
  "total": 349,
  "genesAnyLevel": 536,
- "evidenceItems": 4989,
+ "evidenceItems": 5003,
  "licence": "CC0 1.0",
  "items": [
   {
@@ -62,10 +62,10 @@
    "name": "BRAF",
    "id": 5,
    "url": "https://civicdb.org/features/5/summary",
-   "evidence": 261,
+   "evidence": 264,
    "levels": {
     "A": 12,
-    "B": 122,
+    "B": 125,
     "C": 65,
     "D": 58,
     "E": 4
@@ -176,11 +176,11 @@
    "name": "FGFR3",
    "id": 23,
    "url": "https://civicdb.org/features/23/summary",
-   "evidence": 72,
+   "evidence": 73,
    "levels": {
     "A": 1,
     "B": 6,
-    "C": 9,
+    "C": 10,
     "D": 56
    }
   },
@@ -519,6 +519,18 @@
    }
   },
   {
+   "name": "ESR1",
+   "id": 21,
+   "url": "https://civicdb.org/features/21/summary",
+   "evidence": 17,
+   "levels": {
+    "A": 2,
+    "B": 2,
+    "C": 1,
+    "D": 12
+   }
+  },
+  {
    "name": "MTOR",
    "id": 2073,
    "url": "https://civicdb.org/features/2073/summary",
@@ -538,18 +550,6 @@
     "B": 2,
     "C": 3,
     "D": 12
-   }
-  },
-  {
-   "name": "ESR1",
-   "id": 21,
-   "url": "https://civicdb.org/features/21/summary",
-   "evidence": 16,
-   "levels": {
-    "A": 2,
-    "B": 2,
-    "C": 1,
-    "D": 11
    }
   },
   {
@@ -812,6 +812,17 @@
    }
   },
   {
+   "name": "NUP214",
+   "id": 6417,
+   "url": "https://civicdb.org/features/6417/summary",
+   "evidence": 11,
+   "levels": {
+    "B": 7,
+    "C": 3,
+    "D": 1
+   }
+  },
+  {
    "name": "NUTM1",
    "id": 20656,
    "url": "https://civicdb.org/features/20656/summary",
@@ -887,17 +898,6 @@
     "B": 5,
     "C": 2,
     "D": 2
-   }
-  },
-  {
-   "name": "NUP214",
-   "id": 6417,
-   "url": "https://civicdb.org/features/6417/summary",
-   "evidence": 10,
-   "levels": {
-    "B": 6,
-    "C": 3,
-    "D": 1
    }
   },
   {
@@ -1328,6 +1328,15 @@
    }
   },
   {
+   "name": "DEK",
+   "id": 6358,
+   "url": "https://civicdb.org/features/6358/summary",
+   "evidence": 6,
+   "levels": {
+    "B": 6
+   }
+  },
+  {
    "name": "MECOM",
    "id": 1771,
    "url": "https://civicdb.org/features/1771/summary",
@@ -1457,15 +1466,6 @@
     "B": 1,
     "C": 2,
     "D": 2
-   }
-  },
-  {
-   "name": "DEK",
-   "id": 6358,
-   "url": "https://civicdb.org/features/6358/summary",
-   "evidence": 5,
-   "levels": {
-    "B": 5
    }
   },
   {

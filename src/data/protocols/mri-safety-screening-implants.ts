@@ -14,16 +14,26 @@ import { protocol } from "./helpers";
  *
  * The guidance names no implanted port, tissue expander or other cancer-specific device; it defers device-specific
  * advice to manufacturers and professional bodies. Statements about specific devices are therefore not made here.
+ *
+ * Second accuracy pass, 17 November 2026. The MHRA PDF (revision V5.0.3, September 2026, still the edition on the
+ * gov.uk page, last updated 30 September 2026) was fetched again with curl and read with pdftotext; all 13 quotes were
+ * checked verbatim by script. Reworded to what the text says: the patient summary no longer says most ports can be
+ * scanned or tells readers to bring an implant card (the guidance says neither); generic implant safety procedures are
+ * for "low-risk implants" (the guidance does not say passive); patches are handled by a documented site process, not a
+ * flat order to remove them; changing into unit clothing is "ideally"; and three reasons the guidance does not give
+ * were replaced with the ones it does. The Joint British Societies' paper (Heart 2024, DOI resolved through Crossref)
+ * was read as its Europe PMC abstract; the publisher's PDF returned 403. The ACR commentary DOI resolves in Crossref
+ * to the right title; Europe PMC still holds no abstract and the manual itself was not read.
  */
 export const mriSafetyScreeningImplants = protocol({
   id: "mri-safety-screening-implants",
   name: "MRI safety screening for implants, devices and medicine patches",
   aka: ["MRI safety checklist", "MRI screening form", "MRI with a port", "MRI with a pacemaker", "MR conditional implant", "MRI and fentanyl patch", "metal and MRI", "MRI implant card"],
   domain: "screening-diagnostics",
-  tldr: "An MRI scanner is a very strong magnet, so before every scan you will be asked about any implant, device, patch or metal in or on your body, even if you have had MRI before. Bring any implant card. Many implants, including most ports, can be scanned safely under set conditions, but the team needs to know the exact device. Tell the radiographer at once if you feel warmth or tingling.",
-  simple: "Before an MRI you fill in a safety form every time. Tell them about ports, pumps, pacemakers, clips, skin patches, tattoos and any metal. Bring your implant card. If anything feels warm or tingly in the scanner, press the call button.",
-  summary: "MHRA guidance version 5.0 (2026) recommends four screening stages: targeted MRI questions on the referral (the referrer must identify implants and contraindications), questions at booking, a full screening form reviewed with the patient by an MR Authorised Person on arrival, and visual and verbal screening just before entering the magnet room; screening is repeated at every visit and completed before any sedation. Implant make and model should be in the operation notes and on an implant card, and the information should reach the unit before the appointment. Sites should have generic implant safety procedures for low-risk passive implants that do not need make and model, and otherwise identify the device and follow the manufacturer's MR Conditional terms. Where a condition cannot be met, the device is MR Unsafe, unlabelled or unknown, scanning may still proceed if benefit outweighs risk, after a documented multidisciplinary risk assessment (MR radiographer, MR safety expert, MR clinician, and a specialist such as a cardiologist for cardiac devices) with precautions and post-scan checks. Medicine patches with metal can burn, and heated fentanyl patches can cause overdose, so sites need a process for removing and replacing them. Patients with tattoos or permanent make-up report warmth at once. Burns can occur without immediate pain and are reported to the MHRA. Advice about specific devices is left to manufacturers and professional bodies (for cardiac devices, the Joint British Societies' recommendations, which were not read here).",
-  asOf: "2026-11-11",
+  tldr: "An MRI scanner uses a strong magnetic field, so every time you attend you will be asked about any implant, device, patch or metal in or on your body, even if you have had MRI before. Tell the unit about any implant when the scan is booked. An implant does not always rule out MRI, but the team needs to know the exact device. Tell staff at once if you feel warmth or tingling on your skin.",
+  simple: "Before an MRI you are asked safety questions every time. Tell them about ports, pumps, pacemakers, clips, skin patches, tattoos and any metal, and say so when the scan is booked. If anything feels warm or tingly in the scanner, use the call button you are given.",
+  summary: "MHRA guidance version 5.0 (2026) recommends four screening stages: targeted MRI questions on the referral (identifying implants and contraindications is the referrer's responsibility), questions at booking, a full screening form (usually completed on arrival) reviewed with the patient by an MR Authorised Person, and visual and verbal screening just before entering the magnet room; screening is repeated at every visit and completed before any sedation. Implant make and model should be in the electronic operation notes, patients should be given documentation such as an implant card, and the information should be available before the appointment. Sites are recommended to have generic implant safety procedures for low-risk implants that do not need make and model, and otherwise to identify the device and ask the manufacturer for its safety status and conditions. Where a condition cannot be met, the device is MR Unsafe, unlabelled or unknown, scanning may still proceed if benefit outweighs risk, after a documented multidisciplinary risk assessment (as a minimum an MR radiographer, an MR safety expert and the MR clinician, with a relevant specialist such as a cardiologist for a cardiac device where appropriate) with precautions and post-scan checks. Burns from metal in medicine patches have been reported, and fentanyl patches exposed to heat may cause serious overdose, so sites should have a documented process for removing and reapplying or disposing of patches. Patients with tattoos are advised to report warmth or tingling at once, and those with permanent make-up any discomfort or tingling. Burns can occur without immediate pain and are reported to the MHRA. Advice about specific devices is left to manufacturers and professional bodies (for cardiac devices, the Joint British Societies' recommendations, read here only as an abstract).",
+  asOf: "2026-11-17",
   setting: {
     who: ["radiographer", "doctor", "nurse", "patient-or-carer"],
     where: ["outpatient-clinic", "ward"],
@@ -47,21 +57,21 @@ export const mriSafetyScreeningImplants = protocol({
     },
     {
       action: "Screen at booking, again with a full form reviewed with the patient on arrival, and again in person just before the magnet room, and do it at every visit",
-      why: "Several checks give several chances to catch something missed, and things change between scans.",
+      why: "Several checks give several chances to find a problem before the person goes near the magnet. A previous scan, here or elsewhere, does not replace the check.",
       source: "mhra-2026",
       quote: "Screening must take place every time the patient attends the MRI unit, even if the patient has already had a previous MRI examination either locally or at another facility.",
       grade: "ungraded",
     },
     {
       action: "Complete screening before any sedation or anaesthetic, and for people who cannot answer, use family, records, previous imaging or an X-ray to find implants",
-      why: "Once someone is asleep or cannot speak for themselves, they cannot warn staff about metal.",
+      why: "The guidance wants reliable safety information for everyone, including people who cannot fill in the form themselves.",
       source: "mhra-2026",
       quote: "If a patient is to undergo sedation or anaesthesia for the scan, all required safety screening should be completed prior to its administration.",
       grade: "ungraded",
     },
     {
-      action: "For a low-risk passive implant, follow the site's generic implant safety procedure; otherwise identify the make and model and follow the manufacturer's MR conditions",
-      why: "Many common implants are safe under known conditions; others need their own settings or limits.",
+      action: "For a low-risk implant covered by the site's generic implant safety procedure, follow it; otherwise identify the make and model and ask the manufacturer for its safety status and conditions",
+      why: "A generic procedure lets a low-risk implant be scanned without tracing its make and model; for other implants the manufacturer states whether and under what conditions it can be scanned.",
       source: "mhra-2026",
       quote: "Where a local GISP does not exist, sites should have a process for identifying the make and model of the implant.",
       grade: "ungraded",
@@ -74,22 +84,22 @@ export const mriSafetyScreeningImplants = protocol({
       grade: "ungraded",
     },
     {
-      action: "Remove medicine patches that contain metal, following the site's process for taking them off and replacing them",
-      why: "Metal in a patch can heat up and burn, and a heated fentanyl patch can release too much drug.",
+      action: "Ask about medicine patches and follow the site's documented process for removing them and reapplying or disposing of them",
+      why: "Burns from metal parts in medicine patches have been reported, and a fentanyl patch exposed to heat may cause a serious overdose.",
       source: "mhra-2026",
       quote: "For example, patches containing fentanyl may result in a serious overdose if exposed to heat",
       grade: "ungraded",
     },
     {
-      action: "Remove anything removable before entering the scanner room, and change the person into the unit's clothing",
-      why: "Loose metal can be pulled into the magnet, and some fabrics heat up.",
+      action: "Remove anything removable before entering the scanner room where it is safe to do so, and ideally change the person into the unit's clothing",
+      why: "Clothing can hide metal that could heat up or be pulled into the magnet, and fabrics with conductive fibres have caused burns.",
       source: "mhra-2026",
       quote: "Patients should be scanned in appropriate MR SAFE clothing. Ideally, patients should be changed into clothing provided by the MRI unit to minimise the risk of burns.",
       grade: "ungraded",
     },
     {
-      action: "Ask the person to report any warmth or tingling straight away, especially over tattoos or permanent make-up, and give them the call button",
-      why: "Burns can start before they hurt, so an early warning matters.",
+      action: "Ask the person to report any warmth or tingling on the skin straight away, including around tattoos or permanent make-up, and give them the call button",
+      why: "A burn may not be painful immediately, and mild general warmth is normal, so it is warmth or tingling in one place that staff need to hear about.",
       source: "mhra-2026",
       quote: "However, patients should be instructed to inform staff immediately if they feel any focal warming or tingling on their skin.",
       grade: "ungraded",
@@ -103,14 +113,14 @@ export const mriSafetyScreeningImplants = protocol({
     },
   ],
   bestInClass: {
-    statement: "MHRA Safety Guidelines for MRI Equipment in Clinical Use, version 5.0 (2026): four-stage screening repeated at every visit; implant make and model documented and known before the appointment; generic implant safety procedures for low-risk passive implants; manufacturer MR Conditional terms otherwise; a documented multidisciplinary risk assessment for off-label or unknown devices so that people with implants are not refused MRI by default; removal of metal-containing medicine patches; and instructions to report warmth. The guidance is ungraded and defers device-specific advice to manufacturers and professional bodies.",
+    statement: "MHRA Safety Guidelines for MRI Equipment in Clinical Use, version 5.0 (2026): four-stage screening repeated at every visit; implant make and model documented and known before the appointment; generic implant safety procedures for low-risk implants; the manufacturer's safety status and conditions otherwise; a documented multidisciplinary risk assessment for off-label or unknown devices, so that scanning can go ahead where benefit outweighs risk; a documented process for medicine patches; and instructions to report focal warmth or tingling. The guidance is ungraded and defers device-specific advice to manufacturers and professional bodies.",
     sources: ["mhra-2026"],
   },
   variants: [],
   grades: [
     { claim: "Generic implant safety procedures for low-risk implants", grade: "ungraded (key recommendation box)", source: "mhra-2026", quote: "It is recommended that sites establish local generic implant safety procedures (GISPs) to allow scanning of low-risk implants without needing to establish the make and model." },
     { claim: "Off-label scanning decided by a multidisciplinary team", grade: "ungraded", source: "mhra-2026", quote: "As a minimum this should involve an MR RADIOGRAPHER, an MR SAFETY EXPERT and the MR CLINICIAN." },
-    { claim: "Do not rely on generative AI for MR safety advice", grade: "ungraded (key recommendation box)", source: "mhra-2026", quote: "Caution is advised regarding use of MR safety advice obtained using generative artificial intelligence" },
+    { claim: "Caution about MR safety advice obtained from generative AI", grade: "ungraded (key recommendation box)", source: "mhra-2026", quote: "Caution is advised regarding use of MR safety advice obtained using generative artificial intelligence" },
   ],
   sources: [
     {
@@ -121,7 +131,18 @@ export const mriSafetyScreeningImplants = protocol({
       url: "https://www.gov.uk/government/publications/safety-guidelines-for-magnetic-resonance-imaging-equipment-in-clinical-use",
       gradingScheme: "Guidance, not graded; key recommendations are printed in boxes.",
       read: "full-text",
-      accessed: "2026-11-11",
+      accessed: "2026-11-17",
+    },
+    {
+      key: "jbs-cied-2024",
+      label: "Joint British Society consensus recommendations for magnetic resonance imaging for patients with cardiac implantable electronic devices (Heart 2024;110:e3)",
+      publisher: "Heart (BMJ)",
+      year: 2024,
+      url: "https://doi.org/10.1136/heartjnl-2022-320810",
+      doi: "10.1136/heartjnl-2022-320810",
+      gradingScheme: "Consensus recommendations; no grades appear in the abstract.",
+      read: "abstract",
+      accessed: "2026-11-17",
     },
     {
       key: "acr-mr-safety",
@@ -131,7 +152,7 @@ export const mriSafetyScreeningImplants = protocol({
       url: "https://doi.org/10.1148/radiol.242954",
       doi: "10.1148/radiol.242954",
       read: "not-reachable",
-      accessed: "2026-11-11",
+      accessed: "2026-11-17",
     },
   ],
   drugs: ["fentanyl"],
@@ -140,8 +161,9 @@ export const mriSafetyScreeningImplants = protocol({
   upgrades: [],
   gaps: [
     "The MHRA guidance names no cancer-specific device. Whether a particular implanted port, PICC, breast tissue expander with a magnetic port, intrathecal drug pump or radiotherapy marker can be scanned depends on its manufacturer's MR safety information, which is not summarised here.",
-    "The Joint British Societies' recommendations for MRI with cardiac implantable devices, cited by MHRA, were not read.",
-    "The ACR Manual on MR Safety and the 2025 Radiology commentary on it could not be read (the ACR site served a JavaScript shell; Europe PMC holds no abstract for the commentary).",
+    "The Joint British Societies' recommendations for MRI with cardiac implantable electronic devices, cited by MHRA, were read only as an abstract: on 17 November 2026 the publisher's PDF returned 403. The abstract says almost all patients with cardiac devices should now have the same access to MRI in the NHS as the general population; its recommendations themselves are not summarised here.",
+    "The ACR Manual on MR Safety and the 2025 Radiology commentary on it could not be read (the ACR site served a JavaScript shell on 11 November 2026; on 17 November 2026 Europe PMC still held no abstract for the commentary). No step rests on either, so American practice is not compared here.",
+    "The MHRA guidance is written for MRI units in the United Kingdom. It does not tell patients to bring an implant card, and no source read here gives patient-facing wording for that; the page says only that the unit needs the device details before the appointment.",
     "The guidance is ungraded consensus.",
   ],
 });

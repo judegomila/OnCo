@@ -1,28 +1,32 @@
 import { protocol } from "./helpers";
 
 /*
- * Management of chemotherapy extravasation, by agent class, in adults. Written 11 November 2026.
+ * Management of chemotherapy extravasation, by agent class, in adults. Written 11 November 2026; second accuracy pass
+ * 16 November 2026, when every source was fetched again and every claim re-read against the raw text.
  *
- * What was read, and how (all fetched raw with curl; PDFs through pdftotext -layout; HTML stripped of tags and grepped):
+ * What was read on 16 November 2026, and how (all fetched raw with curl; PDFs through pdftotext -layout; HTML and XML
+ * stripped of tags; every quotation checked by script against the saved text):
  * - ONS/ASCO Guideline on the Management of Antineoplastic Extravasation (Clin J Oncol Nurs 2025;29(5):384-399,
- *   DOI 10.1188/25.CJON.384-399, PMC12463152; co-published JCO Oncol Pract 2026, DOI 10.1200/OP-25-00579). Only the
- *   abstract could be read: PMC sits behind a reCAPTCHA, the publisher does not allow full-text XML, Europe PMC returned
- *   a server error for its full text and ascopubs.org sits behind a bot check. The recommendations below come from ONS's own
- *   public summary (ONS Voice, October 2025), read in full as HTML, and from the guideline's one-page clinical algorithm
- *   (PDF on ons.org). The algorithm PDF has no text layer, so it was read as an image: steps cite it for content but
- *   take no quotation from it. The strength and certainty grade of each ONS/ASCO recommendation is in the full article
- *   and is not quoted here, except the one the summary itself prints ("conditional recommendation").
+ *   DOI 10.1188/25.CJON.384-399, PMC12463152; co-published JCO Oncol Pract 2026;22(6):924-938, DOI 10.1200/OP-25-00579).
+ *   On 11 November only the abstract could be read. On 16 November the PubMed Central page answered a plain request
+ *   and the full text was read there as HTML: the five recommendations with their strength and certainty, Table 4
+ *   (antidote doses) and Table 5. Europe PMC still returned a server error for the XML, the publisher does not allow
+ *   XML download, and ascopubs.org still sits behind a bot check, so the JCO Oncology Practice copy was not read. The
+ *   two figures (the algorithm) are images on PubMed Central.
+ * - ONS Voice summary of that guideline (October 2025): read in full as HTML.
+ * - The guideline's one-page clinical algorithm (PDF on ons.org). It has no text layer, so it was read as an image:
+ *   steps cite it for content but take no quotation from it.
  * - JSCN/JSMO/JASPO multidisciplinary guideline on extravasation (ESMO Open 2024;9:103932, DOI 10.1016/j.esmoop.2024.103932,
  *   PMC11490930): full text read as Europe PMC XML, including Table 1 (grades) and Table 2 (drug classification).
  * - Savene (dexrazoxane) Summary of Product Characteristics, EMA product information PDF (file dated July 2024; the SmPC
  *   leaves its own revision date blank): full text. Gives the licensed dexrazoxane schedule.
  * - West Midlands Expert Advisory Group for SACT, Guidelines for the Management of Extravasation of a Systemic Anti-Cancer
  *   Therapy including Cytotoxic Agents (v1, agreed 19 July 2017, review date 19 July 2019; published on england.nhs.uk
- *   in May 2019): full text. The UK network variant; past its own review date, which the page says.
- * - ESMO-EONS Clinical Practice Guidelines (Ann Oncol 2012;23 Suppl 7:vii167-vii173, DOI 10.1093/annonc/mds294): not
- *   reachable. Unpaywall lists it as free at the publisher, but annalsofoncology.org, academic.oup.com and
- *   sciencedirect.com all returned a bot check and Europe PMC holds no abstract. A Europe PMC search found no newer ESMO
- *   edition, and the 2024 Japanese guideline cites the 2012 edition as the current ESMO one. No step rests on it.
+ *   in May 2019): full text, with the flowchart page also read as an image. The UK network variant; past its own review
+ *   date, which the page says.
+ * - ESMO-EONS Clinical Practice Guidelines (Ann Oncol 2012;23 Suppl 7:vii167-vii173, DOI 10.1093/annonc/mds294): still
+ *   not reachable on 16 November 2026 (annalsofoncology.org returned a bot check; Europe PMC holds no abstract). A
+ *   Europe PMC search found no newer ESMO edition. No step rests on it.
  * Every DOI above was resolved through Crossref and its title checked.
  */
 export const chemotherapyExtravasationManagement = protocol({
@@ -33,20 +37,20 @@ export const chemotherapyExtravasationManagement = protocol({
   tldr:
     "If a chemotherapy drug leaks out of the vein into the skin around a drip or port, the nurse stops the drip at once, draws back what they can, marks the area and then treats it according to the drug, with an antidote or a cold or warm pack. Tell the team straight away if the site stings, burns, swells or changes colour, during treatment or in the days after.",
   summary:
-    "Extravasation is leakage of an intravenous anticancer drug into the surrounding tissue. Management starts the same way for every drug: stop the infusion, leave the cannula or port needle in place, aspirate what can be withdrawn without flushing, mark and photograph the area, inform the senior nurse and doctor, then remove the device and elevate the limb.\n\nThe specific measures depend on the drug's class. Vesicants are split into DNA-binding agents (anthracyclines, mitomycin, dactinomycin, mechlorethamine), which are localised and neutralised with cold, and non-DNA-binding agents (vinca alkaloids, taxanes), which are dispersed with warmth and hyaluronidase. The ONS/ASCO 2025 guideline, the newest GRADE-based one, recommends antidotes where available: dexrazoxane for doxorubicin, daunorubicin, epirubicin and idarubicin; hyaluronidase for vinca alkaloids, and conditionally for paclitaxel and docetaxel; topical dimethyl sulfoxide for mitomycin and mitoxantrone, or for an anthracycline when dexrazoxane is unavailable or contraindicated; sodium thiosulfate for more than 20 ml of high-concentration cisplatin and for bendamustine. Thermal compresses are used three to four times daily for 48 to 72 hours: cold for most vesicants, warm for vinca alkaloids, etoposide and oxaliplatin, and for taxanes when hyaluronidase is given.\n\nDexrazoxane is given intravenously in the opposite limb, 1000 mg/m2 on days 1 and 2 and 500 mg/m2 on day 3, the first dose within six hours, with cooling removed 15 minutes beforehand and no dimethyl sulfoxide alongside. Extravasation from a central venous access device, and high-risk cases, are referred early for surgical review. The Japanese 2024 guideline differs on heat (it weakly recommends against warm compresses alone) and makes no recommendation on aspiration; it weakly recommends against local steroid injection and against debriding an ulcer without necrosis. Documentation, patient teaching and follow-up for weeks complete the protocol.",
-  asOf: "2026-11-11",
+    "Extravasation is leakage of an intravenous anticancer drug into the surrounding tissue. Management starts the same way for every drug: stop the infusion, leave the cannula or port needle in place, aspirate what can be withdrawn without flushing, mark and photograph the area, inform the senior nurse and doctor, then remove the device and elevate the limb.\n\nThe specific measures depend on the drug's class. Vesicants are split into DNA-binding agents (anthracyclines, mitomycin, dactinomycin, mechlorethamine), which are localised with cold and neutralised with an antidote where one exists, and non-DNA-binding agents (vinca alkaloids, taxanes), which are dispersed with warmth and hyaluronidase. The ONS/ASCO 2025 guideline, the newest GRADE-based one, recommends antidotes where available (a strong recommendation on very low certainty evidence): dexrazoxane for doxorubicin, daunorubicin, epirubicin and idarubicin; hyaluronidase for vinca alkaloids, and conditionally for paclitaxel and docetaxel; topical dimethyl sulfoxide for mitomycin and mitoxantrone, or for an anthracycline when dexrazoxane is unavailable or contraindicated; sodium thiosulfate for more than 20 ml of high-concentration cisplatin, and to be considered for bendamustine. Thermal compresses (a conditional recommendation) are used three to four times daily for 48 to 72 hours: cold for most vesicants, warm for vinca alkaloids, etoposide and oxaliplatin, and for taxanes when hyaluronidase is given.\n\nDexrazoxane is given intravenously away from the affected limb, 1000 mg/m2 on days 1 and 2 and 500 mg/m2 on day 3, the first dose within six hours, with cooling removed at least 15 minutes beforehand and no dimethyl sulfoxide alongside. For extravasation from a central venous access device ONS/ASCO suggests surgical referral or escalation of care as well as conservative management (a conditional recommendation), with DNA-binding vesicants, large volumes and grade 2 or worse injury the likeliest to benefit. The Japanese 2024 guideline differs on heat (it weakly recommends against warm compresses alone) and makes no recommendation on aspiration; it weakly recommends against local steroid injection and against debriding an ulcer without necrosis. Documentation, patient teaching and follow-up for weeks complete the protocol.",
+  asOf: "2026-11-16",
   setting: {
     who: ["nurse", "doctor", "pharmacist", "surgical-team", "patient-or-carer"],
     where: ["chemotherapy-day-unit", "ward", "outpatient-clinic", "home"],
   },
   population:
-    "Adults receiving intravenous anticancer drugs through a peripheral cannula or a central venous access device. Children are outside every source read here; the Savene label says safety and efficacy below 18 have not been established and does not recommend it in elderly patients, in whom it was not studied.",
+    "Adults receiving intravenous anticancer drugs through a peripheral cannula or a central venous access device. The ONS/ASCO guideline is written for adults, and the UK network guideline for patients over 16 cared for in adult services; the Japanese guideline does not state an age range. The Savene label says safety and efficacy below 18 have not been established, and does not recommend dexrazoxane in elderly patients, in whom it was not evaluated.",
   trigger:
     "During or after an intravenous anticancer infusion, the patient reports pain, burning or swelling at the site, or the nurse sees redness, swelling, a change in skin colour or blanching around the site, or loss of blood return from the device.",
   steps: [
     {
       action: "Recognise it: check the site and the line for loss of blood return, pain, redness, swelling, and skin colour change or blanching",
-      why: "Early signs are often subtle, and treatment works best when it starts as soon as extravasation is suspected.",
+      why: "Recognising a leak early and acting on it gives the best chance of limiting the injury.",
       source: "ons-asco-algorithm-2025",
     },
     {
@@ -56,8 +60,8 @@ export const chemotherapyExtravasationManagement = protocol({
       quote: "Stop the infusion immediately but leave the needle or catheter in place to allow for the possibility of aspirating any residual drug from the line or tissue.",
     },
     {
-      action: "Gently aspirate as much drug as possible through the device with a syringe, without flushing and without pressing on the area, then disconnect the tubing",
-      why: "Less drug left in the tissue means less damage; flushing or pressure would push more of it in.",
+      action: "Slowly aspirate as much drug as possible through the device with a syringe, without flushing, then disconnect the tubing",
+      why: "The aim is to remove drug still sitting in the line or tissue. The ONS/ASCO algorithm adds that the line is not flushed, and the Japanese guideline makes no recommendation on aspiration.",
       source: "ons-voice-2025",
       quote: "Attempt to withdraw as much of the drug as possible using a syringe, then disconnect the tubing.",
     },
@@ -75,7 +79,7 @@ export const chemotherapyExtravasationManagement = protocol({
     },
     {
       action: "Remove the peripheral cannula or the port needle without pressing hard on the site, and raise a peripheral limb",
-      why: "Raising the limb helps the fluid be absorbed; firm pressure spreads the drug.",
+      why: "Raising the limb helps the fluid be absorbed. The algorithm says to avoid firm pressure on the site.",
       source: "ons-asco-algorithm-2025",
     },
     {
@@ -109,13 +113,13 @@ export const chemotherapyExtravasationManagement = protocol({
       quote: "The first infusion should be initiated as soon as possible, within the first six hours after the accident.",
     },
     {
-      action: "Anthracyclines: dose dexrazoxane at 1000 mg/m2 on day 1, 1000 mg/m2 on day 2 and 500 mg/m2 on day 3, each at the same hour plus or minus 3 hours, no single dose above 2000 mg, and halved if creatinine clearance is below 40 ml/min",
-      why: "This is the licensed three-day schedule used in the trials that supported it.",
+      action: "Anthracyclines: dose dexrazoxane at 1000 mg/m2 on day 1, 1000 mg/m2 on day 2 and 500 mg/m2 on day 3, days 2 and 3 at the same hour as day 1 plus or minus 3 hours, no single dose above 2000 mg where body surface area is over 2 m2, and halved if creatinine clearance is below 40 ml/min",
+      why: "This is the licensed three-day schedule. The ONS/ASCO algorithm gives the same doses and also caps day 3 at 1000 mg.",
       source: "savene-smpc",
       quote: "Treatment should be given once daily for 3 consecutive days. The recommended dose is: Day 1: 1000 mg/m2 Day 2: 1000 mg/m2 Day 3: 500 mg/m2",
     },
     {
-      action: "Anthracyclines: infuse dexrazoxane over 1 to 2 hours into a large vein of another limb, and take cold packs off the area at least 15 minutes before",
+      action: "Anthracyclines: infuse dexrazoxane over 1 to 2 hours into a large vein of a limb or area other than the affected one, and take cold packs off the area at least 15 minutes before",
       why: "The drug has to reach the injured tissue through the blood, which cold slows.",
       source: "savene-smpc",
       quote: "Cooling procedures such as ice packs should have been removed from the area at least 15 minutes before the Savene administration in order to allow sufficient blood flow.",
@@ -140,7 +144,7 @@ export const chemotherapyExtravasationManagement = protocol({
     },
     {
       action: "Dimethyl sulfoxide: start within 10 to 25 minutes, using a 50 to 99 per cent solution every 8 hours for 7 days over an area twice the size of the extravasation",
-      why: "This is the schedule the ONS/ASCO algorithm gives; see the variants for a six-hourly one.",
+      why: "This is the schedule the ONS/ASCO algorithm and the full guideline give; see the variants for a six-hourly one.",
       source: "ons-asco-algorithm-2025",
     },
     {
@@ -163,8 +167,8 @@ export const chemotherapyExtravasationManagement = protocol({
       grade: "conditional recommendation",
     },
     {
-      action: "Cisplatin (more than 20 ml at above 0.5 mg/ml) and bendamustine: give sodium thiosulfate",
-      why: "The ONS/ASCO panel names it as the antidote for these two drugs.",
+      action: "Cisplatin (more than 20 ml at above 0.5 mg/ml): give sodium thiosulfate, and consider it for bendamustine",
+      why: "The ONS/ASCO panel names it as the antidote for concentrated cisplatin. For bendamustine the full guideline says to consider it, because bendamustine is a derivative of mechlorethamine.",
       source: "ons-voice-2025",
       quote: "Sodium thiosulfate for extravasation occurring with > 20 ml of cisplatin in high concentration (greater than 0.5 mg/ml) and bendamustine",
     },
@@ -174,8 +178,8 @@ export const chemotherapyExtravasationManagement = protocol({
       source: "wm-eag-2017",
     },
     {
-      action: "Irritants, non-vesicants and drugs not listed: choose a compress by the drug's mechanism, the pain or swelling, and the patient's comfort",
-      why: "Irritants rarely break the skin down, so comfort and the drug's action guide the choice.",
+      action: "Drugs with no cold or warm compress named above: choose a compress by the drug's mechanism, the pain or swelling, and the patient's comfort",
+      why: "Where the guideline names no compress for a drug, it leaves the choice to these three considerations. The UK network guideline uses a dry cold compress for non-vesicants.",
       source: "ons-voice-2025",
       quote: "For extravasation of agents not listed, consider the mechanism of action, presence of pain or swelling, and patient comfort when selecting a compress.",
     },
@@ -187,17 +191,24 @@ export const chemotherapyExtravasationManagement = protocol({
       grade: "Not recommend (weak), certainty D",
     },
     {
-      action: "Refer for surgical review promptly after any central line extravasation of a vesicant, and consider it for DNA-binding vesicants, large volumes and grade 2 or worse symptoms",
-      why: "The panel judged these patients the likeliest to benefit from early specialist review.",
-      source: "ons-voice-2025",
-      quote: "The panel suggested that patients with central line extravasation of vesicants or irritants with vesicant properties be referred for surgical evaluation or escalation of care in addition to conservative management when indicated.",
+      action: "After a central line extravasation of a vesicant or an irritant with vesicant properties, refer for surgical review or escalate care, alongside conservative management",
+      why: "The panel suggests this for central lines, and says patients with DNA-binding vesicants, large volumes or grade 2 or worse injury are the likeliest to benefit. For peripheral lines it found too little evidence and leaves referral to clinical judgement.",
+      grade: "conditional recommendation; very low certainty of evidence",
+      source: "ons-asco-2025",
+      quote: "For patients with central line extravasation of irritant with vesicant properties or vesicant antineoplastic agents, ONS and ASCO suggest surgical referral/escalation of care in addition to conservative management rather than conservative management alone (conditional recommendation; very low certainty of evidence).",
     },
     {
-      action: "Do not debride an ulcer that has no dead tissue; refer for surgery where necrosis or pain persists beyond 10 days",
+      action: "Do not debride an ulcer that has no dead tissue",
       why: "Ulcers without necrosis can heal without surgery, and it is hard to judge early how deep the damage goes.",
       source: "jscn-jsmo-jaspo-2024",
       quote: "It is weakly recommended not to debride EV-induced skin ulcer lesions without necrosis.",
       grade: "Not recommend (weak), certainty C",
+    },
+    {
+      action: "Refer for surgical debridement where tissue necrosis or pain has not resolved after more than 10 days",
+      why: "The UK network guideline keeps surgery for severe injuries that conservative treatment has not settled.",
+      source: "wm-eag-2017",
+      quote: "Treatment of unresolved tissue necrosis or pain lasting more than 10 days is surgical debridement; this is generally for those patients who have suffered a severe extravasation in whom conservative therapy has not been appropriately initiated.",
     },
     {
       action: "Document the drug, dose, volume, site, device, timings, every measure taken and the response, and report the incident",
@@ -218,21 +229,21 @@ export const chemotherapyExtravasationManagement = protocol({
       quote: "All patients must have a review of their extravasation injury within 1 week, this appointment must be arranged prior to the patient leaving clinic",
     },
     {
-      action: "Keep following up DNA-binding vesicant injuries for at least three weeks, in person or remotely, starting within a day",
+      action: "Start follow-up within a day, in person or remotely, and keep monitoring DNA-binding vesicant injuries for at least three weeks",
       why: "Injury from DNA-binding drugs has a history of appearing late.",
       source: "ons-asco-algorithm-2025",
     },
   ],
   bestInClass: {
     statement:
-      "The strongest current recommendation is the ONS/ASCO guideline (2025, GRADE): stop, aspirate and mark; use the drug's antidote where one exists (dexrazoxane for anthracyclines, hyaluronidase for vinca alkaloids and conditionally for taxanes, dimethyl sulfoxide for mitomycin and mitoxantrone or when dexrazoxane cannot be used, sodium thiosulfate for concentrated cisplatin and bendamustine); thermal compresses for 48 to 72 hours, cold for most vesicants and warm for vinca alkaloids, etoposide and oxaliplatin; and early surgical referral after a central line extravasation. Dexrazoxane follows its licensed three-day schedule, started within six hours. Guidelines disagree on two points. ONS/ASCO recommends warm compresses for the dispersing drugs and its algorithm advises aspiration; the Japanese JSCN/JSMO/JASPO guideline (2024) weakly recommends against warm compresses used alone, partly because hyaluronidase is not approved for extravasation in Japan, and makes no recommendation on aspiration because the evidence could not be weighed.",
-    sources: ["ons-voice-2025", "ons-asco-algorithm-2025", "savene-smpc", "jscn-jsmo-jaspo-2024"],
+      "The best supported current recommendation is the ONS/ASCO guideline (2025, GRADE): stop, aspirate and mark; use the drug's antidote where one exists, its one strong recommendation (dexrazoxane for anthracyclines, hyaluronidase for vinca alkaloids and conditionally for taxanes, dimethyl sulfoxide for mitomycin and mitoxantrone or when dexrazoxane cannot be used, sodium thiosulfate for concentrated cisplatin and to be considered for bendamustine); and, as conditional recommendations, thermal compresses for 48 to 72 hours, cold for most vesicants and warm for vinca alkaloids, etoposide and oxaliplatin, and surgical referral or escalation of care after a central line extravasation. All five of its recommendations rest on very low certainty evidence. Dexrazoxane follows its licensed three-day schedule, started within six hours. Guidelines disagree on two points. ONS/ASCO recommends warm compresses for the dispersing drugs and its algorithm advises aspiration; the Japanese JSCN/JSMO/JASPO guideline (2024) weakly recommends against warm compresses used alone, partly because hyaluronidase is not approved for extravasation in Japan, and makes no recommendation on aspiration because the evidence could not be weighed.",
+    sources: ["ons-asco-2025", "ons-voice-2025", "ons-asco-algorithm-2025", "savene-smpc", "jscn-jsmo-jaspo-2024"],
   },
   variants: [
     {
       name: "UK network pathway: localise and neutralise, or disperse and dilute (West Midlands, 2017)",
       differs:
-        "Sorts vesicants by DNA binding: DNA-binding drugs get cold compresses and antidotes, non-DNA-binding drugs get warmth and hyaluronidase. Compresses for 20 minutes four times daily for 1 to 2 days. Chooses the anthracycline antidote by volume: topical dimethyl sulfoxide under 3 ml, dexrazoxane over 3 ml. Starts hyaluronidase within 1 hour (ONS/ASCO says within 2 to 4 hours). Refers vesicant and irritant extravasations to the local plastics or flush-out team for a saline flush-out as soon as possible. Its dimethyl sulfoxide appendix says every 6 hours for 7 days while its own antidote table says every 8 hours.",
+        "Sorts vesicants by DNA binding: DNA-binding drugs get cold compresses and antidotes, non-DNA-binding drugs get warmth and hyaluronidase. Compresses for 20 minutes four times daily for 1 to 2 days. Chooses the anthracycline antidote by volume: topical dimethyl sulfoxide under 3 ml, dexrazoxane over 3 ml. Starts hyaluronidase within 1 hour (the ONS/ASCO algorithm says within 2 to 4 hours and the table in the full guideline within 3 to 4 hours). For a vesicant or irritant leaking from a peripheral cannula, its flowchart includes referral to the local plastics or flush-out team for a saline flush-out as soon as possible, and its text says to consult that team where relevant. Its dimethyl sulfoxide appendix says every 6 hours for 7 days while its own antidote table says every 8 hours.",
       evidence:
         "Expert consensus with no grades; the guideline describes the antidote evidence as often inconclusive. It passed its own review date in July 2019.",
       sources: ["wm-eag-2017"],
@@ -240,7 +251,7 @@ export const chemotherapyExtravasationManagement = protocol({
     {
       name: "Japanese multidisciplinary guideline (JSCN, JSMO and JASPO, 2024)",
       differs:
-        "Cold compresses weakly recommended; warm compresses alone weakly recommended against; topical steroids weakly recommended and injected steroids weakly recommended against; no recommendation on aspiration. Classifies oxaliplatin, docetaxel, paclitaxel and mitoxantrone as vesicants on its own systematic review, where the UK network list calls oxaliplatin and mitoxantrone irritants.",
+        "Cold compresses weakly recommended; warm compresses alone weakly recommended against; topical steroids weakly recommended and injected steroids weakly recommended against; no recommendation on aspiration. Classifies oxaliplatin, docetaxel, paclitaxel and mitoxantrone as vesicants on its own systematic review, where the UK network list calls oxaliplatin and mitoxantrone irritants. It reports finding no clinical evidence to support sorting vesicants by DNA binding.",
       evidence: "GRADE with the Minds handbook; certainty very low (D) for most local measures and moderate (B) for dexrazoxane.",
       sources: ["jscn-jsmo-jaspo-2024"],
     },
@@ -253,7 +264,11 @@ export const chemotherapyExtravasationManagement = protocol({
     { claim: "Do not inject steroids locally", grade: "Not recommend (weak), certainty D", source: "jscn-jsmo-jaspo-2024", quote: "It is weakly recommended not to inject local steroids for EV of anticancer drugs." },
     { claim: "Apply topical steroids", grade: "Recommend (weak), certainty D", source: "jscn-jsmo-jaspo-2024", quote: "Applying topical steroids for EV of anticancer drugs is weakly recommended." },
     { claim: "Do not debride an ulcer without necrosis", grade: "Not recommend (weak), certainty C", source: "jscn-jsmo-jaspo-2024", quote: "It is weakly recommended not to debride EV-induced skin ulcer lesions without necrosis." },
-    { claim: "Give hyaluronidase after paclitaxel or docetaxel extravasation", grade: "conditional recommendation", source: "ons-voice-2025", quote: "the experts made a conditional recommendation that patients receive hyaluronidase as an antidote" },
+    { claim: "Use an antidote where one exists (taxanes are graded separately)", grade: "strong recommendation; very low certainty of evidence", source: "ons-asco-2025", quote: "ONS and ASCO recommend the use of antidotes rather than no antidotes (strong recommendation; very low certainty of evidence)." },
+    { claim: "Give an antidote (hyaluronidase in the studies) after paclitaxel or docetaxel extravasation", grade: "conditional recommendation; very low certainty of evidence", source: "ons-asco-2025", quote: "In patients with extravasation of paclitaxel or docetaxel, ONS and ASCO suggest the use of antidote rather than no antidote (conditional recommendation; very low certainty of evidence)." },
+    { claim: "Use a thermal compress rather than none", grade: "conditional recommendation; very low certainty of evidence", source: "ons-asco-2025", quote: "For patients with extravasation of irritant with vesicant properties or vesicant antineoplastic agents, ONS and ASCO suggest use of a thermal compress rather than no compress (conditional recommendation; very low certainty of evidence)." },
+    { claim: "Repeat the compress over more than 24 hours rather than 24 hours or less", grade: "conditional recommendation; very low certainty of evidence", source: "ons-asco-2025", quote: "ONS and ASCO suggest a longer period of compress (repeated application over more than 24 hours) rather than a shorter period of compress (repeated application over 24 hours or less) (conditional recommendation; very low certainty of evidence)." },
+    { claim: "Refer for surgery or escalate care after a central line extravasation", grade: "conditional recommendation; very low certainty of evidence", source: "ons-asco-2025", quote: "For patients with central line extravasation of irritant with vesicant properties or vesicant antineoplastic agents, ONS and ASCO suggest surgical referral/escalation of care in addition to conservative management rather than conservative management alone (conditional recommendation; very low certainty of evidence)." },
   ],
   sources: [
     {
@@ -261,11 +276,11 @@ export const chemotherapyExtravasationManagement = protocol({
       label: "ONS/ASCO Guideline on the Management of Antineoplastic Extravasation, Clinical Journal of Oncology Nursing 29(5):384-399",
       publisher: "Oncology Nursing Society and American Society of Clinical Oncology",
       year: 2025,
-      url: "https://www.ons.org/publications-research/cjon/29/5/onsasco-guideline-management-antineoplastic-extravasation",
+      url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12463152/",
       doi: "10.1188/25.CJON.384-399",
-      gradingScheme: "GRADE: recommendations are strong or conditional, with certainty of evidence high, moderate, low or very low.",
-      read: "abstract",
-      accessed: "2026-11-11",
+      gradingScheme: "GRADE: each recommendation is strong (\"ONS and ASCO recommend\") or conditional (\"ONS and ASCO suggest\"), printed with its certainty of evidence. All five here are on very low certainty.",
+      read: "full-text",
+      accessed: "2026-11-16",
     },
     {
       key: "ons-voice-2025",
@@ -273,9 +288,9 @@ export const chemotherapyExtravasationManagement = protocol({
       publisher: "Oncology Nursing Society",
       year: 2025,
       url: "https://www.ons.org/publications-research/voice/news-views/10-2025/new-extravasation-guidelines-provide-recommendations",
-      gradingScheme: "Reports the ONS/ASCO GRADE recommendations; prints a grade only for the taxane hyaluronidase recommendation.",
+      gradingScheme: "Reports the ONS/ASCO GRADE recommendations; prints a strength only for the taxane hyaluronidase recommendation and no certainty.",
       read: "public-summary",
-      accessed: "2026-11-11",
+      accessed: "2026-11-16",
     },
     {
       key: "ons-asco-algorithm-2025",
@@ -284,7 +299,7 @@ export const chemotherapyExtravasationManagement = protocol({
       year: 2025,
       url: "https://www.ons.org/sites/default/files/2025-09/ons-asco-algorithm-on-antineoplastic-extravasation_09.2025.pdf",
       read: "full-text",
-      accessed: "2026-11-11",
+      accessed: "2026-11-16",
     },
     {
       key: "jscn-jsmo-jaspo-2024",
@@ -295,7 +310,7 @@ export const chemotherapyExtravasationManagement = protocol({
       doi: "10.1016/j.esmoop.2024.103932",
       gradingScheme: "GRADE and Minds: strength Recommend or Not recommend, strong or weak; certainty A high, B moderate, C low, D very low.",
       read: "full-text",
-      accessed: "2026-11-11",
+      accessed: "2026-11-16",
     },
     {
       key: "savene-smpc",
@@ -304,7 +319,7 @@ export const chemotherapyExtravasationManagement = protocol({
       year: 2024,
       url: "https://www.ema.europa.eu/en/documents/product-information/savene-epar-product-information_en.pdf",
       read: "full-text",
-      accessed: "2026-11-11",
+      accessed: "2026-11-16",
     },
     {
       key: "wm-eag-2017",
@@ -313,7 +328,7 @@ export const chemotherapyExtravasationManagement = protocol({
       year: 2017,
       url: "https://www.england.nhs.uk/midlands/wp-content/uploads/sites/46/2019/05/management-extravasation-of-a-systemic-anti-cancer-therapy-including-cytotoxic-agents.pdf",
       read: "full-text",
-      accessed: "2026-11-11",
+      accessed: "2026-11-16",
     },
     {
       key: "esmo-eons-2012",
@@ -323,19 +338,20 @@ export const chemotherapyExtravasationManagement = protocol({
       url: "https://doi.org/10.1093/annonc/mds294",
       doi: "10.1093/annonc/mds294",
       read: "not-reachable",
-      accessed: "2026-11-11",
+      accessed: "2026-11-16",
     },
   ],
   upgrades: [],
   gaps: [
-    "The full text of the ONS/ASCO guideline could not be read (bot checks on PubMed Central and the publisher), so the strength and certainty of each of its recommendations are not quoted, except the conditional recommendation for hyaluronidase after taxane extravasation that ONS's own summary prints.",
-    "The ESMO-EONS guideline (2012) could not be read: the publisher's site returned a bot check and no abstract is indexed. No step rests on it. No newer ESMO edition was found.",
-    "No source that could be read recommends sodium thiosulfate for mechlorethamine (chlormethine) extravasation. ONS/ASCO recommends it for concentrated cisplatin and bendamustine; the UK network guideline lists mechlorethamine as a DNA-binding vesicant without naming an antidote.",
+    "On 16 November 2026 the full text of the ONS/ASCO guideline was read on PubMed Central, where it had not been readable five days earlier, and its five graded recommendations are now quoted. The guideline's two figures are images there, so the algorithm was read from the PDF on ons.org as an image and no quotation is taken from it. The JCO Oncology Practice copy of the same guideline (2026) sits behind a bot check and was not read.",
+    "ONS's own summary is not consistent on compress duration: its list of recommendations says three to four times daily over 48 to 72 hours, as the algorithm does, while its sidebar says several times a day for 24 to 48 hours. The graded recommendation itself says only more than 24 hours rather than 24 hours or less.",
+    "The ESMO-EONS guideline (2012) could not be read, again on 16 November 2026: the publisher's site returned a bot check and no abstract is indexed. No step rests on it. No newer ESMO edition was found.",
+    "No source that could be read recommends sodium thiosulfate for mechlorethamine (chlormethine) extravasation today. The ONS/ASCO guideline says it was previously indicated for mechlorethamine, recommends it for concentrated cisplatin and says to consider it for bendamustine; the UK network guideline lists mechlorethamine as a DNA-binding vesicant without naming an antidote.",
     "The ONS Chemotherapy and Immunotherapy Guidelines and Recommendations for Practice (2023) is a paid book and was not read.",
-    "Hyaluronidase timing differs: within 2 to 4 hours in the ONS/ASCO algorithm, within 1 hour in the UK network guideline. Neither gives evidence for its window.",
-    "The dimethyl sulfoxide schedule differs between every 8 hours (ONS/ASCO algorithm) and every 6 hours (the UK network guideline's appendix, which contradicts its own table). Dimethyl sulfoxide is unlicensed for this use in the UK.",
+    "Hyaluronidase timing differs, including inside the ONS/ASCO guideline: within 2 to 4 hours in its algorithm, within 3 to 4 hours in its antidote table, and within 1 hour in the UK network guideline. None gives evidence for its window.",
+    "The dimethyl sulfoxide schedule differs between every 8 hours (ONS/ASCO) and every 6 hours (the UK network guideline's appendix, which contradicts its own table). The UK network guideline describes dimethyl sulfoxide as an unlicensed option for this use.",
     "The Savene label has no data on extravasation from central venous access devices: those patients were excluded from its efficacy evaluation.",
-    "The West Midlands guideline passed its review date in July 2019, and an Irish national guideline (NCCP, 2023) could not be retrieved, so no UK or Irish guidance newer than 2017 was read.",
+    "The West Midlands guideline passed its review date in July 2019 and no later version was found at its address. An Irish national guideline (NCCP, 2023) could not be retrieved, again on 16 November 2026, when its address on hse.ie returned page not found. No UK or Irish guidance newer than 2017 was read.",
   ],
   drugs: [
     "dexrazoxane", "doxorubicin", "daunorubicin", "epirubicin", "idarubicin", "vincristine", "vinblastine", "vinorelbine",

@@ -9,6 +9,9 @@ import type { CountryDive } from "@/data/country-dive";
  * the Norwegian Medical Products Agency's English pages; the European Medicines Agency's page on the centralised
  * procedure; WHO's HPV coverage rows and its Global Health Expenditure Database row for Norway from WHO's public data
  * APIs; and IARC's GLOBOCAN 2024 fact sheet for Norway. Where a figure could not be read it is named under `gaps`.
+ * Second accuracy pass, 17 November 2026: every source was fetched and read again as raw text. Added then: the IAEA's
+ * DIRAC directory (public JSON feed), helsenorge.no's exemption card page, which now answers, and the administrative
+ * and official HPV rows Norway reported to WHO, found with a wider query than the first pass used.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/578-norway-fact-sheet.pdf";
 const CIN_2024 = "https://www.fhi.no/en/publ/2025/cancer-in-norway-2024/";
@@ -21,7 +24,9 @@ const CAP_2026 = "https://www.helsedirektoratet.no/rundskriv/folketrygdloven-kap
 const NOMA_ABOUT = "https://www.dmp.no/en/about-us";
 const NOMA_FUNDING = "https://dmp.no/en/public-funding-and-pricing-of-medicines";
 const EMA_CENTRAL = "https://www.ema.europa.eu/en/about-us/what-we-do/authorisation-medicines";
-const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'NOR'%20and%20startswith(ANTIGEN,'PRHPV')";
+const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'NOR'%20and%20contains(ANTIGEN,'HPV')";
+const HELSENORGE_CARD = "https://www.helsenorge.no/en/payment-for-health-services/exemption-card-for-public-health-services/";
+const DIRAC = "https://dirac.iaea.org/";
 const WHO_GHED_API = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'NOR'";
 const CTGOV = "https://clinicaltrials.gov/search?country=Norway&cond=cancer";
 
@@ -33,7 +38,7 @@ export const NO_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Norway",
   description:
-    "Cancer in Norway from Norwegian sources: the Cancer Registry's count of 38,811 new cancers and 11,452 deaths in 2024, IARC's 2024 estimate, public hospital care paid by the state with a capped patient charge of 3,278 kroner in 2026, Nye metoder and its Decision Forum for new hospital medicines, cancer patient pathways with time targets, screening for breast, cervical and bowel cancer, and HPV vaccination above 90 per cent.",
+    "Cancer in Norway from Norwegian sources: the Cancer Registry's count of 38,811 new cancers in 2024, 11,452 cancer deaths from the Cause of Death Registry, IARC's 2024 estimate, publicly funded hospital care with a capped patient charge of 3,278 kroner in 2026, Nye metoder and its Decision Forum for new hospital medicines, cancer patient pathways with time targets, screening for breast, cervical and bowel cancer, and HPV vaccination at about 90 per cent or more.",
   lede:
     "Norway's cancer registry has collected notifications of cancer since 1952. Its registry recorded 38,811 new cancers in 2024 and 347,867 people alive after a cancer diagnosis, and five-year survival across all cancers is close to 78%. Hospital cancer care is publicly funded, and which new hospital medicines it pays for is decided nationally, by the four regional health authorities acting together.",
   globocanNote:
@@ -96,9 +101,9 @@ export const NO_DIVE: CountryDive = {
           id: "registry-count",
           title: "38,811 new cancers and 347,867 people living after a diagnosis",
           plain:
-            "The Cancer Registry of Norway, now part of the Norwegian Institute of Public Health, counted 38,811 new cancers in 2024 and 11,452 cancer deaths. At the end of 2024, 347,867 people in Norway were alive after a cancer diagnosis, nearly 11,000 more than a year before.",
+            "The Cancer Registry of Norway, now part of the Norwegian Institute of Public Health, counted 38,811 new cancers in 2024, and reports 11,452 cancer deaths from the Cause of Death Registry's preliminary figures. At the end of 2024, 347,867 people in Norway were alive after a cancer diagnosis, nearly 11,000 more than a year before.",
           detail:
-            "Cancer in Norway 2024 was published on 14 May 2025 by the Cancer Registry of Norway at the Norwegian Institute of Public Health. It counts 20,623 cases in men and 18,188 in women, and says the five commonest cancers in each sex made up 57.4% of cancers in men and 57.1% in women in 2020 to 2024. Comparing 2020 to 2024 with 2015 to 2019, the combined incidence rate fell by 3.5% in men and rose by 1.8% in women (the English summary rounds these to 4% and 2%). The largest fall was in cervical cancer, 17.2%, and the 2024 rate is the lowest ever reported in Norway. Five-year relative survival ranges from 99.1% for testicular cancer to 8.5% for men with pancreatic cancer excluding neuroendocrine tumours; for lung cancer it rose from 24.1% to 28.4% in men and from 30.1% to 35.8% in women between the two periods. Death figures come from the Cause of Death Registry and were preliminary when the report was published.",
+            "Cancer in Norway 2024 was published on 14 May 2025 by the Cancer Registry of Norway at the Norwegian Institute of Public Health. It counts 20,623 cases in men and 18,188 in women, and says the five commonest cancers in each sex made up 57.4% of cancers in men and 57.1% in women in 2020 to 2024. Comparing 2020 to 2024 with 2015 to 2019, the combined incidence rate fell by 3.5% in men and rose by 1.8% in women (the publication page rounds these to 4% and 2%). The largest fall was in cervical cancer, 17.2%, and the 2024 rate is the lowest ever reported in Norway. Five-year relative survival ranges from 99.1% for testicular cancer to 8.5% for men with pancreatic cancer excluding neuroendocrine tumours; for lung cancer it rose from 24.1% to 28.4% in men and from 30.1% to 35.8% in women between the two periods. Death figures come from the Cause of Death Registry and were preliminary when the report was published.",
           links: [
             { label: "NIPH: Cancer in Norway 2024 (14 May 2025)", url: CIN_2024 },
             { label: "Cancer in Norway 2024, summary and Table 2.1 (PDF)", url: CIN_2024_PDF },
@@ -117,7 +122,7 @@ export const NO_DIVE: CountryDive = {
           plain:
             "Specialist cancer care in Norway is given by public hospitals in four regional health authorities. Patients pay set charges for some services, but once a person's approved charges reach the yearly cap, 3,278 kroner in 2026, they receive an exemption card and pay no more approved charges that year.",
           detail:
-            "The Directorate of Health's circular on the National Insurance Act section 5-3 sets the cap on approved patient charges (egenandelstak) for 2026 at 3,278 kroner; a person who has paid that much in approved charges in a calendar year is entitled to an exemption card (frikort) for the rest of the year. Children under 16 pay no charges until 31 July 2026, and from 1 August 2026 the exemption covers everyone under 18. Nye metoder names the four regional health authorities, South-Eastern, Western, Northern and Central Norway, including all their hospitals, as responsible for its system. WHO's Global Health Expenditure Database puts out-of-pocket spending at 13.7% of Norway's current health expenditure in 2023. OnCo did not find a single official statement of which cancer-related costs fall outside the cap; see the gaps.",
+            "The Directorate of Health's circular on the National Insurance Act section 5-3 sets the cap on approved patient charges (egenandelstak) for 2026 at 3,278 kroner; a person who has paid that much in approved charges in a calendar year is entitled to an exemption card (frikort) for the rest of the year. Children under 16 pay no charges until 31 July 2026, and from 1 August 2026 the exemption covers everyone under 18. Nye metoder names the four regional health authorities, South-Eastern, Western, Northern and Central Norway, including all their hospitals, as responsible for its system. WHO's Global Health Expenditure Database puts out-of-pocket spending at 13.7% of Norway's current health expenditure in 2023. Helsenorge's page on the exemption card lists kinds of charge that do not count towards the cap; see the gaps.",
           links: [
             { label: "Directorate of Health: the patient charge cap and the exemption card scheme, 2026 (in Norwegian)", url: CAP_2026 },
             { label: "Nye metoder: information in English", url: NM_EN },
@@ -184,13 +189,13 @@ export const NO_DIVE: CountryDive = {
         },
         {
           id: "hpv",
-          title: "HPV vaccination for girls since 2009 and boys since 2018, with coverage above 90%",
+          title: "HPV vaccination for girls since 2009 and boys since 2018, with coverage of about 90% or more",
           plain:
-            "Norway has offered HPV vaccine to girls through the childhood programme since 2009 and to boys since 2018. WHO and UNICEF's figures put first-dose coverage at 91% for both girls and boys in 2025, and the registry credits the vaccine for the fall in cervical cancer among the youngest women.",
+            "Norway has offered HPV vaccine to girls through the childhood programme since 2009 and to boys since 2018. WHO's estimates put first-dose coverage at 91% for both girls and boys in 2025, and the registry says the fall in cervical cancer among the youngest women most likely reflects the vaccine.",
           detail:
-            "The registry's 2024 report says HPV vaccination has been offered since 2009 to all girls born in 1997 and later and was extended to boys in 2018, and that in 2024 three birth cohorts of vaccinated women were invited to cervical screening. WHO's immunisation data give programme coverage of 91% for the first dose in girls and in boys in 2025, and 92% (girls) and 91% (boys) for the last dose. The report's foreword says the cervical cancer rate for 2024 was about 7 per 100,000 on the world standard population, against WHO's elimination threshold of fewer than 4, and that cervical dysplasia still occurs among vaccinated women, so screening remains important.",
+            "The registry's 2024 report says HPV vaccination has been offered since 2009 to all girls born in 1997 and later and was extended to boys in 2018, and that in 2024 three birth cohorts of vaccinated women were invited to cervical screening. WHO's immunisation data give its own estimates of programme coverage (the category it labels HPV Estimates) as 91% for the first dose in girls and in boys in 2025, and 92% (girls) and 91% (boys) for the last dose. The figures Norway itself reported for 2025, in the administrative and official rows of the same data, are 94.18% (girls) and 92.28% (boys) for the first dose and 91.83% (girls) and 89.84% (boys) for the final dose. The rows were read on 17 November 2026. The report's foreword says the cervical cancer rate for 2024 was about 7 per 100,000 on the world standard population, against WHO's elimination threshold of fewer than 4, and that cervical dysplasia still occurs among vaccinated women, so screening remains important.",
           links: [
-            { label: "WHO immunisation data: HPV programme coverage, Norway (API)", url: WHO_HPV_API },
+            { label: "WHO immunisation data: HPV coverage rows, Norway (API)", url: WHO_HPV_API },
             { label: "Cancer in Norway 2024, foreword (PDF)", url: CIN_2024_PDF },
           ],
         },
@@ -228,11 +233,11 @@ export const NO_DIVE: CountryDive = {
       cards: [
         {
           id: "trial-count",
-          title: "238 trials in OnCo's records have a site in Norway",
+          title: "237 trial records in OnCo list a site in Norway",
           plain:
-            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 11 November 2026, 238 of the cancer trials in our records list a site in Norway, among them trials of PARP inhibitors, immunotherapy and CAR-T cells. A selection is listed below.",
+            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 17 November 2026, 237 of the cancer trial records we hold list a site in Norway, which is 236 separate registered trials, among them trials of PARP inhibitors, immunotherapy and CAR-T cells. A selection is listed below.",
           detail:
-            "OnCo's graph holds ClinicalTrials.gov participation snapshots for its trials, and 238 list Norway among their countries; that reflects the trials OnCo holds, mostly large industry and academic trials of new medicines, not every study run in Norway. When OnCo built its country file on 8 September 2026, ClinicalTrials.gov counted 5,761 studies of any condition with a site in Norway. OpenAlex, counting works whose primary topic is oncology and counting a paper for every country among its authors' affiliations, gives Norway 557 works in 2021, 516 in 2022, 546 in 2023, 498 in 2024 and 520 in 2025, 2,637 in total, of which 2,021 are open access and 164 highly cited.",
+            "OnCo's graph holds ClinicalTrials.gov participation snapshots for its trials, and 237 list Norway among their countries, recounted on 17 November 2026. One registration, the ROAR basket trial, is held as two records for two of its cohorts, so the 237 records are 236 separate registered trials. An earlier count of 238 also included MOUNTAINEER-03 twice, because its registration was attached to the record for the earlier MOUNTAINEER trial as well. That reflects the trials OnCo holds, mostly large industry and academic trials of new medicines, not every study run in Norway. When OnCo built its country file on 8 September 2026, ClinicalTrials.gov counted 5,761 studies of any condition with a site in Norway. OpenAlex, counting works whose primary topic is oncology and counting a paper for every country among its authors' affiliations, gave Norway 557 works in 2021, 516 in 2022, 546 in 2023, 498 in 2024 and 520 in 2025, 2,637 in total, of which 2,021 are open access and 164 highly cited, when OnCo took its counts on 8 September 2026, so the 2025 figure covers only part of that year.",
           links: [{ label: "ClinicalTrials.gov: cancer studies with a site in Norway (search)", url: CTGOV }],
         },
       ],
@@ -243,21 +248,25 @@ export const NO_DIVE: CountryDive = {
       id: "costs-outside-cap",
       title: "What a cancer patient pays outside the cap",
       plain:
-        "OnCo did not find one official statement of which costs a cancer patient in Norway meets outside the yearly charge cap, such as travel, medicines bought without a blue prescription or care abroad, so this page gives the cap and not a full account of costs.",
+        "The official page on the exemption card lists kinds of charge that do not count towards the yearly cap, but OnCo did not find an official account written for cancer patients of everything they may have to pay, so this page gives the cap and not a full account of costs.",
       detail:
-        "The Directorate of Health circular read for this page gives the 2026 cap and the age exemptions. It does not list every cost a cancer patient might meet, and helsenorge.no's page on charges and exemption cards returned 404 to a plain request on 11 November 2026. Nye metoder's list of medicines it has introduced or declined, and the prices it negotiated, were not read.",
-      links: [{ label: "Directorate of Health: the patient charge cap, 2026 (in Norwegian)", url: CAP_2026 }],
+        "The Directorate of Health circular read for this page gives the 2026 cap and the age exemptions. It does not list every cost a cancer patient might meet. Helsenorge's page on the exemption card, which returned 404 to a plain request on 11 November 2026, answered on 17 November 2026 and was last updated on 1 August 2026. It says that charges which are not approved user fees are paid by the patient and do not count towards the cap, and gives as examples dressings, anaesthetics and equipment needed for treatment, medical certificates, and medical records printed and sent by a general practitioner. It says a person who uses a private provider with no reimbursement agreement pays the whole cost, and that patients may be entitled to have travel to and from publicly covered treatment reimbursed through a separate patient travel scheme. The page is general and is not written for cancer patients. Nye metoder's list of medicines it has introduced or declined, and the prices it negotiated, were not read.",
+      links: [
+        { label: "Directorate of Health: the patient charge cap, 2026 (in Norwegian)", url: CAP_2026 },
+        { label: "Helsenorge: exemption card for public health services", url: HELSENORGE_CARD },
+      ],
     },
     {
       id: "unread-sources",
       title: "Other figures not found or not verified",
       plain:
-        "Radiotherapy capacity, waiting times against the 70% pathway target, the share of medicines approved by the Decision Forum and stage at diagnosis are not on this page because OnCo did not read them from a primary source.",
+        "Waiting times against the 70% pathway target, the share of medicines approved by the Decision Forum and stage at diagnosis are not on this page because OnCo did not read them from a primary source. For radiotherapy the page has only the IAEA directory's list of machines, whose entries date from 2018 to 2021.",
       detail:
-        "The Norwegian Institute of Public Health publishes pathway times, and the IAEA's DIRAC database lists radiotherapy machines; neither was read for this page. The registry report's chapters on stage and its special issue on life after a cancer diagnosis were not read. The date the Norwegian Medicines Agency became the Norwegian Medical Products Agency was not confirmed from a primary source that answered a plain request, so it is not given.",
+        "The Directorate of Health says the Norwegian Institute of Public Health calculates pathway times; its results were not read for this page. The IAEA's DIRAC directory, read on 17 November 2026, lists 10 radiotherapy centres in Norway with 42 linear accelerators between them, no cobalt-60 unit, one gamma knife (at Haukeland University Hospital in Bergen) and no proton unit, and shows brachytherapy at five centres. It lists 10 linear accelerators at Oslo University Hospital's Radium Hospital and 7 at its Ullevål hospital, 6 at Haukeland, 5 at St. Olavs Hospital in Trondheim, 4 at the University Hospital of North Norway in Tromsø, and 2 each in Bodø, Gjøvik, Kristiansand, Stavanger and Ålesund. The entries are dated 2018 for seven of the ten centres, 2020 for Haukeland and the Radium Hospital and 2021 for Bodø, so the directory may not show the machines in use today. The registry report's chapters on stage and its special issue on life after a cancer diagnosis were not read. The date the Norwegian Medicines Agency became the Norwegian Medical Products Agency was not confirmed from a primary source that answered a plain request, so it is not given.",
       links: [
         { label: "Cancer in Norway 2024 (PDF)", url: CIN_2024_PDF },
         { label: "Directorate of Health: cancer patient pathways (in Norwegian)", url: PATHWAYS },
+        { label: "IAEA: DIRAC, Directory of Radiotherapy Centres", url: DIRAC },
       ],
     },
   ],
@@ -271,7 +280,7 @@ export const NO_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from Norwegian official sources read in full rather than through a summary: the Cancer Registry of Norway's Cancer in Norway 2024 and its publication page; the Norwegian Institute of Public Health's bowel screening page and its page on Nye metoder; Nye metoder's English page; the Directorate of Health's chapter on cancer patient pathways and its 2026 circular on the charge cap; the Norwegian Medical Products Agency's English pages; the European Medicines Agency's page on the centralised procedure; WHO's HPV coverage and health expenditure rows from its public data APIs; and IARC's GLOBOCAN 2024 fact sheet. Trials were counted from OnCo's ClinicalTrials.gov participation data, and research output from OpenAlex. The new records added for this page (the registry, Nye metoder and the medicines agency) carry their own sources.",
+    "Every card was written from Norwegian official sources read in full rather than through a summary: the Cancer Registry of Norway's Cancer in Norway 2024 and its publication page; the Norwegian Institute of Public Health's bowel screening page and its page on Nye metoder; Nye metoder's English page; the Directorate of Health's chapter on cancer patient pathways and its 2026 circular on the charge cap; the Norwegian Medical Products Agency's English pages; the European Medicines Agency's page on the centralised procedure; WHO's HPV coverage and health expenditure rows from its public data APIs; and IARC's GLOBOCAN 2024 fact sheet. Trials were counted from OnCo's ClinicalTrials.gov participation data, and research output from OpenAlex. The new records added for this page (the registry, Nye metoder and the medicines agency) carry their own sources. On 17 November 2026 every source was read again, and three were added: the IAEA's DIRAC directory, Helsenorge's page on the exemption card, and the HPV figures Norway itself reported to WHO.",
   verify:
     "Which medicines Norwegian hospitals use changes with each Decision Forum meeting, and pathway times were revised from 1 September 2026. Check Nye metoder for the current decision on a specific medicine, and ask the treating hospital what applies to you.",
   verifyLinks: [

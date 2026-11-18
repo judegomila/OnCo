@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-11",
+ "checked": "2026-11-18",
  "source": {
   "label": "OECI: Member Profiles",
   "url": "https://www.oeci.eu/MemberList.aspx"
@@ -1051,18 +1051,6 @@
    ]
   },
   {
-   "id": "137",
-   "name": "Mater Private Network",
-   "country": "Ireland",
-   "website": "https://www.materprivate.ie/",
-   "membership": "Full Member",
-   "leaders": [
-    "Jerome Coffey",
-    "Hugh Healy",
-    "Jane O’Neill"
-   ]
-  },
-  {
    "id": "154",
    "name": "The Mater Misericordiae University Hospital",
    "country": "Ireland",
@@ -1085,6 +1073,18 @@
     "Grzegorz Korpanty",
     "Ruth Clifford",
     "Mairead Cowan"
+   ]
+  },
+  {
+   "id": "137",
+   "name": "Mater Private Network",
+   "country": "Ireland",
+   "website": "https://www.materprivate.ie/",
+   "membership": "Full Member",
+   "leaders": [
+    "Jerome Coffey",
+    "Hugh Healy",
+    "Jane O’Neill"
    ]
   },
   {
@@ -1134,7 +1134,7 @@
    "leaders": [
     "Ilaria Panzini",
     "Monica Calamai",
-    "Angelo Schenone",
+    "Francesco Grossi",
     "Marta Caltabellotta",
     "Lucia Del Mastro",
     "Fabrizio Figallo",

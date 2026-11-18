@@ -6,6 +6,11 @@ import type { CountryDive } from "@/data/country-dive";
  * Cambodia found and resolved through Europe PMC with their abstracts read; and WHO's HPV coverage and health
  * expenditure rows from its public data APIs. Cambodian government sources (the Ministry of Health, the Department of
  * Drugs and Food, the health equity and social security funds) were not read, and the page names them as gaps.
+ *
+ * Second accuracy pass, 17 November 2026: every source was read again as raw text. The registry wording now gives
+ * WHO's dated row and IARC's stated method as two separate facts; WHO's administrative HPV rows (antigen family HPV,
+ * which the first query's PRHPV filter left out) are reported beside the programme estimates; and the IAEA DIRAC
+ * radiotherapy feed, which the first pass called unread, is read and described.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/116-cambodia-fact-sheet.pdf";
 const KSFH_CERVIX = "https://doi.org/10.35772/ghmo.2023.01002";
@@ -13,6 +18,9 @@ const CDHS_SCREEN = "https://doi.org/10.1371/journal.pone.0295881";
 const LIVER_KSFH = "https://doi.org/10.7314/APJCP.2015.16.1.35";
 const LIVER_GBD = "https://doi.org/10.1186/s12876-025-04077-6";
 const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'KHM'%20and%20startswith(ANTIGEN,'PRHPV')";
+const WHO_HPV_ALL_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'KHM'%20and%20contains(ANTIGEN,'HPV')";
+const WHO_PBCR_API = "https://ghoapi.azureedge.net/api/NCD_CCS_PBCR?$filter=SpatialDim%20eq%20'KHM'";
+const DIRAC = "https://dirac.iaea.org/";
 const WHO_GHED_API = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'KHM'";
 const CTGOV = "https://clinicaltrials.gov/search?country=Cambodia&cond=cancer";
 
@@ -24,9 +32,9 @@ export const KH_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Cambodia",
   description:
-    "Cancer in Cambodia: IARC's estimate of 22,111 new cancers and 14,945 deaths in 2024, made without a Cambodian registry; liver cancer as the commonest cancer and cause of cancer death; out-of-pocket payments at about 61% of health spending; cervical cancer found late at a national cancer centre; screening reaching about one woman in seven; HPV vaccination at 85% to 87% of girls since 2023; and the government sources OnCo did not read.",
+    "Cancer in Cambodia: IARC's estimate of 22,111 new cancers and 14,945 deaths in 2024, for which IARC's fact sheet names no Cambodian data source; liver cancer as the commonest cancer and cause of cancer death; out-of-pocket payments at about 61% of health spending; cervical cancer found late at a national cancer centre; screening reaching about one woman in seven; HPV vaccination at 85% to 87% of girls in WHO's estimates since 2023; and the government sources OnCo did not read.",
   lede:
-    "Cambodia has no population-based cancer registry in IARC's sources, so IARC's estimate of 22,111 new cancers and 14,945 deaths in 2024 is built from neighbouring countries' rates. Liver cancer is the commonest cancer and the leading cause of cancer death. Households pay about 61% of health spending themselves.",
+    "IARC estimates 22,111 new cancers and 14,945 deaths in Cambodia in 2024. Its fact sheet names no Cambodian data source for incidence and bases the rates on estimates or registry data from neighbouring countries. WHO's Global Health Observatory records no population-based cancer registry in Cambodia in its row for 2021. Liver cancer is the commonest cancer and the leading cause of cancer death. Households pay about 61% of health spending themselves.",
   globocanNote:
     "IARC's GLOBOCAN 2024 figure for Cambodia is 22,111 new cancers and 14,945 deaths, an age-standardised incidence of 135.5 per 100,000 (148.3 in men, 129.3 in women) and mortality of 93.1. IARC's fact sheet gives no country-specific data source for incidence and describes the method as rates based on incidence estimates or registry data from neighbouring countries; mortality is national incidence applied to modelled mortality-to-incidence ratios from registry survival data. These are therefore modelled figures, not counts. Deaths divided by new cases give 0.68.",
   sections: [
@@ -76,18 +84,19 @@ export const KH_DIVE: CountryDive = {
     {
       id: "registry",
       nav: "Registry",
-      title: "No population registry, so hospital records matter",
+      title: "No population registry in WHO's 2021 row, and one hospital's records",
       cards: [
         {
           id: "hospital-records",
           title: "One national cancer centre's records: most cervical cancers found late",
           plain:
-            "Without a population registry, hospital records give the clearest picture. At the Khmer-Soviet Friendship Hospital in Phnom Penh, one of Cambodia's two national cancer centres, 351 women were diagnosed with cervical cancer in 2019, and 57.6% of those with a recorded stage had advanced disease.",
+            "WHO's Global Health Observatory answers no for a population-based cancer registry in Cambodia in its row for 2021, the only year it gives. One hospital's records show part of the picture. At the Khmer-Soviet Friendship Hospital in Phnom Penh, which a 2023 study calls one of Cambodia's two national cancer centres, 351 women were diagnosed with cervical cancer in 2019, and 57.6% of those with a recorded stage had advanced disease.",
           detail:
-            "The 2023 study, from the hospital's gynaecology department and Japan's National Center for Global Health and Medicine, used the department's gynaecologic test registry for 2019. The authors estimate the 351 cases were about a third of Cambodia's cervical cancers that year. Mean age was 54.7; 83.8% were squamous cell carcinomas; stage was recorded for 309 women. They call for awareness of early symptoms, wider access to diagnosis and better recording of clinical information. An earlier study described liver cancer at the same hospital.",
+            "The 2023 study, by authors from the hospital's obstetrics and gynaecology department, Japan's National Center for Global Health and Medicine and three other bodies, used the gynaecology department's gynaecologic test registry for 2019. The authors estimate the 351 cases were about a third of Cambodia's cervical cancers that year. Mean age was 54.7; 83.8% were squamous cell carcinomas; stage was recorded for 309 women. They call for awareness of early symptoms, wider access to diagnosis and better recording of clinical information. An earlier study described liver cancer at the same hospital.",
           links: [
             { label: "Tanaka et al., cervical cancer at a national cancer center in Phnom Penh (GHM Open 2023)", url: KSFH_CERVIX },
             { label: "Characteristics of liver cancer at Khmer-Soviet Friendship Hospital (Asian Pac J Cancer Prev 2015)", url: LIVER_KSFH },
+            { label: "WHO Global Health Observatory: existence of a population-based cancer registry, Cambodia (API)", url: WHO_PBCR_API },
           ],
         },
       ],
@@ -134,13 +143,14 @@ export const KH_DIVE: CountryDive = {
       cards: [
         {
           id: "hpv",
-          title: "HPV vaccination at 85% to 87% of girls since its first year in WHO's data",
+          title: "HPV vaccination at 85% to 87% of girls in WHO's estimates since 2023",
           plain:
-            "WHO and UNICEF's figures show Cambodia vaccinating girls against HPV from 2023, with coverage of 87% that year and 85% in 2024 and 2025, the same for first and last dose. There is no figure for boys.",
+            "WHO's HPV estimates for Cambodia begin in 2023, with coverage of girls at 87% that year and 85% in 2024 and 2025, the same for first and last dose. The estimates give no figure for boys. The administrative figures in the same data are higher than the estimates, and include rows for 2018.",
           detail:
-            "WHO's immunisation data for Cambodia have no HPV coverage figure before 2023. For girls they give 87% in 2023 and 85% in 2024 and 2025, for both the first and the last dose. A 2019 paper in Vaccine reported on an earlier HPV vaccine demonstration programme in Cambodia; only its title was used here.",
+            "WHO's immunisation data, read again on 17 November 2026, hold two kinds of HPV row for Cambodia. The programme estimates have no figure before 2023; for girls they give 87% in 2023 and 85% in 2024 and 2025, for both the first and the last dose, and the rows for boys are blank. The administrative rows, which are the reported doses divided by the reported target, give a first dose in girls of 99.3% in 2023, 93.0% in 2024 and 104.35% in 2025 (177,789 doses against a target of 170,372). They also hold a 2018 final-dose figure of 96.18% for girls (11,067 of 11,507) and 94.74% for boys (10,902 of 11,507); the data do not explain the row for boys. A 2019 paper in Vaccine describes, in its abstract, a 2017 demonstration programme for 9-year-old girls in six districts of two provinces, where a household survey of 315 girls found documented two-dose coverage of 84%.",
           links: [
             { label: "WHO immunisation data: HPV programme coverage, Cambodia (API)", url: WHO_HPV_API },
+            { label: "WHO immunisation data: every HPV row for Cambodia, including administrative coverage (API)", url: WHO_HPV_ALL_API },
             { label: "HPV vaccine demonstration program, Cambodia: household assessment (Vaccine 2019)", url: "https://doi.org/10.1016/j.vaccine.2018.12.052" },
           ],
         },
@@ -150,10 +160,11 @@ export const KH_DIVE: CountryDive = {
           plain:
             "In Cambodia's 2022 Demographic and Health Survey, 15.3% of women aged 15 to 49 said they had been screened for cervical cancer and 10.6% for breast cancer. Screening was commoner among older, better-educated and wealthier women.",
           detail:
-            "The analysis, by researchers at Cambodia's National Institute of Public Health, covered 19,496 women. For cervical screening the adjusted odds were 7.61 times higher for women aged 40 to 49 than for the youngest group, and higher with more education, media exposure and wealth. The authors call for health education through the media, aimed at women of low socio-economic status. Recent studies have tested HPV self-sampling in rural Cambodia and screening for garment workers; only their titles were used here.",
+            "The analysis, by researchers at Cambodia's National Institute of Public Health, covered 19,496 women. For cervical screening the adjusted odds were 7.61 times higher for women aged 40 to 49 than for the youngest group, and higher with more education, media exposure and wealth. The authors call for health education through the media, aimed at women of low socio-economic status. A 2026 study costed a community HPV self-sampling programme in Siem Reap Province, in which 7,524 women were screened in 2022 and 2023 (abstract read). Another 2026 paper describes a screening model for garment workers; only its title was used here.",
           links: [
             { label: "Um and Sopheab (PLoS One 2025)", url: CDHS_SCREEN },
             { label: "Micro-costing of community HPV self-sampling in rural Cambodia (2026)", url: "https://doi.org/10.1007/s41669-026-00659-6" },
+            { label: "A new model for cervical cancer screening in Cambodian garment workers (BMJ Glob Health 2026)", url: "https://doi.org/10.1136/bmjgh-2025-019100" },
           ],
         },
       ],
@@ -167,9 +178,9 @@ export const KH_DIVE: CountryDive = {
           id: "vaccine-ahead",
           title: "High HPV vaccine coverage, low screening",
           plain:
-            "Cambodia reached 85% HPV vaccination coverage of girls within its first years, higher than Finland's or Ireland's in the same WHO data, while few adult women have been screened. Vaccination protects girls; for women already past vaccination age, screening is what finds cervical cancer earlier.",
+            "WHO's estimates put Cambodia's HPV vaccination coverage of girls at 85% in 2025, the third year they cover, higher than Finland's or Ireland's in the same estimates, while few adult women have been screened. Vaccination protects girls; for women already past vaccination age, screening is what finds cervical cancer earlier.",
           detail:
-            "WHO's data put Cambodia's first-dose coverage in girls at 85% in 2025, against 91% in Norway, 90% in Zimbabwe, 80% in Finland, 76% in Ireland and 14% in Bulgaria in the same data. The 2022 survey found 15.3% of women aged 15 to 49 had ever been screened for cervical cancer, and at the national cancer centre most cervical cancers with a recorded stage were advanced.",
+            "WHO's HPV estimates put Cambodia's first-dose coverage in girls at 85% in 2025, against 91% in Norway, 90% in Zimbabwe, 80% in Finland, 76% in Ireland and 14% in Bulgaria in the same estimates. The 2022 survey found 15.3% of women aged 15 to 49 had ever been screened for cervical cancer, and at the national cancer centre most cervical cancers with a recorded stage were advanced.",
           links: [
             { label: "WHO immunisation data: HPV programme coverage, Cambodia (API)", url: WHO_HPV_API },
             { label: "Um and Sopheab (PLoS One 2025)", url: CDHS_SCREEN },
@@ -199,29 +210,35 @@ export const KH_DIVE: CountryDive = {
       id: "government-sources",
       title: "Government sources not read",
       plain:
-        "OnCo did not read Cambodian government sources on the cancer plan, Cambodia's health financing schemes, the medicines regulator or the essential medicines list. Radiotherapy capacity and the second national cancer centre are not described.",
+        "OnCo did not read Cambodian government sources on the cancer plan, Cambodia's health financing schemes, the medicines regulator or the essential medicines list. The second national cancer centre is not named. For radiotherapy, the IAEA's DIRAC directory, read on 17 November 2026, lists three centres, all in Phnom Penh, with three linear accelerators between them.",
       detail:
-        "The 2023 study names the Khmer-Soviet Friendship Hospital as one of two national cancer centres but does not name the other in its abstract, and OnCo has not named it from memory. The IAEA's DIRAC radiotherapy database and WHO's cancer country profile for Cambodia were not read.",
-      links: [{ label: "Tanaka et al. (GHM Open 2023)", url: KSFH_CERVIX }],
+        "The 2023 study names the Khmer-Soviet Friendship Hospital as one of two national cancer centres but does not name the other, in its abstract or its full text, and OnCo has not named it from memory. An earlier version of this page said the IAEA's DIRAC radiotherapy directory was not read. Its public data feed, read on 17 November 2026, lists three radiotherapy centres in Cambodia, all in Phnom Penh: Calmette Hospital (one linear accelerator and one high-dose-rate iridium-192 brachytherapy unit, entry dated 2020), the Khmer-Soviet Friendship Hospital (one linear accelerator, entry dated 2024) and the Orange Cancer Clinic (one linear accelerator, entry dated 2024). It lists no cobalt-60 unit. Entries are reported by the centres themselves and may be out of date. WHO's cancer country profile for Cambodia was not read.",
+      links: [
+        { label: "Tanaka et al. (GHM Open 2023)", url: KSFH_CERVIX },
+        { label: "IAEA: DIRAC, Directory of Radiotherapy Centres", url: DIRAC },
+      ],
     },
     {
       id: "unread-sources",
       title: "No counted incidence or survival",
       plain:
-        "Because Cambodia has no population-based registry in IARC's sources, there is no counted national incidence or survival figure for Cambodia on this page; IARC's numbers are modelled.",
+        "There is no counted national incidence or survival figure for Cambodia on this page. IARC's numbers are modelled: its fact sheet names no Cambodian data source for incidence. Separately, WHO's Global Health Observatory records no population-based cancer registry in Cambodia in its row for 2021.",
       detail:
-        "Only abstracts were read for the papers cited, and for some only titles, as marked on each card. A 2017 record in Europe PMC on setting up a paediatric oncology programme in Cambodia was not read. WHO's cancer country profile for Cambodia was not read either.",
-      links: [{ label: "IARC: GLOBOCAN 2024 fact sheet, Cambodia (PDF)", url: IARC_FACTSHEET }],
+        "Only abstracts were read for most of the papers cited, and for some only titles, as marked on each card; on 17 November 2026 the full text of the 2023 cervical cancer study and of the 2025 screening analysis was also read. A 2017 record in Europe PMC on setting up a paediatric oncology programme in Cambodia was not read. WHO's cancer country profile for Cambodia was not read either.",
+      links: [
+        { label: "IARC: GLOBOCAN 2024 fact sheet, Cambodia (PDF)", url: IARC_FACTSHEET },
+        { label: "WHO Global Health Observatory: existence of a population-based cancer registry, Cambodia (API)", url: WHO_PBCR_API },
+      ],
     },
   ],
-  institutions: ["khmer-soviet-friendship-hospital", "iarc", "who"],
+  institutions: ["khmer-soviet-friendship-hospital", "calmette-hospital", "orange-cancer-clinic-phnom-penh", "iarc", "who", "iaea"],
   companies: [],
   drugs: [],
   trials: [],
   papers: ["paper-tanaka-cervical-cancer-ksfh-cambodia-ghmo-2023"],
   people: [],
   how:
-    "Every card was written from sources read in full rather than through a summary: IARC's GLOBOCAN 2024 fact sheet; the abstracts of Cambodian papers found through Europe PMC (and, where marked, titles only); and WHO's HPV coverage and health expenditure rows from its public data APIs. Trials were counted from OnCo's ClinicalTrials.gov participation data, and research output from OpenAlex. The new records added for this page (the Khmer-Soviet Friendship Hospital and one paper) carry their own sources.",
+    "Every card was written from sources read in full rather than through a summary: IARC's GLOBOCAN 2024 fact sheet; the abstracts of Cambodian papers found through Europe PMC (and, where marked, titles only); and WHO's HPV coverage, health expenditure and cancer registry rows from its public data APIs. The radiotherapy centres are from the IAEA's DIRAC data feed, read on 17 November 2026. Trials were counted from OnCo's ClinicalTrials.gov participation data, and research output from OpenAlex. The new records added for this page (the Khmer-Soviet Friendship Hospital and one paper) carry their own sources.",
   verify:
     "This page has no Cambodian government source on the cost of care, medicines or screening. Ask the treating hospital what is available and what it costs, and whether a public scheme covers you.",
   verifyLinks: [

@@ -44,7 +44,7 @@ export type Assay = {
   source: { label: string; url: string };
 };
 
-const FDA_CDX = { label: "FDA: List of cleared or approved companion diagnostic devices", url: "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools" };
+const FDA_CDX = { label: "FDA: List of FDA-Authorized Companion Diagnostic Devices", url: "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools" };
 const doi = (d: string, label: string) => ({ label, url: `https://doi.org/${d}` });
 
 export const assays: Assay[] = [
@@ -216,7 +216,7 @@ export const assays: Assay[] = [
     targets: ["cdk4-6"], drugs: ["abemaciclib"], cancers: ["breast-hr-positive"], biomarkers: ["er-positive"],
     note: "Ki-67 scoring varies by antibody, hotspot versus global counting and laboratory; the International Ki-67 Working Group validated only the extremes (below 5%, above 30%).", source: FDA_CDX },
   { id: "tmb-panel", name: "Tumour mutational burden (FoundationOne CDx and equivalents)", vendor: "Foundation Medicine and others", readouts: ["tmb-high"], platform: "NGS tissue", analyte: "Non-synonymous mutations per megabase across the panel", regulatory: "FDA CDx", approved: 2020,
-    cutoff: "At least 10 mutations per megabase (pembrolizumab, tumour-agnostic, KEYNOTE-158)",
+    cutoff: "At least 10 mutations per megabase on the FDA companion diagnostic list (pembrolizumab, tumour-agnostic, KEYNOTE-158); the US pembrolizumab label effective 16 October 2026 defines TMB-high as 13 or more mutations per megabase",
     targets: ["pd1"], drugs: ["pembrolizumab"], cancers: ["melanoma", "nsclc", "urothelial", "endometrial"], biomarkers: ["tmb-high"],
     note: "Panel size, germline filtering and the mutation types counted all shift the number; the Friends of Cancer Research TMB harmonisation project exists because 10 on one panel is not 10 on another.", source: FDA_CDX },
   // Oestrogen and progesterone receptor kits (November 2026 census round): FDA 510(k) clearances under 21 CFR 864.1860,

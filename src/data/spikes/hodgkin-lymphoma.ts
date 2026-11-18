@@ -69,11 +69,11 @@ const trials: TrialInput[] = [
   t({ id: "swog-s1826", name: "SWOG S1826", nct: "NCT03907488", phase: "3", status: "positive", yearReported: 2023, sponsor: "SWOG / NCI (with COG)", enrolled: 994,
     setting: "Untreated stage III-IV classical Hodgkin lymphoma, age ≥12: nivolumab + AVD vs brentuximab vedotin + AVD",
     tldr: "Immunotherapy plus chemotherapy beat the previous best regimen with far less nerve damage, in the first Hodgkin trial to enrol children and adults together; approved March 2026.",
-    summary: "1-year PFS 94% vs 86%; 2-year PFS 92% vs 83% (HR 0.45, NEJM 2024). Peripheral neuropathy 28.1% vs 54.2%; fewer treatment discontinuations. Radiotherapy given to <1%. FDA approval 20 March 2026 for ages 12+. Now the frontline standard for advanced-stage disease in North America; HD21's BrECADD is the European alternative.",
+    summary: "1-year PFS 94% vs 86%; 2-year PFS 92% vs 83% (HR 0.45, NEJM 2024). Peripheral sensory neuropathy of any grade 29% vs 56% (139 of 482 vs 266 of 476); fewer treatment discontinuations. Radiotherapy given to <1%. FDA approval 20 March 2026 for ages 12+. Now the frontline standard for advanced-stage disease in North America; HD21's BrECADD is the European alternative.",
     result: "2-year PFS 92% vs 83%, HR 0.45.",
     outcomes: [
       { endpoint: "Progression-free survival at 2 years", primary: true, unit: "%", arms: [{ name: "Nivolumab-AVD", n: 489, value: 92 }, { name: "BV-AVD", n: 487, value: 83 }], hr: 0.45, ci: [0.30, 0.65], p: "<0.001", source: "https://www.nejm.org/doi/full/10.1056/NEJMoa2405888" },
-      { endpoint: "Any-grade peripheral neuropathy", unit: "%", arms: [{ name: "Nivolumab-AVD", value: 28.1 }, { name: "BV-AVD", value: 54.2 }], source: "https://doi.org/10.1056/NEJMoa2405888" },
+      { endpoint: "Any-grade peripheral sensory neuropathy", unit: "%", arms: [{ name: "Nivolumab-AVD", n: 482, value: 29 }, { name: "BV-AVD", n: 476, value: 56 }], source: "https://doi.org/10.1056/NEJMoa2405888" },
     ],
     replication: "Consistent with phase 2 N-AVD data (CheckMate 205 cohort D) and with pembrolizumab-AVD single-arm studies; no second randomised trial yet.",
     drugs: ["nivolumab", "brentuximab-vedotin", "doxorubicin"], cancers: ["hodgkin-lymphoma", "advanced-stage-classical-hodgkin-lymphoma"], targets: ["pd1"], technologies: ["checkpoint-inhibitor"], companies: ["swog", "childrens-oncology-group"], links: [ct("NCT03907488"), { label: "FDA approval (Mar 2026)", url: "https://www.targetedonc.com/view/fda-approves-nivolumab-plus-avd-for-classical-hodgkin-lymphoma" }], people: ["kara-kelly", "alex-herrera"], related: ["src-targeted-oncology"] }),

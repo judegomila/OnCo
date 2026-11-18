@@ -29,6 +29,6 @@ export const peopleBE: PersonInput[] = [
     institutionId: "famhp", institutions: ["famhp"],
     specialisms: ["Medicines regulation"],
     tldr: "He is chief executive of Belgium's medicines regulator, the FAMHP, which authorises clinical trials and early access programmes in Belgium.",
-    summary: "Hugues Malonne is named as the FAMHP's Chief Executive Officer in the agency's announcement of its 2025 annual report, dated 19 October 2026, in which he is quoted on supporting innovation, ensuring the availability of medicines, strengthening dialogue with patients and the agency's handling of the case of a sperm donor carrying a TP53 gene mutation.",
+    summary: "Hugues Malonne is named as the FAMHP's Chief Executive Officer in the agency's announcement of its 2025 annual report, dated 19 October 2026, in which he is quoted on supporting innovation, ensuring the availability of medicines, strengthening dialogue with patients and the agency's handling of the case of a sperm donor carrying a TP53 gene mutation. The FAMHP's pages, which had served a bot challenge earlier on 17 November 2026, answered later that day and the agency's page still named him.",
     profiles: [{ label: "FAMHP: 2025 annual report announcement (19 October 2026)", url: "https://www.famhp.be/en/news/ensuring_access_to_treatments_today_while_preparing_for_those_of_tomorrow" }] }),
 ];

@@ -12,6 +12,12 @@ import type { CountryDive } from "@/data/country-dive";
  * screening training, IARC's GLOBOCAN 2024 fact sheet for Belarus (PDF text), WHO's HPV introduction and coverage rows
  * for Belarus and its Global Health Observatory rows on health spending and service coverage (public APIs), and the
  * papers' abstracts through Europe PMC. Where a figure could not be read it is named under `gaps`.
+ *
+ * Second accuracy pass, 17 November 2026: every claim was re-read against its source in raw text. omr.by and rceth.by
+ * answered plain requests that day, and the cancer centre's site links four editions of the registry's book, so the
+ * registry's own 2024 total (from the 2015 to 2024 edition, PDF text) is now on the page. Also read that day: the IAEA
+ * DIRAC feed (13 centres), and WHO's HPV rows under the wider antigen filter (Belarus's own administrative rows beside
+ * WHO's estimate rows).
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/112-belarus-fact-sheet.pdf";
 const IARC_MISSION = "https://www.iarc.who.int/wp-content/uploads/2018/07/Belarus_Report.pdf";
@@ -27,6 +33,11 @@ const WHO_HPV_INTRO = "https://xmart-api-public.who.int/WIISE/MT_AD_INTRO_LONG?$
 const GHO_OOP = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'BLR'";
 const GHO_GGHE = "https://ghoapi.azureedge.net/api/GHED_GGHE-DCHE_SHA2011?$filter=SpatialDim%20eq%20'BLR'";
 const GHO_UHC = "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?$filter=SpatialDim%20eq%20'BLR'";
+const WHO_HPV_COV_ALL = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'BLR'%20and%20contains(ANTIGEN,'HPV')";
+const OMR_STATS = "https://omr.by/spetsialistam/sbornik-statistika-onkologicheskikh-zabolevanij";
+const REGISTRY_BOOK_2024 = "https://drive.google.com/file/d/1UDeEh6_YmnDvwtVj6tzuq7FD74gGVqNz/view";
+const RCETH_ACTIVITY_JULY_WB = "https://web.archive.org/web/20260720192925/https://www.rceth.by/ru/About/Activity";
+const DIRAC = "https://dirac.iaea.org/Data/CountriesLight";
 const CTGOV = "https://clinicaltrials.gov/search?country=Belarus&cond=cancer";
 const doi = (id: string) => `https://doi.org/${id}`;
 
@@ -38,11 +49,11 @@ export const BY_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Belarus",
   description:
-    "Cancer in Belarus from Belarusian and international sources: IARC's estimate of 46,420 new cancers and 22,838 deaths in 2024 built on a national registry that began on paper in 1953, a tax-funded health service free at the point of use, the Ministry of Health's expert centre for medicines, annual check-ups and screening pilots, HPV vaccination from 2025, thyroid cancer after Chernobyl, CAR T-cell therapy made in Belarus, and the 23 trials in our records with a Belarusian site.",
+    "Cancer in Belarus from Belarusian and international sources: IARC's estimate of 46,420 new cancers and 22,838 deaths in 2024, the national registry's own count of 59,058 new cases that year (a total that includes basal-cell skin cancer), a registry that began on paper in 1953, a tax-funded health service free at the point of use, the Ministry of Health's expert centre for medicines, annual check-ups and screening pilots, HPV vaccination from 2025, thyroid cancer after Chernobyl, CAR T-cell therapy made in Belarus, and the 23 trials in our records with a Belarusian site.",
   lede:
-    "Belarus counts every cancer through a national registry whose paper records began in 1953, and IARC projects its 2024 figures from those counts: 46,420 new cancers and 22,838 deaths, with bowel, breast, prostate and lung cancer the commonest. Thyroid cancer in Belarusian children rose within a few years of the 1986 Chernobyl accident, and the registry has followed that generation since.",
+    "Belarus has a national cancer registry whose paper records began in 1953. IARC projects its 2024 incidence figure from the registry's rates and its deaths figure from national mortality data held by WHO: 46,420 new cancers and 22,838 deaths, with bowel, breast, prostate and lung cancer the commonest. The registry's own book counts 59,058 new cases in 2024, a total that includes basal-cell skin cancer. Thyroid cancer in Belarusian children rose within a few years of the 1986 Chernobyl accident, and registry studies have tracked it since.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Belarus is 46,420 new cancers and 22,838 deaths, an age-standardised incidence of 275.3 per 100,000 (361.5 in men, 225.9 in women) and mortality of 124.4, including 1,333 non-melanoma skin cancers. IARC's fact sheet names the national registry as the incidence source and its method as trends in national rates projected to 2024; for deaths the source is WHO's national mortality data, with national rates applied to the 2024 population. So both figures are projections of Belarus's own counts rather than models borrowed from other countries. OnCo could not read the registry's latest national total to compare: its annual book is printed rather than published online, and Belarusian government sites did not respond. One check is possible. The registry counted 2,539 cancers of the body of the womb in 2022 (ICD-10 C54 to C55), against GLOBOCAN's 2,198 for 2024 (C54 only); the registry's count includes C55, uterus not otherwise specified, so the two are not like for like and the gap is noted here rather than explained.",
+    "IARC's GLOBOCAN 2024 figure for Belarus is 46,420 new cancers and 22,838 deaths, an age-standardised incidence of 275.3 per 100,000 (361.5 in men, 225.9 in women) and mortality of 124.4. Its total with non-melanoma skin cancer left out is 45,087, which is 1,333 fewer. IARC's fact sheet names the national registry as the incidence source and its method as trends in national rates projected to 2024; for deaths the source is WHO's national data, with national rates applied to the 2024 population. The registry's own book for 2015 to 2024, published by the national cancer centre in 2025 and read on 17 November 2026, counts 59,058 new cases of malignant neoplasms registered in 2024 (58,060 in 2023), a crude rate of 646.7 per 100,000, from its database on 10 May 2025. That total includes basal-cell skin cancer, which the book puts at 17.3% of all cases in 2024. The two totals are therefore not like for like, and neither source explains the difference. For one cancer, the book counts 2,620 cancers of the body of the womb (ICD-10 C54) in 2024 against GLOBOCAN's 2,198 under corpus uteri; the fact sheet does not give the codes behind its heading.",
   sections: [
     {
       id: "profile",
@@ -78,7 +89,7 @@ export const BY_DIVE: CountryDive = {
         {
           id: "by-registry",
           title: "Counts from the Belarusian Cancer Registry, as published",
-          caption: "New cases, and the rate per 100,000 where the source gives one, by cancer and year. Latest year published in a source OnCo could read: 2022.",
+          caption: "New cases, and the rate per 100,000 where the source gives one, by cancer and year. Latest year in a source OnCo has read: 2024.",
           columns: [
             { key: "site", label: "Cancer" },
             { key: "year", label: "Year" },
@@ -87,14 +98,17 @@ export const BY_DIVE: CountryDive = {
             { key: "source", label: "Source" },
           ],
           rows: [
-            { site: "Breast (women)", year: "2000", cases: 2774, rate: 27.7, source: "Ministry of Health tables in the WHO and IARC mission report" },
-            { site: "Breast (women)", year: "2009", cases: 3758, rate: 38.9, source: "Ministry of Health tables in the WHO and IARC mission report" },
+            { site: "All malignant neoplasms, including basal-cell skin cancer", year: "2024", cases: 59058, rate: 646.7, source: "Cancer in Belarus: figures and facts, 2015 to 2024" },
+            { site: "Breast", year: "2000", cases: 2774, rate: 27.7, source: "Ministry of Health tables in the WHO and IARC mission report" },
+            { site: "Breast", year: "2009", cases: 3758, rate: 38.9, source: "Ministry of Health tables in the WHO and IARC mission report" },
             { site: "Uterine corpus (C54 to C55)", year: "1993", cases: 928, rate: 12.2, source: "Matylevich et al. 2026" },
             { site: "Uterine corpus (C54 to C55)", year: "2022", cases: 2539, rate: 27.1, source: "Matylevich et al. 2026" },
+            { site: "Uterine corpus (C54)", year: "2024", cases: 2620, rate: 27.0, source: "Cancer in Belarus: figures and facts, 2015 to 2024" },
             { site: "Papillary thyroid cancer, people registered", year: "1990 to 2021", cases: 30568, rate: null, source: "Taha et al. 2023" },
           ],
-          note: "The registry publishes no national all-cancers total that OnCo could read online; its annual book, Cancer in Belarus: figures and facts, is printed. The breast rates are the totals per 100,000 in the Ministry's tables, apparently crude rates; the uterine rates are age-standardised as the paper reports them. The thyroid row is a cumulative cohort, not a yearly count.",
+          note: "The all-cancers row is from the registry's book for 2015 to 2024, read on 17 November 2026; its rate is crude, and the book puts basal-cell skin cancer at 17.3% of the 2024 total. The breast rows are from the Ministry's tables, which are headed malignant breast neoplasms in Belarus and do not state the sex or the population behind the rate per 100,000. The uterine rates are age-standardised, as the paper and the book (world standard) report them. The thyroid row is a cumulative cohort, not a yearly count.",
           sources: [
+            { label: "Belarusian Cancer Registry: Cancer in Belarus, figures and facts, 2015 to 2024 (Minsk 2025, PDF, Russian)", url: REGISTRY_BOOK_2024 },
             { label: "IARC Working Group Report 6, annex A9: breast cancer epidemiology tables for Belarus (PDF)", url: IARC_MISSION },
             { label: "Matylevich et al., uterine corpus malignancies in Belarus 1993 to 2022 (Int J Gynaecol Obstet 2026)", url: doi("10.1002/ijgo.70743") },
             { label: "Taha et al., second primary cancer after papillary thyroid carcinoma following Chernobyl (JAMA Netw Open 2023)", url: doi("10.1001/jamanetworkopen.2023.29559") },
@@ -112,12 +126,14 @@ export const BY_DIVE: CountryDive = {
           id: "registry-history",
           title: "Paper records from 1953, computers from 1978, a separate registry unit from 2011",
           plain:
-            "Belarus registers every cancer diagnosed in the country. The Ministry of Health told WHO and IARC that paper registration began in 1953 and a computer system in 1978. Since 2011 the Belarusian Cancer Registry has been its own unit at the N.N. Alexandrov National Cancer Centre near Minsk, and it publishes a book of national figures.",
+            "Belarus has one national cancer registry, which says it registers all cases of malignant tumours. The Ministry of Health told WHO and IARC that paper registration began in 1953 and a computer system in 1978. Since 2011 the Belarusian Cancer Registry has been its own unit at the N.N. Alexandrov National Cancer Centre near Minsk. It publishes a book of national figures, and the centre's website links recent editions.",
           detail:
-            "In its answers to the 2011 WHO and IARC mission, printed as annex A6 of the report, the Ministry of Health said cancer registration on paper was introduced in 1953, a computerised system created in 1978 and the current automated information system on oncology introduced in 1997, with ICD-10 coding and in situ cancers (D00 to D09) coded since 2004. The cancer centre's history says the registry's foundations were laid in 1972 to 1973, that the institute's automated cancer information system was recommended by the USSR Ministry of Health to all republics in 1976, and that a separate cancer registry unit was created in 2011, describing it as the most complete information resource on all cancer patients registered in the country. On 28 February 2020 the centre announced the registry's book Cancer in Belarus: figures and facts for 2009 to 2018, by Okeanov, Moiseev, Levin, Evmenenko and Ipatiy, available in print from the centre. The European Observatory lists the cancer register beside a separate state register of people affected by the Chernobyl catastrophe.",
+            "In its answers to the 2011 WHO and IARC mission, printed as annex A6 of the report, the Ministry of Health said cancer registration on paper was introduced in 1953, a computerised system created in 1978 and the current automated information system on oncology introduced in 1997, with ICD-10 coding and in situ cancers (D00 to D09) coded since 2004. The cancer centre's history says the registry's foundations were laid in 1972 to 1973, that the institute's automated cancer information system was recommended by the USSR Ministry of Health to all republics in 1976, and that a separate cancer registry unit was created in 2011, describing it as the most complete information resource on all cancer patients registered in the country. On 28 February 2020 the centre announced the registry's book Cancer in Belarus: figures and facts for 2009 to 2018, by Okeanov, Moiseev, Levin, Evmenenko and Ipatiy, which staff could collect at the centre. On 17 November 2026 the centre's website listed four later editions, for 2012 to 2021, 2013 to 2022, 2014 to 2023 and 2015 to 2024, each with a file link. The preface of the 2015 to 2024 edition says the registry has functioned since 1972 and registers all cases of malignant solid tumours and of cancers of the blood and lymphatic tissue. The European Observatory lists the cancer register beside a separate state register of people affected by the Chernobyl catastrophe.",
           links: [
             { label: "N.N. Alexandrov National Cancer Centre: history (Russian, read through the Internet Archive)", url: OMR_HISTORY_WB },
             { label: "N.N. Alexandrov National Cancer Centre: Cancer in Belarus, figures and facts, 2009 to 2018 (28 February 2020, read through the Internet Archive)", url: OMR_BOOK_WB },
+            { label: "N.N. Alexandrov National Cancer Centre: statistics of oncological diseases, list of editions (Russian)", url: OMR_STATS },
+            { label: "Belarusian Cancer Registry: Cancer in Belarus, figures and facts, 2015 to 2024 (Minsk 2025, PDF, Russian)", url: REGISTRY_BOOK_2024 },
             { label: "IARC Working Group Report 6, annex A6 (PDF)", url: IARC_MISSION },
             { label: "European Observatory: Belarus health system review 2013", url: HIT_2013 },
           ],
@@ -134,7 +150,7 @@ export const BY_DIVE: CountryDive = {
           id: "state-service",
           title: "Free at the point of use, guaranteed by the Constitution",
           plain:
-            "Health care in Belarus is paid for from general taxation, not insurance, and the Constitution guarantees it to citizens. Care in state hospitals and clinics is free, and medicines given in hospital are free. The main cost patients pay themselves is for medicines prescribed outside hospital, though some cancer medicines are given free.",
+            "Health care in Belarus is paid for from general taxation, not insurance, and the Constitution guarantees it to citizens. A European review of 2013, the latest OnCo read, found care in state hospitals and clinics free and medicines given in hospital free. The main cost patients paid themselves was for medicines prescribed outside hospital, though some cancer medicines were given free.",
           detail:
             "The European Observatory's 2013 review describes entitlement guaranteed by Article 45 of the Constitution and based on citizenship, a universal system directly funded through general taxation with no compulsory social health insurance and only limited voluntary insurance, and primary, secondary and tertiary care covered in practice in predominantly state-owned facilities. Inpatient medicines are free. Outpatients generally pay the full cost of prescriptions, but certain essential medicines, broadly those on the WHO Essential Medicines List plus some for cancer, are free and are imported and bought centrally through the Ministry of Health. The national Essential Medicines List is described as broadly similar to WHO's but broader, including cancer treatments. Some groups, such as Second World War veterans and Chernobyl clean-up workers, have outpatient prescriptions fully covered. Treatments unavailable in Belarus, including innovative cancer treatments, could be funded abroad only from limited funds with a long waiting list, with children prioritised.",
           links: [
@@ -167,11 +183,12 @@ export const BY_DIVE: CountryDive = {
           id: "rceth",
           title: "Medicines are registered by the state after review by the Center for Examinations and Tests",
           plain:
-            "Medicines in Belarus are registered by the state. The Ministry of Health's expert centre, the Center for Examinations and Tests in Health Service, reviews the files first. It also reviews medicines under the shared rules of the Eurasian Economic Union, tests medicine quality and registers the maximum price a manufacturer may charge.",
+            "Medicines in Belarus are registered by the state. The Ministry of Health's expert centre, the Center for Examinations and Tests in Health Service, reviews the files first. It also reviews medicines under the shared rules of the Eurasian Economic Union and tests medicine quality. Until July 2026 its list of work also included checking the documents for registering the maximum price a manufacturer may charge; the page no longer lists that.",
           detail:
-            "The Center for Examinations and Tests in Health Service is a republican unitary enterprise whose parent body is the Ministry of Health. Its activity page lists the technical work preceding state registration of medicines (document review, specialised review of clinical and bioequivalence reports, and testing of quality control methods), the examination of medicines for registration within the Eurasian Economic Union, quality control of medicines on the market, and the registration of manufacturers' maximum selling prices with the state register of those prices. Its document page lists review for state registration, conditional state registration, registration by a simplified procedure and registration within the Union, and the law on the circulation of medicines, No. 161-Z of 20 July 2006. Pages were read through the Internet Archive because the centre's site did not answer a plain request.",
+            "The Center for Examinations and Tests in Health Service is a republican unitary enterprise whose parent body is the Ministry of Health. Its activity page lists the technical work preceding state registration of medicines (document review, specialised review of clinical and bioequivalence reports, and testing of quality control methods), the examination of medicines for registration within the Eurasian Economic Union, and quality control of medicines on the market. A capture of that page made on 20 July 2026 also listed receiving and checking the documents for registering manufacturers' maximum selling prices and keeping the state register of those prices; the capture of 9 August 2026 and the live page read on 17 November 2026 do not list it, and OnCo did not find where that work now sits. Its document page lists review for state registration, conditional state registration, registration by a simplified procedure and registration within the Union, and the law on the circulation of medicines, No. 161-Z of 20 July 2006. Pages were first read through the Internet Archive because the centre's site did not answer a plain request on 11 November 2026; it answered on 17 November 2026 and its activity page matched the August capture.",
           links: [
             { label: "Center for Examinations and Tests in Health Service: activity (Russian, read through the Internet Archive)", url: RCETH_ACTIVITY_WB },
+            { label: "Center for Examinations and Tests in Health Service: activity, capture of 20 July 2026 (Russian, Internet Archive)", url: RCETH_ACTIVITY_JULY_WB },
             { label: "Center for Examinations and Tests in Health Service: clinical trial documents (Russian, read through the Internet Archive)", url: RCETH_CT_WB },
           ],
         },
@@ -199,7 +216,7 @@ export const BY_DIVE: CountryDive = {
           id: "checkups",
           title: "Annual check-ups with a cervical smear, for decades, and advice to move to organised screening",
           plain:
-            "For more than 30 years Belarus has offered women a yearly preventive examination that includes a cervical smear and a breast check, paid for by the state. WHO and IARC experts who visited in 2011 advised replacing it with organised screening at longer intervals, with quality checks and personal invitations, piloted first.",
+            "By 2011 Belarus had for more than 30 years offered women a yearly preventive examination that includes a cervical smear and a breast check, paid for by the state. WHO and IARC experts who visited in 2011 advised replacing it with organised screening at longer intervals, with quality checks and personal invitations, piloted first.",
           detail:
             "The Ministry told the 2011 mission that annual examinations had existed for over 30 years, with smears and breast palpation at every level of care, and that around 60% of sexually active women were examined each year; national presenters reported 3.6 million cervical samples a year and 88% of women examined in 2009, a figure not built from individual data and so an overestimate of coverage. Smears were stained by the Pappenheim method, not the Papanicolaou method the European guidelines use, there was no computerised cytology registry, and HPV tests were paid for by patients. The experts recommended feasibility testing, a pilot in a region of at least 500,000 people, and phased national rollout. The 2013 European Observatory review still described annual smears from age 18, and a 2023 survey found Belarus staining smears by Romanowsky-Giemsa.",
           links: [
@@ -212,7 +229,7 @@ export const BY_DIVE: CountryDive = {
           id: "breast-pilots",
           title: "Breast cancer found early without a mammography programme, and pilots since 2011",
           plain:
-            "More than three quarters of breast cancers in Belarus in 2013 to 2017 were found at stage I or II, without a national mammography programme. The cancer centre started screening pilots for breast, cervical, bowel and prostate cancer in 2011, and the Ministry later named two Minsk sites to pilot breast screening.",
+            "More than three quarters of breast cancers in Belarus in 2013 to 2017 were found at stage I or II, without a national mammography programme. The cancer centre started screening pilots for breast, cervical, bowel and prostate cancer in 2011, and WHO reported in 2018 that the Ministry had named a Minsk polyclinic and the cancer centre as pilot sites for breast screening.",
           detail:
             "Ryzhov and colleagues, comparing official statistics from ten former Soviet countries, found more than 75% of breast cancers in Belarus registered at stages I to II in 2013 to 2017, and called this a benchmark for what rapid diagnosis can achieve. The cancer centre's history records pilot screening projects for prostate, breast, colorectal and cervical cancer beginning in 2011. WHO Europe reported in February 2018 that the Ministry had appointed Polyclinic No. 34 in Minsk and the centre as pilot sites for a government breast screening project, and that two of the centre's radiologists trained in the United Kingdom under the EU-funded BELMED project. In a survey of 428 women published in 2019, 90% preferred mammography to the existing clinical breast examination.",
           links: [
@@ -226,12 +243,13 @@ export const BY_DIVE: CountryDive = {
           id: "hpv",
           title: "HPV vaccine introduced nationwide in 2025",
           plain:
-            "Belarus added the HPV vaccine, given to girls to protect against cervical cancer, to its national programme in 2025, according to the data it reports to WHO. In its first year three quarters of the girls targeted received a first dose.",
+            "Belarus added the HPV vaccine, which protects against cervical cancer, to its national programme in 2025, according to WHO's immunisation data. For 2025 Belarus reported that 84% of the girls it targeted received a first dose; WHO's own estimate, against a larger target, is 75%. Few had a final dose in that first year.",
           detail:
-            "WHO's vaccine introduction rows for Belarus record no HPV vaccine in the national programme from 2018 to 2024 and introduction, nationwide, in 2025. Belarus's programme coverage rows for 2025 give 43,210 first doses among a target of 57,452 girls (75%) and 1,020 last doses (2%); no rows are reported for boys. The 2011 mission report records that HPV testing was then paid for by patients.",
+            "WHO's vaccine introduction rows for Belarus record no HPV vaccine in the national programme in any year from 2006 to 2024 and introduction, nationwide, in 2025. For 2025 Belarus's own rows (administrative coverage, with the same percentages under official coverage) give 43,210 first doses among a target of 51,220 girls (84.36%) and 1,020 final doses among a target of 33,457 (3.05%). WHO's estimate rows for the same year (the category HPV Estimates, programme coverage) set the same doses against a target of 57,452 girls: 75% for the first dose and 2% for the last. Rows for boys exist for 2025 but are blank, as are the coverage and doses in every row for 2010 to 2024. The rows were read on 17 November 2026. The 2011 mission report records that HPV testing was then paid for by patients.",
           links: [
             { label: "WHO immunisation data: HPV vaccine introduction rows for Belarus (API)", url: WHO_HPV_INTRO },
-            { label: "WHO immunisation data: HPV programme coverage rows for Belarus (API)", url: WHO_HPV_COV },
+            { label: "WHO immunisation data: all HPV coverage rows for Belarus, reported and estimated (API)", url: WHO_HPV_COV_ALL },
+            { label: "WHO immunisation data: HPV programme coverage estimate rows for Belarus (API)", url: WHO_HPV_COV },
           ],
         },
       ],
@@ -243,12 +261,13 @@ export const BY_DIVE: CountryDive = {
       cards: [
         {
           id: "capacity-snapshot",
-          title: "What the 2011 mission and the 2013 review counted",
+          title: "Radiotherapy machines in 2011 and in the IAEA directory now, and palliative care in 2013",
           plain:
-            "The most detailed published counts OnCo could read are more than ten years old. In 2011 the Ministry of Health counted 8 linear accelerators, 24 cobalt units and 15 brachytherapy units in the country's cancer facilities, three of the accelerators at the national cancer centre. In 2013 the country had two hospices and 282 palliative care beds.",
+            "The IAEA's directory of radiotherapy centres, read on 17 November 2026, lists 13 centres in Belarus with 23 linear accelerators and 11 cobalt-60 units between them. Centres report their own entries, last updated between 2019 and 2024. In 2011 the Ministry of Health counted 8 linear accelerators, 24 cobalt units and 15 brachytherapy units in the country's cancer facilities, three of the accelerators at the national cancer centre. In 2013 the country had two hospices and 282 palliative care beds.",
           detail:
-            "The Ministry's answers to the 2011 mission give 8 linear accelerators, 15 CT simulators for radiotherapy planning, 24 cobalt gamma units and 15 brachytherapy installations. Annex A11 lists the national cancer centre's three linear accelerators (in service from 1996, 2005 and 2008) beside cobalt and brachytherapy units, accelerators at the Vitebsk, Gomel, Brest and Mogilev regional clinics, and cobalt or brachytherapy units at the Minsk regional hospital and city clinic, the Vileyka, Polotsk, Baranovichi, Pinsk, Bobruisk and Grodno clinics, several of them gamma units from the 1970s and 1980s. The centre's history records linear accelerators bought or installed in 2011 and 2012, and in 2016 a stereotactic accelerator and a Gamma Knife added to its three existing accelerators, without a national total. The Ministry told the mission that 55 doctors practised gynaecological oncology. The 2013 European Observatory review counted 2 hospices (Minsk and Baranovichi), 11 regional palliative care departments and 282 palliative care beds, and the Belarusian Children's Hospice, a charity founded after Chernobyl.",
+            "The Ministry's answers to the 2011 mission give 8 linear accelerators, 15 CT simulators for radiotherapy planning, 24 cobalt gamma units and 15 brachytherapy installations. Annex A11 lists the national cancer centre's three linear accelerators (in service from 1996, 2005 and 2008) beside cobalt and brachytherapy units, accelerators at the Vitebsk, Gomel, Brest and Mogilev regional clinics, and cobalt or brachytherapy units at the Minsk regional hospital and city clinic, the Vileyka, Polotsk, Baranovichi, Pinsk and Bobruisk clinics and the Grodno regional hospital, several of them gamma units from the 1970s and 1980s. The centre's history records linear accelerators bought or installed in 2011 and 2012, and in 2016 a stereotactic accelerator and a Gamma Knife added to its three existing accelerators, without a national total. The IAEA's Directory of Radiotherapy Centres (DIRAC), read on 17 November 2026, lists 13 centres: the N.N. Alexandrov National Cancer Centre of Belarus (3 linear accelerators, 1 cobalt-60 unit and 1 Gamma Knife), Gomel Regional Clinical Oncology Hospital (7 linear accelerators), Minsk City Clinical Oncology Center (6, and 1 cobalt-60 unit), the Brest, Mogilev and Vitebsk regional centres (2 and 1 each), the Minsk Scientific-Practical Center of Surgery, Transplantation and Hematology (1 linear accelerator), centres with cobalt-60 units only at Baranovichi (2), Bobruisk, Grodno, Pinsk and Polotsk (1 each), and Mozyr Municipal Oncology Center with neither. That makes 23 linear accelerators, 11 cobalt-60 units and 1 Gamma Knife, and eight centres are listed with brachytherapy. Entries were last updated in 2024 (five centres), 2022 (three), 2021 (two) and 2019 (three), so the older ones may be out of date; the national centre's 2024 entry lists 3 linear accelerators, where its history describes a fourth bought in 2016. The Ministry told the mission that 55 doctors practised gynaecological oncology. The 2013 European Observatory review counted 2 hospices (Minsk and Baranovichi), 11 regional palliative care departments and 282 palliative care beds, and the Belarusian Children's Hospice, a charity founded after Chernobyl.",
           links: [
+            { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC },
             { label: "IARC Working Group Report 6, annexes A6 and A11 (PDF)", url: IARC_MISSION },
             { label: "European Observatory: Belarus health system review 2013, section 5.10", url: HIT_2013 },
             { label: "N.N. Alexandrov National Cancer Centre: history (read through the Internet Archive)", url: OMR_HISTORY_WB },
@@ -265,7 +284,7 @@ export const BY_DIVE: CountryDive = {
           id: "chernobyl-thyroid",
           title: "Following a generation exposed to Chernobyl fallout",
           plain:
-            "The 1986 Chernobyl accident spread radioactive iodine over Belarus, and thyroid cancer in children rose within four years. Belarus has followed these patients through its registry ever since. Of 1,078 children and teenagers operated on from 1990 to 2005, 96.9% were alive after a median of 16 years. The rise now shows in adults aged 20 to 44.",
+            "The 1986 Chernobyl accident spread radioactive iodine over Belarus, and thyroid cancer in children rose within four years. Belarusian researchers have followed these patients since. Of 1,078 children and teenagers operated on from 1990 to 2005, 96.9% were alive after a median of 16 years. The rise now shows in adults aged 20 to 44.",
           detail:
             "Fridman and colleagues write that the rise in papillary thyroid cancer among exposed children was reported only four years after the accident, first in Belarus, where the heaviest fallout happened; their registry analysis of 1980 to 2019 finds waves that follow the exposed cohort as it ages, with incidence now rising only in people aged 20 to 44. Among 1,078 patients under 19 treated in 1990 to 2005, 73.8% had lymph node spread at diagnosis and overall survival was 96.9% at a median of 16.21 years. The Belarus-American cohort of 11,970 people, with doses estimated from individual thyroid measurements, found risk rising by an excess odds ratio of 2.15 per gray below 5 Gy. Among 30,568 people with papillary thyroid cancer, 9.2% developed a second cancer (standardised incidence ratio 1.25). An IARC-led study of the two most contaminated regions found no evidence that marrow dose raised lymphoma, myeloma or total leukaemia risk.",
           links: [
@@ -298,7 +317,7 @@ export const BY_DIVE: CountryDive = {
           id: "trials-research",
           title: "23 trials in OnCo's records list a site in Belarus, five of them run by a Russian company",
           plain:
-            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 11 November 2026, 23 cancer trials in our records list a site in Belarus. Ten have finished, ten are running but no longer recruiting, one stopped early, and two are recruiting, both run by the Russian company Biocad.",
+            "Recounted on 17 November 2026 from the ClinicalTrials.gov participation data in OnCo's graph, which was retrieved on 7 October 2026, 23 cancer trials in our records list a site in Belarus. Ten have finished, ten are running but no longer recruiting, one stopped early, and two are recruiting, both run by the Russian company Biocad.",
           detail:
             "Of the 23 trials, 5 are sponsored by Biocad and run in Belarus with Russia, and in two cases India or Pakistan: two melanoma studies of nurulimab with prolgolimab, a melanoma study comparing BCD-263 with Opdivo, and two recruiting studies, of BCD-248 with daratumumab in myeloma and of BCD-236 with chemotherapy in triple-negative breast cancer. The rest are international company trials, from 13 to 41 countries for most, including ARAMIS (darolutamide) and a study continuing darolutamide for patients from earlier Bayer studies, RUBY and a first-line ovarian study of dostarlimab and niraparib, an erdafitinib study in urothelial cancer, a niraparib study in prostate cancer, ALINA (alectinib), BROCADE3 (veliparib), EMPOWER-Lung 1 (cemiplimab), ROSEWOOD (zanubrutinib), LUME-Lung 1 (nintedanib), two rovalpituzumab tesirine trials and a rituximab maintenance study in Belarus and Poland. The academic CAR T-cell trials above are not yet among our records.",
           links: [
@@ -309,7 +328,7 @@ export const BY_DIVE: CountryDive = {
           id: "registry-research",
           title: "The registry as a research resource, with international partners",
           plain:
-            "Because Belarus registers every cancer nationally, its registry supports studies that few countries can run: thyroid cancer trends from 1980 to 2019, before and after Chernobyl, 30-year trends in womb and vaginal cancer, and comparisons with neighbouring countries done with IARC and WHO.",
+            "Belarus's national registry supports long-running studies: thyroid cancer trends from 1980 to 2019, before and after Chernobyl, 30-year trends in womb and vaginal cancer, and comparisons with neighbouring countries done with IARC and WHO.",
           detail:
             "Studies built on the Belarusian Cancer Registry include papillary thyroid cancer trends from 1980 to 2019, second cancers among 30,568 thyroid cancer patients followed to 2021, uterine cancer from 1993 to 2022, vaginal cancer from 1990 to 2019 (868 patients) and testicular cancer from 1990 to 2015 (2,500 cases). IARC researchers led the studies of breast cancer and of blood cancers in the most contaminated regions, with a co-author from the national cancer centre's cancer control department, who also co-authored the IARC and WHO comparisons of stage at diagnosis and screening practice across former Soviet countries.",
           links: [
@@ -325,25 +344,27 @@ export const BY_DIVE: CountryDive = {
   gaps: [
     {
       id: "registry-book",
-      title: "The registry's national totals could not be read",
+      title: "Most of the registry's own book has not yet been read into this page",
       plain:
-        "The Belarusian Cancer Registry publishes its national figures in a printed book, Cancer in Belarus: figures and facts, and OnCo found no online copy. Belarusian government and hospital sites did not answer requests from where OnCo fetched, so this page has no national all-cancers count from the registry itself.",
+        "The Belarusian Cancer Registry publishes its national figures in a book, Cancer in Belarus: figures and facts. On 17 November 2026 the cancer centre's website linked four editions, the latest covering 2015 to 2024, and OnCo took from it the 2024 national total and the count for womb cancer. Its chapters on deaths, stage, treatment and survival have not yet been read into this page.",
       detail:
-        "On 11 November 2026 minzdrav.gov.by, omr.by, rceth.by and belstat.gov.by timed out on plain requests, as did a Belarusian university repository and a Belarusian medical publisher holding papers that cite the book. Pages from the Ministry's expert centre and the cancer centre were read through the Internet Archive, and each is labelled so. The centre's notice of the 2009 to 2018 edition offered printed copies only. Figures on this page from the registry come from peer-reviewed papers that analysed its data and from the Ministry's own tables printed in the 2012 WHO and IARC report. Press reports quoting registry figures were not used.",
+        "An earlier version of this card said the book was printed only and its totals could not be read. On 11 November 2026 minzdrav.gov.by, omr.by, rceth.by and belstat.gov.by timed out on plain requests; on 17 November 2026 omr.by and rceth.by answered, and minzdrav.gov.by and belstat.gov.by timed out again. The cancer centre's statistics page lists the editions for 2012 to 2021, 2013 to 2022, 2014 to 2023 and 2015 to 2024 as shared files. The 2015 to 2024 edition (Minsk 2025, 283 pages, edited by S. L. Polyakov) has chapters on incidence, mortality, detection, treatment, survival and patients under follow-up. The other registry figures on this page come from peer-reviewed papers that analysed its data and from the Ministry's own tables printed in the 2012 WHO and IARC report. Press reports quoting registry figures were not used.",
       links: [
+        { label: "N.N. Alexandrov National Cancer Centre: statistics of oncological diseases, list of editions (Russian)", url: OMR_STATS },
+        { label: "Belarusian Cancer Registry: Cancer in Belarus, figures and facts, 2015 to 2024 (Minsk 2025, PDF, Russian)", url: REGISTRY_BOOK_2024 },
         { label: "N.N. Alexandrov National Cancer Centre: Cancer in Belarus, figures and facts, 2009 to 2018 (read through the Internet Archive)", url: OMR_BOOK_WB },
         { label: "IARC: GLOBOCAN 2024 fact sheet, Belarus (PDF)", url: IARC_FACTSHEET },
       ],
     },
     {
       id: "capacity-now",
-      title: "Current radiotherapy machines and cancer workforce are not confirmed",
+      title: "The current cancer workforce and beds are not confirmed, and the radiotherapy listing is self-reported",
       plain:
-        "OnCo found no current published count of radiotherapy machines, oncologists or cancer beds in Belarus. The counts on this page come from 2011 and 2013. The IAEA's directory of radiotherapy centres did not return its data to a plain request.",
+        "OnCo found no current published count of oncologists or cancer beds in Belarus; the workforce and palliative care counts on this page come from 2011 and 2013. For radiotherapy machines the IAEA's directory gives a recent listing, but centres report their own entries and some date from 2019.",
       detail:
-        "The IAEA's DIRAC directory loads its country data by script and returned only a page frame. The cancer centre's history records an imPACT mission by IAEA, WHO and IARC experts in 2016, but OnCo did not find its report. The 2011 equipment list was supplied by the Ministry of Health to the WHO and IARC mission, and the cancer centre's history mentions later machines without a national total.",
+        "An earlier version of this card said the IAEA's DIRAC directory could not be read. That was wrong: its countries table loads from a public data feed, which was read on 17 November 2026 and lists 13 centres in Belarus, set out in the capacity card above. Each entry carries the year it was last updated, from 2019 to 2024, and the listing is not an official national count. The cancer centre's history records an imPACT mission by IAEA, WHO and IARC experts in 2016, but OnCo did not find its report. The 2011 equipment list was supplied by the Ministry of Health to the WHO and IARC mission, and the cancer centre's history mentions later machines without a national total.",
       links: [
-        { label: "IAEA: DIRAC, directory of radiotherapy centres", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC },
         { label: "IARC Working Group Report 6, annex A11 (PDF)", url: IARC_MISSION },
       ],
     },
@@ -353,7 +374,7 @@ export const BY_DIVE: CountryDive = {
       plain:
         "The description of which cancer medicines the state gives free comes from a 2013 review. OnCo did not read the current national list of essential medicines, found no published registration times, and found no published result of a WHO assessment of the Belarusian medicines regulator.",
       detail:
-        "The Ministry of Health's current list of essential medicines and its rules on free and discounted outpatient medicines were not reachable on its site. The expert centre's pages describe procedures but not their timelines. OnCo found no WHO Global Benchmarking Tool maturity level for Belarus in the sources read. How the Eurasian Economic Union's common registration rules have changed access to cancer medicines in Belarus was not established from a primary source.",
+        "The Ministry of Health's current list of essential medicines and its rules on free and discounted outpatient medicines were not reachable on its site, which timed out on 11 November and again on 17 November 2026. The expert centre's pages describe procedures but not their timelines. OnCo found no WHO Global Benchmarking Tool maturity level for Belarus in the sources read. How the Eurasian Economic Union's common registration rules have changed access to cancer medicines in Belarus was not established from a primary source.",
       links: [
         { label: "European Observatory: Belarus health system review 2013", url: HIT_2013 },
         { label: "Center for Examinations and Tests in Health Service: activity (read through the Internet Archive)", url: RCETH_ACTIVITY_WB },
@@ -361,9 +382,9 @@ export const BY_DIVE: CountryDive = {
     },
     {
       id: "plan-and-survival",
-      title: "The current national cancer programme and national survival figures were not found",
+      title: "The current national cancer programme was not found, and national survival figures are not yet on this page",
       plain:
-        "The cancer centre's history names a state programme for cancer prevention, diagnosis and treatment for 2010 to 2014 and the state programme Health of the Nation and Demographic Security for 2016 to 2020, with a large part on early diagnosis and screening, but OnCo did not read the text of either or of any later plan. National five-year survival for all cancers was not found in a primary source either.",
+        "The cancer centre's history names a state programme for cancer prevention, diagnosis and treatment for 2010 to 2014 and the state programme Health of the Nation and Demographic Security for 2016 to 2020, with a large part on early diagnosis and screening, but OnCo did not read the text of either or of any later plan. National survival figures are in a chapter of the registry's book for 2015 to 2024, which OnCo has not yet read into this page.",
       detail:
         "Survival figures on this page are for specific groups in published studies: uterine cancer in women under 50, children with thyroid cancer, and patients in two CAR T-cell trials. The 2013 review quotes five-year survival for prostate cancer diagnosed in 2000 to 2004 of 43.0% in Belarus against 64.5% in Lithuania, from Smailyte and colleagues, but that study was not read here. UNSCEAR's reports on thyroid cancer after Chernobyl did not answer a plain request and are not used.",
       links: [
@@ -393,9 +414,9 @@ export const BY_DIVE: CountryDive = {
   ],
   people: [],
   how:
-    "Every card was written from Belarusian official sources, international reviews and peer-reviewed papers, read in full rather than through a summary: the N.N. Alexandrov National Cancer Centre's history and its notice of the registry's book, and the Center for Examinations and Tests in Health Service's pages, both read through the Internet Archive because Belarusian sites did not answer; the 2012 WHO and IARC report of the 2011 expert mission, with the Ministry of Health's annexes; the European Observatory's 2013 health system review; WHO Europe's 2018 news item; IARC's GLOBOCAN 2024 fact sheet; WHO's HPV and health spending data from its public APIs; and the abstracts of the papers listed, each resolved through Europe PMC. Trial counts are from ClinicalTrials.gov participation data in OnCo's graph.",
+    "Every card was written from Belarusian official sources, international reviews and peer-reviewed papers, read in full rather than through a summary: the N.N. Alexandrov National Cancer Centre's history and its notice of the registry's book, and the Center for Examinations and Tests in Health Service's pages, both read through the Internet Archive because Belarusian sites did not answer on 11 November 2026, and again from the live sites on 17 November 2026; the registry's book for 2015 to 2024, linked from the cancer centre's site (PDF text); the IAEA's directory of radiotherapy centres, from its public data feed; the 2012 WHO and IARC report of the 2011 expert mission, with the Ministry of Health's annexes; the European Observatory's 2013 health system review; WHO Europe's 2018 news item; IARC's GLOBOCAN 2024 fact sheet; WHO's HPV and health spending data from its public APIs; and the abstracts of the papers listed, each resolved through Europe PMC. Trial counts are from ClinicalTrials.gov participation data in OnCo's graph. Every claim was checked a second time against its source on 17 November 2026.",
   verify:
-    "National incidence and death figures are IARC projections from Belarus's registry and death records, not the registry's own latest count. Several sources here are more than ten years old, and which medicines are free, which screening a clinic offers and where radiotherapy is given may have changed; ask the regional oncology dispensary or the treating hospital what applies to you. Pages read through the Internet Archive show the site as it was captured, not necessarily as it is now.",
+    "The headline incidence and death figures are IARC projections from Belarus's registry rates and death records. The registry's own 2024 count, given beside them, is larger and includes basal-cell skin cancer. Several sources here are more than ten years old, and which medicines are free, which screening a clinic offers and where radiotherapy is given may have changed; ask the regional oncology dispensary or the treating hospital what applies to you. Pages read through the Internet Archive show the site as it was captured, not necessarily as it is now.",
   verifyLinks: [
     { label: "Ministry of Health of the Republic of Belarus", url: "https://minzdrav.gov.by/" },
     { label: "N.N. Alexandrov National Cancer Centre of Belarus", url: "https://omr.by/" },

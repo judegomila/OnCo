@@ -34,17 +34,17 @@ const institutions: InstitutionInput[] = [
   i({ id: "lubango-cancer-registry", name: "Lubango Cancer Registry", aka: ["Registo de Cancro do Lubango", "Lubango population-based cancer registry"],
     city: "Lubango", country: "AO", lat: -14.92, lng: 13.49, institutionType: "research-institute", website: AFCRN_LUBANGO,
     tldr: "A population-based cancer registry for the city of Lubango in Huíla province, established on 4 February 2022 and a member of the African Cancer Registry Network. It covers a population of about one million.",
-    summary: "The Lubango Cancer Registry's page on the African Cancer Registry Network says it was established on 4 February 2022 at a ceremony attended by the Governor of Huíla and other public health bodies, and is directed by Dr Maria Lina Antunes with five staff. It collects cases on the network's notification form from clinical records, pathology and radiology reports and death certificates, codes them with ICD-O-3 and enters them into CanReg5. It gives the population projection for Lubango for 2022 to 2023 as 1,020,558, and says data quality is hampered by limited knowledge of oncology and difficulties with pathology. The coordinates are an approximate Lubango city point.",
+    summary: "The Lubango Cancer Registry's page on the African Cancer Registry Network says it was established on 4 February 2022 at a ceremony attended by the Governor of Huíla and other public health bodies, and is directed by Dr Maria Lina Antunes with five staff. It collects cases on the network's notification form from clinical records, pathology and radiology reports and death certificates, codes them with ICD-O-3 and enters them into CanReg5. It gives the population projection for Lubango for 2022 to 2023 as 1,020,558, and says data quality is hampered by a lack of knowledge about oncology and difficulties with pathology. The page does not itself use the words population-based; the network's membership criteria require a member registry to be population-based. The coordinates are an approximate Lubango city point.",
     programs: ["Population-based cancer registration for Lubango (from 2022)", "African Cancer Registry Network member registry"],
     institutions: ["iarc"],
     related: ["cancer-registries-surveillance"],
-    links: [{ label: "African Cancer Registry Network: Angola, Lubango Cancer Registry", url: AFCRN_LUBANGO }] }),
+    links: [{ label: "African Cancer Registry Network: Angola, Lubango Cancer Registry", url: AFCRN_LUBANGO }, { label: "African Cancer Registry Network: membership criteria", url: "https://afcrn.org/index.php/membership" }] }),
 ];
 
 const papers: PaperInput[] = [
   p({ id: "paper-miguel-iacc-hospital-registry-luanda-iac-2019", name: "The hospital-based cancer registry of the Instituto Angolano de Controlo do Cancro, Luanda, 2012 to 2016",
     journal: "Infectious Agents and Cancer", year: 2019, doi: "10.1186/s13027-019-0249-2", pmid: "31719840", authors: "Miguel F, Bento MJ, de Lacerda GF, Weiderpass E, Santos LL.", paperType: "observational",
-    tldr: "Angola's national cancer institute recorded 5,609 valid new cancers in 2012 to 2016; breast and cervical cancer made up 60% of cancers in women, and prostate cancer, Kaposi sarcoma and lymphoma led in men.",
+    tldr: "Angola's national cancer institute recorded 5,609 valid new cancers in 2012 to 2016; breast and cervical cancer made up 60% of cancers in women, and in men 19.3% were prostate cancers and 7.5% each Kaposi sarcoma and non-Hodgkin lymphoma.",
     summary: "Published as \"A hospital-based cancer registry in Luanda, Angola: the Instituto Angolano de Controlo do Cancer (IACC) Cancer registry\". The authors analysed newly diagnosed cases recorded by the registry, which covers cancers treated in several hospital facilities in Luanda, and compared the five commonest cancers by sex with GLOBOCAN 2018's estimates for Angola.",
     findings: [
       "6,638 malignant tumours were recorded in 2012 to 2016; 5,609 were valid after excluding duplicates, missing data and non-melanoma skin cancers (2,059 men, 3,550 women).",
@@ -52,7 +52,7 @@ const papers: PaperInput[] = [
       "Breast (21.4%), cervix (16.8%), prostate (7.1%), non-Hodgkin lymphoma (4.5%) and Kaposi sarcoma (4.3%) were the commonest cancers.",
       "In men 19.3% were prostate cancers and 7.5% each Kaposi sarcoma and non-Hodgkin lymphoma; breast and cervix were 60% of cancers in women.",
     ],
-    whatItMeans: "Angola's oldest and best-organised hospital-based registry is at the national institute, and its authors warn that national estimates may differ from reality until Luanda has a population-based registry.",
+    whatItMeans: "The registry at the national institute is, in its authors' words, the oldest and most organised hospital-based registry in Angola, and they warn that estimates for Angola may differ from reality and that Luanda needs a truly population-based registry.",
     caveats: ["Hospital-based: counts patients who reached the institute, not the whole population."],
     institutions: ["iacc-angola"], cancers: ["breast-cancer", "cervical", "prostate", "kaposi-sarcoma"],
     links: [doi("10.1186/s13027-019-0249-2", "Infect Agent Cancer 2019"), pubmed("31719840")] }),
@@ -66,7 +66,7 @@ const papers: PaperInput[] = [
       "Age, stage of disease and body mass index were significant risk factors.",
       "A flexible proportional hazards model with one knot fitted the data best by Akaike's criterion.",
     ],
-    whatItMeans: "Women treated for breast cancer at Angola's national institute lived a median of about a year and a half after diagnosis, and stage at diagnosis was one of the factors that mattered.",
+    whatItMeans: "Women with breast cancer followed at Angola's national institute lived a median of about a year and a half after diagnosis, and stage at diagnosis was one of the factors that mattered.",
     caveats: ["One institute's patients; the abstract does not give the number of women or the stage mix."],
     institutions: ["iacc-angola"], cancers: ["breast-cancer"],
     links: [doi("10.3934/mbe.2026068", "Math Biosci Eng 2026"), pubmed("42543201")] }),

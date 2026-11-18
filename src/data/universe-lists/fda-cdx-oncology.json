@@ -1,8 +1,8 @@
 {
- "checked": "2026-11-11",
+ "checked": "2026-11-18",
  "source": {
   "label": "FDA: List of Cleared or Approved Companion Diagnostic Devices (In Vitro and Imaging Tools)",
-  "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+  "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools"
  },
  "method": "Every row of the FDA list whose indication or drug names a cancer (the list also holds a few non-cancer rows, which are excluded). One item per row: a device, an indication and sample type, the drug or drugs it selects for, and the PMA, 510(k) or De Novo number with its date. The tables at the foot of the page that claim a class of drugs rather than one are kept and marked group 'class'. Public domain (US government work).",
  "total": 236,

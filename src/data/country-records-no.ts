@@ -6,7 +6,8 @@ import type { EntityInput, InstitutionInput } from "@/lib/schema";
  * May 2025) and its publication page, the Nye metoder English page (last updated 29 November 2024), the Norwegian
  * Institute of Public Health's page on its role in Nye metoder, and the Norwegian Medical Products Agency's English
  * "About us" page. Oslo University Hospital's Radium Hospital, Haukeland, Akershus and the Norwegian Cancer Society
- * already exist and are reused. Coordinates are approximate city points, not building positions.
+ * already exist and are reused. Coordinates are approximate city points, not building positions. Each source was read
+ * again as raw text on 17 November 2026.
  */
 const asOf = "2026-11-11";
 type I = Omit<InstitutionInput, "kind" | "asOf">;
@@ -23,7 +24,7 @@ const institutions: InstitutionInput[] = [
     city: "Oslo", country: "NO", lat: 59.93, lng: 10.72, institutionType: "government", website: "https://www.fhi.no/kreft/kreftregisteret/",
     tldr: "Norway's national population-based cancer registry, running since 1952 and now part of the Norwegian Institute of Public Health. It publishes Cancer in Norway each year, and its report describes the national breast, cervical and bowel screening programmes.",
     summary: "The Cancer Registry of Norway has been operational since 1952, its 2024 report says, and publishes its annual report Cancer in Norway as the Cancer Registry of Norway at the Norwegian Institute of Public Health (NIPH). Cancer in Norway 2024, published on 14 May 2025, counted 38,811 new cancer cases in 2024 (20,623 in males and 18,188 in females), 11,452 cancer deaths taken from the Cause of Death Registry (preliminary data), and 347,867 people alive at the end of 2024 after at least one cancer diagnosis. It notes that a further 1 to 2% of cases for a year typically reach the registry after publication. Five-year relative survival for all sites in 2020 to 2024 was 77.9% in males and 77.7% in females.\n\nThe Institute's screening pages say the bowel screening programme invites men and women at 55, started in 2022 and will include everyone aged 55 to 65 from 2030. The 2024 report describes the breast screening programme (biennial mammography for women aged 50 to 69, nationwide by 2005) and the cervical programme for women aged 25 to 69, nationwide from 1995, which moved to primary HPV testing between 2015 and 2023. The coordinates are an approximate Oslo city point.",
-    programs: ["Cancer in Norway annual report", "Population-based cancer registration (since 1952)", "BreastScreen Norway (Mammografiprogrammet)", "Cervical cancer screening programme", "Bowel cancer screening programme (Tarmscreeningprogrammet, from 2022)"],
+    programs: ["Cancer in Norway annual report", "Population-based cancer registration (since 1952)", "Breast cancer screening programme (Mammografiprogrammet)", "Cervical cancer screening programme", "Bowel cancer screening programme (Tarmscreeningprogrammet, from 2022)"],
     institutions: ["oslo-radium-hospital", "haukeland-university-hospital", "akershus-university-hospital", "norwegian-cancer-society", "nye-metoder-norway", "iarc"],
     cancers: ["breast-cancer", "cervical", "colorectal", "prostate", "lung-cancer"], related: ["cancer-registries-surveillance"],
     links: [

@@ -44,7 +44,7 @@ export type Assay = {
   source: { label: string; url: string };
 };
 
-const FDA_CDX = { label: "FDA: List of cleared or approved companion diagnostic devices", url: "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools" };
+const FDA_CDX = { label: "FDA: List of FDA-Authorized Companion Diagnostic Devices", url: "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools" };
 const doi = (d: string, label: string) => ({ label, url: `https://doi.org/${d}` });
 
 export const assays: Assay[] = [
@@ -54,7 +54,7 @@ export const assays: Assay[] = [
     cutoff: "TPS at least 1% or at least 50% (NSCLC); CPS at least 1 (head and neck, oesophageal, gastric); CPS at least 10 (TNBC, gastric first line); CPS at least 1 (cervical)",
     targets: ["pdl1", "pd1"], drugs: ["pembrolizumab"], cancers: ["nsclc", "head-and-neck", "esophageal", "gastric", "tnbc", "cervical", "urothelial"], biomarkers: ["pdl1-cps10", "pdl1-tps50"],
     note: "The first PD-L1 companion diagnostic, approved with pembrolizumab in second-line NSCLC in October 2015; the scoring system (TPS then CPS) grew indication by indication.", source: FDA_CDX },
-  { id: "pdl1-sp142", name: "VENTANA PD-L1 (SP142) Assay", vendor: "Roche Diagnostics", drugId: "ventana-pd-l1-sp142", vendorIds: ["roche-genentech"], readouts: ["pd-l1-ic-score"], platform: "IHC", analyte: "PD-L1 protein (immune-cell and tumour-cell scoring)", regulatory: "FDA CDx", approved: 2016,
+  { id: "pdl1-sp142", name: "VENTANA PD-L1 (SP142) Assay", vendor: "Roche Diagnostics", drugId: "ventana-pd-l1-sp142", vendorIds: ["roche-genentech"], readouts: ["pd-l1-ic-score", "pd-l1-tc-score"], platform: "IHC", analyte: "PD-L1 protein (immune-cell and tumour-cell scoring)", regulatory: "FDA CDx", approved: 2016,
     cutoff: "IC at least 5% (urothelial, historic); IC at least 1% (TNBC, indication later withdrawn); TC at least 50% or IC at least 10% (NSCLC)",
     targets: ["pdl1"], drugs: ["atezolizumab"], cancers: ["urothelial", "tnbc", "nsclc"], biomarkers: ["pdl1-cps10"],
     note: "Stains fewer tumour cells than 22C3 or 28-8 (Blueprint studies), so its results are not interchangeable with the other PD-L1 assays.", source: FDA_CDX },
@@ -125,6 +125,11 @@ export const assays: Assay[] = [
     cutoff: "Per companion claim: EGFR (osimertinib, erlotinib, gefitinib), ALK (alectinib), BRCA1/2 and ATM (olaparib, rucaparib), PIK3CA (alpelisib), FGFR3 (erdafitinib), NTRK and RET; negative plasma results reflex to tissue",
     targets: ["egfr", "alk", "brca", "pik3ca", "fgfr2", "ntrk", "ret"], drugs: ["osimertinib", "alectinib", "olaparib", "rucaparib", "alpelisib", "erdafitinib"], cancers: ["nsclc", "prostate", "ovarian", "breast-hr-positive", "urothelial"], biomarkers: ["egfr-mut", "alk-fusion", "gbrca", "pik3ca", "fgfr2"],
     source: FDA_CDX },
+  // Added 17 November 2026 so the readouts this test measures show it under "Tests that measure it". Gene counts and the reflex statement are from the openFDA approval order for P250027; the seven claims are its rows on the FDA list.
+  { id: "guardant360-liquid-cdx", name: "Guardant360 Liquid CDx", vendor: "Guardant Health", drugId: "guardant360-liquid-cdx", vendorIds: ["guardant-health"], readouts: ["egfr-exon-19-deletion", "egfr-l858r", "egfr-t790m", "egfr-exon-20-insertion", "kras-g12c", "her2-mutation", "braf-v600e", "esr1-mutation-ctdna"], platform: "NGS plasma", analyte: "Circulating cell-free DNA: single nucleotide variants and small insertions and deletions in 741 genes, amplifications in two genes, copy number loss in one gene and rearrangements in nine genes", regulatory: "FDA CDx", approved: 2026,
+    cutoff: "Per companion claim: EGFR exon 19 deletions, L858R and T790M (osimertinib), EGFR exon 20 insertions (amivantamab), KRAS G12C (sotorasib), ERBB2/HER2 activating mutations (trastuzumab deruxtecan), ESR1 mutations (elacestrant, imlunestrant), BRAF V600E (encorafenib with cetuximab); negative plasma reflexes to tissue",
+    targets: ["egfr", "kras", "her2", "estrogen-receptor", "braf"], drugs: ["osimertinib", "amivantamab", "sotorasib", "trastuzumab-deruxtecan", "elacestrant", "imlunestrant", "encorafenib"], cancers: ["nsclc", "breast-hr-positive", "colorectal"], biomarkers: ["egfr-mut", "egfr-ex20", "kras-g12c", "esr1", "braf-v600e"],
+    note: "A separate premarket approval (P250027, 19 May 2026) from Guardant360 CDx (P200010), with a much larger panel. Efficacy of osimertinib has not been established in people whose T790M is found in plasma but not in tissue.", source: { label: "FDA: List of FDA-Authorized Companion Diagnostic Devices", url: "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools" } },
   { id: "guardant360-cdx", name: "Guardant360 CDx", vendor: "Guardant Health", drugId: "guardant360-cdx", vendorIds: ["guardant-health"], platform: "NGS plasma", analyte: "Circulating tumour DNA: 55 to 74 genes", regulatory: "FDA CDx", approved: 2020,
     cutoff: "Per companion claim: EGFR (osimertinib), EGFR exon 20 insertions (amivantamab), KRAS G12C (sotorasib), ESR1 mutations (elacestrant), ERBB2 mutations (zongertinib); negative plasma reflexes to tissue",
     targets: ["egfr", "kras", "estrogen-receptor", "her2"], drugs: ["osimertinib", "amivantamab", "sotorasib", "elacestrant", "zongertinib"], cancers: ["nsclc", "breast-hr-positive"], biomarkers: ["egfr-mut", "egfr-ex20", "kras-g12c", "esr1"],
@@ -159,7 +164,7 @@ export const assays: Assay[] = [
     targets: ["flt3"], drugs: ["midostaurin", "gilteritinib", "quizartinib"], cancers: ["aml"], biomarkers: [],
     note: "The signal ratio cut-off, not simply presence, defines eligibility, and the ratio also carries prognostic weight in ELN risk classification.", source: FDA_CDX },
   // ---- Germline and HRD ----
-  { id: "bracanalysis-cdx", name: "BRACAnalysis CDx", vendor: "Myriad Genetics", drugId: "bracanalysis-cdx", vendorIds: ["myriad-genetics"], readouts: ["brca-germline"], platform: "Germline NGS", analyte: "Germline BRCA1 and BRCA2 sequence and large rearrangements", regulatory: "FDA CDx", approved: 2014,
+  { id: "bracanalysis-cdx", name: "BRACAnalysis CDx", vendor: "Myriad Genetics", drugId: "bracanalysis-cdx", vendorIds: ["myriad-genetics"], readouts: ["brca-germline", "hrr-gene-mutation"], platform: "Germline NGS", analyte: "Germline BRCA1 and BRCA2 sequence and large rearrangements", regulatory: "FDA CDx", approved: 2014,
     cutoff: "Deleterious or suspected deleterious germline variant",
     targets: ["brca", "parp"], drugs: ["olaparib", "talazoparib", "rucaparib", "niraparib"], cancers: ["ovarian", "breast-hr-positive", "tnbc", "pancreatic", "prostate"], biomarkers: ["gbrca"],
     note: "The first companion diagnostic for a PARP inhibitor (olaparib, December 2014) and the first germline companion diagnostic.", source: FDA_CDX },
@@ -211,7 +216,7 @@ export const assays: Assay[] = [
     targets: ["cdk4-6"], drugs: ["abemaciclib"], cancers: ["breast-hr-positive"], biomarkers: ["er-positive"],
     note: "Ki-67 scoring varies by antibody, hotspot versus global counting and laboratory; the International Ki-67 Working Group validated only the extremes (below 5%, above 30%).", source: FDA_CDX },
   { id: "tmb-panel", name: "Tumour mutational burden (FoundationOne CDx and equivalents)", vendor: "Foundation Medicine and others", readouts: ["tmb-high"], platform: "NGS tissue", analyte: "Non-synonymous mutations per megabase across the panel", regulatory: "FDA CDx", approved: 2020,
-    cutoff: "At least 10 mutations per megabase (pembrolizumab, tumour-agnostic, KEYNOTE-158)",
+    cutoff: "At least 10 mutations per megabase on the FDA companion diagnostic list (pembrolizumab, tumour-agnostic, KEYNOTE-158); the US pembrolizumab label effective 16 October 2026 defines TMB-high as 13 or more mutations per megabase",
     targets: ["pd1"], drugs: ["pembrolizumab"], cancers: ["melanoma", "nsclc", "urothelial", "endometrial"], biomarkers: ["tmb-high"],
     note: "Panel size, germline filtering and the mutation types counted all shift the number; the Friends of Cancer Research TMB harmonisation project exists because 10 on one panel is not 10 on another.", source: FDA_CDX },
   // Oestrogen and progesterone receptor kits (November 2026 census round): FDA 510(k) clearances under 21 CFR 864.1860,

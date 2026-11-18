@@ -67,7 +67,7 @@ export const HR_DIVE: CountryDive = {
             { key: "women", label: "Women", numeric: true },
           ],
           rows: [
-            { year: "2022", cases: 26105, men: null, women: null },
+            { year: "2022", cases: 26105, men: 13865, women: 12240 },
             { year: "2023", cases: 26736, men: 14239, women: 12497 },
           ],
           note: "The registry is a dynamic database, so later reports can revise a year's count slightly. Deaths are not in this table: the institute gives 'more than 13,000' a year, and its full report holds the counts by cancer.",
@@ -90,7 +90,7 @@ export const HR_DIVE: CountryDive = {
           plain:
             "The cancer registry at the Croatian Institute of Public Health has operated since 1959 and produced its first report for 1968. Since 2015 it has been part of the National Public Health Information System. Its February 2026 report added survival and prevalence to incidence and mortality for the first time.",
           detail:
-            "The institute explains that population-based registries in most European countries publish 18 to 24 months after the year they cover, because collecting and checking the data is complex, and that its database is updated continuously, so counts published in trend tables may differ slightly from the annual report. The 2023/2024 report shows stage at diagnosis by summary stage (localised, regional, distant), five-year net survival for people diagnosed in 2019 to 2023 against 2014 to 2018 (59% for all cancers excluding non-melanoma skin cancer, against 54.9%, and 44% in the early 2000s), and prevalence on 31 December 2023. Incidence and mortality for 2001 to 2022 are also published through the European Cancer Information System.",
+            "The institute explains that population-based registries in most European countries publish 18 to 24 months after the year they cover, because collecting and checking the data is complex, and that its database is updated continuously, so counts published in trend tables may differ slightly from the annual report. The 2023/2024 report shows stage at diagnosis by summary stage (localised, regional, distant), five-year net survival for people diagnosed in 2019 to 2023 against 2014 to 2018 (59% for all cancers excluding non-melanoma skin cancer, against 54.9%, and 44% in the early 2000s), and prevalence on 31 December 2023, when 187,118 people who had ever been diagnosed with cancer were living in Croatia. By cancer, its summary gives five-year net survival rising from 84.5% to 87.2% for breast cancer, from 89.8% to 92.8% for prostate cancer, from 54.6% to 57.3% for bowel cancer and from 13% to 18.1% for lung cancer between the two periods; these figures are not age-standardised. Incidence and mortality for 2001 to 2022 are also published through the European Cancer Information System.",
           links: [
             { label: "HZJZ: Incidencija raka u Hrvatskoj u 2023. godini", url: HZJZ_2023 },
             { label: "HZJZ: Rak u Hrvatskoj 2023./2024. (PDF)", url: HZJZ_BILTEN },
@@ -128,12 +128,13 @@ export const HR_DIVE: CountryDive = {
           id: "ema-halmed",
           title: "New cancer medicines come through the EU; HALMED regulates nationally",
           plain:
-            "As an EU member, Croatia receives new cancer medicines through the European Medicines Agency's centralised procedure, which is compulsory for medicines with a new active substance for cancer and gives one authorisation valid in every member state. HALMED, Croatia's own agency, handles national authorisations, inspection and safety monitoring.",
+            "As an EU member, Croatia receives new cancer medicines through the European Medicines Agency's centralised procedure, which is compulsory for medicines with a new active substance for cancer and gives one authorisation valid in every member state. HALMED, Croatia's own agency, lists granting marketing authorisations, inspection and safety monitoring among its activities.",
           detail:
             "The EMA's page says the European Commission issues a legally binding decision within 67 days of the agency's recommendation and that the authorisation is valid in all EU member states and in Iceland, Liechtenstein and Norway. Authorisation does not decide payment: in Croatia that depends on HZZO placing the medicine on its lists, or on a hospital committee's exception. OnCo did not read HALMED's or HZZO's rules and timelines for adding a medicine to the lists; see the gaps.",
           links: [
             { label: "EMA: authorisation of medicines", url: EMA_AUTH },
             { label: "HALMED: about HALMED", url: "https://www.halmed.hr/O-HALMED-u/" },
+            { label: "HALMED: Djelatnosti (activities)", url: "https://www.halmed.hr/O-HALMED-u/Osnovni-podaci-i-dokumenti/Djelatnosti/" },
           ],
         },
       ],
@@ -146,14 +147,15 @@ export const HR_DIVE: CountryDive = {
       cards: [
         {
           id: "screening-programmes",
-          title: "Breast screening since 2006, bowel since 2007, cervical since 2010",
+          title: "National screening programmes adopted: breast in 2006, bowel in 2007, cervical in 2010",
           plain:
-            "The Croatian Government adopted a national breast cancer early detection programme in June 2006, a colorectal programme in 2007 and a cervical programme in July 2010, following the European Commission's 2003 recommendation on screening. The Croatian Institute of Public Health publishes the programmes' information.",
+            "The Croatian Government adopted a national breast cancer early detection programme in June 2006, a colorectal programme in 2007 and a cervical programme in July 2010, following the European Commission's 2003 recommendation on screening. The Croatian Institute of Public Health publishes the programmes' information; the page read here was last changed in September 2017 and gives the years of adoption, not how the programmes run today.",
           detail:
-            "The institute's page says the aim of the programmes is to find cancer early, to find and remove precancerous lesions, and so reduce illness and death over time. WHO's 2021 country capacity survey records cytology as the main cervical screening method. WHO's estimate of HPV vaccine coverage among girls in the primary target cohort rose from 3% in 2016 to 47% in 2021 and was 53% in 2024 and 2025.",
+            "The institute's page says the aim of the programmes is to find cancer early, to find and remove precancerous lesions, and so reduce illness and death over time. WHO's 2021 country capacity survey records cytology as the most widely used method in the national cervical screening programme. WHO's estimate of HPV vaccine coverage among girls aged 9 to 14, the primary target cohort, rose from 3% in 2016 to 47% in 2021 and 55% in 2022, was 48% in 2023, and was 53% in 2024 and 2025.",
           links: [
             { label: "HZJZ: Nacionalni programi ranog otkrivanja raka", url: HZJZ_SCREEN },
             { label: "WHO Global Health Observatory: HPV coverage, Croatia (API)", url: WHO_HPV },
+            { label: "WHO Global Health Observatory: cervical screening method, Croatia (API)", url: "https://ghoapi.azureedge.net/api/NCD_CCS_cervicalcancermethod?$filter=SpatialDim%20eq%20'HRV'" },
           ],
         },
       ],
@@ -186,9 +188,9 @@ export const HR_DIVE: CountryDive = {
           id: "trials-research",
           title: "45 trials in OnCo's records have a site in Croatia",
           plain:
-            "Counted from OnCo's ClinicalTrials.gov participation data, fetched on 7 October 2026, 45 cancer trials in our records list a site in Croatia and 9 were recruiting. None runs only in Croatia: they are international trials, mostly sponsored by drug companies.",
+            "Counted from OnCo's ClinicalTrials.gov participation data, fetched on 7 October 2026, 45 trials in our records list a site in Croatia and 8 were recruiting. None runs only in Croatia: they are international trials, all sponsored by companies.",
           detail:
-            "The recruiting trials include studies sponsored by Merck Sharp & Dohme, Mirati Therapeutics, Johnson & Johnson and Pfizer. OnCo's participation data cover 5,899 trials, mostly large trials of new medicines, so this is not a count of all cancer research in Croatia; the ClinicalTrials.gov search linked here shows more.",
+            "The recruiting trials include studies sponsored by Merck Sharp & Dohme, Mirati Therapeutics, Johnson & Johnson and Pfizer. OnCo's participation data cover 5,897 trials, mostly large trials of new medicines, so this is not a count of all cancer research in Croatia; the ClinicalTrials.gov search linked here shows more.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with a site in Croatia (search)", url: CTGOV },
             { label: "Open trials on OnCo", url: "/trials/open/" },
@@ -202,12 +204,12 @@ export const HR_DIVE: CountryDive = {
       id: "unread-sources",
       title: "Sources not reached or not read",
       plain:
-        "OnCo did not read the National Strategic Framework against Cancer to 2030 (the Ministry of Health's page returned not found), HALMED's procedures and timelines, HZZO's rules for adding a medicine to its lists, or a count of radiotherapy machines and oncologists. Survival by cancer is in the institute's report but was not extracted here.",
+        "OnCo did not read the National Strategic Framework against Cancer to 2030 (the Ministry of Health's page returned not found), HALMED's procedures and timelines, HZZO's rules for adding a medicine to its lists, or an official Croatian count of radiotherapy machines and oncologists. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists 10 centres in Croatia with 37 linear accelerators between them. Stage at diagnosis by cancer is in the institute's report but is not quoted here.",
       detail:
-        "The Ministry of Health's address for the strategic framework returned HTTP 404 on 11 November 2026. HALMED's 'about' page returned only its menu. The institute's full report is a PDF whose tables do not extract cleanly as text, so stage figures and survival by cancer are not quoted; only the all-cancer survival figure is given. The IAEA's directory of radiotherapy centres works only in a browser. OnCo's web search budget was spent during this round, so pages had to be reached by known addresses.",
+        "The Ministry of Health's address for the strategic framework returned HTTP 404 on 11 November 2026. HALMED's 'about' page returned only its menu; its page listing its activities was read on 16 November 2026, but not its procedures or timelines. The institute's full report is a PDF: on 16 November 2026 its text was read again and the survival figures by cancer in its summary are now quoted above, while its table of stage at diagnosis, where the stage is unknown for a large share of cases, is not. IAEA's directory of radiotherapy centres (DIRAC), read on 16 November 2026, lists 10 centres in Croatia, with 37 linear accelerators and no cobalt-60 unit; every entry was last updated in 2026. The largest entries are University Hospital Centre Zagreb (KBC Zagreb), with nine linear accelerators and the one Gamma Knife listed, then Osijek University Hospital and University Hospital Center Sestre Milosrdnice, University Hospital for Tumors (Zagreb), with five each. The other entries are in Zagreb, Split, Rijeka, Sveta Nedelja, Zadar and Zabok. Four centres are listed with brachytherapy. Two of the 10 entries carry the name Sestre milosrdnice; OnCo has not checked whether they overlap. The directory does not say whether a machine is working, and OnCo did not find an official Croatian count to set beside it. OnCo's web search budget was spent during this round, so pages had to be reached by known addresses.",
       links: [
         { label: "HZJZ: Rak u Hrvatskoj 2023./2024. (PDF)", url: HZJZ_BILTEN },
-        { label: "IAEA: DIRAC, directory of radiotherapy centres", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
       ],
     },
   ],
@@ -220,7 +222,7 @@ export const HR_DIVE: CountryDive = {
   how:
     "Every card was written from Croatian sources read in Croatian, in full rather than through a summary: the Croatian Institute of Public Health's registry pages and report and its page on screening programmes, and HZZO's page on medicines. The EU route is from the EMA's own page, and the lung screening programme from the abstract of its design paper through Europe PMC. International figures come from IARC's GLOBOCAN 2024 fact sheet, WHO's Global Health Observatory and the World Bank. Trials were counted from OnCo's ClinicalTrials.gov participation data. The three new records (the institute, HZZO and HALMED) carry their own sources.",
   verify:
-    "Which medicines HZZO pays for changes when its lists are updated, and a hospital committee decides exceptions case by case; ask the treating hospital's oncology department. Screening invitations come by post; ask your family doctor about lung screening if you smoke or have smoked.",
+    "Which medicines HZZO pays for changes when its lists are updated, and a hospital committee decides exceptions case by case; ask the treating hospital's oncology department. Ask your family doctor how the screening programmes invite people, and about lung screening if you smoke or have smoked.",
   verifyLinks: [
     { label: "Croatian Institute of Public Health", url: "https://www.hzjz.hr" },
     { label: "Croatian Health Insurance Fund", url: "https://hzzo.hr" },

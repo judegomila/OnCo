@@ -10,6 +10,10 @@ import type { CountryDive } from "@/data/country-dive";
  * did not answer), WHO's HPV coverage, health expenditure and UHC index rows from its public data APIs, IAEA DIRAC's
  * public equipment data, the ClinicalTrials.gov record of NCT03180034, and the papers' abstracts through Europe PMC.
  * Where a figure could not be read it is named under `gaps`.
+ *
+ * Second accuracy pass, 16 November 2026: every source was fetched again as raw text. WHO's HPV rows are now linked with
+ * the broad antigen filter, the IAEA directory rows were re-read from its public feed (which files Costa Rica under the
+ * country code CS), and the trial count was recounted from src/data/trial-participation.ts.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/188-costa-rica-fact-sheet.pdf";
 const PLAN = "https://www.iccp-portal.org/sites/default/files/plans/plan_nacional_control_cancer-compressed_1.pdf";
@@ -19,7 +23,7 @@ const RNT_INCIDENCE = "https://www.ministeriodesalud.go.cr/index.php/biblioteca-
 const MS_5917 = "https://www.ministeriodesalud.go.cr/index.php/biblioteca-de-archivos-left/documentos-ministerio-de-salud/ministerio-de-salud/legislacion-sanitaria/leyes-decretos-y-directrices/resoluciones-ministeriales/8483-ms-5917-2024-resolucion-ministerial-procedimiento-para-la-facilitacion-de-registros-sanitarios-de-medicamentos-que-cuentan-con-un-registro-sanitario-emitido-por-las-autoridades-reguladoras-que-son-parte-de-la-lista-de-autoridades-catalogadas-por-la-organi/file";
 const WHO_WLA = "https://www.who.int/publications/m/item/list-of-who-listed-authorities-wlas";
 const CCSS_LOM = "https://web.archive.org/web/20240918044342/https://www.ccss.sa.cr/lom";
-const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'CRI'%20and%20startswith(ANTIGEN,'PRHPV')";
+const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'CRI'%20and%20contains(ANTIGEN,'HPV')";
 const WHO_OOP_API = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'CRI'";
 const WHO_GGHE_API = "https://ghoapi.azureedge.net/api/GHED_GGHE-DCHE_SHA2011?$filter=SpatialDim%20eq%20'CRI'";
 const WHO_UHC_API = "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?$filter=SpatialDim%20eq%20'CRI'";
@@ -39,9 +43,9 @@ export const CR_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Costa Rica",
   description:
-    "Cancer in Costa Rica from Costa Rican sources: IARC's estimate of 13,604 new cancers and 6,119 deaths in 2024, a national tumour registry kept since 1976, public care through the CCSS and its official medicines list, a faster registration route for medicines approved by WHO-listed regulators, 12 linear accelerators, and the Guanacaste trials that showed one HPV vaccine dose is enough.",
+    "Cancer in Costa Rica from Costa Rican sources: IARC's estimate of 13,604 new cancers and 6,119 deaths in 2024, a national tumour registry kept since 1976, public care through the CCSS and its official medicines list, a faster registration route for medicines approved by WHO-listed regulators, the 12 linear accelerators in IAEA's directory, and the ESCUDDO trial, run from Guanacaste, which found one HPV vaccine dose protects as well as two.",
   lede:
-    "Costa Rica has kept a national cancer registry since 1976, and IARC builds its estimate of 13,604 new cancers and 6,119 deaths in 2024 on it, with prostate, breast and colorectal cancer the commonest. Most care is given by the social security fund, the CCSS. In Guanacaste, Costa Rican and US researchers ran the trials that found one dose of HPV vaccine protects as well as two.",
+    "Costa Rica has kept a national cancer registry since 1976. IARC estimates 13,604 new cancers and 6,119 deaths in 2024, projected from national registry and mortality data, with prostate, breast and colorectal cancer the commonest. The social security fund, the CCSS, is the public provider of care. From Guanacaste, Costa Rican and US researchers ran the ESCUDDO trial, which found one dose of HPV vaccine protects against HPV 16 and 18 infection as well as two.",
   globocanNote:
     "IARC's GLOBOCAN 2024 figure for Costa Rica is 13,604 new cancers and 6,119 deaths, an age-standardised incidence of 177.6 per 100,000 (182.4 in men, 176.1 in women) and mortality of 72.6. The fact sheet gives a national registry as the incidence source, projected to 2024 from trends in national rates, and WHO's national mortality data for deaths. Of the 13,604, 1,621 are non-melanoma skin cancers (11,983 excluding them). The registry's own counts are lower: 9,415 new malignant tumours for 2022, a preliminary figure that includes skin cancers and is open to late notification. The national cancer plan notes that in Costa Rica only a doctor can certify the cause of death, and about 2% of causes are unidentifiable or badly classified, so death figures are considered reliable.",
   sections: [
@@ -130,7 +134,7 @@ export const CR_DIVE: CountryDive = {
             { site: "Liver", cases: 440, deaths: 403 },
             { site: "All cancers", cases: 13604, deaths: 6119 },
           ],
-          note: "All cancers includes 1,621 non-melanoma skin cancers. IARC projects the registry's national rates forward to 2024, which is why its figure is above the registry's latest counts.",
+          note: "All cancers includes 1,621 non-melanoma skin cancers. IARC's fact sheet says its figures are trends in national rates projected to 2024. The registry's latest counts are lower and still preliminary.",
           sources: [{ label: "IARC: GLOBOCAN 2024 fact sheet, Costa Rica (PDF)", url: IARC_FACTSHEET }],
         },
       ],
@@ -147,7 +151,7 @@ export const CR_DIVE: CountryDive = {
           plain:
             "The Caja Costarricense de Seguro Social (CCSS) is Costa Rica's public provider of health care. Its primary care teams screen and refer, and its national hospitals diagnose and treat most cancers. WHO puts out-of-pocket spending at 24.1% of what Costa Rica spent on health in 2023.",
           detail:
-            "The national cancer plan describes the CCSS network: 1,019 basic primary care teams (EBAIS), 104 health areas with regional and peripheral hospitals, and national and specialised hospitals, each network with a national referral hospital. Haemato-oncology departments in the national hospitals and the Hospital Nacional de Niños work under one model set in 2009. In 2021 multidisciplinary teams saw 4,296 people with cancer, 20.23% of those treated in those departments. WHO's Global Health Expenditure Database gives out-of-pocket spending at 24.1% of current health expenditure in 2023 (22.4% in 2022) and domestic government spending at 67.2%, and WHO's universal health coverage service index for Costa Rica is 84 for 2023.",
+            "The national cancer plan describes the CCSS network, with counts it takes from a CCSS plan of 2015: 1,019 basic primary care teams (EBAIS), 104 health areas with regional and peripheral hospitals, and national and specialised hospitals, each network with a national referral hospital. Haemato-oncology departments in the national hospitals and the Hospital Nacional de Niños work under one model set in 2009. By 2021 multidisciplinary teams had seen 4,296 people with cancer, 20.23% of those treated in CCSS centres with those departments. WHO's Global Health Expenditure Database gives out-of-pocket spending at 24.1% of current health expenditure in 2023 (22.4% in 2022) and domestic government spending at 67.2%, and WHO's universal health coverage service index for Costa Rica is 84 for 2023.",
           links: [
             { label: "Plan Nacional para el Control del Cáncer 2024-2030, section 5.2.2.2 (PDF)", url: PLAN },
             { label: "WHO Global Health Expenditure Database: out-of-pocket share, Costa Rica (API)", url: WHO_OOP_API },
@@ -168,7 +172,7 @@ export const CR_DIVE: CountryDive = {
           id: "courts",
           title: "Patients can take a refused medicine to the constitutional court",
           plain:
-            "Costa Rica's constitutional court, the Sala IV, has heard many claims from patients asking for medicines the public system did not provide. In 2014 it began a partnership with the Cochrane Collaboration to bring medical expert evaluations into these decisions, and afterwards fewer rulings granted experimental medicines.",
+            "Costa Rica's constitutional court, the Sala IV, has heard many claims from patients asking for medicines the public system did not provide. In 2014 it began a partnership with the Cochrane Collaboration to bring medical expert evaluations into these decisions, and afterwards a smaller share of rulings granted experimental medicines.",
           detail:
             "A 2018 study in Health and Human Rights describes how the constitutional chamber built a broad right to health that unleashed litigation for medicines, criticised by the health sector as a threat to the finances of the state health system, and how an earlier study found more than 70% of favourable rulings were for low-priority medicines. In 2014 the court began a partnership with the Cochrane Collaboration for medical expert evaluations. Comparing 2016 rulings with 2008, the authors found claimants won more often, while the share of rulings granting experimental medicines fell and the share granting high-priority medicines rose. They call the gain in fairness minor and their conclusion tentative. The study covers all medicines, not only cancer medicines.",
           links: [{ label: "Loaiza et al., health rights litigation in Costa Rica (Health Hum Rights 2018, full text)", url: LOAIZA_PMC }],
@@ -187,7 +191,7 @@ export const CR_DIVE: CountryDive = {
           plain:
             "Medicines in Costa Rica are registered by the Ministry of Health under a Central American technical regulation. Under a resolution signed in October 2024, a medicine already registered by a WHO-listed authority, such as the US FDA or the European network, can have its first Costa Rican registration assessed faster.",
           detail:
-            "Resolution MS-5917-2024, signed by the minister on 24 October 2024, says the general rule for registering medicines is the Central American technical regulation RTCA 11.03.59:18, with national decrees for biological medicines and bioequivalence, and applications made through the Regístrelo portal. It records a backlog of 999 registration files in October 2024, about 25% of them for medicines registered by an authority on WHO's list. The facilitated route lets the Ministry's Dirección de Regulación de Productos de Interés Sanitario check that the product matches the one the listed authority approved and assess only the requirements that apply. It covers first registrations only, not renewals or later changes, and not homeopathic, radiopharmaceutical or natural products. WHO's list of listed authorities, read on 11 November 2026, does not include Costa Rica's own regulator.",
+            "Resolution MS-5917-2024, signed by the minister on 24 October 2024, says the general rule for registering medicines is the Central American technical regulation RTCA 11.03.59:18, with national decrees for biological medicines and bioequivalence, and applications made through the Regístrelo portal. It records a backlog of 999 registration files in October 2024, about 25% of them for medicines registered by an authority on WHO's list. The facilitated route lets the Ministry's Dirección de Regulación de Productos de Interés Sanitario check that the product matches the one the listed authority approved and assess only the requirements that apply. It covers first registrations only, not renewals or later changes, and not homeopathic, radiopharmaceutical or natural products. WHO's list of listed authorities, in its December 2025 edition read on 16 November 2026, includes the US FDA and the European Medicines Regulatory Network and does not include Costa Rica's own regulator.",
           links: [
             { label: "Resolution MS-5917-2024 on facilitated medicine registration (PDF)", url: MS_5917 },
             { label: "WHO: list of WHO-listed authorities", url: WHO_WLA },
@@ -203,11 +207,11 @@ export const CR_DIVE: CountryDive = {
       cards: [
         {
           id: "hpv",
-          title: "HPV vaccination for girls back near 90% after the pandemic, and for boys since 2024",
+          title: "First-dose HPV coverage for girls back near 90% after falling to 57% in 2021, and boys vaccinated since 2024",
           plain:
-            "WHO's figures for Costa Rica show 98% of girls getting a first HPV dose in 2019, a fall to 57% in 2021, and 92% in 2024 and 89% in 2025. Boys were added to the programme in 2024; WHO records 57% of boys vaccinated in 2025.",
+            "WHO's figures for Costa Rica show 98% of girls getting a first HPV dose in 2019, a fall to 57% in 2021, and 92% in 2024 and 89% in 2025. Boys were added to the programme in 2024; WHO's programme rows record 57% of boys with a first dose in 2025, while the administrative row Costa Rica reported gives 96%.",
           detail:
-            "WHO's coverage rows give last-dose coverage for girls of 96% in 2019, 74% in 2020, 43% in 2021, 72% in 2022, 56% in 2023, 84% in 2024 and 83% in 2025. For boys, first-dose coverage was 23% in 2024 and 57% in 2025, with last-dose coverage of 57% in 2025. The national plan, which counts complete schedules from the Ministry's own data, gives 68.7% coverage of girls in 2022 and a target of 90% by 2030. It describes a two-dose schedule, at month 0 and month 6, for children aged 10, and says the national vaccination commission approved vaccinating boys in February 2024.",
+            "WHO's coverage rows give last-dose coverage for girls of 96% in 2019, 74% in 2020, 43% in 2021, 72% in 2022, 56% in 2023, 84% in 2024 and 83% in 2025. For boys, first-dose coverage was 23% in 2024 and 57% in 2025, with last-dose coverage of 57% in 2025. These are WHO's programme coverage rows, read again on 16 November 2026. The same data set also holds the administrative rows Costa Rica reported, which agree for girls but give boys a first dose of 96.4% in 2025 (35,553 doses for 36,881 boys) and a last dose of 56.94%, so the first-dose figure for boys is uncertain. The national plan, which counts complete schedules, gives 68.7% coverage of girls in 2022 and a target of 90% by 2030. It describes a two-dose schedule, at month 0 and month 6, for children aged 10, and says the national vaccination commission approved vaccinating boys in February 2024.",
           links: [
             { label: "WHO: HPV vaccination coverage rows for Costa Rica (public API)", url: WHO_HPV_API },
             { label: "Plan Nacional para el Control del Cáncer 2024-2030, section 5.2.1 and indicator annex (PDF)", url: PLAN },
@@ -218,9 +222,9 @@ export const CR_DIVE: CountryDive = {
           id: "screening-coverage",
           title: "About a third of women aged 35 to 64 up to date with cervical screening",
           plain:
-            "Under the national standard a woman is up to date with cervical screening if she has had a Pap smear in the last 2 years or an HPV test in the last 5. The CCSS found 31% of women aged 35 to 64 up to date with a Pap smear in 2022, and the OECD put the share of women in the screening age group with a mammogram in the last two years at 36% in 2021.",
+            "Under the national standard a woman is up to date with cervical screening if she has had a Pap smear in the last 2 years or an HPV test in the last 5. The CCSS found 31% of women aged 35 to 64 up to date with a Pap smear in its own services in 2022, and the OECD put the share of women in the screening age group with a mammogram in the last two years at 36% in 2021.",
           detail:
-            "The national plan's indicator annex sets the baseline for cervical screening at 31% for women aged 35 to 64 in 2022, counting only Pap smears in CCSS services, and 23% for women aged 20 to 34, from the CCSS evaluation of primary care. The standard is Decree 44261-S. The baseline for mammography is 36% in 2021, from the OECD's Health at a Glance 2023. The plan's targets for 2030 are 53% for cervical screening and 54% for mammography, set at the OECD average. It also plans a national screening register, because screening results are not yet collected in one system.",
+            "The national plan's indicator annex sets the baseline for cervical screening at 31% for women aged 35 to 64 in 2022, counting only Pap smears in CCSS services, and 23% for women aged 20 to 34, from the CCSS evaluation of primary care. The standard is Decree 44261-S. The baseline for mammography is 36% in 2021, from the OECD's Health at a Glance 2023. The plan's targets for 2030 are 53% for cervical screening and 54% for mammography, set at the OECD average. It also plans a national screening register, a new project for which the plan gives no baseline.",
           links: [{ label: "Plan Nacional para el Control del Cáncer 2024-2030, indicators IRE2.4.1 and IRE2.4.2 (PDF)", url: PLAN }],
         },
       ],
@@ -229,17 +233,17 @@ export const CR_DIVE: CountryDive = {
       id: "capacity",
       nav: "Capacity",
       title: "Radiotherapy and cancer centres",
-      aside: { label: "IAEA DIRAC: radiotherapy equipment by centre", url: DIRAC },
+      aside: { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC },
       cards: [
         {
           id: "radiotherapy",
-          title: "Twelve linear accelerators in five centres, seven of them at Hospital México",
+          title: "IAEA's directory lists twelve linear accelerators in five centres, seven of them at Hospital México",
           plain:
-            "IAEA's radiotherapy directory lists five centres in Costa Rica with 12 linear accelerators and no cobalt machines. Two public CCSS hospitals in San José hold nine of them: seven at Hospital México and two at Hospital San Juan de Dios. The other three are in private centres.",
+            "IAEA's radiotherapy directory, read on 16 November 2026, lists five centres in Costa Rica with 12 linear accelerators and no cobalt machines. Two CCSS hospitals in San José are listed with nine of them: seven at Hospital México and two at Hospital San Juan de Dios. Three other centres are listed with one each.",
           detail:
-            "IAEA DIRAC's public equipment data, read on 11 November 2026, lists Hospital México's radiotherapy service in La Uruca (7 linear accelerators and brachytherapy, updated 2025), Hospital San Juan de Dios (2, updated 2024), Centro Médico de Radioterapia Siglo XXI (1, updated 2026), Tecnología Oncológica Costarricense in Santa Ana (1, updated 2025) and the Centro de Radiocirugía Robótica, Centro Internacional del Cáncer (1, last updated 2021). With DIRAC's population figure of about 5.15 million, that is roughly 2.3 machines per million people. The national plan notes that in 2021 the San Juan de Dios service was not operating while a joint radiotherapy centre was built, and that the CCSS has a plan for strengthening radiotherapy for 2020 to 2025.",
+            "IAEA's directory of radiotherapy centres, read from its public feed on 16 November 2026, lists five centres, all under San José: Servicio de Radioterapia del Hospital México in La Uruca (7 linear accelerators, 1 X-ray generator and brachytherapy with one iridium-192 high-dose-rate unit, entry last updated 2025), Hospital San Juan de Dios (2 linear accelerators, 2024), Centro Medico de Radioterapia Siglo XXI in La Uruca (1, 2026), Tecnología Oncológica Costarricense S.A. in Santa Ana (1, 2025) and Centro de Radiocirugía Robótica/Centro Internacional del Cáncer (1, 2021). Only Hospital México is listed with brachytherapy, and no centre with a cobalt-60 unit. The 2021 entry may be out of date, and a directory can lag behind what a hospital has. The feed does not say which centres are public or private. With the directory's population figure of about 5.15 million, that is roughly 2.3 linear accelerators per million people. The national plan also says the country has no cobalt-60 machines. It notes that, on 2021 information, the San Juan de Dios service was not operating while a joint radiotherapy centre was built, and that the CCSS has a plan for strengthening radiotherapy for 2020 to 2025.",
           links: [
-            { label: "IAEA DIRAC: radiotherapy equipment by centre (read 11 November 2026)", url: DIRAC },
+            { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC },
             { label: "Plan Nacional para el Control del Cáncer 2024-2030, table 9 (PDF)", url: PLAN },
           ],
         },
@@ -249,7 +253,7 @@ export const CR_DIVE: CountryDive = {
           plain:
             "Children up to age 13 with cancer are treated at the CCSS's national children's hospital. The registry counted 212 cancers in people under 18 in 2022. In 2024 the hospital's haemato-oncology department had 7 paediatric haematologists and 6 paediatric oncologists.",
           detail:
-            "The national plan says children aged 0 to 13 with cancer are cared for at the Hospital Nacional de Niños, where the commonest cancers are acute lymphoblastic leukaemia, Hodgkin and other lymphomas and brain tumours, followed by retinoblastoma, Wilms tumour and neuroblastoma. It gives the department's 2024 staff as 7 paediatric haematologists, 6 paediatric oncologists, 2 radiotherapists, 2 general surgeons and 1 surgical oncologist. The plan grew out of a paediatric cancer planning team formed in 2019 with PAHO, and cites WHO's global initiative, which aims for at least 60% survival for children with cancer by 2030; CONCORD-3 put five-year survival from childhood acute lymphoblastic leukaemia in Costa Rica at 80%.",
+            "The national plan says children aged 0 to 13 with cancer are cared for at the Hospital Nacional de Niños, where the commonest cancers are acute lymphoblastic leukaemia, Hodgkin and other lymphomas and tumours of the central nervous system, followed by retinoblastoma, Wilms tumour and neuroblastoma. It gives the department's 2024 staff as 7 paediatric haematologists, 6 paediatric oncologists, 2 radiotherapists, 2 general surgeons and 1 surgical oncologist. The plan grew out of a paediatric cancer planning team formed in 2019 with PAHO, and cites WHO's global initiative, which aims for at least 60% survival for children with cancer by 2030; CONCORD-3 put five-year survival from childhood acute lymphoblastic leukaemia in Costa Rica at 80%.",
           links: [{ label: "Plan Nacional para el Control del Cáncer 2024-2030, section 5.1.4 (PDF)", url: PLAN }],
         },
       ],
@@ -261,9 +265,9 @@ export const CR_DIVE: CountryDive = {
       cards: [
         {
           id: "guanacaste-trials",
-          title: "The Guanacaste trials that showed one dose of HPV vaccine is enough",
+          title: "The trial run from Guanacaste that found one dose of HPV vaccine protects as well as two",
           plain:
-            "For two decades Costa Rican researchers at ACIB-FUNIN and the US National Cancer Institute have run HPV vaccine trials in Guanacaste. The ESCUDDO trial of 20,330 girls found one dose of HPV vaccine protected against the main cancer-causing types as well as two.",
+            "Since 2004 Costa Rican researchers at ACIB-FUNIN and the US National Cancer Institute have run HPV vaccine trials in Costa Rica, among them ESCUDDO, based in Liberia in Guanacaste. The ESCUDDO trial of 20,330 girls found one dose of HPV vaccine protected against infection with HPV 16 and 18 as well as two.",
           detail:
             "The Costa Rica Vaccine Trial enrolled 7,466 women aged 18 to 25 in 2004 and 2005; at the year 11 visit none of 1,913 vaccinated women had new HPV 16/18 precancer, against 34 of 2,233 unvaccinated women, and efficacy over the whole 11 years was 97.4%. ESCUDDO, sponsored by the NCI with the Gates Foundation and run from ACIB's site in Liberia, randomised girls aged 12 to 16 to one or two doses of the bivalent or nonavalent vaccine; one dose was noninferior to two, with effectiveness of at least 97% in every group (NEJM 2025). The PRISMA trial has enrolled 4,925 women aged 18 to 30 to test a single dose in adults; its authors write that evidence from the Costa Rica trial suggested a single dose may give lasting protection in young adult women. An earlier Guanacaste cohort of 9,406 women followed from 1993 to 2000 was used to train an automated reader of cervical images.",
           links: [
@@ -297,9 +301,9 @@ export const CR_DIVE: CountryDive = {
           id: "company-trials",
           title: "Costa Rican sites in international cancer drug trials",
           plain:
-            "OnCo's ClinicalTrials.gov data list Costa Rican sites in 23 cancer trials, almost all international company trials of medicines for breast, lung, stomach, oesophageal, liver and prostate cancer, such as CLEOPATRA, ToGA, KEYNOTE-859 and IMbrave050.",
+            "OnCo's ClinicalTrials.gov data, fetched on 7 and 8 October 2026, list Costa Rica as a country in 24 of 5,897 trial records. One is a trial in Cushing's disease; the other 23 are cancer trials, all sponsored by international companies and most of them for breast, lung, stomach, oesophageal, liver and prostate cancer, such as CLEOPATRA, ToGA, KEYNOTE-859 and IMbrave050.",
           detail:
-            "The trials with a Costa Rican site in OnCo's ClinicalTrials.gov participation data include CLEOPATRA (pertuzumab in HER2-positive breast cancer), ToGA (trastuzumab in HER2-positive stomach cancer), KEYNOTE-590 and KEYNOTE-859 (pembrolizumab in oesophageal and stomach cancer), IMbrave050 (adjuvant atezolizumab and bevacizumab in liver cancer), ALEX (alectinib in lung cancer), IMpassion130, IPATunity130, lidERA and KEYNOTE-756 in breast cancer, and newer trials of opevesostat in prostate cancer and V940 with pembrolizumab in lung cancer. The HPV vaccine trials in Guanacaste are prevention trials and are described above. A ClinicalTrials.gov search shows what is recruiting now.",
+            "The trials with a Costa Rican site in OnCo's ClinicalTrials.gov participation data include CLEOPATRA (pertuzumab in HER2-positive breast cancer), ToGA (trastuzumab in HER2-positive stomach cancer), KEYNOTE-590 and KEYNOTE-859 (pembrolizumab in oesophageal and stomach cancer), IMbrave050 (adjuvant atezolizumab and bevacizumab in liver cancer), ALEX (alectinib in lung cancer), IMpassion130, IPATunity130, lidERA and KEYNOTE-756 in breast cancer, and newer trials of opevesostat in prostate cancer and V940 with pembrolizumab in lung cancer. The 23 also include trials in bladder cancer and lymphoma and three extension or rollover studies. The HPV vaccine trials in Guanacaste are prevention trials and are described above. A ClinicalTrials.gov search shows what is recruiting now.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with a site in Costa Rica", url: CTGOV },
             { label: "OnCo: CLEOPATRA", url: "/trials/cleopatra/" },
@@ -313,7 +317,7 @@ export const CR_DIVE: CountryDive = {
       id: "coverage-share",
       title: "The share of people insured by the CCSS was not found in a primary source",
       plain:
-        "OnCo could not read from an official source what share of Costa Ricans is insured by the CCSS, or how much people pay themselves for cancer care. The CCSS site did not answer on 11 November 2026, so its pages were read from the Internet Archive.",
+        "OnCo could not read from an official source what share of Costa Ricans is insured by the CCSS, or how much people pay themselves for cancer care. The CCSS site did not answer on 11 November 2026 and refused an automated request on 16 November 2026, so its pages were read from the Internet Archive.",
       detail:
         "WHO's out-of-pocket share and coverage index are shown instead. The CCSS statistics pages and its current medicines list could only be read in archived copies from 2024 and 2025, so the list described here may be out of date. The national survey of households, which asks about insurance, was not read. How long patients wait for cancer surgery, chemotherapy or radiotherapy in CCSS hospitals was not found in a published official source.",
       links: [
@@ -325,9 +329,9 @@ export const CR_DIVE: CountryDive = {
       id: "stage-and-workforce",
       title: "No stage at diagnosis and no full count of cancer specialists",
       plain:
-        "Costa Rica's cancer registry does not record how far a cancer had spread when it was found, so the share caught early is unknown. The national plan's table of cancer specialists is an image covering only the CCSS and five private hospitals, and OnCo did not read figures from it.",
+        "Costa Rica's cancer registry does not record how far a cancer had spread when it was found, so the share caught early is unknown. The national plan's table of cancer specialists, for 2021, is an image covering only the CCSS and five private hospitals that answered, and OnCo did not read figures from it.",
       detail:
-        "The plan says outright that the country has no data on cancer stage and that this is a gap for surveillance; modernising the registry to record stage is one of its targets. Its workforce table, from a 2022 follow-up to the 2014 IAEA imPACT review, is printed as an image and is described as incomplete, with some specialists working in both sectors. The 2014 imPACT report itself was not found online. Registry incidence after 2022 and an official count of cancer deaths for 2023 or later were not found in a Ministry or INEC publication; press reports of a 2023 figure were not used.",
+        "The plan says outright that the country has no data on cancer stage and that this is a gap for surveillance; modernising the registry to record stage is one of its targets. Its workforce table, for 2021 and sourced to a Ministry of Health report of 2022, is printed as an image and is described as not covering the whole country, with some specialists possibly working in both sectors. The 2014 imPACT report itself was not found online. Registry incidence after 2022 and an official count of cancer deaths for 2023 or later were not found in a Ministry or INEC publication; press reports of a 2023 figure were not used.",
       links: [
         { label: "Plan Nacional para el Control del Cáncer 2024-2030, sections 5.1 and 5.2.2.2 (PDF)", url: PLAN },
         { label: "Registro Nacional de Tumores: incidence 2017 to 2022 (workbooks)", url: RNT_INCIDENCE },
@@ -361,7 +365,7 @@ export const CR_DIVE: CountryDive = {
   ],
   people: [],
   how:
-    "Every card was written from Costa Rican official sources and international agencies, read in full rather than through a summary: the Ministry of Health's national cancer control plan for 2024 to 2030, the Registro Nacional de Tumores incidence workbooks and the Ministry's release on them, Resolution MS-5917-2024, the CCSS official medicines list (an archived copy), WHO's HPV coverage, health expenditure and coverage index rows from its public data APIs, WHO's list of listed authorities, IAEA DIRAC's public equipment data, IARC's GLOBOCAN 2024 fact sheet, and the papers through Europe PMC. Trials were counted from OnCo's ClinicalTrials.gov participation data. The new records added for this page (the Ministry, the CCSS, ACIB-FUNIN and four papers) carry their own sources.",
+    "Every card was written from Costa Rican official sources and international agencies, read in full rather than through a summary: the Ministry of Health's national cancer control plan for 2024 to 2030, the Registro Nacional de Tumores incidence workbooks and the Ministry's release on them, Resolution MS-5917-2024, the CCSS official medicines list (an archived copy), WHO's HPV coverage, health expenditure and coverage index rows from its public data APIs, WHO's list of listed authorities, IAEA's directory of radiotherapy centres (its public feed, read on 16 November 2026), IARC's GLOBOCAN 2024 fact sheet, and the papers through Europe PMC. Trials were counted from OnCo's ClinicalTrials.gov participation data. The new records added for this page (the Ministry, the CCSS, ACIB-FUNIN and four papers) carry their own sources.",
   verify:
     "Which medicines the CCSS supplies, which hospital gives radiotherapy and how long the wait is change faster than plans and published reports. Ask the treating CCSS hospital's oncology service or pharmacy what applies to you, and the Ministry of Health about the registration of a medicine.",
   verifyLinks: [

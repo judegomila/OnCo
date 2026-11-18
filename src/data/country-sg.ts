@@ -7,7 +7,9 @@ import type { CountryDive } from "@/data/country-dive";
  * (PDF text), the Health Sciences Authority's evaluation routes page, HealthHub's Healthier SG Screening page, IARC's
  * GLOBOCAN 2024 fact sheet for Singapore (PDF text), WHO's Global Health Observatory API (HPV coverage and the 2021
  * country capacity survey), the World Bank's health expenditure API, and OnCo's own ClinicalTrials.gov participation
- * data. Where a figure could not be read it is named under `gaps`.
+ * data. Where a figure could not be read it is named under `gaps`. A second claim-by-claim pass on 16 November 2026
+ * re-read each source and also read the Ministry's MediShield Life benefits, MediShield Life and MediSave pages and the
+ * Agency for Care Effectiveness's own pages.
  */
 const SCR_2023 = "https://isomer-user-content.by.gov.sg/737/a9695c77-40d5-4bbd-a4b9-347a0942b191/singapore-cancer-registry-annual-report-2023.pdf";
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/702-singapore-fact-sheet.pdf";
@@ -15,6 +17,7 @@ const CDL = "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medi
 const CDL_FAQ = "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medishield-life/faqs-on-cancer-treatment-financing/";
 const CDL_BROCHURE = "https://isomer-user-content.by.gov.sg/3/8192ecd7-304a-491b-a4a1-3ee9760581ee/moh-cancer-drug-treatment-brochure-2022-(final).pdf";
 const HSA_ROUTES = "https://www.hsa.gov.sg/therapeutic-products/registration-of-therapeutic-products/register-your-therapeutic-product/registration-of-therapeutic-products/evaluation-routes/";
+const MSHL_BENEFITS = "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medishield-life/medishield-life-benefits/";
 const HSG_SCREEN = "https://www.healthhub.sg/programmes/healthiersg-screening";
 const WHO_HPV = "https://ghoapi.azureedge.net/api/SDGHPVRECEIVED?$filter=SpatialDim%20eq%20'SGP'";
 const WHO_CCS = "https://ghoapi.azureedge.net/api/NCD_CCS_cervicalcancermethod?$filter=SpatialDim%20eq%20'SGP'";
@@ -31,7 +34,7 @@ export const SG_DIVE: CountryDive = {
   description:
     "Cancer in Singapore from Singapore sources: a national registry counting cancer since 1968, 91,574 cancers in residents in 2019 to 2023 and five-year survival of 61.4%, the Cancer Drug List that since September 2022 decides which outpatient cancer treatments MediShield Life pays for, the Health Sciences Authority's verification route, subsidised screening, and 294 trials in our records with a site in Singapore.",
   lede:
-    "Singapore has counted every cancer in its residents since 1968, and its registry recorded 91,574 new cancers and 30,979 cancer deaths in 2019 to 2023. Cancer is the leading cause of death. What sets Singapore apart is how it pays for cancer medicines: since 1 September 2022 national insurance covers only treatments on a list that rewards cost-effectiveness.",
+    "Singapore's national registry has collected information on cancers diagnosed in its residents since 1968, and it recorded 91,574 new cancers and 30,979 cancer deaths in 2019 to 2023. Cancer is the leading cause of death. What sets Singapore apart is how it pays for cancer medicines: since 1 September 2022 national insurance covers only treatments on a list that rewards cost-effectiveness.",
   globocanNote:
     "IARC's GLOBOCAN 2024 figure for Singapore is 19,290 new cancers and 7,612 deaths, an age-standardised incidence of 202.9 per 100,000 and mortality of 70.6, for a total population of 5,832,390. The national registry counts only Singapore residents (citizens and permanent residents): it recorded 19,321 cancers and 6,146 cancer deaths in 2023, and an age-standardised incidence of 243.5 per 100,000 for 2019 to 2023 (Segi world standard), so the two sets of figures measure different populations and are not interchangeable. IARC's fact sheet names its incidence method as national mortality estimates applied to modelled mortality-to-incidence ratios from registry data, and its mortality source as WHO national data projected to 2024. For figures about Singapore residents, use the registry.",
   sections: [
@@ -43,7 +46,7 @@ export const SG_DIVE: CountryDive = {
       cards: [
         {
           id: "shape",
-          title: "About 19,000 new cancers a year in residents; prostate and breast lead",
+          title: "About 19,300 new cancers in residents in 2023; prostate and breast lead",
           plain:
             "The Singapore Cancer Registry counted 91,574 cancers in residents in the five years 2019 to 2023 and 30,979 cancer deaths. Prostate, colorectal and lung cancer were the commonest in men; breast, colorectal and lung cancer in women. Lung cancer caused the most cancer deaths in men and breast cancer the most in women.",
           detail:
@@ -116,25 +119,27 @@ export const SG_DIVE: CountryDive = {
           id: "cdl",
           title: "Since September 2022, national insurance pays only for listed cancer treatments",
           plain:
-            "From 1 September 2022, MediShield Life, the national insurance, and MediSave, the compulsory savings accounts, pay only for outpatient cancer treatments on the Ministry of Health's Cancer Drug List. Each listed treatment has its own monthly claim limit. Before, MediShield Life paid up to $3,000 a month for any cancer drug.",
+            "From 1 September 2022, MediShield Life, the national insurance, and MediSave, the national medical savings scheme, pay only for outpatient cancer treatments on the Ministry of Health's Cancer Drug List. Each listed treatment has its own monthly claim limit. Before, MediShield Life paid up to $3,000 a month for any cancer drug.",
           detail:
-            "The Ministry's FAQs say the list holds treatments that are clinically proven (registered by the Health Sciences Authority for that use) and more cost-effective than the existing standard of care, that companies make the case through a submission to the Agency for Care Effectiveness, and that the list is updated three times a year. The page in force on 11 November 2026 sets MediShield Life claim limits in tiers from $200 to $9,600 a month, and the downloadable list dated 1 September 2026 has 410 rows (one per drug, form or indication). Of those rows, 167 carry no subsidy, 161 are subsidised through the Medication Assistance Fund and the other 82 through the Standard Drug List. The 2022 brochure said more than 90% of about 200 cancer drug treatments approved by the Health Sciences Authority were on the list at launch. The list does not apply to inpatient treatment, which falls under inpatient limits.",
+            "The Ministry's FAQs say the list holds treatments that are clinically proven (registered by the Health Sciences Authority for that use) and more cost-effective than the existing standard of care, that companies make the case through a submission to the Agency for Care Effectiveness, and that the list is updated three times a year. The downloadable list dated 1 September 2026, read on 16 November 2026, sets MediShield Life claim limits from $200 to $12,800 a month, the range the Ministry's MediShield Life benefits page also gives; the table of tiers printed on the Cancer Drug List page itself stops at $9,600, the top limit in the 2022 brochure. The list has 410 rows (one per drug, form or indication). Of those rows, 167 carry no subsidy, 161 are subsidised through the Medication Assistance Fund and the other 82 through the Standard Drug List. The 2022 brochure said more than 90% of about 200 cancer drug treatments approved by the Health Sciences Authority were on the list at launch. The list does not apply to inpatient treatment, which falls under inpatient limits.",
           links: [
             { label: "Ministry of Health: Cancer Drug List (list dated 1 September 2026)", url: CDL },
             { label: "Ministry of Health: FAQs on cancer treatment financing", url: CDL_FAQ },
             { label: "Ministry of Health: Affordable cancer drug treatment for all (2022 brochure, PDF)", url: CDL_BROCHURE },
+            { label: "Ministry of Health: MediShield Life benefits", url: MSHL_BENEFITS },
           ],
         },
         {
           id: "subsidy",
           title: "Subsidies depend on household income, and private plans may cover more",
           plain:
-            "In public hospitals, subsidies for cancer drugs depend on household income per person. The Ministry's 2022 brochure gives the example of a patient paying nothing in cash after a 75% subsidy. Private Integrated Shield Plans set their own limits, and riders may cover treatments beyond the list.",
+            "In public hospitals, subsidies for Singaporeans on cancer drugs under the Medication Assistance Fund depend on household income per person. The Ministry's 2022 brochure gives the example of a patient paying nothing in cash after a 75% subsidy. Private Integrated Shield Plans set their own limits, and riders may cover treatments beyond the list.",
           detail:
-            "The brochure's subsidy table runs by monthly per capita household income bands from $0 to $2,000 up to more than $6,500, for drugs under the Medication Assistance Fund; there is no change to subsidy levels for the Standard Drug List. MediShield Life also pays for cancer drug services, such as consultations, scans and chemotherapy preparation, up to $1,200 a year. Patients who still cannot afford their bills can approach a medical social worker for help such as MediFund. The World Bank's latest figure puts out-of-pocket spending at 25.4% of Singapore's current health expenditure in 2023.",
+            "The brochure's subsidy table, headed for Singaporeans, runs by monthly per capita household income bands from 75% at $0 to $2,000 down to no subsidy above $6,500, for drugs under the Medication Assistance Fund; it says there is no change to subsidy levels for the Standard Drug List. MediShield Life also pays for cancer drug services, such as consultations, scans and chemotherapy preparation. The 2022 brochure set that limit at $1,200 a year; the Ministry's MediShield Life benefits page, last updated on 3 June 2026, gives $4,500 a year for a patient treated for one primary cancer and $9,000 for more than one. Subsidised patients who still cannot afford their bills can approach a medical social worker for help such as MediFund. The World Bank's latest figure puts out-of-pocket spending at 25.4% of Singapore's current health expenditure in 2023.",
           links: [
             { label: "Ministry of Health: Affordable cancer drug treatment for all (2022 brochure, PDF)", url: CDL_BROCHURE },
             { label: "Ministry of Health: FAQs on cancer treatment financing", url: CDL_FAQ },
+            { label: "Ministry of Health: MediShield Life benefits", url: MSHL_BENEFITS },
             { label: "World Bank: out-of-pocket expenditure, Singapore (API)", url: WB_OOP },
           ],
         },
@@ -150,11 +155,12 @@ export const SG_DIVE: CountryDive = {
           id: "hsa-routes",
           title: "Three routes, and a fast one for medicines two trusted regulators have approved",
           plain:
-            "The Health Sciences Authority registers a new medicine by full evaluation, by abridged evaluation if one regulator elsewhere has approved it, or by verification if at least two of its six reference regulators have. A company can ask for priority review for a medicine for a serious condition with an unmet need, and HSA names cancer as a condition of local concern.",
+            "The Health Sciences Authority registers a new medicine by full evaluation, by abridged evaluation if at least one regulator elsewhere has approved it, or by verification if at least two of its six reference regulators have. A company can ask for priority review for a medicine for a serious condition with an unmet need, and HSA names cancer as a condition of local concern.",
           detail:
-            "HSA's reference agencies are the US FDA, the European Medicines Agency through its centralised procedure, Health Canada, the UK MHRA, Swissmedic and Australia's TGA. The verification route needs approval by at least two of them, the chosen primary agency within three years, a declaration that the product is identical, and the unredacted assessment reports. Full evaluation requires notice at least two months before submission. Registration for the indication is also the first test for the Cancer Drug List, and companies may file with the Agency for Care Effectiveness in parallel. Singapore takes part in Project Orbis, the FDA's programme for reviewing cancer medicines together.",
+            "HSA's reference agencies are the US FDA, the European Medicines Agency through its centralised procedure, Health Canada, the UK MHRA, Swissmedic and Australia's TGA. The verification route needs approval by at least two of them, the chosen primary agency within three years, a declaration that the product is identical, and the unredacted assessment reports. Full evaluation requires notice at least two months before submission. The Ministry's financing FAQs say a drug generally counts as clinically proven for the Cancer Drug List if it is registered with HSA for the indication, and that companies may file with the Agency for Care Effectiveness in parallel. Singapore takes part in Project Orbis, the FDA's programme for reviewing cancer medicines together.",
           links: [
             { label: "HSA: evaluation routes for therapeutic products", url: HSA_ROUTES },
+            { label: "Ministry of Health: FAQs on cancer treatment financing", url: CDL_FAQ },
             { label: "FDA: Project Orbis partners, including Singapore's HSA", url: "https://www.fda.gov/about-fda/oncology-center-excellence/project-orbis" },
           ],
         },
@@ -182,9 +188,9 @@ export const SG_DIVE: CountryDive = {
           id: "hpv",
           title: "HPV vaccine coverage went from about 2% to 75% in two years",
           plain:
-            "WHO estimates that 78% of girls in the target age group in Singapore had been vaccinated against HPV in 2024 and 2025. Coverage was 1% or 2% each year until 2017, then 39% in 2018 and 75% in 2019.",
+            "WHO estimates that 78% of girls in the target age group in Singapore had been vaccinated against HPV in 2024 and 2025. Coverage was 1% or 2% each year from 2012 to 2017, then 39% in 2018 and 75% in 2019.",
           detail:
-            "The figures are WHO's estimates of HPV vaccination coverage in the primary target cohort of girls aged 9 to 14, from its Global Health Observatory: 89% in 2020 and 2021, 74% in 2022, 72% in 2023 and 78% in 2024 and 2025. The jump from 2018 matches a move to vaccination in schools, but OnCo did not read the Ministry's announcement of that programme and does not give its date here; see the gaps.",
+            "The figures are WHO's estimates of HPV vaccination coverage in the primary target cohort of girls aged 9 to 14, from its Global Health Observatory: 89% in 2020 and 2021, 74% in 2022, 72% in 2023 and 78% in 2024 and 2025. OnCo did not read a Singapore source that explains the rise from 2018, so it gives no reason for it here; see the gaps.",
           links: [{ label: "WHO Global Health Observatory: HPV coverage, Singapore (API)", url: WHO_HPV }],
         },
       ],
@@ -200,7 +206,7 @@ export const SG_DIVE: CountryDive = {
           plain:
             "Singapore links what insurance pays to value. For a cost-effective treatment, the Ministry sizes the MediShield Life limit to cover the bill after subsidy for a subsidised patient in a public hospital, and when a combination is not cost-effective its limit is pegged to the highest single drug in it. A company that raises its price can see its treatment removed.",
           detail:
-            "The FAQs say treatments usually stay on the list unless there are strong reasons to remove them, that limits may be cut when a generic or biosimilar arrives, and that a treatment can be removed if the maker raises its price to a level that is not cost-effective. For three-weekly treatments the limit is usually sized for two courses in a month. Doctors may change a drug in a listed combination for intolerance or clinical judgement and keep the original claim limit, if the replacement is on the list for cancer treatment.",
+            "The FAQs say treatments usually stay on the list unless there are strong reasons to remove them, that limits may be cut when a generic or biosimilar arrives, and that a treatment can be removed if the maker raises its price to a level that is not cost-effective. For cost-effective treatments on a three-weekly cycle the limit is usually sized for two courses in a month. Doctors may change a drug in a listed combination for intolerance or clinical judgement and keep the original claim limit, if the replacement is on the list for cancer treatment.",
           links: [{ label: "Ministry of Health: FAQs on cancer treatment financing", url: CDL_FAQ }],
         },
       ],
@@ -216,7 +222,7 @@ export const SG_DIVE: CountryDive = {
           plain:
             "Counted from OnCo's ClinicalTrials.gov participation data, fetched on 7 October 2026, 294 cancer trials in our records list a site in Singapore and 101 were recruiting. Six run only in Singapore, sponsored by the National Cancer Centre Singapore or the National University Hospital.",
           detail:
-            "Most of the 294 are international trials sponsored by drug companies. The six Singapore-only trials include metronomic chemotherapy with irinotecan dosed by UGT1A1 genotype in pancreatic cancer and a neoantigen dendritic cell vaccine with nivolumab in liver cancer at the National Cancer Centre, and early trials of new drug combinations, most with an immunotherapy antibody, at the National University Hospital. OnCo's participation data cover 5,899 trials, mostly large trials of new medicines, so this is not a count of all research in Singapore; the ClinicalTrials.gov search linked here shows more.",
+            "Most of the 294 are international trials sponsored by drug companies. The six Singapore-only trials include metronomic chemotherapy with irinotecan dosed by UGT1A1 genotype in pancreatic cancer and a neoantigen dendritic cell vaccine with nivolumab in liver cancer and bowel cancer that has spread to the liver at the National Cancer Centre, and phase 1 and 2 trials of drug combinations, three of the four with an immunotherapy antibody, at the National University Hospital. OnCo's participation data cover about 5,900 trials, mostly large trials of new medicines, so this is not a count of all research in Singapore; the ClinicalTrials.gov search linked here shows more.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with a site in Singapore (search)", url: CTGOV },
             { label: "Open trials on OnCo", url: "/trials/open/" },
@@ -228,13 +234,13 @@ export const SG_DIVE: CountryDive = {
   gaps: [
     {
       id: "radiotherapy-count",
-      title: "No official count of radiotherapy machines or cancer specialists was read",
+      title: "No official Singapore count of radiotherapy machines or cancer specialists was read; IAEA's directory lists 11 centres",
       plain:
-        "OnCo found no Singapore source it could read that counts radiotherapy machines or oncologists. The IAEA's directory of radiotherapy centres works only in a browser, and WHO's 2021 survey records that radiotherapy is generally available in the public sector without giving numbers.",
+        "OnCo found no Singapore source it could read that counts radiotherapy machines or oncologists. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists 11 centres in Singapore with 27 linear accelerators between them; six of the 11 entries were last updated in 2018, so the listing may be out of date. WHO's 2021 survey records that radiotherapy is generally available in the public sector without giving numbers.",
       detail:
-        "The IAEA DIRAC directory is a Tableau application that does not return its figures to a plain request, so no machine count is given. WHO's country capacity survey for 2021 reports radiotherapy, chemotherapy and pathology services as generally available in the public sector in Singapore; it also reports oral morphine as not generally available in the public health sector and no operational cancer plan, both of which may reflect how the questions were answered rather than practice, and OnCo has not checked them against a Ministry source.",
+        "IAEA's directory of radiotherapy centres (DIRAC), read on 16 November 2026, lists 11 centres in Singapore, with 27 linear accelerators and no cobalt-60 unit. The largest entry is National Cancer Centre Singapore, with 12 linear accelerators; National University Cancer Institute Singapore (NCIS) has three, and each of the other centres with a linear accelerator has one or two. The directory lists one Gamma Knife, at Mount Elizabeth Hospital, and proton or ion therapy at three centres: National Cancer Centre Singapore, Mount Elizabeth Hospital and Singapore Institute of Advanced Medicine. Four centres are listed with brachytherapy. The entries were last updated between 2018 and 2024, and six of them date from 2018; a directory can lag, so machines installed or retired since may be missing. This is IAEA's listing, not a count published by Singapore, and it does not say whether a machine is working. WHO's country capacity survey for 2021 reports radiotherapy, chemotherapy and pathology services as generally available in the public sector in Singapore; it also reports oral morphine as not generally available in the public health sector and no operational cancer plan, both of which may reflect how the questions were answered rather than practice, and OnCo has not checked them against a Ministry source.",
       links: [
-        { label: "IAEA: DIRAC, directory of radiotherapy centres", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
         { label: "WHO Global Health Observatory: radiotherapy availability (API)", url: "https://ghoapi.azureedge.net/api/NCD_CCS_radio?$filter=SpatialDim%20eq%20'SGP'" },
       ],
     },
@@ -242,9 +248,9 @@ export const SG_DIVE: CountryDive = {
       id: "unread-sources",
       title: "Other sources not reached",
       plain:
-        "The Agency for Care Effectiveness's 'about us' page returned a page-not-found message, so its founding and remit are described from the Ministry's FAQs. The Ministry's announcement of school-based HPV vaccination and the Health Promotion Board's screening intervals were not read.",
+        "The Agency for Care Effectiveness's 'about us' page returned a page-not-found message when this page was written, so its role is described from the Ministry's FAQs. A Singapore source explaining the rise in HPV vaccination from 2018 and the Health Promotion Board's screening intervals were not read.",
       detail:
-        "OnCo's web search budget was spent during this round, so pages had to be reached by known addresses. The HealthHub Screen for Life page answered 404; the Healthier SG Screening page was used instead and gives prices but not recommended intervals by age. Survival by stage and by cancer is in the registry report but is not summarised here beyond the all-cancer figure.",
+        "On 16 November 2026 the agency's site answered: it describes itself as established by the Ministry of Health and as Singapore's national health technology assessment and clinical guidelines agency. The pages read give no founding year, so none is given here. OnCo's web search budget was spent during the first round, so pages had to be reached by known addresses. The HealthHub Screen for Life page answered 404; the Healthier SG Screening page was used instead and gives prices but not recommended intervals by age. Survival by stage and by cancer is in the registry report but is not summarised here beyond the all-cancer figure.",
       links: [
         { label: "Agency for Care Effectiveness", url: "https://www.ace-hta.gov.sg" },
         { label: "HealthHub: Healthier SG Screening", url: HSG_SCREEN },
@@ -260,7 +266,7 @@ export const SG_DIVE: CountryDive = {
   papers: [],
   people: ["lim-soon-thye", "rebecca-dent", "chee-cheng-ean", "goh-cheng-liang"],
   how:
-    "Every card was written from Singapore's own sources, read in full rather than through a summary: the Singapore Cancer Registry Annual Report 2023; the Ministry of Health's Cancer Drug List page, its list dated 1 September 2026, its financing FAQs and its 2022 brochure; the Health Sciences Authority's evaluation routes page; and HealthHub's screening page. International figures come from IARC's GLOBOCAN 2024 fact sheet, WHO's Global Health Observatory and the World Bank. Trials were counted from OnCo's ClinicalTrials.gov participation data. The four new records (the Ministry, the registry, the Health Sciences Authority and the Agency for Care Effectiveness) carry their own sources.",
+    "Every card was written from Singapore's own sources, read in full rather than through a summary: the Singapore Cancer Registry Annual Report 2023; the Ministry of Health's Cancer Drug List page, its list dated 1 September 2026, its financing FAQs and its 2022 brochure; the Health Sciences Authority's evaluation routes page; and HealthHub's screening page. A second pass on 16 November 2026 re-read each of them and added the Ministry's MediShield Life benefits page. International figures come from IARC's GLOBOCAN 2024 fact sheet, WHO's Global Health Observatory and the World Bank. Trials were counted from OnCo's ClinicalTrials.gov participation data. The four new records (the Ministry, the registry, the Health Sciences Authority and the Agency for Care Effectiveness) carry their own sources.",
   verify:
     "Claim limits, subsidy classes and the Cancer Drug List change three times a year, and what you pay depends on your household income, residency and insurance plan. Check the Ministry's current list and ask a medical social worker or your insurer before starting treatment.",
   verifyLinks: [

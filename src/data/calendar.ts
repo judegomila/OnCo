@@ -106,7 +106,7 @@ export const calendar: CalendarEvent[] = [
     date: "2027-Q4", kind: "readout-expected", confidence: "expected",
     title: "TROPION-Breast03: Dato-DXd ± durvalumab, post-neoadjuvant residual TNBC",
     refs: ["tropion-breast03", "datopotamab-deruxtecan", "durvalumab", "tnbc"],
-    note: "Registry estimated primary completion 20 September 2027; topline may lag.",
+    note: "Registry estimated primary completion 1 September 2027; topline may lag.",
     source: "https://clinicaltrials.gov/study/NCT05629585",
   },
   {

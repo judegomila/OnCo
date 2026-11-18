@@ -70,7 +70,7 @@ export const gynaecologicalSubtypes: CancerInput[] = [
       { year: 2023, title: "DUO-E: durvalumab with chemotherapy, PFS hazard ratio 0.42 in dMMR tumours", refs: ["duo-e"] },
       { year: 2024, title: "KEYNOTE-B21: adjuvant pembrolizumab misses its primary endpoint overall; dMMR subgroup appears to benefit", refs: ["nct04634877"] },
     ],
-    pipeline: ["nct05173987", "nct04634877", "idea-moon-lynch-vaccine-phase3", "idea-bio1-wrn-msi-programme", "dostarlimab", "pembrolizumab"],
+    pipeline: ["nct05173987", "idea-moon-lynch-vaccine-phase3", "idea-bio1-wrn-msi-programme", "dostarlimab", "pembrolizumab"],
     openProblems: ["Whether chemotherapy can be dropped in favour of immunotherapy alone.", "Why a third of deficient tumours do not respond to checkpoint blockade.", "Getting germline testing to every woman with an unmethylated deficient tumour."],
     links: [{ label: "Wikipedia", url: W("Endometrial_cancer") }] },
 
@@ -154,7 +154,7 @@ export const gynaecologicalSubtypes: CancerInput[] = [
       { year: 2024, title: "Pembrolizumab and dostarlimab approved with chemotherapy for all comers", refs: ["pembrolizumab", "dostarlimab"] },
       { year: 2026, title: "XPORT-EC-042: maintenance selinexor fails in TP53-wild-type disease", refs: ["xport-ec-042"] },
     ],
-    pipeline: ["sacituzumab-tirumotecan", "rinatabart-sesutecan", "rainfol-01", "trastuzumab-deruxtecan", "nct06989112", "nct05173987", "luveltamab-tazevibulin", "saruparib", "abemaciclib"],
+    pipeline: ["sacituzumab-tirumotecan", "rinatabart-sesutecan", "rainfol-01", "trastuzumab-deruxtecan", "nct06989112", "nct05173987", "saruparib", "abemaciclib"],
     openProblems: ["What to give after progression on first-line immunotherapy.", "The small benefit and real toxicity of immunotherapy in proficient tumours.", "Rising mortality, especially among Black women in the United States, that new drugs have not yet reversed."],
     links: [{ label: "Wikipedia", url: W("Endometrial_cancer") }] },
 
@@ -319,7 +319,7 @@ export const gynaecologicalSubtypes: CancerInput[] = [
       { setting: "Folate receptor alpha-high", approach: "Mirvetuximab soravtansine with ophthalmic monitoring (MIRASOL).", refs: ["mirvetuximab-soravtansine", "mirasol", "folr1", "adc"] },
       { setting: "PD-L1 CPS 1 or more", approach: "Pembrolizumab with weekly paclitaxel, with bevacizumab where not previously given (KEYNOTE-B96).", refs: ["pembrolizumab", "paclitaxel", "bevacizumab", "keynote-b96", "pdl1"] },
       { setting: "Any expression status", approach: "Relacorilant with nab-paclitaxel (ROSELLA); or single-agent weekly paclitaxel, pegylated liposomal doxorubicin, topotecan or gemcitabine with bevacizumab if bevacizumab-naive (AURELIA).", refs: ["relacorilant", "rosella", "paclitaxel", "pegylated-liposomal-doxorubicin", "topotecan", "gemcitabine", "bevacizumab", "aurelia"] },
-      { setting: "Later lines", approach: "Clinical trials of antibody-drug conjugates against CDH6, folate receptor alpha, B7-H4 and TROP2; hormonal therapy in receptor-positive low-grade disease.", refs: ["raludotatug-deruxtecan", "rejoice-ovarian01", "rinatabart-sesutecan", "rainfol-01", "luveltamab-tazevibulin", "letrozole"] },
+      { setting: "Later lines", approach: "Clinical trials of antibody-drug conjugates against CDH6, folate receptor alpha, B7-H4 and TROP2; hormonal therapy in receptor-positive low-grade disease.", refs: ["raludotatug-deruxtecan", "rejoice-ovarian01", "rinatabart-sesutecan", "rainfol-01", "letrozole"] },
       { setting: "Supportive care", approach: "Early palliative care, drainage of ascites, management of bowel obstruction and nutritional support alongside anticancer treatment.", refs: ["ovarian"] },
     ],
     stateOfArt: ["MIRASOL made mirvetuximab soravtansine the first drug to improve survival in platinum-resistant disease in a phase 3 trial.", "ROSELLA introduced glucocorticoid receptor antagonism as a new mechanism, and KEYNOTE-B96 brought checkpoint inhibition into a disease that had resisted it.", "A crowded pipeline of antibody-drug conjugates is redefining later-line treatment."],
@@ -332,7 +332,7 @@ export const gynaecologicalSubtypes: CancerInput[] = [
       { year: 2025, title: "KEYNOTE-B96: pembrolizumab with paclitaxel extends survival in PD-L1-positive disease", refs: ["keynote-b96", "pembrolizumab"] },
       { year: 2026, title: "Relacorilant and pembrolizumab approved for platinum-resistant ovarian cancer", refs: ["relacorilant", "pembrolizumab"] },
     ],
-    pipeline: ["raludotatug-deruxtecan", "rejoice-ovarian01", "rinatabart-sesutecan", "rainfol-01", "luveltamab-tazevibulin", "relacorilant", "idea-fra-adc-sequencing-ovarian"],
+    pipeline: ["raludotatug-deruxtecan", "rejoice-ovarian01", "rinatabart-sesutecan", "rainfol-01", "relacorilant", "idea-fra-adc-sequencing-ovarian"],
     openProblems: ["Sequencing antibody-drug conjugates that share topoisomerase or tubulin payloads.", "Whether platinum resistance can be reversed rather than bypassed.", "A definition of resistance based on biology rather than a six-month clock."],
     links: [{ label: "Wikipedia", url: W("Ovarian_cancer") }] },
 ];

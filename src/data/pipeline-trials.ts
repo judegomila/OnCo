@@ -30,7 +30,7 @@ const raw: EntityInput[] = [
     id: "tropion-breast03", technologies: ["adc", "topoisomerase-inhibitors"], kind: "trial", name: "TROPION-Breast03", nct: "NCT05629585", phase: "3", status: "active",  sponsor: "AstraZeneca / Daiichi Sankyo",
     setting: "A Study of Dato-DXd With or Without Durvalumab Versus Investigator's Choice of Therapy in Patients With Stage I-III Triple-negative Breast Cancer Without Pathological Complete Response Following Neoadjuvant Therapy (TROPION-Breast03)",
     tldr: "Tests whether an experimental drug, with or without immunotherapy, helps prevent recurrence after residual triple-negative breast cancer is removed at surgery.",
-    summary: "TROPION-Breast03 compares datopotamab deruxtecan plus durvalumab, datopotamab deruxtecan alone, and investigator choice of capecitabine, pembrolizumab or both after surgery for stage I to III TNBC with residual invasive disease following neoadjuvant treatment. The registered primary iDFS comparison is the datopotamab deruxtecan plus durvalumab arm against investigator choice. ClinicalTrials.gov record last updated 2026-10-14: active not recruiting. Enrollment is actual at 1174 participants. Primary completion is estimated at 2027-09-20. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
+    summary: "TROPION-Breast03 compares datopotamab deruxtecan plus durvalumab, datopotamab deruxtecan alone, and investigator choice of capecitabine, pembrolizumab or both after surgery for stage I to III TNBC with residual invasive disease following neoadjuvant treatment. The registered primary iDFS comparison is the datopotamab deruxtecan plus durvalumab arm against investigator choice. ClinicalTrials.gov record last updated 2026-10-14: active not recruiting. Enrollment is actual at 1174 participants. Primary completion is estimated at 2027-09-01. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
     drugs: ["datopotamab-deruxtecan", "durvalumab", "pembrolizumab"], cancers: ["tnbc"], terms: ["rcb", "efs"], trials: ["keynote-522"], related: ["idea-post-neoadjuvant-adc", "ascent-05"],
     links: [{ label: "ClinicalTrials.gov NCT05629585", url: "https://clinicaltrials.gov/study/NCT05629585" }, { label: "TROPION-Breast03 design (Ther Adv Med Oncol 2024)", url: "https://journals.sagepub.com/doi/10.1177/17588359241248336" }],
 
@@ -40,7 +40,7 @@ const raw: EntityInput[] = [
 
     startedType: "actual",
 
-    notes: ["ClinicalTrials.gov record last updated 2026-10-14: active not recruiting. Enrollment is actual at 1174 participants. Primary completion is estimated at 2027-09-20. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications."],
+    notes: ["ClinicalTrials.gov record last updated 2026-10-14: active not recruiting. Enrollment is actual at 1174 participants. Primary completion is estimated at 2027-09-01. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications."],
 
     targets: ["trop2"],
 

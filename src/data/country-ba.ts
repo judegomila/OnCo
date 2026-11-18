@@ -14,6 +14,10 @@ import type { CountryDive } from "@/data/country-dive";
  * a tender notice for a linear accelerator in Mostar; the European Observatory on Health Systems and Policies' country
  * page; and the papers' abstracts through Europe PMC.
  *
+ * Second accuracy pass, 16 November 2026: every claim re-read against the raw text of its source. The radiotherapy
+ * card now follows the IAEA directory's public feed as read that day (Zenica is listed with two linear accelerators,
+ * so 21 machines, not 20); the WHO HPV link uses the broad antigen filter; and the Brčko fund's website now answers.
+ *
  * The country has two entities, the Federation of Bosnia and Herzegovina and Republika Srpska, and Brčko District.
  * Each has its own public health institute, cancer registry and health insurance fund, so every figure below names the
  * entity it covers. Where a figure could not be read it is named under `gaps`.
@@ -36,7 +40,7 @@ const ALM_CT = "https://almbih.gov.ba/en/clinical-trials/";
 const OBSERVATORY = "https://eurohealthobservatory.who.int/countries/bosnia-and-herzegovina";
 const WHO_ML = "https://www.who.int/publications/m/item/list-of-nras-operating-at-ml3-and-ml4";
 const WHO_GHED = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'BIH'";
-const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'BIH'%20and%20startswith(ANTIGEN,'PRHPV')";
+const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'BIH'%20and%20contains(ANTIGEN,'HPV')";
 const DIRAC = "https://dirac.iaea.org/Data/CountriesLight";
 const MOSTAR_LINAC = "https://www.phi.rs.ba/pdf/javneNabavke/Procurement%20of%20sophisticated%20medical%20equipment%20-%20stereotactic%20linear%20accelerator%20%E2%80%93%20LINAC.pdf";
 const KCUS_ONK = "https://kcus.ba/klinika-za-onkologiju-stari-dizajn/";
@@ -54,11 +58,11 @@ export const BA_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Bosnia and Herzegovina",
   description:
-    "Cancer in Bosnia and Herzegovina from its own sources: IARC's estimate of 15,108 new cancers and 8,932 deaths in 2024, two entity cancer registries with the Federation's latest published year 2020, separate insurers in the Federation and Republika Srpska, a Solidarity Fund that pays for cancer medicines in every canton, one medicines agency for the whole country, 20 radiotherapy machines in six centres, HPV vaccination since 2022 and 2023, and 12 trials in our records with a site in the country.",
+    "Cancer in Bosnia and Herzegovina from its own sources: IARC's estimate of 15,108 new cancers and 8,932 deaths in 2024, two entity cancer registries with the Federation's latest published year 2020, separate insurers in the Federation and Republika Srpska, a Solidarity Fund that pays for cancer medicines in every canton, one medicines agency for the whole country, 21 radiotherapy machines in six centres listed by the IAEA, HPV vaccination since 2022 and 2023, and 12 trials in our records with a site in the country.",
   lede:
     "IARC estimates 15,108 new cancers and 8,932 cancer deaths in Bosnia and Herzegovina in 2024, with lung and colorectal cancer the commonest. The country's two entities, the Federation of Bosnia and Herzegovina and Republika Srpska, each count cancer, insure patients and pay for medicines through their own institutions, so what a patient is entitled to depends on where they are insured.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Bosnia and Herzegovina is 15,108 new cancers (8,281 in men, 6,827 in women) and 8,932 deaths, an age-standardised incidence of 214.9 per 100,000 (267.8 in men, 179.7 in women) and mortality of 111.8. It includes 591 non-melanoma skin cancers; without them the total is 14,517. The fact sheet names sub-national registries as the incidence source and gives the method as national mortality estimates applied to modelled mortality-to-incidence ratios from country registry data; mortality is from national data reported to WHO, projected to 2024. So the national figure is anchored on deaths, not on a national count of new cancers. The Federation's own Cancer Register counted 5,035 cancers excluding skin cancer in 2020, its latest published year, with rates the report gives per 100,000 without saying they are age-standardised, so they cannot be set directly beside IARC's. OnCo found no published count of new cancers for Republika Srpska.",
+    "IARC's GLOBOCAN 2024 figure for Bosnia and Herzegovina is 15,108 new cancers (8,281 in men, 6,827 in women) and 8,932 deaths, an age-standardised incidence of 214.9 per 100,000 (267.8 in men, 179.7 in women) and mortality of 111.8. It includes 591 non-melanoma skin cancers; without them the total is 14,517. The fact sheet names sub-national registries as the incidence source and gives the method as national mortality estimates applied to modelled mortality-to-incidence ratios from country registry data; mortality is from national data reported to WHO, projected to 2024. The national figure is therefore built from deaths and registry ratios, not from a national count of new cancers. The Federation's own Cancer Register counted 5,035 cancers excluding skin cancer in 2020, its latest published year, with rates the report gives per 100,000 without saying they are age-standardised, so they cannot be set directly beside IARC's. OnCo found no published count of new cancers for Republika Srpska.",
   sections: [
     {
       id: "profile",
@@ -130,7 +134,7 @@ export const BA_DIVE: CountryDive = {
           id: "two-registries",
           title: "A register in each entity, and a hospital registry in Sarajevo",
           plain:
-            "There is no single national cancer registry. The Federation's Cancer Register was set up in 2004 at its public health institute; Republika Srpska's Registry of malignant neoplasms runs under a 2001 rulebook at its own institute and is a member of the European Network of Cancer Registries. Publication lags by two to three years.",
+            "Cancer is registered entity by entity, and OnCo found no single national cancer registry. The Federation's Cancer Register was set up in 2004 at its public health institute; Republika Srpska's Registry of malignant neoplasms runs under a 2001 rulebook at its own institute and is a member of the European Network of Cancer Registries. Publication lags by two to three years.",
           detail:
             "The Institute for Public Health of the Federation says its Cancer Register was established in 2004 to collect data on every new cancer case, and that because the data come from many sources publication usually takes two to three years; its latest report on its publications page is for 2021, carrying registry data for 2020. Republika Srpska's yearly health reports say morbidity data come from the Registry of malignant neoplasms at the Public Health Institute, collected under a rulebook (Official Gazette of RS 28/01) from every institution that diagnoses or treats cancer. The European Network of Cancer Registries lists the Cancer Registry Republika Srpska as covering all ages and all sites for a population of 1,429,290 (2012), at the Institute and the University of Banja Luka's Faculty of Medicine. OnCo found no Bosnian registry in the network's list other than Republika Srpska's. The Clinic of Oncology at the Clinical Centre University of Sarajevo keeps its own hospital registry of malignant diseases.",
           links: [
@@ -154,7 +158,7 @@ export const BA_DIVE: CountryDive = {
           plain:
             "Public money for health care in Bosnia and Herzegovina comes mainly from compulsory health insurance, but there is no national insurer. The Federation has ten cantonal funds and a federal institute, Republika Srpska has one fund, and Brčko District has its own. WHO's data show households paying about 31% of health spending directly in 2023.",
           detail:
-            "The European Observatory on Health Systems and Policies describes 13 health insurance funds and 14 ministries responsible for health, with public funding coming mainly from compulsory insurance contributions pooled in each canton of the Federation, in Republika Srpska and in Brčko District. The Federation's public health institute states that health care there is mostly financed from compulsory health insurance. Insurance in the Federation is run by ten cantonal health insurance funds, with the Health Insurance and Reinsurance Institute of the Federation, working since 1998, holding a Solidarity Fund for the most complex care; its board has one member from each canton and one from the Federal Ministry of Health. Republika Srpska's Health Insurance Fund covers that entity on its own. Brčko District runs a separate fund whose pages OnCo could not reach. In WHO's Global Health Expenditure Database, out-of-pocket payments were 31.0% of current health expenditure in Bosnia and Herzegovina in 2023, up from 28.9% in 2020; general government spending was 67.3% of current health expenditure, and current health expenditure was 8.9% of GDP. These are national figures; WHO gives no split by entity.",
+            "The European Observatory on Health Systems and Policies describes 13 health insurance funds and 14 ministries responsible for health, with public funding coming mainly from compulsory insurance contributions pooled in each canton of the Federation, in Republika Srpska and in Brčko District. The Federation's public health institute states that health care there is mostly financed from compulsory health insurance. Insurance in the Federation is run by ten cantonal health insurance funds, with the Health Insurance and Reinsurance Institute of the Federation, working since 1998, holding a Solidarity Fund for the most complex care; its board has one member from each canton and one from the Federal Ministry of Health. Republika Srpska's Health Insurance Fund covers that entity on its own. Brčko District runs a separate fund, whose pages OnCo has not read for what it pays for in cancer care. In WHO's Global Health Expenditure Database, out-of-pocket payments were 31.0% of current health expenditure in Bosnia and Herzegovina in 2023, up from 28.9% in 2020; general government spending was 67.3% of current health expenditure, and current health expenditure was 8.9% of GDP. These are national figures; WHO gives no split by entity.",
           links: [
             { label: "WHO Global Health Expenditure Database: out-of-pocket share for Bosnia and Herzegovina (API)", url: WHO_GHED },
             { label: "European Observatory on Health Systems and Policies: Bosnia and Herzegovina", url: OBSERVATORY },
@@ -212,9 +216,9 @@ export const BA_DIVE: CountryDive = {
           id: "almbih-trials",
           title: "Clinical trials are authorised by the same agency, following EU directives",
           plain:
-            "A cancer trial in Bosnia and Herzegovina needs the Agency's permission. Its Committee for clinical trials assesses each application, and the Agency says its decisions follow the EU's clinical trial directives. The Agency can inspect trial sites and stop or ban a trial.",
+            "A cancer trial in Bosnia and Herzegovina needs the Agency's permission. Its Committee for clinical trials assesses each application, and the Agency says its decisions follow the EU's clinical trial directives. The Agency supervises trials and can stop or ban one.",
           detail:
-            "The Agency's clinical trials page says applications are processed by experts from the Committee for clinical trials and the Agency, that decisions are issued in accordance with Directives 2001/20/EC and 2005/28/EC, and that it supervises trials under the Law on Medicinal Products and Medical Devices and the Regulation on clinical trials of medicinal products and medical devices (Official Gazette of BiH 4/10), along with Good Clinical Practice guidelines. It describes the Committee as an independent advisory body that assesses whether a trial is valid and complies with Good Clinical Practice, and protects the rights, safety and wellbeing of participants. The Agency may inspect sites where a trial is running and may stop or ban it. The page gives no target time for a decision, and OnCo found none elsewhere.",
+            "The Agency's clinical trials page says applications are processed by experts from the Committee for clinical trials and the Agency, that decisions are issued in accordance with Directives 2001/20/EC and 2005/28/EC, and that it supervises trials under the Law on Medicinal Products and Medical Devices and the Regulation on clinical trials of medicinal products and medical devices (Official Gazette of BiH 4/10), along with Good Clinical Practice guidelines. It describes the Committee as an independent advisory body that assesses whether a trial is valid and complies with Good Clinical Practice, and protects the rights, safety and wellbeing of participants. The page says the proposer of a trial may ask the Agency to check the trial at the places where it is run, and that the Agency may stop or ban a trial while it is supervising it. The page gives no target time for a decision, and OnCo found none elsewhere.",
           links: [
             { label: "ALMBIH: clinical trials", url: ALM_CT },
           ],
@@ -229,13 +233,13 @@ export const BA_DIVE: CountryDive = {
       cards: [
         {
           id: "dirac",
-          title: "20 radiotherapy machines in six centres, in both entities",
+          title: "21 radiotherapy machines in six centres, in both entities",
           plain:
-            "The IAEA's directory of radiotherapy centres lists six centres in Bosnia and Herzegovina, in Sarajevo, Tuzla, Živinice, Zenica, Mostar and Banja Luka, with 20 megavoltage machines between them, 19 of them linear accelerators. Republika Srpska's insurer says its patients have had radiotherapy in Banja Luka without waiting since 2010.",
+            "The IAEA's directory of radiotherapy centres lists six centres in Bosnia and Herzegovina, in Sarajevo, Tuzla, Živinice, Zenica, Mostar and Banja Luka, with 21 external beam machines between them, 20 of them linear accelerators and one a cobalt-60 unit. Republika Srpska's insurer says its patients have had radiotherapy in Banja Luka without waiting since 2010.",
           detail:
-            "IAEA DIRAC, equipment by centre, read on 11 November 2026: Clinical Centre of Sarajevo University, 5 megavoltage units (4 linear accelerators and 1 cobalt-60) and 2 brachytherapy units, last updated 2024; University Clinical Center Tuzla, 3 linear accelerators, updated 2026; Medikol Salinea in Živinice, 5 linear accelerators, updated 2026; Cantonal Hospital Zenica, 1, updated 2024; University Clinical Hospital Mostar, 3 and 1 brachytherapy unit, updated 2020; International Medical Centers Banja Luka, 3 and 1 brachytherapy unit, updated 2025. That is 20 machines and 4 brachytherapy units for a population DIRAC gives as 3,140,095; entries not updated recently may be out of date. Republika Srpska's Health Insurance Fund says a Centre for radiotherapy in Banja Luka has given its patients radiotherapy without waiting since 2010, with accommodation and transport for those from distant areas; the guide does not say who runs the centre, and OnCo has not confirmed that it is the Banja Luka centre DIRAC lists. In November 2025 University Clinical Hospital Mostar opened an international tender for a stereotactic linear accelerator, co-funded by the EU's Interreg programme for Croatia, Bosnia and Herzegovina and Montenegro.",
+            "The IAEA's Directory of Radiotherapy Centres (DIRAC), equipment by centre, as its public feed read on 16 November 2026: Clinical Centre of Sarajevo University, 4 linear accelerators, 1 cobalt-60 unit and 2 brachytherapy units, entry last updated 2024; University Clinical Center Tuzla, 3 linear accelerators, updated 2026; Medikol Salinea in Živinice, 5 linear accelerators, updated 2026; Cantonal Hospital Zenica, 2 linear accelerators, updated 2024; University Clinical Hospital Mostar, 3 linear accelerators and 1 brachytherapy unit, updated 2020; International Medical Centers Banja Luka, 3 linear accelerators and 1 brachytherapy unit, updated 2025. That is 20 linear accelerators and 1 cobalt-60 unit, with brachytherapy listed at three of the six centres (4 units), for a population DIRAC gives as 3,140,095. A directory can lag, and entries not updated recently, Mostar's above all, may be out of date. Republika Srpska's Health Insurance Fund says a Centre for radiotherapy in Banja Luka has given its patients radiotherapy without waiting since 2010, with accommodation and transport for those from distant areas; the guide does not say who runs the centre, and OnCo has not confirmed that it is the Banja Luka centre DIRAC lists. In November 2025 University Clinical Hospital Mostar opened an international tender for a stereotactic linear accelerator, co-funded by the EU's Interreg programme for Croatia, Bosnia and Herzegovina and Montenegro.",
           links: [
-            { label: "IAEA DIRAC, equipment by centre (read 11 November 2026)", url: DIRAC },
+            { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC },
             { label: "FZO RS: guide to the rights of people with malignant disease (PDF, Cyrillic)", url: FZO_GUIDE },
             { label: "LIFEGATE tender notice: stereotactic linear accelerator for University Clinical Hospital Mostar (PDF)", url: MOSTAR_LINAC },
           ],
@@ -246,17 +250,17 @@ export const BA_DIVE: CountryDive = {
       id: "screening",
       nav: "Screening",
       title: "Screening and prevention",
-      aside: { label: "WHO: HPV programme coverage rows for Bosnia and Herzegovina (API)", url: WHO_HPV_API },
+      aside: { label: "WHO: HPV coverage rows for Bosnia and Herzegovina (API)", url: WHO_HPV_API },
       cards: [
         {
           id: "hpv",
           title: "HPV vaccine free in both entities since 2022 and 2023, but few children vaccinated so far",
           plain:
-            "The Federation began offering the HPV vaccine at the end of 2022 and extended it to all cantons in 2023; Republika Srpska added it to its vaccination calendar in March 2023. Both use the nine-valent vaccine free of charge. In the coverage figures reported to WHO, fewer than one girl in ten had completed vaccination in 2024.",
+            "The Federation began offering the HPV vaccine at the end of 2022 and extended it to all cantons in 2023; Republika Srpska added it to its vaccination calendar in March 2023. Both use the nine-valent vaccine free of charge. In the programme coverage figures held by WHO, the last dose reached 9% of the girls targeted in 2024, the highest year so far.",
           detail:
-            "The Federation's public health institute recommends two doses for girls and boys aged 13 to 18, at least six months apart, and reported almost 5,500 doses given in the first two years, with the vaccine bought with support from the Government of the Federation. Republika Srpska's March 2023 guideline recommends it for girls and boys aged 11 or 12, in the sixth grade, with free vaccination also for ages 13 and 14, paid for by the entity government; people outside those ages pay. In the national rows reported to WHO, first-dose coverage of girls was 2% in 2022 (target 15,563), 6% in 2023, 3% in 2024 and 4% in 2025, and last-dose coverage 5% in 2023, 9% in 2024 and 4% in 2025; for boys, last-dose coverage was 3% in 2024 and 2% in 2025. The Federation's institute counts about 150 cervical cancers and 80 deaths a year in the Federation; Republika Srpska's about 200 cancers and 50 deaths in that entity.",
+            "The Federation's public health institute recommends two doses for girls and boys aged 13 to 18, at least six months apart, and reported almost 5,500 doses given in the first two years, with the vaccine bought with support from the Government of the Federation. Republika Srpska's March 2023 guideline recommends it for girls and boys aged 11 or 12, in the sixth grade, with free vaccination also for ages 13 and 14, paid for by the entity government; people outside those ages pay. In WHO's national programme coverage rows, first-dose coverage of girls was 2% in 2022 (target 15,563), 6% in 2023, 3% in 2024 and 4% in 2025, and last-dose coverage 5% in 2023, 9% in 2024 and 4% in 2025; for boys, last-dose coverage was 3% in 2024 and 2% in 2025. WHO's separate rows for coverage by age 15 give 7% of girls with a first dose and 5% with the last dose in 2024. The Federation's institute counts about 150 cervical cancers and 80 deaths a year in the Federation; Republika Srpska's about 200 cancers and 50 deaths in that entity.",
           links: [
-            { label: "WHO immunisation data: HPV programme coverage rows for Bosnia and Herzegovina (API)", url: WHO_HPV_API },
+            { label: "WHO immunisation data: HPV coverage rows for Bosnia and Herzegovina (API)", url: WHO_HPV_API },
             { label: "ZZJZ FBiH: HPV immunisation is key against cervical cancer (15 January 2025)", url: FBIH_HPV },
             { label: "PHI RS: guideline for HPV vaccination in Republika Srpska (March 2023, PDF, Cyrillic)", url: RS_HPV },
           ],
@@ -288,7 +292,7 @@ export const BA_DIVE: CountryDive = {
           plain:
             "The Clinic of Oncology in Sarajevo posts a notice each week saying which of the cytostatics on its list are out of stock, and the Federation's insurer keeps a running list of medicines whose supply has been interrupted. A patient can check before an appointment whether a medicine is missing.",
           detail:
-            "The Clinical Centre University of Sarajevo publishes its notices under the heading 'state of cytostatics'. The notice of 9 November 2026 says the Clinic of Oncology has 89 cytostatics on its list, of which pemetrexed, lomustine, letrozole and ifosfamide were missing; earlier notices are dated 26 October and 2 November 2026. The Health Insurance and Reinsurance Institute of the Federation posts lists of medicines with a temporary or permanent interruption in supply, the latest covering 14 September to 6 November 2026. In Republika Srpska the Health Insurance Fund's guide gives patients a refund at the price paid if a listed cytostatic is not available in hospital and they buy it themselves. OnCo found no equivalent weekly notice for the other centres.",
+            "The Clinical Centre University of Sarajevo publishes its notices under the heading 'state of cytostatics'. The notice of 9 November 2026 says the Clinic of Oncology has 89 cytostatics on its list, of which pemetrexed, lomustine, letrozole and ifosfamide (listed under its brand name, Holoksan) were missing; the notice before it is dated 2 November 2026 and the next 16 November 2026. The Health Insurance and Reinsurance Institute of the Federation posts lists of medicines with a temporary or permanent interruption in supply, one covering 14 September to 6 November 2026 and a later one dated 13 November 2026. In Republika Srpska the Health Insurance Fund's guide gives patients a refund at the price paid if a listed cytostatic is not available in hospital and they buy it themselves. OnCo found no equivalent weekly notice for the other centres.",
           links: [
             { label: "KCUS: state of cytostatics, 9 November 2026", url: KCUS_CIT },
             { label: "KCUS: all notices on cytostatics", url: KCUS_CIT_ALL },
@@ -301,7 +305,7 @@ export const BA_DIVE: CountryDive = {
           plain:
             "Since 2022 Republika Srpska's health insurance law pays people with cancer their full salary while on sick leave, and pays parents in full while caring for a child with cancer. Since 2020 someone with cancer who is not employed can be insured on the basis of the illness itself.",
           detail:
-            "The Health Insurance Fund of Republika Srpska's guide says that under the Law on Compulsory Health Insurance, since 2022 salary during sick leave is paid at 100% for insured people with malignant disease, and in full to parents on leave to care for a child with cancer. Unemployed people with cancer have been able to register for health insurance on the basis of their illness since 2020, so that they are covered at every point of treatment; employed people are insured through their employer, and the guide warns that contributions must be paid for them to use their rights. The Fund also pays for medical aids including stoma sets, elastic sleeves, wigs, bras and breast prostheses. The Federation's arrangements for sick pay during cancer treatment were not read for this page.",
+            "The Health Insurance Fund of Republika Srpska's guide says that under the Law on Compulsory Health Insurance, since 2022 salary during sick leave is paid at 100% for insured people with malignant disease, and in full to parents on leave to care for a child with cancer. Unemployed people with cancer have been able to register for health insurance on the basis of their illness since 2020, so that they are covered at every point of treatment; employed people are insured through their employer, and the guide warns that contributions must be paid for them to use their rights. The Fund also pays for medical aids including stoma sets, elastic sleeves, wigs, bras and prostheses. The Federation's arrangements for sick pay during cancer treatment were not read for this page.",
           links: [
             { label: "FZO RS: guide to the rights of people with malignant disease (PDF, Cyrillic)", url: FZO_GUIDE },
           ],
@@ -319,7 +323,7 @@ export const BA_DIVE: CountryDive = {
           plain:
             "Counted from ClinicalTrials.gov participation data in OnCo's graph on 11 November 2026, 12 trials in our records list a site in Bosnia and Herzegovina. They include trials in lung cancer (ALEX, ALINA), breast cancer (IMpassion130, lidERA, EORTC 22922), ovarian cancer (AURELIA) and three trials of proposed biosimilars.",
           detail:
-            "The 12 trials are ALEX and ALINA of alectinib in ALK-positive lung cancer; IMpassion130 in triple-negative breast cancer; lidERA of giredestrant in early breast cancer; EORTC 22922/10925 of radiotherapy to the internal mammary and medial supraclavicular nodes; AURELIA in ovarian cancer; STEVIE of vismodegib in basal cell carcinoma; a trial of namodenoson in advanced liver cancer with Child-Pugh B7 cirrhosis; a trial of an immunoglobulin to prevent infections in people with chronic lymphocytic leukaemia, myeloma or lymphoma; and three comparing proposed biosimilars with pembrolizumab (MB12 and SB27, both in lung cancer) and nivolumab (ABP 206, in melanoma). This reflects the trials OnCo holds, not every study in the country; the ClinicalTrials.gov search linked below shows all cancer studies with a site there. Trials need the authorisation of the medicines agency's Committee for clinical trials.",
+            "The 12 trials are ALEX and ALINA of alectinib in ALK-positive lung cancer; IMpassion130 in triple-negative breast cancer; lidERA of giredestrant in early breast cancer; EORTC 22922/10925 of radiotherapy to the internal mammary and medial supraclavicular nodes; AURELIA in ovarian cancer; STEVIE of vismodegib in basal cell carcinoma; a trial of namodenoson in advanced liver cancer with Child-Pugh B7 cirrhosis; a trial of an immunoglobulin to prevent infections in people with chronic lymphocytic leukaemia, myeloma or lymphoma; and three comparing proposed biosimilars with pembrolizumab (MB12 and SB27, both in lung cancer) and nivolumab (ABP 206, in melanoma). OnCo's participation data were fetched from ClinicalTrials.gov on 7 October 2026. This reflects the trials OnCo holds, not every study in the country; the ClinicalTrials.gov search linked below shows all cancer studies with a site there. Trials need the authorisation of the medicines agency's Committee for clinical trials.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with a site in Bosnia and Herzegovina (search)", url: CTGOV },
             { label: "ALMBIH: clinical trials", url: ALM_CT },
@@ -356,14 +360,15 @@ export const BA_DIVE: CountryDive = {
     },
     {
       id: "brcko",
-      title: "Brčko District's insurer and health data were not reached",
+      title: "Brčko District's insurer and health data have not been read",
       plain:
-        "Brčko District runs its own health insurance fund and health services, but OnCo could not reach the fund's website and has not described what it pays for. Patients insured in Brčko should ask the fund directly.",
+        "Brčko District runs its own health insurance fund and health services, but OnCo has not read what the fund pays for in cancer care and does not describe it here. Patients insured in Brčko should ask the fund directly.",
       detail:
-        "The European Observatory on Health Systems and Policies says insurance contributions in Brčko District are pooled at district level. Several likely addresses for the District's health insurance fund did not answer from OnCo's network on 11 November 2026, and a web search could not be run to find the right one. The District's cancer figures are included in IARC's national estimate but in neither entity's reports read here. How patients insured in one entity or in Brčko are treated in another entity's hospitals was also not checked.",
+        "The European Observatory on Health Systems and Policies says insurance contributions in Brčko District are pooled at district level. The fund's website could not be reached when this page was written on 11 November 2026. It answered on 16 November 2026, with pages on medicines lists and insurance rights, but those pages have not been read for this page. The District's cancer figures are included in IARC's national estimate but in neither entity's reports read here. How patients insured in one entity or in Brčko are treated in another entity's hospitals was also not checked.",
       links: [
         { label: "European Observatory on Health Systems and Policies: Bosnia and Herzegovina", url: OBSERVATORY },
         { label: "IARC: GLOBOCAN 2024 fact sheet, Bosnia and Herzegovina (PDF)", url: IARC_FACTSHEET },
+        { label: "Health Insurance Fund of Brčko District", url: "https://fzobrcko.ba/" },
         { label: "ZZOR FBiH: Solidarity Fund", url: ZZO_FS },
       ],
     },
@@ -376,7 +381,7 @@ export const BA_DIVE: CountryDive = {
         "The 210 and 150 day registration times are the procedure lengths as quoted in a 2023 Republika Srpska guideline, not taken from the Agency's own pages; OnCo found no published measured times. The Agency's medicines register was not searched medicine by medicine. OnCo found no national cancer control plan or entity cancer strategy in the sources read, and no IAEA imPACT review report for the country. The Federation's Solidarity Fund list read here is the 2019 decision with its amendments to 2024; Republika Srpska's cytostatics list and medicines programme were not read item by item. Survival figures are from one Sarajevo centre's breast cancer study. Radiotherapy figures are the IAEA's, and the entries for Mostar (2020), Sarajevo and Zenica (2024) may be out of date.",
       links: [
         { label: "ALMBIH: about us", url: ALM_ABOUT },
-        { label: "IAEA DIRAC, equipment by centre (read 11 November 2026)", url: DIRAC },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC },
       ],
     },
   ],

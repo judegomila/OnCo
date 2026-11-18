@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-11",
+ "checked": "2026-11-18",
  "source": {
   "label": "European Medicines Agency: medicines report (centrally authorised human medicines)",
   "url": "https://www.ema.europa.eu/en/medicines/download-medicine-data"
@@ -1331,7 +1331,7 @@
    "orphan": false,
    "atc": "L01ED05",
    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/lorviqua",
-   "indication": "Lorviqua as monotherapy is indicated for the treatment of adult patients with anaplastic lymphoma kinase (ALK)?positive advanced non?small cell lung cancer (NSCLC) previously not treated with an ALK inhibitor. Lorviqua as monotherapy is indicated for the treatment of adult patien"
+   "indication": "Lorviqua as monotherapy is indicated for the treatment of adult patients with anaplastic lymphoma kinase (ALK) positive advanced non?small cell lung cancer (NSCLC) previously not treated with an ALK inhibitor. Lorviqua as monotherapy is indicated for the treatment of adult patien"
   },
   {
    "name": "Lumeblue (previously Methylthioninium chloride Cosmo)",

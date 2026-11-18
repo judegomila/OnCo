@@ -32,7 +32,7 @@ export const LV_DIVE: CountryDive = {
   lede:
     "Latvia has a national cancer registry, free screening for four cancers and public cover for most cancer care, yet its cancer death rate was the third highest in the EU, Iceland and Norway in 2021 and the gap between men and women was the widest in the EU. The OECD's 2025 profile also reports high smoking among men, high alcohol consumption, late diagnosis and slow access to new medicines.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Latvia is 11,317 new cancers and 5,803 deaths, an age-standardised incidence of 282.2 per 100,000 (348.5 in men, 245.4 in women) and mortality of 116.6 (170.7 in men, 83.7 in women). IARC's fact sheet names a national registry as the source for incidence and WHO's national mortality data for deaths, each projected to 2024 from recent trends. The registry's own count, 11,198 cancers diagnosed in 2024 and 11,584 in 2025, is close to IARC's estimate because IARC built it from the registry. IARC's rates are age-standardised to the world population; the registry publishes crude rates per 100,000 residents, which are not comparable with IARC's.",
+    "IARC's GLOBOCAN 2024 figure for Latvia is 11,317 new cancers and 5,803 deaths, an age-standardised incidence of 282.2 per 100,000 (348.5 in men, 245.4 in women) and mortality of 116.6 (170.7 in men, 83.7 in women). IARC's fact sheet names a national registry as the source for incidence and WHO's national mortality data for deaths, each projected to 2024 from recent trends. The registry's own count, 11,198 cancers diagnosed in 2024 and 11,584 in 2025, is close to IARC's estimate, which the fact sheet says rests on national registry data. IARC's rates are age-standardised to the world population; the registry publishes crude rates per 100,000 residents, which are not comparable with IARC's.",
   sections: [
     {
       id: "profile",
@@ -54,9 +54,9 @@ export const LV_DIVE: CountryDive = {
         },
         {
           id: "registry",
-          title: "A national registry since 2009, fed by an electronic cancer patient card",
+          title: "A national registry, managed by SPKC since 2009, fed by an electronic cancer patient card",
           plain:
-            "The Centre for Disease Prevention and Control (SPKC) has run Latvia's Cancer Registry since 2009. Doctors report each cancer through a cancer patient card in the national e-health system, and SPKC publishes counts by year, cancer and region in an open database.",
+            "The Centre for Disease Prevention and Control (SPKC) holds Latvia's Cancer Registry; the 2025 Country Cancer Profile says it has managed it since 2009. Doctors report each cancer through a cancer patient card in the national e-health system, and SPKC publishes counts by year, cancer and region in an open database.",
           detail:
             "The 2025 Country Cancer Profile says SPKC has managed administrative databases and registries, including the Cancer Registry, since 2009, and that the registry holds incidence, stage, treatment, survival and mortality data but not screening, genetic or patient-reported data; it cites the State Audit Office's 2023 finding that the quality and completeness of the data need improving. SPKC's database table ONKO021 gives the number of newly registered malignant tumours (ICD-10 C00 to C97) as 11,204 in 2019, 10,325 in 2020, 9,596 in 2021, 10,812 in 2022, 11,064 in 2023, 11,198 in 2024 and 11,584 in 2025; the dip in 2020 and 2021 coincides with the pandemic, when the profile says screening was paused from March to May 2020. The count includes non-melanoma skin cancers, as IARC's does. From 1 January 2024 tumours are coded to ICD-O 3.2 in the cancer patient card, so 2024 onwards is coded differently from earlier years.",
           links: [
@@ -131,9 +131,9 @@ export const LV_DIVE: CountryDive = {
           id: "approval",
           title: "European authorisation first, then a national decision on coverage",
           plain:
-            "The 2025 Country Cancer Profile measures Latvia's access to new cancer medicines from their European Medicines Agency authorisation to the national decision to pay for them, and finds the national step is where the delay lies. The State Agency of Medicines is the national medicines regulator.",
+            "The 2025 Country Cancer Profile measures Latvia's access to new cancer medicines from their European Medicines Agency authorisation to the national decision to pay for them, and reports a wait of over 1,100 days, part of it before companies apply for reimbursement. The State Agency of Medicines is the national medicines regulator.",
           detail:
-            "The 2025 Country Cancer Profile attributes Latvia's low coverage of new oncology medicines to high prices, the time spent on health technology assessment and budget-impact decisions, and the late filing of reimbursement applications by companies, and measures the delay from European Medicines Agency authorisation to national reimbursement. The National Health Service's English site lists the State Agency of Medicines of Latvia among the bodies it links. OnCo did not read the State Agency of Medicines' own pages for this page, as its English site answered with a server error; see the gaps.",
+            "The 2025 Country Cancer Profile says Latvia's limited coverage of new oncology medicines is probably related to their high prices, as budget impact has become important in coverage decisions, and that the long wait reflects both the time taken for health technology assessment and the time companies take to apply for reimbursement; it measures the delay from European Medicines Agency authorisation to national reimbursement. The National Health Service's English site lists the State Agency of Medicines of Latvia among the bodies it links. OnCo did not write from the State Agency of Medicines' own pages: its English site answered with a server error on 11 November 2026 and answered normally on 16 November 2026; see the gaps.",
           links: [
             { label: "EU Country Cancer Profile Latvia 2025, section 5.1 (PDF, Internet Archive copy)", url: CCP_2025 },
             { label: "National Health Service of Latvia (English)", url: NVD_EN },
@@ -153,7 +153,7 @@ export const LV_DIVE: CountryDive = {
           plain:
             "Latvia screens for breast, cervical, bowel and prostate cancer free of charge. Women are invited by letter for breast and cervical screening; bowel and prostate screening are arranged by family doctors. In 2023, 55.2% of invited women had cervical screening and 36.1% breast screening, and 25.8% took part in bowel screening.",
           detail:
-            "The 2025 Country Cancer Profile says population-based breast and cervical screening started nationwide in 2009: mammography every two years for women aged 50 to 69 at 27 designated providers or a mobile bus, cytology at ages 25 and 28, and primary HPV testing for women aged 30 to 67 from 2022, with the interval planned to change from three to five years in 2025. Bowel screening is not population-based, so no letters are sent. Breast screening participation was 21% in 2009, 44% in 2017, 30% in 2020 when screening was paused, and 36% in 2023 against an EU average of 56%. SPKC's 2025 notice gives the National Health Service's 2023 uptake as 55.2% for cervical, 36.1% for breast, 25.8% for bowel and 80% for prostate screening. SPKC's notice describes prostate screening as a PSA blood test, and the profile gives it as every two years for men aged 50 to 75.",
+            "The 2025 Country Cancer Profile says population-based breast and cervical screening started nationwide in 2009: mammography every two years for women aged 50 to 69 at 27 designated providers or a mobile bus, cytology at ages 25 and 28, and primary HPV testing for women aged 30 to 67 from 2022, with the interval planned to change from three to five years in 2025. Bowel screening is not population-based, so no letters are sent. Breast screening participation was 21% in 2009, 44% in 2017, 30% in 2020 when screening was paused, and 36% in 2023 against an EU average of 56%. SPKC's 2025 notice gives the National Health Service's 2023 uptake as 55.2% for cervical, 36.1% for breast, 25.8% for bowel and 80% for prostate screening. The profile says the prostate figure should be read with caution, because it counts all PSA tests in men aged 50 to 75 except those done for a cancer diagnosis. SPKC's notice describes prostate screening as a PSA blood test, and the profile gives it as every two years for men aged 50 to 75.",
           links: [
             { label: "SPKC: World Cancer Day 2025 notice (LV portāls)", url: SPKC_WCD },
             { label: "EU Country Cancer Profile Latvia 2025, section 4 (PDF, Internet Archive copy)", url: CCP_2025 },
@@ -164,9 +164,9 @@ export const LV_DIVE: CountryDive = {
           id: "hpv",
           title: "HPV vaccination since 2010 for girls and 2022 for boys, with coverage below the EU average",
           plain:
-            "Family doctors vaccinate girls aged 12 to 18 against HPV free of charge, and boys aged 12 to 17 since 2022. WHO's figures give 66% of girls a first dose and 54% the last dose in 2025.",
+            "Family doctors vaccinate girls and boys against HPV free of charge from the age of 12, boys since 2022. WHO's figures give 66% of girls a first dose and 54% the last dose in 2025.",
           detail:
-            "The Country Cancer Profile says HPV vaccination began for girls in 2010 and boys in 2022, that SPKC has run information campaigns since 2017, and that coverage among 15-year-old girls reached 46% in 2023 against an EU average of 64%. WHO's immunisation data give HPV programme coverage among females of 61% (first dose) and 46% (last dose) in 2023, 64% and 51% in 2024, and 66% and 54% in 2025.",
+            "The Country Cancer Profile says HPV vaccination began for girls in 2010 and boys in 2022 and is given free by GPs to girls aged 12 to 18 and boys aged 12 to 17 (SPKC's February 2025 notice gives 12 to 17 for both), that SPKC has run information campaigns since 2017, and that coverage among 15-year-old girls reached 46% in 2023 against an EU average of 64%. WHO's immunisation data give HPV programme coverage among females of 61% (first dose) and 46% (last dose) in 2023, 64% and 51% in 2024, and 66% and 54% in 2025.",
           links: [
             { label: "WHO: HPV vaccination coverage rows for Latvia (data API)", url: WHO_HPV_API },
             { label: "EU Country Cancer Profile Latvia 2025, section 3 (PDF, Internet Archive copy)", url: CCP_2025 },
@@ -181,7 +181,7 @@ export const LV_DIVE: CountryDive = {
       cards: [
         {
           id: "green-corridor",
-          title: "A Green Corridor for suspected cancer, which an audit found did not speed diagnosis",
+          title: "A Green Corridor for suspected cancer, which an audit found did not improve early detection",
           plain:
             "Since 2016 Latvia has set waiting time targets for cancer care and paid for a fast track, the Green Corridor, for people with suspected cancer. A 2023 State Audit Office review found that the share of cancers found at an early stage did not change and only a quarter of patients were seen within the 10-day target.",
           detail:
@@ -190,11 +190,11 @@ export const LV_DIVE: CountryDive = {
         },
         {
           id: "plans",
-          title: "Three national cancer plans since 2009, and a fourth for 2025 to 2027",
+          title: "Three national cancer plans since 2009, and a fourth in development for 2025 to 2027",
           plain:
             "Latvia adopted its first National Cancer Plan in 2009, a second for 2017 to 2020 and a third for 2022 to 2024 aligned with Europe's Beating Cancer Plan. It started developing a plan for 2025 to 2027. Oncologists numbered 4 per 100,000 people in 2023, and a quarter of medical oncologists were near retirement in 2022.",
           detail:
-            "The profile says the third plan, introduced in 2021 and implemented from July 2022, covers prevention, screening, access to and quality of care, cancer data, workforce and patient satisfaction. On workforce it counts 575 physicians and 706 nurses per 1,000 new cancer cases, against EU averages of 679 and 1,376; oncologists stayed at 3 per 100,000 from 2005 to 2015 and rose to 4 in 2023, and 24% of medical oncologists were approaching retirement in 2022, after which Latvia funded more oncology residencies.",
+            "The profile says the third plan, introduced in 2021 and implemented from July 2022, covers prevention, screening, access to and quality of care, cancer data, workforce and patient satisfaction. On workforce it counts 575 physicians and 706 nurses per 1,000 new cancer cases, against EU averages of 679 and 1,376; oncologists stayed at 3 per 100,000 from 2005 to 2015 and rose to 4 in 2023, and 24% of medical oncologists were approaching retirement in 2022; Latvia has funded additional oncology residencies since 2019.",
           links: [{ label: "EU Country Cancer Profile Latvia 2025, sections 1 and 5 (PDF, Internet Archive copy)", url: CCP_2025 }],
         },
       ],
@@ -207,11 +207,11 @@ export const LV_DIVE: CountryDive = {
       cards: [
         {
           id: "trial-count",
-          title: "34 trials in OnCo's records list a site in Latvia, nearly all phase 3",
+          title: "33 trials in OnCo's records list a site in Latvia, nearly all phase 3",
           plain:
-            "Thirty-four trials in OnCo's records include Latvia among their countries, 31 of them phase 3 and mostly sponsored by large drug companies. Six were recruiting when the registry was last read.",
+            "Thirty-three trials in OnCo's records include Latvia among their countries, 31 of them phase 3 and mostly sponsored by large drug companies. Five were recruiting when the registry was last read.",
           detail:
-            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 11 November 2026: 34 trials list Latvia, 31 phase 3, 2 phase 2 and 1 phase 2/3. ClinicalTrials.gov lists 6 as recruiting, 14 as active and not recruiting, 12 as completed and 2 as terminated. Merck Sharp & Dohme leads 7, Hoffmann-La Roche 4, Amgen 3 and UroGen Pharma 3. They include CLEOPATRA, IMpassion130, IMpower150, KEYNOTE-671 and ARAMIS. OnCo holds a selection of trials, not the whole registry.",
+            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 16 November 2026, with the registry last read on 7 October 2026: 33 trials list Latvia, 31 phase 3 and 2 phase 2. ClinicalTrials.gov listed 5 as recruiting, 14 as active and not recruiting, 12 as completed and 2 as terminated. Merck Sharp & Dohme leads 7, Hoffmann-La Roche 4, and Amgen, UroGen Pharma, AbbVie and Bayer 3 each. An earlier count of 34 included a children's bladder trial that was not a cancer trial and has been removed. They include CLEOPATRA, IMpassion130, IMpower150, KEYNOTE-671 and ARAMIS. OnCo holds a selection of trials, not the whole registry.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with sites in Latvia", url: CTGOV },
             { label: "KEYNOTE-671 (NCT03425643)", url: "https://clinicaltrials.gov/study/NCT03425643" },
@@ -225,12 +225,12 @@ export const LV_DIVE: CountryDive = {
       id: "gap-sources",
       title: "Sources not read for this page",
       plain:
-        "OnCo could not read the State Agency of Medicines' site, which returned a server error, or the European Commission's copy of the Country Cancer Profile, which refused a script; it read an Internet Archive copy instead. It did not find a public count of radiotherapy machines in Latvia.",
+        "When this page was written, the State Agency of Medicines' site returned a server error and the European Commission's copy of the Country Cancer Profile refused a script, so OnCo read an Internet Archive copy. Both answered on 16 November 2026; the Commission's file is the same as the archived one, and nothing on this page is yet drawn from the agency's own pages. For radiotherapy the page gives only what IAEA's directory lists: six entries with 15 linear accelerators between them.",
       detail:
-        "zva.gov.lv/en/about-us answered 503 on 11 November 2026. The European Cancer Inequalities Registry's PDF answered with a 'Request Rejected' page; the Internet Archive copy of 19 May 2026 was read. Radiotherapy capacity is published in IAEA's DIRAC database, which needs an account for most queries, and was not read.",
+        "zva.gov.lv/en/about-us answered 503 on 11 November 2026; on 16 November 2026 zva.gov.lv/en answered normally. The European Cancer Inequalities Registry's PDF answered with a 'Request Rejected' page on 11 November 2026, so the Internet Archive copy of 19 May 2026 was read; on 16 November 2026 the registry served the PDF and it matched the archived copy byte for byte. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists six entries for Latvia, with 15 linear accelerators between them and no cobalt-60 unit: Riga East University Hospital. Clinic of Therapeutic Radiology and Medical Physics, Riga (eight linear accelerators and one X-ray generator, with brachytherapy); Pauls Stradins Clinical University Hospital, Riga, which appears twice (three linear accelerators in one entry and one in the other); Daugavpils Regional Hospital, Daugavpils (one linear accelerator and one X-ray generator); Liepaja Regional Hospital, Liepaja (one linear accelerator); and SRC Sigulda, Sigulda (one linear accelerator). Only the Riga East entry is listed with brachytherapy. All six entries were last updated in 2023, and a directory can lag, so they may be out of date. OnCo has not read radiotherapy figures from a Latvian source.",
       links: [
         { label: "State Agency of Medicines of Latvia", url: "https://www.zva.gov.lv/en" },
-        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
       ],
     },
   ],
@@ -241,7 +241,7 @@ export const LV_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from Latvian and European public sources read as raw text on 11 November 2026: SPKC's statistics database, the OECD and European Commission's 2025 Country Cancer Profile, SPKC's 2025 screening notice, the National Health Service's site, WHO's immunisation data, the World Bank and IARC's GLOBOCAN 2024 fact sheet. Latvian sources were read in Latvian.",
+    "Every card was written from Latvian and European public sources read as raw text on 11 November 2026: SPKC's statistics database, the OECD and European Commission's 2025 Country Cancer Profile, SPKC's 2025 screening notice, the National Health Service's site, WHO's immunisation data, the World Bank and IARC's GLOBOCAN 2024 fact sheet. Latvian sources were read in Latvian. IAEA's directory of radiotherapy centres was read from its public equipment data on 16 November 2026.",
   verify:
     "Registry counts for the latest years can be revised as late reports arrive; check SPKC's table before relying on a single year. Copayments and the reimbursement list change; the National Health Service publishes the current rules.",
   verifyLinks: [

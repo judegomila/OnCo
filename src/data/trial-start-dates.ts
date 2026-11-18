@@ -5661,6 +5661,7 @@ export const TRIAL_START_DATES: Record<string, TrialStart> = {
   "senomac": {"started":"2015-01-27","type":"actual","nct":"NCT02240472"},
   "senticol-iii": {"started":"2018-05-03","type":"actual","nct":"NCT03386734"},
   "sequoia": {"started":"2017-10-31","type":"actual","nct":"NCT03336333"},
+  "sequoia-pancreatic": {"started":"2017-03-01","type":"actual","nct":"NCT02923921"},
   "serena-6": {"started":"2021-06-30","type":"actual","nct":"NCT04964934"},
   "sevilla": {"started":"2025-10-09","type":"actual","nct":"NCT06529718"},
   "shape": {"started":"2012-12-10","type":"actual","nct":"NCT01658930"},

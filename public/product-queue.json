@@ -4,7 +4,7 @@
     "why": "country deep dives, wave 14 (16 countries)",
     "pr": "https://github.com/judegomila/OnCo/pull/424",
     "preview": "",
-    "files": 88,
+    "files": 89,
     "proposed": "2026-11-17",
     "state": "waiting"
   },
@@ -13,7 +13,7 @@
     "why": "country deep dives, wave 16 (16 countries and territories)",
     "pr": "https://github.com/judegomila/OnCo/pull/425",
     "preview": "",
-    "files": 94,
+    "files": 95,
     "proposed": "2026-11-17",
     "state": "waiting"
   },
@@ -40,7 +40,34 @@
     "why": "country deep dives, wave 15 (16 countries)",
     "pr": "https://github.com/judegomila/OnCo/pull/434",
     "preview": "",
-    "files": 92,
+    "files": 94,
+    "proposed": "2026-11-17",
+    "state": "waiting"
+  },
+  {
+    "branch": "product/cross-links-round-2",
+    "why": "funder pages list their trials, person pages their trial reports, test pages who pays, protocol pages when to call, and long paragraphs keep their glossary hovers",
+    "pr": "https://github.com/judegomila/OnCo/pull/437",
+    "preview": "",
+    "files": 41,
+    "proposed": "2026-11-17",
+    "state": "waiting"
+  },
+  {
+    "branch": "product/country-waves-13-16",
+    "why": "the last 64 country deep dives (waves 13 to 16), each checked twice against its sources",
+    "pr": "https://github.com/judegomila/OnCo/pull/444",
+    "preview": "",
+    "files": 352,
+    "proposed": "2026-11-17",
+    "state": "waiting"
+  },
+  {
+    "branch": "product/side-effect-protocol-mappings",
+    "why": "side effects link the fourteen new protocols that manage them",
+    "pr": "https://github.com/judegomila/OnCo/pull/450",
+    "preview": "",
+    "files": 2,
     "proposed": "2026-11-17",
     "state": "waiting"
   }

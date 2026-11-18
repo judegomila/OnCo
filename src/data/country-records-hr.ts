@@ -40,11 +40,12 @@ const institutions: InstitutionInput[] = [
   i({ id: "halmed-croatia", name: "Agency for Medicinal Products and Medical Devices of Croatia", aka: ["HALMED", "Agencija za lijekove i medicinske proizvode"],
     city: "Zagreb", country: "HR", lat: 45.80, lng: 15.97, institutionType: "government", website: "https://www.halmed.hr",
     tldr: "Croatia's national medicines regulator. New cancer medicines reach Croatia mostly through the EU's centralised procedure; HALMED handles national authorisations and safety monitoring.",
-    summary: "HALMED, the Agency for Medicinal Products and Medical Devices (Agencija za lijekove i medicinske proizvode), regulates medicines and medical devices in Croatia, including authorisation, inspection and pharmacovigilance, as its website's sections show. As an EU member, Croatia receives medicines with a new active substance for cancer through the European Medicines Agency's centralised procedure, which the EMA says is compulsory for them and valid in every member state; whether the Croatian Health Insurance Fund pays for them is a separate national decision. The coordinates on this record are an approximate Zagreb point.",
+    summary: "HALMED, the Agency for Medicinal Products and Medical Devices (Agencija za lijekove i medicinske proizvode), regulates medicines and medical devices in Croatia, including marketing authorisation, inspection and pharmacovigilance, as its page listing its activities says. As an EU member, Croatia receives medicines with a new active substance for cancer through the European Medicines Agency's centralised procedure, which the EMA says is compulsory for them and valid in every member state; whether the Croatian Health Insurance Fund pays for them is a separate national decision. The coordinates on this record are an approximate Zagreb point.",
     programs: ["National authorisations", "Pharmacovigilance", "Inspection"],
     institutions: ["hzzo-croatia"],
     links: [
       { label: "HALMED: about HALMED", url: "https://www.halmed.hr/O-HALMED-u/" },
+      { label: "HALMED: Djelatnosti (activities)", url: "https://www.halmed.hr/O-HALMED-u/Osnovni-podaci-i-dokumenti/Djelatnosti/" },
       { label: "EMA: authorisation of medicines", url: "https://www.ema.europa.eu/en/about-us/what-we-do/authorisation-medicines" },
     ] }),
 ];

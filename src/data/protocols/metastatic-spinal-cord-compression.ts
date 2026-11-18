@@ -12,122 +12,145 @@ import { protocol } from "./helpers";
  *   in this round.
  * - SCORAD III (JAMA 2019) and Patchell et al. (Lancet 2005): abstracts from Europe PMC.
  * Every DOI was resolved through Crossref or Europe PMC and its title checked. Quotes checked by script.
+ *
+ * Second accuracy pass, 16 November 2026 (every source fetched again with curl and read as raw text):
+ * - NICE NG234: the recommendations, rationale and impact, update information and overview pages, and the final
+ *   scope PDF (pdftotext). The overview gives "Last reviewed: 19 March 2026"; no newer edition exists.
+ * - SCORAD III: the abstract from Europe PMC and now the full text on PubMed Central (PMC6902166).
+ * - ASTRO 2024 and Patchell 2005: abstracts from Europe PMC again. The ASTRO publisher page answered with a bot
+ *   check (HTTP 403) and was left alone.
+ * Corrected: who is immobilised (NICE requires neurological symptoms or signs suggesting instability, not either
+ * one), "must" for the 24-hour coordinator (NICE says "should"), the scope of dexamethasone and of the team plan,
+ * "neck" pain (NICE's box 1 names back pain only), two quotes carrying a stray space, and several reasons that
+ * said more than the rationale does. All 18 quotes re-checked by script.
+ *
+ * 17 November 2026: the patient safety-net step was restored from Macmillan Cancer Support's page on metastatic
+ * spinal cord compression (reviewed 1 September 2024), fetched with curl and read as raw text, with the quote checked
+ * by script. The NICE recommendations page was fetched again the same day and every NICE quote re-checked against it.
+ * NICE's two clocks (immediately, and within 24 hours) are for the professional contacting the MSCC coordinator and
+ * stay in their own steps; the patient wording is Macmillan's.
  */
 export const metastaticSpinalCordCompression = protocol({
   id: "metastatic-spinal-cord-compression-emergency",
   name: "Metastatic spinal cord compression: recognition, MSCC coordinator, MRI, dexamethasone, radiotherapy and surgery",
   aka: ["MSCC protocol", "malignant spinal cord compression", "spinal cord compression emergency", "cauda equina compression in cancer", "NICE NG234"],
   domain: "emergencies",
-  tldr: "Cancer that has spread to the spine can press on the spinal cord. New back or neck pain that is severe, worse at night or on coughing, or any weakness, numbness, or trouble passing urine or stools, needs a same-day call to your cancer team. The hospital should do an MRI of the whole spine within 24 hours, give dexamethasone, and plan radiotherapy or surgery quickly, to keep you walking.",
-  simple: "If cancer is in your spine, it can squeeze the nerves. Back pain that keeps you awake, weak or numb legs, or trouble with your bladder or bowels is an emergency. Ring your cancer team at once.",
-  summary: "NICE NG234 (2023) sets out the UK pathway. Anyone with a past or current cancer who develops symptoms or signs of cord compression (bladder or bowel dysfunction, gait disturbance, limb weakness, sensory loss, radicular pain) is an oncological emergency: contact the MSCC coordinator immediately, a service that must be covered 24 hours a day. Pain suggesting spinal metastases alone (severe, progressive, mechanical, worse on straining, waking at night, localised tenderness) needs coordinator advice within 24 hours and an MRI within a week.\n\nSuspected MSCC: MRI as soon as possible and always within 24 hours, locally, with sagittal T1 and/or STIR of the whole spine; overnight MRI only if treatment would start immediately; CT if MRI is contraindicated; never a plain X-ray. Immobilise without delay if there are neurological signs or suspected instability, lying flat. Give dexamethasone 16 mg as soon as possible and daily until surgery or radiotherapy, then taper, with glucose monitoring and a proton pump inhibitor; stop it if MSCC is ruled out.\n\nTreatment is planned by the MSCC multidisciplinary team. Surgery to halt or reverse neurological decline as soon as possible after onset (Patchell 2005: 84% walking after surgery plus radiotherapy against 57% after radiotherapy alone). Otherwise urgent radiotherapy within 24 hours, 8 Gy in one fraction unless at high risk of side effects; NICE excludes people with complete paralysis for 2 weeks or more with controlled pain, or a poor prognosis. SCORAD III found single-fraction 8 Gy narrowly missed non-inferiority to 20 Gy in 5 fractions for walking at 8 weeks (69.3% against 72.7%). ASTRO 2024 recommends 8 Gy/1, 16 Gy/2, 20 Gy/5 or 30 Gy/10 for patients not having surgery, and conditionally recommends surgery with postoperative radiotherapy over radiotherapy alone.",
-  asOf: "2026-11-11",
+  tldr: "Cancer in the spine can press on the spinal cord. Tell your doctors straight away about back pain that is severe, getting worse or disturbs sleep. Get medical advice immediately for weakness, numbness, or bladder or bowel problems, even at a weekend. If nerves are affected, the hospital should do a whole-spine MRI within 24 hours, give dexamethasone, and plan radiotherapy or surgery quickly.",
+  simple: "If cancer is in your spine, it can squeeze the nerves. Tell your doctors straight away about back pain that disturbs your sleep. Weak legs or arms, numbness, or trouble with your bladder or bowels is an emergency: get medical advice immediately from your hospital team, even at a weekend. If you cannot reach anyone, go to the nearest A&E.",
+  summary: "NICE NG234 (2023) sets out the pathway. Anyone with a past or current cancer who develops symptoms or signs of cord compression (bladder or bowel dysfunction, gait disturbance, limb weakness, sensory loss, radicular pain) is an oncological emergency: contact the MSCC coordinator immediately, a role NICE says should be covered 24 hours a day, 7 days a week. Pain suggesting spinal metastases alone (severe, progressive, mechanical, worse on straining, waking at night, localised tenderness) needs coordinator advice within 24 hours and an MRI within a week.\n\nSuspected MSCC: MRI as soon as possible and always within 24 hours, locally, with sagittal T1 and/or STIR of the whole spine; overnight MRI only if treatment would start immediately; CT if MRI is contraindicated; never a plain X-ray. Immobilise without delay people with suspected or confirmed MSCC whose neurological symptoms or signs suggest spinal instability, nursed supine (flat or partly raised). For people with neurological symptoms or signs, give dexamethasone 16 mg as soon as possible and daily while awaiting surgery or radiotherapy, then reduce gradually, with glucose monitoring and a proton pump inhibitor; stop it if spinal metastases and MSCC are ruled out. Without neurological symptoms or signs, corticosteroids are not routine; NICE allows them to be considered for severe pain or a haematological cancer.\n\nBefore an invasive intervention, the plan is made with the relevant specialists in the MSCC multidisciplinary team. Surgery to halt or reverse neurological decline as soon as possible after onset (Patchell 2005: 84% walking after surgery plus radiotherapy against 57% after radiotherapy alone). For MSCC not suitable for surgery, urgent radiotherapy as soon as possible and within 24 hours, 8 Gy in one fraction unless at high risk of side effects; NICE excludes people with complete paralysis for 2 weeks or more with controlled pain, or a poor prognosis. SCORAD III found single-fraction 8 Gy narrowly missed non-inferiority to 20 Gy in 5 fractions for walking at 8 weeks (69.3% against 72.7%, in the half of participants assessed at that point). ASTRO 2024 recommends 8 Gy/1, 16 Gy/2, 20 Gy/5 or 30 Gy/10 for patients who are not eligible for surgery and are having conventional radiotherapy, and conditionally recommends surgery with postoperative radiotherapy over radiotherapy alone.",
+  asOf: "2026-11-17",
   setting: {
     who: ["patient-or-carer", "nurse", "doctor", "radiographer", "surgical-team", "multidisciplinary-team", "emergency-team"],
     where: ["home", "telephone-triage", "acute-oncology-service", "emergency-department", "ward", "radiotherapy-department", "theatre"],
   },
-  population: "Adults with a past, current or suspected cancer who develop back or neck pain suggesting spinal metastases or symptoms and signs of spinal cord or cauda equina compression. NICE NG234 applies also to direct malignant infiltration of the spine. People with haematological cancers (lymphoma, myeloma) have specific steroid advice. Children are not covered by NG234.",
+  population: "Adults with a past, current or suspected cancer who develop back pain suggesting spinal metastases or symptoms and signs of spinal cord or cauda equina compression. NICE NG234 is also relevant to direct malignant infiltration of the spine. People with haematological cancers (lymphoma, myeloma) have specific steroid advice. The scope of NG234 leaves out children and young people under 18, and cord compression from primary tumours of the spinal cord, meninges or nerve roots or from non-malignant causes.",
   trigger: "A person with cancer reports new or worsening back pain with the features in NICE's box 1, or any limb weakness, numbness, unsteadiness, or bladder or bowel change.",
   steps: [
     {
       action: "Make sure people with spinal metastases, and their families, know which symptoms to report and whom to contact",
-      why: "Most cord compression starts at home, and time to treatment decides whether someone keeps walking.",
+      why: "Spotting the problem early allows early treatment, before it gets worse.",
       source: "nice-ng234",
-      quote: "Ensure that people with suspected or confirmed spinal metastases or MSCC and their families and carers know who to contact if they develop new symptoms or signs (see box 1 ) or if their existing symptoms worsen.",
+      quote: "Ensure that people with suspected or confirmed spinal metastases or MSCC and their families and carers know who to contact if they develop new symptoms or signs (see box 1) or if their existing symptoms worsen.",
+    },
+    {
+      action: "Tell the patient and carer: if any symptom of MSCC develops, get medical advice immediately, even at a weekend or on a holiday, from the hospital team that gives the cancer treatment; if nobody can be reached, go to the nearest emergency department (A&E) straight away",
+      why: "Macmillan gives the warning signs as one or more of: bowel problems (incontinence, or constipation that is new or getting worse); problems passing urine (incontinence, or passing only small amounts or none); feeling unsteady (difficulty walking, leg weakness, legs giving way); arms and hands that do not work properly; numbness or pins and needles that is new or quickly getting worse; and new back or neck pain, which may feel like a band around the chest or tummy or spread down a leg or arm or into the lower back and buttocks. It says not to wait for further symptoms: the sooner MSCC is diagnosed, the sooner treatment can begin, and untreated it can cause permanent nerve damage. Macmillan also says to tell your doctors straight away about back pain that is severe, is getting worse, gets worse with movement or straining, disturbs sleep, causes tenderness, or causes muscle pain or cramps when walking or exercising. NICE's own time limits, in the next two steps, are for the professional who contacts the MSCC coordinator.",
+      source: "macmillan-mscc",
+      quote: "If you develop any symptoms of MSCC, you should get medical advice immediately. Even if it is the weekend or a holiday, contact the hospital team where you usually go for cancer treatment and follow-up appointments.",
     },
     {
       action: "If a person with cancer has symptoms or signs of cord compression, contact the MSCC coordinator immediately and treat it as an emergency",
-      why: "Weakness, numbness or bladder and bowel problems mean the cord is already under pressure.",
+      why: "Weakness, numbness or bladder and bowel problems in someone with cancer can mean the cord is being pressed on, and need immediate action.",
       source: "nice-ng234",
       quote: "Immediately contact the MSCC coordinator if a person with a past or current diagnosis of cancer presents with the symptoms or signs of cord compression listed in box 1. Treat this as an oncological emergency.",
     },
     {
       action: "If there is only pain suggesting spinal metastases, seek advice through the MSCC coordinator within 24 hours",
-      why: "Pain often comes before compression; finding the metastasis early allows treatment before nerves are damaged.",
+      why: "Finding a spinal metastasis early allows treatment to start before it gets worse.",
       source: "nice-ng234",
       quote: "Seek advice through the MSCC coordinator (within 24 hours) if a person with a past or current diagnosis of cancer presents with pain with the characteristics suggesting spinal metastases listed in box 1.",
     },
     {
-      action: "Immobilise without delay, including for transfer, anyone with suspected MSCC and neurological signs or signs of spinal instability, nursing them flat",
-      why: "An unstable spine can collapse further with movement.",
+      action: "Immobilise without delay, including for transfer to hospital, anyone with suspected or confirmed MSCC whose neurological symptoms or signs suggest spinal instability; nurse them supine, flat or partly raised",
+      why: "Taking the load off an unstable spine lowers the risk of damage to it.",
       source: "nice-ng234",
       quote: "Start immobilisation without delay (including for transfer to hospital) for people with: suspected or confirmed MSCC and neurological symptoms or signs suggesting spinal instability",
     },
     {
       action: "Give pain relief straight away, including while waiting for scans or treatment",
-      why: "Pain is usually severe and should not wait for the diagnosis.",
+      why: "Pain relief should not wait for the scan or the diagnosis.",
       source: "nice-ng234",
       quote: "Ensure pain relief is provided promptly for people with suspected or confirmed spinal metastases or MSCC, including while the person is waiting for investigations or treatment.",
     },
     {
-      action: "Give dexamethasone 16 mg by mouth (or the equivalent by injection) as soon as possible to people with neurological symptoms or signs, then 16 mg daily until surgery or radiotherapy",
-      why: "Dexamethasone reduces swelling around the cord while definitive treatment is arranged.",
+      action: "Give dexamethasone 16 mg by mouth (or the equivalent by injection) as soon as possible to people with neurological symptoms or signs of MSCC, then 16 mg daily while they await surgery or radiotherapy",
+      why: "A corticosteroid can reduce inflammation where the cord is pressed on, easing back pain and nerve symptoms while surgery or radiotherapy is arranged.",
       source: "nice-ng234",
       quote: "Offer 16 mg of oral dexamethasone (or equivalent parenteral dose) as soon as possible.",
     },
     {
-      action: "While on dexamethasone, monitor blood glucose and give a proton pump inhibitor; reduce it gradually after surgery or once radiotherapy starts, and stop it if MSCC is ruled out",
-      why: "High-dose steroids raise blood sugar and irritate the stomach, and are not needed once the cause is treated or excluded.",
+      action: "While on dexamethasone, monitor blood glucose and offer a proton pump inhibitor; reduce it gradually after surgery or once radiotherapy starts, and stop it if spinal metastases and MSCC are ruled out",
+      why: "Corticosteroids raise blood sugar and carry a risk of stomach ulcers, so they are stopped once other treatment is under way or the diagnosis is excluded.",
       source: "nice-ng234",
       quote: "If dexamethasone is given before imaging, and spinal metastases and MSCC are subsequently ruled out, discontinue it.",
     },
     {
-      action: "Arrange an MRI as soon as possible and always within 24 hours, at the local hospital where possible",
-      why: "MRI shows where and how badly the cord is compressed, which decides surgery or radiotherapy.",
+      action: "For suspected MSCC, arrange an MRI as soon as possible and always within 24 hours, at the local hospital or an appropriate centre; transfer to a tertiary centre only if local MRI is not possible",
+      why: "MRI shows the level and degree of compression, and prompt scanning was linked to better outcomes in the evidence NICE reviewed.",
       source: "nice-ng234",
-      quote: "Offer an MRI scan to people with suspected MSCC (see recommendation 1.3.2 ), to be done: as soon as possible (and always within 24 hours) at the local hospital or appropriate centre with direct access to imaging facilities.",
+      quote: "Offer an MRI scan to people with suspected MSCC (see recommendation 1.3.2), to be done: as soon as possible (and always within 24 hours) at the local hospital or appropriate centre with direct access to imaging facilities.",
     },
     {
       action: "Scan the whole spine, with sagittal T1 and/or STIR, sagittal T2 and axial images through any abnormality",
-      why: "Metastases are often at more than one level.",
+      why: "The whole-spine images find the metastases; the T2 and axial images show the level and degree of compression.",
       source: "nice-ng234",
       quote: "MRI of the spine should include: sagittal T1 and/or short TI inversion recovery (STIR) sequences of the whole spine, to identify spinal metastases",
     },
     {
-      action: "Do overnight MRI only when treatment would start immediately; use CT if MRI is contraindicated, and never a plain X-ray",
-      why: "Plain X-rays miss most spinal metastases and cord compression.",
+      action: "Do overnight MRI only when an urgent diagnosis is needed so that treatment can start immediately; use CT if MRI is contraindicated, and never a plain X-ray",
+      why: "In the evidence NICE reviewed, plain X-rays with a neurological examination were very poor at detecting cord compression.",
       source: "nice-ng234",
       quote: "Do not do a plain X-ray of the spine to diagnose or rule out spinal metastases or MSCC.",
     },
     {
-      action: "Plan treatment in the MSCC multidisciplinary team, including an oncologist and a spinal surgeon",
-      why: "The choice between surgery and radiotherapy depends on stability, neurology, the cancer and prognosis.",
+      action: "Before offering an invasive intervention, make the treatment plan with the appropriate specialists in the MSCC multidisciplinary team, such as an oncologist and a spinal surgeon",
+      why: "Whether surgery will help depends on fitness for an operation, prognosis and the type and stage of the cancer.",
       source: "nice-ng234",
       quote: "Before an invasive intervention is offered, make a treatment plan in discussion with the appropriate specialists (such as an oncologist and spinal surgeon) within the MSCC service multidisciplinary team.",
     },
     {
       action: "Offer surgery intended to halt or reverse neurological decline as soon as possible after neurological symptoms start, where suitable",
-      why: "In a randomised trial, more people walked after surgery followed by radiotherapy than after radiotherapy alone.",
+      why: "Timing matters to prevent neurological decline. In a randomised trial (Patchell 2005), more people walked after surgery followed by radiotherapy than after radiotherapy alone.",
       source: "nice-ng234",
       quote: "Offer surgical intervention intended to halt or reverse neurological decline as soon as possible after the onset of neurological symptoms or signs indicating MSCC.",
     },
     {
-      action: "If surgery is not suitable, give urgent radiotherapy within 24 hours, usually 8 Gy in a single fraction",
-      why: "Radiotherapy shrinks the tumour pressing on the cord; a single dose means one visit.",
+      action: "If MSCC is not suitable for surgery, offer urgent radiotherapy as soon as possible and within 24 hours, as 8 Gy in a single fraction unless the person is at high risk of side effects",
+      why: "Radiotherapy is likely to prevent further nerve damage, and a single dose avoids repeated hospital visits.",
       source: "nice-ng234",
       quote: "Use 8 Gy single fraction radiotherapy for people with MSCC having radiotherapy unless they are at high risk of side effects.",
     },
     {
       action: "After surgery, give postoperative radiotherapy once the person has recovered",
-      why: "Radiotherapy after surgery treats the tumour left behind.",
+      why: "Surgery with radiotherapy did better than radiotherapy alone for nerve function; waiting for recovery lowers the risk of wound breakdown and infection.",
       source: "nice-ng234",
       quote: "Offer postoperative radiotherapy after the person has recovered from surgery for spinal metastases or MSCC.",
     },
     {
       action: "Test spinal stability with graded sitting and then weight bearing, watching neurology and pain throughout",
-      why: "Getting up safely and early prevents the harms of bed rest; a rise in pain or new weakness means stop and reassess.",
+      why: "Prolonged bed rest carries its own complications; a significant rise in pain or nerve symptoms means return to the earlier position and reassess stability.",
       source: "nice-ng234",
       quote: "If assessment, including imaging, suggests spinal stability is likely (before or after treatment), start testing this by graded sitting followed by weight bearing.",
     },
     {
       action: "Plan discharge and rehabilitation from admission",
-      why: "Many people need equipment, carers' training and community support to go home.",
+      why: "Rehabilitation works best when it is planned at the earliest opportunity, with equipment, carer training and community support arranged before going home.",
       source: "nice-ng234",
       quote: "Start planning for discharge and ongoing care, including rehabilitation, on admission to hospital.",
     },
   ],
   bestInClass: {
-    statement: "NICE NG234 (2023) is the most recent full guideline that could be read: immediate MSCC coordinator contact for neurological signs, MRI of the whole spine within 24 hours, dexamethasone 16 mg as soon as possible, immobilisation for suspected instability, surgery as soon as possible after neurological onset where suitable, and otherwise radiotherapy within 24 hours as 8 Gy in one fraction. ASTRO 2024 agrees on dexamethasone for cord compression and conditionally recommends surgery with postoperative radiotherapy over radiotherapy alone, but accepts four schedules (8 Gy/1, 16 Gy/2, 20 Gy/5, 30 Gy/10) for those not having surgery, where NICE prefers the single fraction. The trial evidence behind the choice: SCORAD III found 8 Gy in one fraction did not formally meet non-inferiority against 20 Gy in 5 fractions for walking at 8 weeks (69.3% against 72.7%; lower confidence bound -11.5% against a -11% margin), and Patchell 2005 found surgery plus radiotherapy kept more people walking than radiotherapy alone (84% against 57%).",
+    statement: "NICE NG234 (2023) is the most recent full guideline that could be read: immediate MSCC coordinator contact for neurological signs, MRI of the whole spine within 24 hours, dexamethasone 16 mg as soon as possible for people with neurological symptoms or signs, immobilisation when those symptoms or signs suggest instability, surgery as soon as possible after neurological onset where suitable, and otherwise radiotherapy within 24 hours as 8 Gy in one fraction unless the person is at high risk of side effects. ASTRO 2024 agrees on dexamethasone for cord compression and conditionally recommends surgery with postoperative radiotherapy over radiotherapy alone, but accepts four schedules (8 Gy/1, 16 Gy/2, 20 Gy/5, 30 Gy/10) for those not eligible for surgery, where NICE prefers the single fraction. The trial evidence behind the choice: SCORAD III found 8 Gy in one fraction did not formally meet non-inferiority against 20 Gy in 5 fractions for walking at 8 weeks (69.3% against 72.7%; lower confidence bound -11.5% against a -11% margin), and Patchell 2005 found surgery plus radiotherapy kept more people walking than radiotherapy alone (84% against 57%).",
     sources: ["nice-ng234", "astro-2024", "scorad-2019", "patchell-2005"],
   },
   variants: [
@@ -145,8 +168,8 @@ export const metastaticSpinalCordCompression = protocol({
     },
     {
       name: "Single fraction against five fractions (SCORAD III trial)",
-      differs: "Randomised 686 people in UK and Australian centres to 8 Gy once or 20 Gy in 5 daily fractions. Walking at 8 weeks was 69.3% against 72.7%, narrowly missing the non-inferiority criterion; at 1, 4 and 12 weeks single fraction met it, and survival at 12 weeks was similar.",
-      evidence: "Randomised controlled trial (abstract read).",
+      differs: "Randomised 686 people in UK and Australian centres to 8 Gy once or 20 Gy in 5 daily fractions. Walking at 8 weeks was 69.3% against 72.7%, narrowly missing the non-inferiority criterion; only 342 of the 686 were assessed at 8 weeks, 255 having died before then. At 1, 4 and 12 weeks single fraction met the criterion, and survival at 12 weeks was 50% against 55%.",
+      evidence: "Randomised non-inferiority trial (abstract and the full text on PubMed Central read).",
       sources: ["scorad-2019"],
     },
   ],
@@ -158,17 +181,22 @@ export const metastaticSpinalCordCompression = protocol({
     { claim: "Dexamethasone for spine metastases with cord or cauda equina compression", grade: "recommended (strength not stated in abstract)", source: "astro-2024", quote: "Furthermore, dexamethasone is recommended for spine metastases with spinal cord or cauda equina compression." },
   ],
   sources: [
-    { key: "nice-ng234", label: "Spinal metastases and metastatic spinal cord compression (NG234), recommendations", publisher: "NICE", year: 2023, url: "https://www.nice.org.uk/guidance/ng234/chapter/Recommendations", gradingScheme: "NICE does not grade recommendations; strength is in the wording ('offer', 'consider', 'do not'). Each is dated [2023] or [2008]. Published September 2023, replacing CG75; minor changes August 2024 and March 2026.", read: "full-text", accessed: "2026-11-11" },
-    { key: "astro-2024", label: "External Beam Radiation Therapy for Palliation of Symptomatic Bone Metastases: An ASTRO Clinical Practice Guideline", publisher: "ASTRO, Practical Radiation Oncology", year: 2024, url: "https://europepmc.org/abstract/MED/38788923", doi: "10.1016/j.prro.2024.04.018", gradingScheme: "ASTRO consensus methodology with evidence quality and recommendation strength (strong or conditional); grades per recommendation were not read, only the abstract.", read: "abstract", accessed: "2026-11-11" },
-    { key: "scorad-2019", label: "Effect of Single-Fraction vs Multifraction Radiotherapy on Ambulatory Status Among Patients With Spinal Canal Compression From Metastatic Cancer: The SCORAD Randomized Clinical Trial", publisher: "JAMA", year: 2019, url: "https://europepmc.org/abstract/MED/31794625", doi: "10.1001/jama.2019.17913", read: "abstract", accessed: "2026-11-11" },
-    { key: "patchell-2005", label: "Direct decompressive surgical resection in the treatment of spinal cord compression caused by metastatic cancer: a randomised trial", publisher: "The Lancet", year: 2005, url: "https://europepmc.org/abstract/MED/16112300", doi: "10.1016/S0140-6736(05)66954-1", read: "abstract", accessed: "2026-11-11" },
+    { key: "nice-ng234", label: "Spinal metastases and metastatic spinal cord compression (NG234), recommendations", publisher: "NICE", year: 2023, url: "https://www.nice.org.uk/guidance/ng234/chapter/Recommendations", gradingScheme: "NICE does not grade recommendations; strength is in the wording ('offer', 'consider', 'do not'). Each is dated [2023] or [2008]. Published September 2023, replacing CG75; minor changes August 2024 and March 2026; the overview page gives it as last reviewed on 19 March 2026.", read: "full-text", accessed: "2026-11-17" },
+    { key: "macmillan-mscc", label: "Metastatic spinal cord compression (MSCC) (patient information; reviewed 1 September 2024)", publisher: "Macmillan Cancer Support", year: 2024, url: "https://www.macmillan.org.uk/cancer-information-and-support/impacts-of-cancer/metastatic-spinal-cord-compression", gradingScheme: "Patient information, not graded.", read: "full-text", accessed: "2026-11-17" },
+    { key: "nice-ng234-scope", label: "Metastatic spinal cord compression in adults (update): guideline scope, final", publisher: "NICE", year: 2023, url: "https://www.nice.org.uk/guidance/ng234/documents/final-scope", read: "full-text", accessed: "2026-11-16" },
+    { key: "astro-2024", label: "External Beam Radiation Therapy for Palliation of Symptomatic Bone Metastases: An ASTRO Clinical Practice Guideline", publisher: "ASTRO, Practical Radiation Oncology", year: 2024, url: "https://europepmc.org/abstract/MED/38788923", doi: "10.1016/j.prro.2024.04.018", gradingScheme: "ASTRO consensus methodology with evidence quality and recommendation strength (strong or conditional); grades per recommendation were not read, only the abstract.", read: "abstract", accessed: "2026-11-16" },
+    { key: "scorad-2019", label: "Effect of Single-Fraction vs Multifraction Radiotherapy on Ambulatory Status Among Patients With Spinal Canal Compression From Metastatic Cancer: The SCORAD Randomized Clinical Trial", publisher: "JAMA", year: 2019, url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6902166/", doi: "10.1001/jama.2019.17913", read: "full-text", accessed: "2026-11-16" },
+    { key: "patchell-2005", label: "Direct decompressive surgical resection in the treatment of spinal cord compression caused by metastatic cancer: a randomised trial", publisher: "The Lancet", year: 2005, url: "https://europepmc.org/abstract/MED/16112300", doi: "10.1016/S0140-6736(05)66954-1", read: "abstract", accessed: "2026-11-16" },
   ],
   upgrades: [],
   gaps: [
     "NICE's bisphosphonate recommendations for spinal metastases were last reviewed in 2008, and NICE says it will review them later; they are not used as steps here.",
-    "The ASTRO 2024 guideline was read only as its abstract, so the evidence quality and strength printed beside each schedule are not quoted.",
+    "The ASTRO 2024 guideline was read only as its abstract, so the evidence quality and strength printed beside each schedule are not quoted. On 16 November 2026 the publisher's page answered a script with a bot check, so the full text is still unread here.",
+    "The Patchell 2005 trial was read as its abstract only; in it both groups had radiotherapy as ten fractions of 3 Gy.",
+    "NICE's list of warning pains (box 1) names back pain and does not mention neck pain separately. Macmillan's list of warning signs for patients does include new back or neck pain, and the patient step on this page gives it as Macmillan does.",
+    "NICE's time limits (immediately for symptoms or signs of cord compression, within 24 hours for pain alone) are written for the professional contacting the MSCC coordinator. For patients, NICE says only to ensure that people and their families and carers know who to contact, and that people with cancer and low back pain but no evidence of spinal metastases should be told to contact their healthcare professional urgently if their symptoms change or worsen. The patient wording here is Macmillan's, read on 17 November 2026; it gives no time limit in hours.",
     "The ESMO guideline on bone health in cancer was not looked at for this page; a European position on MSCC is therefore missing.",
-    "NICE gives no evidence grade for the 16 mg dexamethasone dose; trials comparing lower doses were not read here.",
+    "NICE gives no evidence grade for the 16 mg dexamethasone dose, and its committee called the evidence for corticosteroids limited, from 3 small studies; trials comparing lower doses were not read here.",
     "The best timing of surgery after complete paraplegia is unsettled; NICE says not to use a time limit as the only factor.",
   ],
   drugs: ["dexamethasone"],

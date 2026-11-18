@@ -16,7 +16,8 @@ const NHIF_EXP = "https://www.nhif.bg/bg/administrative-services/expensive-drugs
 const BDA_HIST = "https://www.bda.bg/bg/за-иал/история";
 const NCPR = "https://www.ncpr.bg/bg/";
 const EMA_CENTRAL = "https://www.ema.europa.eu/en/about-us/what-we-do/authorisation-medicines";
-const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'BGR'%20and%20startswith(ANTIGEN,'PRHPV')";
+const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'BGR'%20and%20contains(ANTIGEN,'HPV')";
+const DIRAC = "https://dirac.iaea.org/";
 const WHO_GHED_API = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'BGR'";
 const CTGOV = "https://clinicaltrials.gov/search?country=Bulgaria&cond=cancer";
 
@@ -28,7 +29,7 @@ export const BG_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Bulgaria",
   description:
-    "Cancer in Bulgaria: IARC's estimate of 31,876 new cancers and 19,354 deaths in 2024, built on the national registry at the Sofia oncology hospital, whose roots go back to 1952; a public insurer that pays for hospital cancer medicines outside the price of a clinical pathway; a reimbursement council and a positive drug list; EU approval of new medicines; out-of-pocket payments at about a third of health spending; and HPV vaccination that reached 14% of girls in 2025.",
+    "Cancer in Bulgaria: IARC's estimate of 31,876 new cancers and 19,354 deaths in 2024, built on the national registry at the Sofia oncology hospital, whose roots go back to 1952; a public insurer that reports the hospital medicines it pays for outside the price of a clinical pathway and lists the anti-tumour medicines; a reimbursement council and a positive drug list; EU approval of new medicines; out-of-pocket payments at about a third of health spending; and HPV vaccination that WHO estimates reached 14% of girls in the target group in 2025, against the 6% Bulgaria itself reported.",
   lede:
     "Bulgaria's National Cancer Registry grew from a section of the Sofia cancer institute opened in 1952. IARC estimates 31,876 new cancers and 19,354 cancer deaths in 2024, about six deaths for every ten new cases, with men's cancer death rate well above women's. Patients pay about a third of the country's health spending themselves.",
   globocanNote:
@@ -78,7 +79,7 @@ export const BG_DIVE: CountryDive = {
     {
       id: "registry",
       nav: "Registry",
-      title: "A national registry since 1952",
+      title: "A national registry with roots in 1952",
       cards: [
         {
           id: "registry-history",
@@ -101,11 +102,11 @@ export const BG_DIVE: CountryDive = {
       cards: [
         {
           id: "nhif",
-          title: "One public insurer, paying for hospital cancer medicines separately",
+          title: "The public insurer, reporting hospital medicines paid outside pathway prices",
           plain:
-            "Bulgaria's National Health Insurance Fund pays hospitals for treatment and pays separately for medicines used in hospital care, including cancer medicines, outside the price of each clinical pathway. Expensive medicines are granted after an expert assessment under the Health Insurance Act.",
+            "Bulgaria's National Health Insurance Fund publishes reports of the medicines for hospitals that it pays for outside the price of clinical pathways and outpatient procedures, and a list of the anti-tumour medicines for the cancer pathways. Expensive medicines are granted after an expert assessment under the Health Insurance Act.",
           detail:
-            "The Fund's pages publish the lists of medicines it pays for, including medicines used in hospital care, and reports of hospital medicines paid outside the value of clinical pathways and outpatient procedures, by region, hospital, diagnosis code and ATC code. It publishes a list of medicines for oncological and onco-haematological diseases for which a remainder is allowed. Expensive medicines are granted after expert assessment under Article 78, point 2, of the Health Insurance Act, and medicines for home treatment are tracked through electronic protocols. WHO's Global Health Expenditure Database puts out-of-pocket spending at 35.5% of Bulgaria's current health expenditure in 2023 (against 14.1% for Finland and 11.3% for Ireland in the same database).",
+            "The Fund's page on medicines used in hospital care links reports on medicines for hospitals paid outside the value of clinical pathways and outpatient procedures, by regional office, hospital, diagnosis code and ATC code. Under the heading of medicines by clinical pathway and outpatient procedure it publishes a list of anti-tumour medicines, and a list of medicines for oncological and onco-haematological diseases for which a remainder is allowed. The pages read do not themselves say which cancer medicines are paid outside the pathway price, or that the Fund is the only public insurer. A second page says expert assessments for granting expensive medicines are made under Article 78, point 2, of the Health Insurance Act, and points to the Fund's requirements for each disease. WHO's Global Health Expenditure Database puts out-of-pocket spending at 35.5% of Bulgaria's current health expenditure in 2023 (against 14.1% for Finland and 11.3% for Ireland in the same database).",
           links: [
             { label: "NHIF: medicinal products used in hospital care (in Bulgarian)", url: NHIF_HOSP },
             { label: "NHIF: expert assessments for expensive medicines (in Bulgarian)", url: NHIF_EXP },
@@ -121,11 +122,11 @@ export const BG_DIVE: CountryDive = {
       cards: [
         {
           id: "ncpr",
-          title: "A national council decides prices and the Positive Drug List",
+          title: "A national council for medicine prices and the Positive Drug List",
           plain:
-            "The National Council on Prices and Reimbursement decides which medicines are included in the Positive Drug List and keeps their reimbursement status under review, and publishes summaries of the health technology assessments behind its decisions.",
+            "The National Council on Prices and Reimbursement of Medicinal Products publishes the Positive Drug List's annexes, registers of ceiling and maximum prices, the decisions issued on keeping medicines' reimbursement status, and summaries of the health technology assessment reports behind positive and negative decisions on inclusion in the list.",
           detail:
-            "The Council's home page lists its administrative procedures, the rules for appealing its acts, decisions on keeping medicines' reimbursement status, health technology assessment summaries behind decisions on inclusion in the Positive Drug List, including for listed medicines proposed by the Ministry of Health, the insurance fund or the marketing-authorisation holder, a schedule of official reviews, and an archive of assessment summaries held at the National Centre of Public Health and Analyses. It lists its participation in the Heads of HTA Agencies group. OnCo did not read the Council's rules on the evidence or thresholds it applies, or how long its decisions take; see the gaps.",
+            "The Council's home page is a menu and news page; it does not describe the Council's powers in prose. It lists its administrative procedures, the rules for appealing its acts, decisions on keeping medicines' reimbursement status, health technology assessment summaries behind decisions on inclusion in the Positive Drug List, including for listed medicines proposed by the Ministry of Health, the insurance fund or the marketing-authorisation holder, a schedule of official reviews, and an archive of assessment summaries held at the National Centre of Public Health and Analyses. It has a section on the Heads of HTA Agencies group. OnCo did not read the Council's rules on the evidence or thresholds it applies, or how long its decisions take; see the gaps.",
           links: [{ label: "National Council on Prices and Reimbursement: home page (in Bulgarian)", url: NCPR }],
         },
       ],
@@ -156,11 +157,11 @@ export const BG_DIVE: CountryDive = {
       cards: [
         {
           id: "hpv",
-          title: "HPV vaccination reaches few girls: 14% in 2025",
+          title: "HPV vaccination reaches few girls: WHO estimates 14% in 2025, and Bulgaria reported 6%",
           plain:
-            "WHO and UNICEF's figures put HPV vaccination coverage in Bulgaria at 14% of girls for the first dose in 2025, and 9% for the last dose. Coverage fell to 2% in 2021 and has risen since. 2025 is the first year with a figure for boys, 3%.",
+            "WHO's own estimate puts HPV vaccination coverage in Bulgaria at 14% of girls in the target group for the first dose in 2025, and 9% for the last dose. The figure Bulgaria reported for the same year is lower, 5.9% for the first dose, because it divides the same doses by a larger group of girls. WHO's estimate fell to 2% in 2021 and has risen since. 2025 is the first year with a figure for boys, 3%.",
           detail:
-            "WHO's immunisation data give first-dose programme coverage in girls of 7% in 2019, 4% in 2020, 2% in 2021, 4% in 2022, 6% in 2023, 11% in 2024 and 14% in 2025; last-dose coverage was 9% in 2024 and 2025. The first row for boys, for 2025, is 3% for the first dose and 0% for the last. IARC estimates 844 cervical cancers and 451 cervical cancer deaths in Bulgaria in 2024. OnCo did not find a primary source describing an organised national screening programme for breast, cervical or colorectal cancer; see the gaps.",
+            "WHO's immunisation data hold two kinds of row for Bulgaria, read on 17 November 2026. The rows in the category WHO calls HPV Estimates give first-dose programme coverage in girls of 24% in 2013, 7% in 2019, 4% in 2020, 2% in 2021, 4% in 2022, 6% in 2023, 11% in 2024 and 14% in 2025; last-dose coverage was 9% in 2024 and 2025. The rows for coverage the country reported (administrative and official) are filled for fewer years: first dose in girls 5.29% in 2024 and 5.88% in 2025, last dose 2.7% in 2024 and, for 2025, 3.72% administrative and 3.17% official. For 2025 both kinds of row count 8,885 first doses in girls; WHO's estimate divides them by a target of 63,178 and the administrative row by 151,012. For boys the rows exist from 2010 but are blank until 2025: WHO's estimate is 3% for the first dose and 0% for the last (26 last doses), and the reported administrative figures are 3.1% and 0.02%. The rows name WHO alone as their source. IARC estimates 844 cervical cancers and 451 cervical cancer deaths in Bulgaria in 2024. OnCo did not find a primary source describing an organised national screening programme for breast, cervical or colorectal cancer; see the gaps.",
           links: [
             { label: "WHO immunisation data: HPV programme coverage, Bulgaria (API)", url: WHO_HPV_API },
             { label: "IARC: GLOBOCAN 2024 fact sheet, Bulgaria (PDF)", url: IARC_FACTSHEET },
@@ -177,9 +178,9 @@ export const BG_DIVE: CountryDive = {
           id: "trial-sites",
           title: "Many international cancer trials for a country of under seven million",
           plain:
-            "166 of the cancer trials in OnCo's records list a site in Bulgaria, counted from ClinicalTrials.gov participation data on 11 November 2026. That is about 70% of the number for Norway or Ireland and 78% of Finland's, while Bulgaria publishes about a quarter as many oncology papers as Norway.",
+            "166 of the cancer trials in OnCo's records list a site in Bulgaria, counted from ClinicalTrials.gov participation data on 17 November 2026. That is about 70% of the number for Norway or Ireland and 78% of Finland's, while Bulgaria publishes about a quarter as many oncology papers as Norway.",
           detail:
-            "OnCo's graph holds ClinicalTrials.gov participation snapshots for its trials: 166 list Bulgaria, against 238 for Norway, 213 for Finland and 242 for Ireland. OpenAlex counts 655 oncology works with an author in Bulgaria in 2021 to 2025, against 2,637 for Norway. OnCo did not find a primary source on why sponsors place trials in Bulgaria, and makes no claim about it.",
+            "OnCo's graph holds ClinicalTrials.gov participation snapshots for its trials: 166 trial records list Bulgaria, against 237 for Norway, 212 for Finland and 241 for Ireland, recounted on 17 November 2026. These count OnCo's records; one registration sits on two records in Norway's count, so the Norway page gives 236 separate registered trials. In the counts OnCo took from OpenAlex on 8 September 2026 there are 655 oncology works with an author in Bulgaria in 2021 to 2025, against 2,637 for Norway. OnCo did not find a primary source on why sponsors place trials in Bulgaria, and makes no claim about it.",
           links: [{ label: "ClinicalTrials.gov: cancer studies with a site in Bulgaria (search)", url: CTGOV }],
         },
       ],
@@ -193,9 +194,9 @@ export const BG_DIVE: CountryDive = {
           id: "trial-count",
           title: "Research output and trials",
           plain:
-            "OpenAlex counts 158 oncology papers with at least one author based in Bulgaria in 2025, up from 117 in 2021. The trials with a Bulgarian site listed below are a selection from the 166 in OnCo's records.",
+            "OpenAlex counted 158 oncology papers with at least one author based in Bulgaria in 2025, up from 117 in 2021, when OnCo took its figures on 8 September 2026. The trials with a Bulgarian site listed below are a selection from the 166 in OnCo's records.",
           detail:
-            "OpenAlex, counting works whose primary topic is oncology and a paper for every country among its authors' affiliations, gives Bulgaria 117 works in 2021, 105 in 2022, 128 in 2023, 147 in 2024 and 158 in 2025, 655 in total, of which 549 are open access and 10 highly cited. The Bulgarian Joint Cancer Network and the Heart and Brain Hospital in Pleven are members of the Organisation of European Cancer Institutes, according to their records in OnCo. The trial counts reflect the trials OnCo holds, not every study in Bulgaria.",
+            "OpenAlex, counting works whose primary topic is oncology and a paper for every country among its authors' affiliations, gives Bulgaria 117 works in 2021, 105 in 2022, 128 in 2023, 147 in 2024 and 158 in 2025, 655 in total, of which 549 are open access and 10 highly cited. OnCo's records list the Heart and Brain Hospital in Pleven as a full member and the Bulgarian Joint Cancer Network as an associate member of the Organisation of European Cancer Institutes; the organisation's membership page loads its list by script and the names could not be re-read in its raw text on 17 November 2026. The trial counts reflect the trials OnCo holds, not every study in Bulgaria.",
           links: [{ label: "ClinicalTrials.gov: cancer studies with a site in Bulgaria (search)", url: CTGOV }],
         },
       ],
@@ -213,12 +214,15 @@ export const BG_DIVE: CountryDive = {
     },
     {
       id: "unread-sources",
-      title: "Screening, the cancer plan and waiting times",
+      title: "Screening, the cancer plan, waiting times and radiotherapy",
       plain:
-        "Whether Bulgaria runs organised screening for breast, cervical or bowel cancer, the state of a national cancer plan, radiotherapy capacity and waiting times are not on this page, because OnCo did not read them from a primary source.",
+        "Whether Bulgaria runs organised screening for breast, cervical or bowel cancer, the state of a national cancer plan and waiting times are not on this page, because OnCo did not read them from a primary source. For radiotherapy, the IAEA's DIRAC directory lists 26 centres in Bulgaria with 47 linear accelerators and 5 cobalt-60 units.",
       detail:
-        "The Ministry of Health's pages were not read. The National Council on Prices and Reimbursement's methods and decision times, and the insurance fund's disease-by-disease requirements for expensive medicines, were not read. The IAEA's DIRAC radiotherapy database was not read.",
-      links: [{ label: "National Council on Prices and Reimbursement (in Bulgarian)", url: NCPR }],
+        "The Ministry of Health's pages were not read. The National Council on Prices and Reimbursement's methods and decision times, and the insurance fund's disease-by-disease requirements for expensive medicines, were not read. The IAEA's DIRAC directory of radiotherapy centres, read on 17 November 2026 from its public data feed, has 26 rows for Bulgaria: 6 centres in Sofia, 4 in Plovdiv, 3 in Stara Zagora, 2 each in Burgas, Pleven and Varna, and one each in Blagoevgrad, Haskovo, Panagyurishte, Ruse, Shumen, Veliko Tarnovo and Vratsa. Summed over those rows there are 47 linear accelerators, 5 cobalt-60 units and one gamma knife (in Pleven), and 8 centres are marked as offering brachytherapy. The Sofia oncology hospital's row has 4 linear accelerators and one cobalt-60 unit. Entries are reported by the centres themselves and carry years from 2019 to 2026, 17 of them 2024 or later, so the totals are not a census taken on one date. DIRAC lists machines, not waiting times or how many patients are treated.",
+      links: [
+        { label: "National Council on Prices and Reimbursement (in Bulgarian)", url: NCPR },
+        { label: "IAEA: DIRAC, Directory of Radiotherapy Centres", url: DIRAC },
+      ],
     },
   ],
   institutions: ["usbalo-sofia", "nhif-bulgaria", "ncpr-bulgaria", "bda-bulgaria", "bjcn", "heart-and-brain-pleven", "ema", "iarc"],
@@ -228,7 +232,7 @@ export const BG_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from Bulgarian official sources read in Bulgarian rather than through a summary: the Sofia oncology hospital's history pages; the National Health Insurance Fund's pages on medicines; the Bulgarian Drug Agency's history; the National Council on Prices and Reimbursement's home page; the European Medicines Agency's page on the centralised procedure; WHO's HPV coverage and health expenditure rows from its public data APIs; and IARC's GLOBOCAN 2024 fact sheet. Trials were counted from OnCo's ClinicalTrials.gov participation data, and research output from OpenAlex. The new records added for this page (the hospital and registry, the insurance fund, the drug agency and the reimbursement council) carry their own sources.",
+    "Every card was written from Bulgarian official sources read in Bulgarian rather than through a summary: the Sofia oncology hospital's history pages; the National Health Insurance Fund's pages on medicines; the Bulgarian Drug Agency's history; the National Council on Prices and Reimbursement's home page; the European Medicines Agency's page on the centralised procedure; WHO's HPV coverage and health expenditure rows from its public data APIs; the IAEA's DIRAC feed; and IARC's GLOBOCAN 2024 fact sheet. A second claim-by-claim pass re-read every source on 17 November 2026. Trials were counted from OnCo's ClinicalTrials.gov participation data, and research output from OpenAlex. The new records added for this page (the hospital and registry, the insurance fund, the drug agency and the reimbursement council) carry their own sources.",
   verify:
     "Which medicines the insurance fund pays for depends on the Positive Drug List and the fund's requirements for each disease, which change. Ask the treating oncology centre or the regional health insurance office what applies to you.",
   verifyLinks: [

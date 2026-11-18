@@ -11,11 +11,15 @@ import type { CountryDive } from "@/data/country-dive";
  * and November 2026, the African Cancer Registry Network's page for the Bamako registry, the NIH ClinRegs profile for
  * Mali, and the papers' abstracts through Europe PMC. Mali is a fragile, conflict-affected setting; this page states
  * only what those sources say. Where a figure could not be read it is named under `gaps`.
+ *
+ * Second accuracy pass, 16 November 2026: every claim re-read against the raw text of its source. The fact sheet names
+ * no registry, so the page no longer says IARC's estimates are built on Bamako's; WHO's HPV rows are read with the
+ * broad antigen filter; the IAEA directory entry is the copy of its public feed fetched on 16 November 2026.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/466-mali-fact-sheet.pdf";
 const WHO_CCP = "https://cdn.who.int/media/docs/default-source/country-profiles/cancer/mli-2020.pdf";
 const WHO_OOP_API = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'MLI'";
-const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'MLI'%20and%20startswith(ANTIGEN,'PRHPV')";
+const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'MLI'%20and%20contains(ANTIGEN,'HPV')";
 const WHO_ML = "https://www.who.int/publications/m/item/list-of-nras-operating-at-ml3-and-ml4";
 const AU_AMA = "https://au.int/sites/default/files/treaties/36892-sl-TREATY_FOR_THE_ESTABLISHMENT_OF_THE_AFRICAN_MEDICINES_AGENCY.pdf";
 const DIRAC = "https://dirac.iaea.org/Data/CountriesLight";
@@ -39,11 +43,11 @@ export const ML_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Mali",
   description:
-    "Cancer in Mali from Malian, WHO and peer-reviewed sources: IARC's estimate of 13,942 new cancers and 9,026 deaths in 2024, a Bamako registry running since 1986, universal health insurance created in 2018, state-funded free chemotherapy, one radiotherapy centre, free weekend cervical screening, and HPV vaccination from 2024.",
+    "Cancer in Mali from Malian, WHO and peer-reviewed sources: IARC's estimate of 13,942 new cancers and 9,026 deaths in 2024, a Bamako registry created in 1986, universal health insurance created in 2018, state-funded free chemotherapy, one radiotherapy centre in IAEA's directory, free weekend cervical screening, and HPV vaccination in the routine programme from 2024.",
   lede:
-    "Breast and cervical cancer are Mali's commonest cancers, and in hospital studies in Bamako most women with them are diagnosed late. Mali's cancer figures rest on a registry that has counted cancers in Bamako since 1986. The state funds anticancer medicines so that chemotherapy can be free, and a universal health insurance scheme is being built, but radiotherapy is available in one hospital in the capital.",
+    "Breast and cervical cancer are Mali's commonest cancers, and in hospital studies in Bamako most women with them are diagnosed late. Bamako has had a population-based cancer registry since 1986, and IARC builds Mali's estimates on subnational registry rates. The state funds anticancer medicines so that chemotherapy can be free, and a universal health insurance scheme is being built, but IAEA's directory lists radiotherapy in one hospital in the capital.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Mali is 13,942 new cancers and 9,026 deaths, an age-standardised incidence of 116.5 per 100,000 (90.2 in men, 143.8 in women) and mortality of 80.2. Women have almost twice as many new cancers as men (8,974 against 4,968). The fact sheet gives Mali's incidence source as a subnational registry, with its rates applied to the 2024 population; the registry on the African Cancer Registry Network's list for Mali is Bamako's. Mortality has no national source: it is estimated from incidence using mortality-to-incidence ratios modelled on registry survival data. WHO's 2020 profile gave Mali's mortality registration as having no coverage. IARC counts 256 non-melanoma skin cancers among the 13,942 (13,686 excluding them).",
+    "IARC's GLOBOCAN 2024 figure for Mali is 13,942 new cancers and 9,026 deaths, an age-standardised incidence of 116.5 per 100,000 (90.2 in men, 143.8 in women) and mortality of 80.2. Women have almost twice as many new cancers as men (8,974 against 4,968). The fact sheet gives Mali's incidence source as a subnational registry, with its rates applied to the 2024 population. It does not name the registry; the one on the African Cancer Registry Network's list for Mali is Bamako's. For mortality the fact sheet gives SURVCAN as the country-specific source: deaths are estimated from the incidence estimates using mortality-to-incidence ratios modelled on registry survival data. WHO's 2020 profile gave Mali's mortality registration as having no coverage for 2007 to 2016. IARC counts 256 non-melanoma skin cancers among the 13,942 (13,686 excluding them).",
   sections: [
     {
       id: "profile",
@@ -65,9 +69,9 @@ export const ML_DIVE: CountryDive = {
         },
         {
           id: "bamako-registry",
-          title: "A registry that has counted cancers in Bamako since 1986",
+          title: "A registry created in 1986 counts cancers in Bamako",
           plain:
-            "Mali's cancer figures come from a population-based registry in the capital, created in 1986, now based in the pathology department of CHU du Point G, and a member of the African Cancer Registry Network. Its 28 years of data show liver cancer becoming much less common in Bamako.",
+            "Mali has a population-based cancer registry in the capital, created in 1986, based in the pathology department of CHU du Point G, and a member of the African Cancer Registry Network. Its data from 1987 to 2015 show liver cancer becoming much less common in Bamako. IARC's estimates for Mali use a subnational registry that its fact sheet does not name.",
           detail:
             "The registry's undated page on the African Cancer Registry Network describes medical students finding cases each year in the city's hospitals, pathology reports abstracted at Point G, and death certificates matched to the database. It aims to cover the population of Bamako, 1,810,366 at the 2009 census, and codes in ICD-O-3. Data from 1987 to 2015 showed liver cancer incidence in men falling from 19.41 per 100,000 in 1987 to 1996 to 8.15 in 2007 to 2015, and in women from 7.02 to 2.57; the authors found no sign that this came from changes in registration. Bamako's cases diagnosed from 2005 to 2014 were part of IARC's SURVCAN-3 study, which found 3-year net survival of 52.3% for cervical cancer and 18.1% for liver cancer across 13 African registries.",
           links: [
@@ -81,7 +85,7 @@ export const ML_DIVE: CountryDive = {
         {
           id: "ml-top",
           title: "IARC's leading cancers for Mali, 2024",
-          caption: "New cases and deaths in 2024, both sexes, from the GLOBOCAN 2024 fact sheet. Estimates built on Bamako's registry rates, not national counts.",
+          caption: "New cases and deaths in 2024, both sexes, from the GLOBOCAN 2024 fact sheet. Estimates built on subnational registry rates, not national counts; the fact sheet does not name the registry.",
           columns: [
             { key: "site", label: "Cancer" },
             { key: "cases", label: "New cases", numeric: true },
@@ -97,8 +101,8 @@ export const ML_DIVE: CountryDive = {
             { site: "Prostate", cases: 582, deaths: 355 },
             { site: "All cancers", cases: 13942, deaths: 9026 },
           ],
-          note: "IARC applies subnational registry rates to Mali's 2024 population for new cases, and estimates deaths from those using modelled mortality-to-incidence ratios. Mali has no national cancer registry and no national death data on cancer.",
-          sources: [{ label: "IARC: GLOBOCAN 2024 fact sheet, Mali (PDF)", url: IARC_FACTSHEET }],
+          note: "IARC applies subnational registry rates to Mali's 2024 population for new cases, and estimates deaths from those using modelled mortality-to-incidence ratios. WHO's 2020 profile gave mortality registration in Mali as having no coverage for 2007 to 2016, and said its own mortality estimates were not based on any national data on deaths from noncommunicable diseases.",
+          sources: [{ label: "IARC: GLOBOCAN 2024 fact sheet, Mali (PDF)", url: IARC_FACTSHEET }, { label: "WHO: cancer country profile 2020, Mali (PDF)", url: WHO_CCP }],
         },
       ],
     },
@@ -165,11 +169,11 @@ export const ML_DIVE: CountryDive = {
       cards: [
         {
           id: "hpv",
-          title: "HPV vaccination began in 2024 and reached 64% of girls in 2025",
+          title: "HPV vaccine joined the routine programme in 2024; WHO gives 64% coverage for 2025",
           plain:
-            "Mali added the HPV vaccine to its childhood programme in 2024. WHO's figures show 15% of girls in the target group vaccinated in 2024 and 64% in 2025. WHO has no figures for boys. At the October 2026 breast and cervical cancer campaign, girls aged 10 were given the vaccine.",
+            "Mali added the HPV vaccine to its childhood programme in 2024. WHO's programme coverage figures show 15% of girls in the target group vaccinated in 2024 and 64% in 2025. WHO's rows hold no coverage figure for boys. At the October 2026 breast and cervical cancer campaign, girls aged 10 were given the vaccine.",
           detail:
-            "WHO's immunisation coverage rows for Mali begin in 2024: first-dose HPV coverage for girls of 15% (50,563 of a target of 343,798) and 64% in 2025 (224,070 of 352,415), with identical figures for the last dose. There are no rows with values for boys. A study by the GAIA Vaccine Foundation, surveying 3,445 people in Bamako from 2021 to 2022, found that people trusted their primary care providers more than the government on vaccines, and notes that the COVID-19 pandemic and political unrest from March 2020 had disrupted new vaccine roll-outs. At the Ministry's fifth Octobre Rose campaign, launched on 8 October 2026, HPV vaccine was given to girls aged 10 and thermocoagulation devices for treating precancerous lesions were handed to Bamako hospitals.",
+            "WHO's immunisation data for Mali, in the copy fetched on 16 November 2026, give HPV programme coverage from 2024: first-dose coverage for girls of 15% (50,563 of a target of 343,798) and 64% in 2025 (224,070 of 352,415), with identical figures for the last dose. The same data hold Mali's administrative reports, which use smaller target groups: 100.93% for the first dose in 2024 (50,563 of 50,096) and 72.63% in 2025 (224,070 of 308,494). An earlier administrative row records 10,321 final doses given to girls in 2018, against a target of 10,324, and rows of zeros for girls and boys in 2019. The rows for boys hold no other values. A study by the GAIA Vaccine Foundation, surveying 3,445 people in Bamako from 2021 to 2022, found that people trusted their primary care providers more than the government on vaccines, and notes that the COVID-19 pandemic and political unrest from March 2020 had disrupted new vaccine roll-outs. At the Ministry's fifth Octobre Rose campaign, launched on 8 October 2026, HPV vaccine was given to girls aged 10 and thermocoagulation devices for treating precancerous lesions were handed to Bamako hospitals.",
           links: [
             { label: "WHO: HPV vaccination coverage rows for Mali (public API)", url: WHO_HPV_API },
             { label: "Crippin et al., vaccine confidence before HPV vaccine introduction in Mali (Vaccines 2025)", url: "https://doi.org/10.3390/vaccines13050535" },
@@ -200,13 +204,13 @@ export const ML_DIVE: CountryDive = {
       cards: [
         {
           id: "radiotherapy",
-          title: "One radiotherapy centre for about 25 million people",
+          title: "One radiotherapy centre listed for about 25 million people",
           plain:
             "IAEA's radiotherapy directory lists one centre in Mali, at the Hôpital du Mali in Bamako, with two linear accelerators. For years it had one machine, which broke down 198 times between 2014 and 2021; patients waited 3 to 6 months for an appointment.",
           detail:
-            "IAEA DIRAC's public equipment data, read on 11 November 2026 with Mali's entry updated in 2026, lists the Hôpital du Mali Radiotherapy Center with two linear accelerators, no brachytherapy unit and one CT scanner, for a population DIRAC puts at 25.2 million: under one machine per 10 million people. A 2022 study in Santé Publique, written when Mali had a single linear accelerator, counted 198 breakdowns between 3 April 2014 and 24 September 2021, more than 54 weeks of downtime, and an average wait of 3 to 6 months. The African Cancer Registry Network's page says the hospital has offered radiotherapy since 2012, mainly for cervical cancer.",
+            "IAEA's directory of radiotherapy centres, read on 16 November 2026, lists one centre in Mali, the Hôpital du Mali Radiotherapy Center in Bamako (entry last updated 2026), with two linear accelerators, no cobalt-60 unit and no brachytherapy, and one CT, for a population the directory puts at 25.2 million: by OnCo's arithmetic, under one machine per 10 million people. A directory lists what was reported to it, not what is working on a given day. A 2022 study in Santé Publique, written when Mali had a single linear accelerator, counted 198 breakdowns between 3 April 2014 and 24 September 2021, more than 54 weeks of downtime, and an average wait of 3 to 6 months. The African Cancer Registry Network's undated page says the hospital has offered radiotherapy since 2012, mainly for cervical cancer.",
           links: [
-            { label: "IAEA DIRAC: radiotherapy equipment by centre (read 11 November 2026)", url: DIRAC },
+            { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC },
             { label: "Schantz et al., maintaining the linear accelerator at Hôpital du Mali (Santé Publique 2022)", url: "https://doi.org/10.3917/spub.223.0425" },
           ],
         },
@@ -216,7 +220,7 @@ export const ML_DIVE: CountryDive = {
           plain:
             "Cancer treatment in Mali is concentrated in Bamako: medical oncology at CHU du Point G, children's cancer care at CHU Gabriel Touré, and radiotherapy at the Hôpital du Mali. WHO's 2020 profile gave the availability of opioids for pain relief as zero and recorded no national cancer management guidelines.",
           detail:
-            "The African Cancer Registry Network's page names these three hospitals as the ones with specialised oncology, and Point G's pathology laboratory as the main one in the country. WHO's 2020 profile, per 10,000 cancer patients, counted 0.8 radiotherapy units, 0.8 medical physicists, 45.8 radiologists, 18.3 mammography units, 13.7 CT scanners and no MRI or PET scanner; it gave opioid availability for pain as 0 for 2015 to 2017, recorded no cancer management guidelines, and gave the national cancer control plan as operational in 2019. At Gabriel Touré, 3,083 women with cervical cancer seen from 2003 to 2024 had a median survival of 15.5 months, and 60.1% arrived at stage IV.",
+            "The African Cancer Registry Network's undated page names these three hospitals as the ones with specialised oncology, and Point G's pathology laboratory as the main one in the country. WHO's 2020 profile, per 10,000 cancer patients, counted 0.8 radiotherapy units, 0.8 medical physicists, 45.8 radiologists, 18.3 mammography units, 13.7 CT scanners and no MRI or PET scanner; it gave opioid availability for pain as 0 for 2015 to 2017, recorded no cancer management guidelines, and gave the national cancer control plan as operational in 2019. At Gabriel Touré, 3,083 women with cervical cancer seen from 2003 to 2024 had a median survival of 15.5 months, and 60.1% arrived at stage IV.",
           links: [
             { label: "African Cancer Registry Network: Mali registry page (hospitals and laboratories)", url: AFCRN_BAMAKO },
             { label: "WHO: cancer country profile 2020, Mali (PDF)", url: WHO_CCP },
@@ -234,9 +238,9 @@ export const ML_DIVE: CountryDive = {
           id: "free-chemotherapy",
           title: "Free chemotherapy at CHU du Point G, when the medicines are in stock",
           plain:
-            "Mali's state funds anticancer medicines so that chemotherapy is free. At CHU du Point G, where they reach patients through the hospital pharmacy, in 2019 only about two thirds of the medicines were available on average, and some ran out for up to four months.",
+            "Mali's state funds anticancer medicines so that chemotherapy can be free. At CHU du Point G, where they reach patients through the hospital pharmacy, in 2019 only about two thirds of the medicines were available on average, and some ran out for up to four months.",
           detail:
-            "Pharmacists at CHU du Point G, writing in 2022, describe the state providing anticancer medicines worth 285 million CFA francs a year to make chemotherapy free. That figure is not from their own study: they cite an undated Ministry of Health news item, consulted in October 2021, whose address no longer opens. They describe the supply chain at Point G: the hospital sets its needs, the DPM validates them, the Ministry orders from the Pharmacie Populaire du Mali, and the hospital receives the products. Their study of 1,490 prescriptions for 301 patients from January to June 2019 found FOLFOX, AC and paclitaxel with carboplatin the commonest regimens, 63.64% of medicines available on average, eight stock-outs of 20 to 120 days, and 11,148,890 CFA francs of medicine wasted. They suggest grouping patients on the same regimen. Women interviewed in 2024 still described free care as incomplete.",
+            "Pharmacists at CHU du Point G, writing in 2022, describe the state providing anticancer medicines worth 285 million CFA francs a year to make chemotherapy free. That figure is not from their own study: they cite an undated Ministry of Health news item, consulted in October 2021, whose address no longer opens. They describe the supply chain at Point G: the hospital sets its needs, the DPM passes the validated needs to the Ministry's finance directorate, which orders from the Pharmacie Populaire du Mali, and the hospital receives the products. Their study of 1,490 prescriptions for 301 patients from January to June 2019 found FOLFOX, AC and paclitaxel with carboplatin the commonest regimens, 63.64% of medicines available on average, eight stock-outs of 20 to 120 days, and 11,148,890 CFA francs of medicine wasted. They suggest grouping patients on the same regimen. An interview study published in 2024 still described free care as incomplete.",
           links: [
             { label: "Ballo et al., free anticancer medicines at CHU du Point G (Health Sci Dis 2022)", url: HSD_FREE },
             { label: "Schantz et al., access to oncology care in Mali (BMC Cancer 2024)", url: "https://doi.org/10.1186/s12885-024-11825-6" },
@@ -282,9 +286,9 @@ export const ML_DIVE: CountryDive = {
       id: "covered-medicines",
       title: "Which cancer medicines insurance covers was not found",
       plain:
-        "OnCo could not read a current list of the medicines and treatments the universal health insurance covers, or Mali's national essential medicines list. The Ministry's download of the 2018 AMO medicines list returned an error on 11 November 2026, and the DPM's register of authorised medicines was not reached.",
+        "OnCo could not read a current list of the medicines and treatments the universal health insurance covers, or Mali's national essential medicines list. The Ministry's download of the 2018 AMO medicines list returned an error on 11 and 16 November 2026, and the DPM's register of authorised medicines was not reached.",
       detail:
-        "The Ministry's site lists the 2018 edition of the medicines and devices covered by the AMO in private pharmacies, but its download link answered \"Article introuvable\" when read on 11 November 2026. Law 2018-074 leaves the list of covered services to a joint ministerial order, and the co-payment rates to an order of the minister for social protection (Decree 2022-0018); neither was found. The DPM has no working website that OnCo could reach, so the register of authorised cancer medicines, approval times and any reliance on other regulators are not here. How many people are enrolled in the RAMU was not found in an official source.",
+        "The Ministry's site lists the 2018 edition of the medicines and devices covered by the AMO in private pharmacies, but its download link answered \"Article introuvable\" when read on 11 November 2026 and again on 16 November 2026. Law 2018-074 leaves the list of covered services to a joint ministerial order, and the co-payment rates to an order of the minister for social protection (Decree 2022-0018); neither was found. The DPM has no working website that OnCo could reach, so the register of authorised cancer medicines, approval times and any reliance on other regulators are not here. How many people are enrolled in the RAMU was not found in an official source.",
       links: [
         { label: "MSDS: AMO medicines list, 2018 edition (download failed)", url: MSDS_AMO_LIST },
         { label: "Law 2018-074, articles 18 and 23 (PDF)", url: RAMU_LAW },
@@ -316,7 +320,7 @@ export const ML_DIVE: CountryDive = {
   how:
     "Every card was written from Malian law and official sources, international agencies and peer-reviewed papers, read in full rather than through a summary: Law 2018-074 and Decree 2022-0018 from the Journal officiel, through WHO's health legislation database; the Ministry of Health and Social Development's news pages of 2026; the African Cancer Registry Network's page for the Bamako registry; the NIH ClinRegs profile for Mali; WHO's 2020 cancer country profile, health expenditure rows, HPV coverage rows and August 2026 list of regulators; the African Union's treaty list; IAEA DIRAC's public equipment data; IARC's GLOBOCAN 2024 fact sheet; and the papers through Europe PMC and the journal's own site. Trials were counted from OnCo's ClinicalTrials.gov participation data. The new records for this page carry their own sources.",
   verify:
-    "Mali's national cancer figures are estimates built on the Bamako registry. Which medicines are in stock, whether the radiotherapy machines are working and how long the wait is change faster than any published source; ask the oncology service at CHU du Point G, CHU Gabriel Touré or the Hôpital du Mali what applies to you, and CANAM what your insurance covers.",
+    "Mali's national cancer figures are IARC estimates built on subnational registry rates, not national counts. Which medicines are in stock, whether the radiotherapy machines are working and how long the wait is change faster than any published source; ask the oncology service at CHU du Point G, CHU Gabriel Touré or the Hôpital du Mali what applies to you, and CANAM what your insurance covers.",
   verifyLinks: [
     { label: "Ministère de la Santé et du Développement Social", url: MSDS },
     { label: "African Cancer Registry Network: Bamako registry", url: AFCRN_BAMAKO },

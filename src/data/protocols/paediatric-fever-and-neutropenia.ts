@@ -3,17 +3,23 @@ import { protocol } from "./helpers";
 /*
  * Fever and neutropenia in children and young people with cancer or after haematopoietic cell transplant.
  *
- * What was read, and how (all on 11 November 2026, fetched raw with curl into a scratch directory and read as text):
+ * What was read, and how (first on 11 November 2026, and all three again on 16 November 2026 for the second accuracy
+ * pass; fetched raw with curl into a scratch directory and read as text):
  * - International Pediatric Fever and Neutropenia Guideline Panel, 2023 update (Lehrnbecher et al., J Clin Oncol
  *   2023), open access, full text from Europe PMC (PMC10022858, full-text XML). A Europe PMC title search for a later
- *   paediatric fever and neutropenia guideline (2023 to 2026) found none; this is the current edition.
+ *   paediatric fever and neutropenia guideline (2023 to 2026) found no later edition from this panel; it did find
+ *   regional guidelines (South Africa, sub-Saharan Africa, Asia) that were not read. In that XML the four tables are
+ *   images, so they were not read as text; the recommendations are printed in the body text as well.
+ *   The Data Supplement on the publisher's site returned 403 on 16 November 2026 and was not read.
  * - Children's Oncology Group endorsement document for that guideline (version date 14 July 2023), public PDF from
- *   the COG supportive care page (pdftotext, full text), and the COG page itself, which lists the July 2022 version as
- *   archived.
+ *   the COG supportive care page (pdftotext, full text), and the COG page itself, which links this PDF as its current fever and neutropenia
+ *   guideline and lists an earlier one as "ARCHIVED: July 2022".
  * - NICE CG151 recommendations page (HTML, full text), which applies to people of any age and marks its child-specific
  *   recommendations.
- * The DOI was resolved through Europe PMC and its title checked. Quotes are copied from the raw text with line breaks
- * joined and nothing else changed.
+ * The DOI was resolved through Crossref and Europe PMC and its title checked. Quotes are copied from the raw text
+ * with line breaks joined and nothing else changed; on 16 November 2026 all 18 were matched to the saved text by
+ * script. That pass reworded reasons that said more than the sources (steps 1, 2, 4, 8, 9, 12, 14 and 16), the prolonged
+ * fever steps (the source says fever and neutropenia), one variant, the best-in-class statement and one gap.
  */
 export const paediatricFeverAndNeutropenia = protocol({
   id: "paediatric-fever-and-neutropenia",
@@ -22,8 +28,8 @@ export const paediatricFeverAndNeutropenia = protocol({
   domain: "paediatric",
   tldr: "A child having cancer treatment who gets a fever, or seems unwell, needs to be seen in hospital straight away, using the team's number. There blood cultures are taken from every channel of the central line and one strong antibiotic is started through a drip. Children at low risk may finish at home or by mouth, and antibiotics can often stop after two days if cultures stay clear.",
   simple: "Cancer treatment can leave a child with few white blood cells to fight germs. A fever during treatment is an emergency. Ring the cancer team's number and go to hospital. The child will have blood tests and an antibiotic quickly.",
-  summary: "The International Pediatric Fever and Neutropenia Guideline Panel's 2023 update (79 randomised trials, GRADE) covers patients aged 0 to 18 receiving chemotherapy for cancer and recipients of haematopoietic cell transplant, and is endorsed by the Children's Oncology Group. Adopt a validated paediatric risk stratification rule (strong, low). Take blood cultures from all lumens of a central venous catheter at onset (strong, low); a peripheral culture alongside is conditional, because it adds 12% of bacteraemias but causes pain and contaminants. Urine where a clean-catch specimen is readily available (conditional); chest radiograph only with respiratory signs (strong, moderate).\n\nHigh-risk episodes get monotherapy with an antipseudomonal beta-lactam, a fourth-generation cephalosporin or a carbapenem (strong, high); a second anti-Gram-negative agent or a glycopeptide is reserved for instability, suspected resistance or high-resistance centres. A new good practice statement asks for therapy as soon as possible in the clinically unstable child, ideally much sooner than an hour after presentation; the panel could not agree a time target for well, low-risk children. Low-risk episodes may be managed as outpatients or with oral antibiotics where the infrastructure allows (conditional). Antibiotics stop at 48 hours with negative cultures once the child has been well and afebrile for 24 hours, with marrow recovery (strong) or, new in 2023, without it in low-risk FN (conditional). For fever lasting 96 hours or more in children at high risk of invasive fungal disease: CT chest (strong), consider abdominal ultrasound, do not use beta-D-glucan or fungal PCR, and start caspofungin or liposomal amphotericin B (strong, high) unless a pre-emptive approach is chosen. NICE CG151, for any age, recommends piperacillin with tazobactam alone first and names the modified Alexander rule for children under 18.",
-  asOf: "2026-11-11",
+  summary: "The International Pediatric Fever and Neutropenia Guideline Panel's 2023 update (79 randomised trials, GRADE) covers patients aged 0 to 18 receiving chemotherapy for cancer and recipients of haematopoietic cell transplant, and is endorsed by the Children's Oncology Group. Adopt a validated paediatric risk stratification rule (strong, low). Take blood cultures from all lumens of a central venous catheter at onset (strong, low); a peripheral culture alongside is conditional, because it adds 12% of bacteraemias but causes pain and contaminants. Urine where a clean-catch specimen is readily available (conditional); chest radiograph only with respiratory signs (strong, moderate).\n\nHigh-risk episodes get monotherapy with an antipseudomonal beta-lactam, a fourth-generation cephalosporin or a carbapenem (strong, high); a second anti-Gram-negative agent or a glycopeptide is reserved for instability, suspected resistance or high-resistance centres. A new good practice statement asks for therapy as soon as possible in the clinically unstable child, ideally much sooner than an hour after presentation; the panel could not agree a time target for well, low-risk children. Low-risk episodes may be managed as outpatients or with oral antibiotics where the infrastructure allows (conditional). Antibiotics stop at 48 hours with negative cultures once the child has been well and afebrile for 24 hours, with marrow recovery (strong) or, new in 2023, without it in low-risk FN (conditional). For fever and neutropenia lasting 96 hours or more in children at high risk of invasive fungal disease: CT of the lungs (strong, low), consider abdominal ultrasound, do not use beta-D-glucan or fungal PCR, and start caspofungin or liposomal amphotericin B (strong, high) unless a pre-emptive approach is chosen. NICE CG151, for any age, recommends piperacillin with tazobactam alone first and names the modified Alexander rule for children under 18.",
+  asOf: "2026-11-16",
   setting: {
     who: ["patient-or-carer", "nurse", "doctor", "emergency-team"],
     where: ["home", "telephone-triage", "emergency-department", "ward", "outpatient-clinic"],
@@ -32,14 +38,14 @@ export const paediatricFeverAndNeutropenia = protocol({
   trigger: "A child having chemotherapy or after a stem cell transplant has a fever, or becomes unwell, while neutropenic or likely to be.",
   steps: [
     {
-      action: "Before treatment starts, give the family written and spoken information on infection during treatment and the 24-hour number to ring",
-      why: "Most fevers start at home, so parents need to know what to look for and whom to call before it happens.",
+      action: "Before treatment starts and all through it, give the family written and spoken information on neutropenic sepsis and the 24-hour number to ring",
+      why: "Parents need to know what neutropenic sepsis is, how and when to ring the specialist advice line, and how and when to get emergency care.",
       source: "nice-cg151",
       quote: "Provide patients having anticancer treatment and their carers with written and oral information, both before starting and throughout their anticancer treatment, on:",
     },
     {
       action: "If the child is unstable, start the guideline's empiric antibiotic as soon as possible while other measures to stabilise them are taken",
-      why: "A child with a serious infection and few white cells can get worse within hours, and early antibiotics are what improve survival.",
+      why: "The panel says sepsis must be recognised early and antibiotics given quickly to improve survival, ideally much sooner than one hour after the child arrives.",
       source: "ipfn-2023",
       quote: "For febrile patients who are clinically unstable, initiate FN CPG-consistent empiric antibacterial therapy as soon as possible.",
       grade: "Good practice statement",
@@ -53,7 +59,7 @@ export const paediatricFeverAndNeutropenia = protocol({
     },
     {
       action: "Take blood cultures from every lumen of the central venous catheter at the onset of the fever",
-      why: "Germs can sit in one channel of the line and not another; sampling all of them finds more infections.",
+      why: "Blood cultures are how an infection in the blood is found. The panel asks for every channel of the line to be sampled; its 2023 paper keeps this from 2017 and does not set out the reasoning again.",
       source: "ipfn-2023",
       quote: "Obtain blood cultures at the onset of FN from all lumens of central venous catheters",
       grade: "strong recommendation, low-quality evidence",
@@ -81,14 +87,14 @@ export const paediatricFeverAndNeutropenia = protocol({
     },
     {
       action: "In high-risk fever and neutropenia, give one antipseudomonal beta-lactam, fourth-generation cephalosporin or carbapenem on its own, chosen by local resistance patterns",
-      why: "Twelve trials found adding an aminoglycoside did not reduce treatment failure or deaths, so one drug is enough for most children.",
+      why: "Twelve trials found no significant difference in treatment failure or deaths when an aminoglycoside was added, so the panel kept one drug as the standard.",
       source: "ipfn-2023",
       quote: "Use monotherapy with an antipseudomonal β-lactam, a fourth-generation cephalosporin or a carbapenem as empiric antibacterial therapy in pediatric high-risk FN",
       grade: "strong recommendation, high-quality evidence",
     },
     {
       action: "Add a second anti-Gram-negative drug or a glycopeptide only for a child who is unstable, a suspected resistant infection, or a centre with high resistance",
-      why: "Extra antibiotics add side effects and resistance without helping the stable child.",
+      why: "The trials showed no significant benefit from adding an aminoglycoside, and the panel notes that giving antibiotics carries resistance, cost and toxicity.",
       source: "ipfn-2023",
       quote: "Reserve addition of a second anti-Gram-negative agent or a glycopeptide for patients who are clinically unstable, when a resistant infection is suspected, or for centers with a high rate of resistant pathogens",
       grade: "strong recommendation, moderate-quality evidence",
@@ -109,7 +115,7 @@ export const paediatricFeverAndNeutropenia = protocol({
     },
     {
       action: "Do not broaden the antibiotics for persistent fever alone in a child who is clinically stable; escalate if the child becomes unstable",
-      why: "Fever on its own often settles; changing drugs adds harm. Instability is the signal to widen cover.",
+      why: "The panel rests this, indirectly, on the trials showing one drug is enough at the start. If the child becomes unstable it asks for wider cover, to make effective treatment of sepsis as likely as possible (strong recommendation, very-low-quality evidence).",
       source: "ipfn-2023",
       quote: "Do not broaden the initial empiric antibacterial regimen based solely on persistent fever in patients who are clinically stable",
       grade: "strong recommendation, low-quality evidence",
@@ -123,13 +129,13 @@ export const paediatricFeverAndNeutropenia = protocol({
     },
     {
       action: "In low-risk episodes, consider stopping at 48 hours on the same terms even before the marrow recovers",
-      why: "New in 2023: trials showed stopping was as safe as continuing in low-risk children, moving the point from 72 to 48 hours.",
+      why: "New in 2023: in a trial of low-risk children whose marrow had not recovered, stopping was no worse than continuing antibiotics by mouth for treatment success. The panel moved the point from 72 to 48 hours.",
       source: "ipfn-2023",
       quote: "In patients with low-risk FN who have been clinically well and afebrile for at least 24 hours, consider discontinuation of empiric antibacterial therapy if blood cultures remain negative at 48 hours despite no evidence of marrow recovery",
       grade: "conditional recommendation, moderate-quality evidence",
     },
     {
-      action: "If fever lasts 96 hours or more in a child at high risk of fungal infection, do a CT of the lungs",
+      action: "If fever and neutropenia last 96 hours or more in a child at high risk of fungal infection, do a CT of the lungs",
       why: "The lungs are the commonest site of fungal infection, and CT shows the typical signs.",
       source: "ipfn-2023",
       quote: "Perform computed tomography (CT) of lungs",
@@ -137,13 +143,13 @@ export const paediatricFeverAndNeutropenia = protocol({
     },
     {
       action: "Do not use beta-D-glucan or fungal PCR in blood to guide antifungal treatment at this point",
-      why: "These tests gave wrong positive results too often (positive predictive values of 49% and 17%) to be useful.",
+      why: "These tests gave wrong positive results too often (positive predictive values of 49% and 17%) to be useful. The grade shown is the one printed for PCR; the one for beta-D-glucan is strong recommendation, low-quality evidence.",
       source: "ipfn-2023",
       quote: "Do not use fungal polymerase chain reaction testing in blood",
       grade: "strong recommendation, moderate-quality evidence",
     },
     {
-      action: "For high-risk children with fever of 96 hours or more despite broad antibiotics, start caspofungin or liposomal amphotericin B, unless a pre-emptive approach is chosen",
+      action: "For children at high risk of fungal infection with fever and neutropenia of 96 hours or more despite broad antibiotics, start caspofungin or liposomal amphotericin B, unless a pre-emptive approach is chosen",
       why: "These two worked equally well in trials, and liposomal amphotericin harms the kidneys less than the older form.",
       source: "ipfn-2023",
       quote: "In IFD high-risk patients with prolonged (≥ 96 hours) FN unresponsive to broad-spectrum antibacterial therapy, initiate caspofungin or liposomal amphotericin B for empiric antifungal therapy unless a pre-emptive antifungal therapy approach is chosen",
@@ -151,7 +157,7 @@ export const paediatricFeverAndNeutropenia = protocol({
     },
   ],
   bestInClass: {
-    statement: "The International Pediatric Fever and Neutropenia Guideline Panel's 2023 update, endorsed by the Children's Oncology Group in May 2023, is the only current guideline built on paediatric trials alone and is the standard to follow: validated risk stratification, cultures from every lumen, single-agent antipseudomonal therapy for high-risk episodes, outpatient or oral options for low-risk ones, and stopping at 48 hours once well and afebrile for 24 hours. On the first drug, NICE CG151 (written for any age) is narrower and names piperacillin with tazobactam alone, while the international panel allows any antipseudomonal beta-lactam, fourth-generation cephalosporin or carbapenem by local epidemiology; both advise against a routine aminoglycoside or glycopeptide. On timing, NICE says immediately with no clock, the international panel says as soon as possible for the unstable child (ideally well inside an hour) and could not agree a target for well, low-risk children, some preferring to wait for the neutrophil count. NICE asks for urinalysis in every child under 5; the panel makes urine conditional on an easy clean-catch sample.",
+    statement: "The International Pediatric Fever and Neutropenia Guideline Panel's 2023 update, endorsed by the Children's Oncology Group in May 2023, is founded on data from children with cancer or a transplant, not on adult data, and is the standard to follow: validated risk stratification, cultures from every lumen, single-agent antipseudomonal therapy for high-risk episodes, outpatient or oral options for low-risk ones, and stopping at 48 hours once well and afebrile for 24 hours. On the first drug, NICE CG151 (written for any age) is narrower and names piperacillin with tazobactam alone, while the international panel allows any antipseudomonal beta-lactam, fourth-generation cephalosporin or carbapenem by local epidemiology; both hold back an aminoglycoside or a glycopeptide unless there is a specific reason (NICE's glycopeptide recommendation is about patients with a central line). On timing, NICE says immediately with no clock, the international panel says as soon as possible for the unstable child (ideally well inside an hour) and could not agree a target for well, low-risk children, some preferring to wait for the neutrophil count. NICE asks for urinalysis in every child under 5; the panel makes urine conditional on an easy clean-catch sample.",
     sources: ["ipfn-2023", "cog-fn-2023", "nice-cg151"],
   },
   variants: [
@@ -163,7 +169,7 @@ export const paediatricFeverAndNeutropenia = protocol({
     },
     {
       name: "Waiting for the neutrophil count in well, low-risk children",
-      differs: "Some centres give the first antibiotic only once the count confirms neutropenia, in children who look well and are at low risk; others give it before the count. The international panel was split and made no statement, asking institutions to speed up the count.",
+      differs: "For children who look well and are at low risk, some members of the international panel preferred to give the first antibiotic while the neutrophil count is awaited; others preferred to wait for the count, because antibiotics carry resistance, cost and toxicity. The panel made no statement and asked institutions to speed up the count.",
       evidence: "No graded recommendation either way; the panel names it as needing more research.",
       sources: ["ipfn-2023"],
     },
@@ -185,18 +191,19 @@ export const paediatricFeverAndNeutropenia = protocol({
     { claim: "Antibiotics as soon as possible in the clinically unstable child", grade: "Good practice statement", source: "ipfn-2023" },
   ],
   sources: [
-    { key: "ipfn-2023", label: "Guideline for the Management of Fever and Neutropenia in Pediatric Patients With Cancer and Hematopoietic Cell Transplantation Recipients: 2023 Update", publisher: "International Pediatric Fever and Neutropenia Guideline Panel, Journal of Clinical Oncology", year: 2023, url: "https://europepmc.org/article/PMC/PMC10022858", doi: "10.1200/jco.22.02224", gradingScheme: "GRADE: recommendations strong or conditional, evidence high, moderate, low or very low, printed together after each recommendation; good practice statements are ungraded.", read: "full-text", accessed: "2026-11-11" },
-    { key: "cog-fn-2023", label: "Guideline for the Management of Fever and Neutropenia in Children with Cancer and/or Undergoing Hematopoietic Stem-Cell Transplantation (COG endorsement, version date 14 July 2023)", publisher: "Children's Oncology Group", year: 2023, url: "https://childrensoncologygroup.org/wp-content/uploads/2026/05/COG_SC_FN_Guideline_Document-14JULY2023-new-logo.pdf", gradingScheme: "Reprints the source guideline's GRADE strength and quality for each recommendation.", read: "full-text", accessed: "2026-11-11" },
-    { key: "nice-cg151", label: "Neutropenic sepsis: prevention and management in people with cancer (CG151), recommendations", publisher: "NICE", year: 2012, url: "https://www.nice.org.uk/guidance/cg151/chapter/Recommendations", gradingScheme: "NICE does not grade recommendations; the strength is in the wording ('offer', 'do not offer', 'consider').", read: "full-text", accessed: "2026-11-11" },
+    { key: "ipfn-2023", label: "Guideline for the Management of Fever and Neutropenia in Pediatric Patients With Cancer and Hematopoietic Cell Transplantation Recipients: 2023 Update", publisher: "International Pediatric Fever and Neutropenia Guideline Panel, Journal of Clinical Oncology", year: 2023, url: "https://europepmc.org/article/PMC/PMC10022858", doi: "10.1200/jco.22.02224", gradingScheme: "GRADE: recommendations strong or conditional, evidence high, moderate, low or very low, printed together after each recommendation; good practice statements are ungraded.", read: "full-text", accessed: "2026-11-16" },
+    { key: "cog-fn-2023", label: "Guideline for the Management of Fever and Neutropenia in Children with Cancer and/or Undergoing Hematopoietic Stem-Cell Transplantation (COG endorsement, version date 14 July 2023)", publisher: "Children's Oncology Group", year: 2023, url: "https://childrensoncologygroup.org/wp-content/uploads/2026/05/COG_SC_FN_Guideline_Document-14JULY2023-new-logo.pdf", gradingScheme: "Reprints the source guideline's GRADE strength and quality for each recommendation.", read: "full-text", accessed: "2026-11-16" },
+    { key: "nice-cg151", label: "Neutropenic sepsis: prevention and management in people with cancer (CG151), recommendations", publisher: "NICE", year: 2012, url: "https://www.nice.org.uk/guidance/cg151/chapter/Recommendations", gradingScheme: "NICE does not grade recommendations; the strength is in the wording ('offer', 'do not offer', 'consider').", read: "full-text", accessed: "2026-11-16" },
   ],
   upgrades: [],
   gaps: [
-    "The guideline does not define the fever or neutrophil thresholds that start the pathway; those come from local or national protocols and differ between countries.",
-    "The guideline's Data Supplement, which lists the validated risk rules and trial details, was not read.",
+    "The body text of the international guideline does not define the fever or neutrophil thresholds that start the pathway. NICE CG151 diagnoses neutropenic sepsis at a neutrophil count of 0.5 x 10^9 per litre or lower with a temperature above 38 degrees C or other signs of sepsis.",
+    "The guideline's Data Supplement, which holds the trial details, was not read: on 16 November 2026 the publisher's page for it returned 403. Its four tables are images in the open copy and were not read as text, so the list of knowledge gaps in Table 4 is known here only from what the body text says about it. Which risk rules count as validated was therefore not checked.",
     "No time-to-antibiotic target is set for clinically well children; the panel was divided on whether to wait for the neutrophil count in low-risk children.",
-    "The safety of stopping antibiotics early in high-risk children with a respiratory virus is named by the panel as a knowledge gap.",
+    "The safety of stopping antibiotics early in high-risk fever and neutropenia is named by the panel as a knowledge gap. One trial studied it in children with a proven respiratory virus, and the panel decided against a recommendation from it.",
     "It is uncertain whether a child already on mould-active prophylaxis who develops prolonged fever should switch antifungal or continue the same one.",
-    "NICE NG254 (suspected sepsis in under 16s) was not read for this protocol.",
+    "NICE NG254 (suspected sepsis in under 16s, published 19 November 2025) was not read for this protocol.",
+    "A Europe PMC title search on 16 November 2026 found no later edition from the international panel, which planned an update in 5 years or sooner. It did find regional guidelines for South Africa, sub-Saharan Africa and Asia (2025 and 2026), which were not read.",
   ],
   institutions: ["nice"],
   companies: ["childrens-oncology-group"],

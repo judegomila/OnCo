@@ -7,6 +7,11 @@ import type { CountryDive } from "@/data/country-dive";
  * Sanitaria's home page, WHO's immunisation data API and the World Bank's health expenditure series. This page is thin:
  * OnCo's web searches ran out during the wave and the social security institute's site refused a script. Each missing
  * source is named under `gaps` rather than filled from memory.
+ *
+ * Second accuracy pass, 16 November 2026: every claim re-read against the raw sources. The World Bank API timed out, so
+ * the spending figures were re-read in WHO's own Global Health Observatory series, which matched. ihss.hn now answers,
+ * and the corpus now holds records for Honduran hospitals and cancer centres, so the gap card was reworded. IAEA's radiotherapy directory was
+ * read from its public equipment data on 16 November 2026 and its listing for Honduras added to the gap card.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/340-honduras-fact-sheet.pdf";
 const WHO_PROFILE = "https://cdn.who.int/media/docs/default-source/country-profiles/cancer/hnd-2020.pdf";
@@ -14,6 +19,8 @@ const ARSA = "https://arsa.gob.hn/";
 const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'HND'%20and%20startswith(ANTIGEN,'PRHPV')";
 const WB_OOP = "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=HN";
 const WB_CHE = "https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD?locations=HN";
+const WHO_GHO_OOP = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'HND'";
+const WHO_GHO_CHE = "https://ghoapi.azureedge.net/api/GHED_CHE_pc_US_SHA2011?$filter=SpatialDim%20eq%20'HND'";
 const CTGOV = "https://clinicaltrials.gov/search?country=Honduras&cond=cancer";
 
 export const HN_DIVE: CountryDive = {
@@ -82,10 +89,12 @@ export const HN_DIVE: CountryDive = {
           plain:
             "Honduras spent about 249 US dollars a person on health in 2023, and households paid 53.1% of it out of their own pockets, according to WHO's health expenditure figures. OnCo did not read what the Ministry of Health or the social security institute covers for cancer.",
           detail:
-            "The World Bank's series, from WHO's Global Health Expenditure Database, gives out-of-pocket spending of 51.7% of current health spending in 2021, 52.3% in 2022 and 53.1% in 2023, and current health spending per person of USD 254, 245 and 249. These figures cover all health care. WHO's 2020 profile recorded the availability of opioids for pain relief, in defined daily doses per million people per day for 2015 to 2017, as 51. The Instituto Hondureño de Seguridad Social's website refused a script on 11 November 2026; see the gaps.",
+            "The World Bank's series, from WHO's Global Health Expenditure Database, gives out-of-pocket spending of 51.7% of current health spending in 2021, 52.3% in 2022 and 53.1% in 2023, and current health spending per person of USD 254, 245 and 249. The World Bank's service did not answer on 16 November 2026, and the same values were re-read that day in WHO's own series. These figures cover all health care. WHO's 2020 profile recorded the availability of opioids for pain relief, in defined daily doses per million people per day for 2015 to 2017, as 51. The Instituto Hondureño de Seguridad Social's website refused a script on 11 November 2026 and answered on 16 November 2026, but its home page does not mention cancer; see the gaps.",
           links: [
             { label: "World Bank: out-of-pocket expenditure, % of current health expenditure, Honduras", url: WB_OOP },
             { label: "World Bank: current health expenditure per capita, Honduras", url: WB_CHE },
+            { label: "WHO: out-of-pocket share of current health expenditure, Honduras (data API)", url: WHO_GHO_OOP },
+            { label: "WHO: current health expenditure per person in US dollars, Honduras (data API)", url: WHO_GHO_CHE },
             { label: "WHO: Cancer Country Profile 2020, Honduras (PDF)", url: WHO_PROFILE },
           ],
         },
@@ -120,7 +129,7 @@ export const HN_DIVE: CountryDive = {
           plain:
             "WHO's data give 73% of girls in Honduras a first and a last dose of HPV vaccine in 2025, and its series has coverage from 2016. WHO's 2020 profile recorded no cervical screening programme and no breast screening programme in 2019, and no early detection guidelines or defined referral system for childhood cancer.",
           detail:
-            "WHO's immunisation data give HPV programme coverage among females of 74% (first dose) and 59% (last dose) in 2023, 72% and 72% in 2024, and 73% and 73% in 2025; WHO's 2020 profile gave 60.6% for 2018. The profile lists, for 2019: cervical screening programme, no; breast screening programme, no; early detection guidelines for one of four cancers; an integrated NCD plan under development; and for childhood cancer, no early detection guidelines and no defined referral system. These are answers for 2019 and may have changed.",
+            "WHO's immunisation data give HPV programme coverage among females of 74% (first dose) and 59% (last dose) in 2023, 72% and 72% in 2024, and 73% and 73% in 2025; WHO's 2020 profile gave 60.6% for 2018. The profile lists, for 2019: cervical screening programme, no; breast screening programme, no; for cervical cancer, early detection guidelines and a defined referral system, yes; early detection guidelines for one of four cancers (breast, cervix, colon, childhood); an integrated NCD plan under development; and for childhood cancer, no early detection guidelines and no defined referral system. These are answers for 2019 and may have changed.",
           links: [
             { label: "WHO: HPV vaccination coverage rows for Honduras (data API)", url: WHO_HPV_API },
             { label: "WHO: Cancer Country Profile 2020, Honduras (PDF)", url: WHO_PROFILE },
@@ -156,7 +165,7 @@ export const HN_DIVE: CountryDive = {
           plain:
             "None of the trials in OnCo's records lists Honduras among its countries. OnCo holds a selection of trials, not the whole registry, so ClinicalTrials.gov itself is the place to search. ARSA's website has a section on clinical trials.",
           detail:
-            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 11 November 2026: no trial record lists Honduras. That is a statement about OnCo's selection, not a finding that no cancer trial has run in Honduras. ARSA's site has a clinical trials section that OnCo has not yet read.",
+            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 11 November 2026: no trial record lists Honduras. That is a statement about OnCo's selection, not a finding that no cancer trial has run in Honduras: on 16 November 2026 a search of ClinicalTrials.gov for cancer with Honduras as a location country returned 19 studies, among them HPV vaccine, cervical screening, stomach cancer prevention and childhood cancer studies, which OnCo has not read. ARSA's site has a clinical trials section that OnCo has not yet read.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with sites in Honduras", url: CTGOV },
             { label: "Agencia de Regulación Sanitaria (ARSA): home page", url: ARSA },
@@ -170,12 +179,13 @@ export const HN_DIVE: CountryDive = {
       id: "gap-sources",
       title: "Sources not found or not read for this page",
       plain:
-        "OnCo did not identify which subnational registry IARC used, or read its reports; did not read the Ministry of Health's cancer programmes, the social security institute's cancer coverage, or a count of radiotherapy machines; and did not read the cancer centres in Tegucigalpa and San Pedro Sula from their own sources.",
+        "OnCo did not identify which subnational registry IARC used, or read its reports. This page does not describe the Ministry of Health's cancer programmes, the social security institute's cancer coverage, or the work of the cancer centres in Tegucigalpa and San Pedro Sula. For radiotherapy it gives only what IAEA's directory lists: five centres, with six linear accelerators and four cobalt-60 units between them.",
       detail:
-        "OnCo's web searches ran out during this wave. The Instituto Hondureño de Seguridad Social's site (ihss.hn) answered 403 on 11 November 2026. Radiotherapy capacity is published in IAEA's DIRAC database, which needs an account for most queries. None of these is described here from memory.",
+        "OnCo's web searches ran out during this wave. The Instituto Hondureño de Seguridad Social's site (ihss.hn) answered 403 on 11 November 2026; it answered on 16 November 2026, but its home page does not mention cancer and OnCo has not read further into the site. WHO's 2020 profile gives 7.0 external beam radiotherapy machines per 10,000 cancer patients in 2019, a rate and not a count. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists five centres in Honduras, with six linear accelerators and four cobalt-60 units between them. In Tegucigalpa it lists Hospital General San Felipe (one linear accelerator and two cobalt-60 units, with brachytherapy; entry last updated 2023), Asociacion Hondureña de Lucha Contra el Cancer/ Centro de Cancer Emma Romero (two linear accelerators and one cobalt-60 unit, with brachytherapy; 2024) and Centro Oncologico Hondureno (two linear accelerators; 2019). In San Pedro Sula it lists Liga Contra el Cáncer (one cobalt-60 unit; 2023) and Centro Oncohematologico-COHESA (one linear accelerator; 2020). Two of the five are listed with brachytherapy. The entries were last updated between 2019 and 2024. A directory can lag, so the older entries may be out of date. OnCo holds separate records for some Honduran hospitals and cancer centres, written from other sources and not re-read for this page. None of these is described here from memory.",
       links: [
         { label: "Instituto Hondureño de Seguridad Social", url: "https://www.ihss.hn/" },
-        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
+        { label: "WHO: Cancer Country Profile 2020, Honduras (PDF)", url: WHO_PROFILE },
       ],
     },
   ],
@@ -186,7 +196,7 @@ export const HN_DIVE: CountryDive = {
   papers: [],
   people: ["leonardo-a-sanchez"],
   how:
-    "Every card was written from public sources read as raw text on 11 November 2026, in Spanish where the source is Spanish: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 country profile and immunisation data, ARSA's home page and the World Bank's health expenditure series.",
+    "Every card was written from public sources read as raw text on 11 November 2026, in Spanish where the source is Spanish: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 country profile and immunisation data, ARSA's home page and the World Bank's health expenditure series. IAEA's directory of radiotherapy centres was read from its public equipment data on 16 November 2026.",
   verify:
     "WHO's profile describes 2019; check with the Secretaría de Salud for current screening and cancer services.",
   verifyLinks: [

@@ -164,7 +164,7 @@ const cards: ToolCard[] = [
       { text: "Offer FOLFIRINOX to people with metastatic pancreatic cancer and an Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 1.", source: NG85 },
       { text: `Metastatic, first line: ${QUOTED_PANCREATIC_ROWS["Metastatic, first line"]}`, source: ROW_NCCN },
     ],
-    meaning: "For people who are up and about and largely independent, the strongest combination is offered: FOLFIRINOX every two weeks, usually at modified doses in the UK. The OnCo record puts NALIRIFOX beside it for fit patients and gemcitabine with nab-paclitaxel as the alternative; NHS funding for NALIRIFOX follows NICE appraisals, so ask what applies where you are treated. A germline BRCA result, an NRG1 fusion or mismatch repair deficiency each open a different drug on the record.",
+    meaning: "For people who are up and about and largely independent, the strongest combination is offered: FOLFIRINOX every two weeks, usually at modified doses in the UK. The OnCo record puts NALIRIFOX beside it for fit patients and gemcitabine with nab-paclitaxel as the alternative; NICE could not make a recommendation on NALIRIFOX (TA1052, terminated April 2025) because the company made no evidence submission, so ask what applies where you are treated. A germline BRCA result, an NRG1 fusion or mismatch repair deficiency each open a different drug on the record.",
     questions: ["Modified FOLFIRINOX or NALIRIFOX, and why for me?", "Have my germline and tumour tests been sent, and when are they back?", "Is a first-line trial open to me?"],
     links: [LINKS.metastatic, LINKS.folfirinox, LINKS.performance, LINKS.decisions] },
 

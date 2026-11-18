@@ -879,7 +879,7 @@ export const papersSubtypesWave: PaperInput[] = [
     journal: "New England Journal of Medicine", year: 2023, doi: "10.1056/NEJMoa2212419", pmid: "36546659",
     authors: "Yaeger R, Weiss J, Pelster MS, et al.", paperType: "observational", participants: 76, changedPractice: true,
     findings: ["Objective response 19 percent with adagrasib alone vs 46 percent with adagrasib plus cetuximab.", "Median overall survival 13.4 months with the combination."],
-    whatItMeans: "Adagrasib plus cetuximab is an approved option for previously treated KRAS G12C colorectal cancer, alongside sotorasib plus panitumumab; monotherapy is not enough because EGFR signalling reactivates the pathway.",
+    whatItMeans: "Adagrasib plus cetuximab received US accelerated approval on 21 June 2024 for previously treated KRAS G12C colorectal cancer, and that indication was removed from the US label in August 2026; sotorasib plus panitumumab remains approved. Monotherapy is not enough because EGFR signalling reactivates the pathway.",
     caveats: ["Small single-arm cohorts.", "Responses are shorter than in KRAS G12C lung cancer."],
     links: [{ label: "N Engl J Med 2023", url: "https://doi.org/10.1056/NEJMoa2212419" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/36546659/" }],
     cancers: ["kras-g12c-colorectal"], drugs: ["adagrasib", "cetuximab"], journals: ["nejm"], people: ["rona-yaeger"] }),

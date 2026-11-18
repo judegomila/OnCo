@@ -140,7 +140,7 @@ const cards: ToolCard[] = [
       { text: "Surgery (curettage and cautery) - the BCC is scraped off (a process known as curettage) and then the skin surface is sealed using heat (cautery). Often the curettage and cautery are repeated a few times back-to-back to clear all the affected skin. Although it is usually not possible to test the edges of the sample to confirm that the BCC has been fully removed (such as with an excision), this procedure is generally considered effective for treating a low-risk BCC.", source: BAD_BCC },
       { text: "You don't have any stitches with this type of surgery. The area will scab over. Your doctor will tell you how to look after your wound and when to remove the dressing.", source: CRUK_SURGERY },
     ],
-    meaning: "One appointment, local anaesthetic, no stitches and no return visit to have them out, and a round pale scar where the scab falls off. The price is that no pathologist can confirm the edges are clear, which is why it is offered for low-risk lesions on the body rather than for anything high-risk or anything on the face where the edges are hard to see.",
+    meaning: "One appointment, local anaesthetic, no stitches and no return visit to have them out; the area scabs over as it heals. The price is that no pathologist can confirm the edges are clear, which is why it is offered for low-risk lesions on the body rather than for anything high-risk or anything on the face where the edges are hard to see.",
     questions: ["Would curettage and cautery be reasonable for mine, and why or why not?", "What will the scar look like compared with an excision and stitches?"],
     links: [LINKS.curettage, LINKS.excision],
   },

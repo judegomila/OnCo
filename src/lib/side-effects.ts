@@ -182,14 +182,18 @@ export function buildSideEffectIndex(): SideEffectRow[] {
  *
  * Which protocols belong to which group is written here because the groups are the rules' own plain-language labels
  * and exist nowhere in the corpus. A protocol is listed only after its own population and trigger have been read:
- * where no protocol in the corpus fits (high blood pressure, QT prolongation, lung inflammation on a drug that is not
- * a checkpoint inhibitor), the group or the row stays without one, and `scripts/measure-side-effect-chain.ts --gaps`
- * names it. src/lib/side-effects.test.ts checks that every id is a protocol and every key a group the rules produce.
+ * where no protocol in the corpus fits (headache, cough, an upper respiratory infection), the group or the row stays
+ * without one, and `scripts/measure-side-effect-chain.ts --gaps` names it. High blood pressure, QT prolongation and
+ * lung inflammation on a drug that is not a checkpoint inhibitor were such gaps until 17 November 2026, when the
+ * fourteen targeted-drug protocols were written. src/lib/side-effects.test.ts checks that every id is a protocol and every key a group the rules produce.
  */
 export const SYMPTOM_PROTOCOLS: Record<string, { general?: string[]; specific?: string[] }> = {
   "Cytokine release syndrome": { general: ["crs-grading-and-management"], specific: ["bispecific-step-up-dosing"] },
+  "Capillary leak syndrome": { specific: ["capillary-leak-syndrome-on-anticancer-drugs"] },
+  "Differentiation syndrome": { specific: ["differentiation-syndrome-recognition-and-treatment"] },
   "Confusion or brain effects (neurotoxicity, ICANS)": { specific: ["icans-grading-and-management", "bispecific-step-up-dosing", "irae-neurological"] },
   "Tumour lysis syndrome": { general: ["tumour-lysis-syndrome-prevention-and-treatment"] },
+  "Tumour flare": { specific: ["tumour-flare-on-bispecific-antibodies-and-immunomodulatory-drugs"] },
   "Immune-related side effects (general)": { specific: ["checkpoint-inhibitor-baseline-and-monitoring", "irae-steroid-taper-and-pjp", "irae-rechallenge"] },
   "Fever or febrile neutropenia": { general: ["febrile-neutropenia-first-hour", "g-csf-prophylaxis-by-febrile-neutropenia-risk"] },
   "Low white cells (neutropenia)": { general: ["g-csf-prophylaxis-by-febrile-neutropenia-risk", "febrile-neutropenia-first-hour"] },
@@ -203,15 +207,19 @@ export const SYMPTOM_PROTOCOLS: Record<string, { general?: string[]; specific?: 
   "Colitis (bowel inflammation)": { general: ["treatment-induced-diarrhoea-grading-and-management"], specific: ["irae-colitis"] },
   "Diarrhoea": { general: ["treatment-induced-diarrhoea-grading-and-management"], specific: ["irinotecan-early-cholinergic-syndrome-and-late-diarrhoea", "neratinib-diarrhoea-prophylaxis-and-dose-escalation", "irae-colitis"] },
   "Nausea or vomiting": { general: ["antiemetic-prophylaxis-by-emetic-risk"] },
+  "Constipation": { general: ["constipation-in-adults-with-cancer"] },
   "Mouth soreness or ulcers (stomatitis)": { general: ["oral-mucositis-prevention-and-oral-care"] },
   "Loss of appetite or weight loss": { general: ["nutrition-screening-and-support-during-cancer-treatment"] },
-  "Lung inflammation (pneumonitis, ILD)": { specific: ["irae-pneumonitis"] },
+  "Lung inflammation (pneumonitis, ILD)": { specific: ["irae-pneumonitis", "interstitial-lung-disease-on-antibody-drug-conjugates-and-targeted-drugs"] },
   "Breathlessness or cough": { specific: ["acute-oncology-telephone-triage"] },
-  "Liver inflammation or raised liver enzymes": { specific: ["irae-hepatitis"] },
-  "Kidney problems": { specific: ["irae-nephritis", "renal-dose-adjustment-of-anticancer-drugs"] },
+  "Liver inflammation or raised liver enzymes": { specific: ["irae-hepatitis", "raised-liver-enzymes-on-targeted-anticancer-drugs"] },
+  "Kidney problems": { specific: ["irae-nephritis", "renal-dose-adjustment-of-anticancer-drugs", "hypertension-and-proteinuria-on-vegf-pathway-inhibitors"] },
   "Heart muscle weakness or inflammation": { general: ["cardio-oncology-risk-assessment-and-cardiac-surveillance"], specific: ["irae-myocarditis"] },
+  "Heart rhythm changes (QT, atrial fibrillation)": { specific: ["qt-prolongation-monitoring-on-anticancer-drugs", "atrial-fibrillation-and-bleeding-on-btk-inhibitors"] },
+  "High blood pressure": { specific: ["hypertension-and-proteinuria-on-vegf-pathway-inhibitors", "atrial-fibrillation-and-bleeding-on-btk-inhibitors"] },
   "Blood clots": { general: ["cancer-associated-vte-treatment"] },
-  "Bleeding or bruising": { general: ["bleeding-precautions-when-platelets-are-low"] },
+  "Bleeding or bruising": { general: ["bleeding-precautions-when-platelets-are-low"], specific: ["atrial-fibrillation-and-bleeding-on-btk-inhibitors"] },
+  "Fluid retention (swelling, effusions)": { specific: ["fluid-retention-and-effusions-on-kinase-inhibitors"] },
   "Hand-foot syndrome": { general: ["hand-foot-syndrome-prevention-and-dose-modification"] },
   "Nail changes": { general: ["skin-and-nail-care-during-cancer-drug-treatment"] },
   "Hair loss": { specific: ["scalp-cooling-during-chemotherapy"] },
@@ -223,11 +231,12 @@ export const SYMPTOM_PROTOCOLS: Record<string, { general?: string[]; specific?: 
   "Eye problems": { specific: ["eye-care-with-ocular-toxic-antibody-drug-conjugates", "irae-ocular"] },
   "Hearing problems": { specific: ["paediatric-cisplatin-hearing-protection"] },
   "Infusion or injection reactions": { general: ["infusion-reaction-management"], specific: ["premedication-before-reaction-prone-anticancer-drugs", "drug-desensitisation-after-anticancer-hypersensitivity"] },
-  "Thyroid changes": { specific: ["irae-thyroid"] },
+  "Thyroid changes": { specific: ["irae-thyroid", "hypothyroidism-on-tyrosine-kinase-inhibitors"] },
   "Adrenal insufficiency": { specific: ["irae-hypophysitis-adrenal"] },
-  "High blood sugar": { specific: ["irae-diabetes"] },
+  "High blood sugar": { specific: ["irae-diabetes", "hyperglycaemia-on-pi3k-akt-mtor-inhibitors"] },
   "Hot flushes, sexual or fertility effects": { general: ["sexual-health-assessment-and-interventions"], specific: ["hot-flushes-on-endocrine-therapy-non-hormonal-options"] },
   "Bone loss or fractures": { specific: ["bone-health-on-hormone-therapy"] },
+  "Blood chemistry or blood count changes (other)": { specific: ["hypomagnesaemia-on-egfr-antibodies", "hyperphosphataemia-on-fgfr-inhibitors"] },
 };
 
 /**
@@ -272,6 +281,10 @@ const IRAE_REACH: ProtocolReach = { products: "class", modality: CHECKPOINT_MODA
 export const PROTOCOL_REACH: Record<string, ProtocolReach> = {
   // "Radiation pneumonitis and infection are differential diagnoses, not covered here."
   "irae-pneumonitis": { ...IRAE_REACH, notEvent: /\bradiation\b/i },
+  // Filed under immunotherapy toxicity, and not about checkpoint inhibitors: "Adults with B-cell non-Hodgkin lymphoma
+  // starting glofitamab, mosunetuzumab or epcoritamab, and adults with mantle cell, follicular or marginal zone
+  // lymphoma ... starting lenalidomide"; "Flare on checkpoint inhibitors ... [is] not covered". Its `drugs` are those four.
+  "tumour-flare-on-bispecific-antibodies-and-immunomodulatory-drugs": { products: "drugs" },
   // Population: BCMA and CD20 bispecifics, and "other T-cell engagers (blinatumomab, tarlatamab, talquetamab,
   // tebentafusp) follow the same principles". Its `drugs` also hold tocilizumab, dexamethasone and immunoglobulin.
   "bispecific-step-up-dosing": { products: "class", modality: T_CELL_ENGAGER_MODALITY },

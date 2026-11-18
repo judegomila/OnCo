@@ -36,20 +36,11 @@
     "state": "waiting"
   },
   {
-    "branch": "product/cross-links-round-2",
-    "why": "funder pages list their trials, person pages their trial reports, test pages who pays, protocol pages when to call, and long paragraphs keep their glossary hovers",
-    "pr": "https://github.com/judegomila/OnCo/pull/437",
-    "preview": "",
-    "files": 41,
-    "proposed": "2026-11-17",
-    "state": "waiting"
-  },
-  {
     "branch": "product/country-waves-13-16",
     "why": "the last 64 country deep dives (waves 13 to 16), each checked twice against its sources",
     "pr": "https://github.com/judegomila/OnCo/pull/444",
     "preview": "",
-    "files": 352,
+    "files": 350,
     "proposed": "2026-11-17",
     "state": "waiting"
   }

@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 18 November 2026
+- More of the site is joined up on the page: institutions and funders list the trials they sponsor, people list the trials whose papers they wrote, ideas and the problems they address name each other, open questions appear on the ideas they concern, tests show who pays for them where a source says, and nearly every glossary term in running text now has its explanation on hover
 - Side effects now show the protocol that manages them for eighty more rows, among them high blood pressure on VEGF drugs, heart rhythm changes, high blood sugar and lung inflammation on antibody-drug conjugates; and five pages stop throwing a browser error as they load
 - chore: check regional approvals against the EMA register (#459)
 - chore: refresh universe lists (NCI drugs and types, NCI centres, OECI, NHS alliances, NLM journals, OpenAlex, KEGG, ChEMBL, ClinicalTrials.gov, FDA OCE) (#458)
@@ -85,6 +86,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - More of the graph is joined up: 1,251 confirmed links between people and the trials whose papers they wrote, matched by ORCID or full name and affiliation; who pays for 21 tests in the US and UK, from Medicare national coverage decisions and NICE guidance; fifty warning-card lines now name the protocol that manages them; and eight wrong side-effect links are removed
 - Twenty-two more care protocols close the gaps in the census, among them stoma care, drain care at home, transplant conditioning, veno-occlusive disease, lung biopsy, intrathecal chemotherapy in children, end-of-life care for children, advance care planning and stopping smoking after a diagnosis; 212 protocols in all, with a table of what is covered and what is still open
 - Shasqi in depth: its clinical programme SQ3370, its trial and the click-activated chemistry behind it, from the company's own pages, the registry and the published papers; the weekly gap-fill job gets the tools it needs to read its allowed sources; and the command-line tool and MCP server are rebuilt to know about care protocols
+- Six cross-links a reader can now follow: side effect to protocol to warning card, funder to trials, person to trial reports, glossary terms in long paragraphs, ideas with bottlenecks and open questions, and who pays for a test
 - Who pays for 21 tests, from Medicare national coverage determinations and NICE guidance, and 32 named gaps
 - Author lists of the 818 papers that report a trial, read from Europe PMC, and who among them has a page here
 - The National Cancer Institute and Cancer Research UK records carry their abbreviations as aliases

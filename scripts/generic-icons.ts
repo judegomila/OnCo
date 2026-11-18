@@ -20,6 +20,12 @@ export const GENERIC_ICON_MD5: Record<string, string> = {
   "3ba48c9871ccecc45bafc2417e018878": "Shared platform icon, a white apple on orange (Canadian Association of Psychosocial Oncology, IPOS)",
   "85e0b94ab5e54257c87e45c27e8cac6c": "Shared icon, an orange and blue network, fetched for four unrelated biobank records (weekly refresh of 16 November 2026)",
   "8bba1412890a7cfa63db8b26e0374988": "A news site's favicon, a red three-armed swirl, fetched where the website field was a news article (Abdera Therapeutics, Ariceum Therapeutics; removed 29 October 2026)",
+  "b30d7204f83eb7ac091c62f6b986d537": "Joomla default icon, four black interlocking links (Ministry of Health and Sports of Bolivia; dropped from the weekly refresh of 17 November 2026)",
+  "01f5171374ccae311b9d45131d108a0f": "Stock placeholder, a blue globe lettered WWW (Centre Hospitalier de la Polynesie francaise; dropped 17 November 2026)",
+  "4bebb30919f785ae13f395c0a15b38b1": "Stock icon, a black die, returned for health.gov.mw although the site's own page names the national coat of arms (Ministry of Health, Malawi; dropped 17 November 2026)",
+  "4d57e1399f30afe5eb9f1d8c965a40d1": "Stock icon, a document behind a browser window, returned for a site that declares no icon (Ministry of Health and Wellness, Barbados; dropped 17 November 2026)",
+  "2c016906b8755173681b21ba2e777f66": "Icon design template, a grey construction grid with a green corner (Shwe Yaung Hnin Si Cancer Foundation; dropped 17 November 2026)",
+  "50df95f81316d5b260372f6de8aba092": "Website template icon, a graduation cap in a shield with laurels, served by health.gov.pg (three Papua New Guinea health records; dropped 17 November 2026)",
 };
 
 export const md5Of = (buf: Buffer | Uint8Array): string => createHash("md5").update(buf).digest("hex");

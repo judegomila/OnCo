@@ -174,8 +174,16 @@ const NO_LOGO_IDS = new Set(["future-of-cancer-care-today", "sijbrandij-foundati
   // Vercel triangle; the WordPress "W") is nobody's logo, and the upgrade pass found nothing of their own to use.
   "more-health", "mission-bio", "horg", "inc-chile", "ighg", "intensity-therapeutics", "imerman-angels",
   // A news article as the website: the favicon was the news site's (BioSpace) or another company's (Evergreen).
-  "abdera-therapeutics", "ariceum-therapeutics", "precirix"]);
-const NOT_OWN_HOST = /(^|\.)(archive\.org|sec\.gov|ycombinator\.com|biorxiv\.org|medrxiv\.org|linkedin\.com|crunchbase\.com|clinicaltrials\.gov|wikipedia\.org|github\.com|biospace\.com|fiercebiotech\.com|businesswire\.com|prnewswire\.com|globenewswire\.com|statnews\.com|endpts\.com)$/;
+  "abdera-therapeutics", "ariceum-therapeutics", "precirix",
+  // Weekly refresh of 17 November 2026, each looked at. A paper's DOI as the website matched the International DOI
+  // Foundation on Wikidata and gave three records its logo (doi.org is now in NOT_OWN_HOST as well).
+  "kabul-cancer-registry", "khmer-soviet-friendship-hospital", "malawi-cancer-registry",
+  // Wikidata name match to another body: Morocco's CNSS for Lebanon's fund; Tokyo Medical and Dental University, which
+  // merged into the Institute of Science Tokyo in 2024, for the hospital that now carries the new name.
+  "nssf-lebanon", "science-tokyo-hospital",
+  // The website is a page on the federation's site (the IPPF mark), or the icon is a photograph from the page.
+  "vanuatu-family-health-association", "bda-bulgaria"]);
+const NOT_OWN_HOST = /(^|\.)(archive\.org|doi\.org|sec\.gov|ycombinator\.com|biorxiv\.org|medrxiv\.org|linkedin\.com|crunchbase\.com|clinicaltrials\.gov|wikipedia\.org|github\.com|biospace\.com|fiercebiotech\.com|businesswire\.com|prnewswire\.com|globenewswire\.com|statnews\.com|endpts\.com)$/;
 const domainOf = (u?: string) => { try { if (!u) return ""; const h = new URL(u).hostname.replace(/^www\./, "").toLowerCase(); return NOT_OWN_HOST.test(h) ? "" : h; } catch { return ""; } };
 const sameDomain = (a: string, b: string) => !!a && !!b && (a === b || a.endsWith("." + b) || b.endsWith("." + a));
 

@@ -52,6 +52,7 @@ import { roadmaps } from "./roadmaps";
 import { ideas } from "./ideas";
 import { collections } from "./collections";
 import type { DrugInput, EntityInput, TargetInput } from "@/lib/schema";
+import { withDerivedCrossLinks } from "./cross-links-derived";
 import { applySpikeSupplements, mergeSpikeInto, spikeEntities, unappliedSpikeSupplements, unpatchedSpikeCancers } from "./spikes";
 import { applyMergeSupplements, unappliedMergeSupplements } from "./merged-records";
 import { failures } from "./failures";
@@ -927,4 +928,6 @@ const RECORDS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
  * the years themselves carry no relation arrays beyond the previous and next year, so they add nothing to anyone
  * else's backlinks.
  */
-export const ALL_INPUTS: EntityInput[] = [...RECORDS, ...yearRecords(RECORDS)];
+/** The reverse of the links records already state, written last so it sees every record (./cross-links-derived.ts). */
+const LINKED: EntityInput[] = withDerivedCrossLinks(RECORDS);
+export const ALL_INPUTS: EntityInput[] = [...LINKED, ...yearRecords(LINKED)];

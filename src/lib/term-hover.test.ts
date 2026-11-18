@@ -1,6 +1,9 @@
 import { describe, expect, it } from "vitest";
 import { buildMatcher, findMatches, scan } from "./entity-matcher";
-import { entityPatterns, termMarks } from "./term-hover";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+import { entityPatterns, HOVER_CAP, hoverHits, termMarks } from "./term-hover";
+import { graph } from "./graph";
 
 type Ref = { id: string };
 const m = buildMatcher<Ref>([
@@ -182,5 +185,29 @@ describe("corpus auto-linking", () => {
     // PCI now links to prophylactic cranial irradiation, the sense the corpus uses, not the peritoneal cancer index.
     expect(byPattern.get("pci")?.route).toBe("/terms/pci-term/");
     expect(termMarks("The trial has reported.", 4)).toEqual([]);
+  });
+});
+
+describe("the cap on hovers in one paragraph", () => {
+  // Twelve was cutting a fifth of the glossary terms a long paragraph names (cross-links census, November 2026).
+  it("is high enough that a long paragraph keeps the terms after its twelfth record", () => {
+    expect(HOVER_CAP).toBeGreaterThanOrEqual(24);
+    const terms = graph().kind("term").filter((t) => /^[A-Za-z]+ [a-z]+$/.test(t.name)).slice(0, 60).map((t) => t.name);
+    const text = `This paragraph names ${terms.join(", then ")}.`;
+    const all = hoverHits(text, { max: 0 });
+    expect(all.length).toBeGreaterThan(HOVER_CAP);
+    const capped = hoverHits(text);
+    expect(capped).toHaveLength(HOVER_CAP);
+    // The cap keeps the first mentions in reading order, each record once.
+    expect(capped.map((h) => h.ref.id)).toEqual(all.slice(0, HOVER_CAP).map((h) => h.ref.id));
+    expect(new Set(capped.map((h) => h.ref.id)).size).toBe(HOVER_CAP);
+    expect(hoverHits(text, { max: 4 })).toHaveLength(4);
+  });
+
+  it("is paid for by a named class: a hover's markup carries one class, and the stylesheet defines it", () => {
+    const component = readFileSync(join(process.cwd(), "src", "components", "TermHover.tsx"), "utf8");
+    expect(component).toContain('className="term-hover"');
+    expect(component).not.toContain("decoration-dotted");
+    expect(readFileSync(join(process.cwd(), "src", "app", "globals.css"), "utf8")).toMatch(/\.term-hover \{ @apply [^}]*cursor-help[^}]*decoration-dotted[^}]*\}/);
   });
 });

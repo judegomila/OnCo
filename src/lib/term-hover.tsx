@@ -103,12 +103,30 @@ export function termMarks(text: string, max = 4): TermMark[] {
 }
 
 /**
+ * The most hovers one paragraph carries unless the caller says otherwise. It was 12 until November 2026, and the
+ * cross-links census found that the cap, not the matcher, was why a fifth of the glossary terms mentioned in prose
+ * had no hover: a long paragraph on a cancer page names thirty records, and the terms after the twelfth were plain
+ * text. At 12 the cap cut 21,507 (record, term) mentions in the hovered fields; at 24 it cuts 1,186, and the 465
+ * paragraphs still over it are the ones where a hover on everything would be a wall of dotted underlines.
+ * scripts/measure-term-hovers.ts prints the figures for any cap.
+ */
+export const HOVER_CAP = 24;
+
+/**
+ * The matches `withTermHovers` wraps: first occurrence of each record in the text, leftmost-longest, at most `max`
+ * (0 for no limit). Exported so scripts/measure-term-hovers.ts counts with the function the pages call.
+ */
+export function hoverHits(text: string, opts: { skipId?: string; max?: number } = {}) {
+  return findMatches(matcher(), text, { key: (r) => r.id, skip: (r) => r.id === opts.skipId, max: opts.max ?? HOVER_CAP });
+}
+
+/**
  * Wrap the first occurrence of every record name or alias in a paragraph with a hover popover linking to
  * its page. Leftmost-longest matching, so "HER2-low" is linked as the glossary term rather than "HER2"
  * the target. Pure text in, React nodes out; call once per paragraph. Skips the page's own subject.
  */
 export function withTermHovers(text: string, opts: { skipId?: string; max?: number } = {}): ReactNode[] {
-  const hits = findMatches(matcher(), text, { key: (r) => r.id, skip: (r) => r.id === opts.skipId, max: opts.max ?? 12 });
+  const hits = hoverHits(text, opts);
   if (!hits.length) return [text];
   const out: ReactNode[] = [];
   let pos = 0;

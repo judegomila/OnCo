@@ -379,3 +379,20 @@ export const openQuestions: OpenQuestion[] = [
 ];
 
 export const questionsFor = (subject: string): OpenQuestion[] => openQuestions.filter((q) => q.subject === subject);
+
+/**
+ * The questions that name a record in `refs`: the reverse of a link only the question holds. An idea page lists the
+ * open questions it bears on from this, since nothing can name a question back (a question is not a record).
+ */
+export const questionsNaming = (id: string): OpenQuestion[] => openQuestions.filter((q) => q.refs.includes(id));
+
+/**
+ * The questions that reach a bottleneck through the ideas attacking it: no question names a bottleneck, but 81 of
+ * the 89 question-to-idea links name an idea that attacks one, so the bottleneck page can list them without anyone
+ * typing a second link. Each question comes with the first of those ideas that names it, in the order given.
+ */
+export function questionsThrough(ideaIds: string[]): Array<{ question: OpenQuestion; via: string }> {
+  const out = new Map<string, { question: OpenQuestion; via: string }>();
+  for (const via of ideaIds) for (const question of questionsNaming(via)) if (!out.has(question.id)) out.set(question.id, { question, via });
+  return [...out.values()];
+}

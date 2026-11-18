@@ -6,18 +6,16 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 18 November 2026
+- Side effects now show the protocol that manages them for eighty more rows, among them high blood pressure on VEGF drugs, heart rhythm changes, high blood sugar and lung inflammation on antibody-drug conjugates; and five pages stop throwing a browser error as they load
+- chore: check regional approvals against the EMA register (#459)
+- chore: refresh universe lists (NCI drugs and types, NCI centres, OECI, NHS alliances, NLM journals, OpenAlex, KEGG, ChEMBL, ClinicalTrials.gov, FDA OCE) (#458)
+- chore: refresh FDA approvals feed (OCE notifications, openFDA drugsfda) (#457)
+- chore: draft change proposals that need review (#456)
+- chore: EU regional rows read from the EMA register pages (#455)
+
 ### 17 November 2026
 - Second accuracy pass on the cancer pages: 31 cancers re-read claim by claim against the trials, labels and guidelines they cite, with about 2,700 corrections, among them approvals since withdrawn or granted, trials shown as awaited after they had reported, and survival gains that later analyses did not confirm; and the last thirteen care protocols
-- Fourteen more care protocols, for side effects that had none: high blood pressure and protein in the urine on VEGF drugs, heart rhythm changes, bleeding on BTK inhibitors, raised liver enzymes, lung inflammation on antibody-drug conjugates, fluid retention, high blood sugar, low magnesium, high phosphate, thyroid changes, differentiation syndrome, capillary leak, tumour flare and constipation; 226 protocols in all
-- Second accuracy pass on the original 39 country pages, among them the United States, China, India, Japan, Germany, Brazil and the United Kingdom: about 660 claims corrected after each was read against its source again
-- Second accuracy pass on live country pages, last batch for waves 5 to 12: corrections to Austria, Serbia, Denmark, Finland, Norway, Ireland, Hungary, Belarus, Bulgaria and North Korea, each claim read against its source again
-- Second accuracy pass on live country pages, continued: corrections to eighteen more pages, among them Haiti, Senegal, Slovenia, Mali, Papua New Guinea, Burkina Faso, Costa Rica, Paraguay, Belgium, Cuba, Czechia, Greece and Portugal, each claim read against its source again
-- Second accuracy pass on live country pages: corrections to 53 pages after every claim was read against its source again, including what the IAEA radiotherapy directory lists for 36 countries, WHO's HPV vaccination data where pages had said there was none, and sources pages had called unreadable that do answer
-- The first weekly gap fill read from FDA sources lands, each fact checked against the FDA list and device records: the Guardant360 Liquid CDx blood test approved on 19 May 2026 with its seven drug pairings, and four companion tests linked to the biomarkers they read
-- More of the graph is joined up: 1,251 confirmed links between people and the trials whose papers they wrote, matched by ORCID or full name and affiliation; who pays for 21 tests in the US and UK, from Medicare national coverage decisions and NICE guidance; fifty warning-card lines now name the protocol that manages them; and eight wrong side-effect links are removed
-- Twenty-two more care protocols close the gaps in the census, among them stoma care, drain care at home, transplant conditioning, veno-occlusive disease, lung biopsy, intrathecal chemotherapy in children, end-of-life care for children, advance care planning and stopping smoking after a diagnosis; 212 protocols in all, with a table of what is covered and what is still open
-- Shasqi in depth: its clinical programme SQ3370, its trial and the click-activated chemistry behind it, from the company's own pages, the registry and the published papers; the weekly gap-fill job gets the tools it needs to read its allowed sources; and the command-line tool and MCP server are rebuilt to know about care protocols
-- A contributor's education work arrives, 215 new records on biomarkers, immune tests, specimens, RNA and clinical evidence, with every source checked; and a backlog of corrections lands: new FDA approvals including pimicotinib, four generic icons removed from logos, mislabelled trials fixed, radiotherapy counts for Madagascar and Angola, the two Cuban lung cancer vaccines, and 33 records renamed for their subject
 - Second accuracy pass on cancer pages: merge the newest main, and bring six one-line descriptions up to date with facts this pass verified (daraxonrasib approval, Claudin 18.2 treatments, sacituzumab govitecan first-line approvals)
 - Second accuracy pass on the remaining care protocols: the fourteen written on 17 November, radiation safety, line care, procedures, enhanced recovery after surgery, follow-up and survivorship, each re-read against its guidelines and labels, with every correction logged
 - Second accuracy pass on care protocols, batch twelve: the last 13 protocols re-read against their sources (1,273 claims, 54 wrong, 260 unsupported, 17 unverifiable), so all 226 now have a second reader; doses and figures added during the pass re-read independently in 50 more files, with one survey count corrected and missing scalp-cooling contraindications added; advice on when to report bleeding restored from Cancer Research UK
@@ -43,6 +41,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Trial records brought into line with the registry: 206 stale statuses refreshed, fourteen phases corrected, trials that shared a registration number separated, and a terminated trial no longer shown as active; and 785 institution records read against their sources again, with 22 corrections
 - Institution records re-read against their sources, last batch: the records behind 43 more country pages, the log of all 24 corrections, and Belgium's note about its medicines agency, whose pages answered again
 - Institution records re-read against their sources, second batch: the Newsweek hospitals in Europe, the census of 83 smaller countries, and the records behind 36 more country pages, among them Indonesia, Turkey, Australia, Poland, Pakistan, Nigeria, Colombia, Belgium and Sweden
+- Side effects link the fourteen new care protocols that manage them
 - Second accuracy pass on cancer pages, gallbladder: 1,008 claims re-read against their sources, 148 wrong, 61 unsupported and 39 unverifiable corrected or labelled
 - chore: draft change proposals that need review (#441)
 - chore: EU regional rows read from the EMA register pages (#440)
@@ -91,6 +90,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - The National Cancer Institute and Cancer Research UK records carry their abbreviations as aliases
 - Fifty warning-card lines name the protocol that manages them
 - The scalp cooling record says in its first line what the cap is for, preventing or reducing hair loss, so a question about hair loss still finds it beside the longer care protocol
+- Chip titles render the same on server and client: the tooltip is written when the pointer reaches a chip, and the forest plot rounds its positions
 - The coverage table records that Europe PMC holds no open copy of the two interventional radiology standards on blood thinners before a biopsy, so that row stays open
 - A contributor's education work arrives, 215 new records on biomarkers, immune tests, specimens, RNA and clinical evidence, with every source checked; and a backlog of corrections lands: new FDA approvals including pimicotinib, four generic icons removed from logos, mislabelled trials fixed, radiotherapy counts for Madagascar and Angola, the two Cuban lung cancer vaccines, and 33 records renamed for their subject
 - Protocols page weight: the live page weighs 157,107 bytes, over the 155,000 ceiling, so the ceiling stays and the note says so

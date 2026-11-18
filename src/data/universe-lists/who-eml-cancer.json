@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-11",
+ "checked": "2026-11-18",
  "source": {
   "label": "WHO Model List of Essential Medicines (eEML), section 8.2 Antineoplastics and supportive medicines",
   "url": "https://list.essentialmeds.org/"
@@ -635,8 +635,8 @@
     "Malignant neoplasms of breast",
     "Malignant trophoblastic neoplasms of placenta",
     "Psoriasis of unspecified type",
-    "Rheumatoid arthritis, serology unspecified",
-    "Juvenile idiopathic arthritis"
+    "Juvenile idiopathic arthritis",
+    "Rheumatoid arthritis"
    ]
   },
   {

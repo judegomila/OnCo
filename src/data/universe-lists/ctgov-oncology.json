@@ -1,16 +1,16 @@
 {
- "checked": "2026-11-11",
+ "checked": "2026-11-18",
  "source": {
   "label": "ClinicalTrials.gov: interventional studies, condition 'cancer'",
   "url": "https://clinicaltrials.gov/search?cond=cancer&aggFilters=studyType:int"
  },
  "method": "ClinicalTrials.gov API v2 with query.cond=cancer and countTotal=true: interventional studies; of those, phase 3; of those, recruiting. Sponsors: distinct lead sponsor names (class INDUSTRY) across all phase 3 interventional cancer studies, so subsidiaries and name variants count separately.",
- "total": 98208,
- "phase3": 11097,
- "recruiting": 14358,
+ "total": 98329,
+ "phase3": 11105,
+ "recruiting": 14406,
  "industryPhase3": {
-  "studies": 4293,
-  "sponsors": 945
+  "studies": 4295,
+  "sponsors": 946
  },
  "items": [
   {
@@ -79,7 +79,7 @@
   },
   {
    "name": "Qilu Pharmaceutical Co., Ltd.",
-   "studies": 35
+   "studies": 36
   },
   {
    "name": "Boehringer Ingelheim",
@@ -110,11 +110,11 @@
    "studies": 25
   },
   {
-   "name": "Shanghai Henlius Biotech",
-   "studies": 24
+   "name": "Regeneron Pharmaceuticals",
+   "studies": 23
   },
   {
-   "name": "Regeneron Pharmaceuticals",
+   "name": "Shanghai Henlius Biotech",
    "studies": 23
   },
   {
@@ -322,6 +322,10 @@
    "studies": 8
   },
   {
+   "name": "Telix Pharmaceuticals (Innovations) Pty Limited",
+   "studies": 8
+  },
+  {
    "name": "Acerta Pharma BV",
    "studies": 7
   },
@@ -387,10 +391,6 @@
   },
   {
    "name": "Shanghai Bovax Biotechnology Co., Ltd.",
-   "studies": 7
-  },
-  {
-   "name": "Telix Pharmaceuticals (Innovations) Pty Limited",
    "studies": 7
   },
   {
@@ -1478,7 +1478,7 @@
    "studies": 2
   },
   {
-   "name": "Olema Pharmaceuticals, Inc.",
+   "name": "Olema Oncology, Inc.",
    "studies": 2
   },
   {
@@ -3079,6 +3079,10 @@
   },
   {
    "name": "NovaRx Corporation",
+   "studies": 1
+  },
+  {
+   "name": "Novatek Pharmaceuticals",
    "studies": 1
   },
   {

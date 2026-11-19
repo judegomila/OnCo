@@ -37,7 +37,8 @@ const apply = args.includes("--apply");
 const noFetch = args.includes("--no-fetch");
 const CACHE = "/tmp/fda-accelerated";
 const OUT = join(process.cwd(), "src", "data", "accelerated-approvals.ts");
-export const ACCELERATED_BASE = "https://www.fda.gov/drugs/resources-information-approved-drugs";
+/** The FDA moved these tables, with its approval notices, from /drugs/resources-information-approved-drugs/ in November 2026; the old addresses redirect here. */
+export const ACCELERATED_BASE = "https://www.fda.gov/drugs/cancer-approvals";
 const BASE = ACCELERATED_BASE;
 
 export const ACCELERATED_SOURCES: Array<{ id: AcceleratedTableId; slug: string; label: string }> = [
@@ -82,7 +83,8 @@ function tableRows(html: string): Array<{ cells: string[]; links: Array<string |
     const links: Array<string | undefined> = [];
     for (const td of tr[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)) {
       cells.push(cellText(td[1]));
-      const href = /<a[^>]*\shref="([^"]+)"/.exec(td[1])?.[1];
+      // A footnote marker is a link too ("#footnote1_815g9a4", an id that changes on every page build); it is not an announcement.
+      const href = [...td[1].matchAll(/<a[^>]*\shref="([^"]+)"/g)].map((m) => m[1]).find((h) => !h.startsWith("#"));
       links.push(href ? (href.startsWith("http") ? href : `https://www.fda.gov${href}`) : undefined);
     }
     if (cells.length) out.push({ cells, links });

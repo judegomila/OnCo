@@ -108,7 +108,7 @@ const trials: TrialInput[] = [
     replication: "CAPTAIN-1st and RATIONALE-309 independently confirmed PD-1 plus chemotherapy in NPC.",
     drugs: ["toripalimab"], targets: ["pd1"], cancers: ["head-and-neck", "nasopharyngeal", "recurrent-metastatic-nasopharyngeal-carcinoma"], institutions: ["sysucc"], trials: ["captain-1st"],
     links: [ct("NCT03581786"), { label: "6-year update, OncLive", url: "https://www.onclive.com/view/toripalimab-plus-chemo-maintains-survival-benefit-after-6-years-in-recurrent-metastatic-npc" }], people: ["ma-jun"] }),
-  t({ id: "liger-hn1", name: "LiGeR-HN1", nct: "NCT06525220", phase: "3", status: "positive", yearReported: 2026, sponsor: "Genmab (Merus)", enrolled: 699,
+  t({ id: "liger-hn1", name: "LiGeR-HN1", nct: "NCT06525220", phase: "3", status: "positive", yearReported: 2026, sponsor: "Genmab", enrolled: 699,
     setting: "Untreated PD-L1-positive recurrent or metastatic HNSCC: petosemtamab + pembrolizumab vs pembrolizumab",
     tldr: "Adding petosemtamab, a two-armed antibody against EGFR and a stem-cell marker, to first-line pembrolizumab halved the risk of death at the first interim analysis, announced in October 2026. Full results are not yet published.",
     result: "OS HR 0.50 (95% CI 0.37 to 0.67) at the first interim analysis; topline announcement only.",

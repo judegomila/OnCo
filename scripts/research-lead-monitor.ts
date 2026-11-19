@@ -536,12 +536,16 @@ export function corpusFrom(entities: GraphEntity[]): Corpus {
     if (e.nct) put(`nct:${e.nct.toUpperCase()}`, { id: e.id, kind: e.kind, by: "nct" });
     for (const l of e.links ?? []) for (const id of idsFromUrl(l.url)) put(idKey(id), { id: e.id, kind: e.kind, by: id.type });
   }
-  const kinds = ["drug", "trial"];
-  const matcher = new NameMatcher(matchableFromGraph(entities), kinds);
+  // Names are matched as whole words. Drugs match on any name, alias, brand or code. A trial matches only on a name
+  // that is plainly an acronym (KEYNOTE-189, DESTINY-Breast04, CheckMate 227): a registry title or a one-word alias
+  // such as "FIRST" would put a trial on every item that used the word.
+  const acronym = /^[A-Za-z]{2,}[A-Za-z0-9]*(?:[- ]?[A-Za-z]*\d+[A-Za-z0-9]*)+$/;
+  const named = entities.flatMap((e) => e.kind === "drug" ? [e] : e.kind === "trial" && acronym.test(e.name) ? [{ ...e, aka: [] }] : []);
+  const matcher = new NameMatcher(matchableFromGraph(named));
   const kindOf = new Map(entities.map((e) => [e.id, e.kind]));
   return {
     byIdentifier: (key) => index.get(key) ?? [],
-    byText: (text) => matcher.match(text, kinds).slice(0, 8).map((id) => ({ id, kind: kindOf.get(id) ?? "drug", by: "name" as const })),
+    byText: (text) => matcher.match(text).slice(0, 8).map((id) => ({ id, kind: kindOf.get(id) ?? "drug", by: "name" as const })),
   };
 }
 

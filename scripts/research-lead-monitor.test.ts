@@ -252,6 +252,7 @@ describe("the queue and the corpus", () => {
       { id: "p1", kind: "paper", name: "A paper", aka: [], doi: "10.1056/NEJMoa1", pmid: "123" },
       { id: "t1", kind: "trial", name: "KEYNOTE-000", aka: [], nct: "NCT00000001", links: [{ url: "https://doi.org/10.1200/JCO.1" }] },
       { id: "imid-x", kind: "drug", name: "Imidex", aka: [] },
+      { id: "t2", kind: "trial", name: "A Study of Safety First in Adults", aka: ["FIRST"] },
     ]);
     expect(corpus.byIdentifier("doi:10.1056/nejmoa1")).toEqual([{ id: "p1", kind: "paper", by: "doi" }]);
     expect(corpus.byIdentifier("pmid:123")).toEqual([{ id: "p1", kind: "paper", by: "pmid" }]);
@@ -259,6 +260,8 @@ describe("the queue and the corpus", () => {
     expect(corpus.byIdentifier("doi:10.1200/jco.1")).toEqual([{ id: "t1", kind: "trial", by: "doi" }]);
     expect(corpus.byText("Imidex improves survival")).toEqual([{ id: "imid-x", kind: "drug", by: "name" }]);
     expect(corpus.byText("a fluoropyrimidexate regimen")).toEqual([]);
+    expect(corpus.byText("Results of KEYNOTE-000 were presented")).toEqual([{ id: "t1", kind: "trial", by: "name" }]);
+    expect(corpus.byText("The FIRST notice on safety first in adults")).toEqual([]);
   });
   it("refuses a queue directory inside the checkout unless git ignores it", () => {
     expect(() => privateDir({ ONCO_RESEARCH_LEADS_DIR: "/repo/leads" }, "/repo", () => false)).toThrow(/inside the repository/);

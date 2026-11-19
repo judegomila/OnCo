@@ -457,7 +457,7 @@ export const simpleN: Record<string, string> = {
   anlotinib: "Anlotinib, from Chia Tai Tianqing, is a Chinese cancer pill, first approved there for lung cancer after other treatments failed and then for several rarer tumours.",
   rivoceranib: "Apatinib, Hengrui's pill known as rivoceranib outside China, has been approved in China for stomach cancer since 2014 and is paired there with camrelizumab as a first-line liver cancer treatment.",
   donafenib: "Zelgen's donafenib is a redesign of sorafenib that helped liver cancer patients live longer than the original in a head-to-head trial, and China approved it as a first-line option.",
-  orelabrutinib: "Orelabrutinib is InnoCare's BTK-blocking pill [it blocks a signal that keeps some blood cancers growing], approved in China since 2020 for chronic lymphocytic leukaemia, mantle cell lymphoma and marginal zone lymphoma.",
+  orelabrutinib: "Orelabrutinib is a BTK-blocking pill [it blocks a signal that keeps some blood cancers growing], approved in China since 2020 for chronic lymphocytic leukaemia and two kinds of lymphoma.",
   dalpiciclib: "Dalpiciclib is Hengrui's CDK4/6 inhibitor [a pill that blocks cell-division enzymes], the first China-developed drug of its class, approved for hormone-driven advanced breast cancer on the DAWNA trials.",
   tucidinostat: "Chidamide (tucidinostat), from Chipscreen, is an epigenetic cancer drug [it changes how genes switch on] invented in China, used for T-cell lymphoma and, with hormone therapy, breast cancer.",
   innovent: "Innovent Biologics, a listed Suzhou biotech founded in 2011, makes sintilimab, China's best-selling PD-1 antibody, and has become a source of next-generation cancer drugs for Roche and Takeda.",

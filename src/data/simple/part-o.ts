@@ -33,7 +33,7 @@ export const simpleO: Record<string, string> = {
   "mucinous-ovarian-cancer": "Mucinous ovarian cancer is rare, usually found in one large ovary and cured by surgery, and its genetics look more like bowel cancer than ovarian cancer.",
   "muscle-invasive-bladder-cancer": "Once bladder cancer grows into the muscle wall it needs chemotherapy and bladder removal or chemoradiation, and enfortumab vedotin with pembrolizumab is now the first treatment for spread disease.",
   "prostate-nepc": "Neuroendocrine prostate cancer no longer depends on the androgen receptor, stops showing on PSA tests, and is treated with the platinum chemotherapy used for small-cell lung cancer.",
-  "non-hodgkin-lymphoma": "Non-Hodgkin lymphoma is a family of about sixty cancers of B, T or NK cells, some slow and some aggressive, and each subtype has its own treatment.",
+  "non-hodgkin-lymphoma": "Non-Hodgkin lymphoma is a family of more than sixty cancers of B, T or NK cells, some slow and some aggressive, and each subtype has its own treatment.",
   "prostate-nmcrpc": "Non-metastatic castration-resistant prostate cancer is a rising PSA on hormone therapy with clean scans, and apalutamide, enzalutamide or darolutamide delay spread and lengthen life.",
   "non-muscle-invasive-bladder-cancer": "Most bladder cancers are found while still in the lining and are scraped out through the urethra, with BCG put into the bladder for higher-risk cases.",
   "non-seminoma": "Non-seminoma is the faster-growing half of testicular cancer, marked by AFP and hCG in the blood, and surgery plus cisplatin chemotherapy cures most people.",

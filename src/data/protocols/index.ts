@@ -148,6 +148,7 @@ import { iraeSteroidTaperAndPjp } from "./irae-steroid-taper-and-pjp";
 import { iraeThyroid } from "./irae-thyroid";
 import { irinotecanEarlyCholinergicSyndromeAndLateDiarrhoea } from "./irinotecan-early-cholinergic-syndrome-and-late-diarrhoea";
 import { jointAndMusclePainOnAnticancerDrugs } from "./joint-and-muscle-pain-on-anticancer-drugs";
+import { leftVentricularDysfunctionOnHer2TargetedDrugs } from "./left-ventricular-dysfunction-on-her2-targeted-drugs";
 import { linearAcceleratorQualityAssurance } from "./linear-accelerator-quality-assurance";
 import { longTermFollowUpAfterChildhoodCancer } from "./long-term-follow-up-after-childhood-cancer";
 import { lowPotassiumAndLowPhosphateOnAnticancerDrugs } from "./low-potassium-and-low-phosphate-on-anticancer-drugs";
@@ -395,6 +396,7 @@ export const protocols: ProtocolInput[] = [
   iraeThyroid,
   irinotecanEarlyCholinergicSyndromeAndLateDiarrhoea,
   jointAndMusclePainOnAnticancerDrugs,
+  leftVentricularDysfunctionOnHer2TargetedDrugs,
   linearAcceleratorQualityAssurance,
   longTermFollowUpAfterChildhoodCancer,
   lowPotassiumAndLowPhosphateOnAnticancerDrugs,

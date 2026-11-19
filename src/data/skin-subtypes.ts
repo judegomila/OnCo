@@ -271,7 +271,7 @@ export const skinSubtypes: CancerInput[] = [
       { year: 2025, title: "CheckMate 067 ten-year results: 43 percent alive on the combination", refs: ["checkmate-067"] },
       { year: 2026, title: "RP1 with nivolumab receives accelerated US approval for PD-1-refractory melanoma; fianlimab phase 3 misses", refs: ["vusolimogene-oderparepvec"] },
     ],
-    pipeline: ["fianlimab", "prism-mel-301", "brenetafusp", "nct06743126", "ima203", "nct05727904", "lifileucel", "vusolimogene-oderparepvec", "fmt-checkpoint-nonresponders", "io102-io103", "nct06697301", "eik1001", "seacraft-2", "nct06008106", "tunlametinib", "nct05625399"],
+    pipeline: ["fianlimab", "prism-mel-301", "brenetafusp", "nct06743126", "ima203", "nct05727904", "lifileucel", "vusolimogene-oderparepvec", "fmt-checkpoint-nonresponders", "nct06697301", "eik1001", "seacraft-2", "nct06008106", "tunlametinib", "nct05625399"],
     openProblems: ["About four in ten patients never respond to PD-1 blockade and no biomarker reliably identifies them.", "Who needs the ipilimumab component and its toxicity, and whether relatlimab can replace it, has not been settled.", "Acral, mucosal and uveal melanomas respond far less well and have few dedicated trials."],
     targets: ["pd1", "ctla4", "lag3", "braf", "kit", "prame"], technologies: ["checkpoint-inhibitor", "til-therapy", "oncolytic-virus", "lag3-blockade", "tcr-t", "radiosurgery-srs"], pathways: ["pd1-checkpoint", "ras-mapk"], terms: ["fixed-duration", "brain-metastases", "irae", "interferon-gamma-signature"], drugs: ["nivolumab", "ipilimumab", "pembrolizumab", "relatlimab-nivolumab", "lifileucel", "vusolimogene-oderparepvec", "talimogene-laherparepvec", "dacarbazine", "aldesleukin"], trials: ["checkmate-067", "relativity-047", "keynote-006", "dreamseq", "checkmate-204", "c-144-01", "combi-d", "cobrim", "columbus"], related: ["secondary-brain-tumours", "braf-v600-melanoma", "uveal-melanoma", "stage-iii-melanoma", "mucosal-melanoma", "acral-melanoma"], people: ["jedd-wolchok", "james-larkin", "caroline-robert", "hussein-tawbi", "f-stephen-hodi", "michael-postow", "antoni-ribas"],
     links: [{ label: "CheckMate 067 ten-year results (NEJM 2025)", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2407417" }, { label: "KEYNOTE-006 ten-year follow-up (Annals of Oncology 2024)", url: "https://doi.org/10.1016/j.annonc.2024.08.2330" }, { label: "Dutch TIL trial (NEJM 2022)", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2210233" }, { label: "Wikipedia", url: W("Melanoma") }] },
@@ -429,12 +429,12 @@ export const skinSubtypes: CancerInput[] = [
 /** Chinese TL;DRs for the records above, folded into src/data/i18n/zh.ts by scripts/fold-zh.ts. */
 export const tldrZh: Record<string, string> = {
   "braf-v600-melanoma": "BRAF V600突变黑色素瘤由一个失控的开关驱动生长，BRAF抑制剂联合MEK抑制剂两种药片可以关闭这个开关，数周内使肿瘤缩小。通常先用免疫治疗，因为其效果更持久，靶向药留到后线，或在手术后服用一年以预防复发。",
-  "stage-iii-melanoma": "III期黑色素瘤已扩散至附近淋巴结但未及远处，术后一年的免疫治疗，或对携带BRAF突变者使用靶向药，可使复发风险大约减半。最新试验显示，在手术前而非手术后给予免疫治疗效果更好，并让多数人可以提前停止治疗。",
-  "stage-ii-melanoma": "IIB和IIC期黑色素瘤是较厚或有溃疡但尚未累及淋巴结的皮肤黑色素瘤，仍有真实的复发风险。术后一年的帕博利珠单抗或纳武利尤单抗可降低这一风险，但这一组中多数人仅靠手术即可治愈，因此需要在有限的获益与一年治疗之间权衡。",
-  "advanced-melanoma": "晚期黑色素瘤已扩散至手术无法切除的范围，它是免疫治疗首次证明能够治愈部分患者的癌症：接受纳武利尤单抗联合伊匹木单抗的患者约半数在十年后仍然存活。免疫治疗失败后，现有选择包括由患者自身免疫细胞培养而成的细胞疗法、注入肿瘤的病毒，以及针对BRAF突变患者的靶向药。",
+  "stage-iii-melanoma": "III期黑色素瘤已扩散至附近淋巴结但未及远处，术后一年的免疫治疗，或对携带BRAF突变者使用靶向药，可使复发风险降低约40%至50%。最新试验显示，在手术前而非手术后给予免疫治疗效果更好，并让多数人可以提前停止治疗。",
+  "stage-ii-melanoma": "IIB和IIC期黑色素瘤是较厚或有溃疡但尚未累及淋巴结的皮肤黑色素瘤，仍有真实的复发风险。术后一年的帕博利珠单抗或纳武利尤单抗可降低这一风险，但这一组中半数以上的人仅靠手术即可不再复发，因此需要在有限的获益与一年治疗之间权衡。",
+  "advanced-melanoma": "晚期黑色素瘤已扩散至手术无法切除的范围，它是免疫治疗首次证明能够治愈部分患者的癌症：在主要试验中接受纳武利尤单抗联合伊匹木单抗的患者有43%在十年后仍然存活。免疫治疗失败后，现有选择包括由患者自身免疫细胞培养而成的细胞疗法、注入肿瘤的病毒，以及针对BRAF突变患者的靶向药。",
   "mucosal-melanoma": "黏膜黑色素瘤生长在鼻腔、口腔、肛门或生殖道的湿润黏膜而非日晒皮肤上，因此发现较晚，且缺少使皮肤黑色素瘤易被免疫系统识别的突变。免疫治疗的有效率低于皮肤黑色素瘤；少数肿瘤携带KIT突变，可用口服药伊马替尼靶向治疗。",
   "acral-melanoma": "肢端黑色素瘤生长在足底、手掌或指甲下等无日晒部位，是深色皮肤人群中最常见的黑色素瘤。它常被误认为疣、瘀伤或甲真菌病而发现较晚；治疗参照皮肤黑色素瘤，但因肿瘤突变较少，免疫治疗有效率较低。",
-  "advanced-cutaneous-scc": "晚期皮肤鳞状细胞癌是已生长到手术或放疗无法切除，或已扩散至淋巴结或器官的皮肤癌。由于日晒损伤使其突变数量几乎超过所有其他癌症，免疫治疗效果很好：西米普利单抗或帕博利珠单抗可使约半数肿瘤缩小且常持续数年，术前使用西米普利单抗可使大肿瘤完全消失。",
+  "advanced-cutaneous-scc": "晚期皮肤鳞状细胞癌是已生长到手术或放疗无法切除，或已扩散至淋巴结或器官的皮肤癌。由于日晒损伤使其突变数量几乎超过所有其他癌症，免疫治疗效果很好：西米普利单抗或帕博利珠单抗可使三分之一至一半的肿瘤缩小且常持续一年以上，术前使用西米普利单抗可使大肿瘤完全消失。",
   "locally-advanced-bcc": "局部晚期基底细胞癌是通常位于面部、已生长得过大或过深、手术或放疗无法在不造成严重损伤的情况下切除的皮肤癌。几乎所有这类肿瘤都依赖Hedgehog生长通路，维莫德吉和索尼德吉两种药片可使约四成肿瘤缩小；当药片失效或无法耐受时使用西米普利单抗免疫治疗。",
   "dermatofibrosarcoma-protuberans": "隆突性皮肤纤维肉瘤是一种罕见、生长缓慢的深层皮肤癌，通常表现为躯干上的坚硬斑块或肿块，常被误认为瘢痕或囊肿多年。宽切缘手术可治愈大多数患者；对少数无法切除或已扩散者，伊马替尼有效，因为几乎每个此类肿瘤都由伊马替尼可阻断的单一基因融合驱动。",
 };

@@ -195,9 +195,9 @@ export const contrastAgentDrugs: DrugInput[] = [
     modality: "Barium sulfate contrast agent for X-ray and CT of the gut (oral)", mechanism: "Insoluble barium sulfate coats and fills the gut and absorbs X-rays, outlining the oesophagus, stomach and bowel.",
     tldr: "The chalky drink swallowed before some CT scans and X-rays so the gullet, stomach and bowel show up clearly.",
     summary: "Drugs@FDA lists Bracco's barium sulfate products under NDA 208143 (original approval 15 January 2016), including Readi-Cat 2, Liquid E-Z-Paque, Varibar, Entero Vu and Tagitol V. Readi-Cat 2 is indicated \"for use in computed tomography (CT) of the abdomen to delineate the gastrointestinal (GI) tract in adult and pediatric patients\"; Liquid E-Z-Paque for \"single contrast radiographic examinations of the esophagus, stomach, and small bowel\".",
-    approvals: [{ region: "US", year: 2016, indication: "CT of the abdomen to delineate the gastrointestinal tract; radiographic examination of the oesophagus, stomach and small bowel", note: "NDA 208143; Bracco" }],
+    approvals: [{ region: "US", year: 2016, indication: "CT of the abdomen to delineate the gastrointestinal tract (Readi-Cat 2)", note: "NDA 208143; Bracco" }, { region: "US", year: 2017, indication: "Single contrast radiographic examination of the oesophagus, stomach and small bowel (Liquid E-Z-Paque)", note: "NDA 208143, supplement 2, approved 1 March 2017; Bracco" }],
     companies: ["bracco"], technologies: ICM,
-    links: [daf("208143", "Barium sulfate products (NDA 208143)"), dm("d2d293d5-dcc9-0d3f-58ed-686ef0132d7c", "Readi-Cat 2"), dm("2ecea1ab-66c8-4eb0-8503-6d6b41b51328", "Liquid E-Z-Paque")] }),
+    links: [daf("208143", "Barium sulfate products (NDA 208143)"), { label: "FDA approval letter, 15 January 2016 (Readi-Cat 2)", url: "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/208143Orig1s000ltr.pdf" }, { label: "FDA approval letter, 1 March 2017 (Liquid E-Z-Paque)", url: "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/208143Orig1s002ltr.pdf" }, dm("d2d293d5-dcc9-0d3f-58ed-686ef0132d7c", "Readi-Cat 2"), dm("2ecea1ab-66c8-4eb0-8503-6d6b41b51328", "Liquid E-Z-Paque")] }),
 
   // Ultrasound microbubbles
   d({ id: "sulfur-hexafluoride-microspheres", name: "Sulfur hexafluoride microbubbles (ultrasound contrast)", brand: "Lumason", aka: ["sulfur hexafluoride", "sulphur hexafluoride", "Lumason", "SonoVue"], status: "approved",
@@ -238,7 +238,7 @@ export const contrastAgentDrugs: DrugInput[] = [
     tldr: "A blue dye given into a vein near the end of an operation on the pelvis, so the surgeon can see blue urine coming from each ureter and check they were not damaged.",
     summary: "Provepharm's Bludigo (NDA 216264, first approved 8 July 2022) \"is indicated for use as a visualization aid in the cystoscopic assessment of the integrity of the ureters in adults following urological and gynecological open, robotic, or endoscopic surgical procedures\".",
     approvals: [{ region: "US", year: 2022, indication: "Visualisation aid in cystoscopic assessment of ureteric integrity after urological and gynaecological surgery", note: "NDA 216264; Provepharm" }],
-    technologies: ["fluorescence-guided-surgery"],
+    technologies: [],
     links: [daf("216264", "Bludigo (NDA 216264)"), dm("2b91c39d-5f15-4dcf-9d3d-b378470e6bd7", "Bludigo")] }),
 ];
 

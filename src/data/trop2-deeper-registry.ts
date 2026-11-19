@@ -8,7 +8,7 @@ export const trop2DeeperRegistry: EntityInput[] = [
     "name": "MT-302",
     "modality": "In vivo myeloid cell therapy (mRNA lipid nanoparticles)",
     "status": "phase-1",
-    "asOf": "2026-10-06",
+    "asOf": "2026-11-18",
     "tldr": "MT-302 programs myeloid immune cells inside the body to recognise TROP-2-bearing cancers. It is an experimental treatment in an early clinical trial.",
     "summary": "The 2025 ASCO correlative abstract describes intravenous mRNA-LNP delivery of an anti-TROP2 scFv/truncated-CD89 CAR, functionally active upon association with FcRgamma-expressing myeloid cells. It reports tumour and blood pharmacodynamic observations, not a comparative efficacy estimate. NCT05969041 remains recruiting in its last registry update, dated January 2024; planned enrolment is 48. The registry age does not establish current local slot availability.",
     "targets": [
@@ -90,8 +90,8 @@ export const trop2DeeperRegistry: EntityInput[] = [
     "name": "STI-3258",
     "modality": "Antibody-drug conjugate",
     "status": "historic",
-    "asOf": "2026-10-06",
-    "tldr": "The first registered STI-3258 TROP-2 study was withdrawn before enrolling any participants.",
+    "asOf": "2026-11-18",
+    "tldr": "The only study of STI-3258 registered on ClinicalTrials.gov, a TROP-2 study, was withdrawn before enrolling any participants.",
     "summary": "NCT05060276 describes an anti-TROP2 antibody-drug conjugate phase 1 study, withdrawn with zero actual participants because the protocol changed to phase 2. Withdrawal of this study is not evidence of clinical inefficacy or proof that the entire asset was abandoned.",
     "targets": [
       "trop2"

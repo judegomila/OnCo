@@ -5,12 +5,12 @@ const asOf = "2026-10-06";
 
 export const trop2DualPayload: EntityInput[] = [
   {
-    id: "asp2998", kind: "drug", name: "ASP2998", code: "ASP2998", asOf,
+    id: "asp2998", kind: "drug", name: "ASP2998", code: "ASP2998", asOf: "2026-11-18",
     modality: "ADC", status: "phase-1", tags: ["pipeline", "dual-payload", "immunostimulatory"],
     payload: "Topoisomerase I inhibitor and STING agonist",
     mechanism: "TROP2-directed antibody carrying a cytotoxic topoisomerase I inhibitor and a STING immune agonist. This is an immunostimulatory dual-payload ADC, rather than two cytotoxic payloads.",
     tldr: "An experimental drug that uses an antibody to deliver a cancer-killing drug and an immune activator to cells carrying TROP2. An early human study is recruiting; benefit and safety are still being tested.",
-    summary: "ASP2998 is Astellas's TROP2-targeted immunostimulatory dual-payload ADC, discovered through collaborative research with Sutro Biopharma. The phase 1b/2 first-in-human study NCT07287995 evaluates monotherapy and tumor-specific combinations. The registry, last updated 2 September 2026 and checked 6 October, lists recruiting status, an actual start on 5 February 2026 and estimated enrollment of 428. The earlier ASCO 2026 trial-in-progress abstract planned 196 participants; it is not an efficacy readout. No results are posted in the registry. Astellas lists the program in phase 1; the registered phase 1/2 design does not establish completion of phase 1 or demonstrated efficacy.",
+    summary: "ASP2998 is Astellas's TROP2-targeted immunostimulatory dual-payload ADC, discovered through collaborative research with Sutro Biopharma. The phase 1b/2 first-in-human study NCT07287995 evaluates monotherapy and tumor-specific combinations. The registry, last updated 22 October 2026 and checked 18 November, lists recruiting status, an actual start on 5 February 2026 and estimated enrollment of 428. The earlier ASCO 2026 trial-in-progress abstract planned 196 participants; it is not an efficacy readout. No results are posted in the registry. Astellas lists the program in phase 1; the registered phase 1/2 design does not establish completion of phase 1 or demonstrated efficacy.",
     targets: ["trop2"], technologies: ["adc", "dual-payload-adc"], companies: ["astellas"], trials: ["nct07287995"],
     links: [
       { label: "Astellas pipeline: ASP2998 and Sutro collaboration", url: "https://www.astellas.com/en/science/research-and-development/pipeline" },
@@ -21,12 +21,12 @@ export const trop2DualPayload: EntityInput[] = [
     ],
   },
   {
-    id: "kh815", kind: "drug", name: "KH815", code: "KH815", asOf,
+    id: "kh815", kind: "drug", name: "KH815", code: "KH815", asOf: "2026-11-18",
     modality: "ADC", status: "phase-1", tags: ["pipeline", "dual-payload"],
     payload: "Topoisomerase I inhibitor and RNA polymerase II inhibitor",
     mechanism: "A humanized TROP2-directed hRS7 antibody delivers a topoisomerase I inhibitor and an RNA polymerase II inhibitor. The two payload classes act on DNA damage and RNA synthesis, respectively.",
     tldr: "An experimental antibody drug that carries two cancer-killing payloads to cells carrying TROP2. A first human study is registered but is still listed as not yet recruiting in an older record.",
-    summary: "KH815 is a TROP2-directed dual-payload ADC from Chengdu Kanghong Biotech. AACR 2025 abstract 1586 describes TOP1 and RNA polymerase II inhibitor payloads and preclinical tumor-model and non-GLP primate findings; those findings do not establish human safety or comparative benefit. Its registered phase 1 study NCT06885645 plans 30 participants with advanced solid tumors. The record last posted 3 April 2025 still says NOT_YET_RECRUITING when checked 6 October 2026, with an estimated start of 30 April 2025 and no posted results. Registration and a past estimated start do not establish that dosing has begun; current recruitment requires sponsor confirmation.",
+    summary: "KH815 is a TROP2-directed dual-payload ADC from Chengdu Kanghong Biotech. AACR 2025 abstract 1586 describes TOP1 and RNA polymerase II inhibitor payloads and preclinical tumor-model and non-GLP primate findings; those findings do not establish human safety or comparative benefit. Its registered phase 1 study NCT06885645 plans 30 participants with advanced solid tumors. The record last posted 3 April 2025 still says NOT_YET_RECRUITING when checked again on 18 November 2026, with an estimated start of 30 April 2025 and no posted results. Registration and a past estimated start do not establish that dosing has begun; current recruitment requires sponsor confirmation.",
     targets: ["trop2"], technologies: ["adc", "dual-payload-adc"], trials: ["nct06885645"],
     links: [
       { label: "AACR 2025 abstract 1586: KH815 payloads and preclinical evidence", url: "https://doi.org/10.1158/1538-7445.am2025-1586" },

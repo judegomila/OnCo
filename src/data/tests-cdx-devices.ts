@@ -23,6 +23,12 @@ const PMA = (n: string) => ({ label: `FDA PMA ${n}`, url: `https://www.accessdat
 const HDE = (n: string) => ({ label: `FDA HDE ${n}`, url: `https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfhde/hde.cfm?id=${n}` });
 const K510 = (n: string) => ({ label: `FDA 510(k) ${n}`, url: `https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=${n}` });
 const FDA_CDX_LIST = { label: "FDA: List of FDA-Authorized Companion Diagnostic Devices", url: "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools" };
+// The original-approval entry of a PMA in openFDA's copy of the FDA PMA database, used beside the FDA's own PMA page
+// for the devices added on 19 November 2026. openFDA's field definitions (https://open.fda.gov/fields/devicepma.yaml)
+// define decision code APPR as "Approval: PMA has been approved." and APWD as "Withdrawal after approval." The FDA's
+// own PMA page prints the withdrawal date, which openFDA does not carry.
+const OPENFDA_PMA = (n: string) => ({ label: `openFDA PMA record ${n} (original approval)`, url: `https://api.fda.gov/device/pma.json?search=pma_number:${n}+AND+supplement_number:%22%22` });
+const OPENFDA_PMA_FIELDS = { label: "openFDA: PMA field definitions, including decision codes", url: "https://open.fda.gov/fields/devicepma.yaml" };
 
 const d = (x: Omit<DrugInput, "kind" | "asOf"> & { asOf?: string }): DrugInput => ({ kind: "drug", asOf, tags: ["test", ...(x.tags ?? [])], ...x });
 const co = (x: Omit<CompanyInput, "kind" | "asOf">): CompanyInput => ({ kind: "company", asOf, ...x });
@@ -56,7 +62,7 @@ const devices: DrugInput[] = [
   d({ id: "vysis-cll-fish", name: "Vysis CLL FISH Probe Kit", brand: "Vysis CLL FISH Probe Kit", modality: "FISH companion diagnostic test (chromosome 17p deletion, blood)", status: "approved",
     mechanism: "Fluorescence in situ hybridisation on peripheral blood cells to detect deletion of chromosome 17p, the region that carries TP53.",
     tldr: "The FDA-approved blood test for the 17p deletion in chronic lymphocytic leukaemia, approved alongside venetoclax.",
-    summary: "Abbott Molecular's Vysis CLL FISH Probe Kit was approved on 11 April 2016 (PMA P150041) as the companion diagnostic for venetoclax in B-cell chronic lymphocytic leukaemia with deletion 17p.",
+    summary: "Abbott Molecular's Vysis CLL FISH Probe Kit was approved on 11 April 2016 (PMA P150041) as the companion diagnostic for venetoclax in B-cell chronic lymphocytic leukaemia with deletion 17p. Venetoclax's US label has since widened: the label of May 2026 covers adults with chronic lymphocytic leukaemia or small lymphocytic lymphoma and no longer asks for a 17p deletion. The FDA's device database shows the kit reclassified on 16 September 2026 and now lists this kind of test as class II.",
     approvals: [{ region: "US", year: 2016, indication: "Companion diagnostic for venetoclax in chronic lymphocytic leukaemia with deletion 17p" }],
     targets: ["tp53"], drugs: ["venetoclax"], cancers: ["cll"], companies: ["abbott"],
     technologies: ["companion-diagnostic", "cytogenetics-fish"], terms: ["fish", "companion-diagnostic-term"],
@@ -85,7 +91,7 @@ const devices: DrugInput[] = [
     summary: "Roche Molecular Systems' cobas 4800 BRAF V600 Mutation Test was approved on 17 August 2011 (PMA P110020) as the companion diagnostic for vemurafenib in BRAF V600E melanoma. A supplement on 7 November 2016 added cobimetinib with vemurafenib for V600E or V600K melanoma.",
     approvals: [{ region: "US", year: 2011, indication: "Companion diagnostic for vemurafenib in BRAF V600E melanoma" }, { region: "US", year: 2016, indication: "Companion diagnostic for cobimetinib with vemurafenib (V600E or V600K)" }],
     targets: ["braf"], drugs: ["vemurafenib", "cobimetinib"], cancers: ["melanoma"], companies: ["roche-genentech"],
-    technologies: ["companion-diagnostic"], terms: ["pcr", "companion-diagnostic-term"], related: ["thxid-braf"],
+    technologies: ["companion-diagnostic"], terms: ["pcr", "companion-diagnostic-term"], related: ["thxid-braf", "pgdx-elio-tissue-complete-cdx"],
     links: [PMA("P110020"), FDA_CDX_LIST] }),
   d({ id: "thxid-braf", name: "THxID BRAF Kit", brand: "THxID BRAF", aka: ["THXID BRAF Kit", "bioMérieux THxID BRAF"], modality: "PCR companion diagnostic test (BRAF V600E and V600K, melanoma tissue)", status: "withdrawn",
     mechanism: "Detects BRAF V600E and V600K mutations in DNA from melanoma tissue.",
@@ -94,7 +100,7 @@ const devices: DrugInput[] = [
     approvals: [{ region: "US", year: 2013, indication: "Companion diagnostic for dabrafenib (V600E) and trametinib (V600E or V600K) in melanoma" }, { region: "US", year: 2018, indication: "Companion diagnostic for encorafenib with binimetinib" }],
     notes: ["PMA P120014 shows a withdrawal date of 24 June 2024 in the FDA PMA database (read 3 November 2026)."],
     targets: ["braf"], drugs: ["dabrafenib", "trametinib", "encorafenib", "binimetinib"], cancers: ["melanoma"], companies: ["biomerieux"],
-    technologies: ["companion-diagnostic"], terms: ["pcr", "companion-diagnostic-term"], related: ["cobas-4800-braf-v600"],
+    technologies: ["companion-diagnostic"], terms: ["pcr", "companion-diagnostic-term"], related: ["cobas-4800-braf-v600", "pgdx-elio-tissue-complete-cdx"],
     links: [PMA("P120014"), FDA_CDX_LIST] }),
 
   // ---- Lung ----
@@ -116,9 +122,9 @@ const devices: DrugInput[] = [
     links: [PMA("P140025"), FDA_CDX_LIST] }),
   d({ id: "ventana-met-sp44", name: "VENTANA MET (SP44) RxDx Assay", brand: "VENTANA MET (SP44) RxDx Assay", modality: "Immunohistochemistry companion diagnostic assay (MET protein, lung tumour tissue)", status: "approved",
     mechanism: "Immunohistochemistry with the SP44 antibody; the FDA list defines the selecting result as at least 50% of tumour cells with strong (3+) membrane and/or cytoplasmic staining.",
-    tldr: "The MET protein stain that selects people with lung cancer for telisotuzumab vedotin.",
-    summary: "Ventana Medical Systems' (Roche Tissue Diagnostics) MET (SP44) RxDx Assay was approved on 14 May 2025 (PMA P240037) as the companion diagnostic for telisotuzumab vedotin in non-small-cell lung cancer with high MET protein expression. It measures protein, not a MET gene change, so it selects a different group from tests for MET exon 14 skipping.",
-    approvals: [{ region: "US", year: 2025, indication: "Companion diagnostic for telisotuzumab vedotin in NSCLC with MET protein overexpression" }],
+    tldr: "The MET protein stain that selects people with non-squamous non-small-cell lung cancer for telisotuzumab vedotin.",
+    summary: "Ventana Medical Systems' (Roche Tissue Diagnostics) MET (SP44) RxDx Assay was approved on 14 May 2025 (PMA P240037) as the companion diagnostic for telisotuzumab vedotin in non-squamous non-small-cell lung cancer with high MET protein expression. It measures protein, not a MET gene change, so it selects a different group from tests for MET exon 14 skipping.",
+    approvals: [{ region: "US", year: 2025, indication: "Companion diagnostic for telisotuzumab vedotin in non-squamous NSCLC with high MET protein overexpression" }],
     targets: ["met"], drugs: ["telisotuzumab-vedotin"], cancers: ["nsclc"], companies: ["roche-genentech"],
     technologies: ["companion-diagnostic", "histopathology-ihc"], terms: ["ihc", "companion-diagnostic-term"],
     links: [PMA("P240037"), FDA_CDX_LIST] }),
@@ -133,10 +139,10 @@ const devices: DrugInput[] = [
   d({ id: "onco-reveal-dx-lung-colon", name: "ONCO/Reveal Dx Lung and Colon Cancer Assay", brand: "ONCO/Reveal Dx Lung & Colon Cancer Assay", aka: ["ONCO/Reveal Dx Lung & Colon Cancer Assay", "O/RDx-LCCA"], modality: "Tissue NGS companion diagnostic test (KRAS and EGFR)", status: "approved",
     mechanism: "Next-generation sequencing of tumour tissue for KRAS codon 12 and 13 mutations in colorectal cancer and EGFR exon 19 deletions or the exon 21 L858R mutation in lung cancer.",
     tldr: "A sequencing test that confirms KRAS is unmutated before cetuximab or panitumumab in bowel cancer, and finds common EGFR mutations in lung cancer.",
-    summary: "Pillar Biosciences' ONCO/Reveal Dx Lung & Colon Cancer Assay was approved on 30 July 2021 (PMA P200011). In colorectal cancer it identifies KRAS wild-type tumours (no mutation in codons 12 and 13) for cetuximab or panitumumab. In non-small-cell lung cancer it carries a group claim: EGFR exon 19 deletions or L858R for any tyrosine kinase inhibitor the FDA has approved for that use, which the FDA list names as erlotinib, osimertinib, gefitinib, afatinib, dacomitinib and lazertinib (as part of a combination).",
+    summary: "Pillar Biosciences' ONCO/Reveal Dx Lung & Colon Cancer Assay was approved on 30 July 2021 (PMA P200011). In colorectal cancer it identifies KRAS wild-type tumours (no mutation in codons 12 and 13) for cetuximab or panitumumab. In non-small-cell lung cancer it carries a group claim: EGFR exon 19 deletions or L858R for any tyrosine kinase inhibitor the FDA has approved for that use, which the FDA list names as erlotinib, osimertinib, gefitinib, afatinib, dacomitinib and lazertinib (as part of a combination). A supplement approved on 18 April 2024 (P200011/S001) added tumour mutation profiling of solid tumours under the name oncoReveal CDx.",
     approvals: [{ region: "US", year: 2021, indication: "KRAS wild-type for cetuximab or panitumumab in colorectal cancer; EGFR exon 19 deletion or L858R for approved EGFR inhibitors in NSCLC (group labelling)" }],
     targets: ["kras", "egfr"], drugs: ["cetuximab", "panitumumab", "erlotinib", "osimertinib", "gefitinib", "afatinib", "dacomitinib", "lazertinib"], cancers: ["colorectal", "nsclc"], companies: ["pillar-biosciences"],
-    technologies: ["companion-diagnostic"], terms: ["ngs", "companion-diagnostic-term"],
+    technologies: ["companion-diagnostic"], terms: ["ngs", "companion-diagnostic-term"], related: ["cobas-kras-mutation-test"],
     links: [PMA("P200011"), FDA_CDX_LIST] }),
 
   // ---- Breast, gastric and HER2 ----
@@ -154,7 +160,7 @@ const devices: DrugInput[] = [
     summary: "The HER2 FISH pharmDx Kit (Dako, now part of Agilent) was approved on 3 May 2005 (PMA P040005) for trastuzumab in breast cancer. Supplements extended it to trastuzumab in gastric and gastro-oesophageal cancer (20 October 2010), pertuzumab in breast cancer (8 June 2012) and trastuzumab emtansine in breast cancer (22 February 2013).",
     approvals: [{ region: "US", year: 2005, indication: "Companion diagnostic for trastuzumab in breast cancer" }, { region: "US", year: 2010, indication: "Trastuzumab in gastric and gastro-oesophageal cancer" }, { region: "US", year: 2012, indication: "Pertuzumab in breast cancer" }, { region: "US", year: 2013, indication: "Trastuzumab emtansine in breast cancer" }],
     targets: ["her2"], drugs: ["trastuzumab", "pertuzumab", "trastuzumab-emtansine"], cancers: ["breast-her2-positive", "gastric-her2-positive"], companies: ["agilent"],
-    technologies: ["companion-diagnostic", "cytogenetics-fish"], terms: ["fish", "her2-positive", "companion-diagnostic-term"], related: ["her2-testing-assays", "pathvysion-her2"],
+    technologies: ["companion-diagnostic", "cytogenetics-fish"], terms: ["fish", "her2-positive", "companion-diagnostic-term"], related: ["her2-testing-assays", "pathvysion-her2", "her2-cish-pharmdx"],
     links: [PMA("P040005"), FDA_CDX_LIST] }),
   d({ id: "bond-oracle-her2-ihc", asOf: "2026-11-18", name: "Bond Oracle HER2 IHC System", brand: "Bond Oracle HER2 IHC System", modality: "Immunohistochemistry companion diagnostic assay (HER2 protein, breast tumour tissue)", status: "approved",
     mechanism: "Immunohistochemistry for HER2 protein in breast tumour tissue.",
@@ -208,7 +214,7 @@ const devices: DrugInput[] = [
     summary: "EntroGen's CRCDx RAS Mutation Detection Assay Kit was approved on 29 September 2023 (PMA P220005) as the companion diagnostic for panitumumab in colorectal cancer, identifying tumours wild-type for KRAS and NRAS in exons 2, 3 and 4. EntroGen describes it as a real-time PCR test.",
     approvals: [{ region: "US", year: 2023, indication: "KRAS and NRAS wild-type (exons 2, 3 and 4) for panitumumab in colorectal cancer" }],
     targets: ["kras", "nras"], drugs: ["panitumumab"], cancers: ["colorectal"], companies: ["entrogen"],
-    technologies: ["companion-diagnostic"], terms: ["pcr", "companion-diagnostic-term"],
+    technologies: ["companion-diagnostic"], terms: ["pcr", "companion-diagnostic-term"], related: ["cobas-kras-mutation-test"],
     links: [PMA("P220005"), FDA_CDX_LIST, { label: "EntroGen: CRCdx RAS Mutation Detection", url: "https://www.entrogen.com/" }] }),
   d({ id: "idylla-cdx-msi", name: "Idylla CDx MSI Test", brand: "Idylla CDx MSI Test", modality: "Nucleic acid companion diagnostic test (microsatellite instability, colorectal tumour tissue)", status: "approved", asOf: "2026-11-18",
     mechanism: "Reads seven microsatellite markers (ACVR2A, BTBD7, DIDO1, MRE11, RYR3, SEC31A and SULF2) in colorectal tumour tissue to call microsatellite instability-high (MSI-H).",
@@ -265,13 +271,57 @@ const devices: DrugInput[] = [
     technologies: ["companion-diagnostic", "histopathology-ihc"], terms: ["ihc", "companion-diagnostic-term"], related: ["secore-cdx-hla"],
     links: [PMA("P230016"), FDA_CDX_LIST] }),
   d({ id: "secore-cdx-hla", name: "SeCore CDx HLA Sequencing System", brand: "SeCore CDx HLA Sequencing System", modality: "HLA sequencing companion diagnostic test (whole blood)", status: "approved",
-    mechanism: "Sequences the HLA-A gene from whole blood to find the tissue type that a T-cell receptor drug can recognise.",
+    mechanism: "Sanger sequencing of the HLA-A gene, from DNA taken from whole blood, to find the tissue type that a T-cell receptor drug can recognise.",
     tldr: "The blood test that checks a person's tissue type (HLA-A*02) before tebentafusp for uveal melanoma or afamitresgene autoleucel for synovial sarcoma.",
-    summary: "One Lambda's SeCore CDx HLA Sequencing System is listed by the FDA as the companion diagnostic for tebentafusp in uveal melanoma, selecting HLA-A*02:01 (BR220737, 28 November 2022), and for afamitresgene autoleucel in synovial sarcoma (BK241074, 1 August 2024), where the eligible alleles are HLA-A*02:01, 02:02, 02:03 or 02:06 and HLA-A*02:05 excludes. One Lambda is a Thermo Fisher Scientific business.",
+    summary: "One Lambda's SeCore CDx HLA Sequencing System is listed by the FDA as the companion diagnostic for tebentafusp in uveal melanoma, selecting HLA-A*02:01 (BR220737, a De Novo classification granted on 28 November 2022), and for afamitresgene autoleucel in synovial sarcoma (BK241074, a 510(k) clearance on 1 August 2024), where the eligible alleles are HLA-A*02:01, 02:02, 02:03 or 02:06 and HLA-A*02:05 excludes. One Lambda is a Thermo Fisher Scientific business.",
     approvals: [{ region: "US", year: 2022, indication: "Companion diagnostic for tebentafusp in uveal melanoma (HLA-A*02:01)" }, { region: "US", year: 2024, indication: "Companion diagnostic for afamitresgene autoleucel in synovial sarcoma (eligible HLA-A*02 alleles)" }],
     targets: ["hla-a"], drugs: ["tebentafusp", "afamitresgene-autoleucel"], cancers: ["uveal-melanoma", "synovial-sarcoma"], companies: ["one-lambda"],
-    technologies: ["companion-diagnostic"], terms: ["ngs", "companion-diagnostic-term"], related: ["mage-a4-ihc-1f9-pharmdx"],
-    links: [FDA_CDX_LIST, { label: "Thermo Fisher Scientific: One Lambda", url: "https://www.thermofisher.com/onelambda/us/en/about-us.html" }] }),
+    technologies: ["companion-diagnostic"], terms: ["companion-diagnostic-term"], related: ["mage-a4-ihc-1f9-pharmdx"],
+    links: [FDA_CDX_LIST, { label: "FDA: BR220737, SeCore CDx HLA Sequencing System (De Novo, 2022)", url: "https://www.fda.gov/vaccines-blood-biologics/substantially-equivalent-510k-device-information/br220737-secore-cdx-hla-sequencing-system" }, { label: "FDA: BK241074, SeCore CDx HLA Sequencing System (510(k), 2024)", url: "https://www.fda.gov/vaccines-blood-biologics/substantially-equivalent-510k-device-information/bk241074-secore-cdx-hla-sequencing-system" }, { label: "Thermo Fisher Scientific: One Lambda", url: "https://www.thermofisher.com/onelambda/us/en/about-us.html" }] }),
+
+  // ---- Added 19 November 2026 (gap audit, class 1: companion diagnostic rows with no device record) ----
+  // Sources read that day: the FDA companion diagnostic list ("Content current as of 11/03/2026"), for maker,
+  // indication and drug; and each device's original-approval entry in openFDA's PMA data (last updated 9 November
+  // 2026), for applicant, decision date, decision code and the approval statement. Two of the four carry decision
+  // code APWD, "Withdrawal after approval", while still printed on the FDA list. The drafting run could not read the
+  // FDA PMA web pages (accessdata.fda.gov); the review that day could, and each page was read: the two withdrawal
+  // dates below are the "Withdrawal Date" line of P200014 and P100024, and the pages for P140023 and P250036 print
+  // none. A fifth draft, SPOT-LIGHT HER2 CISH Kit (P050040, withdrawn 7 January 2015 on the same page), was held back:
+  // src/components/biomarker-cdx-link.test.ts uses it as its example of a listed device with no record.
+  d({ id: "cobas-kras-mutation-test", asOf: "2026-11-19", name: "cobas KRAS Mutation Test", brand: "cobas KRAS Mutation Test", aka: ["Roche cobas KRAS Mutation Test"], modality: "Real-time PCR companion diagnostic test (KRAS codons 12 and 13, colorectal tumour tissue)", status: "approved",
+    mechanism: "Real-time PCR on the cobas 4800 System that detects seven somatic mutations in codons 12 and 13 of the KRAS gene in DNA from formalin-fixed, paraffin-embedded colorectal tumour tissue.",
+    tldr: "Roche's PCR test that checks a bowel cancer for common KRAS mutations; a no-mutation result is what the FDA links to cetuximab or panitumumab.",
+    summary: "Roche Molecular Systems' cobas KRAS Mutation Test was approved on 7 May 2015 (PMA P140023). The FDA approval statement describes a real-time PCR test, run with the cobas 4800 System, for seven somatic mutations in codons 12 and 13 of KRAS in colorectal cancer tissue, intended as an aid in identifying patients for whom cetuximab or panitumumab may be indicated based on a no mutation detected result. The FDA companion diagnostic list carries it for both drugs. It reads KRAS codons 12 and 13 only; some tests the list carries for panitumumab, such as the CRCDx RAS kit, also read NRAS and further KRAS exons.",
+    approvals: [{ region: "US", year: 2015, indication: "KRAS codon 12 and 13 no mutation detected, as an aid in selecting cetuximab or panitumumab in colorectal cancer" }],
+    targets: ["kras"], drugs: ["cetuximab", "panitumumab"], cancers: ["colorectal"], companies: ["roche-genentech"],
+    technologies: ["companion-diagnostic"], terms: ["pcr", "companion-diagnostic-term"], related: ["crcdx-ras", "onco-reveal-dx-lung-colon"],
+    links: [OPENFDA_PMA("P140023"), PMA("P140023"), FDA_CDX_LIST] }),
+  d({ id: "cobas-ezh2-mutation-test", asOf: "2026-11-19", name: "cobas EZH2 Mutation Test", brand: "cobas EZH2 Mutation Test", modality: "Real-time allele-specific PCR companion diagnostic test (EZH2 mutations, follicular lymphoma tissue)", status: "withdrawn",
+    mechanism: "Real-time allele-specific PCR for the EZH2 single-nucleotide mutations Y646N, Y646F, Y646X (Y646H, Y646S or Y646C), A682G and A692V in DNA from formalin-fixed, paraffin-embedded follicular lymphoma tissue.",
+    tldr: "The Roche test that found an EZH2 mutation in follicular lymphoma to select tazemetostat. Tazemetostat has since been withdrawn, and the FDA records the test's own approval as withdrawn on 6 July 2026.",
+    summary: "Roche Molecular Systems' cobas EZH2 Mutation Test was approved on 18 June 2020 (PMA P200014) to identify people with follicular lymphoma whose tumour carries an EZH2 mutation, for treatment with tazemetostat (Tazverik). The FDA's PMA page for the test gives a withdrawal date of 6 July 2026, and openFDA's copy of the same database gives the original approval the decision code APWD, which its field definitions define as withdrawal after approval. The FDA companion diagnostic list, last updated on 3 November 2026, still printed the test. Tazemetostat itself was withdrawn in 2026 (see its page).",
+    approvals: [{ region: "US", year: 2020, indication: "Companion diagnostic for tazemetostat in EZH2-mutant follicular lymphoma", note: "Approval withdrawn on 6 July 2026 (FDA PMA page, withdrawal date; openFDA decision code APWD)" }],
+    notes: ["The FDA PMA page for P200014 reads Withdrawal Date 07/06/2026 and the openFDA entry for the original approval reads decision_code APWD, both read 19 November 2026. openFDA also lists 30-day manufacturing notices for the same PMA, the latest dated 27 October 2026, after the withdrawal date; notices with the same dates and wording sit on the cobas KRAS test (P140023), and the FDA page does not explain them."],
+    targets: ["ezh2"], drugs: ["tazemetostat"], cancers: ["follicular-lymphoma"], companies: ["roche-genentech"],
+    technologies: ["companion-diagnostic"], terms: ["pcr", "companion-diagnostic-term"],
+    links: [OPENFDA_PMA("P200014"), OPENFDA_PMA_FIELDS, PMA("P200014"), FDA_CDX_LIST] }),
+  d({ id: "pgdx-elio-tissue-complete-cdx", asOf: "2026-11-19", name: "PGDx elio tissue complete CDx", brand: "PGDx elio tissue complete CDx", modality: "Tissue NGS companion diagnostic test (BRAF V600E and V600K in melanoma)", status: "approved",
+    mechanism: "Hybridisation-capture next-generation sequencing of DNA from formalin-fixed, paraffin-embedded tumour tissue; the targeted panel detects single-nucleotide variants, small insertions and deletions, copy number amplifications and translocations.",
+    tldr: "A tumour sequencing test approved in July 2026 as a companion diagnostic that finds BRAF V600E or V600K in melanoma, the mutations BRAF-targeted drugs act on.",
+    summary: "Personal Genome Diagnostics, Inc. received FDA approval for PGDx elio tissue complete CDx on 30 July 2026 (PMA P250036). The FDA approval statement describes a qualitative, hybridisation-capture sequencing test on tumour tissue DNA that detects single-nucleotide variants, small insertions and deletions, copy number amplifications and translocations, intended as a companion diagnostic in melanoma. The FDA companion diagnostic list gives its claim as identifying melanoma with BRAF V600E and V600K for two groups of medicines approved by the FDA for that indication. The BRAF inhibitors it lists are dabrafenib (Tafinlar) and vemurafenib (Zelboraf); the BRAF and MEK inhibitor combinations it lists are cobimetinib (Cotellic) with vemurafenib, encorafenib (Braftovi) with binimetinib (Mektovi), and dabrafenib with trametinib (Mekinist).",
+    approvals: [{ region: "US", year: 2026, indication: "BRAF V600E and V600K in melanoma, for BRAF inhibitors and BRAF and MEK inhibitor combinations approved by the FDA for that indication (group labelling)" }],
+    targets: ["braf"], drugs: ["dabrafenib", "vemurafenib", "cobimetinib", "encorafenib", "binimetinib", "trametinib"], cancers: ["melanoma"],
+    technologies: ["companion-diagnostic"], terms: ["ngs", "companion-diagnostic-term"], related: ["cobas-4800-braf-v600", "thxid-braf"],
+    links: [OPENFDA_PMA("P250036"), PMA("P250036"), FDA_CDX_LIST] }),
+  d({ id: "her2-cish-pharmdx", asOf: "2026-11-19", name: "HER2 CISH pharmDx Kit", brand: "HER2 CISH pharmDx", modality: "Chromogenic in situ hybridisation test (HER2 gene status, breast tumour tissue)", status: "withdrawn",
+    mechanism: "Dual-colour chromogenic in situ hybridisation with labelled probes for the HER2 gene and the centromere of chromosome 17, giving red and blue signals on the same tissue section that are read under an ordinary bright-field microscope.",
+    tldr: "Dako's HER2 gene test read with an ordinary microscope, approved in 2011 to help decide on trastuzumab in breast cancer; the FDA records its approval as withdrawn in January 2018.",
+    summary: "The HER2 CISH pharmDx Kit from Dako Denmark A/S (Dako is now part of Agilent) was approved on 30 November 2011 (PMA P100024). The FDA approval statement describes dual-colour chromogenic in situ hybridisation, automated on Dako Autostainer instruments, that determines HER2 gene status in breast cancer tissue as an aid in assessing patients for whom trastuzumab is being considered. The FDA's PMA page for the kit gives a withdrawal date of 24 January 2018, and openFDA's copy of the same database gives the original approval the decision code APWD (withdrawal after approval). The FDA companion diagnostic list, last updated on 3 November 2026, still printed the kit.",
+    approvals: [{ region: "US", year: 2011, indication: "HER2 gene status as an aid in selecting trastuzumab in breast cancer", note: "Approval withdrawn on 24 January 2018 (FDA PMA page, withdrawal date; openFDA decision code APWD)" }],
+    notes: ["The FDA PMA page for P100024 reads Withdrawal Date 01/24/2018 and the openFDA entry for the original approval reads decision_code APWD, both read 19 November 2026."],
+    targets: ["her2"], drugs: ["trastuzumab"], cancers: ["breast-her2-positive"], companies: ["agilent"],
+    technologies: ["companion-diagnostic"], terms: ["her2-positive", "companion-diagnostic-term"], related: ["her2-fish-pharmdx", "her2-testing-assays"],
+    links: [OPENFDA_PMA("P100024"), OPENFDA_PMA_FIELDS, PMA("P100024"), FDA_CDX_LIST] }),
 ];
 
 const companies: CompanyInput[] = [

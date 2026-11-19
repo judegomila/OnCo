@@ -36,7 +36,7 @@ const quick = { now, minDelayMs: 0, sleep: async () => {} };
 const feedSource: Source = { id: "feed:journal:1", type: "feed", url: "https://journal.example/current.rss", scope: "general", hosts: ["journal.example"], regulator: false };
 const rss = `<?xml version="1.0"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/"><channel>
   <item><title>${SECRET_TEXT}: a phase 3 trial in lung cancer</title><link>https://journal.example/a1</link><pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate><dc:identifier>doi:10.1234/ONC.1</dc:identifier><description>${SECRET_TEXT}</description></item>
-  <item><title>A cardiology paper about statins</title><link>https://journal.example/a2</link><pubDate>Mon, 16 Nov 2026 10:00:00 GMT</pubDate><description>Nothing on topic</description></item>
+  <item><title>A cardiology paper about statins</title><link>https://journal.example/a2</link><pubDate>Mon, 16 Nov 2026 10:00:00 GMT</pubDate><dc:identifier>doi:10.1234/CARDIO.1</dc:identifier><description>Nothing on topic</description></item>
   <item><title>Old cancer item</title><link>https://journal.example/a3</link><pubDate>Mon, 03 Aug 2026 10:00:00 GMT</pubDate><dc:identifier>doi:10.1234/old</dc:identifier></item>
 </channel></rss>`;
 
@@ -82,7 +82,7 @@ describe("parsers", () => {
   it("reads RSS and Atom items with their dates and identifiers", () => {
     const items = parseItems(rss);
     expect(items.map((i) => [i.url, i.date, i.ids.map((x) => x.value)])).toEqual([
-      ["https://journal.example/a1", "2026-11-16", ["10.1234/onc.1"]], ["https://journal.example/a2", "2026-11-16", []], ["https://journal.example/a3", "2026-08-03", ["10.1234/old"]],
+      ["https://journal.example/a1", "2026-11-16", ["10.1234/onc.1"]], ["https://journal.example/a2", "2026-11-16", ["10.1234/cardio.1"]], ["https://journal.example/a3", "2026-08-03", ["10.1234/old"]],
     ]);
     const atom = `<feed><entry><title>MHRA approves a medicine</title><link rel="alternate" type="text/html" href="/government/news/x"/><updated>2026-11-10T09:30:00+00:00</updated><summary>Text</summary></entry></feed>`;
     expect(parseItems(atom, "https://www.gov.uk/organisation.atom")).toMatchObject([{ url: "https://www.gov.uk/government/news/x", date: "2026-11-10" }]);
@@ -109,7 +109,7 @@ describe("scan", () => {
     byIdentifier: (k) => k === "doi:10.1234/onc.1" ? [{ id: "paper-held", kind: "paper", by: "doi" }] : [],
     byText: (t) => /pembrolizumab/i.test(t) ? [{ id: "pembrolizumab", kind: "drug", by: "name" }] : [],
   };
-  const bsky: Source = { id: "bluesky:journal", type: "bluesky", handle: "journal.example", hosts: ["journal.example"], regulator: false };
+  const bsky: Source = { id: "bluesky:journal", type: "bluesky", handle: "journal.example", scope: "oncology", hosts: ["journal.example"], regulator: false };
   const bskyRoute: Route = (u) => u.hostname === "public.api.bsky.app" ? Response.json({ feed: [{ post: {
     uri: "at://did:plc:abc/app.bsky.feed.post/3aaa", author: { handle: "journal.example" },
     record: { text: SECRET_TEXT, createdAt: "2026-11-17T08:00:00.000Z", facets: [{ features: [{ uri: "https://doi.org/10.1234/ONC.1" }] }] },

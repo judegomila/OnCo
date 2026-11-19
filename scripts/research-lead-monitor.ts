@@ -35,7 +35,7 @@ export const DEFAULT_UA = `${PRODUCT}/1.0 (oncology reference; automated feed re
 
 export type Source =
   | { id: string; type: "feed"; url: string; scope: Scope; hosts: string[]; regulator: boolean }
-  | { id: string; type: "bluesky"; handle: string; hosts: string[]; regulator: boolean }
+  | { id: string; type: "bluesky"; handle: string; scope: Scope; hosts: string[]; regulator: boolean }
   | { id: string; type: "pubmed"; term: string }
   | { id: string; type: "registry"; condition: string }
   | { id: string; type: "oce"; url: string };
@@ -93,7 +93,7 @@ export function sourcesFrom(list: readonly Account[] = allAccounts): Source[] {
     const regulator = a.category === "regulator";
     const hosts = [...new Set([a.site, ...(a.feeds ?? []).map((f) => f.url)].map(host).filter((h): h is string => !!h))];
     (a.feeds ?? []).forEach((f, i) => out.push({ id: `feed:${a.id}:${i + 1}`, type: "feed", url: f.url, scope: f.scope, hosts, regulator }));
-    if (a.bluesky && !a.bluesky.quiet) out.push({ id: `bluesky:${a.id}`, type: "bluesky", handle: a.bluesky.handle, hosts, regulator });
+    if (a.bluesky && !a.bluesky.quiet) out.push({ id: `bluesky:${a.id}`, type: "bluesky", handle: a.bluesky.handle, scope: a.bluesky.scope ?? "oncology", hosts, regulator });
   }
   return out;
 }
@@ -444,9 +444,10 @@ export async function scan(old: Queue, opts: Opts = {}): Promise<{ queue: Queue;
       const regulatorOwn = src.type === "oce" || (src.type === "feed" && src.regulator && src.hosts.includes(host(item.url) ?? ""));
       const named = item.text ? corpus.byText(item.text) : [];
       const ids = new Map(item.ids.map((id) => [idKey(id), id]));
-      // Topical gate before any further request: general channels must mention cancer or name a record OnCo holds.
-      const general = (src.type === "feed" && src.scope === "general") || src.type === "bluesky";
-      if (general && !ids.size && !named.length && !ONCO_WORDS.test(item.text)) { seen.add(hash(item.url)); consumed++; continue; }
+      // Topical gate before any further request: an item on a general channel must mention cancer or name a record
+      // OnCo holds, whether or not it carries an identifier. A general journal's feed is all identifiers.
+      const general = (src.type === "feed" || src.type === "bluesky") && src.scope === "general";
+      if (general && !named.length && !ONCO_WORDS.test(item.text)) { seen.add(hash(item.url)); consumed++; continue; }
       if (src.type === "bluesky" && !ids.size && !(item.links?.length && RESEARCH_WORDS.test(item.text))) { seen.add(hash(item.url)); consumed++; continue; }
       // One landing page on the organisation's own host, where the announcement itself carries no identifier.
       if (!ids.size && (src.type === "feed" || src.type === "bluesky") && landingLeft > 0) {

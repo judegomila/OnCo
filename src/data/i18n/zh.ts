@@ -9023,7 +9023,6 @@ export const tldr_zh: Record<string, string> = {
   nct07498478: "一项在激素受体阳性乳腺癌中评估Fulvestrant、Tinengotinib的2期试验，由TransThera Sciences (Nanjing), Inc.开展，正在招募。",
   nct06008119: "一项在结直肠癌中评估Tunlametinib的3期试验，由Shanghai Kechow Pharma, Inc.开展，正在招募。",
   nct06995677: "一项在膀胱及尿路上皮癌中评估TYRA-300的2期试验，由Tyra Biosciences, Inc开展，正在招募。",
-  nct06642545: "一项在HER2阳性乳腺癌中评估Disitamab vedotin、RC148、Toripalimab的2期试验，由RemeGen Co., Ltd.开展，正在招募。",
   nct05374915: "一项在晚期实体瘤中评估一种在研治疗的2期试验，由Kintara Therapeutics, Inc.开展，进行中、不再招募。",
   nct03485209: "一项在结直肠癌、非小细胞肺癌、胰腺癌、头颈癌中评估Tisotumab vedotin、Pembrolizumab、Carboplatin的2期试验，由Seagen, a wholly owned subsidiary of Pfizer开展，进行中、不再招募。",
   nct03567889: "一项在黑色素瘤中评估一种在研治疗的3期试验，由Philogen S.p.A.开展，正在招募。",

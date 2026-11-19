@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 19 November 2026
+- Second accuracy pass on drug records, the first 232 approved medicines: approvals, indications, trial results and side-effect rates re-read against the current labels, the regulators and the registry, with every correction logged
 - The first weekly re-check's findings are acted on: a withdrawn US approval, European approvals corrected, trials that stopped or reported, and dead links to FDA notices; more cancer pages have their second accuracy read; and thirteen more care protocols cover side effects that had none, among them headache, joint pain, taste changes, eye effects of targeted drugs and heart function on HER2 drugs, with warning cards quoting patient leaflets
 - A weekly re-check now compares every trial's status, US and European approvals, drug labels, guideline links and a rotating quarter of source links against their sources and lists what has drifted; its first run refreshed 242 trial statuses
 - Eleven regulator decisions from the past month are recorded from the regulators' own notices, among them the FDA's accelerated approval of neladalkib on 17 November, three European applications withdrawn and three positive opinions, with the TALAPRO-3 trial's published results; and a monitor now reads regulators', journals' and cancer centres' public feeds for leads to check
@@ -15,6 +16,16 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - chore: EU regional rows read from the EMA register pages (#471)
 
 ### 18 November 2026
+- Sacituzumab tirumotecan: the pipeline chart's date is given in house style
+- Second accuracy pass on drug records, slice 1: the last 12 approved medicines re-read, completing all 232; 5 wrong and 2 unsupported claims corrected out of 134 checked
+- Second accuracy pass on drug records, slice 1: 48 more approved medicines and tests re-read; 38 wrong and 24 unsupported claims corrected out of 572 checked
+- Second accuracy pass on drug records, slice 1: 32 more approved medicines and tests re-read; 46 wrong and 21 unsupported claims corrected out of 492 checked
+- Second accuracy pass on drug records, slice 1: 32 more approved medicines and tests re-read; 42 wrong and 39 unsupported claims corrected out of 601 checked
+- Second accuracy pass on drug records, slice 1: 32 more approved medicines re-read; 50 wrong and 20 unsupported claims corrected out of 494 checked
+- Second accuracy pass on drug records, slice 1: 28 more approved medicines and tests re-read; 50 wrong and 32 unsupported claims corrected out of 633 checked
+- Second accuracy pass on drug records, slice 1: 24 more approved medicines re-read; 41 wrong and 19 unsupported claims corrected out of 593 checked
+- Second accuracy pass on drug records, slice 1: the first 24 approved medicines re-read against labels, regulators and trials; 50 wrong and 21 unsupported claims corrected out of 838 checked
+- The first weekly re-check's findings are acted on: a withdrawn US approval, European approvals corrected, trials that stopped or reported, and dead links to FDA notices; more cancer pages have their second accuracy read; and thirteen more care protocols cover side effects that had none, among them headache, joint pain, taste changes, eye effects of targeted drugs and heart function on HER2 drugs, with warning cards quoting patient leaflets
 - A stopped breast reconstruction trial keeps its enrolment in the one-line description, and 38 Chinese summary translations made from English that has since been corrected are withdrawn
 - The new warning cards are reworded to fit the reader's download budget, with every quotation still verbatim, and cards are added for pancreatitis on four leukaemia drugs, liver problems on three drugs and heart symptoms on five HER2-targeted drugs
 - A care protocol for a fall in heart pumping function on HER2-targeted drugs: the scans and the hold, restart and stop rules of each US and EU label beside the ESC 2022 and ESMO 2020 recommendations, re-read by a second reader

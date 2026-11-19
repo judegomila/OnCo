@@ -7,15 +7,22 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 19 November 2026
+- Weekly gap fill: four companion diagnostic records with their FDA withdrawal dates, Ascendis Pharma, and vendor and sponsor links, each read against its sources
 - Second accuracy pass on drug records, the first 232 approved medicines: approvals, indications, trial results and side-effect rates re-read against the current labels, the regulators and the registry, with every correction logged
 - The first weekly re-check's findings are acted on: a withdrawn US approval, European approvals corrected, trials that stopped or reported, and dead links to FDA notices; more cancer pages have their second accuracy read; and thirteen more care protocols cover side effects that had none, among them headache, joint pain, taste changes, eye effects of targeted drugs and heart function on HER2 drugs, with warning cards quoting patient leaflets
 - A weekly re-check now compares every trial's status, US and European approvals, drug labels, guideline links and a rotating quarter of source links against their sources and lists what has drifted; its first run refreshed 242 trial statuses
 - Eleven regulator decisions from the past month are recorded from the regulators' own notices, among them the FDA's accelerated approval of neladalkib on 17 November, three European applications withdrawn and three positive opinions, with the TALAPRO-3 trial's published results; and a monitor now reads regulators', journals' and cancer centres' public feeds for leads to check
 - Daraxonrasib's record gains its trial's size and design, side-effect rates and review timing from the FDA notice, the label and the published trial, and its drug class gets a page of its own; the first results of the REGAIN trial of Alpha DaRT in recurrent glioblastoma are recorded with their limits; and this week's logos, structures and trial names arrive with fifteen wrong logos left out
+- chore: weekly roadmap registry check (public/roadmap-watch.json)
+- chore: draft records for gaps in the freshness issue, for review
+- chore: refresh institution research output from OpenAlex (#475)
 - chore: draft change proposals that need review (#472)
 - chore: EU regional rows read from the EMA register pages (#471)
 
 ### 18 November 2026
+- The gap-fill proposal records what the review changed, and the cobas EZH2 note describes the later manufacturing notices as the FDA data give them
+- Gap-fill drafts read against their sources: two withdrawal dates added from the FDA's own pages, the PGDx test's full list of medicines given, Ascendis Pharma's website and headquarters read on its own site, one draft held back, and every new record linked from a neighbour
+- Second accuracy pass on drug records, the first 232 approved medicines: approvals, indications, trial results and side-effect rates re-read against the current labels, the regulators and the registry, with every correction logged
 - Sacituzumab tirumotecan: the pipeline chart's date is given in house style
 - Second accuracy pass on drug records, slice 1: the last 12 approved medicines re-read, completing all 232; 5 wrong and 2 unsupported claims corrected out of 134 checked
 - Second accuracy pass on drug records, slice 1: 48 more approved medicines and tests re-read; 38 wrong and 24 unsupported claims corrected out of 572 checked

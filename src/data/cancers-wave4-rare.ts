@@ -137,7 +137,7 @@ export const cancersWave4Rare: CancerInput[] = linkSiblings([
     related: ["brain-tumours", "medulloblastoma", "pineal-parenchymal-tumours", "papillary-tumour-pineal-region", "retinoblastoma", "pleuropulmonary-blastoma-dicer1"],
     links: [SRC.pdqEmbryonal, SRC.pbRbtc, SRC.pbPooled] }),
 
-  rare({ id: "papillary-tumour-pineal-region", name: "Papillary tumour of the pineal region", parent: "brain-tumours", group: "central nervous system", wikipedia: W("Papillary_tumor_of_the_pineal_region"),
+  rare({ id: "papillary-tumour-pineal-region", name: "Papillary tumour of the pineal region", parent: "brain-tumours", group: "central nervous system", wikipedia: W("Papillary_tumors_of_the_pineal_region"),
     aka: ["PTPR", "Papillary tumor of the pineal region"],
     burden: "Rare: a systematic review found 177 published patients between 2003 and 2017, mean age 33 and 53 percent male (Neurosurgery 2019).",
     tldr: "Papillary tumour of the pineal region is a rare brain tumour of young adults arising near the pineal gland from cells of the embryonic subcommissural organ. It usually presents with raised pressure from blocked spinal fluid, is removed surgically at a centre that does pineal surgery and often given radiotherapy, and it recurs locally more often than it seeds the spine.",
@@ -239,7 +239,7 @@ export const cancersWave4Rare: CancerInput[] = linkSiblings([
     links: [SRC.pdqPnet, SRC.somatostatinoma3, SRC.somatostatinomaNf1] }),
 
   // ---------------- Eye ----------------
-  rare({ id: "conjunctival-melanoma", name: "Conjunctival melanoma", parent: "melanoma", group: "skin", wikipedia: W("Conjunctival_melanoma"),
+  rare({ id: "conjunctival-melanoma", name: "Conjunctival melanoma", parent: "melanoma", group: "skin",
     aka: ["Melanoma of the conjunctiva", "Ocular surface melanoma", "Conjunctival malignant melanoma"],
     burden: "About 0.5 cases per million a year in Denmark, rising over 1960 to 2012 (Acta Ophthalmologica 2016); the largest clinical series holds 382 consecutive patients (Shields 2011). It is separate from uveal melanoma, which GLOBOCAN also does not count apart.",
     tldr: "Conjunctival melanoma is a rare melanoma of the clear membrane over the white of the eye, usually growing out of a flat brown patch called primary acquired melanosis. It is removed with a margin and the edges frozen or treated with chemotherapy drops; about one in five spread within five years, and advanced disease is treated like skin melanoma with targeted or immune drugs.",

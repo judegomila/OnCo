@@ -28,6 +28,6 @@ export const incidents: Incident[] = [
     date: "2026-08-26", feed: "fda", status: "resolved", resolved: "2026-09-08",
     title: "Daraxonrasib approval not reflected for two weeks",
     detail: "The FDA approved daraxonrasib for metastatic pancreatic adenocarcinoma on 26 August 2026. The corpus recorded it on 8 September, when the weekly fact check flagged an openFDA label for a product not recorded as approved. The FDA approvals feed (scripts/fetch-fda.ts) now surfaces OCE notices on /regulatory/ within a week of publication.",
-    ref: { label: "FDA notice", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-daraxonrasib-metastatic-pancreatic-adenocarcinoma" },
+    ref: { label: "FDA notice", url: "https://www.fda.gov/drugs/cancer-approvals/fda-approves-daraxonrasib-metastatic-pancreatic-adenocarcinoma" },
   },
 ];

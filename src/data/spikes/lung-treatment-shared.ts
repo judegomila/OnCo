@@ -57,5 +57,5 @@ export const SRC = {
   esmo: "https://www.esmo.org/guidelines/esmo-clinical-practice-guidelines-lung-and-chest-tumours",
   // NICE (reference number and page title verified on nice.org.uk, 25 September 2026)
   ng122: "https://www.nice.org.uk/guidance/ng122",
-  fdaNotices: "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications",
+  fdaNotices: "https://www.fda.gov/drugs/cancer-approvals/oncology-cancerhematologic-malignancies-approval-notifications",
 };

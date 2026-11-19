@@ -1712,7 +1712,7 @@ export const parpSelectiveReview: EntityInput[] = [
     "links": [
       {
         "label": "FDA approval and indication",
-        "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-axatilimab-csfr-chronic-graft-versus-host-disease"
+        "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-axatilimab-csfr-chronic-graft-versus-host-disease"
       },
       {
         "label": "Current Niktimvo label (DailyMed)",

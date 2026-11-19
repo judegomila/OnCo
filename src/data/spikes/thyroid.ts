@@ -64,7 +64,7 @@ const trials: TrialInput[] = [
     outcomes: [{ endpoint: "Objective response rate, treatment-naive RET-mutant MTC", unit: "%", arms: [{ name: "Pralsetinib", value: 71 }], source: "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(21)00120-0/fulltext" }],
     replication: "LIBRETTO-001/531 with selpercatinib show the same RET-selective effect.",
     drugs: ["pralsetinib"], targets: ["ret"], cancers: ["thyroid"], technologies: ["kinase-inhibitors"],
-    links: [ct("NCT03037385"), { label: "Lancet Diabetes & Endocrinology 2021", url: "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(21)00120-0/fulltext" }, { label: "FDA: withdrawn cancer accelerated approvals", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals" }, ct("NCT04760288")] }),
+    links: [ct("NCT03037385"), { label: "Lancet Diabetes & Endocrinology 2021", url: "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(21)00120-0/fulltext" }, { label: "FDA: withdrawn cancer accelerated approvals", url: "https://www.fda.gov/drugs/cancer-approvals/withdrawn-cancer-accelerated-approvals" }, ct("NCT04760288")] }),
   t({ id: "estimabl2", name: "ESTIMABL2", nct: "NCT01837745", phase: "3", status: "positive", yearReported: 2022, sponsor: "Gustave Roussy / French Endocrine Tumour Group", enrolled: 776,
     setting: "Low-risk differentiated thyroid cancer (multifocal pT1a or pT1b, N0/Nx) after total thyroidectomy: no radioiodine vs 1.1 GBq ablation",
     tldr: "Showed that people with small, low-risk thyroid cancers can skip radioactive iodine after surgery: 95.6% without it and 95.9% with it were free of events at three years.",

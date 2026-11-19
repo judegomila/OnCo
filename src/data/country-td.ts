@@ -25,7 +25,7 @@ const WB_OOP = "https://api.worldbank.org/v2/country/TCD/indicator/SH.XPD.OOPC.C
 const WB_CHE = "https://api.worldbank.org/v2/country/TCD/indicator/SH.XPD.CHEX.PC.CD?format=json";
 const WB_GOV = "https://api.worldbank.org/v2/country/TCD/indicator/SH.XPD.GHED.CH.ZS?format=json";
 const WB_PHYS = "https://api.worldbank.org/v2/country/TCD/indicator/SH.MED.PHYS.ZS?format=json";
-const PAMJ = "https://doi.org/10.11604/pamj.2025.51.72.47698";
+const PAMJ = "https://www.panafrican-med-journal.com/content/article/51/72/full/";
 const AFCRN_TD = "https://afcrn.org/index.php/membership/membership-list/175-chad-ndjamena";
 const WHO_INTRO_API = "https://xmart-api-public.who.int/WIISE/MT_AD_INTRO_LONG?$filter=ISO_3_CODE%20eq%20'TCD'";
 const WHO_HEPB_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'TCD'%20and%20startswith(ANTIGEN,'HEPB')";

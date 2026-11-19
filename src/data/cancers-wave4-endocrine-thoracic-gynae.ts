@@ -123,7 +123,7 @@ export const cancersWave4EndocrineThoracicGynae: CancerInput[] = linkSiblings([
     related: ["pituitary-tumours", "lactotroph-pitnet", "corticotroph-pitnet", "thyrotroph-pitnet", "craniopharyngioma"],
     links: [SRC.pdqPituitary, SRC.who2022Pit, SRC.gonadotrophSstr3, SRC.gonadotrophImmune] }),
 
-  rec({ id: "thyrotroph-pitnet", name: "Thyrotroph pituitary neuroendocrine tumour (TSH-secreting)", parent: "pituitary-tumours", group: "endocrine", wikipedia: W("Thyrotropic_pituitary_adenoma"),
+  rec({ id: "thyrotroph-pitnet", name: "Thyrotroph pituitary neuroendocrine tumour (TSH-secreting)", parent: "pituitary-tumours", group: "endocrine",
     aka: ["Thyrotroph tumour", "TSHoma", "Thyrotropin-secreting pituitary adenoma", "TSH-secreting pituitary tumour", "Thyrotroph adenoma"],
     burden: "The rarest functioning pituitary tumour and a very rare cause of hyperthyroidism (ETA 2013); the largest surgical series holds 90 patients, median age 42, 82 percent macroadenomas (J Neurosurg 2014). GLOBOCAN does not count pituitary tumours.",
     tldr: "A thyrotroph tumour is a very rare pituitary tumour that secretes TSH, driving the thyroid to overactivity with a TSH level that is not suppressed. It is often mistaken for common hyperthyroidism and wrongly treated by destroying the thyroid, which makes the pituitary tumour grow. Surgery is the treatment of choice; somatostatin analogues control most of the rest.",

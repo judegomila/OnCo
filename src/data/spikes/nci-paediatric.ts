@@ -105,7 +105,7 @@ export const nciPaediatricCancers: CancerInput[] = [
     related: ["paediatric-low-grade-glioma", "glioblastoma", "race-for-children-act", "accelerate-platform", "idh-mutant-astrocytoma", "oligodendroglioma", "paediatric-high-grade-glioma"],
     links: [
       { label: "NCI PDQ: childhood astrocytomas and other gliomas (includes diffuse midline glioma)", url: PDQ("brain/hp/child-astrocytoma-treament-pdq") },
-      { label: "FDA: dordaviprone accelerated approval (6 August 2025)", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dordaviprone-diffuse-midline-glioma" },
+      { label: "FDA: dordaviprone accelerated approval (6 August 2025)", url: "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-dordaviprone-diffuse-midline-glioma" },
       { label: "ACTION phase 3 (NCT05580562)", url: "https://clinicaltrials.gov/study/NCT05580562" },
       { label: "GD2 CAR-T in H3 K27M diffuse midline glioma (Nature 2022)", url: "https://doi.org/10.1038/s41586-022-04489-4" },
     ],

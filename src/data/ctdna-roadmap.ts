@@ -56,7 +56,7 @@ export const ctdnaRoadmaps: RoadmapInput[] = [
       epmc("33931919", "CIRCULATE-Japan: ctDNA-guided adaptive platform trials, design of GALAXY, VEGA and ALTAIR (Cancer Science 2021)"),
       epmc("42260101", "ALTAIR: post-adjuvant trifluridine/tipiracil in ctDNA-positive resected colorectal cancer, primary endpoint not met (Nature Medicine 2026)"),
       epmc("41124204", "IMvigor011: ctDNA-guided adjuvant atezolizumab in muscle-invasive bladder cancer (NEJM 2025)"),
-      { label: "FDA approves atezolizumab for adjuvant treatment of muscle invasive bladder cancer with ctDNA molecular residual disease, 15 May 2026", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-atezolizumab-adjuvant-treatment-muscle-invasive-bladder-cancer-patients-molecular" },
+      { label: "FDA approves atezolizumab for adjuvant treatment of muscle invasive bladder cancer with ctDNA molecular residual disease, 15 May 2026", url: "https://www.fda.gov/drugs/cancer-approvals/fda-approves-atezolizumab-adjuvant-treatment-muscle-invasive-bladder-cancer-patients-molecular" },
       epmc("37805216", "PATHFINDER: blood-based tests for multicancer early detection (The Lancet 2023)"),
       { label: "FDA PMA P230009: Shield blood-based colorectal cancer screening test, approved 26 July 2024", url: "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230009" },
       epmc("42773209", "NHS-Galleri: performance of a multi-cancer early detection test across three annual rounds (Nature Medicine, 22 September 2026)"),

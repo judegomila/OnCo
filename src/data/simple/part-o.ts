@@ -65,7 +65,7 @@ export const simpleO: Record<string, string> = {
   eflapegrastim: "Eflapegrastim is a once-per-cycle white cell growth factor approved in 2022 to prevent infections when chemotherapy knocks down neutrophils.",
   eltrombopag: "Eltrombopag is a daily tablet that tells the bone marrow to make more platelets, approved for immune thrombocytopenia and severe aplastic anaemia.",
   emapalumab: "Emapalumab is an antibody that switches off interferon gamma to calm the runaway immune reaction called HLH, which lymphoma and CAR-T therapy can trigger.",
-  estramustine: "Estramustine is a prostate cancer tablet combining an oestrogen with a chemotherapy, approved in 1981, but its clotting risk has pushed it out of routine use.",
+  estramustine: "Estramustine is a prostate cancer capsule combining an oestrogen with a chemotherapy, approved in 1981, but its clotting risk has pushed it out of routine use.",
   "ethiodized-oil": "Lipiodol is an iodine-rich oil injected into the liver's artery that lodges in liver tumours, making them visible on CT and carrying chemotherapy into them.",
   floxuridine: "Floxuridine is a cousin of fluorouracil pumped straight into the liver's artery to treat bowel cancer that has spread to the liver, giving a high local dose.",
   flumatinib: "Flumatinib is a Chinese BCR-ABL inhibitor approved in 2019 for newly diagnosed chronic myeloid leukaemia in its chronic phase.",

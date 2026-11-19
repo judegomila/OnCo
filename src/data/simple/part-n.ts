@@ -459,7 +459,7 @@ export const simpleN: Record<string, string> = {
   donafenib: "Zelgen's donafenib is a redesign of sorafenib that helped liver cancer patients live longer than the original in a head-to-head trial, and China approved it as a first-line option.",
   orelabrutinib: "Orelabrutinib is InnoCare's BTK-blocking pill [it blocks a signal that keeps some blood cancers growing], approved in China in 2020 for chronic lymphocytic leukaemia and mantle cell lymphoma.",
   dalpiciclib: "Dalpiciclib is Hengrui's CDK4/6 inhibitor [a pill that blocks cell-division enzymes], the first China-developed drug of its class, approved for hormone-driven advanced breast cancer on the DAWNA trials.",
-  tucidinostat: "Chidamide (tucidinostat), from Chipscreen, was the first epigenetic cancer drug [it changes how genes switch on] invented in China, used for T-cell lymphoma and, with hormone therapy, breast cancer.",
+  tucidinostat: "Chidamide (tucidinostat), from Chipscreen, is an epigenetic cancer drug [it changes how genes switch on] invented in China, used for T-cell lymphoma and, with hormone therapy, breast cancer.",
   innovent: "Innovent Biologics, a listed Suzhou biotech founded in 2011, makes sintilimab, China's best-selling PD-1 antibody, and has become a source of next-generation cancer drugs for Roche and Takeda.",
   junshi: "Shanghai Junshi Biosciences developed toripalimab, the first Chinese PD-1 antibody approved in China and the first approved by the FDA, in 2023 for nasopharyngeal cancer [a cancer behind the nose].",
   "zai-lab": "Zai Lab, a Shanghai biotech, pioneered bringing Western cancer drugs such as niraparib, zanidatamab and repotrectinib to China and now exports its own bispecific antibodies and antibody-drug conjugates.",

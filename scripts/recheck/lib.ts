@@ -63,7 +63,7 @@ export const hostOf = (u: string): string => { try { return new URL(u).hostname.
  * is gone: accessdata.fda.gov, for one, redirects a script to an "abuse detection" page and serves it with a 404.
  */
 export function refusal(r: { status: number; finalUrl?: string; headers?: { get(name: string): string | null }; body?: string }): string | undefined {
-  if (r.finalUrl && /\/apology_objects\/|abuse-detection|distil_r_captcha|\/cdn-cgi\/challenge|\/captcha\b|validate\.perfdrive/i.test(r.finalUrl)) return "bot-challenge page";
+  if (r.finalUrl && /\/apology_objects\/|abuse-detection|distil_r_captcha|\/cdn-cgi\/challenge|\/captcha\b|validate\.perfdrive|^https?:\/\/unblock\./i.test(r.finalUrl)) return "bot-challenge page";
   if (r.headers?.get("cf-mitigated")) return "bot challenge (cf-mitigated)";
   if (r.status === 401 || r.status === 403) return `refused (${r.status})`;
   if (r.status === 429) return "rate limited (429)";

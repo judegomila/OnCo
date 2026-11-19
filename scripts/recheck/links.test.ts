@@ -48,6 +48,8 @@ describe("verdict", () => {
     expect(verdict("https://a.example/x", { status: 410 })).toBe("gone");
     expect(verdict("https://a.example/file.pdf", { status: 200, contentType: "text/html" })).toBe("gone");
     expect(verdict("https://a.example/file.pdf", { status: 200, contentType: "application/pdf" })).toBe("ok");
+    // A web archive wraps a PDF in its own page.
+    expect(verdict("https://web.archive.org/web/20250916233706/https://www.rcr.ac.uk/media/towards-safer-radiotherapy.pdf", { status: 200, contentType: "text/html" })).toBe("ok");
   });
   it("never counts a refusal, a server error or no answer as gone", () => {
     expect(verdict("https://a.example/x", { status: 403, blocked: "refused (403)" })).toBe("blocked");

@@ -26,6 +26,8 @@
  *   npx tsx scripts/fetch-registry-status.ts --apply           fetch what is missing (up to --max), write the side file
  *   npx tsx scripts/fetch-registry-status.ts --apply --tag=gallbladder-deep-dive   fetch only the uncached trials carrying
  *                                                       that tag; the side file is still rebuilt from every cached trial
+ *   add --hold=<file> to leave the record ids listed in that file, one a line, as the side file already has them
+ *   add --out=<file> to write the side file to another path and leave src/data untouched
  *   npx tsx scripts/fetch-registry-status.ts --apply --no-fetch --only-cache --cache=<dir>
  *                                                       rebuild from one directory of records read today and nothing
  *                                                       else: the weekly re-check (scripts/weekly-recheck.ts) reads
@@ -52,9 +54,16 @@ const max = Number(args.find((a) => a.startsWith("--max="))?.slice(6) ?? 1000);
 const tag = args.find((a) => a.startsWith("--tag="))?.slice(6);
 const RESULTS_CACHE = "/tmp/ctgov-cache/results";
 const STATUS_CACHE = args.find((a) => a.startsWith("--cache="))?.slice(8) ?? "/tmp/ctgov-cache/status";
+/**
+ * Record ids to leave exactly as the side file already has them, one a line in the named file. The weekly re-check
+ * holds back a change when the record's own sentences would contradict the new status (scripts/recheck/status-words.ts).
+ */
+const holdFile = args.find((a) => a.startsWith("--hold="))?.slice(7);
+const hold = new Set(holdFile ? readFileSync(holdFile, "utf8").split("\n").map((s) => s.trim()).filter(Boolean) : []);
 /** Read --cache alone, not the results cache before it. */
 const onlyCache = args.includes("--only-cache");
-const OUT = join(process.cwd(), "src", "data", "trial-registry-status.ts");
+/** --out=<file> writes the side file somewhere else, so a caller can read what would change before anything is changed. */
+const OUT = args.find((a) => a.startsWith("--out="))?.slice(6) ?? join(process.cwd(), "src", "data", "trial-registry-status.ts");
 
 const API = "https://clinicaltrials.gov/api/v2/studies";
 const FIELDS = "protocolSection.identificationModule,protocolSection.statusModule";
@@ -180,6 +189,13 @@ async function main() {
     checked++;
     const reg = c.study?.protocolSection?.statusModule?.overallStatus ?? (c.missing ? "(not returned)" : "(none)");
     registryTally.set(reg, (registryTally.get(reg) ?? 0) + 1);
+    if (hold.has(t.id)) {
+      // Held: the entry already in the side file stands (or none), so the page shows what it showed before this run.
+      const prev = TRIAL_REGISTRY_STATUS[t.id];
+      if (prev) changes.push([t.id, prev]);
+      kept.set("held back (--hold)", (kept.get("held back (--hold)") ?? 0) + 1);
+      continue;
+    }
     const v = decide(t, c);
     if (v.change) {
       changes.push([t.id, v.change]);

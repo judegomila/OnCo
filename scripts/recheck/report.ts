@@ -9,6 +9,7 @@ export type Report = { generated: string; results: CheckResult[] };
 
 /** A heading for each rule. A rule with no entry is shown by its own name. */
 export const TYPE_WORDS: Record<string, string> = {
+  "status-held-back": "Status changes held back because the record's own sentences would contradict them",
   "shared-registration": "One registration carried by two records",
   "status-moved-to-closed": "Trials now completed, terminated or withdrawn on the registry",
   "results-posted": "Trials with results posted since the record was last checked",

@@ -74,6 +74,7 @@ describe("refusal", () => {
   it("reads a challenge page for what it is, whatever status it is served with", () => {
     expect(refusal({ status: 404, finalUrl: "https://www.accessdata.fda.gov/apology_objects/abuse-detection-apology.html" })).toBe("bot-challenge page");
     expect(refusal({ status: 200, body: "<html><title>Just a moment...</title>" })).toBe("bot-challenge page");
+    expect(refusal({ status: 200, finalUrl: "https://unblock.federalregister.gov/" })).toBe("bot-challenge page");
     expect(refusal({ status: 200, headers: new Headers({ "cf-mitigated": "challenge" }) })).toContain("challenge");
     expect(refusal({ status: 200, body: "<html><title>Clinical guideline</title>" })).toBeUndefined();
   });

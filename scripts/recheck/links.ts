@@ -29,6 +29,7 @@ export function weeklySlice(urls: string[], isoDate: string, slices = SLICES): s
   return urls.filter((u) => sliceOf(u, slices) === want).sort();
 }
 
+const isArchive = (url: string) => /^https?:\/\/(web\.archive\.org|archive\.org|webarchive\.[a-z.]+|archive\.(ph|is|today))\//i.test(url);
 const isDoi = (url: string) => /^https?:\/\/(dx\.)?doi\.org\//i.test(url);
 
 /** HEAD, then GET where HEAD is refused, unsupported or says the page is gone (a GET confirms it and shows a challenge page for what it is). */
@@ -45,7 +46,8 @@ export function verdict(url: string, p: Probe): Verdict {
   if (p.blocked) return "blocked";
   if (p.status === 0) return "unreachable";
   if (p.status === 404 || p.status === 410) return "gone";
-  if (p.status >= 200 && p.status < 400) return isSoftPdf404(p.finalUrl ?? url, p.contentType) ? "gone" : "ok";
+  // A web archive answers for a PDF with its own page around the file; that is the archive working, not a missing file.
+  if (p.status >= 200 && p.status < 400) return !isArchive(url) && isSoftPdf404(p.finalUrl ?? url, p.contentType) ? "gone" : "ok";
   return "error";
 }
 
@@ -74,25 +76,30 @@ export function linkFindings(results: Array<{ url: string; probe: Probe }>, refs
   return out;
 }
 
-/** Probe every address, a few hosts at a time. A host that refuses `giveUpAfter` requests running is left alone for the rest of the run. */
+/**
+ * Probe every address, a few hosts at a time. Each host's addresses are asked one after another by one worker, and
+ * the hosts with the most addresses start first, so the run is as long as its largest host needs and no longer. A
+ * host that refuses `giveUpAfter` requests running is left alone for the rest of the run.
+ */
 export async function probeAll(net: Net, urls: string[], opts: { concurrency?: number; giveUpAfter?: number; log?: (s: string) => void; label?: string } = {}): Promise<Array<{ url: string; probe: Probe }>> {
-  const refusals = new Map<string, number>();
   const giveUp = opts.giveUpAfter ?? 5;
-  // Interleave hosts so the pool is not spent waiting on one host's turn.
   const byHost = new Map<string, string[]>();
   for (const u of urls) byHost.set(hostOf(u), [...(byHost.get(hostOf(u)) ?? []), u]);
-  const order: string[] = [];
-  for (let i = 0, more = true; more; i++) { more = false; for (const list of byHost.values()) if (i < list.length) { order.push(list[i]); more = true; } }
+  const hosts = [...byHost.values()].sort((a, b) => b.length - a.length);
+  const probes = new Map<string, Probe>();
   let done = 0;
-  return pooled(order, opts.concurrency ?? 6, async (url) => {
-    const host = hostOf(url);
-    let p: Probe;
-    if ((refusals.get(host) ?? 0) >= giveUp) p = { status: 0, blocked: "host refused earlier requests in this run; not asked again" };
-    else {
-      p = await probe(net, url);
-      refusals.set(host, p.blocked ? (refusals.get(host) ?? 0) + 1 : 0);
+  await pooled(hosts, opts.concurrency ?? 6, async (list) => {
+    let refusals = 0;
+    for (const url of list) {
+      let p: Probe;
+      if (refusals >= giveUp) p = { status: 0, blocked: "host refused earlier requests in this run; not asked again" };
+      else {
+        p = await probe(net, url);
+        refusals = p.blocked ? refusals + 1 : 0;
+      }
+      probes.set(url, p);
+      if (++done % 500 === 0) opts.log?.(`  ${opts.label ?? "links"}: ${done}/${urls.length} (${net.requests} requests)`);
     }
-    if (++done % 500 === 0) opts.log?.(`  ${opts.label ?? "links"}: ${done}/${order.length} (${net.requests} requests)`);
-    return { url, probe: p };
   });
+  return urls.map((url) => ({ url, probe: probes.get(url)! }));
 }

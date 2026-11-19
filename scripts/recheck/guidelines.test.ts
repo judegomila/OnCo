@@ -44,7 +44,10 @@ describe("compareGuideline", () => {
     const moved: Probe = { status: 200, contentType: "application/pdf", finalUrl: "https://guidelines.example.org/antiemetics-2026.pdf" };
     expect(compareGuideline(src(), { status: 200 }, moved, READ)).toMatchObject([{ type: "source-redirected", source: "redirects to https://guidelines.example.org/antiemetics-2026.pdf" }]);
     expect(types({ status: 200, finalUrl: "https://guidelines.example.org/antiemetics-2026.pdf" }, moved)).toEqual([]);
-    expect(types(undefined, moved)).toEqual(["source-redirected:medium"]);
+    expect(types(undefined, moved)).toEqual(["source-redirected:low"]);
+    expect(types(undefined, { status: 200, contentType: "application/pdf", finalUrl: "https://elsewhere.example.com/antiemetics.pdf" })).toEqual(["source-redirected:medium"]);
+    // A redirect to a challenge page is a refusal, not a move.
+    expect(types(undefined, { status: 200, finalUrl: "https://unblock.federalregister.gov/", blocked: "bot-challenge page" })).toEqual([]);
   });
   it("reports a changed Last-Modified, more seriously for a file than for a web page", () => {
     const [f] = compareGuideline(src(), { status: 200, lastModified: "Tue, 03 Mar 2026 10:00:00 GMT" }, pdf({ lastModified: "Mon, 09 Nov 2026 08:00:00 GMT" }), READ);

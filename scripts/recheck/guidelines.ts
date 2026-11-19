@@ -4,7 +4,8 @@
  * Every protocol under src/data/protocols names its sources, each with a publisher, a year and an address. Each
  * address is asked for its headers (HEAD, then GET where HEAD is refused) and three things are reported:
  *   - the address is gone (404 or 410);
- *   - it now redirects somewhere it did not last week;
+ *   - it now redirects somewhere it did not last week (to another host is the more serious; a new path on the same
+ *     host is usually a tidied address);
  *   - its Last-Modified date changed since last week, or, for a file such as a PDF, its ETag did.
  * A changed date says a publisher touched the page. It does not say a new edition exists, and no attempt is made to
  * find one by reading publishers' sites: most refuse scripts, and a refusal is recorded as blocked, not worked round.
@@ -13,7 +14,7 @@
  * without the document changing and are not compared: an ETag on a web page (many are made per response), and a
  * Last-Modified that was less than two days old when it was read (a render stamp, not a publication date).
  */
-import type { Finding } from "./lib";
+import { type Finding, hostOf } from "./lib";
 import { type Probe, movedTo, verdict } from "./links";
 
 export type GuidelineSource = { url: string; label: string; publisher: string; year: number; protocols: string[] };
@@ -47,7 +48,7 @@ export function compareGuideline(src: GuidelineSource, prev: HeaderState | undef
   if (v === "gone") return [{ ...base, type: "source-gone", severity: "high", source: p.status === 404 || p.status === 410 ? `${p.status} ${p.status === 410 ? "Gone" : "Not Found"}` : `answers ${p.status} with ${p.contentType ?? "no content type"}, not a PDF` }];
   const now = headerState(src.url, p, readAt)!;
   const out: Finding[] = [];
-  if (now.finalUrl && now.finalUrl !== prev?.finalUrl) out.push({ ...base, type: "source-redirected", severity: "medium", source: `redirects to ${now.finalUrl}` });
+  if (now.finalUrl && now.finalUrl !== prev?.finalUrl) out.push({ ...base, type: "source-redirected", severity: hostOf(now.finalUrl) === hostOf(src.url) ? "low" : "medium", source: `redirects to ${now.finalUrl}` });
   if (prev && prev.status >= 200 && prev.status < 400) {
     if (prev.lastModified && now.lastModified && prev.lastModified !== now.lastModified && !prev.fresh) {
       out.push({ ...base, type: "source-changed", severity: isHtml(p.contentType) ? "low" : "medium", source: `Last-Modified ${now.lastModified}; it was ${prev.lastModified}`, date: new Date(Date.parse(now.lastModified)).toISOString().slice(0, 10) });

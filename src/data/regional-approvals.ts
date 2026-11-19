@@ -268,7 +268,8 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   "cpx-351": { US: A(2017), EU: A(2018, epar("vyxeos-liposomal")), UK: A(2018, mhra("Vyxeos")), JP: A(2024, PMDA), AU: A(2021, tga("Vyxeos")) },
   tagraxofusp: { US: A(2018), EU: A(2021, epar("elzonris")), UK: A(2021, mhra("Elzonris")), JP: A(2025, PMDA, "Elzonris, blastic plasmacytoid dendritic cell neoplasm; 22 Dec 2025 (Nippon Shinyaku)") },
   palbociclib: global("Ibrance", "ibrance", 2015, 2016, 2016, 2017, 2018, 2017),
-  ribociclib: { US: A(2017), EU: A(2017, epar("kisqali")), UK: A(2017, mhra("Kisqali")), CN: A(2023, NMPA), AU: A(2017, tga("Kisqali")) }, // Japan removed 18 Nov 2026: Kisqali is not in the PMDA List of Approved Drugs (April 2004 to February 2026)
+  // Japan removed 18 Nov 2026: Kisqali is not in the PMDA List of Approved Drugs (April 2004 to February 2026)
+  ribociclib: { US: A(2017), EU: A(2017, epar("kisqali")), UK: A(2017, mhra("Kisqali")), CN: A(2023, NMPA), AU: A(2017, tga("Kisqali")) },
   abemaciclib: global("Verzenio", "verzenios", 2017, 2018, 2018, 2018, 2020, 2019, "EU brand Verzenios"),
   atirmociclib: { US: UR("Phase 3 FOURLIGHT-3") },
   alpelisib: { US: A(2019), EU: A(2020, epar("piqray")), UK: A(2020, mhra("Piqray")), CN: A(2024, NMPA, undefined, "Year not re-verified on 18 November 2026: the NMPA page could not be read"), AU: A(2020, tga("Piqray")) },

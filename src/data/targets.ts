@@ -299,7 +299,7 @@ export const targets: TargetInput[] = [
   },
   {
     id: "sstr2", drugs: ["alphamedix", "cam2029", "ga68-dotatate", "itm-11", "lutathera", "octreotide-lanreotide", "paltusotine", "pasireotide", "ryz101"], kind: "target", name: "Somatostatin receptor 2", symbol: "SSTR2", hgnc: "HGNC:11331", ensembl: "ENSG00000180616", uniprot: "P30874", entrez: "6752", targetClass: "surface-antigen", asOf, wikipedia: W("Somatostatin_receptor_2"),
-    tldr: "Somatostatin receptor 2 is a hormone receptor densely present on neuroendocrine tumours, and was the first theranostic target to reach routine care.",
+    tldr: "Somatostatin receptor 2 is a hormone receptor densely present on neuroendocrine tumours, and is used both to image these tumours and to treat them with a radioactive drug.",
     summary: "Somatostatin receptor 2 is a G-protein-coupled receptor overexpressed on well-differentiated neuroendocrine tumours, which internalise bound somatostatin analogues and so can be both imaged and treated with the same peptide. 68Ga-DOTATATE PET (Netspot) and 177Lu-DOTATATE (Lutathera, NETTER-1 and NETTER-2) established the theranostic paradigm, in which a diagnostic scan selects patients for a matched radioligand. SSTR PET is positive in 80-90% of well-differentiated neuroendocrine tumours but lower in grade 3, and the receptor is also expressed in meningioma, 30-50% of small-cell lung cancer, and some breast cancers. Alpha-emitting 225Ac-DOTATATE (RYZ101) and 212Pb-DOTAMTATE are in phase 3, testing whether alpha particles outperform beta. The simple version is a hormone receptor that lets doctors see and treat neuroendocrine tumours with the same molecule.",
     biology: "G-protein-coupled receptor; also expressed in meningioma, small-cell lung cancer, and some breast cancers.",
     whereFound: ["Neuroendocrine tumours", "Meningioma", "Small-cell lung cancer (subset)"],
@@ -942,7 +942,7 @@ export const targets: TargetInput[] = [
   },
   {
     id: "ezh2", drugs: ["xnw5004"], kind: "target", name: "EZH2", aka: ["PRC2"], symbol: "EZH2", hgnc: "HGNC:3527", ensembl: "ENSG00000106462", uniprot: "Q15910", entrez: "2146", targetClass: "enzyme", asOf, wikipedia: W("EZH2"), links: [{ label: "FDA alert: Tazverik withdrawal (March 2026)", url: "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-alerts-health-care-providers-and-patients-about-increased-risk-new-blood-cancers-tazverik" }],
-    tldr: "EZH2 is an enzyme that silences genes. The first drug against it treated a rare sarcoma and some lymphomas until it was withdrawn in 2026 for causing second blood cancers.",
+    tldr: "EZH2 is an enzyme that silences genes. The first drug against it, tazemetostat, treated a rare sarcoma and some lymphomas until it was withdrawn in 2026 for causing second blood cancers.",
     summary: "Tazemetostat was approved in epithelioid sarcoma (2020) and EZH2-mutant follicular lymphoma, but Ipsen withdrew it from all markets and indications on 9 March 2026 after the SYMPHONY-1 trial showed excess secondary haematologic malignancies (FDA alert March 2026). EZH2 inhibition continues to be explored (mevrometostat in prostate cancer; SCLC re-sensitisation), now under a safety cloud.",
     biology: "Catalytic subunit of PRC2, writes H3K27me3.",
     whereFound: ["Epithelioid sarcoma (INI1 loss)", "Follicular lymphoma", "Castration-resistant prostate cancer"],

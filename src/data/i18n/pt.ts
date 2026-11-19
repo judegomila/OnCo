@@ -249,7 +249,6 @@ export const tldr_pt: Record<string, string> = {
   pylarify: "Um traçador PET de PSMA para câncer de próstata, com uma nova formulação aprovada em março de 2026.",
   ryz101: "Uma versão de partícula alfa do Lutathera para tumores neuroendócrinos que pararam de responder à versão beta.",
   "ac225-psma": "Drogas anti-PSMA emissoras alfa que produzem respostas mesmo após a falha do Pluvicto, limitadas principalmente pela oferta de isótopos.",
-  "fap-2286": "Um par teranóstico voltado para FAP: uma versão faz imagem de quase qualquer tumor sólido, a outra o trata com radiação.",
   osimertinib: "O comprimido padrão para câncer de pulmão EGFR-mutado, hoje também dado após a cirurgia e com quimioterapia ou após quimiorradiação.",
   lorlatinib: "Um inibidor de ALK com o controle de doença mais longo já registrado para um comprimido-alvo em câncer de pulmão: 60% sem progressão em cinco anos.",
   sotorasib: "A primeira droga a atingir KRAS, aprovada em 2021 após quatro décadas de fracassos.",
@@ -273,7 +272,6 @@ export const tldr_pt: Record<string, string> = {
   venetoclax: "Um comprimido que remove o escudo de sobrevivência das células leucêmicas, permitindo tratamento sem quimioterapia e por tempo limitado na LLC.",
   imatinib: "A droga que iniciou a era da terapia-alvo em 2001, transformando a leucemia mieloide crônica em uma condição manejável com expectativa de vida quase normal.",
   trastuzumab: "O primeiro anticorpo-alvo para um tumor sólido (1998), que transformou o câncer de mama HER2-positivo do pior subtipo em um dos mais tratáveis.",
-  "autogene-cevumeran": "A vacina personalizada da BioNTech, notável por um pequeno estudo em câncer de pâncreas em que os respondedores ficaram livres do câncer por anos.",
   "vusolimogene-oderparepvec": "Um vírus do herpes modificado injetado em tumores de melanoma, aprovado em agosto de 2026 com nivolumabe após falha da imunoterapia.",
 
   optune: "Um dispositivo vestível que aplica campos elétricos que perturbam a divisão celular. Aprovado para glioblastoma e, em 2026, câncer de pâncreas.",
@@ -6270,7 +6268,6 @@ export const tldr_pt: Record<string, string> = {
   al2846: "AL2846 é um fármaco de molécula pequena experimental da Chia Tai Tianqing Pharmaceutical em ensaios de fase 3 para câncer de tireoide, direcionado a MET e RET.",
   al8326: "AL8326 é um inibidor de quinases de molécula pequena experimental (FGFR, VEGFR e Aurora B) da Advenchen Pharmaceuticals, em um ensaio de fase 3 para câncer de pulmão de pequenas células; um ensaio de fase 2 inclui também câncer de pulmão de células não pequenas e carcinoma de células renais.",
   "allo-647": "ALLO-647 é um anticorpo monoclonal experimental da Allogene Therapeutics em ensaios de fase 2 para linfoma difuso de grandes células B, direcionado a CD52.",
-  anvumetostat: "Anvumetostat é um fármaco de molécula pequena experimental da Amgen em ensaios de fase 2 para câncer de pulmão de células não pequenas, direcionado a PRMT5 (cânceres com deleção de MTAP).",
   "ap-biosciences": "AP Biosciences é uma empresa de biotecnologia sediada em Taiwan que conduz 2 ensaios oncológicos de fase avançada de AP203, AP402 (Parte 1, escalonamento de dose) e AP402 (Parte 2, expansão de dose) em câncer de pulmão de células não pequenas, carcinoma de células escamosas de cabeça e pescoço e câncer de esôfago.",
   "apex-03": "Um ensaio de fase 2/3 que testa ICP-248 em leucemia linfocítica crônica, atualmente recrutando.",
   "arcus-biosciences": "Arcus Biosciences é uma empresa de biotecnologia sediada nos Estados Unidos que conduz 4 ensaios oncológicos de fase avançada de Domvanalimab e Quemliclustat em câncer gástrico e da junção gastroesofágica, carcinoma de células renais e adenocarcinoma ductal pancreático.",
@@ -6767,7 +6764,6 @@ export const tldr_pt: Record<string, string> = {
   "xuanzhu-biopharmaceutical": "Xuanzhu Biopharmaceutical é uma empresa de biotecnologia sediada na China que conduz 3 ensaios oncológicos em fase avançada de XZP-3287 e XZP-5955 em câncer de mama HR-positivo / HER2-negativo e câncer de pulmão de células não pequenas.",
   yl201: "YL201 é um conjugado anticorpo-fármaco experimental da MediLink Therapeutics (Suzhou) em ensaios de fase 3 para carcinoma nasofaríngeo, câncer de pulmão de células pequenas e carcinoma de células escamosas do esôfago, direcionado a B7-H3.",
   yl202: "YL202 é um conjugado anticorpo-fármaco (ADC) experimental da MediLink Therapeutics (Suzhou) em ensaios de fase 3 para câncer de pulmão de células não pequenas e câncer de mama HR-positivo / HER2-negativo, direcionado a HER3.",
-  "zamtocabtagene-autoleucel": "Zamtocabtagene autoleucel é uma terapia celular CAR-T experimental da Miltenyi Biomedicine em ensaios de fase 2 para linfoma difuso de grandes células B, linfoma primário do sistema nervoso central e linfoma de células do manto, direcionada a CD19 e CD20.",
   "zl-1310": "ZL-1310 é um conjugado anticorpo-fármaco experimental da Zai Lab (Shanghai) em ensaios de fase 3 para câncer de pulmão de células pequenas, direcionado a DLL3.",
   zovegalisib: "Zovegalisib é um medicamento experimental de pequena molécula da Relay Therapeutics em ensaios de fase 3 para câncer de mama HR-positivo / HER2-negativo, direcionado a PIK3CA / PI3K-alfa.",
 };

@@ -578,7 +578,6 @@ export const tldr_de: Record<string, string> = {
   astro: "Die größte Fachgesellschaft für Strahlentherapie, deren Jahrestagung, Leitlinien und Choosing-Wisely-Listen die Verbreitung von Hypofraktionierung und stereotaktischer Strahlentherapie vorantreiben.",
   "augment-101": "Die Studie, die die Menin-Hemmung von einer Idee zum ersten zugelassenen Medikament für Leukämien mit KMT2A-Rearrangement machte.",
   "auto-contouring-ai": "Software, die Organe und Tumoren auf Aufnahmen automatisch einzeichnet, Stunden pro Patient einspart und die tägliche Anpassung des Bestrahlungsplans praktikabel macht.",
-  "autogene-cevumeran": "BioNTechs personalisierter Impfstoff, bekannt durch eine kleine Studie bei Bauchspeicheldrüsenkrebs, in der Patienten, die auf den Impfstoff ansprachen, jahrelang krebsfrei blieben.",
   "autologous-transplant": "Eine sehr hoch dosierte Chemotherapie, die das Knochenmark zerstören würde, überlebbar gemacht, indem der Patient seine eigenen, zuvor gesammelten Stammzellen zurückerhält. Standard beim Myelom und beim rezidivierten Lymphom; die Zellen retten das Knochenmark, sie bekämpfen nicht den Krebs.",
   avapritinib: "Avapritinib ist das erste Medikament gegen GIST, die durch die PDGFRA-D842V-Mutation angetrieben werden, die allen anderen Kinasehemmern widersteht; es ist außerdem für die systemische Mastozytose zugelassen.",
   avelumab: "Avelumab ist ein PD-L1-Blocker, der als Erhaltungstherapie nach der Chemotherapie bei fortgeschrittenem Blasenkrebs gegeben wird und das Überleben um etwa sieben Monate verlängerte.",
@@ -724,7 +723,6 @@ export const tldr_de: Record<string, string> = {
   "exact-sciences": "Exact Sciences stellt Cologuard und Oncotype DX her und bringt Cancerguard MCED und Oncodetect MRD auf den Markt; Abbott hat die Übernahme am 23. März 2026 abgeschlossen.",
   "exercise-during-chemotherapy": "Moderate Bewegung während der Chemotherapie ist sicher und verringert die Erschöpfung, hilft den Betroffenen, ihre geplanten Dosen abzuschließen, und schützt möglicherweise Herz und Nerven.",
   "extrinsic-apoptosis-death-receptors": "Immunzellen töten durch Berührung: Sie präsentieren einer Zielzelle FAS-Ligand oder TRAIL, deren Todesrezeptoren dann die Selbstzerstörung von außen nach innen auslösen. Tumoren durchtrennen diesen Draht, indem sie die Rezeptoren entfernen oder Köder und Blocker im Überschuss produzieren.",
-  "fap-2286": "Ein auf FAP gerichtetes theranostisches Paar: Eine Version bildet fast jeden soliden Tumor ab, die andere behandelt ihn mit Strahlung.",
   "fda-approvals": "Die onkologischen Zulassungsmitteilungen der FDA sind das offizielle Verzeichnis dessen, was wofür zugelassen ist.",
 
   "fertility-preservation": "Den Schutz der Fähigkeit, Kinder zu bekommen, vor einer Krebsbehandlung, die Eizellen, Spermien oder die Gebärmutter schädigt: Einfrieren von Spermien und Eizellen oder Embryonen, Einfrieren von Eierstockgewebe, Abschirmung der Eierstöcke und, bei manchen Brustkrebsarten, vorübergehende Unterdrückung der Eierstockfunktion.",
@@ -6258,7 +6256,6 @@ export const tldr_de: Record<string, string> = {
   al2846: "AL2846 ist ein experimenteller niedermolekularer Wirkstoff von Chia Tai Tianqing Pharmaceutical in Phase-3-Studien bei Schilddrüsenkrebs, der auf MET und RET abzielt.",
   al8326: "AL8326 ist ein experimenteller niedermolekularer Kinasehemmer (FGFR, VEGFR und Aurora B) von Advenchen Pharmaceuticals in einer Phase-3-Studie bei kleinzelligem Lungenkrebs; eine Phase-2-Studie schließt auch nicht-kleinzelligen Lungenkrebs und Nierenzellkarzinom ein.",
   "allo-647": "ALLO-647 ist ein experimenteller monoklonaler Antikörper von Allogene Therapeutics in Phase-2-Studien bei diffusem großzelligem B-Zell-Lymphom, der auf CD52 abzielt.",
-  anvumetostat: "Anvumetostat ist ein experimenteller niedermolekularer Wirkstoff von Amgen in Phase-2-Studien bei nicht-kleinzelligem Lungenkrebs, der auf PRMT5 (MTAP-deletierte Krebsarten) abzielt.",
   "ap-biosciences": "AP Biosciences ist ein in Taiwan ansässiges Biotechnologieunternehmen, das 2 Krebsstudien im Spätstadium mit AP203, AP402 (Teil 1, Dosiseskalation) und AP402 (Teil 2, Dosisexpansion) bei nicht-kleinzelligem Lungenkrebs, Plattenepithelkarzinom des Kopf-Hals-Bereichs und Speiseröhrenkrebs durchführt.",
   "apex-03": "Eine Phase-2/3-Studie, die ICP-248 bei chronischer lymphatischer Leukämie untersucht, derzeit rekrutierend.",
   "arcus-biosciences": "Arcus Biosciences ist ein in den Vereinigten Staaten ansässiges Biotechnologieunternehmen, das 4 Krebsstudien im Spätstadium mit Domvanalimab und Quemliclustat bei Magen- und gastroösophagealem Übergangskarzinom, Nierenzellkarzinom und duktalem Adenokarzinom des Pankreas durchführt.",
@@ -6755,7 +6752,6 @@ export const tldr_de: Record<string, string> = {
   "xuanzhu-biopharmaceutical": "Xuanzhu Biopharmaceutical ist ein Biotechnologieunternehmen mit Sitz in China, das 3 Krebsstudien im späten Entwicklungsstadium zu XZP-3287 und XZP-5955 bei HR-positivem / HER2-negativem Brustkrebs und nicht-kleinzelligem Lungenkarzinom durchführt.",
   yl201: "YL201 ist ein experimentelles Antikörper-Wirkstoff-Konjugat von MediLink Therapeutics (Suzhou) in Phase-3-Studien bei Nasopharynxkarzinom, kleinzelligem Lungenkarzinom und Plattenepithelkarzinom der Speiseröhre, das auf B7-H3 abzielt.",
   yl202: "YL202 ist ein experimentelles Antikörper-Wirkstoff-Konjugat (ADC) von MediLink Therapeutics (Suzhou) in Phase-3-Studien bei nicht-kleinzelligem Lungenkarzinom und HR-positivem / HER2-negativem Brustkrebs, das auf HER3 abzielt.",
-  "zamtocabtagene-autoleucel": "Zamtocabtagene autoleucel ist eine experimentelle CAR-T-Zelltherapie von Miltenyi Biomedicine in Phase-2-Studien bei diffusem großzelligem B-Zell-Lymphom, primärem ZNS-Lymphom und Mantelzell-Lymphom, die auf CD19 und CD20 abzielt.",
   "zl-1310": "ZL-1310 ist ein experimentelles Antikörper-Wirkstoff-Konjugat von Zai Lab (Shanghai) in Phase-3-Studien bei kleinzelligem Lungenkarzinom, das auf DLL3 abzielt.",
   zovegalisib: "Zovegalisib ist ein experimentelles niedermolekulares Medikament von Relay Therapeutics in Phase-3-Studien bei HR-positivem / HER2-negativem Brustkrebs, das auf PIK3CA / PI3K-alpha abzielt.",
 };

@@ -578,7 +578,6 @@ export const tldr_ja: Record<string, string> = {
   astro: "最大の放射線腫瘍学会であり、その年次総会、ガイドライン、Choosing Wiselyのリストが、寡分割照射と定位放射線治療の普及を後押ししている。",
   "augment-101": "menin阻害を単なるアイデアから、KMT2A再構成を伴う白血病に対する初めての承認薬へと変えた試験である。",
   "auto-contouring-ai": "画像上に臓器と腫瘍の輪郭を自動で描くソフトウェアであり、患者1人あたり数時間を節約し、日々の治療計画の調整を実用的なものにしている。",
-  "autogene-cevumeran": "BioNTechの個別化ワクチンであり、膵がんの小規模な研究でワクチンに反応した患者が数年にわたりがんのない状態を維持したことで注目されている。",
   "autologous-transplant": "骨髄を破壊してしまうほどの超大量化学療法を、あらかじめ採取しておいた患者自身の幹細胞を戻すことで乗り越えられるようにしたものである。骨髄腫と再発リンパ腫では標準治療であり、幹細胞は骨髄を救うのであって、がんと戦うわけではない。",
   avapritinib: "Avapritinibは、他のあらゆるキナーゼ阻害薬に抵抗性を示すPDGFRA D842V変異によって引き起こされるGISTに対する初の薬であり、全身性肥満細胞症にも承認されている。",
   avelumab: "Avelumabは進行膀胱がんの化学療法後に維持療法として投与されるPD-L1阻害薬であり、生存を約7か月延ばした。",
@@ -724,7 +723,6 @@ export const tldr_ja: Record<string, string> = {
   "exact-sciences": "Exact SciencesはCologuardとOncotype DXを製造し、Cancerguard MCEDとOncodetect MRDを発売しつつある。Abbottは2026年3月23日に同社の買収を完了した。",
   "exercise-during-chemotherapy": "化学療法中の適度な運動は安全であり、疲労を減らし、予定された投与量を完了する助けとなり、心臓や神経を守る可能性もある。",
   "extrinsic-apoptosis-death-receptors": "免疫細胞は接触によって殺す。標的細胞にFASリガンドやTRAILを提示し、標的細胞のデスレセプターが外側から内側へ自己破壊を引き起こすのである。腫瘍はこれらの受容体を欠失させたり、おとり分子や阻害分子を過剰に作ったりして、この配線を切断する。",
-  "fap-2286": "FAPを標的とするセラノスティクスの一対で、一方はほぼあらゆる固形腫瘍を画像化し、もう一方は放射線で治療する。",
   "fda-approvals": "FDAの腫瘍領域における承認通知は、何が何に対して承認されているかの公式な記録である。",
 
   "fertility-preservation": "卵子、精子、子宮を傷つけるがん治療の前に、子どもを持つ能力を守ることである。精子や卵子または胚の凍結、卵巣組織の凍結、卵巣の遮蔽、そして一部の乳がんでは一時的な卵巣機能抑制が含まれる。",
@@ -6257,7 +6255,6 @@ export const tldr_ja: Record<string, string> = {
   al2846: "AL2846 は Chia Tai Tianqing Pharmaceutical の実験段階の低分子薬で、甲状腺がんを対象とする第3相試験にあり、MET と RET を標的とする。",
   al8326: "AL8326 は Advenchen Pharmaceuticals の実験段階の低分子キナーゼ阻害薬（FGFR、VEGFR、Aurora B）で、小細胞肺がんを対象とする第3相試験にあり、第2相試験では非小細胞肺がんおよび腎細胞がんも対象としている。",
   "allo-647": "ALLO-647 は Allogene Therapeutics の実験段階のモノクローナル抗体で、びまん性大細胞型B細胞リンパ腫を対象とする第2相試験にあり、CD52 を標的とする。",
-  anvumetostat: "Anvumetostat は Amgen の実験段階の低分子薬で、非小細胞肺がんを対象とする第2相試験にあり、PRMT5（MTAP 欠失がん）を標的とする。",
   "ap-biosciences": "AP Biosciences は台湾に拠点を置くバイオテクノロジー企業で、非小細胞肺がん、頭頸部扁平上皮がんおよび食道がんを対象に、AP203、AP402（第1部、用量漸増）および AP402（第2部、用量拡大）の後期段階のがん臨床試験を 2 件実施している。",
   "apex-03": "慢性リンパ性白血病を対象に ICP-248 を検証する第2/3相試験で、現在参加者を募集中。",
   "arcus-biosciences": "Arcus Biosciences は米国に拠点を置くバイオテクノロジー企業で、胃がんおよび胃食道接合部がん、腎細胞がんおよび膵管腺がんを対象に、Domvanalimab と Quemliclustat の後期段階のがん臨床試験を 4 件実施している。",
@@ -6754,7 +6751,6 @@ export const tldr_ja: Record<string, string> = {
   "xuanzhu-biopharmaceutical": "Xuanzhu Biopharmaceuticalは中国に本拠を置くバイオテクノロジー企業で、HR陽性 / HER2陰性乳がんおよび非小細胞肺がんを対象にXZP-3287およびXZP-5955の後期段階のがん試験を3件実施しています。",
   yl201: "YL201はMediLink Therapeutics (Suzhou)の実験的な抗体薬物複合体で、上咽頭がん、小細胞肺がんおよび食道扁平上皮がんを対象とした第3相試験段階にあり、B7-H3を標的としています。",
   yl202: "YL202はMediLink Therapeutics (Suzhou)の実験的な抗体薬物複合体（ADC）で、非小細胞肺がんおよびHR陽性 / HER2陰性乳がんを対象とした第3相試験段階にあり、HER3を標的としています。",
-  "zamtocabtagene-autoleucel": "Zamtocabtagene autoleucelはMiltenyi Biomedicineの実験的なCAR-T細胞療法で、びまん性大細胞型B細胞リンパ腫、原発性中枢神経系リンパ腫およびマントル細胞リンパ腫を対象とした第2相試験段階にあり、CD19およびCD20を標的としています。",
   "zl-1310": "ZL-1310はZai Lab (Shanghai)の実験的な抗体薬物複合体で、小細胞肺がんを対象とした第3相試験段階にあり、DLL3を標的としています。",
   zovegalisib: "ZovegalisibはRelay Therapeuticsの実験的な低分子薬で、HR陽性 / HER2陰性乳がんを対象とした第3相試験段階にあり、PIK3CA / PI3K-alphaを標的としています。",
 };

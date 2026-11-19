@@ -578,7 +578,6 @@ export const tldr_fr: Record<string, string> = {
   astro: "La plus grande société de radiothérapie oncologique, dont le congrès annuel, les recommandations et les listes Choosing Wisely favorisent l'adoption de l'hypofractionnement et de la radiothérapie stéréotaxique.",
   "augment-101": "L'essai qui a fait passer l'inhibition de la ménine du stade d'idée au premier médicament approuvé pour la leucémie avec réarrangement de KMT2A.",
   "auto-contouring-ai": "Un logiciel qui délimite automatiquement les organes et les tumeurs sur les images, faisant gagner des heures par patient et rendant l'adaptation quotidienne du plan réalisable en pratique.",
-  "autogene-cevumeran": "Le vaccin personnalisé de BioNTech, remarqué pour une petite étude dans le cancer du pancréas où les patients ayant répondu au vaccin sont restés sans cancer pendant des années.",
   "autologous-transplant": "Une chimiothérapie à très forte dose qui détruirait la moelle osseuse, rendue supportable en réinjectant au patient ses propres cellules souches prélevées auparavant. Standard dans le myélome et le lymphome en rechute ; les cellules sauvent la moelle, elles ne combattent pas le cancer.",
   avapritinib: "Avapritinib est le premier médicament contre les GIST portés par la mutation PDGFRA D842V, qui résiste à tous les autres inhibiteurs de kinase ; il est aussi approuvé dans la mastocytose systémique.",
   avelumab: "Avelumab est un bloqueur de PD-L1 administré en entretien après la chimiothérapie dans le cancer de la vessie avancé, qui a prolongé la survie d'environ sept mois.",
@@ -724,7 +723,6 @@ export const tldr_fr: Record<string, string> = {
   "exact-sciences": "Exact Sciences fabrique Cologuard et Oncotype DX et lance Cancerguard MCED et Oncodetect MRD ; Abbott a finalisé son rachat le 23 mars 2026.",
   "exercise-during-chemotherapy": "Une activité physique modérée pendant la chimiothérapie est sans danger et réduit la fatigue, aide les patients à recevoir toutes les doses prévues et pourrait protéger le cœur et les nerfs.",
   "extrinsic-apoptosis-death-receptors": "Les cellules immunitaires tuent par contact : elles présentent le ligand de FAS ou TRAIL à une cellule cible, dont les récepteurs de mort déclenchent alors l'autodestruction de l'extérieur vers l'intérieur. Les tumeurs coupent ce fil en supprimant les récepteurs ou en surproduisant des leurres et des bloqueurs.",
-  "fap-2286": "Un couple théranostique ciblant FAP : une version permet d'imager presque n'importe quelle tumeur solide, l'autre la traite par irradiation.",
   "fda-approvals": "Les notifications d'approbation en oncologie de la FDA constituent le registre officiel de ce qui est approuvé, et pour quoi.",
 
   "fertility-preservation": "Préserver la capacité d'avoir des enfants avant un traitement anticancéreux qui endommage les ovules, les spermatozoïdes ou l'utérus : congélation de sperme et d'ovocytes ou d'embryons, congélation de tissu ovarien, protection des ovaires et, pour certains cancers du sein, suppression ovarienne temporaire.",
@@ -6258,7 +6256,6 @@ export const tldr_fr: Record<string, string> = {
   al2846: "AL2846 est un médicament à petite molécule expérimental de Chia Tai Tianqing Pharmaceutical en essais de phase 3 pour le cancer de la thyroïde, ciblant MET et RET.",
   al8326: "AL8326 est un inhibiteur de kinases à petite molécule expérimental (FGFR, VEGFR et Aurora B) d'Advenchen Pharmaceuticals, en essai de phase 3 pour le cancer du poumon à petites cellules ; un essai de phase 2 inclut aussi le cancer du poumon non à petites cellules et le carcinome à cellules rénales.",
   "allo-647": "ALLO-647 est un anticorps monoclonal expérimental d'Allogene Therapeutics en essais de phase 2 pour le lymphome diffus à grandes cellules B, ciblant CD52.",
-  anvumetostat: "Anvumetostat est un médicament à petite molécule expérimental d'Amgen en essais de phase 2 pour le cancer du poumon non à petites cellules, ciblant PRMT5 (cancers avec délétion de MTAP).",
   "ap-biosciences": "AP Biosciences est une société de biotechnologie basée à Taïwan qui mène 2 essais oncologiques de phase avancée sur AP203, AP402 (Partie 1, escalade de dose) et AP402 (Partie 2, expansion de dose) dans le cancer du poumon non à petites cellules, le carcinome épidermoïde de la tête et du cou et le cancer de l'œsophage.",
   "apex-03": "Un essai de phase 2/3 évaluant ICP-248 dans la leucémie lymphoïde chronique, en cours de recrutement.",
   "arcus-biosciences": "Arcus Biosciences est une société de biotechnologie basée aux États-Unis qui mène 4 essais oncologiques de phase avancée sur Domvanalimab et Quemliclustat dans le cancer gastrique et de la jonction œso-gastrique, le carcinome à cellules rénales et l'adénocarcinome canalaire du pancréas.",
@@ -6755,7 +6752,6 @@ export const tldr_fr: Record<string, string> = {
   "xuanzhu-biopharmaceutical": "Xuanzhu Biopharmaceutical est une société de biotechnologie basée en Chine qui mène 3 essais oncologiques de stade avancé sur XZP-3287 et XZP-5955 dans le cancer du sein HR-positif / HER2-négatif et le cancer du poumon non à petites cellules.",
   yl201: "YL201 est un conjugué anticorps-médicament expérimental de MediLink Therapeutics (Suzhou) en essais de phase 3 pour le carcinome du nasopharynx, le cancer du poumon à petites cellules et le carcinome épidermoïde de l'œsophage, ciblant B7-H3.",
   yl202: "YL202 est un conjugué anticorps-médicament (ADC) expérimental de MediLink Therapeutics (Suzhou) en essais de phase 3 pour le cancer du poumon non à petites cellules et le cancer du sein HR-positif / HER2-négatif, ciblant HER3.",
-  "zamtocabtagene-autoleucel": "Zamtocabtagene autoleucel est une thérapie cellulaire CAR-T expérimentale de Miltenyi Biomedicine en essais de phase 2 pour le lymphome diffus à grandes cellules B, le lymphome primitif du système nerveux central et le lymphome à cellules du manteau, ciblant CD19 et CD20.",
   "zl-1310": "ZL-1310 est un conjugué anticorps-médicament expérimental de Zai Lab (Shanghai) en essais de phase 3 pour le cancer du poumon à petites cellules, ciblant DLL3.",
   zovegalisib: "Zovegalisib est un médicament expérimental à petite molécule de Relay Therapeutics en essais de phase 3 pour le cancer du sein HR-positif / HER2-négatif, ciblant PIK3CA / PI3K-alpha.",
 };

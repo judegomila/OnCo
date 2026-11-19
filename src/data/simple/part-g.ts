@@ -83,7 +83,7 @@ export const simpleG: Record<string, string> = {
   trabectedin: "Trabectedin is a chemotherapy derived from a sea squirt, used with liposomal doxorubicin in relapsed ovarian cancer in Europe and for soft-tissue sarcomas.",
   "pegylated-liposomal-doxorubicin": "Pegylated liposomal doxorubicin is doxorubicin wrapped in a fatty bubble so it reaches tumours with less heart damage, a workhorse of relapsed ovarian cancer treatment.",
   "luveltamab-tazevibulin": "Luveltamab tazevibulin is a folate-receptor antibody-drug designed to work across low and high receptor levels, and a pivotal ovarian cancer trial is testing it.",
-  "rinatabart-sesutecan": "Rinatabart sesutecan is a folate-receptor antibody-drug with a topoisomerase payload that shrinks both ovarian and womb cancers regardless of receptor level; a phase 3 trial is running.",
+  "rinatabart-sesutecan": "Rinatabart sesutecan is a folate-receptor antibody-drug with a topoisomerase payload that shrank some ovarian and womb cancers in an early trial; phase 3 trials are running.",
   selinexor: "Selinexor is a first-in-class pill that traps tumour-suppressor proteins inside the cell nucleus; approved in myeloma, it failed its womb cancer test in 2026.",
   "megestrol-progestins": "Progestins are progesterone-like hormones that can reverse early womb cancer in women who want to keep their uterus, and control advanced hormone-sensitive disease.",
   cisplatin: "Cisplatin is the original platinum chemotherapy, discovered by accident in 1965; it cures testicular cancer and makes radiation work better in cervical and head and neck cancer.",

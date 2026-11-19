@@ -45,13 +45,13 @@ const raw: EntityInput[] = [
     links: [{ label: "TAHOE phase 3 (J Thorac Oncol 2021)", url: "https://www.jto.org/article/S1556-0864(21)02264-5/fulltext" }],
   },
   {
-    id: "iniparib", kind: "drug", name: "Iniparib", code: "BSI-201, SAR240550", modality: "Small molecule (claimed PARP inhibitor)", asOf, status: "negative", wikipedia: W("Iniparib"),
+    id: "iniparib", kind: "drug", name: "Iniparib", code: "BSI-201, SAR240550", modality: "Small molecule given by intravenous infusion (claimed PARP inhibitor)", asOf: "2026-11-18", status: "negative", wikipedia: W("Iniparib"),
     tldr: "Billed as the first PARP inhibitor for triple-negative breast cancer, it failed its phase 3 in 2011. It turned out not to inhibit PARP at all.",
     summary: "A randomised phase 2 (O'Shaughnessy, NEJM 2011) in metastatic TNBC showed improved response, PFS, and OS when iniparib was added to gemcitabine-carboplatin. The phase 3 (n=519) missed both co-primary endpoints. Subsequent biochemistry showed iniparib does not trap or inhibit PARP1/2 at clinically relevant concentrations; it acts as a non-specific thiol-reactive compound. Sanofi (which had bought BiPar for up to $500M) discontinued it after a negative phase 3 in squamous NSCLC (2013).\n\nLesson: mechanism claims should be verified before a class label is attached; the true PARP inhibitors (olaparib, talazoparib) later succeeded in BRCA-mutant breast cancer.",
     mechanism: "Originally described as a PARP1 inhibitor; later shown to be a non-selective cysteine-modifying agent without PARP inhibition.",
     targets: ["parp"], technologies: ["parp-inhibitor"], companies: ["sanofi"], cancers: ["tnbc", "nsclc"], drugs: ["olaparib", "talazoparib"],
     tags: ["failure", "lesson:wrong-drug"],
-    links: [{ label: "Iniparib is not a PARP inhibitor (Clin Cancer Res 2012)", url: "https://aacrjournals.org/clincancerres/article/18/2/510/76892/A-Deep-Look-at-the-PARP-Inhibitor-Iniparib" }],
+    links: [{ label: "Iniparib is not a PARP inhibitor (Clin Cancer Res 2012)", url: "https://doi.org/10.1158/1078-0432.CCR-11-1973" }, { label: "Phase 3 trial in metastatic triple-negative breast cancer (J Clin Oncol 2014)", url: "https://doi.org/10.1200/JCO.2014.55.2984" }],
   },
   {
     id: "bempegaldesleukin", kind: "drug", name: "Bempegaldesleukin", code: "NKTR-214, bempeg", modality: "Engineered cytokine (PEGylated IL-2)", asOf, status: "negative", wikipedia: W("Bempegaldesleukin"),

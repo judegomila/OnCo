@@ -75,6 +75,7 @@ under their own terms.
 - **NICE** offers no feed, and its syndication API needs a licence. Read it by hand.
 - **NEJM, The Lancet Oncology and JCO** close their feed paths in robots.txt, and **Blood** has no public feed.
   Their trials arrive through the PubMed search, a few days later than the journal's own announcement.
+- **The BMJ**'s feed redirects to a host whose robots.txt disallows it; its Bluesky account is read.
 - **The ICR** disallows all automated readers; **the Royal Marsden, ASCO, Endpoints News and Fierce Biotech**
   answer a program with HTTP 403. Where one of them has a Bluesky account, that is read. None is worked around.
 - **MSK, MD Anderson, Dana-Farber, Gustave Roussy and Peter Mac** have no newsroom feed. MD Anderson, Gustave

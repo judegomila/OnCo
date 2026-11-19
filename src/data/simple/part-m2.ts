@@ -5,7 +5,7 @@ export const simpleM2: Record<string, string> = {
   uliledlimab: "TJ Biopharma's uliledlimab is an antibody that blocks CD73, an enzyme tumours use to make adenosine [a substance that calms immune cells], in a phase 3 lung cancer trial with toripalimab.",
   "urogen-pharma": "UroGen Pharma, based in Princeton in the United States, makes gel-based treatments for bladder cancer, including Zusduri and Jelmyto, and runs three phase 3 trials of UGN-103, UGN-102 and UGN-104.",
   varegacestat: "Immunome's Varegacestat is an experimental small-molecule drug that blocks gamma secretase, an enzyme behind Notch signalling [a growth message between cells], in a phase 3 trial for progressing desmoid tumours.",
-  vc004: "VC004 is an experimental small-molecule drug from Jiangsu vcare pharmaceutical technology with no target made public, in a phase 3 trial for advanced or spread solid tumours [lump-forming cancers].",
+  vc004: "VC004 (eratrectinib) is an experimental capsule from Jiangsu vcare that blocks TRK proteins, in a small phase 3 trial for solid tumours [lump-forming cancers] with an NTRK gene fusion.",
   velzatinib: "GlaxoSmithKline is comparing Velzatinib, an experimental medicine of undisclosed type and target, against imatinib in a phase 3 trial for people with untreated gastrointestinal stromal tumours [a rare gut cancer].",
   vepugratinib: "Vepugratinib is an Eli Lilly small-molecule drug designed to block FGFR3 [a growth signal receptor], now in a phase 3 trial for bladder and urothelial cancer.",
   vrn110755: "Voronoi's VRN110755 is an oral small-molecule capsule that blocks faulty EGFR [a growth signal protein], including the C797S resistance mutation, in a phase 1/2 trial for EGFR-mutant non-small-cell lung cancer.",

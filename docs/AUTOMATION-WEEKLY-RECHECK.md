@@ -74,6 +74,29 @@ The rows most worth reading first:
 --apply` would do it: that file writes regulatory events onto products, and a withdrawal needs the product's own text
 read against it in the same change.
 
+## Enrolment and completion dates on ingested trials
+
+The run reports these and does not fix them, because the fix rewrites a sentence in a record and the weekly job
+stages only the generated files named above. The fix is one command, run by hand after reading the report:
+
+```
+npx tsx scripts/refresh-trial-registry-figures.ts            # what would change; writes nothing
+npx tsx scripts/refresh-trial-registry-figures.ts --apply    # rewrite the data files
+```
+
+A trial written by a registry ingest (tag `ctgov-ingest`) carries the registry's enrolment figure in `enrolled` and
+repeats it, with the primary completion date, in a templated sentence of its summary. The script reads the registry
+for every such record with one registration of its own and rewrites only the number after `enrolled:`, the same
+number inside the ingests' own enrolment phrases, and the date inside their primary-completion phrases. A count the
+registry now marks actual is no longer "planned", and a date it marks actual is "reached", never "due to reach". A
+second run changes nothing.
+
+It leaves alone, and lists: a hand-written record; a record with its own `enrolledBasis`; a summary that states the
+figure or the date in words that are not one of the ingests' templates. Those are a person's to read: a hand-written
+record's figure is often the number randomised in the paper, with the registry's beside it in `enrolledNote`.
+`--skip=id,id` keeps the script off records someone is editing, `--only=id,id` limits it, and `--list=<path>` writes
+every change and every record left alone as JSON. The first run, on 19 November 2026, rewrote 749 records.
+
 ## Limits
 
 - **A blocked source is reported as blocked.** A 401, 403 or 429, a bot-challenge page or a challenge header is

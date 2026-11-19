@@ -478,7 +478,7 @@ export const tasteChangesDuringCancerTreatment = protocol({
   drugs: ["talquetamab", "tarlatamab"],
   targets: ["gprc5d"],
   terms: [],
-  related: ["nutrition-screening-and-support-during-cancer-treatment", "oral-mucositis-prevention-and-oral-care", "bispecific-step-up-dosing", "dry-mouth-teeth-after-head-neck-radiotherapy"],
+  related: ["nutrition-screening-and-support-during-cancer-treatment", "oral-mucositis-prevention-and-oral-care", "bispecific-step-up-dosing", "dry-mouth-teeth-after-head-neck-radiotherapy", "dry-mouth-from-cancer-drugs-and-radionuclide-therapy"],
   upgrades: [],
   gaps: [
     "No guideline read gives a graded recommendation for taste change during cancer treatment. The MASCC/ISOO clinical practice statement used for the clinical checks is expert opinion, is written for immunotherapy, and says of dysgeusia that how long it lasts and how long taste takes to recover after immunotherapy is stopped remain unclear.",

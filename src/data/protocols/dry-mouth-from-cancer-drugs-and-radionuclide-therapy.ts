@@ -27,7 +27,7 @@ import { protocol } from "./helpers";
  *   online version" for radioiodine side effects; that version was not found and is named in `gaps`.
  * - US labels (DailyMed SPL XML): Pluvicto (SPL effective 12 August 2026), Lytgobi (revised 10/2026), Retevmo (SPL
  *   effective 11 September 2026), Hicon sodium iodide I 131 (revised November 2021).
- * - EU product information (EMA PDFs through pdftotext -layout): Pluvicto (PDF dated 16 June 2026), Lytgobi (PDF
+ * - EU product information (EMA PDFs through pdftotext -layout): Pluvicto (PDF created 16 June 2026 and modified 16 July 2026), Lytgobi (PDF
  *   dated 3 October 2025), Retsevmo (PDF dated 22 April 2026). The PDFs print no revision date in the text.
  * - Mahajan et al., Transl Oncol 2022 (PMC9079342), van Kalmthout et al., EJNMMI Res 2018 (PMC6029992),
  *   Auttara-atthakorn et al., Front Endocrinol 2022 (PMC9465079), the 2026 review of sialagogue timing in Endocrine
@@ -218,7 +218,7 @@ export const dryMouthFromCancerDrugsAndRadionuclideTherapy = protocol({
     },
     {
       name: "Dry mouth dose rule for lutetium-177 vipivotide tetraxetan: US label against EU SmPC",
-      differs: "US label (SPL effective 12 August 2026): grade 2, withhold until improvement or return to baseline and consider reducing the dose by 20% to 5.9 GBq; grade 3, withhold until improvement or return to baseline and reduce by 20%; recurrent grade 3 after one dose reduction, permanently discontinue. EU SmPC (EMA PDF dated 16 June 2026): grade 3, reduce the dose by 20% to 5 900 MBq; no entry for grade 2 and no instruction to withhold for dry mouth. Both texts say the dose may be reduced once and should not be re-escalated. For a delay of more than 4 weeks because of an adverse reaction, the US label says to consider permanent discontinuation and the EU SmPC says treatment must be discontinued; the EU SmPC also says it must be discontinued if a further reduction would be required.",
+      differs: "US label (SPL effective 12 August 2026): grade 2, withhold until improvement or return to baseline and consider reducing the dose by 20% to 5.9 GBq; grade 3, withhold until improvement or return to baseline and reduce by 20%; recurrent grade 3 after one dose reduction, permanently discontinue. EU SmPC (EMA PDF created 16 June 2026 and modified 16 July 2026): grade 3, reduce the dose by 20% to 5 900 MBq; no entry for grade 2 and no instruction to withhold for dry mouth. Both texts say the dose may be reduced once and should not be re-escalated. For a delay of more than 4 weeks because of an adverse reaction, the US label says to consider permanent discontinuation and the EU SmPC says treatment must be discontinued; the EU SmPC also says it must be discontinued if a further reduction would be required.",
       evidence: "Regulatory labels, not graded. In the US label dry mouth led to permanent discontinuation in 1.3% of patients in PSMAfore and was the most frequent reaction leading to a dose reduction in PSMAddition (1.1%) and PSMAfore (0.9%). The EANM/SNMMI guideline gives no dose rule specific to dry mouth; it says to discontinue for any toxicity the patient considers unacceptable.",
       sources: ["pluvicto-us-label", "pluvicto-eu-smpc", "eanm-snmmi-psma-2023"],
     },
@@ -326,7 +326,7 @@ export const dryMouthFromCancerDrugsAndRadionuclideTherapy = protocol({
     },
     {
       key: "pluvicto-eu-smpc",
-      label: "Pluvicto EU summary of product characteristics and package leaflet (EMA product information, PDF dated 16 June 2026)",
+      label: "Pluvicto EU summary of product characteristics and package leaflet (EMA product information, PDF created 16 June 2026 and modified 16 July 2026)",
       publisher: "Novartis, via the European Medicines Agency",
       year: 2026,
       url: "https://www.ema.europa.eu/en/documents/product-information/pluvicto-epar-product-information_en.pdf",

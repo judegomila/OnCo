@@ -16,6 +16,7 @@ import { atrialFibrillationAndBleedingOnBtkInhibitors } from "./atrial-fibrillat
 import { bispecificStepUpDosing } from "./bispecific-step-up-dosing";
 import { bladderSymptomsAndInfectionAfterIntravesicalTherapy } from "./bladder-symptoms-and-infection-after-intravesical-therapy";
 import { bleedingPrecautionsWhenPlateletsAreLow } from "./bleeding-precautions-when-platelets-are-low";
+import { bloodCountAndKidneyMonitoringDuringRadioligandTherapy } from "./blood-count-and-kidney-monitoring-during-radioligand-therapy";
 import { bloodSamplingFromACentralLine } from "./blood-sampling-from-a-central-line";
 import { bodySizeBasedDoseCalculation } from "./body-size-based-dose-calculation";
 import { boneHealthOnHormoneTherapy } from "./bone-health-on-hormone-therapy";
@@ -49,6 +50,7 @@ import { chemotherapyExtravasationManagement } from "./chemotherapy-extravasatio
 import { chemotherapyInducedAnaemiaEsaAndIron } from "./chemotherapy-induced-anaemia-esa-and-iron";
 import { chemotherapyInducedPeripheralNeuropathyAssessmentAndPrevention } from "./chemotherapy-induced-peripheral-neuropathy-assessment-and-prevention";
 import { chronicPainInCancerSurvivors } from "./chronic-pain-in-cancer-survivors";
+import { cognitiveAndMoodEffectsOnLorlatinibAndAvapritinib } from "./cognitive-and-mood-effects-on-lorlatinib-and-avapritinib";
 import { colorectalCancerFollowUpAfterCurativeTreatment } from "./colorectal-cancer-follow-up-after-curative-treatment";
 import { communityCareOfVascularAccessDevices } from "./community-care-of-vascular-access-devices";
 import { consentAndEducationBeforeAnticancerTreatment } from "./consent-and-education-before-anticancer-treatment";
@@ -198,6 +200,7 @@ import { radiotherapyPregnancyAndBreastfeedingEnquiry } from "./radiotherapy-pre
 import { radiotherapyRiskAnalysisFmea } from "./radiotherapy-risk-analysis-fmea";
 import { radiotherapyWithPacemakerOrDefibrillator } from "./radiotherapy-with-pacemaker-or-defibrillator";
 import { raisedIntracranialPressure } from "./raised-intracranial-pressure";
+import { raisedLipidsAndWeightGainOnLorlatinibBexaroteneAndElacestrant } from "./raised-lipids-and-weight-gain-on-lorlatinib-bexarotene-and-elacestrant";
 import { raisedLiverEnzymesOnTargetedAnticancerDrugs } from "./raised-liver-enzymes-on-targeted-anticancer-drugs";
 import { redCellAndPlateletTransfusionThresholds } from "./red-cell-and-platelet-transfusion-thresholds";
 import { renalDoseAdjustmentOfAnticancerDrugs } from "./renal-dose-adjustment-of-anticancer-drugs";
@@ -258,6 +261,7 @@ export const protocols: ProtocolInput[] = [
   bispecificStepUpDosing,
   bladderSymptomsAndInfectionAfterIntravesicalTherapy,
   bleedingPrecautionsWhenPlateletsAreLow,
+  bloodCountAndKidneyMonitoringDuringRadioligandTherapy,
   bloodSamplingFromACentralLine,
   bodySizeBasedDoseCalculation,
   boneHealthOnHormoneTherapy,
@@ -291,6 +295,7 @@ export const protocols: ProtocolInput[] = [
   chemotherapyInducedAnaemiaEsaAndIron,
   chemotherapyInducedPeripheralNeuropathyAssessmentAndPrevention,
   chronicPainInCancerSurvivors,
+  cognitiveAndMoodEffectsOnLorlatinibAndAvapritinib,
   colorectalCancerFollowUpAfterCurativeTreatment,
   communityCareOfVascularAccessDevices,
   consentAndEducationBeforeAnticancerTreatment,
@@ -440,6 +445,7 @@ export const protocols: ProtocolInput[] = [
   radiotherapyRiskAnalysisFmea,
   radiotherapyWithPacemakerOrDefibrillator,
   raisedIntracranialPressure,
+  raisedLipidsAndWeightGainOnLorlatinibBexaroteneAndElacestrant,
   raisedLiverEnzymesOnTargetedAnticancerDrugs,
   redCellAndPlateletTransfusionThresholds,
   renalDoseAdjustmentOfAnticancerDrugs,

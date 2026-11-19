@@ -7,15 +7,22 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 19 November 2026
+- A weekly re-check now compares every trial's status, US and European approvals, drug labels, guideline links and a rotating quarter of source links against their sources and lists what has drifted; its first run refreshed 242 trial statuses
 - Eleven regulator decisions from the past month are recorded from the regulators' own notices, among them the FDA's accelerated approval of neladalkib on 17 November, three European applications withdrawn and three positive opinions, with the TALAPRO-3 trial's published results; and a monitor now reads regulators', journals' and cancer centres' public feeds for leads to check
 - Daraxonrasib's record gains its trial's size and design, side-effect rates and review timing from the FDA notice, the label and the published trial, and its drug class gets a page of its own; the first results of the REGAIN trial of Alpha DaRT in recurrent glioblastoma are recorded with their limits; and this week's logos, structures and trial names arrive with fifteen wrong logos left out
 
 ### 18 November 2026
+- The first weekly re-check is read again against main as it now stands: 790 rows, and the same 242 trial statuses
+- The first weekly re-check: 242 trial statuses follow the registry as read on 19 November 2026, and a report lists what else has changed at the sources
+- The weekly re-check stands back from a host that says "too many requests", and lists refusals by host
+- Eleven regulator decisions from the past month are recorded from the regulators' own notices, among them the FDA's accelerated approval of neladalkib on 17 November, three European applications withdrawn and three positive opinions, with the TALAPRO-3 trial's published results; and a monitor now reads regulators', journals' and cancer centres' public feeds for leads to check
 - The BMJ's feed leaves the lead monitor's list: it redirects to a host whose robots.txt disallows it
+- The weekly re-check holds back a trial status its own sentences would contradict, and names two records that share one registration
 - Regulatory decisions of September to November 2026 are brought up to date from the regulators' own notices: neladalkib's accelerated approval in the United States with the ALKOVE-1 results; the European committee's recommendations for sintilimab, talazoparib and belzutifan; the European applications withdrawn for anlotinib, for palbociclib in HER2-positive breast cancer and for capivasertib in prostate cancer, with the agency's reasons; and retifanlimab's approval for anal cancer in the United Kingdom
 - The lead monitor says what to do when it finds its queue locked
 - On a general channel the lead monitor keeps an item only if it mentions cancer or names a record OnCo holds, even when the item carries a DOI, so a general journal's feed no longer queues its whole table of contents
 - The lead monitor matches a trial by name only when the name is plainly an acronym, so a one-word alias no longer puts a trial on every item that uses the word
+- A weekly re-check compares trial statuses, approvals, drug labels, guideline sources and links with their public sources, and opens one pull request for a person to read
 - When a resolver is down the lead monitor leaves the item for the next run, and files it as unverified only when the resolver answers that no such record exists
 - The lead monitor saves its queue after every source, so a run that is cut short loses at most the source it was reading
 - A research lead monitor that needs no account: it reads regulators', journals', societies', centres' and charities' feeds, their Bluesky accounts, a PubMed search and the trial registry into a private review queue, and publishes nothing

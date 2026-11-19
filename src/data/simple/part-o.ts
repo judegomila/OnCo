@@ -111,7 +111,7 @@ export const simpleO: Record<string, string> = {
   streptozocin: "Streptozocin is a chemotherapy that seeks out pancreatic islet cells, approved in 1982 for the rare tumours that arise from them.",
   surufatinib: "Surufatinib is a Chinese kinase inhibitor approved in 2020 for non-pancreatic and in 2021 for pancreatic neuroendocrine tumours.",
   tabelecleucel: "Tabelecleucel is a bank of donor T cells trained against Epstein-Barr virus, approved in Europe in 2022 for EBV-driven lymphoma after transplant when rituximab has failed.",
-  teniposide: "Teniposide is a close relative of etoposide approved in 1992 for children whose acute lymphoblastic leukaemia has come back after first treatment.",
+  teniposide: "Teniposide is a close relative of etoposide approved in 1992 for children whose acute lymphoblastic leukaemia has not responded to treatment.",
   tepotinib: "Tepotinib is a once-daily pill for lung cancers driven by a MET exon 14 skipping mutation, and it is the MET blocker that NICE pays for in England.",
   trilaciclib: "Trilaciclib is an infusion given just before chemotherapy for small cell lung cancer that briefly puts bone marrow stem cells to sleep so fewer are killed.",
   tunlametinib: "Tunlametinib is a Chinese MEK-blocking pill approved in 2024 for advanced melanoma with an NRAS mutation, a group with no targeted drug elsewhere in the world.",

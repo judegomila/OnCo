@@ -218,7 +218,7 @@ const list: UkCoverage[] = [
   rec("lazertinib", "lazertinib", 1122, 2026, "With amivantamab for untreated EGFR exon 19 deletion or exon 21 L858R advanced NSCLC", { note: "Published 21 January 2026; both companies provide their products under commercial arrangements. Lazertinib with amivantamab and platinum chemotherapy after a TKI (ID6305) is awaiting development." }),
   notUk("sunvozertinib", "sunvozertinib"),
   notUk("zongertinib", "zongertinib"),
-  notUk("sevabertinib", "sevabertinib"),
+  notUk("sevabertinib", "sevabertinib", "Licensed by the MHRA on 2 April 2026 for HER2-mutant advanced non-small-cell lung cancer after prior treatment, but not appraised by NICE: the one topic NICE lists, for untreated disease (ID6616), was awaiting development on 18 November 2026."),
   rec("pemetrexed", "pemetrexed", 181, 2009, "First-line treatment of non-squamous NSCLC with cisplatin", { note: "Also malignant pleural mesothelioma (TA135, 2008) and maintenance (TA190, TA402). Generic since 2016.", smc: "accepted" }),
   notRec("ramucirumab", "ramucirumab", 378, 2016, "Advanced gastric or gastro-oesophageal junction cancer after chemotherapy", { note: "Also not recommended for NSCLC (TA403, 2016). HCC with high AFP appraised later. Not routinely available on the NHS." }),
   notUk("lurbinectedin", "lurbinectedin", "Licensed in the US and, since 29 May 2026, in the EU for maintenance with atezolizumab in extensive-stage small-cell lung cancer; no UK marketing authorisation confirmed. NICE ended its appraisal of that use on 13 October 2026 without a recommendation, because the company withdrew its evidence submission (TA1198)."),

@@ -70,7 +70,7 @@ export const simpleO: Record<string, string> = {
   floxuridine: "Floxuridine is a cousin of fluorouracil pumped straight into the liver's artery to treat bowel cancer that has spread to the liver, giving a high local dose.",
   flumatinib: "Flumatinib is a Chinese BCR-ABL inhibitor approved in 2019 for newly diagnosed chronic myeloid leukaemia in its chronic phase.",
   fluoxymesterone: "Fluoxymesterone is an oral male hormone approved in 1956 and once used for advanced breast cancer, an approach dropped when better tolerated drugs arrived.",
-  fostamatinib: "Fostamatinib is a tablet that blocks the enzyme SYK so the spleen stops destroying platelets, approved for chronic immune thrombocytopenia.",
+  fostamatinib: "Fostamatinib is a tablet that blocks the enzyme SYK so the immune system destroys fewer platelets, approved for chronic immune thrombocytopenia.",
   glecirasib: "Glecirasib is a Chinese KRAS G12C inhibitor approved in 2024 for previously treated non-small cell lung cancer carrying that mutation.",
   glumetinib: "Glumetinib is a Chinese MET inhibitor approved in 2023 for lung cancers with MET exon 14 skipping.",
   golidocitinib: "Golidocitinib is a JAK1 inhibitor approved in China in 2024 as the first JAK drug for peripheral T-cell lymphoma that has come back after treatment.",

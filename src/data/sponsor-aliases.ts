@@ -346,7 +346,7 @@ export const SPONSOR_PATTERNS: Array<[RegExp, SponsorTarget]> = [
   [/unicancer/, { id: "unicancer", label: "UNICANCER", kind: "cooperative-group" }],
   [/canadian cancer trials|^cctg|ncic/, { id: "cctg", label: "Canadian Cancer Trials Group", kind: "cooperative-group" }],
   [/anzup|australian and new zealand urogenital/, { id: "anzup", label: "ANZUP", kind: "cooperative-group" }],
-  [/anzgog/, { label: "ANZGOG", kind: "cooperative-group" }],
+  [/anzgog/, { id: "anzgog", label: "ANZGOG", kind: "cooperative-group" }],
   [/^agitg/, { id: "agitg", label: "AGITG", kind: "cooperative-group" }],
   [/^abcsg/, { id: "abcsg", label: "ABCSG", kind: "cooperative-group" }],
   [/german breast group|^gbg\b/, { id: "gbg", label: "German Breast Group", kind: "cooperative-group" }],

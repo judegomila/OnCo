@@ -96,6 +96,7 @@ import { hdrBrachytherapyRoomSafetyAndStuckSourceEmergency } from "./hdr-brachyt
 import { headAndNeckRadiotherapyDentalAssessmentOsteoradionecrosis } from "./head-and-neck-radiotherapy-dental-assessment-osteoradionecrosis";
 import { headAndNeckRadiotherapyImmobilisationMask } from "./head-and-neck-radiotherapy-immobilisation-mask";
 import { headAndNeckRadiotherapyOralMucositis } from "./head-and-neck-radiotherapy-oral-mucositis";
+import { headacheOnAnticancerDrugs } from "./headache-on-anticancer-drugs";
 import { hepaticDoseAdjustmentOfAnticancerDrugs } from "./hepatic-dose-adjustment-of-anticancer-drugs";
 import { hepaticVenoOcclusiveDiseaseAfterTransplant } from "./hepatic-veno-occlusive-disease-after-transplant";
 import { hepatitisBScreeningAndReactivationProphylaxis } from "./hepatitis-b-screening-and-reactivation-prophylaxis";
@@ -140,8 +141,10 @@ import { iraeSkin } from "./irae-skin";
 import { iraeSteroidTaperAndPjp } from "./irae-steroid-taper-and-pjp";
 import { iraeThyroid } from "./irae-thyroid";
 import { irinotecanEarlyCholinergicSyndromeAndLateDiarrhoea } from "./irinotecan-early-cholinergic-syndrome-and-late-diarrhoea";
+import { jointAndMusclePainOnAnticancerDrugs } from "./joint-and-muscle-pain-on-anticancer-drugs";
 import { linearAcceleratorQualityAssurance } from "./linear-accelerator-quality-assurance";
 import { longTermFollowUpAfterChildhoodCancer } from "./long-term-follow-up-after-childhood-cancer";
+import { lowPotassiumAndLowPhosphateOnAnticancerDrugs } from "./low-potassium-and-low-phosphate-on-anticancer-drugs";
 import { lutetium177TherapyHomeRadiationSafety } from "./lutetium-177-therapy-home-radiation-safety";
 import { lymphoedemaRiskReductionSurveillanceAndTreatment } from "./lymphoedema-risk-reduction-surveillance-and-treatment";
 import { malignantAscitesDrainage } from "./malignant-ascites-drainage";
@@ -218,6 +221,7 @@ import { survivorshipCarePlanAndTreatmentSummary } from "./survivorship-care-pla
 import { suspectedCancerUrgentReferralAndFasterDiagnosis } from "./suspected-cancer-urgent-referral-and-faster-diagnosis";
 import { suspectedCentralLineInfection } from "./suspected-central-line-infection";
 import { syringeDriverContinuousSubcutaneousInfusion } from "./syringe-driver-continuous-subcutaneous-infusion";
+import { tasteChangesDuringCancerTreatment } from "./taste-changes-during-cancer-treatment";
 import { treatmentInducedDiarrhoeaGradingAndManagement } from "./treatment-induced-diarrhoea-grading-and-management";
 import { tumourFlareOnBispecificAntibodiesAndImmunomodulatoryDrugs } from "./tumour-flare-on-bispecific-antibodies-and-immunomodulatory-drugs";
 import { tumourLysisSyndrome } from "./tumour-lysis-syndrome";
@@ -325,6 +329,7 @@ export const protocols: ProtocolInput[] = [
   hazardousDrugHandlingInClinicalAreas,
   hctConditioningAndEngraftmentCare,
   hdrBrachytherapyRoomSafetyAndStuckSourceEmergency,
+  headacheOnAnticancerDrugs,
   headAndNeckRadiotherapyDentalAssessmentOsteoradionecrosis,
   headAndNeckRadiotherapyImmobilisationMask,
   headAndNeckRadiotherapyOralMucositis,
@@ -372,8 +377,10 @@ export const protocols: ProtocolInput[] = [
   iraeSteroidTaperAndPjp,
   iraeThyroid,
   irinotecanEarlyCholinergicSyndromeAndLateDiarrhoea,
+  jointAndMusclePainOnAnticancerDrugs,
   linearAcceleratorQualityAssurance,
   longTermFollowUpAfterChildhoodCancer,
+  lowPotassiumAndLowPhosphateOnAnticancerDrugs,
   lutetium177TherapyHomeRadiationSafety,
   lymphoedemaRiskReductionSurveillanceAndTreatment,
   malignantAscitesDrainage,
@@ -450,6 +457,7 @@ export const protocols: ProtocolInput[] = [
   suspectedCancerUrgentReferralAndFasterDiagnosis,
   suspectedCentralLineInfection,
   syringeDriverContinuousSubcutaneousInfusion,
+  tasteChangesDuringCancerTreatment,
   treatmentInducedDiarrhoeaGradingAndManagement,
   tumourFlareOnBispecificAntibodiesAndImmunomodulatoryDrugs,
   tumourLysisSyndrome,

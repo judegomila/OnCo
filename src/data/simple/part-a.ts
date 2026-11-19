@@ -259,7 +259,7 @@ export const simpleA: Record<string, string> = {
   tovorafenib: "A pill for the most common childhood brain tumour, low-grade glioma driven by BRAF faults, approved in 2024.",
   "dcvax-l": "A personalised vaccine made from a patient's own immune cells and tumour. Its trial reported longer survival, but experts disagree about how it was analysed.",
   rindopepimut: "A vaccine against a glioblastoma-only mutant protein that looked promising for years and then failed its big trial in 2016.",
-  "sacituzumab-govitecan": "The first antibody-drug aimed at TROP2. It delivers strong chemotherapy directly to breast and bladder cancer cells.",
+  "sacituzumab-govitecan": "The first antibody-drug aimed at TROP2. It delivers strong chemotherapy directly to breast cancer cells; its US bladder cancer approval was withdrawn in 2024.",
   "trastuzumab-deruxtecan": "Trastuzumab deruxtecan carries the drug DXd through an antibody that binds HER2. Whether a person can receive it depends on the cancer setting and the label’s testing rules.",
   "datopotamab-deruxtecan": "The second TROP2 antibody-drug. In 2026 it became a first treatment for triple-negative breast cancer patients who cannot have immune drugs.",
   "sacituzumab-tirumotecan": "A third TROP2 antibody-drug from China, approved there and being tested worldwide with Merck.",

@@ -308,7 +308,7 @@ export const simpleB: Record<string, string> = {
   bayer: "Owner of the only approved alpha-particle drug, developing next-generation ones.",
   astellas: "Co-owner of Padcev and maker of the first Claudin 18.2 drug.",
   takeda: "Co-owner of Adcetris outside the US, developing engineered natural killer cells.",
-  "boehringer-ingelheim": "Private German drug company whose pill became the first oral HER2 drug for lung cancer.",
+  "boehringer-ingelheim": "Private German drug company whose pill zongertinib was approved in the United States in 2025 for HER2-mutant lung cancer.",
   sanofi: "Maker of the myeloma antibody Sarclisa.",
   regeneron: "Maker of Libtayo and many two-armed antibodies.",
   servier: "Private French drug company that brought the first low-grade brain tumour pill to market.",

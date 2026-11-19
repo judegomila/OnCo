@@ -93,7 +93,7 @@ export const simpleS: Record<string, string> = {
   // Lung
   "egfr-mutant-nsclc": "EGFR-mutated lung cancer is driven by a single faulty growth receptor and is treated first with a pill, osimertinib, rather than chemotherapy.",
   "alk-positive-nsclc": "ALK-positive lung cancer is driven by a fused ALK gene and is treated with a pill from the start, with the newest inhibitors keeping the disease under control for years.",
-  "kras-g12c-nsclc": "KRAS G12C lung cancer carries a mutation that was thought impossible to drug for forty years, and sotorasib and adagrasib now shrink about four in ten tumours after other treatments.",
+  "kras-g12c-nsclc": "KRAS G12C lung cancer carries a mutation that was thought impossible to drug for forty years, and sotorasib and adagrasib now shrink about three to four in ten tumours after other treatments.",
   "ros1-positive-nsclc": "ROS1-positive lung cancer is a rare adenocarcinoma driven by a fused ROS1 gene and treated with a pill, with the newer drugs reaching the brain and controlling the disease for about three years.",
   "met-altered-nsclc": "MET-driven lung cancer comes in three forms: an exon 14 skipping mutation treated with pills, MET amplification that often arises as an escape from EGFR drugs, and high c-Met protein levels.",
   "ret-fusion-nsclc": "RET fusion lung cancer is a rare adenocarcinoma driven by a fused RET gene, and the selective pill selpercatinib shrinks most of these tumours.",

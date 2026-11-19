@@ -317,7 +317,7 @@ export const simpleA: Record<string, string> = {
   daraxonrasib: "A drug that blocks all active forms of RAS. It was approved in the United States in August 2026 for pancreatic cancer that has spread.",
   encorafenib: "A BRAF pill that, with an EGFR antibody and chemotherapy, became a first treatment for BRAF-mutant bowel cancer in 2026.",
   selpercatinib: "A RET pill approved for any tumour with a RET gene fusion.",
-  zongertinib: "The first HER2 pill for lung cancer with HER2 faults, approved in 2025.",
+  zongertinib: "A HER2 pill for lung cancer with HER2 faults, approved in the United States in 2025.",
   zidesamtinib: "A ROS1 pill approved in July 2026 that works after other ROS1 drugs fail.",
   olaparib: "The first PARP pill. It turned an inherited BRCA fault into a drug target.",
   niraparib: "A PARP pill used to keep ovarian cancer away after chemotherapy, and in prostate cancer with abiraterone.",

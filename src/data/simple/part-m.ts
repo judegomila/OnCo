@@ -237,7 +237,7 @@ export const simpleM: Record<string, string> = {
   monalizumab: "Monalizumab is an experimental AstraZeneca medicine, type and target not stated publicly, in a phase 3 lung cancer trial; its head and neck cancer trial was stopped as it did not help.",
   "mountaintap-30": "MountainTAP-30, a phase 2/3 trial led by Bristol-Myers Squibb, tests Navlimetostat plus chemotherapy against placebo in pancreatic cancer lacking the MTAP gene, and is active but no longer recruiting.",
   mrg002: "Shanghai Miracogen is testing MRG002, an experimental medicine whose exact type and target it has not made public, in phase 3 trials for stomach cancer and bladder cancer.",
-  mrg003: "Lepu Biopharma's MRG003 is an antibody-drug conjugate [a targeted drug that carries chemotherapy to cancer cells] in phase 3 trials for head and neck cancers, its target not yet public.",
+  mrg003: "Lepu Biopharma's MRG003 is an antibody-drug conjugate [a targeted drug that carries chemotherapy to cancer cells] aimed at EGFR, approved in China in 2025 for previously treated nasopharyngeal cancer.",
   "multitude-therapeutics": "Multitude Therapeutics, based in Shanghai, China, makes antibody-drug conjugates [targeted chemotherapy carriers] and runs four late-stage trials of AMT-116, AMT-676 and AMT-253 in colorectal cancer, melanoma and non-small-cell lung cancer.",
   "nanjing-leads-biolabs": "Nanjing Leads Biolabs, a biotechnology company in Nanjing, China, is running eight late-stage cancer trials of LBL-024 and LBL-034 in triple-negative breast cancer, lung cancer and liver cancer.",
   naporafenib: "Naporafenib, from Erasca, is a small-molecule drug that the company says blocks RAF [a growth-signal protein], in a phase 3 trial for melanoma [skin cancer] alongside trametinib.",

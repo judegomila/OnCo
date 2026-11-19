@@ -71,7 +71,7 @@ export const simpleO: Record<string, string> = {
   flumatinib: "Flumatinib is a Chinese BCR-ABL inhibitor approved in 2019 for newly diagnosed chronic myeloid leukaemia in its chronic phase.",
   fluoxymesterone: "Fluoxymesterone is an oral male hormone approved in 1956 and once used for advanced breast cancer, an approach dropped when better tolerated drugs arrived.",
   fostamatinib: "Fostamatinib is a tablet that blocks the enzyme SYK so the immune system destroys fewer platelets, approved for chronic immune thrombocytopenia.",
-  glecirasib: "Glecirasib is a Chinese KRAS G12C inhibitor approved in 2024 for previously treated non-small cell lung cancer carrying that mutation.",
+  glecirasib: "Glecirasib is a Chinese KRAS G12C inhibitor approved in China in 2025 for previously treated non-small cell lung cancer carrying that mutation.",
   glumetinib: "Glumetinib is a Chinese MET inhibitor approved in China in 2023 and in Japan in 2024 for lung cancers with MET exon 14 skipping.",
   golidocitinib: "Golidocitinib is a JAK1 inhibitor conditionally approved in China in 2024 for peripheral T-cell lymphoma that has come back after treatment.",
   "h101-oncolytic-adenovirus": "Oncorine is a cancer-killing virus approved in China in 2005 for nasopharyngeal carcinoma with chemotherapy, the first oncolytic virus approved anywhere.",

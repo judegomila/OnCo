@@ -221,7 +221,7 @@ const lungDrugSupplements: SpikeSupplement[] = [
     cancers: [LUNG, "lung-adenocarcinoma"] },
 
   { id: "topotecan", approvals: [
-      { region: "England (NICE)", year: 2009, indication: "Relapsed small-cell lung cancer, oral topotecan, only where re-treatment with the first-line regimen is inappropriate and cyclophosphamide, doxorubicin and vincristine is contraindicated", note: "TA184, published 25 November 2009. It remains the only NICE recommendation for a cytotoxic drug in relapsed small-cell lung cancer." }],
+      { region: "England (NICE)", year: 2009, indication: "Relapsed small-cell lung cancer, oral topotecan, only where re-treatment with the first-line regimen is inappropriate and cyclophosphamide, doxorubicin and vincristine is contraindicated", note: "TA184, published 25 November 2009. The same guidance does not recommend intravenous topotecan for relapsed small-cell lung cancer." }],
     links: [nice("ta184", "topotecan for the treatment of relapsed small-cell lung cancer")],
     cancers: [SCLC, "extensive-stage-sclc"], trials: ["lurbinectedin-basket-sclc"] },
 

@@ -279,7 +279,7 @@ const supplements: SpikeSupplement[] = [
     ] },
   { id: "aminolevulinic-acid", cancers: [BCC_ID, SKIN_CANCER_ID], links: [JANSEN_5Y, CRUK_PDT],
     notes: [
-      "Which photosensitiser the basal cell carcinoma trials used. The randomised comparisons quoted on the basal cell carcinoma page (the Dutch three-arm trial and the Cochrane review) all used methyl aminolevulinate, not 5-aminolevulinic acid, so the five-year tumour-free figure of 62.7 percent and the cosmetic outcomes belong to that cream and are recorded there. Aminolevulinic acid gel is separately approved in the European Union for superficial and nodular basal cell carcinoma that is unsuitable for surgery, as well as for actinic keratosis; the two are not interchangeable in the evidence.",
+      "Which photosensitiser the basal cell carcinoma trials used. The randomised comparisons quoted on the basal cell carcinoma page (the Dutch three-arm trial and the Cochrane review) all used methyl aminolevulinate, not 5-aminolevulinic acid, so the five-year tumour-free figure of 62.7 percent and the cosmetic outcomes belong to that cream and are recorded there. Aminolevulinic acid gel is separately approved in the European Union for superficial and nodular basal cell carcinoma that is unsuitable for surgery, as well as for actinic keratosis, and since September 2026 in the United States for superficial basal cell carcinoma in adults; the two are not interchangeable in the evidence.",
     ] },
   { id: "fluorouracil", cancers: [BCC_ID, SKIN_CANCER_ID], links: [JANSEN_5Y, CRUK_CREAM, BAD_BCC],
     notes: [

@@ -117,7 +117,7 @@ export const simpleO: Record<string, string> = {
   tunlametinib: "Tunlametinib is a Chinese MEK-blocking pill approved in 2024 for advanced melanoma with an NRAS mutation, a group with no targeted drug elsewhere in the world.",
   "uracil-mustard": "Uracil mustard was an early nitrogen mustard tablet approved in 1962 for chronic lymphocytic leukaemia and lymphomas, and it was discontinued long ago.",
   utidelone: "Utidelone is a Chinese epothilone chemotherapy approved in 2021 with capecitabine for advanced breast cancer after anthracyclines and taxanes have been used.",
-  vebreltinib: "Vebreltinib is a Chinese MET-blocking pill approved in 2023 for lung cancers with a MET exon 14 skipping mutation, and it is also being tested in glioblastoma.",
+  vebreltinib: "Vebreltinib is a Chinese MET-blocking pill approved in China in 2023 for lung cancers with a MET exon 14 skipping mutation, and in 2024 for some brain tumours with a PTPRZ1-MET fusion.",
   vorolanib: "Vorolanib is a Chinese pill that blocks VEGFR and PDGFR, approved in 2023 with everolimus for advanced kidney cancer after a first kinase inhibitor has failed.",
   zimberelimab: "Zimberelimab is a PD-1 antibody approved in China in 2021 for Hodgkin lymphoma that has come back, and it partners the TIGIT antibody domvanalimab in Western trials.",
   // technologies in diagnostics, imaging, radiation and immunotherapy

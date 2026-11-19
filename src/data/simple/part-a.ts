@@ -220,7 +220,7 @@ export const simpleA: Record<string, string> = {
   // ---- products ----
   alectinib: "A gentle pill for ALK-positive lung cancer, used first for years and now also given after surgery.",
   lazertinib: "An EGFR pill used together with the antibody amivantamab; in a large trial the pair worked for longer than osimertinib alone.",
-  repotrectinib: "A pill for ROS1 and NTRK lung cancers that still works after other ROS1 drugs fail, though it can cause dizziness.",
+  repotrectinib: "A pill for ROS1 lung cancer and NTRK-fusion tumours that still works after other ROS1 drugs fail, though it can cause dizziness.",
   "capmatinib-tepotinib": "Two pills for the small number of lung cancers with a MET gene fault.",
   pralsetinib: "A second RET pill for lung cancer, used less than selpercatinib.",
   "dabrafenib-trametinib": "A pair of pills that block BRAF and MEK, approved for any solid tumour with the BRAF V600E fault.",

@@ -37,7 +37,7 @@ export const SRC = {
   fdaLynparza: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22LYNPARZA%22", fdaRasonque: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22RASONQUE%22",
   fdaKeytruda: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22KEYTRUDA%22", fdaBizengri: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22BIZENGRI%22",
   fdaLumakras: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22LUMAKRAS%22", fdaKrazati: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22KRAZATI%22",
-  fdaNotices: "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications",
+  fdaNotices: "https://www.fda.gov/drugs/cancer-approvals/oncology-cancerhematologic-malignancies-approval-notifications",
   emaOnivyde: "https://www.ema.europa.eu/en/medicines/human/EPAR/onivyde-pegylated-liposomal", emaAbraxane: "https://www.ema.europa.eu/en/medicines/human/EPAR/abraxane", emaLynparza: "https://www.ema.europa.eu/en/medicines/human/EPAR/lynparza",
   emaKeytruda: "https://www.ema.europa.eu/en/medicines/human/EPAR/keytruda", emaTarceva: "https://www.ema.europa.eu/en/medicines/human/EPAR/tarceva", emaVitrakvi: "https://www.ema.europa.eu/en/medicines/human/EPAR/vitrakvi",
   emaRozlytrek: "https://www.ema.europa.eu/en/medicines/human/EPAR/rozlytrek", emaTeysuno: "https://www.ema.europa.eu/en/medicines/human/EPAR/teysuno", emaJemperli: "https://www.ema.europa.eu/en/medicines/human/EPAR/jemperli",

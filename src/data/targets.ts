@@ -175,7 +175,7 @@ export const targets: TargetInput[] = [
 },
   {
   "label": "FDA: sunvozertinib accelerated approval, July 2025",
-  "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-sunvozertinib-metastatic-non-small-cell-lung-cancer-egfr-exon-20"
+  "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-sunvozertinib-metastatic-non-small-cell-lung-cancer-egfr-exon-20"
 },
   {
   "label": "EGFR as a potent CAR T target in triple negative breast cancer brain metastases. (2023)",

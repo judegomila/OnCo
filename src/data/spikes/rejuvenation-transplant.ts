@@ -109,7 +109,7 @@ const FDA_LTFU = { label: "FDA guidance for industry: long term follow-up after 
 const FACT_STANDARDS = { label: "FACT standards: FACT-JACIE international standards for hematopoietic cellular therapy and for immune effector cells", url: "https://www.factglobal.org/standards/" };
 const JACIE = { label: "EBMT: JACIE accreditation", url: "https://www.ebmt.org/jacie-accreditation" };
 const JAKAFI_LABEL = { label: "DailyMed: Jakafi (ruxolitinib) prescribing information, indications", url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b" };
-const NIKTIMVO_FDA = { label: "FDA: FDA approves axatilimab-csfr for chronic graft-versus-host disease (14 August 2024)", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-axatilimab-csfr-chronic-graft-versus-host-disease" };
+const NIKTIMVO_FDA = { label: "FDA: FDA approves axatilimab-csfr for chronic graft-versus-host disease (14 August 2024)", url: "https://www.fda.gov/drugs/cancer-approvals/fda-approves-axatilimab-csfr-chronic-graft-versus-host-disease" };
 const REZUROCK_FDA = { label: "Drugs@FDA: Rezurock (belumosudil), NDA 214783, original approval 16 July 2021", url: "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214783" };
 const BSBMTCT = { label: "British Society of Blood and Marrow Transplantation and Cellular Therapy: guidelines", url: "https://bsbmtct.org/bsbmtct-guidelines/" };
 

@@ -2531,7 +2531,7 @@ export const technologies: TechnologyInput[] = [
 },
   {
   "label": "FDA: capivasertib with fulvestrant, November 2023 approval",
-  "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-capivasertib-fulvestrant-breast-cancer"
+  "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-capivasertib-fulvestrant-breast-cancer"
 },
   {
   "label": "Capivasertib plus paclitaxel as first-line treatment for metastatic triple-negative breast cancer: results from the randomised, global phase III CAPItello-290 trial.",

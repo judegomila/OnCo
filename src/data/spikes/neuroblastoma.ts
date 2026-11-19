@@ -211,7 +211,7 @@ const spike: Spike = {
     burden: "6-10% of childhood cancers; more than 650 US cases a year; median age at diagnosis 17 months; 5-year survival >90% for low/intermediate risk and ~60% for high risk.",
     links: [
       { label: "NCI PDQ: Neuroblastoma Treatment (Health Professional Version)", url: "https://www.cancer.gov/types/neuroblastoma/hp/neuroblastoma-treatment-pdq" },
-      { label: "FDA: eflornithine approved for high-risk neuroblastoma (13 December 2023)", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-eflornithine-adult-and-pediatric-patients-high-risk-neuroblastoma" },
+      { label: "FDA: eflornithine approved for high-risk neuroblastoma (13 December 2023)", url: "https://www.fda.gov/drugs/cancer-approvals/fda-approves-eflornithine-adult-and-pediatric-patients-high-risk-neuroblastoma" },
       { label: "Del Bufalo et al., GD2-CART01 for relapsed or refractory high-risk neuroblastoma (NEJM 2023)", url: "https://doi.org/10.1056/NEJMoa2210859" },
       { label: "Long-term outcomes of GD2-directed CAR-T cell therapy in patients with neuroblastoma (Nature Medicine 2025)", url: "https://doi.org/10.1038/s41591-025-03513-0" },
     ],

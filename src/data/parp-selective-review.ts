@@ -954,11 +954,11 @@ export const parpSelectiveReview: EntityInput[] = [
     "name": "SNV1521 in Participants With Advanced Solid Tumors",
     "nct": "NCT06220864",
     "phase": "1",
-    "asOf": "2026-10-06",
+    "asOf": "2026-11-18",
     "setting": "A Phase 1, Open-Label Dose Escalation and Expansion Study of SNV1521 in Participants With Advanced Solid Tumors",
-    "sponsor": "Synnovation Therapeutics, Inc.",
+    "sponsor": "ParVation Therapeutics, Inc.",
     "tldr": "This study tests a PARP inhibitor; the registry reports that it is recruiting.",
-    "summary": "The registry lists NCT06220864 as recruiting, last updated 2026-06-25. Enrolment is 400 planned participants, an estimate. Interventions: SNV1521, DB-1310, Abiraterone, Darolutamide. Primary measures include Safety of SNV1521; Tolerability of SNV1521. No results are posted in the registry; this does not exclude separate publications.",
+    "summary": "The registry lists NCT06220864 as recruiting, last updated 2026-06-25. Enrolment is 400 planned participants, an estimate. Interventions: SNV1521, DB-1310, Abiraterone, Darolutamide. Primary measures include Safety of SNV1521; Tolerability of SNV1521. The registry named ParVation Therapeutics, Inc. as the sponsor when read on 18 November 2026; it had earlier named Synnovation Therapeutics, Inc. No results are posted in the registry; this does not exclude separate publications.",
     "targets": [
       "parp"
     ],
@@ -1712,7 +1712,7 @@ export const parpSelectiveReview: EntityInput[] = [
     "links": [
       {
         "label": "FDA approval and indication",
-        "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-axatilimab-csfr-chronic-graft-versus-host-disease"
+        "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-axatilimab-csfr-chronic-graft-versus-host-disease"
       },
       {
         "label": "Current Niktimvo label (DailyMed)",

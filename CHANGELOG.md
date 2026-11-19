@@ -6,8 +6,18 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 19 November 2026
+- Daraxonrasib's record gains its trial's size and design, side-effect rates and review timing from the FDA notice, the label and the published trial, and its drug class gets a page of its own; the first results of the REGAIN trial of Alpha DaRT in recurrent glioblastoma are recorded with their limits; and this week's logos, structures and trial names arrive with fifteen wrong logos left out
+
 ### 18 November 2026
+- The gallbladder term keeps its file's date: the helper that builds it takes no date of its own
+- The corrected gallbladder term carries the date it was checked
 - More of the site is joined up on the page: institutions and funders list the trials they sponsor, people list the trials whose papers they wrote, ideas and the problems they address name each other, open questions appear on the ideas they concern, tests show who pays for them where a source says, and nearly every glossary term in running text now has its explanation on hover
+- The word RAS no longer shows a gallbladder anatomy term on hover
+- Daraxonrasib gains its trial design, severe adverse event rates, dosing and regulatory dates, and its drug class gets a record: RAS(ON) tri-complex inhibitors
+- REGAIN, the Alpha DaRT study in recurrent glioblastoma, gets a trial record with its interim results and their limits, and Alpha DaRT gets a technology record
+- Four trial acronyms from the weekly run are dropped because they are ordinary words
+- Weekly logos reviewed by eye: fifteen dropped as stock icons or another body's mark
 - Side effects now show the protocol that manages them for eighty more rows, among them high blood pressure on VEGF drugs, heart rhythm changes, high blood sugar and lung inflammation on antibody-drug conjugates; and five pages stop throwing a browser error as they load
 - chore: check regional approvals against the EMA register (#459)
 - chore: refresh universe lists (NCI drugs and types, NCI centres, OECI, NHS alliances, NLM journals, OpenAlex, KEGG, ChEMBL, ClinicalTrials.gov, FDA OCE) (#458)
@@ -35,6 +45,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Second accuracy pass on care protocols, batch five: 23 transplant, paediatric, pharmacy and safety protocols re-read against their sources
 - Second accuracy pass on cancer pages, colorectal: 2,741 claims re-read against their sources, 578 wrong, 132 unsupported and 45 unverifiable corrected or labelled
 - Second accuracy pass on care protocols, batch four: 20 dosing, palliative and symptom protocols re-read against their sources
+- chore: weekly maintenance (logos, structures, trial links, acronyms, orphan links)
 - Second accuracy pass on cancer pages, pancreatic: 1,908 claims re-read against their sources, 298 wrong, 78 unsupported and 47 unverifiable corrected or labelled
 - Second accuracy pass on care protocols, batch three: 20 protocols on CAR T care, opioids, antiemetics, anticoagulation and antimicrobial prophylaxis
 - Second accuracy pass on cancer pages, triple-negative breast cancer: 1,385 claims re-read against their sources, 198 wrong, 54 unsupported and 27 unverifiable corrected or labelled

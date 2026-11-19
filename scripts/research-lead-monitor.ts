@@ -437,6 +437,7 @@ export async function scan(old: Queue, opts: Opts = {}): Promise<{ queue: Queue;
       .sort((a, b) => (a.date ?? "").localeCompare(b.date ?? ""));
     let consumed = 0;
     let queued = 0;
+    let deferred = 0;
     for (const item of fresh) {
       if (consumed >= (opts.maxItems ?? 60)) break;
       // A regulator's notice on the regulator's own host is itself a primary source; everything else needs one found.
@@ -460,14 +461,21 @@ export async function scan(old: Queue, opts: Opts = {}): Promise<{ queue: Queue;
       const unresolved = [...ids.values()].filter((id) => !remembered.has(idKey(id)));
       if (unresolved.length > evidenceLeft) break; // not consumed: the next run starts here
       const lead: Lead = { source: src.id, url: item.url, date: item.date };
-      let resolved = false;
+      // Resolve first, queue second: a resolver that is down (as opposed to one that answers "no such record")
+      // leaves the item untouched for the next run rather than filing it as unverifiable.
+      const found: Evidence[] = [];
+      let resolverDown = false;
       for (const id of ids.values()) {
         let evidence = remembered.get(idKey(id));
         if (!evidence) {
           evidenceLeft--;
-          try { evidence = await evidenceFor(id, net.fetcher, false); } catch { /* left as a lead */ }
+          try { evidence = await evidenceFor(id, net.fetcher, false); } catch { resolverDown = true; }
         }
-        if (!evidence) continue;
+        if (evidence) found.push(evidence);
+      }
+      if (resolverDown && !found.length) { deferred++; continue; }
+      let resolved = false;
+      for (const evidence of found) {
         for (const alias of evidence.ids) remembered.set(alias, evidence);
         const records = [...evidence.ids.flatMap((k) => corpus.byIdentifier(k)), ...corpus.byText(evidence.title), ...named];
         const isTrial = evidence.ids.some((k) => k.startsWith("nct:"));
@@ -486,7 +494,7 @@ export async function scan(old: Queue, opts: Opts = {}): Promise<{ queue: Queue;
       consumed++;
       queued++;
     }
-    const complete = consumed === fresh.length;
+    const complete = consumed === fresh.length && !deferred;
     next.sources[src.id] = {
       checkedAt: now.toISOString(), status: "ok", seen: [...seen].slice(-1500),
       // Validators are kept only once every new item has been taken in; otherwise a 304 would hide the remainder.

@@ -212,6 +212,18 @@ describe("scan", () => {
     expect(search.get("filter.advanced")).toBe("AREA[Phase]PHASE3 AND AREA[ResultsFirstPostDate]RANGE[2026-10-19,MAX]");
   });
 
+  it("leaves an item for the next run when the resolver is down, and files it only when the resolver says no", async () => {
+    const one = `<rss><channel><item><title>Cancer one</title><link>https://journal.example/c1</link><pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate><guid>doi:10.9999/c1</guid></item></channel></rss>`;
+    const feed: Route = (u) => u.href === feedSource.url ? xml(one, { etag: '"v3"' }) : undefined;
+    const down = await scan(emptyQueue(), { ...quick, fetcher: fake([robots(""), feed, (u) => u.hostname === "api.crossref.org" ? new Response(null, { status: 503 }) : undefined]).fetcher, sources: [feedSource] });
+    expect(down.queue.candidates).toEqual([]);
+    expect(down.queue.sources["feed:journal:1"]).toMatchObject({ seen: [], status: "ok" });
+    expect(down.queue.sources["feed:journal:1"].etag).toBeUndefined();
+    const absent = await scan(down.queue, { ...quick, fetcher: fake([robots(""), feed, crossref]).fetcher, sources: [feedSource] });
+    expect(absent.queue.candidates.map((c) => c.state)).toEqual(["unverified-lead"]);
+    expect(absent.queue.sources["feed:journal:1"].seen).toHaveLength(1);
+  });
+
   it("hands the queue over after each source, so a long run can save as it goes", async () => {
     const saved: number[] = [];
     const { fetcher } = fake([robots(""), (u) => u.href === feedSource.url ? xml(rss) : undefined, bskyRoute, crossref]);

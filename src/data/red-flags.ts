@@ -140,6 +140,31 @@ const BSH_TLS_RF = { label: "British Committee for Standards in Haematology: gui
 const HBV_ENTECAVIR_RF = { label: "Huang et al., entecavir versus lamivudine for prevention of hepatitis B reactivation in diffuse large B-cell lymphoma receiving R-CHOP (JAMA 2014)", url: "https://doi.org/10.1001/jama.2014.15704" };
 const NHS_NHL_SYMPTOMS_RF = { label: "NHS: non-Hodgkin lymphoma, symptoms", url: "https://www.nhs.uk/conditions/non-hodgkin-lymphoma/symptoms/" };
 
+// ---- Patient leaflets behind the drug-scoped side-effect lines, added 18 November 2026. Each was fetched raw on
+// that day and the quoted words checked against the text: the EMA files answered application/pdf (211 KB to 1.6 MB),
+// the DailyMed and Cancer Research UK pages text/html. An EMA file holds the summary of product characteristics
+// first and the package leaflet, the part written for patients, at the end; the quotations are from the leaflet.
+const emaLeaflet = (brand: string, drug: string) => ({ label: `${brand} (${drug}): EU package leaflet, in the EMA product information`, url: `https://www.ema.europa.eu/en/documents/product-information/${brand.toLowerCase()}-epar-product-information_en.pdf` });
+const dailymedLeaflet = (brand: string, drug: string, part: string, setId: string) => ({ label: `${brand} (${drug}): US ${part} (DailyMed)`, url: `https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=${setId}` });
+const EMA_ELZONRIS_RF = emaLeaflet("Elzonris", "tagraxofusp");
+const EMA_QARZIBA_RF = emaLeaflet("Qarziba", "dinutuximab beta");
+const DM_PROLEUKIN_RF = dailymedLeaflet("Proleukin", "aldesleukin", "prescribing information, section 17, patient counselling", "f3c516ad-d405-4fbe-af6a-962080dbfa7d");
+const EMA_GLIVEC_RF = emaLeaflet("Glivec", "imatinib");
+const DM_SPRYCEL_RF = dailymedLeaflet("Sprycel", "dasatinib", "patient information", "4764f37b-c9e6-4ede-bcc2-8a03b7c521df");
+const EMA_AYVAKYT_RF = emaLeaflet("Ayvakyt", "avapritinib");
+const DM_BALVERSA_RF = dailymedLeaflet("Balversa", "erdafitinib", "patient information", "2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee");
+const DM_PEMAZYRE_RF = dailymedLeaflet("Pemazyre", "pemigatinib", "patient information", "9e1f2222-1d89-4e63-989c-ccebe2ab1eb4");
+const DM_LYTGOBI_RF = dailymedLeaflet("Lytgobi", "futibatinib", "patient information", "0b1332a1-0581-4707-9bf6-1eccfa39bef4");
+const CRUK_PANITUMUMAB_RF = { label: "Cancer Research UK: panitumumab (Vectibix)", url: "https://www.cancerresearchuk.org/about-cancer/treatment/drugs/panitumumab" };
+const EMA_SUTENT_RF = emaLeaflet("Sutent", "sunitinib");
+const EMA_INLYTA_RF = emaLeaflet("Inlyta", "axitinib");
+const EMA_CABOMETYX_RF = emaLeaflet("Cabometyx", "cabozantinib");
+const EMA_VOTRIENT_RF = emaLeaflet("Votrient", "pazopanib");
+const EMA_COLUMVI_RF = emaLeaflet("Columvi", "glofitamab");
+const EMA_LUNSUMIO_RF = emaLeaflet("Lunsumio", "mosunetuzumab");
+const EMA_TEPKINLY_RF = emaLeaflet("Tepkinly", "epcoritamab");
+const DM_REVLIMID_RF = dailymedLeaflet("Revlimid", "lenalidomide", "Medication Guide", "5fa97bf5-28a2-48f1-8955-f56012d296be");
+
 export const GENERAL_RED_FLAGS: RedFlagSet = {
   id: "general",
   label: "Anyone on cancer treatment",
@@ -413,6 +438,161 @@ export const redFlagSets: RedFlagSet[] = [
       { symptom: "Numbness or pain in hands and feet (bortezomib)", threshold: "Tingling, burning or numbness that affects walking or using the hands; peripheral neuropathy is a labelled warning and doses are adjusted at grade 2.", action: "call-today", source: label("Velcade"), protocols: ["chemotherapy-induced-peripheral-neuropathy-assessment-and-prevention"] },
       { symptom: "Breathlessness or swelling (carfilzomib)", threshold: "New breathlessness, swollen ankles, chest pain or palpitations; cardiac toxicities including heart failure are labelled warnings.", action: "call-now", source: label("Kyprolis"), protocols: ["cardio-oncology-risk-assessment-and-cardiac-surveillance"] },
       { symptom: "Rash that blisters", threshold: "Blistering or peeling skin; severe cutaneous reactions including Stevens-Johnson syndrome are labelled warnings for lenalidomide and pomalidomide.", action: "emergency", source: label("Revlimid") },
+    ],
+  },
+  // ---- Drug-scoped side-effect lines, added 18 November 2026. Six care protocols had no "when to call" line. The
+  // class cards could not carry them: the kinase inhibitor card reaches every kinase inhibitor, and a line about
+  // dasatinib's fluid retention there would be read by people on drugs that do not cause it. So each line sits in a
+  // set of its own, scoped by `drugIds` to the one product whose leaflet is quoted, and names that product in its
+  // `symptom` (outside brackets, so that the protocol's page, which keeps one line per symptom read without its
+  // bracket, shows each product's line). The threshold quotes the leaflet in quotation marks, word for word, and the
+  // action is no more urgent than the leaflet's own time word: "immediately", "straight away" or "right away" is
+  // call-now; "tell your doctor" with no time word is call-today. Products of these protocols whose leaflets give no
+  // such instruction have no line: capmatinib, tepotinib and amivantamab (swelling is listed as a side effect only),
+  // cetuximab (low magnesium is listed only), lenvatinib, tivozanib, vandetanib, sorafenib and fruquintinib (thyroid
+  // tests are described, with nothing for the reader to report).
+  {
+    id: "tagraxofusp-capillary-leak",
+    label: "Tagraxofusp",
+    drugIds: ["tagraxofusp"],
+    flags: [
+      { symptom: "Weight gain, swelling or breathlessness on tagraxofusp", threshold: "Weight gain, swelling or puffiness, passing water less often, difficulty breathing, a swollen abdomen or general tiredness, usually coming on quickly: possible capillary leak syndrome. The package leaflet lists these under \"Tell your doctor immediately if you experience the following side effects, as you may need urgent medical attention\".", action: "call-now", source: EMA_ELZONRIS_RF, protocols: ["capillary-leak-syndrome-on-anticancer-drugs"] },
+    ],
+  },
+  {
+    id: "dinutuximab-capillary-leak",
+    label: "Dinutuximab and dinutuximab beta",
+    drugIds: ["dinutuximab"],
+    flags: [
+      { symptom: "Rapid swelling, a drop in blood pressure or breathing difficulty on dinutuximab beta", threshold: "The package leaflet for dinutuximab beta says \"Tell your doctor or nurse immediately if you have any of the following\" and lists \"rapid swelling of arms, legs and other body parts, rapid drop in blood pressure, light-headedness and breathing difficulties (capillary leak syndrome)\".", action: "call-now", source: EMA_QARZIBA_RF, protocols: ["capillary-leak-syndrome-on-anticancer-drugs"] },
+    ],
+  },
+  {
+    id: "aldesleukin-capillary-leak",
+    label: "Aldesleukin (interleukin-2)",
+    drugIds: ["aldesleukin"],
+    flags: [
+      { symptom: "Low blood pressure, breathlessness or swelling on aldesleukin", threshold: "New or worsening symptoms of low blood pressure, breathlessness or swelling. There is no patient leaflet in the US label; its advice to the treating team reads \"Advise patients about the risk of capillary leak syndrome and to inform their healthcare provider immediately if they develop new or worsening symptoms of hypotension, dyspnea, or edema\".", action: "call-now", source: DM_PROLEUKIN_RF, protocols: ["capillary-leak-syndrome-on-anticancer-drugs"] },
+    ],
+  },
+  {
+    id: "imatinib-fluid-retention",
+    label: "Imatinib",
+    drugIds: ["imatinib"],
+    flags: [
+      { symptom: "Rapid weight gain on imatinib", threshold: "Putting on weight very quickly. The package leaflet says \"During treatment with Glivec, tell your doctor straight away if you put on weight very quickly. Glivec may cause your body to retain water (severe fluid retention).\"", action: "call-now", source: EMA_GLIVEC_RF, protocols: ["fluid-retention-and-effusions-on-kinase-inhibitors"] },
+    ],
+  },
+  {
+    id: "dasatinib-fluid-retention",
+    label: "Dasatinib",
+    drugIds: ["dasatinib"],
+    flags: [
+      { symptom: "Swelling, weight gain, breathlessness or a dry cough on dasatinib", threshold: "Swelling all over the body, weight gain, shortness of breath (especially with little activity or at rest), a dry cough, or chest pain on taking a deep breath. The US patient information says \"Call your healthcare provider right away if you get any of these symptoms during treatment with SPRYCEL\".", action: "call-now", source: DM_SPRYCEL_RF, protocols: ["fluid-retention-and-effusions-on-kinase-inhibitors"] },
+    ],
+  },
+  {
+    id: "avapritinib-fluid-retention",
+    label: "Avapritinib",
+    drugIds: ["avapritinib"],
+    flags: [
+      { symptom: "Rapid weight gain, swelling or shortness of breath on avapritinib", threshold: "The package leaflet says \"During treatment with this medicine, tell your doctor straight away if you put on weight very quickly, develop swelling of your face or limbs, have difficulty breathing or become short of breath. This medicine may cause your body to retain water (severe fluid retention can occur in patients with AdvSM).\" AdvSM is advanced systemic mastocytosis.", action: "call-now", source: EMA_AYVAKYT_RF, protocols: ["fluid-retention-and-effusions-on-kinase-inhibitors"] },
+    ],
+  },
+  {
+    id: "erdafitinib-high-phosphate",
+    label: "Erdafitinib",
+    drugIds: ["erdafitinib"],
+    flags: [
+      { symptom: "Painful skin lesions, muscle cramps or tingling around the mouth on erdafitinib", threshold: "Under high phosphate levels in the blood, the US patient information says \"Tell your healthcare provider right away if you develop painful skin lesions, any muscle cramps, or numbness or tingling around your mouth.\"", action: "call-now", source: DM_BALVERSA_RF, protocols: ["hyperphosphataemia-on-fgfr-inhibitors"] },
+    ],
+  },
+  {
+    id: "pemigatinib-high-phosphate",
+    label: "Pemigatinib",
+    drugIds: ["pemigatinib"],
+    flags: [
+      { symptom: "Muscle cramps, numbness or tingling around the mouth on pemigatinib", threshold: "Under high phosphate levels in the blood, the US patient information says \"Tell your healthcare provider right away if you develop any muscle cramps, or numbness or tingling around your mouth.\"", action: "call-now", source: DM_PEMAZYRE_RF, protocols: ["hyperphosphataemia-on-fgfr-inhibitors"] },
+    ],
+  },
+  {
+    id: "futibatinib-high-phosphate",
+    label: "Futibatinib",
+    drugIds: ["futibatinib"],
+    flags: [
+      { symptom: "Muscle cramps, numbness or tingling around the mouth on futibatinib", threshold: "Under high phosphate levels in the blood, the US patient information says \"Tell your healthcare provider right away if you develop any muscle cramps, or numbness or tingling around your mouth.\"", action: "call-now", source: DM_LYTGOBI_RF, protocols: ["hyperphosphataemia-on-fgfr-inhibitors"] },
+    ],
+  },
+  {
+    id: "panitumumab-low-magnesium",
+    label: "Panitumumab",
+    drugIds: ["panitumumab"],
+    flags: [
+      { symptom: "Muscle cramps, tingling, palpitations or feeling faint on panitumumab", threshold: "Panitumumab can lower magnesium and potassium in the blood. Cancer Research UK says \"Let your doctor or nurse know if you have cramping in your arm or leg muscles, tingling or numbness, palpitations (feeling your heart beat irregularly), or if you feel faint.\"", action: "call-today", source: CRUK_PANITUMUMAB_RF, protocols: ["hypomagnesaemia-on-egfr-antibodies"] },
+    ],
+  },
+  {
+    id: "sunitinib-underactive-thyroid",
+    label: "Sunitinib",
+    drugIds: ["sunitinib"],
+    flags: [
+      { symptom: "Tiredness, feeling cold or a deeper voice on sunitinib", threshold: "Possible signs of an underactive thyroid. The package leaflet says \"Sutent can cause thyroid gland problems. Tell your doctor if you get tired more easily, generally feel colder than other people, or your voice deepens whilst taking Sutent.\"", action: "call-today", source: EMA_SUTENT_RF, protocols: ["hypothyroidism-on-tyrosine-kinase-inhibitors"] },
+    ],
+  },
+  {
+    id: "axitinib-underactive-thyroid",
+    label: "Axitinib",
+    drugIds: ["axitinib"],
+    flags: [
+      { symptom: "Tiredness, feeling cold or a deeper voice on axitinib", threshold: "Possible signs of an underactive thyroid. The package leaflet says \"Inlyta can cause thyroid gland problems. Tell your doctor if you get tired more easily, generally feel colder than other people, or your voice deepens whilst taking this medicine.\"", action: "call-today", source: EMA_INLYTA_RF, protocols: ["hypothyroidism-on-tyrosine-kinase-inhibitors"] },
+    ],
+  },
+  {
+    id: "cabozantinib-underactive-thyroid",
+    label: "Cabozantinib",
+    drugIds: ["cabozantinib"],
+    flags: [
+      { symptom: "Tiredness, feeling cold or a deeper voice on cabozantinib", threshold: "Possible signs of an underactive thyroid. The package leaflet, in its note on thyroid problems, says \"Tell your doctor if you get tired more easily, generally feel colder than other people, or your voice deepens whilst taking this medicine.\"", action: "call-today", source: EMA_CABOMETYX_RF, protocols: ["hypothyroidism-on-tyrosine-kinase-inhibitors"] },
+    ],
+  },
+  {
+    id: "pazopanib-underactive-thyroid",
+    label: "Pazopanib",
+    drugIds: ["pazopanib"],
+    flags: [
+      { symptom: "Marked weight gain or tiredness on pazopanib", threshold: "The package leaflet says \"Votrient can lower the amount of thyroid hormone produced in your body. This can result in weight increase and tiredness.\" and \"Tell your doctor if you notice significant weight gain or tiredness.\"", action: "call-today", source: EMA_VOTRIENT_RF, protocols: ["hypothyroidism-on-tyrosine-kinase-inhibitors"] },
+    ],
+  },
+  {
+    id: "glofitamab-tumour-flare",
+    label: "Glofitamab",
+    drugIds: ["glofitamab"],
+    flags: [
+      { symptom: "Tumour flare on glofitamab", threshold: "Tender swollen lymph nodes, chest pain, difficulty breathing, or pain at the site of the tumour. The package leaflet lists tumour flare under \"Tell your doctor straight away if you get any of the serious side effects listed below – you may need urgent medical treatment.\"", action: "call-now", source: EMA_COLUMVI_RF, protocols: ["tumour-flare-on-bispecific-antibodies-and-immunomodulatory-drugs"] },
+    ],
+  },
+  {
+    id: "mosunetuzumab-tumour-flare",
+    label: "Mosunetuzumab",
+    drugIds: ["mosunetuzumab"],
+    flags: [
+      { symptom: "Tumour flare on mosunetuzumab", threshold: "Tender swollen lymph nodes, chest pain, cough or difficulty breathing, or pain at the site of the tumour. The package leaflet lists tumour flare under \"Tell your doctor straight away if you notice any of the symptoms of the following serious side effects.\"", action: "call-now", source: EMA_LUNSUMIO_RF, protocols: ["tumour-flare-on-bispecific-antibodies-and-immunomodulatory-drugs"] },
+    ],
+  },
+  {
+    id: "epcoritamab-tumour-flare",
+    label: "Epcoritamab",
+    drugIds: ["epcoritamab"],
+    flags: [
+      { symptom: "Tumour flare on epcoritamab", threshold: "Tender swollen lymph nodes, chest pain, cough or difficulty breathing, or pain at the site of the tumour. The package leaflet lists tumour flare under \"Tell your doctor straight away if you get symptoms of any of the side effects listed below, during or after treatment with Tepkinly. You may need additional medical treatment.\"", action: "call-now", source: EMA_TEPKINLY_RF, protocols: ["tumour-flare-on-bispecific-antibodies-and-immunomodulatory-drugs"] },
+    ],
+  },
+  {
+    id: "lenalidomide-tumour-flare",
+    label: "Lenalidomide",
+    drugIds: ["lenalidomide"],
+    flags: [
+      { symptom: "Tumour flare on lenalidomide", threshold: "The label describes tumour flare in people treated for lymphoma or chronic lymphocytic leukaemia. The US Medication Guide says \"Tell your healthcare provider if you get any of these symptoms of tumor flare reaction during treatment with REVLIMID: tender swollen lymph nodes, low grade fever, pain, or rash.\"", action: "call-today", source: DM_REVLIMID_RF, protocols: ["tumour-flare-on-bispecific-antibodies-and-immunomodulatory-drugs"] },
     ],
   },
   // ---- Cancer-scoped sets: the disease's own emergencies, shown whatever the treatment (NHS 111 and 999 wording).

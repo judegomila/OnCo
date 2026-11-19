@@ -968,7 +968,7 @@ export const simpleR: Record<string, string> = {
   "nct05664243": "In8bio is testing Autologous genetically modified gamma-delta T cells in people with glioma and glioblastoma in an early stage (phase 1/2) trial, and it is running but no longer recruiting.",
   "nct06341114": "Bio-Thera Solutions is testing BAT8008 in combination in people with advanced solid tumours in an early stage (phase 1/2) trial, and it is running but no longer recruiting.",
   "nct07093814": "Guangzhou Virotech Pharmaceutical is testing VRT106 in people with glioma and glioblastoma in an early stage (phase 1/2) trial, and it is recruiting now.",
-  "nct07011186": "Chia Tai Tianqing Pharmaceutical Group is testing azacitidine in people with advanced solid tumours in an early stage (phase 1/2) trial, and it is recruiting now.",
+  "nct07011186": "Chia Tai Tianqing Pharmaceutical Group is testing TQB3909 with azacitidine in people with myeloid blood cancers in an early stage (phase 1/2) trial, and it is recruiting now.",
   "nct07468851": "Jiangsu Hansoh Pharmaceutical is testing HS-10566 in people with bladder and urothelial cancer in an early stage (phase 1/2) trial, and it is recruiting now.",
   "nct07109219": "AstraZeneca is testing AZD4512 in people with acute lymphoblastic leukaemia in an early stage (phase 1/2) trial, and it is recruiting now.",
   "nct07761533": "Chaser Therapeutics is testing PBSS1113 in people with acute myeloid leukaemia and myelodysplastic syndromes or neoplasms in an early stage (phase 1/2) trial, and it is recruiting now.",

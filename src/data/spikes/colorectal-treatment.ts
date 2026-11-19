@@ -184,7 +184,7 @@ const colorectalPipelineDrugTargets: SpikeSupplement[] = [
     notes: ["JMT203 is described in its registry record as an anti-GFRAL monoclonal antibody given subcutaneously for cancer cachexia; GFRAL is the brainstem receptor for GDF15, the signal that drives appetite loss and weight loss in advanced cancer. GFRAL has no target record in the corpus yet."],
     links: [ct("NCT06868849")] },
   { id: "sotevtamab",
-    notes: ["Sotevtamab (AB-16B5) is described in its registry record as a fully humanised IgG2 monoclonal antibody against tumour-associated secreted clusterin, given as an inhibitor of the epithelial-to-mesenchymal transition; it is being tested with FOLFOX before resection of colorectal liver metastases. Clusterin has no target record in the corpus yet."],
+    notes: ["Sotevtamab (AB-16B5) is described in its registry record as a fully humanised IgG2 monoclonal antibody against tumour-associated secreted clusterin, given as an inhibitor of the epithelial-to-mesenchymal transition; it has been tested with FOLFOX before resection of colorectal liver metastases. The registry record, last updated in February 2025, still lists that study as recruiting, while Alethia's pipeline page marks it completed; no results are posted. Clusterin has no target record in the corpus yet."],
     links: [ct("NCT06225843")] },
   { id: "ct3001",
     notes: ["CT3001 is described in its registry record as an oral solution of a small-molecule inhibitor of GPR35, a G-protein-coupled receptor. GPR35 has no target record in the corpus yet."],

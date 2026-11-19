@@ -96,6 +96,7 @@ export const shasqiDrugs: DrugInput[] = [
       "The registry table counts 15 people in the phase 2a response analysis (two responses) because it includes one patient treated in a separate cohort below the recommended dose; the preprint counts 14.",
       "The company gives one standard dose as 75 mg/m2 of doxorubicin per cycle in molar equivalents (press release, 12 September 2022).",
       "No approval, designation or filing was found for SQ3370 in the sources read.",
+      "Second read on 18 November 2026: the trial figures were re-read against the preprint abstract and the registry and agree, and no peer-reviewed report of the phase 2a part was found in Europe PMC. The pipeline chart's \"Partnering\" label could not be re-read as text that day (not re-verified on 18 November 2026).",
     ],
     targets: [], cancers: ["sarcoma"], companies: ["shasqi"], trials: ["nct04106492"], technologies: ["click-activated-prodrugs"],
     terms: ["prodrug", "anthracycline", "rp2d", "dose-limiting-toxicity"], related: ["doxorubicin"], people: ["sant-chawla"],

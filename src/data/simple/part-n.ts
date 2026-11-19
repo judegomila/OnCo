@@ -290,7 +290,7 @@ export const simpleN: Record<string, string> = {
   oncodetect: "Oncodetect is Exact Sciences' entry into the leftover-cancer blood test market, launched in 2025 for bowel cancer follow-up after surgery, with wider uses still pending.",
   prosigna: "Prosigna (PAM50) is a 50-gene test run in local hospital laboratories, cleared by the FDA in 2013, that estimates the ten-year risk of a hormone-positive breast cancer coming back.",
   endopredict: "EndoPredict, Myriad's 12-gene test, combines gene activity with tumour size and lymph nodes to say whether hormone therapy alone is enough for breast cancer or should continue beyond five years.",
-  "breast-cancer-index": "Breast Cancer Index, from Hologic, is the only test designed to tell a woman finishing five years of hormone therapy whether another five years is worth the side effects.",
+  "breast-cancer-index": "Breast Cancer Index, from Hologic, is a test that helps a woman finishing five years of hormone therapy decide whether another five years is likely to help her.",
   prolaris: "Prolaris, from Myriad Genetics, is a gene test on a prostate biopsy that estimates how aggressive the cancer is, to help decide between active surveillance [careful monitoring] and treatment.",
   "oncotype-dx-gps": "The Oncotype DX Genomic Prostate Score, now owned by MDxHealth, is a 17-gene biopsy test that helps men with newly diagnosed low-risk prostate cancer decide whether to watch or treat.",
   afirma: "Veracyte's Afirma Genomic Sequencing Classifier is a gene test on the needle sample from a thyroid lump that can safely call an 'uncertain' result benign and spare an operation.",

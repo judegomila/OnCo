@@ -6,7 +6,7 @@ export const simpleM2: Record<string, string> = {
   "urogen-pharma": "UroGen Pharma, based in Princeton in the United States, makes gel-based treatments for bladder cancer, including Zusduri and Jelmyto, and runs three phase 3 trials of UGN-103, UGN-102 and UGN-104.",
   varegacestat: "Immunome's Varegacestat is an experimental small-molecule drug that blocks gamma secretase, an enzyme behind Notch signalling [a growth message between cells], in a phase 3 trial for progressing desmoid tumours.",
   vc004: "VC004 is an experimental small-molecule drug from Jiangsu vcare pharmaceutical technology with no target made public, in a phase 3 trial for advanced or spread solid tumours [lump-forming cancers].",
-  velzatinib: "GlaxoSmithKline is comparing Velzatinib, an experimental medicine of undisclosed type and target, against imatinib in a phase 3 trial for people with untreated gastrointestinal stromal tumours [a rare gut cancer].",
+  velzatinib: "GSK is comparing velzatinib, an experimental drug that blocks a faulty protein called KIT, with imatinib in a phase 3 trial for untreated gastrointestinal stromal tumours [a rare gut cancer].",
   vepugratinib: "Vepugratinib is an Eli Lilly small-molecule drug designed to block FGFR3 [a growth signal receptor], now in a phase 3 trial for bladder and urothelial cancer.",
   vrn110755: "Voronoi's VRN110755 is an oral small-molecule capsule that blocks faulty EGFR [a growth signal protein], including the C797S resistance mutation, in a phase 2 trial for EGFR-mutant non-small-cell lung cancer.",
   vyriad: "Vyriad, a biotechnology company in Rochester in the United States, engineers viruses to attack cancer and runs two late-stage trials in melanoma, head and neck cancer and colorectal cancer.",

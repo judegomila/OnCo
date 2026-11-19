@@ -159,7 +159,7 @@ export const monitorsSbirB: Array<CompanyInput | DrugInput> = [
     links: [{ label: "Official website", url: "https://www.veramorph.com/" }, { label: "VeraMorph: product portfolio", url: "https://www.veramorph.com/portfolio" }, { label: "NIH RePORTER: SBIR award 4R44CA306533-02", url: reporter(11457452) }] }),
   d({ id: "ver001", name: "VER001", code: "VER001", aka: ["Oral fulvestrant (VeraMorph)"], modality: "Oral selective oestrogen receptor degrader (fulvestrant reformulation)", status: "preclinical",
     mechanism: "Fulvestrant binds the oestrogen receptor and causes it to be degraded; VER001 is a formulation intended to deliver it by mouth rather than by injection.",
-    tldr: "VER001 is an experimental tablet form of fulvestrant from VeraMorph, for hormone receptor-positive breast cancer that has spread. It is in laboratory testing.",
+    tldr: "VER001 is an experimental form of fulvestrant taken by mouth, from VeraMorph, for hormone receptor-positive breast cancer that has spread. It is in laboratory testing.",
     summary: "VER001 is VeraMorph's oral formulation of fulvestrant, made with its DPOD delivery platform, intended for oestrogen receptor-positive metastatic breast cancer. NCI SBIR award 4R44CA306533-02 funds its preclinical validation. No human data have been published.",
     targets: ["estrogen-receptor"], technologies: ["oral-serds"], cancers: [], companies: ["veramorph"],
     links: [{ label: "VeraMorph: product portfolio", url: "https://www.veramorph.com/portfolio" }] }),

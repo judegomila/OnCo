@@ -202,10 +202,10 @@ export const trop2EmergingModalities: EntityInput[] = [
     "kind": "drug",
     "modality": "CAR-NK cell therapy",
     "status": "phase-1",
-    "asOf": "2026-10-06",
+    "asOf": "2026-11-18",
     "mechanism": "Cord-blood natural killer cells engineered with a TROP2 CAR, IL-15 to support persistence, and an inducible caspase-9 safety switch.",
     "tldr": "These experimental immune cells are designed to recognize TROP2 on cancer cells. Early trials are studying their safety and activity.",
-    "summary": "AACR 2026 abstract CT294 describes the TROPIKANA phase 1 protocol in advanced TROP2-positive solid tumors, with lymphodepletion and engineered cord-blood NK cells. It reports trial design and first treatment in January 2024, not a clinical response or survival result. NCT06066424 is recruiting with 54 planned participants. A separate colorectal minimal-residual-disease study, NCT06358430, combines this cell platform with cetuximab; it does not establish postoperative TNBC benefit.",
+    "summary": "AACR 2026 abstract CT294 describes the TROPIKANA phase 1 protocol in advanced TROP2-positive solid tumors, with lymphodepletion and engineered cord-blood NK cells. It reports trial design and first treatment in January 2024, not a clinical response or survival result. NCT06066424 is recruiting with 54 planned participants. A separate colorectal minimal-residual-disease study, NCT06358430, combines this cell platform with cetuximab; it enrolled 10 people and is closed to recruitment, and it does not establish postoperative TNBC benefit. Both trials are run by MD Anderson Cancer Center and neither has posted results (registry read 18 November 2026).",
     "targets": [
       "trop2"
     ],

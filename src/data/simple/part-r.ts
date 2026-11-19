@@ -921,7 +921,7 @@ export const simpleR: Record<string, string> = {
   "nct06657222": "Tubulis is testing TUB-030 in people with small-cell lung cancer, non-small-cell lung cancer and triple-negative breast cancer in an early stage (phase 1/2) trial, and it is recruiting now.",
   "nct04078295": "Eisai is testing nivolumab in people with advanced solid tumours in an early stage (phase 1/2) trial, and it is running but no longer recruiting.",
   "nct07056777": "Zhejiang Doer Biologics is testing oxaliplatin, capecitabine and leucovorin in people with advanced solid tumours in an early stage (phase 1/2) trial, and it is recruiting now.",
-  "nct06998407": "Avenzo Therapeutics is testing AVZO-021 and fulvestrant in people with advanced solid tumours in an early stage (phase 1/2) trial, and it is recruiting now.",
+  "nct06998407": "Avenzo Therapeutics is testing AVZO-023, alone and with AVZO-021 and hormone therapy, in HR-positive, HER2-negative advanced breast cancer in an early (phase 1/2) trial that is recruiting now.",
   "nct06245330": "Ascentawits Pharmaceuticals is testing AST-001 in people with pancreatic ductal adenocarcinoma in an early stage (phase 1/2) trial, and it is recruiting now.",
   "nct03381274": "MedImmune is testing oleclumab and osimertinib in people with non-small-cell lung cancer in an early stage (phase 1/2) trial, and it is running but no longer recruiting.",
   "nct06220318": "Fujian Haixi Pharmaceuticals is testing sintilimab in people with advanced solid tumours in an early stage (phase 1/2) trial, and it is running but no longer recruiting.",

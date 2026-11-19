@@ -21,12 +21,12 @@ export const trop2DualPayload: EntityInput[] = [
     ],
   },
   {
-    id: "kh815", kind: "drug", name: "KH815", code: "KH815", asOf,
+    id: "kh815", kind: "drug", name: "KH815", code: "KH815", asOf: "2026-11-18",
     modality: "ADC", status: "phase-1", tags: ["pipeline", "dual-payload"],
     payload: "Topoisomerase I inhibitor and RNA polymerase II inhibitor",
     mechanism: "A humanized TROP2-directed hRS7 antibody delivers a topoisomerase I inhibitor and an RNA polymerase II inhibitor. The two payload classes act on DNA damage and RNA synthesis, respectively.",
     tldr: "An experimental antibody drug that carries two cancer-killing payloads to cells carrying TROP2. A first human study is registered but is still listed as not yet recruiting in an older record.",
-    summary: "KH815 is a TROP2-directed dual-payload ADC from Chengdu Kanghong Biotech. AACR 2025 abstract 1586 describes TOP1 and RNA polymerase II inhibitor payloads and preclinical tumor-model and non-GLP primate findings; those findings do not establish human safety or comparative benefit. Its registered phase 1 study NCT06885645 plans 30 participants with advanced solid tumors. The record last posted 3 April 2025 still says NOT_YET_RECRUITING when checked 6 October 2026, with an estimated start of 30 April 2025 and no posted results. Registration and a past estimated start do not establish that dosing has begun; current recruitment requires sponsor confirmation.",
+    summary: "KH815 is a TROP2-directed dual-payload ADC from Chengdu Kanghong Biotech. AACR 2025 abstract 1586 describes TOP1 and RNA polymerase II inhibitor payloads and preclinical tumor-model and non-GLP primate findings; those findings do not establish human safety or comparative benefit. Its registered phase 1 study NCT06885645 plans 30 participants with advanced solid tumors. The record last posted 3 April 2025 still says NOT_YET_RECRUITING when checked again on 18 November 2026, with an estimated start of 30 April 2025 and no posted results. Registration and a past estimated start do not establish that dosing has begun; current recruitment requires sponsor confirmation.",
     targets: ["trop2"], technologies: ["adc", "dual-payload-adc"], trials: ["nct06885645"],
     links: [
       { label: "AACR 2025 abstract 1586: KH815 payloads and preclinical evidence", url: "https://doi.org/10.1158/1538-7445.am2025-1586" },

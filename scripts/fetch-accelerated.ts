@@ -37,9 +37,10 @@ const apply = args.includes("--apply");
 const noFetch = args.includes("--no-fetch");
 const CACHE = "/tmp/fda-accelerated";
 const OUT = join(process.cwd(), "src", "data", "accelerated-approvals.ts");
-const BASE = "https://www.fda.gov/drugs/resources-information-approved-drugs";
+export const ACCELERATED_BASE = "https://www.fda.gov/drugs/resources-information-approved-drugs";
+const BASE = ACCELERATED_BASE;
 
-const SOURCES: Array<{ id: AcceleratedTableId; slug: string; label: string }> = [
+export const ACCELERATED_SOURCES: Array<{ id: AcceleratedTableId; slug: string; label: string }> = [
   { id: "verified", slug: "verified-clinical-benefit-cancer-accelerated-approvals", label: "Converted to traditional approval" },
   { id: "withdrawn", slug: "withdrawn-cancer-accelerated-approvals", label: "Withdrawn" },
   { id: "ongoing", slug: "ongoing-cancer-accelerated-approvals", label: "Still unresolved" },
@@ -119,6 +120,38 @@ function splitDrugCell(cell: string): { brand: string; generic?: string } {
   const m = /^(.*?)\s*\((.*)\)\s*$/.exec(cell.trim());
   if (!m) return { brand: cell.trim() };
   return { brand: m[1].trim(), generic: m[2].trim() };
+}
+
+/**
+ * One of the four tables as rows, each an indication with the dates in its cells, before any row is matched to a
+ * corpus product. Exported for scripts/recheck/approvals-us.ts, which compares a fresh reading with the generated file.
+ */
+export function parseAcceleratedTable(id: AcceleratedTableId, html: string): { rows: Array<Omit<AcceleratedRow, "drugId">>; current?: string; skipped: string[] } {
+  const rows: Array<Omit<AcceleratedRow, "drugId">> = [];
+  const skipped: string[] = [];
+  for (const { cells, links } of tableRows(html)) {
+    if (cells.length < 4) continue;
+    const granted = isoDate(cells[2]);
+    if (!granted) { skipped.push(`${id}: ${cells[0]} has no grant date ("${cells[2]}")`); continue; }
+    let outcome: AcceleratedOutcome, outcomeDate: string | undefined;
+    if (id === "verified") { outcome = "converted"; outcomeDate = isoDate(cells[3]); }
+    else if (id === "withdrawn") { outcome = "withdrawn"; outcomeDate = isoDate(cells[3]); }
+    else if (id === "ongoing") { outcome = "open"; }
+    else ({ outcome, date: outcomeDate } = otherStatus(cells[3]));
+    if (outcome !== "open" && !outcomeDate) { skipped.push(`${id}: ${cells[0]} is ${outcome} with no date ("${cells[3]}")`); continue; }
+    const { generic } = splitDrugCell(cells[0]);
+    rows.push({
+      drugName: cells[0].replace(/\s+/g, " ").trim(),
+      ...(generic ? { generic } : {}),
+      indication: cells[1],
+      granted,
+      outcome,
+      ...(outcomeDate ? { outcomeDate } : {}),
+      table: id,
+      ...(links[1] ? { announcement: links[1] } : {}),
+    });
+  }
+  return { rows, current: currentAsOf(html), skipped };
 }
 
 const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[‐-―]/g, "-").replace(/\s+/g, " ").replace(/\.$/, "").trim();
@@ -209,38 +242,16 @@ async function main() {
   let readOn = today();
   const skipped: string[] = [];
 
-  for (const src of SOURCES) {
+  for (const src of ACCELERATED_SOURCES) {
     const html = await page(src.slug);
     if (!html) { console.error(`${src.id}: no page, skipping`); continue; }
-    const current = currentAsOf(html);
-    const parsed = tableRows(html);
-    let count = 0;
-    for (const { cells, links } of parsed) {
-      if (cells.length < 4) continue;
-      const granted = isoDate(cells[2]);
-      if (!granted) { skipped.push(`${src.id}: ${cells[0]} has no grant date ("${cells[2]}")`); continue; }
-      let outcome: AcceleratedOutcome, outcomeDate: string | undefined;
-      if (src.id === "verified") { outcome = "converted"; outcomeDate = isoDate(cells[3]); }
-      else if (src.id === "withdrawn") { outcome = "withdrawn"; outcomeDate = isoDate(cells[3]); }
-      else if (src.id === "ongoing") { outcome = "open"; }
-      else ({ outcome, date: outcomeDate } = otherStatus(cells[3]));
-      if (outcome !== "open" && !outcomeDate) { skipped.push(`${src.id}: ${cells[0]} is ${outcome} with no date ("${cells[3]}")`); continue; }
-      const { brand, generic } = splitDrugCell(cells[0]);
-      const drugId = matchDrug(cands, matcher, cells[0]);
-      rows.push({
-        ...(drugId ? { drugId } : {}),
-        drugName: cells[0].replace(/\s+/g, " ").trim(),
-        ...(generic ? { generic } : {}),
-        indication: cells[1],
-        granted,
-        outcome,
-        ...(outcomeDate ? { outcomeDate } : {}),
-        table: src.id,
-        ...(links[1] ? { announcement: links[1] } : {}),
-      });
-      count += 1;
-      void brand;
+    const { rows: parsedRows, current, skipped: tableSkipped } = parseAcceleratedTable(src.id, html);
+    skipped.push(...tableSkipped);
+    for (const r of parsedRows) {
+      const drugId = matchDrug(cands, matcher, r.drugName);
+      rows.push({ ...(drugId ? { drugId } : {}), ...r });
     }
+    const count = parsedRows.length;
     tables.push({ id: src.id, label: src.label, url: `${BASE}/${src.slug}`, count, current: current ?? readOn });
     if (current && current > readOn) readOn = current;
     console.log(`${src.id.padEnd(10)} ${String(count).padStart(4)} rows, content current ${current ?? "unknown"}`);
@@ -310,4 +321,4 @@ ${unmatchedLines.join("\n")}
   console.log(`\nwrote ${OUT} (${byDrug.size} products, ${matched.length} matched rows, ${rows.length - matched.length} unmatched)`);
 }
 
-main().catch((e) => { console.error(e); process.exit(1); });
+if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });

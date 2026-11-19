@@ -225,7 +225,7 @@ export const simpleA: Record<string, string> = {
   pralsetinib: "A second RET pill for lung cancer, used less than selpercatinib.",
   "dabrafenib-trametinib": "A pair of pills that block BRAF and MEK, approved for most previously treated solid tumours with the BRAF V600E fault, but not bowel cancer.",
   sevabertinib: "An HER2 pill for lung cancers with HER2 faults, approved in November 2025.",
-  divarasib: "Roche's KRAS G12C pill, the first to beat the two approved KRAS drugs head to head.",
+  divarasib: "Roche's KRAS G12C pill, which beat the two older KRAS G12C pills in a head-to-head trial.",
   olomorasib: "Lilly's KRAS G12C pill, designed to combine safely with immune drugs.",
   neladalkib: "A fourth-generation ALK pill that works after lorlatinib and avoids some brain side effects. An FDA decision is due in November 2026.",
   tremelimumab: "An antibody that releases the CTLA-4 immune brake, given with durvalumab as a single dose in liver cancer and as up to five doses with chemotherapy in lung cancer.",

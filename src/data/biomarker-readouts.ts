@@ -26,10 +26,10 @@ export const th = (x: Th): BiomarkerThreshold => ({ status: "current", ...x });
  * as do HercepTest, PATHWAY 4B5 and the HER2 Dual ISH cocktail, and the therascreen kits whose gene the family record
  * names; Signatera CDx (P260004) is the companion diagnostic version of the Signatera record, whose IMvigor011
  * approval it is (src/data/tumour-tests.ts says so). Guardant360 Liquid CDx (P250027, a different PMA from Guardant360
- * CDx) has its own record, guardant360-liquid-cdx, since 17 November 2026. Not mapped, because no record covers the
- * device: HER2 CISH pharmDx, INFORM HER-2/neu, InSite Her-2/neu (CB11),
- * PGDx elio tissue complete, SPOT-LIGHT HER2 CISH, cobas EZH2, cobas KRAS and therascreen PDGFRA (the therascreen
- * family record does not name it).
+ * CDx) has its own record, guardant360-liquid-cdx, since 17 November 2026. cobas KRAS, cobas EZH2, PGDx elio tissue
+ * complete CDx and HER2 CISH pharmDx have records since 19 November 2026 (src/data/tests-cdx-devices.ts). Not mapped,
+ * because no record covers the device: INFORM HER-2/neu, InSite Her-2/neu (CB11), SPOT-LIGHT HER2 CISH and
+ * therascreen PDGFRA (the therascreen family record does not name it).
  */
 export const CDX_DEVICE_IDS: Record<string, string> = {
   "Abbott RealTime IDH1": "abbott-realtime-idh1",
@@ -43,6 +43,7 @@ export const CDX_DEVICE_IDS: Record<string, string> = {
   "FoundationOne Liquid CDx": "foundationone-cdx",
   "Guardant360 CDx": "guardant360-cdx",
   "Guardant360® Liquid CDx": "guardant360-liquid-cdx",
+  "HER2 CISH pharmDx Kit": "her2-cish-pharmdx",
   "HER2 FISH pharmDx Kit": "her2-fish-pharmdx",
   "HercepTest": "her2-testing-assays",
   "Idylla CDx MSI Test": "idylla-cdx-msi",
@@ -63,6 +64,7 @@ export const CDX_DEVICE_IDS: Record<string, string> = {
   "PATHWAY anti-Her2/neu (4B5) Rabbit Monoclonal Primary Antibody": "her2-testing-assays",
   "PD-L1 IHC 22C3 pharmDx": "dako-pd-l1-22c3-pharmdx",
   "PD-L1 IHC 28-8 pharmDx": "pd-l1-ihc-28-8-pharmdx",
+  "PGDx elio tissue complete CDx": "pgdx-elio-tissue-complete-cdx",
   "PathVysion HER-2 DNA Probe Kit": "pathvysion-her2",
   "SeCore CDx HLA Sequencing System": "secore-cdx-hla",
   "Signatera CDx": "signatera",
@@ -82,6 +84,8 @@ export const CDX_DEVICE_IDS: Record<string, string> = {
   "Vysis CLL FISH Probe Kit": "vysis-cll-fish",
   "cobas 4800 BRAF V600 Mutation Test": "cobas-4800-braf-v600",
   "cobas EGFR Mutation Test v2": "cobas-egfr-mutation-test",
+  "cobas EZH2 Mutation Test": "cobas-ezh2-mutation-test",
+  "cobas KRAS Mutation Test": "cobas-kras-mutation-test",
   "therascreen BRAF V600E RGQ PCR Kit": "therascreen-cdx",
   "therascreen EGFR RGQ PCR Kit": "therascreen-cdx",
   "therascreen FGFR RGQ RT-PCR Kit": "therascreen-cdx",

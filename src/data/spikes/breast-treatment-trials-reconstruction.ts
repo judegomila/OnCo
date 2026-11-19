@@ -46,7 +46,7 @@ export const breastTrialsReconstruction: TrialInput[] = [
     links: [isrctn("11898000"), doi("Pre-BRA three-month safety (British Journal of Surgery 2022)", "10.1093/bjs/znac077"), doi("Pre-BRA patient-reported outcomes at 3 and 18 months (British Journal of Surgery 2025)", "10.1093/bjs/znaf032")] }),
 
   t({ id: "best-bra", name: "Best-BRA", aka: ["Best-BRA pilot trial"], nct: "ISRCTN10081873",
-    phase: "2", status: "completed", sponsor: "North Bristol NHS Trust, funded by the National Institute for Health Research",
+    phase: "2", status: "withdrawn", sponsor: "North Bristol NHS Trust, funded by the National Institute for Health Research",
     enrolled: 11, enrolledNote: "The ISRCTN record gives a target of 100 and a total final enrolment of 11; the trial is listed as stopped for a participant recruitment issue.",
     setting: "Women having mastectomy for breast cancer or risk reduction who elect implant-based reconstruction and are suitable for either technique: sub-pectoral against pre-pectoral immediate implant-based reconstruction, as an external pilot randomised trial with recruitment, adherence to allocation and outcome completion as the outcomes",
     tldr: "A British pilot randomised comparison of putting a breast implant in front of the chest muscle or behind it, set up because the field adopted the newer technique before testing whether women do better with it. It stopped early: the registry records 11 women enrolled against a target of 100, and gives a participant recruitment issue as the reason.",

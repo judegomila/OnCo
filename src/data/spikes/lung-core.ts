@@ -159,7 +159,7 @@ const SRC = {
  * The parent record's summary in ../cancer-parents-wave2.ts, carried over verbatim because a scalar patch overrides.
  */
 const PARENT_EXISTING = [
-  "Lung cancer is divided by histology into non-small-cell lung cancer, itself split into adenocarcinoma, squamous and large-cell carcinoma, and small-cell lung cancer, a fast-growing neuroendocrine tumour almost always linked to smoking. Non-small-cell disease has more than a dozen targetable driver mutations and is treated with surgery, radiotherapy, targeted drugs and immunotherapy by stage and biology; small-cell disease is treated with chemotherapy, immunotherapy and radiotherapy and relapses quickly. Low-dose CT screening of heavy smokers cuts lung cancer deaths by about a fifth, and tobacco control remains the largest lever. Mesothelioma and thymic tumours are separate thoracic cancers.",
+  "Lung cancer is divided by histology into non-small-cell lung cancer, itself split into adenocarcinoma, squamous and large-cell carcinoma, and small-cell lung cancer, a fast-growing neuroendocrine tumour almost always linked to smoking. Non-small-cell disease has several targetable driver mutations and is treated with surgery, radiotherapy, targeted drugs and immunotherapy by stage and biology; small-cell disease is treated with chemotherapy, immunotherapy and radiotherapy and relapses quickly. Low-dose CT screening of heavy smokers cut lung cancer deaths by about a fifth against chest X-ray in the US National Lung Screening Trial, and tobacco control remains the largest lever. Mesothelioma and thymic tumours are separate thoracic cancers.",
 ];
 
 const PARENT_NEW = [

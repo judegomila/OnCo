@@ -100,7 +100,7 @@ export const pulseItems: PulseItem[] = [
 
   // ---- Patient-facing ----
   { sourceId: "src-bcrf", title: "FDA approves Datroway as first-line treatment for metastatic TNBC", oneLine: "Patient explainer on the TROPION-Breast02 approval.", url: "https://www.bcrf.org/blog/fda-approves-datroway-for-triple-negative-breast-cancer/", date: "2026-08-01", refs: ["datopotamab-deruxtecan", "tropion-breast02", "tnbc"], sentiment: "promising" },
-  { sourceId: "src-bcrf", title: "OPTIMA: a genomic test may spare some patients chemotherapy", oneLine: "De-escalation guided by gene expression in HR+ disease.", url: "https://www.bcrf.org/blog/some-breast-cancer-patients-may-avoid-chemotherapy-optima-study/", date: "2026-08-15", refs: ["oncotype-dx", "breast-hr-positive"], sentiment: "promising" },
+  { sourceId: "src-bcrf", title: "OPTIMA: a genomic test may spare some patients chemotherapy", oneLine: "De-escalation guided by gene expression in HR+ disease.", url: "https://www.bcrf.org/blog/some-breast-cancer-patients-may-avoid-chemotherapy-optima-study/", date: "2026-08-15", refs: ["prosigna", "breast-hr-positive"], sentiment: "promising" },
   { sourceId: "src-lbbc", title: "Menopause and breast cancer: what you need to know", oneLine: "Symptom-by-symptom guide to treatment-induced menopause.", url: "https://www.lbbc.org/news/menopause-and-breast-cancer-what-you-need-to-know", date: "2026-08-10", refs: ["endocrine-therapy", "supportive-care"], sentiment: "neutral" },
 ];
 

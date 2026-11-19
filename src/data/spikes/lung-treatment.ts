@@ -202,7 +202,8 @@ const lungDrugSupplements: SpikeSupplement[] = [
     cancers: [LUNG], trials: ["nct01774721"] },
 
   { id: "afatinib", cancers: [LUNG], trials: ["lux-lung-3"],
-    notes: ["Afatinib holds a distinct FDA indication, granted in January 2018, for non-resistant uncommon EGFR mutations (S768I, L861Q and G719X), based on a pooled analysis of LUX-Lung 2, 3 and 6. It is the reason a patient with one of those mutations may be offered afatinib rather than osimertinib. There is no NICE appraisal of afatinib for the uncommon mutations."] },
+    notes: ["Afatinib holds a distinct FDA indication, granted in January 2018, for non-resistant uncommon EGFR mutations (S768I, L861Q and G719X), based on a pooled analysis of LUX-Lung 2, 3 and 6. It is the reason a patient with one of those mutations may be offered afatinib rather than osimertinib. NICE's appraisal of afatinib (TA310, published 23 April 2014) recommends it for EGFR mutation-positive locally advanced or metastatic disease in adults who have not had an EGFR inhibitor, and does not single out the uncommon mutations."],
+    links: [nice("ta310", "afatinib for treating epidermal growth factor receptor mutation-positive locally advanced or metastatic non-small-cell lung cancer")] },
 
   { id: "dabrafenib-trametinib", approvals: [
       { region: "England (NICE)", year: 2023, indication: "BRAF V600 mutation-positive advanced non-small-cell lung cancer, first line only", note: "TA898, published 14 June 2023, recommends the combination only as first-line treatment of advanced disease, subject to the commercial arrangement. A patient who has already had chemotherapy or immunotherapy is not funded for it." }],

@@ -465,7 +465,7 @@ export const papersRareWave: PaperInput[] = [
     cancers: ["early-stage-classical-hodgkin-lymphoma"], drugs: ["doxorubicin", "vinblastine", "dacarbazine"], journals: ["nejm"] }),
 
   p({ id: "paper-rathl-interim-pet-adapted-abvd-advanced-hodgkin-nejm-2016", name: "RATHL: adapted treatment guided by interim PET-CT in advanced Hodgkin lymphoma",
-    tldr: "Using a PET scan after two cycles to decide the rest of treatment let patients with a clear scan drop bleomycin, sparing their lungs without losing cure, while those with a positive scan were escalated to stronger chemotherapy.",
+    tldr: "Using a PET scan after two cycles to decide the rest of treatment let patients with a clear scan drop bleomycin, sparing their lungs with three-year progression-free survival 1.6 points lower (just short of the non-inferiority margin), while those with a positive scan were escalated to stronger chemotherapy.",
     summary: "International randomised trial of 1,214 patients with advanced Hodgkin lymphoma who had an interim PET-CT after two cycles of ABVD; PET-negative patients were randomised to continue ABVD or switch to AVD (omitting bleomycin), and PET-positive patients were escalated to BEACOPP.\n\nThree-year progression-free survival was 85.7 percent with ABVD and 84.4 percent with AVD, with fewer pulmonary adverse events after bleomycin was dropped; PET-positive patients escalated to BEACOPP had a three-year progression-free survival of 67.5 percent, better than expected. PET-adapted therapy became standard.",
     journal: "New England Journal of Medicine", year: 2016, doi: "10.1056/NEJMoa1510093", pmid: "27332902",
     authors: "Johnson P, Federico M, Kirkwood A, et al.", paperType: "rct", participants: 1214, changedPractice: true,

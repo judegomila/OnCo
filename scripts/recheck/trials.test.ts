@@ -130,9 +130,9 @@ describe("compareTrial", () => {
 
 describe("sharedRegistrationFindings", () => {
   it("reports a registration two records carry, and not a pair that is meant to share one", () => {
-    const out = sharedRegistrationFindings([{ id: "nct06973187", ncts: ["NCT06973187"] }, { id: "cadance-304", ncts: ["NCT06973187"] }, { id: "roar", ncts: ["NCT02034110"] }, { id: "roar-atc", ncts: ["NCT02034110"] }, { id: "alone", ncts: ["NCT00000009"] }]);
+    const out = sharedRegistrationFindings([{ id: "nct00000007", ncts: ["NCT00000007"] }, { id: "curated-twin", ncts: ["NCT00000007"] }, { id: "roar", ncts: ["NCT02034110"] }, { id: "roar-atc", ncts: ["NCT02034110"] }, { id: "alone", ncts: ["NCT00000009"] }]);
     expect(out).toHaveLength(1);
-    expect(out[0]).toMatchObject({ type: "shared-registration", severity: "high", recordId: "cadance-304", url: "https://clinicaltrials.gov/study/NCT06973187", onco: "2 records carry NCT06973187: cadance-304, nct06973187" });
+    expect(out[0]).toMatchObject({ type: "shared-registration", severity: "high", recordId: "curated-twin", url: "https://clinicaltrials.gov/study/NCT00000007", onco: "2 records carry NCT00000007: curated-twin, nct00000007" });
   });
 });
 

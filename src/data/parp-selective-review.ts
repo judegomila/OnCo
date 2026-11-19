@@ -328,11 +328,11 @@ export const parpSelectiveReview: EntityInput[] = [
     "name": "Study of NMS-03305293 in Adult Patient With Relapsed Small Cell Lung Cancer",
     "nct": "NCT06931626",
     "phase": "1",
-    "asOf": "2026-10-06",
+    "asOf": "2026-11-18",
     "setting": "Study of NMS-03305293, a Non-Trapping PARP1-Specific PARP Inhibitor in Relapsed Small Cell Lung Cancer",
     "sponsor": "Nerviano Medical Sciences",
-    "tldr": "This study tests a PARP inhibitor; the registry reports that it is recruiting.",
-    "summary": "The registry lists NCT06931626 as recruiting, last updated 2026-07-24. Enrolment is 10 planned participants, an estimate. Interventions: NMS-03305293, Temozolomide. Primary measures include Number of Participants with Adverse Events (AEs). No results are posted in the registry; this does not exclude separate publications.",
+    "tldr": "This study tests a PARP inhibitor; the registry reports that it was terminated after five people had enrolled.",
+    "summary": "The registry lists NCT06931626 as terminated, last updated 2026-11-17. Five participants were enrolled. The sponsor's stated reason: \"The decision about study closure has not been based on safety profile or clinical data of NMS-03305293 but due to a strategic decision driven by upcoming changes in the treatment landscape.\" Interventions: NMS-03305293, Temozolomide. Primary measures include Number of Participants with Adverse Events (AEs). No results are posted in the registry; this does not exclude separate publications.",
     "targets": [
       "parp"
     ],
@@ -345,7 +345,7 @@ export const parpSelectiveReview: EntityInput[] = [
         "url": "https://clinicaltrials.gov/study/NCT06931626"
       }
     ],
-    "status": "recruiting",
+    "status": "withdrawn",
     "started": "2025-08-15",
     "startedType": "actual",
     "cancers": [

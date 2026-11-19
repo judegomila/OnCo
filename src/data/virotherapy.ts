@@ -254,7 +254,7 @@ export const products: OvProduct[] = [
     virus: "Adenovirus type 5", replicates: true,
     engineering: "E1A driven by the E2F-1 promoter, so replication depends on a defective retinoblastoma-E2F pathway; granulocyte-macrophage colony-stimulating factor inserted.",
     route: "Into the bladder, 1 x 10^12 viral particles per 0.8 mL weekly for six weeks, then maintenance.",
-    approval: "Not approved. Under rolling review in the United States.",
+    approval: "Not approved. A rolling application to the FDA was started in 2025; the company expects to complete it by the end of March 2027.",
     evidence: "BOND-003 Cohort C, a single-arm international phase 3 trial in 112 treated patients with BCG-unresponsive non-muscle-invasive bladder cancer with carcinoma in situ.",
     achieves: "Complete response at any time in 83 of 110 patients, 75 per cent (95% CI 66.3 to 83.2), at a median follow-up of 25.8 months. No grade 3 or 4 treatment-related adverse events. Single-arm, so no comparison with an alternative.",
     reach: "local",

@@ -112,9 +112,9 @@ export const parpSelectiveReview: EntityInput[] = [
     "name": "NMS-03305293",
     "modality": "Small-molecule PARP1 inhibitor",
     "status": "phase-2",
-    "asOf": "2026-10-06",
-    "tldr": "NMS-03305293 is an experimental pill being studied to block a DNA-repair enzyme in cancer cells.",
-    "summary": "PARP1-selective, brain-penetrant inhibitor, also called NMS-293. The linked registry records distinguish recruiting, closed, and discontinued studies; those states do not establish comparative efficacy or approval. The monotherapy study NCT04182516 stopped after 52 actual participants because the sponsor shifted towards combinations, explicitly not because of emerging safety or efficacy concerns. Combination studies include temozolomide and topotecan.",
+    "asOf": "2026-11-18",
+    "tldr": "NMS-03305293 is an experimental pill designed to block a DNA-repair enzyme in cancer cells. All four of its registered trials had closed by November 2026.",
+    "summary": "PARP1-selective, brain-penetrant inhibitor, also called NMS-293. All four registered studies are now listed as terminated (registry read on 18 November 2026); that does not establish comparative efficacy or approval, and none has posted results. The monotherapy study NCT04182516 stopped after 52 actual participants because the sponsor shifted towards combinations, explicitly not because of emerging safety or efficacy concerns. The combination studies have since closed too: with temozolomide in recurrent glioblastoma (NCT04910022, 80 participants, discontinued by the sponsor for reasons it says are not related to safety), with temozolomide in small cell lung cancer (NCT06931626, 5 participants) and with topotecan in ovarian cancer (NCT06930755, 1 participant); the sponsor calls the last two strategic decisions not based on the drug's safety or clinical data. No study of it is open.",
     "mechanism": "PARP1-selective, brain-penetrant inhibitor, also called NMS-293.",
     "targets": [
       "parp"
@@ -148,7 +148,8 @@ export const parpSelectiveReview: EntityInput[] = [
       }
     ],
     "aka": [
-      "NMS-293"
+      "NMS-293",
+      "itareparib"
     ],
     "cancers": [
       "sclc",

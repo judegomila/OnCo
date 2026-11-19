@@ -401,7 +401,7 @@ const spike: Spike = {
       "Triplet therapy (ADT + ARPI + docetaxel) for high-volume de novo disease, with OS HR ~0.7 (ARASENS, PEACE-1).",
       "Genotype-directed doublets: PARP inhibitor + ARPI for HRR-mutant (OS benefit in TALAPRO-2) and capivasertib + abiraterone for PTEN-deficient disease (2026).",
       "Diagnostic pathway rebuilt around MRI-first biopsy and PSMA PET staging; active surveillance is default for low-risk disease.",
-      "AI pathology (ArteraAI Prostate) is FDA-authorised to predict who benefits from adding hormone therapy to radiation.",
+      "AI pathology (ArteraAI Prostate) is FDA-authorised for prognosis; predicting who benefits from adding hormone therapy to radiation is offered as a laboratory test outside that authorisation.",
       "First immunotherapies with real activity: STEAP1 and KLK2 T-cell engagers in phase 3, after checkpoint inhibitors failed in unselected disease.",
     ],
     history: [

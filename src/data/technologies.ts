@@ -507,7 +507,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "digital-pathology-ai", dependsOn: ["whole-slide-scanners", "ai-compute-platforms"], kind: "technology", name: "Digital pathology & AI", sections: ["diagnostics", "ai-computation"], status: "established", asOf, wikipedia: W("Digital_pathology"),
     tldr: "Scanning microscope slides and letting software measure things a pathologist cannot see, including predictions of who will benefit from a treatment.",
-    summary: "Whole-slide imaging, scanning glass slides into gigapixel digital images, is now routine in large pathology laboratories. FDA-cleared tools: Paige Prostate (detection), ArteraAI Prostate (2025, first prognostic and predictive AI) and ArteraAI Breast (May 2026, risk stratification in early HR+/HER2- breast cancer). Foundation models (Virchow, UNI, CONCH, Prov-GigaPath) predict molecular status (MSI, HRD, HER2) from H&E alone.",
+    summary: "Whole-slide imaging, scanning glass slides into gigapixel digital images, is now routine in large pathology laboratories. FDA-cleared tools: Paige Prostate (detection), ArteraAI Prostate (de novo authorisation in 2025 for prognosis) and ArteraAI Breast (May 2026, risk stratification in early HR+/HER2- breast cancer). Foundation models (Virchow, UNI, CONCH, Prov-GigaPath) predict molecular status (MSI, HRD, HER2) from H&E alone.",
     principle: "Gigapixel whole-slide images; tile-level self-supervised encoders aggregated to slide-level predictions.",
     strengths: ["Cheap biomarker from routine slides", "Consistent scoring (Ki-67, TILs, HER2)"],
     limitations: ["Scanner and stain domain shift", "Explainability", "Regulatory pathways for updates"],

@@ -69,8 +69,12 @@ export const benchmark: Question[] = [
     "TROPION-Breast02: datopotamab deruxtecan vs chemotherapy in first-line PD-1/PD-L1-ineligible metastatic TNBC, OS 23.7 vs 18.7 months.",
     ["tropion-breast02", "datopotamab-deruxtecan"],
     [["tropion-breast02", "tropion breast02", "tropion-breast 02"], ["datopotamab", "dato-dxd", "datroway"], ["23.7"], ["18.7"]]),
-  Q("tnbc-07", "What is the first bispecific ADC to succeed in a phase 3 trial, and in which cancer?", "factual", 2, "analyst",
-    "Izalontamab brengitecan (iza-bren, BL-B01D1), an EGFR×HER3 bispecific ADC from SystImmune/BMS, met PFS and OS in previously treated TNBC (BL-B01D1-307, February 2026) and also in oesophageal squamous cell carcinoma.",
+  // Reworded 18 November 2026. The question used to ask for "the first bispecific ADC to succeed in a phase 3
+  // trial" and expected triple-negative breast cancer. The second accuracy pass found that false: by the maker's
+  // own count the breast trial was its third phase 3 success, after nasopharyngeal and oesophageal cancer. A
+  // question whose premise the corpus has corrected cannot be answered correctly, so it asks what is true.
+  Q("tnbc-07", "Which bispecific ADC has succeeded in phase 3 trials, and in which cancers?", "factual", 2, "analyst",
+    "Izalontamab brengitecan (iza-bren, BL-B01D1), an EGFR×HER3 bispecific ADC from SystImmune/BMS, met PFS and OS in previously treated TNBC (BL-B01D1-307, February 2026), after earlier phase 3 successes in nasopharyngeal carcinoma and oesophageal squamous cell carcinoma.",
     ["izalontamab-brengitecan", "bl-b01d1-307", "bispecific-adc"],
     [["izalontamab", "iza-bren", "bl-b01d1"], ["egfr"], ["her3"], ["triple-negative", "tnbc", "breast"], ["2026", "february"]]),
   Q("tnbc-08", "Why does trastuzumab deruxtecan work in 'HER2-low' breast cancers that older HER2 drugs ignored?", "reasoning", 2, "clinician",
@@ -149,10 +153,14 @@ export const benchmark: Question[] = [
     "Alpha particles (actinium-225) deposit far more energy over 50-100 µm, causing clustered double-strand breaks independent of oxygen and cell cycle, so beta-resistant, hypoxic, or small-volume disease can still be killed; retrospective series show PSA responses in about half after 177Lu failure. Supply of Ac-225 and salivary toxicity are the limits.",
     ["beta-then-alpha", "targeted-alpha-therapy", "ac225-psma", "alpha-vs-beta"],
     [["alpha"], ["actinium", "225ac", "ac-225"], ["double-strand", "energy", "let", "clustered"], ["supply", "salivary", "xerostomia", "toxicity"]]),
-  Q("prostate-26", "What is the first FDA-cleared AI pathology tool that predicts treatment benefit, and in which cancer?", "factual", 2, "analyst",
-    "ArteraAI Prostate (de novo authorisation, July 2025) predicts prognosis and benefit from short-term androgen deprivation with radiotherapy in localised prostate cancer.",
+  // Reworded 18 November 2026. The question used to call this "the first FDA-cleared AI pathology tool that
+  // predicts treatment benefit". The second accuracy pass read the FDA decision (DEN240068, 31 July 2025): it
+  // covers prognosis only, and predicting benefit from hormone therapy is not in the indication. The question and
+  // the third rubric point now ask for what the authorisation says.
+  Q("prostate-26", "Which AI pathology tool has FDA de novo authorisation for cancer prognosis, and in which cancer?", "factual", 2, "analyst",
+    "ArteraAI Prostate (de novo authorisation, July 2025) gives 10-year risks of distant metastasis and of death from prostate cancer in non-metastatic disease. Predicting benefit from hormone therapy is offered as a laboratory-developed test and is not part of the FDA indication.",
     ["artera-ai-prostate", "digital-pathology-ai"],
-    [["artera"], ["prostate"], ["androgen deprivation", "adt", "hormone"], ["2025"]]),
+    [["artera"], ["prostate"], ["prognos", "metastasis"], ["2025"]]),
   Q("bladder-27", "What regimen replaced platinum chemotherapy as first-line treatment for advanced bladder cancer, and how big was the effect?", "factual", 2, "clinician",
     "Enfortumab vedotin plus pembrolizumab (EV-302): OS 31.5 vs 16.1 months, HR 0.47.",
     ["enfortumab-vedotin", "ev-302", "urothelial"],

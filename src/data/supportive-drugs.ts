@@ -77,5 +77,5 @@ export const SUPPORTIVE_NOT_FLAGGED: Record<string, string> = {
   emapalumab: "treats haemophagocytic lymphohistiocytosis", ravulizumab: "treats paroxysmal nocturnal haemoglobinuria", "propranolol-hemangeol": "treats infantile haemangioma",
   mavorixafor: "treats WHIM syndrome, an inherited immunodeficiency, not a cancer toxicity", raloxifene: "chemoprevention of breast cancer; the osteoporosis label is the setting",
   cyproterone: "the UK Cyprostat label includes long-term palliative treatment of prostate cancer beside flare suppression and hot flushes",
-  sirolimus: "an immunosuppressant: its only approval is prophylaxis of kidney transplant rejection, which the rule reads as prophylaxis but which is not a cancer toxicity. It is in the corpus because switching to it lowers the risk of the next cutaneous squamous cell carcinoma (TUMORAPA), which is chemoprevention rather than supportive care",
+  sirolimus: "an immunosuppressant: its US approvals are prophylaxis of kidney transplant rejection and, since 2015, lymphangioleiomyomatosis; the rule reads the first as prophylaxis, but it is not a cancer toxicity. It is in the corpus because switching to it lowers the risk of the next cutaneous squamous cell carcinoma (TUMORAPA), which is chemoprevention rather than supportive care",
 };

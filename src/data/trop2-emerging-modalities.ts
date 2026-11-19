@@ -102,7 +102,7 @@ export const trop2EmergingModalities: EntityInput[] = [
     "kind": "drug",
     "modality": "ADC",
     "status": "phase-1",
-    "asOf": "2026-10-06",
+    "asOf": "2026-11-18",
     "payload": "Exatecan (TOP1 inhibitor)",
     "mechanism": "TROP2-directed monoclonal antibody-drug conjugate delivering exatecan.",
     "tldr": "BAT8008 is an experimental antibody-drug conjugate being studied in people with advanced cancer. Its benefit and safety are still being evaluated.",

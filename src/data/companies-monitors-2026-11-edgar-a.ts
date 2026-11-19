@@ -73,10 +73,10 @@ export const monitorsEdgarA: Array<CompanyInput | DrugInput> = [
     links: [{ label: "SEC: Aptevo Therapeutics Form S-1, August 2026", url: F.aptevo }] }),
   d({ id: "alg-apv-527", name: "ALG.APV-527", code: "ALG.APV-527", modality: "Bispecific antibody (4-1BB x 5T4)",
     mechanism: "Binds the co-stimulatory receptor 4-1BB on T cells and the tumour antigen 5T4, designed to reactivate antigen-primed T cells at the tumour, as described by Aptevo Therapeutics.",
-    tldr: "ALG.APV-527 is an antibody-like protein from Aptevo Therapeutics that switches on immune cells only where it finds a marker on tumour cells. It is being tested in several kinds of solid tumour.",
-    summary: "ALG.APV-527 is a 4-1BB x 5T4 bispecific candidate built on Aptevo Therapeutics' ADAPTIR platform. Aptevo's August 2026 filing states that it is designed to reactivate antigen-primed T cells to kill tumour cells and is being evaluated clinically in multiple solid tumour types; the filing does not state the phase.",
+    tldr: "ALG.APV-527 is an antibody-like protein from Aptevo Therapeutics that switches on immune cells only where it finds a marker on tumour cells. It has been tested in a phase 1 trial in several kinds of solid tumour, which Aptevo says is fully enrolled.",
+    summary: "ALG.APV-527 is a 4-1BB x 5T4 bispecific candidate built on Aptevo Therapeutics' ADAPTIR platform. Aptevo's August 2026 filing states that it is designed to reactivate antigen-primed T cells to kill tumour cells and is being evaluated clinically in multiple solid tumour types; the filing does not state the phase. Aptevo's pipeline page, read on 18 November 2026, describes a fully enrolled phase 1 dose-escalation trial (NCT05934539) and says the candidate is co-developed with Alligator Bioscience; the registry record has not been updated since July 2023.",
     targets: ["cd137"], cancers: [], companies: ["aptevo-therapeutics"], technologies: ["bispecific-antibody"],
-    links: [{ label: "SEC: Aptevo Therapeutics Form S-1, August 2026", url: F.aptevo }] }),
+    links: [{ label: "SEC: Aptevo Therapeutics Form S-1, August 2026", url: F.aptevo }, { label: "Aptevo: ALG.APV-527 pipeline page", url: "https://aptevotherapeutics.com/pipeline/alg-apv-527/" }, { label: "ClinicalTrials.gov: NCT05934539", url: "https://clinicaltrials.gov/study/NCT05934539" }] }),
 
   // Silexion Therapeutics
   s({ id: "silexion-therapeutics", name: "Silexion Therapeutics", aka: ["Silexion Therapeutics Corp", "Silexion Therapeutics Ltd."], hq: "Ramat Gan", country: "IL", companyType: "biotech", stage: "public", ticker: "SLXN", website: "https://www.silexion.com/",
@@ -200,7 +200,7 @@ export const monitorsEdgarA: Array<CompanyInput | DrugInput> = [
   d({ id: "tpst-2003", name: "TPST-2003", code: "TPST-2003", modality: "Autologous CAR-T (dual CD19 and BCMA)",
     mechanism: "An autologous T cell therapy carrying a dual-targeting CD19 and BCMA chimeric antigen receptor, as described by Tempest Therapeutics.",
     tldr: "TPST-2003 is a CAR-T cell treatment, made from a patient's own immune cells, from Tempest Therapeutics. It targets two markers and is being tested in multiple myeloma that has come back.",
-    summary: "TPST-2003 is an autologous CD19 and BCMA CAR-T therapy whose rights Tempest Therapeutics acquired in February 2026. Tempest describes it as in clinical development for relapsed or refractory multiple myeloma and for POEMS syndrome, a rare plasma cell disorder; the filing does not state the phase.",
+    summary: "TPST-2003 is an autologous CD19 and BCMA CAR-T therapy whose rights Tempest Therapeutics acquired in February 2026. Tempest's pipeline page, read on 18 November 2026, says it is being developed in China by its partner Novatim Immune Therapeutics and that Tempest holds the exclusive right to develop it outside China, India, Turkey and Russia. Tempest describes it as in clinical development for relapsed or refractory multiple myeloma and for POEMS syndrome, a rare plasma cell disorder; the filing does not state the phase.",
     targets: ["cd19", "bcma"], cancers: [], companies: ["tempest-therapeutics"], technologies: ["car-t"],
     links: [{ label: "SEC: Tempest Therapeutics Form S-1, August 2026", url: F.tempest }] }),
 

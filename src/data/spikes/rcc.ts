@@ -121,8 +121,8 @@ const trials: TrialInput[] = [
 
 const drugs: DrugInput[] = [
   d(supplement<DrugInput>({ id: "sunitinib", kind: "drug",
-    approvals: [{ region: "US", year: 2017, indication: "Adjuvant RCC at high risk (S-TRAC), little used" }],
-    notes: ["In kidney cancer: Motzer 2007 showed PFS 11 versus 5 months against interferon alfa and OS 26.4 versus 21.8 months, and sunitinib then served as the control arm of CheckMate 214, KEYNOTE-426, CheckMate 9ER and CLEAR; it is now mainly used in favourable-risk disease, where immunotherapy doublets show no OS gain, and in GIST, and has been generic since 2021. Resistance runs through alternative angiogenic pathways (FGF, MET, AXL)."],
+    approvals: [{ region: "US", year: 2017, indication: "Adjuvant treatment of adults at high risk of recurrent RCC after nephrectomy (S-TRAC)" }],
+    notes: ["In kidney cancer: Motzer 2007 showed PFS 11 versus 5 months against interferon alfa, and the 2009 update gave OS 26.4 versus 21.8 months (HR 0.82, P = 0.051 on the primary log-rank test); sunitinib then served as the control arm of CheckMate 214, KEYNOTE-426, CheckMate 9ER and CLEAR. It remains an option in favourable-risk disease, where the overall survival difference with nivolumab plus ipilimumab was not statistically significant in the final CheckMate 214 analysis (HR 0.80, 95% CI 0.59 to 1.09), and in GIST, and has been generic in the US since 2021. Resistance runs through alternative angiogenic pathways (FGF, MET, AXL)."],
     cancers: ["rcc"], trials: ["checkmate-214", "keynote-426", "checkmate-9er", "clear"] })),
   d({ id: "axitinib", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Axitinib" }], name: "Axitinib", brand: "Inlyta", modality: "Small-molecule kinase inhibitor (VEGFR)", status: "approved", wikipedia: W("Axitinib"),
     tldr: "Axitinib is a selective VEGF-receptor pill, now given mainly with pembrolizumab or avelumab as first-line kidney cancer treatment.",

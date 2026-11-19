@@ -203,6 +203,7 @@ import { redCellAndPlateletTransfusionThresholds } from "./red-cell-and-platelet
 import { renalDoseAdjustmentOfAnticancerDrugs } from "./renal-dose-adjustment-of-anticancer-drugs";
 import { respectAndDnacprDecisions } from "./respect-and-dnacpr-decisions";
 import { respiratoryMotionManagement4dCtAndGating } from "./respiratory-motion-management-4d-ct-and-gating";
+import { retinalAndEyeEffectsOnFgfrMekAndAlkInhibitors } from "./retinal-and-eye-effects-on-fgfr-mek-and-alk-inhibitors";
 import { routinePreoperativeTests } from "./routine-preoperative-tests";
 import { sactAdministrationChecksAtTheChair } from "./sact-administration-checks-at-the-chair";
 import { sactPrescribingAndPharmacyVerification } from "./sact-prescribing-and-pharmacy-verification";
@@ -443,6 +444,7 @@ export const protocols: ProtocolInput[] = [
   renalDoseAdjustmentOfAnticancerDrugs,
   respectAndDnacprDecisions,
   respiratoryMotionManagement4dCtAndGating,
+  retinalAndEyeEffectsOnFgfrMekAndAlkInhibitors,
   routinePreoperativeTests,
   sactAdministrationChecksAtTheChair,
   sactPrescribingAndPharmacyVerification,

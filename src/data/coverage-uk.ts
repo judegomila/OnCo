@@ -317,7 +317,7 @@ const list: UkCoverage[] = [
   opt("mogamulizumab", "mogamulizumab", 754, 2021, "Sézary syndrome after at least 1 systemic treatment; mycosis fungoides stage 2B or above after at least 2 systemic treatments", { note: "Published 15 December 2021 with a commercial arrangement; the mycosis fungoides recommendation is narrower than the licence. The adult T-cell leukaemia-lymphoma appraisal (ID1390) was discontinued." }),
   notUk("belinostat", "belinostat"),
   notUk("pralatrexate", "pralatrexate"),
-  notUk("romidepsin", "romidepsin", "EU licence for PTCL withdrawn; no UK licence."),
+  notUk("romidepsin", "romidepsin", "EU marketing authorisation for PTCL refused in 2013; no UK licence."),
   term("tagraxofusp", "tagraxofusp", 782, 2022, "Blastic plasmacytoid dendritic cell neoplasm", { note: "Terminated 30 March 2022: Stemline Therapeutics made no evidence submission. MHRA-licensed (Elzonris, PLGB 53425/0001) but not routinely funded." }),
   rec("belumosudil", "belumosudil", 949, 2024, "Chronic graft-versus-host disease after 2 or more systemic treatments in people aged 12 and over", { note: "Published 7 February 2024 with a commercial arrangement." }),
 
@@ -359,7 +359,7 @@ const list: UkCoverage[] = [
   rec("ripretinib", "ripretinib", 1146, 2026, "Advanced GIST after 3 or more kinase inhibitors including imatinib", { note: "Published 28 April 2026 with a commercial arrangement, replacing TA881 (May 2023)." }),
   rec("avapritinib", "avapritinib", 1012, 2024, "Advanced systemic mastocytosis (aggressive SM, SM with an associated haematological neoplasm, mast cell leukaemia)", { note: "Published 6 November 2024 with a commercial arrangement. The GIST appraisal (TA730, September 2021) was terminated after Blueprint Medicines withdrew, saying it would not launch avapritinib in the UK for that indication. Indolent systemic mastocytosis (ID6578) is in development." }),
   notUk("nirogacestat", "nirogacestat", "EU-licensed 2025 for desmoid tumours; UK licence and NICE position not yet researched."),
-  notUk("pexidartinib", "pexidartinib", "EU marketing authorisation application withdrawn 2020; no UK licence."),
+  notUk("pexidartinib", "pexidartinib", "EU marketing authorisation refused in 2020; no UK licence."),
   notUk("vimseltinib", "vimseltinib"),
   rec("dinutuximab", "dinutuximab beta", 538, 2018, "High-risk neuroblastoma after induction, high-dose chemotherapy and stem cell transplant, or relapsed/refractory", { note: "Dinutuximab (Unituxin) is US-only; dinutuximab beta (Qarziba) is the UK product.", smc: "accepted" }),
   notUk("naxitamab", "naxitamab"),

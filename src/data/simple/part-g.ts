@@ -141,7 +141,7 @@ export const simpleG: Record<string, string> = {
   avapritinib: "Avapritinib is the first drug for GIST driven by the PDGFRA D842V mutation, which resists every other kinase blocker, and is also approved for systemic mastocytosis.",
   nirogacestat: "Nirogacestat is the first approved medicine for desmoid tumours, locally invasive growths that do not spread but can be crippling; it works by blocking Notch signalling.",
   vimseltinib: "Vimseltinib is a pill approved in 2025 for tenosynovial giant cell tumour, a benign but destructive joint tumour, offering an alternative to repeated surgery.",
-  "letetresgene-autoleucel": "Letetresgene autoleucel is an engineered T-cell receptor therapy for sarcoma, targeting NY-ESO-1 in synovial sarcoma and myxoid liposarcoma, with a filing expected by end of 2026.",
+  "letetresgene-autoleucel": "Letetresgene autoleucel is an engineered T-cell receptor therapy for sarcoma, targeting NY-ESO-1 in synovial sarcoma and myxoid liposarcoma; not yet approved in November 2026.",
   dinutuximab: "Dinutuximab is the anti-GD2 antibody that raised survival in high-risk childhood neuroblastoma when given after transplant with immune boosters and a retinoid.",
   naxitamab: "Naxitamab is a humanised anti-GD2 antibody from Memorial Sloan Kettering, given as an outpatient with GM-CSF for relapsed neuroblastoma in bone or marrow.",
   eflornithine: "Eflornithine is an old sleeping-sickness drug repurposed as the first oral maintenance therapy for high-risk neuroblastoma, approved in 2023 to reduce relapse after immunotherapy.",

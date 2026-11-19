@@ -1,13 +1,15 @@
 import { describe, expect, it } from "vitest";
-import { approvalPeriod, approvedThen, namedLookup, retrieveIds } from "./ask";
+import { approvalPeriod, approvedFirst, approvedThen, namedLookup, retrieveIds } from "./ask";
 import { approvalDates, decodeAskIndex, encodeAskIndex, type AskIndex } from "./ask-index";
 import { extrasFor } from "./ask-index-build";
 import { graph } from "./graph";
 
 /**
- * Ask's retrieval for "what was approved, where, when": the products among the hits whose typed records carry an
- * approval in the period and region asked about come ahead of records that only share the question's words
- * (ask.ts approvalPeriod, approvedThen; ask-index.ts approvalDates).
+ * Ask's retrieval for questions about something approved, checked against typed approval data rather than words.
+ * "What was approved, where, when": the products among the hits whose records carry an approval in the period and
+ * region asked about come ahead of records that only share the question's words (ask.ts approvalPeriod, approvedThen;
+ * ask-index.ts approvalDates). "The first approved X": approved medicines take the medicines' places ahead of
+ * medicines approved nowhere (ask.ts approvedFirst).
  */
 describe("approvalPeriod: the period and place a question asks approvals for", () => {
   it("reads a month and year, a year alone, and the region", () => {
@@ -97,6 +99,56 @@ describe("retrieveIds: products approved in the period asked about come first", 
   });
 });
 
+describe("approvedFirst: approved medicines ahead of medicines approved nowhere", () => {
+  const lookup = namedLookup([
+    { id: "pipeline-til", kind: "drug", name: "Pipeline TIL", aka: "Pipelinetil", status: "phase-2" },
+    { id: "approved-til", kind: "drug", name: "Approved TIL", status: "approved", approved: ["2024-02-16 US"] },
+    // No status on the record, but an approval row: approved somewhere.
+    { id: "row-only", kind: "drug", name: "Row only", approved: ["2023 CN"] },
+    { id: "preclinical", kind: "drug", name: "Preclinical", status: "preclinical" },
+    { id: "uncleared-test", kind: "drug", name: "Uncleared test", status: "emerging", cls: "test" },
+    { id: "cleared-test", kind: "drug", name: "Cleared test", status: "approved", cls: "test", approved: ["2017 US"] },
+    { id: "a-term", kind: "term", name: "TIL therapy" },
+    { id: "a-person", kind: "person", name: "A person" },
+  ]);
+  const found = ["a-term", "pipeline-til", "a-person", "uncleared-test", "preclinical", "approved-til", "cleared-test", "row-only"];
+  const q = "What is the first approved TIL therapy and how well does it work?";
+
+  it("reorders only the places medicines hold; other records and tests stay where they were", () => {
+    expect(approvedFirst(q, found, lookup)).toEqual(["a-term", "approved-til", "a-person", "uncleared-test", "row-only", "pipeline-til", "cleared-test", "preclinical"]);
+  });
+
+  it("matches the whole word and leaves questions about what is not approved, or not yet, alone", () => {
+    for (const other of [
+      "Which TIL therapies are unapproved?", "Which TIL therapy is closest to approval?", "Which TIL therapy is awaiting approval?",
+      "Which TIL therapies are not approved?", "Which TIL therapies aren't approved?", "Which TIL therapy is not yet approved?",
+      "Which TIL therapy is expected to be approved next year?", "Which TIL therapy could be approved first?", "Which approved TIL therapy was withdrawn?",
+      "Which preapproved TIL therapies exist?", "How does TIL therapy work?",
+    ]) expect(approvedFirst(other, found, lookup), other).toEqual(found);
+  });
+
+  it("moves an approved medicine into the list retrieval returns, and adds none the searches did not find", () => {
+    const hits = (...ids: string[]) => ids.map((id) => ({ id }));
+    const after = retrieveIds(hits("a-term", "pipeline-til", "x"), hits("a-person", "y", "z", "approved-til"), 3, { question: q, lookup });
+    expect(retrieveIds(hits("a-term", "pipeline-til", "x"), hits("a-person", "y", "z", "approved-til"), 3)).toEqual(["a-person", "a-term", "pipeline-til"]);
+    expect(after).toEqual(["a-person", "a-term", "approved-til"]);
+  });
+
+  it("gives way to a medicine the question names", () => {
+    const hits = (...ids: string[]) => ids.map((id) => ({ id }));
+    expect(retrieveIds(hits("a-term", "pipeline-til"), hits("a-person", "approved-til"), 2, { question: "Is Pipelinetil approved?", lookup })).toEqual(["pipeline-til", "a-person"]);
+  });
+
+  it("reads the corpus: lifileucel is approved and a medicine, GC101 TIL is not approved, and a test carries its class into the Ask index", () => {
+    const g = graph();
+    expect(g.must("lifileucel").status).toBe("approved");
+    expect(g.must("gc101-til").status).not.toBe("approved");
+    expect(extrasFor(g.must("gc101-til")).approved).toBeUndefined();
+    expect(extrasFor(g.must("lifileucel")).cls).toBeUndefined();
+    expect(extrasFor(g.must("oncomine-dx-target-test")).cls).toBe("test");
+  });
+});
+
 describe("approvalDates: what the indexes carry for a product", () => {
   it("keeps approval events with their dates, and a year row only where no dated event covers it", () => {
     expect(approvalDates({
@@ -118,7 +170,9 @@ describe("approvalDates: what the indexes carry for a product", () => {
   });
 
   it("survives the Ask index wire format", () => {
-    const index: AskIndex = { version: 1, entries: [{ id: "selpercatinib", kind: "drug", name: "Selpercatinib", aliases: ["Retevmo"], route: "/drugs/selpercatinib/", approved: ["2026-07-14 US"] }], pairs: [] };
-    expect(decodeAskIndex(JSON.parse(JSON.stringify(encodeAskIndex(index)))).entries[0].approved).toEqual(["2026-07-14 US"]);
+    const index: AskIndex = { version: 1, entries: [{ id: "selpercatinib", kind: "drug", name: "Selpercatinib", aliases: ["Retevmo"], route: "/drugs/selpercatinib/", approved: ["2026-07-14 US"], cls: "test" }], pairs: [] };
+    const back = decodeAskIndex(JSON.parse(JSON.stringify(encodeAskIndex(index)))).entries[0];
+    expect(back.approved).toEqual(["2026-07-14 US"]);
+    expect(back.cls).toBe("test");
   });
 });

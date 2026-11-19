@@ -18,7 +18,7 @@ import type { Region } from "./region-meta";
  * product is approved in (from its approvals and the regional table), so "what did India approve for CAR-T"
  * can be answered from the index plus a handful of record fetches.
  */
-export type AskIndexExtra = { grade?: string; batch?: string; regions?: string[]; /** Dated approvals, "<date> <region>" (approvalDates), for questions that ask what was approved when. */ approved?: string[] };
+export type AskIndexExtra = { grade?: string; batch?: string; regions?: string[]; /** Dated approvals, "<date> <region>" (approvalDates), for questions that ask what was approved when. */ approved?: string[]; /** A product that is not a medicine: a test, a device or an imaging agent (product-class.ts nonMedicineClass). */ cls?: string };
 
 /** `tldr` is present server-side (harness, scripts); the browser index omits it to stay small and fetches records for text. */
 export type AskIndexEntry = AskIndexExtra & { id: string; kind: Kind; name: string; aliases: string[]; route: string; tldr?: string; status?: string };
@@ -35,6 +35,7 @@ function extraOf(e: AskIndexEntry): AskIndexExtra | undefined {
   if (e.batch) x.batch = e.batch;
   if (e.regions?.length) x.regions = e.regions;
   if (e.approved?.length) x.approved = e.approved;
+  if (e.cls) x.cls = e.cls;
   return Object.keys(x).length ? x : undefined;
 }
 

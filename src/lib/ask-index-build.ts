@@ -12,6 +12,7 @@ import { buildMatcher, findMatches } from "./entity-matcher";
 import { approvalDates, deriveAliases, regionCode, shortTldr, type AskIndex, type AskIndexEntry, type AskIndexExtra, type AskPair } from "./ask-index";
 import { ASK_ALIASES } from "./ask-lexicon";
 import { gradeFromTags } from "./complementary";
+import { nonMedicineClass } from "./product-class";
 import { COMPLEMENTARY_INDEX } from "@/data/complementary";
 import { approvedRegions, regionalApprovals } from "@/data/regional-approvals";
 
@@ -31,6 +32,8 @@ export function extrasFor(e: Entity): AskIndexExtra {
     if (regions.size) x.regions = [...regions];
     const approved = approvalDates(e);
     if (approved.length) x.approved = approved;
+    const cls = nonMedicineClass(e);
+    if (cls) x.cls = cls;
   }
   return x;
 }

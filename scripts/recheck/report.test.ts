@@ -44,6 +44,7 @@ describe("the report", () => {
     expect(json.checks[0]).toMatchObject({ kind: "trials", counts: { enrolment: 130 }, requests: 65, durationSeconds: 50 });
     expect(json.checks[0].findings).toHaveLength(130);
     expect(json.checks[1].findings[0]).toMatchObject({ type: "indication-withdrawn", recordId: "lurbinectedin", url: finding().url, date: "2026-09-30" });
+    expect((json.checks[1] as unknown as { blocked: unknown }).blocked).toEqual({ addresses: 1, hosts: [{ host: "fda.gov", addresses: 1, reason: "refused (403)" }] });
   });
 
   it("summarises the counts for the pull request", () => {

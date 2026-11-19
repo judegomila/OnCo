@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { SLICES, linkFindings, movedTo, probe, probeAll, sliceOf, verdict, weeklySlice } from "./links";
-import { fakeNet } from "./test-helpers";
+import { Net } from "./lib";
+import { fakeFetch, fakeNet } from "./test-helpers";
 
 describe("the weekly slice", () => {
   const urls = Array.from({ length: 2000 }, (_, i) => `https://host${i % 37}.example/paper/${i}`);
@@ -79,6 +80,17 @@ describe("linkFindings", () => {
 });
 
 describe("probeAll", () => {
+  it("stands back from a host that says too many requests before asking it again", async () => {
+    let clock = 0;
+    const slept: number[] = [];
+    let n = 0;
+    const f = fakeFetch(() => (++n === 1 ? new Response(null, { status: 429 }) : new Response(null, { status: 200 })));
+    const net = new Net({ fetchImpl: f.impl, perHostDelayMs: 1000, now: () => clock, sleep: async (ms) => { slept.push(ms); clock += ms; } });
+    const out = await probeAll(net, ["https://busy.example/1", "https://busy.example/2"], { restMs: 30_000 });
+    expect(slept).toEqual([30_000]);
+    expect(out.map((r) => verdict(r.url, r.probe))).toEqual(["blocked", "ok"]);
+  });
+
   it("leaves a host alone after it has refused five requests running", async () => {
     const urls = Array.from({ length: 12 }, (_, i) => `https://walled.example/${i}`).concat(["https://open.example/1"]);
     const { net, calls } = fakeNet((url) => (url.includes("walled") ? new Response(null, { status: 403 }) : new Response(null, { status: 200 })));

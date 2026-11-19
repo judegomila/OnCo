@@ -36,6 +36,10 @@ Only generated data, through the generators that already own it:
 - `src/data/trial-registry-status.ts`, by `scripts/fetch-registry-status.ts`, from the run's own registry reading.
   That script's rules stand: a result status (positive, negative, mixed) is never replaced, and an editor's "historic"
   label is kept.
+  A change is held back when the record's own words would then contradict the status: a TL;DR, plain-language
+  sentence or Chinese TL;DR that ends "now recruiting" beside a status of completed fails
+  `src/data/trial-status-text.test.ts`, and rewriting a sentence is not a mechanical update. A held trial keeps the
+  status it had and is listed in the report with the words in question, so the two can be corrected together.
 - `src/data/trial-participation.ts`, by `scripts/refresh-trial-participation.ts --stale-updated`: studies whose status
   differs, or that the registry has updated since they were read. A linked study a record only cites is not attached
   to it (`ownRegistryIds`), and the script stops if one registration is attached to two records that
@@ -56,6 +60,8 @@ It does not say which is right: a person or an agent reads the source and decide
 
 The rows most worth reading first:
 
+- status changes that were held back, and one registration carried by two records, because both stop an update
+  that would otherwise have been made;
 - trials that moved to completed, terminated or withdrawn, or posted results, since the record was last checked. The
   generator corrects the status; the sentence that says "recruiting" or "results are awaited" is still on the page,
   and the row quotes the words;
@@ -72,7 +78,9 @@ read against it in the same change.
 
 - **A blocked source is reported as blocked.** A 401, 403 or 429, a bot-challenge page or a challenge header is
   recorded and left alone. Nothing is retried with different headers, and a refusal is never counted as a dead link
-  or a change. A host that refuses five requests in a row is not asked again in that run. `www.fda.gov` has turned
+  or a change. A host that answers "too many requests" is given thirty seconds before its next address, and a host
+  that refuses five requests in a row is not asked again in that run. On the first run PubMed answered 208 addresses
+  and then rate-limited the rest of its 1,300, so most PubMed links in a slice go unchecked. `www.fda.gov` has turned
   plain scripts away before; when it does, the US check says the page refused the request and compares nothing.
 - **Polite by construction.** One request at a time per host with a pause between (0.6 to 1.5 seconds by source), a
   handful of hosts at once, HEAD before GET, and a user agent that names the project. A DOI is checked at doi.org and

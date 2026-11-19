@@ -79,9 +79,10 @@ export function linkFindings(results: Array<{ url: string; probe: Probe }>, refs
 /**
  * Probe every address, a few hosts at a time. Each host's addresses are asked one after another by one worker, and
  * the hosts with the most addresses start first, so the run is as long as its largest host needs and no longer. A
- * host that refuses `giveUpAfter` requests running is left alone for the rest of the run.
+ * host that answers 429 is given `restMs` before its next address, and one that refuses `giveUpAfter` requests
+ * running is left alone for the rest of the run.
  */
-export async function probeAll(net: Net, urls: string[], opts: { concurrency?: number; giveUpAfter?: number; log?: (s: string) => void; label?: string } = {}): Promise<Array<{ url: string; probe: Probe }>> {
+export async function probeAll(net: Net, urls: string[], opts: { concurrency?: number; giveUpAfter?: number; restMs?: number; log?: (s: string) => void; label?: string } = {}): Promise<Array<{ url: string; probe: Probe }>> {
   const giveUp = opts.giveUpAfter ?? 5;
   const byHost = new Map<string, string[]>();
   for (const u of urls) byHost.set(hostOf(u), [...(byHost.get(hostOf(u)) ?? []), u]);
@@ -96,6 +97,8 @@ export async function probeAll(net: Net, urls: string[], opts: { concurrency?: n
       else {
         p = await probe(net, url);
         refusals = p.blocked ? refusals + 1 : 0;
+        // "Too many requests" is an instruction to slow down, so slow down before this host's next address.
+        if (p.status === 429) net.rest(url, opts.restMs ?? 30_000);
       }
       probes.set(url, p);
       if (++done % 500 === 0) opts.log?.(`  ${opts.label ?? "links"}: ${done}/${urls.length} (${net.requests} requests)`);

@@ -3,7 +3,7 @@
  * for an agent, and the short summary that becomes the pull request's description. Pure functions of the checkers'
  * results, so the three cannot disagree.
  */
-import { type CheckKind, type CheckResult, type Finding, type Severity, sortFindings } from "./lib";
+import { type Blocked, type CheckKind, type CheckResult, type Finding, type Severity, sortFindings } from "./lib";
 
 export type Report = { generated: string; results: CheckResult[] };
 
@@ -62,8 +62,20 @@ export function byType(findings: Finding[]): Array<[string, Finding[]]> {
 
 function summaryTable(results: CheckResult[]): string[] {
   const lines = ["| Check | Compared | Findings | High | Medium | Low | Blocked | Requests | Time |", "|---|---:|---:|---:|---:|---:|---:|---:|---:|"];
-  for (const r of results) lines.push(`| ${r.label} | ${r.checked.toLocaleString("en-GB")} | ${r.findings.length.toLocaleString("en-GB")} | ${count(r.findings, "high")} | ${count(r.findings, "medium")} | ${count(r.findings, "low")} | ${r.blocked.length} | ${r.requests.toLocaleString("en-GB")} | ${seconds(r.durationMs)} |`);
+  for (const r of results) lines.push(`| ${r.label} | ${r.checked.toLocaleString("en-GB")} | ${r.findings.length.toLocaleString("en-GB")} | ${count(r.findings, "high")} | ${count(r.findings, "medium")} | ${count(r.findings, "low")} | ${r.blocked.length.toLocaleString("en-GB")} | ${r.requests.toLocaleString("en-GB")} | ${seconds(r.durationMs)} |`);
   return lines;
+}
+
+/** Refusals by host, most first: a run can be refused at a thousand addresses of one host, and the host is what matters. */
+export function blockedHosts(blocked: Blocked[]): Array<{ host: string; addresses: number; reason: string }> {
+  const m = new Map<string, { host: string; addresses: number; reason: string }>();
+  for (const b of blocked) {
+    const host = b.url.replace(/^https?:\/\/(www\.)?/, "").split(/[/?#]/)[0];
+    const e = m.get(host);
+    // The first refusal is the host's own answer; later ones may be this run declining to ask again.
+    if (e) e.addresses++; else m.set(host, { host, addresses: 1, reason: b.reason });
+  }
+  return [...m.values()].sort((a, b) => b.addresses - a.addresses || a.host.localeCompare(b.host));
 }
 
 /** The report as a person reads it. Each rule's table is cut at `maxRows`; the JSON beside it holds every row. */
@@ -82,7 +94,7 @@ export function reportMarkdown(report: Report, opts: { maxRows?: number } = {}):
   ];
   const mech = report.results.flatMap((r) => r.mechanical.map((m) => `- ${r.label}: ${m}`));
   L.push(...(mech.length ? mech : ["- Nothing."]), "");
-  const blocked = report.results.flatMap((r) => r.blocked.map((b) => ({ ...b, label: r.label })));
+  const blocked = report.results.flatMap((r) => r.blocked);
   const errors = report.results.flatMap((r) => r.errors.map((e) => `- ${r.label}: ${e}`));
   if (errors.length) L.push("## Not completed", "", ...errors, "");
   report.results.forEach((r, i) => {
@@ -98,11 +110,10 @@ export function reportMarkdown(report: Report, opts: { maxRows?: number } = {}):
   });
   if (blocked.length) {
     L.push("## Blocked sources", "", "These refused the request (a 401, 403 or 429, or a bot-challenge page). Nothing was done to get round a refusal, and a refusal is not counted as a dead link or a change.", "");
-    const hosts = new Map<string, { n: number; label: string; reason: string; example: string }>();
-    for (const b of blocked) { const h = `${b.label}|${b.url.replace(/^https?:\/\/(www\.)?/, "").split(/[/?#]/)[0]}`; const e = hosts.get(h); if (e) e.n++; else hosts.set(h, { n: 1, label: b.label, reason: b.reason, example: b.url }); }
+    const rows = report.results.flatMap((r) => blockedHosts(r.blocked).map((h) => ({ ...h, label: r.label }))).sort((a, b) => b.addresses - a.addresses);
     L.push("| Check | Host | Addresses | Reason |", "|---|---|---:|---|");
-    for (const [h, e] of [...hosts].sort((a, b) => b[1].n - a[1].n).slice(0, 60)) L.push(`| ${e.label} | ${h.split("|")[1]} | ${e.n} | ${cell(e.reason)} |`);
-    if (hosts.size > 60) L.push("", `${hosts.size - 60} more hosts are in the JSON file.`);
+    for (const h of rows.slice(0, 60)) L.push(`| ${h.label} | ${h.host} | ${h.addresses.toLocaleString("en-GB")} | ${cell(h.reason)} |`);
+    if (rows.length > 60) L.push("", `${rows.length - 60} more hosts are in the JSON file.`);
     L.push("");
   }
   return `${L.join("\n").trimEnd()}\n`;
@@ -117,7 +128,7 @@ export function reportJson(report: Report): unknown {
     checks: report.results.map((r) => ({
       kind: r.kind, label: r.label, checked: r.checked, requests: r.requests, durationSeconds: Math.round(r.durationMs / 1000),
       counts: Object.fromEntries(byType(r.findings).map(([t, rows]) => [t, rows.length])),
-      mechanical: r.mechanical, notes: r.notes, errors: r.errors, blocked: r.blocked,
+      mechanical: r.mechanical, notes: r.notes, errors: r.errors, blocked: { addresses: r.blocked.length, hosts: blockedHosts(r.blocked) },
       findings: sortFindings(r.findings).map((f) => ({ type: f.type, severity: f.severity, recordId: f.recordId, recordKind: f.recordKind, onco: f.onco, source: f.source, url: f.url, date: f.date, note: f.note })),
     })),
   };
@@ -133,7 +144,7 @@ export function prSummary(report: Report): string {
   if (!report.results.some((r) => r.findings.length)) L.push("- Nothing.");
   const errors = report.results.flatMap((r) => r.errors.map((e) => `- ${r.label}: ${e}`));
   if (errors.length) L.push("", "**Not completed:**", "", ...errors);
-  const blocked = report.results.filter((r) => r.blocked.length).map((r) => `${r.label} ${r.blocked.length}`);
+  const blocked = report.results.filter((r) => r.blocked.length).map((r) => `${r.label} ${r.blocked.length.toLocaleString("en-GB")}`);
   if (blocked.length) L.push("", `Sources that refused the request, left alone: ${blocked.join("; ")}.`);
   L.push("", "The rows are in `docs/proposals/weekly-recheck-latest.md`, and as JSON beside it.");
   return `${L.join("\n")}\n`;

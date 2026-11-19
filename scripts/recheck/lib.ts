@@ -150,6 +150,9 @@ export class Net {
     } finally { done(); }
   }
 
+  /** Stand back from a host that has said "too many requests": its next request waits at least this long. Nothing is waited in a replay. */
+  rest(url: string, ms: number): void { if (!this.replay) this.last.set(hostOf(url), this.now() + ms - this.delay); }
+
   /** Record that a source refused, once per address. The caller decides: a HEAD refused and a GET answered is not a refusal. */
   noteBlocked(url: string, reason: string): void { if (!this.blocked.some((b) => b.url === url)) this.blocked.push({ url, reason }); }
 

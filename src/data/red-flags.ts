@@ -165,13 +165,64 @@ const EMA_LUNSUMIO_RF = emaLeaflet("Lunsumio", "mosunetuzumab");
 const EMA_TEPKINLY_RF = emaLeaflet("Tepkinly", "epcoritamab");
 const DM_REVLIMID_RF = dailymedLeaflet("Revlimid", "lenalidomide", "Medication Guide", "5fa97bf5-28a2-48f1-8955-f56012d296be");
 
+// ---- Second round of drug-scoped lines, added 18 November 2026, for fourteen care protocols written that day.
+// Each quotation was checked by script against text saved from the URL cited (whitespace joined, nothing else
+// changed). "Medication Guide" or "patient information" is whichever the US label itself calls its patient part.
+const CRUK_BCG_RF = { label: "Cancer Research UK: BCG into the bladder", url: "https://www.cancerresearchuk.org/about-cancer/bladder-cancer/treatment/early/bcg" };
+const MAC_BCG_RF = { label: "Macmillan: BCG treatment for bladder cancer (reviewed 1 November 2022; the page is marked as being reviewed)", url: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/bcg-treatment-for-bladder-cancer" };
+const EMA_ANKTIVA_RF = emaLeaflet("Anktiva", "nogapendekin alfa inbakicept");
+const EMA_ADSTILADRIN_RF = emaLeaflet("Adstiladrin", "nadofaragene firadenovec");
+const EMA_LUTATHERA_RF = emaLeaflet("Lutathera", "lutetium-177 dotatate");
+const EMA_PLUVICTO_RF = emaLeaflet("Pluvicto", "lutetium-177 vipivotide tetraxetan");
+const DM_WELIREG_RF = dailymedLeaflet("Welireg", "belzutifan", "Medication Guide", "13e15ee0-d679-4fa9-9430-e2e2170474da");
+const DM_LUMAKRAS_RF = dailymedLeaflet("Lumakras", "sotorasib", "patient information", "c80a362c-7ac3-4894-a076-0691e68ef8c1");
+const DM_KRAZATI_RF = dailymedLeaflet("Krazati", "adagrasib", "patient information", "0b8bf078-34c2-4f45-9012-38a8ac082b01");
+const DM_BIZENGRI_RF = dailymedLeaflet("Bizengri", "zenocutuzumab", "patient information", "203daea4-fc87-40a4-a92f-ba2351b16de1");
+const DM_VOTRIENT_RF = dailymedLeaflet("Votrient", "pazopanib", "Medication Guide", "eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7");
+const DM_TECENTRIQ_RF = dailymedLeaflet("Tecentriq", "atezolizumab", "Medication Guide", "6fa682c9-a312-4932-9831-f286908660ee");
+const EMA_IMFINZI_RF = emaLeaflet("Imfinzi", "durvalumab");
+const EMA_KYPROLIS_RF = emaLeaflet("Kyprolis", "carfilzomib");
+const EMA_LORVIQUA_RF = emaLeaflet("Lorviqua", "lorlatinib");
+const DM_AYVAKIT_RF = dailymedLeaflet("Ayvakit", "avapritinib", "patient information", "645c887c-8cd4-4623-8da9-ac223d71a8b9");
+const DM_CALQUENCE_RF = dailymedLeaflet("Calquence", "acalabrutinib", "patient information", "b1409184-3267-4d8c-8f17-4e01f69828b1");
+const MAC_ACALABRUTINIB_RF = { label: "Macmillan: acalabrutinib", url: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/acalabrutinib" };
+const DM_BLINCYTO_RF = dailymedLeaflet("Blincyto", "blinatumomab", "Medication Guide", "38b482a8-960b-4591-9857-5031ecb830aa");
+const MAC_IFOSFAMIDE_RF = { label: "Macmillan: ifosfamide", url: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/ifosfamide" };
+const EMA_MEKTOVI_RF = emaLeaflet("Mektovi", "binimetinib");
+const DM_MEKTOVI_RF = dailymedLeaflet("Mektovi", "binimetinib", "Medication Guide", "6c3408ac-d401-4925-8a03-26591afbc240");
+const DM_COTELLIC_RF = dailymedLeaflet("Cotellic", "cobimetinib", "patient information", "c387579e-cee0-4334-bd1e-73f93ac1bde6");
+const DM_AVMAPKI_RF = dailymedLeaflet("Avmapki Fakzynja Co-Pack", "avutometinib and defactinib", "patient information", "65889527-1406-45df-8a85-e2690dcf427d");
+const NHS_LETROZOLE_RF = { label: "NHS: side effects of letrozole", url: "https://www.nhs.uk/medicines/letrozole/side-effects-of-letrozole/" };
+const NHS_ANASTROZOLE_RF = { label: "NHS: side effects of anastrozole", url: "https://www.nhs.uk/medicines/anastrozole/side-effects-of-anastrozole/" };
+const DM_OGSIVEO_RF = dailymedLeaflet("Ogsiveo", "nirogacestat", "patient information", "f172e6ff-3190-41b0-b95a-58a7ef9e9e1e");
+const EMA_ZYTIGA_RF = emaLeaflet("Zytiga", "abiraterone acetate");
+const DM_VANFLYTA_RF = dailymedLeaflet("Vanflyta", "quizartinib", "Medication Guide", "29cdbcfe-497d-4e78-bb7b-2d4acafe8e86");
+const DM_TARGRETIN_RF = dailymedLeaflet("Targretin", "bexarotene", "patient information", "1d056725-0576-4338-8089-6336e768ccdc");
+const DM_MEKINIST_RF = dailymedLeaflet("Mekinist", "trametinib", "patient information", "0002ad27-779d-42ab-83b5-bc65453412a1");
+const DM_KOSELUGO_RF = dailymedLeaflet("Koselugo", "selumetinib", "patient information", "7d042c61-f28f-4ab5-ab10-d7558c0d49ff");
+const DM_XALKORI_RF = dailymedLeaflet("Xalkori", "crizotinib", "Medication Guide", "2a51b0de-47d6-455e-a94c-d2c737b04ff7");
+const DM_ALUNBRIG_RF = dailymedLeaflet("Alunbrig", "brigatinib", "patient information", "0fe9ff20-d402-41f3-bc1e-7002ea7007db");
+const DM_DATROWAY_RF = dailymedLeaflet("Datroway", "datopotamab deruxtecan", "Medication Guide", "2950227c-6230-4ca4-a135-46e44d9424a0");
+const DM_ETCAMAH_RF = dailymedLeaflet("Etcamah", "camizestrant", "patient information", "c54223d3-f3c7-4186-afa0-429d84805826");
+const DM_ZELBORAF_RF = dailymedLeaflet("Zelboraf", "vemurafenib", "Medication Guide", "38eea320-7e0c-485a-bc30-98c3c45e2763");
+const DM_BRAFTOVI_RF = dailymedLeaflet("Braftovi", "encorafenib", "Medication Guide", "235dfc38-0f0b-4037-b501-7a9f4294740c");
+const DM_QINLOCK_RF = dailymedLeaflet("Qinlock", "ripretinib", "patient information", "9f18e462-03dd-4296-a02a-a0577e3ee78d");
+const DM_TAFINLAR_RF = dailymedLeaflet("Tafinlar", "dabrafenib", "Medication Guide", "fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea");
+const EMC_TAMOXIFEN_RF = { label: "Tamoxifen 20 mg film-coated tablets (Wockhardt): UK patient information leaflet, electronic medicines compendium", url: "https://www.medicines.org.uk/emc/product/2248/pil" };
+const EMA_ZEJULA_RF = emaLeaflet("Zejula", "niraparib");
+const EMA_CARVYKTI_RF = emaLeaflet("Carvykti", "ciltacabtagene autoleucel");
+const DM_TALVEY_RF = dailymedLeaflet("Talvey", "talquetamab", "Medication Guide", "9001355e-003d-4d4e-b4ce-337e0fd14952");
+const DM_IMDELLTRA_RF = dailymedLeaflet("Imdelltra", "tarlatamab", "Medication Guide", "1e7b6163-5d83-42ea-82c9-cf7620cdc782");
+const EMA_BESPONSA_RF = emaLeaflet("Besponsa", "inotuzumab ozogamicin");
+const EMA_MYLOTARG_RF = emaLeaflet("Mylotarg", "gemtuzumab ozogamicin");
+
 export const GENERAL_RED_FLAGS: RedFlagSet = {
   id: "general",
   label: "Anyone on cancer treatment",
   flags: [
     { symptom: "Fever or feeling unwell", threshold: "Temperature of 38 C or higher, or shivering, or feeling unwell with signs of infection, at any time during treatment that can lower white cells.", action: "call-now", source: NICE_CG151, protocols: ["febrile-neutropenia-first-hour", "acute-oncology-telephone-triage"] },
     { symptom: "Signs of sepsis", threshold: "Breathing very fast, confusion or slurred speech, blue, pale or blotchy skin, a very high or very low temperature or shivering, or a rash that does not fade when you press it.", action: "emergency", source: NHS_SEPSIS },
-    { symptom: "Breathlessness", threshold: "Shortness of breath at rest, or any chest pain or tightness: the triage tool sends both straight to 999.", action: "emergency", source: UKONS, protocols: ["acute-oncology-telephone-triage"] },
+    { symptom: "Breathlessness", threshold: "Shortness of breath at rest, or any chest pain or tightness: the triage tool sends both straight to 999.", action: "emergency", source: UKONS, protocols: ["acute-oncology-telephone-triage", "breathlessness-and-cough-during-anticancer-treatment"] },
     { symptom: "Uncontrolled vomiting or diarrhoea", threshold: "Six or more episodes of vomiting in 24 hours, or an increase of seven or more bowel movements a day over your pre-treatment normal.", action: "call-now", source: UKONS, protocols: ["treatment-induced-diarrhoea-grading-and-management"] },
     { symptom: "Bleeding", threshold: "Bleeding that does not stop by itself, heavy or continuous bleeding, or bruising in several places or one large area.", action: "emergency", source: UKONS, protocols: ["bleeding-precautions-when-platelets-are-low"] },
     { symptom: "Confusion or drowsiness", threshold: "Severe confusion, an altered level of consciousness, or being difficult to rouse.", action: "emergency", source: UKONS },
@@ -488,7 +539,7 @@ export const redFlagSets: RedFlagSet[] = [
     label: "Dasatinib",
     drugIds: ["dasatinib"],
     flags: [
-      { symptom: "Swelling, weight gain, breathlessness or a dry cough on dasatinib", threshold: "Swelling all over the body, weight gain, shortness of breath (especially with little activity or at rest), a dry cough, or chest pain on taking a deep breath. The US patient information says \"Call your healthcare provider right away if you get any of these symptoms during treatment with SPRYCEL\".", action: "call-now", source: DM_SPRYCEL_RF, protocols: ["fluid-retention-and-effusions-on-kinase-inhibitors"] },
+      { symptom: "Swelling, weight gain, breathlessness or a dry cough on dasatinib", threshold: "Swelling all over the body, weight gain, shortness of breath (especially with little activity or at rest), a dry cough, or chest pain on taking a deep breath. The US patient information says \"Call your healthcare provider right away if you get any of these symptoms during treatment with SPRYCEL\".", action: "call-now", source: DM_SPRYCEL_RF, protocols: ["fluid-retention-and-effusions-on-kinase-inhibitors", "breathlessness-and-cough-during-anticancer-treatment"] },
     ],
   },
   {
@@ -497,6 +548,7 @@ export const redFlagSets: RedFlagSet[] = [
     drugIds: ["avapritinib"],
     flags: [
       { symptom: "Rapid weight gain, swelling or shortness of breath on avapritinib", threshold: "The package leaflet says \"During treatment with this medicine, tell your doctor straight away if you put on weight very quickly, develop swelling of your face or limbs, have difficulty breathing or become short of breath. This medicine may cause your body to retain water (severe fluid retention can occur in patients with AdvSM).\" AdvSM is advanced systemic mastocytosis.", action: "call-now", source: EMA_AYVAKYT_RF, protocols: ["fluid-retention-and-effusions-on-kinase-inhibitors"] },
+      { symptom: "New forgetfulness, confusion, drowsiness or a change in mood or behaviour on avapritinib", threshold: "Forgetfulness, confusion, getting lost, trouble thinking, drowsiness or trouble staying awake, difficulty finding words, seeing or hearing things that are not there, or a change in mood or behaviour. The US patient information says \"Cognitive side effects can happen during treatment with AYVAKIT and can be severe. Tell your healthcare provider if you develop any new or worsening cognitive symptoms\".", action: "call-today", source: DM_AYVAKIT_RF, protocols: ["cognitive-and-mood-effects-on-lorlatinib-and-avapritinib"] },
     ],
   },
   {
@@ -505,6 +557,7 @@ export const redFlagSets: RedFlagSet[] = [
     drugIds: ["erdafitinib"],
     flags: [
       { symptom: "Painful skin lesions, muscle cramps or tingling around the mouth on erdafitinib", threshold: "Under high phosphate levels in the blood, the US patient information says \"Tell your healthcare provider right away if you develop painful skin lesions, any muscle cramps, or numbness or tingling around your mouth.\"", action: "call-now", source: DM_BALVERSA_RF, protocols: ["hyperphosphataemia-on-fgfr-inhibitors"] },
+      { symptom: "Blurred vision, loss of vision or other changes in sight on erdafitinib", threshold: "The US patient information says \"Tell your healthcare provider right away if you develop blurred vision, loss of vision or other visual changes.\"", action: "call-now", source: DM_BALVERSA_RF, protocols: ["retinal-and-eye-effects-on-fgfr-mek-and-alk-inhibitors"] },
     ],
   },
   {
@@ -513,6 +566,7 @@ export const redFlagSets: RedFlagSet[] = [
     drugIds: ["pemigatinib"],
     flags: [
       { symptom: "Muscle cramps, numbness or tingling around the mouth on pemigatinib", threshold: "Under high phosphate levels in the blood, the US patient information says \"Tell your healthcare provider right away if you develop any muscle cramps, or numbness or tingling around your mouth.\"", action: "call-now", source: DM_PEMAZYRE_RF, protocols: ["hyperphosphataemia-on-fgfr-inhibitors"] },
+      { symptom: "Blurred vision, flashes of light or black spots on pemigatinib", threshold: "The US patient information says \"Tell your healthcare provider right away if you develop any changes in your vision during treatment with PEMAZYRE, including: blurred vision, flashes of light, or see black spots. You may need to see an eye specialist right away.\"", action: "call-now", source: DM_PEMAZYRE_RF, protocols: ["retinal-and-eye-effects-on-fgfr-mek-and-alk-inhibitors"] },
     ],
   },
   {
@@ -521,6 +575,7 @@ export const redFlagSets: RedFlagSet[] = [
     drugIds: ["futibatinib"],
     flags: [
       { symptom: "Muscle cramps, numbness or tingling around the mouth on futibatinib", threshold: "Under high phosphate levels in the blood, the US patient information says \"Tell your healthcare provider right away if you develop any muscle cramps, or numbness or tingling around your mouth.\"", action: "call-now", source: DM_LYTGOBI_RF, protocols: ["hyperphosphataemia-on-fgfr-inhibitors"] },
+      { symptom: "Blurred vision, flashes of light or black spots on futibatinib", threshold: "The US patient information says \"Tell your healthcare provider right away if you develop any changes in your vision during treatment with LYTGOBI, including blurred vision, flashes of light, or seeing black spots. You may need to see an eye specialist right away.\"", action: "call-now", source: DM_LYTGOBI_RF, protocols: ["retinal-and-eye-effects-on-fgfr-mek-and-alk-inhibitors"] },
     ],
   },
   {
@@ -561,6 +616,7 @@ export const redFlagSets: RedFlagSet[] = [
     drugIds: ["pazopanib"],
     flags: [
       { symptom: "Marked weight gain or tiredness on pazopanib", threshold: "The package leaflet says \"Votrient can lower the amount of thyroid hormone produced in your body. This can result in weight increase and tiredness.\" and \"Tell your doctor if you notice significant weight gain or tiredness.\"", action: "call-today", source: EMA_VOTRIENT_RF, protocols: ["hypothyroidism-on-tyrosine-kinase-inhibitors"] },
+      { symptom: "A cough that will not go away, or shortness of breath, on pazopanib", threshold: "The US Medication Guide says \"VOTRIENT may cause lung problems that may lead to death. Tell your healthcare provider right away if you get a cough that will not go away or shortness of breath.\"", action: "call-now", source: DM_VOTRIENT_RF, protocols: ["breathlessness-and-cough-during-anticancer-treatment"] },
     ],
   },
   {
@@ -593,6 +649,360 @@ export const redFlagSets: RedFlagSet[] = [
     drugIds: ["lenalidomide"],
     flags: [
       { symptom: "Tumour flare on lenalidomide", threshold: "The label describes tumour flare in people treated for lymphoma or chronic lymphocytic leukaemia. The US Medication Guide says \"Tell your healthcare provider if you get any of these symptoms of tumor flare reaction during treatment with REVLIMID: tender swollen lymph nodes, low grade fever, pain, or rash.\"", action: "call-today", source: DM_REVLIMID_RF, protocols: ["tumour-flare-on-bispecific-antibodies-and-immunomodulatory-drugs"] },
+    ],
+  },
+  // ---- Second round, 18 November 2026: one new card for each product, holding every line that product gained.
+  // Where several products' lines would otherwise fill a protocol's four places with one problem, the wording is
+  // chosen so the four shown differ: the radioligand titles are worded so the first four in order cover bleeding,
+  // infection, anaemia and the kidneys, and the four skin-change lines carry the product in brackets so the
+  // second-cancers page shows that warning once (`redFlagsForProtocol` keeps one line per symptom, read without
+  // its bracket).
+  {
+    id: "bcg-intravesical-infection",
+    label: "BCG into the bladder",
+    drugIds: ["bcg-intravesical"],
+    flags: [
+      { symptom: "Fever and chills, joint or muscle pain, vomiting, a cough or a rash after BCG into the bladder", threshold: "Fever and chills, joint or muscle pain, feeling sick or vomiting, a cough, a skin rash or feeling extremely tired. These can be signs of a rare infection caused by BCG getting into the rest of the body, during treatment or some months after it. Cancer Research UK says \"Contact your doctor immediately if you have any of these symptoms or have a high temperature for more than 48 hours. Do not wait until your next appointment.\"", action: "call-now", source: CRUK_BCG_RF, protocols: ["bladder-symptoms-and-infection-after-intravesical-therapy"] },
+      { symptom: "Bladder or flu-like symptoms that last more than 72 hours after BCG into the bladder", threshold: "Needing to pass urine often, pain on passing urine, blood in the urine, or flu-like symptoms such as tiredness, general aching and a raised temperature. Macmillan says \"These effects should get better in 48 to 72 hours. Tell your doctor straight away if they do not.\"", action: "call-now", source: MAC_BCG_RF, protocols: ["bladder-symptoms-and-infection-after-intravesical-therapy"] },
+    ],
+  },
+  {
+    id: "nogapendekin-alfa-bladder-symptoms",
+    label: "Nogapendekin alfa inbakicept",
+    drugIds: ["nogapendekin-alfa"],
+    flags: [
+      { symptom: "Severe or lasting bladder irritation or blood in the urine after nogapendekin alfa inbakicept", threshold: "Burning or discomfort in the bladder, or blood in the urine, that is severe or lasts a long time. The package leaflet says \"You may also notice blood in the urine for up to 24 hours after treatment. These symptoms are usually mild and temporary. Tell your doctor or nurse right away if your symptoms are severe or last a long time.\" It does not say how long a long time is.", action: "call-now", source: EMA_ANKTIVA_RF, protocols: ["bladder-symptoms-and-infection-after-intravesical-therapy"] },
+    ],
+  },
+  {
+    id: "nadofaragene-firadenovec-urine-infection",
+    label: "Nadofaragene firadenovec",
+    drugIds: ["nadofaragene-firadenovec"],
+    flags: [
+      { symptom: "Signs of a urine infection before or during nadofaragene firadenovec", threshold: "Cloudy or bloody urine, pain or burning when passing urine, fever, pressure or cramping in the lower tummy or back, or a strong need to pass urine often. The package leaflet says \"Tell your doctor if you have signs of infection or inflammation of your bladder or kidneys before or during treatment with ADSTILADRIN\".", action: "call-today", source: EMA_ADSTILADRIN_RF, protocols: ["bladder-symptoms-and-infection-after-intravesical-therapy"] },
+    ],
+  },
+  {
+    id: "lutathera-blood-counts",
+    label: "Lutetium-177 dotatate (Lutathera)",
+    drugIds: ["lutathera"],
+    flags: [
+      { symptom: "Bleeding or bruising more easily on Lutathera", threshold: "Possible signs of a low platelet count. Among its serious side effects the package leaflet lists \"Bleeding or bruising more easily than normal or difficulty to stop bleeding\" and it says \"If you experience any serious side effects, tell your doctor right away.\"", action: "call-now", source: EMA_LUTATHERA_RF, protocols: ["blood-count-and-kidney-monitoring-during-radioligand-therapy"] },
+      { symptom: "Sore throat, fever or mouth ulcers on Lutathera", threshold: "Possible signs of a low white blood cell count. Among its serious side effects the package leaflet lists \"Infections with signs such as fever, sore throat or mouth ulcers\" and it says \"If you experience any serious side effects, tell your doctor right away.\"", action: "call-now", source: EMA_LUTATHERA_RF, protocols: ["blood-count-and-kidney-monitoring-during-radioligand-therapy"] },
+      { symptom: "Tiredness, weakness, pale skin or shortness of breath on Lutathera", threshold: "Possible signs of a low red blood cell count. Among its serious side effects the package leaflet lists \"Tiredness, weakness, pale skin or shortness of breath\" and it says \"If you experience any serious side effects, tell your doctor right away.\"", action: "call-now", source: EMA_LUTATHERA_RF, protocols: ["blood-count-and-kidney-monitoring-during-radioligand-therapy"] },
+      { symptom: "Passing urine less often or in smaller amounts on Lutathera", threshold: "Possible signs of kidney problems. Among its serious side effects the package leaflet lists \"Passing urine less often than usual or passing much smaller amounts of urine than usual\" and it says \"If you experience any serious side effects, tell your doctor right away.\"", action: "call-now", source: EMA_LUTATHERA_RF, protocols: ["blood-count-and-kidney-monitoring-during-radioligand-therapy"] },
+    ],
+  },
+  {
+    id: "pluvicto-blood-counts",
+    label: "Lutetium-177 vipivotide tetraxetan (Pluvicto)",
+    drugIds: ["pluvicto"],
+    flags: [
+      { symptom: "Frequent infections, with fever, sore throat or mouth ulcers, on Pluvicto", threshold: "Possible signs of a low white blood cell count. The package leaflet lists \"frequent infections with signs such as fever, sore throat or mouth ulcers\" and says \"If you experience any of the following serious side effects, tell your nuclear medicine doctor right away.\"", action: "call-now", source: EMA_PLUVICTO_RF, protocols: ["blood-count-and-kidney-monitoring-during-radioligand-therapy"] },
+      { symptom: "Pale skin, tiredness, weakness or shortness of breath on Pluvicto", threshold: "Possible signs of a low red blood cell count. The package leaflet lists \"tiredness, weakness, pale skin or shortness of breath\" and says \"If you experience any of the following serious side effects, tell your nuclear medicine doctor right away.\"", action: "call-now", source: EMA_PLUVICTO_RF, protocols: ["blood-count-and-kidney-monitoring-during-radioligand-therapy"] },
+      { symptom: "Taking longer than normal to stop bleeding, or bruising easily, on Pluvicto", threshold: "Possible signs of a low platelet count. The package leaflet lists \"bleeding or bruising more easily than normal or bleeding for longer than normal\" and says \"If you experience any of the following serious side effects, tell your nuclear medicine doctor right away.\"", action: "call-now", source: EMA_PLUVICTO_RF, protocols: ["blood-count-and-kidney-monitoring-during-radioligand-therapy"] },
+      { symptom: "Smaller amounts of urine, or passing urine less often, on Pluvicto", threshold: "A possible sign of kidney problems. The package leaflet lists \"passing urine less often or in much smaller amounts than usual\" and says \"If you experience any of the following serious side effects, tell your nuclear medicine doctor right away.\"", action: "call-now", source: EMA_PLUVICTO_RF, protocols: ["blood-count-and-kidney-monitoring-during-radioligand-therapy"] },
+    ],
+  },
+  {
+    id: "belzutifan-low-oxygen",
+    label: "Belzutifan",
+    drugIds: ["belzutifan"],
+    flags: [
+      { symptom: "Shortness of breath or a fast heartbeat on belzutifan", threshold: "Possible signs of a low oxygen level in the body. The US Medication Guide says \"Tell your healthcare provider or get medical help right away if you get symptoms of low oxygen in your body, including shortness of breath or fast heartbeat.\"", action: "call-now", source: DM_WELIREG_RF, protocols: ["breathlessness-and-cough-during-anticancer-treatment"] },
+    ],
+  },
+  {
+    id: "sotorasib-lung-inflammation",
+    label: "Sotorasib",
+    drugIds: ["sotorasib"],
+    flags: [
+      { symptom: "New or worsening shortness of breath, cough or fever on sotorasib", threshold: "The US patient information says \"LUMAKRAS may cause inflammation of the lungs that can lead to death. Tell your healthcare provider or get emergency medical help right away if you have new or worsening shortness of breath, cough, or fever.\"", action: "call-now", source: DM_LUMAKRAS_RF, protocols: ["breathlessness-and-cough-during-anticancer-treatment"] },
+    ],
+  },
+  {
+    id: "adagrasib-lung-inflammation",
+    label: "Adagrasib",
+    drugIds: ["adagrasib"],
+    flags: [
+      { symptom: "New or worsening shortness of breath, cough or fever on adagrasib", threshold: "The US patient information says \"KRAZATI may cause inflammation of the lungs that can lead to death. Tell your healthcare provider or get emergency medical help right away if you have new or worsening shortness of breath, cough, or fever.\"", action: "call-now", source: DM_KRAZATI_RF, protocols: ["breathlessness-and-cough-during-anticancer-treatment"] },
+    ],
+  },
+  {
+    id: "zenocutuzumab-lung-problems",
+    label: "Zenocutuzumab",
+    drugIds: ["zenocutuzumab"],
+    flags: [
+      { symptom: "New or worsening trouble breathing, cough or fever on zenocutuzumab", threshold: "Trouble breathing, shortness of breath, a cough or a fever. The US patient information says \"BIZENGRI can cause serious lung problems that may be life-threatening.\" and \"Tell your healthcare provider right away if you develop any new or worsening symptoms of lung problems\".", action: "call-now", source: DM_BIZENGRI_RF, protocols: ["breathlessness-and-cough-during-anticancer-treatment"] },
+    ],
+  },
+  {
+    id: "atezolizumab-lung-problems",
+    label: "Atezolizumab",
+    drugIds: ["atezolizumab"],
+    flags: [
+      { symptom: "New or worsening cough, shortness of breath or chest pain on atezolizumab", threshold: "The US Medication Guide lists cough, shortness of breath and chest pain under lung problems and says \"Call or see your healthcare provider right away if you develop any new or worsening signs or symptoms\".", action: "call-now", source: DM_TECENTRIQ_RF, protocols: ["breathlessness-and-cough-during-anticancer-treatment"] },
+    ],
+  },
+  {
+    id: "durvalumab-lung-inflammation",
+    label: "Durvalumab",
+    drugIds: ["durvalumab"],
+    flags: [
+      { symptom: "New or worsening cough, shortness of breath or chest pain on durvalumab", threshold: "The package leaflet says \"If you have any of the following, call or see your doctor straight away.\" and lists \"inflammation of the lungs: symptoms may include new or worsening cough, shortness of breath or chest pain\".", action: "call-now", source: EMA_IMFINZI_RF, protocols: ["breathlessness-and-cough-during-anticancer-treatment"] },
+    ],
+  },
+  {
+    id: "carfilzomib-breathing",
+    label: "Carfilzomib",
+    drugIds: ["carfilzomib"],
+    flags: [
+      { symptom: "Difficulty breathing, wheezing or a cough on carfilzomib", threshold: "Difficulty breathing, shortness of breath at rest or with activity, rapid breathing, wheezing or a cough, \"which can be signs of lung toxicity\"; or chest pains, shortness of breath or swollen feet, \"which may be symptoms of heart problems\". The package leaflet, in its own wording, says \"Tell your doctor straight away if you get notice any of the following symptoms\".", action: "call-now", source: EMA_KYPROLIS_RF, protocols: ["breathlessness-and-cough-during-anticancer-treatment"] },
+    ],
+  },
+  {
+    id: "lorlatinib-mood-and-pancreatitis",
+    label: "Lorlatinib",
+    drugIds: ["lorlatinib"],
+    flags: [
+      { symptom: "Changes in mood, memory or personality, confusion, or seeing or hearing things that are not real, on lorlatinib", threshold: "A change in mood (including depression, euphoria and mood swings), irritability, aggression, agitation, anxiety, a change in personality, episodes of confusion, or believing, seeing or hearing things that are not real. The package leaflet lists these as \"mental status changes, mood or memory problems\" under \"Tell your doctor immediately if you develop:\".", action: "call-now", source: EMA_LORVIQUA_RF, protocols: ["cognitive-and-mood-effects-on-lorlatinib-and-avapritinib"] },
+      { symptom: "Back or tummy pain, yellowing of the skin or eyes, or feeling or being sick on lorlatinib", threshold: "Under \"Tell your doctor immediately if you develop:\" the package leaflet lists \"pain in the back or abdomen (belly), yellowing of the skin and eyes (jaundice), nausea or vomiting. These symptoms could be signs of pancreatitis.\"", action: "call-now", source: EMA_LORVIQUA_RF, protocols: ["raised-lipids-and-weight-gain-on-lorlatinib-bexarotene-and-elacestrant"] },
+    ],
+  },
+  {
+    id: "acalabrutinib-headache",
+    label: "Acalabrutinib",
+    drugIds: ["acalabrutinib"],
+    flags: [
+      { symptom: "A headache that lasts a long time on acalabrutinib", threshold: "The US patient information lists \"headache that lasts a long time\" among the signs of bleeding, with blood in the stools, pink or brown urine, dizziness, weakness, confusion and changes in speech. It says \"Tell your healthcare provider right away if you have any signs or symptoms of bleeding\".", action: "call-now", source: DM_CALQUENCE_RF, protocols: ["headache-on-anticancer-drugs"] },
+      { symptom: "A severe headache or other sudden signs of a stroke on acalabrutinib", threshold: "A severe headache, weakness or numbness down one side of the face or body, difficulty speaking, confusion and memory loss, blurred vision, or feeling dizzy or unsteady. Macmillan says the treatment \"can increase the risk of bleeding on the brain\" and \"If you have any of these symptoms during treatment or after it ends, it is important to either\" \"contact the hospital straight away on the 24-hour number\" or \"go to the hospital straight away or call 999\". It adds \"You should not drive yourself to hospital.\"", action: "call-now", source: MAC_ACALABRUTINIB_RF, protocols: ["headache-on-anticancer-drugs"] },
+    ],
+  },
+  {
+    id: "blinatumomab-headache",
+    label: "Blinatumomab",
+    drugIds: ["blinatumomab"],
+    flags: [
+      { symptom: "Headache on blinatumomab", threshold: "The US Medication Guide lists headache among the symptoms of cytokine release syndrome and infusion reactions, and again among the symptoms of neurological problems. It says \"Call your healthcare provider or get emergency medical help right away if you get any of the symptoms listed below.\"", action: "call-now", source: DM_BLINCYTO_RF, protocols: ["headache-on-anticancer-drugs"] },
+    ],
+  },
+  {
+    id: "ifosfamide-bladder-and-brain",
+    label: "Ifosfamide",
+    drugIds: ["ifosfamide"],
+    flags: [
+      { symptom: "Blood in the urine, or stinging or discomfort on passing urine, on ifosfamide", threshold: "Discomfort or stinging when you pass urine, or blood in your urine. Macmillan says \"Contact the hospital straight away on the 24-hour number if you have any of the following when you pee\".", action: "call-now", source: MAC_IFOSFAMIDE_RF, protocols: ["ifosfamide-bladder-protection-and-encephalopathy"] },
+      { symptom: "Drowsiness, confusion, blurred vision, problems moving or speaking, or a fit on ifosfamide", threshold: "Feeling drowsy or confused, blurred vision, problems with moving or speaking, or a fit (seizure). Macmillan says \"If you have any of these symptoms during treatment or after it finishes, it is important to either\" \"contact the hospital straight away on the 24-hour number\" or \"go to the hospital straight away\".", action: "call-now", source: MAC_IFOSFAMIDE_RF, protocols: ["ifosfamide-bladder-protection-and-encephalopathy"] },
+    ],
+  },
+  {
+    id: "binimetinib-muscle-and-eye",
+    label: "Binimetinib",
+    drugIds: ["binimetinib"],
+    flags: [
+      { symptom: "Muscle pain, cramps, stiffness or spasm, or dark urine, on binimetinib", threshold: "The package leaflet says \"Mektovi can cause breakdown of muscle (rhabdomyolysis).\" and \"Talk to your doctor immediately if you get muscle pain, cramps, stiffness, spasm, dark urine.\"", action: "call-now", source: EMA_MEKTOVI_RF, protocols: ["joint-and-muscle-pain-on-anticancer-drugs"] },
+      { symptom: "Vision changes, coloured dots or halos, or eye pain, swelling or redness on binimetinib", threshold: "Blurred vision, loss of vision or other vision changes, seeing coloured dots or halos (a blurred outline around objects), or eye pain, swelling or redness. The US Medication Guide says \"Tell your healthcare provider right away if you develop any new or worsening symptoms of eye problems\".", action: "call-now", source: DM_MEKTOVI_RF, protocols: ["retinal-and-eye-effects-on-fgfr-mek-and-alk-inhibitors"] },
+    ],
+  },
+  {
+    id: "cobimetinib-muscle-and-eye",
+    label: "Cobimetinib",
+    drugIds: ["cobimetinib"],
+    flags: [
+      { symptom: "Muscle aches, spasms or weakness, or dark, reddish urine, on cobimetinib", threshold: "Muscle aches or pain, muscle spasms and weakness, or dark, reddish urine. The US patient information says \"COTELLIC can cause muscle problems that can be severe.\" and, of this list, \"Tell your healthcare provider right away if you get any of these symptoms\".", action: "call-now", source: DM_COTELLIC_RF, protocols: ["joint-and-muscle-pain-on-anticancer-drugs"] },
+      { symptom: "Blurred or partly missing vision, loss of vision or halos on cobimetinib", threshold: "Blurred vision, partly missing vision or loss of vision, seeing halos, or any other change in vision. Of this list the US patient information says \"Tell your healthcare provider right away if you get any of these symptoms\" and \"Your healthcare provider should check your eyes if you notice any of the symptoms above.\"", action: "call-now", source: DM_COTELLIC_RF, protocols: ["retinal-and-eye-effects-on-fgfr-mek-and-alk-inhibitors"] },
+    ],
+  },
+  {
+    id: "avutometinib-defactinib-muscle",
+    label: "Avutometinib with defactinib",
+    drugIds: ["avutometinib-defactinib"],
+    flags: [
+      { symptom: "Weakness, lasting muscle or bone pain, or dark urine on avutometinib with defactinib", threshold: "Weakness or difficulty moving the arms and legs, muscle or bone aches or pain that does not go away, or dark, red urine or passing less urine. These can be signs of a raised level of creatine phosphokinase (CPK), an enzyme in the blood that can be a sign of muscle damage. The US patient information says \"Tell your healthcare provider if you get any signs or symptoms of increased CPK\".", action: "call-today", source: DM_AVMAPKI_RF, protocols: ["joint-and-muscle-pain-on-anticancer-drugs"] },
+    ],
+  },
+  {
+    id: "letrozole-joint-pain",
+    label: "Letrozole",
+    drugIds: ["letrozole"],
+    flags: [
+      { symptom: "A sudden attack of pain in a joint on letrozole", threshold: "For mild aches in the muscles or bones the NHS suggests asking a pharmacist about a painkiller. It adds \"If you have a sudden attack of pain in a joint ask a doctor for advice urgently.\"", action: "call-today", source: NHS_LETROZOLE_RF, protocols: ["joint-and-muscle-pain-on-anticancer-drugs"] },
+    ],
+  },
+  {
+    id: "anastrozole-joint-pain",
+    label: "Anastrozole",
+    drugIds: ["anastrozole"],
+    flags: [
+      { symptom: "A sudden attack of pain in a joint on anastrozole", threshold: "For mild aches in the muscles and bones the NHS suggests asking a pharmacist about a painkiller. It adds \"If you have a sudden attack of pain in a joint ask a doctor for advice urgently.\"", action: "call-today", source: NHS_ANASTROZOLE_RF, protocols: ["joint-and-muscle-pain-on-anticancer-drugs"] },
+    ],
+  },
+  {
+    id: "nirogacestat-low-phosphate-and-potassium",
+    label: "Nirogacestat",
+    drugIds: ["nirogacestat"],
+    flags: [
+      { symptom: "Muscle pain or weakness on nirogacestat", threshold: "The team checks phosphate and potassium with blood tests during treatment and may give medicines if either is low. The US patient information says \"Tell your healthcare provider if you develop any muscle pain or weakness.\"", action: "call-today", source: DM_OGSIVEO_RF, protocols: ["low-potassium-and-low-phosphate-on-anticancer-drugs"] },
+    ],
+  },
+  {
+    id: "abiraterone-low-potassium",
+    label: "Abiraterone",
+    drugIds: ["abiraterone"],
+    flags: [
+      { symptom: "Muscle weakness, muscle twitches or a pounding heartbeat on abiraterone", threshold: "The EU package leaflet says \"Stop taking ZYTIGA and see a doctor immediately if you notice any of the following:\" and lists \"Muscle weakness, muscle twitches or a pounding heart beat (palpitations). These may be signs that the level of potassium in your blood is low.\"", action: "call-now", source: EMA_ZYTIGA_RF, protocols: ["low-potassium-and-low-phosphate-on-anticancer-drugs"] },
+    ],
+  },
+  {
+    id: "quizartinib-heart-rhythm-and-salts",
+    label: "Quizartinib",
+    drugIds: ["quizartinib"],
+    flags: [
+      { symptom: "Diarrhoea or vomiting, an irregular heartbeat, dizziness or fainting on quizartinib", threshold: "Quizartinib can change the heart's rhythm, and the team checks the heart tracing and the potassium and magnesium levels before and during treatment. The US Medication Guide says \"Tell your healthcare provider right away if you have an irregular heartbeat or feel dizzy, lightheaded, or faint, or have diarrhea or vomiting.\"", action: "call-now", source: DM_VANFLYTA_RF, protocols: ["low-potassium-and-low-phosphate-on-anticancer-drugs"] },
+    ],
+  },
+  {
+    id: "bexarotene-pancreatitis",
+    label: "Bexarotene",
+    drugIds: ["bexarotene"],
+    flags: [
+      { symptom: "Nausea that will not go away, vomiting, or tummy or back pain on bexarotene", threshold: "Possible signs of an inflamed pancreas (pancreatitis). The US patient information says \"Tell your healthcare provider right away if you develop signs or symptoms of pancreatitis during treatment with TARGRETIN\".", action: "call-now", source: DM_TARGRETIN_RF, protocols: ["raised-lipids-and-weight-gain-on-lorlatinib-bexarotene-and-elacestrant"] },
+    ],
+  },
+  {
+    id: "trametinib-eye-problems",
+    label: "Trametinib",
+    drugIds: ["trametinib"],
+    flags: [
+      { symptom: "Vision changes, coloured dots or halos, or eye pain, swelling or redness on trametinib", threshold: "Blurred vision, loss of vision or other vision changes, seeing coloured dots or a halo (a blurred outline around objects), or eye pain, swelling or redness. The US patient information says \"MEKINIST can cause severe eye problems that might lead to blindness. Call your healthcare provider right away if you get these symptoms of eye problems\".", action: "call-now", source: DM_MEKINIST_RF, protocols: ["retinal-and-eye-effects-on-fgfr-mek-and-alk-inhibitors"] },
+    ],
+  },
+  {
+    id: "selumetinib-eye-problems",
+    label: "Selumetinib",
+    drugIds: ["selumetinib"],
+    flags: [
+      { symptom: "Blurred vision, loss of vision or dark spots in vision on selumetinib", threshold: "Blurred vision, loss of vision, dark spots in your vision (floaters) or other changes to your sight. The US patient information says \"KOSELUGO can cause eye problems that can lead to blindness.\" and \"Tell your healthcare provider right away if you get new or worsening vision changes\".", action: "call-now", source: DM_KOSELUGO_RF, protocols: ["retinal-and-eye-effects-on-fgfr-mek-and-alk-inhibitors"] },
+    ],
+  },
+  {
+    id: "crizotinib-vision",
+    label: "Crizotinib",
+    drugIds: ["crizotinib"],
+    flags: [
+      { symptom: "Any new vision problem, loss of vision or change in vision on crizotinib", threshold: "Double vision, flashes of light, blurry vision, light hurting the eyes, or new or increased floaters. The US Medication Guide says \"Tell your healthcare provider right away if you have any new vision problems, loss of vision or any change in vision\".", action: "call-now", source: DM_XALKORI_RF, protocols: ["retinal-and-eye-effects-on-fgfr-mek-and-alk-inhibitors"] },
+    ],
+  },
+  {
+    id: "brigatinib-vision",
+    label: "Brigatinib",
+    drugIds: ["brigatinib"],
+    flags: [
+      { symptom: "Any loss of vision or change in vision on brigatinib", threshold: "Double vision, flashes of light, blurry vision, light hurting the eyes, or new or increased floaters. The US patient information says \"Tell your healthcare provider right away if you have any loss of vision or any change in vision\".", action: "call-now", source: DM_ALUNBRIG_RF, protocols: ["retinal-and-eye-effects-on-fgfr-mek-and-alk-inhibitors"] },
+    ],
+  },
+  {
+    id: "datopotamab-deruxtecan-eye-problems",
+    label: "Datopotamab deruxtecan",
+    drugIds: ["datopotamab-deruxtecan"],
+    flags: [
+      { symptom: "New or worsening eye problems on datopotamab deruxtecan", threshold: "The US Medication Guide says \"Tell your healthcare provider right away if you develop any new or worsening eye problems during treatment with DATROWAY, including dry eyes, eye pain, eye redness, eye swelling, eye irritation, increased tears, feeling like something is in your eyes, discharge from your eyes, eye crusting, sensitivity to light, blurred vision, or vision changes.\"", action: "call-now", source: DM_DATROWAY_RF, protocols: ["retinal-and-eye-effects-on-fgfr-mek-and-alk-inhibitors"] },
+    ],
+  },
+  {
+    id: "camizestrant-vision",
+    label: "Camizestrant",
+    drugIds: ["camizestrant"],
+    flags: [
+      { symptom: "Flashes of light, double or blurry vision, or new floaters on camizestrant", threshold: "Flashes of light, double or blurry vision, sensitivity to light, or new or increased floaters. The US patient information says \"Tell your healthcare provider if you have vision problems, you may need to see an eye care specialist\".", action: "call-today", source: DM_ETCAMAH_RF, protocols: ["retinal-and-eye-effects-on-fgfr-mek-and-alk-inhibitors"] },
+    ],
+  },
+  {
+    id: "vemurafenib-skin-changes",
+    label: "Vemurafenib",
+    drugIds: ["vemurafenib"],
+    flags: [
+      { symptom: "A new wart, a skin sore that does not heal or a changing mole (vemurafenib)", threshold: "A new wart, a skin sore or reddish bump that bleeds or does not heal, or a mole that changes in size or colour. Vemurafenib can cause new skin cancers. The US Medication Guide says \"Check your skin and tell your healthcare provider right away about any skin changes\".", action: "call-now", source: DM_ZELBORAF_RF, protocols: ["second-cancers-after-anticancer-drug-treatment"] },
+    ],
+  },
+  {
+    id: "encorafenib-skin-changes",
+    label: "Encorafenib",
+    drugIds: ["encorafenib"],
+    flags: [
+      { symptom: "A new wart, a skin sore that does not heal or a changing mole (encorafenib)", threshold: "A new wart, a skin sore or reddish bump that bleeds or does not heal, or a mole that changes in size or colour. Encorafenib can cause new skin cancers. The US Medication Guide says \"Check your skin and tell your healthcare provider right away about any skin changes\".", action: "call-now", source: DM_BRAFTOVI_RF, protocols: ["second-cancers-after-anticancer-drug-treatment"] },
+    ],
+  },
+  {
+    id: "ripretinib-skin-changes",
+    label: "Ripretinib",
+    drugIds: ["ripretinib"],
+    flags: [
+      { symptom: "A new wart, a skin sore that does not heal or a changing mole (ripretinib)", threshold: "A new wart, a skin sore or reddish bump that bleeds or does not heal, or a mole that changes in size or colour. Ripretinib may cause new skin cancers. The US patient information says \"Check your skin and tell your healthcare provider right away about any skin changes\".", action: "call-now", source: DM_QINLOCK_RF, protocols: ["second-cancers-after-anticancer-drug-treatment"] },
+    ],
+  },
+  {
+    id: "dabrafenib-skin-changes",
+    label: "Dabrafenib",
+    drugIds: ["dabrafenib"],
+    flags: [
+      { symptom: "A new wart, a skin sore that does not heal or a changing mole (dabrafenib)", threshold: "A new wart, a skin sore or reddish bump that bleeds or does not heal, or a mole that changes in size or colour. Dabrafenib, alone or with trametinib, may cause new skin cancers. The US Medication Guide says \"Check your skin and tell your healthcare provider right away about any skin changes\".", action: "call-now", source: DM_TAFINLAR_RF, protocols: ["second-cancers-after-anticancer-drug-treatment"] },
+    ],
+  },
+  {
+    id: "tamoxifen-womb-changes",
+    label: "Tamoxifen",
+    drugIds: ["tamoxifen"],
+    flags: [
+      { symptom: "Unusual vaginal bleeding, discharge, or pain or pressure in the lower tummy, during or after tamoxifen", threshold: "Unusual bleeding from the vagina, irregular periods (especially with heavier bleeding), vaginal discharge, or discomfort such as pain or pressure in the lower tummy. A UK package leaflet says \"Tell your doctor straight away if you notice any of the following:\" and of these effects \"Sometimes these effects are serious and could include cancer. They can happen during or after treatment with Tamoxifen Tablets.\"", action: "call-now", source: EMC_TAMOXIFEN_RF, protocols: ["second-cancers-after-anticancer-drug-treatment"] },
+    ],
+  },
+  {
+    id: "niraparib-low-blood-counts",
+    label: "Niraparib",
+    drugIds: ["niraparib"],
+    flags: [
+      { symptom: "Bruising or bleeding for longer than usual, breathlessness with tiredness and pale skin, or fever or infection on niraparib", threshold: "Signs of low blood counts. The package leaflet says \"Tell your doctor straight away if you notice any of the following SERIOUS side effects - you may need urgent medical treatment:\" and its list includes low counts caused by \"a problem in the bone marrow or blood cancer starting from the bone marrow\".", action: "call-now", source: EMA_ZEJULA_RF, protocols: ["second-cancers-after-anticancer-drug-treatment"] },
+    ],
+  },
+  {
+    id: "ciltacabtagene-autoleucel-new-lumps",
+    label: "Ciltacabtagene autoleucel",
+    drugIds: ["ciltacabtagene-autoleucel"],
+    flags: [
+      { symptom: "New swollen glands, or new rashes or lumps in the skin, after ciltacabtagene autoleucel", threshold: "The package leaflet says \"Patients treated with CARVYKTI may develop new types of cancers.\" and \"Talk to your doctor if you experience any new swelling of your glands (lymph nodes) or changes in your skin such as new rashes or lumps.\"", action: "call-today", source: EMA_CARVYKTI_RF, protocols: ["second-cancers-after-anticancer-drug-treatment"] },
+    ],
+  },
+  {
+    id: "talquetamab-mouth-problems",
+    label: "Talquetamab",
+    drugIds: ["talquetamab"],
+    flags: [
+      { symptom: "A change in taste, a dry mouth, trouble swallowing or mouth sores on talquetamab", threshold: "Changes in the sense of taste, a dry mouth, trouble swallowing or mouth sores. The US Medication Guide says \"Tell your healthcare provider or get medical help right away if you develop any of the following symptoms of mouth problems\".", action: "call-now", source: DM_TALVEY_RF, protocols: ["taste-changes-during-cancer-treatment"] },
+    ],
+  },
+  {
+    id: "tarlatamab-taste-change",
+    label: "Tarlatamab",
+    drugIds: ["tarlatamab"],
+    flags: [
+      { symptom: "A change in taste on tarlatamab", threshold: "The US Medication Guide lists \"changes in taste\" among the signs of neurological problems, with headache, numbness or tingling, dizziness, confusion and others. It says \"Tell your healthcare provider right away if you develop any signs or symptoms of neurologic problems\". This is the US guide's wording.", action: "call-now", source: DM_IMDELLTRA_RF, protocols: ["taste-changes-during-cancer-treatment"] },
+    ],
+  },
+  {
+    id: "inotuzumab-ozogamicin-liver",
+    label: "Inotuzumab ozogamicin",
+    drugIds: ["inotuzumab-ozogamicin"],
+    flags: [
+      { symptom: "Rapid weight gain, pain under the right ribs, a swollen tummy, or yellowing of the skin or eyes on inotuzumab ozogamicin", threshold: "Possible signs of veno-occlusive liver disease. The package leaflet says \"Tell your doctor immediately if you have signs and symptoms of any of the following serious side effects:\" and of this one \"signs and symptoms include rapid weight gain, pain in the upper right side of your abdomen, increase in the size of the liver, accumulation of fluid causing abdominal swelling\".", action: "call-now", source: EMA_BESPONSA_RF, protocols: ["veno-occlusive-disease-on-inotuzumab-and-gemtuzumab-ozogamicin"] },
+    ],
+  },
+  {
+    id: "gemtuzumab-ozogamicin-liver",
+    label: "Gemtuzumab ozogamicin",
+    drugIds: ["gemtuzumab-ozogamicin"],
+    flags: [
+      { symptom: "Rapid weight gain, pain under the right ribs or a swollen tummy on gemtuzumab ozogamicin", threshold: "Under liver problems, among the serious side effects, the package leaflet says \"Tell your doctor right away if you have rapid weight gain, feel pain in the upper right side of your abdomen, have accumulation of fluid causing abdominal swelling.\"", action: "call-now", source: EMA_MYLOTARG_RF, protocols: ["veno-occlusive-disease-on-inotuzumab-and-gemtuzumab-ozogamicin"] },
     ],
   },
   // ---- Cancer-scoped sets: the disease's own emergencies, shown whatever the treatment (NHS 111 and 999 wording).

@@ -287,7 +287,7 @@ export const simpleN: Record<string, string> = {
   clonoseq: "Adaptive Biotechnologies' clonoSEQ is a DNA test, FDA-authorised in 2018, that counts leftover leukaemia, myeloma or lymphoma cells down to one in a million to show whether treatment really worked.",
   "guardant-reveal": "Guardant Reveal, launched in 2021, is a blood test for leftover cancer after surgery that needs no tumour sample, so results come faster than tumour-informed tests, first for bowel cancer.",
   "radar-mrd": "RaDaR is NeoGenomics' personalised blood test for tiny amounts of leftover cancer, tracking up to 48 mutations from the patient's own tumour, developed by Inivata in Cambridge.",
-  oncodetect: "Oncodetect is Exact Sciences' entry into the leftover-cancer blood test market, launched in 2025 for bowel cancer follow-up after surgery, with wider uses still pending.",
+  oncodetect: "Oncodetect is a blood test for leftover cancer from Exact Sciences, now part of Abbott, launched in 2025 for bowel cancer follow-up; since October 2026 a wider version covers solid tumours.",
   prosigna: "Prosigna (PAM50) is a 50-gene test run in local hospital laboratories, cleared by the FDA in 2013, that estimates the ten-year risk of a hormone-positive breast cancer coming back.",
   endopredict: "EndoPredict, Myriad's 12-gene test, combines gene activity with tumour size and lymph nodes to say whether hormone therapy alone is enough for breast cancer or should continue beyond five years.",
   "breast-cancer-index": "Breast Cancer Index, from Hologic, is the only test designed to tell a woman finishing five years of hormone therapy whether another five years is worth the side effects.",

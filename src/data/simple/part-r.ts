@@ -1252,7 +1252,7 @@ export const simpleR: Record<string, string> = {
   "nct06618287": "Bristol-Myers Squibb is testing osimertinib, pembrolizumab, nivolumab and PM8002 in people with advanced solid tumours in an early stage (phase 1/2) trial, and it is recruiting now.",
   "nct05918133": "Biotheus is testing PM8002 in people with triple-negative breast cancer in an early stage (phase 1/2) trial, and it is running but no longer recruiting.",
   "nct07122414": "Suzhou Forlong Biotechnology is testing FL115 in people with bladder and urothelial cancer in an early stage (phase 1/2) trial, and it is recruiting now.",
-  "nct07208149": "Shenzhen Majory Biotechnology is testing MCLA-129 in people with triple-negative breast cancer in an early stage (phase 1/2) trial, and it is recruiting now.",
+  "nct07208149": "Shenzhen Majory Biotechnology is testing MR001, a two-target antibody, in people with triple-negative breast cancer in an early stage (phase 1/2) trial, and it is recruiting now.",
   "nct05990452": "Mabwell (Shanghai) Bioscience is testing 9MW2921 in people with advanced solid tumours in an early stage (phase 1/2) trial, and it is running but no longer recruiting.",
   "nct05636215": "Innovent Biologics (Suzhou) is testing IBI354 in people with advanced solid tumours in an early stage (phase 1/2) trial, and it is recruiting now.",
   "nct07520006": "Nurix Therapeutics is testing bexobrutideg, venetoclax and other drugs in people with non-Hodgkin lymphoma and chronic lymphocytic leukaemia in an early stage trial, and it is recruiting now.",

@@ -42,7 +42,7 @@ const raw: EntityInput[] = [
     payload: "PBD dimer (SC-DR002)", linker: "Cleavable dipeptide",
     targets: ["dll3"], technologies: ["adc"], companies: ["abbvie", "stemcentrx"], cancers: ["sclc"], drugs: ["tarlatamab"],
     tags: ["failure", "lesson:wrong-drug"],
-    links: [{ label: "TAHOE phase 3 (J Thorac Oncol 2021)", url: "https://www.jto.org/article/S1556-0864(21)02264-5/fulltext" }],
+    links: [{ label: "TAHOE phase 3 (J Thorac Oncol 2021)", url: "https://doi.org/10.1016/j.jtho.2021.02.009" }],
   },
   {
     id: "iniparib", kind: "drug", name: "Iniparib", code: "BSI-201, SAR240550", modality: "Small molecule given by intravenous infusion (claimed PARP inhibitor)", asOf: "2026-11-18", status: "negative", wikipedia: W("Iniparib"),

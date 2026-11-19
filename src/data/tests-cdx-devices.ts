@@ -29,7 +29,7 @@ const co = (x: Omit<CompanyInput, "kind" | "asOf">): CompanyInput => ({ kind: "c
 
 const devices: DrugInput[] = [
   // ---- Blood cancers ----
-  d({ id: "abbott-realtime-idh1", name: "Abbott RealTime IDH1", brand: "Abbott RealTime IDH1", modality: "PCR companion diagnostic test (IDH1 mutations, blood or bone marrow)", status: "approved",
+  d({ id: "abbott-realtime-idh1", asOf: "2026-11-18", name: "Abbott RealTime IDH1", brand: "Abbott RealTime IDH1", modality: "PCR companion diagnostic test (IDH1 mutations, blood or bone marrow)", status: "approved",
     mechanism: "Detects the IDH1 R132 mutations R132C, R132H, R132G, R132S and R132L in DNA from peripheral blood or bone marrow.",
     tldr: "The FDA-approved test that finds an IDH1 mutation in acute myeloid leukaemia or myelodysplastic syndrome, which makes a person eligible for an IDH1 inhibitor.",
     summary: "Abbott Molecular's RealTime IDH1 was approved on 20 July 2018 (PMA P170041) as the companion diagnostic for ivosidenib in acute myeloid leukaemia. Supplements added olutasidenib in acute myeloid leukaemia (1 December 2022) and ivosidenib in myelodysplastic syndromes (24 October 2023). It reads blood or bone marrow, so no solid tumour sample is involved.",
@@ -37,7 +37,7 @@ const devices: DrugInput[] = [
     targets: ["idh"], drugs: ["ivosidenib", "olutasidenib"], cancers: ["aml", "mds"], companies: ["abbott"],
     technologies: ["companion-diagnostic"], terms: ["pcr", "companion-diagnostic-term"], related: ["abbott-realtime-idh2"],
     links: [PMA("P170041"), FDA_CDX_LIST] }),
-  d({ id: "abbott-realtime-idh2", name: "Abbott RealTime IDH2", brand: "Abbott RealTime IDH2", modality: "PCR companion diagnostic test (IDH2 mutations, blood or bone marrow)", status: "approved",
+  d({ id: "abbott-realtime-idh2", asOf: "2026-11-18", name: "Abbott RealTime IDH2", brand: "Abbott RealTime IDH2", modality: "PCR companion diagnostic test (IDH2 mutations, blood or bone marrow)", status: "approved",
     mechanism: "Detects the IDH2 mutations R140Q, R140L, R140G, R140W, R172K, R172M, R172G, R172S and R172W in DNA from peripheral blood or bone marrow.",
     tldr: "The FDA-approved test that finds an IDH2 mutation in acute myeloid leukaemia, the gateway to enasidenib.",
     summary: "Abbott Molecular's RealTime IDH2 was approved on 1 August 2017 (PMA P170005) as the companion diagnostic for enasidenib in acute myeloid leukaemia. It reads blood or bone marrow.",
@@ -79,8 +79,8 @@ const devices: DrugInput[] = [
     links: [HDE("H140006"), FDA_CDX_LIST] }),
 
   // ---- Melanoma and BRAF ----
-  d({ id: "cobas-4800-braf-v600", name: "cobas 4800 BRAF V600 Mutation Test", brand: "cobas 4800 BRAF V600 Mutation Test", modality: "Real-time PCR companion diagnostic test (BRAF V600, melanoma tissue)", status: "approved",
-    mechanism: "Detects BRAF V600 mutations in DNA from melanoma tissue.",
+  d({ id: "cobas-4800-braf-v600", asOf: "2026-11-18", name: "cobas 4800 BRAF V600 Mutation Test", brand: "cobas 4800 BRAF V600 Mutation Test", modality: "Real-time PCR companion diagnostic test (BRAF V600, melanoma tissue)", status: "approved",
+    mechanism: "Detects the BRAF V600E mutation in DNA from formalin-fixed, paraffin-embedded melanoma tissue. The FDA's approval order says the test also cross-reacts with V600K.",
     tldr: "The BRAF test for melanoma approved as companion to vemurafenib in 2011 and to cobimetinib with vemurafenib in 2016.",
     summary: "Roche Molecular Systems' cobas 4800 BRAF V600 Mutation Test was approved on 17 August 2011 (PMA P110020) as the companion diagnostic for vemurafenib in BRAF V600E melanoma. A supplement on 7 November 2016 added cobimetinib with vemurafenib for V600E or V600K melanoma.",
     approvals: [{ region: "US", year: 2011, indication: "Companion diagnostic for vemurafenib in BRAF V600E melanoma" }, { region: "US", year: 2016, indication: "Companion diagnostic for cobimetinib with vemurafenib (V600E or V600K)" }],
@@ -98,7 +98,7 @@ const devices: DrugInput[] = [
     links: [PMA("P120014"), FDA_CDX_LIST] }),
 
   // ---- Lung ----
-  d({ id: "vysis-alk-break-apart-fish", name: "Vysis ALK Break Apart FISH Probe Kit", brand: "Vysis ALK Break Apart FISH Probe Kit", modality: "FISH companion diagnostic test (ALK rearrangement, lung tumour tissue)", status: "approved",
+  d({ id: "vysis-alk-break-apart-fish", asOf: "2026-11-18", name: "Vysis ALK Break Apart FISH Probe Kit", brand: "Vysis ALK Break Apart FISH Probe Kit", modality: "FISH companion diagnostic test (ALK rearrangement, lung tumour tissue)", status: "approved",
     mechanism: "Fluorescence in situ hybridisation with probes either side of the ALK gene: when the two signals split apart, the gene has been rearranged.",
     tldr: "The test approved with crizotinib in 2011 to find ALK-rearranged lung cancer, still listed as companion to brigatinib and ensartinib.",
     summary: "Abbott Molecular's Vysis ALK Break Apart FISH Probe Kit was approved on 26 August 2011 (PMA P110012) as the companion diagnostic for crizotinib in ALK-rearranged non-small-cell lung cancer. Supplements added brigatinib (22 May 2020) and ensartinib (5 August 2025). The Ventana ALK (D5F3) CDx Assay detects the same alteration as protein by immunohistochemistry.",
@@ -106,7 +106,7 @@ const devices: DrugInput[] = [
     targets: ["alk"], drugs: ["crizotinib", "brigatinib", "ensartinib"], cancers: ["nsclc"], companies: ["abbott"],
     technologies: ["companion-diagnostic", "cytogenetics-fish"], terms: ["fish", "companion-diagnostic-term"], related: ["ventana-alk-d5f3-cdx"],
     links: [PMA("P110012"), FDA_CDX_LIST] }),
-  d({ id: "ventana-alk-d5f3-cdx", name: "VENTANA ALK (D5F3) CDx Assay", brand: "VENTANA ALK (D5F3) CDx Assay", aka: ["Ventana ALK (D5F3) CDx Assay"], modality: "Immunohistochemistry companion diagnostic assay (ALK protein, lung tumour tissue)", status: "approved",
+  d({ id: "ventana-alk-d5f3-cdx", asOf: "2026-11-18", name: "VENTANA ALK (D5F3) CDx Assay", brand: "VENTANA ALK (D5F3) CDx Assay", aka: ["Ventana ALK (D5F3) CDx Assay"], modality: "Immunohistochemistry companion diagnostic assay (ALK protein, lung tumour tissue)", status: "approved",
     mechanism: "Immunohistochemistry with the D5F3 antibody, reading ALK protein expression in lung tumour tissue as a stand-in for an ALK rearrangement.",
     tldr: "The ALK stain for lung cancer, approved as companion to four ALK inhibitors: crizotinib, ceritinib, alectinib and lorlatinib.",
     summary: "Ventana Medical Systems' ALK (D5F3) CDx Assay was approved on 12 June 2015 (PMA P140025) as the companion diagnostic for crizotinib in non-small-cell lung cancer. Supplements added ceritinib (26 May 2017), alectinib (6 November 2017) and lorlatinib (3 March 2021). Ventana is part of Roche.",
@@ -142,11 +142,11 @@ const devices: DrugInput[] = [
   // ---- Breast, gastric and HER2 ----
   d({ id: "pathvysion-her2", name: "PathVysion HER-2 DNA Probe Kit", brand: "PathVysion HER-2 DNA Probe Kit", modality: "FISH companion diagnostic test (HER2 gene amplification, breast tumour tissue)", status: "approved",
     mechanism: "Fluorescence in situ hybridisation counting copies of the HER2 (ERBB2) gene in breast tumour cells.",
-    tldr: "One of the first HER2 gene tests, approved in December 1998 to select trastuzumab for breast cancer.",
-    summary: "Abbott Molecular's PathVysion HER-2 DNA Probe Kit was approved on 11 December 1998 (PMA P980024) and is listed by the FDA as a companion diagnostic for trastuzumab in breast cancer, detecting HER2 gene amplification.",
-    approvals: [{ region: "US", year: 1998, indication: "HER2 gene amplification to select trastuzumab in breast cancer" }],
+    tldr: "A HER2 gene test approved in December 1998 as a prognostic aid in node-positive breast cancer; its use to help decide on trastuzumab was added in December 2001.",
+    summary: "Abbott Molecular's PathVysion HER-2 DNA Probe Kit was approved on 11 December 1998 (PMA P980024). The FDA's record of that first approval describes a prognostic use: an adjunct to other prognostic factors in stage II, node-positive breast cancer, and an aid to predicting survival in such patients given adjuvant cyclophosphamide, doxorubicin and fluorouracil. A supplement approved on 31 December 2001 (S001) added its use as an aid in assessing patients for whom trastuzumab (Herceptin) is being considered. The FDA lists the kit as a companion diagnostic for trastuzumab in breast cancer, detecting HER2 gene amplification, under the 1998 date.",
+    approvals: [{ region: "US", year: 1998, indication: "HER2 gene amplification as a prognostic aid in stage II, node-positive breast cancer" }, { region: "US", year: 2001, indication: "Aid in assessing patients for whom trastuzumab is being considered in breast cancer", note: "PMA supplement P980024/S001, 31 December 2001" }],
     targets: ["her2"], drugs: ["trastuzumab"], cancers: ["breast-her2-positive"], companies: ["abbott"],
-    technologies: ["companion-diagnostic", "cytogenetics-fish"], terms: ["fish", "her2-positive", "companion-diagnostic-term"], related: ["her2-testing-assays", "her2-fish-pharmdx"],
+    technologies: ["companion-diagnostic", "cytogenetics-fish"], terms: ["fish", "her2-positive", "companion-diagnostic-term"], related: ["her2-testing-assays", "her2-fish-pharmdx"], asOf: "2026-11-18",
     links: [PMA("P980024"), FDA_CDX_LIST] }),
   d({ id: "her2-fish-pharmdx", asOf: "2026-11-18", name: "HER2 FISH pharmDx Kit", brand: "HER2 FISH pharmDx", modality: "FISH companion diagnostic test (HER2 gene amplification, tumour tissue)", status: "approved",
     mechanism: "Fluorescence in situ hybridisation measuring HER2 (ERBB2) gene amplification in breast or gastric tumour tissue.",
@@ -156,7 +156,7 @@ const devices: DrugInput[] = [
     targets: ["her2"], drugs: ["trastuzumab", "pertuzumab", "trastuzumab-emtansine"], cancers: ["breast-her2-positive", "gastric-her2-positive"], companies: ["agilent"],
     technologies: ["companion-diagnostic", "cytogenetics-fish"], terms: ["fish", "her2-positive", "companion-diagnostic-term"], related: ["her2-testing-assays", "pathvysion-her2"],
     links: [PMA("P040005"), FDA_CDX_LIST] }),
-  d({ id: "bond-oracle-her2-ihc", name: "Bond Oracle HER2 IHC System", brand: "Bond Oracle HER2 IHC System", modality: "Immunohistochemistry companion diagnostic assay (HER2 protein, breast tumour tissue)", status: "approved",
+  d({ id: "bond-oracle-her2-ihc", asOf: "2026-11-18", name: "Bond Oracle HER2 IHC System", brand: "Bond Oracle HER2 IHC System", modality: "Immunohistochemistry companion diagnostic assay (HER2 protein, breast tumour tissue)", status: "approved",
     mechanism: "Immunohistochemistry for HER2 protein in breast tumour tissue.",
     tldr: "Leica's HER2 stain for breast cancer, listed by the FDA as a companion to trastuzumab.",
     summary: "Leica Biosystems' Bond Oracle HER2 IHC System was approved on 18 April 2012 (PMA P090015) and is listed as a companion diagnostic for trastuzumab in breast cancer, detecting HER2 protein overexpression.",
@@ -174,7 +174,7 @@ const devices: DrugInput[] = [
     links: [PMA("P230018"), FDA_CDX_LIST] }),
 
   // ---- Gynaecological ----
-  d({ id: "ventana-folr1-rxdx", name: "VENTANA FOLR1 (FOLR-2.1) RxDx Assay", brand: "VENTANA FOLR1 RxDx Assay", aka: ["VENTANA FOLR1 (FOLR1-2.1) RxDx Assay", "Ventana FOLR1 (FOLR-2.1) RxDx Assay"], modality: "Immunohistochemistry companion diagnostic assay (folate receptor alpha, ovarian tumour tissue)", status: "approved",
+  d({ id: "ventana-folr1-rxdx", asOf: "2026-11-18", name: "VENTANA FOLR1 (FOLR-2.1) RxDx Assay", brand: "VENTANA FOLR1 RxDx Assay", aka: ["VENTANA FOLR1 (FOLR1-2.1) RxDx Assay", "Ventana FOLR1 (FOLR-2.1) RxDx Assay"], modality: "Immunohistochemistry companion diagnostic assay (folate receptor alpha, ovarian tumour tissue)", status: "approved",
     mechanism: "Immunohistochemistry for folate receptor alpha (FOLR1) protein in tumour tissue.",
     tldr: "The stain that selects people with ovarian, fallopian tube or primary peritoneal cancer for mirvetuximab soravtansine.",
     summary: "Ventana Medical Systems' (Roche Tissue Diagnostics) FOLR1 (FOLR-2.1) RxDx Assay was approved on 14 November 2022 (PMA P220006) as the companion diagnostic for mirvetuximab soravtansine in epithelial ovarian, fallopian tube or primary peritoneal cancer with folate receptor alpha expression.",

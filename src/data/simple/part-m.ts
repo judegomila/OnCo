@@ -216,7 +216,7 @@ export const simpleM: Record<string, string> = {
   "lepu-biopharma": "Lepu Biopharma, based in Shanghai, China, is running eight late-stage cancer trials of MRG003, Pucotenlimab and MRG006A in head and neck, nasopharyngeal [behind the nose] and liver cancers.",
   lerotinib: "Sunshine Lake Pharma is testing Lerotinib, a small-molecule drug, in a phase 3 trial for oesophageal cancer [food-pipe cancer], though its target is not stated publicly.",
   "ligachem-biosciences": "LigaChem Biosciences, based in Daejeon, South Korea, specialises in antibody-drug conjugates [targeted drugs that carry chemotherapy to cancer cells] and is running two late-stage cancer trials of LCB02A and LCB84.",
-  lirafugratinib: "Elevar Therapeutics is testing Lirafugratinib, an oral small-molecule drug that blocks FGFR2 [a protein that receives growth signals], in a phase 2 trial for cancer.",
+  lirafugratinib: "Lirafugratinib (Lyrfigtu) is taken by mouth and blocks FGFR2 [a protein that receives growth signals]. The US approved it in 2026 for previously treated bile duct cancer with an FGFR2 fusion.",
   livmoniplimab: "Livmoniplimab is an experimental AbbVie medicine whose exact type and target the company has not made public, in phase 3 trials for liver cancer, non-small-cell lung cancer and bladder cancer.",
   "lm-108": "LM-108 is a monoclonal antibody [a lab-made immune protein] from Chia Tai Tianqing Pharmaceutical Nanjing Shunxin Pharmaceutical and LaNova Medicines, in phase 3 trials for pancreatic and stomach cancers.",
   "lm-302": "An antibody-drug conjugate [a targeted drug that carries chemotherapy to cancer cells] from LaNova Medicines Zhejiang, LM-302 is in phase 3 trials for stomach cancer, aimed at Claudin 18.2 [CLDN18.2].",

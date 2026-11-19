@@ -348,7 +348,7 @@ export const simpleA: Record<string, string> = {
   signatera: "The most widely used blood test for leftover cancer after surgery, tailored to each patient's tumour.",
   "foundationone-cdx": "FDA-approved gene tests on tissue or blood that decide whether dozens of drugs are right for a patient.",
   "oncotype-dx": "A 21-gene test that tells most women with early hormone-driven breast cancer whether they can safely skip chemotherapy.",
-  "artera-ai-prostate": "The first AI tool cleared by the FDA to predict both outlook and treatment benefit from a routine prostate biopsy slide.",
+  "artera-ai-prostate": "An AI tool that reads a routine prostate biopsy slide. The FDA authorised it in 2025 to estimate outlook, not to predict who benefits from hormone therapy.",
   "artera-ai-breast": "An FDA-cleared AI test (2026) that reads breast cancer slides to estimate the risk of the cancer coming back.",
   carboplatin: "A platinum chemotherapy that tangles DNA, part of the standard pre-surgery treatment for triple-negative breast cancer.",
   paclitaxel: "A chemotherapy first found in the Pacific yew tree, among the most used in breast, lung, and ovarian cancer.",

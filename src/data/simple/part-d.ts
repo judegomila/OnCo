@@ -125,7 +125,7 @@ export const simpleD: Record<string, string> = {
   "fianlimab-phase3-melanoma": "This trial tested adding a second immune brake blocker to an immune drug in advanced melanoma; it did not work better than the standard immune drug alone.",
   "fight-202": "This trial tested a targeted pill in bile duct cancer with an FGFR2 gene change; it found about a third of tumours shrank, leading to the first targeted approval.",
   "fires-sentor": "These studies tested removing only the first draining lymph nodes in womb cancer; they found this spots nearly all spread (97% of cases in the larger study).",
-  "first-308": "This trial is testing a new pill against chemotherapy in bile duct cancer that has outgrown existing FGFR pills; it is still recruiting.",
+  "first-308": "This trial is testing a new pill against chemotherapy in bile duct cancer that has outgrown existing FGFR pills; it has finished recruiting and has not yet reported.",
   "fmt-pd1-refractory-melanoma-pitt": "This small study gave melanoma patients a stool transplant from someone whose immune drug had worked, then restarted the drug; six of fifteen benefited.",
   "foenix-cca2": "This trial tested a targeted pill in bile duct cancer with an FGFR2 gene change; it found more than four in ten tumours shrank.",
   "fortifi-hn01": "This trial is testing a two-in-one antibody added to an immune drug in head and neck cancer not caused by HPV; it is still recruiting.",

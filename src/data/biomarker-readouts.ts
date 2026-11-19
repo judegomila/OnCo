@@ -27,9 +27,9 @@ export const th = (x: Th): BiomarkerThreshold => ({ status: "current", ...x });
  * names; Signatera CDx (P260004) is the companion diagnostic version of the Signatera record, whose IMvigor011
  * approval it is (src/data/tumour-tests.ts says so). Guardant360 Liquid CDx (P250027, a different PMA from Guardant360
  * CDx) has its own record, guardant360-liquid-cdx, since 17 November 2026. cobas KRAS, cobas EZH2, PGDx elio tissue
- * complete CDx, HER2 CISH pharmDx and SPOT-LIGHT HER2 CISH have records since 19 November 2026
- * (src/data/tests-cdx-devices.ts). Not mapped, because no record covers the device: INFORM HER-2/neu, InSite
- * Her-2/neu (CB11) and therascreen PDGFRA (the therascreen family record does not name it).
+ * complete CDx and HER2 CISH pharmDx have records since 19 November 2026 (src/data/tests-cdx-devices.ts). Not mapped,
+ * because no record covers the device: INFORM HER-2/neu, InSite Her-2/neu (CB11), SPOT-LIGHT HER2 CISH and
+ * therascreen PDGFRA (the therascreen family record does not name it).
  */
 export const CDX_DEVICE_IDS: Record<string, string> = {
   "Abbott RealTime IDH1": "abbott-realtime-idh1",
@@ -66,7 +66,6 @@ export const CDX_DEVICE_IDS: Record<string, string> = {
   "PD-L1 IHC 28-8 pharmDx": "pd-l1-ihc-28-8-pharmdx",
   "PGDx elio tissue complete CDx": "pgdx-elio-tissue-complete-cdx",
   "PathVysion HER-2 DNA Probe Kit": "pathvysion-her2",
-  "SPOT-LIGHT HER2 CISH Kit": "spot-light-her2-cish",
   "SeCore CDx HLA Sequencing System": "secore-cdx-hla",
   "Signatera CDx": "signatera",
   "THxID BRAF Kit": "thxid-braf",

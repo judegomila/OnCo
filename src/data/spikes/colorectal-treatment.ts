@@ -77,7 +77,7 @@ const colorectalDrugSupplements: SpikeSupplement[] = [
     links: [{ label: "NICE TA439: cetuximab and panitumumab for previously untreated metastatic colorectal cancer", url: SRC.ta439 }, { label: "EMA Erbitux", url: SRC.emaErbitux }],
     trials: ["prime", "opus", "calgb-80405", "swog-s1406", "new-epoc", "n0147", "petacc-8"] },
   { id: "panitumumab", approvals: [
-      { region: "EU", year: 2007, indication: "Metastatic colorectal cancer; RAS wild-type from 2013", note: "Vectibix marketing authorisation issued 3 December 2007." },
+      { region: "EU", year: 2007, indication: "Metastatic colorectal cancer; RAS wild-type from 2013", note: "Vectibix received a conditional marketing authorisation on 3 December 2007, switched to a full authorisation on 15 January 2015 (EMA EPAR, read 18 November 2026)." },
       { region: "England (NICE)", year: 2017, indication: "Previously untreated RAS wild-type metastatic colorectal cancer with FOLFOX or FOLFIRI", note: "TA439 recommends panitumumab within its marketing authorisation subject to the patient access scheme." }],
     links: [{ label: "NICE TA439", url: SRC.ta439 }, { label: "EMA Vectibix", url: SRC.emaVectibix }],
     trials: ["prime", "cairo5", "foxtrot"] },

@@ -73,7 +73,7 @@ export const simpleO: Record<string, string> = {
   fostamatinib: "Fostamatinib is a tablet that blocks the enzyme SYK so the spleen stops destroying platelets, approved for chronic immune thrombocytopenia.",
   glecirasib: "Glecirasib is a Chinese KRAS G12C inhibitor approved in 2024 for previously treated non-small cell lung cancer carrying that mutation.",
   glumetinib: "Glumetinib is a Chinese MET inhibitor approved in China in 2023 and in Japan in 2024 for lung cancers with MET exon 14 skipping.",
-  golidocitinib: "Golidocitinib is a JAK1 inhibitor approved in China in 2024 as the first JAK drug for peripheral T-cell lymphoma that has come back after treatment.",
+  golidocitinib: "Golidocitinib is a JAK1 inhibitor conditionally approved in China in 2024 for peripheral T-cell lymphoma that has come back after treatment.",
   "h101-oncolytic-adenovirus": "Oncorine is a cancer-killing virus approved in China in 2005 for nasopharyngeal carcinoma with chemotherapy, the first oncolytic virus approved anywhere.",
   hexaminolevulinate: "Hexaminolevulinate makes bladder tumours glow red under blue light so the urologist can see and remove tiny cancers that ordinary white light misses.",
   inetetamab: "Inetetamab is a Chinese HER2 antibody approved in 2020 with vinorelbine for HER2-positive breast cancer that has spread.",

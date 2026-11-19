@@ -148,7 +148,7 @@ const devices: DrugInput[] = [
     targets: ["her2"], drugs: ["trastuzumab"], cancers: ["breast-her2-positive"], companies: ["abbott"],
     technologies: ["companion-diagnostic", "cytogenetics-fish"], terms: ["fish", "her2-positive", "companion-diagnostic-term"], related: ["her2-testing-assays", "her2-fish-pharmdx"],
     links: [PMA("P980024"), FDA_CDX_LIST] }),
-  d({ id: "her2-fish-pharmdx", name: "HER2 FISH pharmDx Kit", brand: "HER2 FISH pharmDx", modality: "FISH companion diagnostic test (HER2 gene amplification, tumour tissue)", status: "approved",
+  d({ id: "her2-fish-pharmdx", asOf: "2026-11-18", name: "HER2 FISH pharmDx Kit", brand: "HER2 FISH pharmDx", modality: "FISH companion diagnostic test (HER2 gene amplification, tumour tissue)", status: "approved",
     mechanism: "Fluorescence in situ hybridisation measuring HER2 (ERBB2) gene amplification in breast or gastric tumour tissue.",
     tldr: "Dako's HER2 gene test, listed as companion to trastuzumab, pertuzumab and trastuzumab emtansine.",
     summary: "The HER2 FISH pharmDx Kit (Dako, now part of Agilent) was approved on 3 May 2005 (PMA P040005) for trastuzumab in breast cancer. Supplements extended it to trastuzumab in gastric and gastro-oesophageal cancer (20 October 2010), pertuzumab in breast cancer (8 June 2012) and trastuzumab emtansine in breast cancer (22 February 2013).",

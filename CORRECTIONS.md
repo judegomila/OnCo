@@ -5619,6 +5619,7 @@ Exact fields, source identities and read-depth limits are retained in the [binde
 - **Protein measurements:** mass spectrometry does not measure every protein or directly establish cellular function, and it is not an exclusive route to phosphorylation information. Protein-derived peptides, phosphosite signals, model estimates, cell assignments and functional effects retain their own scopes. Sources include the [protein-inference methods paper](https://doi.org/10.1021/pr401072g) and the [breast proteogenomic study](https://doi.org/10.1038/nature18003).
 - **Predictions and assays:** unqualified transfer and clinical-response claims are removed from inherited lead paragraphs. A virtual-cell model returning no response to a mutation-driven drug is not guaranteed to be correct. The [IC50-to-Ki methods paper](https://doi.org/10.1093/nar/gkp253) supports the assay-condition distinction; an unverified FFPE immunopeptidomics adaptation is explicitly withheld. Existing notes carry the worked examples and reading guides, and four stale short summaries use current English fallback without a new language-review claim.
 
+
 ### Repair, signalling and what the assays establish
 
 - **MYC citation:** the inherited link labelled OMO-103 resolved to a glioma CAR-T trial. The DOI is corrected to the independently resolved [Garralda phase 1 OMO-103 study](https://doi.org/10.1038/s41591-024-02805-1), already represented by the existing paper owner. No clinical benefit is inferred from MYC abundance.
@@ -5651,6 +5652,7 @@ Exact fields, source identities and read-depth limits are retained in the [binde
 - **Autophagy, ferroptosis and metabolism:** descriptions now keep assay, model and perturbation limits. They no longer turn a selected cell-state dependency into a universal cancer property or a metabolic perturbation into clinical benefit. [Horton’s transgenic comparison](https://pubmed.ncbi.nlm.nih.gov/9616204/) separates SREBP-relative effects and measured synthesis; [Freed-Pastor’s 3D cultures](https://pubmed.ncbi.nlm.nih.gov/22265415/) retain the nonsterol rescue distinction. Oxygen-consumption calculations now name the [published ATP-rate correction](https://pubmed.ncbi.nlm.nih.gov/30097494/).
 - **Antibody, HLA, tertiary lymphoid structures and TAP:** independent source review found three overcredited requirements, an omitted scoped association, duplicated TLS prose and an imprecise TAP citation label. Exact fields now state that same-target antibody formats can differ, distinguish ectopic location from a developmental stage, retain the scope of breast/melanoma associations and identify the TAP1 experiment. The [primary HLA comparison](https://pubmed.ncbi.nlm.nih.gov/25754738/) keeps its specific haplotype and method dependence.
 
+
 ### Antigen presentation, antibody functions and gene definitions
 
 - **Antibody, epitope, B cell, ADCC, Fc function and HLA typing:** the sixteen-lesson audit separates receptor binding, display, activation and completed function; removes antibody-format and Fc-silencing generalisations; and prevents broad HLA names from standing in for a resolved allele. Stale short-summary entries now use corrected English fallback.
@@ -5671,6 +5673,7 @@ Exact fields, source identities and read-depth limits are retained in the [binde
 | 2026-11-09 | [Cell-therapy orchestration software](/technologies/cell-therapy-orchestration-software/) | Said software guarantees correct on-time return, eliminates mix-ups and that named commercial systems are regulator-required | Raw FDA traceability passage and bounded ICCBBA identity/custody definitions | Describes controlled workflow support and separate identity, custody, quality and clinical decisions without a vendor mandate or guarantee |
 | 2026-11-09 | [Autologous CAR-T manufacturing](/technologies/car-t-manufacturing-process/) | Equated each dose with one run and generalised culture time, release order, waiting time and current plant/vendor claims | Product-specific FDA process guidance and primary manufacturing/outcome reports | Separates collections, runs, lots, samples, doses, clocks and clinical attrition; removes the unsupported general timings and plant/vendor assertions |
 | 2026-11-09 | Alternative summaries for the five owners above and [in vivo CAR-T](/technologies/in-vivo-car-t/) | Simplified and translated text could retain older source, freezing, workflow and manufacturing claims after English correction | Actual dictionary imports and each selected entry compared with the corrected concept | Corrects 47 existing reader summaries and one inline Chinese export; retains seven missing translations as explicit English fallback, without inventing language-review status |
+
 
 ### Synthetic cytokine receptors and omitted interactive teaching
 
@@ -6098,6 +6101,7 @@ Every factual claim on the country pages of waves 9 to 12 is being read a second
 | 2026-11-08 | [ATR and CHK1 inhibitors](/technologies/atr-chk1-inhibitors/) | Guaranteed death from checkpoint inhibition and illustrated the mechanism as PARP trapping | Camonsertib/prexasertib reports and attached-cargo abstracts | Retains context-specific dependence and toxicity; uses the direct kinase illustration; [draft #375](https://github.com/judegomila/OnCo/pull/375) |
 | 2026-11-08 | [Dosimetry](/terms/dosimetry/) | Presented estimated dose as a direct measurement of what tissue actually received and one scan method as universal | MIRD dosimetry and EPA unit definitions | Separates activity, modeled absorbed dose, sampling, geometry and uncertainty; [draft #375](https://github.com/judegomila/OnCo/pull/375) |
 | 2026-11-08 | [Radioimmunotherapy](/technologies/radioimmunotherapy/) | Said any ADC target becomes a radiation target and described chelation as universal | FDA radiopharmaceutical scope, MIRD, J591 and historical BEXXAR covalent-labeling description | Retains product-specific attachment, distribution, dose and normal-tissue exposure; [draft #375](https://github.com/judegomila/OnCo/pull/375) |
+
 
 ### Systematic public-education coverage audit: biology
 

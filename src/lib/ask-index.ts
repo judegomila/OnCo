@@ -10,6 +10,7 @@
  */
 import { KINDS, routeFor, type Kind } from "./kinds";
 import { ASK_ALIASES, ASK_STOP } from "./ask-lexicon";
+import type { Region } from "./region-meta";
 
 /**
  * Small facts the browser needs without fetching the record: the evidence grade of a complementary approach
@@ -17,7 +18,7 @@ import { ASK_ALIASES, ASK_STOP } from "./ask-lexicon";
  * product is approved in (from its approvals and the regional table), so "what did India approve for CAR-T"
  * can be answered from the index plus a handful of record fetches.
  */
-export type AskIndexExtra = { grade?: string; batch?: string; regions?: string[] };
+export type AskIndexExtra = { grade?: string; batch?: string; regions?: string[]; /** Dated approvals, "<date> <region>" (approvalDates), for questions that ask what was approved when. */ approved?: string[] };
 
 /** `tldr` is present server-side (harness, scripts); the browser index omits it to stay small and fetches records for text. */
 export type AskIndexEntry = AskIndexExtra & { id: string; kind: Kind; name: string; aliases: string[]; route: string; tldr?: string; status?: string };
@@ -33,6 +34,7 @@ function extraOf(e: AskIndexEntry): AskIndexExtra | undefined {
   if (e.grade) x.grade = e.grade;
   if (e.batch) x.batch = e.batch;
   if (e.regions?.length) x.regions = e.regions;
+  if (e.approved?.length) x.approved = e.approved;
   return Object.keys(x).length ? x : undefined;
 }
 
@@ -72,6 +74,44 @@ export function regionCode(region: string): string | undefined {
   if (/^(?:au|australia|tga)\b/.test(s)) return "AU";
   if (/^(?:in|india|cdsco|dcgi)\b/.test(s)) return "IN";
   return undefined;
+}
+
+/** A region the question names ("in the UK", "in Europe", "by the FDA") outranks the reader's saved region. */
+export function regionFromQuestion(q: string): Region | undefined {
+  const s = q.toLowerCase();
+  if (/\b(?:uk|u\.k\.|united kingdom|britain|british|england|nhs|nice|mhra)\b/.test(s)) return "UK";
+  if (/\b(?:eu|e\.u\.|europe|european|ema|emea|germany|france|italy|spain|netherlands)\b/.test(s)) return "EU";
+  if (/\b(?:japan|japanese|pmda|mhlw)\b/.test(s)) return "JP";
+  if (/\b(?:china|chinese|nmpa)\b/.test(s)) return "CN";
+  if (/\b(?:australia|australian|tga|pbs)\b/.test(s)) return "AU";
+  if (/\b(?:india|indian|cdsco|dcgi|pm-jay|ayushman)\b/.test(s)) return "IN";
+  if (/\b(?:us|u\.s\.|usa|united states|america|american|fda|medicare)\b/.test(s)) return "US";
+  return undefined;
+}
+
+/** Bodies whose rows sit in `approvals` but which do not license a medicine: NICE recommends funding, the WHO lists and prequalifies. */
+const NOT_A_REGULATOR = /\b(?:NICE|WHO)\b/;
+/** The regulatory events that are an approval: a first or supplemental approval, an accelerated approval, and its conversion to traditional approval. */
+const APPROVAL_EVENTS = new Set(["approval", "accelerated-approval", "conversion"]);
+
+/**
+ * When and where a product was approved, as "<date> <region>" ("2026-07-14 US"), from its typed regulatory events and
+ * its approval rows. The date is as precise as the record: a regulatory event carries a day or a month, an approval
+ * row only a year, and a year row is dropped when a dated event already covers that region and year. The region is
+ * the code Ask uses (regionCode) where there is one, else the corpus's own string. Retrieval reads these to tell a
+ * product approved in a period from a record that only mentions the period (ask.ts approvedThen).
+ */
+export function approvalDates(e: { approvals?: ReadonlyArray<{ region: string; year: number }>; regulatoryEvents?: ReadonlyArray<{ date: string; type: string; region: string }> }): string[] {
+  const out = new Set<string>();
+  const where = (region: string) => regionCode(region) ?? region.trim();
+  for (const ev of e.regulatoryEvents ?? []) if (APPROVAL_EVENTS.has(ev.type) && !NOT_A_REGULATOR.test(ev.region)) out.add(`${ev.date} ${where(ev.region)}`);
+  const dated = [...out];
+  for (const a of e.approvals ?? []) {
+    if (NOT_A_REGULATOR.test(a.region)) continue;
+    const r = where(a.region);
+    if (!dated.some((x) => x.startsWith(String(a.year)) && x.endsWith(` ${r}`))) out.add(`${a.year} ${r}`);
+  }
+  return [...out].sort();
 }
 
 /** "Triple-negative breast cancer (TNBC)" -> "Triple-negative breast cancer". */

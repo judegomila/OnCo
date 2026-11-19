@@ -9,7 +9,7 @@ import { type Entity } from "./schema";
 import { benchmark } from "@/data/benchmark";
 import { questions as patientQuestions } from "@/data/questions";
 import { buildMatcher, findMatches } from "./entity-matcher";
-import { deriveAliases, regionCode, shortTldr, type AskIndex, type AskIndexEntry, type AskIndexExtra, type AskPair } from "./ask-index";
+import { approvalDates, deriveAliases, regionCode, shortTldr, type AskIndex, type AskIndexEntry, type AskIndexExtra, type AskPair } from "./ask-index";
 import { ASK_ALIASES } from "./ask-lexicon";
 import { gradeFromTags } from "./complementary";
 import { COMPLEMENTARY_INDEX } from "@/data/complementary";
@@ -29,6 +29,8 @@ export function extrasFor(e: Entity): AskIndexExtra {
     const row = regionalApprovals[e.id];
     if (row) for (const r of approvedRegions(row)) regions.add(r);
     if (regions.size) x.regions = [...regions];
+    const approved = approvalDates(e);
+    if (approved.length) x.approved = approved;
   }
   return x;
 }

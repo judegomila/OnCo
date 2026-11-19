@@ -359,7 +359,7 @@ const list: UkCoverage[] = [
   rec("ripretinib", "ripretinib", 1146, 2026, "Advanced GIST after 3 or more kinase inhibitors including imatinib", { note: "Published 28 April 2026 with a commercial arrangement, replacing TA881 (May 2023)." }),
   rec("avapritinib", "avapritinib", 1012, 2024, "Advanced systemic mastocytosis (aggressive SM, SM with an associated haematological neoplasm, mast cell leukaemia)", { note: "Published 6 November 2024 with a commercial arrangement. The GIST appraisal (TA730, September 2021) was terminated after Blueprint Medicines withdrew, saying it would not launch avapritinib in the UK for that indication. For indolent systemic mastocytosis NICE has made no recommendation: its appraisal (ID6578) reached draft guidance in May 2026 and was deferred on 28 October 2026 after the company asked for much longer to respond; NICE expects to restart it in April 2027." }),
   rec("nirogacestat", "nirogacestat", 1199, 2026, "Progressing desmoid tumours that need systemic treatment in adults", { note: "Published 14 October 2026 with a commercial arrangement; the NHS in England must fund it within 90 days of publication. The MHRA licensed it on 7 January 2026." }),
-  notUk("pexidartinib", "pexidartinib", "EU marketing authorisation application withdrawn 2020; no UK licence."),
+  notUk("pexidartinib", "pexidartinib", "EU marketing authorisation refused in 2020; no UK licence."),
   notUk("vimseltinib", "vimseltinib"),
   rec("dinutuximab", "dinutuximab beta", 538, 2018, "High-risk neuroblastoma after induction, high-dose chemotherapy and stem cell transplant, or relapsed/refractory", { note: "Dinutuximab (Unituxin) is US-only; dinutuximab beta (Qarziba) is the UK product.", smc: "accepted" }),
   notUk("naxitamab", "naxitamab"),

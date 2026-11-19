@@ -72,7 +72,7 @@ export const simpleO: Record<string, string> = {
   fluoxymesterone: "Fluoxymesterone is an oral male hormone approved in 1956 and once used for advanced breast cancer, an approach dropped when better tolerated drugs arrived.",
   fostamatinib: "Fostamatinib is a tablet that blocks the enzyme SYK so the spleen stops destroying platelets, approved for chronic immune thrombocytopenia.",
   glecirasib: "Glecirasib is a Chinese KRAS G12C inhibitor approved in China in 2025 for previously treated non-small cell lung cancer carrying that mutation.",
-  glumetinib: "Glumetinib is a Chinese MET inhibitor approved in 2023 for lung cancers with MET exon 14 skipping.",
+  glumetinib: "Glumetinib is a Chinese MET inhibitor approved in China in 2023 and in Japan in 2024 for lung cancers with MET exon 14 skipping.",
   golidocitinib: "Golidocitinib is a JAK1 inhibitor approved in China in 2024 as the first JAK drug for peripheral T-cell lymphoma that has come back after treatment.",
   "h101-oncolytic-adenovirus": "Oncorine is a cancer-killing virus approved in China in 2005 for nasopharyngeal carcinoma with chemotherapy, the first oncolytic virus approved anywhere.",
   hexaminolevulinate: "Hexaminolevulinate makes bladder tumours glow red under blue light so the urologist can see and remove tiny cancers that ordinary white light misses.",
@@ -117,7 +117,7 @@ export const simpleO: Record<string, string> = {
   tunlametinib: "Tunlametinib is a Chinese MEK-blocking pill approved in 2024 for advanced melanoma with an NRAS mutation, a group with no targeted drug elsewhere in the world.",
   "uracil-mustard": "Uracil mustard was an early nitrogen mustard tablet approved in 1962 for chronic lymphocytic leukaemia and lymphomas, and it was discontinued long ago.",
   utidelone: "Utidelone is a Chinese epothilone chemotherapy approved in 2021 with capecitabine for advanced breast cancer after anthracyclines and taxanes have been used.",
-  vebreltinib: "Vebreltinib is a Chinese MET-blocking pill approved in 2023 for lung cancers with a MET exon 14 skipping mutation, and it is also being tested in glioblastoma.",
+  vebreltinib: "Vebreltinib is a Chinese MET-blocking pill approved in China in 2023 for lung cancers with a MET exon 14 skipping mutation, and in 2024 for some brain tumours with a PTPRZ1-MET fusion.",
   vorolanib: "Vorolanib is a Chinese pill that blocks VEGFR and PDGFR, approved in 2023 with everolimus for advanced kidney cancer after a first kinase inhibitor has failed.",
   zimberelimab: "Zimberelimab is a PD-1 antibody approved in China in 2021 for Hodgkin lymphoma that has come back, and it partners the TIGIT antibody domvanalimab in Western trials.",
   // technologies in diagnostics, imaging, radiation and immunotherapy

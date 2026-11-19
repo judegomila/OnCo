@@ -148,7 +148,7 @@ const drugs: DrugInput[] = [
 
   d({ id: "isb-2001", name: "ISB 2001", code: "ISB 2001", modality: "Trispecific T-cell engager (BCMA x CD38 x CD3)", status: "phase-1",
     links: [site("https://www.glenmarkpharma.com", "Glenmark Pharmaceuticals")],
-    tldr: "An Indian-discovered antibody that grips two targets on myeloma cells at once while pulling in T cells to kill them, licensed to AbbVie in 2025 in the biggest deal yet for an Indian cancer drug.",
+    tldr: "An Indian-discovered antibody that grips two targets on myeloma cells at once while pulling in T cells to kill them, licensed to AbbVie in 2025 for 700 million dollars upfront.",
     summary: "ISB 2001 is a trispecific antibody from Ichnos Glenmark Innovation that binds BCMA and CD38 on multiple myeloma cells and CD3 on T cells, with the aim of engaging tumours that express either antigen at low levels and reducing escape through single-antigen loss. It has been in phase 1 for relapsed or refractory multiple myeloma with orphan drug designation in the US. In July 2025 AbbVie licensed it for North America, Europe, Japan and Greater China for 700 million dollars upfront and up to 1.225 billion dollars in milestones plus royalties, with Glenmark retaining India and emerging markets. It is the clearest sign that Indian discovery, not only manufacturing, is entering global oncology.",
     mechanism: "Multispecific antibody with BCMA and CD38 binding arms and a CD3 arm that redirects T cells to lyse myeloma cells expressing either or both antigens.",
     targets: ["bcma", "cd38"], technologies: ["t-cell-engager", "bispecific-antibody"], companies: ["glenmark", "abbvie"], cancers: ["multiple-myeloma"], related: ["teclistamab", "talquetamab"], bottlenecks: ["b-translational-valley"] }),

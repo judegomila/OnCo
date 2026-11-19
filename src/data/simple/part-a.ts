@@ -219,7 +219,7 @@ export const simpleA: Record<string, string> = {
 
   // ---- products ----
   alectinib: "A gentle pill for ALK-positive lung cancer, used first for years and now also given after surgery.",
-  lazertinib: "An EGFR pill used together with the antibody amivantamab, the first combination to beat osimertinib.",
+  lazertinib: "An EGFR pill used together with the antibody amivantamab; in a large trial the pair worked for longer than osimertinib alone.",
   repotrectinib: "A pill for ROS1 and NTRK lung cancers that still works after other ROS1 drugs fail, though it can cause dizziness.",
   "capmatinib-tepotinib": "Two pills for the small number of lung cancers with a MET gene fault.",
   pralsetinib: "A second RET pill for lung cancer, used less than selpercatinib.",
@@ -290,7 +290,7 @@ export const simpleA: Record<string, string> = {
   "relatlimab-nivolumab": "The first drug to block the LAG-3 immune brake, given with nivolumab for melanoma.",
   dostarlimab: "A PD-1 immune drug famous for making some rectal cancers disappear without surgery.",
   cemiplimab: "A PD-1 immune drug that is the standard for advanced squamous skin cancer.",
-  tarlatamab: "The first immune-cell-recruiting drug to help people live longer with a common solid tumour, small-cell lung cancer.",
+  tarlatamab: "An immune-cell-recruiting drug for small-cell lung cancer that has grown after chemotherapy; in a trial people lived longer on it than on more chemotherapy.",
   teclistamab: "The first off-the-shelf two-armed antibody for myeloma, now approved after just one earlier treatment.",
   glofitamab: "A two-armed antibody given for a fixed time for large B-cell lymphoma.",
   tebentafusp: "The first drug to help people live longer with eye melanoma that has spread.",

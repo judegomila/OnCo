@@ -2,16 +2,18 @@
  * Review-only lead inbox, separate from proposal feeds that can write records.
  * X identifies leads. Only exact, independently resolved identifiers supply evidence.
  */
+import { execFileSync } from "node:child_process";
 import { mkdir, open, readFile, rename, unlink, writeFile } from "node:fs/promises";
-import { dirname, resolve } from "node:path";
+import { homedir } from "node:os";
+import { dirname, isAbsolute, join, relative, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 
 export type Account = { handle: string; domains: string[] };
 export const defaultAccounts: Account[] = [{ handle: "MSKCancerCenter", domains: ["mskcc.org", "www.mskcc.org", "ir.sellaslifesciences.com"] }];
 type Kind = "paper" | "trial" | "product" | "technology" | "company" | "institution";
 type Lead = { postUrl: string; landingPages: string[] };
-type Entity = { kind: Kind; name: string };
-type Evidence = { title: string; url: string; ids: string[]; entities: Entity[]; existingOncoUrl?: string };
+export type Entity = { kind: Kind; name: string };
+export type Evidence = { title: string; url: string; ids: string[]; entities: Entity[]; existingOncoUrl?: string };
 type Candidate = {
   key: string; state: "resolved-source-review" | "unverified-lead"; leads: Lead[]; evidence?: Evidence;
 };
@@ -26,7 +28,7 @@ type Opts = {
   token: string; accounts?: Account[]; now?: Date; fetcher?: typeof fetch;
   maxPages?: number; maxEvidence?: number;
 };
-type Identifier = { type: "doi" | "pmid" | "nct"; value: string };
+export type Identifier = { type: "doi" | "pmid" | "nct"; value: string };
 type Crossref = { message?: { DOI?: string; title?: string[] } };
 type Pmc = { resultList?: { result?: { id?: string; source?: string; doi?: string; title?: string }[] } };
 type Study = { protocolSection?: {
@@ -39,12 +41,12 @@ const X = "https://api.x.com";
 const numericId = /^\d{1,25}$/;
 const handlePattern = /^[a-zA-Z0-9_]{1,15}$/;
 const nctPattern = /^NCT\d{8}$/i;
-const doiPattern = /^10\.\d{4,9}\/[\w.!#$&+\-;()/:@]+$/i;
+export const doiPattern = /^10\.\d{4,9}\/[\w.!#$&+\-;()/:@]+$/i;
 export const emptyQueue = (): Queue => ({ version: 1, accounts: {}, candidates: [] });
-const idKey = (id: Identifier): string => `${id.type}:${id.value}`;
+export const idKey = (id: Identifier): string => `${id.type}:${id.value}`;
 const sourceDoi = (value: string): string => `https://doi.org/${value.split("/").map(encodeURIComponent).join("/")}`;
 
-function tokenFromLink(raw: string): Identifier | undefined {
+export function tokenFromLink(raw: string): Identifier | undefined {
   try {
     const url = new URL(raw);
     if (url.protocol !== "https:" || url.username || url.password || url.port) return;
@@ -89,7 +91,7 @@ function landingPages(post: ApiPost, account: Account): string[] {
   return [...pages].sort().slice(0, 6);
 }
 
-async function readLandingPage(page: string, account: Account, fetcher: typeof fetch): Promise<{
+export async function readLandingPage(page: string, account: Pick<Account, "domains">, fetcher: typeof fetch): Promise<{
   tokens: Identifier[]; sameScope: string[];
 }> {
   const url = new URL(page);
@@ -147,7 +149,8 @@ async function requestJson<T>(fetcher: typeof fetch, url: URL, base: string, tok
   return await response.json() as T;
 }
 
-async function evidenceFor(id: Identifier, fetcher: typeof fetch): Promise<Evidence | undefined> {
+/** `siteLookup: false` skips the onco.cc request, for callers that match against the corpus on disk instead. */
+export async function evidenceFor(id: Identifier, fetcher: typeof fetch, siteLookup = true): Promise<Evidence | undefined> {
   if (id.type === "doi") {
     const host = "https://api.crossref.org";
     const msg = (await requestJson<Crossref>(fetcher, new URL(`/works/${encodeURIComponent(id.value)}`, host), host))?.message;
@@ -179,7 +182,7 @@ async function evidenceFor(id: Identifier, fetcher: typeof fetch): Promise<Evide
     if (["DEVICE", "PROCEDURE"].includes(entry.type ?? "")) entities.push({ kind: "technology", name: entry.name });
   }
   const onco = "https://onco.cc";
-  const existingOncoUrl = await requestJson<{ entity?: { id?: string; kind?: string; nct?: string }; route?: string }>(
+  const existingOncoUrl = !siteLookup ? undefined : await requestJson<{ entity?: { id?: string; kind?: string; nct?: string }; route?: string }>(
     fetcher, new URL(`/api/v1/entities/${id.value.toLowerCase()}.json`, onco), onco,
   ).then((r) => {
     const path = `/trials/${id.value.toLowerCase()}/`;
@@ -314,10 +317,28 @@ export async function scan(old: Queue, opts: Opts): Promise<Queue> {
   return next;
 }
 
+/** The private directory every lead queue lives in: outside the checkout, or inside it only where git ignores the path. */
+export function privateDir(env: Record<string, string | undefined>, repoRoot: string, ignored: (p: string) => boolean, home = homedir(), platform: string = process.platform): string {
+  const fallback = platform === "darwin" ? join(home, "Library", "Application Support", "onco-research-leads")
+    : join(env.XDG_STATE_HOME || join(home, ".local", "state"), "onco-research-leads");
+  const dir = resolve(env.ONCO_RESEARCH_LEADS_DIR || fallback);
+  const rel = relative(repoRoot, dir);
+  const inside = rel === "" || (!rel.startsWith("..") && !isAbsolute(rel));
+  if (inside && !ignored(dir)) throw new Error("The lead queue directory is inside the repository and not ignored by git; choose a private directory");
+  return dir;
+}
+
+export function gitIgnores(repoRoot: string): (p: string) => boolean {
+  return (p) => { try { execFileSync("git", ["-C", repoRoot, "check-ignore", "-q", p], { stdio: "ignore" }); return true; } catch { return false; } };
+}
+
 async function run() {
   const token = process.env.X_RESEARCH_BEARER_TOKEN ?? "";
   if (!token.trim() || process.env.ONCO_X_MONITOR_ENABLED !== "1") throw new Error("Live collection disabled; requires ONCO_X_MONITOR_ENABLED=1 and a configured X bearer token");
-  const statePath = resolve(process.env.ONCO_X_MONITOR_STATE ?? ".cache/x-research-monitor/queue.json");
+  const repoRoot = resolve(dirname(new URL(import.meta.url).pathname), "..");
+  const statePath = process.env.ONCO_X_MONITOR_STATE ? resolve(process.env.ONCO_X_MONITOR_STATE)
+    : join(privateDir(process.env, repoRoot, gitIgnores(repoRoot)), "x-queue.json");
+  privateDir({ ONCO_RESEARCH_LEADS_DIR: dirname(statePath) }, repoRoot, gitIgnores(repoRoot));
   await mkdir(dirname(statePath), { recursive: true, mode: 0o700 });
   const lockPath = `${statePath}.lock`;
   const lock = await open(lockPath, "wx", 0o600);

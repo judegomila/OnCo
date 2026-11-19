@@ -4,6 +4,13 @@ The monitor polls a small allowlist of official accounts and keeps a **private e
 queue**, separate from OnCo's publishing pipeline. The seed is [MSK](https://x.com/MSKCancerCenter).
 It does not create GitHub issues or records, write under `src/data/` or `public/`, or launch a deployment.
 
+**X cannot be read for free.** On 18 November 2026 X's [pricing page](https://docs.x.com/x-api/getting-started/pricing)
+says: "The X API uses **pay-per-usage** pricing. No subscriptions—pay only for what you use", with credits bought
+in advance and "**Posts: Read** $0.005 per resource" and "**User: Read** $0.010 per resource". It lists no free tier.
+A developer account is free to open and every post read is charged; the quotations and the other pages are in
+[RESEARCH-LEAD-MONITOR.md](RESEARCH-LEAD-MONITOR.md). This monitor therefore stays disabled by default. The monitor
+that needs no account, `scripts/research-lead-monitor.ts`, reads the same organisations' feeds and Bluesky accounts.
+
 ## Run without X access
 
 With Node 22.18 or later, from the repository root:
@@ -11,6 +18,21 @@ With Node 22.18 or later, from the repository root:
     node --test scripts/x-research-monitor.test.mjs
 
 The fixture tests make no live requests and incur no charges.
+
+## What switching it on would take, and cost
+
+The owner would, once: sign in at [console.x.com](https://console.x.com) with an X account, accept the Developer
+Agreement and Policy, create an app, buy credits, set a spending limit for the billing cycle, and put the app's
+bearer token in the runner's secret store. The pages read do not state a minimum purchase.
+
+At the published unit price a run costs what it returns: $0.005 a post, and $0.010 once per account for the
+username lookup. The script reads at most two pages of ten posts per account per run. Twelve accounts read twice
+a day is therefore at most 480 posts, $2.40, a day, and far less on an ordinary day, since only posts newer than
+the checkpoint are returned and X does not charge twice for the same post within a UTC day. That is arithmetic
+from the price list, not a quotation: check the Developer Console before buying.
+
+The allow-list is `scripts/research-lead-accounts.ts`: use only handles listed there, which were each taken from
+the organisation's own site.
 
 ## Enable collection only on an approved persistent runner
 
@@ -21,8 +43,9 @@ The fixture tests make no live requests and incur no charges.
 2. Inject `X_RESEARCH_BEARER_TOKEN` through the runner's secret manager and set
    `ONCO_X_MONITOR_ENABLED=1` only after approving live usage. With either missing,
    the command stops before any network or filesystem writes.
-3. Set `ONCO_X_MONITOR_STATE` to a private, durable path (default:
-   `.cache/x-research-monitor/queue.json`, ignored by Git). Use the same state for each run.
+3. The queue is written outside the repository, to `x-queue.json` in `ONCO_RESEARCH_LEADS_DIR` (default
+   `~/Library/Application Support/onco-research-leads/` on macOS). `ONCO_X_MONITOR_STATE` names another file; a
+   path inside the checkout is refused unless git ignores it. Use the same state for each run.
    Schedule this on **one** dedicated runner, for example twice daily (cron below uses the
    runner's existing secret injection and a durable working directory):
 

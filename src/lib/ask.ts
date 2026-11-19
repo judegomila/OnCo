@@ -181,14 +181,50 @@ export function namedDrugs(question: string, lexical: Array<{ id: string }>, loo
 }
 
 /**
+ * The kinds, besides medicines, whose own name in a question is taken as the reader naming that record. Technologies
+ * only: with terms added, "Chemotherapy", "Immunotherapy" and "Clinical trial" were pinned as ordinary words in
+ * questions about something else (measured 18 November 2026; no score moved, but each took a place in the six).
+ */
+export const NAMED_CONCEPT_KINDS: readonly string[] = ["technology"];
+/** A one-word name shorter than this is too often an ordinary word in a question ("inhibitor", "therapy", "trial", "cancer"). */
+export const NAMED_CONCEPT_MIN = 10;
+
+/**
+ * Whether a record's own name is specific enough to pin: one word of at least NAMED_CONCEPT_MIN letters. A name of
+ * several words is not pinned: "Name three next-generation ADC concepts beyond bispecific antibodies" names
+ * "Bispecific antibodies" as the thing the reader does not want, and pinning it cost that question its rubric point
+ * (measured 18 November 2026).
+ */
+export function specificConceptName(name: string): boolean {
+  const words = name.trim().split(/\s+/).filter(Boolean);
+  return words.length === 1 && name.replace(/[^\p{L}]/gu, "").length >= NAMED_CONCEPT_MIN;
+}
+
+/**
+ * Technologies in the word search's top 12 whose own name the question contains word for word: "What is
+ * brachytherapy and where is it essential?" names the brachytherapy record. Narrower than namedDrugs on purpose,
+ * because pinning every kind by any name was measured and rejected on 11 November 2026: only the record's own name
+ * counts, never an alias, and the name must pass specificConceptName, so "inhibitor" and "CAR-T" are not pinned.
+ */
+export function namedConcepts(question: string, lexical: Array<{ id: string }>, lookup: NamedLookup): string[] {
+  const q = ` ${normaliseName(question)} `;
+  return lexical.slice(0, NAMED_DEPTH).map((h) => h.id).filter((id) => {
+    const r = lookup(id);
+    if (!r || !NAMED_CONCEPT_KINDS.includes(r.kind) || !r.names[0] || !specificConceptName(r.names[0])) return false;
+    return q.includes(` ${normaliseName(r.names[0])} `);
+  });
+}
+
+/**
  * Merge lexical and concept-search hits into one ordered id list (reciprocal rank fusion), capped at `k`. With
  * `named`, a medicine the question names (namedDrugs) comes first, so a reader who asks about Enhertu gets Enhertu's
- * page even when near-ties in the two lists would have left it seventh.
+ * page even when near-ties in the two lists would have left it seventh; then a technology the question names by its
+ * own one-word name (namedConcepts).
  */
 export function retrieveIds(lexical: Array<{ id: string }>, semantic: Array<{ id: string }>, k = 6, named?: { question: string; lookup: NamedLookup }): string[] {
   const fused = fuseRanks([lexical, semantic]).map((h) => h.id);
   if (!named) return fused.slice(0, k);
-  return [...new Set([...namedDrugs(named.question, lexical, named.lookup), ...fused])].slice(0, k);
+  return [...new Set([...namedDrugs(named.question, lexical, named.lookup), ...namedConcepts(named.question, lexical, named.lookup), ...fused])].slice(0, k);
 }
 
 /** Plain-text rendering with numbered citations, for the copy button, tests and the MCP tool. */

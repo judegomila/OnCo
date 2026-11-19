@@ -1,6 +1,6 @@
 // Unreviewed simplified text; see review track. ClinicalTrials.gov ingestion wave (September 2026), continued from part-m: industry sponsors, pipeline products and phase 3 trials (one sentence each: what it is, who is behind it, which cancers).
 export const simpleM2: Record<string, string> = {
-  "ugn-103": "UroGen Pharma's UGN-103 mixes the chemotherapy drug mitomycin into a gel that is placed in the bladder and releases the drug, in phase 3 trials for recurrent low-grade bladder cancer.",
+  "ugn-103": "UroGen Pharma's UGN-103 mixes the chemotherapy drug mitomycin into a gel that is placed in the bladder and releases the drug. Its phase 3 trial is done and the FDA is reviewing it.",
   "ugn-104": "UGN-104, from UroGen Pharma, pairs mitomycin chemotherapy with a heat-responsive gel for kidney-sparing treatment of low-grade urothelial cancer in the upper urinary tract, now in a phase 3 trial.",
   uliledlimab: "TJ Biopharma's uliledlimab is an antibody that blocks CD73, an enzyme tumours use to make adenosine [a substance that calms immune cells], in a phase 3 lung cancer trial with toripalimab.",
   "urogen-pharma": "UroGen Pharma, based in Princeton in the United States, makes gel-based treatments for bladder cancer, including Zusduri and Jelmyto, and runs three phase 3 trials of UGN-103, UGN-102 and UGN-104.",
@@ -8,7 +8,7 @@ export const simpleM2: Record<string, string> = {
   vc004: "VC004 is an experimental small-molecule drug from Jiangsu vcare pharmaceutical technology with no target made public, in a phase 3 trial for advanced or spread solid tumours [lump-forming cancers].",
   velzatinib: "GlaxoSmithKline is comparing Velzatinib, an experimental medicine of undisclosed type and target, against imatinib in a phase 3 trial for people with untreated gastrointestinal stromal tumours [a rare gut cancer].",
   vepugratinib: "Vepugratinib is an Eli Lilly small-molecule drug designed to block FGFR3 [a growth signal receptor], now in a phase 3 trial for bladder and urothelial cancer.",
-  vrn110755: "Voronoi's VRN110755 is an oral small-molecule capsule that blocks faulty EGFR [a growth signal protein], including the C797S resistance mutation, in a phase 2 trial for EGFR-mutant non-small-cell lung cancer.",
+  vrn110755: "Voronoi's VRN110755 is an oral small-molecule capsule that blocks faulty EGFR [a growth signal protein], including the C797S resistance mutation, in a phase 1/2 trial for EGFR-mutant non-small-cell lung cancer.",
   vyriad: "Vyriad, a biotechnology company in Rochester in the United States, engineers viruses to attack cancer and runs two late-stage trials in melanoma, head and neck cancer and colorectal cancer.",
   "wigen-biomedicine-technology-shanghai": "Wigen Biomedicine Technology (Shanghai), a China-based biotechnology company, develops targeted anti-tumour drugs and is running two late-stage cancer trials of its capsule WJB001 in advanced solid tumours.",
   xnw27011: "Astellas makes XNW27011, an antibody-drug conjugate [an antibody carrying chemotherapy to cancer cells] aimed at Claudin 18.2 [CLDN18.2], in phase 2 trials for pancreatic, lung and ovarian cancers.",

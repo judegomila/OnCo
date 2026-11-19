@@ -90,7 +90,7 @@ const cards: ToolCard[] = [
       { text: "Four-year OS was 89.8% in the olaparib group and 86.4% in the placebo group", source: OLYMPIA_OS },
       { text: `Stage II-III: ${QUOTED_TNBC_ROWS["Stage II-III"]}`, source: ROW_NCCN },
     ],
-    meaning: "For people who carry an inherited BRCA1 or BRCA2 variant and still had invasive cancer at surgery, a year of olaparib tablets after surgery and radiotherapy is funded on the NHS. In OlympiA it reduced invasive recurrence (82.7% against 75.4% free of invasive disease at 4 years) and improved survival. It starts after radiotherapy, and pembrolizumab, where given, continues alongside; olaparib and capecitabine were not tested together, so ask which the team proposes and why.",
+    meaning: "For people who carry an inherited BRCA1 or BRCA2 variant and still had invasive cancer at surgery, a year of olaparib tablets after surgery and radiotherapy is funded on the NHS. In OlympiA it reduced invasive recurrence (82.7% against 75.4% free of invasive disease at 4 years) and improved survival. It starts after radiotherapy; olaparib and capecitabine were not tested together, so ask which the team proposes and why.",
     questions: ["When would olaparib start relative to radiotherapy and pembrolizumab?", "Which blood tests will I have on olaparib, and what are the signs of anaemia to report?", "Would capecitabine ever be used as well or instead for me?"],
     links: [LINKS.olaparib, LINKS.olympia, LINKS.brca, LINKS.decisions] },
 

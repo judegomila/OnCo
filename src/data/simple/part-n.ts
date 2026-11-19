@@ -450,7 +450,7 @@ export const simpleN: Record<string, string> = {
   "inaticabtagene-autoleucel": "Inaticabtagene autoleucel (inati-cel), from Juventas Cell Therapy, is a Chinese CAR-T [engineered immune cells] approved in 2023 for adults with acute lymphoblastic leukaemia that has come back or stopped responding.",
   fulzerasib: "Fulzerasib, discovered by GenFleet Therapeutics and developed with Innovent, was the first KRAS G12C-blocking pill approved in China, in 2024, for lung cancers carrying that mutation after earlier treatment.",
   garsorasib: "Garsorasib is InventisBio's KRAS G12C-blocking pill [it blocks a faulty growth-signal protein], approved in China in 2024 for previously treated lung cancer carrying that mutation.",
-  furmonertinib: "Furmonertinib, from Allist, is a Chinese lung cancer pill of the same class as osimertinib that more than doubled the time before cancer grew versus gefitinib in the FURLONG trial.",
+  furmonertinib: "Furmonertinib, from Allist, is a Chinese lung cancer pill of the same class as osimertinib that nearly doubled the time before cancer grew versus gefitinib in the FURLONG trial.",
   aumolertinib: "Aumolertinib is Hansoh's third-generation lung cancer pill, the first China-developed drug of its class, approved for first-line EGFR-mutant lung cancer [cancer with a faulty EGFR gene] on the AENEAS trial.",
   icotinib: "Icotinib, from Betta Pharmaceuticals and approved in 2011, was the first cancer drug invented in China, and it showed a domestic lung cancer pill could match a Western one.",
   savolitinib: "Savolitinib, from Hutchmed and AstraZeneca, is a pill that blocks the MET growth signal, approved in China for lung cancers with a MET mutation and being tested worldwide with osimertinib.",

@@ -4,18 +4,18 @@ Written by `scripts/weekly-recheck.ts` ([what it checks and how to pause it](../
 
 Nothing below has been applied to a record, except what is listed under "Changed by the run itself". Each row is something for a person or an agent to read against the source before the record is touched. A row says the two sides differ; it does not say which is right.
 
-792 rows: 33 high, 269 medium, 490 low. Every row is in [weekly-recheck-latest.json](weekly-recheck-latest.json); the tables here show the first 100 of each kind.
+790 rows: 32 high, 269 medium, 489 low. Every row is in [weekly-recheck-latest.json](weekly-recheck-latest.json); the tables here show the first 100 of each kind.
 
 ## Summary
 
 | Check | Compared | Findings | High | Medium | Low | Blocked | Requests | Time |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Trial registry drift | 6,413 | 498 | 25 | 166 | 307 | 0 | 65 | 50 s |
+| Trial registry drift | 6,413 | 497 | 25 | 166 | 306 | 0 | 65 | 50 s |
 | US approvals (FDA) | 1,750 | 12 | 2 | 6 | 4 | 0 | 5 | 7 s |
-| EU approvals (EMA) | 386 | 25 | 3 | 17 | 5 | 0 | 1 | 1 s |
-| US label changes (openFDA, DailyMed) | 207 | 19 | 0 | 19 | 0 | 0 | 13 | 17 s |
+| EU approvals (EMA) | 386 | 25 | 2 | 18 | 5 | 0 | 1 | 1 s |
+| US label changes (openFDA, DailyMed) | 207 | 18 | 0 | 18 | 0 | 0 | 13 | 17 s |
 | Guideline sources of protocols | 1,428 | 181 | 3 | 4 | 174 | 35 | 1,445 | 17 min 54 s |
-| Dead links (a quarter of the corpus each week) | 9,880 | 57 | 0 | 57 | 0 | 1,545 | 9,312 | 59 min 0 s |
+| Dead links (a quarter of the corpus each week) | 9,882 | 57 | 0 | 57 | 0 | 1,545 | 9,312 | 59 min 0 s |
 
 ## Changed by the run itself
 
@@ -33,7 +33,7 @@ Nothing below has been applied to a record, except what is listed under "Changed
 
 A status is corrected by the generators (see "Changed by the run itself"). The text of a record is not: where a row quotes words such as "recruiting" or "awaited", the record still says them. Differences of enrolment, sponsor and primary completion date on records written by the registry ingest are differences in the record's own sentences, which no generator rewrites.
 
-### Trials with results posted since the record was last checked (17)
+### Trials with results posted since the record was last checked (16)
 
 | Record | OnCo says | The source says | Source | Date |
 |---|---|---|---|---|
@@ -53,7 +53,6 @@ A status is corrected by the generators (see "Changed by the run itself"). The t
 | `her2climb-05` | last checked 2026-09-07; status "positive"; 1 outcome recorded | results first posted 2026-09-29 | [clinicaltrials.gov](https://clinicaltrials.gov/study/NCT05132582) | 2026-09-29 |
 | `imvigor011` | last checked 2026-09-04; status "positive"; 3 outcomes recorded | results first posted 2026-09-28 | [clinicaltrials.gov](https://clinicaltrials.gov/study/NCT04660344) | 2026-09-28 |
 | `rosella` | last checked 2026-09-07; status "positive"; 2 outcomes recorded | results first posted 2026-09-25 | [clinicaltrials.gov](https://clinicaltrials.gov/study/NCT05257408) | 2026-09-25 |
-| `capitello-281` | last checked 2026-09-06; status "positive"; 1 outcome recorded | results first posted 2026-09-10 | [clinicaltrials.gov](https://clinicaltrials.gov/study/NCT04493853) | 2026-09-10 |
 
 ### Trials now completed, terminated or withdrawn on the registry (11)
 
@@ -415,8 +414,8 @@ The table has one row per medicine. An opinion on a new use of a medicine alread
 | Record | OnCo says | The source says | Source | Date |
 |---|---|---|---|---|
 | `aumolertinib` | EU withdrawn 2026; last checked 2026-09-10 | Aumseqa: CHMP opinion positive adopted 2026-11-12; medicine status Opinion | [ema.europa.eu](https://www.ema.europa.eu/en/medicines/human/EPAR/aumseqa) | 2026-11-12 |
-| `sintilimab` | EU not-filed; last checked 2026-09-10 | Zybrivo: CHMP opinion positive adopted 2026-11-12; medicine status Opinion | [ema.europa.eu](https://www.ema.europa.eu/en/medicines/human/EPAR/zybrivo) | 2026-11-12 |
 | `daraxonrasib` | no EU row; last checked 2026-11-18 | Rasonque: CHMP opinion positive adopted 2026-10-15; medicine status Opinion | [ema.europa.eu](https://www.ema.europa.eu/en/medicines/human/EPAR/rasonque) | 2026-10-15 |
+| `sintilimab` | EU under-review; last checked 2026-11-18 | Zybrivo: CHMP opinion positive adopted 2026-11-12; medicine status Opinion | [ema.europa.eu](https://www.ema.europa.eu/en/medicines/human/EPAR/zybrivo) | 2026-11-12 |
 | `temozolomide` | EU approved 1999; last checked 2026-09-06 | Kizfizo: CHMP opinion positive adopted 2026-10-15; medicine status Opinion | [ema.europa.eu](https://www.ema.europa.eu/en/medicines/human/EPAR/kizfizo-0) | 2026-10-15 |
 | `ensartinib` | EU under-review; last checked 2026-09-24 | Gevalka: CHMP opinion positive adopted 2026-09-17; medicine status Opinion | [ema.europa.eu](https://www.ema.europa.eu/en/medicines/human/EPAR/gevalka) | 2026-09-17 |
 | `imp4927` | EU under-review; last checked 2026-09-11 | Sepalna: CHMP opinion positive adopted 2026-09-17; medicine status Opinion | [ema.europa.eu](https://www.ema.europa.eu/en/medicines/human/EPAR/sepalna) | 2026-09-17 |
@@ -466,7 +465,7 @@ The table has one row per medicine. An opinion on a new use of a medicine alread
 
 Only records that cite a label by its set id are covered. A record that links a DailyMed search page, or no label, is not.
 
-### Labels newer than the record (first reading) (19)
+### Labels newer than the record (first reading) (18)
 
 | Record | OnCo says | The source says | Source | Date |
 |---|---|---|---|---|
@@ -487,7 +486,6 @@ Only records that cite a label by its set id are covered. A record that links a 
 | `avelumab` | last checked 2026-09-07 | label version 25, effective 2026-09-22 *First reading of this label, so no sections can be compared yet.* | [dailymed.nlm.nih.gov](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5cd725a1-2fa4-408a-a651-57a7b84b2118) | 2026-09-22 |
 | `abemaciclib` | last checked 2026-09-04 | label version 31, effective 2026-09-18 *First reading of this label, so no sections can be compared yet.* | [dailymed.nlm.nih.gov](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=be4bc0de-0fdc-4d46-8d25-be43c79e6a06) | 2026-09-18 |
 | `imlunestrant` | last checked 2026-09-07 | label version 8, effective 2026-09-18 *First reading of this label, so no sections can be compared yet.* | [dailymed.nlm.nih.gov](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5bc172e4-e8a2-441a-be52-279a7f890196) | 2026-09-18 |
-| `capivasertib` | last checked 2026-09-04 | label version 14, effective 2026-09-16 *First reading of this label, so no sections can be compared yet.* | [dailymed.nlm.nih.gov](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d698c106-2322-401e-b738-cbd83c843ecf) | 2026-09-16 |
 | `osimertinib` | last checked 2026-09-04 | label version 37, effective 2026-09-14 *First reading of this label, so no sections can be compared yet.* | [dailymed.nlm.nih.gov](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e81b4a7-b971-45e1-9c31-29cea8c87ce7) | 2026-09-14 |
 
 ## 5. Guideline sources of protocols
@@ -613,7 +611,7 @@ A changed header says a publisher touched the page. It does not say a new editio
 
 ## 6. Dead links (a quarter of the corpus each week)
 
-45,646 addresses are cited across the corpus. 6,708 are registry pages of a trial record's own registration, which the trials check reads through the API instead. Of the rest, slice 4 of 4 was due this week: 9,880 addresses. Result: ok 8,195, blocked 1,545, unreachable 72, gone 57, error 11.
+45,654 addresses are cited across the corpus. 6,708 are registry pages of a trial record's own registration, which the trials check reads through the API instead. Of the rest, slice 4 of 4 was due this week: 9,882 addresses. Result: ok 8,195, blocked 1,545, unreachable 74, gone 57, error 11.
 
 Only 404, 410 and a PDF address that serves a web page are listed. A refusal (401, 403, 429, a bot-challenge page) is counted as blocked and never as dead. A DOI is checked at doi.org and not followed to the publisher.
 

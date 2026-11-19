@@ -2,7 +2,7 @@
  "generated": "2026-11-19",
  "about": "Weekly re-check of OnCo against public sources (scripts/weekly-recheck.ts). Each finding: the record, what OnCo says, what the source says, the source URL and the source's date. Findings are not applied to records.",
  "totals": {
-  "findings": 792,
+  "findings": 790,
   "requests": 10841
  },
  "checks": [
@@ -13,7 +13,7 @@
    "requests": 65,
    "durationSeconds": 50,
    "counts": {
-    "results-posted": 17,
+    "results-posted": 16,
     "status-moved-to-closed": 11,
     "status-held-back": 10,
     "shared-registration": 1,
@@ -4890,16 +4890,6 @@
      "date": "2026-09-25"
     },
     {
-     "type": "results-posted",
-     "severity": "low",
-     "recordId": "capitello-281",
-     "recordKind": "trial",
-     "onco": "last checked 2026-09-06; status \"positive\"; 1 outcome recorded",
-     "source": "results first posted 2026-09-10",
-     "url": "https://clinicaltrials.gov/study/NCT04493853",
-     "date": "2026-09-10"
-    },
-    {
      "type": "status-moved",
      "severity": "low",
      "recordId": "nct05256290",
@@ -5231,22 +5221,22 @@
     {
      "type": "chmp-opinion-awaiting-decision",
      "severity": "high",
-     "recordId": "sintilimab",
-     "recordKind": "drug",
-     "onco": "EU not-filed; last checked 2026-09-10",
-     "source": "Zybrivo: CHMP opinion positive adopted 2026-11-12; medicine status Opinion",
-     "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zybrivo",
-     "date": "2026-11-12"
-    },
-    {
-     "type": "chmp-opinion-awaiting-decision",
-     "severity": "high",
      "recordId": "daraxonrasib",
      "recordKind": "drug",
      "onco": "no EU row; last checked 2026-11-18",
      "source": "Rasonque: CHMP opinion positive adopted 2026-10-15; medicine status Opinion",
      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rasonque",
      "date": "2026-10-15"
+    },
+    {
+     "type": "chmp-opinion-awaiting-decision",
+     "severity": "medium",
+     "recordId": "sintilimab",
+     "recordKind": "drug",
+     "onco": "EU under-review; last checked 2026-11-18",
+     "source": "Zybrivo: CHMP opinion positive adopted 2026-11-12; medicine status Opinion",
+     "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zybrivo",
+     "date": "2026-11-12"
     },
     {
      "type": "chmp-opinion-awaiting-decision",
@@ -5477,7 +5467,7 @@
    "requests": 13,
    "durationSeconds": 17,
    "counts": {
-    "label-newer-than-record": 19
+    "label-newer-than-record": 18
    },
    "mechanical": [
     "src/data/recheck/label-versions.json written: 207 label versions, for next week's comparison."
@@ -5677,17 +5667,6 @@
      "source": "label version 8, effective 2026-09-18",
      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5bc172e4-e8a2-441a-be52-279a7f890196",
      "date": "2026-09-18",
-     "note": "First reading of this label, so no sections can be compared yet."
-    },
-    {
-     "type": "label-newer-than-record",
-     "severity": "medium",
-     "recordId": "capivasertib",
-     "recordKind": "drug",
-     "onco": "last checked 2026-09-04",
-     "source": "label version 14, effective 2026-09-16",
-     "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d698c106-2322-401e-b738-cbd83c843ecf",
-     "date": "2026-09-16",
      "note": "First reading of this label, so no sections can be compared yet."
     },
     {
@@ -7430,7 +7409,7 @@
   {
    "kind": "links",
    "label": "Dead links (a quarter of the corpus each week)",
-   "checked": 9880,
+   "checked": 9882,
    "requests": 9312,
    "durationSeconds": 3540,
    "counts": {
@@ -7439,7 +7418,7 @@
    },
    "mechanical": [],
    "notes": [
-    "45,646 addresses are cited across the corpus. 6,708 are registry pages of a trial record's own registration, which the trials check reads through the API instead. Of the rest, slice 4 of 4 was due this week: 9,880 addresses. Result: ok 8,195, blocked 1,545, unreachable 72, gone 57, error 11.",
+    "45,654 addresses are cited across the corpus. 6,708 are registry pages of a trial record's own registration, which the trials check reads through the API instead. Of the rest, slice 4 of 4 was due this week: 9,882 addresses. Result: ok 8,195, blocked 1,545, unreachable 74, gone 57, error 11.",
     "Only 404, 410 and a PDF address that serves a web page are listed. A refusal (401, 403, 429, a bot-challenge page) is counted as blocked and never as dead. A DOI is checked at doi.org and not followed to the publisher."
    ],
    "errors": [],

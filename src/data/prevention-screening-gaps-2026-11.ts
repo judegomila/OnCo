@@ -226,7 +226,7 @@ export const screeningTests2026_11: DrugInput[] = [
     links: [PMA("P950039")] }),
   test({ id: "bd-surepath", name: "BD SurePath liquid-based Pap test and PrepStain slide processor", brand: "BD SurePath", aka: ["SurePath", "PrepStain", "AutoCyte PREP"], modality: "Liquid-based cervical cytology (Pap test) slide processor", status: "approved",
     mechanism: "Cervical cells are collected into a preservative fluid; the processor prepares a thin layer of cells on a slide to replace the conventional smear.",
-    tldr: "BD's liquid-based Pap test, approved in 1999 as AutoCyte PREP and renamed SurePath in 2001.",
+    tldr: "BD's liquid-based Pap test, approved in 1999 as AutoCyte PREP and sold under the PrepStain and SurePath names since 2001.",
     summary: "The FDA approved the AutoCyte PREP system on 17 June 1999 (PMA P970018) as a liquid-based, thin-layer cell preparation producing slides \"intended as replacements for conventional gynecologic Pap smears\". On 2 November 2001 (S003) the names changed to PrepStain System and SurePath. The FDA applicant is BD Diagnostic Systems, and the BD Onclarity HPV approval held by Becton, Dickinson and Company names the BD SurePath vial. SurePath vials are a specimen type in the FDA approvals of the BD Onclarity and Alinity m HPV tests.",
     approvals: [{ region: "US", year: 1999, indication: "Liquid-based thin-layer cervical cytology preparation (PMA P970018)" }],
     cancers: ["cervical"], companies: ["becton-dickinson"], technologies: ["hpv-testing"], terms: ["cin-hsil", "screening"], related: ["thinprep", "bd-onclarity-hpv", "automated-pap-screening-readers"],

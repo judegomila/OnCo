@@ -499,7 +499,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   pucotenlimab: { CN: A(2022, NMPA, "MSI-H/dMMR solid tumours after prior therapy (conditional, Jul 2022); melanoma after prior systemic therapy (Sep 2022)") },
   limertinib: { CN: A(2024, NMPA, "EGFR T790M-mutant NSCLC after prior EGFR inhibitor") },
   befotertinib: { CN: A(2023, NMPA, "EGFR T790M-positive NSCLC after first- or second-generation EGFR inhibitors (May 2023); first-line EGFR-mutant NSCLC (2024)") },
-  fluzoparib: { CN: A(2020, NMPA, "Germline BRCA-mutated platinum-sensitive recurrent ovarian cancer after two or more lines (Dec 2020); maintenance after platinum (2021)") },
+  fluzoparib: { CN: A(2020, NMPA, "Germline BRCA-mutated platinum-sensitive recurrent ovarian cancer after two or more lines (Dec 2020); maintenance after platinum (2021); germline BRCA-mutated HER2-negative metastatic breast cancer, alone or with apatinib (Dec 2024)") },
   pamiparib: { CN: A(2021, NMPA, "Germline BRCA-mutated recurrent advanced ovarian, fallopian tube or primary peritoneal cancer after two or more lines (May 2021)") },
   dabrafenib: { EU: A(2013, epar("tafinlar")), CN: A(2019, NMPA, "BRAF V600 mutation-positive unresectable or metastatic melanoma, with trametinib (Dec 2019)") },
   tqb2450: { CN: A(2024, "https://doi.org/10.3389/fonc.2026.1748214", "Benmelstobart (TQB2450): small-cell lung cancer, endometrial cancer and kidney cancer", "First NMPA approval 30 April 2024 as stated in a 2026 review; regulator notice not read") },

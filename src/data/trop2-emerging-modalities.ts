@@ -40,7 +40,7 @@ export const trop2EmergingModalities: EntityInput[] = [
     "kind": "drug",
     "modality": "ADC",
     "status": "phase-1",
-    "asOf": "2026-10-06",
+    "asOf": "2026-11-18",
     "payload": "NT1 (camptothecin derivative, TOP1 inhibitor)",
     "mechanism": "Anti-TROP2 antibody linked to NT1, a camptothecin-derived TOP1 inhibitor.",
     "tldr": "IBI130 is an experimental antibody-drug conjugate being studied in people with advanced cancer. Its benefit and safety are still being evaluated.",

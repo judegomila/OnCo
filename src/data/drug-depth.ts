@@ -244,9 +244,9 @@ export const drugDepth: Record<string, DrugDepth> = {
   "relatlimab-nivolumab": {
     dosing: { route: "IV infusion", schedule: "Nivolumab 480 mg + relatlimab 160 mg every 4 weeks (≥40 kg)", modifications: "As for nivolumab; hold for grade 2 immune-mediated events", monitoring: "Thyroid, LFTs, creatinine, glucose; adrenal function; myocarditis awareness", source: FDA_ONC },
     toxicity: [tx("Fatigue"), tx("Musculoskeletal pain"), tx("Rash"), tx("Pruritus"), tx("Diarrhoea"), tx("Hypothyroidism/thyroiditis"), tx("Adrenal insufficiency"), tx("Myocarditis (rare, monitor troponin)")],
-    access: [US_PARTB("https://www.bmsaccesssupport.com"), UK_NICE("recommended for untreated advanced melanoma, PD-L1 <1% (2024)")],
-    regulatoryEvents: [ev("2022-03-18", "approval", "US", "Unresectable or metastatic melanoma, age ≥12 (RELATIVITY-047): first LAG-3 therapy"), ev("2022-09", "approval", "EU", "EMA approval, PD-L1 <1% melanoma")],
-    mechanismSteps: ["Relatlimab binds LAG-3 and nivolumab binds PD-1 on the same exhausted T cells", "Two inhibitory checkpoints are released simultaneously", "T cells regain proliferation and cytotoxic function", "Tumour is infiltrated and killed; less toxicity than CTLA-4 combination"],
+    access: [US_PARTB("https://www.bmsaccesssupport.com"), UK_NICE("recommended for untreated advanced melanoma in people 12 and over, with no PD-L1 restriction, stopped after 2 years or earlier on progression (TA950, 7 February 2024)")],
+    regulatoryEvents: [ev("2022-03-18", "approval", "US", "Unresectable or metastatic melanoma, age ≥12 (RELATIVITY-047): first LAG-3 therapy"), ev("2022-09-15", "approval", "EU", "European Commission approval: first-line advanced melanoma with tumour cell PD-L1 <1%, age ≥12", "https://www.ema.europa.eu/en/medicines/human/EPAR/opdualag")],
+    mechanismSteps: ["Relatlimab binds LAG-3 and nivolumab binds PD-1 on the same exhausted T cells", "Two inhibitory checkpoints are released simultaneously", "T cells regain proliferation and cytotoxic function", "Tumour is infiltrated and killed"],
   },
   dostarlimab: {
     dosing: { route: "IV infusion", schedule: "Single agent: 500 mg every 3 weeks for 4 doses, then 1,000 mg every 6 weeks; with carboplatin-paclitaxel in endometrial cancer: 500 mg every 3 weeks for 6 doses, then 1,000 mg every 6 weeks; MSI-high or dMMR rectal cancer: 500 mg every 3 weeks for 9 doses", modifications: "Standard immune-mediated event algorithm", monitoring: "Thyroid, LFTs, creatinine", source: FDA_ONC },
@@ -314,10 +314,10 @@ export const drugDepth: Record<string, DrugDepth> = {
     mechanismSteps: ["Two arms bind two different HER2 epitopes (ECD2 and ECD4) on one or neighbouring receptors", "HER2 receptors cluster and are internalised and degraded", "HER2 signalling and dimerisation with HER3 stop", "Fc engages immune effectors (ADCC, phagocytosis)", "HER2-dependent tumour cells die"],
   },
   zenocutuzumab: {
-    dosing: { route: "IV infusion", schedule: "750 mg every 2 weeks", modifications: "Hold for infusion reactions and LVEF decline", monitoring: "LVEF; infusion reactions; embryo-fetal toxicity", source: FDA_ONC },
+    dosing: { route: "IV infusion", schedule: "750 mg every 2 weeks, infused over 4 hours after premedication", modifications: "Hold for infusion reactions and LVEF decline; stop for good for interstitial lung disease or pneumonitis of grade 2 or higher", monitoring: "LVEF before and during treatment; infusion reactions; new breathlessness or cough (pneumonitis); embryo-fetal toxicity (boxed warning)", source: FDA_ONC },
     toxicity: [tx("Diarrhoea"), tx("Musculoskeletal pain"), tx("Fatigue"), tx("Nausea"), tx("Infusion-related reactions"), tx("Dyspnoea")],
     access: [US_PARTB()],
-    regulatoryEvents: [ev("2024-12-04", "approval", "US", "Accelerated approval, NRG1-fusion NSCLC and pancreatic adenocarcinoma (eNRGy): first therapy for NRG1 fusions"), ev("2026-Q2", "approval", "US", "NRG1-fusion cholangiocarcinoma")],
+    regulatoryEvents: [ev("2024-12-04", "approval", "US", "Accelerated approval, NRG1-fusion NSCLC and pancreatic adenocarcinoma (eNRGy): first systemic therapy approved for NRG1-fusion lung or pancreatic cancer", "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-zenocutuzumab-zbco-non-small-cell-lung-cancer-and-pancreatic"), ev("2026-05-08", "approval", "US", "Advanced NRG1-fusion cholangiocarcinoma after prior systemic therapy", "https://www.fda.gov/drugs/cancer-approvals/fda-approves-zenocutuzumab-zbco-advanced-unresectable-or-metastatic-cholangiocarcinoma")],
     mechanismSteps: ["One arm docks on HER2", "The other arm blocks the NRG1-binding site on HER3", "NRG1 fusion protein cannot activate HER2/HER3 heterodimers", "PI3K/AKT signalling collapses in NRG1-fusion tumours", "Tumour regresses"],
   },
   ivonescimab: {

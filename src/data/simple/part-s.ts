@@ -166,9 +166,9 @@ export const simpleS: Record<string, string> = {
   "lip-cancer": "Cancer of the lip is really a skin cancer of the sun-exposed lower lip, usually found early because it can be seen, and a small operation or radiotherapy cures most people.",
 
   // Trials
-  "opra": "OPRA showed that about half of people with rectal cancer who have all their chemotherapy and radiotherapy before surgery can keep their rectum without any drop in the chance of cure.",
+  "opra": "OPRA showed that about half of people with rectal cancer who have all their chemotherapy and radiotherapy before surgery can keep their rectum, with disease-free survival in line with past results.",
   "prospect": "PROSPECT showed that most people with intermediate-risk rectal cancer can skip pelvic radiotherapy, because chemotherapy alone before surgery cured just as many.",
-  "beacon-crc": "BEACON CRC was the first trial to show that blocking BRAF works in bowel cancer once the escape route through EGFR is blocked too, with encorafenib and cetuximab lengthening life.",
+  "beacon-crc": "BEACON CRC showed that blocking BRAF works in bowel cancer once the escape route through EGFR is blocked too, with encorafenib and cetuximab lengthening life.",
   "keynote-170": "KEYNOTE-170 showed that the PD-1 antibody pembrolizumab works in primary mediastinal B-cell lymphoma, with almost half of heavily treated patients responding.",
   "ielsg37": "IELSG37 showed that people with primary mediastinal B-cell lymphoma whose scan is clear after chemotherapy do not need radiotherapy to the chest.",
   "combi-d": "COMBI-d showed that adding a MEK inhibitor to a BRAF inhibitor delays progression and lengthens life in BRAF-mutant melanoma, with fewer of the skin cancers BRAF inhibitors alone provoke.",
@@ -193,7 +193,7 @@ export const simpleS: Record<string, string> = {
   "calgb-140503": "CALGB 140503 showed that removing only part of a lobe is as good as removing the whole lobe for small peripheral lung cancers, so less lung needs to be taken out.",
   "train-2": "TRAIN-2 showed that HER2-positive breast cancer can be treated before surgery without an anthracycline, with the tumour disappearing just as often and less harm to the heart.",
   "kristine": "KRISTINE tested whether an antibody-drug conjugate could replace chemotherapy before surgery in HER2-positive breast cancer and found it could not.",
-  "olympiad": "OlympiAD was the first trial to show a PARP inhibitor tablet beats chemotherapy in breast cancer, delaying progression by about three months in women with an inherited BRCA mutation.",
+  "olympiad": "OlympiAD showed that a PARP inhibitor tablet beats chemotherapy in breast cancer, delaying progression by about three months in women with an inherited BRCA mutation.",
   "embraca": "EMBRACA showed that the PARP inhibitor talazoparib delays progression by about three months compared with chemotherapy in women with an inherited BRCA mutation and advanced breast cancer.",
   "impassion031": "IMpassion031 showed that adding atezolizumab to chemotherapy before surgery for early triple-negative breast cancer raised the share of women whose tumour had disappeared from 41 to 58 percent.",
   "strass": "STRASS, the first randomised trial in retroperitoneal sarcoma, found that radiotherapy before surgery did not reduce recurrence in the abdomen.",

@@ -2405,7 +2405,7 @@ export const papersSubtypesWave: PaperInput[] = [
     cancers: ["prostate-intermediate-risk"], journals: ["nejm"] }),
 
   p({ id: "paper-klotz-active-surveillance-jco-2015", name: "Long-term follow-up of a large active surveillance cohort of patients with prostate cancer (Sunnybrook)",
-    tldr: "In nearly a thousand men with low-risk prostate cancer followed for up to 20 years on active surveillance, only 1.5 percent died of the disease and most never needed treatment, the strongest evidence that surveillance is safe.",
+    tldr: "In nearly a thousand men with low-risk prostate cancer followed for up to 20 years on active surveillance, only 1.5 percent died of the disease and more than half were still untreated at fifteen years, the strongest evidence that surveillance is safe.",
     summary: "Prospective single-centre cohort of 993 men with low-risk (and some favourable intermediate-risk) prostate cancer managed with active surveillance, with treatment triggered by PSA doubling time, grade progression or clinical progression.\n\nAt a median follow-up of 6.4 years (up to 20 years), 15 men (1.5 percent) died of prostate cancer and 13 developed metastases; 10- and 15-year cancer-specific survival were 98.1 and 94.3 percent, and about a quarter of men had been treated.",
     journal: "Journal of Clinical Oncology", year: 2015, doi: "10.1200/JCO.2014.55.1192", pmid: "25512465",
     authors: "Klotz L, Vesprini D, Sethukavalan P, et al.", paperType: "observational", participants: 993, changedPractice: true,

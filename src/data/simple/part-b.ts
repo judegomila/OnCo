@@ -327,7 +327,7 @@ export const simpleB: Record<string, string> = {
   merus: "Dutch two-armed antibody company, bought by Genmab in 2025.",
   genmab: "Danish antibody engineering company behind several approved drugs.",
   "revolution-medicines": "The leading RAS drug company, with a drug in final trials for pancreatic cancer.",
-  arvinas: "PROTAC pioneer whose drug became the first approved protein degrader in 2026.",
+  arvinas: "PROTAC pioneer whose drug became the first of that kind to be approved, in 2026.",
   nuvalent: "Designer of cleaner kinase pills; its ROS1 pill was approved in July 2026.",
   celcuity: "Developer of gedatolisib, approved in 2026 for breast cancer.",
   menarini: "Private Italian drug company that sells the first oral oestrogen-receptor degrader.",

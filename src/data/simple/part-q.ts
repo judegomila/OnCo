@@ -21,7 +21,7 @@ export const simpleQ: Record<string, string> = {
   "luminosity": "LUMINOSITY was an AbbVie phase 2 trial of telisotuzumab vedotin in previously treated lung cancer with high c-Met protein, and tumours shrank in about a third of those patients, leading to approval.",
   "lung-map": "Lung-MAP is a SWOG and National Cancer Institute umbrella trial in advanced lung cancer that gives each patient one genomic test and sends them to a matching drug or an immunotherapy arm.",
   "lung-map-s1800a": "S1800A was a SWOG phase 2 trial in lung cancer that had got past chemotherapy and immunotherapy, and ramucirumab with pembrolizumab helped people live longer than more chemotherapy did.",
-  "majic-et": "MAJIC-ET was a University of Birmingham phase 2 trial in essential thrombocythaemia, and ruxolitinib was no better than the usual second line drugs at controlling platelets, though it eased symptoms.",
+  "majic-et": "MAJIC-ET was a University of Birmingham phase 2 trial in essential thrombocythaemia, and ruxolitinib was no better than the usual second line drugs at controlling platelets, but some symptoms eased.",
   "majic-pv": "MAJIC-PV was a University of Birmingham phase 2 trial in polycythaemia vera, and ruxolitinib gave more complete responses than best available therapy, with fewer clots and progressions in responders.",
   "mypathway": "MyPathway was a Genentech phase 2 basket trial of six approved drugs in cancers they were not approved for, and its clearest win was trastuzumab with pertuzumab in HER2 amplified bowel cancer.",
   "national-lung-matrix-trial": "The National Lung Matrix Trial was a Birmingham umbrella trial that screened thousands of NHS lung cancer patients for rare genetic changes, and most matched drug groups did not clear the bar.",

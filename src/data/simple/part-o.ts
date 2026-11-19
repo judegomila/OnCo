@@ -22,7 +22,7 @@ export const simpleO: Record<string, string> = {
   liposarcoma: "Liposarcoma is a cancer of fat cells that comes in four forms with different genetics, and surgery is the main treatment while MDM2-blocking drugs are being tested.",
   "prostate-high-risk": "High-risk prostate cancer is still curable but needs radiotherapy with a long course of hormone therapy, or surgery followed by radiotherapy.",
   "prostate-intermediate-risk": "Intermediate-risk prostate cancer is usually cured by surgery or radiotherapy, and some of the less worrying cases can simply be watched closely.",
-  "prostate-low-risk": "Low-risk prostate cancer grows so slowly that close monitoring is the recommended first choice, and most men who choose it never need treatment.",
+  "prostate-low-risk": "Low-risk prostate cancer grows so slowly that close monitoring is the recommended first choice; in one large cohort over half of men were still untreated fifteen years on.",
   "low-grade-serous-ovarian-cancer": "Low-grade serous ovarian cancer grows slowly and resists chemotherapy, so surgery and hormone therapy are the mainstays, with MEK inhibitors the first drugs shown to shrink it reliably.",
   "lung-cancer": "Lung cancer splits into non-small-cell and small-cell types, which behave and are treated very differently, and this page covers screening, staging and what they share.",
   "marginal-zone-lymphoma": "Marginal zone lymphoma is a slow B-cell lymphoma that often grows where the body has fought a long infection, and curing the infection cures many early cases.",

@@ -5,6 +5,11 @@
  *
  *   npx tsx scripts/refresh-trial-participation.ts --stale              re-read every study whose overall status on the
  *                                                                      registry differs from the one recorded here
+ *   npx tsx scripts/refresh-trial-participation.ts --stale-updated      the same, and also every study the registry
+ *                                                                      has updated since it was read (a later
+ *                                                                      lastUpdatePostDate): enrolment, sponsor and
+ *                                                                      sites move without the status moving. Run
+ *                                                                      weekly by scripts/weekly-recheck.ts
  *   npx tsx scripts/refresh-trial-participation.ts --ids=NCT1,NCT2      re-read these studies, and attach them to the
  *                                                                      records that own them if they are not attached
  *   add --dry to report and write nothing
@@ -27,7 +32,8 @@ import { PARTICIPATION_FIELDS, acceptedCrossReferences, makeSnapshot, ownRegistr
 const root = process.cwd();
 const args = process.argv.slice(2);
 const dry = args.includes("--dry");
-const stale = args.includes("--stale");
+const staleUpdated = args.includes("--stale-updated");
+const stale = args.includes("--stale") || staleUpdated;
 const named = (args.find((a) => a.startsWith("--ids="))?.slice(6) ?? "").split(",").map((s) => s.trim().toUpperCase()).filter(Boolean);
 for (const id of named) if (!/^NCT\d{8}$/.test(id)) throw new Error(`Invalid identifier: ${id}`);
 const API = "https://clinicaltrials.gov/api/v2/studies";
@@ -35,11 +41,13 @@ const UA = "OnCo refresh-trial-participation (https://onco.cc; hello@onco.cc)";
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 const studiesDir = join(root, ".cache/trial-participation/studies");
 
+let requests = 0;
 async function get<T>(params: Record<string, string>): Promise<T> {
   const url = `${API}?${new URLSearchParams({ ...params, format: "json", pageSize: "1000" })}`;
   let last: unknown;
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
+      requests++;
       const r = await fetch(url, { headers: { "User-Agent": UA, Accept: "application/json" }, signal: AbortSignal.timeout(60_000) });
       if (!r.ok) throw new Error(`ClinicalTrials.gov HTTP ${r.status}`);
       return await r.json() as T;
@@ -70,15 +78,22 @@ async function main() {
   if (stale) {
     const held = [...new Set(Object.values(next).flatMap((refs) => refs.map((r) => r.nct)))].sort();
     const now = new Map<string, string | undefined>();
+    const updated = new Map<string, string | undefined>();
     for (let i = 0; i < held.length; i += 100) {
       const batch = held.slice(i, i + 100);
-      const body = await get<{ studies: Array<{ protocolSection: { identificationModule: { nctId: string }; statusModule?: { overallStatus?: string } } }>; nextPageToken?: string }>({ "filter.ids": batch.join(","), fields: "NCTId,OverallStatus" });
+      const body = await get<{ studies: Array<{ protocolSection: { identificationModule: { nctId: string }; statusModule?: { overallStatus?: string; lastUpdatePostDateStruct?: { date?: string } } } }>; nextPageToken?: string }>({ "filter.ids": batch.join(","), fields: "NCTId,OverallStatus,LastUpdatePostDate" });
       if (body.nextPageToken) throw new Error("Unexpected second page in a status check");
-      for (const s of body.studies) now.set(s.protocolSection.identificationModule.nctId, s.protocolSection.statusModule?.overallStatus);
+      for (const s of body.studies) { now.set(s.protocolSection.identificationModule.nctId, s.protocolSection.statusModule?.overallStatus); updated.set(s.protocolSection.identificationModule.nctId, s.protocolSection.statusModule?.lastUpdatePostDateStruct?.date); }
       await sleep(600);
     }
-    for (const refs of Object.values(next)) for (const r of refs) if (now.has(r.nct) && now.get(r.nct) !== r.overallStatus) todo.add(r.nct);
-    console.log(`${held.length} studies checked; ${[...todo].filter((id) => !named.includes(id)).length} with a status that differs from the registry`);
+    let statusDiffers = 0, updatedSince = 0;
+    for (const refs of Object.values(next)) for (const r of refs) {
+      if (!now.has(r.nct) || todo.has(r.nct)) continue;
+      if (now.get(r.nct) !== r.overallStatus) { todo.add(r.nct); statusDiffers++; }
+      // A later update on the registry than the one recorded. An entry with no recorded date is left to --ids or a full run.
+      else if (staleUpdated && r.lastUpdatePosted && (updated.get(r.nct) ?? "") > r.lastUpdatePosted) { todo.add(r.nct); updatedSince++; }
+    }
+    console.log(`${held.length} studies checked; ${statusDiffers} with a status that differs from the registry${staleUpdated ? `; ${updatedSince} more updated on the registry since they were read` : ""}`);
   }
 
   const ids = [...todo].sort();
@@ -117,6 +132,7 @@ async function main() {
   for (const line of attached) console.log(`attached  ${line}`);
   for (const line of notReturned) console.log(`not returned  ${line}`);
   for (const line of changes) console.log(`status  ${line}`);
+  console.log(`requests this run: ${requests}`);
   if (dry) return;
 
   if (existsSync(studiesDir)) for (const s of snapshots.values()) {

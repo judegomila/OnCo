@@ -32,7 +32,7 @@ const VERIFIED_OUT = publicPath("regional", "verified.json");
 const DATA_FILE = join(process.cwd(), "src", "data", "regional-approvals.ts");
 const STAMP = !process.argv.includes("--no-stamp");
 
-export type EmaRow = { name: string; productNumber?: string; status: string; generic: boolean; biosimilar: boolean; opinionStatus?: string; inn?: string; substance?: string; therapeuticArea?: string; atc?: string; conditional: boolean; authorised?: string; withdrawn?: string; refused?: string; holder?: string; url?: string; indication?: string };
+export type EmaRow = { name: string; productNumber?: string; status: string; generic: boolean; biosimilar: boolean; opinionStatus?: string; /** "Opinion adopted date" and "Last updated date" as the register gives them (ISO). Read by scripts/recheck/approvals-eu.ts. */ opinionDate?: string; lastUpdated?: string; inn?: string; substance?: string; therapeuticArea?: string; atc?: string; conditional: boolean; authorised?: string; withdrawn?: string; refused?: string; holder?: string; url?: string; indication?: string };
 export type RegionalCandidate = { region: "EU"; drugId?: string; product: string; inn?: string; reason: "missing-row" | "status-mismatch" | "year-mismatch" | "not-in-corpus"; recorded?: string; register: string; date?: string; /** Date the marketing authorisation was withdrawn, when the register records one (so a "withdrawn" row can be written without a second lookup). */ withdrawn?: string; url?: string; indication?: string;
   /**
    * True when the register's therapeutic indication reads as supportive care under the rule in src/lib/supportive-care.ts
@@ -102,9 +102,9 @@ function excelValue(raw: string, cell: string): string {
 const toIso = (s?: string) => { if (!s) return undefined; const m = s.match(/^(\d{2})\/(\d{2})\/(\d{4})/); return m ? `${m[3]}-${m[2]}-${m[1]}` : s.match(/^\d{4}-\d{2}-\d{2}/)?.[0]; };
 
 const ONCO = /neoplasm|carcinoma|leuk|lymphoma|myeloma|melanoma|sarcoma|glioma|tumou?r|cancer/i;
-function isOncology(r: EmaRow): boolean { return /^L0[12]/.test(r.atc ?? "") || ONCO.test(r.therapeuticArea ?? "") || ONCO.test(r.indication ?? ""); }
+export function isOncology(r: EmaRow): boolean { return /^L0[12]/.test(r.atc ?? "") || ONCO.test(r.therapeuticArea ?? "") || ONCO.test(r.indication ?? ""); }
 
-function statusOf(r: EmaRow): RegionalStatus | "other" {
+export function statusOf(r: EmaRow): RegionalStatus | "other" {
   const s = r.status.toLowerCase();
   if (s.startsWith("authorised")) return r.conditional ? "conditional" : "approved";
   if (s.startsWith("withdrawn")) return "withdrawn";
@@ -113,37 +113,19 @@ function statusOf(r: EmaRow): RegionalStatus | "other" {
   return "other";
 }
 
-async function main() {
-  const g = graph();
-  // Combination regimens (FOLFOX, CAPTEM) are not EMA medicines; their components are, so they are kept out of the matcher.
-  const products = g.kind("drug").filter((d) => !/regimen/i.test(d.modality ?? ""));
-  const matcher = new NameMatcher(matchableFromGraph(products as never), ["drug"]);
-  // An INN that is exactly a product's name beats the alias matcher.
-  const normName = (s: string) => s.toLowerCase().replace(/\(.*?\)/g, "").replace(/[^a-z0-9]+/g, " ").trim();
-  const exact = new Map<string, string>();
-  for (const d of products) if (!exact.has(normName(d.name))) exact.set(normName(d.name), d.id);
-  const snap: RegionalSnapshot = {
-    fetched: today(), register: { rows: 0, human: 0, oncology: 0 }, verified: [], candidates: [], errors: [],
-    sources: {
-      ema: EMA_XLSX,
-      mhra: { url: REGION_META.UK.url, note: "MHRA's products site has no documented public API; UK rows stay hand-verified against the SmPC search." },
-      pmda: { url: REGION_META.JP.url, note: "PMDA publishes its list of approved products as PDF only; Japanese rows stay hand-verified." },
-    },
-  };
-
-  const buf = await getBuffer(EMA_XLSX);
-  if (!buf) throw new Error("EMA spreadsheet unreachable; previous snapshots retained");
+/** The register's human medicines, from the spreadsheet's bytes. Throws rather than return a table it could not read. */
+export function readRegister(buf: Buffer): { ema: EmaRow[]; rowCount: number; parsedRows: number; generatedOn?: string } {
   const entries = zipEntries(buf);
   const sheet = entries.get("xl/worksheets/sheet1.xml"), shared = entries.get("xl/sharedStrings.xml");
   if (!sheet) throw new Error("EMA spreadsheet has no sheet1; previous snapshots retained");
   const rows = parseSheet(sheet.toString("utf8"), shared?.toString("utf8") ?? "");
   const gen = rows.find((r) => Object.values(r).some((v) => /^\d{2}\/\d{2}\/\d{4}/.test(v)) && Object.values(r).some((v) => /generated/i.test(v)));
-  snap.register.generatedOn = toIso(Object.values(gen ?? {}).find((v) => /^\d{2}\/\d{2}\/\d{4}/.test(v)));
+  const generatedOn = toIso(Object.values(gen ?? {}).find((v) => /^\d{2}\/\d{2}\/\d{4}/.test(v)));
   const headerIdx = rows.findIndex((r) => Object.values(r).includes("Category") && Object.values(r).includes("Name of medicine"));
   if (headerIdx < 0) throw new Error("EMA header row not found; previous snapshots retained");
   const header = rows[headerIdx];
   const col = (label: RegExp) => Object.entries(header).find(([, v]) => label.test(v))?.[0];
-  const C = { cat: col(/^Category/), name: col(/^Name of medicine/), num: col(/^EMA product number/), status: col(/^Medicine status/), opinion: col(/^Opinion status/), inn: col(/^International non-proprietary/), subst: col(/^Active substance/), area: col(/^Therapeutic area/), atc: col(/^ATC code \(human\)/), ind: col(/^Therapeutic indication/), cond: col(/^Conditional approval/), generic: col(/^Generic/), biosimilar: col(/^Biosimilar/), holder: col(/^Marketing authorisation developer/), auth: col(/^Marketing authorisation date/), withdrawn: col(/^Withdrawal \/ expiry/), refused: col(/^Refusal of marketing/), url: col(/^Medicine URL/) };
+  const C = { cat: col(/^Category/), name: col(/^Name of medicine/), num: col(/^EMA product number/), status: col(/^Medicine status/), opinion: col(/^Opinion status/), inn: col(/^International non-proprietary/), subst: col(/^Active substance/), area: col(/^Therapeutic area/), atc: col(/^ATC code \(human\)/), ind: col(/^Therapeutic indication/), cond: col(/^Conditional approval/), generic: col(/^Generic/), biosimilar: col(/^Biosimilar/), holder: col(/^Marketing authorisation developer/), auth: col(/^Marketing authorisation date/), opinionDate: col(/^Opinion adopted date/), updated: col(/^Last updated date/), withdrawn: col(/^Withdrawal \/ expiry/), refused: col(/^Refusal of marketing/), url: col(/^Medicine URL/) };
   if (!C.status) throw new Error("EMA Medicine status column not found; previous snapshots retained");
   const get = (r: Record<string, string>, k?: string) => (k ? r[k] : undefined);
 
@@ -152,17 +134,33 @@ async function main() {
     if (get(r, C.cat) !== "Human") continue;
     const name = get(r, C.name), status = get(r, C.status);
     if (!name || !status) throw new Error("EMA human medicine row lacks a name or status; previous snapshots retained");
-    ema.push({ name, productNumber: get(r, C.num), status, opinionStatus: get(r, C.opinion), inn: get(r, C.inn), substance: get(r, C.subst), therapeuticArea: get(r, C.area), atc: get(r, C.atc), conditional: /yes/i.test(get(r, C.cond) ?? ""), generic: /yes/i.test(get(r, C.generic) ?? ""), biosimilar: /yes/i.test(get(r, C.biosimilar) ?? ""), authorised: toIso(get(r, C.auth)), withdrawn: toIso(get(r, C.withdrawn)), refused: toIso(get(r, C.refused)), holder: get(r, C.holder), url: get(r, C.url), indication: get(r, C.ind)?.slice(0, 300) });
+    ema.push({ name, productNumber: get(r, C.num), status, opinionStatus: get(r, C.opinion), inn: get(r, C.inn), substance: get(r, C.subst), therapeuticArea: get(r, C.area), atc: get(r, C.atc), conditional: /yes/i.test(get(r, C.cond) ?? ""), generic: /yes/i.test(get(r, C.generic) ?? ""), biosimilar: /yes/i.test(get(r, C.biosimilar) ?? ""), authorised: toIso(get(r, C.auth)), withdrawn: toIso(get(r, C.withdrawn)), refused: toIso(get(r, C.refused)), holder: get(r, C.holder), url: get(r, C.url), indication: get(r, C.ind)?.slice(0, 300), opinionDate: toIso(get(r, C.opinionDate)), lastUpdated: toIso(get(r, C.updated)) });
   }
   // This is the full medicine register, not a query window. No discrepancies is valid;
   // no readable human medicines is not evidence for replacing either snapshot or its date.
   if (!ema.length) throw new Error("EMA spreadsheet has no human medicines; previous snapshots retained");
-  snap.register.rows = rows.length - headerIdx - 1;
-  snap.register.human = ema.length;
-  const onco = ema.filter(isOncology);
-  snap.register.oncology = onco.length;
-  console.log(`ema: ${rows.length} rows, ${ema.length} human medicines, ${onco.length} oncology (register generated ${snap.register.generatedOn ?? "?"})`);
+  return { ema, rowCount: rows.length - headerIdx - 1, parsedRows: rows.length, generatedOn };
+}
 
+/** What the register resolves to for one corpus product: the status the comparison used and the medicine it was read from. */
+export type RegisterReading = { status: RegionalStatus | "other"; registerText: string; lead: EmaRow; medicines: EmaRow[] };
+
+/**
+ * Compare the register's oncology medicines with the EU rows of regional-approvals.ts. Pure: the same rows and the
+ * same corpus give the same answer, which is what lets scripts/recheck/approvals-eu.ts reuse the rules instead of
+ * keeping a second copy of them.
+ */
+export function compareRegister(onco: EmaRow[], drugs: Array<{ id: string; kind: string; name: string; aka: string[]; modality?: string }>, regional: typeof regionalApprovals, fetched: string): { verified: RegionalVerified[]; candidates: RegionalCandidate[]; matchedIds: Set<string>; resolved: Map<string, RegisterReading> } {
+  // Combination regimens (FOLFOX, CAPTEM) are not EMA medicines; their components are, so they are kept out of the matcher.
+  const products = drugs.filter((d) => !/regimen/i.test(d.modality ?? ""));
+  const matcher = new NameMatcher(matchableFromGraph(products as never), ["drug"]);
+  // An INN that is exactly a product's name beats the alias matcher.
+  const normName = (s: string) => s.toLowerCase().replace(/\(.*?\)/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+  const exact = new Map<string, string>();
+  for (const d of products) if (!exact.has(normName(d.name))) exact.set(normName(d.name), d.id);
+  let verified: RegionalVerified[] = [];
+  let candidates: RegionalCandidate[] = [];
+  const resolved = new Map<string, RegisterReading>();
   const matchedIds = new Set<string>();
   const perDrug = new Map<string, EmaRow[]>();
   for (const r of onco) {
@@ -171,7 +169,7 @@ async function main() {
     const st = statusOf(r);
     if (!id) {
       // Only originator medicines are worth a new record; generics and biosimilars of products we do not track are noise.
-      if (!r.generic && !r.biosimilar && (st === "approved" || st === "conditional" || st === "under-review")) snap.candidates.push({ region: "EU", product: r.name, inn: r.inn, reason: "not-in-corpus", register: r.status, date: r.authorised, url: r.url, indication: r.indication });
+      if (!r.generic && !r.biosimilar && (st === "approved" || st === "conditional" || st === "under-review")) candidates.push({ region: "EU", product: r.name, inn: r.inn, reason: "not-in-corpus", register: r.status, date: r.authorised, url: r.url, indication: r.indication });
       continue;
     }
     matchedIds.add(id);
@@ -183,7 +181,7 @@ async function main() {
   for (const [id, meds] of perDrug) {
     const originators = meds.filter((m) => !m.generic && !m.biosimilar);
     const pool = originators.length ? originators : meds;
-    const row = regionalApprovals[id]?.EU;
+    const row = regional[id]?.EU;
     // When the row cites a specific EPAR, judge by that medicine rather than by the INN's earliest product (Inaqovi, not
     // Dacogen, for decitabine-cedazuridine; Zytiga, not Akeega, for abiraterone).
     const sameUrl = (a?: string, b?: string) => !!a && !!b && a.toLowerCase().replace(/\/$/, "") === b.toLowerCase().replace(/\/$/, "");
@@ -193,26 +191,54 @@ async function main() {
     const st = cited ? statusOf(cited) : authorised.length ? (authorised.every((m) => m.conditional) ? "conditional" : "approved") : statusOf(lead);
     const registerText = !cited && authorised.length ? `${lead.status}${st === "conditional" ? " (conditional)" : ""}` : `${lead.status}${lead.conditional ? " (conditional)" : ""}`;
     const year = lead.authorised ? Number(lead.authorised.slice(0, 4)) : undefined;
+    resolved.set(id, { status: st, registerText, lead, medicines: meds });
     const base = { region: "EU" as const, drugId: id, product: lead.name, inn: lead.inn, url: lead.url, indication: lead.indication, withdrawn: lead.withdrawn };
-    if (!row) { snap.candidates.push({ ...base, reason: "missing-row", register: registerText, date: lead.authorised ?? lead.refused ?? lead.withdrawn }); continue; }
+    if (!row) { candidates.push({ ...base, reason: "missing-row", register: registerText, date: lead.authorised ?? lead.refused ?? lead.withdrawn }); continue; }
     const recordedApproved = row.status === "approved" || row.status === "conditional";
     const registerApproved = st === "approved" || st === "conditional";
-    if (recordedApproved !== registerApproved && st !== "other") { snap.candidates.push({ ...base, reason: "status-mismatch", recorded: row.status, register: registerText, date: lead.authorised ?? lead.withdrawn ?? lead.refused }); continue; }
+    if (recordedApproved !== registerApproved && st !== "other") { candidates.push({ ...base, reason: "status-mismatch", recorded: row.status, register: registerText, date: lead.authorised ?? lead.withdrawn ?? lead.refused }); continue; }
     // Without a cited EPAR, the centralised register (1995 onwards) cannot contradict an earlier national approval, so only
     // an authorisation that predates the recorded year counts as a disagreement.
-    if (recordedApproved && row.year && year && (cited ? Math.abs(row.year - year) > 1 : year < row.year - 1)) { snap.candidates.push({ ...base, reason: "year-mismatch", recorded: String(row.year), register: `authorised ${lead.authorised}`, date: lead.authorised }); continue; }
-    if (st !== "other") snap.verified.push({ drugId: id, region: "EU", status: row.status, year: row.year, url: lead.url, verifiedOn: snap.fetched });
+    if (recordedApproved && row.year && year && (cited ? Math.abs(row.year - year) > 1 : year < row.year - 1)) { candidates.push({ ...base, reason: "year-mismatch", recorded: String(row.year), register: `authorised ${lead.authorised}`, date: lead.authorised }); continue; }
+    if (st !== "other") verified.push({ drugId: id, region: "EU", status: row.status, year: row.year, url: lead.url, verifiedOn: fetched });
   }
   // One verified entry per product (a product can have several EU medicines, e.g. biosimilars).
   const seen = new Set<string>();
-  snap.verified = snap.verified.filter((v) => { if (seen.has(v.drugId)) return false; seen.add(v.drugId); return true; });
+  verified = verified.filter((v) => { if (seen.has(v.drugId)) return false; seen.add(v.drugId); return true; });
   // A candidate should not also be listed as verified.
-  const cand = new Set(snap.candidates.map((c) => c.drugId).filter(Boolean));
-  snap.verified = snap.verified.filter((v) => !cand.has(v.drugId));
+  const cand = new Set(candidates.map((c) => c.drugId).filter(Boolean));
+  verified = verified.filter((v) => !cand.has(v.drugId));
   // Supportive care rule (src/lib/supportive-care.ts): a candidate whose indication names symptom control, toxicity rescue or
   // infection prophylaxis and no antitumour purpose is flagged, so the record written from it is a supportive medicine, not a treatment.
-  snap.candidates = snap.candidates.map((c) => (c.indication && isSupportiveIndication(c.indication) ? { ...c, supportive: true } : c));
-  snap.candidates.sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
+  candidates = candidates.map((c) => (c.indication && isSupportiveIndication(c.indication) ? { ...c, supportive: true } : c));
+  candidates.sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
+
+  return { verified, candidates, matchedIds, resolved };
+}
+
+async function main() {
+  const snap: RegionalSnapshot = {
+    fetched: today(), register: { rows: 0, human: 0, oncology: 0 }, verified: [], candidates: [], errors: [],
+    sources: {
+      ema: EMA_XLSX,
+      mhra: { url: REGION_META.UK.url, note: "MHRA's products site has no documented public API; UK rows stay hand-verified against the SmPC search." },
+      pmda: { url: REGION_META.JP.url, note: "PMDA publishes its list of approved products as PDF only; Japanese rows stay hand-verified." },
+    },
+  };
+
+  const buf = await getBuffer(EMA_XLSX);
+  if (!buf) throw new Error("EMA spreadsheet unreachable; previous snapshots retained");
+  const { ema, rowCount, parsedRows, generatedOn } = readRegister(buf);
+  snap.register.generatedOn = generatedOn;
+  snap.register.rows = rowCount;
+  snap.register.human = ema.length;
+  const onco = ema.filter(isOncology);
+  snap.register.oncology = onco.length;
+  console.log(`ema: ${parsedRows} rows, ${ema.length} human medicines, ${onco.length} oncology (register generated ${snap.register.generatedOn ?? "?"})`);
+
+  const { verified, candidates, matchedIds } = compareRegister(onco, graph().kind("drug"), regionalApprovals, snap.fetched);
+  snap.verified = verified;
+  snap.candidates = candidates;
 
   writeJson(OUT, snap);
   writeJson(VERIFIED_OUT, { fetched: snap.fetched, source: EMA_XLSX, EU: Object.fromEntries(snap.verified.map((v) => [v.drugId, v.verifiedOn])) });
@@ -232,4 +258,4 @@ async function main() {
   } else if (STAMP) console.log(`ema: not stamping (${disagreeing} disagreements, ${checked.length} rows checked, ${unverified} unverified checked rows)`);
 }
 
-main().catch((e) => { console.error(e); process.exit(1); });
+if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });

@@ -231,6 +231,7 @@ import { treatmentInducedDiarrhoeaGradingAndManagement } from "./treatment-induc
 import { tumourFlareOnBispecificAntibodiesAndImmunomodulatoryDrugs } from "./tumour-flare-on-bispecific-antibodies-and-immunomodulatory-drugs";
 import { tumourLysisSyndrome } from "./tumour-lysis-syndrome";
 import { vaccinationAroundCancerTreatment } from "./vaccination-around-cancer-treatment";
+import { venoOcclusiveDiseaseOnInotuzumabAndGemtuzumabOzogamicin } from "./veno-occlusive-disease-on-inotuzumab-and-gemtuzumab-ozogamicin";
 import { venousAccessDeviceSelectionForAnticancerTherapy } from "./venous-access-device-selection-for-anticancer-therapy";
 import { vteProphylaxisAfterCancerSurgery } from "./vte-prophylaxis-after-cancer-surgery";
 import { vteRiskAssessmentAndThromboprophylaxisAmbulatory } from "./vte-risk-assessment-and-thromboprophylaxis-ambulatory";
@@ -472,6 +473,7 @@ export const protocols: ProtocolInput[] = [
   tumourFlareOnBispecificAntibodiesAndImmunomodulatoryDrugs,
   tumourLysisSyndrome,
   vaccinationAroundCancerTreatment,
+  venoOcclusiveDiseaseOnInotuzumabAndGemtuzumabOzogamicin,
   venousAccessDeviceSelectionForAnticancerTherapy,
   vteProphylaxisAfterCancerSurgery,
   vteRiskAssessmentAndThromboprophylaxisAmbulatory,

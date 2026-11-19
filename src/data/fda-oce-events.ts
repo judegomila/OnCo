@@ -261,6 +261,9 @@ export const FDA_OCE_EVENTS: Record<string, FdaOceEvent[]> = {
   "glofitamab": [
     {"date":"2023-06-15","type":"approval","region":"US","note":"FDA granted accelerated approval to glofitamab-gxbm (Columvi, Genentech, Inc.) for relapsed or refractory diffuse large B-cell lymphoma, not otherwise specified (DLBCL, NOS) or large B-cell lymphoma (LBCL) arising from follicular lymphoma, after two or more lines of systemic therapy.","source":"https://www.fda.gov/drugs/drug-approvals-and-databases/fda-grants-accelerated-approval-glofitamab-gxbm-selected-relapsed-or-refractory-large-b-cell","indication":"selected relapsed or refractory large B-cell lymphomas"},
   ],
+  "hlx11": [
+    {"date":"2025-11-13","type":"approval","region":"US","note":"FDA approved Poherdy (pertuzumab-dpzb, Shanghai Henlius Biologics Co. Ltd.) as an interchangeable biosimilar to Perjeta (pertuzumab, Genentech Inc.).","source":"https://www.fda.gov/drugs/cancer-approvals/fda-approves-new-interchangeable-biosimilar-perjeta"},
+  ],
   "iberdomide": [
     {"date":"2026-08-13","type":"approval","region":"US","note":"FDA granted accelerated approval to iberdomide (Zenbexus, Bristol-Myers Squibb Company) in combination with daratumumab and hyaluronidase-fihj and dexamethasone for adults with multiple myeloma who have received at least one prior line of therapy including a proteasome inhibitor and an immunomodulatory agent.","source":"https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-iberdomide-daratumumab-and-hyaluronidase-fihj-and-dexamethasone","indication":"multiple myeloma"},
   ],
@@ -473,7 +476,6 @@ export const FDA_OCE_EVENTS: Record<string, FdaOceEvent[]> = {
   ],
   "pertuzumab": [
     {"date":"2020-06-29","type":"approval","region":"US","note":"FDA approved a new fixed-dose combination of pertuzumab, trastuzumab, and hyaluronidase–zzxf (PHESGO, Genentech, Inc.) for subcutaneous injection","source":"https://www.fda.gov/drugs/drug-approvals-and-databases/fda-approves-combination-pertuzumab-trastuzumab-and-hyaluronidase-zzxf-her2-positive-breast-cancer","indication":"HER2-positive breast cancer"},
-    {"date":"2025-11-13","type":"approval","region":"US","note":"FDA approved Poherdy (pertuzumab-dpzb, Shanghai Henlius Biologics Co. Ltd.) as an interchangeable biosimilar to Perjeta (pertuzumab, Genentech Inc.).","source":"https://www.fda.gov/drugs/cancer-approvals/fda-approves-new-interchangeable-biosimilar-perjeta"},
   ],
   "pimicotinib": [
     {"date":"2026-11-10","type":"approval","region":"US","note":"FDA approved pimicotinib (Pimjetmi, EMD Serono, Inc.), a kinase inhibitor, for adults with symptomatic tenosynovial giant cell tumor (TGCT) for which surgical resection may cause worsening functional limitation or severe morbidity.","source":"https://www.fda.gov/drugs/cancer-approvals/fda-approves-pimicotinib-symptomatic-tenosynovial-giant-cell-tumor","indication":"symptomatic tenosynovial giant cell tumor"},

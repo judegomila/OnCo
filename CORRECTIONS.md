@@ -1,5 +1,19 @@
 # Corrections
 
+### Combining the accuracy passes, second round, 18 November 2026
+
+Found while the finished passes were combined into one branch: side-effect rates with no source, wording that had drifted from its sources, and one-line translations made from English that has since been corrected.
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-18 | [Relacorilant](/drugs/relacorilant/) | Six side-effect rates carried no source. | Combining the passes; the Lifyorli US label effective 26 March 2026 read through openFDA, Tables 5 and 6 (ROSELLA, 188 patients given relacorilant with nab-paclitaxel). | Each rate matched the label and now cites it. |
+| 2026-11-18 | [Vusolimogene oderparepvec](/drugs/vusolimogene-oderparepvec/) | Seven side-effect rates carried no source. | Combining the passes; the Tudriqev US label effective 17 August 2026 read through openFDA, Table 1 (IGNYTE, 140 patients given it with nivolumab). | Each rate matched the label and now cites it. |
+| 2026-11-18 | [Arvinas](/companies/arvinas/) | The corrected lines called vepdegestrant the first drug "of that kind" to be approved, a roundabout wording that named no kind. | Combining the passes; the abstracts for PubMed ids 42820956 and 42514905 read through PubMed: "the first FDA-approved oral PROTAC" and "the first-ever approved PROTAC drug". | The summary line, the summary and the plain-language line say first approved PROTAC. |
+| 2026-11-18 | [EZH2](/targets/ezh2/) | Two passes left different wordings of the summary line: one named tazemetostat as the first drug against EZH2 and said it was withdrawn "for causing" second blood cancers, the other dropped "first" as unsourced. | Combining the passes; the abstract of Tazemetostat: First Approval (Drugs 2020, PubMed id 32166598) read through Europe PMC: "a first-in-class, small molecule enhancer of zeste homolog 2 (EZH2) inhibitor". | The line names tazemetostat as the first drug against EZH2 and says it was withdrawn in 2026 because of second blood cancers. |
+| 2026-11-18 | [MRG003](/drugs/mrg003/) | Two passes had corrected the record separately. They agree on every fact: approval in China announced on 30 October 2025 for recurrent or metastatic nasopharyngeal cancer after at least two lines of chemotherapy and a PD-1 or PD-L1 inhibitor. | Combining the passes; both versions read side by side. | The record keeps the fuller mechanism and summary, the one-line summaries that say the approval is for previously treated disease, and both sources. |
+| 2026-11-18 | [Brigimadlin](/drugs/brigimadlin/), [Hypericin (SGX301)](/drugs/hypericin-sgx301/) | Two passes had corrected each record separately, with the same trial figures. | Combining the passes; both versions read side by side. | Each record keeps the fuller account and both sets of links; hypericin keeps the FLASH publication (JAMA Dermatology 2022) beside the account of the stopped FLASH2 trial. |
+| 2026-11-18 | One-line translations in eight languages | 3,649 translated one-line summaries (436 Spanish, 594 Chinese, 436 Portuguese, 437 Hindi, 436 French, 436 German, 437 Japanese, 437 Arabic) were made from English lines the accuracy passes have since corrected. | Combining the passes; each record's English line compared with the line its translation was made from. | Those entries are removed, so the page shows the corrected English until a new translation is made. |
+
 ### The ArteraAI authorisation carried to the records that repeated the old claim, 18 November 2026
 
 The second accuracy pass corrected the ArteraAI Prostate record: the FDA authorised it for prognosis, not for predicting benefit from hormone therapy. Ten other lines on six kinds of record still carried the old claim, and two benchmark questions were built on claims the pass had found wrong.

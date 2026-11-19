@@ -460,7 +460,7 @@ export const trop2EmergingModalities: EntityInput[] = [
     "name": "VBC103",
     "modality": "ADC",
     "status": "phase-1",
-    "asOf": "2026-10-06",
+    "asOf": "2026-11-18",
     "mechanism": "Bispecific antibody-drug conjugate targeting Nectin-4 and TROP2, as described in the registered trial title.",
     "tldr": "VBC103 is an experimental drug designed to recognize two proteins on cancer cells. Its early trial is testing safety and activity.",
     "summary": "NCT07299747 registers a first-in-human phase I/IIa study of VBC103 targeting Nectin-4 and TROP2. It includes dose escalation, dose optimization and cohort expansion in advanced solid tumors. The registry names VelaVigo Bio Inc as sponsor. No tabular results are posted. Payload identity and comparative clinical efficacy are not inferred from the public registry.",

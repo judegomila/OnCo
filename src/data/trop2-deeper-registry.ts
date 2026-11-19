@@ -365,11 +365,11 @@ export const trop2DeeperRegistry: EntityInput[] = [
     "name": "Phase 1b Study Of TRICK-NK In Combination With T-Dxd In Treatment-Refractory Breast Cancers",
     "nct": "NCT07553390",
     "phase": "1",
-    "asOf": "2026-10-06",
+    "asOf": "2026-11-18",
     "setting": "Phase 1b Study Of Allogeneic CAR TROP2/IL15 Transduced TGFBR2 KO CB NK-Cells (TRICK-NK) In Combination With Trastuzumab Deruxtecan (T-Dxd) In Treatment-Refractory Breast Cancers",
     "sponsor": "M.D. Anderson Cancer Center",
-    "tldr": "This study tests TROP-2-directed treatment; the registry reports that it is not yet recruiting.",
-    "summary": "The registry lists NCT07553390 as not yet recruiting, last updated 2026-08-19. Enrolment is 60 planned participants, an estimate. Interventions: TGFBR2 KO iC9/TROP2.CAR/IL-15 NK cells, Trastuzumab deruxtecan (T-DXd), Rimiducid. Primary measures include Safety and Adverse Events (AEs). No results are posted in the registry; this does not exclude separate publications.",
+    "tldr": "This study tests TROP-2-directed treatment; the registry reports that it is recruiting.",
+    "summary": "The registry lists NCT07553390 as recruiting, last updated 2026-11-17. Enrolment is 60 planned participants, an estimate. Interventions: TGFBR2 KO iC9/TROP2.CAR/IL-15 NK cells, Trastuzumab deruxtecan (T-DXd), Rimiducid. Primary measures include Safety and Adverse Events (AEs). No results are posted in the registry; this does not exclude separate publications.",
     "targets": [
       "trop2"
     ],
@@ -380,7 +380,7 @@ export const trop2DeeperRegistry: EntityInput[] = [
         "url": "https://clinicaltrials.gov/study/NCT07553390"
       }
     ],
-    "status": "planned",
+    "status": "recruiting",
     "started": "2026-10-01",
     "startedType": "estimated",
     "cancers": [

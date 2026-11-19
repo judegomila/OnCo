@@ -633,7 +633,7 @@ export const simpleP: Record<string, string> = {
   "nct05646862": "Roche is comparing inavolisib plus fulvestrant with alpelisib plus fulvestrant in advanced hormone-positive, HER2-negative breast cancer with a PIK3CA mutation, and is recruiting.",
   "nct06109779": "ARTEMIDE-Biliary01 from AstraZeneca tests rilvegostomig plus chemotherapy after surgery to remove bile duct cancer, and the trial is no longer recruiting.",
   "nct04873362": "Roche is testing atezolizumab or placebo with trastuzumab emtansine after surgery in HER2-positive breast cancer at high risk of returning, and the trial is no longer recruiting.",
-  "nct04821622": "Pfizer is testing talazoparib with enzalutamide in men whose spreading prostate cancer still responds to hormone therapy and has DNA repair gene faults, and is no longer recruiting.",
+  "nct04821622": "TALAPRO-3 found that adding talazoparib to enzalutamide held back spreading prostate cancer with DNA repair gene faults for longer. Whether men live longer is not yet known.",
   "nct05144854": "Ono is testing ONO-4538 with ipilimumab and chemotherapy as first treatment for HER2-negative advanced stomach cancer, and the trial is no longer recruiting.",
   "nct06492616": "Stemline is comparing elacestrant with standard hormone therapy in early ER-positive, HER2-negative breast cancer at high risk of coming back, and it is no longer recruiting.",
   "nct04965493": "Loxo Oncology is comparing pirtobrutinib plus venetoclax and rituximab with venetoclax and rituximab in treated chronic lymphocytic leukaemia, and is no longer recruiting.",

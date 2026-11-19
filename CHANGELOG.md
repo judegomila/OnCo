@@ -7,9 +7,19 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 19 November 2026
+- Eleven regulator decisions from the past month are recorded from the regulators' own notices, among them the FDA's accelerated approval of neladalkib on 17 November, three European applications withdrawn and three positive opinions, with the TALAPRO-3 trial's published results; and a monitor now reads regulators', journals' and cancer centres' public feeds for leads to check
 - Daraxonrasib's record gains its trial's size and design, side-effect rates and review timing from the FDA notice, the label and the published trial, and its drug class gets a page of its own; the first results of the REGAIN trial of Alpha DaRT in recurrent glioblastoma are recorded with their limits; and this week's logos, structures and trial names arrive with fifteen wrong logos left out
 
 ### 18 November 2026
+- The BMJ's feed leaves the lead monitor's list: it redirects to a host whose robots.txt disallows it
+- Regulatory decisions of September to November 2026 are brought up to date from the regulators' own notices: neladalkib's accelerated approval in the United States with the ALKOVE-1 results; the European committee's recommendations for sintilimab, talazoparib and belzutifan; the European applications withdrawn for anlotinib, for palbociclib in HER2-positive breast cancer and for capivasertib in prostate cancer, with the agency's reasons; and retifanlimab's approval for anal cancer in the United Kingdom
+- The lead monitor says what to do when it finds its queue locked
+- On a general channel the lead monitor keeps an item only if it mentions cancer or names a record OnCo holds, even when the item carries a DOI, so a general journal's feed no longer queues its whole table of contents
+- The lead monitor matches a trial by name only when the name is plainly an acronym, so a one-word alias no longer puts a trial on every item that uses the word
+- When a resolver is down the lead monitor leaves the item for the next run, and files it as unverified only when the resolver answers that no such record exists
+- The lead monitor saves its queue after every source, so a run that is cut short loses at most the source it was reading
+- A research lead monitor that needs no account: it reads regulators', journals', societies', centres' and charities' feeds, their Bluesky accounts, a PubMed search and the trial registry into a private review queue, and publishes nothing
+- Daraxonrasib's record gains its trial's size and design, side-effect rates and review timing from the FDA notice, the label and the published trial, and its drug class gets a page of its own; the first results of the REGAIN trial of Alpha DaRT in recurrent glioblastoma are recorded with their limits; and this week's logos, structures and trial names arrive with fifteen wrong logos left out
 - The gallbladder term keeps its file's date: the helper that builds it takes no date of its own
 - The corrected gallbladder term carries the date it was checked
 - More of the site is joined up on the page: institutions and funders list the trials they sponsor, people list the trials whose papers they wrote, ideas and the problems they address name each other, open questions appear on the ideas they concern, tests show who pays for them where a source says, and nearly every glossary term in running text now has its explanation on hover
@@ -26,6 +36,8 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - chore: EU regional rows read from the EMA register pages (#455)
 
 ### 17 November 2026
+- Type the X timeline response explicitly
+- Add private X research lead monitor
 - Second accuracy pass on the cancer pages: 31 cancers re-read claim by claim against the trials, labels and guidelines they cite, with about 2,700 corrections, among them approvals since withdrawn or granted, trials shown as awaited after they had reported, and survival gains that later analyses did not confirm; and the last thirteen care protocols
 - Second accuracy pass on cancer pages: merge the newest main, and bring six one-line descriptions up to date with facts this pass verified (daraxonrasib approval, Claudin 18.2 treatments, sacituzumab govitecan first-line approvals)
 - Second accuracy pass on the remaining care protocols: the fourteen written on 17 November, radiation safety, line care, procedures, enhanced recovery after surgery, follow-up and survivorship, each re-read against its guidelines and labels, with every correction logged

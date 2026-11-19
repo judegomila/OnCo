@@ -171,15 +171,15 @@ const companionDiagnostics: DrugInput[] = [
     companies: ["caris"], cancers: ["colorectal", "nsclc", "melanoma", "breast-hr-positive"],
     technologies: ["cgp", "wes-wgs", "rna-seq", "companion-diagnostic"], terms: ["ngs"],
     links: [{ label: "Caris: MI Cancer Seek (page moved; nearest live section)", url: "https://www.carislifesciences.com/products-and-services/molecular-profiling/" }] }),
-  d({ id: "resolution-ctdx-first", name: "Resolution ctDx FIRST", brand: "Resolution ctDx FIRST", modality: "Liquid biopsy companion diagnostic test (NGS, cfDNA)", status: "approved",
-    mechanism: "Targeted NGS of plasma cell-free DNA covering lung cancer driver genes, with a companion claim for KRAS G12C.",
-    tldr: "A blood test approved with adagrasib to find the KRAS G12C mutation in lung cancer when a tissue biopsy is not possible.",
-    summary: "Agilent's Resolution ctDx FIRST was approved by the FDA in December 2022 alongside adagrasib as a liquid biopsy companion diagnostic for KRAS G12C-mutant non-small-cell lung cancer, with tumour-profiling claims for other lung cancer genes. It is the second liquid comprehensive genomic profiling test with a companion claim after Guardant360 CDx and FoundationOne Liquid CDx. As with all plasma tests, a negative result should be followed by tissue testing.",
+  d({ id: "resolution-ctdx-first", asOf: "2026-11-18", name: "Resolution ctDx FIRST", brand: "Resolution ctDx FIRST", modality: "Liquid biopsy companion diagnostic test (NGS, cfDNA)", status: "withdrawn",
+    mechanism: "Targeted NGS of plasma cell-free DNA: it sequenced 109 genes but reported only KRAS G12C, its companion claim, and variants in EGFR.",
+    tldr: "A blood test approved in 2022 with adagrasib to find the KRAS G12C mutation in lung cancer; the FDA database records its approval as withdrawn on 5 June 2025.",
+    summary: "Agilent's Resolution ctDx FIRST was approved by the FDA in December 2022 alongside adagrasib as a liquid biopsy companion diagnostic for KRAS G12C-mutant non-small-cell lung cancer (PMA P210040), with a tumour-profiling claim for EGFR only: it sequenced 109 genes but reported two. The FDA PMA database records a withdrawal date of 5 June 2025 and now names Exact Sciences, not Agilent, as the holder, although the test still appeared on the FDA companion diagnostic list dated 3 November 2026. As with all plasma tests, a negative result should be followed by tissue testing.",
     approvals: [{ region: "US", year: 2022, indication: "Companion diagnostic for adagrasib in KRAS G12C-mutant NSCLC (plasma)" }],
     notes: ["What a result means: KRAS G12C detected in blood makes adagrasib or sotorasib an option after first-line treatment."],
     targets: ["kras"], drugs: ["adagrasib"], cancers: ["nsclc"], companies: ["agilent"],
     technologies: ["liquid-biopsy", "companion-diagnostic"], terms: ["ctdna"],
-    links: [{ label: "Agilent: Resolution ctDx FIRST", url: "https://www.agilent.com/en/product/liquid-biopsy/resolution-ctdx-first" }] }),
+    links: [PMA("P210040"), { label: "Agilent: Resolution ctDx FIRST", url: "https://www.agilent.com/en/product/liquid-biopsy/resolution-ctdx-first" }] }),
 ];
 
 // =====================================================================================
@@ -283,10 +283,10 @@ const tumourProfiling: DrugInput[] = [
 // Screening tests (stool and blood) and MRD tests
 // =====================================================================================
 const screeningAndMrd: DrugInput[] = [
-  d({ id: "cologuard", name: "Cologuard", brand: "Cologuard", modality: "Multitarget stool DNA colorectal cancer screening test", status: "approved", wikipedia: W("Cologuard"),
+  d({ id: "cologuard", asOf: "2026-11-18", name: "Cologuard", brand: "Cologuard", modality: "Multitarget stool DNA colorectal cancer screening test", status: "approved", wikipedia: W("Cologuard"),
     mechanism: "Stool sample analysed for methylated NDRG4 and BMP3, mutant KRAS, and faecal haemoglobin, combined by an algorithm into a positive or negative result.",
     tldr: "A home stool test done every three years that looks for cancer DNA and hidden blood; a positive result means you need a colonoscopy.",
-    summary: "Cologuard (Exact Sciences) was approved by the FDA on 11 August 2014 (PMA P130017) for average-risk adults, the first stool DNA screening test. In the pivotal DeeP-C study (NEJM 2014, 9,989 participants) sensitivity for colorectal cancer was 92.3% versus 73.8% for FIT, sensitivity for advanced precancerous lesions 42.4% versus 23.8%, and specificity 86.6% versus 94.9%. It is a USPSTF-endorsed option at a three-year interval, covered by Medicare, and by 2024 more than 16 million tests had been performed. Its weakness is the false-positive rate, which sends about one in eight negative-for-cancer people to colonoscopy, and its limited detection of polyps compared with colonoscopy.",
+    summary: "Cologuard (Exact Sciences, now part of Abbott) was approved by the FDA on 11 August 2014 (PMA P130017) for average-risk adults, the first stool DNA screening test. In the pivotal DeeP-C study (NEJM 2014, 9,989 participants) sensitivity for colorectal cancer was 92.3% versus 73.8% for FIT, sensitivity for advanced precancerous lesions 42.4% versus 23.8%, and specificity 86.6% versus 94.9%. The USPSTF lists stool DNA-FIT testing as an option every one to three years, Medicare covers it once every three years, and by 2024 more than 16 million tests had been performed. Its weakness is the false-positive rate, which sends about one in eight negative-for-cancer people to colonoscopy, and its limited detection of polyps compared with colonoscopy.",
     approvals: [{ region: "US", year: 2014, indication: "Colorectal cancer screening in average-risk adults aged 50 and older (later 45 and older)" }],
     notes: ["What a result means: negative means repeat in three years; positive means a diagnostic colonoscopy, and most positives turn out not to be cancer."],
     cancers: ["colorectal"], companies: ["exact-sciences"], trials: ["deep-c"],
@@ -532,10 +532,10 @@ const imagingAgents: DrugInput[] = [
 // AI-enabled software as a medical device
 // =====================================================================================
 const aiSoftware: DrugInput[] = [
-  d({ id: "paige-prostate", tags: ["test", "precision"], name: "Paige Prostate Detect", brand: "Paige Prostate", modality: "AI digital pathology detection software (prostate biopsy)", status: "approved",
-    mechanism: "Deep-learning model trained on tens of thousands of whole-slide images flags biopsy slides and regions suspicious for cancer for pathologist review.",
+  d({ id: "paige-prostate", asOf: "2026-11-18", tags: ["test", "precision"], name: "Paige Prostate Detect", brand: "Paige Prostate", modality: "AI digital pathology detection software (prostate biopsy)", status: "approved",
+    mechanism: "Deep-learning model trained on the digital slide archive of Memorial Sloan Kettering Cancer Center flags biopsy slides and regions suspicious for cancer for pathologist review.",
     tldr: "The first AI for reading biopsy slides authorised by the FDA, which points pathologists to prostate cancer they might otherwise miss.",
-    summary: "Paige Prostate received FDA De Novo authorisation on 21 September 2021 (DEN200080), the first artificial-intelligence software for pathology. In the FDA reader study, pathologists using the software improved cancer detection on prostate biopsy slides, with the agency reporting a 7.3% improvement in detection and a reduction in false negatives. It runs on scanned whole-slide images and highlights areas of concern rather than making the diagnosis. Paige, a Memorial Sloan Kettering spin-out, went on to build the Virchow foundation models with Microsoft, and the software is CE-marked in Europe.",
+    summary: "Paige Prostate received FDA De Novo authorisation on 21 September 2021 (DEN200080), the first artificial-intelligence software for pathology. In the FDA reader study, pathologists using the software improved cancer detection on prostate biopsy slides, with the agency reporting a 7.3% improvement in detection and a reduction in false negatives. It runs on scanned whole-slide images and highlights areas of concern rather than making the diagnosis. Paige, a Memorial Sloan Kettering spin-out that is now a Tempus company, went on to build the Virchow foundation models with Microsoft, and the software is CE-marked in Europe.",
     approvals: [{ region: "US", year: 2021, indication: "Aid to pathologists in detecting areas suspicious for cancer on prostate needle biopsy slides (De Novo)" }, { region: "EU", year: 2019, indication: "CE mark" }],
     notes: ["What a result means: nothing changes for the patient directly; the pathologist still makes the diagnosis, with a second pair of algorithmic eyes reducing missed small cancers."],
     cancers: ["prostate"], companies: ["paige"],

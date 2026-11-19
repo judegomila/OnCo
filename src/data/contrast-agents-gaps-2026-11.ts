@@ -65,8 +65,8 @@ export const contrastAgentDrugs: DrugInput[] = [
   d({ id: "gadobenate-dimeglumine", name: "Gadobenate dimeglumine", brand: "MultiHance", aka: ["gadobenate", "gadobenic acid", "MultiHance"], status: "approved",
     modality: "Gadolinium-based contrast agent for MRI (intravenous)", mechanism: "A gadolinium chelate that shortens proton relaxation times and brightens tissue on MRI where it leaks from blood vessels.",
     tldr: "An MRI dye given into a vein for scans of the brain and spine and for imaging blood vessels.",
-    summary: "Bracco's MultiHance (NDA 021357, first approved 23 November 2004) is indicated for MRI of the central nervous system \"to visualize lesions with abnormal blood-brain barrier or abnormal vascularity of the brain, spine, and associated tissues\" and for MR angiography of renal and aorto-ilio-femoral vessels. ATC V08CA08 (gadobenic acid). " + GBCA_BOX,
-    approvals: [{ region: "US", year: 2004, indication: "MRI of the central nervous system; MR angiography of renal and aorto-ilio-femoral vessels", note: "NDA 021357; Bracco" }],
+    summary: "Bracco's MultiHance (NDA 021357, first approved 23 November 2004) is indicated for MRI of the central nervous system \"to visualize lesions with abnormal blood-brain barrier or abnormal vascularity of the brain, spine, and associated tissues\" and, since a supplement approved on 6 July 2012, for MR angiography of renal and aorto-ilio-femoral vessels in adults. ATC V08CA08 (gadobenic acid). " + GBCA_BOX,
+    approvals: [{ region: "US", year: 2004, indication: "MRI of the central nervous system", note: "NDA 021357; Bracco" }, { region: "US", year: 2012, indication: "MR angiography of renal and aorto-ilio-femoral vessels in adults", note: "NDA 021357 supplement 11, approved 6 July 2012" }],
     cancers: ["glioblastoma", "secondary-brain-tumours"], companies: ["bracco"], technologies: GBCA,
     links: [daf("021357", "MultiHance (NDA 021357)"), dm("59077a3e-5f03-4342-ae24-856267545631", "MultiHance"), atc("V08CA", "paramagnetic contrast media")] }),
 

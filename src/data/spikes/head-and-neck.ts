@@ -159,7 +159,7 @@ const drugs: DrugInput[] = [
     mechanismSteps: ["Antibody-dye conjugate binds EGFR on tumour cells within 24 hours", "Near-infrared light (690 nm) is delivered by surface or interstitial fibres", "Photochemical reaction ruptures the membrane of bound cells only", "Released antigens and damage signals recruit an immune response"],
     dosing: { route: "Intravenous infusion, then light at 24 hours", schedule: "640 mg/m² followed by 50 J/cm² (surface) or 100 J/cm (interstitial) illumination; repeatable", source: "https://www.pmda.go.jp/english/" },
     approvals: [{ region: "Japan", year: 2020, indication: "Unresectable locally advanced or recurrent head and neck cancer (conditional)" }],
-    regulatoryEvents: [{ date: "2020-09-25", type: "approval", region: "Japan", note: "World-first approval of a photoimmunotherapy drug" }],
+    regulatoryEvents: [{ date: "2020-09-25", type: "approval", region: "Japan", note: "The drug's first approval anywhere, under Japan's Sakigake and conditional early approval schemes" }],
     targets: ["egfr"], technologies: ["photoimmunotherapy"], cancers: ["head-and-neck"],
     links: [{ label: "Development status", url: "https://www.pharmaceutical-technology.com/data-insights/cetuximab-sarotalocan-rakuten-medical-recurrent-head-and-neck-squamous-cell-carcinoma-likelihood-of-approval/" }] }),
 ];

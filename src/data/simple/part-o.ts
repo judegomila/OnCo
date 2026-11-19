@@ -50,7 +50,7 @@ export const simpleO: Record<string, string> = {
   "skin-cancer": "Skin cancer covers common and rarely dangerous basal and squamous cell cancers, the more serious melanoma and rarer types, almost all caused by ultraviolet light and mostly cured by surgery.",
   "synovial-sarcoma": "Synovial sarcoma is a young person's sarcoma driven by the SS18-SSX fusion gene, treated with surgery, radiotherapy and chemotherapy, and in 2024 it got the first approved engineered T-cell therapy.",
   // drugs with an approval
-  abarelix: "Abarelix was the first GnRH antagonist for prostate cancer, approved in the United States in 2003 for men who could not take agonists, but allergic reactions led to its withdrawal there in 2005.",
+  abarelix: "Abarelix was the first GnRH antagonist for prostate cancer, approved in the United States in 2003 for men who could not take agonists; allergic reactions restricted it and US sales stopped in 2005.",
   alitretinoin: "Alitretinoin gel is a vitamin A derivative rubbed directly onto Kaposi sarcoma skin lesions in people with AIDS, approved in the United States in 1999.",
   tregzi: "Tregzi is a precisely sorted donor stem cell transplant given with regulatory T cells, approved in 2026 to protect people with blood cancers from chronic graft-versus-host disease.",
   altretamine: "Altretamine is a chemotherapy tablet approved in 1990 for ovarian cancer that has come back after platinum treatment, and it is now rarely used.",
@@ -97,7 +97,7 @@ export const simpleO: Record<string, string> = {
   pentostatin: "Pentostatin is an intravenous drug given every other week that produces long remissions in hairy cell leukaemia.",
   pilocarpine: "Pilocarpine tablets treat the dry mouth that follows head and neck radiotherapy, helping when some gland tissue is left, at the cost of sweating.",
   pipobroman: "Pipobroman was a tablet approved in 1966 for polycythaemia vera and chronic myeloid leukaemia, discontinued after studies showed it raised the risk of leukaemia.",
-  pixantrone: "Pixantrone is an anthracycline-like drug designed to spare the heart, approved in Europe in 2012 for aggressive B-cell lymphoma that has relapsed several times.",
+  pixantrone: "Pixantrone is an anthracycline-like drug designed to spare the heart, approved in Europe in 2012 for aggressive B-cell lymphoma that had relapsed several times; the approval lapsed in June 2024.",
   plicamycin: "Plicamycin, approved in 1970, was a chemotherapy for testicular cancer that later was kept for treating dangerously high calcium caused by cancer until it was discontinued in 2000.",
   "porfimer-sodium": "Porfimer sodium is injected, gathers in tumours, and is switched on two days later by a laser through an endoscope to burn away tumours blocking the gullet or airway.",
   "propranolol-hemangeol": "Hemangeol is a liquid form of the blood-pressure drug propranolol that shrinks infantile haemangiomas, the common harmless blood-vessel tumours of babies.",

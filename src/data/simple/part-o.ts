@@ -269,7 +269,7 @@ export const simpleO: Record<string, string> = {
   "lung-map-s1400i": "This Lung-MAP trial found that adding a second immunotherapy drug, ipilimumab, to nivolumab did not help people with squamous lung cancer live longer and caused more side effects.",
   "ma-20": "MA.20 showed that adding lymph node radiotherapy after lumpectomy keeps breast cancer away for longer, mainly by preventing distant spread, without a survival difference at ten years.",
   "netter-1": "NETTER-1 showed that a radioactive drug homing to the somatostatin receptor held midgut neuroendocrine tumours in check far longer than high-dose octreotide, and led to Lutathera's approval.",
-  "notable-trial": "In the minority of pancreatic cancers without a KRAS mutation, adding the antibody nimotuzumab to gemcitabine chemotherapy helped people live longer, and China approved it in 2023.",
+  "notable-trial": "In the minority of pancreatic cancers without a KRAS mutation, adding the antibody nimotuzumab to gemcitabine chemotherapy helped people live longer in a small Chinese trial.",
   "nrg-cc001": "NRG CC001 showed that shaping whole-brain radiotherapy to spare the hippocampus, the seat of memory, reduces mental decline without any loss of tumour control.",
   "nsabp-b39": "The largest partial-breast radiotherapy trial found recurrence rates within one percentage point of whole-breast treatment but could not formally prove the two were equivalent.",
   "pace-b": "PACE-B showed that five stereotactic radiotherapy treatments control low- and intermediate-risk prostate cancer as well as weeks of conventional radiotherapy, with similar side effects.",

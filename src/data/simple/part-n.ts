@@ -378,7 +378,7 @@ export const simpleN: Record<string, string> = {
   "euramos-1": "EURAMOS-1, the largest osteosarcoma trial ever run, found that neither interferon for good responders nor added ifosfamide and etoposide for poor responders improved outcomes, so MAP chemotherapy remained standard.",
   aaml0531: "COG AAML0531 showed that adding the antibody-drug conjugate gemtuzumab ozogamicin to chemotherapy lowered relapse in children with acute myeloid leukaemia, helping bring the withdrawn drug back.",
   "inter-b-nhl-ritux-2010": "Inter-B-NHL Ritux 2010, a joint European and North American trial, showed that adding rituximab to intensive chemotherapy cut treatment failures by about two-thirds in children with high-risk Burkitt lymphoma.",
-  "lch-iii": "LCH-III, the Histiocyte Society's third international trial, showed that treating multisystem Langerhans cell histiocytosis for a full year rather than six months roughly halves the chance of relapse.",
+  "lch-iii": "LCH-III, the Histiocyte Society's third international trial, showed that treating multisystem Langerhans cell histiocytosis for a full year rather than six months lowers the chance of relapse.",
   ccss: "The Childhood Cancer Survivor Study, run from St Jude since 1994, follows tens of thousands of survivors and showed heart damage and second cancers were common after older treatments.",
   "accelerate-platform": "ACCELERATE is a Brussels-based forum where children's cancer doctors, drug companies, the EMA, the FDA and parents agree which new cancer drugs should be tested in children and how.",
   itcc: "ITCC, coordinated from Gustave Roussy, is Europe's network of more than 60 children's hospitals that run the first trials of new cancer drugs in children close to home.",

@@ -119,6 +119,7 @@ import { hypothyroidismOnTyrosineKinaseInhibitors } from "./hypothyroidism-on-ty
 import { icahtProlongedCytopenia } from "./icaht-prolonged-cytopenia";
 import { icansGradingAndManagement } from "./icans-grading-and-management";
 import { iecHsManagement } from "./iec-hs-management";
+import { ifosfamideBladderProtectionAndEncephalopathy } from "./ifosfamide-bladder-protection-and-encephalopathy";
 import { imageGuidedCoreBiopsyPreparationAndAftercare } from "./image-guided-core-biopsy-preparation-and-aftercare";
 import { imageGuidedLungBiopsyPreparationAndAftercare } from "./image-guided-lung-biopsy-preparation-and-aftercare";
 import { imageGuidedRadiotherapyDailySetupVerification } from "./image-guided-radiotherapy-daily-setup-verification";
@@ -364,6 +365,7 @@ export const protocols: ProtocolInput[] = [
   icahtProlongedCytopenia,
   icansGradingAndManagement,
   iecHsManagement,
+  ifosfamideBladderProtectionAndEncephalopathy,
   imageGuidedCoreBiopsyPreparationAndAftercare,
   imageGuidedLungBiopsyPreparationAndAftercare,
   imageGuidedRadiotherapyDailySetupVerification,

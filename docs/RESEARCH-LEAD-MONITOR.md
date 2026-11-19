@@ -103,7 +103,8 @@ checkout is refused unless git ignores it. In it:
 - `queue.md`: the same candidates as a checklist.
 - `x-queue.json`: the X monitor's queue, if it is ever enabled.
 
-A failed or refused source keeps its old checkpoint and is reported in the counts. Run it once a day on one
+A failed or refused source keeps its old checkpoint and is reported in the counts. A run that was killed leaves
+`queue.json.lock` behind; check that no run is writing, then remove it. Run it once a day on one
 machine; there is nothing to gain from more.
 
 ## Reading the queue

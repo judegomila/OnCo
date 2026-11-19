@@ -583,7 +583,10 @@ async function main(): Promise<void> {
   await mkdir(dir, { recursive: true, mode: 0o700 });
   const statePath = join(dir, "queue.json");
   const lockPath = `${statePath}.lock`;
-  const lock = await open(lockPath, "wx", 0o600);
+  const lock = await open(lockPath, "wx", 0o600).catch((err: NodeJS.ErrnoException) => {
+    if (err.code === "EEXIST") throw new Error("the queue is locked (queue.json.lock): another run is active, or one was cut short. Check that no run is writing, then remove the lock file");
+    throw err;
+  });
   try {
     let queue = emptyQueue();
     try {

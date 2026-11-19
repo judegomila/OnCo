@@ -234,7 +234,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   "capmatinib-tepotinib": { US: A(2020), EU: A(2022, epar("tepmetko"), "Tepmetko 2022; Tabrecta 2022"), UK: A(2022, mhra("Tepmetko")), JP: A(2020, PMDA, "Tepotinib first approval globally (Mar 2020)"), CN: A(2023, NMPA), AU: A(2021, tga("Tabrecta")) },
   zongertinib: { US: A(2025), EU: UR("MAA under review; no EPAR yet"), JP: A(2025, PMDA, "Hernexeos, HER2 (ERBB2)-mutant NSCLC after chemotherapy; 19 Sep 2025 (Nippon Boehringer Ingelheim)"), CN: A(2025, NMPA, "HER2-mutant NSCLC") },
   sevabertinib: { US: A(2025), EU: UR("MAA 2026"), UK: A(2026, govuk("sevabertinib-approved-to-treat-adults-with-her2-positive-lung-cancer-that-has-spread-or-cannot-be-removed-by-surgery"), "HER2-mutant NSCLC; 2 Apr 2026") },
-  zidesamtinib: { US: A(2026), EU: UR("MAA planned") },
+  zidesamtinib: { US: A(2026) },
   repotrectinib: { US: A(2023), EU: V(C(2025, epar("augtyro"), "ROS1+ NSCLC; NTRK+ solid tumours; 13 Jan 2025 (conditional)")), UK: NF("No UK authorisation found. NICE suspended its NTRK appraisal on 31 March 2025 because the company was no longer pursuing an MHRA application, and discontinued its ROS1 appraisal on 10 February 2026 (MHRA register not readable on 18 November 2026)"), JP: A(2024, PMDA), CN: A(2025, NMPA) },
   tucatinib: { US: A(2020), EU: A(2021, epar("tukysa")), UK: A(2021, mhra("Tukysa")), JP: A(2026, PMDA, "Tukysa, HER2+ inoperable or recurrent breast cancer after chemotherapy; 19 Feb 2026 (Pfizer Japan)"), CN: A(2023, NMPA), AU: A(2021, tga("Tukysa")) },
   neratinib: { US: A(2017), EU: A(2018, epar("nerlynx")), UK: A(2018, mhra("Nerlynx")), AU: A(2019, tga("Nerlynx")) },
@@ -488,7 +488,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   shield: { US: A(2024, undefined, "FDA PMA; Medicare coverage"), EU: NF("CE-IVD not sought") },
   galleri: { US: UR("PMA submitted Jan 2026; advisory committee 23 Sep 2026"), UK: UR("NHS-Galleri final results 2026; no NHS rollout decision"), EU: NF("No CE-IVD filing announced") },
   "artera-ai-prostate": { US: A(2025, undefined, "FDA de novo, Jul 2025") },
-  "artera-ai-breast": { US: A(2026, undefined, "FDA 510(k)/de novo, May 2026") },
+  "artera-ai-breast": { US: A(2026, "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254115", "FDA 510(k) K254115, 4 May 2026") },
   "cetuximab-sarotalocan": { US: NF("No US application yet: Rakuten Medical said on 22 October 2026 that it aims to submit a BLA in 2028, after its phase 3 trial with pembrolizumab (NCT06699212)"), JP: A(2020, PMDA, "Akalux with the BioBlade laser, unresectable locally advanced or recurrent head and neck cancer (25 Sep 2020, conditional early approval); the drug's first approval anywhere") },
   // ================= China-only approvals recorded on 16 Sept 2026 (pipeline wave 2) =================
   olverembatinib: { CN: A(2021, NMPA, "CML with T315I mutation (Nov 2021); later resistant or intolerant CML") },
@@ -579,7 +579,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   resminostat: { EU: R(2025, "CHMP negative opinion 22 May 2025 on Kinselby (4SC) for advanced mycosis fungoides and Sézary syndrome") },
   tacquell: { EU: R(2026, "CHMP negative opinion 25 Jun 2026 on Tacquell (autologous TIL; applicant Netherlands Cancer Institute) for melanoma") },
   // Proposals bot: EU rows read from the EMA register pages on 2026-09-24 (scripts/apply-proposals.ts); each note quotes the page's status line.
-  cinacalcet: { EU: W(2025, epar("mimpara"), "Mimpara: authorised 22 Oct 2004; marketing authorisation withdrawn 18 Dec 2025. EMA register: 'Withdrawn: This medicine's authorisation has been withdrawn'; checked 2026-09-24") },
+  cinacalcet: { EU: A(2004, epar("cinacalcet-viatris"), "Reduction of hypercalcaemia in patients with parathyroid carcinoma (among other uses)", "Cinacalcet remains authorised in the EU as generics: Cinacalcet Viatris (19 Nov 2015) and Cinacalcet Accordpharma (3 Apr 2020). The originator Mimpara was authorised on 22 Oct 2004 and withdrawn at Amgen's request for commercial reasons on 18 Dec 2025. EMA pages read 2026-11-18") },
   "porfimer-sodium": { EU: W(2012, epar("photobarr"), "PhotoBarr: authorised 25 Mar 2004; marketing authorisation withdrawn 20 Apr 2012. EMA register: 'Withdrawn: This medicine's authorisation has been withdrawn'; checked 2026-09-24") },
   celecoxib: { EU: W(2011, epar("onsenal"), "Onsenal (familial adenomatous polyposis): authorised 17 Oct 2003 under exceptional circumstances; Pfizer notified its voluntary withdrawal by letter of 10 Mar 2011 and the European Commission withdrew the authorisation on 28 Mar 2011, as the text of the EMA page states (the page's details box shows 28/11/2008, which its own text contradicts); checked 2026-11-18") },
   trilaciclib: { EU: W(undefined, epar("zinmyleo"), "Zinmyleo (Pharmacosmos A/S): marketing authorisation application withdrawn before a Commission decision. EMA register: 'Application withdrawn: The application for this medicine has been withdrawn'; checked 2026-09-24") },

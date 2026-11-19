@@ -129,7 +129,7 @@ export const contrastAgentDrugs: DrugInput[] = [
   // Iodinated and barium X-ray and CT agents
   d({ id: "iohexol", name: "Iohexol", brand: "Omnipaque", aka: ["iohexol", "Omnipaque"], status: "approved",
     modality: "Iodinated contrast agent for CT and X-ray imaging (intravenous, intra-arterial, intrathecal, oral, rectal)", mechanism: "A non-ionic, low-osmolar iodinated molecule; iodine absorbs X-rays strongly, so blood vessels, organs and enhancing tumours appear bright on CT and X-ray.",
-    tldr: "One of the commonest dyes used for CT scans, given into a vein, by mouth or in other ways depending on the scan.",
+    tldr: "An iodine-based dye used for CT scans and X-ray imaging, given into a vein, by mouth or in other ways depending on the scan.",
     summary: "GE Healthcare's Omnipaque (NDA 018956, first approved 26 December 1985) \"is a radiographic contrast agent indicated for intrathecal, intra-arterial, intravenous, oral, rectal, intraarticular, and body cavity imaging procedures in adults and pediatric patients\"; intravenous indications include \"CT of the head and body\". Its boxed warning concerns using only the iodine concentrations recommended for intrathecal procedures. ATC V08AB02.",
     approvals: [{ region: "US", year: 1985, indication: "Intrathecal, intra-arterial, intravenous, oral, rectal, intra-articular and body cavity imaging, including CT of the head and body", note: "NDA 018956; GE Healthcare" }],
     companies: ["ge-healthcare"], technologies: ICM,
@@ -228,7 +228,7 @@ export const contrastAgentDrugs: DrugInput[] = [
   d({ id: "isosulfan-blue", name: "Isosulfan blue (lymphatic mapping dye)", brand: "Lymphazurin", aka: ["isosulfan blue", "Lymphazurin", "isosulphan blue"], status: "approved",
     modality: "Blue dye for lymphatic mapping (subcutaneous injection)", mechanism: "Injected under the skin, the dye binds to proteins and is carried in lymphatic vessels, staining them and the nodes they drain to blue.",
     tldr: "A blue dye injected near a tumour before surgery. It travels to the nearest lymph nodes and stains them blue, helping the surgeon find the sentinel node.",
-    summary: "Lymphazurin (NDA 018310, Covidien, first approved 29 July 1981) and generic isosulfan blue injection 1% (for example ANDA 090874) are labelled as \"an adjunct to lymphography in: primary and secondary lymphedema of the extremities; chyluria, chylous ascites or chylothorax; lymph node involvement by primary or secondary neoplasm; lymph node response to therapeutic modalities\".",
+    summary: "Lymphazurin (NDA 018310, Covidien, first approved 29 July 1981, now listed as discontinued in Drugs@FDA) and generic isosulfan blue injection 1% (for example ANDA 090874) are labelled as \"an adjunct to lymphography in: primary and secondary lymphedema of the extremities; chyluria, chylous ascites or chylothorax; lymph node involvement by primary or secondary neoplasm; lymph node response to therapeutic modalities\".",
     approvals: [{ region: "US", year: 1981, indication: "Adjunct to lymphography, including lymph node involvement by primary or secondary neoplasm", note: "NDA 018310; Covidien" }],
     technologies: ["sentinel-node", "magnetic-sentinel-node-tracer"], terms: ["sentinel-lymph-node-biopsy"],
     links: [daf("018310", "Lymphazurin (NDA 018310)"), dm("0391e544-3633-48df-9f3a-ed16183125b1", "Isosulfan blue injection 1%")] }),

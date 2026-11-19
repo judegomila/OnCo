@@ -162,7 +162,7 @@ export const assays: Assay[] = [
   { id: "flt3-leukostrat", name: "LeukoStrat CDx FLT3 Mutation Assay", vendor: "Invivoscribe", drugId: "leukostrat-cdx-flt3", vendorIds: ["invivoscribe"], readouts: ["flt3-itd", "flt3-tkd"], platform: "PCR", analyte: "FLT3 internal tandem duplication and D835/I836 tyrosine-kinase-domain mutations", regulatory: "FDA CDx", approved: 2017,
     cutoff: "ITD signal ratio at least 0.05 or TKD mutation detected (midostaurin, gilteritinib); ITD only for quizartinib",
     targets: ["flt3"], drugs: ["midostaurin", "gilteritinib", "quizartinib"], cancers: ["aml"], biomarkers: [],
-    note: "The signal ratio cut-off, not simply presence, defines eligibility, and the ratio also carries prognostic weight in ELN risk classification.", source: FDA_CDX },
+    note: "The signal ratio cut-off, not simply presence, defines eligibility. The 2017 ELN risk classification used the FLT3-ITD allelic ratio; the 2022 update dropped it and places all FLT3-ITD disease at intermediate risk.", source: FDA_CDX },
   // ---- Germline and HRD ----
   { id: "bracanalysis-cdx", name: "BRACAnalysis CDx", vendor: "Myriad Genetics", drugId: "bracanalysis-cdx", vendorIds: ["myriad-genetics"], readouts: ["brca-germline", "hrr-gene-mutation"], platform: "Germline NGS", analyte: "Germline BRCA1 and BRCA2 sequence and large rearrangements", regulatory: "FDA CDx", approved: 2014,
     cutoff: "Deleterious or suspected deleterious germline variant",

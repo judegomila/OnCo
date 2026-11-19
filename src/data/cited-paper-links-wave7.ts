@@ -1091,7 +1091,7 @@ export const citedPaperLinksWave7: Record<string, string[]> = {
   "senescence": ["paper-schmitt-nat-rev-clin-oncol"],
   "serum-tumour-markers": ["paper-rustin-lancet"],
   "shark-cartilage": ["paper-lu-j-natl-cancer-inst"],
-  "sinonasal": ["paper-chen-jama-oncol"],
+  "sinonasal": ["paper-amit-induction-chemotherapy-response-snuc-jco-2019","paper-chen-jama-oncol"],
   "sintilimab": ["paper-xu-jama","paper-ren-lancet-oncol"],
   "sipuleucel-t": ["paper-kantoff-n-engl-j-med"],
   "sleep-circadian-interventions": ["paper-iarc-monographs-vol-124-group-lancet-oncol"],

@@ -210,7 +210,7 @@ const devices: DrugInput[] = [
     targets: ["kras", "nras"], drugs: ["panitumumab"], cancers: ["colorectal"], companies: ["entrogen"],
     technologies: ["companion-diagnostic"], terms: ["pcr", "companion-diagnostic-term"],
     links: [PMA("P220005"), FDA_CDX_LIST, { label: "EntroGen: CRCdx RAS Mutation Detection", url: "https://www.entrogen.com/" }] }),
-  d({ id: "idylla-cdx-msi", name: "Idylla CDx MSI Test", brand: "Idylla CDx MSI Test", modality: "Nucleic acid companion diagnostic test (microsatellite instability, colorectal tumour tissue)", status: "approved",
+  d({ id: "idylla-cdx-msi", name: "Idylla CDx MSI Test", brand: "Idylla CDx MSI Test", modality: "Nucleic acid companion diagnostic test (microsatellite instability, colorectal tumour tissue)", status: "approved", asOf: "2026-11-18",
     mechanism: "Reads seven microsatellite markers (ACVR2A, BTBD7, DIDO1, MRE11, RYR3, SEC31A and SULF2) in colorectal tumour tissue to call microsatellite instability-high (MSI-H).",
     tldr: "A test that finds MSI-high bowel cancer, the group that can be treated with nivolumab alone or with ipilimumab.",
     summary: "Biocartis's Idylla CDx MSI Test was approved on 15 August 2025 (PMA P250005) as the companion diagnostic for nivolumab, alone or with ipilimumab, in microsatellite instability-high colorectal cancer. The same day the FDA approved Agilent's MMR IHC Panel pharmDx for the same drugs, which reaches the same group by staining the mismatch repair proteins instead.",

@@ -344,7 +344,7 @@ export const simpleA: Record<string, string> = {
   "talimogene-laherparepvec": "This modified herpes virus is injected for local treatment of specified melanoma lesions that cannot be removed by surgery.",
   optune: "A wearable device delivering electric fields that disrupt cell division. Approved for glioblastoma and, in 2026, pancreatic cancer.",
   galleri: "A blood test screening for more than 50 cancers at once, awaiting an FDA decision.",
-  shield: "The first FDA-approved blood test for bowel cancer screening (2024).",
+  shield: "A blood test for bowel cancer screening, FDA-approved in 2024 for average-risk adults aged 45 and over; a positive result must be followed by colonoscopy.",
   signatera: "The most widely used blood test for leftover cancer after surgery, tailored to each patient's tumour.",
   "foundationone-cdx": "FDA-approved gene tests on tissue or blood that decide whether dozens of drugs are right for a patient.",
   "oncotype-dx": "A 21-gene test that tells most women with early hormone-driven breast cancer whether they can safely skip chemotherapy.",

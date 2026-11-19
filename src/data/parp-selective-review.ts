@@ -1682,7 +1682,7 @@ export const parpSelectiveReview: EntityInput[] = [
     "aka": [
       "axatilimab-csfr"
     ],
-    "asOf": "2026-10-10",
+    "asOf": "2026-11-18",
     "status": "approved",
     "modality": "Monoclonal antibody",
     "mechanism": "Blocks colony-stimulating factor 1 receptor (CSF1R), affecting CSF1-dependent monocytes and macrophages. Its breast-cancer use with olaparib is investigational.",

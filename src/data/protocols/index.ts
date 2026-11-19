@@ -14,6 +14,7 @@ import { antithromboticInterruptionAroundSurgery } from "./antithrombotic-interr
 import { asepticCompoundingOfHazardousAnticancerDrugs } from "./aseptic-compounding-of-hazardous-anticancer-drugs";
 import { atrialFibrillationAndBleedingOnBtkInhibitors } from "./atrial-fibrillation-and-bleeding-on-btk-inhibitors";
 import { bispecificStepUpDosing } from "./bispecific-step-up-dosing";
+import { bladderSymptomsAndInfectionAfterIntravesicalTherapy } from "./bladder-symptoms-and-infection-after-intravesical-therapy";
 import { bleedingPrecautionsWhenPlateletsAreLow } from "./bleeding-precautions-when-platelets-are-low";
 import { bloodSamplingFromACentralLine } from "./blood-sampling-from-a-central-line";
 import { bodySizeBasedDoseCalculation } from "./body-size-based-dose-calculation";
@@ -24,6 +25,7 @@ import { breastCancerFollowUpAfterTreatment } from "./breast-cancer-follow-up-af
 import { breastRadiotherapyPositioningAndSetup } from "./breast-radiotherapy-positioning-and-setup";
 import { breastScreeningAfterChestRadiotherapyAtAYoungAge } from "./breast-screening-after-chest-radiotherapy-at-a-young-age";
 import { breathHoldLeftBreastRadiotherapy } from "./breath-hold-left-breast-radiotherapy";
+import { breathlessnessAndCoughDuringAnticancerTreatment } from "./breathlessness-and-cough-during-anticancer-treatment";
 import { cancerAssociatedVteTreatment } from "./cancer-associated-vte-treatment";
 import { cancerRelatedFatigueScreeningAndManagement } from "./cancer-related-fatigue-screening-and-management";
 import { capillaryLeakSyndromeOnAnticancerDrugs } from "./capillary-leak-syndrome-on-anticancer-drugs";
@@ -62,6 +64,7 @@ import { doseBandingOfAnticancerDrugs } from "./dose-banding-of-anticancer-drugs
 import { dpydTestingBeforeFluoropyrimidines } from "./dpyd-testing-before-fluoropyrimidines";
 import { drivingFlyingAndTravelDuringCancerTreatment } from "./driving-flying-and-travel-during-cancer-treatment";
 import { drugDesensitisationAfterAnticancerHypersensitivity } from "./drug-desensitisation-after-anticancer-hypersensitivity";
+import { dryMouthFromCancerDrugsAndRadionuclideTherapy } from "./dry-mouth-from-cancer-drugs-and-radionuclide-therapy";
 import { earlyPalliativeCareReferral } from "./early-palliative-care-referral";
 import { egfrInhibitorRashProphylaxis } from "./egfr-inhibitor-rash-prophylaxis";
 import { enhancedRecoveryAfterBreastReconstruction } from "./enhanced-recovery-after-breast-reconstruction";
@@ -250,6 +253,7 @@ export const protocols: ProtocolInput[] = [
   asepticCompoundingOfHazardousAnticancerDrugs,
   atrialFibrillationAndBleedingOnBtkInhibitors,
   bispecificStepUpDosing,
+  bladderSymptomsAndInfectionAfterIntravesicalTherapy,
   bleedingPrecautionsWhenPlateletsAreLow,
   bloodSamplingFromACentralLine,
   bodySizeBasedDoseCalculation,
@@ -260,6 +264,7 @@ export const protocols: ProtocolInput[] = [
   breastRadiotherapyPositioningAndSetup,
   breastScreeningAfterChestRadiotherapyAtAYoungAge,
   breathHoldLeftBreastRadiotherapy,
+  breathlessnessAndCoughDuringAnticancerTreatment,
   cancerAssociatedVteTreatment,
   cancerRelatedFatigueScreeningAndManagement,
   capillaryLeakSyndromeOnAnticancerDrugs,
@@ -298,6 +303,7 @@ export const protocols: ProtocolInput[] = [
   dpydTestingBeforeFluoropyrimidines,
   drivingFlyingAndTravelDuringCancerTreatment,
   drugDesensitisationAfterAnticancerHypersensitivity,
+  dryMouthFromCancerDrugsAndRadionuclideTherapy,
   earlyPalliativeCareReferral,
   egfrInhibitorRashProphylaxis,
   enhancedRecoveryAfterBreastReconstruction,

@@ -1,0 +1,189 @@
+name: Weekly re-check of trial statuses, approvals, labels and links
+
+# The owner asked on 18 November 2026: "do the weekly recheck and have that as a cron job". Pages written in
+# September were, by November, showing indications since withdrawn, approvals since granted, trials "awaited" that
+# had reported and registry statuses that had moved. Each week this compares what OnCo holds with what public sources
+# say (ClinicalTrials.gov, the FDA, the EMA, openFDA and DailyMed, and the addresses records cite), updates the
+# generated data that can be updated mechanically, and opens one pull request carrying those updates and a report of
+# everything a person or an agent must read: docs/proposals/weekly-recheck-latest.md, with a JSON twin.
+#
+# Deterministic: no model, no API key, no secret of any kind. scripts/weekly-recheck.ts and scripts/recheck/ hold the
+# rules; docs/AUTOMATION-WEEKLY-RECHECK.md says what is checked, what is changed, what is only reported and how to
+# pause it. In short, set the repository variable WEEKLY_RECHECK_PAUSED to true.
+#
+# Two jobs, so that the job that runs repository code cannot write and the job that can write runs none:
+#   recheck  contents: read. Installs, runs the checks and the gates, and uploads the change as a patch.
+#   propose  contents: write. Runs no repository code: applies the patch through a path filter and opens the pull
+#            request, labelled needs-review, recheck and automated.
+# Nothing here merges, ships or deploys. A source that refuses a script is reported as blocked and left alone.
+#
+# scripts/recheck/workflow.test.ts reads this file and fails if an action is not pinned to a commit, if a secret is
+# named, if the writing job runs repository code, or if a merge step appears.
+
+on:
+  schedule:
+    - cron: "17 5 * * 2" # Tuesdays 05:17 UTC, the day after refresh-trials (Mondays) and the day before the link and universe refreshes
+  workflow_dispatch:
+
+concurrency:
+  group: weekly-recheck
+  cancel-in-progress: false
+
+permissions: {}
+
+jobs:
+  recheck:
+    name: Run the checks and the gates (read-only)
+    if: vars.WEEKLY_RECHECK_PAUSED != 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    permissions:
+      contents: read
+    outputs:
+      changed: ${{ steps.patch.outputs.changed }}
+      dropped: ${{ steps.patch.outputs.dropped }}
+      product: ${{ steps.class.outputs.product }}
+      passed: ${{ steps.gates.outputs.passed }}
+      failed: ${{ steps.gates.outputs.failed }}
+    steps:
+      # This job runs the repository's code against the open web, so it is given nothing worth taking: no secret, a
+      # token that can only read a public repository, and no saved credentials.
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      # The six checks. A check that cannot reach its source says so in the report and the run goes on, so one
+      # refused request does not cost the week's other five checks. --apply lets the generators write the data files
+      # named in the next step and nothing else.
+      - name: Compare OnCo with its sources
+        timeout-minutes: 240
+        run: |
+          mkdir -p "$RUNNER_TEMP/weekly-recheck"
+          npx tsx scripts/weekly-recheck.ts --apply --cache="$RUNNER_TEMP/weekly-recheck/cache" --summary="$RUNNER_TEMP/weekly-recheck/summary.md"
+
+      # The path list is the safeguard that does not depend on the scripts behaving: only the two generated trial
+      # files, the re-check's own state files and the report can reach the pull request. Anything else the run
+      # touched is dropped and named.
+      - name: Stage what may be proposed
+        id: patch
+        run: |
+          # A path a failed check never wrote is skipped rather than failing the step.
+          for p in src/data/trial-registry-status.ts src/data/trial-participation.ts src/data/recheck docs/proposals/weekly-recheck-latest.md docs/proposals/weekly-recheck-latest.json; do
+            if [ -e "$p" ]; then git add -A -- "$p"; fi
+          done
+          dropped=$(git status --porcelain | grep -v '^[AMD]  ' | cut -c4- || true)
+          {
+            echo "dropped<<EOF_DROPPED"
+            echo "$dropped"
+            echo "EOF_DROPPED"
+          } >> "$GITHUB_OUTPUT"
+          [ -z "$dropped" ] || echo "::warning title=Out-of-scope files dropped::$(echo "$dropped" | tr '\n' ' ')"
+          if git diff --cached --quiet; then
+            echo "::notice::Nothing changed and no report was written. Nothing to propose."
+            echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          git diff --cached --binary > "$RUNNER_TEMP/weekly-recheck/weekly-recheck.patch"
+          git diff --cached --stat | tail -8
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # The repository's own definition of a product change (docs/PRODUCT-APPROVAL.md). The staged paths are data and
+      # documents by construction; this proves it on the day rather than assuming it. If it ever finds a product file,
+      # no pull request is opened.
+      - name: Classify the change
+        id: class
+        if: steps.patch.outputs.changed == 'true'
+        run: |
+          git -c user.name=weekly-recheck -c user.email=weekly-recheck@users.noreply.github.com commit -q -m "classify"
+          if npx tsx scripts/change-class.ts HEAD~1..HEAD; then
+            echo "product=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "product=true" >> "$GITHUB_OUTPUT"
+            echo "::error title=Product change refused::The staged files include a product file, so no pull request will be opened. Read the list above."
+          fi
+          git reset -q --soft HEAD~1
+
+      # The same gates as CI, over the tree with the generated updates in it. The composite action never fails the
+      # job: the result goes into the pull request, which is opened either way so the report is not lost.
+      - id: gates
+        if: steps.patch.outputs.changed == 'true'
+        uses: ./.github/actions/gates
+
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        if: steps.patch.outputs.changed == 'true'
+        with:
+          name: weekly-recheck
+          path: |
+            ${{ runner.temp }}/weekly-recheck/weekly-recheck.patch
+            ${{ runner.temp }}/weekly-recheck/summary.md
+          retention-days: 30
+
+  propose:
+    name: Open the pull request (no repository code)
+    needs: recheck
+    if: needs.recheck.outputs.changed == 'true' && needs.recheck.outputs.product != 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write # to create the labels if they do not exist yet
+    steps:
+      # This job can push a branch, so it runs nothing from the repository: no install, no script, no test. It
+      # applies the patch through the same path filter and hands the result to create-pull-request.
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: weekly-recheck
+          path: ${{ runner.temp }}/weekly-recheck
+
+      - name: Apply the generated files and the report only
+        run: |
+          git apply --index --include='src/data/trial-registry-status.ts' --include='src/data/trial-participation.ts' --include='src/data/recheck/*' --include='docs/proposals/weekly-recheck-latest.md' --include='docs/proposals/weekly-recheck-latest.json' "$RUNNER_TEMP/weekly-recheck/weekly-recheck.patch"
+          git diff --cached --stat | tail -8
+
+      - name: Write the pull request body
+        env:
+          PASSED: ${{ needs.recheck.outputs.passed }}
+          FAILED: ${{ needs.recheck.outputs.failed }}
+          DROPPED: ${{ needs.recheck.outputs.dropped }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          {
+            if [ -f "$RUNNER_TEMP/weekly-recheck/summary.md" ]; then head -c 40000 "$RUNNER_TEMP/weekly-recheck/summary.md"; else echo "The run wrote no summary."; fi
+            echo
+            echo "---"
+            echo
+            echo "Written by [this run]($RUN_URL) of \`scripts/weekly-recheck.ts\`. **This pull request is never merged automatically.** The data files in it are generated and can be merged once the gates are green. The rows of the report are not applied to any record: each is for a person or an agent to read against its source."
+            echo
+            if [ "$PASSED" = "true" ]; then echo "Gates: validate, typecheck, lint and the full test suite passed in this run, with these files in the tree."; else echo "Gates: **failed** in this run: ${FAILED:-the gates did not finish}. Read the run log before merging."; fi
+            echo
+            echo "Change class (\`scripts/change-class.ts\`): data and documents only, no product files."
+            echo
+            echo "Workflows do not start on a pull request opened by this one, so CI has not run here. Close and reopen the pull request to run it. To pause the weekly run, set the repository variable \`WEEKLY_RECHECK_PAUSED\` to \`true\` (docs/AUTOMATION-WEEKLY-RECHECK.md)."
+            if [ -n "$DROPPED" ]; then echo; echo "Files the run touched outside its paths, **dropped**, not proposed:"; echo "$DROPPED" | while IFS= read -r f; do echo "- \`$f\`"; done; fi
+          } > "$RUNNER_TEMP/pr-body.md"
+
+      - name: Ensure the labels exist
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create needs-review --color D93F0B --description "A person must check this before it lands" --force || true
+          gh label create recheck --color 5319E7 --description "The weekly re-check of records against their sources" --force || true
+          gh label create automated --color BFD4F2 --description "Opened by a workflow" || true
+
+      # One branch, so a new week's run updates the open pull request instead of opening a second: the report is
+      # the latest reading or it is stale, which is the fault this workflow exists to stop.
+      - uses: peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676 # v7.0.11
+        with:
+          branch: bot/weekly-recheck
+          title: "Weekly re-check: registry updates and a report of what needs reading"
+          commit-message: "Weekly re-check: trial statuses and registry fields are brought up to date, with a report of what else has changed at the sources"
+          body-path: ${{ runner.temp }}/pr-body.md
+          labels: needs-review, recheck, automated
+          delete-branch: true
+      # Deliberately no merge step. See the header.

@@ -26,6 +26,11 @@
  *   npx tsx scripts/fetch-registry-status.ts --apply           fetch what is missing (up to --max), write the side file
  *   npx tsx scripts/fetch-registry-status.ts --apply --tag=gallbladder-deep-dive   fetch only the uncached trials carrying
  *                                                       that tag; the side file is still rebuilt from every cached trial
+ *   npx tsx scripts/fetch-registry-status.ts --apply --no-fetch --only-cache --cache=<dir>
+ *                                                       rebuild from one directory of records read today and nothing
+ *                                                       else: the weekly re-check (scripts/weekly-recheck.ts) reads
+ *                                                       every trial fresh, and an older record in the shared results
+ *                                                       cache must not outvote it
  *
  * Network: ClinicalTrials.gov API v2 only, one request at a time, PAUSE_MS apart, PAGE ids a request, User-Agent
  * naming OnCo. Records fetched by scripts/fetch-registry-outcomes.ts under /tmp/ctgov-cache/results are reused
@@ -47,6 +52,8 @@ const max = Number(args.find((a) => a.startsWith("--max="))?.slice(6) ?? 1000);
 const tag = args.find((a) => a.startsWith("--tag="))?.slice(6);
 const RESULTS_CACHE = "/tmp/ctgov-cache/results";
 const STATUS_CACHE = args.find((a) => a.startsWith("--cache="))?.slice(8) ?? "/tmp/ctgov-cache/status";
+/** Read --cache alone, not the results cache before it. */
+const onlyCache = args.includes("--only-cache");
 const OUT = join(process.cwd(), "src", "data", "trial-registry-status.ts");
 
 const API = "https://clinicaltrials.gov/api/v2/studies";
@@ -69,7 +76,7 @@ type Cached = { fetchedAt: string; study?: Study; missing?: true };
 // Cache and network
 // ---------------------------------------------------------------------------------------------------------------------
 function readCache(nct: string): Cached | undefined {
-  for (const dir of [RESULTS_CACHE, STATUS_CACHE]) {
+  for (const dir of onlyCache ? [STATUS_CACHE] : [RESULTS_CACHE, STATUS_CACHE]) {
     const p = join(dir, `${nct}.json`);
     if (existsSync(p)) return JSON.parse(readFileSync(p, "utf8")) as Cached;
   }

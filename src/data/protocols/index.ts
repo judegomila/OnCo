@@ -207,6 +207,7 @@ import { routinePreoperativeTests } from "./routine-preoperative-tests";
 import { sactAdministrationChecksAtTheChair } from "./sact-administration-checks-at-the-chair";
 import { sactPrescribingAndPharmacyVerification } from "./sact-prescribing-and-pharmacy-verification";
 import { scalpCoolingDuringChemotherapy } from "./scalp-cooling-during-chemotherapy";
+import { secondCancersAfterAnticancerDrugTreatment } from "./second-cancers-after-anticancer-drug-treatment";
 import { sentinelNodeTracersAndBlueDyeSafety } from "./sentinel-node-tracers-and-blue-dye-safety";
 import { sexAndContraceptionDuringChemotherapy } from "./sex-and-contraception-during-chemotherapy";
 import { sexualHealthAssessmentAndInterventions } from "./sexual-health-assessment-and-interventions";
@@ -446,6 +447,7 @@ export const protocols: ProtocolInput[] = [
   sactAdministrationChecksAtTheChair,
   sactPrescribingAndPharmacyVerification,
   scalpCoolingDuringChemotherapy,
+  secondCancersAfterAnticancerDrugTreatment,
   sentinelNodeTracersAndBlueDyeSafety,
   sexAndContraceptionDuringChemotherapy,
   sexualHealthAssessmentAndInterventions,

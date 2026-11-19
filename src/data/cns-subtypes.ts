@@ -326,7 +326,7 @@ export const cnsSubtypes: CancerInput[] = [
 /** Chinese TL;DRs, folded into src/data/i18n/zh.ts by scripts/fold-zh.ts. */
 export const tldrZh: Record<string, string> = {
   "idh-mutant-astrocytoma": "IDH突变型星形细胞瘤是成人胶质瘤中生长缓慢的类型，由IDH1或IDH2基因突变定义，突变酶产生的代谢物重编程肿瘤细胞。先手术，然后根据分级和残留肿瘤多少，选择观察、新型口服药vorasidenib，或放疗联合化疗。",
-  "oligodendroglioma": "少突胶质细胞瘤是对化疗最敏感的成人脑肿瘤，由IDH突变加1p/19q染色体共缺失来识别。手术后用放疗加PCV联合化疗；较小的2级肿瘤可选vorasidenib或观察等待。",
+  "oligodendroglioma": "少突胶质细胞瘤是对化疗反应良好的成人脑肿瘤，由IDH突变加1p/19q染色体共缺失来识别。手术后用放疗加PCV联合化疗；较小的2级肿瘤可选vorasidenib或观察等待。",
   "meningioma": "脑膜瘤生长于覆盖脑和脊髓的膜，而非脑组织本身。大多数生长缓慢且为良性，可观察或手术切除；放疗或放射外科用于无法切除或复发的肿瘤，目前尚无获批药物。",
   "secondary-brain-tumours": "脑转移是从身体其他部位（最常见为肺、乳腺和皮肤）扩散到脑的癌症。针对每个病灶的立体定向放射外科已基本取代全脑放疗；对某些癌症，现代靶向药和免疫治疗能充分进入脑内，单独即可缩小病灶。",
   "paediatric-high-grade-glioma": "儿童高级别胶质瘤在显微镜下类似成人胶质母细胞瘤，但驱动基因不同，因此现已单独分类。手术和放疗仍是主要手段，化疗作用有限；真正的进展来自带有可靶向基因改变的小亚群，例如BRAF V600E肿瘤和婴儿的融合基因驱动肿瘤。",

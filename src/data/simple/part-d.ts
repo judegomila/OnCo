@@ -166,7 +166,7 @@ export const simpleD: Record<string, string> = {
   interlace: "This trial tested six weeks of cheap chemotherapy before standard chemotherapy and radiation for cervical cancer; it found fewer relapses and deaths.",
   invictus: "This trial tested a pill in people with gut tumours (GIST) after three other pills had failed; it found the cancer stayed controlled far longer and people lived longer.",
   "ion-trial": "This trial tested skipping radioactive iodine after surgery in low-risk thyroid cancer; it found the cancer came back no more often without it.",
-  "isg-sts-1001": "This trial compared standard chemotherapy before surgery with chemotherapy tailored to the sarcoma type; it found the standard treatment worked better.",
+  "isg-sts-1001": "This trial compared standard chemotherapy before surgery with chemotherapy tailored to the sarcoma type; it found the tailored treatment was no better than the standard one.",
   istopmm: "This study is screening a whole nation for the early stage of myeloma to learn whether finding it early saves lives; final results are not yet in.",
   "javelin-bladder-100": "This trial tested starting an immune drug straight after chemotherapy in bladder cancer, rather than waiting for relapse; it found people lived longer.",
   "javelin-hn-100": "This trial tested adding an immune drug to chemotherapy and radiation in head and neck cancer; it found no benefit and was stopped.",

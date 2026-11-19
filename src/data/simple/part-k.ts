@@ -451,7 +451,7 @@ export const simpleK: Record<string, string> = {
   "idea-tr1-food-effect-dose-reduction": "Researchers would run trials of taking cancer pills that absorb better with food at a fraction of the dose with breakfast, giving the same drug levels at lower cost.",
   "idea-tr1-factorial-dose-finding-for-combinations": "Companies would test a grid of dose pairs when combining two cancer drugs, instead of giving both at full dose, finding combinations with tolerable side effects.",
   "idea-tr1-organ-impairment-pk-before-approval": "Regulators would require dosing studies for people with weak kidneys or liver before approval rather than years later, protecting a large group of real-world patients.",
-  "idea-tr1-low-dose-immunotherapy-for-lmic": "Researchers would run confirmatory trials of immunotherapy at about a twentieth of the usual dose, after an Indian trial suggested it helps, making it affordable for millions.",
+  "idea-tr1-low-dose-immunotherapy-for-lmic": "Researchers would run confirmatory trials of immunotherapy at a small fraction of the usual dose, after an Indian trial suggested it helps, making it affordable for millions.",
   "idea-tr1-response-adapted-dose-reduction": "Trials would lower the dose once a tumour responds, testing whether a maintenance dose keeps the cancer controlled with fewer long-term side effects.",
   "idea-tr2-perpetual-platforms": "Funders would ring-fence ten-year infrastructure money for one always-open trial per major cancer, where new arms join and leave while sharing one control group.",
   "idea-tr2-shared-control-network": "Companies running trials against the same standard treatment would pool their standard-treatment patients through a neutral custodian, so fewer people receive the old drug.",

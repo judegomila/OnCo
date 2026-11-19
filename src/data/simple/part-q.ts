@@ -122,7 +122,7 @@ export const simpleQ: Record<string, string> = {
   "nct04280081": "Eli Lilly runs this phase 2 trial of selpercatinib in advanced solid tumours including RET fusion-positive solid tumours, and it is no longer recruiting.",
   "nct04291105": "Vyriad runs this phase 2 trial of Voyager V1, a modified virus that attacks cancer cells, with cemiplimab in selected solid tumours, and it is no longer recruiting.",
   "nct04302025": "Genentech runs this phase 2 trial of alectinib, entrectinib and vemurafenib in resectable stages IB-III non-small-cell lung cancer before surgery, and it is no longer recruiting.",
-  "nct04325828": "Janssen Pharmaceutical K.K. ran this phase 2 trial of apalutamide in androgen receptor positive salivary gland carcinoma, and its results have been posted.",
+  "nct04325828": "Janssen Pharmaceutical K.K. ran this phase 2 trial of apalutamide in androgen receptor positive salivary gland carcinoma; it did not meet its response target (6 of the first 24 patients responded).",
   "nct04379596": "AstraZeneca runs this phase 2 trial of trastuzumab deruxtecan alone or combined with other drugs in advanced HER2 expressing stomach cancer, and it is no longer recruiting.",
   "nct04390399": "ImmunityBio runs this randomised phase 2 trial of nogapendekin alfa inbakicept, aldoxorubicin, gemcitabine and other drugs in advanced pancreatic cancer, and it is no longer recruiting.",
   "nct04395677": "Nuvation Bio runs this phase 2 trial of AB-106 in advanced non-small-cell lung cancer, and it is no longer recruiting.",

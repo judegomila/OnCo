@@ -168,7 +168,7 @@ export const simpleL: Record<string, string> = {
   "charles-rudin": "Charles Rudin, chief of thoracic oncology at Memorial Sloan Kettering, defined the molecular subtypes of small-cell lung cancer and led early trials of DLL3-targeted therapy.",
   "charles-swanton": "Charles Swanton, at the Francis Crick Institute, leads TRACERx, which follows lung cancers as they evolve, and showed how air pollution can trigger lung cancer without new mutations.",
   "charlie-gourley": "Charlie Gourley is an Edinburgh medical oncologist and ovarian cancer researcher who is clinical director of the CRUK Scotland Centre, the joint Edinburgh and Glasgow Cancer Research UK centre.",
-  "charlotte-coles": "Charlotte Coles, a Cambridge breast radiotherapy specialist, led IMPORT LOW, which showed treating only part of the breast is as effective as whole-breast radiotherapy with fewer side effects.",
+  "charlotte-coles": "Charlotte Coles, a Cambridge breast radiotherapy specialist, led IMPORT LOW, which showed treating only part of the breast is as effective as whole-breast treatment with similar or fewer side effects.",
   "charu-aggarwal": "Charu Aggarwal, a lung cancer oncologist at the University of Pennsylvania, showed that adding blood-based gene sequencing to tissue testing finds more treatable lung cancer mutations.",
   "chee-cheng-ean": "Chee Cheng Ean is a medical oncologist who leads Singapore's National University Cancer Institute, the country's public cancer centre for adults and children.",
   "chen-wei-ming": "Chen Wei-ming has led Taipei Veterans General Hospital, one of Taiwan's largest medical centres and home to one of its largest cancer services, since January 2022.",

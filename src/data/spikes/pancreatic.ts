@@ -8,9 +8,9 @@ const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https:/
 const entities: EntityInput[] = [
   // ======================= DRUGS / REGIMENS =======================
   {
-    id: "folfirinox", kind: "drug", name: "FOLFIRINOX / mFOLFIRINOX", modality: "Cytotoxic regimen", asOf, status: "standard-of-care", wikipedia: W("FOLFIRINOX"),
-    tldr: "FOLFIRINOX is a four-drug chemotherapy combination that, in 2011, became the first treatment to meaningfully extend life in metastatic pancreatic cancer; it is now the standard before and after surgery.",
-    summary: "Oxaliplatin, irinotecan, leucovorin, and 5-fluorouracil. PRODIGE 4/ACCORD 11 (2011): OS 11.1 vs 6.8 months versus gemcitabine in fit metastatic patients. Modified FOLFIRINOX (PRODIGE 24, 2018) became the adjuvant standard after resection with median OS ~54 months, and is the most used neoadjuvant regimen for borderline-resectable disease. Toxicity (neutropenia, diarrhoea, neuropathy) restricts it to ECOG 0-1 patients. NALIRIFOX (liposomal irinotecan) is a 2024 variant for metastatic disease.",
+    id: "folfirinox", kind: "drug", name: "FOLFIRINOX / mFOLFIRINOX", modality: "Cytotoxic regimen", asOf: "2026-11-18", status: "standard-of-care", wikipedia: W("FOLFIRINOX"),
+    tldr: "FOLFIRINOX is a four-drug chemotherapy combination that, in a 2011 trial, lengthened median survival in metastatic pancreatic cancer from 6.8 to 11.1 months compared with gemcitabine; a modified form is the standard chemotherapy after surgery and is also used before it.",
+    summary: "Oxaliplatin, irinotecan, leucovorin, and 5-fluorouracil. PRODIGE 4/ACCORD 11 (2011): OS 11.1 vs 6.8 months versus gemcitabine in fit metastatic patients. Modified FOLFIRINOX (PRODIGE 24, 2018) became the adjuvant standard after resection with median OS ~54 months, and is also used before surgery for borderline-resectable disease. Toxicity (neutropenia, diarrhoea, neuropathy) restricts it to ECOG 0-1 patients. NALIRIFOX (liposomal irinotecan) is a 2024 variant for metastatic disease.",
     mechanism: "DNA crosslinking (oxaliplatin), topoisomerase-I inhibition (irinotecan), antimetabolite (5-FU with leucovorin modulation).",
     approvals: [{ region: "Global", year: 2011, indication: "Metastatic PDAC (PRODIGE 4 / ACCORD 11; component drugs generic)" }],
     technologies: ["cytotoxic-chemotherapy", "platinum", "topoisomerase-inhibitors"], cancers: ["pancreatic", "resectable-pdac", "borderline-resectable-pdac", "metastatic-pdac"], trials: ["prodige-24", "napoli-3", "nct06922591", "nct07255404"], links: [{ label: "Wikipedia", url: W("FOLFIRINOX") }],
@@ -25,7 +25,7 @@ const entities: EntityInput[] = [
     links: [{ label: "OncLive: FDA approves NALIRIFOX", url: "https://www.onclive.com/view/fda-approves-frontline-nalirifox-for-metastatic-pancreatic-adenocarcinoma" }], terms: ["prodrug"],
   },
   {
-    id: "gemcitabine-nab-paclitaxel", kind: "drug", name: "Gemcitabine + nab-paclitaxel", brand: "Gemzar + Abraxane", modality: "Cytotoxic regimen", asOf, status: "standard-of-care", wikipedia: W("Gemcitabine"),
+    id: "gemcitabine-nab-paclitaxel", kind: "drug", name: "Gemcitabine + nab-paclitaxel", brand: "Gemzar + Abraxane", modality: "Cytotoxic regimen", asOf: "2026-11-18", status: "standard-of-care", wikipedia: W("Gemcitabine"),
     tldr: "Gemcitabine plus nab-paclitaxel is the gentler of the two standard chemotherapy backbones for pancreatic cancer, and the base on which most new drugs are being tested.",
     summary: "MPACT (2013): OS 8.5 vs 6.7 months versus gemcitabine alone. Preferred for less fit patients; the control or backbone arm in PANOVA-3 (TTFields), zoldonrasib first-line combinations, and CLDN18.2 and other add-on trials. Gemcitabine monotherapy (1997) was the standard for 14 years before FOLFIRINOX.",
     mechanism: "Nucleoside analogue (gemcitabine) plus albumin-bound taxane that may deplete stroma and increase gemcitabine delivery.",

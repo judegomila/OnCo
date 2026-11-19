@@ -175,7 +175,7 @@ const RCP_VAXIRA = "https://www.cecmed.cu/registro/rcp/biologicos/vaxirar-racotu
  * nimotuzumab, because the corpus keeps "approved" for products with a United States or European verdict.
  */
 const drugs: DrugInput[] = [
-  { id: "cimavax-egf", kind: "drug", asOf: "2026-11-16", name: "CIMAvax-EGF", aka: ["CIMAvax", "EGF vaccine", "rhEGF-rP64K conjugate vaccine"], brand: "CIMAvax-EGF",
+  { id: "cimavax-egf", kind: "drug", asOf: "2026-11-18", name: "CIMAvax-EGF", aka: ["CIMAvax", "EGF vaccine", "rhEGF-rP64K conjugate vaccine"], brand: "CIMAvax-EGF",
     modality: "Therapeutic cancer vaccine: recombinant human EGF conjugated to a carrier protein, with Montanide ISA 51 adjuvant, intramuscular", status: "established",
     mechanism: "Makes the body produce antibodies against its own epidermal growth factor (EGF), lowering EGF in the blood so that less of it reaches the EGF receptor on tumour cells. It does not target the tumour cell directly.",
     tldr: "CIMAvax-EGF is a Cuban vaccine for advanced non-small cell lung cancer, given after chemotherapy so the body blocks a growth signal the tumour uses. Cuba registered it in 2008. In its phase III trial the survival gain was not significant by the standard test, but was by a weighted test and among patients given at least four doses. It is not approved in the United States or the European Union.",

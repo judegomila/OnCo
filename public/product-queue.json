@@ -1,41 +1,5 @@
 [
   {
-    "branch": "product/country-wave-14",
-    "why": "country deep dives, wave 14 (16 countries)",
-    "pr": "https://github.com/judegomila/OnCo/pull/424",
-    "preview": "",
-    "files": 89,
-    "proposed": "2026-11-17",
-    "state": "waiting"
-  },
-  {
-    "branch": "product/country-wave-16",
-    "why": "country deep dives, wave 16 (16 countries and territories)",
-    "pr": "https://github.com/judegomila/OnCo/pull/425",
-    "preview": "",
-    "files": 95,
-    "proposed": "2026-11-17",
-    "state": "waiting"
-  },
-  {
-    "branch": "product/country-wave-13",
-    "why": "country deep dives, wave 13 (16 countries)",
-    "pr": "https://github.com/judegomila/OnCo/pull/433",
-    "preview": "",
-    "files": 97,
-    "proposed": "2026-11-17",
-    "state": "waiting"
-  },
-  {
-    "branch": "product/country-wave-15",
-    "why": "country deep dives, wave 15 (16 countries)",
-    "pr": "https://github.com/judegomila/OnCo/pull/434",
-    "preview": "",
-    "files": 94,
-    "proposed": "2026-11-17",
-    "state": "waiting"
-  },
-  {
     "branch": "product/country-waves-13-16",
     "why": "the last 64 country deep dives (waves 13 to 16), each checked twice against its sources",
     "pr": "https://github.com/judegomila/OnCo/pull/444",
@@ -50,6 +14,15 @@
     "pr": "https://github.com/judegomila/OnCo/pull/473",
     "preview": "",
     "files": 23,
+    "proposed": "2026-11-19",
+    "state": "waiting"
+  },
+  {
+    "branch": "product/ask-approval-date-rule",
+    "why": "Ask checks a product's dated approvals when a question asks what was approved in a period",
+    "pr": "https://github.com/judegomila/OnCo/pull/479",
+    "preview": "",
+    "files": 7,
     "proposed": "2026-11-19",
     "state": "waiting"
   }

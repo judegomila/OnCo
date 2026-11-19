@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12",
+ "generatedAt": "2026-11-19",
  "offline": false,
  "requests": 362,
  "roadmaps": [
@@ -307,7 +307,7 @@
     "checked": 5,
     "contradictions": 0,
     "explained": 1,
-    "papers": 4,
+    "papers": 0,
     "watch": 0,
     "watchPassed": 0
    },
@@ -479,36 +479,7 @@
      "explained": [
       "enrolment 84585 in the corpus (analysed), 95000 on the registry (actual; 11 percent apart): ClinicalTrials.gov lists 95,000 participants (actual); the NEJM 2022 analysis covers the 84,585 participants in Poland, Norway and Sweden with follow-up data (28,220 invited, 56,365 usual care)."
      ],
-     "papers": [
-      {
-       "pmid": "42849474",
-       "doi": "10.1016/s0140-6736(26)01429-7",
-       "title": "Colonoscopy screening and colorectal cancer outcomes: the NordICC trial.",
-       "journal": "Lancet",
-       "date": "2026-10-01"
-      },
-      {
-       "pmid": "42849471",
-       "doi": "10.1016/s0140-6736(26)01430-3",
-       "title": "Colonoscopy screening and colorectal cancer outcomes: the NordICC trial.",
-       "journal": "Lancet",
-       "date": "2026-10-01"
-      },
-      {
-       "pmid": "42849472",
-       "doi": "10.1016/s0140-6736(26)01428-5",
-       "title": "Colonoscopy screening and colorectal cancer outcomes: the NordICC trial.",
-       "journal": "Lancet",
-       "date": "2026-10-01"
-      },
-      {
-       "pmid": "42849473",
-       "doi": "10.1016/s0140-6736(26)01588-6",
-       "title": "Colonoscopy screening and colorectal cancer outcomes: the NordICC trial - Authors' reply.",
-       "journal": "Lancet",
-       "date": "2026-10-01"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "osmanabad-hpv-screening",
@@ -565,7 +536,7 @@
     "checked": 15,
     "contradictions": 0,
     "explained": 2,
-    "papers": 10,
+    "papers": 1,
     "watch": 0,
     "watchPassed": 0
    },
@@ -643,64 +614,7 @@
      "registry": null,
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42973429",
-       "doi": "10.1093/nar/gkag1093",
-       "title": "PhenX Toolkit: a knowledgebase that enables consistent data collection and facilitates cross-study analysis and data reuse.",
-       "journal": "Nucleic Acids Res",
-       "date": "2026-11-03"
-      },
-      {
-       "pmid": "42985219",
-       "doi": "10.1155/ijog/7538825",
-       "title": "Cross-Cohort Transcriptomic and Oral Microbiome Analyses Identify Ferroptosis-Associated Signatures in Periodontitis and Oral Squamous Cell Carcinoma.",
-       "journal": "Int J Genomics",
-       "date": "2026-11-03"
-      },
-      {
-       "pmid": "42945269",
-       "doi": "10.1371/journal.pone.0353101",
-       "title": "Mutation-resolved ABL1 inhibitor resistance prediction under mutation-disjoint and temporal cross-study validation.",
-       "journal": "PLoS One",
-       "date": "2026-10-27"
-      },
-      {
-       "pmid": "42964355",
-       "doi": "10.3389/fmicb.2026.2021752",
-       "title": "Correction: CRC-TrustBench: benchmarking cross-study and cross-country generalization in gut metagenomic colorectal cancer prediction.",
-       "journal": "Front Microbiol",
-       "date": "2026-10-16"
-      },
-      {
-       "pmid": "42859938",
-       "doi": "10.1007/s10495-026-02440-w",
-       "title": "Necroptosis as a key player in cervical cancer progression and management: a systematic review and transcriptomic cross-study consensus analysis.",
-       "journal": "Apoptosis",
-       "date": "2026-10-11"
-      },
-      {
-       "pmid": "42853913",
-       "doi": "10.1126/sciadv.aef2358",
-       "title": "Standardizing Cell Ontology terms for cross-study integration in the female reproductive tract.",
-       "journal": "Sci Adv",
-       "date": "2026-10-09"
-      },
-      {
-       "pmid": "42774476",
-       "doi": "10.1002/fsn3.72380",
-       "title": "&lt;i&gt;Citrus reticulata&lt;/i&gt; Essential Oil as a Bioactive Food Ingredient: Composition Variability, Extraction, Functional Bioactivities, and Cross-Study Quantitative Analysis.",
-       "journal": "Food Sci Nutr",
-       "date": "2026-09-21"
-      },
-      {
-       "pmid": "42793307",
-       "doi": "10.3390/cimb48090951",
-       "title": "Shared and Disease-Preferential Matrisome Programs in Fibrosing Interstitial Lung Disease: Evidence from Cross-Cohort and Within-Cohort Analysis.",
-       "journal": "Curr Issues Mol Biol",
-       "date": "2026-09-17"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "destiny-breast06",
@@ -1002,15 +916,7 @@
      "explained": [
       "enrolment 879 in the corpus (randomised), 1000 on the registry (actual; 12 percent apart): ClinicalTrials.gov lists 1,000 participants (actual); the NEJM 2022 primary analysis randomised 879 patients (440 Pola-R-CHP, 439 R-CHOP)."
      ],
-     "papers": [
-      {
-       "pmid": "42961429",
-       "doi": "10.1182/bloodadvances.2026022540",
-       "title": "Hu B, Reagan PM, Sehn LH, et al. Subgroup analysis of older patients ≥60 years with diffuse large B-cell lymphoma in the phase 3 POLARIX study. Blood Adv. 2025;9(10):2489-2499.",
-       "journal": "Blood Adv",
-       "date": "2026-11-01"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "prodige-24",
@@ -1045,7 +951,7 @@
      "name": "RATHL",
      "nct": "NCT00678327",
      "corpus": {
-      "status": "positive",
+      "status": "mixed",
       "phase": "3",
       "enrolled": 1214,
       "enrolledBasis": "registry",
@@ -1090,7 +996,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2023-02-01",
       "completion": "2027-01-08",
-      "lastUpdate": "2026-10-26"
+      "lastUpdate": "2026-11-13"
      },
      "contradictions": [],
      "explained": [],
@@ -1153,7 +1059,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2018-03-02",
       "completion": "2030-09-30",
-      "lastUpdate": "2026-10-01"
+      "lastUpdate": "2026-11-13"
      },
      "contradictions": [],
      "explained": [],
@@ -1183,11 +1089,11 @@
    "counts": {
     "trials": 19,
     "checked": 17,
-    "contradictions": 5,
+    "contradictions": 4,
     "explained": 2,
-    "papers": 9,
+    "papers": 3,
     "watch": 12,
-    "watchPassed": 4
+    "watchPassed": 2
    },
    "trials": [
     {
@@ -1212,7 +1118,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2025-02-04",
       "completion": "2026-12-18",
-      "lastUpdate": "2026-10-28"
+      "lastUpdate": "2026-11-18"
      },
      "contradictions": [],
      "explained": [],
@@ -1244,15 +1150,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42927858",
-       "doi": "10.1016/j.annonc.2026.10.1280",
-       "title": "Clinical Complete Response with Dostarlimab Monotherapy in dMMR/MSI-H Locally Advanced Rectal Cancer: First Results from the Global AZUR-1 Trial.",
-       "journal": "Ann Oncol",
-       "date": "2026-10-25"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "beacon-crc",
@@ -1561,15 +1459,7 @@
      "explained": [
       "enrolment 115 in the corpus (registered), 353 on the registry (estimated; 67 percent apart): ClinicalTrials.gov lists an estimated 353 participants for the amended NICHE protocol, which is still recruiting to further cohorts; the NEJM 2024 NICHE-2 analysis enrolled 115 patients, 111 of them in the efficacy analysis."
      ],
-     "papers": [
-      {
-       "pmid": "42906564",
-       "doi": "10.1016/s0140-6736(26)01602-8",
-       "title": "Disease-free survival and overall survival after neoadjuvant immunotherapy in mismatch repair-deficient colon cancer in the Netherlands: results of the single-arm, multicentre, phase 2, NICHE-2 trial.",
-       "journal": "Lancet",
-       "date": "2026-10-21"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "nordicc",
@@ -1600,36 +1490,7 @@
      "explained": [
       "enrolment 84585 in the corpus (analysed), 95000 on the registry (actual; 11 percent apart): ClinicalTrials.gov lists 95,000 participants (actual); the NEJM 2022 analysis covers the 84,585 participants in Poland, Norway and Sweden with follow-up data (28,220 invited, 56,365 usual care)."
      ],
-     "papers": [
-      {
-       "pmid": "42849474",
-       "doi": "10.1016/s0140-6736(26)01429-7",
-       "title": "Colonoscopy screening and colorectal cancer outcomes: the NordICC trial.",
-       "journal": "Lancet",
-       "date": "2026-10-01"
-      },
-      {
-       "pmid": "42849471",
-       "doi": "10.1016/s0140-6736(26)01430-3",
-       "title": "Colonoscopy screening and colorectal cancer outcomes: the NordICC trial.",
-       "journal": "Lancet",
-       "date": "2026-10-01"
-      },
-      {
-       "pmid": "42849472",
-       "doi": "10.1016/s0140-6736(26)01428-5",
-       "title": "Colonoscopy screening and colorectal cancer outcomes: the NordICC trial.",
-       "journal": "Lancet",
-       "date": "2026-10-01"
-      },
-      {
-       "pmid": "42849473",
-       "doi": "10.1016/s0140-6736(26)01588-6",
-       "title": "Colonoscopy screening and colorectal cancer outcomes: the NordICC trial - Authors' reply.",
-       "journal": "Lancet",
-       "date": "2026-10-01"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "opra",
@@ -1776,19 +1637,19 @@
    ],
    "watch": [
     {
-     "item": "NordICC primary completion on the registry (colonoscopy screening, 95,000 participants, actual; active, not recruiting); study completion is listed as July 2036, when the 15-year mortality answer is due",
-     "expected": "2026-06",
+     "item": "NordICC study completion on the registry (colonoscopy screening, 95,000 participants, actual; active, not recruiting). The 13-year report (Lancet, May 2026) found fewer cancers and no significant difference in deaths from colorectal cancer; the registry record, last updated in 2017, sets the primary analysis at 15 years of follow-up",
+     "expected": "2036-07",
      "source": "https://clinicaltrials.gov/study/NCT00883792",
      "refs": [
       "nordicc",
       "colorectal-screening",
       "idea-crc-screening-uptake-and-age-extension"
      ],
-     "passed": true,
+     "passed": false,
      "contradictions": []
     },
     {
-     "item": "COBRA (NRG-GI005) study completion: circulating tumour DNA testing to direct treatment in stage IIA colon cancer (635 participants, actual; active, not recruiting)",
+     "item": "COBRA (NRG-GI005) study completion: circulating tumour DNA testing to direct treatment in stage IIA colon cancer (635 participants, actual; active, not recruiting). Results are posted on the registry and the trial never went on to its phase 3 stage; the listed completion date is an estimate from a record last updated in May 2025",
      "expected": "2026-06-21",
      "source": "https://clinicaltrials.gov/study/NCT04068103",
      "refs": [
@@ -1801,7 +1662,7 @@
     },
     {
      "item": "JANUS primary completion: adding irinotecan to FOLFOX after long-course radiotherapy in locally advanced rectal cancer (760 participants, actual; active, not recruiting)",
-     "expected": "2026-09-30",
+     "expected": "2030-07-01",
      "source": "https://clinicaltrials.gov/study/NCT05610163",
      "refs": [
       "rectal-cancer",
@@ -1809,11 +1670,11 @@
       "total-neoadjuvant-therapy",
       "idea-crc-organ-preservation-randomised-in-pmmr-rectal"
      ],
-     "passed": true,
+     "passed": false,
      "contradictions": []
     },
     {
-     "item": "AZUR-1 primary completion: dostarlimab monotherapy in untreated mismatch repair-deficient locally advanced rectal cancer (154 participants, actual; active, not recruiting)",
+     "item": "AZUR-1 primary completion: dostarlimab monotherapy in untreated mismatch repair-deficient locally advanced rectal cancer (154 participants, actual; active, not recruiting). First results were published in Annals of Oncology in October 2026: 68 percent of 144 patients had a clinical complete response lasting 12 months; the date is the registry estimate from a record last updated in May 2026",
      "expected": "2026-11-02",
      "source": "https://clinicaltrials.gov/study/NCT05723562",
      "refs": [
@@ -1826,7 +1687,7 @@
      "contradictions": []
     },
     {
-     "item": "ATOMIC (Alliance A021502) study completion: adjuvant FOLFOX with or without atezolizumab in stage III mismatch repair-deficient colon cancer (712 participants, actual; active, not recruiting)",
+     "item": "ATOMIC (Alliance A021502) study completion: adjuvant FOLFOX with or without atezolizumab in stage III mismatch repair-deficient colon cancer (712 participants, actual; active, not recruiting). The primary result is published (N Engl J Med 2026)",
      "expected": "2026-12-18",
      "source": "https://clinicaltrials.gov/study/NCT02912559",
      "refs": [
@@ -1838,7 +1699,7 @@
      "contradictions": []
     },
     {
-     "item": "Botensilimab and balstilimab in colorectal cancer, primary completion (234 participants, actual; active, not recruiting): the first randomised read on Fc-enhanced CTLA-4 blockade in microsatellite stable disease",
+     "item": "Botensilimab and balstilimab in colorectal cancer, primary completion of the randomised phase 2 trial (234 participants, actual; active, not recruiting; no results posted). The phase 3 trial BATTMAN (NCT07152821) was terminated after 21 participants when the sponsor withdrew funding",
      "expected": "2027-09",
      "source": "https://clinicaltrials.gov/study/NCT05608044",
      "refs": [
@@ -1851,7 +1712,7 @@
      "contradictions": []
     },
     {
-     "item": "MOUNTAINEER-03 primary completion: tucatinib with trastuzumab and mFOLFOX6 against standard of care in first-line HER2-positive metastatic colorectal cancer (400 estimated participants; recruiting)",
+     "item": "MOUNTAINEER-03 primary completion: tucatinib with trastuzumab and mFOLFOX6 against standard of care in first-line HER2-positive metastatic colorectal cancer (400 estimated participants; active, not recruiting)",
      "expected": "2027-12-31",
      "source": "https://clinicaltrials.gov/study/NCT05253651",
      "refs": [
@@ -1866,8 +1727,8 @@
      ]
     },
     {
-     "item": "BREAKWATER study completion: encorafenib and cetuximab with or without chemotherapy in previously untreated BRAF V600E metastatic disease (841 participants, actual; active, not recruiting)",
-     "expected": "2027-12-28",
+     "item": "BREAKWATER study completion: encorafenib and cetuximab with or without chemotherapy in previously untreated BRAF V600E metastatic disease (841 participants, actual; active, not recruiting). The main results are published (N Engl J Med 2025)",
+     "expected": "2027-07-29",
      "source": "https://clinicaltrials.gov/study/NCT04607421",
      "refs": [
       "breakwater",
@@ -1876,9 +1737,7 @@
       "braf-v600e-colorectal"
      ],
      "passed": false,
-     "contradictions": [
-      "BREAKWATER: watch item expects 2027-12-28; the registry now lists primary completion 2025-03-01 and completion 2027-07-29"
-     ]
+     "contradictions": []
     },
     {
      "item": "CIRCULATE-US (NRG-GI008) primary completion: adjuvant chemotherapy directed by residual disease on circulating tumour DNA (1,912 estimated participants; recruiting)",
@@ -1949,13 +1808,8 @@
     },
     {
      "ref": "mountaineer",
-     "name": "MOUNTAINEER-03 primary completion: tucatinib with trastuzumab and mFOLFOX6 against standard of care in first-line HER2-positive metastatic colorectal cancer (400 estimated participants; recruiting)",
+     "name": "MOUNTAINEER-03 primary completion: tucatinib with trastuzumab and mFOLFOX6 against standard of care in first-line HER2-positive metastatic colorectal cancer (400 estimated participants; active, not recruiting)",
      "text": "MOUNTAINEER: watch item expects 2027-12-31; the registry now lists primary completion 2022-03-28 and completion 2023-11-02"
-    },
-    {
-     "ref": "breakwater",
-     "name": "BREAKWATER study completion: encorafenib and cetuximab with or without chemotherapy in previously untreated BRAF V600E metastatic disease (841 participants, actual; active, not recruiting)",
-     "text": "BREAKWATER: watch item expects 2027-12-28; the registry now lists primary completion 2025-03-01 and completion 2027-07-29"
     },
     {
      "ref": "dostarlimab",
@@ -1986,7 +1840,7 @@
     "checked": 5,
     "contradictions": 0,
     "explained": 2,
-    "papers": 3,
+    "papers": 8,
     "watch": 0,
     "watchPassed": 0
    },
@@ -2018,6 +1872,41 @@
      "contradictions": [],
      "explained": [],
      "papers": [
+      {
+       "pmid": "43049727",
+       "doi": "10.1002/ijc.70838",
+       "title": "The Association of Oral and Anogenital Human Papillomavirus Genotypes With Head and Neck Cancers in Brazil: A Nationwide Case-Control Study.",
+       "journal": "Int J Cancer",
+       "date": "2026-11-18"
+      },
+      {
+       "pmid": "43039782",
+       "doi": "10.1016/j.pmn.2026.10.005",
+       "title": "Dietary Fiber and Chronic Daily Headache: A Case-Control Study.",
+       "journal": "Pain Manag Nurs",
+       "date": "2026-11-16"
+      },
+      {
+       "pmid": "43012939",
+       "doi": "10.1007/s11033-026-13157-z",
+       "title": "Expression patterns of hypoxia signaling pathway genes and their association with clinical biochemical parameters in acute myeloid leukemia patients of Assam: A case control study.",
+       "journal": "Mol Biol Rep",
+       "date": "2026-11-11"
+      },
+      {
+       "pmid": "43012126",
+       "doi": "10.1002/ijgo.71490",
+       "title": "Determinants of non-utilization of cryotherapy among cervical cancer screening-positive women in public health facilities of West Shoa Zone, Oromia, Ethiopia: An unmatched case-control study.",
+       "journal": "Int J Gynaecol Obstet",
+       "date": "2026-11-11"
+      },
+      {
+       "pmid": "43000954",
+       "doi": "10.1002/ijc.70810",
+       "title": "A Multi-Center Hospital-Based Case-Control Study of Lymphoid and Myeloid Neoplasms (AsiaLymph): Study Design and Initial Findings for Body Mass Index, Education, and Family History.",
+       "journal": "Int J Cancer",
+       "date": "2026-11-08"
+      },
       {
        "pmid": "42992956",
        "doi": "10.1093/jncics/pkag119",
@@ -2184,7 +2073,7 @@
     "checked": 12,
     "contradictions": 0,
     "explained": 0,
-    "papers": 5,
+    "papers": 4,
     "watch": 13,
     "watchPassed": 4
    },
@@ -2458,15 +2347,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42773207",
-       "doi": "10.1038/s41591-026-04618-w",
-       "title": "Performance and safety of a multi-cancer early detection test: the PATHFINDER 2 study.",
-       "journal": "Nat Med",
-       "date": "2026-09-22"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "tracc",
@@ -2575,7 +2456,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2029-01-31",
       "completion": "2029-06-30",
-      "lastUpdate": "2026-11-06"
+      "lastUpdate": "2026-11-18"
      },
      "contradictions": [],
      "explained": [],
@@ -2871,7 +2752,7 @@
     "checked": 6,
     "contradictions": 0,
     "explained": 1,
-    "papers": 4,
+    "papers": 3,
     "watch": 0,
     "watchPassed": 0
    },
@@ -3030,7 +2911,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2023-02-01",
       "completion": "2027-01-08",
-      "lastUpdate": "2026-10-26"
+      "lastUpdate": "2026-11-13"
      },
      "contradictions": [],
      "explained": [],
@@ -3070,15 +2951,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42933441",
-       "doi": "10.1016/s1470-2045(26)00440-7",
-       "title": "From biomarker actionability to surveillance utility in SERENA-6.",
-       "journal": "Lancet Oncol",
-       "date": "2026-11-01"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "tailorx",
@@ -3102,7 +2975,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2018-03-02",
       "completion": "2030-09-30",
-      "lastUpdate": "2026-10-01"
+      "lastUpdate": "2026-11-13"
      },
      "contradictions": [],
      "explained": [],
@@ -3436,7 +3309,7 @@
     "checked": 2,
     "contradictions": 0,
     "explained": 0,
-    "papers": 2,
+    "papers": 1,
     "watch": 0,
     "watchPassed": 0
    },
@@ -3504,15 +3377,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42773207",
-       "doi": "10.1038/s41591-026-04618-w",
-       "title": "Performance and safety of a multi-cancer early detection test: the PATHFINDER 2 study.",
-       "journal": "Nat Med",
-       "date": "2026-09-22"
-      }
-     ]
+     "papers": []
     }
    ],
    "watch": [],
@@ -3695,7 +3560,7 @@
      "corpus": {
       "status": "active",
       "phase": "3",
-      "enrolled": 600,
+      "enrolled": 609,
       "enrolledBasis": "registry"
      },
      "registry": {
@@ -3769,7 +3634,7 @@
     "checked": 15,
     "contradictions": 3,
     "explained": 0,
-    "papers": 6,
+    "papers": 0,
     "watch": 10,
     "watchPassed": 3
    },
@@ -3836,10 +3701,11 @@
      "name": "ACTICCA-1",
      "nct": "NCT02170090",
      "corpus": {
-      "status": "active",
+      "status": "negative",
       "phase": "3",
       "enrolled": 789,
-      "enrolledBasis": "registry"
+      "enrolledBasis": "registry",
+      "yearReported": 2026
      },
      "registry": {
       "nct": "NCT02170090",
@@ -3856,15 +3722,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42926109",
-       "doi": "10.1016/j.annonc.2026.10.1278",
-       "title": "Adjuvant chemotherapy with cisplatin and gemcitabine compared with standard of care after curative intent resection of cholangiocarcinoma and muscle-invasive gallbladder carcinoma (ACTICCA-1/AIO-HEP-0112 trial).",
-       "journal": "Ann Oncol",
-       "date": "2026-10-24"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "bilcap",
@@ -4019,15 +3877,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42898854",
-       "doi": "10.1016/j.eclinm.2026.104213",
-       "title": "Pembrolizumab plus gemcitabine and cisplatin for advanced biliary tract cancer: longer-term follow-up from the randomised, double-blind, placebo-controlled, phase 3 KEYNOTE-966 trial.",
-       "journal": "EClinicalMedicine",
-       "date": "2026-10-12"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "naliricc",
@@ -4111,22 +3961,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42991840",
-       "doi": "10.18332/tpc/240141",
-       "title": "Healthcare professionals' perspectives on implementing opt-out smoking cessation in perioperative and cancer care in the Netherlands: A qualitative interview study.",
-       "journal": "Tob Prev Cessat",
-       "date": "2026-11-04"
-      },
-      {
-       "pmid": "42899477",
-       "doi": "10.1177/29767342261489476",
-       "title": "Impact of Opt-Out Versus Opt-In Recruitment on Engagement of FDNY WTC-Exposed Responders in a Tobacco Cessation Intervention.",
-       "journal": "Subst Use Addctn J",
-       "date": "2026-10-20"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "polcagb",
@@ -4239,29 +4074,14 @@
       "enrolment 685 in the corpus, 810 on the registry (actual; 15 percent apart)"
      ],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42865151",
-       "doi": "10.1002/ijc.70782",
-       "title": "Reply to: Comments on \"Outcomes of Cisplatin, Gemcitabine, and Durvalumab According to TOPAZ-1 Study Eligibility: A Large Global Analysis in a Real-World Setting\".",
-       "journal": "Int J Cancer",
-       "date": "2026-10-13"
-      },
-      {
-       "pmid": "42865098",
-       "doi": "10.1002/ijc.70778",
-       "title": "Comments on: Outcomes of Cisplatin, Gemcitabine, and Durvalumab According to TOPAZ-1 Study Eligibility: A Large Global Analysis in a Real-World Setting.",
-       "journal": "Int J Cancer",
-       "date": "2026-10-12"
-      }
-     ]
+     "papers": []
     }
    ],
    "watch": [
     {
-     "item": "ACTICCA-1 primary completion: adjuvant gemcitabine-cisplatin vs capecitabine after resection of cholangiocarcinoma and muscle-invasive gallbladder cancer (789 patients; status active, not recruiting)",
-     "expected": "2025-12",
-     "source": "https://clinicaltrials.gov/study/NCT02170090",
+     "item": "ACTICCA-1 has reported (Annals of Oncology, 24 October 2026): adjuvant gemcitabine-cisplatin did not significantly improve disease-free survival over capecitabine in 591 randomised patients (median 25.7 against 17.9 months, log-rank p=0.097). Still to watch: a gallbladder-specific analysis (16 percent of patients) and the registry record, which on 17 November 2026 still listed the trial as active, not recruiting, with 789 enrolled and no posted results",
+     "expected": "2026-10-24",
+     "source": "https://doi.org/10.1016/j.annonc.2026.10.1278",
      "refs": [
       "acticca-1",
       "bilcap",
@@ -4359,8 +4179,8 @@
      "contradictions": []
     },
     {
-     "item": "A trial that acts on a positive residual disease blood test after biliary resection; none found on ClinicalTrials.gov or Europe PMC on 24 September 2026",
-     "source": "https://europepmc.org/article/MED/42583118",
+     "item": "A randomised trial that acts on a positive residual disease blood test after biliary resection: none found on ClinicalTrials.gov on 17 November 2026, where the two studies that act on the test are small and non-randomised (NCT06171321 in China, 94 planned, status unknown; NCT05482516 in the United States, 11 enrolled across gastrointestinal cancers)",
+     "source": "https://clinicaltrials.gov/study/NCT06171321",
      "refs": [
       "mrd-testing",
       "idea-gbc-ctdna-residual-disease-guided-adjuvant-trial"
@@ -4766,8 +4586,8 @@
     "trials": 32,
     "checked": 32,
     "contradictions": 0,
-    "explained": 5,
-    "papers": 16,
+    "explained": 4,
+    "papers": 5,
     "watch": 0,
     "watchPassed": 0
    },
@@ -4798,22 +4618,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42833883",
-       "doi": "10.1111/bju.70474",
-       "title": "Testosterone breakthrough and outcomes during intensified therapy in metastatic hormone-sensitive prostate cancer: the ARASENS and LATITUDE trials.",
-       "journal": "BJU Int",
-       "date": "2026-10-05"
-      },
-      {
-       "pmid": "42892235",
-       "doi": "10.1016/j.ejca.2026.117764",
-       "title": "Analysis of quality-adjusted time without symptoms or toxicity (Q-TWiST) in patients with metastatic hormone-sensitive prostate cancer from the ARASENS trial.",
-       "journal": "Eur J Cancer",
-       "date": "2026-10-02"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "arches",
@@ -4841,15 +4646,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42791604",
-       "doi": "10.1002/cncr.70615",
-       "title": "External validation of the NADIR model for early prostate-specific antigen response prediction in enzalutamide-treated metastatic hormone-sensitive prostate cancer: An analysis of the ARCHES trial.",
-       "journal": "Cancer",
-       "date": "2026-10-01"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "cambria",
@@ -4858,8 +4655,9 @@
      "corpus": {
       "status": "active",
       "phase": "3",
-      "enrolled": 10000,
-      "enrolledBasis": "registry"
+      "enrolled": 9811,
+      "enrolledBasis": "registered",
+      "enrolledNote": "The figure adds the two registrations on ClinicalTrials.gov as read on 17 November 2026: 4,300 planned in CAMBRIA-1 (NCT05774951, still recruiting) and 5,511 enrolled in CAMBRIA-2 (NCT05952557, closed to recruitment)."
      },
      "registry": {
       "nct": "NCT05952557",
@@ -4904,15 +4702,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42918424",
-       "doi": "10.1016/j.annonc.2026.10.097",
-       "title": "Capivasertib plus abiraterone in PTEN-deficient de novo metastatic hormone-sensitive prostate cancer: updated survival analysis from CAPItello-281.",
-       "journal": "Ann Oncol",
-       "date": "2026-10-23"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "capitello-291",
@@ -5064,9 +4854,8 @@
      "corpus": {
       "status": "positive",
       "phase": "3",
-      "enrolled": 320,
-      "enrolledBasis": "randomised",
-      "enrolledNote": "ClinicalTrials.gov lists 373 participants (actual); 320 is the randomised population presented at ESMO 2025 and quoted in the summary. No journal paper is indexed on Europe PMC yet, so the figure has not been checked against a primary publication.",
+      "enrolled": 373,
+      "enrolledBasis": "registry",
       "yearReported": 2025
      },
      "registry": {
@@ -5083,9 +4872,7 @@
       "lastUpdate": "2026-11-03"
      },
      "contradictions": [],
-     "explained": [
-      "enrolment 320 in the corpus (randomised), 373 on the registry (actual; 14 percent apart): ClinicalTrials.gov lists 373 participants (actual); 320 is the randomised population presented at ESMO 2025 and quoted in the summary. No journal paper is indexed on Europe PMC yet, so the figure has not been checked against a primary publication."
-     ],
+     "explained": [],
      "papers": []
     },
     {
@@ -5114,15 +4901,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42926110",
-       "doi": "10.1016/j.annonc.2026.10.1282",
-       "title": "Atirmociclib and fulvestrant for patients with HR+/HER2- advanced/metastatic breast cancer who progressed on a prior cyclin-dependent kinase 4/6 inhibitor: primary analysis of the randomized FourLight-1 trial.",
-       "journal": "Ann Oncol",
-       "date": "2026-10-24"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "latitude",
@@ -5226,7 +5005,7 @@
      "corpus": {
       "status": "active",
       "phase": "3",
-      "enrolled": 600,
+      "enrolled": 609,
       "enrolledBasis": "registry"
      },
      "registry": {
@@ -5380,8 +5159,9 @@
      "corpus": {
       "status": "negative",
       "phase": "3",
-      "enrolled": 6862,
-      "enrolledBasis": "registry",
+      "enrolled": 7003,
+      "enrolledBasis": "randomised",
+      "enrolledNote": "ClinicalTrials.gov lists 5796 participants for PALLAS (NCT02513394) alone; 7,003 is the 5,753 patients in the PALLAS five-year analysis plus the 1,250 randomised in PENELOPE-B.",
       "yearReported": 2020
      },
      "registry": {
@@ -5399,15 +5179,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42986066",
-       "doi": "10.1093/jnci/djag416",
-       "title": "Treatment-related neutropenia as predictor of response to adjuvant palbociclib in the PALLAS trial (ABCSG-42/AFT-05/BIG-14-13/PrE0109).",
-       "journal": "J Natl Cancer Inst",
-       "date": "2026-11-05"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "paloma-2",
@@ -5486,8 +5258,8 @@
       "enrolment": 992,
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2026-01-30",
-      "completion": "2027-07-31",
-      "lastUpdate": "2026-08-17"
+      "completion": "2028-07-28",
+      "lastUpdate": "2026-11-12"
      },
      "contradictions": [],
      "explained": [],
@@ -5523,7 +5295,7 @@
       {
        "pmid": "42926108",
        "doi": "10.1016/j.annonc.2026.10.1283",
-       "title": "Overall survival from the phase III postMONARCH trial of abemaciclib plus fulvestrant versus placebo plus fulvestrant for HR+, HER2- advanced breast cancer following progression on a prior CDK4/6 inhibitor plus endocrine therapy.",
+       "title": "Overall survival from the phase III postMONARCH trial of abemaciclib plus fulvestrant versus placebo plus fulvestrant for HR-positive, HER2-negative advanced breast cancer following progression on a prior CDK4/6 inhibitor plus endocrine therapy.",
        "journal": "Ann Oncol",
        "date": "2026-10-24"
       }
@@ -5622,15 +5394,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42933441",
-       "doi": "10.1016/s1470-2045(26)00440-7",
-       "title": "From biomarker actionability to surveillance utility in SERENA-6.",
-       "journal": "Lancet Oncol",
-       "date": "2026-11-01"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "soft-text",
@@ -5686,15 +5450,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42775824",
-       "doi": "10.2340/1651-226x.2026.46486",
-       "title": "Exceptional response to alpelisib in a heavily pretreated patient with metastatic breast cancer carrying a PIK3CA mutation outside SOLAR-1 eligible mutations: a case report.",
-       "journal": "Acta Oncol",
-       "date": "2026-09-23"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "stampede",
@@ -5723,22 +5479,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42838799",
-       "doi": "10.1016/j.eururo.2026.09.001",
-       "title": "Major Adverse Cardiovascular Events in Men with High-risk Localized or Metastatic Prostate Cancer Starting Long-term Hormone Therapy in the STAMPEDE Trial.",
-       "journal": "Eur Urol",
-       "date": "2026-10-06"
-      },
-      {
-       "pmid": "42838582",
-       "doi": "10.1136/bmjopen-2026-116331",
-       "title": "Metastasis-directed radiotherapy (MDRT) for men with de novo, oligometastatic prostate cancer treated with long-term androgen deprivation therapy in the STAMPEDE trial (METANOVA): protocol for a multicentre, phase II randomised controlled trial in the USA.",
-       "journal": "BMJ Open",
-       "date": "2026-10-06"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "talapro-2",
@@ -5769,15 +5510,7 @@
      "explained": [
       "enrolment 805 in the corpus (randomised), 1054 on the registry (actual; 24 percent apart): ClinicalTrials.gov lists 1,054 participants (actual) across both cohorts; the Lancet 2023 primary analysis randomised 805 patients in the all-comers cohort (402 talazoparib, 403 placebo)."
      ],
-     "papers": [
-      {
-       "pmid": "42950862",
-       "doi": "10.1016/s1470-2045(26)00355-4",
-       "title": "Talazoparib plus enzalutamide versus placebo plus enzalutamide in metastatic androgen pathway modulator-resistant (castration-resistant) prostate cancer (TALAPRO-2): a biomarker analysis of circulating tumour DNA and cells for prognosis and molecular profiling.",
-       "journal": "Lancet Oncol",
-       "date": "2026-10-28"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "veritac-2",
@@ -5801,7 +5534,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2025-01-31",
       "completion": "2028-05-15",
-      "lastUpdate": "2026-03-18"
+      "lastUpdate": "2026-11-18"
      },
      "contradictions": [],
      "explained": [],
@@ -5815,11 +5548,6 @@
      "ref": "capitello-291",
      "name": "CAPItello-291",
      "text": "enrolment 708 in the corpus (randomised), 818 on the registry (actual; 13 percent apart): ClinicalTrials.gov lists 818 participants (actual); the NEJM 2023 primary analysis randomised 708 patients."
-    },
-    {
-     "ref": "evera",
-     "name": "evERA",
-     "text": "enrolment 320 in the corpus (randomised), 373 on the registry (actual; 14 percent apart): ClinicalTrials.gov lists 373 participants (actual); 320 is the randomised population presented at ESMO 2025 and quoted in the summary. No journal paper is indexed on Europe PMC yet, so the figure has not been checked against a primary publication."
     },
     {
      "ref": "magnitude",
@@ -5848,7 +5576,7 @@
     "checked": 4,
     "contradictions": 0,
     "explained": 0,
-    "papers": 2,
+    "papers": 0,
     "watch": 0,
     "watchPassed": 0
    },
@@ -5964,22 +5692,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42993466",
-       "doi": "10.1111/ajco.70223",
-       "title": "Real-World Toxicity and Outcomes of KEYNOTE-522-Style Neoadjuvant Pembrolizumab for Triple-Negative Breast Cancer in Australia.",
-       "journal": "Asia Pac J Clin Oncol",
-       "date": "2026-11-06"
-      },
-      {
-       "pmid": "42810150",
-       "doi": "10.1016/j.ejca.2026.117064",
-       "title": "Reflections on adjuvant pembrolizumab for triple-negative breast cancer treated with the KEYNOTE-522 regimen: Is it really necessary?",
-       "journal": "Eur J Cancer",
-       "date": "2026-09-24"
-      }
-     ]
+     "papers": []
     }
    ],
    "watch": [],
@@ -6034,9 +5747,9 @@
     "checked": 7,
     "contradictions": 0,
     "explained": 0,
-    "papers": 4,
+    "papers": 1,
     "watch": 10,
-    "watchPassed": 0
+    "watchPassed": 2
    },
    "trials": [
     {
@@ -6065,22 +5778,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42971506",
-       "doi": "10.1016/j.jtho.2026.106221",
-       "title": "Brief Report: Patterns of Disease Progression with Durvalumab versus Placebo After Concurrent Chemoradiotherapy for Limited-Stage SCLC in the Phase 3 ADRIATIC Trial.",
-       "journal": "J Thorac Oncol",
-       "date": "2026-11-02"
-      },
-      {
-       "pmid": "42806195",
-       "doi": "10.1208/s12248-026-01295-y",
-       "title": "Population Pharmacokinetics and Exposure-response Analysis of Durvalumab in Patients with Limited-stage Small-cell Lung Cancer in the Phase 3 ADRIATIC Study.",
-       "journal": "AAPS J",
-       "date": "2026-09-28"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "alina",
@@ -6108,15 +5806,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42829725",
-       "doi": "10.2147/lctt.s642874",
-       "title": "Can We Extend Beyond 2 Years of Adjuvant ALK TKI Established by ALINA and ELEVATE in Resected Early Stage &lt;i&gt;ALK+&lt;/i&gt; NSCLC a Disease with High Predilection for CNS Metastasis with Novel Clinical Trial Designs?",
-       "journal": "Lung Cancer (Auckl)",
-       "date": "2026-09-29"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "crown",
@@ -6270,7 +5960,7 @@
    "watch": [
     {
      "item": "ADRIATIC: final analysis of durvalumab, and the unblinding of the durvalumab plus tremelimumab arm, in limited-stage small-cell lung cancer",
-     "expected": "Study completion 23 October 2026 (estimated, ClinicalTrials.gov NCT03703297)",
+     "expected": "Overdue: the registry still gives an estimated study completion of 23 October 2026 (ClinicalTrials.gov NCT03703297, read 17 November 2026, record last updated 21 November 2025), and a report from the trial published on 2 November 2026 still lists the durvalumab plus tremelimumab arm as not reported",
      "source": "https://clinicaltrials.gov/study/NCT03703297",
      "refs": [
       "paper-adriatic-nejm-2024",
@@ -6280,8 +5970,8 @@
      "contradictions": []
     },
     {
-     "item": "IMpower010: final overall survival for adjuvant atezolizumab after chemotherapy in resected disease",
-     "expected": "Study completion 31 August 2027 (estimated, ClinicalTrials.gov NCT02486718)",
+     "item": "IMpower010: final overall survival for adjuvant atezolizumab after chemotherapy in resected disease. The five-year report gave a second interim analysis only, with no survival difference in all randomised patients (hazard ratio 0.97, 0.78 to 1.22)",
+     "expected": "The registry lists the study as completed on 26 August 2026 (ClinicalTrials.gov NCT02486718, read 17 November 2026); no final overall survival paper was found on that date",
      "source": "https://clinicaltrials.gov/study/NCT02486718",
      "refs": [
       "paper-felip-impower010-adjuvant-atezolizumab-lancet-2021"
@@ -6290,18 +5980,18 @@
      "contradictions": []
     },
     {
-     "item": "FLAURA2: overall survival for osimertinib with chemotherapy against osimertinib alone",
-     "expected": "Study completion 30 September 2027 (estimated, ClinicalTrials.gov NCT04035486)",
+     "item": "FLAURA2: overall survival for osimertinib with chemotherapy against osimertinib alone. The final analysis has reported: a median of 47.5 months against 37.6 (hazard ratio for death 0.77, 0.61 to 0.96), with grade 3 or higher adverse events in 70 percent against 34 percent",
+     "expected": "Reported (N Engl J Med, published online 17 October 2025); study completion 30 September 2027 (estimated, ClinicalTrials.gov NCT04035486)",
      "source": "https://clinicaltrials.gov/study/NCT04035486",
      "refs": [
       "paper-planchard-flaura2-osimertinib-chemotherapy-nejm-2023",
       "flaura2"
      ],
-     "passed": false,
+     "passed": true,
      "contradictions": []
     },
     {
-     "item": "LAURA: overall survival for osimertinib after chemoradiotherapy in stage III EGFR-mutated disease",
+     "item": "LAURA: overall survival for osimertinib after chemoradiotherapy in stage III EGFR-mutated disease. A second interim analysis found no significant difference yet (hazard ratio 0.67, 0.40 to 1.14, with 31 percent of the expected deaths)",
      "expected": "Study completion 29 October 2027 (estimated, ClinicalTrials.gov NCT03521154)",
      "source": "https://clinicaltrials.gov/study/NCT03521154",
      "refs": [
@@ -6312,18 +6002,18 @@
      "contradictions": []
     },
     {
-     "item": "MARIPOSA: final overall survival for amivantamab plus lazertinib against osimertinib in first line",
-     "expected": "Study completion 16 February 2028 (estimated, ClinicalTrials.gov NCT04487080)",
+     "item": "MARIPOSA: final overall survival for amivantamab plus lazertinib against osimertinib in first line. It has reported: hazard ratio for death 0.75 (0.61 to 0.92), with 60 percent against 51 percent alive at three years and grade 3 or higher adverse events in 80 percent against 52 percent",
+     "expected": "Reported (N Engl J Med, published online 7 September 2025); study completion 16 February 2028 (estimated, ClinicalTrials.gov NCT04487080)",
      "source": "https://clinicaltrials.gov/study/NCT04487080",
      "refs": [
       "paper-mariposa-nejm-2024",
       "mariposa"
      ],
-     "passed": false,
+     "passed": true,
      "contradictions": []
     },
     {
-     "item": "DeLLphi-304: final analysis of tarlatamab against chemotherapy in relapsed small-cell lung cancer",
+     "item": "DeLLphi-304: final analysis of tarlatamab against chemotherapy in relapsed small-cell lung cancer. The interim analysis has reported, with a median survival of 13.6 months against 8.3 (hazard ratio 0.60, 0.47 to 0.77)",
      "expected": "Study completion 26 March 2028 (estimated, ClinicalTrials.gov NCT05740566)",
      "source": "https://clinicaltrials.gov/study/NCT05740566",
      "refs": [
@@ -6335,7 +6025,7 @@
      "contradictions": []
     },
     {
-     "item": "AEGEAN: final overall survival for perioperative durvalumab in resectable disease",
+     "item": "AEGEAN: final overall survival for perioperative durvalumab in resectable disease. The interim analysis showed no significant survival difference (hazard ratio 0.89, 0.70 to 1.14)",
      "expected": "Study completion 11 September 2028 (estimated, ClinicalTrials.gov NCT03800134)",
      "source": "https://clinicaltrials.gov/study/NCT03800134",
      "refs": [
@@ -6485,7 +6175,7 @@
      "name": "ARCHED",
      "nct": "NCT05820841",
      "corpus": {
-      "status": "active",
+      "status": "recruiting",
       "phase": "3",
       "enrolled": 330,
       "enrolledBasis": "registry"
@@ -6645,7 +6335,7 @@
       "phase": "3",
       "enrolled": 1925,
       "enrolledBasis": "analysed",
-      "enrolledNote": "1,950 patients were randomly assigned and 1,925 had an early scan, of whom 361 (18.8 per cent) were positive.",
+      "enrolledNote": "The registry records 1,952 enrolled; in the Journal of Clinical Oncology report 1,950 patients were randomly assigned and 1,925 had an early scan, of whom 361 (18.8 per cent) were positive.",
       "yearReported": 2017
      },
      "registry": {
@@ -6729,7 +6419,7 @@
      "name": "FORTplus",
      "nct": "NCT05045664",
      "corpus": {
-      "status": "active",
+      "status": "recruiting",
       "phase": "3",
       "enrolled": 100,
       "enrolledBasis": "registry"
@@ -6842,8 +6532,8 @@
       "status": "positive",
       "phase": "3",
       "enrolled": 1945,
-      "enrolledBasis": "randomised",
-      "enrolledNote": "The registry target was 1,500; 2,101 patients were recruited, 156 were found ineligible, and 1,945 were randomised across the two scan-defined cohorts in the Lancet report.",
+      "enrolledBasis": "analysed",
+      "enrolledNote": "The registry records 1,500; the Lancet report says 2,101 patients were recruited, 137 were found ineligible before randomisation and a further 19 after it, which leaves 1,945. Of these, 434 with a positive scan and 1,005 with a negative scan were in the randomised comparisons.",
       "yearReported": 2017
      },
      "registry": {
@@ -6861,7 +6551,7 @@
      },
      "contradictions": [],
      "explained": [
-      "enrolment 1945 in the corpus (randomised), 1500 on the registry (actual; 30 percent apart): The registry target was 1,500; 2,101 patients were recruited, 156 were found ineligible, and 1,945 were randomised across the two scan-defined cohorts in the Lancet report."
+      "enrolment 1945 in the corpus (analysed), 1500 on the registry (actual; 30 percent apart): The registry records 1,500; the Lancet report says 2,101 patients were recruited, 137 were found ineligible before randomisation and a further 19 after it, which leaves 1,945. Of these, 434 with a positive scan and 1,005 with a negative scan were in the randomised comparisons."
      ],
      "papers": []
     },
@@ -6975,7 +6665,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42714874",
+       "doi": "10.1158/1078-0432.ccr-26-1365",
+       "title": "Ceralasertib plus Durvalumab in Ras Mutant and Ras Wild-Type Advanced Non-Small Cell Lung Cancer: Two Cohorts of the Phase II Platform National Lung Matrix Trial.",
+       "journal": "Clin Cancer Res",
+       "date": "2026-11-01"
+      }
+     ]
     },
     {
      "id": "jcog9801",
@@ -7094,7 +6792,15 @@
      "explained": [
       "enrolment 368 in the corpus (registered), 250 on the registry (estimated; 47 percent apart): The registry gives an estimated 250 and was not updated; the Lancet report enrolled 368 patients, 346 started induction and 230 were randomised (229 analysed)."
      ],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42714874",
+       "doi": "10.1158/1078-0432.ccr-26-1365",
+       "title": "Ceralasertib plus Durvalumab in Ras Mutant and Ras Wild-Type Advanced Non-Small Cell Lung Cancer: Two Cohorts of the Phase II Platform National Lung Matrix Trial.",
+       "journal": "Clin Cancer Res",
+       "date": "2026-11-01"
+      }
+     ]
     },
     {
      "id": "mosun-lbt-fl",
@@ -7117,7 +6823,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2032-03-31",
       "completion": "2032-03-31",
-      "lastUpdate": "2026-11-09"
+      "lastUpdate": "2026-11-18"
      },
      "contradictions": [],
      "explained": [],
@@ -7128,7 +6834,7 @@
      "name": "Mosunetuzumab with lenalidomide in relapsed marginal zone lymphoma",
      "nct": "NCT06006117",
      "corpus": {
-      "status": "active",
+      "status": "recruiting",
       "phase": "3",
       "enrolled": 260,
       "enrolledBasis": "registry"
@@ -7155,7 +6861,7 @@
      "name": "POLAR BEAR",
      "nct": "NCT04332822",
      "corpus": {
-      "status": "active",
+      "status": "recruiting",
       "phase": "3",
       "enrolled": 300,
       "enrolledBasis": "registry"
@@ -7237,15 +6943,7 @@
      "explained": [
       "enrolment 879 in the corpus (randomised), 1000 on the registry (actual; 12 percent apart): ClinicalTrials.gov lists 1,000 participants (actual); the NEJM 2022 primary analysis randomised 879 patients (440 Pola-R-CHP, 439 R-CHOP)."
      ],
-     "papers": [
-      {
-       "pmid": "42961429",
-       "doi": "10.1182/bloodadvances.2026022540",
-       "title": "Hu B, Reagan PM, Sehn LH, et al. Subgroup analysis of older patients ≥60 years with diffuse large B-cell lymphoma in the phase 3 POLARIX study. Blood Adv. 2025;9(10):2489-2499.",
-       "journal": "Blood Adv",
-       "date": "2026-11-01"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "prima-follicular",
@@ -7283,7 +6981,7 @@
      "name": "PRIMA-CNS",
      "nct": "NCT06830421",
      "corpus": {
-      "status": "active",
+      "status": "recruiting",
       "phase": "3",
       "enrolled": 340,
       "enrolledBasis": "registry"
@@ -7310,7 +7008,7 @@
      "name": "RADAR",
      "nct": "NCT04685616",
      "corpus": {
-      "status": "active",
+      "status": "recruiting",
       "phase": "3",
       "enrolled": 1042,
       "enrolledBasis": "registry"
@@ -7337,7 +7035,7 @@
      "name": "RATHL",
      "nct": "NCT00678327",
      "corpus": {
-      "status": "positive",
+      "status": "mixed",
       "phase": "3",
       "enrolled": 1214,
       "enrolledBasis": "registry",
@@ -7522,15 +7220,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42998919",
-       "doi": "10.1016/j.clml.2026.10.007",
-       "title": "Patient-reported Outcomes in Patients With Relapsed or Refractory Diffuse Large B-cell Lymphoma Treated With Glofitamab Plus Gemcitabine and Oxaliplatin in STARGLO.",
-       "journal": "Clin Lymphoma Myeloma Leuk",
-       "date": "2026-10-11"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "transcend-nhl-001",
@@ -7743,7 +7433,7 @@
    ],
    "watch": [
     {
-     "item": "POLAR BEAR primary completion: polatuzumab vedotin in place of vincristine in R-miniCHOP for patients aged 80 or over, or 75 or over and frail (300 estimated participants; recruiting). The registry date has passed and no report has appeared",
+     "item": "POLAR BEAR primary completion: polatuzumab vedotin in place of vincristine in R-miniCHOP for patients aged 80 or over, or 75 or over and frail (300 estimated participants; recruiting). The registry date has passed; the record was last updated in September 2024 and no full report was indexed in PubMed on 17 November 2026",
      "expected": "2025-12-28",
      "source": "https://clinicaltrials.gov/study/NCT04332822",
      "refs": [
@@ -7835,7 +7525,7 @@
     {
      "ref": "hd18",
      "name": "GHSG HD18",
-     "text": "enrolment 1945 in the corpus (randomised), 1500 on the registry (actual; 30 percent apart): The registry target was 1,500; 2,101 patients were recruited, 156 were found ineligible, and 1,945 were randomised across the two scan-defined cohorts in the Lancet report."
+     "text": "enrolment 1945 in the corpus (analysed), 1500 on the registry (actual; 30 percent apart): The registry records 1,500; the Lancet report says 2,101 patients were recruited, 137 were found ineligible before randomisation and a further 19 after it, which leaves 1,945. Of these, 434 with a positive scan and 1,005 with a negative scan were in the randomised comparisons."
     },
     {
      "ref": "jcog9801",
@@ -8002,7 +7692,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2027-09-30",
       "completion": "2027-09-30",
-      "lastUpdate": "2026-11-02"
+      "lastUpdate": "2026-11-12"
      },
      "contradictions": [],
      "explained": [
@@ -8403,7 +8093,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2025-03-31",
       "completion": "2027-01-06",
-      "lastUpdate": "2026-07-24"
+      "lastUpdate": "2026-11-13"
      },
      "contradictions": [],
      "explained": [],
@@ -8557,7 +8247,7 @@
     "checked": 14,
     "contradictions": 1,
     "explained": 1,
-    "papers": 1,
+    "papers": 0,
     "watch": 11,
     "watchPassed": 1
    },
@@ -8610,7 +8300,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2028-09-15",
       "completion": "2029-03-19",
-      "lastUpdate": "2026-10-30"
+      "lastUpdate": "2026-11-13"
      },
      "contradictions": [],
      "explained": [],
@@ -8643,15 +8333,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42919966",
-       "doi": "10.1038/s41591-026-04734-7",
-       "title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial.",
-       "journal": "Nat Med",
-       "date": "2026-10-23"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "conko-001",
@@ -8988,9 +8670,9 @@
       "studyType": "INTERVENTIONAL",
       "enrolment": 900,
       "enrolmentType": "ESTIMATED",
-      "primaryCompletion": "2028-06",
+      "primaryCompletion": "2028-04",
       "completion": "2029-03",
-      "lastUpdate": "2026-10-02"
+      "lastUpdate": "2026-11-16"
      },
      "contradictions": [],
      "explained": [],
@@ -9038,7 +8720,7 @@
      "contradictions": []
     },
     {
-     "item": "AMPLIFY-7P study completion (ELI-002 7P adjuvant KRAS vaccine, 158 participants; primary completion 20 April 2026, actual)",
+     "item": "AMPLIFY-7P study completion (ELI-002 7P adjuvant KRAS vaccine, 158 participants; primary completion 20 April 2026, actual; the primary endpoint was not met, published October 2026)",
      "expected": "2026-11",
      "source": "https://clinicaltrials.gov/study/NCT05726864",
      "refs": [
@@ -9075,7 +8757,7 @@
     },
     {
      "item": "RASolute 303 primary completion: daraxonrasib alone or with gemcitabine and nab-paclitaxel versus chemotherapy, first line metastatic (900 estimated participants; recruiting)",
-     "expected": "2028-06",
+     "expected": "2028-04",
      "source": "https://clinicaltrials.gov/study/NCT07491445",
      "refs": [
       "nct07491445",
@@ -9364,7 +9046,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2027-12-31",
       "completion": "2027-12-31",
-      "lastUpdate": "2026-10-26"
+      "lastUpdate": "2026-11-12"
      },
      "contradictions": [
       "enrolment 5954 in the corpus, 6452 on the registry (estimated; 8 percent apart)"
@@ -9424,7 +9106,7 @@
     "checked": 6,
     "contradictions": 0,
     "explained": 0,
-    "papers": 5,
+    "papers": 0,
     "watch": 8,
     "watchPassed": 0
    },
@@ -9454,22 +9136,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42829306",
-       "doi": "10.1016/j.urolonc.2026.09.003",
-       "title": "Comparing NCCN-based risk groups to the PROTEUS definition of high-risk localized prostate cancer to inform peri-operative care.",
-       "journal": "Urol Oncol",
-       "date": "2026-10-03"
-      },
-      {
-       "pmid": "42910136",
-       "doi": "10.4103/iju.iju_374_26",
-       "title": "Perioperative apalutamide in high-risk localized or locally advanced prostate cancer: Is PROTEUS trial practice changing?",
-       "journal": "Indian J Urol",
-       "date": "2026-09-29"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "nct05939414",
@@ -9524,15 +9191,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42918424",
-       "doi": "10.1016/j.annonc.2026.10.097",
-       "title": "Capivasertib plus abiraterone in PTEN-deficient de novo metastatic hormone-sensitive prostate cancer: updated survival analysis from CAPItello-281.",
-       "journal": "Ann Oncol",
-       "date": "2026-10-23"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "psmaddition",
@@ -9589,32 +9248,18 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42838799",
-       "doi": "10.1016/j.eururo.2026.09.001",
-       "title": "Major Adverse Cardiovascular Events in Men with High-risk Localized or Metastatic Prostate Cancer Starting Long-term Hormone Therapy in the STAMPEDE Trial.",
-       "journal": "Eur Urol",
-       "date": "2026-10-06"
-      },
-      {
-       "pmid": "42838582",
-       "doi": "10.1136/bmjopen-2026-116331",
-       "title": "Metastasis-directed radiotherapy (MDRT) for men with de novo, oligometastatic prostate cancer treated with long-term androgen deprivation therapy in the STAMPEDE trial (METANOVA): protocol for a multicentre, phase II randomised controlled trial in the USA.",
-       "journal": "BMJ Open",
-       "date": "2026-10-06"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "nct04821622",
      "name": "Study of Talazoparib With Enzalutamide in Men With DDR Gene Mutated mCSPC",
      "nct": "NCT04821622",
      "corpus": {
-      "status": "active",
+      "status": "positive",
       "phase": "3",
       "enrolled": 599,
-      "enrolledBasis": "registry"
+      "enrolledBasis": "registry",
+      "yearReported": 2026
      },
      "registry": {
       "nct": "NCT04821622",
@@ -9636,7 +9281,7 @@
    ],
    "watch": [
     {
-     "item": "ProBio: the biomarker-driven outcome-adaptive platform in metastatic prostate cancer, the first trial designed to compare treatment strategies rather than single drugs in this disease",
+     "item": "ProBio: the biomarker-driven outcome-adaptive platform in metastatic prostate cancer, described by its investigators as the first outcome-adaptive platform trial in prostate cancer; its first comparison, published in 2024, found androgen receptor pathway inhibitors kept men benefiting for longer than taxanes (median 11.1 against 6.9 months)",
      "expected": "Primary completion and study completion December 2026 (estimated, ClinicalTrials.gov NCT03903835)",
      "source": "https://clinicaltrials.gov/study/NCT03903835",
      "refs": [
@@ -9647,7 +9292,7 @@
     },
     {
      "item": "PSMAddition: lutetium-177 PSMA-617 added to standard care in metastatic hormone-sensitive disease, the earliest setting radioligand therapy has been tested in",
-     "expected": "Study completion 11 February 2027 (estimated; primary completion 13 January 2025 actual, ClinicalTrials.gov NCT04720157)",
+     "expected": "Study completion 1 August 2028 (estimated; primary completion 13 January 2025 actual, ClinicalTrials.gov NCT04720157). Results posted on the registry on 4 November 2026 give an overall survival hazard ratio of 0.84 (95 percent confidence interval 0.63 to 1.13), which is not statistically significant",
      "source": "https://clinicaltrials.gov/study/NCT04720157",
      "refs": [
       "paper-psmaddition-lancet-2026",
@@ -9657,8 +9302,8 @@
      "contradictions": []
     },
     {
-     "item": "CAPItello-281: capivasertib with abiraterone in PTEN-deficient metastatic hormone-sensitive disease, the first PI3K-pathway result in a biomarker-selected prostate population",
-     "expected": "Study completion 31 March 2027 (estimated; primary completion 7 October 2024 actual, ClinicalTrials.gov NCT04493853)",
+     "item": "CAPItello-281: capivasertib with abiraterone in PTEN-deficient metastatic hormone-sensitive disease, a PI3K-pathway drug tested in a biomarker-selected hormone-sensitive population, after ipatasertib in PTEN-loss castration-resistant disease in IPATential150",
+     "expected": "Study completion 31 March 2027 (estimated; primary completion 7 October 2024 actual, ClinicalTrials.gov NCT04493853). It has reported, and the United States approved the combination for PTEN-deficient disease on 12 June 2026",
      "source": "https://clinicaltrials.gov/study/NCT04493853",
      "refs": [
       "paper-capitello-281-ann-oncol-2026",
@@ -9670,7 +9315,7 @@
     },
     {
      "item": "TALAPRO-3: talazoparib with enzalutamide in DNA damage repair gene-mutated metastatic hormone-sensitive disease, the PARP combination moved to the hormone-sensitive setting",
-     "expected": "Study completion 28 August 2027 (estimated; primary completion 18 February 2026 actual, ClinicalTrials.gov NCT04821622)",
+     "expected": "Study completion 28 August 2027 (estimated; primary completion 18 February 2026 actual, ClinicalTrials.gov NCT04821622). It has reported: the United States label added this use on 26 October 2026, on a radiographic progression-free survival hazard ratio of 0.48 (95 percent confidence interval 0.36 to 0.65) in 599 men, with overall survival data immature",
      "source": "https://clinicaltrials.gov/study/NCT04821622",
      "refs": [
       "paper-nct04821622-n-engl-j-med-2026",
@@ -9681,7 +9326,7 @@
      "contradictions": []
     },
     {
-     "item": "PROTEUS: perioperative apalutamide with androgen deprivation around radical prostatectomy in high-risk localised disease, the largest test of intensification before the operation",
+     "item": "PROTEUS: perioperative apalutamide with androgen deprivation around radical prostatectomy in high-risk localised disease, a phase 3 test of intensification around the operation; its first results, published in 2026, favoured apalutamide for metastasis-free survival (hazard ratio 0.80, 95 percent confidence interval 0.67 to 0.96)",
      "expected": "Primary completion 1 December 2026 and study completion 13 October 2028 (both estimated, ClinicalTrials.gov NCT03767244)",
      "source": "https://clinicaltrials.gov/study/NCT03767244",
      "refs": [
@@ -9703,7 +9348,7 @@
      "contradictions": []
     },
     {
-     "item": "PSMA-DC: lutetium-177 vipivotide tetraxetan against observation in oligometastatic castration-sensitive disease detected on PSMA imaging, the test of whether a systemic radioligand can replace metastasis-directed treatment",
+     "item": "PSMA-DC: lutetium-177 vipivotide tetraxetan against observation in oligometastatic castration-sensitive disease detected on PSMA imaging, the test of whether a systemic radioligand given after stereotactic radiotherapy to every visible metastasis delays hormone therapy or recurrence better than the radiotherapy alone",
      "expected": "Primary completion 25 April 2028 and study completion 3 October 2031 (both estimated, ClinicalTrials.gov NCT05939414)",
      "source": "https://clinicaltrials.gov/study/NCT05939414",
      "refs": [
@@ -9715,7 +9360,7 @@
      "contradictions": []
     },
     {
-     "item": "STAMPEDE2: the successor platform, testing stereotactic radiotherapy to metastases, lutetium-177 PSMA-617 and niraparib with abiraterone against contemporary standard care, with 3,360 men planned",
+     "item": "STAMPEDE2: the successor platform, which opened in June 2024 with two comparisons, stereotactic radiotherapy to metastases and lutetium-177 PSMA-617, each against contemporary standard care, with 3,360 men planned",
      "expected": "Primary completion April 2031 and study completion March 2032 (both estimated, ClinicalTrials.gov NCT06320067)",
      "source": "https://clinicaltrials.gov/study/NCT06320067",
      "refs": [
@@ -10101,7 +9746,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2024-03-01",
       "completion": "2026-12-11",
-      "lastUpdate": "2026-07-02"
+      "lastUpdate": "2026-11-18"
      },
      "contradictions": [],
      "explained": [],
@@ -10206,7 +9851,7 @@
     "checked": 7,
     "contradictions": 0,
     "explained": 0,
-    "papers": 1,
+    "papers": 0,
     "watch": 5,
     "watchPassed": 0
    },
@@ -10370,15 +10015,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42930188",
-       "doi": "10.3390/curroncol33100621",
-       "title": "A Remotely Delivered Exercise-Based Rehabilitation Program for Patients with Persistent Chemotherapy-Induced Peripheral Neuropathy (EX-CIPN): A Phase I Feasibility Trial.",
-       "journal": "Curr Oncol",
-       "date": "2026-10-15"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "rejuv-trial-proffi",
@@ -10637,7 +10274,7 @@
     "checked": 20,
     "contradictions": 0,
     "explained": 5,
-    "papers": 5,
+    "papers": 1,
     "watch": 0,
     "watchPassed": 0
    },
@@ -10668,15 +10305,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42927858",
-       "doi": "10.1016/j.annonc.2026.10.1280",
-       "title": "Clinical Complete Response with Dostarlimab Monotherapy in dMMR/MSI-H Locally Advanced Rectal Cancer: First Results from the Global AZUR-1 Trial.",
-       "journal": "Ann Oncol",
-       "date": "2026-10-25"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "checkmate-816",
@@ -10880,22 +10509,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42993466",
-       "doi": "10.1111/ajco.70223",
-       "title": "Real-World Toxicity and Outcomes of KEYNOTE-522-Style Neoadjuvant Pembrolizumab for Triple-Negative Breast Cancer in Australia.",
-       "journal": "Asia Pac J Clin Oncol",
-       "date": "2026-11-06"
-      },
-      {
-       "pmid": "42810150",
-       "doi": "10.1016/j.ejca.2026.117064",
-       "title": "Reflections on adjuvant pembrolizumab for triple-negative breast cancer treated with the KEYNOTE-522 regimen: Is it really necessary?",
-       "journal": "Eur J Cancer",
-       "date": "2026-09-24"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "keynote-671",
@@ -11122,15 +10736,7 @@
      "explained": [
       "enrolment 115 in the corpus (registered), 353 on the registry (estimated; 67 percent apart): ClinicalTrials.gov lists an estimated 353 participants for the amended NICHE protocol, which is still recruiting to further cohorts; the NEJM 2024 NICHE-2 analysis enrolled 115 patients, 111 of them in the efficacy analysis."
      ],
-     "papers": [
-      {
-       "pmid": "42906564",
-       "doi": "10.1016/s0140-6736(26)01602-8",
-       "title": "Disease-free survival and overall survival after neoadjuvant immunotherapy in mismatch repair-deficient colon cancer in the Netherlands: results of the single-arm, multicentre, phase 2, NICHE-2 trial.",
-       "journal": "Lancet",
-       "date": "2026-10-21"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "ovhipec-1",
@@ -11237,6 +10843,7 @@
      "corpus": {
       "status": "active",
       "phase": "3",
+      "enrolled": 989,
       "enrolledBasis": "registry"
      },
      "registry": {
@@ -11277,8 +10884,8 @@
       "enrolment": 313,
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2022-09-01",
-      "completion": "2026-10-30",
-      "lastUpdate": "2026-11-02"
+      "completion": "2027-10-30",
+      "lastUpdate": "2026-11-17"
      },
      "contradictions": [],
      "explained": [],
@@ -11325,7 +10932,7 @@
     "checked": 25,
     "contradictions": 0,
     "explained": 1,
-    "papers": 4,
+    "papers": 0,
     "watch": 0,
     "watchPassed": 0
    },
@@ -11356,15 +10963,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42732874",
-       "doi": "10.1016/j.jtho.2026.104179",
-       "title": "Adjuvant Osimertinib in Resected EGFR-Mutated Stage IB-IIIA NSCLC: Exploratory 8-Year Overall Survival Landmark Update from the ADAURA Trial.",
-       "journal": "J Thorac Oncol",
-       "date": "2026-09-13"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "alina",
@@ -11392,15 +10991,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42829725",
-       "doi": "10.2147/lctt.s642874",
-       "title": "Can We Extend Beyond 2 Years of Adjuvant ALK TKI Established by ALINA and ELEVATE in Resected Early Stage &lt;i&gt;ALK+&lt;/i&gt; NSCLC a Disease with High Predilection for CNS Metastasis with Novel Clinical Trial Designs?",
-       "journal": "Lung Cancer (Auckl)",
-       "date": "2026-09-29"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "alkove-1",
@@ -11578,7 +11169,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2023-09-30",
       "completion": "2026-12-19",
-      "lastUpdate": "2026-10-26"
+      "lastUpdate": "2026-11-18"
      },
      "contradictions": [],
      "explained": [],
@@ -11610,15 +11201,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42728193",
-       "doi": "10.1016/j.lungcan.2026.109588",
-       "title": "Long-term safety of first-line osimertinib plus platinum-pemetrexed in EGFR-mutated advanced NSCLC: FLAURA2.",
-       "journal": "Lung Cancer",
-       "date": "2026-09-14"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "gefitinib-chemo-tmh",
@@ -11969,15 +11552,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42933441",
-       "doi": "10.1016/s1470-2045(26)00440-7",
-       "title": "From biomarker actionability to surveillance utility in SERENA-6.",
-       "journal": "Lancet Oncol",
-       "date": "2026-11-01"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "solo-1",
@@ -12087,7 +11662,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2025-01-31",
       "completion": "2028-05-15",
-      "lastUpdate": "2026-03-18"
+      "lastUpdate": "2026-11-18"
      },
      "contradictions": [],
      "explained": [],
@@ -12114,7 +11689,7 @@
     "checked": 14,
     "contradictions": 0,
     "explained": 1,
-    "papers": 2,
+    "papers": 0,
     "watch": 0,
     "watchPassed": 0
    },
@@ -12373,22 +11948,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42993466",
-       "doi": "10.1111/ajco.70223",
-       "title": "Real-World Toxicity and Outcomes of KEYNOTE-522-Style Neoadjuvant Pembrolizumab for Triple-Negative Breast Cancer in Australia.",
-       "journal": "Asia Pac J Clin Oncol",
-       "date": "2026-11-06"
-      },
-      {
-       "pmid": "42810150",
-       "doi": "10.1016/j.ejca.2026.117064",
-       "title": "Reflections on adjuvant pembrolizumab for triple-negative breast cancer treated with the KEYNOTE-522 regimen: Is it really necessary?",
-       "journal": "Eur J Cancer",
-       "date": "2026-09-24"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "olympia",
@@ -12550,7 +12110,7 @@
     "checked": 10,
     "contradictions": 0,
     "explained": 1,
-    "papers": 11,
+    "papers": 4,
     "watch": 0,
     "watchPassed": 0
    },
@@ -12710,22 +12270,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42993466",
-       "doi": "10.1111/ajco.70223",
-       "title": "Real-World Toxicity and Outcomes of KEYNOTE-522-Style Neoadjuvant Pembrolizumab for Triple-Negative Breast Cancer in Australia.",
-       "journal": "Asia Pac J Clin Oncol",
-       "date": "2026-11-06"
-      },
-      {
-       "pmid": "42810150",
-       "doi": "10.1016/j.ejca.2026.117064",
-       "title": "Reflections on adjuvant pembrolizumab for triple-negative breast cancer treated with the KEYNOTE-522 regimen: Is it really necessary?",
-       "journal": "Eur J Cancer",
-       "date": "2026-09-24"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "pediatric-match",
@@ -12749,7 +12294,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2025-03-31",
       "completion": "2027-01-06",
-      "lastUpdate": "2026-07-24"
+      "lastUpdate": "2026-11-13"
      },
      "contradictions": [],
      "explained": [],
@@ -12799,15 +12344,7 @@
      "explained": [
       "enrolment 115 in the corpus (registered), 353 on the registry (estimated; 67 percent apart): ClinicalTrials.gov lists an estimated 353 participants for the amended NICHE protocol, which is still recruiting to further cohorts; the NEJM 2024 NICHE-2 analysis enrolled 115 patients, 111 of them in the efficacy analysis."
      ],
-     "papers": [
-      {
-       "pmid": "42906564",
-       "doi": "10.1016/s0140-6736(26)01602-8",
-       "title": "Disease-free survival and overall survival after neoadjuvant immunotherapy in mismatch repair-deficient colon cancer in the Netherlands: results of the single-arm, multicentre, phase 2, NICHE-2 trial.",
-       "journal": "Lancet",
-       "date": "2026-10-21"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "persephone",
@@ -12862,15 +12399,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42957778",
-       "doi": "10.1038/s41591-026-04723-w",
-       "title": "5-year outcomes of chemotherapy de-escalation in HER2-positive early breast cancer and exploratory circulating tumor DNA analyses from the randomized phase 2 PHERGain trial.",
-       "journal": "Nat Med",
-       "date": "2026-10-29"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "serena-6",
@@ -12898,15 +12427,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42933441",
-       "doi": "10.1016/s1470-2045(26)00440-7",
-       "title": "From biomarker actionability to surveillance utility in SERENA-6.",
-       "journal": "Lancet Oncol",
-       "date": "2026-11-01"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "stampede",
@@ -12935,22 +12456,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42838799",
-       "doi": "10.1016/j.eururo.2026.09.001",
-       "title": "Major Adverse Cardiovascular Events in Men with High-risk Localized or Metastatic Prostate Cancer Starting Long-term Hormone Therapy in the STAMPEDE Trial.",
-       "journal": "Eur Urol",
-       "date": "2026-10-06"
-      },
-      {
-       "pmid": "42838582",
-       "doi": "10.1136/bmjopen-2026-116331",
-       "title": "Metastasis-directed radiotherapy (MDRT) for men with de novo, oligometastatic prostate cancer treated with long-term androgen deprivation therapy in the STAMPEDE trial (METANOVA): protocol for a multicentre, phase II randomised controlled trial in the USA.",
-       "journal": "BMJ Open",
-       "date": "2026-10-06"
-      }
-     ]
+     "papers": []
     }
    ],
    "watch": [],
@@ -12973,7 +12479,7 @@
     "checked": 25,
     "contradictions": 1,
     "explained": 1,
-    "papers": 2,
+    "papers": 0,
     "watch": 13,
     "watchPassed": 1
    },
@@ -13429,22 +12935,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42993466",
-       "doi": "10.1111/ajco.70223",
-       "title": "Real-World Toxicity and Outcomes of KEYNOTE-522-Style Neoadjuvant Pembrolizumab for Triple-Negative Breast Cancer in Australia.",
-       "journal": "Asia Pac J Clin Oncol",
-       "date": "2026-11-06"
-      },
-      {
-       "pmid": "42810150",
-       "doi": "10.1016/j.ejca.2026.117064",
-       "title": "Reflections on adjuvant pembrolizumab for triple-negative breast cancer treated with the KEYNOTE-522 regimen: Is it really necessary?",
-       "journal": "Eur J Cancer",
-       "date": "2026-09-24"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "olympia",
@@ -13709,7 +13200,7 @@
      "contradictions": []
     },
     {
-     "item": "CAPItello-290 study completion on the registry (capivasertib plus paclitaxel first line; published negative for overall survival in 2026)",
+     "item": "CAPItello-290 study completion on the registry (capivasertib plus paclitaxel first line; published negative for overall survival in 2026; the registry still showed this estimated date, now past, when re-read on 17 November 2026)",
      "expected": "2026-03-16",
      "source": "https://clinicaltrials.gov/study/NCT03997123",
      "refs": [
@@ -13758,7 +13249,7 @@
     },
     {
      "item": "TROPION-Breast03 primary completion: datopotamab deruxtecan with or without durvalumab vs investigator's choice for stage I to III disease without pathological complete response (1,174 participants; active, not recruiting)",
-     "expected": "2027-09-20",
+     "expected": "2027-09-01",
      "source": "https://clinicaltrials.gov/study/NCT05629585",
      "refs": [
       "tropion-breast03",
@@ -13832,7 +13323,7 @@
      "contradictions": []
     },
     {
-     "item": "A randomised trial of antibody-drug conjugate sequence (TROP2 conjugate then trastuzumab deruxtecan or the reverse, with or without chemotherapy between); none found on ClinicalTrials.gov on 24 September 2026",
+     "item": "A randomised trial of antibody-drug conjugate sequence (TROP2 conjugate then trastuzumab deruxtecan or the reverse, with or without chemotherapy between); none found on ClinicalTrials.gov on 17 November 2026. The nearest is ALTER (NCT07151586, phase 2, 260 estimated participants, not yet recruiting), which alternates sacituzumab govitecan and trastuzumab deruxtecan against sacituzumab govitecan alone in HER2-low disease",
      "source": "https://europepmc.org/article/MED/41937088",
      "refs": [
       "adc-sequencing",
@@ -13842,7 +13333,7 @@
      "contradictions": []
     },
     {
-     "item": "A ctDNA-guided adjuvant trial in triple-negative breast cancer with early, tumour-informed sampling that reports after c-TRAK TN; the design lesson is recorded in the 2023 paper",
+     "item": "A ctDNA-guided adjuvant trial in triple-negative breast cancer with early, tumour-informed sampling that reports after c-TRAK TN; the design lesson is recorded in the 2023 paper. On the registry on 17 November 2026: a Chinese randomised phase 2 trial for ctDNA-positive residual disease (NCT06992336, 430 estimated participants, recruiting, primary completion April 2031) and ZEST (NCT04915755, niraparib, 40 enrolled, no longer recruiting)",
      "source": "https://europepmc.org/article/MED/36423745",
      "refs": [
       "ctdna",

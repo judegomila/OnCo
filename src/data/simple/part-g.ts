@@ -177,7 +177,7 @@ export const simpleG: Record<string, string> = {
   umbralisib: "Umbralisib is a PI3K inhibitor for marginal zone and follicular lymphoma approved in 2021 and withdrawn in 2022 after a trial suggested more deaths.",
   ixazomib: "Ixazomib is the first oral proteasome inhibitor for multiple myeloma, enabling an all-pill three-drug regimen with lenalidomide and dexamethasone.",
   elotuzumab: "Elotuzumab is an immune-stimulating antibody for myeloma that works only in combination, adding benefit to lenalidomide or pomalidomide with dexamethasone.",
-  pomalidomide: "Pomalidomide is the third-generation thalidomide analogue for myeloma that has failed lenalidomide, and since 2020 the first new drug for Kaposi sarcoma in two decades.",
+  pomalidomide: "Pomalidomide is the third-generation thalidomide analogue for myeloma that has failed lenalidomide, and since 2020 also approved in the US for Kaposi sarcoma.",
   thalidomide: "Thalidomide is the drug behind the 1960s birth-defect tragedy, rehabilitated as the first immunomodulatory myeloma drug and the parent of lenalidomide and pomalidomide.",
   panobinostat: "Panobinostat is an HDAC-blocking drug for relapsed myeloma approved in 2015 and withdrawn in 2021 after its confirmatory trial was never completed.",
   asparaginase: "Asparaginase is an enzyme that starves leukaemia cells of an amino acid they cannot make, a mainstay of ALL therapy for fifty years, with newer versions solving allergy problems.",

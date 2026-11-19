@@ -180,6 +180,7 @@ import { paediatricOralMucositisPrevention } from "./paediatric-oral-mucositis-p
 import { paediatricPlateletTransfusionThresholds } from "./paediatric-platelet-transfusion-thresholds";
 import { paediatricProceduralPainAndSedation } from "./paediatric-procedural-pain-and-sedation";
 import { palliativeSedation } from "./palliative-sedation-for-refractory-suffering";
+import { pancreatitisAndRaisedPancreaticEnzymesOnTargetedDrugs } from "./pancreatitis-and-raised-pancreatic-enzymes-on-targeted-drugs";
 import { pelvicRadiationDiseaseBowelSymptoms } from "./pelvic-radiation-disease-bowel-symptoms";
 import { peripheralCannulaForAnticancerTherapy } from "./peripheral-cannula-for-anticancer-therapy";
 import { permanentProstateSeedBrachytherapyHomeRadiationSafety } from "./permanent-prostate-seed-brachytherapy-home-radiation-safety";
@@ -426,6 +427,7 @@ export const protocols: ProtocolInput[] = [
   paediatricPlateletTransfusionThresholds,
   paediatricProceduralPainAndSedation,
   palliativeSedation,
+  pancreatitisAndRaisedPancreaticEnzymesOnTargetedDrugs,
   pelvicRadiationDiseaseBowelSymptoms,
   peripheralCannulaForAnticancerTherapy,
   permanentProstateSeedBrachytherapyHomeRadiationSafety,

@@ -39,7 +39,7 @@ export const parpSelectiveReview: EntityInput[] = [
     "name": "HRS-1167",
     "modality": "Small-molecule PARP1 inhibitor",
     "status": "phase-2",
-    "asOf": "2026-10-06",
+    "asOf": "2026-11-18",
     "tldr": "HRS-1167 is an experimental pill being studied to block a DNA-repair enzyme in cancer cells.",
     "summary": "PARP1-selective inhibitor, licensed as M9466. The linked registry records distinguish recruiting, closed, and discontinued studies; those states do not establish comparative efficacy or approval. Merck KGaA reports discontinuing its M9466 development in its 2025 annual report. That sponsor decision does not mean the separate Hengrui studies have all stopped.",
     "mechanism": "PARP1-selective inhibitor, licensed as M9466.",

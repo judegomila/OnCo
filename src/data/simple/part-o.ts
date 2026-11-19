@@ -546,7 +546,7 @@ export const simpleO: Record<string, string> = {
   amo959: "AMO959 is a small-molecule DNA damage response inhibitor from Novartis being tested in a registered phase 2 trial for prostate cancer.",
   amsacrine: "Amsacrine is an intravenous leukaemia drug approved in Europe, Canada and Australia in the 1980s, used mainly for acute myeloid leukaemia that has come back or resisted standard treatment.",
   "amt-116": "AMT-116 is an antibody-drug conjugate from Multitude Therapeutics being tested in a registered phase 2 trial for non-small-cell and small-cell lung cancer.",
-  "anetumab-ravtansine": "Anetumab ravtansine is an antibody-drug conjugate aimed at mesothelin, and it was no better than vinorelbine chemotherapy in mesothelioma and is now being tried with pembrolizumab.",
+  "anetumab-ravtansine": "Anetumab ravtansine is an antibody-drug conjugate aimed at mesothelin, and it was no better than vinorelbine chemotherapy in mesothelioma and was later tested with pembrolizumab.",
   ard103: "ARD103 is a CAR-T cell therapy from ARCE Therapeutics being tested in a registered phase 2 trial for acute myeloid leukaemia and myelodysplastic syndromes.",
   aspirin: "Aspirin sits in cancer care in two places, low doses to prevent clots in polycythaemia vera and essential thrombocythaemia, and long-term use to lower bowel cancer in people with Lynch syndrome.",
   "au-007": "AU-007 is a monoclonal antibody from Aulos Bioscience being tested in a registered phase 2 trial for melanoma, lung cancers and other metastatic cancer.",

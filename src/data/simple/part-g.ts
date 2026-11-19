@@ -133,7 +133,7 @@ export const simpleG: Record<string, string> = {
   talquetamab: "Talquetamab is the first drug against GPRC5D, a second myeloma target used after BCMA therapies stop working; taste and skin side effects are its signature.",
   linvoseltamab: "Linvoseltamab is Regeneron's BCMA bispecific antibody, given accelerated approval in the US in July 2025; half the patients in its pivotal study reached a complete response.",
   iberdomide: "Iberdomide is a more potent successor to lenalidomide, given accelerated US approval in August 2026 with daratumumab and dexamethasone for myeloma after at least one prior treatment.",
-  mezigdomide: "Mezigdomide is the most potent oral cereblon modulator, producing responses in about four in ten patients with heavily pretreated myeloma using dexamethasone alone.",
+  mezigdomide: "Mezigdomide is a potent oral cereblon modulator, producing responses in about four in ten patients with heavily pretreated myeloma using dexamethasone alone.",
   doxorubicin: "Doxorubicin is the red chemotherapy drug from a soil bacterium that remains the backbone of treatment for sarcoma, lymphoma and breast cancer, limited by cumulative heart damage.",
   ifosfamide: "Ifosfamide is an alkylating chemotherapy partnered with doxorubicin in soft-tissue sarcoma and with etoposide in Ewing sarcoma, given with a drug that protects the bladder.",
   pazopanib: "Pazopanib is the only multi-kinase blocking pill approved for soft-tissue sarcoma, excluding fat-derived tumours, and is used after chemotherapy fails.",

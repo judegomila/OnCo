@@ -5765,7 +5765,7 @@ export const tldr_de: Record<string, string> = {
   "hidetoshi-hayashi": "Vizepräsident der JSMO und thorakaler medizinischer Onkologe an der Kindai University, bekannt für klinische Studien zu zielgerichteten Therapien beim Lungenkrebs.",
   "hien-le": "Radioonkologe aus Adelaide, der den wissenschaftlichen Ausschuss der TROG leitet und deren gewählter künftiger Präsident ist.",
   histai: "HistAI hat die offenen Hibou-Foundation-Modelle für die Pathologie veröffentlicht.",
-  "histamine-dihydrochloride": "Ceplene ist eine zweimal täglich verabreichte Histamin-Injektion, die zusammen mit niedrig dosiertem Interleukin-2 als Erhaltungstherapie für Erwachsene mit akuter myeloischer Leukämie in erster Remission gegeben wird, damit Immunzellen einen Rückfall verhindern können. Es ist nur in Europa zugelassen.",
+  "histamine-dihydrochloride": "Ceplene ist eine zweimal täglich verabreichte Histamin-Injektion, die zusammen mit niedrig dosiertem Interleukin-2 als Erhaltungstherapie für Erwachsene mit akuter myeloischer Leukämie in erster Remission gegeben wird, damit Immunzellen einen Rückfall verhindern können. Es ist in Europa zugelassen.",
   "hitoshi-ishikawa": "Strahlenspezialist, der seit April 2024 das QST Hospital in Chiba leitet, Japans Pionierklinik für die Kohlenstoffionen-Strahlentherapie.",
   "hospital-italiano-buenos-aires": "Argentiniens führendes akademisches Krankenhaus, gegründet 1853, mit einem großen Onkologieprogramm und einer der aktivsten klinischen Forschungseinheiten Lateinamerikas.",
   hpa: "Der Human Protein Atlas zeigt, wo im Körper jedes Protein vorkommt, und verrät damit, ob ein ADC-Zielmolekül sicher ist.",

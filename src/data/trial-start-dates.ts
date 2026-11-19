@@ -5305,7 +5305,7 @@ export const TRIAL_START_DATES: Record<string, TrialStart> = {
   "nct07704177": {"started":"2026-04-15","type":"actual","nct":"NCT07704177"},
   "nct07704645": {"started":"2026-08","type":"estimated","nct":"NCT07704645"},
   "nct07705074": {"started":"2026-08","type":"estimated","nct":"NCT07705074"},
-  "nct07705919": {"started":"2026-09-01","type":"estimated","nct":"NCT07705919"},
+  "nct07705919": {"started":"2024-10-10","type":"actual","nct":"NCT06173310"},
   "nct07707895": {"started":"2026-09-29","type":"estimated","nct":"NCT07707895"},
   "nct07710612": {"started":"2026-08-31","type":"estimated","nct":"NCT07710612"},
   "nct07710885": {"started":"2026-06-24","type":"actual","nct":"NCT07710885"},

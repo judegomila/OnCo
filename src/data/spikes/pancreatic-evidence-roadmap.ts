@@ -56,7 +56,7 @@ export const pancreaticRoadmap: RoadmapInput = r({
     { label: "National Pancreatic Cancer Audit: State of the Nation Report 2024 (first report)", url: "https://www.natcan.org.uk/reports/npaca-state-of-the-nation-report-2024/" },
     { label: "Pancreatic Cancer UK: campaigning for change", url: "https://www.pancreaticcancer.org.uk/about-us/what-we-do/we-campaign-for-change/" },
     ct("NCT04927780"), ct("NCT04340141"),
-    { label: "FDA: approval of daraxonrasib for metastatic pancreatic adenocarcinoma (26 August 2026)", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-daraxonrasib-metastatic-pancreatic-adenocarcinoma" },
+    { label: "FDA: approval of daraxonrasib for metastatic pancreatic adenocarcinoma (26 August 2026)", url: "https://www.fda.gov/drugs/cancer-approvals/fda-approves-daraxonrasib-metastatic-pancreatic-adenocarcinoma" },
     { label: "European Medicines Agency: Rasonque (daraxonrasib), positive committee opinion of 15 October 2026", url: "https://www.ema.europa.eu/en/medicines/human/EPAR/rasonque" },
     { label: "Prep-02/JSAP05: neoadjuvant gemcitabine and S-1 versus upfront surgery in resectable disease (Ann Surg 2026)", url: "https://doi.org/10.1097/SLA.0000000000006730" },
     { label: "External validation of the ENDPAC score in UK primary care (Br J Gen Pract 2026)", url: "https://doi.org/10.3399/BJGP.2024.0253" },

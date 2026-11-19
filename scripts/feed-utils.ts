@@ -135,7 +135,7 @@ export function parseLongDate(s: string): string | undefined {
 // FDA Oncology Center of Excellence approval notifications (shared by fetch-fda and fetch-pulse).
 // ---------------------------------------------------------------------------------------------------
 
-export const FDA_OCE_URL = "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications";
+export const FDA_OCE_URL = "https://www.fda.gov/drugs/cancer-approvals/oncology-cancerhematologic-malignancies-approval-notifications";
 export type OceItem = { date: string; title: string; url: string; summary: string };
 
 /** The OCE page is a three-column table: Webpage (link), Description ("On <date>, the Food and Drug Administration ..."), Date. */

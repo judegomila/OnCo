@@ -229,7 +229,7 @@ export const papersSolidTumours: PaperInput[] = [
     links: [
       { label: "Bardia et al., primary TROPION-Breast01 results", url: "https://doi.org/10.1200/JCO.24.00920" },
       { label: "Pistilli et al., final TROPION-Breast01 overall survival analysis", url: "https://doi.org/10.1016/j.annonc.2025.12.017" },
-      { label: "FDA: Dato-DXd approval, January 17, 2025", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-datopotamab-deruxtecan-dlnk-unresectable-or-metastatic-hr-positive-her2-negative-breast" },
+      { label: "FDA: Dato-DXd approval, January 17, 2025", url: "https://www.fda.gov/drugs/cancer-approvals/fda-approves-datopotamab-deruxtecan-dlnk-unresectable-or-metastatic-hr-positive-her2-negative-breast" },
       { label: "ClinicalTrials.gov NCT05104866", url: "https://clinicaltrials.gov/study/NCT05104866" },
     ],
     cancers: ["breast-hr-positive"], drugs: ["datopotamab-deruxtecan"], targets: ["trop2"], technologies: ["adc", "topoisomerase-inhibitors"],

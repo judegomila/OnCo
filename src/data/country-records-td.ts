@@ -73,7 +73,7 @@ const institutions: InstitutionInput[] = [
     institutions: ["chad-ministry-of-public-health"],
     links: [
       { label: "Law No. 024/PR/2000 on pharmacy (WIPO Lex, French text)", url: PHARMACY_LAW },
-      doi(PAMJ_DOI, "Ragomzingba et al., availability, prices and affordability of essential medicines in Chad (Pan Afr Med J 2025)"),
+      { label: "Ragomzingba et al., availability, prices and affordability of essential medicines in Chad (Pan Afr Med J 2025)", url: "https://www.panafrican-med-journal.com/content/article/51/72/full/" },
       { label: "Liste nationale des médicaments essentiels et autres produits de santé, 2022 edition (PDF, WHO Africa)", url: LNME_2022 },
     ] }),
 
@@ -114,7 +114,7 @@ const papers: PaperInput[] = [
     whatItMeans: "The survey covers essential medicines in general, not cancer medicines, but it shows the supply system cancer care in Chad depends on: about half of listed medicines in stock in public facilities, and generics far cheaper than brands.",
     caveats: ["Convenience sampling of outlets.", "Not specific to cancer medicines; the abstract gives no figure for any cancer drug."],
     institutions: ["dgpml-chad", "chad-ministry-of-public-health", "who"],
-    links: [doi(PAMJ_DOI, "Pan Afr Med J 2025"), pubmed("41064686"), { label: "Full text (PDF, WHO Africa)", url: "https://afro.who.int/sites/default/files/2025-10/Article%20Dispo%26Prix%20Med_Chad%20PAMJ%202025.pdf" }] }),
+    links: [{ label: "Pan Afr Med J 2025", url: "https://www.panafrican-med-journal.com/content/article/51/72/full/" }, pubmed("41064686"), { label: "Full text (PDF, WHO Africa)", url: "https://afro.who.int/sites/default/files/2025-10/Article%20Dispo%26Prix%20Med_Chad%20PAMJ%202025.pdf" }] }),
 
   p({ id: "paper-mboumba-bouassa-hpv-ndjamena-plosone-2019", name: "High-risk HPV infection in adult women in N'Djamena, Chad",
     journal: "PLoS One", year: 2019, doi: "10.1371/journal.pone.0217486", pmid: "31158254", authors: "Mboumba Bouassa RS, Nodjikouambaye ZA, Sadjoli D, et al.", paperType: "observational", participants: 253,

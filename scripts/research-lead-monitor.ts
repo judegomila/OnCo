@@ -62,6 +62,8 @@ export type Opts = {
   sources?: Source[]; corpus?: Corpus; fetcher?: typeof fetch; now?: Date; ua?: string;
   days?: number; maxItems?: number; maxEvidence?: number; maxLanding?: number; minDelayMs?: number;
   sleep?: (ms: number) => Promise<void>; types?: SourceType[];
+  /** Called with the queue after each source, so a long run can save as it goes. */
+  afterSource?: (queue: Queue) => Promise<void>;
 };
 
 export const emptyQueue = (): Queue => ({ version: 2, sources: {}, candidates: [] });
@@ -491,6 +493,7 @@ export async function scan(old: Queue, opts: Opts = {}): Promise<{ queue: Queue;
       ...(complete ? { etag: read.etag, lastModified: read.lastModified } : {}),
     };
     report[src.id] = { status: complete ? "ok" : "ok, more next run", fresh: queued };
+    await opts.afterSource?.(next);
   }
   next.candidates.sort((a, b) => a.priority - b.priority || a.key.localeCompare(b.key));
   return { queue: next, report };
@@ -576,10 +579,15 @@ async function main(): Promise<void> {
     } catch (err) { if ((err as NodeJS.ErrnoException).code !== "ENOENT") throw err; }
     const { graph } = await import("../src/lib/graph");
     const before = queue.candidates.length;
-    const { queue: next, report } = await scan(queue, { ...opts, corpus: corpusFrom(graph().entities as unknown as GraphEntity[]) });
-    const tmp = `${statePath}.${process.pid}.tmp`;
-    await writeFile(tmp, JSON.stringify(next, null, 2) + "\n", { flag: "wx", mode: 0o600 });
-    await rename(tmp, statePath);
+    // The queue and its checkpoints are one file, replaced whole after every source: a run that is cut short loses
+    // at most the source it was reading, and the next run carries on from the checkpoints.
+    const save = async (q: Queue) => {
+      const tmp = `${statePath}.${process.pid}.tmp`;
+      await writeFile(tmp, JSON.stringify(q, null, 2) + "\n", { mode: 0o600 });
+      await rename(tmp, statePath);
+    };
+    const { queue: next, report } = await scan(queue, { ...opts, corpus: corpusFrom(graph().entities as unknown as GraphEntity[]), afterSource: save });
+    await save(next);
     await writeFile(join(dir, "queue.md"), renderQueue(next, isoDay(new Date())), { mode: 0o600 });
     // Counts only: this output may end up in a log.
     const by = (f: (c: Candidate) => boolean) => next.candidates.filter(f).length;

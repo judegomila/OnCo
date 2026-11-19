@@ -98,7 +98,8 @@ on macOS and `~/.local/state/onco-research-leads/` elsewhere, created with mode 
 checkout is refused unless git ignores it. In it:
 
 - `queue.json`: the candidates and one checkpoint per source (validators, what has been seen, how the last
-  attempt went). The queue and its checkpoints are written together, atomically, under a lock.
+  attempt went). The queue and its checkpoints are one file, replaced whole after every source and under a
+  lock, so a run that is cut short loses at most the source it was reading.
 - `queue.md`: the same candidates as a checklist.
 - `x-queue.json`: the X monitor's queue, if it is ever enabled.
 

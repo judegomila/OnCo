@@ -212,6 +212,13 @@ describe("scan", () => {
     expect(search.get("filter.advanced")).toBe("AREA[Phase]PHASE3 AND AREA[ResultsFirstPostDate]RANGE[2026-10-19,MAX]");
   });
 
+  it("hands the queue over after each source, so a long run can save as it goes", async () => {
+    const saved: number[] = [];
+    const { fetcher } = fake([robots(""), (u) => u.href === feedSource.url ? xml(rss) : undefined, bskyRoute, crossref]);
+    await scan(emptyQueue(), { ...quick, fetcher, sources: [feedSource, bsky], corpus, afterSource: async (q) => { saved.push(Object.keys(q.sources).length); } });
+    expect(saved).toEqual([1, 2]);
+  });
+
   it("verify reports each source without writing a queue", async () => {
     const { fetcher } = fake([robots(""), (u) => u.href === feedSource.url ? xml(rss) : undefined]);
     expect(await verify({ ...quick, fetcher, sources: [feedSource] })).toEqual([{ id: "feed:journal:1", type: "feed", status: "ok", items: 3, detail: undefined }]);

@@ -367,7 +367,7 @@ export const simpleM: Record<string, string> = {
   nct06954246: "Qilu Pharmaceutical is recruiting for a phase 3 trial comparing MHB088C (also called QLC5508) injections with the physician's choice of treatment in lung cancer that has come back.",
   nct06954961: "InventisBio is recruiting for a phase 3 trial of D-0502 in locally advanced or metastatic breast cancer that is ER-positive and HER2-negative [driven by oestrogen but not the HER2 protein].",
   nct06968585: "Sichuan Kelun-Biotech Biopharmaceutical has finished enrolling an active phase 3 trial of A166 versus trastuzumab emtansine (T-DM1) in HER2-positive breast cancer previously treated with trastuzumab and a taxane.",
-  nct06980272: "Shenyang Sunshine Pharmaceutical is recruiting for a phase 3 trial of SSGJ-707, also known as PF-08634404, in advanced non-small-cell lung cancer.",
+  nct06980272: "Shenyang Sunshine Pharmaceutical stopped this phase 3 trial of SSGJ-707, also known as PF-08634404, in advanced non-small-cell lung cancer early, after three people had joined.",
   nct06982521: "Relay Therapeutics is recruiting for a phase 3 trial comparing Zovegalisib (RLY-2608) plus fulvestrant with capivasertib plus fulvestrant in HR-positive, HER2-negative breast cancer with a PIK3CA mutation [a gene change].",
   nct06984588: "TJ Biopharma's phase 2/3 trial, active but no longer recruiting, compares Uliledlimab plus toripalimab with toripalimab or pembrolizumab alone in untreated non-small-cell lung cancer selected by PD-L1 and CD73 markers.",
   nct06997497: "Merck Sharp & Dohme is recruiting for KANDLELIT-012, a phase 3 trial of Calderasib (MK-1084) given with targeted therapy and chemotherapy to people with colorectal cancer [cancer of the bowel].",

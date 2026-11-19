@@ -946,7 +946,7 @@ export const simpleR: Record<string, string> = {
   "nct03897543": "Abivax is testing ABX196 in people with hepatocellular carcinoma in an early stage (phase 1/2) trial, and it has completed.",
   "nct06221748": "RemeGen is testing disitamab vedotin and cadonilimab in people with gastric and gastro-oesophageal junction cancer in a mid to late stage (phase 2/3) trial, and it is recruiting now.",
   "nct06953323": "Wigen Biomedicine Technology (Shanghai) is testing carboplatin, nedaplatin and other drugs in people with advanced solid tumours in an early stage (phase 1/2) trial, and it is recruiting now.",
-  "nct06385080": "Janssen Research & Development is testing amivantamab, pembrolizumab and other drugs in people with head and neck squamous cell carcinoma in an early stage trial, and it is recruiting now.",
+  "nct06385080": "Janssen is testing amivantamab in head and neck cancer. In one group of 102 people whose cancer had come back, tumours shrank in 42%, with no comparison group. The trial is still recruiting.",
   "nct05584670": "Sanofi is testing cetuximab, ADG126, bevacizumab and other drugs in people with advanced solid tumours in an early stage (phase 1/2) trial, and it is recruiting now.",
   "nct06118086": "Remix Therapeutics is testing REM-422 in people with salivary gland cancers in an early stage (phase 1/2) trial, and it is recruiting now.",
   "nct03812874": "TCM Biotech International is testing PTX-9908 with TACE in people with hepatocellular carcinoma in an early stage (phase 1/2) trial, and it was withdrawn before anyone joined.",

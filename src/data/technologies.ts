@@ -507,7 +507,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "digital-pathology-ai", dependsOn: ["whole-slide-scanners", "ai-compute-platforms"], kind: "technology", name: "Digital pathology & AI", sections: ["diagnostics", "ai-computation"], status: "established", asOf, wikipedia: W("Digital_pathology"),
     tldr: "Scanning microscope slides and letting software measure things a pathologist cannot see, including predictions of who will benefit from a treatment.",
-    summary: "Whole-slide imaging, scanning glass slides into gigapixel digital images, is now routine in large pathology laboratories. FDA-cleared tools: Paige Prostate (detection), ArteraAI Prostate (2025, first prognostic and predictive AI) and ArteraAI Breast (May 2026, risk stratification in early HR+/HER2- breast cancer). Foundation models (Virchow, UNI, CONCH, Prov-GigaPath) predict molecular status (MSI, HRD, HER2) from H&E alone.",
+    summary: "Whole-slide imaging, scanning glass slides into gigapixel digital images, is now routine in large pathology laboratories. FDA-cleared tools: Paige Prostate (detection), ArteraAI Prostate (de novo authorisation in 2025 for prognosis) and ArteraAI Breast (May 2026, risk stratification in early HR+/HER2- breast cancer). Foundation models (Virchow, UNI, CONCH, Prov-GigaPath) predict molecular status (MSI, HRD, HER2) from H&E alone.",
     principle: "Gigapixel whole-slide images; tile-level self-supervised encoders aggregated to slide-level predictions.",
     strengths: ["Cheap biomarker from routine slides", "Consistent scoring (Ki-67, TILs, HER2)"],
     limitations: ["Scanner and stain domain shift", "Explainability", "Regulatory pathways for updates"],
@@ -2531,7 +2531,7 @@ export const technologies: TechnologyInput[] = [
 },
   {
   "label": "FDA: capivasertib with fulvestrant, November 2023 approval",
-  "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-capivasertib-fulvestrant-breast-cancer"
+  "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-capivasertib-fulvestrant-breast-cancer"
 },
   {
   "label": "Capivasertib plus paclitaxel as first-line treatment for metastatic triple-negative breast cancer: results from the randomised, global phase III CAPItello-290 trial.",
@@ -2556,7 +2556,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "mdm2-inhibitors", companies: ["lamassu-biotech"], kind: "technology", name: "MDM2 inhibitors", sections: ["targeted-therapy"], status: "phase-3", asOf, wikipedia: W("Mdm2"),
     tldr: "Drugs that stop MDM2 destroying p53, reawakening the cell's guardian protein in tumours where p53 is intact but suppressed, such as some sarcomas and leukaemias.",
-    summary: "MDM2 tags the tumour suppressor p53 for degradation, and MDM2 amplification is the hallmark of liposarcoma and other tumours that keep wild-type p53. Small molecules that block the MDM2-p53 interaction (idasanutlin, milademetan, navtemadlin, brigimadlin) restore p53 and cause cell-cycle arrest and death. Trials in acute myeloid leukaemia and liposarcoma have shown activity but also thrombocytopenia and gastrointestinal toxicity, and no agent is approved; combinations and intermittent dosing are being tested.",
+    summary: "MDM2 tags the tumour suppressor p53 for degradation, and MDM2 amplification is the hallmark of liposarcoma and other tumours that keep wild-type p53. Small molecules that block the MDM2-p53 interaction (idasanutlin, milademetan, navtemadlin, brigimadlin) restore p53 and cause cell-cycle arrest and death. Trials in acute myeloid leukaemia and liposarcoma have shown activity but also thrombocytopenia and gastrointestinal toxicity, and no agent is approved; combinations and intermittent dosing are being tested. In dedifferentiated liposarcoma neither randomised trial beat its comparator: Brightline-1 (brigimadlin against doxorubicin) missed its primary endpoint, with median progression-free survival of 8.4 against 7.2 months (hazard ratio 0.79, 95% CI 0.6 to 1.06), and MANTRA (milademetan against trabectedin, NCT04979442) was terminated by its sponsor, with posted medians of 3.6 against 2.2 months and overlapping confidence intervals.",
     principle: "Inhibitors occupy the p53-binding pocket of MDM2, stabilising p53 so it can trigger apoptosis or senescence in cells with wild-type TP53.",
     strengths: ["Reactivates a non-mutated tumour suppressor","Biomarker-defined populations"],
     limitations: ["Thrombocytopenia and gut toxicity","Only in TP53 wild-type tumours","No approval after several phase 3 trials"],

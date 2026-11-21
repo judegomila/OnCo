@@ -56,7 +56,7 @@ export const SRC = {
   ta866: "https://www.nice.org.uk/guidance/ta866", ta914: "https://www.nice.org.uk/guidance/ta914", ta1008: "https://www.nice.org.uk/guidance/ta1008",
   ta1065: "https://www.nice.org.uk/guidance/ta1065", ta1079: "https://www.nice.org.uk/guidance/ta1079", ta1136: "https://www.nice.org.uk/guidance/ta1136",
   // FDA and EMA
-  fdaNotices: "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications",
+  fdaNotices: "https://www.fda.gov/drugs/cancer-approvals/oncology-cancerhematologic-malignancies-approval-notifications",
   fdaErbitux: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22ERBITUX%22",
   fdaVectibix: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22VECTIBIX%22",
   fdaAvastin: "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22AVASTIN%22",

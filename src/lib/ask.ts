@@ -11,6 +11,7 @@
  */
 import type { Kind } from "./kinds";
 import { normaliseName } from "./search-rank";
+import { regionFromQuestion } from "./ask-index";
 import { fuseRanks, tokenize } from "./semantic";
 import { isScopedEvidenceField, scopedEvidencePassages, type ScopedFields } from "./scoped-evidence-text";
 
@@ -151,13 +152,19 @@ export function composeAnswer(question: string, records: AskRecord[], opts: Comp
   return { sentences: out, sources: used, confidence, note };
 }
 
-/** What retrieval needs to know about a record to tell whether a question names it: its kind, its name and its aliases (brand names included). */
-export type NamedLookup = (id: string) => { kind: string; names: string[] } | undefined;
+/**
+ * What retrieval needs to know about a record beyond its text: its kind, its name and aliases (brand names included),
+ * to tell whether a question names it; and for a product, its status, its dated approvals as "<date> <region>"
+ * (ask-index.ts approvalDates) and, when it is a test, a device or an imaging agent rather than a medicine, its class
+ * (product-class.ts), to tell whether a medicine is approved at all and whether a product was approved when and
+ * where a question asks.
+ */
+export type NamedLookup = (id: string) => { kind: string; names: string[]; status?: string; approved?: string[]; cls?: string } | undefined;
 
 /** A NamedLookup over search documents (`aka`, one alias a line, brand included) or Ask index entries (`aliases`). */
-export function namedLookup(entries: Iterable<{ id: string; kind: string; name: string; aka?: string; aliases?: string[] }>): NamedLookup {
-  const m = new Map<string, { kind: string; names: string[] }>();
-  for (const e of entries) m.set(e.id, { kind: e.kind, names: [e.name, ...(e.aliases ?? []), ...(e.aka ? e.aka.split("\n") : [])] });
+export function namedLookup(entries: Iterable<{ id: string; kind: string; name: string; aka?: string; aliases?: string[]; status?: string; approved?: string[]; cls?: string }>): NamedLookup {
+  const m = new Map<string, { kind: string; names: string[]; status?: string; approved?: string[]; cls?: string }>();
+  for (const e of entries) m.set(e.id, { kind: e.kind, names: [e.name, ...(e.aliases ?? []), ...(e.aka ? e.aka.split("\n") : [])], status: e.status, approved: e.approved, cls: e.cls });
   return (id) => m.get(id);
 }
 
@@ -180,15 +187,89 @@ export function namedDrugs(question: string, lexical: Array<{ id: string }>, loo
   });
 }
 
+const MONTHS = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
+/** A month, optional, and a four-digit year: "July 2026", "Sept. 2026", "2026". The month counts only when the year follows it, so the verb in "may be approved in 2026" is not May. */
+const PERIOD = /\b(?:(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sept|sep|oct|nov|dec)\.?,?\s+)?((?:19|20)\d{2})\b/gi;
+/** The question asks about something being approved. Whole words: "approved", "approvals", "authorised", "licensed"; not "disapproved" or "approvable". */
+const APPROVAL_SENSE = /\b(?:approv(?:e|es|ed|al|als)|authori[sz](?:e|es|ed|ation|ations)|licen[cs]ed)\b/i;
+/** The question asks about the opposite, or about another regulatory outcome that happens to mention approval ("which approvals were withdrawn in 2026"). */
+const OTHER_OUTCOME = /\b(?:not|never|withdr(?:aw|aws|awn|ew|awal|awals)|reject(?:s|ed|ion|ions)?|refus(?:e|es|ed|al|als)|revok(?:e|es|ed)|den(?:y|ies|ied)|(?:is|are|was|were|has|have|had|did|does|do|wo|ca)n['’]t|cannot)\b/i;
+/** The period must be what the approval happened in ("in July 2026", "during 2025"), not a name that carries a year ("FDORA 2022") or one end of a span ("since 2020"). */
+const IN_PERIOD = /\b(?:in|during)\s+(?:the\s+)?(?:(?:month|year)\s+(?:of\s+)?)?$/i;
+
+/**
+ * The period and place a question asks approvals for: "Which drugs were approved in the US in July 2026?" gives
+ * { period: "2026-07", region: "US" }; "approved in 2025" gives { period: "2025" } and any region. Undefined unless
+ * the question has an approval word, exactly one period introduced by "in" or "during", and no word for another
+ * outcome. The period is a prefix of an ISO date, which is how approvalDates writes them.
+ */
+export function approvalPeriod(question: string): { period: string; region?: string } | undefined {
+  if (!APPROVAL_SENSE.test(question) || OTHER_OUTCOME.test(question)) return undefined;
+  const found = [...question.matchAll(PERIOD)];
+  if (new Set(found.map((m) => m[2])).size !== 1) return undefined;
+  const m = found.find((x) => IN_PERIOD.test(question.slice(0, x.index)));
+  if (!m) return undefined;
+  const month = m[1] ? MONTHS.findIndex((name) => name.startsWith(m[1].toLowerCase().slice(0, 3))) + 1 : 0;
+  return { period: month ? `${m[2]}-${String(month).padStart(2, "0")}` : m[2], region: regionFromQuestion(question) };
+}
+
+/**
+ * Of the records the two searches found, the products whose own dated approvals (NamedLookup `approved`) fall in the
+ * period and region the question asks about, in the order given. This checks the record's typed data rather than its
+ * words: a medicine approved in the US whose European application was withdrawn in July 2026 carries every word of
+ * "approved in the US in July 2026" and was not approved then. A record dated only to the year cannot confirm a
+ * month, so it does not match a question that names one. It adds no record the searches did not find.
+ */
+export function approvedThen(question: string, found: string[], lookup: NamedLookup): string[] {
+  const asked = approvalPeriod(question);
+  if (!asked) return [];
+  return found.filter((id) => lookup(id)?.approved?.some((a) => {
+    const cut = a.indexOf(" ");
+    return a.slice(0, cut).startsWith(asked.period) && (!asked.region || a.slice(cut + 1) === asked.region);
+  }));
+}
+
+/** The question asks about something that is approved: the participle, whole word, so not "unapproved", "approval" or "approvable". */
+const APPROVED_SENSE = /\b(?:approved|authori[sz]ed|licen[cs]ed)\b/i;
+/** The approval the question speaks of has not happened: "not yet approved", "awaiting", "expected to be approved", "could be approved". */
+const NOT_YET = /\b(?:yet|awaiting|pending|will|may|might|could|would|expected|likely|soon|unapproved)\b/i;
+
+/**
+ * For a question about something approved ("What is the first approved TIL therapy?"), the same list with the
+ * medicines that are approved somewhere moved ahead of the medicines that are approved nowhere. Only the places
+ * medicines already hold are reordered: a trial, a term, a person or a test stays exactly where it was, and the
+ * medicines keep their order within each group. Approved is read from the record, not its words: status approved, or
+ * a dated approval (NamedLookup `approved`). An experimental product whose summary says it "could become the first
+ * approved" of its kind shares the question's words and is not the answer. Tests, devices and imaging agents are left
+ * alone: a regulator clearing a test is a different judgement, and a cleared test for another purpose is no nearer the
+ * question than an uncleared one on its subject. Any other question gets the list back unchanged.
+ */
+export function approvedFirst(question: string, found: string[], lookup: NamedLookup): string[] {
+  if (!APPROVED_SENSE.test(question) || OTHER_OUTCOME.test(question) || NOT_YET.test(question)) return found;
+  const isMedicine = (id: string) => { const r = lookup(id); return r?.kind === "drug" && !r.cls; };
+  const isApproved = (id: string) => { const r = lookup(id); return r?.status === "approved" || !!r?.approved?.length; };
+  const medicines = found.filter(isMedicine);
+  const order = [...medicines.filter(isApproved), ...medicines.filter((id) => !isApproved(id))];
+  let next = 0;
+  return found.map((id) => (isMedicine(id) ? order[next++] : id));
+}
+
 /**
  * Merge lexical and concept-search hits into one ordered id list (reciprocal rank fusion), capped at `k`. With
  * `named`, a medicine the question names (namedDrugs) comes first, so a reader who asks about Enhertu gets Enhertu's
- * page even when near-ties in the two lists would have left it seventh.
+ * page even when near-ties in the two lists would have left it seventh. When the question names no medicine and asks
+ * about something approved, the products among the hits are checked against their typed approval data rather than
+ * their words: approved medicines take the medicines' places ahead of unapproved ones (approvedFirst), and when the
+ * question asks what was approved in a period ("in the US in July 2026"), the products approved then and there come
+ * first of all (approvedThen).
  */
 export function retrieveIds(lexical: Array<{ id: string }>, semantic: Array<{ id: string }>, k = 6, named?: { question: string; lookup: NamedLookup }): string[] {
   const fused = fuseRanks([lexical, semantic]).map((h) => h.id);
   if (!named) return fused.slice(0, k);
-  return [...new Set([...namedDrugs(named.question, lexical, named.lookup), ...fused])].slice(0, k);
+  const drugs = namedDrugs(named.question, lexical, named.lookup);
+  if (drugs.length) return [...new Set([...drugs, ...fused])].slice(0, k);
+  const checked = approvedFirst(named.question, fused, named.lookup);
+  return [...new Set([...approvedThen(named.question, checked, named.lookup), ...checked])].slice(0, k);
 }
 
 /** Plain-text rendering with numbered citations, for the copy button, tests and the MCP tool. */

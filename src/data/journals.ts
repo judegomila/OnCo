@@ -209,7 +209,7 @@ export const journals: JournalInput[] = [
     publisher: "American Society of Hematology", society: "American Society of Hematology", url: "https://ashpublications.org/bloodadvances", issn: "2473-9529", scope: "haematology", access: "open-access", founded: 2016,
     tldr: "ASH's fully open-access journal for haematology, including real-world outcomes, phase 1 and 2 trials and the ASH clinical practice guidelines.",
     summary: "Blood Advances (Blood Adv) is the fully open-access haematology journal of the American Society of Hematology (ASH), launched in 2016 as the open-access companion to Blood and published by the society itself, with CC BY licences available. It publishes real-world outcomes, phase 1 and 2 trials, registry analyses and translational studies in blood cancers, and it carries the ASH clinical practice guidelines, for example on venous thromboembolism in cancer. Its readers are haematologists and haematology-oncology trialists who want early-phase and real-world evidence without a paywall. Within OnCo it is linked from the Eunice Wang biography, and it is the place to look for ASH guidelines and early-phase blood cancer trials.",
-    links: [{ label: "ASH guidelines", url: "https://www.hematology.org/education/clinicians/guidelines-and-quality-care" }] }),
+    links: [{ label: "ASH guidelines", url: "https://www.hematology.org/resources/clinical-practice-guidelines" }] }),
   j({ id: "leukemia", terms: ["leukaemia-type", "interim-analysis"], name: "Leukemia", aka: ["Leukemia (Springer Nature)"], matchNames: ["Leukemia"],
     publisher: "Springer Nature", url: "https://www.nature.com/leu/", issn: "0887-6924", scope: "haematology", access: "hybrid", founded: 1987,
     impactFactor: { value: 12.8, year: 2023, source: JCR },

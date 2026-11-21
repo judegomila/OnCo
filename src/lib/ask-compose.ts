@@ -11,7 +11,7 @@
  * bundle through the region switcher).
  */
 import { composeAnswer, recordFromEntity, sentences, type Answer, type AskRecord, type Cited, type EntityLike, type Source } from "./ask";
-import { regionCode, shortName, type AskIndexEntry } from "./ask-index";
+import { regionCode, regionFromQuestion, shortName, type AskIndexEntry } from "./ask-index";
 import { INTENT_LABEL, type Intent } from "./ask-intent";
 import { GRADE_META, gradeFromTags, type EvidenceGrade } from "./complementary";
 import { tokenize } from "./semantic";
@@ -19,6 +19,9 @@ import type { Kind } from "./kinds";
 import { REGION_META, REGIONS, regionalApprovals, type Region, type RegionalEntry } from "@/data/regional-approvals";
 import { SURVIVAL_SITES } from "@/data/survival-map";
 import { compositionText, isScopedEvidenceField, regulatoryClaimText, scopedEvidencePassages } from "./scoped-evidence-text";
+
+/** Lives beside regionCode in ask-index.ts, where retrieval (ask.ts) can reach it without importing this module. */
+export { regionFromQuestion };
 
 export type Neighbour = { id: string; kind: Kind; name: string; route: string };
 
@@ -219,19 +222,6 @@ function regionalSentences(name: string, id: string, region: Region | undefined)
 
 const regionName = (r: Region) => (r === "US" || r === "EU" || r === "UK" ? `the ${REGION_META[r].label}` : REGION_META[r].label);
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-
-/** A region the question names ("in the UK", "in Europe", "by the FDA") outranks the reader's saved region. */
-export function regionFromQuestion(q: string): Region | undefined {
-  const s = q.toLowerCase();
-  if (/\b(?:uk|u\.k\.|united kingdom|britain|british|england|nhs|nice|mhra)\b/.test(s)) return "UK";
-  if (/\b(?:eu|e\.u\.|europe|european|ema|emea|germany|france|italy|spain|netherlands)\b/.test(s)) return "EU";
-  if (/\b(?:japan|japanese|pmda|mhlw)\b/.test(s)) return "JP";
-  if (/\b(?:china|chinese|nmpa)\b/.test(s)) return "CN";
-  if (/\b(?:australia|australian|tga|pbs)\b/.test(s)) return "AU";
-  if (/\b(?:india|indian|cdsco|dcgi|pm-jay|ayushman)\b/.test(s)) return "IN";
-  if (/\b(?:us|u\.s\.|usa|united states|america|american|fda|medicare)\b/.test(s)) return "US";
-  return undefined;
-}
 
 /** Trials linked to a record, curated order first, recruiting first. */
 export function trialsOf(r: AskEntityRecord, lookup: ComposeInput["lookup"], max = 6): Neighbour[] {

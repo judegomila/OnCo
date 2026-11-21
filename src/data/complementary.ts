@@ -265,7 +265,7 @@ const herbsAndSupplements: TechnologyInput[] = [
     strengths: ["Large placebo-controlled trial", "Named in SIO-ASCO 2024 as an option during treatment"],
     limitations: ["Single confirmatory trial", "Product quality varies; avoid Asian ginseng in hormone-sensitive cancers", "Possible interactions with warfarin and imatinib"],
     drugs: ["imatinib"], technologies: ["integrative-oncology", "dietary-supplements-treatment-interactions", "cancer-related-fatigue-management"], bottlenecks: ["b-toxicity-qol"],
-    links: [doi("Wisconsin ginseng to improve cancer-related fatigue, randomised double-blind trial N07C2 (JNCI 2013)", "10.1093/jnci/djt181"), SIO_ASCO_FATIGUE, herbs("American ginseng", "american-ginseng")] }),
+    links: [doi("Wisconsin ginseng to improve cancer-related fatigue, randomised double-blind trial N07C2 (JNCI 2013)", "10.1093/jnci/djt181"), SIO_ASCO_FATIGUE, herbs("American ginseng", "ginseng-american")] }),
 
   tech({ id: "melatonin-cancer", name: "Melatonin as a cancer adjunct", sections: [SEC, "nutrition-lifestyle"], status: "phase-2", wikipedia: W("Melatonin"), tags: T("insufficient"),
     tldr: "Melatonin helps some people sleep and is safe at usual doses, but the claim that high-dose melatonin improves survival rests on a series of small unblinded trials from one group that has never been reproduced elsewhere. It is not a cancer treatment.",

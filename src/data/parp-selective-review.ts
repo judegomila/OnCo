@@ -39,7 +39,7 @@ export const parpSelectiveReview: EntityInput[] = [
     "name": "HRS-1167",
     "modality": "Small-molecule PARP1 inhibitor",
     "status": "phase-2",
-    "asOf": "2026-10-06",
+    "asOf": "2026-11-18",
     "tldr": "HRS-1167 is an experimental pill being studied to block a DNA-repair enzyme in cancer cells.",
     "summary": "PARP1-selective inhibitor, licensed as M9466. The linked registry records distinguish recruiting, closed, and discontinued studies; those states do not establish comparative efficacy or approval. Merck KGaA reports discontinuing its M9466 development in its 2025 annual report. That sponsor decision does not mean the separate Hengrui studies have all stopped.",
     "mechanism": "PARP1-selective inhibitor, licensed as M9466.",
@@ -112,9 +112,9 @@ export const parpSelectiveReview: EntityInput[] = [
     "name": "NMS-03305293",
     "modality": "Small-molecule PARP1 inhibitor",
     "status": "phase-2",
-    "asOf": "2026-10-06",
-    "tldr": "NMS-03305293 is an experimental pill being studied to block a DNA-repair enzyme in cancer cells.",
-    "summary": "PARP1-selective, brain-penetrant inhibitor, also called NMS-293. The linked registry records distinguish recruiting, closed, and discontinued studies; those states do not establish comparative efficacy or approval. The monotherapy study NCT04182516 stopped after 52 actual participants because the sponsor shifted towards combinations, explicitly not because of emerging safety or efficacy concerns. Combination studies include temozolomide and topotecan.",
+    "asOf": "2026-11-18",
+    "tldr": "NMS-03305293 is an experimental pill designed to block a DNA-repair enzyme in cancer cells. All four of its registered trials had closed by November 2026.",
+    "summary": "PARP1-selective, brain-penetrant inhibitor, also called NMS-293. All four registered studies are now listed as terminated (registry read on 18 November 2026); that does not establish comparative efficacy or approval, and none has posted results. The monotherapy study NCT04182516 stopped after 52 actual participants because the sponsor shifted towards combinations, explicitly not because of emerging safety or efficacy concerns. The combination studies have since closed too: with temozolomide in recurrent glioblastoma (NCT04910022, 80 participants, discontinued by the sponsor for reasons it says are not related to safety), with temozolomide in small cell lung cancer (NCT06931626, 5 participants) and with topotecan in ovarian cancer (NCT06930755, 1 participant); the sponsor calls the last two strategic decisions not based on the drug's safety or clinical data. No study of it is open.",
     "mechanism": "PARP1-selective, brain-penetrant inhibitor, also called NMS-293.",
     "targets": [
       "parp"
@@ -148,7 +148,8 @@ export const parpSelectiveReview: EntityInput[] = [
       }
     ],
     "aka": [
-      "NMS-293"
+      "NMS-293",
+      "itareparib"
     ],
     "cancers": [
       "sclc",
@@ -161,10 +162,10 @@ export const parpSelectiveReview: EntityInput[] = [
     "name": "GS-0201",
     "modality": "Small-molecule PARP1 inhibitor",
     "status": "phase-1",
-    "asOf": "2026-10-06",
+    "asOf": "2026-11-18",
     "tldr": "GS-0201 is an experimental pill being studied to block a DNA-repair enzyme in cancer cells.",
-    "summary": "Gilead describes GS-0201 as a PARP1 inhibitor. The linked registry records distinguish recruiting, closed, and discontinued studies; those states do not establish comparative efficacy or approval. NCT06167317 is recruiting and tests GS-0201 alone and with sacituzumab govitecan, connecting PARP dependency with TROP-2-directed delivery.",
-    "mechanism": "Gilead describes GS-0201 as a PARP1 inhibitor.",
+    "summary": "GS-0201 is a Gilead Sciences medicine that a 2026 review in the Journal of Clinical Investigation describes as a PARP1-selective inhibitor; the registry record does not name its target, and Gilead's own pipeline page could not be read as text (not re-verified on 18 November 2026). The linked registry records distinguish recruiting, closed, and discontinued studies; those states do not establish comparative efficacy or approval. NCT06167317 is a recruiting phase 1 study, planned for 278 participants, that tests GS-0201 alone and with sacituzumab govitecan in advanced solid tumours, with expansion groups in triple-negative breast cancer and endometrial cancer.",
+    "mechanism": "Described as a PARP1-selective inhibitor in a 2026 review in the Journal of Clinical Investigation; Gilead's pipeline page could not be read as text (not re-verified on 18 November 2026).",
     "targets": [
       "parp"
     ],
@@ -179,6 +180,10 @@ export const parpSelectiveReview: EntityInput[] = [
       {
         "label": "Primary publication or sponsor source",
         "url": "https://www.gilead.com/science/pipeline"
+      },
+      {
+        "label": "Review naming GS-0201 as a PARP1-selective inhibitor (Journal of Clinical Investigation 2026)",
+        "url": "https://doi.org/10.1172/jci207632"
       }
     ],
     "aka": [],
@@ -954,11 +959,11 @@ export const parpSelectiveReview: EntityInput[] = [
     "name": "SNV1521 in Participants With Advanced Solid Tumors",
     "nct": "NCT06220864",
     "phase": "1",
-    "asOf": "2026-10-06",
+    "asOf": "2026-11-18",
     "setting": "A Phase 1, Open-Label Dose Escalation and Expansion Study of SNV1521 in Participants With Advanced Solid Tumors",
-    "sponsor": "Synnovation Therapeutics, Inc.",
+    "sponsor": "ParVation Therapeutics, Inc.",
     "tldr": "This study tests a PARP inhibitor; the registry reports that it is recruiting.",
-    "summary": "The registry lists NCT06220864 as recruiting, last updated 2026-06-25. Enrolment is 400 planned participants, an estimate. Interventions: SNV1521, DB-1310, Abiraterone, Darolutamide. Primary measures include Safety of SNV1521; Tolerability of SNV1521. No results are posted in the registry; this does not exclude separate publications.",
+    "summary": "The registry lists NCT06220864 as recruiting, last updated 2026-06-25. Enrolment is 400 planned participants, an estimate. Interventions: SNV1521, DB-1310, Abiraterone, Darolutamide. Primary measures include Safety of SNV1521; Tolerability of SNV1521. The registry named ParVation Therapeutics, Inc. as the sponsor when read on 18 November 2026; it had earlier named Synnovation Therapeutics, Inc. No results are posted in the registry; this does not exclude separate publications.",
     "targets": [
       "parp"
     ],
@@ -1712,7 +1717,7 @@ export const parpSelectiveReview: EntityInput[] = [
     "links": [
       {
         "label": "FDA approval and indication",
-        "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-axatilimab-csfr-chronic-graft-versus-host-disease"
+        "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-axatilimab-csfr-chronic-graft-versus-host-disease"
       },
       {
         "label": "Current Niktimvo label (DailyMed)",

@@ -104,7 +104,7 @@ export const simpleE: Record<string, string> = {
   gist: "GIST is a sarcoma of the gut wall driven almost always by a KIT or PDGFRA mutation, and the pill imatinib proved that a tablet can control a solid tumour.",
   appendiceal: "Appendix cancers range from slow jelly-like growths that fill the abdomen to aggressive cancers; the slow forms get extensive surgery with heated chemotherapy, the fast ones colon cancer treatment.",
   vulvar: "Vulvar cancer is an uncommon cancer of the external genitalia caused by HPV in younger women or chronic skin inflammation in older women, and surgery is the mainstay.",
-  "gestational-trophoblastic": "Gestational trophoblastic neoplasia grows from placental tissue after pregnancy, makes a hormone that serves as a perfect blood test, and was the first solid cancer chemotherapy cured.",
+  "gestational-trophoblastic": "Gestational trophoblastic neoplasia grows from placental tissue after pregnancy, makes a hormone that serves as a perfect blood test, and methotrexate chemotherapy for it was reported in 1956.",
   medulloblastoma: "Medulloblastoma is the most common malignant childhood brain tumour; surgery, radiation and chemotherapy cure most children at a heavy cost, so treatment is now tailored by molecular subgroup.",
   osteosarcoma: "Osteosarcoma is the most common bone cancer, mostly in teenagers; chemotherapy plus surgery cures most localised cases, but no new drug has beaten that in thirty years.",
   "ewing-sarcoma": "Ewing sarcoma is a bone and soft-tissue cancer of teenagers driven by one fusion gene; intensive chemotherapy plus surgery or radiation cures most localised cases, but relapse stays hard.",

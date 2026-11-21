@@ -253,7 +253,7 @@ export const dpydTestingBeforeFluoropyrimidines = protocol({
       label: "Clinical Commissioning Urgent Policy Statement: pharmacogenomic testing for DPYD polymorphisms with fluoropyrimidine therapies (URN 1869), effective August 2020",
       publisher: "NHS England",
       year: 2020,
-      url: "https://www.england.nhs.uk/wp-content/uploads/2020/11/1869-dpyd-policy-statement.pdf",
+      url: "https://web.archive.org/web/20250809215447/https://www.england.nhs.uk/wp-content/uploads/2020/11/1869-dpyd-policy-statement.pdf",
       gradingScheme: "A commissioning position with implementation criteria; not graded.",
       read: "full-text",
       accessed: "2026-11-17",

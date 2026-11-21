@@ -524,7 +524,7 @@ export const biomarkerReadouts: BiomarkerInput[] = [
   },
   {
     "label": "FDA March 3, 2023 abemaciclib expansion",
-    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-expands-early-breast-cancer-indication-abemaciclib-endocrine-therapy"
+    "url": "https://www.fda.gov/drugs/cancer-approvals/fda-expands-early-breast-cancer-indication-abemaciclib-endocrine-therapy"
   }
 ], tags: ["biomarker", "proliferation"] ,
 "asOf": "2026-11-10",

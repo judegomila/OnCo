@@ -90,5 +90,5 @@ export const SRC = {
   ng131: "https://www.nice.org.uk/guidance/ng131",
   eauProstate: "https://uroweb.org/guidelines/prostate-cancer",
   nccnProstate: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1459",
-  fdaNotices: "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications",
+  fdaNotices: "https://www.fda.gov/drugs/cancer-approvals/oncology-cancerhematologic-malignancies-approval-notifications",
 };

@@ -100,7 +100,7 @@ export const TUMOUR_TESTS: TumourTest[] = [
     returns: "The FDA-approved whole exome and whole transcriptome assay, with companion diagnostic claims for specific drug and cancer pairs alongside the broader profile.",
     regulatory: { us: "FDA approved (2024)" }, url: "https://www.carislifesciences.com/", drugId: "caris-mi-cancer-seek", technologies: ["wes-wgs", "companion-diagnostic"] }),
   t({ id: "guardant360-cdx", name: "Guardant360 CDx", companyId: "guardant-health", sample: "blood", scope: "targeted-panel",
-    returns: "Mutations, amplifications and fusions in more than 50 genes from cell-free DNA, with companion diagnostic claims in lung and breast cancer; the wider laboratory Guardant360 reports more genes.",
+    returns: "Mutations, amplifications and fusions in more than 50 genes from cell-free DNA, with companion diagnostic claims in lung, breast and colorectal cancer; the wider laboratory Guardant360 reports more genes.",
     regulatory: { us: "FDA approved (PMA P200010, 2020)" }, url: "https://guardant360cdx.com/", drugId: "guardant360-cdx", technologies: ["liquid-biopsy", "cgp", "companion-diagnostic"] }),
   t({ id: "guardant-reveal", name: "Guardant Reveal", companyId: "guardant-health", sample: "blood", scope: "mrd",
     returns: "Presence or absence of circulating tumour DNA after surgery or during surveillance, using mutations and methylation without needing a tumour sample first, in colorectal, breast and lung cancer.",

@@ -3,6 +3,7 @@ import { graph } from "./graph";
 import { portraitSrc } from "./portraits";
 import { NAV_GROUPS } from "./nav";
 import { routeFor, type Kind } from "./kinds";
+import { approvalDates } from "./ask-index";
 import { nonMedicineClass, type ProductClass } from "./product-class";
 import { engineRoute, FORMATS, modalityRoute } from "./modular-formats";
 import { DECISION_TOOLS, toolRoute } from "./decision-tools";
@@ -10,7 +11,7 @@ import { COMPARE_SETS, compareRoute } from "./cancer-compare";
 import { autoCountryCodes, autoCountry, COUNTRY_PAGES, countryRoute } from "./country-pages";
 import { GLOBOCAN } from "./globocan";
 
-export type SearchDoc = { id: string; kind: Kind | "page"; name: string; /** Aliases, one per line: MiniSearch tokenises on the newline as it does on a space, and the ranking can still tell "Breast cancer in men" from a lone "Breast". */ aka: string; tldr: string; tags: string; route: string; status?: string; /** Space-separated ids of the cancers the record links to, for the "for my cancer" filter. */ cancers?: string; /** The broader record this is a subtype of (a cancer's parent page); Ask ranks a subtype below its parent unless the query names it. */ parent?: string; /** A person's portrait, so the command palette can show a face without importing the portrait index. */ portrait?: string; /** A product that is not a medicine (src/lib/product-class.ts), so its result chip says Test rather than Treatment. */ cls?: Exclude<ProductClass, "medicine"> };
+export type SearchDoc = { id: string; kind: Kind | "page"; name: string; /** Aliases, one per line: MiniSearch tokenises on the newline as it does on a space, and the ranking can still tell "Breast cancer in men" from a lone "Breast". */ aka: string; tldr: string; tags: string; route: string; status?: string; /** Space-separated ids of the cancers the record links to, for the "for my cancer" filter. */ cancers?: string; /** The broader record this is a subtype of (a cancer's parent page); Ask ranks a subtype below its parent unless the query names it. */ parent?: string; /** A person's portrait, so the command palette can show a face without importing the portrait index. */ portrait?: string; /** A product that is not a medicine (src/lib/product-class.ts), so its result chip says Test rather than Treatment. */ cls?: Exclude<ProductClass, "medicine">; /** A product's dated approvals, "<date> <region>" (ask-index.ts approvalDates). Not indexed for search: Ask's retrieval reads it to tell a product approved in a period from a record that mentions the period. */ approved?: string[] };
 
 /** Pages outside the navigation groups that a search should still reach. */
 export const SITE_PAGES: ReadonlyArray<{ href: string; label: string; blurb: string }> = [
@@ -65,6 +66,8 @@ function brandNames(e: object): string[] {
   return brand.split(/\s*[/,;]\s*/).map((b) => b.replace(/\s*\([^)]*\)\s*/g, " ").trim()).filter(Boolean);
 }
 
+const nonEmpty = (list: string[]): string[] | undefined => (list.length ? list : undefined);
+
 export function searchDocs(): SearchDoc[] {
   return graph().entities.map((e) => ({
     id: e.id,
@@ -85,6 +88,7 @@ export function searchDocs(): SearchDoc[] {
     // index into the first bundle, which src/app/layout-imports.test.ts refuses.
     portrait: e.kind === "person" ? portraitSrc(e.id) : undefined,
     cls: nonMedicineClass(e),
+    approved: e.kind === "drug" ? nonEmpty(approvalDates(e)) : undefined,
   }));
 }
 

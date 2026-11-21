@@ -229,7 +229,7 @@ export const hazardousDrugHandlingInClinicalAreas = protocol({
       label: "NIOSH Alert: Preventing Occupational Exposures to Antineoplastic and Other Hazardous Drugs in Health Care Settings (DHHS (NIOSH) Publication No. 2004-165)",
       publisher: "National Institute for Occupational Safety and Health (CDC)",
       year: 2004,
-      url: "https://www.cdc.gov/niosh/docs/2004-165/pdfs/2004-165.pdf",
+      url: "https://web.archive.org/web/20260213035938/https://www.cdc.gov/niosh/docs/2004-165/pdfs/2004-165.pdf",
       gradingScheme: "Not graded.",
       read: "full-text",
       accessed: "2026-11-17",

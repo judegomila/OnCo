@@ -1191,7 +1191,7 @@ export const rareSubtypes: CancerInput[] = [
 
 export const tldrZh: Record<string, string> = {
   "anal-hsil-precursor": "肛管高级别鳞状上皮内病变是肛管癌由此生长的HPV相关癌前病变，通过细胞学和高分辨率肛门镜筛查高危人群发现。ANCHOR试验显示，在门诊以消融为主治疗这些病变可减少进展为肛管癌的数量，因此现已推荐对HIV感染者进行筛查和治疗。",
-  "localised-anal-cancer": "局限期肛管癌是尚未扩散到骨盆和腹股沟以外的肛管鳞状细胞癌，是少数主要靠放化疗而非手术治愈的癌症之一。自ACT II试验以来，放疗期间联合氟尿嘧啶（fluorouracil）和丝裂霉素（mitomycin）一直是标准方案，切除肛门的手术仅留给少数癌症持续存在或复发的患者。",
+  "localised-anal-cancer": "局限期肛管癌是尚未扩散到骨盆和腹股沟以外的肛管鳞状细胞癌，是少数主要靠放化疗而非手术治愈的癌症之一。放疗期间联合氟尿嘧啶（fluorouracil）和丝裂霉素（mitomycin）是标准方案，并经ACT II试验证实，切除肛门的手术仅留给少数癌症持续存在或复发的患者。",
   "metastatic-anal-cancer": "转移性肛管癌是已扩散到肝、肺或远处淋巴结，或在手术无法切除的部位复发的肛管鳞状细胞癌。InterAACT试验后，卡铂（carboplatin）联合紫杉醇（paclitaxel）成为一线标准；POD1UM-303试验后，PD-1抗体瑞弗利单抗（retifanlimab）于2025年加入该方案；纳武利尤单抗（nivolumab）或帕博利珠单抗（pembrolizumab）是化疗后的选择。",
   "localised-penile-cancer": "局限期阴茎癌是局限于阴茎、尚未扩散到腹股沟淋巴结的鳞状细胞癌，治疗目标是切除肿瘤同时尽可能保留阴茎。癌前病变和小肿瘤采用药膏、激光或保留龟头的手术治疗，腹股沟淋巴结通过前哨淋巴结活检或随访观察，而不是整体清除。",
   "node-positive-penile-cancer": "淋巴结阳性阴茎癌是已到达腹股沟或盆腔淋巴结或扩散更远的阴茎鳞状细胞癌，是阴茎癌威胁生命的阶段。治疗将腹股沟淋巴结清扫与术前或术后化疗或放化疗相结合，InPACT试验正在检验最佳顺序，PD-1抗体正被加入晚期疾病的治疗。",
@@ -1206,8 +1206,8 @@ export const tldrZh: Record<string, string> = {
   "low-grade-appendiceal-mucinous-neoplasm": "低级别阑尾黏液性肿瘤是一种生长缓慢、分泌黏液的阑尾癌，破裂后会以腹膜假黏液瘤的形式将胶冻状物质扩散到整个腹腔。它很少经血液或淋巴扩散，因此采用手术治疗，剥除腹腔内所有可见病灶并用加热化疗液冲洗腹腔，这一手术可使大多数患者获得多年生存。",
   "appendiceal-adenocarcinoma": "阑尾腺癌是阑尾癌中具有侵袭性、形成腺体的类型，其行为更像肠癌而非分泌胶冻的低级别肿瘤，会扩散到淋巴结和腹膜。治疗采用右半结肠切除和肠癌化疗，若已在腹膜扩散，体能良好的患者接受肿瘤细胞减灭术加腹腔热灌注化疗。",
   "goblet-cell-adenocarcinoma": "杯状细胞腺癌是一种罕见的阑尾癌，其细胞兼有充满黏液的杯状细胞和神经内分泌特征，曾称为杯状细胞类癌，现归类并按腺癌治疗。它通过右半结肠切除术切除，高级别或已扩散时给予肠癌化疗，不使用治疗真正神经内分泌肿瘤的生长抑素类药物。",
-  "localised-small-bowel-adenocarcinoma": "局限期小肠腺癌是尚未扩散到邻近淋巴结以外、可通过手术切除的十二指肠、空肠或回肠癌，手术是唯一的治愈手段。十二指肠肿瘤需行Whipple手术，更远端的肿瘤行节段切除，淋巴结阳性者术后按结肠癌模式给予化疗，BALLAD试验正在检验其是否真正有益。",
-  "advanced-small-bowel-adenocarcinoma": "晚期小肠腺癌是已扩散到肝、腹膜或其他部位的小肠癌，采用肠癌所用的化疗，即奥沙利铂（oxaliplatin）联合氟嘧啶类药物，之后是紫杉类或伊立替康（irinotecan）。重要的例外是相当一部分患者的肿瘤存在错配修复缺陷，对他们而言免疫治疗药物帕博利珠单抗（pembrolizumab）远比化疗有效。",
+  "localised-small-bowel-adenocarcinoma": "局限期小肠腺癌是尚未扩散到邻近淋巴结以外、可通过手术切除的十二指肠、空肠或回肠癌，手术是唯一的治愈手段。十二指肠肿瘤需行Whipple手术，更远端的肿瘤行节段切除，淋巴结阳性者术后按结肠癌模式给予化疗，检验这一做法的BALLAD试验已提前关闭，结果尚未公布。",
+  "advanced-small-bowel-adenocarcinoma": "晚期小肠腺癌是已扩散到肝、腹膜或其他部位的小肠癌，采用肠癌所用的化疗，即奥沙利铂（oxaliplatin）联合氟嘧啶类药物，之后是紫杉类或伊立替康（irinotecan）。例外是相当一部分患者的肿瘤存在错配修复缺陷，对他们而言免疫治疗药物帕博利珠单抗（pembrolizumab）是已获批的选择。",
   "cup-favourable-subsets": "原发灶不明癌的预后良好亚组约占五分之一，即尽管找不到原发肿瘤，但扩散模式、镜下形态或血液标志物强烈指向某种特定癌症的病例。它们按该癌症治疗，例如仅腋窝淋巴结受累的女性按乳腺癌治疗，许多可以治愈或控制多年。",
   "cup-unfavourable": "预后不良的原发灶不明癌占绝大多数病例，即转移性腺癌或低分化癌不符合任何已知模式且找不到起源。长期以来治疗是通用的铂类化疗，但CUPISCO试验显示，在短程化疗后根据肿瘤基因缺陷匹配药物可更长时间控制疾病，免疫治疗对少数患者有效。",
   "erdheim-chester-disease": "Erdheim-Chester病是一种罕见的组织细胞增生症，即称为组织细胞的免疫细胞发生的类似癌症的过度增生，使长骨、肾脏和心脏周围组织、脑和皮肤发生瘢痕化。大多数病例携带BRAF V600E突变或同一生长通路的其他缺陷，最初为黑色素瘤研发的靶向药维莫非尼（vemurafenib）和考比替尼（cobimetinib）现可控制大多数患者的疾病。",
@@ -1226,7 +1226,7 @@ export const tldrZh: Record<string, string> = {
   "hereditary-ppgl": "遗传性嗜铬细胞瘤和副神经节瘤是这类分泌肾上腺素肿瘤的遗传形式，由十余种基因之一的缺陷引起，最常见的是SDHB、SDHD、VHL和RET基因。明确基因会改变治疗：SDHB携带者肿瘤扩散风险最高，VHL和MEN2患者因双侧发病而接受保留肾上腺的手术，亲属在出现症状前接受检测和筛查。",
   "metastatic-ppgl": "转移性嗜铬细胞瘤和副神经节瘤是已扩散到骨、淋巴结、肝或肺的疾病，这是这类分泌肾上腺素的肿瘤被称为恶性的唯一方式。它常进展缓慢，因此治疗从血压控制和观察开始，然后依次采用归巢到肿瘤的放射性药物、FIRSTMAPPP试验证实的激酶抑制剂舒尼替尼（sunitinib）、化疗，以及2025年起的靶向药贝组替凡（belzutifan）。",
   "locoregionally-advanced-nasopharyngeal-carcinoma": "局部区域晚期鼻咽癌是由EB病毒驱动的鼻后腔癌症，已侵入邻近结构或扩散到颈部淋巴结但未及更远。它不靠手术治疗，而是采用精确放疗联合顺铂（cisplatin），现通常先行吉西他滨（gemcitabine）联合顺铂化疗，近期试验中还加入了PD-1免疫治疗，大多数患者可治愈。",
-  "recurrent-metastatic-nasopharyngeal-carcinoma": "复发或转移性鼻咽癌是放疗后复发或已扩散到骨、肝或肺的鼻咽癌。吉西他滨（gemcitabine）联合顺铂（cisplatin）是化疗基础，JUPITER-02及后续试验中加入PD-1抗体特瑞普利单抗（toripalimab）、卡瑞利珠单抗（camrelizumab）、替雷利珠单抗（tislelizumab）或派安普利单抗（penpulimab）延长了生存并成为标准，鼻咽局部复发则采用内镜手术或再程放疗。",
+  "recurrent-metastatic-nasopharyngeal-carcinoma": "复发或转移性鼻咽癌是放疗后复发或已扩散到骨、肝或肺的鼻咽癌。吉西他滨（gemcitabine）联合顺铂（cisplatin）是化疗基础，JUPITER-02及后续试验中加入特瑞普利单抗（toripalimab）等PD-1抗体延长了生存并成为标准，鼻咽局部复发则采用内镜手术或再程放疗。",
   "esthesioneuroblastoma": "嗅神经母细胞瘤是一种罕见的鼻腔和鼻窦癌，起源于鼻顶部紧邻大脑的嗅觉神经上皮。治疗为经鼻或颅底手术后放疗，高级别或广泛肿瘤加用化疗，因其可在十年或更久后复发，患者需终身随访。",
   "sinonasal-undifferentiated-carcinoma": "鼻腔鼻窦未分化癌是一种罕见、生长迅速的鼻腔和鼻窦癌，由无明确分化方向的原始细胞组成，大多数携带IDH2基因突变。它表现为压迫眼或脑的巨大肿块，先行化疗，再根据肿瘤反应选择手术或放化疗；缺失SMARCB1或SMARCA4蛋白的相关肿瘤现被视为独立疾病。",
 };

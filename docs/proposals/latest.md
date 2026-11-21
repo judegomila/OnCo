@@ -1,4 +1,4 @@
-# Change proposals 2026-11-19
+# Change proposals 2026-11-21
 
 Drafted by scripts/propose-updates.ts from: factcheck 2026-11-16, trialChanges 2026-11-16, fda 2026-11-18, regional 2026-11-18.
 
@@ -434,11 +434,11 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: add { region: "US", year: <from label>, indication: <from label> } and set status to approved
   - evidence: openFDA has a label for "Pancrelipase" ([source](https://open.fda.gov/apis/drug/label/))
   - file: `src/data/spikes/pancreatic-treatment.ts:59`
-- [ ] **Daraxonrasib** ([page](https://onco.cc/drugs/daraxonrasib/)) · regional-row · `EU`
-  - current: (no EU entry)
+- [ ] **Daraxonrasib** ([page](https://onco.cc/drugs/daraxonrasib/)) · regional-status · `EU`
+  - current: under-review
   - proposed: EU entry from the register page (Opinion)
   - evidence: EMA register: Rasonque (Daraxonrasib) Opinion. Register page: "Opinion: EMA has issued an opinion on this medicine", opinion Positive 2026-10-15. ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/rasonque))
-  - why a person: CHMP opinion (Positive) without a Commission decision yet; the row would change again within weeks
+  - why a person: register status "Opinion" has no helper in regional-approvals.ts; the recorded EU row says under-review
   - file: `src/data/regional-approvals.ts`
 - [ ] **LCH-IV, International Collaborative Treatment Protocol for Children and Adolescents With Langerhans Cell Histiocytosis** ([page](https://onco.cc/trials/nct02205762/)) · trial-completion · `yearReported / calendar`
   - current: 2026-07
@@ -469,7 +469,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2026-12-30
   - proposed: 2027-04-30
   - evidence: Primary completion date moved from 2026-12-30 to 2027-04-30; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT05065801))
-  - file: `src/data/spikes/pancreatic-registry-trials.ts:1091`
+  - file: `src/data/spikes/pancreatic-registry-trials.ts:1092`
 - [ ] **A Study Comparing Treatment With Lutetium[177Lu] Oxodotreotide Injection to Octreotide LAR in Patients With GEP-NETs** ([page](https://onco.cc/trials/nct05459844/)) · trial-completion · `yearReported / calendar`
   - current: 2024-06-26
   - proposed: 2025-06-26
@@ -489,7 +489,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2026-07-27
   - proposed: 2027-01-15
   - evidence: Primary completion date moved from 2026-07-27 to 2027-01-15; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT05608291))
-  - file: `src/data/pipeline-trials-wave4.ts:1180`
+  - file: `src/data/pipeline-trials-wave4.ts:1181`
 - [ ] **A Study of SKB264 (MK-2870; Sac-TMT) for the Treatment of Participants With Advanced or Metastatic Non-small Cell Lung Cancer (SKB264-II-04) (MK-2870-** ([page](https://onco.cc/trials/nct05816252/)) · trial-completion · `yearReported / calendar`
   - current: 2026-06-30
   - proposed: 2026-08-31
@@ -534,7 +534,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2028-02-07
   - proposed: 2028-02-29
   - evidence: Primary completion date moved from 2028-02-07 to 2028-02-29; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT06091254))
-  - file: `src/data/pipeline-trials-wave4.ts:1413`
+  - file: `src/data/pipeline-trials-wave4.ts:1414`
 - [ ] **Study of Onvansertib in Combination With FOLFIRI and Bevacizumab or FOLFOX and Bevacizumab Versus FOLFIRI and Bevacizumab or FOLFOX and Bevacizumab fo** ([page](https://onco.cc/trials/nct06106308/)) · trial-completion · `yearReported / calendar`
   - current: 2026-11
   - proposed: 2027-04-16
@@ -649,7 +649,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2025-08-15
   - proposed: 2026-10-06
   - evidence: Primary completion date moved from 2025-08-15 to 2026-10-06; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT05607550))
-  - file: `src/data/pipeline-trials-wave4.ts:986`
+  - file: `src/data/pipeline-trials-wave4.ts:987`
 - [ ] **A Study Explore WJB001 Capsules in Patients With Advanced Solid Tumors** ([page](https://onco.cc/trials/nct05773820/)) · trial-completion · `yearReported / calendar`
   - current: 2026-08-08
   - proposed: 2027-12-31
@@ -809,7 +809,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2032-03-23
   - proposed: 2030-02-26
   - evidence: Primary completion date moved from 2032-03-23 to 2030-02-26; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07022483))
-  - file: `src/data/pipeline-trials-wave4.ts:1931`
+  - file: `src/data/pipeline-trials-wave4.ts:1933`
 - [ ] **A Phase 2 Neoadjuvant Study of Zanidatamab in Combination With Chemotherapy in Participants With HER2-positive Breast Cancer** ([page](https://onco.cc/trials/nct07102381/)) · trial-completion · `yearReported / calendar`
   - current: 2028-01-01
   - proposed: 2027-12-29
@@ -844,7 +844,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2026-10-31
   - proposed: 2026-09-22
   - evidence: Primary completion date moved from 2026-10-31 to 2026-09-22; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT04129502))
-  - file: `src/data/pipeline-trials-wave4.ts:1104`
+  - file: `src/data/pipeline-trials-wave4.ts:1105`
 - [ ] **Testing the Addition of a Type of Drug Called Immunotherapy to the Usual Chemotherapy Treatment for Non-small Cell Lung Cancer, an ALCHEMIST Treatment Trial (Ch** ([page](https://onco.cc/trials/nct04267848/)) · trial-completion · `yearReported / calendar`
   - current: 2027-01-31
   - proposed: 2030-01-31
@@ -979,7 +979,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2027-06-01
   - proposed: 2031-06-01
   - evidence: Primary completion date moved from 2027-06-01 to 2031-06-01; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT05317858))
-  - file: `src/data/pipeline-trials-wave4.ts:1044`
+  - file: `src/data/pipeline-trials-wave4.ts:1045`
 - [ ] **KAN-HER2 MRD** ([page](https://onco.cc/trials/kan-her2-mrd/)) · trial-completion · `yearReported / calendar`
   - current: 2026-07
   - proposed: 2027-07
@@ -1214,7 +1214,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2027-02
   - proposed: 2026-08-18
   - evidence: Primary completion date moved from 2027-02 to 2026-08-18; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT06619236))
-  - file: `src/data/pipeline-trials-wave4.ts:1449`
+  - file: `src/data/pipeline-trials-wave4.ts:1450`
 - [ ] **A Phase 3 Study of HRS-8080 Versus Treatment Chosen by Physicians in Locally Advanced and Metastatic Breast Cancer** ([page](https://onco.cc/trials/nct07024173/)) · trial-completion · `yearReported / calendar`
   - current: 2026-12
   - proposed: 2027-08
@@ -1254,7 +1254,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2027-06
   - proposed: 2027-10-31
   - evidence: Primary completion date moved from 2027-06 to 2027-10-31; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07473128))
-  - file: `src/data/pipeline-trials-wave4.ts:1080`
+  - file: `src/data/pipeline-trials-wave4.ts:1081`
 - [ ] **Symbiotic-Lung-14: A Study to Learn About the Study Medicine Called PF08634404 in Combination With Chemotherapy in Adult Participants With Transformed** ([page](https://onco.cc/trials/nct07476287/)) · trial-completion · `yearReported / calendar`
   - current: 2028-03-19
   - proposed: 2028-03-24
@@ -1324,7 +1324,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2026-07-18
   - proposed: 2026-09-28
   - evidence: Primary completion date moved from 2026-07-18 to 2026-09-28; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT05552976))
-  - file: `src/data/pipeline-trials-wave4.ts:1467`
+  - file: `src/data/pipeline-trials-wave4.ts:1468`
 - [ ] **A Study of RC48-ADC Combined With Pyrotinib For Treatment of Local Advanced or Metastasis NSCLC With HER2 Mutation** ([page](https://onco.cc/trials/nct05745740/)) · trial-completion · `yearReported / calendar`
   - current: 2025-12
   - proposed: 2027-12-01
@@ -1384,7 +1384,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2026-07
   - proposed: 2026-07-16
   - evidence: Primary completion date moved from 2026-07 to 2026-07-16; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT06736717))
-  - file: `src/data/spikes/pancreatic-registry-trials.ts:861`
+  - file: `src/data/spikes/pancreatic-registry-trials.ts:862`
 - [ ] **A Study to Learn About the Medicine Ponsegromab in Adults With Cancer of the Pancreas Which Has Spread and Caused Significant Body Weight Loss and Fatigue** ([page](https://onco.cc/trials/nct06989437/)) · trial-completion · `yearReported / calendar`
   - current: 2028-01-17
   - proposed: 2028-01-23
@@ -1409,7 +1409,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2026-10-30
   - proposed: 2028-09-08
   - evidence: Primary completion date moved from 2026-10-30 to 2028-09-08; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07619521))
-  - file: `src/data/spikes/pancreatic-registry-trials.ts:1337`
+  - file: `src/data/spikes/pancreatic-registry-trials.ts:1338`
 - [ ] **A Study to Assess Adverse Events and Change in Disease Activity With Treatment Combinations With Telisotuzumab Adizutecan in Adults Participants With Pancreatob** ([page](https://onco.cc/trials/nct07769502/)) · trial-completion · `yearReported / calendar`
   - current: 2028-11
   - proposed: 2028-09
@@ -1429,7 +1429,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2028-12-31
   - proposed: 2032-03-31
   - evidence: Primary completion date moved from 2028-12-31 to 2032-03-31; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT05438459))
-  - file: `src/data/spikes/pancreatic-registry-trials.ts:746`
+  - file: `src/data/spikes/pancreatic-registry-trials.ts:747`
 - [ ] **A Study to Evaluate Efficacy and Safety of Giredestrant Compared With Fulvestrant (Plus a CDK4/6 Inhibitor), in Participants With ER-Positive, HER2-Negative Advanced Breast Cancer Resistant to Adjuvant Endocrine Therapy (pionERA Breast Cancer)** ([page](https://onco.cc/trials/nct06065748/)) · trial-completion · `yearReported / calendar`
   - current: 2027-02-19
   - proposed: 2028-04-20

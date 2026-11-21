@@ -4202,7 +4202,6 @@ export const tldr_fr: Record<string, string> = {
   "ayurvedic-medicine-cancer": "L'ayurveda, la médecine traditionnelle de l'Inde, propose régime alimentaire, yoga, plantes et préparations minérales. Le yoga bénéficie de bonnes preuves en lui-même ; les remèdes à base de plantes et de minéraux n'ont pas démontré qu'ils traitent le cancer, et dans une étude un cinquième des produits vendus en ligne contenaient du plomb, du mercure ou de l'arsenic.",
   "az-groeninge-kortrijk": "Un grand hôpital général flamand dont le centre de cancérologie détient l'accréditation OECI Cancer Centre, l'un des rares hôpitaux non universitaires d'Europe à l'avoir obtenue.",
   "b-braun": "Entreprise allemande de dispositifs médicaux qui fournit des chambres implantables Celsite, des pompes élastomériques Easypump, des systèmes de perfusion et des consommables sécurisés pour les cytotoxiques.",
-  "bahrain-oncology-centre": "Centre national de cancérologie de Bahreïn, rattaché au King Hamad University Hospital, qui propose radiothérapie, chimiothérapie et greffe de moelle osseuse dans le royaume.",
   "bas-raaymakers": "Physicien qui a inventé le MR-linac, permettant à la radiothérapie de voir la tumeur et de s'y adapter en temps réel.",
   baxter: "Pompes à perfusion (Spectrum, Novum), pompes élastomériques ambulatoires (Infusor), solutés intraveineux et injectables génériques.",
   "beatriz-castelo": "Beatriz Castelo est oncologue médicale au sein du programme tête et cou de La Paz.",

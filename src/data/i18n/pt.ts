@@ -4214,7 +4214,6 @@ export const tldr_pt: Record<string, string> = {
   "ayurvedic-medicine-cancer": "O Ayurveda, a medicina tradicional da Índia, oferece dieta, ioga, ervas e preparações minerais. A ioga tem boas evidências por si só; os remédios à base de ervas e minerais não demonstraram tratar o câncer, e um quinto dos produtos vendidos on-line continha chumbo, mercúrio ou arsênio em um estudo.",
   "az-groeninge-kortrijk": "Um grande hospital geral flamengo cujo centro de câncer possui a acreditação de Centro de Câncer da OECI, um dos poucos hospitais não universitários da Europa a tê-la.",
   "b-braun": "Empresa alemã de dispositivos médicos que fornece cateteres port Celsite, bombas elastoméricas Easypump, sistemas de infusão e consumíveis seguros para citotóxicos.",
-  "bahrain-oncology-centre": "Centro nacional de câncer do Bahrein, parte do King Hamad University Hospital, oferecendo radioterapia, quimioterapia e transplante de medula óssea no reino.",
   "bas-raaymakers": "Físico que inventou o MR-linac, permitindo que a radioterapia veja o tumor e se adapte a ele em tempo real.",
   baxter: "Bombas de infusão (Spectrum, Novum), bombas elastoméricas ambulatoriais (Infusor), fluidos intravenosos e injetáveis genéricos.",
   "beatriz-castelo": "Beatriz Castelo é oncologista clínica no programa de cabeça e pescoço do La Paz.",

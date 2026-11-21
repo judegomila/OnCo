@@ -4201,7 +4201,6 @@ export const tldr_ja: Record<string, string> = {
   "ayurvedic-medicine-cancer": "アーユルヴェーダはインドの伝統医学で、食事、ヨガ、ハーブ、鉱物製剤を提供する。ヨガそれ自体には良好なエビデンスがある。ハーブや鉱物の治療薬ががんを治療することは示されておらず、ある研究ではオンラインで販売される製品の5分の1に鉛、水銀、またはヒ素が含まれていた。",
   "az-groeninge-kortrijk": "フランドル地方の大規模総合病院で、そのがんセンターはOECIのCancer Centre認定を保持している。欧州でこの認定を持つ数少ない非大学病院の一つである。",
   "b-braun": "Celsiteポート、Easypumpエラストマーポンプ、輸液システム、細胞毒性薬対応の安全な消耗品を供給するドイツの医療機器メーカーである。",
-  "bahrain-oncology-centre": "バーレーンの国立癌センターで、King Hamad University Hospitalの一部として、同国内で放射線治療、化学療法、骨髄移植を提供している。",
   "bas-raaymakers": "MR-linacを発明した物理学者で、放射線治療が腫瘍をリアルタイムで捉え、それに適応できるようにした。",
   baxter: "輸液ポンプ（Spectrum、Novum）、携帯型エラストマーポンプ（Infusor）、輸液製剤、ジェネリック注射剤を手がける。",
   "beatriz-castelo": "Beatriz CasteloはLa Paz病院の頭頸部プログラムに所属する腫瘍内科医である。",

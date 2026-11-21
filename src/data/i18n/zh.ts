@@ -8568,7 +8568,6 @@ export const tldr_zh: Record<string, string> = {
   nct06663137: "一项在膀胱及尿路上皮癌中评估Docetaxel、Gemcitabine的2期试验，由Relmada Therapeutics, Inc.开展，正在招募。",
   nct07221357: "一项在结直肠癌中评估PM8002、FOLFOX (5-FU, leucovorin, oxaliplatin)、FOLFIRI (5-FU, leucovorin, irinotecan)的2/3期试验，由Bristol-Myers Squibb开展，正在招募。",
   nct07221149: "一项在胃癌中评估PM8002、Nivolumab的2/3期试验，由Bristol-Myers Squibb开展，正在招募。",
-  nct06973187: "一项在慢性淋巴细胞白血病中比较Tacabrutideg（BGB-16673）与Pirtobrutinib的3期试验，由BeOne Medicines开展，正在招募。",
   nct06948448: "一项在结直肠癌中评估Nivolumab、CAPOX (capecitabine, oxaliplatin)、Bevacizumab的2期试验，由Ono Pharmaceutical Co., Ltd.开展，正在招募。",
   nct04570423: "一项在非霍奇金淋巴瘤中评估Eflapegrastim的2期试验，由Spectrum Pharmaceuticals, Inc开展，正在招募。",
   nct05804669: "一项在垂体肿瘤中评估一种在研治疗的1/2期试验，由Crinetics Pharmaceuticals Inc.开展，进行中、不再招募。",

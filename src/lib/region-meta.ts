@@ -7,7 +7,7 @@
 export type Region = "US" | "EU" | "UK" | "JP" | "CN" | "AU" | "IN";
 export const REGIONS: Region[] = ["US", "EU", "UK", "JP", "CN", "AU", "IN"];
 export const REGION_META: Record<Region, { label: string; regulator: string; url: string; flag: string }> = {
-  US: { label: "United States", regulator: "FDA", url: "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications", flag: "🇺🇸" },
+  US: { label: "United States", regulator: "FDA", url: "https://www.fda.gov/drugs/cancer-approvals/oncology-cancerhematologic-malignancies-approval-notifications", flag: "🇺🇸" },
   EU: { label: "European Union", regulator: "EMA / European Commission", url: "https://www.ema.europa.eu/en/medicines", flag: "🇪🇺" },
   UK: { label: "United Kingdom", regulator: "MHRA (NICE for reimbursement)", url: "https://products.mhra.gov.uk/", flag: "🇬🇧" },
   JP: { label: "Japan", regulator: "PMDA / MHLW", url: "https://www.pmda.go.jp/english/review-services/reviews/approved-information/drugs/0002.html", flag: "🇯🇵" },

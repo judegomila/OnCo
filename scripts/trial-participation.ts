@@ -106,8 +106,6 @@ export const SHARED_REGISTRATIONS: Record<string, { records: string[]; why: stri
   NCT02034110: { records: ["roar", "roar-atc"], why: "Two cohorts of one basket trial, biliary tract and anaplastic thyroid, with different results and approvals (docs/DUPLICATE-RECORDS.md)." },
   NCT01042379: { records: ["i-spy-2", "i-spy-2-2"], why: "I-SPY 2.2 is a protocol version running under the I-SPY 2 registration (docs/DUPLICATE-RECORDS.md)." },
   NCT00541047: { records: ["radicals-hd", "radicals-rt"], why: "RADICALS is one registration with two randomisations, radiotherapy timing and hormone duration, reported separately." },
-  NCT02945566: { records: ["nct02945566", "star-trec"], why: "One study held twice: a registry ingest and the curated STAR-TREC record (ISRCTN14240288, which declares this number). To be merged into star-trec; the redirect that needs waits for the owner." },
-  NCT06973187: { records: ["cadance-304", "nct06973187"], why: "One study held twice: a registry ingest and the curated CaDAnCe-304 record, which links this number (BGB-16673-304, tacabrutideg against pirtobrutinib; read 18 November 2026). To be merged into cadance-304; the redirect that needs waits for the owner." },
 };
 /** Registrations attached to more than one record that SHARED_REGISTRATIONS does not name with exactly those records. */
 export function unexpectedSharedRegistrations(rows: Array<{ id: string; ncts: string[] }>): Array<{ nct: string; records: string[] }> {

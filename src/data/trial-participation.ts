@@ -43095,7 +43095,7 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       ]
     }
   ],
-  "nct06973187": [
+  "cadance-304": [
     {
       "nct": "NCT06973187",
       "source": "https://clinicaltrials.gov/study/NCT06973187",
@@ -61694,33 +61694,6 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0
     }
   ],
-  "nct02945566": [
-    {
-      "nct": "NCT02945566",
-      "source": "https://clinicaltrials.gov/study/NCT02945566",
-      "fetchedAt": "2026-10-07T16:52:53.797Z",
-      "studySha256": "21c92959940b21492dfd602ae98c48bb6be33f6c0f26902f8c30da5c456758e2",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-06-29",
-      "leadSponsor": "University of Birmingham",
-      "collaboratorCount": 0,
-      "minimumAge": "16 Years",
-      "sex": "ALL",
-      "healthyVolunteers": false,
-      "hasEligibility": true,
-      "enrolment": 380,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 5,
-      "recruitingSiteCount": 0,
-      "countries": [
-        "Belgium",
-        "Denmark",
-        "Netherlands",
-        "Sweden",
-        "United Kingdom"
-      ]
-    }
-  ],
   "nct04495153": [
     {
       "nct": "NCT04495153",
@@ -75862,29 +75835,6 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 100,
       "enrolmentType": "ESTIMATED",
       "siteCount": 2,
-      "recruitingSiteCount": 1,
-      "countries": [
-        "Slovenia"
-      ]
-    }
-  ],
-  "nct07432399": [
-    {
-      "nct": "NCT07432399",
-      "source": "https://clinicaltrials.gov/study/NCT07432399",
-      "fetchedAt": "2026-10-07T16:55:44.977Z",
-      "studySha256": "20ce828d4f7c3bc490a032b2fbd2acac4baea5ef41ce9e488e2e4d2a49a154c2",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-03-06",
-      "leadSponsor": "Institute of Oncology Ljubljana",
-      "collaboratorCount": 0,
-      "minimumAge": "18 Years",
-      "sex": "ALL",
-      "healthyVolunteers": false,
-      "hasEligibility": true,
-      "enrolment": 100,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 1,
       "recruitingSiteCount": 1,
       "countries": [
         "Slovenia"

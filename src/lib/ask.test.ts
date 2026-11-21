@@ -607,6 +607,9 @@ describe("Ask OnCo end to end", () => {
     // three rules run in a fixed order in retrieveIds: a named medicine, then a named technology, then the approval
     // rules. Measured 0.4322 and 0.6970 with all three (scripts/ask-recall.ts). The floor is unchanged.
     { date: "2026-11-20", recall: 0.4322, note: "waves 13 to 16 and the named-technology rule on the second accuracy pass with the approval rules; extractive rubric 0.6970" },
+    // 20 November 2026, three trial records held twice retired into their survivors (STAR-TREC, CaDAnCe-304, PILDI).
+    // Measured immediately before and after at the same figures (scripts/ask-recall.ts).
+    { date: "2026-11-20", recall: 0.4322, note: "three duplicate trial records merged; extractive rubric 0.6970, both unchanged by the merge" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [

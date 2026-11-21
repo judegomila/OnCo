@@ -58,10 +58,10 @@ const STAGE_COLUMNS: StaticColumn[] = [
 
 const CEILING_COLUMNS: StaticColumn[] = [
   { key: "band", label: "Household income" },
-  { key: "now", label: "Monthly ceiling now" },
+  { key: "now", label: "Monthly ceiling, August 2018 to July 2026" },
   { key: "multi", label: "From the 4th month in 12" },
   { key: "from2026", label: "Monthly ceiling from August 2026" },
-  { key: "annual2026", label: "New annual cap" },
+  { key: "annual2026", label: "Annual cap from August 2026" },
 ];
 
 function Cards({ cards }: { cards: CountryCard[] }) {
@@ -156,8 +156,8 @@ export default function JapanPage() {
             <h3 className="font-semibold">Why our ranking of Japan is wrong, in numbers</h3>
             <p className="mt-2 text-sm leading-relaxed">
               The corpus holds {allInstitutions} Japanese institutions, which puts Japan {ordinal(instRank)} in our own count, and {allCompanies} Japanese companies. OpenAlex, which indexes English-language
-              journals most completely, still puts Japan {ordinal(worksRank)} in the world for oncology works in {lastYear} with {jpOa.works[lastYear].toLocaleString("en-GB")}. The gap between those two
-              numbers is our reading, not Japan&apos;s output. Three parts of the ranking formula on the <Link href="/countries/" className="underline">countries page</Link> then push Japan further down: its indexed output is flat
+              journals most completely, still puts Japan {ordinal(worksRank)} in the world for oncology works in {lastYear} with {jpOa.works[lastYear].toLocaleString("en-GB")}. Where those two
+              ranks differ, the difference is our reading, not Japan&apos;s output. Three parts of the ranking formula on the <Link href="/countries/" className="underline">countries page</Link> then push Japan further down: its indexed output is flat
               ({jpOa.works[firstYear].toLocaleString("en-GB")} works in {firstYear} against {jpOa.works[lastYear].toLocaleString("en-GB")} in {lastYear}, so the growth term scores zero), its highly cited share is
               {" "}{((jpOa.citedHigh / jpOa.total) * 100).toFixed(2)} percent, and the trial term counts ClinicalTrials.gov registrations ({jpOa.trials?.toLocaleString("en-GB")}) while Japan&apos;s investigator-initiated trials register in jRCT and UMIN-CTR.
             </p>
@@ -182,11 +182,11 @@ export default function JapanPage() {
               <span className="text-xs text-muted">Test, age and interval from the guidance revised 24 December 2025; uptake from the 2022 Comprehensive Survey of Living Conditions</span>
             </div>
             <StaticTable rows={screenRows} columns={SCREEN_COLUMNS} noun="programmes" />
-            <p className="mt-3 text-xs text-muted">Municipalities deliver these; the ministry sets the specification. Uptake is self-reported and includes workplace and opportunistic screening, so it runs above the municipal programme&apos;s own figure. Sources: <a href="https://www.mhlw.go.jp/content/10900000/001642974.pdf" className="underline" rel="noopener">MHLW guidance (PDF)</a> and <a href="https://www.mhlw.go.jp/toukei/saikin/hw/k-tyosa/k-tyosa22/dl/04.pdf" className="underline" rel="noopener">the 2022 survey (PDF)</a>.</p>
+            <p className="mt-3 text-xs text-muted">Municipalities deliver these; the ministry sets the specification. Uptake is self-reported and includes workplace and opportunistic screening, so it is not the municipal programme&apos;s own figure. Sources: <a href="https://www.mhlw.go.jp/content/10900000/001642974.pdf" className="underline" rel="noopener">MHLW guidance (PDF)</a> and <a href="https://www.mhlw.go.jp/toukei/saikin/hw/k-tyosa/k-tyosa22/dl/04.pdf" className="underline" rel="noopener">the 2022 survey (PDF)</a>.</p>
           </div>
           <div className="mt-6 card p-5">
             <div className="flex flex-wrap items-baseline justify-between gap-2 mb-3">
-              <h3 className="font-semibold">What screening buys: stage at diagnosis and survival, 2018 cohort</h3>
+              <h3 className="font-semibold">Stage at diagnosis and survival, 2018 cohort</h3>
               <span className="text-xs text-muted">Five-year relative survival by clinical extent, both sexes, national cancer registry</span>
             </div>
             <StaticTable rows={stageRows} columns={STAGE_COLUMNS} noun="sites" />
@@ -202,7 +202,7 @@ export default function JapanPage() {
               <span className="text-xs text-muted">Yen per month, whatever the treatment costs</span>
             </div>
             <StaticTable rows={ceilingRows} columns={CEILING_COLUMNS} noun="income bands" />
-            <p className="mt-3 text-xs text-muted">Hospital meals, the charge for a private room and treatments outside insurance are not counted towards the ceiling. People aged 70 and over have their own table with a separate outpatient-only ceiling. Sources: <a href="https://www.mhlw.go.jp/content/000333280.pdf" className="underline" rel="noopener">MHLW leaflet, rules from August 2018 (PDF)</a> and <a href="https://www.mhlw.go.jp/content/001726232.pdf" className="underline" rel="noopener">the December 2025 reform paper (PDF)</a>.</p>
+            <p className="mt-3 text-xs text-muted">Hospital meals, the charge for a private room and treatments outside insurance are not counted towards the ceiling. People aged 70 and over have their own table with a separate outpatient-only ceiling. Sources: <a href="https://www.mhlw.go.jp/content/000333280.pdf" className="underline" rel="noopener">MHLW leaflet, rules from August 2018 to July 2026 (PDF)</a> and <a href="https://www.mhlw.go.jp/content/001726232.pdf" className="underline" rel="noopener">the December 2025 reform paper (PDF)</a>.</p>
           </div>
           <p className="mt-3 text-sm text-muted">For comparison, <Link href="/assistance/" className="underline">Financial help</Link> collects the schemes patients use elsewhere and <Link href="/countries/" className="underline">Countries</Link> ranks research output rather than care.</p>
         </Section>
@@ -258,7 +258,7 @@ export default function JapanPage() {
           </div>
           <div className="card p-5 space-y-2 border-amber-300/60 dark:border-amber-700/50">
             <h2 className="font-semibold text-base">Verify before relying on it</h2>
-            <p>Approvals, insurance ceilings and the indications covered for particle therapy all change, and the high-cost medical expense ceilings are being revised in August 2026. Check the <a href={meta.url} className="underline" rel="noopener">PMDA approved drugs list</a>, the <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/juuyou/kougakuiryou/index.html" className="underline" rel="noopener">ministry&apos;s high-cost benefit page</a> and the treating hospital before acting on anything here. Corrections are welcome through the <Link href="/suggest/" className="underline">suggest an edit</Link> form.</p>
+            <p>Approvals, insurance ceilings and the indications covered for particle therapy all change, and the high-cost medical expense ceilings were revised for treatment from August 2026 and change again in August 2027. Check the <a href={meta.url} className="underline" rel="noopener">PMDA approved drugs list</a>, the <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/juuyou/kougakuiryou/index.html" className="underline" rel="noopener">ministry&apos;s high-cost benefit page</a> and the treating hospital before acting on anything here. Corrections are welcome through the <Link href="/suggest/" className="underline">suggest an edit</Link> form.</p>
           </div>
         </section>
       </Container>

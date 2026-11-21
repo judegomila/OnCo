@@ -1070,6 +1070,21 @@
       "source": "/companies/chan-zuckerberg-initiative/:path*",
       "destination": "/institutions/chan-zuckerberg-initiative/:path*",
       "permanent": true
+    },
+    {
+      "source": "/trials/nct02945566/:path*",
+      "destination": "/trials/star-trec/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/trials/nct06973187/:path*",
+      "destination": "/trials/cadance-304/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/trials/nct07432399/:path*",
+      "destination": "/trials/nct06923787/:path*",
+      "permanent": true
     }
   ],
   "ignoreCommand": "if [ \"$VERCEL_GIT_COMMIT_AUTHOR_LOGIN\" = \"github-actions[bot]\" ]; then exit 1; else exit 0; fi"

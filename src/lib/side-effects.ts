@@ -182,39 +182,49 @@ export function buildSideEffectIndex(): SideEffectRow[] {
  *
  * Which protocols belong to which group is written here because the groups are the rules' own plain-language labels
  * and exist nowhere in the corpus. A protocol is listed only after its own population and trigger have been read:
- * where no protocol in the corpus fits (headache, cough, an upper respiratory infection), the group or the row stays
+ * where no protocol in the corpus fits (an upper respiratory infection, cataract on tamoxifen), the group or the row stays
  * without one, and `scripts/measure-side-effect-chain.ts --gaps` names it. High blood pressure, QT prolongation and
  * lung inflammation on a drug that is not a checkpoint inhibitor were such gaps until 17 November 2026, when the
- * fourteen targeted-drug protocols were written. src/lib/side-effects.test.ts checks that every id is a protocol and every key a group the rules produce.
+ * fourteen targeted-drug protocols were written; headache, cough, dry mouth, taste changes, second cancers and bladder
+ * symptoms were gaps until 18 November 2026, when the second round of sixteen was written. src/lib/side-effects.test.ts checks that every id is a protocol and every key a group the rules produce.
  */
 export const SYMPTOM_PROTOCOLS: Record<string, { general?: string[]; specific?: string[] }> = {
   "Cytokine release syndrome": { general: ["crs-grading-and-management"], specific: ["bispecific-step-up-dosing"] },
   "Capillary leak syndrome": { specific: ["capillary-leak-syndrome-on-anticancer-drugs"] },
   "Differentiation syndrome": { specific: ["differentiation-syndrome-recognition-and-treatment"] },
-  "Confusion or brain effects (neurotoxicity, ICANS)": { specific: ["icans-grading-and-management", "bispecific-step-up-dosing", "irae-neurological"] },
+  "Confusion or brain effects (neurotoxicity, ICANS)": { specific: ["icans-grading-and-management", "bispecific-step-up-dosing", "irae-neurological", "ifosfamide-bladder-protection-and-encephalopathy"] },
+  "Memory, thinking or mood changes": { specific: ["cognitive-and-mood-effects-on-lorlatinib-and-avapritinib"] },
   "Tumour lysis syndrome": { general: ["tumour-lysis-syndrome-prevention-and-treatment"] },
   "Tumour flare": { specific: ["tumour-flare-on-bispecific-antibodies-and-immunomodulatory-drugs"] },
   "Immune-related side effects (general)": { specific: ["checkpoint-inhibitor-baseline-and-monitoring", "irae-steroid-taper-and-pjp", "irae-rechallenge"] },
   "Fever or febrile neutropenia": { general: ["febrile-neutropenia-first-hour", "g-csf-prophylaxis-by-febrile-neutropenia-risk"] },
   "Low white cells (neutropenia)": { general: ["g-csf-prophylaxis-by-febrile-neutropenia-risk", "febrile-neutropenia-first-hour"] },
-  "Low red cells (anaemia)": { general: ["chemotherapy-induced-anaemia-esa-and-iron", "red-cell-and-platelet-transfusion-thresholds"] },
-  "Low platelets (thrombocytopenia)": { general: ["bleeding-precautions-when-platelets-are-low", "red-cell-and-platelet-transfusion-thresholds"], specific: ["irae-haematological"] },
+  "Low red cells (anaemia)": { general: ["chemotherapy-induced-anaemia-esa-and-iron", "red-cell-and-platelet-transfusion-thresholds"], specific: ["blood-count-and-kidney-monitoring-during-radioligand-therapy"] },
+  "Low platelets (thrombocytopenia)": { general: ["bleeding-precautions-when-platelets-are-low", "red-cell-and-platelet-transfusion-thresholds"], specific: ["irae-haematological", "blood-count-and-kidney-monitoring-during-radioligand-therapy"] },
+  "Low lymphocytes (lymphopenia)": { specific: ["blood-count-and-kidney-monitoring-during-radioligand-therapy"] },
   // Red cells and platelets are both low, whatever lowered them. The first-hour fever protocol is not listed: the rows
   // here are CAR T cells and leukaemia induction, and it leaves acute leukaemia and transplant to local haematology protocols.
   "Low blood counts (general)": { general: ["red-cell-and-platelet-transfusion-thresholds"], specific: ["icaht-prolonged-cytopenia", "irae-haematological"] },
   "Low antibody levels (hypogammaglobulinaemia)": { specific: ["car-t-infection-prevention", "bispecific-step-up-dosing"] },
-  "Infections": { specific: ["hepatitis-b-screening-and-reactivation-prophylaxis", "pneumocystis-pneumonia-prophylaxis", "herpes-simplex-and-zoster-antiviral-prophylaxis", "car-t-infection-prevention", "bispecific-step-up-dosing", "vaccination-around-cancer-treatment"] },
+  "Infections": { specific: ["hepatitis-b-screening-and-reactivation-prophylaxis", "pneumocystis-pneumonia-prophylaxis", "herpes-simplex-and-zoster-antiviral-prophylaxis", "car-t-infection-prevention", "bispecific-step-up-dosing", "vaccination-around-cancer-treatment", "bladder-symptoms-and-infection-after-intravesical-therapy"] },
+  "Second cancers": { specific: ["second-cancers-after-anticancer-drug-treatment"] },
   "Colitis (bowel inflammation)": { general: ["treatment-induced-diarrhoea-grading-and-management"], specific: ["irae-colitis"] },
   "Diarrhoea": { general: ["treatment-induced-diarrhoea-grading-and-management"], specific: ["irinotecan-early-cholinergic-syndrome-and-late-diarrhoea", "neratinib-diarrhoea-prophylaxis-and-dose-escalation", "irae-colitis"] },
   "Nausea or vomiting": { general: ["antiemetic-prophylaxis-by-emetic-risk"] },
   "Constipation": { general: ["constipation-in-adults-with-cancer"] },
   "Mouth soreness or ulcers (stomatitis)": { general: ["oral-mucositis-prevention-and-oral-care"] },
+  "Dry mouth": { specific: ["dry-mouth-from-cancer-drugs-and-radionuclide-therapy"] },
+  // Twelve of its sixteen steps apply whatever the treatment; the talquetamab and tarlatamab steps say which label they come from.
+  "Taste changes": { general: ["taste-changes-during-cancer-treatment"] },
+  "Pancreas inflammation or raised pancreatic enzymes": { specific: ["pancreatitis-and-raised-pancreatic-enzymes-on-targeted-drugs"] },
   "Loss of appetite or weight loss": { general: ["nutrition-screening-and-support-during-cancer-treatment"] },
+  "Weight gain": { specific: ["raised-lipids-and-weight-gain-on-lorlatinib-bexarotene-and-elacestrant"] },
   "Lung inflammation (pneumonitis, ILD)": { specific: ["irae-pneumonitis", "interstitial-lung-disease-on-antibody-drug-conjugates-and-targeted-drugs"] },
-  "Breathlessness or cough": { specific: ["acute-oncology-telephone-triage"] },
-  "Liver inflammation or raised liver enzymes": { specific: ["irae-hepatitis", "raised-liver-enzymes-on-targeted-anticancer-drugs"] },
+  "Breathlessness or cough": { specific: ["acute-oncology-telephone-triage", "breathlessness-and-cough-during-anticancer-treatment"] },
+  "Liver inflammation or raised liver enzymes": { specific: ["irae-hepatitis", "raised-liver-enzymes-on-targeted-anticancer-drugs", "veno-occlusive-disease-on-inotuzumab-and-gemtuzumab-ozogamicin", "blood-count-and-kidney-monitoring-during-radioligand-therapy"] },
+  "Bladder symptoms": { specific: ["bladder-symptoms-and-infection-after-intravesical-therapy", "ifosfamide-bladder-protection-and-encephalopathy"] },
   "Kidney problems": { specific: ["irae-nephritis", "renal-dose-adjustment-of-anticancer-drugs", "hypertension-and-proteinuria-on-vegf-pathway-inhibitors"] },
-  "Heart muscle weakness or inflammation": { general: ["cardio-oncology-risk-assessment-and-cardiac-surveillance"], specific: ["irae-myocarditis"] },
+  "Heart muscle weakness or inflammation": { general: ["cardio-oncology-risk-assessment-and-cardiac-surveillance"], specific: ["irae-myocarditis", "left-ventricular-dysfunction-on-her2-targeted-drugs"] },
   "Heart rhythm changes (QT, atrial fibrillation)": { specific: ["qt-prolongation-monitoring-on-anticancer-drugs", "atrial-fibrillation-and-bleeding-on-btk-inhibitors"] },
   "High blood pressure": { specific: ["hypertension-and-proteinuria-on-vegf-pathway-inhibitors", "atrial-fibrillation-and-bleeding-on-btk-inhibitors"] },
   "Blood clots": { general: ["cancer-associated-vte-treatment"] },
@@ -226,9 +236,10 @@ export const SYMPTOM_PROTOCOLS: Record<string, { general?: string[]; specific?: 
   "Rash, itching or skin reactions": { general: ["skin-and-nail-care-during-cancer-drug-treatment"], specific: ["egfr-inhibitor-rash-prophylaxis", "irae-skin", "sun-protection-during-and-after-cancer-treatment"] },
   "Poor wound healing": { specific: ["anti-vegf-drugs-around-surgery"] },
   "Nerve damage (peripheral neuropathy)": { general: ["chemotherapy-induced-peripheral-neuropathy-assessment-and-prevention"] },
-  "Muscle or joint pain": { specific: ["irae-rheumatological", "chronic-pain-in-cancer-survivors"] },
+  "Muscle or joint pain": { specific: ["irae-rheumatological", "chronic-pain-in-cancer-survivors", "joint-and-muscle-pain-on-anticancer-drugs"] },
+  "Headache": { specific: ["headache-on-anticancer-drugs"] },
   "Tiredness (fatigue)": { general: ["cancer-related-fatigue-screening-and-management"] },
-  "Eye problems": { specific: ["eye-care-with-ocular-toxic-antibody-drug-conjugates", "irae-ocular"] },
+  "Eye problems": { specific: ["eye-care-with-ocular-toxic-antibody-drug-conjugates", "irae-ocular", "retinal-and-eye-effects-on-fgfr-mek-and-alk-inhibitors"] },
   "Hearing problems": { specific: ["paediatric-cisplatin-hearing-protection"] },
   "Infusion or injection reactions": { general: ["infusion-reaction-management"], specific: ["premedication-before-reaction-prone-anticancer-drugs", "drug-desensitisation-after-anticancer-hypersensitivity"] },
   "Thyroid changes": { specific: ["irae-thyroid", "hypothyroidism-on-tyrosine-kinase-inhibitors"] },
@@ -236,7 +247,7 @@ export const SYMPTOM_PROTOCOLS: Record<string, { general?: string[]; specific?: 
   "High blood sugar": { specific: ["irae-diabetes", "hyperglycaemia-on-pi3k-akt-mtor-inhibitors"] },
   "Hot flushes, sexual or fertility effects": { general: ["sexual-health-assessment-and-interventions"], specific: ["hot-flushes-on-endocrine-therapy-non-hormonal-options"] },
   "Bone loss or fractures": { specific: ["bone-health-on-hormone-therapy"] },
-  "Blood chemistry or blood count changes (other)": { specific: ["hypomagnesaemia-on-egfr-antibodies", "hyperphosphataemia-on-fgfr-inhibitors"] },
+  "Blood chemistry or blood count changes (other)": { specific: ["hypomagnesaemia-on-egfr-antibodies", "hyperphosphataemia-on-fgfr-inhibitors", "low-potassium-and-low-phosphate-on-anticancer-drugs", "raised-lipids-and-weight-gain-on-lorlatinib-bexarotene-and-elacestrant"] },
 };
 
 /**
@@ -307,6 +318,35 @@ export const PROTOCOL_REACH: Record<string, ProtocolReach> = {
   "acute-oncology-telephone-triage": { products: "any", event: /\bdyspnoea\b|\bdyspnea\b|\bbreathless(?:ness)?\b/i },
   // "Which drugs cause photosensitivity is set out in each drug's label; this protocol does not list them."
   "sun-protection-during-and-after-cancer-treatment": { products: "any", event: /\bphotosensitivity\b/i },
+
+  // ---- The second round of side-effect protocols, written on 18 November 2026. Each reaches the products its own
+  // `drugs` list names and no others: every one of those lists holds only products whose label or guideline the
+  // protocol read for this problem, and its gaps name the products with the same side effect that it does not cover.
+  // "The other five rows are deliberately not covered": vorasidenib, intismeran autogene, ivermectin, Optune, piflufolastat.
+  "headache-on-anticancer-drugs": { products: "drugs" },
+  // Fulvestrant and vepdegestrant carry arthralgia and are named in its gaps; musculoskeletal pain rows are not its subject.
+  "joint-and-muscle-pain-on-anticancer-drugs": { products: "drugs", event: /\barthralgia\b|\bmyalgia\b|\bcramps\b|\bcpk\b|\bcreatine kinase\b/i },
+  // Low potassium and low phosphate only: the same products' other blood chemistry rows belong to other protocols or to none.
+  "low-potassium-and-low-phosphate-on-anticancer-drugs": { products: "drugs", event: /\bhypokala?emia\b|\bhypophosphata?emia\b/i },
+  // Lipids on its three products; weight gain on lorlatinib. Megestrol's weight gain is named in its gaps and is not in `drugs`.
+  "raised-lipids-and-weight-gain-on-lorlatinib-bexarotene-and-elacestrant": { products: "drugs", event: /\bhypercholesterola?emia\b|\bhypertriglycerida?emia\b|\bhyperlipida?emia\b|\bweight gain\b/i },
+  "cognitive-and-mood-effects-on-lorlatinib-and-avapritinib": { products: "drugs" },
+  // Dry mouth after head and neck radiotherapy is sent to other protocols; no source it read names other drugs.
+  "dry-mouth-from-cancer-drugs-and-radionuclide-therapy": { products: "drugs" },
+  // A label rule or work-up for each named product; the symptom guidelines it cites are for advanced cancer, not for every drug.
+  "breathlessness-and-cough-during-anticancer-treatment": { products: "drugs" },
+  // Bladder symptoms, BCG infection and a urinary infection on its four intravesical products; no other infection row.
+  "bladder-symptoms-and-infection-after-intravesical-therapy": { products: "drugs", event: /\bbcg\b|\burinary\b|\bbladder\b|\bmicturition\b|\bdysuria\b|\bhaematuria\b/i },
+  "ifosfamide-bladder-protection-and-encephalopathy": { products: "drugs" },
+  "second-cancers-after-anticancer-drug-treatment": { products: "drugs" },
+  "veno-occlusive-disease-on-inotuzumab-and-gemtuzumab-ozogamicin": { products: "drugs" },
+  // Tamoxifen's cataract and bemarituzumab's corneal events are named in its gaps; the cornea-toxic conjugates keep their own protocol.
+  "retinal-and-eye-effects-on-fgfr-mek-and-alk-inhibitors": { products: "drugs" },
+  // The two licensed lutetium-177 products; the actinium-225 agents are the first entry in its gaps.
+  "blood-count-and-kidney-monitoring-during-radioligand-therapy": { products: "drugs" },
+  "pancreatitis-and-raised-pancreatic-enzymes-on-targeted-drugs": { products: "drugs" },
+  // The HER2-targeted products whose labels carry an ejection fraction rule; not the anthracyclines in the same group.
+  "left-ventricular-dysfunction-on-her2-targeted-drugs": { products: "drugs" },
 };
 
 /** A care protocol for a symptom group; for a specific one, `drugs` are the products in the group's rows it reaches. */

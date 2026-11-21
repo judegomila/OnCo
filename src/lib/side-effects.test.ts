@@ -151,7 +151,7 @@ describe("side-effect protocols", () => {
     expect(forRow("blinatumomab", /infection/i)).toEqual(["bispecific-step-up-dosing"]);
     expect(rows.filter((r) => r.drugId === "amivantamab").flatMap((r) => rowProtocols(r, g))).not.toContain("bispecific-step-up-dosing");
     // Named products only, where the protocol says the rest of the class is outside its scope.
-    expect(forRow("datopotamab-deruxtecan", /keratitis/i)).toEqual([]);
+    expect(forRow("datopotamab-deruxtecan", /keratitis/i)).toEqual(["retinal-and-eye-effects-on-fgfr-mek-and-alk-inhibitors"]);
     expect(forRow("mirvetuximab-soravtansine", /keratopathy/i)).toEqual(["eye-care-with-ocular-toxic-antibody-drug-conjugates"]);
     expect(forRow("lapatinib", /diarrhoea/i)).toEqual(["treatment-induced-diarrhoea-grading-and-management"]);
     // Scalp cooling: cytotoxic chemotherapy for a solid tumour; not an antibody-drug conjugate, not a leukaemia regimen.
@@ -161,12 +161,12 @@ describe("side-effect protocols", () => {
     // Hormone therapy and bone; aromatase inhibitor joint pain and nobody else's.
     expect(forRow("letrozole", /fracture/i)).toEqual(["bone-health-on-hormone-therapy"]);
     expect(forRow("goserelin", /bone loss/i)).toEqual(["bone-health-on-hormone-therapy"]);
-    expect(forRow("letrozole", /arthralgia/i)).toEqual(["chronic-pain-in-cancer-survivors"]);
+    expect(forRow("letrozole", /arthralgia/i)).toEqual(["chronic-pain-in-cancer-survivors", "joint-and-muscle-pain-on-anticancer-drugs"]);
     expect(forRow("fulvestrant", /arthralgia/i)).toEqual([]);
     expect(forRow("cisplatin", /nephrotox/i)).toEqual(["renal-dose-adjustment-of-anticancer-drugs"]);
     expect(forRow("bevacizumab", /wound/i)).toEqual(["anti-vegf-drugs-around-surgery"]);
     expect(forRow("vorasidenib", /covid/i)).toEqual(["vaccination-around-cancer-treatment"]);
-    expect(forRow("belzutifan", /dyspnoea/i)).toEqual(["acute-oncology-telephone-triage"]);
+    expect(forRow("belzutifan", /dyspnoea/i)).toEqual(["acute-oncology-telephone-triage", "breathlessness-and-cough-during-anticancer-treatment"]);
     expect(forRow("vemurafenib", /photosens/i)).toContain("sun-protection-during-and-after-cancer-treatment");
   });
 
@@ -188,9 +188,48 @@ describe("side-effect protocols", () => {
 
   it("leaves a side effect without a protocol where none in the corpus fits", () => {
     // Each of these was read against the candidate protocol and left as a gap on purpose (scripts/measure-side-effect-chain.ts --gaps).
-    expect(forRow("belzutifan", /hypoxia/i)).toEqual([]);
-    expect(forRow("sotorasib", /cough/i)).toEqual([]);
     expect(forRow("venetoclax", /upper respiratory/i)).toEqual([]);
+    // The second round's protocols name these in their own gaps: read, and no rule found for them.
+    expect(forRow("tamoxifen", /cataract/i)).toEqual([]);
+    expect(forRow("bemarituzumab", /corneal/i)).toEqual([]);
+    expect(forRow("megestrol-progestins", /weight gain/i)).toEqual([]);
+    expect(forRow("vorasidenib", /headache/i)).toEqual([]);
+    expect(forRow("relacorilant", /hypokal/i)).toEqual([]);
+    expect(forRow("cretostimogene", /bladder spasm/i)).toEqual([]);
+  });
+
+  it("reaches the second round of protocols for rows that had none before they were written", () => {
+    // On 17 November each of these was a named gap. The protocols written on 18 November name these products in their
+    // own `drugs`, and the row now shows that protocol.
+    expect(forRow("belzutifan", /hypoxia/i)).toEqual(["breathlessness-and-cough-during-anticancer-treatment"]);
+    expect(forRow("sotorasib", /cough/i)).toEqual(["breathlessness-and-cough-during-anticancer-treatment"]);
+    expect(forRow("acalabrutinib", /headache/i)).toEqual(["headache-on-anticancer-drugs"]);
+    expect(forRow("pluvicto", /dry mouth/i)).toEqual(["dry-mouth-from-cancer-drugs-and-radionuclide-therapy"]);
+    expect(forRow("olaparib", /mds/i)).toEqual(["second-cancers-after-anticancer-drug-treatment"]);
+    expect(forRow("inotuzumab-ozogamicin", /veno-occlusive/i)).toEqual(["veno-occlusive-disease-on-inotuzumab-and-gemtuzumab-ozogamicin"]);
+    expect(forRow("erdafitinib", /central serous/i)).toEqual(["retinal-and-eye-effects-on-fgfr-mek-and-alk-inhibitors"]);
+    expect(forRow("lorlatinib", /cognitive/i)).toEqual(["cognitive-and-mood-effects-on-lorlatinib-and-avapritinib"]);
+    expect(forRow("lorlatinib", /weight gain/i)).toEqual(["raised-lipids-and-weight-gain-on-lorlatinib-bexarotene-and-elacestrant"]);
+    expect(forRow("ifosfamide", /encephalopathy/i)).toEqual(["ifosfamide-bladder-protection-and-encephalopathy"]);
+    expect(forRow("ifosfamide", /blood in the urine/i)).toEqual(["ifosfamide-bladder-protection-and-encephalopathy"]);
+    expect(forRow("bcg-intravesical", /bcg infection/i)).toEqual(["bladder-symptoms-and-infection-after-intravesical-therapy"]);
+    expect(forRow("asciminib", /pancreatic enzyme/i)).toEqual(["pancreatitis-and-raised-pancreatic-enzymes-on-targeted-drugs"]);
+    expect(forRow("lutathera", /lymphopenia/i)).toEqual(["blood-count-and-kidney-monitoring-during-radioligand-therapy"]);
+    // The heart rows of HER2-targeted drugs gain the product rules beside the general surveillance protocol.
+    expect(forRow("trastuzumab", /lvef/i)).toEqual(["cardio-oncology-risk-assessment-and-cardiac-surveillance", "left-ventricular-dysfunction-on-her2-targeted-drugs"]);
+    // The event patterns of the second round: low potassium is not high potassium or low magnesium, and so on.
+    const kpo = PROTOCOL_REACH["low-potassium-and-low-phosphate-on-anticancer-drugs"].event as RegExp;
+    expect(["Hypokalaemia", "Hypokalaemia (potassium decreased, laboratory)", "Hypophosphataemia"].every((e) => kpo.test(e))).toBe(true);
+    expect(["Hyperkalaemia", "Hyperphosphataemia", "Hypomagnesaemia", "Hypoalbuminaemia (albumin decrease, laboratory)", "Hypercholesterolaemia"].some((e) => kpo.test(e))).toBe(false);
+    const lipids = PROTOCOL_REACH["raised-lipids-and-weight-gain-on-lorlatinib-bexarotene-and-elacestrant"].event as RegExp;
+    expect(["Hypercholesterolaemia", "Hypertriglyceridaemia", "Weight gain"].every((e) => lipids.test(e))).toBe(true);
+    expect(["Hypokalaemia", "Weight loss", "Cognitive and mood effects", "Peripheral oedema"].some((e) => lipids.test(e))).toBe(false);
+    const msk = PROTOCOL_REACH["joint-and-muscle-pain-on-anticancer-drugs"].event as RegExp;
+    expect(["Arthralgia", "Myalgia/arthralgia", "Muscle cramps", "Increased CPK", "Creatine kinase (CPK) increased"].every((e) => msk.test(e))).toBe(true);
+    expect(["Musculoskeletal pain", "Muscle twitching", "Rhabdomyolysis"].some((e) => msk.test(e))).toBe(false);
+    const bladder = PROTOCOL_REACH["bladder-symptoms-and-infection-after-intravesical-therapy"].event as RegExp;
+    expect(["BCG infection or sepsis", "Urinary tract infection", "Bladder spasm", "Micturition urgency", "Dysuria", "Haematuria", "Urinary frequency"].every((e) => bladder.test(e))).toBe(true);
+    expect(["Upper respiratory infection", "Pneumonia", "Fever", "Infection"].some((e) => bladder.test(e))).toBe(false);
   });
 
   // The fourteen protocols written for side effects of targeted drugs, each under the groups it manages. A specific one
@@ -214,6 +253,72 @@ describe("side-effect protocols", () => {
     { group: "Tumour flare", id: "tumour-flare-on-bispecific-antibodies-and-immunomodulatory-drugs", beside: ["glofitamab"] },
     { group: "Constipation", id: "constipation-in-adults-with-cancer", general: true },
   ];
+
+  // The sixteen protocols of the second round (18 November 2026), pinned the same way.
+  const SECOND_ROUND: typeof TARGETED = [
+    { group: "Headache", id: "headache-on-anticancer-drugs", beside: ["acalabrutinib", "blinatumomab", "talazoparib", "trastuzumab-emtansine"], notBeside: ["vorasidenib", "intismeran-autogene", "ivermectin", "optune", "pylarify"] },
+    { group: "Muscle or joint pain", id: "joint-and-muscle-pain-on-anticancer-drugs", beside: ["letrozole", "paclitaxel", "ibrutinib", "imatinib", "vimseltinib"], notBeside: ["fulvestrant", "intismeran-autogene", "ivermectin", "optune"] },
+    { group: "Blood chemistry or blood count changes (other)", id: "low-potassium-and-low-phosphate-on-anticancer-drugs", beside: ["quizartinib", "nirogacestat", "dinutuximab"], notBeside: ["lutathera", "relacorilant", "tagraxofusp", "lorlatinib", "cetuximab", "erdafitinib"] },
+    { group: "Blood chemistry or blood count changes (other)", id: "raised-lipids-and-weight-gain-on-lorlatinib-bexarotene-and-elacestrant", beside: ["lorlatinib", "elacestrant"], notBeside: ["quizartinib", "nirogacestat", "cetuximab", "ivosidenib"] },
+    { group: "Weight gain", id: "raised-lipids-and-weight-gain-on-lorlatinib-bexarotene-and-elacestrant", beside: ["lorlatinib"], notBeside: ["megestrol-progestins"] },
+    { group: "Memory, thinking or mood changes", id: "cognitive-and-mood-effects-on-lorlatinib-and-avapritinib", beside: ["lorlatinib", "avapritinib"] },
+    { group: "Taste changes", id: "taste-changes-during-cancer-treatment", general: true },
+    { group: "Dry mouth", id: "dry-mouth-from-cancer-drugs-and-radionuclide-therapy", beside: ["pluvicto", "radioactive-iodine", "futibatinib", "selpercatinib", "ac225-psma"] },
+    { group: "Breathlessness or cough", id: "breathlessness-and-cough-during-anticancer-treatment", beside: ["belzutifan", "dasatinib", "pazopanib", "sotorasib", "atezolizumab", "durvalumab"] },
+    { group: "Bladder symptoms", id: "bladder-symptoms-and-infection-after-intravesical-therapy", beside: ["bcg-intravesical", "nadofaragene-firadenovec", "nogapendekin-alfa", "tar-200"], notBeside: ["ifosfamide", "cretostimogene"] },
+    { group: "Bladder symptoms", id: "ifosfamide-bladder-protection-and-encephalopathy", beside: ["ifosfamide"], notBeside: ["bcg-intravesical", "tar-200", "cretostimogene"] },
+    { group: "Infections", id: "bladder-symptoms-and-infection-after-intravesical-therapy", beside: ["bcg-intravesical", "tar-200"], notBeside: ["venetoclax", "zanubrutinib", "durvalumab", "gemtuzumab-ozogamicin", "blinatumomab"] },
+    { group: "Confusion or brain effects (neurotoxicity, ICANS)", id: "ifosfamide-bladder-protection-and-encephalopathy", beside: ["ifosfamide"], notBeside: ["ivermectin", "tarlatamab", "blinatumomab"] },
+    { group: "Second cancers", id: "second-cancers-after-anticancer-drug-treatment", beside: ["olaparib", "niraparib", "lutathera", "vemurafenib", "encorafenib", "ripretinib", "tamoxifen", "lenalidomide", "ciltacabtagene-autoleucel"] },
+    { group: "Liver inflammation or raised liver enzymes", id: "veno-occlusive-disease-on-inotuzumab-and-gemtuzumab-ozogamicin", beside: ["inotuzumab-ozogamicin", "gemtuzumab-ozogamicin"], notBeside: ["ribociclib", "pembrolizumab", "lutathera", "ivermectin"] },
+    { group: "Liver inflammation or raised liver enzymes", id: "blood-count-and-kidney-monitoring-during-radioligand-therapy", beside: ["lutathera"], notBeside: ["ribociclib", "pembrolizumab", "inotuzumab-ozogamicin", "ivermectin"] },
+    { group: "Low lymphocytes (lymphopenia)", id: "blood-count-and-kidney-monitoring-during-radioligand-therapy", beside: ["lutathera", "pluvicto"], notBeside: ["ribociclib", "ryz101"] },
+    { group: "Low red cells (anaemia)", id: "blood-count-and-kidney-monitoring-during-radioligand-therapy", beside: ["pluvicto"], notBeside: ["ac225-psma"] },
+    { group: "Low platelets (thrombocytopenia)", id: "blood-count-and-kidney-monitoring-during-radioligand-therapy", beside: ["pluvicto"], notBeside: ["ac225-psma"] },
+    { group: "Eye problems", id: "retinal-and-eye-effects-on-fgfr-mek-and-alk-inhibitors", beside: ["erdafitinib", "pemigatinib", "camizestrant", "datopotamab-deruxtecan"], notBeside: ["tamoxifen", "bemarituzumab", "mirvetuximab-soravtansine", "belantamab-mafodotin"] },
+    { group: "Pancreas inflammation or raised pancreatic enzymes", id: "pancreatitis-and-raised-pancreatic-enzymes-on-targeted-drugs", beside: ["asciminib", "ponatinib"] },
+    { group: "Heart muscle weakness or inflammation", id: "left-ventricular-dysfunction-on-her2-targeted-drugs", beside: ["trastuzumab", "pertuzumab", "trastuzumab-emtansine", "zanidatamab", "margetuximab"], notBeside: ["doxorubicin", "carfilzomib", "osimertinib"] },
+  ];
+
+  it("lists the sixteen second-round protocols under the groups they manage, each with a reach of its own products", () => {
+    expect(new Set(SECOND_ROUND.map((t) => t.id)).size).toBe(16);
+    for (const t of SECOND_ROUND) {
+      const spec = SYMPTOM_PROTOCOLS[t.group];
+      expect((t.general ? spec?.general : spec?.specific) ?? [], `${t.group}: ${t.id}`).toContain(t.id);
+      expect((t.general ? spec?.specific : spec?.general) ?? [], `${t.group}: ${t.id}`).not.toContain(t.id);
+      // A specific one reaches the products its own `drugs` list names, never a shared technology.
+      if (!t.general) expect(PROTOCOL_REACH[t.id]?.products, t.id).toBe("drugs");
+    }
+    // Adding to a group kept what was already there.
+    for (const [group, id] of [["Muscle or joint pain", "chronic-pain-in-cancer-survivors"], ["Breathlessness or cough", "acute-oncology-telephone-triage"], ["Eye problems", "eye-care-with-ocular-toxic-antibody-drug-conjugates"], ["Liver inflammation or raised liver enzymes", "raised-liver-enzymes-on-targeted-anticancer-drugs"], ["Infections", "bispecific-step-up-dosing"], ["Blood chemistry or blood count changes (other)", "hyperphosphataemia-on-fgfr-inhibitors"]]) {
+      expect(SYMPTOM_PROTOCOLS[group].specific, group).toContain(id);
+    }
+    expect(SYMPTOM_PROTOCOLS["Heart muscle weakness or inflammation"].general).toContain("cardio-oncology-risk-assessment-and-cardiac-surveillance");
+  });
+
+  it("shows each second-round protocol beside the products it names and beside no other cause of the same symptom", () => {
+    for (const t of SECOND_ROUND) {
+      const shown = (byGroup[t.group] ?? []).find((p) => p.id === t.id);
+      expect(shown, `${t.group}: ${t.id} is shown`).toBeDefined();
+      if (!shown) continue;
+      expect(shown.general, t.id).toBe(Boolean(t.general));
+      const inGroup = new Set(rows.filter((r) => r.group === t.group).map((r) => r.drugId));
+      for (const d of t.beside ?? []) expect(shown.drugs, `${t.group}: ${t.id} beside ${d}`).toContain(d);
+      for (const d of t.notBeside ?? []) {
+        expect(inGroup.has(d), `${d} has a row in ${t.group}`).toBe(true);
+        expect(shown.drugs, `${t.group}: ${t.id} not beside ${d}`).not.toContain(d);
+      }
+      const rec = g.must(t.id);
+      if (rec.kind === "protocol" && !t.general) for (const d of shown.drugs) expect(rec.drugs, `${t.id} names ${d}`).toContain(d);
+    }
+    // The liver and fluid protocols extended on 18 November reach the products added to their own lists, and no more.
+    const liver = (byGroup["Liver inflammation or raised liver enzymes"] ?? []).find((p) => p.id === "raised-liver-enzymes-on-targeted-anticancer-drugs")?.drugs ?? [];
+    for (const d of ["gilteritinib", "olutasidenib", "enasidenib", "zynlonta"]) expect(liver, d).toContain(d);
+    for (const d of ["inotuzumab-ozogamicin", "gemtuzumab-ozogamicin", "lutathera"]) expect(liver, d).not.toContain(d);
+    const fluid = (byGroup["Fluid retention (swelling, effusions)"] ?? []).find((p) => p.id === "fluid-retention-and-effusions-on-kinase-inhibitors")?.drugs ?? [];
+    for (const d of ["vimseltinib", "telisotuzumab-vedotin"]) expect(fluid, d).toContain(d);
+    expect(fluid).not.toContain("zynlonta");
+  });
 
   it("lists the fourteen targeted-drug protocols under the groups they manage", () => {
     expect(new Set(TARGETED.map((t) => t.id)).size).toBe(14);

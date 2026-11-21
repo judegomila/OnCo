@@ -111,6 +111,22 @@ import { peopleCR } from "./country-cr";
 import { peoplePY } from "./country-py";
 import { peopleRW } from "./country-rw"; // wave 12
 import { peopleGN } from "./country-gn"; // wave 12
+import { peopleJM } from "./country-jm"; // wave 16
+import { peopleTT } from "./country-tt"; // wave 16
+import { peopleBS } from "./country-bs"; // wave 16
+import { peopleBB } from "./country-bb"; // wave 16
+import { peopleBZ } from "./country-bz"; // wave 16
+import { peopleGY } from "./country-gy"; // wave 16
+import { peopleSR } from "./country-sr"; // wave 16
+import { peopleLC } from "./country-lc"; // wave 16
+import { peopleCW } from "./country-cw"; // wave 16
+import { peopleFJ } from "./country-fj"; // wave 16
+import { peopleWS } from "./country-ws"; // wave 16
+import { peopleSB } from "./country-sb"; // wave 16
+import { peopleVU } from "./country-vu"; // wave 16
+import { peopleGU } from "./country-gu"; // wave 16
+import { peoplePF } from "./country-pf"; // wave 16
+import { peopleNC } from "./country-nc"; // wave 16
 import { peopleMD } from "./country-md"; // wave 12
 import { peopleLV } from "./country-lv"; // wave 12
 import { peopleHN } from "./country-hn"; // wave 12
@@ -119,6 +135,54 @@ import { peopleSO } from "./country-so"; // wave 12
 import { peopleJO } from "./country-jo"; // wave 12
 import { peopleSV } from "./country-sv"; // wave 12
 import { peoplePA } from "./country-pa"; // wave 12
+import { peopleAE } from "./country-ae"; // wave 13
+import { peopleKW } from "./country-kw"; // wave 13
+import { peopleQA } from "./country-qa"; // wave 13
+import { peopleOM } from "./country-om"; // wave 13
+import { peopleBH } from "./country-bh"; // wave 13
+import { peopleLY } from "./country-ly"; // wave 13
+import { peoplePS } from "./country-ps"; // wave 13
+import { peopleCY } from "./country-cy"; // wave 13
+import { peopleMT } from "./country-mt"; // wave 13
+import { peopleLU } from "./country-lu"; // wave 13
+import { peopleIS } from "./country-is"; // wave 13
+import { peopleEE } from "./country-ee"; // wave 13
+import { peopleAL } from "./country-al"; // wave 13
+import { peopleMK } from "./country-mk"; // wave 13
+import { peopleME } from "./country-me"; // wave 13
+import { peopleMN } from "./country-mn"; // wave 13
+import { peopleSL } from "./country-sl"; // wave 14
+import { peopleLR } from "./country-lr"; // wave 14
+import { peopleTG } from "./country-tg"; // wave 14
+import { peopleBJ } from "./country-bj"; // wave 14
+import { peopleGM } from "./country-gm"; // wave 14
+import { peopleGW } from "./country-gw"; // wave 14
+import { peopleMR } from "./country-mr"; // wave 14
+import { peopleCV } from "./country-cv"; // wave 14
+import { peopleST } from "./country-st"; // wave 14
+import { peopleGA } from "./country-ga"; // wave 14
+import { peopleCG } from "./country-cg"; // wave 14
+import { peopleCF } from "./country-cf"; // wave 14
+import { peopleGQ } from "./country-gq"; // wave 14
+import { peopleBI } from "./country-bi"; // wave 14
+import { peopleSS } from "./country-ss"; // wave 14
+import { peopleER } from "./country-er"; // wave 14
+import { peopleNA } from "./country-na"; // wave 15
+import { peopleBW } from "./country-bw"; // wave 15
+import { peopleLS } from "./country-ls"; // wave 15
+import { peopleSZ } from "./country-sz"; // wave 15
+import { peopleMU } from "./country-mu"; // wave 15
+import { peopleKM } from "./country-km"; // wave 15
+import { peopleDJ } from "./country-dj"; // wave 15
+import { peopleMV } from "./country-mv"; // wave 15
+import { peopleBT } from "./country-bt"; // wave 15
+import { peopleLA } from "./country-la"; // wave 15
+import { peopleTL } from "./country-tl"; // wave 15
+import { peopleBN } from "./country-bn"; // wave 15
+import { peopleKG } from "./country-kg"; // wave 15
+import { peopleTJ } from "./country-tj"; // wave 15
+import { peopleTM } from "./country-tm"; // wave 15
+import { peopleNI } from "./country-ni"; // wave 15
 
 /** People (clinicians, scientists, leaders, and the heroes of /heroes/) grouped by file. Register each file here. */
 const files: PersonInput[][] = [peopleEurope, peopleAsiaPacific, peopleUsEast, peopleUsWest, heroes, heroesDonors, peopleLeadersWave2, peopleLeadersWave3, peopleLeadersWave4, peopleIndia, peopleIsrael, peopleChina, peopleKeyOpinionLeaders, peopleVirotherapy, peopleAU, peopleES, peopleBR, peopleSE, peopleCH, peopleID, peoplePK, peopleTR, peopleBD, peopleIR, peopleMX, peopleEG, peoplePL, peopleNG, peopleTH, peopleVN, peoplePH, peopleET, peopleZA, peopleCO, peopleAR, peopleUA, peopleRO, peopleMY, peopleDZ, peopleTW];
@@ -136,5 +200,12 @@ files.push(peopleTD, peopleLB, peopleBO, peopleZM, peoplePR, peopleUY, peopleLT,
 files.push(peopleAZ, peopleBA, peopleHT, peopleSN, peopleSI, peopleML, peoplePG, peopleBF, peopleCR, peoplePY);
 // Country deep dives, wave 12.
 files.push(peopleRW, peopleGN, peopleMD, peopleLV, peopleHN, peopleAM, peopleSO, peopleJO, peopleSV, peoplePA);
+files.push(peopleJM, peopleTT, peopleBS, peopleBB, peopleBZ, peopleGY, peopleSR, peopleLC, peopleCW, peopleFJ, peopleWS, peopleSB, peopleVU, peopleGU, peoplePF, peopleNC); // wave 16
+// Country deep dives, wave 13.
+files.push(peopleAE, peopleKW, peopleQA, peopleOM, peopleBH, peopleLY, peoplePS, peopleCY, peopleMT, peopleLU, peopleIS, peopleEE, peopleAL, peopleMK, peopleME, peopleMN);
+// Country deep dives, wave 14.
+files.push(peopleSL, peopleLR, peopleTG, peopleBJ, peopleGM, peopleGW, peopleMR, peopleCV, peopleST, peopleGA, peopleCG, peopleCF, peopleGQ, peopleBI, peopleSS, peopleER);
+// Country deep dives, wave 15.
+files.push(peopleNA, peopleBW, peopleLS, peopleSZ, peopleMU, peopleKM, peopleDJ, peopleMV, peopleBT, peopleLA, peopleTL, peopleBN, peopleKG, peopleTJ, peopleTM, peopleNI);
 export const people: PersonInput[] = files.flat();
 people.push(...peopleAF, ...peopleBG, ...peopleNO, ...peopleFI, ...peopleKP, ...peopleKH, ...peopleIE, ...peopleZW, ...peopleAO, ...peopleTN);

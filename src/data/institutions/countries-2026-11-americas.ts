@@ -46,6 +46,7 @@ import type { InstitutionInput } from "@/lib/schema";
  * returned 404; ESMO's page for INCAN returned 404. National cancer registries were not found for any country here
  * except Guatemala (the Liga's registry department); Saint Lucia's Ministry of Health and its hospitals could not be read,
  * so no Saint Lucia record is written.
+ * (Wave 16 later added four Saint Lucia institutions in src/data/country-records-lc.ts, from PAHO, EU and published sources.)
  */
 const asOf = "2026-11-11";
 type I = Omit<InstitutionInput, "kind" | "asOf">;
@@ -303,7 +304,8 @@ const institutions: InstitutionInput[] = [
     tldr: "Nicaragua's Ministry of Health. It runs the public hospitals, including the national radiotherapy hospital in Managua, and through its health regulation authority it registers medicines.",
     summary: "MINSA's site lists its Autoridad Nacional de Regulación Sanitaria among its entities and offers the health registration of pharmaceutical products as an online service. Its list of hospitals names the Hospital Nacional de Radioterapia \"Nora Astorga\" in Managua as a hospital with national referral services, and its list of specialised centres includes a Centro Oncológico de Quimioterapias y Cuidados Paliativos in Managua. Coordinates are Wikidata's (Q30282287).",
     programs: ["Autoridad Nacional de Regulación Sanitaria (medicines registration)", "Public hospital network"],
-    institutions: ["nora-astorga-radiotherapy-nicaragua", "hospital-escuela-davila-bolanos"],
+    institutions: ["nora-astorga-radiotherapy-nicaragua", "hospital-escuela-davila-bolanos", "hospital-infantil-manuel-de-jesus-rivera-la-mascota"],
+    keyPapers: ["paper-holme-hpv-screening-nicaragua-bmcph-2020", "paper-pena-galo-gastric-cancer-mortality-nicaragua-cebp-2024"],
     links: [{ label: "MINSA Nicaragua: home page", url: "https://www.minsa.gob.ni/" }, { label: "MINSA Nicaragua: hospitals", url: MINSA_NI_HOSPITALS }, { label: "MINSA Nicaragua: specialised centres", url: "https://www.minsa.gob.ni/index.php/red-de-salud/centros-especializados" }] }),
 
   i({ id: "nora-astorga-radiotherapy-nicaragua", name: "Centro Nacional de Radioterapia Nora Astorga", aka: ["Hospital Nacional de Radioterapia Nora Astorga", "Nora Astorga National Radiotherapy Centre"],
@@ -333,8 +335,8 @@ const institutions: InstitutionInput[] = [
 
   i({ id: "uwi-mona", name: "The University of the West Indies, Mona", aka: ["UWI Mona", "University of the West Indies Mona campus"],
     city: "Kingston", country: "JM", lat: 18.005, lng: -76.745, institutionType: "university", website: "https://www.mona.uwi.edu",
-    tldr: "The Jamaican campus of the regional University of the West Indies, with a Faculty of Medical Sciences, and a site for a cancer trial run in Jamaica and Barbados.",
-    summary: "UWI Mona is the Jamaican campus of the University of the West Indies, with a Faculty of Medical Sciences that held its 32nd annual research conference in November 2026. The conference note comes from the campus home page, which no longer carried it when re-read on 17 November 2026, and the faculty's own page refused the request. ClinicalTrials.gov lists The University of the West Indies, Mona as a site of NCT07528768 (HEADWATERS), a planned phase 2 trial of gemcitabine against paclitaxel for metastatic triple-negative breast cancer in women of African ancestry, alongside the Queen Elizabeth Hospital in Barbados. Coordinates are Nominatim's.",
+    tldr: "The Jamaican campus of the regional University of the West Indies, with a Faculty of Medical Sciences, and a site for a cancer trial run in Jamaica, Barbados and Ghana.",
+    summary: "UWI Mona is the Jamaican campus of the University of the West Indies, with a Faculty of Medical Sciences that held its 32nd annual research conference in November 2026. The conference note comes from the campus home page, which no longer carried it when re-read on 17 November 2026, and the faculty's own page refused the request. ClinicalTrials.gov lists The University of the West Indies, Mona as a site of NCT07528768 (HEADWATERS), a planned phase 2 trial of gemcitabine against paclitaxel for metastatic triple-negative breast cancer in women of African ancestry, alongside the Queen Elizabeth Hospital in Barbados and Korle Bu Teaching Hospital in Ghana. Coordinates are Nominatim's.",
     programs: ["Faculty of Medical Sciences", "Clinical trial site (NCT07528768)"],
     institutions: ["nhf-jamaica", "qeh-barbados"],
     links: [{ label: "UWI Mona: home page", url: "https://www.mona.uwi.edu/" }, ct("NCT07528768")] }),
@@ -399,8 +401,8 @@ const institutions: InstitutionInput[] = [
   // Guyana (GY)
   i({ id: "moh-guyana", name: "Guyana Ministry of Health", aka: ["Ministry of Health, Guyana", "MoH Guyana"],
     city: "Georgetown", country: "GY", lat: 6.803, lng: -58.146, institutionType: "government", website: "https://health.gov.gy",
-    tldr: "Guyana's Ministry of Health. Since June 2024 it has given women aged 21 to 65 a voucher worth 8,000 Guyanese dollars for a cervical cancer screening test.",
-    summary: "The Ministry of Health's Cervical Cancer Screening Voucher Programme, launched on 21 June 2024, gives eligible women a government voucher of GYD 8,000 that covers a test for human papillomavirus (HPV) and other screening procedures at approved facilities; its home page gives the eligible ages as 21 to 65. The Cancer Institute of Guyana says it was set up as a project between the Ministry and Global Imaging Services. The coordinates are an approximate Georgetown city point.",
+    tldr: "Guyana's Ministry of Health. Since June 2024 it has given women aged 21 to 65 a voucher valued at $8,000 (the Ministry's page names no currency; Guyanese dollars are assumed) for a cervical cancer screening test.",
+    summary: "The Ministry of Health's Cervical Cancer Screening Voucher Programme, launched on 21 June 2024, gives eligible women a government voucher valued at $8,000 (the page names no currency; Guyanese dollars are assumed) that covers a test for human papillomavirus (HPV) and other screening procedures at approved facilities; its home page gives the eligible ages as 21 to 65. The Cancer Institute of Guyana says it was set up as a project between the Ministry and Global Imaging Services. The coordinates are an approximate Georgetown city point.",
     programs: ["Cervical Cancer Screening Voucher Programme (from June 2024)", "Universal Health Voucher for laboratory tests"],
     institutions: ["gphc-guyana", "cancer-institute-of-guyana"],
     cancers: ["cervical"],
@@ -438,7 +440,7 @@ const institutions: InstitutionInput[] = [
     summary: "The UK government's list of medical facilities in the Bahamas gives Princess Margaret Hospital, on Shirley Street, Nassau, as a public and private hospital with an oncology clinic among its specialised services; Rand Memorial Hospital in Freeport also lists oncology. In October 2020 The Tribune reported that Grand Bahama cancer patients who travel to Nassau for chemotherapy at the oncology centre at PMH could not do so during the five-month COVID-19 shutdown, and that the Cancer Society of the Bahamas in Grand Bahama was asking for an oncology centre in Freeport. The Public Hospitals Authority's website is under construction. Coordinates are Nominatim's.",
     programs: ["Oncology clinic and chemotherapy for public patients"],
     institutions: ["radiation-therapy-services-bahamas"],
-    links: [{ label: "GOV.UK: Bahamas medical facilities", url: "https://www.gov.uk/government/publications/list-of-medical-facilitiespractitioners-in-bahamas/bahamas-medical-facilities" }, { label: "The Tribune: COVID limits show need for Freeport cancer centre (October 2020)", url: "https://www.tribune242.com/news/2020/oct/13/covid-limits-show-need-freeport-cancer-centre/" }] }),
+    keyPapers: ["paper-jones-cervix-radiotherapy-bahamas-ccc-2017"], links: [{ label: "GOV.UK: Bahamas medical facilities", url: "https://www.gov.uk/government/publications/list-of-medical-facilitiespractitioners-in-bahamas/bahamas-medical-facilities" }, { label: "The Tribune: COVID limits show need for Freeport cancer centre (October 2020)", url: "https://www.tribune242.com/news/2020/oct/13/covid-limits-show-need-freeport-cancer-centre/" }] }),
 
   i({ id: "radiation-therapy-services-bahamas", name: "Radiation Therapy Services Bahamas Limited", aka: ["Radiation Therapy Services Bahamas"],
     city: "Nassau", country: "BS", lat: 25.066, lng: -77.336, institutionType: "cancer-center",

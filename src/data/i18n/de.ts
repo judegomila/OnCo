@@ -4202,7 +4202,6 @@ export const tldr_de: Record<string, string> = {
   "ayurvedic-medicine-cancer": "Ayurveda, die traditionelle Medizin Indiens, bietet Ernährung, Yoga, Kräuter und Mineralpräparate. Für Yoga selbst gibt es gute Belege; für die Kräuter- und Mineralmittel wurde keine Wirkung gegen Krebs nachgewiesen, und in einer Studie enthielt ein Fünftel der online verkauften Produkte Blei, Quecksilber oder Arsen.",
   "az-groeninge-kortrijk": "Ein großes flämisches Allgemeinkrankenhaus, dessen Krebszentrum die OECI-Akkreditierung als Cancer Centre besitzt, eines der wenigen nichtuniversitären Krankenhäuser in Europa mit dieser Auszeichnung.",
   "b-braun": "Deutsches Medizintechnikunternehmen, das Celsite-Portsysteme, elastomere Easypump-Pumpen, Infusionssysteme und zytostatikasichere Verbrauchsmaterialien liefert.",
-  "bahrain-oncology-centre": "Bahrains nationales Krebszentrum, Teil des King Hamad University Hospital, das im Königreich Strahlentherapie, Chemotherapie und Knochenmarktransplantation anbietet.",
   "bas-raaymakers": "Physiker, der den MR-Linac erfand und es der Strahlentherapie damit ermöglichte, den Tumor in Echtzeit zu sehen und sich anzupassen.",
   baxter: "Infusionspumpen (Spectrum, Novum), elastomere ambulante Pumpen (Infusor), Infusionslösungen und generische Injektabilia.",
   "beatriz-castelo": "Beatriz Castelo ist medizinische Onkologin im Kopf-Hals-Programm von La Paz.",

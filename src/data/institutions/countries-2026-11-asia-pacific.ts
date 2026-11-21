@@ -152,8 +152,9 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "The cancer unit at Mittaphab Hospital in Vientiane, giving chemotherapy, palliative care and, since 2017, radiotherapy. It keeps a hospital cancer registry going back to 2010.",
     summary: "UICC's member page for the National Cancer Center Laos (an Associate Member) says the Laos Oncology Unit is part of Mittaphab Central Hospital in Vientiane Capital, with limited facilities and staff, providing chemotherapy and palliative care, with radiotherapy since 2017. IAEA DIRAC lists the Mittaphab Central Cancer Hospital on Phontong-Dongdok road with one linear accelerator and no brachytherapy unit (entry updated 2022). A 2026 analysis of its hospital-based registry (BMC Public Health) counted 1,738 cancers recorded from 2010 to 2024: liver and bile duct cancer was the commonest in men (15.1%) and cervical cancer in women (41.1%); cases were concentrated around Vientiane, and the authors note that Laos has no national population-based registry. The coordinates are an approximate Vientiane city point, as DIRAC's point falls outside the city.",
     programs: ["Chemotherapy", "Palliative care", "Radiotherapy since 2017 (one linear accelerator in IAEA DIRAC)", "Hospital-based cancer registry (2010 onwards)"],
-    institutions: ["lao-food-and-drug-department", "iaea"],
+    institutions: ["lao-food-and-drug-department", "iaea", "lao-ministry-of-health"],
     cancers: ["cervical", "hcc", "breast-cancer"],
+    keyPapers: ["paper-vongdala-hospital-cancer-registry-lao-bmcph-2026"],
     links: [
       uicc("national-cancer-center-laos", "National Cancer Center Laos"),
       DIRAC,
@@ -165,7 +166,7 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "The department of Laos's Ministry of Health that registers medicines and food products and controls their import.",
     summary: "The Food and Drug Department is a department of the Lao Ministry of Health. Its site, in Lao, publishes the laws and regulations it applies, registration of products, guidance manuals, import procedures, product information and statistics. OnCo read no description of how it assesses cancer medicines and no WHO maturity rating for it. The coordinates are an approximate Vientiane city point.",
     programs: ["Product registration", "Import control"],
-    institutions: ["national-cancer-center-laos"],
+    institutions: ["national-cancer-center-laos", "lao-ministry-of-health"],
     links: [{ label: "Food and Drug Department, Lao PDR", url: "https://www.fdd.gov.la" }] }),
 
   // ── Kyrgyzstan (KG) ──────────────────────────────────────────────────────────────────────────────────────────
@@ -174,7 +175,7 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "Kyrgyzstan's national centre for cancer and blood diseases in Bishkek, which gives radiotherapy, including internal radiotherapy (brachytherapy).",
     summary: "IAEA DIRAC lists the National Center of Oncology and Hematology of the Kyrgyz Republic at Akhunbaeva 92 in Bishkek as a radiotherapy centre with one cobalt-60 teletherapy unit, one cobalt-60 high-dose-rate brachytherapy unit, one CT scanner and no linear accelerator (entry updated 2025); it is the one centre DIRAC lists for the country. Its staff publish with the Kyrgyz State Medical Academy on cervical cancer, including a 2024 paper on years of life lost and a 2026 paper on morbidity and mortality in Osh oblast. The UICC member Ergene says it develops cancer control programmes with the national centre of oncology. Coordinates are DIRAC's.",
     programs: ["Radiotherapy (cobalt-60 teletherapy and brachytherapy in IAEA DIRAC)", "Haematology"],
-    institutions: ["kg-mandatory-health-insurance-fund", "kg-department-of-medicines", "ergene-kyrgyzstan", "vmeste-protiv-raka-kyrgyzstan", "iaea"],
+    institutions: ["kg-mandatory-health-insurance-fund", "kg-department-of-medicines", "ergene-kyrgyzstan", "vmeste-protiv-raka-kyrgyzstan", "iaea", "kg-ministry-of-health", "kg-osh-interregional-oncology-centre"],
     cancers: ["cervical"],
     links: [
       DIRAC,
@@ -187,7 +188,7 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "Kyrgyzstan's public health insurer, which sits under the Ministry of Health, pays health facilities and runs the scheme for subsidised medicines.",
     summary: "The Mandatory Health Insurance Fund under the Ministry of Health of the Kyrgyz Republic finances health organisations working in the single-payer system, administers the State Guarantees Programme for medical care and the programme of subsidised (preferential) medicines, and runs a telephone hotline, 113, according to its own site. In 2026 its site reported a presidential decree for a pilot of a new model of the State Guarantees Programme. OnCo did not read which cancer medicines or treatments the programmes cover. The coordinates are an approximate Bishkek city point.",
     programs: ["State Guarantees Programme", "Subsidised medicines programme", "Single-payer financing of health facilities"],
-    institutions: ["kg-national-center-of-oncology-and-hematology"],
+    institutions: ["kg-national-center-of-oncology-and-hematology", "kg-ministry-of-health"],
     links: [{ label: "Mandatory Health Insurance Fund of the Kyrgyz Republic", url: "https://foms.kg" }] }),
 
   i({ id: "kg-department-of-medicines", name: "Department of Medicines and Medical Devices, Kyrgyzstan", aka: ["Департамент лекарственных средств и медицинских изделий при Министерстве здравоохранения Кыргызской Республики", "DLS Kyrgyzstan", "ДЛС и МИ"],
@@ -195,7 +196,7 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "Kyrgyzstan's medicines regulator, part of the Ministry of Health. It registers medicines and devices, keeps the national register and list of essential medicines, and monitors side effects.",
     summary: "The Department of Medicines and Medical Devices under the Ministry of Health implements state policy on supplying the population and health facilities with medicines and medical devices and runs the system for controlling their safety, efficacy and quality, according to its own site. The site publishes the State Register of medicines and medical devices, the list of vital and essential medicines, registration under the rules of the Eurasian Economic Union, pharmacovigilance reporting, pharmaceutical inspection, its quality-control laboratories, price regulation and traceability. The coordinates are an approximate Bishkek city point.",
     programs: ["Registration of medicines and devices (Eurasian Economic Union rules)", "State Register of medicines and medical devices", "List of vital and essential medicines", "Pharmacovigilance", "Price regulation"],
-    institutions: ["kg-national-center-of-oncology-and-hematology"],
+    institutions: ["kg-national-center-of-oncology-and-hematology", "kg-ministry-of-health"],
     links: [{ label: "Department of Medicines and Medical Devices, Kyrgyz Republic", url: "https://www.dlsmi.kg" }] }),
 
   i({ id: "ergene-kyrgyzstan", name: "Public Foundation Ergene", aka: ["Общественный фонд «Эргэнэ»", "Ergene"],
@@ -222,7 +223,7 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "A state cancer centre in Dushanbe that gives radiotherapy, including internal radiotherapy.",
     summary: "IAEA DIRAC lists the State Institution \"Oncological Scientific Centre\" at Ismoili Somoni 59A in Dushanbe as a radiotherapy centre with one cobalt-60 teletherapy unit, one cobalt-60 brachytherapy unit, a simulator and no linear accelerator or CT scanner (entry updated 2026). DIRAC lists one other centre in Tajikistan, in Khujand. OnCo read no website of the centre. The coordinates are an approximate Dushanbe city point, as DIRAC's point falls outside the city.",
     programs: ["Radiotherapy (cobalt-60 teletherapy and brachytherapy in IAEA DIRAC)"],
-    institutions: ["tj-sughd-regional-oncology-centre", "avesto-tajikistan", "iaea"],
+    institutions: ["tj-sughd-regional-oncology-centre", "avesto-tajikistan", "iaea", "tj-ministry-of-health-and-social-protection"],
     links: [DIRAC] }),
 
   i({ id: "tj-sughd-regional-oncology-centre", name: "Sughd Regional Oncology Centre", aka: ["Sughd Oblast Oncology Centre"],
@@ -230,7 +231,7 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "A regional cancer centre in Khujand, northern Tajikistan, with a cobalt radiotherapy machine.",
     summary: "IAEA DIRAC lists the Sughd Regional Oncology Centre at No. 4 S. Hakimboev street, Khujand, as a radiotherapy centre with one cobalt-60 teletherapy unit and no brachytherapy unit or CT scanner (entry updated 2021). OnCo read no other source on the centre. Coordinates are DIRAC's.",
     programs: ["Radiotherapy (one cobalt-60 unit in IAEA DIRAC)"],
-    institutions: ["tj-oncological-scientific-centre"],
+    institutions: ["tj-oncological-scientific-centre", "tj-ministry-of-health-and-social-protection"],
     links: [DIRAC] }),
 
   i({ id: "avesto-tajikistan", name: "NGO AVESTO Tajikistan", aka: ["AVESTO"],
@@ -248,7 +249,7 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "The cancer centre in Turkmenistan's capital, which the International Atomic Energy Agency lists with two linear accelerators for radiotherapy.",
     summary: "IAEA DIRAC lists the Oncology Centre Ashgabat with two linear accelerators and one brachytherapy unit (entry updated 2018). DIRAC lists four other radiotherapy centres in Turkmenistan, one in each of the Balkan, Dashoguz, Lebap and Mary regions, each with cobalt-60 units. OnCo read no website of the centre and no Turkmen government source, so has no detail of its services beyond DIRAC. Coordinates are DIRAC's.",
     programs: ["Radiotherapy (two linear accelerators and brachytherapy in IAEA DIRAC, entry updated 2018)"],
-    institutions: ["tm-balkan-regional-oncology-centre", "tm-dashoguz-regional-oncology-centre", "tm-lebap-regional-oncology-centre", "tm-mary-regional-oncology-centre", "iaea"],
+    institutions: ["tm-balkan-regional-oncology-centre", "tm-dashoguz-regional-oncology-centre", "tm-lebap-regional-oncology-centre", "tm-mary-regional-oncology-centre", "iaea", "tm-ministry-of-health-and-medical-industry"],
     links: [DIRAC] }),
 
   i({ id: "tm-balkan-regional-oncology-centre", name: "Balkan Regional Centre (oncology), Balkanabat", aka: ["Balkan Regional Centre"],
@@ -287,16 +288,16 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
   i({ id: "national-cancer-center-mongolia", name: "Хавдар Судлалын Үндэсний Төв (National Cancer Center of Mongolia)", aka: ["National Cancer Center of Mongolia", "NCC Mongolia", "ХСҮТ"],
     city: "Ulaanbaatar", country: "MN", lat: 47.92, lng: 106.91, institutionType: "cancer-center", website: "https://cancer-center.gov.mn/about-us/english/",
     tldr: "Mongolia's state cancer hospital in Ulaanbaatar, founded in 1961, which diagnoses and treats cancer, runs screening and early detection, gives radiotherapy and does cancer research and training.",
-    summary: "The centre's English page says it was established in 1961 by Ministry of Health order 24 as the \"Radiation therapy Hospital\" with 45 beds, moved into a new building in 1982, and grew to 206 beds and 489 employees; it now has 12 units and 18 clinical departments with about 116 oncology doctors and 242 nurses. It describes itself as the state institution responsible for cancer epidemiology surveys, and provides early detection, prevention, diagnosis, treatment, research and training; it lists a 2013 to 2016 subprogramme on screening and early detection of liver cancer. UICC lists it as a Full Member. IAEA DIRAC lists it on Nam Yan Ju street with three linear accelerators, three cobalt-60 units, cobalt-60 brachytherapy and three CT scanners (entry updated 2025), the one radiotherapy centre DIRAC lists for Mongolia; a 2026 geospatial study found 55% of Mongolians within two hours' drive of it, with a first regional facility planned in Khovd. Coordinates are DIRAC's approximate point.",
+    summary: "The centre's English page says it was established in 1961 by Ministry of Health order 24 as the \"Radiation therapy Hospital\" with 45 beds, moved into a new building in 1982, and grew to 206 beds and 489 employees; its English page, which is undated, gives 12 units and 18 clinical departments with about 116 oncology doctors and 242 nurses. It describes itself as the state institution responsible for cancer epidemiology surveys, and provides early detection, prevention, diagnosis, treatment, research and training; it lists a 2013 to 2016 subprogramme on screening and early detection of liver cancer. UICC lists it as a Full Member. IAEA DIRAC lists it on Nam Yang Ju street with three linear accelerators, three cobalt-60 units, cobalt-60 brachytherapy and three CT scanners (entry updated 2025), the one radiotherapy centre DIRAC lists for Mongolia; a 2026 geospatial study found 55% of Mongolians within two hours' drive of it, with a first regional facility planned in Khovd. Coordinates are DIRAC's approximate point.",
     programs: ["Radiotherapy (three linear accelerators, three cobalt-60 units and brachytherapy in IAEA DIRAC)", "Cancer epidemiology and registration", "Screening and early detection of liver cancer (2013 to 2016)", "Training of oncology specialists"],
-    institutions: ["national-cancer-council-mongolia", "onom-foundation", "iaea"],
+    institutions: ["national-cancer-council-mongolia", "onom-foundation", "iaea", "health-insurance-general-office-mongolia"],
     cancers: ["hcc"],
     links: [
       { label: "National Cancer Center of Mongolia: English page", url: "https://cancer-center.gov.mn/about-us/english/" },
       uicc("national-cancer-center-mongolia", "National Cancer Center of Mongolia"),
       DIRAC,
       epmc("10.1016/j.ijrobp.2026.03.013", "Leow et al., radiation therapy accessibility in Cambodia and Mongolia (Int J Radiat Oncol Biol Phys 2026)"),
-    ] }),
+    ], keyPapers: ["paper-tsedendorj-mongolia-colorectal-cancer-2018-2022-apjcp-2024"] }),
 
   i({ id: "national-cancer-council-mongolia", name: "National Cancer Council of Mongolia", aka: ["Үндэсний Хорт Хавдартай Тэмцэх Зөвлөл"],
     city: "Ulaanbaatar", country: "MN", lat: 47.918, lng: 106.918, institutionType: "consortium", website: "https://www.cancercouncilmongolia.mn",
@@ -321,7 +322,7 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "Timor-Leste's national hospital in Dili, where women with suspected breast cancer are referred for biopsy and surgery.",
     summary: "The Alola Foundation's UICC member statement says its HALIKU breast cancer programme refers women with advanced breast cancer to the national hospital for biopsy and supports them after surgery. Physicians from the hospital took part in 2026 surveys of palliative care for children with cancer across Asia Pacific (JCO Global Oncology) and in the International Society of Paediatric Oncology's mapping of childhood cancer services in Oceania (Pediatric Blood and Cancer, 2026). IAEA DIRAC lists no radiotherapy centre in Timor-Leste. OnCo read no website of the hospital and no Ministry of Health source. Coordinates are Nominatim's.",
     programs: ["Breast cancer biopsy and surgery"],
-    institutions: ["alola-foundation"],
+    institutions: ["alola-foundation", "timor-leste-ministry-of-health"],
     cancers: ["breast-cancer"],
     links: [
       uicc("alola-foundation", "Alola Foundation"),
@@ -344,7 +345,7 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "A cancer centre in Brunei, part of the private Jerudong Park Medical Centre, which gives radiotherapy, including internal radiotherapy, and other cancer treatment.",
     summary: "Jerudong Park Medical Centre, a private specialist hospital founded in 1992, merged with the Pantai Jerudong Specialist Centre from 1 January 2025, forming three centres of excellence of which The Brunei Cancer Centre is one, according to its own site. IAEA DIRAC lists The Brunei Cancer Centre at Jerudong Park with two linear accelerators, iridium-192 brachytherapy and a CT scanner (entry updated 2025), the one centre DIRAC lists for Brunei. UICC lists JPMC as a Full Member. A 2025 study of 431 women treated for breast cancer from 2013 to 2022, using the Brunei Darussalam Cancer Registry and co-authored at the centre, found treatment delays over 60 days linked to a hazard ratio for death of 2.5. Coordinates are Nominatim's point for the medical centre.",
     programs: ["Radiotherapy (two linear accelerators and brachytherapy in IAEA DIRAC)", "Cancer treatment"],
-    institutions: ["brunei-darussalam-cancer-registry", "iaea"],
+    institutions: ["brunei-darussalam-cancer-registry", "iaea", "brunei-ministry-of-health"],
     cancers: ["breast-cancer"],
     links: [
       { label: "Jerudong Park Medical Centre: about us", url: "https://jpmcbrunei.com/about-us/" },
@@ -356,12 +357,13 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
   i({ id: "brunei-darussalam-cancer-registry", name: "Brunei Darussalam Cancer Registry", aka: ["Brunei Cancer Registry"],
     city: "Bandar Seri Begawan", country: "BN", lat: 4.89, lng: 114.942, institutionType: "government",
     tldr: "Brunei's national cancer registry, whose records researchers use to study how cancer is treated and how long people live after diagnosis.",
-    summary: "Known to OnCo from a 2025 study in BMC Cancer that analysed Brunei Darussalam Cancer Registry data on 431 women diagnosed and treated for breast cancer from 2013 to 2022: 45.7% were diagnosed at regional stage and 39.0% at localised stage, surgery was the commonest first treatment (55.9%, median 37 days from diagnosis), and 62.9% were treated within 60 days. OnCo read no page of the registry or the Ministry of Health describing who runs it or how it collects data. The coordinates are an approximate Bandar Seri Begawan city point.",
+    summary: "Known to OnCo from a 2025 study in BMC Cancer that analysed Brunei Darussalam Cancer Registry data on 431 women diagnosed and treated for breast cancer from 2013 to 2022: 45.7% were diagnosed at regional stage and 39.0% at localised stage, surgery was the commonest first treatment (55.9%, median 37 days from diagnosis), and 62.9% were treated within 60 days. The Ministry of Health's departments page lists national cancer registry management among the services of the Epidemic Intelligence and Response Unit of the Brunei Centre for Disease Control and Prevention, and a 2023 paper in BMC Cancer says the Ministry established the registry in 2001. The coordinates are an approximate Bandar Seri Begawan city point.",
     programs: ["National cancer registration"],
-    institutions: ["brunei-cancer-centre-jpmc"],
+    institutions: ["brunei-cancer-centre-jpmc", "brunei-ministry-of-health"],
     related: ["cancer-registries-surveillance"],
     cancers: ["breast-cancer"],
-    links: [epmc("10.1186/s12885-025-13861-2", "Yean et al., breast cancer treatment, delays and survival in Brunei Darussalam (BMC Cancer 2025)")] }),
+    keyPapers: ["paper-leong-cancer-incidence-mortality-brunei-bmccancer-2023"],
+    links: [epmc("10.1186/s12885-025-13861-2", "Yean et al., breast cancer treatment, delays and survival in Brunei Darussalam (BMC Cancer 2025)"), { label: "Ministry of Health, Brunei Darussalam: ministry departments", url: "https://moh.gov.bn/about-us/ministry-departments/" }] }),
 
   // ── Bhutan (BT) ──────────────────────────────────────────────────────────────────────────────────────────────
   i({ id: "jdwnrh-bhutan", name: "Jigme Dorji Wangchuck National Referral Hospital", aka: ["JDWNRH", "National Referral Hospital, Thimphu"],
@@ -369,7 +371,7 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "Bhutan's national referral and teaching hospital in Thimphu. It has gynaecological cancer care since 2008, cancer surgery, palliative chemotherapy, and houses the national cancer registry.",
     summary: "The hospital's mandate is to function as the National Referral Hospital, the regional referral hospital for the western region and the teaching hospital of Khesar Gyalpo University of Medical Sciences of Bhutan, and to manage referral of patients abroad, according to its own site. Its obstetrics and gynaecology department lists gynaecologic oncology since 2008, colposcopy since 2002, basic palliative care and basic palliative chemotherapy; its orthopaedics department lists a musculoskeletal tumour clinic and limb preservation surgery. Its authors publish from a Department of Oncosurgery. Bhutan's population-based cancer registry was established in the hospital in 2014. The National Cancer Grid lists it as a member cancer centre or unit. IAEA DIRAC lists no radiotherapy centre in Bhutan. Coordinates are Nominatim's.",
     programs: ["Gynaecologic oncology (since 2008)", "Colposcopy and treatment of cervical precancer", "Basic palliative chemotherapy", "Musculoskeletal tumour surgery", "Referral of patients abroad"],
-    institutions: ["bhutan-population-based-cancer-registry", "bhutan-cancer-society"],
+    institutions: ["bhutan-population-based-cancer-registry", "bhutan-cancer-society", "bhutan-ministry-of-health"],
     cancers: ["cervical", "colorectal"],
     links: [
       { label: "JDWNRH: mandates", url: "https://jdwnrh.gov.bt/about-us/" },
@@ -384,9 +386,10 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "Bhutan's national cancer registry, set up in 2014 at the national referral hospital. It recorded 5,906 new cancers from 2014 to 2022, with stomach cancer leading in men and cervical cancer in women.",
     summary: "The registry was established in Jigme Dorji Wangchuck National Referral Hospital in 2014 with the support of Bhutan's Ministry of Health and the IARC Regional Hub at Tata Memorial Centre, Mumbai, which checks its data quality, and covers the whole population of about 0.7 million (International Journal of Cancer, 2026). Trained staff collect cases from hospitals and diagnostic facilities into CanReg5. From 2014 to 2022 it registered 5,906 cancers; age-adjusted incidence was 88.3 per 100,000 in men and 113.2 in women. The leading sites were stomach, oesophagus, liver, lung and rectum in men, and cervix, stomach, breast, lung and thyroid in women. The Bhutan Cancer Society says it helped establish and assists the registry unit. Coordinates are Nominatim's point for the hospital.",
     programs: ["Nationwide population-based cancer registration (from 2014)"],
-    institutions: ["jdwnrh-bhutan", "iarc"],
+    institutions: ["jdwnrh-bhutan", "iarc", "bhutan-ministry-of-health"],
     related: ["cancer-registries-surveillance"],
     cancers: ["gastric", "cervical", "breast-cancer", "esophageal"],
+    keyPapers: ["paper-tshering-cancer-pattern-bhutan-ijc-2026"],
     links: [
       epmc("10.1002/ijc.70308", "Tshering et al., cancer pattern in Bhutan 2014 to 2022 from the population-based cancer registry (Int J Cancer 2026)"),
       uicc("bhutan-cancer-society", "Bhutan Cancer Society"),
@@ -403,8 +406,8 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
   // ── Maldives (MV) ────────────────────────────────────────────────────────────────────────────────────────────
   i({ id: "igmh-maldives", name: "Indira Gandhi Memorial Hospital", aka: ["IGMH", "National Cancer Centre of Maldives", "National Cancer Centre, IGMH"],
     city: "Malé", country: "MV", lat: 4.173, lng: 73.501, institutionType: "hospital", website: "https://www.igmh.gov.mv/en",
-    tldr: "The government's tertiary hospital in Malé, home since 2023 to the National Cancer Centre of Maldives, which offers cancer screening, chemotherapy, cancer surgery and palliative care.",
-    summary: "Indira Gandhi Memorial Hospital is the government's tertiary hospital in Malé, with about 300 beds, opened under that name on 15 April 1995 with help from the Government of India, and its services are covered by the national social health insurance, Aasandha, according to its own site. Its National Cancer Centre began in January 2018 as a sub-unit of general surgery with one cancer surgeon, added chemotherapy, an oncology department and an in-house medical oncologist, and became the National Cancer Centre of Maldives with a dedicated oncology ward in 2023. It offers cancer screening, diagnostic evaluation, day-care chemotherapy, oncological surgery, management of oncological emergencies, palliative and end-of-life care, and weekly multidisciplinary team meetings. IAEA DIRAC lists no radiotherapy centre in the Maldives. Coordinates are Nominatim's.",
+    tldr: "The largest government hospital in the Maldives, in Malé, providing tertiary care, home since 2023 to the National Cancer Centre of Maldives, which offers cancer screening, chemotherapy, cancer surgery and palliative care.",
+    summary: "Indira Gandhi Memorial Hospital is the largest government healthcare facility in the Maldives and provides tertiary care in Malé, with about 300 beds, opened under that name on 15 April 1995 with help from the Government of India, and its services are covered by the national social health insurance, Aasandha, according to its own site. Its National Cancer Centre began in January 2018 as a sub-unit of general surgery with one cancer surgeon, added chemotherapy, an oncology department and an in-house medical oncologist, and became the National Cancer Centre of Maldives with a dedicated oncology ward in 2023. It offers cancer screening, diagnostic evaluation, day-care chemotherapy, oncological surgery, management of oncological emergencies, palliative and end-of-life care, and weekly multidisciplinary team meetings. IAEA DIRAC lists no radiotherapy centre in the Maldives. Coordinates are Nominatim's.",
     programs: ["National Cancer Centre (since 2023)", "Day-care chemotherapy", "Oncological surgery", "Palliative and end-of-life care", "Weekly multidisciplinary team meeting"],
     institutions: ["cancer-society-of-maldives"],
     links: [
@@ -418,9 +421,9 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "Fiji's health ministry, which provides most of the country's cancer care through oncology units in its divisional hospitals and runs the national cancer registry and screening.",
     summary: "The Ministry's UICC member statement (an Associate Member) says it is the majority provider of oncology services to the whole population of Fiji, with limited private facilities, and coordinates the national cancer registry, screening and early detection, diagnosis and treatment and emerging palliative care; a national cancer control plan was being developed. Its cancer page says cancer cases are managed in the three divisional hospitals' oncology units, with local treatment in the form of surgery and limited chemotherapy, and that HPV immunisation is offered free to girls in class 8. IAEA DIRAC lists no radiotherapy centre in Fiji. The coordinates are an approximate Suva city point.",
     programs: ["Oncology units in three divisional hospitals", "National cancer registry", "Cervical cancer screening", "HPV immunisation for girls in class 8"],
-    institutions: ["fiji-cancer-society"],
+    institutions: ["fiji-cancer-society", "fiji-medicines-regulatory-authority", "colonial-war-memorial-hospital-suva"],
     cancers: ["cervical", "breast-cancer"],
-    links: [
+    keyPapers: ["paper-naidu-cancer-epidemiology-fiji-apjph-2025", "paper-reyburn-single-dose-hpv-fiji-lanwpc-2023", "paper-kim-radiotherapy-cost-benefit-fiji-cancerepidemiol-2017", "paper-kunatoga-cervical-screening-fiji-heliyon-2024"], links: [
       { label: "Fiji Ministry of Health and Medical Services: cancer", url: "http://www.health.gov.fj/cancer/" },
       uicc("fiji-islands-ministry-health-and-medical-services", "Fiji Islands Ministry of Health and Medical Services"),
     ] }),
@@ -441,7 +444,7 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     summary: "A 2023 paper in JCO Global Oncology describes the establishment of an oncology unit at the National Referral Hospital: a scoping visit in 2016 at the Medical Superintendent's request, then, at the request of the Ministry of Health, a multidisciplinary mission arranged by Australia's Department of Foreign Affairs and Trade under the Royal Australasian Colleges' Pacific Islands Program that helped commission the NRH Medical Oncology Unit in September 2018. Staff developed local Solomon Islands Oncology Guidelines, and the authors report a sustainable unit delivering chemotherapy and cancer management. A 2021 paper on oncology collaboration in Pacific island communities lists the NRH Oncology Unit among its authors. IAEA DIRAC lists no radiotherapy centre in Solomon Islands. Coordinates are Nominatim's.",
     programs: ["Medical oncology unit (since 2018)", "Solomon Islands Oncology Guidelines", "Chemotherapy"],
     institutions: ["solomon-islands-ministry-of-health"],
-    links: [
+    keyPapers: ["paper-yip-oncology-unit-solomon-islands-jcogo-2023", "paper-martiniuk-cancer-solomon-islands-cancerepidemiol-2017"], links: [
       epmc("10.1200/go.22.00325", "Yip et al., establishment of an oncology unit in the Solomon Islands (JCO Glob Oncol 2023)"),
       epmc("10.1111/1754-9485.13160", "Ward et al., a collaborative approach to oncology in Asia-Pacific island communities (J Med Imaging Radiat Oncol 2021)"),
     ] }),
@@ -460,10 +463,10 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
   // ── Samoa (WS) ───────────────────────────────────────────────────────────────────────────────────────────────
   i({ id: "tupua-tamasese-meaole-hospital", name: "Tupua Tamasese Meaole Hospital", aka: ["TTM Hospital", "Moto'otua Hospital"],
     city: "Apia", country: "WS", lat: -13.846, lng: -171.765, institutionType: "hospital",
-    tldr: "Samoa's main hospital in Apia, whose doctors led a survey of every confirmed cancer in Samoa from 2007 to 2016 as a first step towards a national cancer registry.",
-    summary: "A 2021 paper in the Asia-Pacific Journal of Public Health, led from Tupua Tamasese Meaole Hospital, reviewed all laboratory and clinically confirmed cancers in Samoa from 2007 to 2016 in government and non-government facilities as a preliminary step to upscale population-based cancer registration. Incidence rose from 28.5 per 100,000 in 2007 to 67.1 in 2012, then varied between 50 and 65 per 100,000 to 2016; cancers of the female genital organs and breast were commonest in women and of the digestive system in men. IAEA DIRAC lists no radiotherapy centre in Samoa. OnCo could not reach the hospital's site. Coordinates are Nominatim's.",
+    tldr: "Samoa's main hospital in Apia, whose doctors led a survey of every confirmed cancer in Samoa from 2007 to 2016 as a preliminary step to scaling up population-based cancer registration.",
+    summary: "A 2021 paper in the Asia-Pacific Journal of Public Health, led from Tupua Tamasese Meaole Hospital, reviewed all laboratory and clinically confirmed cancers in Samoa from 2007 to 2016 in government and non-government facilities as a preliminary step to upscale population-based cancer registration. Incidence rose from 28.5 per 100,000 in 2007 to 67.1 in 2012, then varied between 50 and 65 per 100,000 to 2016; the abstract says \"Cancers of female genitalia, breast, and digestive system were the most common types in female and males, respectively.\" IAEA DIRAC lists no radiotherapy centre in Samoa. OnCo could not reach the hospital's site. Coordinates are Nominatim's.",
     programs: ["Cancer incidence survey towards a population-based registry"],
-    institutions: ["samoa-cancer-society"],
+    institutions: ["samoa-cancer-society", "samoa-ministry-of-health"],
     cancers: ["breast-cancer", "cervical"],
     links: [epmc("10.1177/1010539520975261", "Amosa-Lei Sam et al., cancer incidence in Samoa 2007 to 2016 (Asia Pac J Public Health 2021)")] }),
 
@@ -479,11 +482,11 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
   i({ id: "vanuatu-ministry-of-health", name: "Ministry of Health, Vanuatu", aka: ["MOH Vanuatu"],
     city: "Port Vila", country: "VU", lat: -17.741, lng: 168.315, institutionType: "government", website: "https://moh.gov.vu",
     tldr: "Vanuatu's health ministry, which runs Vila Central Hospital and is preparing a national strategy to eliminate cervical cancer with the Vanuatu Family Health Association.",
-    summary: "The Ministry's site gives its mission as protecting and promoting the health of all people in Vanuatu and lists hospital services, including Vila Central Hospital, which marked 50 years in 2026. The Vanuatu Family Health Association's UICC member statement says it partners with the Ministry on the national cervical cancer elimination programme, following WHO's 90-70-90 strategy with HPV self-collection, and is helping the Ministry draft five-year elimination strategy guidelines. IAEA DIRAC lists no radiotherapy centre in Vanuatu. The coordinates are an approximate Port Vila city point.",
+    summary: "The Ministry's site gives its mission as protecting and promoting the health of all people in Vanuatu and lists hospital services, including Vila Central Hospital. A Ministry press release dated 5 August 2025 says the hospital \"marks a historic milestone: 50 years of service to the people of Vanuatu\", with celebrations from 20 to 22 August 2025. The Vanuatu Family Health Association's UICC member statement says it partners with the Ministry on the national cervical cancer elimination programme, following WHO's 90-70-90 strategy with HPV self-collection, and is helping the Ministry draft five-year elimination strategy guidelines. IAEA DIRAC lists no radiotherapy centre in Vanuatu. The coordinates are an approximate Port Vila city point.",
     programs: ["National cervical cancer elimination programme"],
     institutions: ["vanuatu-family-health-association", "ikkana-cancer-society"],
     cancers: ["cervical"],
-    links: [{ label: "Ministry of Health, Vanuatu", url: "https://moh.gov.vu" }, uicc("vanuatu-family-health-association", "Vanuatu Family Health Association")] }),
+    keyPapers: ["paper-aruhuri-hpv-prevalence-vanuatu-cancerprevres-2012"], links: [{ label: "Ministry of Health, Vanuatu", url: "https://moh.gov.vu" }, { label: "Ministry press release, 5 August 2025: Vila Central Hospital 50 years", url: "https://moh.gov.vu/index.php/updates/press-releases/161-vila-central-hospital-celebrates-50-years-of-healing-and-hope" }, uicc("vanuatu-family-health-association", "Vanuatu Family Health Association")] }),
 
   i({ id: "vanuatu-family-health-association", name: "Vanuatu Family Health Association", aka: ["VFHA"],
     city: "Port Vila", country: "VU", lat: -17.741, lng: 168.315, institutionType: "consortium", website: "https://eseaor.ippf.org/about-us/member-associations/vanuatu-family-health-association",
@@ -537,9 +540,9 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "Guam's cancer registry, set up by law in 1998 and run from the University of Guam, which counts every cancer among Guam residents.",
     summary: "The Guam Cancer Registry was established in 1998 by Public Law 24-198 to collect cancer data from all health-care providers and non-medical sources in its jurisdiction, and in 2004 became a unit of the Cancer Research Center of Guam, a joint venture of the University of Guam, Guam's Department of Public Health and Social Services and the University of Hawai'i Cancer Center, according to the University of Guam's registry page. Its data are used for cancer control, clinical services, patient support, healthcare financing and research; its five-year update reported one person diagnosed with cancer every day and one resident dying of cancer every 2.3 days in Guam. Coordinates are Nominatim's point for the University of Guam.",
     programs: ["Population-based cancer registration (from 1998)", "Cancer Research Center of Guam"],
-    institutions: ["fhp-health-center-guam", "guam-regional-medical-city", "guam-memorial-hospital"],
+    institutions: ["fhp-health-center-guam", "guam-regional-medical-city", "guam-memorial-hospital", "guam-dphss"],
     related: ["cancer-registries-surveillance"],
-    links: [{ label: "University of Guam: Guam Cancer Registry", url: "https://uog.edu/research/guam-cancer-registry" }] }),
+    keyPapers: ["paper-hernandez-cancer-guam-hawaii-canep-2017", "paper-david-tobacco-tax-guam-cancer-registry-jcpo-2017", "paper-badowski-early-onset-colorectal-guam-pmedr-2024"], links: [{ label: "University of Guam: Guam Cancer Registry", url: "https://uog.edu/research/guam-cancer-registry" }] }),
 ];
 
 /** Existing record id to the new institution ids it should list (applied in src/data/index.ts). */

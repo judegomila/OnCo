@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import MiniSearch from "minisearch";
-import { answerText, composeAnswer, namedDrugs, namedLookup, recordFromEntity, retrieveIds, sentences, type AskRecord } from "./ask";
+import { answerText, composeAnswer, NAMED_CONCEPT_KINDS, NAMED_CONCEPT_MIN, namedConcepts, namedDrugs, namedLookup, recordFromEntity, retrieveIds, sentences, specificConceptName, type AskRecord } from "./ask";
 import { benchmark, scoreAnswer } from "@/data/benchmark";
 import { askEval, askEvalNew, scoreAskEval } from "@/data/ask-eval";
 import { graph } from "./graph";
@@ -90,6 +90,72 @@ describe("retrieveIds: a medicine the question names comes first", () => {
     expect(namedDrugs("How does CAR-T work, compared with Enhertu?", lex("car-t", "rejoice-ovarian01"), lookup)).toEqual([]);
     const deep = [...Array.from({ length: 12 }, (_, i) => `x${i}`), "trastuzumab-deruxtecan"];
     expect(namedDrugs("Enhertu", lex(...deep), lookup)).toEqual([]);
+  });
+});
+
+describe("retrieveIds: a technology the question names by its own one-word name comes next", () => {
+  const lookup = namedLookup([
+    { id: "brachytherapy", kind: "technology", name: "Brachytherapy", aka: "Internal radiotherapy\nSealed source" },
+    { id: "brachytherapy-term", kind: "term", name: "Brachytherapy" },
+    { id: "theranostics", kind: "term", name: "Theranostics" },
+    { id: "chemotherapy-term", kind: "term", name: "Chemotherapy" },
+    { id: "bispecific-antibody", kind: "technology", name: "Bispecific antibodies" },
+    { id: "car-t", kind: "technology", name: "CAR-T" },
+    { id: "inhibitor-tech", kind: "technology", name: "Inhibitor" },
+    { id: "therapy-tech", kind: "technology", name: "Therapy" },
+    { id: "trial-tech", kind: "technology", name: "Trial" },
+    { id: "cancer-tech", kind: "technology", name: "Cancer" },
+    { id: "radiotherapy", kind: "technology", name: "Radiotherapy", aka: "Brachytherapy boost" },
+    { id: "brachy-company", kind: "company", name: "Brachytherapy" },
+    { id: "trastuzumab-deruxtecan", kind: "drug", name: "Trastuzumab deruxtecan", aka: "Enhertu" },
+  ]);
+  const lex = (...ids: string[]) => ids.map((id) => ({ id }));
+  const q = "What is brachytherapy and where is it essential?";
+
+  it("pins the technology the question names, ahead of better-fused records and after a named medicine", () => {
+    expect(namedConcepts(q, lex("x1", "brachytherapy-term", "brachytherapy"), lookup)).toEqual(["brachytherapy"]);
+    const ids = retrieveIds(lex("x1", "x2", "brachytherapy"), lex("x2", "x3", "x1"), 3, { question: q, lookup });
+    expect(ids[0]).toBe("brachytherapy");
+    expect(ids).toHaveLength(3);
+    expect(retrieveIds(lex("x1", "x2", "brachytherapy"), lex("x2", "x3", "x1"), 2)).not.toContain("brachytherapy");
+    const both = retrieveIds(lex("x1", "brachytherapy", "trastuzumab-deruxtecan"), lex("x1"), 3, { question: "Is Enhertu given with brachytherapy?", lookup });
+    expect(both.slice(0, 2)).toEqual(["trastuzumab-deruxtecan", "brachytherapy"]);
+  });
+
+  it("holds the length rule: one word of at least ten letters, and nothing shorter or longer in words", () => {
+    expect(NAMED_CONCEPT_MIN).toBeGreaterThanOrEqual(10);
+    for (const name of ["Brachytherapy", "Theranostics", "Radiotherapy", "Cryoablation"]) expect(specificConceptName(name), name).toBe(true);
+    // The stop list: ordinary words of a question, each a real record name somewhere in the corpus or a likely one.
+    for (const name of ["Inhibitor", "Therapy", "Trial", "Trials", "Cancer", "Tumour", "Treatment", "Screening", "Surgery", "Antibody", "Vaccine", "Biomarker", "Radiation", "CAR-T", "ADC", "PET-CT", "T-cell"]) expect(specificConceptName(name), name).toBe(false);
+    // Several words are never pinned, however specific: the question may name them as what it does not want.
+    for (const name of ["Bispecific antibodies", "Clinical trial", "Antibody-drug conjugate payloads", "Proton therapy"]) expect(specificConceptName(name), name).toBe(false);
+  });
+
+  it("finds no technology in the corpus whose qualifying name is an ordinary word of a question", () => {
+    // Length alone lets these through, so no technology record may be called one of them. When this fails, rename
+    // the record for its subject or add the word to a stop list in ask.ts; do not shorten this list.
+    const GENERIC = new Set(["inhibitors", "chemotherapy", "immunotherapy", "radiotherapy", "treatments", "antibodies", "biomarkers", "diagnostics", "monitoring", "sequencing", "resistance", "metastasis", "metastases", "prevention", "management", "guidelines", "technology", "technologies", "combination", "combinations", "mechanisms", "conjugates", "transplant", "transplantation", "vaccination", "survivorship", "palliative", "recurrence", "progression"]);
+    const pinned = graph().kind("technology").map((t) => t.name).filter(specificConceptName);
+    // Measured 18 November 2026: 16 of 961 technologies qualify, among them Brachytherapy, Hyperthermia and Ultrasound.
+    expect(pinned).toContain("Brachytherapy");
+    expect(pinned.filter((n) => GENERIC.has(n.toLowerCase()))).toEqual([]);
+    for (const w of GENERIC) expect(w.length, w).toBeGreaterThanOrEqual(NAMED_CONCEPT_MIN);
+  });
+
+  it("does not pin a generic word, another kind, an alias, a name of several words, or a record outside the top twelve", () => {
+    expect(NAMED_CONCEPT_KINDS).toEqual(["technology"]);
+    const none = (question: string, ...ids: string[]) => expect(namedConcepts(question, lex(...ids), lookup), question).toEqual([]);
+    none("Which menin inhibitor is approved, and in which cancer trial of the therapy?", "inhibitor-tech", "therapy-tech", "trial-tech", "cancer-tech");
+    none("How does CAR-T work?", "car-t");
+    none("Name three next-generation ADC concepts beyond bispecific antibodies.", "bispecific-antibody");
+    // A term or a company with the same name is left to the fused ranking.
+    none(q, "brachytherapy-term", "brachy-company", "theranostics");
+    none("What regimen replaced platinum chemotherapy in bladder cancer?", "chemotherapy-term");
+    // An alias does not count, only the record's own name; nor does part of a word.
+    none("When is a brachytherapy boost used?", "radiotherapy");
+    none("What are brachytherapys?", "brachytherapy");
+    const deep = [...Array.from({ length: 12 }, (_, i) => `x${i}`), "brachytherapy"];
+    none(q, ...deep);
   });
 });
 
@@ -511,6 +577,36 @@ describe("Ask OnCo end to end", () => {
     // records and about 530 revised). No ranking change and no floor change. The rubric falls from 0.6825 and stays
     // above its 0.66 floor; which rewritten answers lost rubric points has not been traced question by question.
     { date: "2026-11-16", recall: 0.4365, note: "contributor teaching-concept batch merged; extractive rubric 0.6765; both floors unchanged" },
+    // 16 November 2026, country deep dives wave 16 (sixteen places, 70 records). The corpus before them measured 0.4313;
+    // with them 0.4293, a hair under the floor: no new record entered any top six, but 70 more documents moved every
+    // inverse document frequency by about 0.005, which swapped selpercatinib and a screening test tied at 0.243 in the
+    // concept list for "Which oncology drugs were approved in the US in July 2026?". Concept search now breaks ties at
+    // its reported precision by record id (semantic.ts semanticSearch), which restores 0.4313. The floor is unchanged.
+    { date: "2026-11-16", recall: 0.4313, note: "country deep dives wave 16; ties at three decimal places in the concept list broken by id; extractive rubric 0.6825" },
+    // 16 November 2026, country deep dives waves 13 to 16 merged together (64 places) on top of the teaching-concept
+    // batch. Main before them measured 0.4365 with rubric 0.6840. With the four waves and without the tie-break above,
+    // 0.4332 and 0.6815: tech-62 ("What is brachytherapy and where is it essential?") lost the brachytherapy record
+    // from its top six, and pipe-89 (US approvals in July 2026) lost isatuximab from sixth place to a screening test,
+    // which cost rubric points but no expected record. With the tie-break, 0.4365 and 0.6765: tech-62 is restored, so
+    // recall equals main's, and tech-55 ("What is the bystander effect in ADCs?") swaps its sixth record, an idea for
+    // a term, which lowers its rubric score from 0.75 to 0.25. Ten other questions reorder or swap a record without
+    // changing either score. No ranking change was made for this merge and neither floor moves.
+    { date: "2026-11-16", recall: 0.4365, note: "country deep dives waves 13 to 16 merged (0.4332 without the id tie-break); extractive rubric 0.6765, down from 0.6840 on tech-55 and pipe-89" },
+    // 18 November 2026, the same four waves merged with main after its second accuracy passes, trial refresh and
+    // fourteen side-effect protocols. Measured 0.4277 and 0.6895, under the recall floor: tech-62 lost the brachytherapy
+    // record again, 13th in the concept list at 0.141 behind two hospitals that provide brachytherapy at 0.142, which
+    // is not a tie. Fixed in the ranking (ask.ts namedConcepts): a technology the question names by its own one-word
+    // name of ten letters or more, found in the word search's top twelve, is placed after any named medicine. Measured
+    // 0.4310 and 0.6895 with it; tech-62 gains and no other question changes in the benchmark, the pipeline
+    // benchmark (rubric 0.7925) or either natural set (0.9097 and 0.9889). Wider versions were measured and not
+    // taken: names of several words cost pipe-92 its rubric point (0.6870), and terms pinned "Chemotherapy",
+    // "Immunotherapy" and "Clinical trial" in questions about something else. The floor is unchanged.
+    { date: "2026-11-18", recall: 0.4310, note: "waves 13 to 16 on main of 18 November (0.4277 alone) plus a technology named by its own one-word name placed first; extractive rubric 0.6895" },
+    // 20 November 2026, the same waves and rule merged onto the second accuracy pass on drugs and cancers, which
+    // carries the two approval rules (ask.ts approvedFirst and approvedThen). That base measured 0.4322 alone. The
+    // three rules run in a fixed order in retrieveIds: a named medicine, then a named technology, then the approval
+    // rules. Measured 0.4322 and 0.6970 with all three (scripts/ask-recall.ts). The floor is unchanged.
+    { date: "2026-11-20", recall: 0.4322, note: "waves 13 to 16 and the named-technology rule on the second accuracy pass with the approval rules; extractive rubric 0.6970" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [

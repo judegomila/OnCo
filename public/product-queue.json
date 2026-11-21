@@ -16,14 +16,5 @@
     "files": 23,
     "proposed": "2026-11-19",
     "state": "waiting"
-  },
-  {
-    "branch": "product/ask-approval-date-rule",
-    "why": "Ask checks typed approval data when a question asks about something approved",
-    "pr": "https://github.com/judegomila/OnCo/pull/479",
-    "preview": "",
-    "files": 9,
-    "proposed": "2026-11-19",
-    "state": "waiting"
   }
 ]

@@ -36,7 +36,7 @@ export const simpleQ: Record<string, string> = {
   "wisdom-trial": "WISDOM is a University of California study asking whether breast screening tailored to each woman's risk is as safe as screening everyone every year while causing fewer false alarms.",
   "cemiplimab-nut": "Northwestern University runs this phase 2 pilot of the PD-1 antibody cemiplimab in NUT carcinoma that has spread or cannot be removed, and it is recruiting.",
   "nct00248287": "US Oncology Research ran this randomised phase 2 trial of irinotecan with carboplatin and cetuximab in metastatic breast cancer, and its results have been posted.",
-  "nct00781612": "Genentech runs this phase 2 extension study that lets people from its earlier trials keep taking docetaxel, pertuzumab, trastuzumab and other drugs, and it is no longer recruiting.",
+  "nct00781612": "Genentech runs this phase 2 extension study so people who were still benefiting from trastuzumab emtansine when an earlier trial closed can keep taking it. It is no longer recruiting.",
   "nct01081951": "AstraZeneca runs this randomised phase 2 trial of olaparib added to paclitaxel and carboplatin in platinum sensitive advanced ovarian cancer, and it is no longer recruiting.",
   "nct01594723": "Eli Lilly runs this phase 2 trial of LY2784544 in myeloproliferative neoplasms, a group of chronic blood cancers, and it is no longer recruiting.",
   "nct01761968": "Italfarmaco runs this long term phase 2 study of givinostat in people with JAK2 positive chronic myeloproliferative neoplasms, and it is no longer recruiting.",

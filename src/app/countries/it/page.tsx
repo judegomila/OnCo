@@ -135,7 +135,7 @@ export default function ItalyPage() {
           <div className="mt-6 card p-5">
             <h3 className="font-semibold mb-3">Five cancers in Italy&apos;s national report</h3>
             <StaticTable rows={nationalRows} columns={NATIONAL_COLUMNS} noun="sites" defaultSort={{ key: "cases", dir: -1 }} />
-            <p className="mt-3 text-xs text-muted">Source: the site chapters of <a href="https://www.aiom.it/wp-content/uploads/2025/12/2025_NDC_web.pdf" className="underline" rel="noopener">I numeri del cancro in Italia 2025</a>. New cases are AIRTUM projections for 2024 excluding non-melanoma skin cancer; deaths are the 2022 estimates the volume prints, stating that estimates for 2023 were not available. Five-year net survival and the number of people living after the diagnosis are as the volume gives them, without a stated reference year for every site.</p>
+            <p className="mt-3 text-xs text-muted">Source: the site chapters of <a href="https://www.aiom.it/wp-content/uploads/2025/12/2025_NDC_web.pdf" className="underline" rel="noopener">I numeri del cancro in Italia 2025</a>. New cases are AIRTUM projections for 2024 excluding non-melanoma skin cancer; deaths are the 2022 estimates the volume prints, noting for bowel and lung cancer that estimates for 2023 were not available. Five-year net survival and the number of people living after the diagnosis are as the volume gives them, without a stated reference year for every site. For breast cancer the new cases include 621 in men, and the number living after the diagnosis counts women only.</p>
           </div>
           {profile && all && (
             <div className="mt-6 card p-5">
@@ -149,7 +149,7 @@ export default function ItalyPage() {
           )}
         </Section>
 
-        <Section id="registry" title="The registry: a network still waiting for its national regulation">
+        <Section id="registry" title="The registry: a regional network, with the national one not yet activated">
           <Cards cards={IT_REGISTRY} />
         </Section>
 
@@ -174,7 +174,7 @@ export default function ItalyPage() {
         <Section id="trials" title="Cancer trials with an Italian site, by start year" aside={<span className="text-sm text-muted">OnCo&apos;s own count from the ClinicalTrials.gov API, {IT_ASOF}</span>}>
           <div className="card p-5">
             <StaticTable rows={trialRows} columns={TRIAL_COLUMNS} noun="years" defaultSort={{ key: "year", dir: 1 }} />
-            <p className="mt-3 text-xs text-muted">Interventional studies with the condition query <code>cancer</code> and at least one site in Italy, grouped by start date; the industry column counts studies whose lead sponsor ClinicalTrials.gov classes as industry. The all-years total on the same query was {IT_TRIAL_TOTAL.toLocaleString("en-GB")}. Since 2023 trials in the European Union are registered in CTIS and many academic ones never reach ClinicalTrials.gov, so this undercounts Italian academic research. Method and query in <code>src/data/country-it.ts</code>; re-runnable against the <a href="https://clinicaltrials.gov/data-api/api" className="underline" rel="noopener">ClinicalTrials.gov API v2</a>.</p>
+            <p className="mt-3 text-xs text-muted">Interventional studies with the condition query <code>cancer</code> and at least one site in Italy, grouped by start date; the industry column counts studies whose lead sponsor ClinicalTrials.gov classes as industry. The all-years total on the same query was {IT_TRIAL_TOTAL.toLocaleString("en-GB")}. New trials of medicines in the European Union are submitted through CTIS, and those not also registered on ClinicalTrials.gov are missing from this count; how many that is was not measured. Method and query in <code>src/data/country-it.ts</code>; re-runnable against the <a href="https://clinicaltrials.gov/data-api/api" className="underline" rel="noopener">ClinicalTrials.gov API v2</a>.</p>
           </div>
         </Section>
 

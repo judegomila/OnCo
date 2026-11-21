@@ -227,7 +227,7 @@ export default function UnitedKingdomPage() {
               </article>
             ))}
           </div>
-          <p className="mt-4 text-sm text-muted max-w-4xl">NICE&apos;s own arithmetic makes the point: 596 cancer technology appraisals since 2000 have produced 666 recommendations, and a further 100 appraisals produced none at all, &ldquo;in the absence of a submission from the company&rdquo;. Those hundred are listed by NICE under the heading &ldquo;Not included in the data&rdquo;. Every funding row on the eight <a href="#pathways" className="underline">NHS pathway pages</a> states which of these four categories applies, with the reference and date.</p>
+          <p className="mt-4 text-sm text-muted max-w-4xl">NICE&apos;s own arithmetic makes the point: 600 cancer technology appraisals since 2000 have produced 672 recommendations, and a further 100 appraisals produced none at all, &ldquo;in the absence of a submission from the company&rdquo;. Those hundred are listed by NICE under the heading &ldquo;Not included in the data&rdquo;. Every funding row on the eight <a href="#pathways" className="underline">NHS pathway pages</a> states which of these four categories applies, with the reference and date.</p>
         </Section>
 
         <Section id="doing" title="What the United Kingdom does that others do not">

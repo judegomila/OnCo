@@ -162,7 +162,7 @@ export default function GermanyPage() {
 
         <Section id="regulator" title="Regulators: EMA, BfArM and the Paul-Ehrlich-Institut">
           <Cards cards={DE_REGULATOR} />
-          <p className="mt-3 text-sm text-muted">{euApproved} products in the corpus carry a sourced EU authorisation row; see the <Link href="/regulatory/regions/" className="underline">approvals by region</Link> matrix. A German patient&apos;s access to any of them then depends on the assessment above, not on a second national approval.</p>
+          <p className="mt-3 text-sm text-muted">{euApproved} products in the corpus carry a sourced EU authorisation row; see the <Link href="/regulatory/regions/" className="underline">approvals by region</Link> matrix. A German patient needs no second national approval for any of them: statutory insurance pays from the day one goes on sale, and the assessment above then decides the price.</p>
           {drugs.length > 0 && (
             <div className="mt-6">
               <h3 className="font-semibold mb-2">Products discovered or developed in Germany</h3>

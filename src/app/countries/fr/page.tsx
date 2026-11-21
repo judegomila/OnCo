@@ -16,7 +16,7 @@ import {
 
 export const metadata: Metadata = pageMeta({
   title: "Cancer in France",
-  description: "France deep dive read from French sources: INCa's national estimates and the new national cancer registry, full health insurance cover for cancer as a long-term condition, the HAS ratings and the absence of a cost-per-QALY threshold, early access before a price is agreed, licensed cancer hospitals and tumour boards, the right to be forgotten, national genome sequencing, and the Unicancer centres.",
+  description: "France deep dive read from French sources: INCa's national estimates and the new national cancer registry, cancer covered at 100 per cent of the official tariff, the HAS ratings and the absence of a cost-per-QALY threshold, early access before a price is agreed, licensed cancer hospitals and tumour boards, the right to be forgotten, national genome sequencing, and the Unicancer centres.",
   path: "/countries/fr/",
 });
 
@@ -105,7 +105,7 @@ export default function FrancePage() {
       <PageHeader
         kicker={<GroupKicker id="who"><span className="kicker">·</span><Link href="/countries/" className="kicker hover:underline">Countries</Link></GroupKicker>}
         title="🇫🇷 Cancer in France"
-        lede={`A country of about ${extra.population.toLocaleString("en-GB")} million people where cancer is the first cause of death in men, where the health insurance pays for cancer care in full as a long-term condition, where a promising medicine can be paid for before its price is agreed, and where every hospital that treats cancer must be licensed for it. This page was written from French sources in French: INCa's national figures, the HAS's and the ANSM's own pages, the health insurance rules, Unicancer, and the papers that describe how France counts its cancers. Facts checked ${FR_ASOF}; every card links its sources, and what could not be read is listed at the end.`}
+        lede={`A country of about ${extra.population.toLocaleString("en-GB")} million people where cancer is the first cause of death in men, where the health insurance pays for cancer care at 100 per cent of its official tariff as a long-term condition, where a promising medicine can be paid for before its price is agreed, and where every hospital that treats cancer must be licensed for it. This page was written from French sources in French: INCa's national figures, the HAS's and the ANSM's own pages, the health insurance rules, Unicancer, and the papers that describe how France counts its cancers. Facts checked ${FR_ASOF}; every card links its sources, and what could not be read is listed at the end.`}
       />
       <Container className="pb-16">
         <nav aria-label="Sections" className="flex flex-wrap gap-2 text-sm">
@@ -131,7 +131,7 @@ export default function FrancePage() {
         </Section>
 
         <Section id="overseas" title="The overseas departments" aside={<span className="text-sm text-muted">GLOBOCAN {GLOBOCAN.year}, reported by IARC apart from metropolitan France</span>}>
-          <p className="text-[15px] leading-relaxed max-w-3xl mb-4">IARC reports French Guiana, Guadeloupe, Martinique and La Réunion separately from metropolitan France, so the table above does not include them. As French departments they share France&apos;s health system described on this page: the national health insurance (Assurance Maladie), full cover for cancer as a long-term condition (ALD 30), and the HAS assessments that decide what is reimbursed. Their figures are IARC&apos;s estimates, with the method code IARC gives for each.</p>
+          <p className="text-[15px] leading-relaxed max-w-3xl mb-4">IARC reports French Guiana, Guadeloupe, Martinique and La Réunion separately from metropolitan France, so the table above does not include them. As French departments they share France&apos;s health system described on this page: the national health insurance (Assurance Maladie), cover at 100 per cent of the official tariff for cancer as a long-term condition (ALD 30), and the HAS assessments that decide what is reimbursed. Their figures are IARC&apos;s estimates, with the method code IARC gives for each.</p>
           <CountryParts parent="FR" />
         </Section>
 

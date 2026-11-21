@@ -19,10 +19,10 @@
   },
   {
     "branch": "product/ask-approval-date-rule",
-    "why": "Ask checks a product's dated approvals when a question asks what was approved in a period",
+    "why": "Ask checks typed approval data when a question asks about something approved",
     "pr": "https://github.com/judegomila/OnCo/pull/479",
     "preview": "",
-    "files": 7,
+    "files": 9,
     "proposed": "2026-11-19",
     "state": "waiting"
   }

@@ -1,14 +1,5 @@
 [
   {
-    "branch": "product/country-waves-13-16",
-    "why": "the last 64 country deep dives (waves 13 to 16), each checked twice against its sources",
-    "pr": "https://github.com/judegomila/OnCo/pull/444",
-    "preview": "",
-    "files": 350,
-    "proposed": "2026-11-17",
-    "state": "waiting"
-  },
-  {
     "branch": "product/side-effect-protocol-mappings-2",
     "why": "side effects link the second round of protocols that manage them",
     "pr": "https://github.com/judegomila/OnCo/pull/473",

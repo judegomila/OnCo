@@ -7,15 +7,21 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 21 November 2026
+- Second accuracy pass on the older country pages: corrected sentences on eleven pages, search lines for the country directory, three duplicate trial records merged with redirects, and the FDA approvals link
 - The last 64 country deep dives (waves 13 to 16), each checked twice against its sources; Ask places a technology first when a question names it
 - Second accuracy pass on every drug record and about 390 cancer pages: approvals, withdrawals, trial results, doses and statuses re-read against labels, regulators and the registry; Ask ranks approved medicines first when a question asks what is approved
 - chore: draft change proposals that need review (#483)
 - chore: EU regional rows read from the EMA register pages (#482)
 
 ### 20 November 2026
+- Two leftovers of the trial merges removed: PILDI's retired number in the site file and a start-date row STAR-TREC cannot carry
+- The last 64 country deep dives (waves 13 to 16), each checked twice against its sources; Ask places a technology first when a question names it
 - Ten records the country waves corrected: plain-language lines brought into step, and translations of the old one-liners removed
+- Ask recall measured before and after the three trial merges: 0.4322, rubric 0.6970, unchanged
+- Three trials held twice become one record each, with redirects from the retired addresses
 - Second accuracy pass on every drug record and about 390 cancer pages: approvals, withdrawals, trial results, doses and statuses re-read against labels, regulators and the registry; Ask ranks approved medicines first when a question asks what is approved
 - Ask recall measured with the three retrieval rules together: 0.4322, rubric 0.6970
+- The countries table says its trial count covers trials of all kinds, and the United States regulator link goes to the FDA page's current address
 - chore: draft change proposals that need review (#481)
 - chore: EU regional rows read from the EMA register pages (#480)
 
@@ -199,14 +205,24 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Second accuracy pass, the original country pages, batch three: Vietnam, Thailand, Iran, Ukraine, Nigeria, the Philippines, Argentina, Egypt and the Netherlands
 - Second accuracy pass, the original country pages, batch two: Canada, Spain, South Korea, Turkey, Australia, Poland, Mexico, Pakistan and Bangladesh
 - Second accuracy pass, the original country pages, batch one: China, the United States, India, Japan, Brazil, Russia, Germany, Indonesia, the United Kingdom, Italy and France
+- Second accuracy pass, batch four: search lines for Romania, Ethiopia and Sweden brought into line with the corrected pages
+- Second accuracy pass, batch four: five sentences corrected inside Israel's page file
+- Second accuracy pass, batch three: search lines for Iran and Nigeria brought into line with the corrected pages
+- Second accuracy pass, batch two: Mexico's search line gives the reliance limit as 45 working days, as the guidelines do
+- Second accuracy pass, batch two: South Korea's opening sentence no longer calls national screening free for every adult
 - Second accuracy pass on live country pages, last batch for waves 5 to 12: corrections to Austria, Serbia, Denmark, Finland, Norway, Ireland, Hungary, Belarus, Bulgaria and North Korea, each claim read against its source again
+- Second accuracy pass, batch one: search lines for Indonesia and France brought into line with the corrected pages
+- Second accuracy pass, batch one: wording corrected inside nine bespoke country pages (China, Germany, France, the United Kingdom, India, Italy, Japan, Russia and the United States)
 - Second accuracy pass, last batch: Austria, Serbia, Denmark, Finland, Norway, Ireland and North Korea complete the forty pages of waves 5 to 8
+- Search lines for Serbia, Denmark, Norway and North Korea brought into line with their corrected pages
 - Second accuracy pass on live country pages, continued: corrections to eighteen more pages, among them Haiti, Senegal, Slovenia, Mali, Papua New Guinea, Burkina Faso, Costa Rica, Paraguay, Belgium, Cuba, Czechia, Greece and Portugal, each claim read against its source again
 - CIMAvax-EGF: one-line description shortened to fit, facts unchanged
 - Second accuracy pass, batch four: Belgium, Cuba, Czechia, Greece, Portugal, Hungary, Belarus and Bulgaria
 - Second accuracy pass on the last eight live country pages (wave 11): Haiti, Senegal, Slovenia, Mali, Papua New Guinea, Burkina Faso, Costa Rica and Paraguay
+- Search lines for Greece and Bulgaria brought into line with their corrected pages
 - Second accuracy pass on live country pages: corrections to 53 pages after every claim was read against its source again, including what the IAEA radiotherapy directory lists for 36 countries, WHO's HPV vaccination data where pages had said there was none, and sources pages had called unreadable that do answer
 - Casablanca cancer centre: one-line description shortened to fit, with the fuller wording kept in the summary
+- Search lines for Haiti, Senegal, Mali, Papua New Guinea, Burkina Faso and Paraguay now match their corrected pages
 - Second accuracy pass, batch three: Venezuela, Sri Lanka, Syria, Kazakhstan, Cambodia, Ecuador, Zimbabwe, Chile and Tunisia, and HPV vaccination figures re-read on the earlier pages
 - Second accuracy pass, batch two: Ghana, Saudi Arabia, Peru and Nepal, and the IAEA radiotherapy directory read for all sixteen pages checked so far
 - Second accuracy pass on twelve live country pages: DR Congo, Tanzania, Kenya, Myanmar, Sudan, Uganda, Iraq, Afghanistan, Yemen, Morocco, Angola and Uzbekistan
@@ -215,13 +231,20 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Second accuracy pass on ten more live country pages (wave 9): Singapore, New Zealand, Croatia, Slovakia, Mozambique, Malawi, Madagascar, the Dominican Republic, Guatemala and Côte d'Ivoire
 - Second accuracy pass on ten live country pages (wave 12): Guinea, Honduras, Armenia, Somalia, El Salvador, Jordan, Rwanda, Moldova, Latvia and Panama
 - The fixture territories move beside the other test helpers, and the merged Ask measurement is logged
+- Search lines for Venezuela, Cambodia, Ecuador, Zimbabwe and Angola brought into line with their corrected pages
+- Search lines for Zambia, Niger, Bolivia and Bosnia and Herzegovina now match their corrected pages
 - The automatic country route is kept for the next territory, now that every country has a deep dive
+- Search lines for DR Congo, Uganda and Ghana brought into line with their corrected pages
+- Search lines for Somalia and Jordan follow the radiotherapy corrections
 - The first weekly gap fill read from FDA sources lands, each fact checked against the FDA list and device records: the Guardant360 Liquid CDx blood test approved on 19 May 2026 with its seven drug pairings, and four companion tests linked to the biomarkers they read
 - Belize, Suriname and Jamaica no longer give the lack of a registry as the reason IARC models their figures; each page now states what the source says
 - A second claim-by-claim check of sixteen country deep dives before they are published, from Sierra Leone to Eritrea: 1,701 claims re-read against their sources, 21 wrong and 67 unsupported corrected, 12 labelled as not re-verified
 - A second accuracy pass on the sixteen country pages of wave 15: 3,516 claims re-read against the raw text of their sources, 33 found wrong, 107 saying more than the source does and 8 whose source could not be reached; all corrected, reworded or labelled
 - Second accuracy pass on sixteen Caribbean and Pacific country pages: 3,045 claims re-read against their sources, 64 wrong and 123 unsupported corrected, 22 labelled as not re-verified
+- Search lines for Slovakia, Mozambique, Madagascar and Guatemala now match their corrected pages
+- Search lines for DR Congo, Myanmar and Yemen brought into line with their corrected pages
 - Review of the 17 November gap fill: Guardant360 Liquid CDx gets a row in the tests box of the eight readouts it measures, the BRACAnalysis CDx row on the prostate HRR readout says it covers BRCA1 and BRCA2 only, the FDA companion diagnostic list is cited at its new address, and the gap audit no longer reads the SP142 and SP263 PD-L1 assays as one product
+- Search lines for Guinea, Somalia, Jordan, Latvia and Panama now match their corrected pages
 - More of the graph is joined up: 1,251 confirmed links between people and the trials whose papers they wrote, matched by ORCID or full name and affiliation; who pays for 21 tests in the US and UK, from Medicare national coverage decisions and NICE guidance; fifty warning-card lines now name the protocol that manages them; and eight wrong side-effect links are removed
 - Second accuracy pass on thirteen country pages: 2,444 claims re-read against their sources, 37 wrong and 158 unsupported statements corrected, 19 labelled as not re-verified
 - Twenty-two more care protocols close the gaps in the census, among them stoma care, drain care at home, transplant conditioning, veno-occlusive disease, lung biopsy, intrathecal chemotherapy in children, end-of-life care for children, advance care planning and stopping smoking after a diagnosis; 212 protocols in all, with a table of what is covered and what is still open

@@ -602,6 +602,11 @@ describe("Ask OnCo end to end", () => {
     // taken: names of several words cost pipe-92 its rubric point (0.6870), and terms pinned "Chemotherapy",
     // "Immunotherapy" and "Clinical trial" in questions about something else. The floor is unchanged.
     { date: "2026-11-18", recall: 0.4310, note: "waves 13 to 16 on main of 18 November (0.4277 alone) plus a technology named by its own one-word name placed first; extractive rubric 0.6895" },
+    // 20 November 2026, the same waves and rule merged onto the second accuracy pass on drugs and cancers, which
+    // carries the two approval rules (ask.ts approvedFirst and approvedThen). That base measured 0.4322 alone. The
+    // three rules run in a fixed order in retrieveIds: a named medicine, then a named technology, then the approval
+    // rules. Measured 0.4322 and 0.6970 with all three (scripts/ask-recall.ts). The floor is unchanged.
+    { date: "2026-11-20", recall: 0.4322, note: "waves 13 to 16 and the named-technology rule on the second accuracy pass with the approval rules; extractive rubric 0.6970" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [

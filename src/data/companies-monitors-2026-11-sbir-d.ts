@@ -24,7 +24,7 @@ export const monitorsSbirD: Array<CompanyInput | DrugInput> = [
     notes: ["Read on mucommune.com (home, about and pipeline pages) and the NIH RePORTER record on 4 November 2026. The site does not say that MM014 is the B7-H3 programme funded by the award, so the product record does not name a target."],
     links: [{ label: "Official website", url: "https://www.mucommune.com/" }, { label: "Pipeline", url: "https://www.mucommune.com/pipeline" }, { label: "NIH RePORTER: 5R44CA306674-02", url: reporter(11413779) }] }),
   p({ id: "mm014", name: "MM014", code: "MM014", modality: "In vivo CAR-T cell therapy", mechanism: "Described by the company as in vivo CAR-T for solid tumours: the patient's T cells are engineered inside the body rather than in a manufacturing facility.", status: "preclinical",
-    tldr: "MM014 is an in vivo CAR-T programme from Mucommune for solid tumours, in early laboratory development.",
+    tldr: "MM014 is an in vivo CAR-T programme from Mucommune for solid tumours. The company does not state its stage in words, and no clinical trial is registered.",
     summary: "MM014 is listed on the pipeline page of Mucommune as an in vivo CAR-T programme for solid tumours, under its in vivo cell engineering platform. The company does not state the target or the stage on that page, and no clinical trial is registered.",
     technologies: ["in-vivo-car-t"], companies: ["mucommune"], cancers: [],
     links: [{ label: "Mucommune pipeline", url: "https://www.mucommune.com/pipeline" }] }),
@@ -70,7 +70,7 @@ export const monitorsSbirD: Array<CompanyInput | DrugInput> = [
     links: [{ label: "Official website", url: "https://vortextherapeutics.com/" }, { label: "Pipeline", url: "https://vortextherapeutics.com/pipeline-vortex-therapeutics/" }, { label: "NIH RePORTER: 5R44CA302283-02", url: reporter(11419007) }] }),
   p({ id: "vor-001", name: "VOR-001", code: "VOR-001", modality: "Oral small-molecule inhibitor", mechanism: "Described by the company as a direct MYC inhibitor that binds a pocket formed when MYC is acetylated, selectively regulating MYC target genes.", status: "preclinical",
     tldr: "VOR-001 is an oral medicine from Vortex Therapeutics designed to block the cancer-driving protein MYC directly; it has been tested in animals so far.",
-    summary: "VOR-001 is the lead programme of Vortex Therapeutics, described as an orally bioavailable small-molecule MYC inhibitor selected to advance to an investigational new drug application. The company reports nanomolar binding to MYC, tumour regression in a mouse hepatocellular carcinoma model and a predicted half-life of about 80 hours in preclinical models. No clinical trial is registered.",
+    summary: "VOR-001 is the lead programme of Vortex Therapeutics, described as an orally bioavailable small-molecule MYC inhibitor selected to advance to an investigational new drug application. The company reports nanomolar binding to MYC, tumour regression in a mouse hepatocellular carcinoma model and a predicted half-life in tumours of about 80 hours in preclinical models. No clinical trial is registered.",
     targets: ["myc-gene"], companies: ["vortex-therapeutics"], cancers: [],
     links: [{ label: "Vortex Therapeutics pipeline", url: "https://vortextherapeutics.com/pipeline-vortex-therapeutics/" }, { label: "Vortex Therapeutics science", url: "https://vortextherapeutics.com/science/" }] }),
 

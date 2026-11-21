@@ -162,10 +162,10 @@ export const parpSelectiveReview: EntityInput[] = [
     "name": "GS-0201",
     "modality": "Small-molecule PARP1 inhibitor",
     "status": "phase-1",
-    "asOf": "2026-10-06",
+    "asOf": "2026-11-18",
     "tldr": "GS-0201 is an experimental pill being studied to block a DNA-repair enzyme in cancer cells.",
-    "summary": "Gilead describes GS-0201 as a PARP1 inhibitor. The linked registry records distinguish recruiting, closed, and discontinued studies; those states do not establish comparative efficacy or approval. NCT06167317 is recruiting and tests GS-0201 alone and with sacituzumab govitecan, connecting PARP dependency with TROP-2-directed delivery.",
-    "mechanism": "Gilead describes GS-0201 as a PARP1 inhibitor.",
+    "summary": "GS-0201 is a Gilead Sciences medicine that a 2026 review in the Journal of Clinical Investigation describes as a PARP1-selective inhibitor; the registry record does not name its target, and Gilead's own pipeline page could not be read as text (not re-verified on 18 November 2026). The linked registry records distinguish recruiting, closed, and discontinued studies; those states do not establish comparative efficacy or approval. NCT06167317 is a recruiting phase 1 study, planned for 278 participants, that tests GS-0201 alone and with sacituzumab govitecan in advanced solid tumours, with expansion groups in triple-negative breast cancer and endometrial cancer.",
+    "mechanism": "Described as a PARP1-selective inhibitor in a 2026 review in the Journal of Clinical Investigation; Gilead's pipeline page could not be read as text (not re-verified on 18 November 2026).",
     "targets": [
       "parp"
     ],
@@ -180,6 +180,10 @@ export const parpSelectiveReview: EntityInput[] = [
       {
         "label": "Primary publication or sponsor source",
         "url": "https://www.gilead.com/science/pipeline"
+      },
+      {
+        "label": "Review naming GS-0201 as a PARP1-selective inhibitor (Journal of Clinical Investigation 2026)",
+        "url": "https://doi.org/10.1172/jci207632"
       }
     ],
     "aka": [],

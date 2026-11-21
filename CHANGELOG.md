@@ -6,13 +6,19 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 21 November 2026
+- Second accuracy pass on every drug record and about 390 cancer pages: approvals, withdrawals, trial results, doses and statuses re-read against labels, regulators and the registry; Ask ranks approved medicines first when a question asks what is approved
+- chore: draft change proposals that need review (#483)
+- chore: EU regional rows read from the EMA register pages (#482)
+
+### 20 November 2026
+- chore: draft change proposals that need review (#481)
+- chore: EU regional rows read from the EMA register pages (#480)
+
 ### 19 November 2026
-- Weekly gap fill: four companion diagnostic records with their FDA withdrawal dates, Ascendis Pharma, and vendor and sponsor links, each read against its sources
-- Second accuracy pass on drug records, the first 232 approved medicines: approvals, indications, trial results and side-effect rates re-read against the current labels, the regulators and the registry, with every correction logged
-- The first weekly re-check's findings are acted on: a withdrawn US approval, European approvals corrected, trials that stopped or reported, and dead links to FDA notices; more cancer pages have their second accuracy read; and thirteen more care protocols cover side effects that had none, among them headache, joint pain, taste changes, eye effects of targeted drugs and heart function on HER2 drugs, with warning cards quoting patient leaflets
-- A weekly re-check now compares every trial's status, US and European approvals, drug labels, guideline links and a rotating quarter of source links against their sources and lists what has drifted; its first run refreshed 242 trial statuses
-- Eleven regulator decisions from the past month are recorded from the regulators' own notices, among them the FDA's accelerated approval of neladalkib on 17 November, three European applications withdrawn and three positive opinions, with the TALAPRO-3 trial's published results; and a monitor now reads regulators', journals' and cancer centres' public feeds for leads to check
-- Daraxonrasib's record gains its trial's size and design, side-effect rates and review timing from the FDA notice, the label and the published trial, and its drug class gets a page of its own; the first results of the REGAIN trial of Alpha DaRT in recurrent glioblastoma are recorded with their limits; and this week's logos, structures and trial names arrive with fifteen wrong logos left out
+- The TQB3909 trial's summary names the two diseases its registry entry criteria name, and one registry date stamp is reworded
+- After slice 0: senaparib carries its Chinese and European approvals in one list, the FDA notice list follows HLX11's corrected name, and translations made from English this batch corrected are removed
+- Second accuracy pass on the drug records: the last 77 pipeline drugs checked against the trial registry, papers and company statements, with 70 wrong and 34 unsupported claims corrected out of 745 checked
 - chore: weekly roadmap registry check (public/roadmap-watch.json)
 - chore: draft records for gaps in the freshness issue, for review
 - chore: refresh institution research output from OpenAlex (#475)
@@ -20,8 +26,48 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - chore: EU regional rows read from the EMA register pages (#471)
 
 ### 18 November 2026
+- Second accuracy pass on the drug records: 138 more pipeline drugs checked against the trial registry, papers and company statements, with 178 wrong and 63 unsupported claims corrected out of 1,344 checked
+- For a question about something approved, Ask puts approved medicines ahead of medicines approved nowhere
+- The RemeGen trial of disitamab vedotin with RC148 is described as the registry describes it: hormone receptor-negative, HER2-low breast cancer, not HER2-positive
+- After the slice 0 batch: nine more translations made from English it corrected are removed, and one registry date stamp is reworded
+- The corrections log records what combining the passes changed: label sources for two medicines, Arvinas and EZH2 wording, three records two passes had both corrected, and the translations removed
+- One-line translations whose English was corrected after they were written are removed, so those pages show the corrected English
+- After the merges: relacorilant and vusolimogene oderparepvec side-effect rates cite the US labels they come from, Arvinas is described in its sources' words, and the EZH2 line names its first drug
+- Second accuracy pass on the drug records: the first 137 pipeline drugs checked against the trial registry, papers and company statements, with 190 wrong and 90 unsupported claims corrected out of 1,698 checked
+- SCTC21C keeps its own mechanism line: a merge step had copied abexinostat's onto it
+- Slice 2 of the drug accuracy pass, complete: the remaining 297 pipeline drugs checked against the trial registry and their sources
+- Merge main into the slice 1 drug recheck
+- Second accuracy pass on drug records, slice 1: the last 81 pipeline drugs checked, completing all 351; 94 wrong and 26 unsupported claims corrected out of 541 checked
+- Second accuracy pass on cancer pages, part two: 51 Chinese summary translations made from English text this pass corrected are removed so those pages show the corrected English, and one trial line spells out its confidence interval
+- Second accuracy pass on cancer pages, part two: neuroendocrine, thyroid, sarcoma and the remaining rare types (884 claims re-read against their sources, 151 wrong, 160 unsupported and 63 unverifiable corrected or labelled); Chinese one-line summaries of 54 corrected records synchronised
+- Second accuracy pass on drug records, slice 1: 54 more pipeline drugs checked against the trial registry and their sponsors; 66 wrong and 17 unsupported claims corrected out of 372 checked
+- Weekly gap fill: four companion diagnostic records with their FDA withdrawal dates, Ascendis Pharma, and vendor and sponsor links, each read against its sources
 - The gap-fill proposal records what the review changed, and the cobas EZH2 note describes the later manufacturing notices as the FDA data give them
 - Gap-fill drafts read against their sources: two withdrawal dates added from the FDA's own pages, the PGDx test's full list of medicines given, Ascendis Pharma's website and headquarters read on its own site, one draft held back, and every new record linked from a neighbour
+- Second accuracy pass on drug records, slice 1: 54 more pipeline drugs checked against the trial registry and their sponsors; 63 wrong and 21 unsupported claims corrected out of 367 checked
+- Ask checks a product's dated approvals when a question asks what was approved in a period
+- Second accuracy pass on drug records, slice 1: 54 more pipeline drugs checked against the trial registry and their sponsors; 62 wrong and 16 unsupported claims corrected out of 390 checked
+- Second accuracy pass on the drug records: the last forty-two approved products re-read against labels, regulators, registries and papers, with 21 wrong and 26 unsupported claims corrected out of 472 checked
+- Second accuracy pass on cancer pages, part two: rare tumour types, childhood tumours, gynaecological, brain and head and neck pages (915 claims re-read against their sources, 131 wrong, 170 unsupported and 86 unverifiable corrected or labelled)
+- The ArteraAI authorisation is carried to the records that repeated the old claim, and two benchmark questions built on corrected claims ask what is true
+- Second accuracy pass on drug records, slice 1: 54 more pipeline drugs checked against the trial registry and their sponsors; 60 wrong and 15 unsupported claims corrected out of 437 checked
+- After the merge: vepdegestrant's side-effect rates cite the label they come from, three date stamps are reworded, two one-line summaries fit their limit, and eighteen Chinese summaries whose English changed are removed
+- Second accuracy pass on the drug records: seventy-nine more approved products re-read against labels, regulators, registries and papers, with 97 wrong and 95 unsupported claims corrected out of 1,233 checked
+- Twenty FDA notice links brought in by the drug accuracy pass use the address the FDA now serves
+- The FDA notice list dates dostarlimab's solid tumour approval 17 August 2021, as the notice does
+- Second accuracy pass on drug records, slice 1: the first 54 pipeline drugs checked against the trial registry and their sponsors; 66 wrong and 17 unsupported claims corrected out of 453 checked
+- Slice 2 of the drug accuracy pass: corrections that had been saved inside the branch's merge commits are carried over
+- Fifty-four pipeline drugs are checked against the trial registry and their sources: 77 claims corrected, 40 reworded to what the source says, 31 marked as not re-verified
+- Pipeline drug records first reached by the slice 2 checker are corrected: budigalimab is described as the anti-PD-1 antibody its study record shows, and bezuclastinib as a KIT-blocking drug under US review
+- The last forty approved medicines and tests in the slice are re-read against their sources: 31 claims corrected, 26 reworded to what the source says, 9 marked as not re-verified
+- Sixteen more approved medicines and tests are re-read against their sources: 12 claims corrected, 20 reworded to what the source says, 8 marked as not re-verified
+- Forty-eight more approved medicines and tests are re-read against their sources: 50 claims corrected, 43 reworded to what the source says, 24 marked as not re-verified
+- Thirty-two more approved medicines and tests are re-read against their sources: 38 claims corrected, 30 reworded to what the source says, 22 marked as not re-verified
+- Second accuracy pass on cancer pages, part two: bowel, breast, childhood, urological, upper digestive and skin subtype pages (810 claims re-read against their sources, 118 wrong, 123 unsupported and 65 unverifiable corrected or labelled)
+- Thirty-two more approved medicines are re-read against their sources: 43 claims corrected, 54 reworded to what the source says, 28 marked as not re-verified
+- Sixty-four approved medicines are re-read against their labels, registries and papers: 116 claims corrected, 98 reworded to what the source says, 59 marked as not re-verified
+- Second accuracy pass on the drug records: sixty-two more approved products re-read against labels, regulators, registries and papers, with 107 wrong and 82 unsupported claims corrected out of 1,253 checked
+- Second accuracy pass on the drug records: the forty-nine most linked approved medicines re-read against labels, regulators, registries and papers, with 140 wrong and 95 unsupported claims corrected out of 1,604 checked
 - Second accuracy pass on drug records, the first 232 approved medicines: approvals, indications, trial results and side-effect rates re-read against the current labels, the regulators and the registry, with every correction logged
 - Sacituzumab tirumotecan: the pipeline chart's date is given in house style
 - Second accuracy pass on drug records, slice 1: the last 12 approved medicines re-read, completing all 232; 5 wrong and 2 unsupported claims corrected out of 134 checked
@@ -33,17 +79,26 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Second accuracy pass on drug records, slice 1: 24 more approved medicines re-read; 41 wrong and 19 unsupported claims corrected out of 593 checked
 - Second accuracy pass on drug records, slice 1: the first 24 approved medicines re-read against labels, regulators and trials; 50 wrong and 21 unsupported claims corrected out of 838 checked
 - The first weekly re-check's findings are acted on: a withdrawn US approval, European approvals corrected, trials that stopped or reported, and dead links to FDA notices; more cancer pages have their second accuracy read; and thirteen more care protocols cover side effects that had none, among them headache, joint pain, taste changes, eye effects of targeted drugs and heart function on HER2 drugs, with warning cards quoting patient leaflets
+- Second accuracy pass on cancer pages, part two: lung, pancreatic and blood cancer subtype pages (618 claims re-read against their sources, 96 wrong, 66 unsupported and 41 unverifiable corrected or labelled)
 - A stopped breast reconstruction trial keeps its enrolment in the one-line description, and 38 Chinese summary translations made from English that has since been corrected are withdrawn
+- The table of US accelerated approvals is regenerated from the FDA's four lists as read on 17 November 2026: 242 indications, 141 converted, 37 withdrawn, 64 open
+- Two European authorisations found in the Commission's register are recorded, daraxonrasib on 16 November and senaparib on 12 November 2026; pexidartinib and romidepsin are shown as refused in the EU, not withdrawn; and two model reviews cite the FDA notices at their new address
 - The new warning cards are reworded to fit the reader's download budget, with every quotation still verbatim, and cards are added for pancreatitis on four leukaemia drugs, liver problems on three drugs and heart symptoms on five HER2-targeted drugs
+- Eleven trials name the sponsor the registry now gives, among them Genmab for the petosemtamab trials and BeOne for a BGB-16673 trial; PRODIGE 4 is shown as the phase 2/3 trial it was; and the accelerated approvals table is read from the FDA's new address, without footnote markers recorded as announcements
 - A care protocol for a fall in heart pumping function on HER2-targeted drugs: the scans and the hold, restart and stop rules of each US and EU label beside the ESC 2022 and ESMO 2020 recommendations, re-read by a second reader
 - Second accuracy pass on cancer pages, part two: Hodgkin lymphoma, six family pages, eight more main records and 71 rarer cancers (1,184 claims re-read against their sources, 278 wrong, 188 unsupported and 110 unverifiable corrected or labelled; 47 trials and 11 pipeline drugs unlinked from cancers they do not study)
 - Trial site lists are rebuilt from the registry records re-read today, the start date of the pancreatic imaging study follows its current registration, and aumolertinib's revoked European authorisation is shown as two dated events instead of a standing approval
+- 749 registry-ingested trial records now give the enrolment and the primary completion date ClinicalTrials.gov showed on 18 November 2026: 137 enrolment figures and 241 dates are updated, and 482 summaries no longer say a trial is due to reach a completion date the registry marks as reached
+- A script brings the enrolment figures and primary completion dates of registry-ingested trials back into line with the registry, rewriting only the ingests' own sentences
 - Warning cards for thirteen of the new protocols: 59 lines, each quoting the product's own patient leaflet, Medication Guide, NHS or Macmillan page; dry mouth has none because no source read states an urgent threshold
 - A care protocol for pancreatitis and raised pancreatic enzymes on asciminib, ponatinib, nilotinib and bosutinib, with the US and EU label rules side by side, re-read by a second reader
+- Links found dead by the weekly re-check are corrected: FDA approval notices now use the address the FDA moved them to, eleven Wikipedia links are corrected or removed, and eight moved pages are given their current addresses
+- Three guideline sources that had gone from their publishers' sites now point at archived copies: the NIOSH hazardous drugs alert of 2004, NHS England's DPYD testing policy statement and the ASCO Post summary of the breast cancer survivorship guideline
 - European rows corrected from the EMA and the Commission's register: aumolertinib's first authorisation was revoked on 25 September 2026 and a new application has a positive opinion, daraxonrasib has a positive opinion, and eleven medicines are shown as conditional or full as the EMA lists them
 - The table of US accelerated approvals is read again from the FDA: lurbinectedin's 2020 approval for relapsed small-cell lung cancer is shown as withdrawn on 30 September 2026, three new approvals and three conversions are added, and the complete response letter for 177Lu-edotreotide is recorded as the outcome of its review
 - Twenty-one trial records are brought into line with the registry: six with newly posted results now say what those results show and their limits, thirteen that had closed, stopped or reopened say so in every language, one registration the registry has folded into another is corrected, and trial sites are refreshed
 - The raised liver enzymes protocol gains gilteritinib, olutasidenib, enasidenib and loncastuximab tesirine, and the fluid retention protocol gains vimseltinib and telisotuzumab vedotin, each from its US label and EU text where one exists, re-read by a second reader
+- Five drug records gain indications that are on their current US labels: dasatinib for newly diagnosed and childhood chronic myeloid leukaemia, lenvatinib with belzutifan in kidney cancer, daratumumab in AL amyloidosis, obinutuzumab in follicular lymphoma, and imlunestrant with abemaciclib
 - A care protocol for ifosfamide: bladder protection with mesna and fluids, and ifosfamide encephalopathy, with the US and UK texts side by side, re-read by a second reader
 - A weekly re-check now compares every trial's status, US and European approvals, drug labels, guideline links and a rotating quarter of source links against their sources and lists what has drifted; its first run refreshed 242 trial statuses
 - Three more care protocols: raised cholesterol, triglycerides and weight gain on lorlatinib, bexarotene and elacestrant; cognitive and mood effects on lorlatinib and avapritinib; and blood count, kidney and liver monitoring during lutetium-177 radioligand therapy, each re-read by a second reader

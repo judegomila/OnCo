@@ -825,7 +825,7 @@ export const simpleP: Record<string, string> = {
   "nct04923906": "Jiangsu Hansoh runs this phase 3 trial of aumolertinib with or without chemotherapy as first treatment for EGFR mutated lung cancer, and it is still running but no longer recruiting.",
   "nct06382116": "PANKU-Lung01 is a Sichuan Baili phase 3 trial comparing BL-B01D1 with platinum chemotherapy in advanced non-small cell lung cancer, still running but no longer recruiting.",
   "nct04914598": "Jiangsu Simcere runs this phase 3 trial of Endostar or a placebo with cisplatin put into the chest to treat fluid build up around the lungs caused by cancer, no longer recruiting.",
-  "nct06973187": "BeOne Medicines runs this phase 3 trial comparing tacabrutideg with pirtobrutinib in chronic lymphocytic leukaemia or small lymphocytic lymphoma that has come back, now recruiting.",
+  "cadance-304": "BeOne Medicines runs this phase 3 trial comparing tacabrutideg with pirtobrutinib in chronic lymphocytic leukaemia or small lymphocytic lymphoma that has come back, now recruiting.",
   "nct06496971": "NaviFUS runs this phase 3 trial of bevacizumab with or without focused ultrasound and microbubbles to open the brain's barrier in glioblastoma that has come back, now recruiting.",
   "nct04464226": "Bayer runs this phase 3 study that lets people from earlier darolutamide trials keep taking darolutamide, and it is still running but no longer recruiting.",
   "nct05802225": "Biocad runs this phase 3 trial comparing its BCD-178 copy of Perjeta with Perjeta itself before surgery for HER2 positive breast cancer, still running but no longer recruiting.",

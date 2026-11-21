@@ -10,7 +10,8 @@ import { countryIndex } from "@/lib/country-pages";
 import { CountryDirectory, type DirectoryRow } from "@/components/CountryDirectory";
 import data from "../../../public/openalex/countries.json";
 
-export const metadata: Metadata = pageMeta({ title: "Country research rankings", description: "A page for every country in GLOBOCAN, with the deep dives marked, and countries ranked by oncology research output (OpenAlex), growth, highly cited share, open access, registered trials, and a disclosed composite score, with GLOBOCAN burden and national funders.", path: "/countries/" });
+// The description says the deep dives are marked only while some page is not one (the tag in CountryDirectory follows the same rule).
+export const metadata: Metadata = pageMeta({ title: "Country research rankings", description: `${countryIndex().every((c) => c.deepDive) ? "A deep dive on every country in GLOBOCAN" : "A page for every country in GLOBOCAN, with the deep dives marked"}, and countries ranked by oncology research output (OpenAlex), growth, highly cited share, open access, registered trials, and a disclosed composite score, with GLOBOCAN burden and national funders.`, path: "/countries/" });
 
 type Raw = { built: string; years: number[]; source: string; countries: Record<string, { name: string; works: Record<string, number>; total: number; citedHigh: number; oa: number; trials?: number }> };
 
@@ -24,10 +25,13 @@ export default function Countries() {
   const rows: CountryRow[] = Object.entries(raw.countries).map(([code, c]) => ({ code, ...c, ...(countryExtras[code] ?? {}), name: countryExtras[code]?.name ?? c.name, institutions: instByCountry.get(code) ?? 0 }));
   const y1 = raw.years[raw.years.length - 1];
   const top = [...rows].sort((a, b) => (b.works[String(y1)] ?? 0) - (a.works[String(y1)] ?? 0)).slice(0, 3);
-  // Every country with a page: the deep dives and the automatic pages (src/app/countries/[iso]/page.tsx).
+  // Every country with a page: the deep dives and any automatic pages (src/app/countries/[iso]/page.tsx).
   const index = countryIndex();
   const directory: DirectoryRow[] = index.map((c) => ({ c: c.iso2, n: c.name, r: c.region, d: c.deepDive, ...(c.parts ? { p: c.parts.map((x) => [x.name, x.route] as [string, string]) } : {}) }));
   const directoryDives = index.filter((c) => c.deepDive).length;
+  // Automatic pages: none since 16 November 2026, when the last deep dives were written; counted, not assumed, so
+  // the sentence below is right again on the day IARC reports a territory that has no deep dive yet.
+  const directoryAuto = index.length - directoryDives;
 
   return (
     <>
@@ -36,7 +40,9 @@ export default function Countries() {
       <Container className="pb-16">
         <section aria-labelledby="every-country" className="mb-12">
           <h2 id="every-country" className="text-lg font-semibold mb-1">Every country</h2>
-          <p className="text-sm text-muted mb-4 max-w-3xl">{index.length} countries and territories have a page ({index.flatMap((c) => c.parts ?? []).map((x) => x.name).join(", ")} are on the France page, as IARC reports them separately): {directoryDives} deep dives written from each country&apos;s own sources, and {index.length - directoryDives} pages assembled from GLOBOCAN {GLOBOCAN.year}, the trials, institutions, companies and people OnCo records there, and a list of what it does not yet hold.</p>
+          <p className="text-sm text-muted mb-4 max-w-3xl">{index.length} countries and territories have a page ({index.flatMap((c) => c.parts ?? []).map((x) => x.name).join(", ")} are on the France page, as IARC reports them separately): {directoryAuto === 0
+            ? <>each of the {directoryDives} is a deep dive written from the country&apos;s own sources.</>
+            : <>{directoryDives} deep dives written from each country&apos;s own sources, and {directoryAuto} {directoryAuto === 1 ? "page" : "pages"} assembled from GLOBOCAN {GLOBOCAN.year}, the trials, institutions, companies and people OnCo records there, and a list of what it does not yet hold.</>}</p>
           <CountryDirectory rows={directory} regions={Object.values(CONTINENT)} />
         </section>
         <h2 className="text-lg font-semibold mb-3">Research ranking</h2>

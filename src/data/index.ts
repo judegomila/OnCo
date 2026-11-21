@@ -287,7 +287,71 @@ import { recordsAM } from "./country-records-am"; // wave 12
 import { recordsSO } from "./country-records-so"; // wave 12
 import { recordsJO } from "./country-records-jo"; // wave 12
 import { recordsSV } from "./country-records-sv"; // wave 12
+import { recordsJM } from "./country-records-jm"; // wave 16
+import { recordsTT } from "./country-records-tt"; // wave 16
+import { recordsBS } from "./country-records-bs"; // wave 16
+import { recordsBB } from "./country-records-bb"; // wave 16
+import { recordsBZ } from "./country-records-bz"; // wave 16
+import { recordsGY } from "./country-records-gy"; // wave 16
+import { recordsSR } from "./country-records-sr"; // wave 16
+import { recordsLC } from "./country-records-lc"; // wave 16
+import { recordsCW } from "./country-records-cw"; // wave 16
+import { recordsFJ } from "./country-records-fj"; // wave 16
+import { recordsWS } from "./country-records-ws"; // wave 16
+import { recordsSB } from "./country-records-sb"; // wave 16
+import { recordsVU } from "./country-records-vu"; // wave 16
+import { recordsGU } from "./country-records-gu"; // wave 16
+import { recordsPF } from "./country-records-pf"; // wave 16
+import { recordsNC } from "./country-records-nc"; // wave 16
 import { recordsPA } from "./country-records-pa"; // wave 12
+import { recordsAE } from "./country-records-ae"; // wave 13
+import { recordsKW } from "./country-records-kw"; // wave 13
+import { recordsQA } from "./country-records-qa"; // wave 13
+import { recordsOM } from "./country-records-om"; // wave 13
+import { recordsBH } from "./country-records-bh"; // wave 13
+import { recordsLY } from "./country-records-ly"; // wave 13
+import { recordsPS } from "./country-records-ps"; // wave 13
+import { recordsCY } from "./country-records-cy"; // wave 13
+import { recordsMT } from "./country-records-mt"; // wave 13
+import { recordsLU } from "./country-records-lu"; // wave 13
+import { recordsIS } from "./country-records-is"; // wave 13
+import { recordsEE } from "./country-records-ee"; // wave 13
+import { recordsAL } from "./country-records-al"; // wave 13
+import { recordsMK } from "./country-records-mk"; // wave 13
+import { recordsME } from "./country-records-me"; // wave 13
+import { recordsMN } from "./country-records-mn"; // wave 13
+import { recordsSL } from "./country-records-sl"; // wave 14
+import { recordsLR } from "./country-records-lr"; // wave 14
+import { recordsTG } from "./country-records-tg"; // wave 14
+import { recordsBJ } from "./country-records-bj"; // wave 14
+import { recordsGM } from "./country-records-gm"; // wave 14
+import { recordsGW } from "./country-records-gw"; // wave 14
+import { recordsMR } from "./country-records-mr"; // wave 14
+import { recordsCV } from "./country-records-cv"; // wave 14
+import { recordsST } from "./country-records-st"; // wave 14
+import { recordsGA } from "./country-records-ga"; // wave 14
+import { recordsCG } from "./country-records-cg"; // wave 14
+import { recordsCF } from "./country-records-cf"; // wave 14
+import { recordsGQ } from "./country-records-gq"; // wave 14
+import { recordsBI } from "./country-records-bi"; // wave 14
+import { recordsSS } from "./country-records-ss"; // wave 14
+import { recordsER } from "./country-records-er"; // wave 14
+import { recordsNA } from "./country-records-na"; // wave 15
+import { recordsBW } from "./country-records-bw"; // wave 15
+import { recordsLS } from "./country-records-ls"; // wave 15
+import { recordsSZ } from "./country-records-sz"; // wave 15
+import { recordsMU } from "./country-records-mu"; // wave 15
+import { recordsKM } from "./country-records-km"; // wave 15
+import { recordsDJ } from "./country-records-dj"; // wave 15
+import { recordsMV } from "./country-records-mv"; // wave 15
+import { recordsBT } from "./country-records-bt"; // wave 15
+import { recordsLA } from "./country-records-la"; // wave 15
+import { recordsTL } from "./country-records-tl"; // wave 15
+import { recordsBN } from "./country-records-bn"; // wave 15
+import { recordsKG } from "./country-records-kg"; // wave 15
+import { recordsTJ } from "./country-records-tj"; // wave 15
+import { recordsTM } from "./country-records-tm"; // wave 15
+import { recordsNI } from "./country-records-ni"; // wave 15
 import { china } from "./china";
 import { approvedWave1 } from "./drugs-approved-wave1";
 import { targetsWave1 } from "./targets-wave1";
@@ -613,6 +677,11 @@ const RAW_INPUTS: EntityInput[] = [
   ...recordsTD, ...recordsLB, ...recordsBO, ...recordsZM, ...recordsPR, ...recordsUY, ...recordsLT, ...recordsNE, ...recordsCM, ...recordsGE,
   ...recordsAZ, ...recordsBA, ...recordsHT, ...recordsSN, ...recordsSI, ...recordsML, ...recordsPG, ...recordsBF, ...recordsCR, ...recordsPY,
   ...recordsRW, ...recordsGN, ...recordsMD, ...recordsLV, ...recordsHN, ...recordsAM, ...recordsSO, ...recordsJO, ...recordsSV, ...recordsPA, // wave 12
+  ...recordsJM, ...recordsTT, ...recordsBS, ...recordsBB, ...recordsBZ, ...recordsGY, ...recordsSR, ...recordsLC, ...recordsCW, ...recordsFJ, ...recordsWS, ...recordsSB, ...recordsVU, ...recordsGU, ...recordsPF, ...recordsNC, // wave 16
+  ...recordsAE, ...recordsKW, ...recordsQA, ...recordsOM, ...recordsBH, ...recordsLY, ...recordsPS, ...recordsCY, ...recordsMT, ...recordsLU, ...recordsIS, ...recordsEE, ...recordsAL, ...recordsMK, ...recordsME, ...recordsMN, // wave 13
+  ...recordsSL, ...recordsLR, ...recordsTG, ...recordsBJ, ...recordsGM, ...recordsGW, ...recordsMR, ...recordsCV, // wave 14
+  ...recordsST, ...recordsGA, ...recordsCG, ...recordsCF, ...recordsGQ, ...recordsBI, ...recordsSS, ...recordsER, // wave 14
+  ...recordsNA, ...recordsBW, ...recordsLS, ...recordsSZ, ...recordsMU, ...recordsKM, ...recordsDJ, ...recordsMV, ...recordsBT, ...recordsLA, ...recordsTL, ...recordsBN, ...recordsKG, ...recordsTJ, ...recordsTM, ...recordsNI, // wave 15
   ...china,
   ...approvedWave1,
   ...targetsWave1,

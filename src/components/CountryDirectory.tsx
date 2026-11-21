@@ -10,7 +10,10 @@ const fold = (s: string) => s.normalize("NFD").replace(/\p{M}/gu, "").toLowerCas
 
 /**
  * Every country with a page on /countries/, grouped by IARC's world region, with a name filter and a switch for
- * deep dives only. A deep dive is set in bold with a "deep dive" tag; every other name opens its automatic page.
+ * deep dives only. While some country is not a deep dive, a deep dive is set in bold with a "deep dive" tag and every
+ * other name opens its automatic page. The tag and the switch are offered only in that mixed state: since 16 November
+ * 2026 every country is a deep dive, and a tag beside every name, like a switch that changes nothing, is furniture.
+ * Both come back by themselves with the first automatic page.
  */
 export function CountryDirectory({ rows, regions }: { rows: DirectoryRow[]; regions: string[] }) {
   const [q, setQ] = useState("");
@@ -20,11 +23,12 @@ export function CountryDirectory({ rows, regions }: { rows: DirectoryRow[]; regi
     return rows.filter((x) => (!divesOnly || x.d) && (!needle || fold(x.n).includes(needle) || x.c.toLowerCase() === needle || (x.p ?? []).some(([n]) => fold(n).includes(needle))));
   }, [rows, q, divesOnly]);
   const dives = rows.filter((x) => x.d).length;
+  const mixed = dives < rows.length;
   return (
     <div>
       <div className="flex flex-wrap items-center gap-3 mb-4">
         <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Find a country…" aria-label="Find a country" className="rounded-lg border border-border bg-card px-3 py-1.5 text-sm outline-none focus:ring-2 focus:ring-accent/40 w-56" />
-        <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={divesOnly} onChange={(e) => setDivesOnly(e.target.checked)} /> Deep dives only ({dives})</label>
+        {mixed && <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={divesOnly} onChange={(e) => setDivesOnly(e.target.checked)} /> Deep dives only ({dives})</label>}
         <span className="text-sm text-muted tabular-nums" aria-live="polite">{shown.length} of {rows.length}</span>
       </div>
       <div className="grid gap-x-6 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -38,7 +42,7 @@ export function CountryDirectory({ rows, regions }: { rows: DirectoryRow[]; regi
                 {xs.map((x) => (
                   <li key={x.c} className="break-inside-avoid">
                     <Link href={`/countries/${x.c.toLowerCase()}/`} prefetch={false} className={x.d ? "font-semibold hover:underline" : "hover:underline"}>{x.n}</Link>
-                    {x.d && <span className="ms-1 text-[10px] uppercase tracking-wide text-accent">deep dive</span>}
+                    {mixed && x.d && <span className="ms-1 text-[10px] uppercase tracking-wide text-accent">deep dive</span>}
                     {x.p && <span className="block text-xs text-muted leading-5">with {x.p.map(([n, h], i) => <span key={h}>{i ? ", " : ""}<Link href={h} prefetch={false} className="hover:underline">{n}</Link></span>)}</span>}
                   </li>
                 ))}

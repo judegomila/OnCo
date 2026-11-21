@@ -97,6 +97,21 @@ describe("retrieveIds: products approved in the period asked about come first", 
     const q = "Was Wordsonly approved in the US in July 2026?";
     expect(retrieveIds(hits("a-distributor", "words-only"), concept, 4, { question: q, lookup })).toEqual(["words-only", "a-distributor", "new-in-july", "a-test"]);
   });
+
+  it("comes after a technology the question names, and both rules still act", () => {
+    // Precedence in retrieveIds: a named medicine, then a named technology, then what the approval rules infer.
+    const withTech = namedLookup([
+      { id: "new-in-july", kind: "drug", name: "New in July", approved: ["2026-07-22 US"] },
+      { id: "words-only", kind: "drug", name: "Words only", aka: "Wordsonly", approved: ["2021-02-12 US"] },
+      { id: "brachytherapy", kind: "technology", name: "Brachytherapy" },
+    ]);
+    const lex = hits("an-act", "brachytherapy", "words-only"), sem = hits("words-only", "an-idea", "new-in-july");
+    const q = "Which brachytherapy products were approved in the US in July 2026?";
+    expect(retrieveIds(lex, sem, 3, { question: q, lookup: withTech })).toEqual(["brachytherapy", "new-in-july", "words-only"]);
+    // With a medicine named as well, the medicine leads, the technology follows, and the approval rules stand down.
+    const both = "Was Wordsonly approved with brachytherapy in the US in July 2026?";
+    expect(retrieveIds(lex, sem, 3, { question: both, lookup: withTech })).toEqual(["words-only", "brachytherapy", "an-act"]);
+  });
 });
 
 describe("approvedFirst: approved medicines ahead of medicines approved nowhere", () => {

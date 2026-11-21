@@ -7,11 +7,15 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 21 November 2026
+- The last 64 country deep dives (waves 13 to 16), each checked twice against its sources; Ask places a technology first when a question names it
 - Second accuracy pass on every drug record and about 390 cancer pages: approvals, withdrawals, trial results, doses and statuses re-read against labels, regulators and the registry; Ask ranks approved medicines first when a question asks what is approved
 - chore: draft change proposals that need review (#483)
 - chore: EU regional rows read from the EMA register pages (#482)
 
 ### 20 November 2026
+- Ten records the country waves corrected: plain-language lines brought into step, and translations of the old one-liners removed
+- Second accuracy pass on every drug record and about 390 cancer pages: approvals, withdrawals, trial results, doses and statuses re-read against labels, regulators and the registry; Ask ranks approved medicines first when a question asks what is approved
+- Ask recall measured with the three retrieval rules together: 0.4322, rubric 0.6970
 - chore: draft change proposals that need review (#481)
 - chore: EU regional rows read from the EMA register pages (#480)
 
@@ -124,6 +128,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - The lead monitor saves its queue after every source, so a run that is cut short loses at most the source it was reading
 - A research lead monitor that needs no account: it reads regulators', journals', societies', centres' and charities' feeds, their Bluesky accounts, a PubMed search and the trial registry into a private review queue, and publishes nothing
 - Daraxonrasib's record gains its trial's size and design, side-effect rates and review timing from the FDA notice, the label and the published trial, and its drug class gets a page of its own; the first results of the REGAIN trial of Alpha DaRT in recurrent glioblastoma are recorded with their limits; and this week's logos, structures and trial names arrive with fifteen wrong logos left out
+- Ask: a technology the question names by its own one-word name is placed first
 - The gallbladder term keeps its file's date: the helper that builds it takes no date of its own
 - The corrected gallbladder term carries the date it was checked
 - More of the site is joined up on the page: institutions and funders list the trials they sponsor, people list the trials whose papers they wrote, ideas and the problems they address name each other, open questions appear on the ideas they concern, tests show who pays for them where a source says, and nearly every glossary term in running text now has its explanation on hover
@@ -131,6 +136,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Daraxonrasib gains its trial design, severe adverse event rates, dosing and regulatory dates, and its drug class gets a record: RAS(ON) tri-complex inhibitors
 - REGAIN, the Alpha DaRT study in recurrent glioblastoma, gets a trial record with its interim results and their limits, and Alpha DaRT gets a technology record
 - Four trial acronyms from the weekly run are dropped because they are ordinary words
+- Country pages: trial counts recounted and dated after the registry refresh, and the index drops a tag every country now carries
 - Weekly logos reviewed by eye: fifteen dropped as stock icons or another body's mark
 - Side effects now show the protocol that manages them for eighty more rows, among them high blood pressure on VEGF drugs, heart rhythm changes, high blood sugar and lung inflammation on antibody-drug conjugates; and five pages stop throwing a browser error as they load
 - chore: check regional approvals against the EMA register (#459)
@@ -208,9 +214,16 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Twenty country pages now say what the IAEA's radiotherapy directory lists, and two say what WHO's HPV data hold
 - Second accuracy pass on ten more live country pages (wave 9): Singapore, New Zealand, Croatia, Slovakia, Mozambique, Malawi, Madagascar, the Dominican Republic, Guatemala and Côte d'Ivoire
 - Second accuracy pass on ten live country pages (wave 12): Guinea, Honduras, Armenia, Somalia, El Salvador, Jordan, Rwanda, Moldova, Latvia and Panama
+- The fixture territories move beside the other test helpers, and the merged Ask measurement is logged
+- The automatic country route is kept for the next territory, now that every country has a deep dive
 - The first weekly gap fill read from FDA sources lands, each fact checked against the FDA list and device records: the Guardant360 Liquid CDx blood test approved on 19 May 2026 with its seven drug pairings, and four companion tests linked to the biomarkers they read
+- Belize, Suriname and Jamaica no longer give the lack of a registry as the reason IARC models their figures; each page now states what the source says
+- A second claim-by-claim check of sixteen country deep dives before they are published, from Sierra Leone to Eritrea: 1,701 claims re-read against their sources, 21 wrong and 67 unsupported corrected, 12 labelled as not re-verified
+- A second accuracy pass on the sixteen country pages of wave 15: 3,516 claims re-read against the raw text of their sources, 33 found wrong, 107 saying more than the source does and 8 whose source could not be reached; all corrected, reworded or labelled
+- Second accuracy pass on sixteen Caribbean and Pacific country pages: 3,045 claims re-read against their sources, 64 wrong and 123 unsupported corrected, 22 labelled as not re-verified
 - Review of the 17 November gap fill: Guardant360 Liquid CDx gets a row in the tests box of the eight readouts it measures, the BRACAnalysis CDx row on the prostate HRR readout says it covers BRCA1 and BRCA2 only, the FDA companion diagnostic list is cited at its new address, and the gap audit no longer reads the SP142 and SP263 PD-L1 assays as one product
 - More of the graph is joined up: 1,251 confirmed links between people and the trials whose papers they wrote, matched by ORCID or full name and affiliation; who pays for 21 tests in the US and UK, from Medicare national coverage decisions and NICE guidance; fifty warning-card lines now name the protocol that manages them; and eight wrong side-effect links are removed
+- Second accuracy pass on thirteen country pages: 2,444 claims re-read against their sources, 37 wrong and 158 unsupported statements corrected, 19 labelled as not re-verified
 - Twenty-two more care protocols close the gaps in the census, among them stoma care, drain care at home, transplant conditioning, veno-occlusive disease, lung biopsy, intrathecal chemotherapy in children, end-of-life care for children, advance care planning and stopping smoking after a diagnosis; 212 protocols in all, with a table of what is covered and what is still open
 - Shasqi in depth: its clinical programme SQ3370, its trial and the click-activated chemistry behind it, from the company's own pages, the registry and the published papers; the weekly gap-fill job gets the tools it needs to read its allowed sources; and the command-line tool and MCP server are rebuilt to know about care protocols
 - Six cross-links a reader can now follow: side effect to protocol to warning card, funder to trials, person to trial reports, glossary terms in long paragraphs, ideas with bottlenecks and open questions, and who pays for a test
@@ -219,16 +232,25 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - The National Cancer Institute and Cancer Research UK records carry their abbreviations as aliases
 - Fifty warning-card lines name the protocol that manages them
 - The scalp cooling record says in its first line what the cap is for, preventing or reducing hair loss, so a question about hair loss still finds it beside the longer care protocol
+- Mongolia's page now gives ClinicalTrials.gov's own definition of a study of unknown status, with a link to the registry's glossary
 - Chip titles render the same on server and client: the tooltip is written when the pointer reaches a chip, and the forest plot rounds its positions
+- Country deep dives, wave 15: pages for the sixteen countries, their search lines, and test examples moved to places that still have an automatic page
+- Sixteen more countries, read from their own sources: Namibia, Botswana, Lesotho, Eswatini, Mauritius, Comoros, Djibouti, the Maldives, Bhutan, Laos, Timor-Leste, Brunei, Kyrgyzstan, Tajikistan, Turkmenistan and Nicaragua, with 60 new records, each page saying where IARC's figures are modelled from neighbours and what could not be read
 - The coverage table records that Europe PMC holds no open copy of the two interventional radiology standards on blood thinners before a biopsy, so that row stays open
 - A contributor's education work arrives, 215 new records on biomarkers, immune tests, specimens, RNA and clinical evidence, with every source checked; and a backlog of corrections lands: new FDA approvals including pimicotinib, four generic icons removed from logos, mislabelled trials fixed, radiotherapy counts for Madagascar and Angola, the two Cuban lung cancer vaccines, and 33 records renamed for their subject
 - Protocols page weight: the live page weighs 157,107 bytes, over the 155,000 ceiling, so the ceiling stays and the note says so
+- Country deep dives, wave 13: pages for the United Arab Emirates, Kuwait, Qatar, Oman, Bahrain, Libya, the Gaza Strip and West Bank, Cyprus, Malta, Luxembourg, Iceland, Estonia, Albania, North Macedonia, Montenegro and Mongolia
+- Sixteen more countries read from their own sources: the United Arab Emirates, Kuwait, Qatar, Oman, Bahrain, Libya, the Gaza Strip and West Bank, Cyprus, Malta, Luxembourg, Iceland, Estonia, Albania, North Macedonia, Montenegro and Mongolia
 - The onco-cc and onco-mcp packages go to 0.1.1, so a rebuild that knows the protocol kind can be published
 - The recorded Ask rubric is the figure measured after merging main: 0.6765
 - The gap-fill workflow installs bubblewrap and socat, so the fetch tool can start inside the command sandbox
 - Evidence keeps its scope: conjugate payload pages show each measurement with the exact chemical form it was made on and how it was tested, drug pages show what a conjugate is made of, assay approvals say who authorised what and for which use, and a missing measurement reads as a gap in our records and not as a no; a contributor's work, reviewed and put into plain language
+- Sixteen new country pages, from Jamaica to New Caledonia, each reachable from search and the Countries list; Guam's page counts United States approvals, and tied search results no longer swap places when unrelated records are added
+- Cancer in sixteen Caribbean and Pacific countries and territories, written from their own registries, health funds and laws: Jamaica, Trinidad and Tobago, Bahamas, Barbados, Belize, Guyana, Suriname, Saint Lucia, Curaçao, Fiji, Samoa, Solomon Islands, Vanuatu, Guam, French Polynesia and New Caledonia
 - Shasqi in depth: its one clinical programme SQ3370 with the stopped phase 1/2a trial and its results, the click-activated prodrug technology, seven resolved papers, and a company record corrected to say the trial was terminated and carrying sourced leadership, financing and grants
 - The plain-language summaries of the new care protocols and their upgrade ideas are tightened to the 400-character limit every record keeps
+- Country deep dive pages for sixteen more countries, from Sierra Leone to Eritrea
+- Sixteen more countries read from their own sources: Sierra Leone, Liberia, Togo, Benin, The Gambia, Guinea-Bissau, Mauritania, Cabo Verde, São Tomé and Príncipe, Gabon, the Republic of the Congo, the Central African Republic, Equatorial Guinea, Burundi, South Sudan and Eritrea
 - The glossary size recorded for the Wikipedia-link gauge is brought up to the live count of 1,685 terms
 - Giredestrant's United States row now records its approval; the two Cuban vaccines are filed as established, as nimotuzumab is, and their trial papers link to them; stale trial-site and country entries removed
 - The two registrations of the PILDI colon surgery trial stay as two records for now, each saying they are one study: merging them adds a redirect line that waits for the owner's approval

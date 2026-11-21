@@ -18,7 +18,7 @@ export type CountryRow = {
  *   40% works 2025 (log-scaled against the leader)
  *   20% highly-cited share (works > 50 citations / total, 2021-25), scaled to the best
  *   15% five-year growth (2025 vs 2021, capped at +150%)
- *   15% registered trials with a site in the country (log-scaled against the leader)
+ *   15% registered trials of any condition, not only cancer, with a site in the country (log-scaled against the leader)
  *   10% open-access share
  * Per-capita mode swaps the works and trials terms for per-million-population values.
  */
@@ -98,7 +98,7 @@ export function CountryRanking({ rows, years, deepDives = [], globocanYear }: { 
     { key: "growth", label: `Growth ${y0}→${y1}`, sortable: true, hide: "hidden sm:table-cell", render: ({ r }) => { const g = r.works[y0] ? ((r.works[y1] - r.works[y0]) / r.works[y0]) * 100 : undefined; return <span className={`tabular-nums ${g !== undefined && g < 0 ? "text-rose-600" : "text-muted"}`}>{g === undefined ? "-" : `${g > 0 ? "+" : ""}${Math.round(g)}%`}</span>; } },
     { key: "hi", label: "Highly cited", sortable: true, hide: "hidden md:table-cell", render: ({ r }) => <span className="tabular-nums text-muted" title={`${fmt(r.citedHigh)} works with >50 citations, ${y0}-${y1}`}>{pct(r.citedHigh, r.total)}</span> },
     { key: "oa", label: "Open access", sortable: true, hide: "hidden lg:table-cell", render: ({ r }) => <span className="tabular-nums text-muted">{pct(r.oa, r.total)}</span> },
-    { key: "trials", label: perCapita ? "Trials / M pop" : "Trials with a site", sortable: true, hide: "hidden md:table-cell", render: ({ r }) => <span className="tabular-nums text-muted">{r.trials === undefined ? "-" : perCapita && r.population ? fmt(r.trials / r.population) : fmt(r.trials)}</span> },
+    { key: "trials", label: perCapita ? "Trials / M pop" : "Trials of all kinds with a site", sortable: true, hide: "hidden md:table-cell", render: ({ r }) => <span className="tabular-nums text-muted">{r.trials === undefined ? "-" : perCapita && r.population ? fmt(r.trials / r.population) : fmt(r.trials)}</span> },
     { key: "inst", label: "In OnCo", sortable: true, hide: "hidden lg:table-cell", render: ({ r }) => r.institutions ? <Link href="/institutions/" className="underline tabular-nums">{r.institutions}</Link> : <span className="text-muted">-</span> },
     { key: "incidence", label: "Incidence / mortality", sortable: true, hide: "hidden xl:table-cell", render: ({ r }) => r.incidence ? <a className="tabular-nums text-muted underline decoration-dotted" href={r.gcoUrl} rel="noopener" title={`GLOBOCAN ${globocanYear} age-standardised rates per 100,000`}>{r.incidence} / {r.mortality}</a> : <span className="text-muted">-</span> },
     { key: "score", label: "Score", sortable: true, render: ({ score, parts }) => <span className="tabular-nums font-semibold" title={parts.map(([k, v]) => `${k} ${v.toFixed(1)}`).join(" · ")}>{score}</span> },

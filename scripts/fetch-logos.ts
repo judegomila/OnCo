@@ -182,7 +182,15 @@ const NO_LOGO_IDS = new Set(["future-of-cancer-care-today", "sijbrandij-foundati
   // merged into the Institute of Science Tokyo in 2024, for the hospital that now carries the new name.
   "nssf-lebanon", "science-tokyo-hospital",
   // The website is a page on the federation's site (the IPPF mark), or the icon is a photograph from the page.
-  "vanuatu-family-health-association", "bda-bulgaria"]);
+  "vanuatu-family-health-association", "bda-bulgaria",
+  // Weekly refresh of 25 November 2026, each looked at. The favicon service returned an image that is not on the
+  // ministry's own page: a slot-machine mascot (Malawi), the Telegram mark (Tajikistan), a cartoon of banknotes (Samoa).
+  "ministry-of-health-malawi", "tj-ministry-of-health-and-social-protection", "samoa-ministry-of-health",
+  // Wikidata matched the Government of Montenegro (Q3491143), and its wordmark names the government, not the ministry.
+  "ministry-of-health-montenegro",
+  // The website is a page on a shared government portal, and the icon is the portal's own brand (island.is; the
+  // santesecu.public.lu "S"), not the body's mark.
+  "embaetti-landlaeknis", "samhaefingarstod-krabbameinsskimana", "dpm-luxembourg"]);
 const NOT_OWN_HOST = /(^|\.)(archive\.org|doi\.org|sec\.gov|ycombinator\.com|biorxiv\.org|medrxiv\.org|linkedin\.com|crunchbase\.com|clinicaltrials\.gov|wikipedia\.org|github\.com|biospace\.com|fiercebiotech\.com|businesswire\.com|prnewswire\.com|globenewswire\.com|statnews\.com|endpts\.com)$/;
 const domainOf = (u?: string) => { try { if (!u) return ""; const h = new URL(u).hostname.replace(/^www\./, "").toLowerCase(); return NOT_OWN_HOST.test(h) ? "" : h; } catch { return ""; } };
 const sameDomain = (a: string, b: string) => !!a && !!b && (a === b || a.endsWith("." + b) || b.endsWith("." + a));

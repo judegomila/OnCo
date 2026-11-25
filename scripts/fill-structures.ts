@@ -31,7 +31,10 @@ const BIOLOGIC = /antibody|mab\b|adc\b|conjugate|bispecific|engager|immtac|check
 /** Small molecules the regex above would wrongly exclude (a nitrogen-mustard conjugate, an enzyme inhibitor, a podophyllotoxin, PROTAC degraders). */
 const INCLUDE = new Set(["estramustine", "pevonedistat", "teniposide", "azd9750", "bexobrutideg", "bms-986365", "qlh12016", "rnk05047", "tri-611"]);
 /** Bare radioisotopes, macromolecules, oligomer mixtures and combinations: nothing to draw. */
-const EXCLUDE = new Set(["phosphorus-32", "radium-223", "tilmanocept-tc99m", "pegvisomant", "romiplostim", "porfimer-sodium", "wjb001"]);
+const EXCLUDE = new Set(["phosphorus-32", "radium-223", "tilmanocept-tc99m", "pegvisomant", "romiplostim", "porfimer-sodium", "wjb001",
+  // A code that PubChem lists as a vendor synonym of an unrelated compound: "HB1801" resolved to zolmitriptan
+  // (CID 60857), a migraine drug, for a record that is albumin-bound docetaxel. Caught reading the weekly run of 25 November 2026.
+  "hb1801"]);
 /** Depot or formulation products whose active molecule has its own name. */
 const QUERY_OVERRIDE: Record<string, { query: string; label: string }> = {
   cam2029: { query: "octreotide", label: "Octreotide (the peptide in the CAM2029 depot)" },

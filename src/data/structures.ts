@@ -828,7 +828,6 @@ export const structures: Record<string, StructureDef[]> = {
 
   // Small molecules and peptides resolved by PubChem name lookup on 18 Sept 2026 (scripts/fill-structures.ts), pinned by compound id.
   ep0031: [pc("EP0031", "cid:146013180")],
-  hb1801: [pc("HB1801", "cid:60857")],
   "hmpl-453": [pc("HMPL-453", "cid:86304165")],
   "icp-248": [pc("ICP-248", "cid:169036084")],
   lerotinib: [pc("Lerotinib", "cid:89584422")],

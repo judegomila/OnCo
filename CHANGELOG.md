@@ -7,8 +7,11 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 November 2026
+- Weekly re-check acted on: 133 registry, FDA and EMA findings corrected, among them a selinexor lymphoma trial shown as active after it was stopped, and trial site lists rebuilt from a fresh registry reading
+- Two plain-language trial sentences shortened to fit the 200-character line after their status clause changed
 - Seven landmark papers of the week with their trials, and the weekly maintenance: 47 logos, six molecule structures and trial acronyms, each checked; seven wrong logos and one wrong structure left out
 - Side effects link the second round of protocols that manage them, including differentiation syndrome for a raised white cell count on ivosidenib and capillary leak for low albumin on tagraxofusp
+- Weekly re-check of 24 November read against the sources: eleven held trial statuses applied with their sentences rewritten, a terminated selinexor trial and three completed trials corrected, registry results added to two trials, 65 enrolment figures labelled for what they count, and the recruiting-site file rebuilt from a full re-read
 - ALK-positive lung cancer page links the ALNEO paper
 - Landmark-paper watch of 16 to 23 November: seven papers become records (PACE-NODES, FORTE, IRMA, ALNEO, etentamig, CT screening in small-cell lung cancer, childhood imaging and brain tumour risk), with four trial records and the results carried to the cancer, drug and technology pages
 - Four trial aliases that read as ordinary words come back off: Relief, COMBAT, CASINOs and TITANium
@@ -23,6 +26,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 ### 24 November 2026
 - Record FDA approval of adjuvant giredestrant (#499)
 - chore: weekly maintenance (logos, structures, trial links, acronyms, orphan links)
+- Weekly re-check: trial statuses and registry fields are brought up to date, with a report of what else has changed at the sources
 - chore: draft change proposals that need review (#494)
 - chore: EU regional rows read from the EMA register pages (#493)
 

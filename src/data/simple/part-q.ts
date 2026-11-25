@@ -595,7 +595,7 @@ export const simpleQ: Record<string, string> = {
   "nct06839066": "Shanghai Henlius runs this phase 2 trial of HLX43 in nasopharyngeal cancer that has come back or spread, and it is now recruiting.",
   "nct06840483": "BicycleTx runs this phase 2 trial of zelenectide pevedotin in advanced breast cancer with extra copies of the NECTIN4 gene, and it is no longer recruiting.",
   "nct06841055": "BioNTech runs this phase 2 trial of pumitamig (BNT327) with standard chemotherapy as first or second treatment for non-small-cell lung cancer, and it is now recruiting.",
-  "nct06842498": "Kyntra Bio runs this phase 2 dose finding trial of FG-3246, a CD46 targeted antibody drug conjugate, in metastatic prostate cancer no longer controlled by hormone therapy, and it is no longer recruiting.",
+  "nct06842498": "Kyntra Bio runs this phase 2 dose finding trial of FG-3246, a CD46 targeted antibody drug conjugate, in metastatic prostate cancer no longer controlled by hormone therapy, no longer recruiting.",
   "nct06850623": "EXACT Therapeutics runs this phase 2 trial of acoustic cluster therapy, which uses ultrasound to boost drug delivery, with modified FOLFIRINOX in locally advanced pancreatic cancer, now recruiting.",
   "nct06854445": "Chia Tai Tianqing runs this phase 2 trial of TQB2825 with gemcitabine and oxaliplatin in relapsed or refractory diffuse large B-cell lymphoma, and it is now recruiting.",
   "nct06855771": "Bristol Myers Squibb runs this randomised phase 2 trial of navlimetostat (BMS-986504) on its own in previously treated advanced non-small-cell lung cancer with MTAP deletion, now recruiting.",

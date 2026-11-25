@@ -771,7 +771,7 @@ export const simpleR: Record<string, string> = {
   "nct05094336": "Amgen is testing anvumetostat and docetaxel in people with advanced solid tumours in an early stage (phase 1/2) trial, and it is running but no longer recruiting.",
   "nct05405595": "Adagene is testing ADG126, pembrolizumab, bevacizumab and other drugs in people with advanced solid tumours in an early stage (phase 1/2) trial, and it is recruiting now.",
   "nct07630974": "Merck Sharp & Dohme is testing ifinatamab deruxtecan in people with advanced solid tumours in an early stage (phase 1/2) trial, and it is recruiting now.",
-  "nct05985655": "Exscientia AI is testing GTAEXS617 in people with head and neck squamous cell carcinoma, pancreatic ductal adenocarcinoma and other cancers in an early stage trial, and it is running but no longer recruiting.",
+  "nct05985655": "Exscientia AI is testing GTAEXS617 in people with head and neck squamous cell carcinoma, pancreatic ductal adenocarcinoma and other cancers in an early stage trial, and it is no longer recruiting.",
   "nct07558733": "Faeth Therapeutics is testing serabelisib, sapanisertib and fulvestrant in people with advanced solid tumours in an early stage (phase 1/2) trial, and it is recruiting now.",
   "nct07432633": "Blue Earth Diagnostics is testing [18F]FPyQCP in people with colorectal cancer, ovarian cancer and other cancers in an early stage (phase 1/2) trial, and it is recruiting now.",
   "nct06710847": "GlaxoSmithKline is testing GSK4418959 in people with colorectal cancer and endometrial cancer in an early stage (phase 1/2) trial, and it is running but no longer recruiting.",

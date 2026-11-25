@@ -489,7 +489,7 @@ export const companiesElicitMap: CompanyInput[] = [
       "drug-discovery"
     ],
     "tldr": "Consulting firm with an oncology strategy practice.",
-    "summary": "Boston Consulting Group offers oncology consulting on research portfolios, commercialisation and health-system delivery. This record is about the consultancy, not bacillus Calmette–Guérin, the therapy used in bladder cancer.",
+    "summary": "Boston Consulting Group offers oncology consulting on research portfolios, commercialisation and health-system delivery. This record is about the consultancy, not bacillus Calmette-Guérin, the therapy used in bladder cancer.",
     "links": [
       {
         "label": "Primary oncology source",
@@ -1081,7 +1081,8 @@ export const companiesElicitMap: CompanyInput[] = [
   {
     "kind": "company",
     "id": "adaptyv-bio",
-    "name": "Adaptyv Bio",
+    "name": "Adaptyv Biosystems",
+    "aka": ["Adaptyv Bio", "Adaptyv"],
     "hq": "Lausanne, Switzerland",
     "country": "CH",
     "companyType": "cro-services",
@@ -1419,7 +1420,7 @@ export const companiesElicitMap: CompanyInput[] = [
   {
     "kind": "company",
     "id": "sas-institute",
-    "name": "SAS Institute",
+    "name": "SAS",
     "hq": "Cary, NC",
     "country": "US",
     "companyType": "ai-software",
@@ -1445,7 +1446,7 @@ export const companiesElicitMap: CompanyInput[] = [
       }
     ],
     "aka": [
-      "SAS"
+      "SAS Institute"
     ]
   },
   {

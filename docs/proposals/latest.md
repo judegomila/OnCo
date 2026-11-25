@@ -1,4 +1,4 @@
-# Change proposals 2026-11-24
+# Change proposals 2026-11-25
 
 Drafted by scripts/propose-updates.ts from: factcheck 2026-11-23, trialChanges 2026-11-23, fda 2026-11-18, regional 2026-11-18.
 

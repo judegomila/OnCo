@@ -1,5 +1,15 @@
 # Corrections
 
+### Landmark-paper watch of 16 to 23 November carried to the records it changes, 25 November 2026
+
+Seven papers from the weekly watch became records, and each result was carried to the trial, drug, cancer and technology records it bears on. Three published lines no longer said what the evidence says and are corrected here; the other changes are additions (new sentences on the transplant-eligible myeloma, ALK-positive lung cancer, high-risk prostate cancer, carfilzomib, alectinib, CT and low-dose CT screening records).
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-25 | [Small-cell lung cancer](/cancers/sclc/) | An open-problems line said flatly that screening rarely catches small-cell lung cancer early. | Landmark-paper watch; the abstract for PubMed id 43056109 (JAMA Oncology 2026) read through PubMed: among 17,099 Medicare patients, distant disease at diagnosis in 44.2 percent of those screened in the year before against 70.4 percent of those not, and three-year survival of 28.0 against 10.8 percent. | The line says the question is unsettled, gives the cohort's figures, and says the comparison is observational with survival counted from diagnosis. |
+| 2026-11-25 | [Partial-breast irradiation](/terms/partial-breast-irradiation/) | The summary set out four randomised trials and did not include IRMA, a further large trial of the twice-daily external beam schedule. | Landmark-paper watch; the abstract for PubMed id 43044095 (Journal of Clinical Oncology 2026) read through PubMed. | The summary sets out five trials: IRMA randomised 3,309 patients, five-year recurrence was 1.0 against 0.8 percent, and non-inferiority was not formally shown (hazard ratio 1.18, 90 percent confidence interval 0.63 to 2.20, against a margin of 1.5). |
+| 2026-11-25 | [NCT03933735](/trials/nct03933735/) | The record named the drug only by its code, TNB-383B, and carried no results. | Landmark-paper watch; the abstract for PubMed id 43038173 (Blood 2026) read through PubMed, and the ClinicalTrials.gov record for NCT05650632, which names the drug "Etentamig (ABBV-383)". | The record names etentamig and gives the pooled results in 146 patients: objective response 66 percent, very good partial response or better 54 percent, grade 3 or 4 neutropenia 38 percent and infection 23 percent, with no comparison group. |
+
 ### Combining the accuracy passes, second round, 18 November 2026
 
 Found while the finished passes were combined into one branch: side-effect rates with no source, wording that had drifted from its sources, and one-line translations made from English that has since been corrected.

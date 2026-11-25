@@ -1,13 +1,13 @@
 {
- "checked": "2026-11-18",
+ "checked": "2026-11-25",
  "source": {
   "label": "CIViC: genes with accepted clinical evidence (levels A and B)",
   "url": "https://civicdb.org/features/home"
  },
  "method": "CIViC GraphQL API (https://civicdb.org/api/graphql): every accepted evidence item, grouped by the gene of its molecular profile (a gene feature, or each named partner gene of a fusion feature); one item per gene, with its accepted evidence count and the count at each evidence level (A validated to E inferential); kept when at least one item is level A (validated) or B (clinical evidence). Fusions count for both partner genes. CIViC content is CC0 1.0; cite Griffith et al., Nat Genet 2017.",
- "total": 349,
- "genesAnyLevel": 536,
- "evidenceItems": 5003,
+ "total": 351,
+ "genesAnyLevel": 538,
+ "evidenceItems": 5024,
  "licence": "CC0 1.0",
  "items": [
   {
@@ -424,6 +424,17 @@
    }
   },
   {
+   "name": "H3-3A",
+   "id": 2537,
+   "url": "https://civicdb.org/features/2537/summary",
+   "evidence": 28,
+   "levels": {
+    "A": 2,
+    "B": 22,
+    "D": 4
+   }
+  },
+  {
    "name": "MLH1",
    "id": 3532,
    "url": "https://civicdb.org/features/3532/summary",
@@ -769,16 +780,6 @@
    "levels": {
     "B": 6,
     "D": 5
-   }
-  },
-  {
-   "name": "H3-3A",
-   "id": 2537,
-   "url": "https://civicdb.org/features/2537/summary",
-   "evidence": 11,
-   "levels": {
-    "A": 1,
-    "B": 10
    }
   },
   {
@@ -1342,8 +1343,8 @@
    "url": "https://civicdb.org/features/1771/summary",
    "evidence": 6,
    "levels": {
-    "B": 4,
-    "C": 2
+    "B": 5,
+    "C": 1
    }
   },
   {
@@ -1739,6 +1740,17 @@
    }
   },
   {
+   "name": "H3C2",
+   "id": 6614,
+   "url": "https://civicdb.org/features/6614/summary",
+   "evidence": 4,
+   "levels": {
+    "B": 2,
+    "C": 1,
+    "D": 1
+   }
+  },
+  {
    "name": "HIF1A",
    "id": 2596,
    "url": "https://civicdb.org/features/2596/summary",
@@ -2053,16 +2065,6 @@
    }
   },
   {
-   "name": "H3C2",
-   "id": 6614,
-   "url": "https://civicdb.org/features/6614/summary",
-   "evidence": 3,
-   "levels": {
-    "B": 2,
-    "C": 1
-   }
-  },
-  {
    "name": "HLF",
    "id": 2631,
    "url": "https://civicdb.org/features/2631/summary",
@@ -2344,6 +2346,15 @@
    }
   },
   {
+   "name": "ACTB",
+   "id": 130,
+   "url": "https://civicdb.org/features/130/summary",
+   "evidence": 2,
+   "levels": {
+    "B": 2
+   }
+  },
+  {
    "name": "BCL2L11",
    "id": 7953,
    "url": "https://civicdb.org/features/7953/summary",
@@ -2454,6 +2465,16 @@
    "name": "DNMT1",
    "id": 1510,
    "url": "https://civicdb.org/features/1510/summary",
+   "evidence": 2,
+   "levels": {
+    "B": 1,
+    "D": 1
+   }
+  },
+  {
+   "name": "EGFR-AS1",
+   "id": 38360,
+   "url": "https://civicdb.org/features/38360/summary",
    "evidence": 2,
    "levels": {
     "B": 1,
@@ -2776,27 +2797,9 @@
    }
   },
   {
-   "name": "ACT",
-   "id": 23351,
-   "url": "https://civicdb.org/features/23351/summary",
-   "evidence": 1,
-   "levels": {
-    "B": 1
-   }
-  },
-  {
    "name": "ACTA1",
    "id": 128,
    "url": "https://civicdb.org/features/128/summary",
-   "evidence": 1,
-   "levels": {
-    "B": 1
-   }
-  },
-  {
-   "name": "ACTB",
-   "id": 130,
-   "url": "https://civicdb.org/features/130/summary",
    "evidence": 1,
    "levels": {
     "B": 1
@@ -3244,6 +3247,15 @@
    }
   },
   {
+   "name": "PLAG1",
+   "id": 4315,
+   "url": "https://civicdb.org/features/4315/summary",
+   "evidence": 1,
+   "levels": {
+    "B": 1
+   }
+  },
+  {
    "name": "PLCG2",
    "id": 4327,
    "url": "https://civicdb.org/features/4327/summary",
@@ -3481,6 +3493,15 @@
    "name": "TOP2A",
    "id": 5848,
    "url": "https://civicdb.org/features/5848/summary",
+   "evidence": 1,
+   "levels": {
+    "B": 1
+   }
+  },
+  {
+   "name": "TRPS1",
+   "id": 5914,
+   "url": "https://civicdb.org/features/5914/summary",
    "evidence": 1,
    "levels": {
     "B": 1

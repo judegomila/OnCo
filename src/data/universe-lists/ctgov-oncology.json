@@ -1,16 +1,16 @@
 {
- "checked": "2026-11-18",
+ "checked": "2026-11-25",
  "source": {
   "label": "ClinicalTrials.gov: interventional studies, condition 'cancer'",
   "url": "https://clinicaltrials.gov/search?cond=cancer&aggFilters=studyType:int"
  },
  "method": "ClinicalTrials.gov API v2 with query.cond=cancer and countTotal=true: interventional studies; of those, phase 3; of those, recruiting. Sponsors: distinct lead sponsor names (class INDUSTRY) across all phase 3 interventional cancer studies, so subsidiaries and name variants count separately.",
- "total": 98329,
- "phase3": 11105,
- "recruiting": 14406,
+ "total": 98457,
+ "phase3": 11118,
+ "recruiting": 14454,
  "industryPhase3": {
-  "studies": 4295,
-  "sponsors": 946
+  "studies": 4300,
+  "sponsors": 947
  },
  "items": [
   {
@@ -31,7 +31,7 @@
   },
   {
    "name": "Pfizer",
-   "studies": 123
+   "studies": 124
   },
   {
    "name": "Bristol-Myers Squibb",
@@ -39,7 +39,7 @@
   },
   {
    "name": "GlaxoSmithKline",
-   "studies": 103
+   "studies": 104
   },
   {
    "name": "Amgen",
@@ -47,7 +47,7 @@
   },
   {
    "name": "Janssen Research & Development, LLC",
-   "studies": 74
+   "studies": 75
   },
   {
    "name": "Eli Lilly and Company",
@@ -162,6 +162,10 @@
    "studies": 16
   },
   {
+   "name": "Shanghai JMT-Bio Inc.",
+   "studies": 16
+  },
+  {
    "name": "Alexion Pharmaceuticals, Inc.",
    "studies": 15
   },
@@ -175,10 +179,6 @@
   },
   {
    "name": "Jazz Pharmaceuticals",
-   "studies": 15
-  },
-  {
-   "name": "Shanghai JMT-Bio Inc.",
    "studies": 15
   },
   {
@@ -3723,6 +3723,10 @@
   },
   {
    "name": "Watson Pharmaceuticals",
+   "studies": 1
+  },
+  {
+   "name": "Wayshine Biopharm, Inc.",
    "studies": 1
   },
   {

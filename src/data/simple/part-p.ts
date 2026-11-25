@@ -912,7 +912,7 @@ export const simpleP: Record<string, string> = {
   "nct05804045": "MANEUVER from Abbisko compared pimicotinib with a placebo in tenosynovial giant cell tumour; tumours shrank in 54% on the drug against 3% on placebo.",
   "nct03706690": "AstraZeneca gave durvalumab as follow-on treatment to 407 people with non-small-cell lung cancer, and results are posted on the registry.",
   "nct05459844": "Sinotau is comparing lutetium-177 oxodotreotide with octreotide LAR in neuroendocrine tumours of the gut and pancreas, and it has completed.",
-  "nct06235151": "Curium is testing a copper-64 PSMA PET scan in men newly diagnosed with prostate cancer, and the trial is active but no longer recruiting.",
+  "nct06235151": "Curium tested a copper-64 PSMA PET scan in men newly diagnosed with prostate cancer, and it has completed.",
   "nct05347134": "Sichuan Kelun-Biotech is comparing SKB264 with treatments chosen by the doctor in advanced triple-negative breast cancer, and the trial is active but no longer recruiting.",
   "nct02938299": "Philogen is testing L19IL2 with L19TNF given before surgery in melanoma; in results from 2025 it kept melanoma away longer than surgery alone.",
   "nct06784752": "Novartis is comparing lutetium-177 DOTA-TATE with octreotide LAR in grade 1 and grade 2 advanced neuroendocrine tumours of the gut and pancreas, and the trial is recruiting.",

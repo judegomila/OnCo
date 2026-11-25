@@ -1,11 +1,11 @@
 {
- "checked": "2026-11-18",
+ "checked": "2026-11-25",
  "source": {
   "label": "CIViC: accepted assertions",
   "url": "https://civicdb.org/assertions/home"
  },
  "method": "CIViC GraphQL API (https://civicdb.org/api/graphql): every assertion with status accepted, the curated summary claims (predictive, diagnostic, prognostic, oncogenic, predisposing) built from several evidence items, with AMP/ASCO/CAP tier where given. One item per assertion: molecular profile, genes, disease and therapies. CC0 1.0.",
- "total": 186,
+ "total": 190,
  "licence": "CC0 1.0",
  "items": [
   {
@@ -2138,6 +2138,20 @@
    "therapies": []
   },
   {
+   "id": 224,
+   "name": "AID224",
+   "url": "https://civicdb.org/assertions/224/summary",
+   "type": "DIAGNOSTIC",
+   "significance": "POSITIVE",
+   "ampLevel": "TIER_I_LEVEL_A",
+   "profile": "H3-3A K28M",
+   "genes": [
+    "H3-3A"
+   ],
+   "disease": "Diffuse Midline Glioma, H3 K27-altered",
+   "therapies": []
+  },
+  {
    "id": 226,
    "name": "AID226",
    "url": "https://civicdb.org/assertions/226/summary",
@@ -2709,6 +2723,47 @@
     "KRAS"
    ],
    "disease": "Colorectal Cancer",
+   "therapies": []
+  },
+  {
+   "id": 346,
+   "name": "AID346",
+   "url": "https://civicdb.org/assertions/346/summary",
+   "type": "PROGNOSTIC",
+   "significance": "POOR_OUTCOME",
+   "ampLevel": "TIER_I_LEVEL_A",
+   "profile": "DEK::NUP214 Fusion",
+   "genes": [
+    "DEK",
+    "NUP214"
+   ],
+   "disease": "Acute Myeloid Leukemia",
+   "therapies": []
+  },
+  {
+   "id": 349,
+   "name": "AID349",
+   "url": "https://civicdb.org/assertions/349/summary",
+   "type": "ONCOGENIC",
+   "significance": "BENIGN",
+   "profile": "H3-3B P99L",
+   "genes": [
+    "H3-3B"
+   ],
+   "disease": "Glioma",
+   "therapies": []
+  },
+  {
+   "id": 350,
+   "name": "AID350",
+   "url": "https://civicdb.org/assertions/350/summary",
+   "type": "ONCOGENIC",
+   "significance": "BENIGN",
+   "profile": "H3-3B P111L",
+   "genes": [
+    "H3-3B"
+   ],
+   "disease": "Glioma",
    "therapies": []
   }
  ]

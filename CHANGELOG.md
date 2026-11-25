@@ -7,8 +7,13 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 November 2026
+- Seven landmark papers of the week with their trials, and the weekly maintenance: 47 logos, six molecule structures and trial acronyms, each checked; seven wrong logos and one wrong structure left out
 - Side effects link the second round of protocols that manage them, including differentiation syndrome for a raised white cell count on ivosidenib and capillary leak for low albumin on tagraxofusp
+- ALK-positive lung cancer page links the ALNEO paper
+- Landmark-paper watch of 16 to 23 November: seven papers become records (PACE-NODES, FORTE, IRMA, ALNEO, etentamig, CT screening in small-cell lung cancer, childhood imaging and brain tumour risk), with four trial records and the results carried to the cancer, drug and technology pages
+- Four trial aliases that read as ordinary words come back off: Relief, COMBAT, CASINOs and TITANium
 - A raised white cell count on ivosidenib and a low albumin on tagraxofusp now link the protocols whose steps manage them; the low-potassium example moves from relacorilant to lutetium-177 dotatate
+- Weekly maintenance, read before shipping: seven logos and one molecule structure removed
 - chore: refresh universe lists (NCI drugs and types, NCI centres, OECI, NHS alliances, NLM journals, OpenAlex, KEGG, ChEMBL, ClinicalTrials.gov, FDA OCE) (#502)
 - chore: check regional approvals against the EMA register (#501)
 - chore: refresh FDA approvals feed (OCE notifications, openFDA drugsfda) (#500)
@@ -17,12 +22,14 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 
 ### 24 November 2026
 - Record FDA approval of adjuvant giredestrant (#499)
+- chore: weekly maintenance (logos, structures, trial links, acronyms, orphan links)
 - chore: draft change proposals that need review (#494)
 - chore: EU regional rows read from the EMA register pages (#493)
 
 ### 23 November 2026
 - chore: weekly fact check, audit, and provenance refresh (#492)
 - chore: render this week's issue to public/newsletter/ (#491)
+- chore: propose this week's landmark oncology papers for review
 - chore: refresh public/votes.json from Discussions reactions (#489)
 - chore: refresh trial counts from ClinicalTrials.gov (#488)
 - chore: draft change proposals that need review (#487)

@@ -96,6 +96,14 @@ const GENERIC_WORDS = new Set([
   "BNCT", "CRISPR", "CAS9", "FAPI", "DXD", "CART", "TCR", "TIL", "MMAE", "CCNU", "TMZ", "BEV", "MIRV", "INO", "BCG", "FIH", "FIM", "FPI", "SMM", "NOS", "MRD", "EOC", "HSIL", "LSIL",
 ]);
 
+/**
+ * Study names that are an ordinary word once case is ignored. The hover matcher in src/lib/term-hover.ts is
+ * case-insensitive, so "Relief" as an alias links every "relief" on the site to one trial. The first fourteen were
+ * taken off their records by hand on 11 November 2026; the weekly run of 25 November put three of them back and
+ * added COMBAT, so they are pinned here. src/lib/term-hover.test.ts holds the reader-side check.
+ */
+const ORDINARY_WORDS = new Set(["CONCEPT", "MODIFIED", "EVOLUTION", "SPRING", "RELIEF", "PULSE", "COMPACT", "GUARD", "MODIFY", "SECURE", "CASINOS", "PERFUME", "RELOAD", "TITANIUM", "COMBAT"]);
+
 /** Compound and product names that titles bracket like acronyms; extend from the plan output. */
 const NOT_TRIALS = new Set([
   "AA-P", "AB-BNCT", "TAL-D", "TAL-DP", "TAL-P", "TEC-DR", "MEZIKD", "MEZIVD", "B-PD", "B-VD", "R-CHP", "R-GDP", "R-GEMOX", "ODRO-CHOP", "GEMABRAXNE", "HYD-SULFATE", "R-DXD", "I-DXD", "RINA-S", "EMI-LE", "DELTEX", "OSTEODEX", "NANO2", "DECOY20", "MDNA11", "IGPRO20",
@@ -226,6 +234,7 @@ export function reject(raw: string, v: Vocab, trial?: TrialEntity, strict = true
   const U = s.toUpperCase();
   const N = norm(s);
   if (STOP.has(U) || STOP.has(N) || NOT_TRIALS.has(U) || GENERIC_WORDS.has(U)) return "generic";
+  if (ORDINARY_WORDS.has(U)) return "ordinary word";
   if (/^(PHASE|PH)\s*[0-9IVX]+[AB]?$/i.test(s) || /^[IVX]+[AB]?$/.test(s)) return "phase";
   if (/^NCT\d+/i.test(s)) return "registry id";
   if (v.orgs.has(U)) return "organisation";

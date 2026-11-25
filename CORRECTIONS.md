@@ -1,5 +1,15 @@
 # Corrections
 
+### Landmark-paper watch of 16 to 23 November carried to the records it changes, 25 November 2026
+
+Seven papers from the weekly watch became records, and each result was carried to the trial, drug, cancer and technology records it bears on. Three published lines no longer said what the evidence says and are corrected here; the other changes are additions (new sentences on the transplant-eligible myeloma, ALK-positive lung cancer, high-risk prostate cancer, carfilzomib, alectinib, CT and low-dose CT screening records).
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-25 | [Small-cell lung cancer](/cancers/sclc/) | An open-problems line said flatly that screening rarely catches small-cell lung cancer early. | Landmark-paper watch; the abstract for PubMed id 43056109 (JAMA Oncology 2026) read through PubMed: among 17,099 Medicare patients, distant disease at diagnosis in 44.2 percent of those screened in the year before against 70.4 percent of those not, and three-year survival of 28.0 against 10.8 percent. | The line says the question is unsettled, gives the cohort's figures, and says the comparison is observational with survival counted from diagnosis. |
+| 2026-11-25 | [Partial-breast irradiation](/terms/partial-breast-irradiation/) | The summary set out four randomised trials and did not include IRMA, a further large trial of the twice-daily external beam schedule. | Landmark-paper watch; the abstract for PubMed id 43044095 (Journal of Clinical Oncology 2026) read through PubMed. | The summary sets out five trials: IRMA randomised 3,309 patients, five-year recurrence was 1.0 against 0.8 percent, and non-inferiority was not formally shown (hazard ratio 1.18, 90 percent confidence interval 0.63 to 2.20, against a margin of 1.5). |
+| 2026-11-25 | [NCT03933735](/trials/nct03933735/) | The record named the drug only by its code, TNB-383B, and carried no results. | Landmark-paper watch; the abstract for PubMed id 43038173 (Blood 2026) read through PubMed, and the ClinicalTrials.gov record for NCT05650632, which names the drug "Etentamig (ABBV-383)". | The record names etentamig and gives the pooled results in 146 patients: objective response 66 percent, very good partial response or better 54 percent, grade 3 or 4 neutropenia 38 percent and infection 23 percent, with no comparison group. |
+
 ### Weekly re-check of 24 November 2026 read against the sources, 25 November 2026
 
 The weekly re-check listed 254 differences between the corpus and its sources. Each high and medium row was read against the registry, the regulator's page or the label before a record was touched. Trial records are corrected from the ClinicalTrials.gov API read on 25 November 2026; rows where the record already stated the newer fact, and rows where the re-check had compared a record with a registration that is not its own, changed nothing and are not listed.
@@ -24,6 +34,7 @@ The weekly re-check listed 254 differences between the corpus and its sources. E
 | 2026-11-25 | [IZABRIGHT-Breast01](/trials/izabright-breast01/) | Said the trial plans to enrol 570 patients. | Weekly re-check; the registry record: 600 (estimated). | Says 600. |
 | 2026-11-25 | 65 trial records, among them [THOR](/trials/thor/), [EPCORE NHL-1](/trials/epcore-nhl-1/), [COLUMBUS](/trials/columbus/) and [ATHENA-MONO](/trials/athena-mono/) | The enrolment figure was labelled as the registry's when it is the population the summary reports (patients randomised, treated, analysed or registered), so it read as a contradiction of the registry: THOR 266 against 629, ATHENA-MONO 538 against 1,097. | Weekly re-check; each registry figure read through the API on 25 November 2026, and each record's own summary read for what its figure counts. | Each record says what its figure counts and carries a note giving the registry's figure. No figure was changed. |
 | 2026-11-25 | [Temozolomide](/drugs/temozolomide/) | The EU row did not mention that a second temozolomide product is awaiting a Commission decision. | Weekly re-check; the EMA page for Kizfizo: CHMP positive opinion adopted 15 October 2026, applicant Orphelia Pharma, 40 mg/ml oral suspension, a hybrid of Temodal, for newly diagnosed glioblastoma in adults and recurrent or progressing malignant glioma in adults and children from the age of 1 year. | The EU row carries a note with the opinion. |
+
 
 ### Combining the accuracy passes, second round, 18 November 2026
 

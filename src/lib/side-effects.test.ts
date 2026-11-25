@@ -194,7 +194,10 @@ describe("side-effect protocols", () => {
     expect(forRow("bemarituzumab", /corneal/i)).toEqual([]);
     expect(forRow("megestrol-progestins", /weight gain/i)).toEqual([]);
     expect(forRow("vorasidenib", /headache/i)).toEqual([]);
-    expect(forRow("relacorilant", /hypokal/i)).toEqual([]);
+    // Until 25 November 2026 the example here was relacorilant. Its low-potassium row was removed on 18 November because
+    // the US label's tables do not list it (CORRECTIONS.md). Lutetium-177 dotatate does carry the row, from its US label
+    // (hypokalaemia 26%, grade 3 to 4 in 4%), and the low-potassium protocol's gaps say why it is not covered.
+    expect(forRow("lutathera", /hypokal/i)).toEqual([]);
     expect(forRow("cretostimogene", /bladder spasm/i)).toEqual([]);
   });
 
@@ -232,6 +235,41 @@ describe("side-effect protocols", () => {
     expect(["Upper respiratory infection", "Pneumonia", "Fever", "Infection"].some((e) => bladder.test(e))).toBe(false);
   });
 
+  it("reaches a syndrome's protocol from the one blood result its steps manage, on its own products", () => {
+    // Listed on 25 November 2026. Each protocol gives the rule for the result: hydroxyurea for a white cell count that
+    // rises on a differentiating drug, held doses and intravenous albumin for an albumin that falls on tagraxofusp.
+    const DS = "differentiation-syndrome-recognition-and-treatment";
+    const CLS = "capillary-leak-syndrome-on-anticancer-drugs";
+    expect(forRow("ivosidenib", /^leukocytosis/i)).toEqual([DS]);
+    expect(forRow("tagraxofusp", /hypoalbumin/i)).toEqual([CLS]);
+    // The rows they already reached are unchanged.
+    expect(forRow("ivosidenib", /differentiation syndrome/i)).toEqual([DS]);
+    expect(forRow("dinutuximab", /capillary leak/i)).toEqual([CLS]);
+    // Near misses on the same products: a low count, a liver enzyme and a low potassium are not their subject.
+    expect(forRow("ivosidenib", /^neutropenia/i)).not.toContain(DS);
+    expect(forRow("tagraxofusp", /^alt\b/i)).toEqual([]);
+    expect(forRow("dinutuximab", /hypokal/i)).toEqual(["low-potassium-and-low-phosphate-on-anticancer-drugs"]);
+    // Near misses in the same group: every other product's blood chemistry row stays clear of both.
+    const group = "Blood chemistry or blood count changes (other)";
+    const shown = (id: string) => (byGroup[group] ?? []).find((p) => p.id === id)?.drugs;
+    expect(shown(DS)).toEqual(["ivosidenib"]);
+    expect(shown(CLS)).toEqual(["tagraxofusp"]);
+    // Whatever either reaches, in any group, is a product its own record names.
+    for (const id of [DS, CLS]) {
+      expect(PROTOCOL_REACH[id].products, id).toBe("drugs");
+      const rec = g.must(id);
+      for (const r of rows) if (rowProtocols(r, g).includes(id)) expect(rec.kind === "protocol" && rec.drugs.includes(r.drugId), `${id} names ${r.drugId}`).toBe(true);
+    }
+    // The event patterns: a raised white count is not a low one, and is not hyperleukocytosis at diagnosis.
+    const ds = PROTOCOL_REACH[DS].event as RegExp;
+    expect(["Differentiation syndrome", "Leukocytosis", "Noninfectious leukocytosis"].every((e) => ds.test(e))).toBe(true);
+    expect(["Leukocytes decreased", "Leukopenia", "Hyperleukocytosis", "Lymphocytosis", "Neutropenia", "Tumour lysis syndrome"].some((e) => ds.test(e))).toBe(false);
+    // A low albumin is not another low blood salt, protein in the urine, or the swelling and low blood pressure that go with a leak.
+    const cls = PROTOCOL_REACH[CLS].event as RegExp;
+    expect(["Capillary leak syndrome", "Hypoalbuminaemia (albumin decrease, laboratory)", "Hypoalbuminemia"].every((e) => cls.test(e))).toBe(true);
+    expect(["Hypokalaemia", "Hypocalcaemia", "Albuminuria", "Peripheral oedema", "Hypotension", "Anastomotic leak"].some((e) => cls.test(e))).toBe(false);
+  });
+
   // The fourteen protocols written for side effects of targeted drugs, each under the groups it manages. A specific one
   // is pinned with a product it must appear beside and, where the group holds other causes, one it must not.
   const TARGETED: Array<{ group: string; id: string; general?: true; beside?: string[]; notBeside?: string[] }> = [
@@ -258,7 +296,7 @@ describe("side-effect protocols", () => {
   const SECOND_ROUND: typeof TARGETED = [
     { group: "Headache", id: "headache-on-anticancer-drugs", beside: ["acalabrutinib", "blinatumomab", "talazoparib", "trastuzumab-emtansine"], notBeside: ["vorasidenib", "intismeran-autogene", "ivermectin", "optune", "pylarify"] },
     { group: "Muscle or joint pain", id: "joint-and-muscle-pain-on-anticancer-drugs", beside: ["letrozole", "paclitaxel", "ibrutinib", "imatinib", "vimseltinib"], notBeside: ["fulvestrant", "intismeran-autogene", "ivermectin", "optune"] },
-    { group: "Blood chemistry or blood count changes (other)", id: "low-potassium-and-low-phosphate-on-anticancer-drugs", beside: ["quizartinib", "nirogacestat", "dinutuximab"], notBeside: ["lutathera", "relacorilant", "tagraxofusp", "lorlatinib", "cetuximab", "erdafitinib"] },
+    { group: "Blood chemistry or blood count changes (other)", id: "low-potassium-and-low-phosphate-on-anticancer-drugs", beside: ["quizartinib", "nirogacestat", "dinutuximab"], notBeside: ["lutathera", "ivosidenib", "tagraxofusp", "lorlatinib", "cetuximab", "erdafitinib"] }, // ivosidenib since 25 November 2026: relacorilant, here before, lost its only row in this group on 18 November (CORRECTIONS.md)
     { group: "Blood chemistry or blood count changes (other)", id: "raised-lipids-and-weight-gain-on-lorlatinib-bexarotene-and-elacestrant", beside: ["lorlatinib", "elacestrant"], notBeside: ["quizartinib", "nirogacestat", "cetuximab", "ivosidenib"] },
     { group: "Weight gain", id: "raised-lipids-and-weight-gain-on-lorlatinib-bexarotene-and-elacestrant", beside: ["lorlatinib"], notBeside: ["megestrol-progestins"] },
     { group: "Memory, thinking or mood changes", id: "cognitive-and-mood-effects-on-lorlatinib-and-avapritinib", beside: ["lorlatinib", "avapritinib"] },

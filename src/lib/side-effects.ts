@@ -247,7 +247,9 @@ export const SYMPTOM_PROTOCOLS: Record<string, { general?: string[]; specific?: 
   "High blood sugar": { specific: ["irae-diabetes", "hyperglycaemia-on-pi3k-akt-mtor-inhibitors"] },
   "Hot flushes, sexual or fertility effects": { general: ["sexual-health-assessment-and-interventions"], specific: ["hot-flushes-on-endocrine-therapy-non-hormonal-options"] },
   "Bone loss or fractures": { specific: ["bone-health-on-hormone-therapy"] },
-  "Blood chemistry or blood count changes (other)": { specific: ["hypomagnesaemia-on-egfr-antibodies", "hyperphosphataemia-on-fgfr-inhibitors", "low-potassium-and-low-phosphate-on-anticancer-drugs", "raised-lipids-and-weight-gain-on-lorlatinib-bexarotene-and-elacestrant"] },
+  // The last two are syndromes whose protocols give the rule for one blood result: a white cell count that rises on a
+  // differentiating drug, an albumin that falls on tagraxofusp. Each reaches that result on its own products only (PROTOCOL_REACH).
+  "Blood chemistry or blood count changes (other)": { specific: ["hypomagnesaemia-on-egfr-antibodies", "hyperphosphataemia-on-fgfr-inhibitors", "low-potassium-and-low-phosphate-on-anticancer-drugs", "raised-lipids-and-weight-gain-on-lorlatinib-bexarotene-and-elacestrant", "differentiation-syndrome-recognition-and-treatment", "capillary-leak-syndrome-on-anticancer-drugs"] },
 };
 
 /**
@@ -347,6 +349,16 @@ export const PROTOCOL_REACH: Record<string, ProtocolReach> = {
   "pancreatitis-and-raised-pancreatic-enzymes-on-targeted-drugs": { products: "drugs" },
   // The HER2-targeted products whose labels carry an ejection fraction rule; not the anthracyclines in the same group.
   "left-ventricular-dysfunction-on-her2-targeted-drugs": { products: "drugs" },
+
+  // ---- Two older protocols listed under a second group on 25 November 2026, each for one blood result its own steps
+  // manage, on the products its `drugs` name and no others. Both were read step by step, and the two labels in raw text.
+  // "If the white cell count is raised without infection, start hydroxyurea; the ivosidenib, revumenib and ziftomenib
+  // labels also allow leukapheresis", with each label's threshold. A low white count is not its subject, and
+  // hyperleukocytosis at diagnosis has its own protocol.
+  "differentiation-syndrome-recognition-and-treatment": { products: "drugs", event: /\bdifferentiation syndrome\b|\bleukocytosis\b/i },
+  // "On tagraxofusp, if albumin is below 3.5 g/dL or has fallen by 0.5 g/dL or more since the start of the cycle, hold
+  // the dose and give 25 g of intravenous albumin"; the low-potassium protocol sends "capillary leak with low albumin" here.
+  "capillary-leak-syndrome-on-anticancer-drugs": { products: "drugs", event: /\bcapillary leak\b|\bhypoalbumina?emia\b/i },
 };
 
 /** A care protocol for a symptom group; for a specific one, `drugs` are the products in the group's rows it reaches. */

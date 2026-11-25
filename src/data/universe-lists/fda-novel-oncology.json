@@ -1,14 +1,38 @@
 {
- "checked": "2026-11-18",
+ "checked": "2026-11-25",
  "source": {
   "label": "FDA CDER: Novel Drug Approvals (2020 onwards)",
   "url": "https://www.fda.gov/drugs/development-approval-process-drugs/novel-drug-approvals-fda"
  },
  "method": "Every row of CDER's yearly 'Novel Drug Approvals' tables from 2020 (the 2020 page is no longer on fda.gov and is read from the Internet Archive copy of 14 June 2021) whose 'FDA-approved use on approval date' names a cancer, a myeloid or lymphoid neoplasm, cancer imaging or a cancer-treatment complication. CBER products (cell and gene therapies) are not on these tables; they are in the FDA oncology notifications list. Public domain (US government work).",
- "total": 110,
- "novelAll": 339,
+ "total": 113,
+ "novelAll": 346,
  "licence": "Public domain (US government work)",
  "items": [
+  {
+   "brand": "Ekitna",
+   "generic": "bezuclastinib",
+   "date": "2026-11-24",
+   "use": "To treat advanced gastrointestinal stromal tumors, in combination with sunitinib, in adults who have received prior treatment with imatinib",
+   "year": 2026,
+   "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026"
+  },
+  {
+   "brand": "Nelkarmi",
+   "generic": "neladalkib",
+   "date": "2026-11-17",
+   "use": "To treat locally advanced or metastatic anaplastic lymphoma kinase-positive non-small cell lung cancer after certain previous therapies",
+   "year": 2026,
+   "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026"
+  },
+  {
+   "brand": "Wilserdly",
+   "generic": "giredestrant",
+   "date": "2026-11-16",
+   "use": "To treat adults with estrogen receptor-positive, human epidermal growth factor receptor 2-negative, estrogen receptor 1-mutated locally advanced or metastatic breast cancer whose disease has recurred during or after endocrine-based adjuvant therapy, or has progressed on at least one endocrine-based regimen in the metastatic setting",
+   "year": 2026,
+   "source": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026"
+  },
   {
    "brand": "Pimjetmi",
    "generic": "pimicotinib",

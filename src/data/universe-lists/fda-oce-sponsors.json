@@ -1,15 +1,15 @@
 {
- "checked": "2026-11-18",
+ "checked": "2026-11-25",
  "source": {
   "label": "FDA Oncology Center of Excellence: approval notifications",
   "url": "https://www.fda.gov/drugs/cancer-approvals/oncology-cancerhematologic-malignancies-approval-notifications"
  },
  "method": "Sponsor named in brackets in each FDA OCE oncology approval notification on the current page, grouped after removing corporate suffixes. Covers the notifications the page still lists (see window), so it is a floor for 'companies with a recent FDA oncology approval'.",
- "total": 80,
- "notifications": 209,
+ "total": 81,
+ "notifications": 211,
  "window": {
   "from": "2023-01-19",
-  "to": "2026-11-17"
+  "to": "2026-11-24"
  },
  "items": [
   {
@@ -25,6 +25,12 @@
    "last": "2026-11-05"
   },
   {
+   "name": "Genentech, Inc.",
+   "approvals": 11,
+   "first": "2023-04-19",
+   "last": "2026-11-23"
+  },
+  {
    "name": "AstraZeneca",
    "approvals": 10,
    "first": "2024-08-15",
@@ -35,12 +41,6 @@
    "approvals": 10,
    "first": "2023-10-13",
    "last": "2026-08-13"
-  },
-  {
-   "name": "Genentech, Inc.",
-   "approvals": 10,
-   "first": "2023-04-19",
-   "last": "2026-11-16"
   },
   {
    "name": "Eli Lilly and Company",
@@ -275,6 +275,12 @@
    "approvals": 1,
    "first": "2024-12-13",
    "last": "2024-12-13"
+  },
+  {
+   "name": "Cogent Biosciences, Inc",
+   "approvals": 1,
+   "first": "2026-11-24",
+   "last": "2026-11-24"
   },
   {
    "name": "Coherus BioSciences, Inc.",

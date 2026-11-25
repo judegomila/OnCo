@@ -1,13 +1,13 @@
 {
- "checked": "2026-11-18",
+ "checked": "2026-11-25",
  "source": {
   "label": "OECI: Member Profiles",
   "url": "https://www.oeci.eu/MemberList.aspx"
  },
  "method": "Every member profile on the Organisation of European Cancer Institutes member list (full, associate and corresponding members), with the leaders named on each profile.",
- "total": 200,
+ "total": 197,
  "byMembership": {
-  "Associate Member": 57,
+  "Associate Member": 54,
   "Full Member": 139,
   "Linked Institution": 4
  },
@@ -282,7 +282,6 @@
    "membership": "Full Member",
    "leaders": [
     "Petr Polouček",
-    "Martin Holcát",
     "Anna Šedivá",
     "Tomáš Büchler"
    ]
@@ -312,18 +311,6 @@
    ]
   },
   {
-   "id": "91",
-   "name": "Vejle Sygehus, Patienternes Kræftsygehus en del af Sygehus Lillebælt",
-   "altName": "Vejle Cancer Centre – The Patients’ Cancer Hospital part of Lillebaelt Hospital",
-   "country": "Denmark",
-   "website": "http://sygehuslillebaelt.dk/wm398506",
-   "membership": "Full Member",
-   "leaders": [
-    "Christian Sauvr",
-    "Hanne Andersen"
-   ]
-  },
-  {
    "id": "151",
    "name": "Copenhagen Comprehensive Cancer Center (CCCC) Department of oncology Rigshospitalet",
    "altName": "Kræftafdelingen Rigshospitalet",
@@ -344,6 +331,18 @@
    "leaders": [
     "Lisbet Isenbeg Ravn",
     "Lisa Sengeløv"
+   ]
+  },
+  {
+   "id": "91",
+   "name": "Vejle Sygehus, Patienternes Kræftsygehus en del af Sygehus Lillebælt",
+   "altName": "Vejle Cancer Centre – The Patients’ Cancer Hospital part of Lillebaelt Hospital",
+   "country": "Denmark",
+   "website": "http://sygehuslillebaelt.dk/wm398506",
+   "membership": "Full Member",
+   "leaders": [
+    "Christian Sauvr",
+    "Hanne Andersen"
    ]
   },
   {
@@ -594,7 +593,6 @@
    "membership": "Full Member",
    "leaders": [
     "Roman Rouzier",
-    "Michael Canovas",
     "Florence Joly",
     "Laurent Poulain"
    ]
@@ -1142,6 +1140,19 @@
    ]
   },
   {
+   "id": "11",
+   "name": "Fondazione IRCCS- Istituto Nazionale dei Tumori di Milano",
+   "country": "Italy",
+   "website": "http://www.istitutotumori.mi.it",
+   "membership": "Full Member",
+   "leaders": [
+    "Gustavo Galmozzi",
+    "Maria Teresa Montella",
+    "Maurizia Ficarelli",
+    "Cesare Candela"
+   ]
+  },
+  {
    "id": "42",
    "name": "IRCCS Ospedale San Raffaele (OSR)",
    "country": "Italy",
@@ -1197,6 +1208,19 @@
    ]
   },
   {
+   "id": "135A",
+   "name": "Fondazione IRCCS Policlinico San Matteo",
+   "country": "Italy",
+   "website": "http://www.sanmatteo.org/site/home.html",
+   "membership": "Associate Member",
+   "leaders": [
+    "Alessandro Venturi",
+    "Vincenzo Petronella",
+    "Vittorio Bellotti",
+    "Paolo Pedrazzoli"
+   ]
+  },
+  {
    "id": "10",
    "name": "Istituto Europeo di Oncologia",
    "altName": "IEO European Institute of Oncology",
@@ -1207,19 +1231,6 @@
     "Carlo Cimbri",
     "Mauro Melis",
     "Roberto Orecchia"
-   ]
-  },
-  {
-   "id": "11",
-   "name": "Fondazione IRCCS- Istituto Nazionale dei Tumori di Milano",
-   "country": "Italy",
-   "website": "http://www.istitutotumori.mi.it",
-   "membership": "Full Member",
-   "leaders": [
-    "Gustavo Galmozzi",
-    "Maria Teresa Montella",
-    "Maurizia Ficarelli",
-    "Cesare Candela"
    ]
   },
   {
@@ -1338,19 +1349,6 @@
     "Cristiano Spada",
     "Alberto Zaniboni",
     "Elia Croce"
-   ]
-  },
-  {
-   "id": "135A",
-   "name": "Fondazione IRCCS Policlinico San Matteo",
-   "country": "Italy",
-   "website": "http://www.sanmatteo.org/site/home.html",
-   "membership": "Associate Member",
-   "leaders": [
-    "Alessandro Venturi",
-    "Vincenzo Petronella",
-    "Vittorio Bellotti",
-    "Paolo Pedrazzoli"
    ]
   },
   {
@@ -1773,35 +1771,6 @@
    ]
   },
   {
-   "id": "31A",
-   "name": "Tatarstan Cancer Center “TCC”",
-   "altName": "Государственное автономное учреждение здравоохранения \"Республиканский клинический онкологический диспансер министерства здравоохранения Республики Татарстан\"",
-   "country": "Russian Federation",
-   "website": "http://oncort.ru",
-   "membership": "Associate Member",
-   "leaders": []
-  },
-  {
-   "id": "43A",
-   "name": "N.N.Blokhin Russian Cancer Research Centre",
-   "altName": "Федеральное государственное бюджетное научное учреждение «Российский научный онкологический центр им. Н.Н.Блохина»",
-   "country": "Russian Federation",
-   "website": "http://www.ronc.ru",
-   "membership": "Associate Member",
-   "leaders": [
-    "Ivan S. Stilidi"
-   ]
-  },
-  {
-   "id": "73A",
-   "name": "National Medical Research Radiological Centre (NMRRC)",
-   "altName": "Государственный научно-исследовательский центр радиологии",
-   "country": "Russian Federation",
-   "website": "http://www.mnioi.nmicr.ru",
-   "membership": "Associate Member",
-   "leaders": []
-  },
-  {
    "id": "32A",
    "name": "Oncology Institute of Vojvodina",
    "country": "Serbia",
@@ -1889,6 +1858,19 @@
    ]
   },
   {
+   "id": "168",
+   "name": "Hospital Universitario 12 de Octubre",
+   "altName": "12 de Octubre University Hospital",
+   "country": "Spain",
+   "website": "https://www.comunidad.madrid/hospital/12octubre/",
+   "membership": "Full Member",
+   "leaders": [
+    "Carmen Martínez de Pancorbo González",
+    "Luis Paz-Ares Rodríguez",
+    "Joaquín Martínez López"
+   ]
+  },
+  {
    "id": "169",
    "name": "Clínic Barcelona Comprehensive Cancer Centre",
    "country": "Spain",
@@ -1945,19 +1927,6 @@
     "César Gregorio Muñoz Sánchez-Miguel",
     "Francisco Aldea",
     "Antonio Cubillo"
-   ]
-  },
-  {
-   "id": "168",
-   "name": "Hospital Universitario 12 de Octubre",
-   "altName": "12 de Octubre University Hospital",
-   "country": "Spain",
-   "website": "https://www.comunidad.madrid/hospital/12octubre/",
-   "membership": "Full Member",
-   "leaders": [
-    "Carmen Martínez de Pancorbo González",
-    "Luis Paz-Ares Rodríguez",
-    "Joaquín Martínez López"
    ]
   },
   {
@@ -2160,6 +2129,16 @@
    ]
   },
   {
+   "id": "121",
+   "name": "Sahlgrenska University Hospital",
+   "country": "Sweden",
+   "website": "http://www.sahlgrenska.se/",
+   "membership": "Full Member",
+   "leaders": [
+    "Erik Johnsson"
+   ]
+  },
+  {
    "id": "141",
    "name": "Linköping Comprehensive Cancer Center",
    "country": "Sweden",
@@ -2170,16 +2149,6 @@
     "Mats Ulfendahl",
     "Ninnie Borendal Wodlin",
     "Jessica Frisk"
-   ]
-  },
-  {
-   "id": "121",
-   "name": "Sahlgrenska University Hospital",
-   "country": "Sweden",
-   "website": "http://www.sahlgrenska.se/",
-   "membership": "Full Member",
-   "leaders": [
-    "Erik Johnsson"
    ]
   },
   {

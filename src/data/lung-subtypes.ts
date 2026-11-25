@@ -213,7 +213,7 @@ export const lungSubtypes: CancerInput[] = [
     targets: ["alk"], technologies: ["kinase-inhibitors", "radiosurgery-srs", "liquid-biopsy", "cgp"], terms: ["gene-fusion", "oncogene-addiction", "gatekeeper-mutation", "brain-metastases", "oligoprogression", "tki-term", "resistance"],
     trials: ["alex", "alta-1l", "crown", "alina", "alkove-1", "alneo"], drugs: ["alectinib", "brigatinib", "lorlatinib", "crizotinib", "ceritinib", "ensartinib", "iruplinalkib", "neladalkib"],
     people: ["solomon-benjamin", "ross-camidge", "solange-peters", "tony-mok", "ahn-myung-ju", "wu-yi-long", "justin-gainor"], companies: ["roche-genentech", "pfizer", "takeda", "novartis", "nuvalent"], pathways: ["nsclc-signalling", "rtk-activation"],
-    keyPapers: ["paper-shaw-crown-lorlatinib-crizotinib-nejm-2020"],
+    keyPapers: ["paper-shaw-crown-lorlatinib-crizotinib-nejm-2020", "paper-alneo-neoadjuvant-alectinib-jco-2026"],
     links: [{ label: "Wikipedia", url: W("Anaplastic_lymphoma_kinase") }, { label: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: NCCN_NSCLC }] },
 
   { id: "kras-g12c-nsclc", related: ["egfr-mutant-nsclc", "alk-positive-nsclc", "braf-v600e-nsclc", "her2-mutant-nsclc", "pdl1-high-nsclc", "met-altered-nsclc"], kind: "cancer", name: "KRAS G12C-mutant non-small-cell lung cancer", group: "lung", parent: "nsclc", asOf, tags, wikipedia: W("KRAS"),

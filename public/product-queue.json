@@ -1,11 +1,1 @@
-[
-  {
-    "branch": "product/side-effect-protocol-mappings-2",
-    "why": "side effects link the second round of protocols that manage them",
-    "pr": "https://github.com/judegomila/OnCo/pull/473",
-    "preview": "",
-    "files": 23,
-    "proposed": "2026-11-19",
-    "state": "waiting"
-  }
-]
+[]

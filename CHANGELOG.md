@@ -6,17 +6,42 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 25 November 2026
+- Side effects link the second round of protocols that manage them, including differentiation syndrome for a raised white cell count on ivosidenib and capillary leak for low albumin on tagraxofusp
+- A raised white cell count on ivosidenib and a low albumin on tagraxofusp now link the protocols whose steps manage them; the low-potassium example moves from relacorilant to lutetium-177 dotatate
+- chore: refresh universe lists (NCI drugs and types, NCI centres, OECI, NHS alliances, NLM journals, OpenAlex, KEGG, ChEMBL, ClinicalTrials.gov, FDA OCE) (#502)
+- chore: check regional approvals against the EMA register (#501)
+- chore: refresh FDA approvals feed (OCE notifications, openFDA drugsfda) (#500)
+- chore: draft change proposals that need review (#498)
+- chore: EU regional rows read from the EMA register pages (#497)
+
+### 24 November 2026
+- Record FDA approval of adjuvant giredestrant (#499)
+- chore: draft change proposals that need review (#494)
+- chore: EU regional rows read from the EMA register pages (#493)
+
+### 23 November 2026
+- chore: weekly fact check, audit, and provenance refresh (#492)
+- chore: render this week's issue to public/newsletter/ (#491)
+- chore: refresh public/votes.json from Discussions reactions (#489)
+- chore: refresh trial counts from ClinicalTrials.gov (#488)
+- chore: draft change proposals that need review (#487)
+- chore: EU regional rows read from the EMA register pages (#486)
+
+### 22 November 2026
+- chore: draft change proposals that need review (#485)
+- chore: EU regional rows read from the EMA register pages (#484)
+
 ### 21 November 2026
-- Second accuracy pass on the older country pages: corrected sentences on eleven pages, search lines for the country directory, three duplicate trial records merged with redirects, and the FDA approvals link
-- The last 64 country deep dives (waves 13 to 16), each checked twice against its sources; Ask places a technology first when a question names it
-- Second accuracy pass on every drug record and about 390 cancer pages: approvals, withdrawals, trial results, doses and statuses re-read against labels, regulators and the registry; Ask ranks approved medicines first when a question asks what is approved
 - chore: draft change proposals that need review (#483)
 - chore: EU regional rows read from the EMA register pages (#482)
 
 ### 20 November 2026
+- Second accuracy pass on the older country pages: corrected sentences on eleven pages, search lines for the country directory, three duplicate trial records merged with redirects, and the FDA approvals link
 - Two leftovers of the trial merges removed: PILDI's retired number in the site file and a start-date row STAR-TREC cannot carry
 - The last 64 country deep dives (waves 13 to 16), each checked twice against its sources; Ask places a technology first when a question names it
 - Ten records the country waves corrected: plain-language lines brought into step, and translations of the old one-liners removed
+- The low potassium protocol no longer says OnCo lists hypokalaemia for relacorilant
 - Ask recall measured before and after the three trial merges: 0.4322, rubric 0.6970, unchanged
 - Three trials held twice become one record each, with redirects from the retired addresses
 - Second accuracy pass on every drug record and about 390 cancer pages: approvals, withdrawals, trial results, doses and statuses re-read against labels, regulators and the registry; Ask ranks approved medicines first when a question asks what is approved
@@ -92,6 +117,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Second accuracy pass on cancer pages, part two: lung, pancreatic and blood cancer subtype pages (618 claims re-read against their sources, 96 wrong, 66 unsupported and 41 unverifiable corrected or labelled)
 - A stopped breast reconstruction trial keeps its enrolment in the one-line description, and 38 Chinese summary translations made from English that has since been corrected are withdrawn
 - The table of US accelerated approvals is regenerated from the FDA's four lists as read on 17 November 2026: 242 indications, 141 converted, 37 withdrawn, 64 open
+- Side effects link the second round of protocols that manage them: sixteen new protocols listed under the symptom groups they cover, each beside only the products it names
 - Two European authorisations found in the Commission's register are recorded, daraxonrasib on 16 November and senaparib on 12 November 2026; pexidartinib and romidepsin are shown as refused in the EU, not withdrawn; and two model reviews cite the FDA notices at their new address
 - The new warning cards are reworded to fit the reader's download budget, with every quotation still verbatim, and cards are added for pancreatitis on four leukaemia drugs, liver problems on three drugs and heart symptoms on five HER2-targeted drugs
 - Eleven trials name the sponsor the registry now gives, among them Genmab for the petosemtamab trials and BeOne for a BGB-16673 trial; PRODIGE 4 is shown as the phase 2/3 trial it was; and the accelerated approvals table is read from the FDA's new address, without footnote markers recorded as announcements

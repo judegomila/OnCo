@@ -743,10 +743,10 @@ export const pipelineTrialsWave4: TrialInput[] = [
 
     targets: ["trop2"],
   },
-  { id: "nct06417814", technologies: ["kinase-inhibitors"], aka: ["TROPION-Lung15"], kind: "trial", name: "A Study to Investigate the Efficacy and Safety of Dato-DXd With or Without Osimertinib Compared With Platinum Based Doublet Chemotherapy in Participan", nct: "NCT06417814", phase: "3", status: "recruiting", sponsor: "AstraZeneca", enrolled: 744,  tags,
+  { id: "nct06417814", technologies: ["kinase-inhibitors"], aka: ["TROPION-Lung15"], kind: "trial", name: "A Study to Investigate the Efficacy and Safety of Dato-DXd With or Without Osimertinib Compared With Platinum Based Doublet Chemotherapy in Participan", nct: "NCT06417814", phase: "3", status: "recruiting", sponsor: "AstraZeneca", enrolled: 768,  tags,
     setting: "A Study to Investigate the Efficacy and Safety of Dato-DXd With or Without Osimertinib Compared With Platinum Based Doublet Chemotherapy in Participants With EGFR-Mutated Locally Advanced or Metastatic Non-Small Cell Lung Cancer",
     tldr: "A phase 3 trial of Datopotamab deruxtecan, Osimertinib, Pemetrexed in non-small-cell lung cancer, run by AstraZeneca, now recruiting.",
-    summary: "A Study to Investigate the Efficacy and Safety of Dato-DXd With or Without Osimertinib Compared With Platinum Based Doublet Chemotherapy in Participants With EGFR-Mutated Locally Advanced or Metastatic Non-Small Cell Lung Cancer. ClinicalTrials.gov record last updated 2026-05-14: recruiting. Enrollment is planned at 744 participants. Primary completion is estimated at 2026-09-30. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications. Registered interventions: Dato-DXd, Osimertinib, Pemetrexed, Carboplatin, Cisplatin. Registered primary measures: Progression free Survival (PFS).",
+    summary: "A Study to Investigate the Efficacy and Safety of Dato-DXd With or Without Osimertinib Compared With Platinum Based Doublet Chemotherapy in Participants With EGFR-Mutated Locally Advanced or Metastatic Non-Small Cell Lung Cancer. ClinicalTrials.gov record last updated 2026-10-15: active not recruiting. Enrollment is 768 participants (actual). Primary completion is estimated at 2027-01-11. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications. Registered interventions: Dato-DXd, Osimertinib, Pemetrexed, Carboplatin, Cisplatin. Registered primary measures: Progression free Survival (PFS).",
     drugs: ["datopotamab-deruxtecan","osimertinib","pemetrexed","carboplatin","cisplatin"], cancers: ["nsclc", "egfr-mutant-nsclc"], companies: ["astrazeneca"],
     links: [{ label: "ClinicalTrials.gov NCT06417814", url: "https://clinicaltrials.gov/study/NCT06417814" }],
     asOf: "2026-10-06",
@@ -755,7 +755,7 @@ export const pipelineTrialsWave4: TrialInput[] = [
 
     startedType: "actual",
 
-    notes: ["ClinicalTrials.gov record last updated 2026-05-14: recruiting. Enrollment is planned at 744 participants. Primary completion is estimated at 2026-09-30. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications."],
+    notes: ["ClinicalTrials.gov record last updated 2026-10-15: active not recruiting. Enrollment is 768 participants (actual). Primary completion is estimated at 2027-01-11. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications."],
 
     targets: ["trop2"],
   },
@@ -1208,10 +1208,10 @@ export const pipelineTrialsWave4: TrialInput[] = [
     summary: "Lurbinectedin or in Combination with Irinotecan Versus Topotecan in Patients with Relapsed SCLC is a phase 3 interventional study registered as NCT06496048 by Luye Pharma Group Ltd., with 180 participants planned, started 2024-09-14 and due to reach its primary completion in 2027-12-31. Interventions recorded: Lurbinectedin, Irinotecan, Lurbinectedin, Topotecan. Conditions listed: Relapsed Small Cell Lung Cancer. No results are recorded here; the registry entry is the source.",
     drugs: ["lurbinectedin","folfiri","topotecan"], cancers: ["sclc"], companies: ["luye-pharma"],
     links: [{ label: "ClinicalTrials.gov NCT06496048", url: "https://clinicaltrials.gov/study/NCT06496048" }] },
-  { id: "nct05555732", technologies: ["adc", "checkpoint-inhibitor", "topoisomerase-inhibitors"], aka: ["TROPION-Lung07"], kind: "trial", name: "Datopotamab Deruxtecan (Dato-DXd) and Pembrolizumab With or Without Platinum Chemotherapy in 1L Non-Small Cell Lung Cancer (TROPION-Lung07)", nct: "NCT05555732", phase: "3", status: "active", sponsor: "Daiichi Sankyo", enrolled: 1170,  tags,
+  { id: "nct05555732", technologies: ["adc", "checkpoint-inhibitor", "topoisomerase-inhibitors"], aka: ["TROPION-Lung07"], kind: "trial", name: "Datopotamab Deruxtecan (Dato-DXd) and Pembrolizumab With or Without Platinum Chemotherapy in 1L Non-Small Cell Lung Cancer (TROPION-Lung07)", nct: "NCT05555732", phase: "3", status: "active", sponsor: "Daiichi Sankyo", enrolled: 1233,  tags,
     setting: "Datopotamab Deruxtecan (Dato-DXd) and Pembrolizumab With or Without Platinum Chemotherapy in 1L Non-Small Cell Lung Cancer (TROPION-Lung07)",
     tldr: "A phase 3 trial of Datopotamab deruxtecan, Pembrolizumab, Pemetrexed in non-small-cell lung cancer, run by Daiichi Sankyo, active and no longer recruiting.",
-    summary: "Datopotamab Deruxtecan (Dato-DXd) and Pembrolizumab With or Without Platinum Chemotherapy in 1L Non-Small Cell Lung Cancer (TROPION-Lung07). ClinicalTrials.gov record last updated 2026-06-23: active not recruiting. Enrollment is planned at 1170 participants. Primary completion is estimated at 2029-05-11. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications. Registered interventions: Datopotamab Deruxtecan, Pembrolizumab, Pemetrexed, Carboplatin, Cisplatin. Registered primary measures: Progression-free Survival Based on Blinded Independent Central Review in All Randomized Participants; Progression-free Survival Based on Blinded Independent Central Review in All Randomized Participants who are TROP2 NMR positive; Overall Survival in All Randomized Participants.",
+    summary: "Datopotamab Deruxtecan (Dato-DXd) and Pembrolizumab With or Without Platinum Chemotherapy in 1L Non-Small Cell Lung Cancer (TROPION-Lung07). ClinicalTrials.gov record last updated 2026-11-10: active not recruiting. Enrollment is 1233 participants (actual). Primary completion is estimated at 2029-05-11. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications. Registered interventions: Datopotamab Deruxtecan, Pembrolizumab, Pemetrexed, Carboplatin, Cisplatin. Registered primary measures: Progression-free Survival Based on Blinded Independent Central Review in All Randomized Participants; Progression-free Survival Based on Blinded Independent Central Review in All Randomized Participants who are TROP2 NMR positive; Overall Survival in All Randomized Participants.",
     drugs: ["datopotamab-deruxtecan","pembrolizumab","pemetrexed","carboplatin","cisplatin"], cancers: ["nsclc"], companies: ["daiichi-sankyo"],
     links: [{ label: "ClinicalTrials.gov NCT05555732", url: "https://clinicaltrials.gov/study/NCT05555732" }],
     asOf: "2026-10-06",
@@ -1220,7 +1220,7 @@ export const pipelineTrialsWave4: TrialInput[] = [
 
     startedType: "actual",
 
-    notes: ["ClinicalTrials.gov record last updated 2026-06-23: active not recruiting. Enrollment is planned at 1170 participants. Primary completion is estimated at 2029-05-11. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications."],
+    notes: ["ClinicalTrials.gov record last updated 2026-11-10: active not recruiting. Enrollment is 1233 participants (actual). Primary completion is estimated at 2029-05-11. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications."],
 
     targets: ["trop2"],
   },
@@ -1718,7 +1718,7 @@ export const pipelineTrialsWave4: TrialInput[] = [
   { id: "nct04657991", technologies: ["checkpoint-inhibitor", "kinase-inhibitors"], kind: "trial", name: "A Clinical Trial of Three Study Medicines (Encorafenib, Binimetinib, and Pembrolizumab) in Patients With Advanced or Metastatic Melanoma", nct: "NCT04657991", phase: "3", status: "active", sponsor: "Pfizer", enrolled: 257, asOf, tags,
     setting: "A PHASE 3, RANDOMIZED, DOUBLE-BLIND STUDY OF ENCORAFENIB AND BINIMETINIB PLUS PEMBROLIZUMAB VERSUS PLACEBO PLUS PEMBROLIZUMAB IN PARTICIPANTS WITH BRAF V600E/K MUTATION-POSITIVE METASTATIC OR UNRESECTABLE LOCALLY ADVANCED MELANOMA",
     tldr: "A phase 3 trial of Encorafenib, Binimetinib, Pembrolizumab in melanoma, run by Pfizer, active and no longer recruiting.",
-    summary: "A Clinical Trial of Three Study Medicines (Encorafenib, Binimetinib, and Pembrolizumab) in Patients With Advanced or Metastatic Melanoma is a phase 3 interventional study registered as NCT04657991 by Pfizer, with 257 participants enrolled, started 2021-01-15 and due to reach its primary completion in 2026-10-30. Interventions recorded: Encorafenib, Binimetinib, Pembrolizumab. Conditions listed: Melanoma. No results are recorded here; the registry entry is the source.",
+    summary: "A Clinical Trial of Three Study Medicines (Encorafenib, Binimetinib, and Pembrolizumab) in Patients With Advanced or Metastatic Melanoma is a phase 3 interventional study registered as NCT04657991 by Pfizer, with 257 participants enrolled, started 2021-01-15 and due to reach its primary completion in 2027-01-29. Interventions recorded: Encorafenib, Binimetinib, Pembrolizumab. Conditions listed: Melanoma. No results are recorded here; the registry entry is the source.",
     drugs: ["encorafenib","binimetinib","pembrolizumab"], cancers: ["melanoma", "advanced-melanoma", "braf-v600-melanoma"], companies: ["pfizer"],
     links: [{ label: "ClinicalTrials.gov NCT04657991", url: "https://clinicaltrials.gov/study/NCT04657991" }] },
   { id: "nct07225270", technologies: ["adc", "topoisomerase-inhibitors"], aka: ["RAINFOL-04"], kind: "trial", name: "Study to Assess the Efficacy and Safety of Rina-S Plus Standard of Care Compared to Standard of Care for Maintenance Treatment of Participants With Re", nct: "NCT07225270", phase: "3", status: "recruiting", sponsor: "Genmab", enrolled: 544, asOf, tags,

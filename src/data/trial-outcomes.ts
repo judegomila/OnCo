@@ -110,7 +110,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     ],
     replication: "Single Chinese phase 3 with an interim OS analysis; a parallel positive phase 3 in oesophageal squamous cell carcinoma supports the drug, and the global IZABRIGHT-Breast01 trial will test the first-line setting. Not yet replicated outside China.",
   },
-  "izabright-breast01": { enrolled: 570, outcomes: [], replication: "Ongoing; no results." },
+  "izabright-breast01": { enrolled: 600, outcomes: [], replication: "Ongoing; no results." },
   "optimice-pcr": { enrolled: 1295, outcomes: [], replication: "Ongoing de-escalation trial; no results." },
   "scarlet-s2212": { enrolled: 2400, outcomes: [], replication: "Ongoing; no results." },
   olympia: {
@@ -263,7 +263,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     replication: "Replicated by CheckMate 069 (phase 2) and consistent with KEYNOTE-006 for single-agent PD-1; the longest immunotherapy follow-up in any solid tumour.",
   },
   "interpath-001": {
-    enrolled: 1137,
+    enrolled: 1137, enrolledBasis: "randomised", enrolledNote: "ClinicalTrials.gov lists 1,089 participants (estimated) under NCT05933577, read on 25 November 2026; 1,137 is the number randomised, as the summary here describes.",
     outcomes: [
       { endpoint: "Recurrence-free survival at 24 months", primary: true, unit: "%", arms: [{ name: "Intismeran autogene + pembrolizumab", n: 757, value: 82.2 }, { name: "Placebo + pembrolizumab", n: 380, value: 70.0 }], p: "<0.001", note: "Met. Piecewise hazard ratio 0.99 (95% CI 0.66 to 1.49) before 6 months and 0.42 (0.30 to 0.58) after 6 months; median follow-up 24.6 months.", source: "https://doi.org/10.1056/NEJMoa2609762" },
       { endpoint: "Distant metastasis-free survival at 24 months", unit: "%", arms: [{ name: "Intismeran autogene + pembrolizumab", n: 757, value: 88.5 }, { name: "Placebo + pembrolizumab", n: 380, value: 80.2 }], p: "0.002", note: "Met. Piecewise hazard ratio 1.01 (0.58 to 1.79) before 6 months and 0.50 (0.34 to 0.73) after 6 months.", source: "https://doi.org/10.1056/NEJMoa2609762" },
@@ -599,7 +599,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     outcomes: [{ endpoint: "Radiographic progression-free survival", primary: true, unit: "months", arms: [{ name: "177Lu-PSMA-I&T" }, { name: "ARPI switch" }], note: "Met per sponsor; medians pending publication", source: ct("NCT05204927") }],
     replication: "Consistent with PSMAfore for the pre-chemotherapy setting; OS pending.",
   },
-  alphabreak: { enrolled: 600, outcomes: [], replication: "Ongoing phase 3 of 225Ac-PSMA-I&T after 177Lu-PSMA; no results." },
+  alphabreak: { enrolled: 110, outcomes: [], replication: "Ongoing phase 2 of 225Ac-PSMA-I&T after 177Lu-PSMA; no results." },
   xalute: { enrolled: 707, outcomes: [], replication: "Ongoing phase 3 of xaluritamig vs cabazitaxel/ARPI; no results." },
   "mevpro-1": { enrolled: 609, outcomes: [], replication: "Ongoing phase 3 of mevrometostat + enzalutamide; no results." },
   // Pancreatic
@@ -667,7 +667,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     replication: "Consistent with CheckMate 143 and 498: three negative randomised trials of PD-1 blockade in glioblastoma.",
   },
   "checkmate-143": {
-    enrolled: 369,
+    enrolled: 369, enrolledBasis: "randomised", enrolledNote: "ClinicalTrials.gov lists 529 participants (actual) under NCT02017717, read on 25 November 2026; 369 is the number randomised, as the summary here describes.",
     outcomes: [{ endpoint: "Overall survival, first recurrence of glioblastoma", primary: true, unit: "months", arms: [{ name: "Nivolumab", n: 184, value: 9.8 }, { name: "Bevacizumab", n: 185, value: 10.0 }], hr: 1.04, ci: [0.83, 1.30], p: "0.76", note: "Not significant", source: "https://doi.org/10.1001/jamaoncol.2020.1024" }],
     replication: "Consistent with CheckMate 498 and 548 in newly diagnosed disease: three negative randomised trials of PD-1 blockade in glioblastoma.",
   },
@@ -699,7 +699,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     replication: "Primary OS endpoint missed; the non-epithelioid benefit echoes CheckMate 743, where ipilimumab-nivolumab helped non-epithelioid disease most. Not independently replicated.",
   },
   dream3r: {
-    outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Durvalumab + platinum-pemetrexed" }, { name: "Platinum-pemetrexed" }], note: "Trial closed early; primary OS endpoint not met at the analysis presented at ESMO 2025. Medians and hazard ratio pending publication.", source: ct("NCT04334759") }],
+    outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Durvalumab + platinum-pemetrexed", n: 113, value: 21 }, { name: "Platinum-pemetrexed", n: 60, value: 18 }], note: "Trial closed early; primary OS endpoint not met at the analysis presented at ESMO 2025. Medians are from the ClinicalTrials.gov results section (first posted 2026-10-01), chemotherapy cohort: 95% CI 18 to 27 and 14 to 30 months. No hazard ratio is posted there.", source: "https://clinicaltrials.gov/study/NCT04334759?tab=results" }],
     replication: "Did not confirm the single-arm PrE0505 and DREAM phase 2 signals; chemo-immunotherapy in mesothelioma rests on the ipilimumab-nivolumab (CheckMate 743) and IND.227 pembrolizumab data instead.",
   },
   // Urothelial
@@ -757,7 +757,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
     replication: "Consistent with COSMIC-313: adding a third agent to a first-line IO doublet has not improved outcomes in clear-cell RCC. The phase Ib/II KEYMAKER-U03 signal for the belzutifan triplet did not carry into phase 3.",
   },
   "litespark-022": {
-    enrolled: 1841,
+    enrolled: 1841, enrolledBasis: "randomised", enrolledNote: "ClinicalTrials.gov lists 1,800 participants (estimated) under NCT05239728, read on 25 November 2026; 1,841 is the number randomised, as the summary here describes.",
     outcomes: [
       { endpoint: "Disease-free survival at 24 months (investigator-assessed)", primary: true, unit: "%", arms: [{ name: "Pembrolizumab + belzutifan", n: 921, value: 80.7 }, { name: "Pembrolizumab + placebo", n: 920, value: 73.7 }], hr: 0.72, ci: [0.59, 0.87], p: "<0.001", source: nejm("NEJMoa2518245") },
       { endpoint: "Overall survival at 24 months (interim, 29% of final events)", unit: "%", arms: [{ name: "Pembrolizumab + belzutifan", value: 96.2 }, { name: "Pembrolizumab + placebo", value: 95.7 }], hr: 0.78, ci: [0.51, 1.19], p: "0.24", note: "Not significant; immature", source: nejm("NEJMoa2518245") },

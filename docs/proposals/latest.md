@@ -1,6 +1,6 @@
-# Change proposals 2026-11-23
+# Change proposals 2026-11-25
 
-Drafted by scripts/propose-updates.ts from: factcheck 2026-11-16, trialChanges 2026-11-16, fda 2026-11-18, regional 2026-11-18.
+Drafted by scripts/propose-updates.ts from: factcheck 2026-11-23, trialChanges 2026-11-23, fda 2026-11-18, regional 2026-11-18.
 
 Review each line against its source. Apply by editing the file named; nothing in this list is applied automatically. EMA rows carry the reason a person is needed; the rows that passed every check were written on the auto branch by scripts/apply-proposals.ts and are listed at the end.
 
@@ -117,7 +117,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - evidence: ClinicalTrials.gov now has posted results for NCT05471843 (detected 2026-09-28). ([source](https://clinicaltrials.gov/study/NCT05471843?tab=results))
   - file: `src/data/pipeline-trials-wave5.ts:1547`
 
-## Medium confidence (275)
+## Medium confidence (309)
 
 - [ ] **A Clinical Trial Assessing BT-001 Alone and in Combination With Pembrolizumab in Metastatic or Advanced Solid Tumors** ([page](https://onco.cc/trials/nct04725331/)) · trial-status · `status`
   - current: historic
@@ -334,6 +334,11 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: withdrawn
   - evidence: ClinicalTrials.gov overall status is TERMINATED; recorded historic. Editorial statuses (positive, negative, mixed) need the result, so this is a floor, not a verdict. ([source](https://clinicaltrials.gov/study/NCT02065869))
   - file: `src/data/company-pipeline-gap.ts:2202`
+- [ ] **Selinexor (KPT-330) in Patients With Relapsed/Refractory Diffuse Large B-Cell Lymphoma (DLBCL)** ([page](https://onco.cc/trials/nct02227251/)) · trial-status · `status`
+  - current: active
+  - proposed: withdrawn
+  - evidence: ClinicalTrials.gov overall status is TERMINATED; recorded active. Editorial statuses (positive, negative, mixed) need the result, so this is a floor, not a verdict. ([source](https://clinicaltrials.gov/study/NCT02227251))
+  - file: `src/data/pipeline-trials-wave5.ts:90`
 - [ ] **Study of BMS-986497 (ORM-6151) as a Monotherapy, in Double and Triple Combination With Azacitidine and Venetoclax in Participants With Relapsed or Refractory Acute Myeloid Leukemia or Myelodysplastic Syndrome** ([page](https://onco.cc/trials/nct06419634/)) · trial-status · `status`
   - current: historic
   - proposed: withdrawn
@@ -434,12 +439,177 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: add { region: "US", year: <from label>, indication: <from label> } and set status to approved
   - evidence: openFDA has a label for "Pancrelipase" ([source](https://open.fda.gov/apis/drug/label/))
   - file: `src/data/spikes/pancreatic-treatment.ts:59`
+- [ ] **Phase 1/2 Study of Intratumoral Injection of STX-001 in Advanced Solid Tumors as Monotherapy or in Combination With Pembrolizumab** ([page](https://onco.cc/trials/nct06249048/)) · trial-status · `status`
+  - current: recruiting
+  - proposed: completed
+  - evidence: ClinicalTrials.gov overall status is COMPLETED; recorded recruiting. Editorial statuses (positive, negative, mixed) need the result, so this is a floor, not a verdict. ([source](https://clinicaltrials.gov/study/NCT06249048))
+  - file: `src/data/pipeline-trials-wave6.ts:1948`
 - [ ] **Daraxonrasib** ([page](https://onco.cc/drugs/daraxonrasib/)) · regional-status · `EU`
   - current: approved (2026)
   - proposed: EU entry from the register page (Opinion)
   - evidence: EMA register: Rasonque (Daraxonrasib) Opinion. Register page: "Opinion: EMA has issued an opinion on this medicine", opinion Positive 2026-10-15. ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/rasonque))
   - why a person: register status "Opinion" has no helper in regional-approvals.ts; the recorded EU row says approved (2026)
   - file: `src/data/regional-approvals.ts`
+- [ ] **SIOPEN HR-NBL1** ([page](https://onco.cc/trials/hr-nbl1/)) · trial-status · `status`
+  - current: mixed
+  - proposed: completed
+  - evidence: Registry status moved from UNKNOWN to COMPLETED (detected 2026-11-23). ([source](https://clinicaltrials.gov/study/NCT01704716))
+  - file: `src/data/spikes/neuroblastoma.ts:132`
+- [ ] **SIOPEN HR-NBL1** ([page](https://onco.cc/trials/hr-nbl1/)) · trial-completion · `yearReported / calendar`
+  - current: 2021-09-30
+  - proposed: 2025-01-30
+  - evidence: Primary completion date moved from 2021-09-30 to 2025-01-30; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT01704716))
+  - file: `src/data/spikes/neuroblastoma.ts:132`
+- [ ] **Selinexor (KPT-330) in Patients With Relapsed/Refractory Diffuse Large B-Cell Lymphoma (DLBCL)** ([page](https://onco.cc/trials/nct02227251/)) · trial-completion · `yearReported / calendar`
+  - current: 2026-12
+  - proposed: 2026-06-02
+  - evidence: Primary completion date moved from 2026-12 to 2026-06-02; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT02227251))
+  - file: `src/data/pipeline-trials-wave5.ts:90`
+- [ ] **ELEVATE-TN** ([page](https://onco.cc/trials/elevate-tn/)) · trial-status · `status`
+  - current: positive
+  - proposed: completed
+  - evidence: Registry status moved from ACTIVE_NOT_RECRUITING to COMPLETED (detected 2026-11-23). ([source](https://clinicaltrials.gov/study/NCT02475681))
+  - file: `src/data/spikes/cll.ts:144`
+- [ ] **Basket Study of Entrectinib (RXDX-101) for the Treatment of Patients With Solid Tumors Harboring NTRK 1/2/3 (Trk A/B/C), ROS1, or ALK Gene Rearrangeme** ([page](https://onco.cc/trials/nct02568267/)) · trial-completion · `yearReported / calendar`
+  - current: 2027-06-30
+  - proposed: 2026-10-29
+  - evidence: Primary completion date moved from 2027-06-30 to 2026-10-29; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT02568267))
+  - file: `src/data/pipeline-trials-wave5.ts:378`
+- [ ] **Study of IMGN632 in Patients With Untreated BPDCN and Relapsed/Refractory BPDCN** ([page](https://onco.cc/trials/nct03386513/)) · trial-status · `status`
+  - current: active
+  - proposed: completed
+  - evidence: Registry status moved from ACTIVE_NOT_RECRUITING to COMPLETED (detected 2026-11-23). ([source](https://clinicaltrials.gov/study/NCT03386513))
+  - file: `src/data/pipeline-trials-wave6.ts:4294`
+- [ ] **GYNecological Cancers Treated with NETrin MAbs in Combination with Chemotherapy and /or Pembrolizumab** ([page](https://onco.cc/trials/nct04652076/)) · trial-status · `status`
+  - current: active
+  - proposed: completed
+  - evidence: Registry status moved from UNKNOWN to COMPLETED (detected 2026-11-23). ([source](https://clinicaltrials.gov/study/NCT04652076))
+  - file: `src/data/pipeline-trials-wave6.ts:4354`
+- [ ] **Ph I/II Study of NMS-03305293+TMZ in Adult Patients With Recurrent Glioblastoma** ([page](https://onco.cc/trials/nct04910022/)) · trial-completion · `yearReported / calendar`
+  - current: 2027-05-30
+  - proposed: 2026-05-06
+  - evidence: Primary completion date moved from 2027-05-30 to 2026-05-06; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT04910022))
+  - file: `src/data/pipeline-trials-wave6.ts:9170`
+- [ ] **A Study Evaluating the Safety, Efficacy, and Pharmacokinetics of Mosunetuzumab Monotherapy in Participants With Select B-Cell Malignancies** ([page](https://onco.cc/trials/nct05207670/)) · trial-completion · `yearReported / calendar`
+  - current: 2027-07-31
+  - proposed: 2027-10-01
+  - evidence: Primary completion date moved from 2027-07-31 to 2027-10-01; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT05207670))
+  - file: `src/data/pipeline-trials-wave5.ts:2722`
+- [ ] **Phase 1/2 Study of Silevertinib (BDTX-1535) in Patients With Glioblastoma or Non-Small Cell Lung Cancer With EGFR Mutations** ([page](https://onco.cc/trials/nct05256290/)) · trial-completion · `yearReported / calendar`
+  - current: 2025-11-03
+  - proposed: 2028-03
+  - evidence: Primary completion date moved from 2025-11-03 to 2028-03; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT05256290))
+  - file: `src/data/pipeline-trials-wave5.ts:120`
+- [ ] **Study of AU-007, A Monoclonal Antibody That Binds to IL-2 and Inhibits IL-2Rα Binding, in Patients With Unresectable Locally Advanced or Metastatic Ca** ([page](https://onco.cc/trials/nct05267626/)) · trial-status · `status`
+  - current: recruiting
+  - proposed: active
+  - evidence: Registry status moved from RECRUITING to ACTIVE_NOT_RECRUITING (detected 2026-11-23). ([source](https://clinicaltrials.gov/study/NCT05267626))
+  - file: `src/data/pipeline-trials-wave5.ts:2698`
+- [ ] **Study of Abemaciclib and Elacestrant in Participants With Brain Metastasis Due to ER+/HER-2- Breast Cancer** ([page](https://onco.cc/trials/nct05386108/)) · trial-completion · `yearReported / calendar`
+  - current: 2026-12
+  - proposed: 2027-08
+  - evidence: Primary completion date moved from 2026-12 to 2027-08; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT05386108))
+  - file: `src/data/pipeline-trials-wave6.ts:9354`
+- [ ] **BARBICAN** ([page](https://onco.cc/trials/barbican/)) · trial-completion · `yearReported / calendar`
+  - current: 2026-08-31
+  - proposed: 2027-05-31
+  - evidence: Primary completion date moved from 2026-08-31 to 2027-05-31; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT05498896))
+  - file: `src/data/spikes/tnbc-treatment.ts:445`
+- [ ] **Study of TNG260 and an Anti-PD Antibody in STK11 Mutated Solid Tumors** ([page](https://onco.cc/trials/nct05887492/)) · trial-completion · `yearReported / calendar`
+  - current: 2026-09
+  - proposed: 2026-09-22
+  - evidence: Primary completion date moved from 2026-09 to 2026-09-22; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT05887492))
+  - file: `src/data/pipeline-trials-wave5.ts:582`
+- [ ] **Binimetinib in Patients With BRAF Fusion-positive Low-grade Glioma or Pancreatic Cancer (Perfume)** ([page](https://onco.cc/trials/nct06159478/)) · trial-completion · `yearReported / calendar`
+  - current: 2027-02-28
+  - proposed: 2028-02-28
+  - evidence: Primary completion date moved from 2027-02-28 to 2028-02-28; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT06159478))
+  - file: `src/data/spikes/pancreatic-registry-trials.ts:850`
+- [ ] **A Study of HER3-DXd in Subjects With Locally Advanced or Metastatic Solid Tumors** ([page](https://onco.cc/trials/nct06172478/)) · trial-completion · `yearReported / calendar`
+  - current: 2027-09-01
+  - proposed: 2030-11-19
+  - evidence: Primary completion date moved from 2027-09-01 to 2030-11-19; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT06172478))
+  - file: `src/data/pipeline-trials-wave5.ts:900`
+- [ ] **Phase 1/2 Study of Intratumoral Injection of STX-001 in Advanced Solid Tumors as Monotherapy or in Combination With Pembrolizumab** ([page](https://onco.cc/trials/nct06249048/)) · trial-completion · `yearReported / calendar`
+  - current: 2027-05
+  - proposed: 2026-06-17
+  - evidence: Primary completion date moved from 2027-05 to 2026-06-17; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT06249048))
+  - file: `src/data/pipeline-trials-wave6.ts:1948`
+- [ ] **A Multicenter, Open-label, Single-arm, Phase II Study of NHWD-870 HCl in Adults and Adolescents with Advanced NUT Cancer** ([page](https://onco.cc/trials/nct06527300/)) · trial-completion · `yearReported / calendar`
+  - current: 2025-06-30
+  - proposed: 2027-03-30
+  - evidence: Primary completion date moved from 2025-06-30 to 2027-03-30; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT06527300))
+  - file: `src/data/company-pipeline-gap.ts:2016`
+- [ ] **A Study of SYNC-T Therapy SV-102 in Participants With Metastatic Castration-Resistant Prostate Cancer** ([page](https://onco.cc/trials/nct06533644/)) · trial-status · `status`
+  - current: recruiting
+  - proposed: active
+  - evidence: Registry status moved from RECRUITING to ACTIVE_NOT_RECRUITING (detected 2026-11-23). ([source](https://clinicaltrials.gov/study/NCT06533644))
+  - file: `src/data/pipeline-trials-wave6.ts:1671`
+- [ ] **A Study of REC-1245 in Participants With Unresectable, Locally Advanced, or Metastatic Cancer** ([page](https://onco.cc/trials/nct06678659/)) · trial-completion · `yearReported / calendar`
+  - current: 2028-10-30
+  - proposed: 2029-07
+  - evidence: Primary completion date moved from 2028-10-30 to 2029-07; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT06678659))
+  - file: `src/data/pipeline-trials-wave6.ts:6053`
+- [ ] **Relacorilant in Combination With Different Treatment Regimens in Patients With Gynecological Cancers** ([page](https://onco.cc/trials/nct06906341/)) · trial-completion · `yearReported / calendar`
+  - current: 2026-08
+  - proposed: 2027-12
+  - evidence: Primary completion date moved from 2026-08 to 2027-12; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT06906341))
+  - file: `src/data/pipeline-trials-wave6.ts:6569`
+- [ ] **ASTRAEA: ReinvigorAting ReSponse To ImmunotheRApy in MEtAstatic TNBC With Combination Myeloid Inhibition and Radiation** ([page](https://onco.cc/trials/nct07015853/)) · trial-completion · `yearReported / calendar`
+  - current: 2033-07
+  - proposed: 2033-12
+  - evidence: Primary completion date moved from 2033-07 to 2033-12; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07015853))
+  - file: `src/data/spikes/tnbc-registry-trials.ts:267`
+- [ ] **Study to Evaluate INCB123667 Versus Investigator's Choice of Chemotherapy in Participants With Platinum-Resistant Ovarian Cancer With Cyclin E1 Overexpression** ([page](https://onco.cc/trials/nct07214779/)) · trial-completion · `yearReported / calendar`
+  - current: 2028-11-15
+  - proposed: 2027-10-12
+  - evidence: Primary completion date moved from 2028-11-15 to 2027-10-12; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07214779))
+  - file: `src/data/pipeline-trials-wave2.ts:853`
+- [ ] **Trial of Orca-T Following Reduced Intensity or Nonmyeloablative Conditioning in Patients With Acute Myeloid Leukemia or Myelodysplastic Syndrome** ([page](https://onco.cc/trials/nct07216443/)) · trial-completion · `yearReported / calendar`
+  - current: 2027-11
+  - proposed: 2028-11
+  - evidence: Primary completion date moved from 2027-11 to 2028-11; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07216443))
+  - file: `src/data/pipeline-trials-wave6.ts:5695`
+- [ ] **A Phase II Clinical Study to Evaluate HLX43 in Combination With Serplulimab in Subjects With Advanced Lung Cancer** ([page](https://onco.cc/trials/nct07253142/)) · trial-status · `status`
+  - current: recruiting
+  - proposed: active
+  - evidence: Registry status moved from RECRUITING to ACTIVE_NOT_RECRUITING (detected 2026-11-23). ([source](https://clinicaltrials.gov/study/NCT07253142))
+  - file: `src/data/pipeline-trials-wave5.ts:666`
+- [ ] **AB-3028, a Programmable Circuit T Cell Therapy in Patients With Castration Resistant Prostate Cancer (CRPC)** ([page](https://onco.cc/trials/nct07285694/)) · trial-completion · `yearReported / calendar`
+  - current: 2029-05
+  - proposed: 2026-10-19
+  - evidence: Primary completion date moved from 2029-05 to 2026-10-19; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07285694))
+  - file: `src/data/pipeline-trials-wave6.ts:7515`
+- [ ] **Study of Daraxonrasib and Daraxonrasib + GnP as First-line Treatment in Patients With Metastatic Pancreatic Adenocarcinoma** ([page](https://onco.cc/trials/nct07491445/)) · trial-completion · `yearReported / calendar`
+  - current: 2028-06
+  - proposed: 2028-04
+  - evidence: Primary completion date moved from 2028-06 to 2028-04; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07491445))
+  - file: `src/data/pipeline-trials-wave4.ts:484`
+- [ ] **Clinical Trials of Benmelstobart Injection Combined With Anlotinib Hydrochloride Capsules in the Treatment of Advanced or Unresectable Alveolar Soft Part Sarcoma** ([page](https://onco.cc/trials/nct07548177/)) · trial-completion · `yearReported / calendar`
+  - current: 2027-11
+  - proposed: 2028-12
+  - evidence: Primary completion date moved from 2027-11 to 2028-12; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07548177))
+  - file: `src/data/pipeline-trials-wave6.ts:4234`
+- [ ] **Cevostamab in Combination With Pomalidomide and Dexamethasone Versus Standard of Care in Participants With Previously Treated Multiple Myeloma** ([page](https://onco.cc/trials/nct07555938/)) · trial-completion · `yearReported / calendar`
+  - current: 2028-10-31
+  - proposed: 2028-11-30
+  - evidence: Primary completion date moved from 2028-10-31 to 2028-11-30; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07555938))
+  - file: `src/data/pipeline-trials-wave2.ts:546`
+- [ ] **Phase 1/ Phase 2 Study to Assess Safety and Efficacy of Orally Administered JBI-802 in Subjects With Myeloproliferative Neoplasms (MPN) and Myelodysplastic/Myeloproliferative Neoplasms (MDS/MPN) With Thrombocytosis** ([page](https://onco.cc/trials/nct07612280/)) · trial-completion · `yearReported / calendar`
+  - current: 2028-06-15
+  - proposed: 2031-01-30
+  - evidence: Primary completion date moved from 2028-06-15 to 2031-01-30; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07612280))
+  - file: `src/data/pipeline-trials-wave6.ts:720`
+- [ ] **A Phase 2 Clinical Study of Ziftomenib in Patients With Relapsed or Refractory NPM1-Mutated Acute Myeloid Leukemia** ([page](https://onco.cc/trials/nct07623616/)) · trial-status · `status`
+  - current: recruiting
+  - proposed: active
+  - evidence: Registry status moved from RECRUITING to ACTIVE_NOT_RECRUITING (detected 2026-11-23). ([source](https://clinicaltrials.gov/study/NCT07623616))
+  - file: `src/data/pipeline-trials-wave6.ts:9747`
+- [ ] **A Study of the Duration of Dostarlimab in Untreated Mismatch Repair Deficient (dMMR)/ Microsatellite Instability-high (MSI-H) Locally Advanced Rectal Cancer** ([page](https://onco.cc/trials/nct07740720/)) · trial-completion · `yearReported / calendar`
+  - current: 2029-12-12
+  - proposed: 2030-03-13
+  - evidence: Primary completion date moved from 2029-12-12 to 2030-03-13; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07740720))
+  - file: `src/data/spikes/colorectal-registry-trials.ts:2512`
 - [ ] **LCH-IV, International Collaborative Treatment Protocol for Children and Adolescents With Langerhans Cell Histiocytosis** ([page](https://onco.cc/trials/nct02205762/)) · trial-completion · `yearReported / calendar`
   - current: 2026-07
   - proposed: 2031-11
@@ -1496,8 +1666,18 @@ Review each line against its source. Apply by editing the file named; nothing in
   - evidence: Primary completion date moved from 2026-10-18 to 2027-05-18; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07016230))
   - file: `src/data/spikes/lung-registry-trials.ts:1748`
 
-## Low confidence (31)
+## Low confidence (40)
 
+- [ ] **A Study of Pirtobrutinib (LOXO-305) Versus Ibrutinib in Participants With Chronic Lymphocytic Leukemia (CLL)/Small Lymphocytic Lymphoma (SLL)** ([page](https://onco.cc/trials/nct05254743/)) · trial-status · `status`
+  - current: positive
+  - proposed: recruiting
+  - evidence: ClinicalTrials.gov overall status is RECRUITING; recorded positive. Editorial statuses (positive, negative, mixed) need the result, so this is a floor, not a verdict. ([source](https://clinicaltrials.gov/study/NCT05254743))
+  - file: `src/data/pipeline-trials-wave6.ts:5558`
+- [ ] **A Vaccine (STEMVAC) for Improving Survival in Patients With Triple-Negative Breast Cancer and Moderate or Extensive Residual Cancer Burden** ([page](https://onco.cc/trials/nct07721259/)) · trial-status · `status`
+  - current: planned
+  - proposed: recruiting
+  - evidence: ClinicalTrials.gov overall status is RECRUITING; recorded planned. Editorial statuses (positive, negative, mixed) need the result, so this is a floor, not a verdict. ([source](https://clinicaltrials.gov/study/NCT07721259))
+  - file: `src/data/spikes/tnbc-registry-trials.ts:143`
 - [ ] **ALKOVE-1** ([page](https://onco.cc/trials/alkove-1/)) · trial-status · `status`
   - current: positive
   - proposed: recruiting
@@ -1508,16 +1688,31 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: recruiting
   - evidence: ClinicalTrials.gov overall status is RECRUITING; recorded positive. Editorial statuses (positive, negative, mixed) need the result, so this is a floor, not a verdict. ([source](https://clinicaltrials.gov/study/NCT02523014))
   - file: `src/data/issues-2026-09-wave-b.ts:239`
+- [ ] **An Exploratory Study of Zanidatamab in HER2-positive Advanced Tumor After at Least One Line of Standard Therapy** ([page](https://onco.cc/trials/nct07631871/)) · trial-status · `status`
+  - current: planned
+  - proposed: recruiting
+  - evidence: ClinicalTrials.gov overall status is RECRUITING; recorded planned. Editorial statuses (positive, negative, mixed) need the result, so this is a floor, not a verdict. ([source](https://clinicaltrials.gov/study/NCT07631871))
+  - file: `src/data/spikes/pancreatic-registry-trials.ts:393`
 - [ ] **AUGMENT-101** ([page](https://onco.cc/trials/augment-101/)) · trial-status · `status`
   - current: positive
   - proposed: recruiting
   - evidence: ClinicalTrials.gov overall status is RECRUITING; recorded positive. Editorial statuses (positive, negative, mixed) need the result, so this is a floor, not a verdict. ([source](https://clinicaltrials.gov/study/NCT04065399))
   - file: `src/data/spikes/aml.ts:338`
+- [ ] **DISCOVER (Galleri over time in people with symptoms)** ([page](https://onco.cc/trials/discover-galleri-symptomatic/)) · trial-status · `status`
+  - current: planned
+  - proposed: active
+  - evidence: ClinicalTrials.gov overall status is ACTIVE_NOT_RECRUITING; recorded planned. Editorial statuses (positive, negative, mixed) need the result, so this is a floor, not a verdict. ([source](https://clinicaltrials.gov/study/NCT07390643))
+  - file: `src/data/mced-census-trials.ts:33`
 - [ ] **DNX-2440 for Resectable Colorectal Liver Metastasis** ([page](https://onco.cc/trials/nct04714983/)) · trial-status · `status`
   - current: historic
   - proposed: mixed
   - evidence: ClinicalTrials.gov overall status is SUSPENDED; recorded historic. Editorial statuses (positive, negative, mixed) need the result, so this is a floor, not a verdict. ([source](https://clinicaltrials.gov/study/NCT04714983))
   - file: `src/data/company-pipeline-gap.ts:2556`
+- [ ] **Exploratory Study on the Efficacy and Safety of Trastuzumab Rezetecan in the Treatment of HER2-Expressiong Advanced Solid Tumor** ([page](https://onco.cc/trials/nct07631884/)) · trial-status · `status`
+  - current: planned
+  - proposed: recruiting
+  - evidence: ClinicalTrials.gov overall status is RECRUITING; recorded planned. Editorial statuses (positive, negative, mixed) need the result, so this is a floor, not a verdict. ([source](https://clinicaltrials.gov/study/NCT07631884))
+  - file: `src/data/spikes/gallbladder-registry-trials.ts:585`
 - [ ] **FIREFLY-1** ([page](https://onco.cc/trials/firefly-1/)) · trial-status · `status`
   - current: positive
   - proposed: recruiting
@@ -1588,6 +1783,22 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: add product filgrastim (Zefylti) with the EU status the register page shows
   - evidence: EMA register: Zefylti (filgrastim) Application withdrawn. Register page: "Application withdrawn: The application for this medicine has been withdrawn". ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/zefylti-0))
   - why a person: no corpus product is named exactly filgrastim / filgrastim / Zefylti (the snapshot's nearest name was filgrastim, a partial match)
+- [ ] **Preventing Pulmonary Complications in Surgical Patients at Risk of COVID-19 (NCT04386070)** ([page](https://onco.cc/drugs/nano2/)) · trial-status · `new trial record`
+  - current: (not in corpus)
+  - proposed: add phase 3 trial NCT04386070 for NanO2 with status withdrawn
+  - evidence: A phase 3 study of NanO2 moved from SUSPENDED to TERMINATED (detected 2026-11-23). ([source](https://clinicaltrials.gov/study/NCT04386070))
+- [ ] **A Study Comparing Haploidentical Hematopoietic Stem Cell Transplantations (HSCTs) From Young Non-first-degree and Older First-degree Donors in Hematological Malignancies (NCT04547049)** ([page](https://onco.cc/drugs/lomustine/)) · trial-status · `new trial record`
+  - current: (not in corpus)
+  - proposed: add phase 3 trial NCT04547049 for Lomustine (CCNU) with status completed
+  - evidence: A phase 3 study of Lomustine (CCNU) moved from ACTIVE_NOT_RECRUITING to COMPLETED (detected 2026-11-23). ([source](https://clinicaltrials.gov/study/NCT04547049))
+- [ ] **Adjuvant Trastuzumab Plus Neratinib in Hormone Receptor-Positive/Human Epidermal Growth Factor Receptor 2-Positive Breast Cancer After Neoadjuvant Trastuzumab Plus Pertuzumab (NCT05760612)** ([page](https://onco.cc/drugs/neratinib/)) · trial-status · `new trial record`
+  - current: (not in corpus)
+  - proposed: add phase 3 trial NCT05760612 for Neratinib with status withdrawn
+  - evidence: A phase 3 study of Neratinib moved from RECRUITING to TERMINATED (detected 2026-11-23). ([source](https://clinicaltrials.gov/study/NCT05760612))
+- [ ] **AZA+Lus VS AZA Monotherapy in HR-MDS (NCT06927232)** ([page](https://onco.cc/drugs/luspatercept/)) · trial-status · `new trial record`
+  - current: (not in corpus)
+  - proposed: add phase 3 trial NCT06927232 for Luspatercept with status completed
+  - evidence: A phase 3 study of Luspatercept moved from NOT_YET_RECRUITING to COMPLETED (detected 2026-11-23). ([source](https://clinicaltrials.gov/study/NCT06927232))
 - [ ] **Vafseo Outcomes In-Center Experience (NCT06520826)** ([page](https://onco.cc/drugs/darbepoetin-alfa/)) · trial-status · `new trial record`
   - current: (not in corpus)
   - proposed: add phase 3 trial NCT06520826 for Darbepoetin alfa with status completed

@@ -620,6 +620,8 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   // Proposals bot: EU rows read from the EMA register pages on 2026-11-16 (scripts/apply-proposals.ts); each note quotes the page's status line.
   vedolizumab: { EU: V(A(2014, epar("entyvio"), "Ulcerative colitis Entyvio is indicated for the treatment of adult patients with moderately to severely active ulcerative colitis who have had an inadequate...", "EMA register: 'Authorised: This medicine is authorised for use in the European Union'; marketing authorisation issued 22 May 2014; checked 2026-11-16")) },
   mangafodipir: { EU: W(2012, epar("teslascan"), "Teslascan: authorised 22 May 1997; marketing authorisation withdrawn 21 Jun 2012. EMA register: 'Withdrawn: This medicine's authorisation has been withdrawn'; checked 2026-11-16") },
+  // Proposals bot: EU rows read from the EMA register pages on 2026-11-26 (scripts/apply-proposals.ts); each note quotes the page's status line.
+  daromun: { EU: W(undefined, epar("nidlegy"), "Nidlegy (Philogen S.p.A.): marketing authorisation application withdrawn before a Commission decision. EMA register: 'Application withdrawn: The application for this medicine has been withdrawn'; checked 2026-11-26") },
 };
 
 /** Convenience: which regions have an approval (approved or conditional). */

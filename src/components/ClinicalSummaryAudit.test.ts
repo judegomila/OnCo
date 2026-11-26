@@ -46,6 +46,11 @@ describe("public trial explanations and drug biomarker requirements", () => {
     expect(html).not.toContain("one extra person helped");
   });
 
+  it("gives the label wording disclosure enough height for touch", () => {
+    const html = renderToStaticMarkup(createElement(ReadoutsForDrug, { drugId: "trastuzumab-deruxtecan" }));
+    expect(html).toContain('<summary class="min-h-6 cursor-pointer py-1">Label wording</summary>');
+  });
+
   it("scopes the Trodelvy PD-L1 requirement to the combination and keeps TROP2 separate", () => {
     const html = renderToStaticMarkup(createElement(ReadoutsForDrug, { drugId: "sacituzumab-govitecan" }));
     const [required, related] = html.split("Related biomarker readouts");

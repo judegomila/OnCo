@@ -185,7 +185,7 @@ export function ReadoutsForDrug({ drugId }: { drugId: string }) {
               {" · "}{threshold.value}{" · "}{cancer?.name ?? threshold.cancerId}{" · "}
               <a href={threshold.source} className="underline">{threshold.regulator} label</a>
               {threshold.note && <div className="text-xs text-muted mt-0.5">{threshold.note}</div>}
-              {!threshold.note && threshold.quote && <details className="text-xs text-muted mt-0.5"><summary>Label wording</summary><p>{threshold.quote}</p></details>}
+              {!threshold.note && threshold.quote && <details className="text-xs text-muted mt-0.5"><summary className="min-h-6 cursor-pointer py-1">Label wording</summary><p>{threshold.quote}</p></details>}
             </li>;
           })}
         </ul>

@@ -107,6 +107,7 @@ export function CommandPalette() {
   /** Index hits for the current query, so an empty first-stage answer reads "Loading search…" and not "No matches". */
   const [hitCount, setHitCount] = useState(0);
   const fullSearchTimer = useRef<number | null>(null);
+  const paletteOpen = useRef(false);
   const query = useRef("");
   /** An index has answered a query in this palette, so a new keystroke can keep the rows on screen until its own answer lands. */
   const answered = useRef(false);
@@ -177,6 +178,7 @@ export function CommandPalette() {
 
   useEffect(() => {
     if (!open) return;
+    paletteOpen.current = true;
     const t = setTimeout(() => input.current?.focus(), 0);
     loadQuickSearch({ preloadFull: false })
       .then(({ docs, full }) => { setIndexed(docs.length); setStage((s) => (s === "full" || full ? "full" : "names")); setFailed(false); })
@@ -184,7 +186,7 @@ export function CommandPalette() {
     document.body.style.overflow = "hidden";
     return () => {
       clearTimeout(t);
-      ++request.current;
+      paletteOpen.current = false;
       if (fullSearchTimer.current !== null) window.clearTimeout(fullSearchTimer.current);
       document.body.style.overflow = "";
     };
@@ -222,9 +224,9 @@ export function CommandPalette() {
       // upgrade after a short typing pause, so a transient prefix does not trigger the download.
       const name = normaliseName(value);
       const direct = name && ranked.some((h) => normaliseName(h.name) === name || (h.aka ?? "").split("\n").some((alias) => normaliseName(alias) === name));
-      if (!full && !direct) {
+      if (paletteOpen.current && !full && !direct) {
         fullSearchTimer.current = window.setTimeout(() => {
-          if (request.current === id) void loadSearch().catch(() => {});
+          if (paletteOpen.current && request.current === id) void loadSearch().catch(() => {});
         }, 350);
       }
       // A settled query that found nothing may be counted (docs/SEARCH-MISSES.md), but only against the full index:

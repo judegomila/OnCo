@@ -449,6 +449,8 @@ export const TrialSchema = Base.extend({
     endpoint: z.string(),
     primary: z.boolean().optional(),
     unit: z.string().optional(),
+    /** Size of this specific analysis population, with its source on the outcome. Not overall trial enrolment. */
+    analysis: z.object({ n: z.number().int().positive(), label: z.string().min(1) }).optional(),
     arms: z.array(z.object({ name: z.string(), n: z.number().int().optional(), value: z.number().optional(), note: z.string().optional() })).min(1),
     hr: z.number().optional(),
     ci: z.tuple([z.number(), z.number()]).optional(),

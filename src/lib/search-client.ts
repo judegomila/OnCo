@@ -27,7 +27,6 @@ export type SearchIndex = { ms: MiniSearch<SearchDoc>; docs: SearchDoc[]; byId: 
 let cache: Promise<SearchIndex> | null = null;
 let quick: Promise<SearchIndex> | null = null;
 let fullIndex: SearchIndex | null = null;
-let firstStage: SearchIndex | null = null;
 let library: Promise<typeof import("minisearch")> | null = null;
 type Listener = { loaded: (index: SearchIndex) => void; failed?: () => void };
 const listeners = new Set<Listener>();
@@ -53,7 +52,7 @@ function getJson<T>(url: string): Promise<T> {
 export function loadSearch(): Promise<SearchIndex> {
   if (!cache) {
     cache = fetchIndex<SearchDoc[]>("/api/v1/search.json", (docs) => docs, true)
-      .then((index) => { fullIndex = index; quick = null; firstStage = null; for (const l of listeners) l.loaded(index); return index; })
+      .then((index) => { fullIndex = index; quick = null; for (const l of listeners) l.loaded(index); return index; })
       .catch((error) => { cache = null; for (const l of listeners) l.failed?.(); throw error; });
   }
   return cache;
@@ -61,20 +60,20 @@ export function loadSearch(): Promise<SearchIndex> {
 
 /**
  * The first index that can answer: the full one when it is already here, otherwise the names-only first stage, with
- * the full index fetched behind it (not alongside, so the small file has the connection to itself). If the names file
+ * the full index fetched behind it unless the caller opts out (the palette often only needs names). If the names file
  * fails, this waits for the full index instead; it rejects only when neither can be had.
  */
-export function loadQuickSearch(): Promise<SearchIndex> {
+export function loadQuickSearch({ preloadFull = true } = {}): Promise<SearchIndex> {
   if (fullIndex) return Promise.resolve(fullIndex);
   if (cache && !quick) return cache;
   if (!quick) {
     const attempt: Promise<SearchIndex> = fetchIndex<SearchNameDoc[]>("/api/v1/search-names.json", (docs) => docs.map(fromNameDoc), false)
-      .then((index) => { firstStage = index; fetchFull(); return fullIndex ?? index; })
+      .then((index) => fullIndex ?? index)
       .catch(() => loadSearch())
       .catch((error) => { if (quick === attempt) quick = null; throw error; });
     quick = attempt;
-  } else if (firstStage && !cache) fetchFull(); // The full index failed earlier: this call retries it.
-  return quick;
+  }
+  return preloadFull ? quick.then((index) => { if (!index.full && !cache) fetchFull(); return index; }) : quick;
 }
 
 /** The full index fetched behind the first stage; a failure leaves the first stage answering. */

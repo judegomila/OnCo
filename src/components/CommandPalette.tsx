@@ -5,8 +5,8 @@ import { flushSync } from "react-dom";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
-import { loadQuickSearch, onFullSearch, searchRanked } from "@/lib/search-client";
-import { flattenGroups, groupByKind, type KindGroup } from "@/lib/search-rank";
+import { loadQuickSearch, loadSearch, onFullSearch, searchRanked } from "@/lib/search-client";
+import { flattenGroups, groupByKind, normaliseName, type KindGroup } from "@/lib/search-rank";
 import { KindGroupHeader } from "./KindGroupHeader";
 import { RowAvatar } from "./RowAvatar";
 
@@ -106,6 +106,7 @@ export function CommandPalette() {
   const [indexed, setIndexed] = useState(0);
   /** Index hits for the current query, so an empty first-stage answer reads "Loading search…" and not "No matches". */
   const [hitCount, setHitCount] = useState(0);
+  const fullSearchTimer = useRef<number | null>(null);
   const query = useRef("");
   /** An index has answered a query in this palette, so a new keystroke can keep the rows on screen until its own answer lands. */
   const answered = useRef(false);
@@ -177,11 +178,16 @@ export function CommandPalette() {
   useEffect(() => {
     if (!open) return;
     const t = setTimeout(() => input.current?.focus(), 0);
-    loadQuickSearch()
+    loadQuickSearch({ preloadFull: false })
       .then(({ docs, full }) => { setIndexed(docs.length); setStage((s) => (s === "full" || full ? "full" : "names")); setFailed(false); })
       .catch(() => setFailed(true));
     document.body.style.overflow = "hidden";
-    return () => { clearTimeout(t); document.body.style.overflow = ""; };
+    return () => {
+      clearTimeout(t);
+      ++request.current;
+      if (fullSearchTimer.current !== null) window.clearTimeout(fullSearchTimer.current);
+      document.body.style.overflow = "";
+    };
   }, [open]);
 
   /**
@@ -192,6 +198,7 @@ export function CommandPalette() {
    */
   const run = useCallback((value: string) => {
     const id = ++request.current;
+    if (fullSearchTimer.current !== null) window.clearTimeout(fullSearchTimer.current);
     query.current = value;
     setActive(0);
     const needle = value.trim().toLowerCase();
@@ -200,7 +207,7 @@ export function CommandPalette() {
     // Until an index has answered, the list shows only the tool pages this query matches, under "Loading search…",
     // rather than every tool page as if nothing had been typed.
     if (!answered.current) setGroups(groupByKind(pages, VISIBLE));
-    loadQuickSearch().then(({ ms, full }) => {
+    loadQuickSearch({ preloadFull: false }).then(({ ms, full }) => {
       if (request.current !== id) return;
       setFailed(false);
       answered.current = true;
@@ -211,6 +218,15 @@ export function CommandPalette() {
       // Leandro Foundation" was row 13 of 14, below the fold, on 4 November 2026).
       const seen = new Set(pages.map((p) => p.route));
       const ranked = searchRanked(ms, value);
+      // Skip the much larger index for a direct navigation. Partial or concept queries still
+      // upgrade after a short typing pause, so a transient prefix does not trigger the download.
+      const name = normaliseName(value);
+      const direct = name && ranked.some((h) => normaliseName(h.name) === name || (h.aka ?? "").split("\n").some((alias) => normaliseName(alias) === name));
+      if (!full && !direct) {
+        fullSearchTimer.current = window.setTimeout(() => {
+          if (request.current === id) void loadSearch().catch(() => {});
+        }, 350);
+      }
       // A settled query that found nothing may be counted (docs/SEARCH-MISSES.md), but only against the full index:
       // the names-only first stage cannot see summaries. Loaded only after a search.
       if (full && value.trim().length >= 3) void import("@/lib/search-miss").then((m) => m.noteSearch(value, ranked)).catch(() => {});
@@ -312,6 +328,7 @@ export function CommandPalette() {
           <span><kbd className="border border-border rounded px-1">↵</kbd> open</span>
           <span><kbd className="border border-border rounded px-1">⌘K</kbd> toggle</span>
           <button type="button" onClick={() => { setOpen(false); openShortcuts(); }} className="underline hover:text-foreground">All shortcuts <kbd className="border border-border rounded px-1">?</kbd></button>
+          {q.trim() && <Link href={`/search/?q=${encodeURIComponent(q.trim())}`} prefetch={false} onClick={() => setOpen(false)} className="underline hover:text-foreground">Full results</Link>}
           <span className="ml-auto" aria-live="polite">{stage === "full" ? `${indexed.toLocaleString("en-GB")} objects indexed` : stage === "names" && q.trim() ? t("search.namesOnly") : ""}</span>
         </div>
       </div>

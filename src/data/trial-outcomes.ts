@@ -23,7 +23,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
   "keynote-522": {
     enrolled: 1174,
     outcomes: [
-      { endpoint: "Pathologic complete response (ypT0/Tis ypN0)", primary: true, unit: "%", arms: [{ name: "Pembrolizumab + chemotherapy", n: 401, value: 64.8 }, { name: "Placebo + chemotherapy", n: 201, value: 51.2 }], p: "0.00055", source: nejm("NEJMoa1910549") },
+      { endpoint: "Pathologic complete response (ypT0/Tis ypN0)", primary: true, unit: "%", analysis: { n: 602, label: "Interim analysis of the first randomised participants" }, arms: [{ name: "Pembrolizumab + chemotherapy", n: 401, value: 64.8 }, { name: "Placebo + chemotherapy", n: 201, value: 51.2 }], p: "0.00055", source: nejm("NEJMoa1910549") },
       { endpoint: "Event-free survival at 5 years", primary: true, unit: "%", arms: [{ name: "Pembrolizumab + chemotherapy", n: 784, value: 81.2 }, { name: "Placebo + chemotherapy", n: 390, value: 72.2 }], hr: 0.65, ci: [0.51, 0.83], source: nejm("NEJMoa2409932") },
       { endpoint: "Overall survival at 5 years", unit: "%", arms: [{ name: "Pembrolizumab + chemotherapy", value: 86.6 }, { name: "Placebo + chemotherapy", value: 81.7 }], hr: 0.66, ci: [0.50, 0.87], p: "0.002", source: nejm("NEJMoa2409932") },
       { endpoint: "Event-free survival at 7 years", unit: "%", arms: [{ name: "Pembrolizumab + chemotherapy", value: 78.3 }, { name: "Placebo + chemotherapy", value: 69.8 }], source: "https://www.lbbc.org/news/pivotal-progress-in-tnbc-asco-2026" },

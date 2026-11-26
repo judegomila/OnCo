@@ -1,7 +1,6 @@
 import type { Trial } from "@/lib/schema";
 import type { ExplainedTrial } from "@/lib/explained-data";
-import { enrolmentLabel } from "@/lib/enrolment";
-import { endpointTypeNote, explainPrimary, explainTrial, type EndpointType } from "@/lib/trial-explain";
+import { endpointTypeNote, explainPrimary, explainTrial, outcomePopulation, type EndpointType } from "@/lib/trial-explain";
 import { Tip } from "./Tip";
 
 const TYPE_LABEL: Record<EndpointType, string> = { os: "survival endpoint", surrogate: "surrogate endpoint", response: "response endpoint", other: "other endpoint" };
@@ -23,8 +22,7 @@ export function EndpointTypeChip({ type }: { type: EndpointType }) {
 
 /**
  * "In plain words": every structured outcome of a trial as sentences a person without statistics can read.
- * Absolute differences per 100 people, rough numbers needed to treat, medians as midpoints, and the
- * caveats (surrogate endpoints, who was enrolled, biomarker selection). Server-safe; sits above the pictograms.
+ * Outcome-specific populations and sources stay attached to the statistics. Server-safe; sits above the pictograms.
  */
 export function TrialExplainer({ trial, compact = false }: { trial: ExplainedTrial; compact?: boolean }) {
   if (!trial.outcomes.length) return null;
@@ -36,12 +34,12 @@ export function TrialExplainer({ trial, compact = false }: { trial: ExplainedTri
       <div className="flex flex-wrap items-baseline justify-between gap-2 mb-3">
         <div>
           <div className="kicker">In plain words</div>
-          <div className="font-semibold mt-0.5">What these results mean for people, not percentages</div>
+          <div className="font-semibold mt-0.5">What the trial measured</div>
         </div>
-        {trial.enrolled !== undefined && <span className="text-xs text-muted tabular-nums" title={trial.enrolledNote ?? undefined}>{enrolmentLabel(trial.enrolled, trial.enrolledBasis)}</span>}
       </div>
       <div className="space-y-4">
         {items.map(({ outcome, explanation }, i) => {
+          const population = outcomePopulation(outcome);
           const own = explanation.caveats.filter((c) => !shared.includes(c));
           return (
             <div key={i} className={i > 0 ? "border-t border-border pt-4" : ""}>
@@ -50,6 +48,9 @@ export function TrialExplainer({ trial, compact = false }: { trial: ExplainedTri
                 {outcome.primary && <span className="chip bg-foreground/5">primary</span>}
                 <EndpointTypeChip type={explanation.endpointType} />
               </div>
+              {(population || outcome.source) && <div className="text-xs text-muted mb-1.5">
+                {population}{population && outcome.source && " · "}{outcome.source && <a href={outcome.source} className="underline">Outcome source</a>}
+              </div>}
               <ul className="space-y-1 text-[15px] leading-relaxed">
                 {explanation.sentences.map((s, j) => <li key={j}>{s}</li>)}
               </ul>

@@ -163,19 +163,40 @@ export function ReadoutStrip({ targetId }: { targetId: string }) {
   );
 }
 
-/** Drug page block: the readouts this drug's label requires (threshold-named) or that list the drug. */
+/** Keep label requirements attached to their indications, separate from association-only readouts. */
 export function ReadoutsForDrug({ drugId }: { drugId: string }) {
   const rows = readoutsForDrug(drugId);
   if (!rows.length) return null;
-  const required = rows.filter((r) => r.required);
+  const g = graph();
+  const required = rows.flatMap(({ biomarker }) => biomarker.thresholds
+    .filter((row) => row.drugId === drugId && row.status === "current")
+    .map((threshold) => ({ biomarker, threshold })));
   const other = rows.filter((r) => !r.required);
   return (
-    <div className="mt-6">
-      <div className="kicker mb-2"><TL text={required.length ? "Biomarker the label requires" : "Biomarker readouts"} /></div>
-      <div className="flex flex-wrap gap-1.5">
-        {required.map(({ biomarker: bm }) => <Link key={bm.id} href={routeFor(bm)} title={bm.tldr} className={`${pill} border-accent/40 bg-accent-soft`}><span aria-hidden className="text-accent tabular-nums">{MEASUREMENT_META[bm.measurement].glyph}</span><span>{bm.name.replace(/\s*\(.*$/, "")}</span><span className="text-xs text-muted">required</span></Link>)}
-        {other.map(({ biomarker: bm }) => <Link key={bm.id} href={routeFor(bm)} title={bm.tldr} className={pill}><span aria-hidden className="text-accent tabular-nums">{MEASUREMENT_META[bm.measurement].glyph}</span><span>{bm.name.replace(/\s*\(.*$/, "")}</span></Link>)}
-      </div>
+    <div className="mt-6 space-y-3">
+      {required.length > 0 && <section>
+        <div className="kicker mb-1"><TL text="Biomarker requirements by indication" /></div>
+        <p className="text-xs text-muted mb-2"><TL text="These thresholds apply to the uses described in the linked prescribing information, not to every use of the drug." /></p>
+        <ul className="space-y-2 text-sm">
+          {required.map(({ biomarker, threshold }, i) => {
+            const cancer = g.get(threshold.cancerId);
+            return <li key={`${biomarker.id}-${i}`}>
+              <Link href={routeFor(biomarker)} className="underline">{biomarker.name.replace(/\s+\([^()]*\)$/, "")}</Link>
+              {" · "}{threshold.value}{" · "}{cancer?.name ?? threshold.cancerId}{" · "}
+              <a href={threshold.source} className="underline">{threshold.regulator} label</a>
+              {threshold.note && <div className="text-xs text-muted mt-0.5">{threshold.note}</div>}
+              {!threshold.note && threshold.quote && <details className="text-xs text-muted mt-0.5"><summary>Label wording</summary><p>{threshold.quote}</p></details>}
+            </li>;
+          })}
+        </ul>
+      </section>}
+      {other.length > 0 && <section>
+        <div className="kicker mb-2"><TL text="Related biomarker readouts" /></div>
+        <p className="text-xs text-muted mb-2"><TL text="A related readout is not a label requirement." /></p>
+        <div className="flex flex-wrap gap-1.5">
+          {other.map(({ biomarker: bm }) => <Link key={bm.id} href={routeFor(bm)} title={bm.tldr} className={pill}><span aria-hidden className="text-accent tabular-nums">{MEASUREMENT_META[bm.measurement].glyph}</span><span>{bm.name.replace(/\s+\([^()]*\)$/, "")}</span></Link>)}
+        </div>
+      </section>}
     </div>
   );
 }

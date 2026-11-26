@@ -1671,6 +1671,7 @@ export const softwareProducts: SoftwareProduct[] = [
     "id": "citeline",
     "name": "Citeline (Trialtrove and TrialScope)",
     "vendor": "Citeline",
+    "vendorId": "citeline",
     "category": "trials-registries",
     "segment": "Trial conduct software",
     "summary": "Commercial trial intelligence and disclosure compliance tools, the paid view of the same registries the public ones publish.",

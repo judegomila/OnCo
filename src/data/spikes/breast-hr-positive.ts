@@ -475,7 +475,7 @@ const spike: Spike = {
     ],
     stateOfArt: [
       "Chemotherapy omission for up to 85% of node-negative and most postmenopausal node-positive patients using genomic assays (TAILORx, RxPONDER, MINDACT).",
-      "Adjuvant CDK4/6 inhibitors (abemaciclib, ribociclib) cut recurrence in high-risk early disease; the first adjuvant oral SERD (giredestrant, lidERA) is positive and awaiting approval.",
+      "Adjuvant CDK4/6 inhibitors (abemaciclib, ribociclib) cut recurrence in high-risk early disease. On November 23, 2026, the FDA approved giredestrant alone as adjuvant therapy for adults with ER-positive, HER2-negative stage I–III breast cancer at intermediate to high risk of recurrence.",
       "First-line CDK4/6 + endocrine therapy with median OS beyond five years (MONALEESA-2: 63.9 months).",
       "Genotype-directed second line: ESR1-mutant → oral SERDs or the first approved PROTAC (vepdegestrant); PIK3CA/AKT/PTEN → inavolisib (OS benefit), capivasertib.",
       "The first ctDNA-triggered treatment switch approved by the FDA (camizestrant, SERENA-6, September 2026), over a negative advisory vote.",

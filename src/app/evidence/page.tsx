@@ -24,7 +24,7 @@ export default function EvidencePage() {
           <summary className="cursor-pointer font-medium">How the score is computed</summary>
           <ul className="mt-2 space-y-1 text-muted">
             <li>Phase: 3 → 30 · 2/3 → 22 · 2 → 15 · 1/2 → 8 · 1 → 4 · observational or platform → 10</li>
-            <li>Size: 5 × log10(enrolled), capped at 20 (100 people → 10, 1,000 → 15, 10,000 → 20)</li>
+            <li>Size: 5 × log10 of the number of people in the scored endpoint analysis, rounded and capped at 20. If the analysis size is not recorded, the score uses trial enrolment.</li>
             <li>Primary endpoint: overall survival → 20 · time to progression or recurrence → 14 · surrogate (response, pCR, detection) → 8</li>
             <li>Result: positive → 15 · mixed → 6 · ongoing → 0 · negative or withdrawn → −20</li>
             <li>Replication: an independent or consistent confirming study → 10</li>

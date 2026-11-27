@@ -766,8 +766,13 @@ const RAW: Record<string, TrialOutcomeIn> = {
   },
   // Colorectal
   "azur-1": {
-    outcomes: [{ endpoint: "Sustained clinical complete response at 12 months (independent central review)", primary: true, unit: "%", arms: [{ name: "Dostarlimab monotherapy (single arm)" }], note: "Primary endpoint met at the interim analysis per the sponsor (13 July 2026); the rate itself is pending congress presentation. Single-arm registrational phase 2.", source: "https://www.cancernetwork.com/view/dostarlimab-yields-sustained-complete-responses-in-dmmr-msi-h-rectal-cancer" }],
-    replication: "Multicentre confirmation of the Memorial Sloan Kettering single-centre cohort (cCR in all 42 evaluable patients, NEJM 2022 / ASCO 2024). FDA granted priority review in August 2026.",
+    enrolledBasis: "treated",
+    enrolledNote: "ClinicalTrials.gov lists 154 enrolled, and the FDA label reports 154 treated; 116 were evaluable for the primary central review and 144 for investigator assessment at the 20 April 2026 interim cutoff.",
+    outcomes: [
+      { endpoint: "Sustained clinical complete response at 12 months (independent central review)", primary: true, unit: "%", arms: [{ name: "Dostarlimab monotherapy (single arm)", n: 116, value: 47 }], note: "Interim analysis (20 April 2026): 54 of 116 evaluable patients (95% CI 37% to 56%); 38 additional patients with a central-review complete response were still being followed for the 12-month endpoint.", source: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761174s015lbl.pdf#page=31" },
+      { endpoint: "Sustained clinical complete response at 12 months (investigator assessment)", unit: "%", arms: [{ name: "Dostarlimab monotherapy (single arm)", n: 144, value: 68 }], note: "At the same interim cutoff: 98 of 144 evaluable patients (95% CI 60% to 76%). This is a different assessment and evaluable set from the primary endpoint.", source: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761174s015lbl.pdf#page=31" },
+    ],
+    replication: "Multicentre follow-up to the Memorial Sloan Kettering single-centre cohort; both were single-arm studies. There is no randomised comparison with chemoradiation and surgery, and long-term relapse risk is unknown.",
   },
   "circulate-japan": {
     outcomes: [

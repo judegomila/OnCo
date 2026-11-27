@@ -1424,7 +1424,7 @@ export const tldr_zh: Record<string, string> = {
   arpi: "较新的前列腺癌激素口服药（abiraterone、enzalutamide、apalutamide、darolutamide），可阻断雄激素受体或雄激素生成的最后几步，在标准睾酮抑制的基础上使用。",
   "ascent-04": "证明了ADC联合免疫治疗在一线PD-L1阳性TNBC中优于化疗联合免疫治疗。",
 
-  "azur-1": "AZUR-1是针对错配修复缺陷型直肠癌“不手术、不放疗、不化疗”策略的注册试验，其基础是MSK的研究，在该研究中每位患者都达到了完全缓解。在首次报告中，68%的患者仅用dostarlimab就获得了持续至少一年的完全缓解。",
+  "azur-1": "在这项直肠癌试验的中期分析中，独立评审发现，接受多塔利单抗治疗后，116名可评估患者中有54名（47%）达到持续12个月的临床完全缓解。随访仍在继续。",
   "barbara-bradfield": "1992年，她成为第一位接受后来成为Herceptin的抗体治疗的复发性HER2阳性乳腺癌患者，那是Dennis Slamon在UCLA进行的试验。她成为该药的第一位长期幸存者。",
   "barretts-esophagus": "由胃酸反流引起的食管下段内膜的改变，在少数人中可经异型增生进展为腺癌。这就是西方食管癌以腺癌为主的原因。",
   "baylor-duncan": "Baylor在Texas Medical Center的NCI综合癌症中心，Center for Cell and Gene Therapy所在地，也是首个儿童GD2 CAR-T试验的开展地。",
@@ -2303,7 +2303,7 @@ export const tldr_zh: Record<string, string> = {
   "astrum-005": "在ASTRUM-005中，中国的PD-1抗体serplulimab联合一线化疗，使中位生存期从10.9个月延长至15.4个月；该药现已在欧洲和英国获批，但尚未在美国获批。",
   "ataraxis-ai": "Ataraxis AI利用人工智能分析数字化的乳腺肿瘤切片，评估癌症复发的可能性以及化疗是否可能有效，一天内即可出结果，且不消耗组织。",
   atirmociclib: "一种新一代口服药，只阻断CDK4而不阻断CDK6，以保留现有药物的疗效而避免血细胞计数降低。",
-  atomic: "术后在化疗基础上加入一年的免疫治疗，使DNA“拼写检查器”失灵的III期结肠癌复发率减半。",
+  atomic: "对于已切除的III期错配修复缺陷型结肠癌，与单用化疗6个月相比，化疗联合阿替利珠单抗6个月、再单用阿替利珠单抗6个月的方案，复发或死亡的瞬时风险约为一半。",
   "auckland-city-hospital": "新西兰最大的医院和癌症服务机构，与University of Auckland的Auckland Cancer Society Research Centre合作，该中心开发了乏氧激活型和DNA靶向抗癌药物。",
   "auger-electron-therapy": "放射性原子释放出射程极短的电子，只有当原子位于细胞DNA之上或之内时才具有致死性。",
   aumolertinib: "Aumolertinib是Hansoh的第三代肺癌口服药，是中国研发的同类药物中的第一个，基于AENEAS试验获批用于EGFR突变肺癌的一线治疗。",

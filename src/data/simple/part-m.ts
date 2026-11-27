@@ -55,7 +55,7 @@ export const simpleM: Record<string, string> = {
   "bdc-4182": "Bolt Biotherapeutics' BDC-4182 is an immune-stimulating antibody conjugate [an antibody carrying an immune-activating drug] aimed at Claudin 18.2, in a phase 1/2 trial for gastric cancer.",
   "bebt-209": "BeBetter Med's BEBT-209 is an oral drug given with chemotherapy or hormone therapy, in late-stage trials for triple-negative and HR-positive breast cancers. Its target is not stated publicly.",
   bexobrutideg: "Nurix Therapeutics' bexobrutideg is an oral protein degrader [a drug that makes cells destroy a target protein] that removes BTK, in phase 3 trials for chronic lymphocytic leukaemia.",
-  bezuclastinib: "Cogent Biosciences' bezuclastinib is an oral small-molecule drug that blocks KIT [a growth-signal enzyme], tested with sunitinib in a phase 3 trial for gastrointestinal stromal tumour.",
+  bezuclastinib: "Cogent Biosciences' bezuclastinib is an oral small-molecule drug that blocks KIT [a growth-signal enzyme], approved in the US with sunitinib for adults with advanced gastrointestinal stromal tumours who have already taken imatinib.",
   "bgb-43395": "BeOne Medicines' BGB-43395 is a small-molecule drug designed to block CDK4 [a cell-division enzyme] while sparing CDK6, in a phase 3 trial for HR-positive, HER2-negative breast cancer.",
   "bio-106": "BIO-106 is an antibody-drug conjugate [an antibody carrying chemotherapy into cancer cells] from BiOneCure Therapeutics, aimed at TROP2. Its phase 1/2 trial record has had no update since 2022.",
   "bio-thera-solutions": "Bio-Thera Solutions, based in Guangzhou, China, develops antibody medicines and runs three late-stage trials of BAT8008, BAT1308 and BAT8010 in cervical cancer.",

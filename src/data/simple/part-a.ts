@@ -227,7 +227,7 @@ export const simpleA: Record<string, string> = {
   sevabertinib: "An HER2 pill for lung cancers with HER2 faults, approved in November 2025.",
   divarasib: "Roche's KRAS G12C pill, which beat the two older KRAS G12C pills in a head-to-head trial.",
   olomorasib: "Lilly's KRAS G12C pill, designed to combine safely with immune drugs.",
-  neladalkib: "An ALK-blocking pill for lung cancer that has come back after earlier ALK drugs. The FDA gave it accelerated approval, as Nelkarmi, on 17 November 2026.",
+  neladalkib: "A pill sold as Nelkarmi. The FDA granted accelerated approval on 17 November 2026 for adults with locally advanced or metastatic ALK-positive lung cancer after alectinib as their only prior ALK-blocking drug, or after at least two ALK-blocking drugs and platinum chemotherapy. Those prior treatments must have been given for unresectable locally advanced or metastatic disease.",
   tremelimumab: "An antibody that releases the CTLA-4 immune brake, given with durvalumab as a single dose in liver cancer and as up to five doses with chemotherapy in lung cancer.",
   abiraterone: "A pill that shuts down testosterone production everywhere, including inside the tumour. Now generic and used from the first diagnosis of spread.",
   enzalutamide: "A widely used pill that blocks the male hormone receptor, used at every stage of advanced prostate cancer.",

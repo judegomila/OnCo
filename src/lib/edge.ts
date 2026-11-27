@@ -26,6 +26,7 @@
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { graph } from "./graph";
+import { reviewedFdaNoticeScope } from "../data/fda-notice-scope";
 import { phaseLabel, routeFor } from "./kinds";
 import type { Kind } from "./schema";
 import { absoluteUrl } from "./seo";
@@ -248,7 +249,12 @@ export function edgeItems(root = process.cwd(), today = todayIso()): EdgeItem[] 
     push({ raw: i.date, kind: "issue", title: i.title, url: absoluteUrl(`/newsletter/${i.date}/`), venue: "OnCo weekly issue", refs: [], weight: WEIGHT.issue, sentence: i.summary ? sentenceOf(i.summary) : `Issue of ${plainDate(i.date)}.` });
   }
 
-  return dedupeEdge(items);
+  return dedupeEdge(items).map((item) => {
+    // A matching product timeline event may contribute all diseases associated with that drug.
+    // For reviewed FDA notices, use the indication-specific links after that merge.
+    const scope = item.kind === "approval" ? reviewedFdaNoticeScope(item.url) : undefined;
+    return scope ? { ...item, refs: refs([...scope.drugIds, ...scope.cancerIds]) } : item;
+  });
 }
 
 /**

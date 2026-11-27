@@ -14,6 +14,7 @@
  * Writes public/fda/recent.json. Run: npx tsx scripts/fetch-fda.ts   Weekly via .github/workflows/refresh-fda.yml.
  */
 import { graph } from "../src/lib/graph";
+import { reviewedFdaNoticeScope } from "../src/data/fda-notice-scope";
 import { renameSync, rmSync } from "node:fs";
 import { FDA_OCE_URL, NameMatcher, UA, getText, isoDaysAgo, matchableFromGraph, parseOcePage, publicPath, readJson, sleep, today, writeJson } from "./feed-utils";
 import { isSupportiveIndication } from "../src/lib/supportive-care";
@@ -100,9 +101,10 @@ export async function refreshFda() {
     const items = parsed.filter((i) => i.date >= from);
     for (const it of items) {
       const text = `${it.title} ${it.summary}`;
-      const ids = matcher.match(text);
-      const drugIds = ids.filter((id) => g.get(id)?.kind === "drug");
-      const cancerIds = ids.filter((id) => g.get(id)?.kind === "cancer");
+      const scope = reviewedFdaNoticeScope(it.url);
+      const ids = scope ? [] : matcher.match(text);
+      const drugIds = scope?.drugIds ?? ids.filter((id) => g.get(id)?.kind === "drug");
+      const cancerIds = scope?.cancerIds ?? ids.filter((id) => g.get(id)?.kind === "cancer");
       // Supportive care rule (src/lib/supportive-care.ts) applied to the notification text; only set when true so old snapshots compare equal.
       const supportive = isSupportiveIndication(text) ? { supportive: true } : {};
       if (drugIds.length) snap.oce.push({ ...it, drugIds, cancerIds, firstSeen: prevOce.get(it.url) ?? fetched, ...supportive });

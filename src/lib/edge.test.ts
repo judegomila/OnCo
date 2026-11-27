@@ -114,3 +114,21 @@ describe("edge on the real snapshots", () => {
     for (const it of all) if (it.kind !== "paper" && it.kind !== "preprint") expect(`${it.title} ${it.sentence}`).not.toMatch(/—|\bas of\b/i);
   });
 });
+
+describe("reviewed FDA notice links", () => {
+  it("keeps only approved products and the reviewed cancer link after joining regulatory events", () => {
+    const approvals = edgeAll(process.cwd(), "2026-11-27").filter((it) => it.kind === "approval");
+    const cases: Array<[string, string, string[]]> = [
+      ["2026-11-24", "fda-approves-bezuclastinib-combination-", ["bezuclastinib", "sunitinib", "gist"]],
+      ["2026-11-23", "fda-approves-giredestrant-adjuvant-", ["giredestrant", "breast-hr-positive"]],
+      ["2026-11-17", "fda-grants-accelerated-approval-neladalkib-", ["neladalkib", "alk-positive-nsclc"]],
+      ["2026-11-16", "fda-approves-giredestrant-combination-", ["giredestrant", "everolimus", "breast-hr-positive"]],
+      ["2026-11-13", "fda-approves-durvalumab-enfortumab-", ["durvalumab", "enfortumab-vedotin", "muscle-invasive-bladder-cancer"]],
+    ];
+    for (const [date, slug, refs] of cases) {
+      const matched = approvals.filter((it) => it.date === date && it.url.startsWith(`https://www.fda.gov/drugs/cancer-approvals/${slug}`));
+      expect(matched, slug).toHaveLength(1);
+      expect(matched[0].refs.map((x) => x.id), slug).toEqual(refs);
+    }
+  });
+});

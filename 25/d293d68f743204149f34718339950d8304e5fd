@@ -1,0 +1,46 @@
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_12ec9dd8cc56ec 95,97
+src/data/spikes/breast-hr-positive.ts
+  s_0beac9cb5d78fd::t_4c62c2ec822bab 396
+src/data/spikes/breast-core.ts
+  s_0beac9cb5d78fd::t_7224de514d5350 1-164,166-211,213-222,224-233,235-259,261-285,287-318,320-413,415-493
+  s_0beac9cb5d78fd::t_4c62c2ec822bab 165,414
+  s_0beac9cb5d78fd::t_7ed6c58762b061 260
+  s_0beac9cb5d78fd::t_013e05db8e1c5e 212,223,234,319
+  s_0beac9cb5d78fd::t_02ae4cb097db13 286
+src/data/cancer-parents-wave2.ts
+  s_0beac9cb5d78fd::t_a480ba84634024 30-34
+  s_0beac9cb5d78fd::t_eb0e63c9023b59 51-53
+  s_0beac9cb5d78fd::t_e7c605ab96f121 15,19-21
+  s_0beac9cb5d78fd::t_6737cc2be3de93 39-45,49
+  s_0beac9cb5d78fd::t_b31132242bbf5f 16-18
+  s_0beac9cb5d78fd::t_ef7122953aa312 22
+  s_0beac9cb5d78fd::t_0e730f2249d72e 54-58
+  s_0beac9cb5d78fd::t_69a05d46deddf8 24-27
+src/data/cancers-wave4-breast.ts
+  s_0beac9cb5d78fd::t_efa045134dffe2 91
+  s_0beac9cb5d78fd::t_73315b0be6d748 153-159
+  s_0beac9cb5d78fd::t_ef10fcd74690ab 7-8,11-13
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_efa045134dffe2 39
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_12ec9dd8cc56ec 77,84
+src/data/staging.ts
+  s_0beac9cb5d78fd::t_2af06bff171ab0 67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "25d293d68f743204149f34718339950d8304e5fd",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

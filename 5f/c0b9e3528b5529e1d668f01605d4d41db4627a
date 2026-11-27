@@ -1,0 +1,40 @@
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_01cb3eb2d3678c 61-62,323,342
+src/app/targets/genome/page.tsx
+  s_0beac9cb5d78fd::t_cb5b996ab457dc 4-6,61-76,79
+src/components/TargetSpecificityPills.tsx
+  s_0beac9cb5d78fd::t_90f57f5f894dfd 1-59
+src/lib/target-specificity.ts
+  s_0beac9cb5d78fd::t_7a9f723652f6f2 1-96
+src/lib/tables/genome.ts
+  s_0beac9cb5d78fd::t_98df8b5f5e1bb9 2,20,31-37,39,45
+src/app/targets/specificity/page.tsx
+  s_0beac9cb5d78fd::t_8a6738557ecae0 1-114
+src/app/[kind]/page.tsx
+  s_0beac9cb5d78fd::t_cb5b996ab457dc 55
+src/components/GenomeRoles.tsx
+  s_0beac9cb5d78fd::t_98df8b5f5e1bb9 5-6,14-15,66,70-71,83,100,103-104,109-110,112,116,118,125-126,129-130,132-138,140,143-144,154,166
+src/components/TargetWhereFound.tsx
+  s_0beac9cb5d78fd::t_1cb9472a905e96 1-67
+src/lib/genome-hub.ts
+  s_0beac9cb5d78fd::t_98df8b5f5e1bb9 1,21-22,67,71,77,81,86-88
+src/lib/kind-browser.ts
+  s_0beac9cb5d78fd::t_538111ff8540a2 7-8
+  s_0beac9cb5d78fd::t_01cb3eb2d3678c 114-116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "5fc0b9e3528b5529e1d668f01605d4d41db4627a",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

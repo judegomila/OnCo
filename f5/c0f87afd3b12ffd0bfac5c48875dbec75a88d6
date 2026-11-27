@@ -1,0 +1,19 @@
+src/data/trop2-emerging-modalities.ts
+  ai_agent 1-482
+CORRECTIONS.md
+  ai_agent 13-18
+src/data/index.ts
+  ai_agent 2,202
+src/data/drugs-pipeline-wave1.ts
+  ai_agent 298-305,487-496,581-592,811-820,1592,1594-1595,1597-1599,1690-1696
+src/data/targets.ts
+  ai_agent 12-14,29-30
+src/data/technologies.ts
+  ai_agent 673,682-684,897,905-906
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "f5c0f87afd3b12ffd0bfac5c48875dbec75a88d6",
+  "prompts": {}
+}

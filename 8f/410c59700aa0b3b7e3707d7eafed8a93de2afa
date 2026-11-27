@@ -1,0 +1,21 @@
+src/data/roadmaps.ts
+  s_0beac9cb5d78fd::t_cb56f2b908a887 9,25,41,56,70,83,96,109,122
+src/data/foundation-roadmap.ts
+  s_0beac9cb5d78fd::t_cb56f2b908a887 8,25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "8f410c59700aa0b3b7e3707d7eafed8a93de2afa",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

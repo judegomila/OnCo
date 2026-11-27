@@ -1,0 +1,67 @@
+src/data/country-extras.ts
+  s_0beac9cb5d78fd::t_aa779590678dba 28
+src/app/countries/us/page.tsx
+  s_0beac9cb5d78fd::t_24ea5d22d4ab9e 92
+  s_0beac9cb5d78fd::t_3f154a15f44c31 1-91,93-210
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_9fc2525ed79b99 151
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_9fc2525ed79b99 151
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_9fc2525ed79b99 151
+src/app/countries/us/render.test.ts
+  s_0beac9cb5d78fd::t_500dbfbd985cfc 1-42,45-46
+  s_0beac9cb5d78fd::t_92cb48633f67fd 43-44
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_9fc2525ed79b99 151
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_9fc2525ed79b99 151
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_9fc2525ed79b99 151
+src/data/country-us.ts
+  s_0beac9cb5d78fd::t_041156214901eb 110
+  s_0beac9cb5d78fd::t_1bc2d09fb528ca 223
+  s_0beac9cb5d78fd::t_bfc160e83543f6 180,350
+  s_0beac9cb5d78fd::t_9c73ec07294d34 102
+  s_0beac9cb5d78fd::t_368338a63914de 58-59,61-76
+  s_0beac9cb5d78fd::t_561f87b0611939 363
+  s_0beac9cb5d78fd::t_3a8088e482eb48 154
+  s_0beac9cb5d78fd::t_2cee5ced9781f2 29
+  s_0beac9cb5d78fd::t_458707821655a8 375-376
+  s_0beac9cb5d78fd::t_fe0b753b793349 236-237
+  s_0beac9cb5d78fd::t_db73d45fb0b35d 160-161
+  s_0beac9cb5d78fd::t_fb25675648d5a6 339-347,349,351,353-354
+  s_0beac9cb5d78fd::t_f3dc78e36df6ac 371
+  s_0beac9cb5d78fd::t_4c609b13499247 181-182
+  s_0beac9cb5d78fd::t_84761ddcf06989 267-268,308-309
+  s_0beac9cb5d78fd::t_f56365c92867d4 323,326
+  s_0beac9cb5d78fd::t_0b2d6a7f313de6 1-28,30-57,60,77-96,98-101,103-109,111-153,155-159,162-179,183-222,224-235,238-266,269-307,310-322,324-325,327-338,348,352,355-362,364-367,372-374,377-381
+  s_0beac9cb5d78fd::t_41ca5376573cb4 97
+  s_0beac9cb5d78fd::t_1667eb4d850b79 368-370
+src/components/RouteIcon.tsx
+  s_0beac9cb5d78fd::t_6b7ffafdaae1ae 100
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_bdebed509f87f5 134
+src/data/funding.ts
+  s_0beac9cb5d78fd::t_aa779590678dba 21
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_9fc2525ed79b99 151
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_9fc2525ed79b99 151
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a81e7276c93d3e5b1e54589266450854122cc45e",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

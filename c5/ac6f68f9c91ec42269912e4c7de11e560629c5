@@ -1,0 +1,25 @@
+src/data/targets-wave1.ts
+  s_0beac9cb5d78fd::t_76bdfd443385a0 50-53
+  s_0beac9cb5d78fd::t_0ddfd9d9819dbf 60-63
+  s_0beac9cb5d78fd::t_cefa0029c0f8d8 70-73
+  s_0beac9cb5d78fd::t_a2e8df5729b313 26
+  s_0beac9cb5d78fd::t_55da8d3535ef2a 33
+  s_0beac9cb5d78fd::t_d149a4b973b60a 19
+  s_0beac9cb5d78fd::t_effdbd8130b674 40-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c5ac6f68f9c91ec42269912e4c7de11e560629c5",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

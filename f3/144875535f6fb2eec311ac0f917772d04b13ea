@@ -1,0 +1,53 @@
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_01352a57f5777e 882,889-892
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_98031d8cc4f7a6 243
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_98031d8cc4f7a6 281
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_98031d8cc4f7a6 243
+src/lib/schema-docs.ts
+  s_0beac9cb5d78fd::t_98031d8cc4f7a6 117
+src/data/pipeline-trials-wave6.ts
+  s_0beac9cb5d78fd::t_87b5cbe8dbeaaf 9673-9678
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_98031d8cc4f7a6 243
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_98031d8cc4f7a6 243
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_98031d8cc4f7a6 680-697,709
+src/data/cancers.ts
+  s_0beac9cb5d78fd::t_98031d8cc4f7a6 176,202,225,303,374,394,413,431,452,660
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_98031d8cc4f7a6 243
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_98031d8cc4f7a6 162-167
+src/lib/semantic-docs.ts
+  s_0beac9cb5d78fd::t_98031d8cc4f7a6 14
+src/data/drugs-pipeline-wave6.ts
+  s_0beac9cb5d78fd::t_01352a57f5777e 30-41
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_98031d8cc4f7a6 243
+src/data/spikes/pancreatic.ts
+  s_0beac9cb5d78fd::t_87b5cbe8dbeaaf 196,198,200-205
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_98031d8cc4f7a6 243
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_98031d8cc4f7a6 243
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "f3144875535f6fb2eec311ac0f917772d04b13ea",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

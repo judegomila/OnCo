@@ -1,0 +1,26 @@
+src/lib/review-due.ts
+  s_0beac9cb5d78fd::t_b398b590db4217 1-57
+public/freshness.json
+  s_0beac9cb5d78fd::t_64349eff2462f8 1
+src/components/ReviewBadge.tsx
+  s_0beac9cb5d78fd::t_d609eaf27c39e3 70-78
+  s_0beac9cb5d78fd::t_ea7382bb13a76c 4,29-30
+scripts/freshness.ts
+  s_0beac9cb5d78fd::t_b398b590db4217 24-25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "db0004f958be8be7f75b6de5ed2b0b0867a9fd82",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

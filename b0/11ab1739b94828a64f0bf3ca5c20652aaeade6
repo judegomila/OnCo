@@ -1,0 +1,76 @@
+src/components/filters/ColumnFilter.tsx
+  s_0beac9cb5d78fd::t_454b3bf5c3cd19 131
+  s_0beac9cb5d78fd::t_2b84b76007688a 1-130,132-167
+src/components/filters/FacetSelect.tsx
+  s_0beac9cb5d78fd::t_357a9b1874d24e 8-14
+  s_0beac9cb5d78fd::t_c446fdb66d35f5 66
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_66cb880a4e0651 45-46
+src/components/filters/FilterableTable.tsx
+  s_0beac9cb5d78fd::t_236954855145e5 1-152
+src/components/RegulatoryBrowser.tsx
+  s_0beac9cb5d78fd::t_ffce59f47c9096 33-36,39,41-42,50-52
+src/components/CasesByCountry.tsx
+  s_0beac9cb5d78fd::t_7ce00af1413a80 88-89
+src/components/RegionMatrix.tsx
+  s_0beac9cb5d78fd::t_8c14ff4c411cf3 119
+src/components/ToxicityBrowser.tsx
+  s_0beac9cb5d78fd::t_c8080211184df5 67-68
+src/components/SideEffectLookup.tsx
+  s_0beac9cb5d78fd::t_cd8d02b75ebf4b 86
+src/lib/table-view.ts
+  s_0beac9cb5d78fd::t_71c109c3227bd2 1-42
+src/components/HtaTable.tsx
+  s_0beac9cb5d78fd::t_d7c9bf5ab8914f 40-41
+src/components/SponsorBoard.tsx
+  s_0beac9cb5d78fd::t_1c6e0b45bac2a5 42
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_76a3bb3395ccf6 45-46
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_ad196b8bb32d13 45-46
+src/components/PowerView.tsx
+  s_0beac9cb5d78fd::t_d30561223f7053 98
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_b684b4df222330 45-46
+src/components/filters/ColumnFilter.test.ts
+  s_0beac9cb5d78fd::t_84bcea53bc2586 1-155
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_7d24bb70728f25 45-46
+src/components/filters/ResultsTable.tsx
+  s_0beac9cb5d78fd::t_ca0049dcbaab0b 7,20-21,26-52
+  s_0beac9cb5d78fd::t_befadc06f2186d 90
+  s_0beac9cb5d78fd::t_e0b974d07e6263 70
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_953682ecb503bf 45-46
+src/components/CentreTable.tsx
+  s_0beac9cb5d78fd::t_2c25744ce47aa5 74
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_ee1be9815c307f 63-64
+src/components/EntityBrowser.tsx
+  s_0beac9cb5d78fd::t_4d54a3c442a724 226
+  s_0beac9cb5d78fd::t_e1e71288c0b9b7 30
+  s_0beac9cb5d78fd::t_d53d027f72aeb0 274-298
+  s_0beac9cb5d78fd::t_d436a5f4e965e1 354
+  s_0beac9cb5d78fd::t_3a579dff0f1e36 104-106
+  s_0beac9cb5d78fd::t_58a4b28960de1f 350
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_1740055434f6d9 45-46
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_fba795574dcf34 45-46
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b011ab1739b94828a64f0bf3ca5c20652aaeade6",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

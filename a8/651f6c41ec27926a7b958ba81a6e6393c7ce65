@@ -1,0 +1,22 @@
+src/data/key-papers/prevention-detection-biology.ts
+  s_0beac9cb5d78fd::t_c928b4baa2d86a 761-801
+src/data/key-papers/blood-immune-cell.ts
+  s_0beac9cb5d78fd::t_c928b4baa2d86a 642-671,673-682
+  s_0beac9cb5d78fd::t_edf53dfb6ece00 672
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a8651f6c41ec27926a7b958ba81a6e6393c7ce65",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

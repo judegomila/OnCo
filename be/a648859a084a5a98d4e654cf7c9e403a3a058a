@@ -1,0 +1,64 @@
+src/data/spikes/nsclc.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 189
+src/data/pipeline-trials-wave4.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 468,864
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 123
+src/data/spikes/sarcoma.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 70
+src/data/pancreatic-subtypes.ts
+  s_0beac9cb5d78fd::t_cba70a3a5bd33e 285
+  s_0beac9cb5d78fd::t_d1e2986b681367 223
+  s_0beac9cb5d78fd::t_dbb179e236ef88 342
+  s_0beac9cb5d78fd::t_84c9b9fa258210 95
+  s_0beac9cb5d78fd::t_cab56830fd94d4 127
+  s_0beac9cb5d78fd::t_8880703d97c7b3 64
+  s_0beac9cb5d78fd::t_40781288c53a31 28,61,185,271,302,361
+  s_0beac9cb5d78fd::t_7c4596552a74e6 1-27,29-60,62-63,65-94,96-126,128-184,186-222,224-252,254-270,272-284,286-301,303-311,313-341,343-360,362-382
+  s_0beac9cb5d78fd::t_5ea8905e5eee82 253
+  s_0beac9cb5d78fd::t_d2dc74961f21a5 312
+scripts/fold-zh.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 29,38
+src/data/spikes/cervical.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 138
+src/data/pipeline-trials-wave5.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 2392
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 248,312,386,509,517,526,566,727,753
+src/data/index.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 105,196
+src/data/spikes/colorectal.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 224,257
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 329,739
+src/data/spikes/pancreatic.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 16,24,33,40,48,55,62,73,82,90,98,106,114,122,133,151
+src/data/terms-jargon.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 18,165
+src/data/pipeline-trials-wave2.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 1421
+src/data/pdac-wave.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 78
+src/lib/cancer-families.test.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 80
+src/data/ideas-waves/wave-prevention.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 425
+src/data/pipeline-trials-wave6.ts
+  s_0beac9cb5d78fd::t_989e3abd6d9877 2801,4355,4733,8969
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "bea648859a084a5a98d4e654cf7c9e403a3a058a",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+src/data/institutions-wave-investigators.ts
+  ai_agent 161
+src/data/wikidata-ids.ts
+  s_0beac9cb5d78fd::t_707b78ef278c7b 10-12,26,29-30,44,62,64,182,187,189,192,201,203,254,261,267,272,304,340,342,346,378,382-383,386,391,397,412-413,438,440,447-448,469,473-474,476-478,520-521,543,554,568,581,594,609,623,661,685,749,753,788,806,819,846,873-875,880,883,885-886,910
+src/data/institutions/europe.ts
+  ai_agent 254,273,365,459,490,559,604,620,625,650,1018
+src/lib/agent-surface.test.ts
+  s_0beac9cb5d78fd::t_da45b484ffc884 102-109
+  s_0beac9cb5d78fd::t_8663d42520af86 13
+src/data/institutions/us.ts
+  ai_agent 25,39,53,123,130,151,186,193,221,228,249,291,298,477,513
+src/data/institutions/world.ts
+  ai_agent 58,64,94,131,156,192,230,243,255,402,408,420,457,463,475,506,512,625
+scripts/enrich-institution-ids.ts
+  s_0beac9cb5d78fd::t_ecb20fc6f24109 40-41
+  s_0beac9cb5d78fd::t_97820fd3d512f6 205-207,209
+  s_0beac9cb5d78fd::t_0487ed51d2ec70 70
+  s_0beac9cb5d78fd::t_c1740f2bac15c3 22-26
+  s_0beac9cb5d78fd::t_edcb2396a749f3 151,210-223,231-258,263,268,270-271
+  s_0beac9cb5d78fd::t_f0641d5f662c7d 224-230
+  s_0beac9cb5d78fd::t_7a37d4cfe83226 260-262,264-266
+  s_0beac9cb5d78fd::t_26f19d450bb787 1-21,27,29-39,42-69,71-150,152-204,208,259,267,269,272-274,276-278
+  s_0beac9cb5d78fd::t_50c3062c89dc73 28
+  s_0beac9cb5d78fd::t_d0e4eb622eaaa3 275
+src/data/institutions.ts
+  ai_agent 15,20,27,31,37,47,53,71,83,91,99,105,107,113,132,134,140
+src/data/institutions/centres-wave3.ts
+  ai_agent 203,301,369,377
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c00cb64ad968ae8d3d7efd969232b0da4607f712",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

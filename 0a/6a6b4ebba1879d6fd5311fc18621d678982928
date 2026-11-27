@@ -1,0 +1,78 @@
+public/openalex/research/alsf.json
+  ai_agent 1
+public/openalex/research/breast-cancer-trials.json
+  ai_agent 1
+.github/workflows/refresh-research.yml
+  s_0beac9cb5d78fd::t_e9510340ac82a2 23-28,38
+public/openalex/research/karmanos.json
+  ai_agent 1
+public/openalex/research/penn-abramson.json
+  s_0beac9cb5d78fd::t_f2805b14000c1f 1
+public/openalex/research/barts-cancer-institute.json
+  ai_agent 1
+public/openalex/research/bc-cancer.json
+  ai_agent 1
+public/openalex/research/bp-beneficencia-portuguesa.json
+  ai_agent 1
+public/openalex/research/beatson-glasgow.json
+  ai_agent 1
+public/openalex/research/aubmc-basile-cancer-institute.json
+  ai_agent 1
+public/openalex/research/arcagy-gineco.json
+  s_0beac9cb5d78fd::t_9b446cd767e41c 1
+public/openalex/research/auckland-city-hospital.json
+  ai_agent 1
+public/openalex/research/ash.json
+  ai_agent 1
+public/openalex/research/abcsg.json
+  ai_agent 1
+public/openalex/research/aga-khan-university-hospital-nairobi.json
+  ai_agent 1
+public/openalex/research/bcrf.json
+  ai_agent 1
+public/openalex/research/big.json
+  ai_agent 1
+public/openalex/research-index.json
+  s_0beac9cb5d78fd::t_e9510340ac82a2 1
+public/openalex/research/apollo-hospitals.json
+  ai_agent 1
+public/openalex/research/broad-institute.json
+  ai_agent 1
+public/openalex/research/astro.json
+  ai_agent 1
+public/openalex/research/aichi-cancer-center.json
+  ai_agent 1
+public/openalex/research/alliance-oncology.json
+  ai_agent 1
+public/openalex/research/amsterdam-umc.json
+  ai_agent 1
+public/openalex/research/beaumont-rcsi-cancer-centre.json
+  ai_agent 1
+public/openalex/research/anchor-centre-aberdeen.json
+  ai_agent 1
+public/openalex/research/tata-memorial.json
+  s_0beac9cb5d78fd::t_2fbdbdaeb6819f 1
+public/openalex/research/asan-medical-center.json
+  ai_agent 1
+public/openalex/research/bristol-haematology-oncology-centre.json
+  ai_agent 1
+scripts/fetch-institution-research.ts
+  s_0beac9cb5d78fd::t_afeeafb1bd7e3f 5-11,13-14,16-22,25-28,56-59,61-62,66-70,72,74-75,77,85-86,88,94-117,136-156,159-163,165-166,168,326-329,335-336,343-366,369-389,392-394,396-397,399-401,403-405,409
+  s_0beac9cb5d78fd::t_e9510340ac82a2 367-368
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "0a6a6b4ebba1879d6fd5311fc18621d678982928",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

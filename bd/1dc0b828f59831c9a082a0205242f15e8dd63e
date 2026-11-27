@@ -1,0 +1,28 @@
+src/data/spikes/urothelial.ts
+  s_0beac9cb5d78fd::t_bc76cb1c6b5c76 213
+src/data/supporting.ts
+  s_0beac9cb5d78fd::t_bc76cb1c6b5c76 911,915,919,927,935,939,943,947,951
+src/data/foundation-models.ts
+  s_0beac9cb5d78fd::t_bc76cb1c6b5c76 70,72,74,76,78,80,82,84
+src/data/terms.ts
+  s_0beac9cb5d78fd::t_3b0f063580d23d 24
+  s_0beac9cb5d78fd::t_bc76cb1c6b5c76 12-13,15,19-23,25-29,32-39,41-46,48-49,52-58,61-77
+src/data/adc-chemistry.ts
+  s_0beac9cb5d78fd::t_bc76cb1c6b5c76 15,29,31,33,40,42-44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "bd1dc0b828f59831c9a082a0205242f15e8dd63e",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

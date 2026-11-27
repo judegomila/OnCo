@@ -1,0 +1,11 @@
+src/data/issues-2026-09-wave-a.ts
+  ai_agent 165-184
+src/data/drugs.ts
+  ai_agent 868,873-874
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ac5d49111ccf80de53755ab577b1e923a9ead12b",
+  "prompts": {}
+}

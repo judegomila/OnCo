@@ -1,0 +1,23 @@
+src/data/i18n/ja.ts
+  ai_agent 1872-1971
+src/data/i18n/ar.ts
+  ai_agent 1872-1971
+src/data/i18n/es.ts
+  ai_agent 1963-2062
+src/data/i18n/zh.ts
+  ai_agent 1963-2062
+src/data/i18n/de.ts
+  ai_agent 1872-1971
+src/data/i18n/pt.ts
+  ai_agent 1963-2062
+src/data/i18n/hi.ts
+  ai_agent 1963-2062
+src/data/i18n/fr.ts
+  ai_agent 1872-1971
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "7e2e947a00157030bd99a14a2bfdaba275e49656",
+  "prompts": {}
+}

@@ -1,0 +1,60 @@
+src/data/spikes/pancreatic-molecular.ts
+  s_1e233a6be244f1::t_b7b0490110c539 920
+src/data/tumour-tests.ts
+  s_1e233a6be244f1::t_acfeb4badb4e6f 112-113
+src/data/technologies.ts
+  s_1e233a6be244f1::t_d92e204e9e1e92 269
+  s_1e233a6be244f1::t_a524c3e649962b 259-260,262-268,270
+  s_1e233a6be244f1::t_18f15aabadbbee 261
+  s_1e233a6be244f1::t_f27e53ff3095ab 258
+src/data/drugs.ts
+  s_1e233a6be244f1::t_7fc49bf8b0fec8 766-769,771-781
+  s_1e233a6be244f1::t_18f15aabadbbee 789
+src/data/mced-census-tests.ts
+  s_1e233a6be244f1::t_1fce5c3cae6654 41
+  s_1e233a6be244f1::t_a91a82c228b138 1-40,42-43,45-51,53-212,214,216-276,278-279,282-302
+  s_1e233a6be244f1::t_0a40b33fc79852 213
+  s_1e233a6be244f1::t_197e32ee949973 215
+  s_1e233a6be244f1::t_2a165b6c3be3d6 44
+  s_1e233a6be244f1::t_dd34f9f4be234d 281
+  s_1e233a6be244f1::t_18f15aabadbbee 52,280
+  s_1e233a6be244f1::t_00355b412baf52 277
+src/data/tests.ts
+  s_1e233a6be244f1::t_f75e5646eddddb 206-211
+  s_1e233a6be244f1::t_c3d8acd9e7d8c1 204,212
+src/data/mced-census.ts
+  s_1e233a6be244f1::t_e5915b75081a01 24
+  s_1e233a6be244f1::t_65cd439fc4fbc0 127-297
+  s_1e233a6be244f1::t_51d5a9b79125d0 1-23,25-126,298
+src/data/key-papers/prevention-detection-biology.ts
+  s_1e233a6be244f1::t_b7b0490110c539 125
+  s_1e233a6be244f1::t_20f9a2f256df95 121-122
+src/data/mced-census-trials.ts
+  s_1e233a6be244f1::t_8b2e8b4d335dae 23-79
+  s_1e233a6be244f1::t_277be961e497f4 1-22,80
+src/data/trials.ts
+  s_1e233a6be244f1::t_ffd797c3459767 274,277-278,284
+src/data/companies-startups.ts
+  s_1e233a6be244f1::t_09313bedd74516 749
+  s_1e233a6be244f1::t_e0cb7baa4e4e36 755
+CORRECTIONS.md
+  s_1e233a6be244f1::t_3227f7050f2a9d 5-12
+src/data/index.ts
+  s_1e233a6be244f1::t_92fc684622feaa 108-110,305
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ed9f689c46fa756d9d5cb5d5f79cc3189bd83527",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "unknown"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

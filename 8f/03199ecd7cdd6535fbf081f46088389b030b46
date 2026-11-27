@@ -1,0 +1,22 @@
+src/data/protocols/central-line-removal.ts
+  s_1e233a6be244f1::t_a173b9be0cb2c3 1-25,27-161
+  s_1e233a6be244f1::t_32250fb6462d30 26
+src/data/protocols/index.ts
+  s_1e233a6be244f1::t_32250fb6462d30 11,49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "8f03199ecd7cdd6535fbf081f46088389b030b46",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

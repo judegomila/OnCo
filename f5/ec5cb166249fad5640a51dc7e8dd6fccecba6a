@@ -1,0 +1,21 @@
+src/data/china.ts
+  ai_agent 306
+src/data/companies-sponsors.ts
+  ai_agent 536,546,638,686,696,702,734,1602,1606,1638,1642,1650
+src/data/companies.ts
+  ai_agent 128
+src/data/india.ts
+  ai_agent 100
+public/logos/merck-kgaa.svg
+  ai_agent 1
+public/logos/index.json
+  ai_agent 1
+public/logos/spectrum-pharmaceuticals.svg
+  ai_agent 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "f5ec5cb166249fad5640a51dc7e8dd6fccecba6a",
+  "prompts": {}
+}

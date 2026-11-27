@@ -1,0 +1,21 @@
+CORRECTIONS.md
+  ai_agent 21-24
+src/data/trial-outcomes.ts
+  ai_agent 64,66-68,70,74-75,77-79,81,94-95,97-99,101
+src/data/drug-depth.ts
+  ai_agent 81,95,102
+src/data/trials.ts
+  ai_agent 64-68,72-76,86-91
+src/lib/model-reviews.test.ts
+  ai_agent 101-103,107,109
+public/reviews/models/sacituzumab-govitecan.json
+  ai_agent 4-10,13,15-41,46-52,55,57-83
+src/data/drugs.ts
+  ai_agent 10,12-13,15,19,40,42-43,45,48,51,53-54,56,59-60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "256c8459d9096589d7a4c44e39ea183420e3bdf3",
+  "prompts": {}
+}

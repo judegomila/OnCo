@@ -1,0 +1,135 @@
+src/app/cancers/[id]/uk/page.tsx
+  s_0beac9cb5d78fd::t_62eba90f6b283f 189,292
+scripts/spike-sources.ts
+  ai_agent 48-49,56
+public/newsletter/2026-09-25.json
+  s_0beac9cb5d78fd::t_62eba90f6b283f 1
+src/data/index.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 49,102,243,303-305,327-328
+src/lib/kind-graph.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 2,39-40
+src/data/companies-cooperative-groups.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 1-181
+scripts/fetch-company-drugs.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 45-47
+src/components/CompanyTypePill.tsx
+  s_0beac9cb5d78fd::t_62eba90f6b283f 1-25
+src/data/spikes/index.ts
+  ai_agent 62,68-69
+src/lib/supportive-care.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 1-68
+scripts/fetch-ema.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 27,36-42,207-209
+src/lib/decision-tools.test.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 10,149-173
+public/newsletter/index.json
+  s_0beac9cb5d78fd::t_62eba90f6b283f 1
+src/data/supportive-drugs.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 1-58
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 294
+src/lib/decision-tools.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 3,76
+public/freshness.json
+  s_0beac9cb5d78fd::t_62eba90f6b283f 1
+src/lib/red-flags.test.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 34-35
+src/data/sponsor-aliases.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 294-312,316,328,339,345-348
+src/lib/uk-pathway.test.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 6-7,10-11,24-25,42-54,62,146-162
+src/lib/valueTone.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 29,38
+src/data/questions.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 9,13
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 294
+src/app/page.tsx
+  s_0beac9cb5d78fd::t_62eba90f6b283f 22
+src/lib/kind-browser.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 13,127,129
+public/llms.txt
+  s_0beac9cb5d78fd::t_62eba90f6b283f 5,142
+scripts/fetch-entity-trials.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 25-28
+src/data/decision-tools/tnbc-after-chemotherapy.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 1-211
+public/newsletter/feed.xml
+  s_0beac9cb5d78fd::t_62eba90f6b283f 14-16
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 294
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 294
+src/data/spikes/tnbc-uk.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 1-380
+src/lib/first-60-days.test.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 62
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 294
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 294
+src/components/EntityBrowser.tsx
+  s_0beac9cb5d78fd::t_62eba90f6b283f 338
+src/data/red-flags.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 55-58,327-358
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 294
+docs/IMPROVEMENTS-100.md
+  s_0beac9cb5d78fd::t_62eba90f6b283f 321
+scripts/fetch-fda.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 18,23-24,31,69-72
+src/lib/model-reviews.test.ts
+  ai_agent 94-96
+src/data/spikes/tnbc-living.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 1-367
+public/newsletter/2026-09-25/index.html
+  s_0beac9cb5d78fd::t_62eba90f6b283f 2,9-10
+src/lib/schema-docs.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 140
+src/lib/supportive-care.test.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 1-73
+src/lib/ask-compose.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 153
+src/lib/uk-pathway.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 13,131
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 205-212,227-233
+src/lib/startups.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 15,18-30
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_62eba90f6b283f 68-70,151-163,250,425,899
+src/components/ScorecardTable.tsx
+  s_0beac9cb5d78fd::t_62eba90f6b283f 25
+src/data/first-60-days-checklists.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 43-64,86-105
+src/lib/cooperative-groups.test.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 1-77
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 294
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 326
+src/components/SupportivePill.tsx
+  s_0beac9cb5d78fd::t_62eba90f6b283f 1-35
+src/components/kind-graph.test.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 2,47-48,52
+CHANGELOG.md
+  s_0beac9cb5d78fd::t_62eba90f6b283f 10,14-20
+src/lib/rankings.ts
+  s_0beac9cb5d78fd::t_62eba90f6b283f 8,81-82,95,109,125,138,140,165,175,188,198,210,274-277,292
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "0c335d6ec6560a463c674e957aae95b619415687",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

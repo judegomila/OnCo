@@ -1,0 +1,211 @@
+src/app/universities/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 22
+src/components/StartupPanels.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 84
+src/app/tumor-board/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 9,17
+src/app/exclusivity/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 11,25,31
+src/app/costs/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 11,37-38
+src/components/Tip.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 87
+src/app/resistance/gaps/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 11,48
+src/app/irae/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 10
+src/components/WhatIsBeingDone.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 48,56,64,81
+src/app/api/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 8
+src/app/forest/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 11
+src/lib/i18n/ui/de.ts
+  ai_agent 212,221,231,236,246,278,292,299-300,302,307,309-311
+src/app/market/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 9,16
+src/app/evidence/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 18
+src/app/side-effects/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 10,20
+src/app/sponsors/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 9,18,24
+src/app/for-me/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 8,22
+src/app/survival/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 47
+src/components/Dossier.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 149,154,160,208,228,243,304-305,310
+src/app/live/hair/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 14,47,74,108,122
+src/app/regulatory/regions/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 23
+src/app/reviewers/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 65
+src/app/guidelines/[id]/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 72
+src/app/countries/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 10,27
+src/app/idea-votes/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 13,40
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_5367493f3e2421 76-77,81,133-134,138
+src/app/saved/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 7
+src/lib/i18n/ui/fr.ts
+  ai_agent 221,231,236,246,278,292,299-300,302,307,309-311
+src/components/TrialExplainer.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 65
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_5367493f3e2421 76-77,81,133-134,138
+src/app/papers/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 8,22
+src/app/corrections/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 15
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_5367493f3e2421 76-77,81,133-134,138
+src/components/Navigator.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 131,140
+src/lib/i18n/ui.ts
+  ai_agent 258,268,273,283,315,329,336-337,339,344,346-348
+src/app/eval/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 41
+src/app/atlas/organs/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 10
+src/app/sequencing/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 8,16
+src/app/startups/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 13,111
+src/components/PulseBoard.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 69,82
+src/lib/i18n/ui/pt.ts
+  ai_agent 221,231,236,246,278,292,299-300,302,307,309-311
+src/app/open-tools/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 22
+src/app/teach/[id]/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 59-67,88-90,92-94
+src/components/ExpertCentres.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 35
+public/portraits/index.json
+  s_0beac9cb5d78fd::t_a77bdf6ba3aeeb 1297-2124,4031-7548,7555-10009,10011-10025,10029,10031-10049,10053-10060,10062,10065-10081,10085-10105,10109-10119,10123-10126,10129,10131-10138,10143-10503,10505-10508,10511-10514,10517-10519,10523-10538,10541,10543-10550,10555,10557-10559,10563,10565-10568,10571-10574,10577-10580,10583-10586,10589-10590,10592,10595,10597-10604,10609,10611-10613,10617-10627,10631-10635,10637-10639,10643,10645-10648,10651-10654,10657-10659,10661-10663,10665-10667,10669-10671,10673-10676,10679-10680,10682-10688,10691,10693-10696,10699-10708,10711,10713-10716,10719-10720,10722,10725,10727-10730,10733,10735-10744,10747,10749-10752,10755-10759,10761-10764,10767,10769-10776,10778,10781,10783-10798,10801,10803-10810,10812-10818,10821,10823-10826,10829,10831-10834,10837,10839-10842,10845,10847-10861,10865-10868,10871-10873,10877,10879-10882,10885,10887-10890,10893-10894,10897-10902,10905,10907-10910,10913-10915,10919-10922,10925-10927,10931,10933-10935,10939-10941,10945-10954,10956,10959-10961,10963,10965-10968,10971,10973-10974,10976,10979,10981-10985,10987-10990,10993,10995-10997,11001,11003-11006,11009-11012,11015,11017-11019,11023,11025-11026,11028,11031-11034,11037-11039,11043-11046,11049-11052,11055,11057-11058,11060,11063,11065-11068,11071-11074,11077-11078,11083-11092,11095,11097-11100,11103-11104,11106,11109,11111-11114,11117-11119,11121,11123-11126,11129-11130,11132-11133,11135-11137,11141,11143-11145,11149-11151,11155,11157-11168,11171,11173-11176,11179-11187,11191-11229,11233,11235-11237,11239-11246,11249-11252,11255-11282,11287,11289-11292,11295-11298,11301-11304,11307,11309-11315,11317-11320,11323,11325-11331,11333-11336,11339,11341-11344,11347,11349-11351,11353-11355,11357-11358,11360,11363,11365-11384,11387-11390,11393-11404,11407-11410,11413,11415-11418,11421,11423-11425,11429-11432,11435-11441,11443-11453,11457,11459-11470,11473-11476,11479,11481-11484,11487-11490,11493-11496,11499-11502,11505,11507-11510,11513-11514,11516,11519-11520,11522,11525,11527-11531,11533-11560,11563,11565-11568,11571-11580,11583,11585-11588,11591,11593-11596,11599,11601-11604,11607-11628,11631,11633-11644,11647-11648,11653,11655-11657,11661,11663-11666,11669,11671-11674,11677,11679-11682,11685,11687-11689,11693-11696,11699-11701,11705-11707,11711-11720,11723,11725-11728,11731,11733-11736,11739-11742,11745-11747,11751-11752,11754,11757-11759,11763,11765-11792,11795,11797-11817,11821-11830,11833,11835-11838,11841-11849,11853-11869,11873,11875-11876,11881,11883-11886,11889-11900,11903-11906,11909,11911-11914,11917,11919-11921,11923-11925,11927-11936,11938,11941-11944,11947-11950,11953,11955-11958,11961-11972,11974
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_5367493f3e2421 76-77,81,133-134,138
+src/components/CaregiverPanel.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 41,62
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_5367493f3e2421 76-77,81,133-134,138
+src/app/payloads/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 12,26
+src/app/explore/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 10,18
+src/lib/ask-compose.ts
+  s_0beac9cb5d78fd::t_5367493f3e2421 312,460,463,472-473,491,572,594,672,756,769,804,847,856
+src/app/countries/cn/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 14,78,82,105,135,140
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_5367493f3e2421 84-87,91,136-140,144
+src/app/coverage/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 15,18
+src/app/models/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 10,72
+src/lib/i18n/ui/ar.ts
+  ai_agent 212,221,231-233,236,246,278,292,299-300,302,307,309-311
+src/app/completeness/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 85,95,99
+src/app/deals/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 13,31
+src/app/roadmap/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 186,190,196,205,215,252
+src/components/SymptomPath.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 111,123,145,171
+src/app/assistance/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 9,22
+src/app/investors/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 12,57
+src/app/symptoms/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 9,21
+src/app/isotopes/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 8,15
+src/app/manufacturing/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 10,31
+src/app/data-sources/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 10,87
+src/components/GraphExplorer.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 311,329
+src/app/guidelines/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 13,28
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_5367493f3e2421 76-77,81,133-134,138
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_5367493f3e2421 76-77,81,133-134,138
+src/app/gaps/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 11,98
+src/app/audit/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 54
+src/app/hta/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 50
+src/app/query/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 19
+src/app/coverage/rankings/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 12,40-41,50,65,71,89,92,110,113
+src/components/Neighbours.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 13,42,45,47
+src/app/pipeline/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 8,17
+src/lib/i18n/ui/ja.ts
+  ai_agent 212,220-221,231,233,236,246,278,292,299-300,302,307,309-311
+src/app/leadership/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 8,14
+src/app/report/2026/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 40,71,87
+src/components/SecondOpinion.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 130,145
+src/app/about/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 26,31,54
+src/lib/i18n/ui/hi.ts
+  ai_agent 212,221,231,236,246,278,292,299-300,302,307,309-311
+src/lib/i18n/ui/es.ts
+  ai_agent 221,231,236,246,278,292,299-300,302,307,309-311
+src/app/prevalence/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 23
+src/app/survivorship/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 11,40
+src/app/countries/in/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 13,70,78,114,132,147
+src/app/paths/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 15
+src/app/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 29-30,39,193,218,241
+src/components/CommandPalette.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 18-20,40
+src/lib/i18n/ui/zh.ts
+  ai_agent 221,231,236,246,278,292,299-300,302,307,309-311
+src/components/OpenMedicalPanel.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 7,19
+src/app/coverage/uk/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 11,64,68,86
+src/app/biomarker-matrix/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 12,47
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_5367493f3e2421 76-77,81,133-134,138
+src/app/freshness/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 23
+src/app/contributors/page.tsx
+  s_0beac9cb5d78fd::t_5367493f3e2421 73,109
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "373f6430e17e83840b973ef12762449f338a7936",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

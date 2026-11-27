@@ -1,0 +1,84 @@
+src/lib/record-sections.test.ts
+  s_0beac9cb5d78fd::t_d1f41aa088cc9b 33
+src/data/spikes/prostate-evidence-roadmap.ts
+  s_0beac9cb5d78fd::t_9a5fa8f73a1e0b 91
+  s_0beac9cb5d78fd::t_88e0d8faa78cab 27-28
+  s_0beac9cb5d78fd::t_23ee81371663bf 67,141
+src/data/spikes/prostate-treatment-shared.ts
+  s_0beac9cb5d78fd::t_9a5fa8f73a1e0b 35-36
+  s_0beac9cb5d78fd::t_073bc7eed3881b 48-49
+src/data/spikes/prostate-evidence-papers-genomics.ts
+  s_0beac9cb5d78fd::t_23ee81371663bf 242
+src/data/spikes/prostate-treatment-trials-localised.ts
+  s_0beac9cb5d78fd::t_9a5fa8f73a1e0b 272
+  s_0beac9cb5d78fd::t_b6b629335a9069 23-46
+  s_0beac9cb5d78fd::t_9e7b4bd150a7e5 22
+src/data/spikes/prostate-molecular.ts
+  s_0beac9cb5d78fd::t_72b53769dd9957 248
+  s_0beac9cb5d78fd::t_300140ebe0a6bb 825
+  s_0beac9cb5d78fd::t_a79567d6709b1e 1099
+  s_0beac9cb5d78fd::t_1dc10e28e2d717 70,72,74,78,80-82,91,95,101,114,1027,1029-1039
+  s_0beac9cb5d78fd::t_91f62172a788ad 264
+src/data/spikes/prostate.ts
+  s_0beac9cb5d78fd::t_f8d6310b857c0f 392
+  s_0beac9cb5d78fd::t_190cf8259530bd 304-306,329-330,424,426
+  s_0beac9cb5d78fd::t_fe3483e4beb111 389
+  s_0beac9cb5d78fd::t_9a5fa8f73a1e0b 208
+  s_0beac9cb5d78fd::t_3b3f7e7406aeb9 394
+src/data/spikes/prostate-evidence-papers-screening.ts
+  s_0beac9cb5d78fd::t_91f62172a788ad 106,140
+src/data/spikes/prostate-living.ts
+  s_0beac9cb5d78fd::t_91f62172a788ad 327,361,363-364
+  s_0beac9cb5d78fd::t_300140ebe0a6bb 353-354
+src/data/spikes/prostate-evidence.ts
+  s_0beac9cb5d78fd::t_f8d6310b857c0f 131
+  s_0beac9cb5d78fd::t_64e751a7c250c7 124,128-129,137,141
+  s_0beac9cb5d78fd::t_23ee81371663bf 91
+src/data/spikes/prostate-core.ts
+  s_0beac9cb5d78fd::t_91f62172a788ad 247
+  s_0beac9cb5d78fd::t_878b444a5a17e2 309
+  s_0beac9cb5d78fd::t_be09eb164036cb 427
+src/lib/term-hover.tsx
+  s_0beac9cb5d78fd::t_fa4b0f4d7e947c 12
+src/data/spikes/prostate-evidence-shared.ts
+  s_0beac9cb5d78fd::t_f8d6310b857c0f 25-28,36
+src/data/spikes/prostate-treatment.ts
+  s_0beac9cb5d78fd::t_91f62172a788ad 80
+  s_0beac9cb5d78fd::t_f2e044238d45b5 97,101
+  s_0beac9cb5d78fd::t_b2af002e3d88b0 3
+  s_0beac9cb5d78fd::t_5e18504c286d99 70,267,294
+  s_0beac9cb5d78fd::t_be09eb164036cb 25,233,282
+src/data/spikes/prostate-glossary.ts
+  s_0beac9cb5d78fd::t_9a5fa8f73a1e0b 55
+src/data/decision-tools/prostate-localised.ts
+  s_0beac9cb5d78fd::t_878b444a5a17e2 142
+docs/PROSTATE-QA.md
+  s_0beac9cb5d78fd::t_647053fb854fdd 1-170,178-205,207-268
+  s_0beac9cb5d78fd::t_d3a4e68947df85 171-177,206
+src/data/spikes/prostate-uk.ts
+  s_0beac9cb5d78fd::t_5b2f0a9d8b6fae 544
+  s_0beac9cb5d78fd::t_9a5fa8f73a1e0b 167,238
+  s_0beac9cb5d78fd::t_0d75fdb95e0da8 123,126,204,282-283,561,630,633
+  s_0beac9cb5d78fd::t_365afecb270c15 119,132,619,622,629,631
+  s_0beac9cb5d78fd::t_1954d8253a4c20 366
+  s_0beac9cb5d78fd::t_be09eb164036cb 397,404,446,457,464,488,613
+  s_0beac9cb5d78fd::t_2938d55d1d1951 530
+src/data/cancers.ts
+  s_0beac9cb5d78fd::t_90a8f136dfaff0 294
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "db99753dfb984cdbbb52931f6aff1e794b72b27c",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

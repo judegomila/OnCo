@@ -1,0 +1,13 @@
+src/data/spikes/ovarian.ts
+  ai_agent 15,169-171,176-180
+src/data/drugs.ts
+  ai_agent 566,568,570,572,575-577,579,581,584-587,590
+CORRECTIONS.md
+  ai_agent 25-27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "44bacc1d4f6e5bb47f19cd17b19c9ef3d867c402",
+  "prompts": {}
+}

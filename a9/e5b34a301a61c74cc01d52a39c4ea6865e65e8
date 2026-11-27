@@ -1,0 +1,99 @@
+src/data/institutions/india.ts
+  ai_agent 20,107
+scripts/fetch-universe-institutions.ts
+  s_1e233a6be244f1::t_5360b191cc84f0 15-18
+  s_1e233a6be244f1::t_2c6c7cc2baa3e8 35
+  s_1e233a6be244f1::t_11789e1de60faf 435
+  s_1e233a6be244f1::t_9c86110c76875e 367-427
+src/data/institutions.ts
+  s_1e233a6be244f1::t_8c8d6a649a2219 144
+src/data/spikes/nci-rare-solid.ts
+  s_1e233a6be244f1::t_8c8d6a649a2219 20
+src/data/institutions/us-cancer-charities.ts
+  s_1e233a6be244f1::t_7edaea14125737 27
+  s_1e233a6be244f1::t_c5dc339b40c116 148
+  s_1e233a6be244f1::t_62c3055a067393 221-222
+  s_1e233a6be244f1::t_8fdabb97733feb 274
+  s_1e233a6be244f1::t_bf9ae39552037a 186
+  s_1e233a6be244f1::t_8cc92168196516 108
+  s_1e233a6be244f1::t_33db2330980f0c 218
+  s_1e233a6be244f1::t_09454f50004d50 275-301,303-330
+  s_1e233a6be244f1::t_2bfd5bd84aa1ff 11-12,14-15,17,19-26,28-31,33-106
+  s_1e233a6be244f1::t_e6322d331ca6b7 32
+  s_1e233a6be244f1::t_de3e7e160f89bd 18
+  s_1e233a6be244f1::t_cad6f2d404a4b2 107,109-147,149-185,187-190
+  s_1e233a6be244f1::t_348098be758937 191-212,214-217,219-220,223-224,226-273
+  s_1e233a6be244f1::t_62f90ce0075c8d 213
+  s_1e233a6be244f1::t_72ac434a7a0cbc 302
+  s_1e233a6be244f1::t_e5b1e224189e16 225
+src/data/institutions/bodies.ts
+  s_1e233a6be244f1::t_8c8d6a649a2219 141
+src/data/sources.ts
+  s_1e233a6be244f1::t_8c8d6a649a2219 87
+src/data/technologies.ts
+  s_1e233a6be244f1::t_8c8d6a649a2219 859
+src/data/investors.ts
+  s_1e233a6be244f1::t_8c8d6a649a2219 240,321
+src/data/institutions/us.ts
+  s_1e233a6be244f1::t_fda3268a9750ee 88,158
+src/data/institutions/donor-foundations.ts
+  ai_agent 118
+src/data/sections.ts
+  s_1e233a6be244f1::t_8c8d6a649a2219 49,89,94
+src/data/supporting.ts
+  s_1e233a6be244f1::t_8c8d6a649a2219 425
+src/data/sarcoma-bone-subtypes.ts
+  s_1e233a6be244f1::t_8c8d6a649a2219 188
+src/data/companies-cooperative-groups-migrated.ts
+  s_1e233a6be244f1::t_8c8d6a649a2219 31
+  s_1e233a6be244f1::t_fda3268a9750ee 55
+src/data/cancers.ts
+  ai_agent 476,732
+  s_1e233a6be244f1::t_8c8d6a649a2219 168,182,261,280,291,356,414,510,527,618,652,678,707
+src/data/bottlenecks.ts
+  s_1e233a6be244f1::t_8c8d6a649a2219 1561,1763
+scripts/institution-coverage.ts
+  s_1e233a6be244f1::t_8f6e49d0e0abe3 44-45,49-51
+  s_1e233a6be244f1::t_93ac351a050a20 84-85
+src/data/people/israel.ts
+  s_1e233a6be244f1::t_8c8d6a649a2219 61
+src/data/institutions/cog-paediatric.ts
+  s_1e233a6be244f1::t_3351540b3772cb 316-341,343-355
+  s_1e233a6be244f1::t_9f75115f4d3e2c 76,78-147,220-315
+  s_1e233a6be244f1::t_cbc177aaa6005e 148-179
+  s_1e233a6be244f1::t_f32017ef10b927 180-181,183-219
+  s_1e233a6be244f1::t_8ac5a4287a0e56 13-75
+  s_1e233a6be244f1::t_bee42b323e50e2 182,342
+src/data/gap-fill.ts
+  s_1e233a6be244f1::t_8c8d6a649a2219 1247,1252,1257,1267,1272,1287,1292,1302,1307
+  s_1e233a6be244f1::t_1845a4d621a535 1007
+src/data/free-wave.ts
+  s_1e233a6be244f1::t_8c8d6a649a2219 146
+src/data/cancer-parents-wave2.ts
+  s_1e233a6be244f1::t_8c8d6a649a2219 13,60,81
+src/data/ivermectin.ts
+  s_1e233a6be244f1::t_8c8d6a649a2219 153
+src/data/institutions/world.ts
+  ai_agent 279
+src/data/institutions/india-ncg.ts
+  s_1e233a6be244f1::t_1bb2b49829669b 31,59,67-68,75,110,123,131,174,181,196,224
+  s_1e233a6be244f1::t_43359d96007154 12-13,15-30,32-58,60-66,69-74,76-109,111-122,124-130,132-173,175-180,182-195,197-223,225-270
+src/data/platform-trials-wave.ts
+  s_1e233a6be244f1::t_8c8d6a649a2219 47,233
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a9e5b34a301a61c74cc01d52a39c4ea6865e65e8",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_e34b20080676b7 12
+src/lib/sitemap-urls.ts
+  s_0beac9cb5d78fd::t_dc5510adcb022d 13
+  s_0beac9cb5d78fd::t_1e93ddbc245201 102
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_622008321d396c 3
+  s_0beac9cb5d78fd::t_ade436618707ae 239
+  s_0beac9cb5d78fd::t_8f9892dc18c0b7 197-198
+  s_0beac9cb5d78fd::t_5982fabb4208ef 212-220,222-224
+src/app/tagged/[tag]/page.tsx
+  s_0beac9cb5d78fd::t_e67e955fdf559b 1-79
+src/components/TaggedBrowser.tsx
+  s_0beac9cb5d78fd::t_1433b81e235d98 1-37,39-53
+  s_0beac9cb5d78fd::t_5829b86a67540a 38
+src/lib/tags.ts
+  s_0beac9cb5d78fd::t_9f4b06b3df03f5 1-3,22-213
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_e34b20080676b7 12
+src/app/heavy-pages.test.ts
+  s_0beac9cb5d78fd::t_d9316d0719d8f8 278-300
+  s_0beac9cb5d78fd::t_80b00d51a25aca 21-22
+src/lib/tables/tagged.ts
+  s_0beac9cb5d78fd::t_1ee60826648d36 1-129
+src/components/EntityDetail.test.ts
+  s_0beac9cb5d78fd::t_1f5e0e718cfead 53
+  s_0beac9cb5d78fd::t_049c60f1cef19c 1-52,54-67,71-73
+  s_0beac9cb5d78fd::t_bde82e37b457cf 68-70
+scripts/api-layout.ts
+  s_0beac9cb5d78fd::t_ca06fae4636e2c 90-91
+  s_0beac9cb5d78fd::t_0c6ff36c0de207 29-31
+scripts/build-api.ts
+  s_0beac9cb5d78fd::t_a0056923441a2e 75-83
+  s_0beac9cb5d78fd::t_58f1aa59b50489 30
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_e34b20080676b7 12
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_e34b20080676b7 12
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_e34b20080676b7 12
+src/app/tagged/tagged.test.ts
+  s_0beac9cb5d78fd::t_442247b8143b48 27-29,33
+  s_0beac9cb5d78fd::t_d7fa7d2ad98b59 59
+  s_0beac9cb5d78fd::t_2fbd0f1f64fc2f 1-26,30-32,34-58,60-85
+src/components/Tabs.tsx
+  s_0beac9cb5d78fd::t_5b88842bfbeb45 12-14,21-29,35,37,87-106,108-114,117-136,139-157,159-164
+src/app/tagged/page.tsx
+  s_0beac9cb5d78fd::t_4a15510297f75a 1-61
+src/lib/tables/index.ts
+  s_0beac9cb5d78fd::t_5b81e291ea2e10 10
+  s_0beac9cb5d78fd::t_30b219d6d151a2 39
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_e34b20080676b7 12
+src/app/globals.css
+  s_0beac9cb5d78fd::t_18e16e7dd1dbcc 441-450,452-453
+src/components/SiteChrome.tsx
+  s_0beac9cb5d78fd::t_f7b550c62847af 86
+  s_0beac9cb5d78fd::t_2d21d7d341fb82 14
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_e34b20080676b7 12
+src/lib/tags.test.ts
+  s_0beac9cb5d78fd::t_e4ea7105b2ae00 1-112
+src/app/explore/page.tsx
+  s_0beac9cb5d78fd::t_5ad5007fc1c852 23
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_1595a6098e8d81 12
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_e34b20080676b7 12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "f0596fee20d1ad14f97cee7ded7c97e9cf869825",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

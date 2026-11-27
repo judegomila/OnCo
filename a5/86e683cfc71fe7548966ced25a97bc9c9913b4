@@ -1,0 +1,48 @@
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_c0ca3c3929d838 14,17,19-20,68,82-86,89,91
+src/data/people/index.ts
+  s_0beac9cb5d78fd::t_d7cb599ff50d6a 7
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_0f28f63fea87da 134-141
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_0f28f63fea87da 134-141
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_0f28f63fea87da 134-141
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_0f28f63fea87da 134-141
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_0f28f63fea87da 134-141
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_0f28f63fea87da 134-141
+src/lib/health.ts
+  s_0beac9cb5d78fd::t_3a511e75564e9d 20,158
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_0f28f63fea87da 134-141
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_0f28f63fea87da 134-141
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_0e5c419674d528 119
+src/data/people/leaders-wave2.ts
+  s_0beac9cb5d78fd::t_0e5c419674d528 85,141,241,393,410,624,771,781,877,1281
+src/data/regional-approvals.test.ts
+  s_0beac9cb5d78fd::t_91a8e2c8b9ddfc 3
+  s_0beac9cb5d78fd::t_3a511e75564e9d 12
+src/data/regional-approvals.ts
+  s_0beac9cb5d78fd::t_91a8e2c8b9ddfc 472-476
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a586e683cfc71fe7548966ced25a97bc9c9913b4",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

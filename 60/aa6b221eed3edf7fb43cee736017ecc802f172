@@ -1,0 +1,95 @@
+src/lib/kinds.ts
+  s_0beac9cb5d78fd::t_98ffaafa18abcb 26,92
+src/lib/term-hover.tsx
+  s_0beac9cb5d78fd::t_e19c320a530ce5 10
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 35
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 228
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 228
+src/lib/health.ts
+  s_0beac9cb5d78fd::t_e19c320a530ce5 113
+scripts/rdf.ts
+  s_0beac9cb5d78fd::t_9932cfe809e390 26
+packages/onco-mcp/src/server.test.ts
+  s_0beac9cb5d78fd::t_9932cfe809e390 81
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 35
+src/components/RouteIcon.tsx
+  s_0beac9cb5d78fd::t_6bbf64dc356bbd 64
+src/data/universe.ts
+  s_0beac9cb5d78fd::t_2c102398e46aff 188
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 259
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 35
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 228
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 228
+src/lib/kind-browser.test.ts
+  s_0beac9cb5d78fd::t_9932cfe809e390 50
+scripts/new-record.ts
+  s_0beac9cb5d78fd::t_9932cfe809e390 28,34
+  s_0beac9cb5d78fd::t_42bba22f86314f 19
+src/components/KindIcon.tsx
+  s_0beac9cb5d78fd::t_e19c320a530ce5 27
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 35
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 228
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 35
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 228
+src/lib/text.ts
+  s_0beac9cb5d78fd::t_9932cfe809e390 117
+src/lib/schema-docs.ts
+  s_0beac9cb5d78fd::t_9932cfe809e390 13,18
+  s_0beac9cb5d78fd::t_6bbf64dc356bbd 93
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 35
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 35
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 228
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 35
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 228
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_2c1b9b0bead783 417-470,472,475-489
+  s_0beac9cb5d78fd::t_af3e4c8350123a 471,473-474
+  s_0beac9cb5d78fd::t_6a0b792af995d8 538,561,582
+src/lib/completeness.test.ts
+  s_0beac9cb5d78fd::t_2c102398e46aff 31
+src/lib/agent-surface.test.ts
+  s_0beac9cb5d78fd::t_9932cfe809e390 24
+src/lib/source-location.ts
+  s_0beac9cb5d78fd::t_9932cfe809e390 14
+src/lib/semantic-docs.ts
+  s_0beac9cb5d78fd::t_e19c320a530ce5 29
+src/lib/graph.ts
+  s_0beac9cb5d78fd::t_92d3ae5bb0cf16 136-137
+src/lib/graph-layout.ts
+  s_0beac9cb5d78fd::t_9932cfe809e390 29,33
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_eb2d0d909bef40 39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "60aa6b221eed3edf7fb43cee736017ecc802f172",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

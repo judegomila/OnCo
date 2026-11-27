@@ -1,0 +1,55 @@
+src/data/supporting.ts
+  s_0beac9cb5d78fd::t_5a610b8d49693a 866
+src/data/tests.ts
+  s_0beac9cb5d78fd::t_5a610b8d49693a 550
+src/components/ui.tsx
+  s_0beac9cb5d78fd::t_be5c1fd3102e4e 84
+CHANGELOG.md
+  ai_agent 10
+docs/IMPROVEMENTS-100.md
+  s_0beac9cb5d78fd::t_0014bbb604de45 158
+  s_0beac9cb5d78fd::t_ea3d621968feae 159
+  s_0beac9cb5d78fd::t_5a610b8d49693a 153-157
+src/app/page.tsx
+  s_0beac9cb5d78fd::t_5a610b8d49693a 113
+src/data/i18n/zh.ts
+  s_0beac9cb5d78fd::t_5a610b8d49693a 10894-10896
+src/data/index.ts
+  s_0beac9cb5d78fd::t_5a610b8d49693a 77,153
+src/data/companies.ts
+  s_0beac9cb5d78fd::t_5a610b8d49693a 273,277,608
+src/data/diagnostics-wave1.ts
+  s_0beac9cb5d78fd::t_5a610b8d49693a 1-35
+src/app/globals.css
+  s_0beac9cb5d78fd::t_520b0d2c153b8b 212-216
+src/components/NavMenu.tsx
+  s_0beac9cb5d78fd::t_5a610b8d49693a 96
+src/components/RegionToggle.tsx
+  s_0beac9cb5d78fd::t_5a610b8d49693a 34,39,45
+src/components/GitHubStars.tsx
+  s_0beac9cb5d78fd::t_5a610b8d49693a 10,19,38
+src/components/GroupLanding.tsx
+  s_0beac9cb5d78fd::t_712a05064ab27b 29
+src/data/schematics.ts
+  s_0beac9cb5d78fd::t_5a610b8d49693a 564
+src/app/layout.tsx
+  s_0beac9cb5d78fd::t_ea3d621968feae 2,102
+src/components/ExternalLinks.tsx
+  s_0beac9cb5d78fd::t_ea3d621968feae 1-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "7f47a0787526abc42aa838da2c71d97c111f79b1",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

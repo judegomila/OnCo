@@ -1,0 +1,63 @@
+scripts/build-api.ts
+  s_0beac9cb5d78fd::t_e49f41c6db48b3 75-76
+  s_0beac9cb5d78fd::t_53a75d58f82eb5 35
+scripts/fetch-globocan-site.ts
+  s_0beac9cb5d78fd::t_495c538124c5d3 1-101
+scripts/api-layout.ts
+  s_0beac9cb5d78fd::t_b076c878bdea54 41,105
+src/data/country-in.ts
+  s_0beac9cb5d78fd::t_2fa09fde98f7c8 192
+  s_0beac9cb5d78fd::t_f51b7bd2d9b098 142-186
+  s_0beac9cb5d78fd::t_51455eadcc86e3 191
+package.json
+  s_0beac9cb5d78fd::t_5f4284146a6e13 54
+src/lib/cancer-geography.ts
+  s_0beac9cb5d78fd::t_d638849b77e332 1-180
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_e6ff8a9261c8bc 45,52
+src/data/spikes/gallbladder-geography.ts
+  s_0beac9cb5d78fd::t_de5e5f65b709d9 1-169,171-258,260-313
+  s_0beac9cb5d78fd::t_0e5c496e0729d5 170
+  s_0beac9cb5d78fd::t_883e4d722f734e 259
+src/components/CancerGeography.tsx
+  s_0beac9cb5d78fd::t_58ad53b6a380dc 41
+  s_0beac9cb5d78fd::t_e0adccd64cc909 3
+  s_0beac9cb5d78fd::t_266ca7c9a46d67 1-2,4-40,42-171
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_6e7b54282f4ff1 811
+  s_0beac9cb5d78fd::t_f12243cdd3a504 73-74
+src/components/CancerGeographySection.tsx
+  s_0beac9cb5d78fd::t_7ef44c6ab944f2 1-177
+src/app/countries/in/page.tsx
+  s_0beac9cb5d78fd::t_b02499a354495a 97
+  s_0beac9cb5d78fd::t_5c6fbaa13c40f3 11-12
+  s_0beac9cb5d78fd::t_ecdbef729509c4 73-76
+  s_0beac9cb5d78fd::t_8cb7710c04f2ba 114-129,131-134
+  s_0beac9cb5d78fd::t_c03d2791e3b370 130
+public/globocan/sites/12-gallbladder-by-sex.json
+  s_0beac9cb5d78fd::t_c8ccaccb64f86b 1
+src/components/GeoGlyph.tsx
+  s_0beac9cb5d78fd::t_634122f8a16565 1-35
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_c11fd2082779a5 64-65
+src/lib/cancer-geography.test.ts
+  s_0beac9cb5d78fd::t_0ed9b57475e9e0 1-120,122-123,125-130
+  s_0beac9cb5d78fd::t_7ef7b9d94e7ffc 121
+  s_0beac9cb5d78fd::t_5013382bf47902 124
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "57ed22addc6fa39290b464de482aa6ceeb702369",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+src/app/machines/page.tsx
+  s_0beac9cb5d78fd::t_e9d3013cdd4459 12
+  s_0beac9cb5d78fd::t_c9214a576dc70c 16-24,28
+src/data/index.ts
+  s_0beac9cb5d78fd::t_239d78978c1d78 94,165
+src/data/schematics.ts
+  s_0beac9cb5d78fd::t_34e333754e5eb1 563,571
+src/data/machines-wave2.ts
+  s_0beac9cb5d78fd::t_e87f095647985e 54,112,121,149,214,330,334,346,350,354
+  s_0beac9cb5d78fd::t_337e2ce5182108 196,205,245
+  s_0beac9cb5d78fd::t_264d48bc5794a7 241
+  s_0beac9cb5d78fd::t_e84104e6716f51 1-53,55-111,113-120,122-148,150-195,197-204,206-213,215-240,242-244,247-329,331-333,335-345,347-349,351-353,355-467
+  s_0beac9cb5d78fd::t_160f95a9361b37 246
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_aec5cf6972fef7 950
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "1f545daf9e67f34b5e5c56a8ccdc4b959d1f09c2",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+src/data/radiation-wave2.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 102,109
+src/data/spikes/melanoma.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 195
+src/data/pipeline-trials-wave5.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 382,1096,1774,2764
+src/data/spikes/sclc.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 29,40,51,63,77,82,90,97,110,123,132,142
+src/data/lung-subtypes.ts
+  s_0beac9cb5d78fd::t_f11b2078932ad2 1-149
+  s_0beac9cb5d78fd::t_d96b8b1dea1f82 150-584
+src/data/platform-trials-wave.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 67,85
+src/data/radiation-wave4.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 118,125
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 157,162,274,279,284,294,299,304,309,314,319,324,329,334
+src/data/pipeline-trials-wave2.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 149,695
+src/data/trials.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 25,33,175,181,187,193,205
+src/data/pipeline-trials-wave4.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 552,876,948,1398,1512
+src/data/drugs-approved-wave1.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 70,166
+src/data/spikes/nsclc.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 30,36,42,48,54,60,66,72,78,84,90,96,102,108,114,119,125,131,141,147,153,159,165,171,177,183,189,195,202,258
+src/data/india.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 195
+src/data/drugs-pipeline-wave2.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 43
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_fcbd897d50543e 58
+scripts/fold-zh.ts
+  s_0beac9cb5d78fd::t_5bc7eca15dabdb 20,22
+src/data/pipeline-trials-wave6.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 2153,2693,2777,2867,2921,7337,7871,9161,9407
+src/data/index.ts
+  s_0beac9cb5d78fd::t_0003f68ecaa064 175
+  s_0beac9cb5d78fd::t_3620ea0dbefbe2 98
+src/data/china.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 110,166,178,210
+src/data/drugs-china-wave1.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 17,22
+src/data/drugs-pipeline-wave1.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 65,359
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 36,50,121,166,174,248,261,283,296,320,330,370,394,493,501,509,517,534,542,550,558
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "8effc34ed5bc86d7e0669694f24fe55138b23297",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

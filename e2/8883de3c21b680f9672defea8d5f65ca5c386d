@@ -1,0 +1,34 @@
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_5fda8f48b6834d 123
+src/data/spikes/pancreatic-core.ts
+  s_0beac9cb5d78fd::t_b284d27fb171ca 410
+  s_0beac9cb5d78fd::t_8071b39cd2f7cc 494
+  s_0beac9cb5d78fd::t_a3103b100be7b5 424
+  s_0beac9cb5d78fd::t_77ebfaac693e88 329
+  s_0beac9cb5d78fd::t_4337a42cc95fb9 348
+  s_0beac9cb5d78fd::t_15cec119f9e862 291
+  s_0beac9cb5d78fd::t_1a01596db04667 367
+  s_0beac9cb5d78fd::t_f655f1e5c81aa1 473
+  s_0beac9cb5d78fd::t_18aabdb195dd10 466
+  s_0beac9cb5d78fd::t_947cc6dca4599f 1-290,292-328,330-347,349-366,368-409,411-423,425-458,460-465,467-472,474-479,481-493,495-525
+  s_0beac9cb5d78fd::t_47d44fd558c7eb 459
+  s_0beac9cb5d78fd::t_85d0edc878971e 480
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_5fda8f48b6834d 31,72
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "e28883de3c21b680f9672defea8d5f65ca5c386d",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+src/data/index.ts
+  ai_agent 159,249
+src/data/simple/part-q.ts
+  s_0beac9cb5d78fd::t_a344a747513eb3 58
+src/data/drugs-subtypes-wave.ts
+  s_0beac9cb5d78fd::t_a344a747513eb3 95,99-100,114,116-121,123
+src/data/drugs-ema-wave.ts
+  s_0beac9cb5d78fd::t_a344a747513eb3 39,45,47,53
+src/data/issues-2026-09-wave-b.ts
+  s_0beac9cb5d78fd::t_a344a747513eb3 1-419
+src/data/i18n/zh.ts
+  s_0beac9cb5d78fd::t_a344a747513eb3 8592,10560
+src/data/drugs-pipeline-wave1.ts
+  s_0beac9cb5d78fd::t_a344a747513eb3 1702,1705-1707
+src/data/simple/part-p.ts
+  s_0beac9cb5d78fd::t_a344a747513eb3 551
+src/data/spikes/prostate.ts
+  s_0beac9cb5d78fd::t_a344a747513eb3 184
+src/data/tests.ts
+  s_0beac9cb5d78fd::t_a344a747513eb3 195,203,322,330,373,381
+src/data/spikes/nsclc.ts
+  s_0beac9cb5d78fd::t_a344a747513eb3 159
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_a344a747513eb3 147,462,466
+src/lib/corpus-rules.test.ts
+  s_0beac9cb5d78fd::t_a344a747513eb3 72-74
+src/data/pipeline-trials-wave5.ts
+  s_0beac9cb5d78fd::t_a344a747513eb3 2760-2776
+src/data/pipeline-trials-wave6.ts
+  s_0beac9cb5d78fd::t_a344a747513eb3 5233-5250
+src/data/drugs-approved-wave1.ts
+  ai_agent 313,317-318,379,383-384,390,394,433,437-438
+src/data/radiation-wave3.ts
+  s_0beac9cb5d78fd::t_a344a747513eb3 28,31-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "baa99e5684d87e9b8a13005285f831fad19fcefd",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

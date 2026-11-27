@@ -1,0 +1,30 @@
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_9ba9521298d5ba 70,77
+src/data/staging.ts
+  s_0beac9cb5d78fd::t_a2f1dcb4485f97 94-101
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_9ba9521298d5ba 89-90
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_3545ff38ae420f 167
+src/data/spikes/prostate-core.ts
+  s_0beac9cb5d78fd::t_17dff6b219041a 214
+  s_0beac9cb5d78fd::t_d515507814f3fb 1-213,215-499
+docs/CANCER-PAGES.md
+  s_0beac9cb5d78fd::t_b3b7a7db580b40 130-180
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "deea40775935a3c9a9f2079264e012bdcdd20423",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

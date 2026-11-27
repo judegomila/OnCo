@@ -1,0 +1,33 @@
+public/product-queue.json
+  s_0beac9cb5d78fd::t_c959e16e1d40cc 1-11
+scripts/propose-product-change.sh
+  s_0beac9cb5d78fd::t_c959e16e1d40cc 1-35
+docs/PRODUCT-APPROVAL.md
+  s_0beac9cb5d78fd::t_c959e16e1d40cc 1-41
+scripts/change-class.ts
+  s_0beac9cb5d78fd::t_c959e16e1d40cc 1-58
+scripts/queue-product-change.ts
+  s_0beac9cb5d78fd::t_c959e16e1d40cc 1-24
+src/lib/record-sections.ts
+  s_0beac9cb5d78fd::t_c959e16e1d40cc 137
+scripts/ship.sh
+  s_0beac9cb5d78fd::t_c959e16e1d40cc 29-50
+scripts/change-class.test.ts
+  s_0beac9cb5d78fd::t_c959e16e1d40cc 1-47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "bd3279be0a15fa4ff23dfe63dec3148d3fa6a501",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

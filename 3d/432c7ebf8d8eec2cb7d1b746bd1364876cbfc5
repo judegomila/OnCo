@@ -1,0 +1,47 @@
+src/data/spikes/prostate-living.ts
+  s_0beac9cb5d78fd::t_7652df10fe44a9 330
+  s_0beac9cb5d78fd::t_e90cbad6c3256a 240-244
+  s_0beac9cb5d78fd::t_a09523d21b6764 1-122,126-239,245-246,248-250,252-254,256-258,260-262,264-266,268-270,272-274,276-278,280-282,284-286,288-290,292-304,306-329,331-351,353-367
+  s_0beac9cb5d78fd::t_c24bb618f1491f 247,251,255,259,263,267,271,275,279,283,287,291
+  s_0beac9cb5d78fd::t_cd99048a1c6731 305
+  s_0beac9cb5d78fd::t_ddc3abb5949616 352
+  s_0beac9cb5d78fd::t_192e689c272d97 123-125
+src/lib/decision-tools.ts
+  s_0beac9cb5d78fd::t_7f0809f03aa537 7,80
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_8fbd759b50e589 68,77
+src/lib/red-flags.test.ts
+  s_0beac9cb5d78fd::t_fe2d8b0486db32 42-44
+src/lib/decision-tools.test.ts
+  s_0beac9cb5d78fd::t_e94fa1b11533c8 218
+  s_0beac9cb5d78fd::t_aee97f4a7a225d 198-217,219-223
+src/data/decision-tools/prostate-localised.ts
+  s_0beac9cb5d78fd::t_dce0007b79c3ee 66-67
+  s_0beac9cb5d78fd::t_21bc76c4e61598 1-65,68-370,372,378-411,413-417
+  s_0beac9cb5d78fd::t_474d60b7460a05 412
+  s_0beac9cb5d78fd::t_099b6156b239fa 371,373-377
+src/data/questions.ts
+  s_0beac9cb5d78fd::t_8fbd759b50e589 13,22
+src/data/red-flags.ts
+  s_0beac9cb5d78fd::t_48fec8b1a77da7 99-107,622-696
+src/data/first-60-days-checklists.ts
+  s_0beac9cb5d78fd::t_bed95095228204 132-148,172-192
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_8fbd759b50e589 89-90
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "3d432c7ebf8d8eec2cb7d1b746bd1364876cbfc5",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

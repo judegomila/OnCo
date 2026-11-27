@@ -1,0 +1,83 @@
+src/data/institutions/israel.ts
+  s_0beac9cb5d78fd::t_9ab4f6fe0fedb3 1-20,22-28,30-32,40-43,45-46
+  s_0beac9cb5d78fd::t_88345c8a8cc5ee 33-39
+  s_0beac9cb5d78fd::t_88f23e7aee70a8 29
+  s_0beac9cb5d78fd::t_27944e43363c55 21,44
+src/data/institutions/europe.ts
+  s_0beac9cb5d78fd::t_365308ecd8c722 500,506
+  s_0beac9cb5d78fd::t_2555754a86582e 513
+  s_0beac9cb5d78fd::t_082155eb81d5c2 495
+  s_0beac9cb5d78fd::t_965cc547782a33 488
+  s_0beac9cb5d78fd::t_e228750cf71f18 489
+  s_0beac9cb5d78fd::t_856b55a62c0b08 518
+scripts/tmp-il.ts
+  s_0beac9cb5d78fd::t_e216f655900387 1-10
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_01429581439e2a 153
+src/data/institutions/centres-wave3.ts
+  s_0beac9cb5d78fd::t_48c94b55d00082 358
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_01429581439e2a 153
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_01429581439e2a 153
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_01429581439e2a 153
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_b080fc32875697 136
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_01429581439e2a 153
+src/app/countries/il/page.tsx
+  s_0beac9cb5d78fd::t_b259eaf8b7a4b8 1-226
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_5e0836a1c4fe0d 841
+  s_0beac9cb5d78fd::t_9891b6562afea0 848
+  s_0beac9cb5d78fd::t_4711b8270fc70b 870
+src/data/israel.ts
+  s_0beac9cb5d78fd::t_c32a1a4b1aef5d 109
+  s_0beac9cb5d78fd::t_400406e54685ed 1-108,110-113
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_01429581439e2a 153
+src/components/RouteIcon.tsx
+  s_0beac9cb5d78fd::t_b080fc32875697 102
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_01429581439e2a 153
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_01429581439e2a 153
+src/data/terms.ts
+  s_0beac9cb5d78fd::t_161b9b8dc8717d 43-53
+src/data/index.ts
+  s_0beac9cb5d78fd::t_29bc556c1de3cd 80
+  s_0beac9cb5d78fd::t_c9e12d4cd33c3d 246
+  s_0beac9cb5d78fd::t_3715dda67da2a3 77
+  s_0beac9cb5d78fd::t_31c4e779b4f555 243
+src/data/people/index.ts
+  s_0beac9cb5d78fd::t_e83259233f13e8 9
+  s_0beac9cb5d78fd::t_0f2f27bf049868 17
+src/data/people/israel.ts
+  s_0beac9cb5d78fd::t_01ad0cee7ea2fe 204
+  s_0beac9cb5d78fd::t_f7aaf9525c51e5 144
+  s_0beac9cb5d78fd::t_4d6cbb0de750fa 44
+  s_0beac9cb5d78fd::t_c13592b4af134c 30
+  s_0beac9cb5d78fd::t_9ea03fd2167b0b 1-29,31-43,45-117,119-143,145-167,169-203,205-206
+  s_0beac9cb5d78fd::t_257d50beccabba 118
+  s_0beac9cb5d78fd::t_1de6d473d164a4 168
+src/data/spikes/ovarian.ts
+  s_0beac9cb5d78fd::t_f1529d02cd21c3 202
+  s_0beac9cb5d78fd::t_0a50a7dd4f3b38 200
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "d61cd9a2f6de7897ef328e1ca91598bafedfd967",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

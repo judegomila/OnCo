@@ -1,0 +1,51 @@
+src/components/RoadmapStory.tsx
+  s_0beac9cb5d78fd::t_725dfa9621f22d 52-53
+  s_0beac9cb5d78fd::t_f282607d6dcfc7 7-8,10
+  s_0beac9cb5d78fd::t_7f9ff7d24bed65 93-95
+  s_0beac9cb5d78fd::t_347a79beacbc79 63
+  s_0beac9cb5d78fd::t_3261bb4e1a73f6 96,98
+  s_0beac9cb5d78fd::t_e3fc718be38a2f 21-22,24,28-29
+  s_0beac9cb5d78fd::t_ca7a20ae38c951 11-12
+src/components/RoadmapEras.tsx
+  s_0beac9cb5d78fd::t_e15d81d9df0f4f 48
+  s_0beac9cb5d78fd::t_eb3ebcc33935ab 1-47,49-123,125-127,129-189
+  s_0beac9cb5d78fd::t_cb51b79782aabf 124,128
+src/lib/roadmap-story.ts
+  s_0beac9cb5d78fd::t_9b855c0a0d922d 5-7,10
+  s_0beac9cb5d78fd::t_9c1b7a83d71eaf 4,8
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_47b95d35a1df85 432
+  s_0beac9cb5d78fd::t_eceadf701f1eb2 577-582,584,586-588,591-602,604-606,608,610,613-614
+  s_0beac9cb5d78fd::t_b6f7cad2a91534 69-70
+src/lib/roadmap-eras.ts
+  s_0beac9cb5d78fd::t_5d0e39268615b3 1-11,14-15,18-83
+  s_0beac9cb5d78fd::t_2ddbec91016fac 12-13,16-17
+src/app/heavy-pages.test.ts
+  s_0beac9cb5d78fd::t_4fa8875135a55d 26-27
+  s_0beac9cb5d78fd::t_8795d19dcbb5f2 351-354,358-382,384-385,387-397
+  s_0beac9cb5d78fd::t_388156eafac54c 386
+  s_0beac9cb5d78fd::t_7f569f1ec6e9bd 355-357
+  s_0beac9cb5d78fd::t_5bbadbea986994 24,383
+scripts/build-api.ts
+  s_0beac9cb5d78fd::t_b9ac965f376111 103-106
+  s_0beac9cb5d78fd::t_ef3d5cba83b437 38
+scripts/api-layout.ts
+  s_0beac9cb5d78fd::t_ec38dd9daa3e82 107
+  s_0beac9cb5d78fd::t_ed51cd657299c5 41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "85d87006cec97408e2e829ce3ff4a01f2dee98e3",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

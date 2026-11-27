@@ -1,0 +1,92 @@
+src/data/protocols/iodinated-contrast-kidney-and-metformin.ts
+  s_1e233a6be244f1::t_f2426e3418f864 259
+src/data/protocols/radiotherapy-dose-fractionation-reference.ts
+  ai_agent 46,67,88,95
+  s_1e233a6be244f1::t_8e467682fb716f 1-45,47-66,68-87,89-94,96-213
+src/data/protocols/radiotherapy-planning-ct-simulation.ts
+  s_1e233a6be244f1::t_9a5445d4bfb4bf 1-189
+src/data/protocols/pelvic-radiation-disease-bowel-symptoms.ts
+  s_1e233a6be244f1::t_f2426e3418f864 200
+src/data/protocols/respiratory-motion-management-4d-ct-and-gating.ts
+  s_1e233a6be244f1::t_19c306131d76bc 1-189
+src/data/protocols/lutetium-177-therapy-home-radiation-safety.ts
+  s_1e233a6be244f1::t_f2426e3418f864 195
+src/data/protocols/radiotherapy-risk-analysis-fmea.ts
+  s_1e233a6be244f1::t_654eb453319bd6 1-31,33-119,121-124,126-137,139-220
+  s_1e233a6be244f1::t_ed925fafeba6af 32,120,125,138
+src/data/protocols/diagnostic-bronchoscopy-and-ebus-preparation.ts
+  s_1e233a6be244f1::t_7f8a0993fefc6b 1-206,208-218
+src/data/protocols/hdr-brachytherapy-room-safety-and-stuck-source-emergency.ts
+  s_1e233a6be244f1::t_bbefeefa5c0a15 222
+  s_1e233a6be244f1::t_6590203de59ace 1-221,223-225
+src/data/protocols/image-guided-core-biopsy-preparation-and-aftercare.ts
+  s_1e233a6be244f1::t_473f284ae54cb9 1-219
+src/data/protocols/contrast-reaction-history-and-premedication.ts
+  s_1e233a6be244f1::t_f2426e3418f864 156
+src/data/protocols/linear-accelerator-quality-assurance.ts
+  s_1e233a6be244f1::t_93cac1cf9b0d1c 1-148,150-160,162-166,168-265,267-268
+src/data/protocols/head-and-neck-radiotherapy-immobilisation-mask.ts
+  s_1e233a6be244f1::t_f7e26d36a173df 1-254
+src/data/protocols/bone-marrow-aspirate-and-trephine-biopsy.ts
+  s_1e233a6be244f1::t_c2fbd52c91fa11 1-254
+src/data/protocols/prostate-biopsy-route-and-antibiotic-prophylaxis.ts
+  s_1e233a6be244f1::t_656d3ae79437b3 1-236
+src/data/protocols/radiotherapy-with-pacemaker-or-defibrillator.ts
+  s_1e233a6be244f1::t_1b480676a4abee 1-223
+src/data/protocols/stereotactic-radiosurgery-and-sbrt-delivery-safeguards.ts
+  s_1e233a6be244f1::t_ad881b12350575 1-207
+src/data/spikes/protocol-upgrades-care.ts
+  s_1e233a6be244f1::t_684295d7468d9b 308
+  s_1e233a6be244f1::t_f2426e3418f864 30-32
+  s_1e233a6be244f1::t_61a81ace8e093c 150-307
+src/data/protocols/fdg-pet-ct-preparation.ts
+  s_1e233a6be244f1::t_f2426e3418f864 168
+src/data/protocols/index.ts
+  s_1e233a6be244f1::t_7a95f7cdb72e9d 35-39,79-83
+  s_1e233a6be244f1::t_9b6cf2b30deffb 26-29,70-73
+  s_1e233a6be244f1::t_dc75d7a6330d6f 30-34,74-78
+  s_1e233a6be244f1::t_c220761e6bb40b 21-25,65-69
+src/data/protocols/permanent-prostate-seed-brachytherapy-home-radiation-safety.ts
+  s_1e233a6be244f1::t_e9655cc97f70fc 1-190
+src/data/protocols/fertility-protection-before-pelvic-radiotherapy.ts
+  s_1e233a6be244f1::t_1710d11bef96a6 1-31,33-111,114-241
+  s_1e233a6be244f1::t_c930b308cb0334 32,112-113
+src/data/protocols/gadolinium-contrast-kidney-impairment.ts
+  s_1e233a6be244f1::t_3ca18cbdeeec32 1-67,69-174,176-183
+  s_1e233a6be244f1::t_5d85f9ceeab1f6 68
+  s_1e233a6be244f1::t_189cb13d0ee9d7 175
+src/data/protocols/head-and-neck-radiotherapy-dental-assessment-osteoradionecrosis.ts
+  s_1e233a6be244f1::t_f2426e3418f864 189
+src/data/protocols/radionuclide-therapy-patient-release-criteria.ts
+  s_1e233a6be244f1::t_9069a901d9df7b 1-123,125-266
+src/data/protocols/radiotherapy-pregnancy-and-breastfeeding-enquiry.ts
+  s_1e233a6be244f1::t_f2426e3418f864 173
+  s_1e233a6be244f1::t_f6350dd1121c9e 177
+  s_1e233a6be244f1::t_c220761e6bb40b 172
+src/data/protocols/radiotherapy-consent.ts
+  s_1e233a6be244f1::t_e405e2942072d8 1-238
+src/data/protocols/radioiodine-therapy-home-radiation-safety.ts
+  s_1e233a6be244f1::t_bd91fbe6b69e93 174
+  s_1e233a6be244f1::t_cb039f71195e13 39
+  s_1e233a6be244f1::t_b4922a48264f07 1-38,40-173,175-278
+src/data/protocols/head-and-neck-radiotherapy-oral-mucositis.ts
+  s_1e233a6be244f1::t_f2426e3418f864 211
+src/data/protocols/anticoagulants-and-antiplatelets-before-endoscopy.ts
+  s_1e233a6be244f1::t_f2426e3418f864 183
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "28951c117061bbb971fd266224a9fd03aa4b236e",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

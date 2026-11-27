@@ -1,0 +1,19 @@
+src/data/companies-sponsors.ts
+  s_0beac9cb5d78fd::t_2fae4adb83c1eb 157,233,249-250,261,272,283,289-290,311,327,338,434-435,441-442,453,469,572,578,589,625,631,663,669,711,727,769,806,851,856,869,875,880,885,890,897,903,908,916,922,933
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "64cdd36b9a163a62cf371f3a5d81b7b5cb4534f1",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

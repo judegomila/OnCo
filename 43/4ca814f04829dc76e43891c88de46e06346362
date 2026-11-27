@@ -1,0 +1,67 @@
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_d7b56255445f93 151
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_b4d80845fd4f2a 151
+src/lib/tables/index.ts
+  s_0beac9cb5d78fd::t_6a4f8f9ad34ab5 9
+  s_0beac9cb5d78fd::t_4a436d5b806c86 38
+src/lib/tables/open-source.ts
+  s_0beac9cb5d78fd::t_53488a7ed3b5d3 1-93
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_4be98b11033eff 180
+src/app/open-tools/page.tsx
+  s_0beac9cb5d78fd::t_b5b076496bac0d 48
+src/app/open-source/page.tsx
+  s_0beac9cb5d78fd::t_b3194ba3a0ccef 1-56,58-100
+  s_0beac9cb5d78fd::t_837806fe1f8e2c 57
+src/components/OpenSourcePanel.tsx
+  s_0beac9cb5d78fd::t_e9ff0c9456571c 25
+  s_0beac9cb5d78fd::t_6dd37166aecdda 1,3-10,12-15,17-24,26-58
+  s_0beac9cb5d78fd::t_bf30dceb72ce88 11,16
+  s_0beac9cb5d78fd::t_2b86ddaec01e2f 2
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_cac8870886c280 151
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_55741dc5abddd0 151
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_a6ad93bbd28221 214
+  s_0beac9cb5d78fd::t_90ccdb3b0aa4d9 104
+src/app/data-sources/page.tsx
+  s_0beac9cb5d78fd::t_a59bd8a83df02e 85
+  s_0beac9cb5d78fd::t_a48d4a2da6e1b7 8
+  s_0beac9cb5d78fd::t_6db8c99f08820d 18-25
+  s_0beac9cb5d78fd::t_43a09b33dcae0f 54
+  s_0beac9cb5d78fd::t_ff6b24634f13d9 74
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_d6cb5eace1db77 151
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_fec9069e805e5b 151
+scripts/build-api.ts
+  s_0beac9cb5d78fd::t_9f7bdae9e48cc7 88-89
+  s_0beac9cb5d78fd::t_30ef582ab389cc 18
+src/lib/open-source.ts
+  s_0beac9cb5d78fd::t_303b32ae4fece4 1-5,8-106
+  s_0beac9cb5d78fd::t_d3a00b4a548f70 6-7
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_b3d3acd42a8e38 151
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_01525fc99a5434 151
+src/components/RouteIcon.tsx
+  s_0beac9cb5d78fd::t_b4f573a3ef5f7c 131
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "434ca814f04829dc76e43891c88de46e06346362",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

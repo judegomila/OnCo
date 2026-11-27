@@ -1,0 +1,41 @@
+src/data/decision-tools/tnbc-after-chemotherapy.ts
+  s_0beac9cb5d78fd::t_03f923fad15ca7 1-211
+src/data/red-flags.ts
+  s_0beac9cb5d78fd::t_34349894199ec7 55-58,327-358
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_aaa4d8d690f62d 67
+  s_0beac9cb5d78fd::t_d420c96780ae75 68
+src/data/first-60-days-checklists.ts
+  s_0beac9cb5d78fd::t_34349894199ec7 43-64,86-105
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_aaa4d8d690f62d 48
+  s_0beac9cb5d78fd::t_74f92b7a133cf7 55
+src/lib/model-reviews.test.ts
+  s_0beac9cb5d78fd::t_57e862be1fd8c2 94-98
+src/data/questions.ts
+  s_0beac9cb5d78fd::t_aaa4d8d690f62d 9,13
+src/lib/first-60-days.test.ts
+  s_0beac9cb5d78fd::t_aaa4d8d690f62d 62
+src/lib/decision-tools.test.ts
+  s_0beac9cb5d78fd::t_df4027bbac3eca 10,149-173
+src/lib/decision-tools.ts
+  s_0beac9cb5d78fd::t_df4027bbac3eca 3,76
+src/lib/red-flags.test.ts
+  s_0beac9cb5d78fd::t_aaa4d8d690f62d 34-35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a482e4057bdcabc2744bcd5b58b0d88a99e67215",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

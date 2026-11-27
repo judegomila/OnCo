@@ -1,0 +1,29 @@
+src/data/people/us-east.ts
+  s_0beac9cb5d78fd::t_a552e6880c89f9 202-206
+vercel.json
+  s_0beac9cb5d78fd::t_f5a32872331ea8 138-172
+src/data/institutions/bodies.ts
+  s_0beac9cb5d78fd::t_2c99252e003a7a 280,566,587
+src/data/people/asia-pacific.ts
+  s_0beac9cb5d78fd::t_a552e6880c89f9 237,240-241,243,251-252,254-257,542-543,545-548,570-571,573,575-576,614-615,617-620
+src/data/institutions/world.ts
+  s_0beac9cb5d78fd::t_2c99252e003a7a 33,45,209,302
+src/data/people/china.ts
+  s_0beac9cb5d78fd::t_a552e6880c89f9 46,51-52
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "f3dd1e229740ddf5893ba276a8ded3b0875a19d0",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

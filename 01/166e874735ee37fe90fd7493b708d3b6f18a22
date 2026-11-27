@@ -1,0 +1,34 @@
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_bad9c8b4b44522 765,768-769
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_bad9c8b4b44522 257,263-264
+src/data/trials.ts
+  s_0beac9cb5d78fd::t_b546586166c31c 252
+  s_0beac9cb5d78fd::t_bad9c8b4b44522 249-251,253-258
+src/data/trial-outcomes.ts
+  s_0beac9cb5d78fd::t_bad9c8b4b44522 305-320
+src/data/ctdna-roadmap.ts
+  s_0beac9cb5d78fd::t_bad9c8b4b44522 38,62,101-102,123-124
+src/data/tumour-tests.ts
+  s_0beac9cb5d78fd::t_bad9c8b4b44522 110-113
+src/data/papers-watch-2026-09.ts
+  s_0beac9cb5d78fd::t_cff5ba500eda03 14-18,78-79,81-90
+  s_0beac9cb5d78fd::t_bad9c8b4b44522 4
+  s_0beac9cb5d78fd::t_b546586166c31c 80
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "01166e874735ee37fe90fd7493b708d3b6f18a22",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

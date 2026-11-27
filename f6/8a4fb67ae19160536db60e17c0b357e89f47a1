@@ -1,0 +1,73 @@
+scripts/newsletter.ts
+  s_0beac9cb5d78fd::t_29ba291bc21746 126
+.github/workflows/release.yml
+  s_0beac9cb5d78fd::t_29ba291bc21746 52
+LICENSE-DATA
+  s_0beac9cb5d78fd::t_29ba291bc21746 1-2,4-6,8-26
+src/app/teach/page.tsx
+  s_0beac9cb5d78fd::t_29ba291bc21746 73
+src/components/DownloadTable.tsx
+  s_0beac9cb5d78fd::t_29ba291bc21746 7,24-25
+src/data/hub-ideas.ts
+  s_0beac9cb5d78fd::t_29ba291bc21746 77
+src/lib/csv.ts
+  s_0beac9cb5d78fd::t_29ba291bc21746 11,61
+scripts/build-triples.ts
+  s_0beac9cb5d78fd::t_29ba291bc21746 79
+.github/ISSUE_TEMPLATE/translation-review.yml
+  s_0beac9cb5d78fd::t_29ba291bc21746 66
+src/app/api/page.tsx
+  s_0beac9cb5d78fd::t_29ba291bc21746 22,26,60
+.github/ISSUE_TEMPLATE/suggest-edit.yml
+  s_0beac9cb5d78fd::t_29ba291bc21746 67
+src/app/about/page.tsx
+  s_0beac9cb5d78fd::t_29ba291bc21746 59
+src/components/Dossier.tsx
+  s_0beac9cb5d78fd::t_29ba291bc21746 111,322
+src/components/EntityBrowser.tsx
+  s_0beac9cb5d78fd::t_29ba291bc21746 9-10,35-36,272
+src/app/[kind]/page.tsx
+  s_0beac9cb5d78fd::t_29ba291bc21746 110
+scripts/build-context.ts
+  s_0beac9cb5d78fd::t_29ba291bc21746 53,92
+scripts/build-api.ts
+  s_0beac9cb5d78fd::t_29ba291bc21746 67-68
+src/components/TargetThumb.tsx
+  ai_agent 1-13
+src/components/SlideDeck.tsx
+  s_0beac9cb5d78fd::t_29ba291bc21746 101
+src/app/data-sources/page.tsx
+  s_0beac9cb5d78fd::t_29ba291bc21746 105,107
+src/components/ChartExport.tsx
+  s_0beac9cb5d78fd::t_29ba291bc21746 6
+src/lib/csv.test.ts
+  s_0beac9cb5d78fd::t_29ba291bc21746 48
+src/app/layout.tsx
+  s_0beac9cb5d78fd::t_29ba291bc21746 117
+.github/ISSUE_TEMPLATE/review.yml
+  s_0beac9cb5d78fd::t_29ba291bc21746 77
+README.md
+  s_0beac9cb5d78fd::t_29ba291bc21746 5-12,25-27,46-47,81
+src/app/build/page.tsx
+  s_0beac9cb5d78fd::t_29ba291bc21746 143
+src/app/suggest/page.tsx
+  s_0beac9cb5d78fd::t_29ba291bc21746 59
+scripts/build-feeds.ts
+  s_0beac9cb5d78fd::t_29ba291bc21746 83
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "f68a4fb67ae19160536db60e17c0b357e89f47a1",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

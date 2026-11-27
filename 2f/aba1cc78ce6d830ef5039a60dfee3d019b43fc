@@ -1,0 +1,132 @@
+src/components/RegulatoryBrowser.tsx
+  s_0beac9cb5d78fd::t_698ca80bda8b8e 9,27,43
+src/lib/schema-docs.ts
+  s_0beac9cb5d78fd::t_6a4d430de1f1c7 137-144
+src/lib/years.ts
+  s_0beac9cb5d78fd::t_b2dd74582ff9a4 103-106
+  s_0beac9cb5d78fd::t_e1cfbe1fbd207d 110-112
+  s_0beac9cb5d78fd::t_57ee9245f0d625 70
+src/data/index.ts
+  s_0beac9cb5d78fd::t_69eba7b77b6da7 51
+  s_0beac9cb5d78fd::t_d4b14bad7abc03 336-339,341
+  s_0beac9cb5d78fd::t_1f5b3c1fc3b61b 387-390
+  s_0beac9cb5d78fd::t_fbcb671ae409e7 350-353
+  s_0beac9cb5d78fd::t_0a1642d6f77603 53-55
+  s_0beac9cb5d78fd::t_cdc7365f91a2a3 16,52,340
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_f2c753a88b1b36 240-257
+  s_0beac9cb5d78fd::t_4e5576a5cc269a 185-199
+  s_0beac9cb5d78fd::t_042362979c07e1 353-361
+src/lib/trial-starts.ts
+  s_0beac9cb5d78fd::t_5488b57da890a8 1-26
+src/lib/dated-fields.test.ts
+  s_0beac9cb5d78fd::t_fff44ec22d85f7 1-140
+scripts/fetch-trial-starts.ts
+  s_0beac9cb5d78fd::t_026eeef79ca3ab 1-141
+src/app/countries/us/render.test.ts
+  s_0beac9cb5d78fd::t_d147562cc9b8cf 6-7,37-40
+src/lib/years.test.ts
+  s_0beac9cb5d78fd::t_1135aed728bbc4 137-143
+src/app/countries/us/page.tsx
+  s_0beac9cb5d78fd::t_2abc7616343e5c 11,125
+src/lib/first-described.ts
+  s_0beac9cb5d78fd::t_778be5bd93d327 1-26
+src/lib/ask.test.ts
+  s_0beac9cb5d78fd::t_68bff56500db6e 454-459
+src/app/heavy-pages.test.ts
+  s_0beac9cb5d78fd::t_817dc7b146baa1 45-47,455
+  s_0beac9cb5d78fd::t_66a2c33daebee0 560
+  s_0beac9cb5d78fd::t_4ff6ceaea791fb 562-565
+scripts/rdf.ts
+  s_0beac9cb5d78fd::t_7a3f9ecb428531 45-47
+src/lib/model-reviews.test.ts
+  s_0beac9cb5d78fd::t_1135aed728bbc4 107-108,110
+src/lib/accelerated.ts
+  s_0beac9cb5d78fd::t_2c23938696f10e 156-166
+  s_0beac9cb5d78fd::t_13a9a5983ae8ff 92-97
+  s_0beac9cb5d78fd::t_4d188362a244c0 104,106-108,122,131,149,155,167-168
+  s_0beac9cb5d78fd::t_bbe59eeb047f99 105,109-121,123-130,132-139,142,144-146,148,150-153
+  s_0beac9cb5d78fd::t_184878ae2858b8 147,154
+  s_0beac9cb5d78fd::t_70f00f7d052cdb 1-91,98-103,169-180
+  s_0beac9cb5d78fd::t_f0eb3a5aca511b 140-141
+  s_0beac9cb5d78fd::t_cdc7365f91a2a3 143
+src/app/timeline/page.tsx
+  s_0beac9cb5d78fd::t_4ff6ceaea791fb 30-32,85
+src/data/country-us.ts
+  s_0beac9cb5d78fd::t_adb4f0d9429b15 19-21
+  s_0beac9cb5d78fd::t_7a58c6dedfbb13 249-257,259-274,276-291
+scripts/fetch-accelerated.ts
+  s_0beac9cb5d78fd::t_e4d912b7146198 294-296
+  s_0beac9cb5d78fd::t_a078138b4cc7ea 199-206
+  s_0beac9cb5d78fd::t_b6f6febd0f55ad 68-72
+  s_0beac9cb5d78fd::t_12a734e405e9e9 1-67,73-118,120-123,129,132,188-198,207-228,230-269,271-282,284-293,297-313
+  s_0beac9cb5d78fd::t_975adeb3461d44 283
+  s_0beac9cb5d78fd::t_50aa36b103edba 229
+  s_0beac9cb5d78fd::t_f7408fdd945120 270
+  s_0beac9cb5d78fd::t_1a0990c981cf17 119,124-128,130-131,133-187
+package.json
+  s_0beac9cb5d78fd::t_5fc8a5cebdf4f5 80-82
+scripts/build-feeds.ts
+  s_0beac9cb5d78fd::t_eb66f31826555e 158-160
+  s_0beac9cb5d78fd::t_5d908c7cf97c8e 37
+  s_0beac9cb5d78fd::t_397b3a36c6b7c4 163-164
+src/app/regulatory/page.tsx
+  s_0beac9cb5d78fd::t_60aad8221aea41 15-16
+  s_0beac9cb5d78fd::t_b29400c2d14f29 17,19-20,26
+src/data/pipeline-trials-wave4.ts
+  s_0beac9cb5d78fd::t_03adb255b941fb 14,1402
+src/data/accelerated-approvals.ts
+  s_0beac9cb5d78fd::t_54678005981caa 8,20-23
+  s_0beac9cb5d78fd::t_db809c73b3ecbf 163
+  s_0beac9cb5d78fd::t_50aa36b103edba 43,52-53,62-63,120,150,155
+  s_0beac9cb5d78fd::t_b47e9613230109 1-7,9-19,24-42,44-51,54-61,64-119,121-149,151-154,156-162,164-172
+src/lib/ask-compose.ts
+  s_0beac9cb5d78fd::t_5ad7c875034765 416-417
+  s_0beac9cb5d78fd::t_e204c6754975aa 38,44,503-510
+src/lib/timeline.ts
+  s_0beac9cb5d78fd::t_e9e3c4c429c686 85-110
+  s_0beac9cb5d78fd::t_1ea31c056637ec 127-133,135,137,139-140,144,146-155
+  s_0beac9cb5d78fd::t_7315fa98472e2f 159-174,177-182,186
+  s_0beac9cb5d78fd::t_867b0f551d8f4b 175
+  s_0beac9cb5d78fd::t_5710103cc07247 291
+  s_0beac9cb5d78fd::t_1135aed728bbc4 292
+  s_0beac9cb5d78fd::t_48f5773fc13e19 20
+  s_0beac9cb5d78fd::t_f45e6daf3e2386 53-54
+  s_0beac9cb5d78fd::t_8cf907dbacbe90 399-405
+  s_0beac9cb5d78fd::t_5b85a220acda76 17-18,209,234,256,274,305,326,351,371
+  s_0beac9cb5d78fd::t_7ad6abb3e8e74e 145
+  s_0beac9cb5d78fd::t_d04e01663a0a41 275-286,289-290,293-302
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_88fa6fcc25a816 309-314,426
+scripts/fetch-first-described.ts
+  s_0beac9cb5d78fd::t_56b9b3fbc274b2 144-149
+  s_0beac9cb5d78fd::t_71b234e42bfd0a 1-143,150-160
+src/data/target-first-described.ts
+  s_0beac9cb5d78fd::t_50c7d6dd82d115 1-7,14-1672
+  s_0beac9cb5d78fd::t_51c6d1f2597680 8-13
+src/components/RegulatoryTimeline.tsx
+  s_0beac9cb5d78fd::t_2a5e770e03bb14 5,8-9,43,49
+src/data/trial-start-dates.ts
+  s_0beac9cb5d78fd::t_08abad268813d7 1-5803
+src/lib/edge.ts
+  s_0beac9cb5d78fd::t_490463915151b7 101
+  s_0beac9cb5d78fd::t_d4f5f496e434f8 200-203
+src/lib/cancer-changes.ts
+  s_0beac9cb5d78fd::t_57ee9245f0d625 131
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "2faba1cc78ce6d830ef5039a60dfee3d019b43fc",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

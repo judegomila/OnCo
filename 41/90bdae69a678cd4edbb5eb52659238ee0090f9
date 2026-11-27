@@ -1,0 +1,23 @@
+public/newsletter/2026-10-03/index.html
+  ai_agent 2,9-10
+public/newsletter/2026-10-03.json
+  ai_agent 1
+public/.well-known/mcp.json
+  ai_agent 3
+public/freshness.json
+  ai_agent 1
+public/.well-known/llms.txt
+  ai_agent 5
+public/llms.txt
+  ai_agent 5
+public/newsletter/index.json
+  ai_agent 1
+public/newsletter/feed.xml
+  ai_agent 14-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "4190bdae69a678cd4edbb5eb52659238ee0090f9",
+  "prompts": {}
+}

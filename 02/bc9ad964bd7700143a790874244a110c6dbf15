@@ -1,0 +1,43 @@
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_85515e86956e00 39
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_39aa9243e1317c 46,54
+src/data/spikes/tnbc-core.ts
+  s_0beac9cb5d78fd::t_7540678197a9d2 263
+  s_0beac9cb5d78fd::t_f9453374e46293 304
+  s_0beac9cb5d78fd::t_837bd2d50b8ac7 251
+  s_0beac9cb5d78fd::t_c97bb1177a36d6 316
+  s_0beac9cb5d78fd::t_58975bad3dcff9 394
+  s_0beac9cb5d78fd::t_a090d02f1e65b8 297,309,387,399,443,494,505
+  s_0beac9cb5d78fd::t_c945b8e236a8dc 340
+  s_0beac9cb5d78fd::t_6d6c89222e2102 328
+  s_0beac9cb5d78fd::t_425e5b04fc5b9d 292
+  s_0beac9cb5d78fd::t_3efe525c6a04cb 433
+  s_0beac9cb5d78fd::t_2f62c327ff5eb6 355
+  s_0beac9cb5d78fd::t_5051ebd066b468 20,252,321,333,375,498,501
+  s_0beac9cb5d78fd::t_cfe5762d653067 542-584
+  s_0beac9cb5d78fd::t_b7a67460caa6b9 22-24
+  s_0beac9cb5d78fd::t_ab694b1b09db97 152-162
+src/lib/model-reviews.test.ts
+  s_0beac9cb5d78fd::t_2104324c0c7070 94-101
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_85515e86956e00 66-67
+src/lib/ask.test.ts
+  s_0beac9cb5d78fd::t_20cd55cb199602 386-389
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "02bc9ad964bd7700143a790874244a110c6dbf15",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

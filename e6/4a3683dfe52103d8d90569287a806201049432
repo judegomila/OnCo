@@ -1,0 +1,25 @@
+src/lib/universe-nci.test.ts
+  s_0beac9cb5d78fd::t_1bced2bd2af100 1-50
+src/data/animated.ts
+  s_0beac9cb5d78fd::t_1e4dd7249259d3 493-494,496
+  s_0beac9cb5d78fd::t_52470d6f90c198 495
+src/data/drugs-approved-wave1.ts
+  s_0beac9cb5d78fd::t_cc37fad18d7c0d 414,429
+  s_0beac9cb5d78fd::t_2ec9936a7e7e43 405-413,415-428,430-503
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "e64a3683dfe52103d8d90569287a806201049432",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

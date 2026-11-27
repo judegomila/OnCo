@@ -1,0 +1,35 @@
+src/data/polycythaemia-vera.ts
+  s_0beac9cb5d78fd::t_16dc3f466b93db 113
+src/data/spikes/sclc.ts
+  s_0beac9cb5d78fd::t_16dc3f466b93db 78
+src/data/spikes/colorectal.ts
+  s_0beac9cb5d78fd::t_16dc3f466b93db 111,167
+src/data/lung-subtypes.ts
+  s_0beac9cb5d78fd::t_e9d8e1a058812a 566,580
+src/data/pdac-wave.ts
+  s_0beac9cb5d78fd::t_16dc3f466b93db 79
+src/data/colorectal-lymphoma-subtypes.ts
+  s_0beac9cb5d78fd::t_e9d8e1a058812a 303,310
+src/data/trials.ts
+  s_0beac9cb5d78fd::t_16dc3f466b93db 200
+src/data/spikes/gastric.ts
+  s_0beac9cb5d78fd::t_16dc3f466b93db 52
+src/data/i18n/zh.ts
+  s_0beac9cb5d78fd::t_e9d8e1a058812a 11274,11281,11342,11356
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "4a8562bb6f6c9f06419aac586102d59a147348d3",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

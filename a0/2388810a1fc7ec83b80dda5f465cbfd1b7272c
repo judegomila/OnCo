@@ -1,0 +1,94 @@
+src/app/countries/sr/page.tsx
+  s_1e233a6be244f1::t_6e8ddad62f903a 1-10
+src/app/countries/vu/page.tsx
+  ai_agent 1-10
+src/components/CountryDeepDive.tsx
+  s_1e233a6be244f1::t_fb59f7c831373f 92-94,96
+  s_1e233a6be244f1::t_b184214f1f92e9 119
+src/app/countries/bz/page.tsx
+  s_1e233a6be244f1::t_6e8ddad62f903a 1-10
+src/app/countries/jm/render.test.ts
+  s_1e233a6be244f1::t_0e62be5c63ff67 1-59
+src/app/countries/fj/render.test.ts
+  ai_agent 1-59
+src/app/countries/pf/page.tsx
+  s_1e233a6be244f1::t_f430bce2246d90 1-10
+src/app/countries/sr/render.test.ts
+  s_1e233a6be244f1::t_6e8ddad62f903a 1-59
+src/lib/country-pages.test.ts
+  ai_agent 43-45,90-92
+src/app/countries/bz/render.test.ts
+  s_1e233a6be244f1::t_6e8ddad62f903a 1-59
+src/app/countries/fj/page.tsx
+  ai_agent 1-10
+src/lib/ask.test.ts
+  s_1e233a6be244f1::t_3d048fadaa1039 506-511
+src/app/countries/bs/render.test.ts
+  s_1e233a6be244f1::t_0e62be5c63ff67 1-59
+src/app/countries/gu/render.test.ts
+  s_1e233a6be244f1::t_f430bce2246d90 1-59
+src/app/countries/bb/page.tsx
+  s_1e233a6be244f1::t_0e62be5c63ff67 1-10
+src/app/countries/[iso]/render.test.ts
+  ai_agent 28,44-45,67-69
+src/app/countries/gy/render.test.ts
+  s_1e233a6be244f1::t_6e8ddad62f903a 1-59
+src/app/countries/vu/render.test.ts
+  ai_agent 1-59
+src/app/countries/bs/page.tsx
+  s_1e233a6be244f1::t_0e62be5c63ff67 1-10
+src/app/countries/cw/render.test.ts
+  s_1e233a6be244f1::t_f430bce2246d90 1-59
+src/app/countries/sb/page.tsx
+  ai_agent 1-10
+src/app/countries/sb/render.test.ts
+  ai_agent 1-59
+src/app/countries/cw/page.tsx
+  s_1e233a6be244f1::t_f430bce2246d90 1-10
+src/app/countries/lc/render.test.ts
+  s_1e233a6be244f1::t_6e8ddad62f903a 1-59
+src/app/countries/gu/page.tsx
+  s_1e233a6be244f1::t_f430bce2246d90 1-10
+src/lib/semantic.ts
+  ai_agent 236-242
+src/app/countries/ws/render.test.ts
+  ai_agent 1-59
+src/lib/country-pages.ts
+  s_1e233a6be244f1::t_e11d36d2c7f216 384-399
+src/app/countries/tt/page.tsx
+  s_1e233a6be244f1::t_0e62be5c63ff67 1-10
+src/app/countries/lc/page.tsx
+  s_1e233a6be244f1::t_6e8ddad62f903a 1-10
+src/app/countries/nc/page.tsx
+  s_1e233a6be244f1::t_f430bce2246d90 1-10
+src/app/countries/ws/page.tsx
+  ai_agent 1-10
+src/app/countries/pf/render.test.ts
+  s_1e233a6be244f1::t_f430bce2246d90 1-59
+src/app/countries/gy/page.tsx
+  s_1e233a6be244f1::t_6e8ddad62f903a 1-10
+src/app/countries/nc/render.test.ts
+  s_1e233a6be244f1::t_f430bce2246d90 1-59
+src/app/countries/jm/page.tsx
+  s_1e233a6be244f1::t_0e62be5c63ff67 1-10
+src/app/countries/bb/render.test.ts
+  s_1e233a6be244f1::t_0e62be5c63ff67 1-59
+src/app/countries/tt/render.test.ts
+  s_1e233a6be244f1::t_0e62be5c63ff67 1-59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a02388810a1fc7ec83b80dda5f465cbfd1b7272c",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-fable-5-2"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

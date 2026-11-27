@@ -1,0 +1,77 @@
+packages/onco-cli/README.md
+  s_0beac9cb5d78fd::t_7a1259216ab2a3 1-54
+packages/onco-cli/src/test-fixture.ts
+  s_0beac9cb5d78fd::t_0e4eae1a1232b8 1-52
+mcp/README.md
+  s_0beac9cb5d78fd::t_80d666ba2edb97 17
+packages/onco-cli/package.json
+  s_0beac9cb5d78fd::t_fab1dd79d9d30b 1-20
+package.json
+  s_0beac9cb5d78fd::t_2fdca6c4f3a979 37-39
+  s_0beac9cb5d78fd::t_07445826073410 99
+scripts/build-packages.ts
+  s_0beac9cb5d78fd::t_2ad3d23d4cc921 1-23,42
+  s_0beac9cb5d78fd::t_ccf4af70a0e181 24-41,43-44
+packages/onco-mcp/src/bin.ts
+  s_0beac9cb5d78fd::t_7ab8fef5e21e6f 1-15
+.gitignore
+  s_0beac9cb5d78fd::t_d8b06b18673e6e 51-53
+src/app/api/page.tsx
+  s_0beac9cb5d78fd::t_b1ec63fd411358 62-90
+packages/onco-cli/src/bin.ts
+  s_0beac9cb5d78fd::t_ab504dbff25e8b 1-4
+packages/onco-mcp/README.md
+  s_0beac9cb5d78fd::t_58a259012d377f 1-67
+docs/ACCESS.md
+  s_0beac9cb5d78fd::t_344d0871faf5ab 1-63
+packages/onco-cli/src/args.ts
+  s_0beac9cb5d78fd::t_8513a58e554a0d 1-39
+packages/onco-cli/src/format.test.ts
+  s_0beac9cb5d78fd::t_7b850dd9a9464b 1-60
+vitest.config.ts
+  s_0beac9cb5d78fd::t_23f67cadceb96d 3
+packages/onco-mcp/package.json
+  s_0beac9cb5d78fd::t_e00b7306e709cb 1-24
+tsconfig.json
+  s_0beac9cb5d78fd::t_7ce9a5ac4b0cff 33
+packages/onco-cli/src/args.test.ts
+  s_0beac9cb5d78fd::t_69496c28911274 1-69
+packages/onco-cli/src/onco.test.ts
+  s_0beac9cb5d78fd::t_d7b33eaf0401b7 1-92
+eslint.config.mjs
+  s_0beac9cb5d78fd::t_b32e1b5fd6685c 17
+packages/onco-cli/src/client.ts
+  s_0beac9cb5d78fd::t_54e37a95b796eb 173-176
+  s_0beac9cb5d78fd::t_e911a71185dd7d 1-48,52-172,177-220
+  s_0beac9cb5d78fd::t_b1b4d341f7c08c 49-51
+packages/onco-cli/src/format.ts
+  s_0beac9cb5d78fd::t_c3a5c513f4f331 13-16,23,26
+  s_0beac9cb5d78fd::t_fc1feeb05e3e4b 1-12,17-22,24-25,27-113
+packages/onco-cli/src/onco.ts
+  s_0beac9cb5d78fd::t_bae7a82f8e6f4b 14
+  s_0beac9cb5d78fd::t_9fee7cfde44f25 17
+  s_0beac9cb5d78fd::t_499cc0b1345f93 1-13,15-16,18-44,46-142
+  s_0beac9cb5d78fd::t_893440a347505c 45
+packages/onco-mcp/src/server.ts
+  s_0beac9cb5d78fd::t_424dffb33165b1 1-139
+packages/onco-mcp/src/server.test.ts
+  s_0beac9cb5d78fd::t_00cef7a336de64 1-22,26-80,82,84-90
+  s_0beac9cb5d78fd::t_cfd29426b8185e 23-25
+  s_0beac9cb5d78fd::t_b04089b5109ede 81,83
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "9f81593931589e5aef7d2a7f8641d7981ad379a9",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

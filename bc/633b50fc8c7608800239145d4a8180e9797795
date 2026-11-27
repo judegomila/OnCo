@@ -1,0 +1,85 @@
+public/structures/pubchem-135449332.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-448537.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-16078.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-9810709.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-25077993.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-156487652.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-50225.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-56649297.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-24856436.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-2145.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-2179.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-3035016.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-18343.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-156419.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/index.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-126715380.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-6446.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-449171.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-2123.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_f06eef1c3bbddf 274,276
+public/structures/pubchem-117797905.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-3033818.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-11273.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+src/data/drugs-pipeline-wave2.ts
+  s_0beac9cb5d78fd::t_f06eef1c3bbddf 45,48
+public/structures/pubchem-157827766.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-2244.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-46848036.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-11671467.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-130412842.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-24771867.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-53235510.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+src/data/structures.ts
+  s_0beac9cb5d78fd::t_658a5b380a65b6 555-587
+public/structures/pubchem-118639856.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+public/structures/pubchem-118224491.json
+  s_0beac9cb5d78fd::t_40088bf3dc618c 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "bc633b50fc8c7608800239145d4a8180e9797795",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

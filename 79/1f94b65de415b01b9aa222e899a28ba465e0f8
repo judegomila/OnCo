@@ -1,0 +1,53 @@
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_a0f86596ca04a5 59
+src/data/index.ts
+  s_0beac9cb5d78fd::t_7c43599a7189f8 35,126
+src/components/RouteIcon.tsx
+  s_0beac9cb5d78fd::t_a0f86596ca04a5 44
+src/data/terms.ts
+  s_0beac9cb5d78fd::t_d3c57bbe4d47d7 19-25,69-70
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_a0f86596ca04a5 59
+src/data/supporting.ts
+  s_0beac9cb5d78fd::t_d3c57bbe4d47d7 907-908
+src/app/trial-designs/page.tsx
+  s_0beac9cb5d78fd::t_e773a89689b0f6 1-258
+src/data/terms-jargon.ts
+  s_0beac9cb5d78fd::t_d3c57bbe4d47d7 190,202-205,207-214,218-223,228-230
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_a0f86596ca04a5 59
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_a0f86596ca04a5 67
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_a0f86596ca04a5 59
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_a0f86596ca04a5 59
+src/data/terms-basics.ts
+  s_0beac9cb5d78fd::t_d3c57bbe4d47d7 761,777-778,786,794,802,810-811,819,835,843
+  s_0beac9cb5d78fd::t_34072e1572940b 769
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_a0f86596ca04a5 59
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_a0f86596ca04a5 59
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_a0f86596ca04a5 59
+src/data/trial-design-wave.ts
+  s_0beac9cb5d78fd::t_456a37cd52927f 199
+  s_0beac9cb5d78fd::t_2a21946bdb7c05 1-198,200-377
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "791f94b65de415b01b9aa222e899a28ba465e0f8",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

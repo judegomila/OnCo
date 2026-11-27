@@ -1,0 +1,62 @@
+src/components/DrugChip.tsx
+  s_0beac9cb5d78fd::t_9002709cbb8a52 15
+src/components/GuidelineChip.tsx
+  s_0beac9cb5d78fd::t_983c5b7731f1a9 15-16
+src/components/CancerChanges.tsx
+  s_0beac9cb5d78fd::t_5d6b70b071250f 47
+src/components/PrevalenceTable.tsx
+  s_0beac9cb5d78fd::t_baae4462d8520e 5
+  s_0beac9cb5d78fd::t_85f4643cfb0561 71-72
+  s_0beac9cb5d78fd::t_6a240cab784ed2 86
+  s_0beac9cb5d78fd::t_fd64a91115b6ec 57
+  s_0beac9cb5d78fd::t_d4574b2d7267b5 42-43
+src/components/ResearchOutput.tsx
+  s_0beac9cb5d78fd::t_916682a0c769dd 6
+  s_0beac9cb5d78fd::t_7d57aa19b6b127 78
+  s_0beac9cb5d78fd::t_7368fc7e28b2d7 53,56-57
+  s_0beac9cb5d78fd::t_d63ff9a203b332 95
+src/components/AccessTable.tsx
+  ai_agent 2,12,26
+src/components/StartupPanels.tsx
+  s_0beac9cb5d78fd::t_f77217d2503a88 2,58,70,90,106
+src/components/BiomarkerDetail.tsx
+  ai_agent 2,98,102,130,142
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_58f67b51694874 195-198
+  s_0beac9cb5d78fd::t_e7434d8ce2090d 235-239
+  s_0beac9cb5d78fd::t_9eaeeddf5b8217 151
+  s_0beac9cb5d78fd::t_5f65a2da3cdc38 4
+  s_0beac9cb5d78fd::t_7a5cf68d3d6459 206
+  s_0beac9cb5d78fd::t_df2b3ec755a357 228,302,305,343,358,378,391,407,431,453,464,470,481,488,503-504,515,524,526,532,540,551,568,592,637,767,813,821,852,888
+  ai_agent 32,374-375,558-559
+src/components/ToxicityTable.tsx
+  ai_agent 2,15,30
+docs/MOBILE.md
+  s_0beac9cb5d78fd::t_cf4c6547f805e8 35
+docs/GALLBLADDER-QA.md
+  s_0beac9cb5d78fd::t_4855beb2ac6dbe 117-122
+src/components/Neighbours.tsx
+  s_0beac9cb5d78fd::t_617ff4144831b4 26,30,48,55
+src/components/InvestorPanels.tsx
+  s_0beac9cb5d78fd::t_dd3f10bd27bdae 2,63,82
+scripts/mobile-audit.ts
+  s_0beac9cb5d78fd::t_d05b13aab66605 89-94
+  s_0beac9cb5d78fd::t_6ea30ab8aa888e 47-53
+  s_0beac9cb5d78fd::t_1a0099a28b34b0 29-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "3be3a7b8ea56234872a1070e5b44af8f06b1e329",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

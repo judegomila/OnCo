@@ -1,0 +1,25 @@
+src/data/universe-lists/nci-exclusions.ts
+  s_0beac9cb5d78fd::t_741f4d83636f7c 1-5
+scripts/fetch-nci-drugs.ts
+  s_0beac9cb5d78fd::t_37471843457be5 35,56-57,60-61,63
+  s_0beac9cb5d78fd::t_be42db76f5e716 1-34,36-55,58-59,62,64-137
+src/data/universe-lists/nci-cancer-drugs.json
+  s_0beac9cb5d78fd::t_71fb1e276d2bee 1-3,6,8-289,302-551,568-926,941-1837,1854-1993,2010-2153,2155-2160,2162-2191,2195-2290,2305-2453,2470-2724,2741-3169,3172,3174-3406,3423-3455,3457-3459,3463-4078,4080-4082,4084-4087,4089-4090,4092-4472,4487-4568,4585-5047,5064-5903
+  s_0beac9cb5d78fd::t_37471843457be5 4-5,7,290-301,552-567,927-940,1838-1853,1994-2009,2154,2161,2192-2194,2291-2304,2454-2469,2725-2740,3170-3171,3173,3407-3422,3456,3460-3462,4079,4083,4088,4091,4473-4486,4569-4584,5048-5063
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ef7b97062e475bdf9c981b7e0517168c2d37349a",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

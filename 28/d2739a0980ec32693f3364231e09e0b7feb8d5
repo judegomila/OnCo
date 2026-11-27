@@ -1,0 +1,53 @@
+package.json
+  s_0beac9cb5d78fd::t_90e69502445026 66
+src/data/open-source.ts
+  s_0beac9cb5d78fd::t_228238a2f341aa 129-11278
+  s_0beac9cb5d78fd::t_5bf01f33344b44 98
+scripts/open-source-curated.ts
+  s_0beac9cb5d78fd::t_ff5d63913be2bf 1-150,152-195,197-259,261-273,275-291,293-295,297-348,350-383,385-386,388-397,399-401,403-407,409-433,437-439,441-447,449-455,458-478,481-505,507-513,520
+  s_0beac9cb5d78fd::t_78d46753465a3d 456
+  s_0beac9cb5d78fd::t_cd30a79fa9a6f2 196
+  s_0beac9cb5d78fd::t_2e719296cb77d0 151
+  s_0beac9cb5d78fd::t_2a23f68e92a320 349
+  s_0beac9cb5d78fd::t_4b940bc7f6c8e5 408
+  s_0beac9cb5d78fd::t_86f28c0d0d95fa 436
+  s_0beac9cb5d78fd::t_a85520c20533e3 440
+  s_0beac9cb5d78fd::t_3cba1c05efe424 402
+  s_0beac9cb5d78fd::t_dd56fec896c0a9 260
+  s_0beac9cb5d78fd::t_a61c3739ca728b 514-519
+  s_0beac9cb5d78fd::t_c2affd5774d4fc 296
+  s_0beac9cb5d78fd::t_24e41aa2f2e5c7 398
+  s_0beac9cb5d78fd::t_cf8e934f6ab87e 384
+  s_0beac9cb5d78fd::t_6da3b5d3fbc04e 274
+  s_0beac9cb5d78fd::t_a72ac37e239be4 480
+  s_0beac9cb5d78fd::t_6cadbe058b3743 479
+  s_0beac9cb5d78fd::t_bcb12acc96fe4c 292
+  s_0beac9cb5d78fd::t_e723e53fc00305 387
+  s_0beac9cb5d78fd::t_a519f914ad6b6c 457
+  s_0beac9cb5d78fd::t_89a9e3b0be09c5 448
+  s_0beac9cb5d78fd::t_a517cd45d2383d 506
+  s_0beac9cb5d78fd::t_4e36a6737094b5 434-435
+scripts/fetch-open-source.ts
+  s_0beac9cb5d78fd::t_df1ab8b7ae9dbf 161-162
+  s_0beac9cb5d78fd::t_596a43c6ea1d5f 1-22,24-95,97,99,101-103,105-106,108-160,163-232
+  s_0beac9cb5d78fd::t_5757b66d6f1fb5 96,98,100,104,107
+  s_0beac9cb5d78fd::t_ea5c7d804ed7cf 23
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_46185ea6c0c7af 508-587
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "28d2739a0980ec32693f3364231e09e0b7feb8d5",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

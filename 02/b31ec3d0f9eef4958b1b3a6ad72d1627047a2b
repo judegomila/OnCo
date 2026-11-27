@@ -1,0 +1,50 @@
+src/data/first-60-days-checklists.ts
+  s_0beac9cb5d78fd::t_8068d6a293bf55 1-64
+src/app/first-60-days/[id]/page.tsx
+  s_0beac9cb5d78fd::t_fbc8823c97e60d 25,76-77,120-140
+src/components/GuideIcon.tsx
+  s_0beac9cb5d78fd::t_fbc8823c97e60d 10-11
+src/lib/red-cards.ts
+  s_0beac9cb5d78fd::t_597ad41cd8f361 4,12-13,44-45,78-84,121-127,130-131,144
+src/lib/first-60-days.test.ts
+  s_0beac9cb5d78fd::t_fbc8823c97e60d 37,54-62
+src/data/red-flags.ts
+  s_0beac9cb5d78fd::t_597ad41cd8f361 28-31,49-54,285-322,325-330
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_aedfaf6667a29f 39,45
+src/data/journeys.ts
+  s_0beac9cb5d78fd::t_e2f2e52cdfcb63 183
+  s_0beac9cb5d78fd::t_fbc8823c97e60d 178-182,184-192
+src/data/spikes/gallbladder-living.ts
+  s_0beac9cb5d78fd::t_a30d0386f2c93c 94
+src/lib/red-cards.test.ts
+  s_0beac9cb5d78fd::t_597ad41cd8f361 53-65
+src/lib/first-60-days.ts
+  s_0beac9cb5d78fd::t_fbc8823c97e60d 11,26,32-33,47,166-167
+src/components/CaregiverPanel.tsx
+  s_0beac9cb5d78fd::t_597ad41cd8f361 5,17,20-21,34,40
+src/lib/red-flags.test.ts
+  s_0beac9cb5d78fd::t_597ad41cd8f361 3,8,27-34
+src/data/symptom-paths.ts
+  s_0beac9cb5d78fd::t_fbc8823c97e60d 296,298
+src/lib/for-me-situation-data.ts
+  s_0beac9cb5d78fd::t_fbc8823c97e60d 25
+src/components/Navigator.tsx
+  s_0beac9cb5d78fd::t_597ad41cd8f361 243
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "02b31ec3d0f9eef4958b1b3a6ad72d1627047a2b",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

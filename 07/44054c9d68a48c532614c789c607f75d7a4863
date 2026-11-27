@@ -1,0 +1,13 @@
+docs/CANCERSIM-TERMS-GAP.md
+  ai_agent 1-419
+docs/IMPROVEMENTS-100.md
+  ai_agent 320
+docs/cancersim-terms-gap.json
+  ai_agent 1-3325
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "0744054c9d68a48c532614c789c607f75d7a4863",
+  "prompts": {}
+}

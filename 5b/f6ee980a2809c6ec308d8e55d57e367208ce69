@@ -1,0 +1,20 @@
+src/data/spikes/lung-registry-trials.ts
+  s_0beac9cb5d78fd::t_952d18a2c3f56f 21-24
+  s_0beac9cb5d78fd::t_0af4de4e2fb383 83,89,107,125,143,149,209,263,335,437,509,527,557,575,593,635,762,786,792,798,834,858,900,948,1130,1209,1269,1404,1428,1434,1500,1560,1578,1596,1710,1764,1770,1788,1800,1848
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "5bf6ee980a2809c6ec308d8e55d57e367208ce69",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+src/components/Tabs.tsx
+  s_0beac9cb5d78fd::t_fac32f8d2aeba1 19-21,63,74,83-95
+src/app/globals.css
+  s_0beac9cb5d78fd::t_a264e9f7255d34 221,224-225,243,249,251-277,327-329,380
+src/components/RegionToggle.tsx
+  s_0beac9cb5d78fd::t_fac32f8d2aeba1 7-10,25,29-32
+src/components/EntityBrowser.tsx
+  s_0beac9cb5d78fd::t_fac32f8d2aeba1 327-329
+src/components/NavMenu.tsx
+  s_0beac9cb5d78fd::t_fac32f8d2aeba1 85,96
+src/components/ThemeToggle.tsx
+  s_0beac9cb5d78fd::t_fac32f8d2aeba1 9-16,44
+src/app/irae/IraeGuide.tsx
+  s_0beac9cb5d78fd::t_fac32f8d2aeba1 61,65
+src/components/CommandPalette.tsx
+  s_0beac9cb5d78fd::t_fac32f8d2aeba1 250,285-286
+src/components/LayerToggle.tsx
+  s_0beac9cb5d78fd::t_fac32f8d2aeba1 30-34
+src/components/GitHubStars.tsx
+  s_0beac9cb5d78fd::t_fac32f8d2aeba1 35,38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "6df88de37764b10a66b3bd16389af3f715ab3658",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

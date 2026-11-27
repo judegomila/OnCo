@@ -1,0 +1,116 @@
+src/components/EntityDetail.test.ts
+  s_0beac9cb5d78fd::t_9011ddd2724b90 8,14-15,59-61,63-67
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_fe9af38ed7f1a4 415-430
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_fe9af38ed7f1a4 415-430
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_fe9af38ed7f1a4 415-430
+src/lib/first-60-days.ts
+  s_0beac9cb5d78fd::t_245d80b60d7352 112,141
+scripts/mobile-audit.ts
+  s_0beac9cb5d78fd::t_f37a55c3936512 55-56
+scripts/api-layout.ts
+  s_0beac9cb5d78fd::t_ece48d2aabee31 108
+  s_0beac9cb5d78fd::t_32c6c1642e2996 43
+scripts/build-api.ts
+  s_0beac9cb5d78fd::t_98624c620d2b53 79-80
+  s_0beac9cb5d78fd::t_809aa3015274fb 37
+src/app/cancers/[id]/decisions/page.tsx
+  s_0beac9cb5d78fd::t_2689154c25cddc 141-142
+  s_0beac9cb5d78fd::t_bc6a79b10df538 193
+  s_0beac9cb5d78fd::t_9d172cc7a644e2 55-57
+  s_0beac9cb5d78fd::t_7f33da756bc278 21
+  s_0beac9cb5d78fd::t_53aa8d8795f3bc 149,151-152
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_fe9af38ed7f1a4 415-430
+src/components/MachineLinks.tsx
+  s_0beac9cb5d78fd::t_5a616efe5e9cfd 31
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_fe9af38ed7f1a4 415-430
+src/components/SectionStrip.tsx
+  ai_agent 1-16
+src/app/cancers/[id]/[section]/page.tsx
+  ai_agent 2-3,5-9,13-16,18-25,28,31-34,36-38,41-42,45-50,53,55-60,63,65
+src/lib/record-sections.test.ts
+  ai_agent 1-222
+scripts/build-context.ts
+  s_0beac9cb5d78fd::t_63031d0fe76d6b 16
+  s_0beac9cb5d78fd::t_4525fab518ceef 59-60
+src/components/record-blocks.tsx
+  ai_agent 1-154
+src/components/Tabs.tsx
+  s_0beac9cb5d78fd::t_80a5efadc4e709 154
+  s_0beac9cb5d78fd::t_9af963c2363883 3,6-7,9-15,29-35,45-46,50-51,56,69,71-72,80,82,86-96,147-148,152,174-176,178-179
+src/components/SectionGlyph.tsx
+  s_0beac9cb5d78fd::t_af63bf2b7c8ded 1-19
+src/lib/sitemap-urls.ts
+  s_0beac9cb5d78fd::t_32116ddcff1011 19
+  s_0beac9cb5d78fd::t_ca386354457c6b 104-105
+src/components/CancerRecord.tsx
+  s_0beac9cb5d78fd::t_48c551d3776d07 10
+  s_0beac9cb5d78fd::t_fce2a43d155777 1-9,11-15,17-240,242-359
+  s_0beac9cb5d78fd::t_65e925d80a076e 16
+  s_0beac9cb5d78fd::t_7d99009dba0480 241
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_fe9af38ed7f1a4 415-430
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_fe9af38ed7f1a4 415-430
+src/components/GuidelineChip.tsx
+  s_0beac9cb5d78fd::t_ab32e83f50c878 10-12,15-17
+src/components/CancerGeographySection.tsx
+  s_0beac9cb5d78fd::t_e7676483916110 96
+  s_0beac9cb5d78fd::t_b10c790569c1b6 136
+  s_0beac9cb5d78fd::t_a7475e58b9cb35 117
+  s_0beac9cb5d78fd::t_3a7a51eccb7002 26
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_fe9af38ed7f1a4 447-462
+docs/INFORMATION-ARCHITECTURE.md
+  s_0beac9cb5d78fd::t_918cca176fe7ea 24
+  s_0beac9cb5d78fd::t_6adcf5f5167704 1-4,6-23,25-77
+  s_0beac9cb5d78fd::t_99caadfb0c51d6 5
+src/lib/record-sections.ts
+  s_0beac9cb5d78fd::t_bb07a0f8ca6d6b 62-67
+  s_0beac9cb5d78fd::t_89543515dfdf25 118
+  s_0beac9cb5d78fd::t_ebf1cf1b60187a 216
+  s_0beac9cb5d78fd::t_d39c2d117068f3 128
+  s_0beac9cb5d78fd::t_93823def65ba61 158
+  s_0beac9cb5d78fd::t_955062ef918500 168
+  s_0beac9cb5d78fd::t_e02ad56c590064 174
+  s_0beac9cb5d78fd::t_114b6c8dd60e59 154
+  s_0beac9cb5d78fd::t_f85c7509049d60 188
+  s_0beac9cb5d78fd::t_4768f37a59828a 178
+  s_0beac9cb5d78fd::t_e81ad4375b7421 184
+  s_0beac9cb5d78fd::t_514597a37de071 121,141,161,253-258
+  s_0beac9cb5d78fd::t_9ace70f7de2d08 98
+  s_0beac9cb5d78fd::t_675f6e4da9e258 1-61,68-97,99-117,119-120,122-127,129-140,142-153,155-157,159-160,162-167,169-173,175-177,179-183,185-187,189-215,217-252,259-313
+src/lib/for-me-situation.ts
+  s_0beac9cb5d78fd::t_506369bf1fd720 208,238
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_fe9af38ed7f1a4 16-17,61,65,80,83-84,151-156,185,199,224,248-258
+  s_0beac9cb5d78fd::t_fcb0dfe959ea99 5-6,9-15
+src/app/cancers/[id]/uk/page.tsx
+  s_0beac9cb5d78fd::t_0c1ab6359f741c 153
+  s_0beac9cb5d78fd::t_8b0b3a62fb2190 16
+src/app/cancers/[id]/compared/page.tsx
+  s_0beac9cb5d78fd::t_dc2eadc928ce69 50
+  s_0beac9cb5d78fd::t_3d766f1f71d9a4 15
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_fe9af38ed7f1a4 415-430
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "73cc28078e3cc9c34ac2a415f8cb53f6cef00b0c",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

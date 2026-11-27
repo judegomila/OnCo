@@ -1,0 +1,47 @@
+src/data/spikes/pancreatic-treatment-trials.ts
+  ai_agent 13-20
+  s_0beac9cb5d78fd::t_8a4f5fe0c502b0 1-12,21-118
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_cb52c707dd59c4 71-72
+src/lib/corpus-rules.test.ts
+  ai_agent 67-68
+src/data/spikes/pancreatic-registry-trials.ts
+  s_0beac9cb5d78fd::t_cb52c707dd59c4 1-1729
+src/data/spikes/pancreatic-treatment-shared.ts
+  s_0beac9cb5d78fd::t_18b45d8af751fe 1-44
+src/data/spikes/pancreatic-treatment.ts
+  s_0beac9cb5d78fd::t_68d130dd94accb 1-21,26-36,38-42,44-48,50-100,102-132
+  s_0beac9cb5d78fd::t_f3af2f1bfa4d7e 37,49
+  s_0beac9cb5d78fd::t_cdb92487437ee9 43
+  s_0beac9cb5d78fd::t_30dcd572a1b4b4 22-25
+  ai_agent 101
+src/data/spikes/pancreatic-treatment-trials-targeted.ts
+  s_0beac9cb5d78fd::t_26548d3d5433ef 1-26
+src/data/spikes/pancreatic-treatment-trials-advanced.ts
+  s_0beac9cb5d78fd::t_b73e9ce850644d 1-59,61-144
+  s_0beac9cb5d78fd::t_a96032ac53dee1 60
+src/data/spikes/pancreatic-treatment-supplements.ts
+  s_0beac9cb5d78fd::t_a015a1b534a11b 1-151
+scripts/tmp-dump-ids.ts
+  s_0beac9cb5d78fd::t_6a803fee33c4bc 1-10
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_cb52c707dd59c4 52,59,64
+src/data/spikes/pancreatic.ts
+  s_0beac9cb5d78fd::t_453d8bcca075ca 93-98
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "46035bff89cc4e2453ceff3ff25c2e8b59f09617",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

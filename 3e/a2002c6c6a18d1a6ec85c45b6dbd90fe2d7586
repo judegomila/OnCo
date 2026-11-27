@@ -1,0 +1,55 @@
+src/data/ideas-waves/wave-prevention.ts
+  s_0beac9cb5d78fd::t_992c6c201809dc 733
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_eca108737ea26b 710
+  s_0beac9cb5d78fd::t_7a6cb040c88169 36,248,261,270,312,412,509,517,534
+src/data/regimens.ts
+  s_0beac9cb5d78fd::t_7a6cb040c88169 407
+src/data/pipeline-trials-wave5.ts
+  s_0beac9cb5d78fd::t_7a6cb040c88169 1642,1864,3106,3232,3514,3844
+src/data/pipeline-trials-wave2.ts
+  s_0beac9cb5d78fd::t_7a6cb040c88169 413
+src/data/terms-jargon.ts
+  s_0beac9cb5d78fd::t_7a6cb040c88169 30,170
+scripts/fold-zh.ts
+  s_0beac9cb5d78fd::t_7bbacb915c5db1 19
+  s_0beac9cb5d78fd::t_b744dfc902921b 20
+src/data/radiation-wave4.ts
+  s_0beac9cb5d78fd::t_7a6cb040c88169 37,44,51
+src/data/spikes/colorectal.ts
+  s_0beac9cb5d78fd::t_7a6cb040c88169 37,49,61,70,78,91,117,126
+  s_0beac9cb5d78fd::t_992c6c201809dc 250
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_b744dfc902921b 80,351
+src/data/pipeline-trials-wave3.ts
+  s_0beac9cb5d78fd::t_7a6cb040c88169 76
+src/data/index.ts
+  s_0beac9cb5d78fd::t_7bbacb915c5db1 173
+  s_0beac9cb5d78fd::t_b744dfc902921b 96
+src/data/colorectal-lymphoma-subtypes.ts
+  ai_agent 1-313
+src/data/trials.ts
+  s_0beac9cb5d78fd::t_7a6cb040c88169 199
+src/data/pipeline-trials-wave6.ts
+  s_0beac9cb5d78fd::t_7a6cb040c88169 365,7199,7331,7937
+src/data/pipeline-trials-wave4.ts
+  s_0beac9cb5d78fd::t_7a6cb040c88169 672,1008,1704
+src/data/spikes/cll.ts
+  s_0beac9cb5d78fd::t_7a6cb040c88169 89
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "3ea2002c6c6a18d1a6ec85c45b6dbd90fe2d7586",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

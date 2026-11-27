@@ -1,0 +1,70 @@
+src/data/schematics.ts
+  s_0beac9cb5d78fd::t_c6e604acc1bc65 562,567
+src/data/institutions/europe.ts
+  s_0beac9cb5d78fd::t_8d8d04692b4f76 50-51,69,75-76,81-82,136-137,252-253,369-370
+src/data/index.ts
+  s_0beac9cb5d78fd::t_c6e604acc1bc65 85,153
+src/data/institutions/centres-wave3.ts
+  s_0beac9cb5d78fd::t_8d8d04692b4f76 182,186,199,216
+src/data/institutions/world.ts
+  s_0beac9cb5d78fd::t_8d8d04692b4f76 50-51,135-136,141-142,172-173,184-185,202-203,208-209,214-215,221-222,234-235,248,283-284,301-302,583-584
+src/data/radiation-wave1.ts
+  s_0beac9cb5d78fd::t_8d8d04692b4f76 23
+src/data/spikes/aml.ts
+  s_0beac9cb5d78fd::t_8d8d04692b4f76 87
+src/data/supporting.ts
+  s_0beac9cb5d78fd::t_8d8d04692b4f76 123
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_8d8d04692b4f76 9,15,18,23,26,35,42,54,60,63,149,155,351,357,378,384,387,393,397,408,413,422,425,431,434,443,449,452,458,1041
+src/app/machines/page.tsx
+  s_0beac9cb5d78fd::t_43c0bd307a6650 1-11,13-154
+  s_0beac9cb5d78fd::t_3a786c05b68e67 12
+src/data/institutions/us.ts
+  s_0beac9cb5d78fd::t_8d8d04692b4f76 71-72,74,78,85-86,113-114,127-128,184,218-219,247,274-275,296,302-303,310-311,317-318,439-440,503-504,539
+src/data/i18n/zh.ts
+  s_0beac9cb5d78fd::t_7f8e458b8218cd 10894-10931
+src/data/institutions.ts
+  s_0beac9cb5d78fd::t_8d8d04692b4f76 20,23-24,29-31,35,39-40,43,51-52,55-56,59-66,78,84,89,97-100,102,105-108,110,124,129-130
+src/data/machines-wave.ts
+  s_0beac9cb5d78fd::t_cfa38f52ba351a 204
+  s_0beac9cb5d78fd::t_5b164ec313d90e 1-203,205-218,220-328,330-359,361
+  s_0beac9cb5d78fd::t_f1edacdc6466b7 219,329,360
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_46e592e7eec96b 38
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_4b2b618bcfd623 38
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_2cb78fcf59dba9 38
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_55666db5502b15 38
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_bca4d69b87c49c 38
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_568d3e3a0dcbbf 42
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_e73c4188651194 38
+src/components/RouteIcon.tsx
+  s_0beac9cb5d78fd::t_568d3e3a0dcbbf 32
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_04e0e577108973 38
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_cc17808852cc1e 38
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_8d8d04692b4f76 1138
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "9784c2d0eaa54fa8bb252ef21f482824337f4577",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+src/data/spikes/tnbc-molecular.ts
+  s_0beac9cb5d78fd::t_39396f10b99828 1-512,514-894
+  s_0beac9cb5d78fd::t_68e405f3f1cb33 513
+src/data/tnbc-molecular.test.ts
+  s_0beac9cb5d78fd::t_b32345dc67a7bc 1-61
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_e1867f4e166fa7 65-66
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_b6b3d09e8adc73 46,53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "23c41a84c85cdede36e1050e46c2bdc910590ece",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

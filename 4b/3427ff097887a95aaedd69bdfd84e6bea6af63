@@ -1,0 +1,35 @@
+src/data/spikes/colorectal-evidence-papers-treatment.ts
+  s_0beac9cb5d78fd::t_090712a0eb14d0 1-440
+src/lib/tags.ts
+  s_0beac9cb5d78fd::t_090712a0eb14d0 49
+src/data/spikes/colorectal-evidence-papers-foundations.ts
+  s_0beac9cb5d78fd::t_090712a0eb14d0 1-217
+src/data/spikes/index.ts
+  ai_agent 80-81
+src/data/spikes/colorectal-evidence-shared.ts
+  s_0beac9cb5d78fd::t_090712a0eb14d0 1-37
+src/data/spikes/colorectal-evidence.ts
+  s_0beac9cb5d78fd::t_090712a0eb14d0 1-100
+src/data/spikes/colorectal-evidence-roadmap.ts
+  s_0beac9cb5d78fd::t_090712a0eb14d0 1-209
+public/citations/index.json
+  ai_agent 1
+scripts/spike-sources.ts
+  ai_agent 61,68,73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "4b3427ff097887a95aaedd69bdfd84e6bea6af63",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+src/lib/tables/index.ts
+  s_0beac9cb5d78fd::t_b335abf95b92a0 12,46
+src/components/ModalityPills.tsx
+  s_0beac9cb5d78fd::t_949456d822d5fb 1-30
+src/lib/search-index.ts
+  s_0beac9cb5d78fd::t_0741d107e762eb 5,26-27,33
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_0741d107e762eb 77
+src/lib/sitemap-urls.ts
+  s_0beac9cb5d78fd::t_0741d107e762eb 14,113
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_0741d107e762eb 77
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_0741d107e762eb 77
+src/app/modalities/[format]/page.tsx
+  s_0beac9cb5d78fd::t_026e4c00ce8884 190
+  s_0beac9cb5d78fd::t_7b2893ae701f01 119,146,169,223,258,289,312,354
+  s_0beac9cb5d78fd::t_0e26181c494827 1-118,120-145,147-168,170-189,191-222,224-243,245-257,259-281,283-288,290-304,306-311,313-353,355-367
+  s_0beac9cb5d78fd::t_0cda5c42b2dff1 244,282,305
+src/lib/modalities.ts
+  s_0beac9cb5d78fd::t_7d1c6d4c34d35c 29-30
+  s_0beac9cb5d78fd::t_b9bfff92da1931 1-28,31-200,202-231,233-285
+  s_0beac9cb5d78fd::t_fbc66b701bb14b 201,232
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_0741d107e762eb 77
+src/app/modalities/page.tsx
+  s_0beac9cb5d78fd::t_16bbacf8ec2eee 1-88
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_0741d107e762eb 77
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_0741d107e762eb 77
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_0741d107e762eb 77
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_0741d107e762eb 86
+src/app/modalities/modalities.test.ts
+  s_0beac9cb5d78fd::t_d7665cc87231d2 1-30,35-181,183-195,197,199-209,212-230
+  s_0beac9cb5d78fd::t_14076c7f9b7db2 31-32,182,196,210-211
+  s_0beac9cb5d78fd::t_a7adf238e27065 33-34,198
+src/app/pipeline/engine/page.tsx
+  s_0beac9cb5d78fd::t_0741d107e762eb 8,28
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_0741d107e762eb 19,236
+src/lib/modular-formats.ts
+  s_0beac9cb5d78fd::t_7a5473fd7e0078 100-136
+src/app/explore/page.tsx
+  s_0beac9cb5d78fd::t_0741d107e762eb 23
+src/components/FormatGlyph.tsx
+  s_0beac9cb5d78fd::t_6240ae8b3e3585 1-21
+src/app/pipeline/engine/[format]/page.tsx
+  s_0beac9cb5d78fd::t_0741d107e762eb 9,56
+src/components/RouteIcon.tsx
+  s_0beac9cb5d78fd::t_0741d107e762eb 59
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_0741d107e762eb 77
+src/app/modalities/modalities.json/route.ts
+  s_0beac9cb5d78fd::t_fc949a48ae87fd 1-9
+scripts/mobile-audit.ts
+  s_0beac9cb5d78fd::t_0741d107e762eb 54-57
+src/lib/tables/modalities.ts
+  s_0beac9cb5d78fd::t_04fc0ac981cdc1 1-57,59-117,119-138
+  s_0beac9cb5d78fd::t_026e4c00ce8884 58
+  s_0beac9cb5d78fd::t_b335abf95b92a0 118
+src/app/modalities/[format]/data.json/route.ts
+  s_0beac9cb5d78fd::t_4a86e178123781 1-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ceced1ae91d804971139c877845b28ef2145ba37",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

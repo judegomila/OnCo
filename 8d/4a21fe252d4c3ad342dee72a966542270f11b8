@@ -1,0 +1,34 @@
+src/data/spikes/aml.ts
+  s_0beac9cb5d78fd::t_d42bf624656328 395
+src/data/spikes/all-leukemia.ts
+  s_0beac9cb5d78fd::t_d42bf624656328 199
+src/data/ideas.ts
+  s_0beac9cb5d78fd::t_d42bf624656328 118,125
+src/data/mechanisms.ts
+  s_0beac9cb5d78fd::t_d42bf624656328 623,637,707
+src/data/spikes/cll.ts
+  s_0beac9cb5d78fd::t_d42bf624656328 257
+src/data/spikes/urothelial.ts
+  s_0beac9cb5d78fd::t_d42bf624656328 259
+src/data/spikes/hcc.ts
+  s_0beac9cb5d78fd::t_d42bf624656328 277,284
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_a40bcbd79b6d45 748
+  s_0beac9cb5d78fd::t_d42bf624656328 691,741
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "8d4a21fe252d4c3ad342dee72a966542270f11b8",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

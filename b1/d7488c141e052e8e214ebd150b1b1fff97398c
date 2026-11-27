@@ -1,0 +1,35 @@
+scripts/fetch-universe.ts
+  s_1e233a6be244f1::t_5e00ebe03c38b9 233-283,285-318,322,330-331
+  s_1e233a6be244f1::t_edc8cd51e7aa39 284
+scripts/fetch-universe-alliances.test.ts
+  s_1e233a6be244f1::t_131f25a283bbd0 1-73
+src/data/software.ts
+  s_1e233a6be244f1::t_61929c28526ed8 9,84-93
+  s_1e233a6be244f1::t_fbaec81559f5f8 10,3859,3872
+  s_1e233a6be244f1::t_490c7bbc3bc7f5 5081
+src/data/universe-lists/nhs-cancer-alliances.json
+  s_1e233a6be244f1::t_f5db7846bdb648 2,4-5,7,9-11,14-17,20-23,26-29,32-35,38-41,44-47,50-53,56-59,62-65,69-71,75-77,80-83,86-89,92-95,98-101,104-107,110-113,116-119,122-131
+scripts/software-curated.ts
+  s_1e233a6be244f1::t_edc8cd51e7aa39 1082
+  s_1e233a6be244f1::t_4fd3555688ae71 1071,1075-1081,1083-1085,1087-1091
+  s_1e233a6be244f1::t_db849c3d01f851 1086
+  s_1e233a6be244f1::t_ae4d814734998b 1145
+  s_1e233a6be244f1::t_57ff8020d073ef 1146
+  s_1e233a6be244f1::t_21ee97d32192ce 1072-1074,1144
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b1d7488c141e052e8e214ebd150b1b1fff97398c",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

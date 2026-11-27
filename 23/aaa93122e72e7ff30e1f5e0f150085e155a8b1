@@ -1,0 +1,51 @@
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_bb0910cd7206ba 62
+src/data/supporting.ts
+  s_0beac9cb5d78fd::t_bb0910cd7206ba 907-908
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_bb0910cd7206ba 70
+src/data/terms.ts
+  ai_agent 19-25,69-70
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_bb0910cd7206ba 62
+src/components/RouteIcon.tsx
+  s_0beac9cb5d78fd::t_bb0910cd7206ba 46
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_bb0910cd7206ba 62
+src/data/terms-jargon.ts
+  ai_agent 190,202-205,207-214,218-223,228-230
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_bb0910cd7206ba 62
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_bb0910cd7206ba 62
+src/data/terms-basics.ts
+  s_0beac9cb5d78fd::t_bb0910cd7206ba 761,769,777-778,786,794,802,810-811,819,835,843
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_bb0910cd7206ba 62
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_bb0910cd7206ba 62
+src/data/trial-design-wave.ts
+  s_0beac9cb5d78fd::t_bb0910cd7206ba 1-377
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_bb0910cd7206ba 62
+src/app/trial-designs/page.tsx
+  s_0beac9cb5d78fd::t_bb0910cd7206ba 1-258
+src/data/index.ts
+  s_0beac9cb5d78fd::t_bb0910cd7206ba 35,133
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "23aaa93122e72e7ff30e1f5e0f150085e155a8b1",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

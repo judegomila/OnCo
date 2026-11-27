@@ -1,0 +1,9 @@
+src/data/precision-matrix/dosing.ts
+  ai_agent 16,163
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "7a7da54b6d8d8a1953b534f6039e196cfe60a3b8",
+  "prompts": {}
+}

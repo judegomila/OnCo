@@ -1,0 +1,67 @@
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 53
+src/app/dependencies/page.tsx
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 1-159
+src/components/DagViewer.tsx
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 1-236
+packages/onco-cli/src/format.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 9
+src/data/frontier.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 209
+src/data/spikes/prostate.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 80
+src/components/RouteIcon.tsx
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 31
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 53
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 53
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 53
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 53
+src/lib/paths.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 29
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 53
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 115-120,506
+src/data/technologies.ts
+  ai_agent 45,54,63,72,82,128,149,168,196,206,224,232,243,255,267,408,416,425,452,472,484,496,568,577,665,677,701,753,764,776,799,831,854,865,876,886,896,981,1073,1103,1133,1163,1283,1313,1333,1343,1353
+src/data/radiation-wave1.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 17,29,59,71
+src/data/supporting.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 34,43,74,134,143,232
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 57
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 267,696-718
+src/data/spikes/nsclc.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 220
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 53
+src/lib/dag.test.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 1-106
+src/data/spikes/neuroendocrine.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 21,28
+src/data/spikes/multiple-myeloma.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 22
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_e8abbdef7552cf 53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "238adc044e8e5985b126e6bb213638b5282415aa",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

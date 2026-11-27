@@ -1,0 +1,48 @@
+src/components/MachineLinks.tsx
+  s_0beac9cb5d78fd::t_7474e931dc69ca 1-30,32-45
+  s_0beac9cb5d78fd::t_bcc99f7c6d9c4c 31
+src/components/MainDataAttrs.tsx
+  s_0beac9cb5d78fd::t_3f5b19357ff57d 1-19
+src/lib/agent-surface.test.ts
+  s_0beac9cb5d78fd::t_610b129424cee4 1-123
+src/lib/seo.test.ts
+  s_0beac9cb5d78fd::t_80ae283ffebe6b 2
+  s_0beac9cb5d78fd::t_f3bd32f97dc544 23-34
+src/app/layout.tsx
+  s_0beac9cb5d78fd::t_61cc76b3e67011 103-104
+src/components/JsonLd.tsx
+  s_0beac9cb5d78fd::t_8eaa9c0253fecc 107
+  s_0beac9cb5d78fd::t_6d2661473f8e1a 115,126,137,164
+  s_0beac9cb5d78fd::t_06f5488cab26c1 24-28
+  s_0beac9cb5d78fd::t_b9cf8df05a3776 150
+  s_0beac9cb5d78fd::t_a5f1c1869db3bd 70-80
+  s_0beac9cb5d78fd::t_d3defd0c9f72e4 159
+  s_0beac9cb5d78fd::t_3e3b52107ff4ec 4-5
+scripts/build-context.ts
+  s_0beac9cb5d78fd::t_cf2368e64667f6 113-122
+  s_0beac9cb5d78fd::t_5c2a20c63dfafe 14
+  s_0beac9cb5d78fd::t_fdf4f95e812154 123
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_51d61ce8439a6e 16
+  s_0beac9cb5d78fd::t_f96c02323034b3 222
+public/llms.txt
+  s_0beac9cb5d78fd::t_7ef503915c781b 23-32
+src/lib/seo.ts
+  s_0beac9cb5d78fd::t_f79e9ca1c786e7 58-108,114-115
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "1b14df759f1fc58988becadd75bbc045634a0274",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

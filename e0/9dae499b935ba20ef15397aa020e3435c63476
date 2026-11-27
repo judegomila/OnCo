@@ -1,0 +1,105 @@
+src/components/SpreadMap.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 30
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_04eb703b200bc1 3,11,14,21,24,28,58,81-83,88-89,93,104,106,108-109,113-114,116,178,186
+src/app/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 44
+src/app/query/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 8,19
+src/app/explore/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 11,21,23
+src/components/CommandPalette.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 32-33,41
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_f304277ab268f4 11,14,21,24,28,52,71-73,78-79,83,92,94,96-97,103-104,106,145,161
+src/app/toxicity/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 8,17
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_f304277ab268f4 11,14,21,24,28,52,71-73,78-79,83,92,94,96-97,103-104,106,145,161
+src/app/catalysts/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 8,18
+src/app/resistance/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 10,52
+src/components/WhatIsBeingDone.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 56,64
+src/app/irae/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 50
+src/app/resistance/gaps/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 48
+src/app/pivot/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 9,55
+src/data/spread.ts
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 29
+src/lib/ask-compose.ts
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 517
+src/app/evidence/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 11,20
+src/app/completeness/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 11-12,85
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_f304277ab268f4 11,14,21,24,28,52,71-73,78-79,83,92,94,96-97,103-104,106,145,161
+src/app/freshness/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 8,59
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_f304277ab268f4 11,14,21,24,28,52,71-73,78-79,83,92,94,96-97,103-104,106,145,161
+src/app/status/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 10,86
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_f304277ab268f4 11,14,21,24,28,52,71-73,78-79,83,92,94,96-97,103-104,106,145,161
+src/app/rankings/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 19
+src/app/forest/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 11,34
+src/app/pulse/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 14,40
+src/app/mechanics/[stage]/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 306
+src/app/modalities/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 13,16,24,26
+src/app/atlas/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 11,18
+src/app/machines/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 13,93
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_f304277ab268f4 11,14,21,24,28,52,71-73,78-79,83,92,94,96-97,103-104,106,145,161
+src/app/audit/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 9,26
+src/app/market/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 9,16
+src/app/modalities/[format]/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 89
+src/app/side-effects/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 24
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_f304277ab268f4 11,14,21,24,28,52,71-73,78-79,83,92,94,96-97,103-104,106,145,161
+src/app/path/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 8,27
+src/app/eval/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 12,64
+src/app/atlas/spread/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 29
+src/app/mechanics/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 81
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_f304277ab268f4 11,14,21,24,28,52,71-73,78-79,83,92,94,96-97,103-104,106,145,161
+docs/PAGE-TITLES.md
+  s_0beac9cb5d78fd::t_8f9fc7df2dd6c5 34-37,39-64,66-113
+src/app/atlas/organs/page.tsx
+  s_0beac9cb5d78fd::t_565ac6e5e50f71 18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "e09dae499b935ba20ef15397aa020e3435c63476",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

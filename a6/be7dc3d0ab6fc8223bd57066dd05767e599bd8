@@ -1,0 +1,27 @@
+src/data/animated.ts
+  s_0beac9cb5d78fd::t_fbb04e58fd4425 486
+src/data/tests.ts
+  s_0beac9cb5d78fd::t_b2c8c86ef0570f 1-649
+src/data/index.ts
+  s_0beac9cb5d78fd::t_3cd702cc8cd321 42,85
+src/data/spikes/breast-hr-positive.ts
+  s_0beac9cb5d78fd::t_57b5e4dcc31bf7 314
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_abb8d176bfd52e 798-799
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a6be7dc3d0ab6fc8223bd57066dd05767e599bd8",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

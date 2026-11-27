@@ -1,0 +1,11 @@
+src/data/trial-key-papers-wave1.ts
+  ai_agent 29,38,40-41,44,48,50-52,69,72,87,93,95,97,105,115,120,122,129-130,140,156,164,182-183,210,219,223,258-259,269,281,293
+src/data/papers-trials-wave1.ts
+  ai_agent 264-300
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "281291ca2e782e4c6a1c5551923e39b46f9055a5",
+  "prompts": {}
+}

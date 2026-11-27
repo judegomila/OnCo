@@ -1,0 +1,41 @@
+src/data/people/china.ts
+  s_0beac9cb5d78fd::t_d46113d7c6b871 1-139
+src/components/CountryRanking.tsx
+  s_0beac9cb5d78fd::t_d46113d7c6b871 50,90
+src/data/index.ts
+  ai_agent 48,97
+src/data/spikes/sclc.ts
+  s_0beac9cb5d78fd::t_d46113d7c6b871 170
+src/data/people/index.ts
+  ai_agent 9,12
+src/data/deals.ts
+  s_0beac9cb5d78fd::t_d46113d7c6b871 113-175
+src/data/china.ts
+  s_0beac9cb5d78fd::t_d46113d7c6b871 1-599
+src/data/spikes/breast-her2-positive.ts
+  s_0beac9cb5d78fd::t_d46113d7c6b871 26-27
+src/app/countries/page.tsx
+  ai_agent 8,20-21,31
+src/app/countries/china/page.tsx
+  s_0beac9cb5d78fd::t_d46113d7c6b871 1-225
+src/data/regional-approvals.ts
+  ai_agent 118-122,156-159,187-196,202-203
+src/data/sponsor-aliases.ts
+  s_0beac9cb5d78fd::t_d46113d7c6b871 47,50,61-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "fa175a70c796be46ad57f5c214832c4144e790de",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

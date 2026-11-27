@@ -1,0 +1,86 @@
+src/data/spikes/protocol-upgrades-fill-skin.ts
+  s_1e233a6be244f1::t_1ba42a4d13c19d 16-20,26-35,47
+  s_1e233a6be244f1::t_e85ba536fb443e 21-24
+  s_1e233a6be244f1::t_e9fb5213a083c8 36-46
+  s_1e233a6be244f1::t_cc39d986814485 1-15,25,48-49
+src/data/protocols/survivorship-care-plan-and-treatment-summary.ts
+  s_1e233a6be244f1::t_ec9d37838a5638 1-143,145-147
+  s_1e233a6be244f1::t_63dc7e8de6bb10 144
+src/data/protocols/egfr-inhibitor-rash-prophylaxis.ts
+  s_1e233a6be244f1::t_9e8ff01cd75c69 1-137
+src/data/protocols/chronic-pain-in-cancer-survivors.ts
+  s_1e233a6be244f1::t_4ef2f9e616e526 1-140
+src/data/protocols/irinotecan-early-cholinergic-syndrome-and-late-diarrhoea.ts
+  s_1e233a6be244f1::t_491013930f67cb 1-140
+src/data/protocols/hot-flushes-on-endocrine-therapy-non-hormonal-options.ts
+  s_1e233a6be244f1::t_6255ca19f50d08 1-55,57-162,164-165
+  s_1e233a6be244f1::t_63dc7e8de6bb10 163
+  s_1e233a6be244f1::t_fa0677fd0a04bc 56
+src/data/protocols/anticipatory-nausea-and-vomiting.ts
+  s_1e233a6be244f1::t_6a306901d07b2a 1-126
+src/data/protocols/scalp-cooling-during-chemotherapy.ts
+  s_1e233a6be244f1::t_a871d6f0ede54f 1-166
+src/data/protocols/nausea-and-vomiting-in-advanced-cancer.ts
+  s_1e233a6be244f1::t_00c14709363590 160,164
+  s_1e233a6be244f1::t_db237002e6403c 1-159,161-163,165-179
+src/data/index.ts
+  s_1e233a6be244f1::t_53db0088f45af4 116-118,405-407
+src/data/protocols/sexual-health-assessment-and-interventions.ts
+  s_1e233a6be244f1::t_d6aa386d7d29ff 1-13,16-43,45-87,89-91,98-118,120-124,126-139,141-142
+  s_1e233a6be244f1::t_3d0b5912edfa45 14-15,88,92-97,119,125
+  s_1e233a6be244f1::t_3796fef32f0b7b 44
+  s_1e233a6be244f1::t_63dc7e8de6bb10 140
+src/data/ideas-waves/wave-access.ts
+  s_1e233a6be244f1::t_6945325d2939f9 544
+src/data/protocols/distress-screening-and-referral.ts
+  s_1e233a6be244f1::t_a92d2324e73372 102
+  s_1e233a6be244f1::t_4cca094ce09687 39
+  s_1e233a6be244f1::t_c71a10e3b10cb2 1-32,34-38,40-101,103-148
+  s_1e233a6be244f1::t_90d87935c8b9d0 33
+src/data/spikes/protocol-upgrades-fill-body.ts
+  s_1e233a6be244f1::t_8fb38bb07b9225 1-15,20-34
+src/data/protocols/insomnia-in-adults-with-cancer.ts
+  s_1e233a6be244f1::t_5d08f2eac101e9 1-125,127-130,132-142
+  s_1e233a6be244f1::t_692fe9f12d70cb 126,131
+src/data/protocols/hand-foot-syndrome-prevention-and-dose-modification.ts
+  s_1e233a6be244f1::t_c6ae1214b2a2b3 1-188
+src/data/protocols/exercise-during-and-after-cancer-treatment.ts
+  s_1e233a6be244f1::t_3d554bb4bf8446 1-115,117-143
+  s_1e233a6be244f1::t_02777b0c5d13bd 116
+src/data/protocols/treatment-induced-diarrhoea-grading-and-management.ts
+  s_1e233a6be244f1::t_ddc8d99b35d6c0 1-172
+src/data/protocols/index.ts
+  s_1e233a6be244f1::t_8a224ce50d7cf7 2,27,29-30,37,45,70,72-73,80
+  s_1e233a6be244f1::t_04d5ad42310039 15,24,26,35-36,58,67,69,78-79
+  s_1e233a6be244f1::t_30375e5c77e23c 7,12,17,28,50,55,60,71
+src/data/protocols/neratinib-diarrhoea-prophylaxis-and-dose-escalation.ts
+  s_1e233a6be244f1::t_6870c74dd76f57 1-129
+src/data/protocols/cancer-related-fatigue-screening-and-management.ts
+  s_1e233a6be244f1::t_e4710cd48574f5 1-46,48-140,142-144
+  s_1e233a6be244f1::t_4b2566e783c310 47,141
+src/data/spikes/protocol-upgrades-fill-gi.ts
+  s_1e233a6be244f1::t_3f1e73068a1766 25
+  s_1e233a6be244f1::t_1d240b057839b5 1-16,32-33
+  s_1e233a6be244f1::t_1ce795646fb28d 17-24,26-31
+src/data/protocols/lymphoedema-risk-reduction-surveillance-and-treatment.ts
+  s_1e233a6be244f1::t_da0a7e8eb9682d 1-121,123-150
+  s_1e233a6be244f1::t_6945325d2939f9 122
+src/data/protocols/eye-care-with-ocular-toxic-antibody-drug-conjugates.ts
+  s_1e233a6be244f1::t_8a0928b7141c4b 1-178
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "480ddf5b29ea05a9124fc7150045795598260176",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

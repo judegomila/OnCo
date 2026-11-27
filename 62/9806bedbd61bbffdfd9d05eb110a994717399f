@@ -1,0 +1,37 @@
+src/lib/roadmap-watch.ts
+  ai_agent 130-132
+public/freshness.json
+  s_0beac9cb5d78fd::t_05a4fba38c5595 1
+CHANGELOG.md
+  s_0beac9cb5d78fd::t_05a4fba38c5595 19-20
+public/newsletter/2026-09-22.json
+  s_0beac9cb5d78fd::t_05a4fba38c5595 1
+public/newsletter/index.json
+  s_0beac9cb5d78fd::t_05a4fba38c5595 1
+public/newsletter/feed.xml
+  s_0beac9cb5d78fd::t_05a4fba38c5595 14-16
+src/lib/roadmap-watch.test.ts
+  ai_agent 72
+public/newsletter/2026-09-22/index.html
+  s_0beac9cb5d78fd::t_05a4fba38c5595 2,9-10
+public/llms.txt
+  s_0beac9cb5d78fd::t_05a4fba38c5595 5
+public/roadmap-watch.json
+  ai_agent 1026,1261,1427,1795,1937,1956,2058,2094,2140,2146
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "629806bedbd61bbffdfd9d05eb110a994717399f",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

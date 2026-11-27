@@ -1,0 +1,86 @@
+src/data/drugs-deal-assets.ts
+  s_1e233a6be244f1::t_a3ed6770313002 57
+  s_1e233a6be244f1::t_9eb6500afdb613 82
+  s_1e233a6be244f1::t_6db6be2f5f952a 36,43,50,71,78
+  s_1e233a6be244f1::t_e92710e6f12b3a 86
+src/data/biomarker-readouts-3.ts
+  s_1e233a6be244f1::t_9a9ebee51d6208 24,35,45,60,71,87,98,114,125,136,146,157,173,184,199,210,224,238
+  s_1e233a6be244f1::t_bb5df9e6b5a9a5 174
+docs/proposals/gap-audit.md
+  s_1e233a6be244f1::t_5799b42cd940a7 185,321
+  s_1e233a6be244f1::t_6bce97af6472f4 81
+src/data/tests.ts
+  s_1e233a6be244f1::t_409f3447cc7251 352,361,378,403
+  s_1e233a6be244f1::t_cbfb35dd1eabcf 820
+  s_1e233a6be244f1::t_ff74d4250b5949 15,187,195,219,259,267,385,393,810-819,821-824,836
+src/data/spikes/sarcoma.ts
+  s_1e233a6be244f1::t_84faf568840b2f 76
+docs/proposals/gap-audit.json
+  s_1e233a6be244f1::t_5799b42cd940a7 477,644
+scripts/gap-audit.ts
+  s_1e233a6be244f1::t_6bce97af6472f4 953-958
+src/data/biomarker-readouts-4.ts
+  s_1e233a6be244f1::t_9a9ebee51d6208 107,118,188,199,209,219,229,253
+  s_1e233a6be244f1::t_bb5df9e6b5a9a5 254
+src/data/readout-test-records.ts
+  s_1e233a6be244f1::t_825ad09f6f1597 1-68
+src/data/tests-cdx-devices.ts
+  s_1e233a6be244f1::t_8d8cd3832a65ef 170,180
+  s_1e233a6be244f1::t_ff74d4250b5949 181
+  s_1e233a6be244f1::t_19d8d0d5e5c02a 69,130,272
+  s_1e233a6be244f1::t_5a2669cccf9092 313-330
+src/data/cdx-fda-rows.ts
+  s_1e233a6be244f1::t_bb5df9e6b5a9a5 81
+src/data/pipeline-trials-wave6.ts
+  s_1e233a6be244f1::t_a0259af3ba98f7 9950-9965
+  s_1e233a6be244f1::t_0fb5bdab57244c 6662-6663
+  s_1e233a6be244f1::t_a3ed6770313002 6664
+scripts/link-sense-audit.ts
+  s_1e233a6be244f1::t_4373b26216b7a1 362-365
+src/data/spikes/ovarian.ts
+  s_1e233a6be244f1::t_9e97c1dcbcc5c0 208
+docs/proposals/link-sense-audit.md
+  s_1e233a6be244f1::t_800d508a399612 15,19,28,32,37-42,44-51,55-56,60-67,69-77,297,311,316
+  s_1e233a6be244f1::t_cbfb35dd1eabcf 11
+  s_1e233a6be244f1::t_90082159afce36 9,13,21,24,209
+  s_1e233a6be244f1::t_d949759eb3d049 10,102
+src/data/biomarker-readouts-2.ts
+  s_1e233a6be244f1::t_bb5df9e6b5a9a5 69
+  s_1e233a6be244f1::t_9a9ebee51d6208 24,46,57,68,85,108,135,154,174,184,202,225,240,254,269
+src/data/link-sense-floor.json
+  s_1e233a6be244f1::t_ddf76770967fdf 4,6,23
+src/data/drugs-universe-gaps.ts
+  s_1e233a6be244f1::t_5fe65592ac2e66 78,89,97
+  s_1e233a6be244f1::t_62dd1556bdeff9 83,91,99
+  s_1e233a6be244f1::t_9eb6500afdb613 103
+  s_1e233a6be244f1::t_ff74d4250b5949 63
+src/data/index.ts
+  s_1e233a6be244f1::t_31022a649db557 402,404-412,513
+  s_1e233a6be244f1::t_8538a92bc1cbd2 233,372-374
+  s_1e233a6be244f1::t_7c25ea9d63638c 403,512
+src/data/animated.ts
+  s_1e233a6be244f1::t_b6886030bf71b2 482
+src/data/paper-ids.json
+  s_1e233a6be244f1::t_efe6a690e096f2 2462
+src/data/biomarker-readouts.ts
+  s_1e233a6be244f1::t_9a9ebee51d6208 82,105,142,167,249,292,330,352,369,386,408,428
+docs/proposals/link-sense-audit.json
+  s_1e233a6be244f1::t_800d508a399612 390-391,393-394,400,402-429,621,1055,1080,1127,1132,1147,1178
+  s_1e233a6be244f1::t_dec1087668e7d4 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "59a4cc939f13f5c7248534553ef8d04fd9afdbf8",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

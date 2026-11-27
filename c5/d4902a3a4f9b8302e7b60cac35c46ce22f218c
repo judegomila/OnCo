@@ -1,0 +1,73 @@
+src/app/edge/page.tsx
+  s_0beac9cb5d78fd::t_3364dadab3d890 5,9-10
+  s_0beac9cb5d78fd::t_d9d9474ab79e8b 64-65,69,72
+  s_0beac9cb5d78fd::t_9e5d0713aa250d 26-27
+  s_0beac9cb5d78fd::t_54eab5fb075655 44-51
+src/lib/for-me-related.test.ts
+  s_0beac9cb5d78fd::t_70b7bd6cd495b4 1-56
+scripts/build-feeds.ts
+  s_0beac9cb5d78fd::t_5eac1a563f1a49 20-21
+  s_0beac9cb5d78fd::t_df412a43b5a92d 8-9
+  s_0beac9cb5d78fd::t_38fa8d5baa64c0 213-222
+  s_0beac9cb5d78fd::t_eb871ac670355e 112-124,128-129,132-135
+src/lib/edge-kinds.ts
+  s_0beac9cb5d78fd::t_a6dca85497ea39 38-127
+  s_0beac9cb5d78fd::t_434f76141b3d4e 4-5
+src/lib/edge.ts
+  s_0beac9cb5d78fd::t_ac7287a3ba0145 319
+  s_0beac9cb5d78fd::t_e36cb08ce22214 34,36
+src/lib/for-me-related.ts
+  s_0beac9cb5d78fd::t_16e50b2857d20b 32-35
+  s_0beac9cb5d78fd::t_f2ae7904566c1e 5-6
+  s_0beac9cb5d78fd::t_560f5aec4913fa 13-31,36-46
+  s_0beac9cb5d78fd::t_870c519372500a 56
+src/components/EdgeCard.tsx
+  s_0beac9cb5d78fd::t_e1b79bd51d1cc4 1-37
+src/components/CancerChanges.tsx
+  s_0beac9cb5d78fd::t_5add66a896dd00 86-97,102-105
+src/app/[kind]/[id]/changes/page.tsx
+  s_0beac9cb5d78fd::t_44eb73f258374e 53
+  s_0beac9cb5d78fd::t_bdf44c1dc7863f 11
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_3ea7b0a3b5b1fb 797
+src/app/edge/page.test.ts
+  s_0beac9cb5d78fd::t_cf2c121832fcfd 25
+  s_0beac9cb5d78fd::t_07916919c5180e 47-51
+  s_0beac9cb5d78fd::t_3c6bb9fe64945c 59-63
+  s_0beac9cb5d78fd::t_145a6e612f86bd 23-24
+  s_0beac9cb5d78fd::t_47c3c728e2894d 35
+src/components/EdgeFilter.tsx
+  s_0beac9cb5d78fd::t_b0cf2d040bba28 14-18
+  s_0beac9cb5d78fd::t_9bf107100356de 3-8,11-12,19-47,50-58,60-67,78-93,95-96,101-115,118-141,144,146-147,149-156,159-207,211-214
+  s_0beac9cb5d78fd::t_9c317ef19834f8 116-117
+  s_0beac9cb5d78fd::t_9683553589ba9c 68-77
+  s_0beac9cb5d78fd::t_762f2a097ff1c8 142-143,145
+  s_0beac9cb5d78fd::t_6b7c18eb9b58ff 94,97-98
+scripts/api-layout.ts
+  s_0beac9cb5d78fd::t_379c7c993b2555 50
+  s_0beac9cb5d78fd::t_a0975d61ad91a0 89
+  s_0beac9cb5d78fd::t_4a194be18a4c59 102-103
+  s_0beac9cb5d78fd::t_a8eb0653824dcb 8
+  s_0beac9cb5d78fd::t_40acf86b23884b 31
+scripts/build-feeds.test.ts
+  s_0beac9cb5d78fd::t_08841136535cc3 64-74
+src/lib/edge-kinds.test.ts
+  s_0beac9cb5d78fd::t_68d9d7a73a0c02 1-28,30-57
+  s_0beac9cb5d78fd::t_41467c08c6e937 29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c5d4902a3a4f9b8302e7b60cac35c46ce22f218c",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

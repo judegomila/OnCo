@@ -1,0 +1,37 @@
+src/data/person-papers-wave6.ts
+  s_0beac9cb5d78fd::t_7f72fc3ed1e9df 1-36
+src/data/company-drugs-wave6.ts
+  s_0beac9cb5d78fd::t_7f72fc3ed1e9df 1-21
+scripts/fetch-people-papers.ts
+  s_0beac9cb5d78fd::t_7f72fc3ed1e9df 1-334
+scripts/fetch-company-drugs.ts
+  s_0beac9cb5d78fd::t_7f72fc3ed1e9df 1-164
+scripts/wave6-shared.ts
+  s_0beac9cb5d78fd::t_7f72fc3ed1e9df 1-221
+src/data/papers-people-wave6.ts
+  s_0beac9cb5d78fd::t_7f72fc3ed1e9df 1-64
+src/data/idea-links-wave6.ts
+  s_0beac9cb5d78fd::t_7f72fc3ed1e9df 1-95
+src/data/trials-ideas-wave6.ts
+  s_0beac9cb5d78fd::t_7f72fc3ed1e9df 1-21
+src/data/papers-ideas-wave6.ts
+  s_0beac9cb5d78fd::t_7f72fc3ed1e9df 1-142
+scripts/fetch-idea-evidence.ts
+  s_0beac9cb5d78fd::t_7f72fc3ed1e9df 1-450
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "d4396e78063bce7cd60c55e7b8f181c75c790a61",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

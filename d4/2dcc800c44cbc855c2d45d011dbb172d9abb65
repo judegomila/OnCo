@@ -1,0 +1,32 @@
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_67b8b028d72b7b 144-148
+src/data/target-xrefs.ts
+  s_0beac9cb5d78fd::t_67b8b028d72b7b 2145-2150
+  s_0beac9cb5d78fd::t_b9173baccae215 2144
+src/data/institutions/europe.ts
+  s_0beac9cb5d78fd::t_67b8b028d72b7b 77,459,619-694
+src/data/targets.ts
+  s_0beac9cb5d78fd::t_67b8b028d72b7b 1112-1130
+src/data/institutions.ts
+  s_0beac9cb5d78fd::t_67b8b028d72b7b 73,89
+src/data/regimens.ts
+  s_0beac9cb5d78fd::t_67b8b028d72b7b 396-442
+src/data/institutions/centres-wave3.ts
+  s_0beac9cb5d78fd::t_67b8b028d72b7b 89,101
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "d42dcc800c44cbc855c2d45d011dbb172d9abb65",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

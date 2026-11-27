@@ -1,0 +1,27 @@
+src/lib/drug-availability.ts
+  s_1e233a6be244f1::t_6bf5faa5591b69 126
+  s_1e233a6be244f1::t_6706be1b56f54c 140
+  s_1e233a6be244f1::t_53bd08a1a86222 141-147
+src/lib/drug-availability.test.ts
+  s_1e233a6be244f1::t_b2c71915a79e96 42-48
+src/components/DrugAvailability.tsx
+  s_1e233a6be244f1::t_ae5a07329b3d90 25
+src/lib/tables/country-trials.ts
+  s_1e233a6be244f1::t_429f92aa493027 32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "6373f33639fea3c9589577725dac444d33460582",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

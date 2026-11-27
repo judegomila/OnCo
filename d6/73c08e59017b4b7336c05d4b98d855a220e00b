@@ -1,0 +1,49 @@
+CHANGELOG.md
+  ai_agent 11
+src/data/sarcoma-lymphoma-subtypes.ts
+  ai_agent 103
+public/freshness.json
+  ai_agent 1
+public/newsletter/index.json
+  ai_agent 1
+public/product-queue.json
+  ai_agent 1-38
+src/data/spikes/nci-rare-other.ts
+  ai_agent 345
+public/newsletter/feed.xml
+  ai_agent 14-16
+src/data/spikes/nci-paediatric.ts
+  ai_agent 104,192,376
+src/data/spikes/nci-rare-solid.ts
+  ai_agent 20
+public/.well-known/llms.txt
+  ai_agent 5
+src/data/country-au.ts
+  ai_agent 470
+src/data/gap-fill.ts
+  ai_agent 1165
+src/data/institutions/rare-cancer-foundations-2026-11.ts
+  ai_agent 1-478
+src/data/sponsor-aliases.ts
+  ai_agent 23
+src/data/spikes/gap-cancers.ts
+  ai_agent 59,97,289,479,547,579,612,991
+src/data/cancers.ts
+  ai_agent 510,707
+src/data/index.ts
+  ai_agent 126,408
+public/.well-known/mcp.json
+  ai_agent 3
+public/llms.txt
+  ai_agent 5
+public/newsletter/2026-11-05.json
+  ai_agent 1
+public/newsletter/2026-11-05/index.html
+  ai_agent 2,9-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "d673c08e59017b4b7336c05d4b98d855a220e00b",
+  "prompts": {}
+}

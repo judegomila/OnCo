@@ -1,0 +1,96 @@
+src/data/spikes/aml.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 207,247
+src/data/pipeline-trials-wave5.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 34,688,772,1846,2206,2506,2740,2788,3274,3658,3754
+src/data/rare-subtypes.ts
+  s_0beac9cb5d78fd::t_607f0d1ba53899 578
+  s_0beac9cb5d78fd::t_ae7d87cfa0b4cc 593-598,600-628,630-660,662-687,689-718,720-724,726-746,748-772
+  s_0beac9cb5d78fd::t_3a75f80908411a 341-346,348-374,376-404,406-430,432-484,486-510,512-539,541-568,570-577,579-592
+  s_0beac9cb5d78fd::t_e8ca8b03c6b6e3 175-288,290-315,317-340
+  s_0beac9cb5d78fd::t_e55e8eedb65a5d 1132
+  s_0beac9cb5d78fd::t_2026be2a8aba5f 773-778,780-808,810-839,841-867,869-926,928-954,956-977
+  s_0beac9cb5d78fd::t_e24048bc4034bb 1045
+  s_0beac9cb5d78fd::t_4eff12d2c9d3a1 725
+  s_0beac9cb5d78fd::t_9c5f2f412e37c8 1-69,71-97,99-151,153-174,1155-1157,1197
+  s_0beac9cb5d78fd::t_ac919ef47c3818 70,98,152,405,485,540,599,629,955
+  s_0beac9cb5d78fd::t_483701566e5df0 1158-1196
+  s_0beac9cb5d78fd::t_dcd41e0a5bfc71 978-983,985-1013,1015-1044,1046-1073,1075-1131,1133-1154
+  s_0beac9cb5d78fd::t_03870c47abd625 289,316,347,375,431,511,569,661,688,719,747,779,809,840,868,984,1014
+  s_0beac9cb5d78fd::t_ed9a6fe3ba8ca3 927
+  s_0beac9cb5d78fd::t_ad8c6a2bc04964 1074
+src/data/paediatric-fronts.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 160
+src/data/spikes/cll.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 79
+src/data/spikes/melanoma.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 203
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_26cfc3fd53600d 351
+  s_0beac9cb5d78fd::t_aed452ec1a757a 58
+  s_0beac9cb5d78fd::t_1f44dbd8d621b6 80
+  s_0beac9cb5d78fd::t_9926ee7ce0dde4 213
+  s_0beac9cb5d78fd::t_86c59215407c7c 325
+  s_0beac9cb5d78fd::t_e896655356f4f4 187
+scripts/fold-zh.ts
+  s_0beac9cb5d78fd::t_98cac839d154ff 37
+  s_0beac9cb5d78fd::t_3316194178da63 28
+src/lib/cancer-families.test.ts
+  s_0beac9cb5d78fd::t_8515f3da9f3356 63-79
+src/data/organ-schematics.test.ts
+  s_0beac9cb5d78fd::t_2c5ec968dd1ed5 24
+src/data/index.ts
+  s_0beac9cb5d78fd::t_a3e4ac64bdb702 104
+  s_0beac9cb5d78fd::t_2588f9a9f441cd 195
+src/data/spikes/cholangiocarcinoma.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 67
+src/data/spikes/esophageal.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 110,121
+src/data/pipeline-trials-wave4.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 642,972,1212,1350,1710
+src/data/spikes/hodgkin-lymphoma.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 68,79,86,94,101,108,113,120
+src/data/spikes/colorectal.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 224,239
+src/data/platform-trials-wave.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 175
+src/data/pipeline-trials-wave6.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 1673,2591,5861,5993,6743,8891,9419
+src/data/pipeline-trials-wave2.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 53,491,1019
+src/data/spikes/neuroblastoma.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 109
+src/data/drugs-pipeline-wave1.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 665,707
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 36,94,248,454,654,662,820,828
+src/data/spikes/neuroendocrine.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 67,79
+src/data/spikes/sarcoma.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 70,78,107
+src/data/head-neck-hpv-subtypes.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 61
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 143,177,248,258,386,396,401,421,431,436,451
+src/data/spikes/head-and-neck.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 109,135
+src/data/spikes/cervical.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 138,158
+src/data/radiation-wave4.ts
+  s_0beac9cb5d78fd::t_ed3d5d4f35dcf2 52
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "93b15e60690f21d5cf247fd050ecd65cf1dbb11f",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

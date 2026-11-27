@@ -1,0 +1,29 @@
+src/data/coverage-uk.ts
+  s_0beac9cb5d78fd::t_4e3ec2ab4c5c7b 273-276,283
+scripts/spike-sources.ts
+  ai_agent 55,78
+src/lib/uk-pathway.ts
+  s_0beac9cb5d78fd::t_4e3ec2ab4c5c7b 17,135
+src/data/spikes/index.ts
+  ai_agent 69,94
+src/lib/uk-pathway.test.ts
+  s_0beac9cb5d78fd::t_4e3ec2ab4c5c7b 11,14,36-38,138-173,349-368
+src/data/spikes/prostate-uk.ts
+  s_0beac9cb5d78fd::t_4e3ec2ab4c5c7b 1-669
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "def3e1d81ae1a69cfab62bc03982e77d14d4e34c",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

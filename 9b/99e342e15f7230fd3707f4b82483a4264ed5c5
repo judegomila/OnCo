@@ -1,0 +1,92 @@
+src/data/kidney-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 14,41
+src/data/trials-subtypes-wave.ts
+  s_0beac9cb5d78fd::t_6efa53df68050f 1-554
+scripts/fold-zh.ts
+  s_0beac9cb5d78fd::t_645d9e5b011a65 31,33
+src/data/neuroendocrine-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 124
+src/data/skin-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 216
+public/newsletter/feed.xml
+  s_0beac9cb5d78fd::t_60464379c1dfd1 14-16
+src/data/spikes/gap-cancers.ts
+  s_0beac9cb5d78fd::t_0b2affb59491ab 21,137,176,214,289,386,579,734,765,797,828
+src/data/papers-subtypes-wave.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 46,110,238,249,454,908,1073,1095,1160,1511,1631,1686,2144,2166,2638,2649,2898,2920,3006,3369,3531,3760,3771,3793,3903,3969
+public/newsletter/2026-09-18.json
+  s_0beac9cb5d78fd::t_60464379c1dfd1 1
+public/newsletter/index.json
+  s_0beac9cb5d78fd::t_60464379c1dfd1 1
+src/data/sarcoma-lymphoma-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 36,80,103
+src/data/head-neck-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 14
+src/data/spikes/nci-rare-solid.ts
+  s_0beac9cb5d78fd::t_0b2affb59491ab 20,184
+src/data/head-neck-hpv-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 66,97,128
+public/llms.txt
+  s_0beac9cb5d78fd::t_60464379c1dfd1 5
+src/data/upper-gi-liver-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 20,70,95,206,237,267,328,353
+scripts/subtype-trial-gaps.ts
+  s_0beac9cb5d78fd::t_1201e5b6ea53ca 29
+  s_0beac9cb5d78fd::t_99094def7d6dba 30
+  s_0beac9cb5d78fd::t_baecc457cc264c 1-16,21-22,35-50,52-97
+  s_0beac9cb5d78fd::t_1ef377a1d7d9e5 51
+  s_0beac9cb5d78fd::t_a1de86d063b7b5 17-20,23-28,31-34
+src/data/index.ts
+  s_0beac9cb5d78fd::t_6ec11feb7ed886 110
+  s_0beac9cb5d78fd::t_4da448a937d3c7 189
+src/data/thyroid-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 61
+src/data/blood-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 51,124,151,203,257,309,336,390,441,495
+src/data/colorectal-lymphoma-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 211,301
+src/data/breast-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 22,55,118,150,184
+src/data/prostate-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 115,144
+src/data/spikes/nci-rare-other.ts
+  s_0beac9cb5d78fd::t_0b2affb59491ab 53,271
+public/freshness.json
+  s_0beac9cb5d78fd::t_9411787f87f63e 1
+src/data/paediatric-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 55,354
+public/newsletter/2026-09-18/index.html
+  s_0beac9cb5d78fd::t_60464379c1dfd1 2,9-10
+src/data/cancers.ts
+  s_0beac9cb5d78fd::t_0b2affb59491ab 60,114,279,415,440,573,587,590,608
+src/data/ovarian-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 14
+src/data/bladder-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 14
+src/data/testis-oesophagus-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 81
+src/data/sarcoma-bone-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 18,44,70
+src/data/lung-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 182,326,379,432,496,559
+CHANGELOG.md
+  s_0beac9cb5d78fd::t_60464379c1dfd1 32
+src/data/gynaecological-subtypes.ts
+  s_0beac9cb5d78fd::t_760f3c3b12966a 22,49,104,189,218,247,309
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "9b99e342e15f7230fd3707f4b82483a4264ed5c5",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

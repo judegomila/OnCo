@@ -1,0 +1,25 @@
+src/data/spikes/breast-hr-positive.ts
+  s_0beac9cb5d78fd::t_a85750a20914d5 270
+src/data/spikes/prostate.ts
+  s_0beac9cb5d78fd::t_88e1d301f68f3c 120
+CORRECTIONS.md
+  s_0beac9cb5d78fd::t_f68ddb77188c37 5-15
+src/data/drug-depth.ts
+  s_0beac9cb5d78fd::t_a85750a20914d5 479
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "9e1cd3322e96b55a28f8281c79d0dbb39596b2da",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

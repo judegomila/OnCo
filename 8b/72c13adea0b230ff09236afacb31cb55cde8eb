@@ -1,0 +1,62 @@
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_eb2bac9c683a73 132-140
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_c5d247a9133d40 132-140
+src/lib/analytics-consent.ts
+  s_0beac9cb5d78fd::t_4ec184cd4eb292 1-129
+src/app/layout.test.ts
+  s_0beac9cb5d78fd::t_8661654bc625a1 1-45
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_739b9eaa77b503 132-140
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_da2872a136cc97 163-172
+src/app/layout.tsx
+  s_0beac9cb5d78fd::t_0bfb3f1900f7f7 77
+  s_0beac9cb5d78fd::t_88be07e5bfddcc 62
+  s_0beac9cb5d78fd::t_b50dbdcaeaeaad 20
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_e494ea84af3d04 132-140
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_945a3627104ea7 132-140
+src/app/privacy/page.tsx
+  s_0beac9cb5d78fd::t_70682712bbcc8a 7,11-13
+  s_0beac9cb5d78fd::t_e144aef7015915 24
+  s_0beac9cb5d78fd::t_a193cc341b25e0 53-54
+  s_0beac9cb5d78fd::t_4d7443e5efb14c 103-108
+  s_0beac9cb5d78fd::t_ddeffd87af6324 91
+  s_0beac9cb5d78fd::t_88ea624977eed2 127
+  s_0beac9cb5d78fd::t_6701a5c6fa7634 174
+  s_0beac9cb5d78fd::t_3327763b182d9f 149
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_be5d4b84b20d30 132-140
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_41a7bdd780ab15 132-140
+src/app/about/page.tsx
+  s_0beac9cb5d78fd::t_0277c287d22705 49
+src/lib/analytics-consent.test.ts
+  s_0beac9cb5d78fd::t_50d12d0a5d019d 1-109
+src/components/AnalyticsConsent.tsx
+  s_0beac9cb5d78fd::t_89dae6bafdfdd8 35-36,39-40,43,48-49
+  s_0beac9cb5d78fd::t_5fb96a3d52f7b3 1-34,37-38,41-42,44-47,50-91
+src/components/SiteChrome.tsx
+  s_0beac9cb5d78fd::t_74960e9d34299c 13
+  s_0beac9cb5d78fd::t_8d68984889e10b 89
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_43e1f0fc6a4334 132-140
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "8b72c13adea0b230ff09236afacb31cb55cde8eb",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

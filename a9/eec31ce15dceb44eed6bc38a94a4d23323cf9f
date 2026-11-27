@@ -1,0 +1,25 @@
+public/structures/pdb-1IGT.json
+  s_0beac9cb5d78fd::t_ecaa81d3a2edfb 1
+public/structures/pdb-5DK3.json
+  s_0beac9cb5d78fd::t_ecaa81d3a2edfb 1
+scripts/fetch-structures.ts
+  s_0beac9cb5d78fd::t_635418608b121f 5,8,19-20,82,86,91-93,95-96,124,129,149,155-164
+public/structures/pdb-5A9U.json
+  s_0beac9cb5d78fd::t_ecaa81d3a2edfb 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a9eec31ce15dceb44eed6bc38a94a4d23323cf9f",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

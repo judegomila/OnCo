@@ -1,0 +1,58 @@
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_f081c64bff1684 411-446
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_220dc909b9f911 411-446
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_220dc909b9f911 411-446
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_f081c64bff1684 411-446
+src/lib/idea-rankings.test.ts
+  s_0beac9cb5d78fd::t_6c346fed4e674c 127-128,130-131
+  s_0beac9cb5d78fd::t_9e4b59021050b9 1-126,129,132-148
+src/lib/idea-rankings.ts
+  s_0beac9cb5d78fd::t_0d2918e9f35f85 62-63
+  s_0beac9cb5d78fd::t_5d658243b6c2dc 1-6,8-61,64-265
+  s_0beac9cb5d78fd::t_de192d07425d3b 7
+src/app/[kind]/page.tsx
+  s_0beac9cb5d78fd::t_67e7e3074473e2 55
+  s_0beac9cb5d78fd::t_77df36e00dd9e7 17-18
+src/lib/search-index.ts
+  s_0beac9cb5d78fd::t_95b48d273f4ea9 10
+src/components/IdeaRankings.tsx
+  s_0beac9cb5d78fd::t_e76d5edc8112c3 1-57
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_f081c64bff1684 411-446
+src/lib/idea-rankings-views.ts
+  s_0beac9cb5d78fd::t_260cab1cf24174 1-30
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_220dc909b9f911 411-446
+src/components/RankGlyph.tsx
+  s_0beac9cb5d78fd::t_8fd6dc9942ece5 1-28
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_220dc909b9f911 411-446
+src/app/ideas/rankings/page.tsx
+  s_0beac9cb5d78fd::t_1b01d612b471be 1-137
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_f081c64bff1684 411-446
+src/data/idea-picks.ts
+  s_0beac9cb5d78fd::t_4200c3c5ebccbe 1-5,9-11
+  s_0beac9cb5d78fd::t_dfea0884c39510 6-8,12-25
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_f66e72683c7511 443-480
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "8663de470ce7cd4977f415aa4ef50c62895cb1ac",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

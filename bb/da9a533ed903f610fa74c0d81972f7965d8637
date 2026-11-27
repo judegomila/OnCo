@@ -1,0 +1,39 @@
+src/data/platform-trials-wave.ts
+  s_0beac9cb5d78fd::t_298c1ffe91a9ac 141-145
+src/data/trials-subtypes-wave.ts
+  s_0beac9cb5d78fd::t_298c1ffe91a9ac 157-158
+src/lib/ask.test.ts
+  s_0beac9cb5d78fd::t_298c1ffe91a9ac 384-386
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_298c1ffe91a9ac 245,294-295,380
+src/data/spikes/gallbladder-registry-trials.ts
+  s_0beac9cb5d78fd::t_298c1ffe91a9ac 1-804
+src/data/spikes/gallbladder-treatment.ts
+  s_0beac9cb5d78fd::t_298c1ffe91a9ac 1-467
+src/lib/corpus-rules.test.ts
+  s_0beac9cb5d78fd::t_298c1ffe91a9ac 63-64
+src/data/spikes/index.ts
+  ai_agent 63-64
+src/data/schematics.ts
+  s_0beac9cb5d78fd::t_298c1ffe91a9ac 569
+src/lib/tags.ts
+  s_0beac9cb5d78fd::t_298c1ffe91a9ac 60
+scripts/spike-sources.ts
+  ai_agent 44,50,55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "bbda9a533ed903f610fa74c0d81972f7965d8637",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

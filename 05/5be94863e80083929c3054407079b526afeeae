@@ -1,0 +1,25 @@
+src/data/supporting.ts
+  s_0beac9cb5d78fd::t_9c910865dbcdb8 541,545,549,553,557,561,565,569,573,577,581,585,589,593,597,601,605,609
+  s_0beac9cb5d78fd::t_5467660f1d4f57 613,617,621,625,629,633,637,641,645,649,653,657,661,665,669,673,677,681
+  s_0beac9cb5d78fd::t_2af77467125006 517,521,525,529,533,537
+  s_0beac9cb5d78fd::t_d039d19ff8ae2f 685,689,693,697,701,705,709,713,717,721,725,729,733,737,741,745,749,753
+src/data/companies.ts
+  s_0beac9cb5d78fd::t_5880e89f4c1c78 424,429,434,447,452,467,472,492,497,507,517,522,527,532,537,547,552,557
+  s_0beac9cb5d78fd::t_2af77467125006 562,567,572,582,587,607,632,637,642,647,652,657
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "055be94863e80083929c3054407079b526afeeae",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

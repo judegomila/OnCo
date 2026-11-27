@@ -1,0 +1,49 @@
+src/data/first-60-days-checklists.ts
+  s_0beac9cb5d78fd::t_a7abe80c993654 132-153,237-238
+  s_0beac9cb5d78fd::t_86b4f675516ab0 113-131,239-249
+src/data/red-flags.ts
+  s_0beac9cb5d78fd::t_fd4326c220f588 467,480,493,506,516,527
+  s_0beac9cb5d78fd::t_6a80646cf2e93b 88-98,464-466,468-479,481-492,494-505,507-515,517-526,528-533
+src/lib/red-flags.test.ts
+  s_0beac9cb5d78fd::t_099d8cf856a1c2 40-42
+src/data/decision-tools/lung-early-stage.ts
+  s_0beac9cb5d78fd::t_f06fd6de83195b 129
+  s_0beac9cb5d78fd::t_a03ce05692741b 171
+  s_0beac9cb5d78fd::t_1b6bd30a0d5a0e 1-29,34-128,130-170,172-224,226-251,253-299,301
+  s_0beac9cb5d78fd::t_3b584038aa0696 30-33,225,300
+  s_0beac9cb5d78fd::t_fd4326c220f588 252
+src/data/questions.ts
+  s_0beac9cb5d78fd::t_fd4326c220f588 12,19
+  s_0beac9cb5d78fd::t_edc02cd75825d1 20
+src/lib/first-60-days.test.ts
+  s_0beac9cb5d78fd::t_099d8cf856a1c2 62-63
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_fd4326c220f588 83-84
+src/lib/decision-tools.ts
+  s_0beac9cb5d78fd::t_65432103e0cf70 6,79
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_6d6db3646b7720 64,71
+src/data/spikes/lung-living.ts
+  s_0beac9cb5d78fd::t_3f059e4f2a545e 133,185,187,391,445,465
+  s_0beac9cb5d78fd::t_9878efd8fc33ac 535-567
+  s_0beac9cb5d78fd::t_e6a1b24dd14d7b 43,125,264-265,268,273,275,318,320,322,324,343,428-429,568
+  s_0beac9cb5d78fd::t_88f5d6818041ce 471
+  s_0beac9cb5d78fd::t_1eb3a80ecb212c 95,102
+  s_0beac9cb5d78fd::t_9f3c60b327c0db 1-42,44-94,96-101,103-124,126-132,134-184,186,188-263,266-267,269-272,274,276-317,319,321,323,325-342,344-390,392-427,430-444,446-464,466-470,472-534
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "e6d6667d11a7a71edd684c64c3ca1f0490ff6630",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

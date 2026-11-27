@@ -1,0 +1,29 @@
+src/components/ScorecardTable.tsx
+  s_0beac9cb5d78fd::t_8be1c12d16aced 8,51,55,64-65,69-70,73-75,82,94-96
+src/components/ResearchRanking.tsx
+  s_0beac9cb5d78fd::t_8be1c12d16aced 6,34,37-38,51,54-55,61,72
+docs/TABLES.md
+  s_0beac9cb5d78fd::t_8a5a2439919127 84,86-89
+src/components/CountryRanking.tsx
+  s_0beac9cb5d78fd::t_8be1c12d16aced 7,84-86,96
+src/components/PipelineFunnel.tsx
+  s_0beac9cb5d78fd::t_8be1c12d16aced 9,22-24,30,34-35,40,44,91
+src/components/filters/useHeaderFilters.test.ts
+  s_0beac9cb5d78fd::t_8a5a2439919127 10-12,97-127
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c36c60fa67d7553c4bb117c4d3fa3ff86024f777",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

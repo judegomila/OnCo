@@ -1,0 +1,41 @@
+src/data/target-xrefs.ts
+  s_1e233a6be244f1::t_b663a37ff6df6a 18-33
+src/data/index.ts
+  s_1e233a6be244f1::t_d9255f675a7d1c 343
+  s_1e233a6be244f1::t_349b80e9370c5c 139
+src/data/targets-pipeline-gap.ts
+  s_1e233a6be244f1::t_57f0512b432e84 79
+  s_1e233a6be244f1::t_5c6ae597bcce9d 95
+  s_1e233a6be244f1::t_fa4023b7afbe87 146
+  s_1e233a6be244f1::t_7d51911f423040 1-45,47-52,54-78,80-94,96-101,104-116,118,120-126,128-134,136-141,143-145,147-150,152-155
+  s_1e233a6be244f1::t_4877672d11e024 46
+  s_1e233a6be244f1::t_a2fbfa115b6909 53
+  s_1e233a6be244f1::t_ffd92051f995af 103
+  s_1e233a6be244f1::t_93bf42081c2443 117
+  s_1e233a6be244f1::t_75e197aaa0a4d9 142
+  s_1e233a6be244f1::t_dc4ad00ac2df7e 151
+  s_1e233a6be244f1::t_b7bde1ec4837db 102
+  s_1e233a6be244f1::t_d9447bd2a7bda0 119
+  s_1e233a6be244f1::t_4225264a7724d7 127
+  s_1e233a6be244f1::t_110de8a0306168 135
+src/data/company-pipeline-gap.ts
+  s_1e233a6be244f1::t_e52986bcf51439 72,97,197,312,382,592,712,732,737,742,817,877,892,927,1017,1117,1267
+scripts/enrich-target-ids.ts
+  s_1e233a6be244f1::t_a96a793b8d934e 44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ced8aa28b44023a3652667231b07b651737cb91c",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

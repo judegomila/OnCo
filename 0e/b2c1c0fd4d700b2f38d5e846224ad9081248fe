@@ -1,0 +1,33 @@
+src/data/i18n/es.ts
+  s_0beac9cb5d78fd::t_d5a2535c134aed 6674-7298
+src/data/i18n/pt.ts
+  s_0beac9cb5d78fd::t_d5a2535c134aed 6674-7298
+src/data/i18n/fr.ts
+  s_0beac9cb5d78fd::t_d5a2535c134aed 6663-7287
+src/data/i18n/ja.ts
+  s_0beac9cb5d78fd::t_d5a2535c134aed 6663-7287
+src/data/i18n/zh.ts
+  s_0beac9cb5d78fd::t_d5a2535c134aed 6674-7298
+src/data/i18n/de.ts
+  s_0beac9cb5d78fd::t_d5a2535c134aed 6663-7287
+src/data/i18n/ar.ts
+  s_0beac9cb5d78fd::t_d5a2535c134aed 6663-7287
+src/data/i18n/hi.ts
+  s_0beac9cb5d78fd::t_d5a2535c134aed 6674-7298
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "0eb2c1c0fd4d700b2f38d5e846224ad9081248fe",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

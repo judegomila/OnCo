@@ -1,0 +1,27 @@
+src/lib/health-denominators.test.ts
+  s_1e233a6be244f1::t_1662436e17fded 66-69
+src/lib/completeness.ts
+  s_1e233a6be244f1::t_2bcd35d536c8ad 401-439,442-465,468-492,497-546,548-554
+  s_1e233a6be244f1::t_89b939c51e44eb 466-467
+  s_1e233a6be244f1::t_658cc65f9a9a3d 440
+  s_1e233a6be244f1::t_3299262ae44c10 441
+  s_1e233a6be244f1::t_22f5fe6fce446f 493-496
+src/data/universe.ts
+  s_1e233a6be244f1::t_7e07aa3e5a76f6 32-39,72-102,120-124,260-266
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "04ce9e2b02026db5094b034ec1e32ad0a5fefa57",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

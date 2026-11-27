@@ -1,0 +1,31 @@
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_6397ac45bab97a 57,77,82,87,177,622
+src/data/drugs-pipeline-wave1.ts
+  s_0beac9cb5d78fd::t_6397ac45bab97a 545,953
+src/data/index.ts
+  s_0beac9cb5d78fd::t_6397ac45bab97a 67,134
+src/data/polycythaemia-vera.ts
+  s_0beac9cb5d78fd::t_6397ac45bab97a 1-25,27-148,150-163,165-171
+  s_0beac9cb5d78fd::t_a619216455eaf5 26,149
+  s_0beac9cb5d78fd::t_7d2b0e4d05b94c 164
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_d4df545aad7d37 346
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_a5c12dd5ddaa78 282-286
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b1a7b81a40de3b53366d80f606b82f54eb208368",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

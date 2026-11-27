@@ -1,0 +1,80 @@
+src/data/spikes/colorectal.ts
+  s_0beac9cb5d78fd::t_2228490371710d 111,117,189
+  s_0beac9cb5d78fd::t_d0eb9481e3722a 167
+src/data/testis-oesophagus-subtypes.ts
+  s_0beac9cb5d78fd::t_2228490371710d 65,72,87,95
+src/data/spikes/gap-cancers.ts
+  s_0beac9cb5d78fd::t_2228490371710d 97
+public/trials/nct03678883/index.html
+  ai_agent 1
+src/data/spikes/sclc.ts
+  s_0beac9cb5d78fd::t_2228490371710d 78,82
+public/trials/nct05253651/index.html
+  ai_agent 1
+public/trials/nct05740566/index.html
+  ai_agent 1
+public/trials/nct05210790/index.html
+  ai_agent 1
+public/trials/nct06203210/index.html
+  ai_agent 1
+src/data/nutrition.ts
+  s_0beac9cb5d78fd::t_2228490371710d 496
+public/trials/cross-trial/index.html
+  ai_agent 1
+src/data/spikes/esophageal.ts
+  s_0beac9cb5d78fd::t_2228490371710d 27,34
+src/data/spikes/ovarian.ts
+  s_0beac9cb5d78fd::t_2228490371710d 199
+src/data/spikes/glioblastoma.ts
+  s_0beac9cb5d78fd::t_2228490371710d 22
+src/lib/corpus-rules.test.ts
+  s_0beac9cb5d78fd::t_2228490371710d 67-68
+src/data/companies.ts
+  s_0beac9cb5d78fd::t_2228490371710d 38,66
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_2228490371710d 697,705,820,823
+src/data/companies-sponsors.ts
+  s_0beac9cb5d78fd::t_2228490371710d 755
+src/data/cancers.ts
+  s_0beac9cb5d78fd::t_2228490371710d 196,221
+vercel.json
+  s_0beac9cb5d78fd::t_2228490371710d 261-295
+src/data/trials.ts
+  s_0beac9cb5d78fd::t_2228490371710d 200,205
+src/data/polycythaemia-vera.ts
+  s_0beac9cb5d78fd::t_2228490371710d 113
+src/data/pdac-wave.ts
+  s_0beac9cb5d78fd::t_2228490371710d 79,82,86
+src/data/spikes/gastric.ts
+  s_0beac9cb5d78fd::t_2228490371710d 52,62,122
+src/data/orphans-floor.json
+  s_0beac9cb5d78fd::t_2a762e070cc4a0 2
+src/data/colorectal-lymphoma-subtypes.ts
+  s_0beac9cb5d78fd::t_2228490371710d 193,204,207
+src/data/spikes/sarcoma.ts
+  s_0beac9cb5d78fd::t_2228490371710d 70
+src/data/drugs-approved-wave1.ts
+  s_0beac9cb5d78fd::t_2228490371710d 41
+src/data/drugs-pipeline-wave2.ts
+  s_0beac9cb5d78fd::t_2228490371710d 143
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_2228490371710d 83,402,407
+public/trials/nct03653507/index.html
+  ai_agent 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "0d7b03e8121dd034ac32c8466b9429371bbdeb55",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

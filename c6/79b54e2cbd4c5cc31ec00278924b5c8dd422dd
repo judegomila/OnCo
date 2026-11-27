@@ -1,0 +1,27 @@
+src/data/spikes/neuroblastoma.ts
+  s_0beac9cb5d78fd::t_0f86a584b591a1 33
+src/data/companies.ts
+  s_0beac9cb5d78fd::t_0f86a584b591a1 14,42,46,70,78
+src/data/china.ts
+  s_0beac9cb5d78fd::t_0f86a584b591a1 296
+src/data/companies-wave1.ts
+  s_0beac9cb5d78fd::t_0f86a584b591a1 16,28,61
+src/data/targets.ts
+  s_0beac9cb5d78fd::t_0f86a584b591a1 646
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c679b54e2cbd4c5cc31ec00278924b5c8dd422dd",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+src/components/ToxicityTable.tsx
+  s_0beac9cb5d78fd::t_781b0618c8e186 14,29
+  s_0beac9cb5d78fd::t_2523764f311fd9 40
+src/components/CaregiverPanel.tsx
+  s_0beac9cb5d78fd::t_781b0618c8e186 48,51
+scripts/newsletter.ts
+  s_0beac9cb5d78fd::t_781b0618c8e186 140
+src/components/StartupPanels.tsx
+  s_0beac9cb5d78fd::t_781b0618c8e186 56,68
+src/components/AccessTable.tsx
+  s_0beac9cb5d78fd::t_781b0618c8e186 11,25
+  s_0beac9cb5d78fd::t_2523764f311fd9 18,20
+public/newsletter/2026-09-09/index.html
+  s_0beac9cb5d78fd::t_3585456794f79a 2
+src/app/audit/page.tsx
+  s_0beac9cb5d78fd::t_781b0618c8e186 79,120
+  s_0beac9cb5d78fd::t_35a521af006c00 80,121
+src/components/SecondOpinion.tsx
+  s_0beac9cb5d78fd::t_781b0618c8e186 39
+public/newsletter/2026-09-11/index.html
+  s_0beac9cb5d78fd::t_7a840d93b57a59 2
+public/newsletter/2026-09-10/index.html
+  s_0beac9cb5d78fd::t_3585456794f79a 2
+src/app/history/page.tsx
+  s_0beac9cb5d78fd::t_781b0618c8e186 83
+  s_0beac9cb5d78fd::t_35a521af006c00 84
+src/app/hub/page.tsx
+  s_0beac9cb5d78fd::t_781b0618c8e186 1-8
+src/components/RegionMatrix.tsx
+  s_0beac9cb5d78fd::t_2523764f311fd9 15,122,133,169-170
+  s_0beac9cb5d78fd::t_781b0618c8e186 158
+src/components/CountryCasesMini.tsx
+  s_0beac9cb5d78fd::t_2523764f311fd9 5
+  s_0beac9cb5d78fd::t_35a521af006c00 27,32,36,41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "138fc5fd15225700b2551a88f01f1b557af16874",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

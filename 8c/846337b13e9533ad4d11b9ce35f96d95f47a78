@@ -1,0 +1,27 @@
+src/data/protocols/strong-opioids-for-cancer-pain.ts
+  s_1e233a6be244f1::t_d94ae1d96faa1f 1-261
+src/data/protocols/care-in-the-last-days-of-life.ts
+  s_1e233a6be244f1::t_cd5c21692e78cf 1-9,12-35,37-244
+  s_1e233a6be244f1::t_8297109ec6d218 10-11,36
+src/data/protocols/opioid-switching-and-conversion.ts
+  s_1e233a6be244f1::t_4327b51963c4ca 1-178,180-190
+  s_1e233a6be244f1::t_7804edae3ed9b3 179
+src/data/protocols/index.ts
+  s_1e233a6be244f1::t_8297109ec6d218 2,6-7,14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "8c846337b13e9533ad4d11b9ce35f96d95f47a78",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

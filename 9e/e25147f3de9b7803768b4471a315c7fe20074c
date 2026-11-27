@@ -1,0 +1,43 @@
+src/components/ComplementaryBrowser.tsx
+  s_0beac9cb5d78fd::t_eae43059911c18 1-94
+src/app/live/hair/page.tsx
+  s_0beac9cb5d78fd::t_5744f9dfb86c01 1-180
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_c8fdce4f8b5b01 29,153,164
+src/lib/complementary.test.ts
+  s_0beac9cb5d78fd::t_15b5cc8f8ad9c8 1-78
+src/app/live/complementary/page.tsx
+  s_0beac9cb5d78fd::t_cdcd34d00cdf58 1-76
+src/lib/complementary.ts
+  s_0beac9cb5d78fd::t_1aa26a0174a328 1-73
+src/data/index.ts
+  s_0beac9cb5d78fd::t_191e43b48f1702 42,85
+src/components/EvidenceGradeChip.tsx
+  s_0beac9cb5d78fd::t_a20d2c3eb79ed5 1-31
+src/data/complementary.ts
+  s_0beac9cb5d78fd::t_47698b2bb42cac 486
+  s_0beac9cb5d78fd::t_4fd1e38529a5cd 1-485,487-708
+src/data/hair-loss.ts
+  s_0beac9cb5d78fd::t_37423df4622ab8 96,190
+  s_0beac9cb5d78fd::t_4c0a6646d69f73 1-95,97-189,191-252
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_d75a7ab5c0960e 944-951
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_2bb8106971c8fd 135-136
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "9ee25147f3de9b7803768b4471a315c7fe20074c",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

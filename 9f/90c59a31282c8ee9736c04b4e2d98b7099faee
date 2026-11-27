@@ -1,0 +1,35 @@
+src/components/SearchBox.tsx
+  s_0beac9cb5d78fd::t_65c8ccd337a66a 22
+vercel.json
+  s_0beac9cb5d78fd::t_c9fca7f3137a22 21-30
+package.json
+  s_0beac9cb5d78fd::t_65c8ccd337a66a 84-85
+public/sw.js
+  s_0beac9cb5d78fd::t_65c8ccd337a66a 6,12,54-64,99
+src/data/orphans-floor.json
+  s_0beac9cb5d78fd::t_65c8ccd337a66a 1-4
+src/data/orphans.test.ts
+  s_0beac9cb5d78fd::t_65c8ccd337a66a 1-18
+src/app/models/page.tsx
+  s_0beac9cb5d78fd::t_65c8ccd337a66a 2,20-25,34,53,63
+src/data/frontier.ts
+  s_0beac9cb5d78fd::t_01c3567e477fee 440
+scripts/orphans.ts
+  s_0beac9cb5d78fd::t_65c8ccd337a66a 1-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "9f90c59a31282c8ee9736c04b4e2d98b7099faee",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

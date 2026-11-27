@@ -1,0 +1,20 @@
+src/data/company-pipeline-gap.ts
+  s_1e233a6be244f1::t_7760faf5a60be7 422
+  s_1e233a6be244f1::t_632b3ff9c37155 134,136,184,186,329,331,449,451,644,646,749,751,919,921,924,926,1069,1071,1184,1186,1224,1226
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "1bc7f6741ef31f9a49fbbe18d2fa6fb1990ff29e",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

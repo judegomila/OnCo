@@ -1,0 +1,27 @@
+src/data/gallbladder-molecular.test.ts
+  s_0beac9cb5d78fd::t_d4067733a4c577 1-2,4-14,16-38,41-46
+  s_0beac9cb5d78fd::t_ad06164d7e4f54 3,39-40
+  s_0beac9cb5d78fd::t_05af5bcf031c81 15
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_ad06164d7e4f54 91-103,105-116
+src/data/spikes/gallbladder-molecular.ts
+  s_0beac9cb5d78fd::t_05af5bcf031c81 20-21
+src/data/index.ts
+  s_0beac9cb5d78fd::t_ad06164d7e4f54 17,157,284-287,343-344
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "aaf4c0d9bc17751ef78f5e9835bed3c8717be67b",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

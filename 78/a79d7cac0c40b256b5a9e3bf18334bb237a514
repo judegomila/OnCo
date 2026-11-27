@@ -1,0 +1,21 @@
+src/data/spikes/skin-core.ts
+  ai_agent 1-650
+src/data/staging.ts
+  ai_agent 85-99
+src/data/spikes/index.ts
+  ai_agent 101-102
+docs/CANCER-PAGES.md
+  ai_agent 181-243
+src/data/organ-schematics.ts
+  ai_agent 253
+scripts/spike-sources.ts
+  ai_agent 74,89
+src/data/globocan-map.ts
+  ai_agent 53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "78a79d7cac0c40b256b5a9e3bf18334bb237a514",
+  "prompts": {}
+}

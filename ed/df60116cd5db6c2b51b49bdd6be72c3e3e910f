@@ -1,0 +1,87 @@
+src/data/china.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 284,289,294,299,309,314,344,349,354,359,364,369,374,379
+src/data/spikes/nci-rare-other.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 383,411
+src/data/companies-wave1.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 64
+src/data/spikes/sarcoma.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 130
+src/data/spikes/nci-rare-solid.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 79,82,113,116
+src/data/institutions.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 129
+src/data/spikes/gap-cancers.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 92,97,128,137,167,171,176,205,214,244,248,280,284,411,440,444,474,479,502,506,574,579,603,664,759,765,791,884,956,981,1015,1081
+src/data/spikes/melanoma.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 298
+src/data/cancers.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 44,57,60,65,86,91,111,114,141,146,149,166,193,196,199,217,220,223,240,246,257,260,263,275,281,292,300,319,322,325,337,343,354,362,374,380,391,409,412,417,436,439,442,453,459,470,478,489,492,495,506,512,523,529,537,559,571,574,585,588,591,603,606,609,617,623,634,640,648,651
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 514,536,543,578,616,624,632,650
+src/data/spikes/breast-hr-positive.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 270,293
+src/data/spikes/hcc.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 29,33,136
+src/data/spikes/prostate.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 179
+src/data/spikes/urothelial.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 119,129,174,225
+src/data/collections.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 58
+src/data/spikes/cll.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 108
+src/data/targets.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 9,41,44,58,74,87,100,113,126,154,167,207,221,233,247,274,298,301,313,331,334,398,426,429,442,455,484,500,503,529,543,546,573,576,590,615,618,632,646,662,676,701,717,758,774,799,802,837
+src/data/companies.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 13,17,25,29,33,37,41,45,49,53,57,61,69,73,78,89,95,99,103,123,127,132,136,147,187,530,545,570,635
+src/data/spikes/sclc.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 167
+src/data/spikes/dlbcl.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 107
+src/data/spikes/hodgkin-lymphoma.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 31
+src/data/spikes/neuroendocrine.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 83
+src/data/spikes/ovarian.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 222
+src/data/spikes/cholangiocarcinoma.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 24,93
+src/data/spikes/pancreatic.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 44
+src/data/targets-wave1.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 20,27,64,74
+src/data/spikes/breast-her2-positive.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 26,35,220,227
+src/data/spikes/nci-paediatric.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 436,461,467
+src/data/spikes/aml.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 32,61,68
+src/data/spikes/multiple-myeloma.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 103,132,137
+src/data/companies-startups.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 350,384,442,1150,1223,1291,1337,1362,1392,1401,1452,1463,1506,1546,1568,1579,1588
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 167,175,183,191,216,224,232,394,470,477,484,728,779
+src/data/sources.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 30,37
+src/data/spikes/glioblastoma.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 62
+src/data/spikes/rcc.ts
+  s_0beac9cb5d78fd::t_e1df0850a29640 217
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "eddf60116cd5db6c2b51b49bdd6be72c3e3e910f",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

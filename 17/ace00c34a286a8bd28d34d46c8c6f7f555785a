@@ -1,0 +1,91 @@
+src/data/cancer-compare/biliary.ts
+  s_0beac9cb5d78fd::t_a13c41a7034ffe 1-84
+src/components/CompareCancers.tsx
+  s_0beac9cb5d78fd::t_2e663a0bbf1fc2 1-57
+src/lib/sitemap-urls.ts
+  s_0beac9cb5d78fd::t_fa72695694c87b 109-110
+  s_0beac9cb5d78fd::t_9d1b9ae96fb482 17-18
+docs/GALLBLADDER-QA.md
+  s_0beac9cb5d78fd::t_e3df1c312075ed 129-153
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_d70d5bfc57adeb 715-734
+  s_0beac9cb5d78fd::t_0187f078aa731f 24-26
+  s_0beac9cb5d78fd::t_c221dc17d3414d 856
+  s_0beac9cb5d78fd::t_0a0facbb9178c3 224
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_e25f4cb6a6c72a 20
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_eadc096ec2530c 20
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_0a954b0fb7ace9 20
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_8c42ab7f60bd49 20
+src/data/decision-tools/incidental-gallbladder-cancer.ts
+  s_0beac9cb5d78fd::t_4a035a2e5d61cb 1-30,39,41-67,71-278
+  s_0beac9cb5d78fd::t_e68ae169cf0b55 68-70
+  s_0beac9cb5d78fd::t_e402bf70710383 31-38,40
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_4b67707f0f64d5 20
+src/data/decision-tools/gallbladder-polyp.ts
+  s_0beac9cb5d78fd::t_e54d7d185fcd1e 1-148
+src/components/ToolGlyph.tsx
+  s_0beac9cb5d78fd::t_42935b27ce22b1 1-32
+src/lib/decision-tools.test.ts
+  s_0beac9cb5d78fd::t_ea11803300d04d 109
+  s_0beac9cb5d78fd::t_4cebbc15e27da6 163-164
+  s_0beac9cb5d78fd::t_2345989f327ef2 1-23,26-108,110-162,165-180,182-187
+  s_0beac9cb5d78fd::t_8f443c31b7512a 24-25
+  s_0beac9cb5d78fd::t_7172dd552af1d6 181
+src/lib/cancer-compare.test.ts
+  s_0beac9cb5d78fd::t_f201b077de14c1 80-82
+  s_0beac9cb5d78fd::t_a492304af1bfec 1-79,83-87
+src/app/cancers/[id]/compared/page.tsx
+  s_0beac9cb5d78fd::t_2ee7a032a89de6 1-74
+src/components/DecisionToolView.tsx
+  s_0beac9cb5d78fd::t_9bbbe117aa999c 1-135
+src/app/tools/[id]/page.tsx
+  s_0beac9cb5d78fd::t_9622a3abcfa714 1-88
+src/lib/cancer-compare.ts
+  s_0beac9cb5d78fd::t_33d03da0b736d8 1-141
+src/app/cancers/[id]/decisions/page.tsx
+  s_0beac9cb5d78fd::t_9e36992918f4f8 178-179
+  s_0beac9cb5d78fd::t_39ab72e264b99c 198-207
+  s_0beac9cb5d78fd::t_6e1df0994614cd 18-20
+src/app/tools/page.tsx
+  s_0beac9cb5d78fd::t_3466eb1b3adde9 1-76
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_aee8b7456e3a3f 20
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_59fa1ef45079a6 20
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_8fd2cd060da7d5 20
+scripts/mobile-audit.ts
+  s_0beac9cb5d78fd::t_38978fb867302c 47-48,50-51
+  s_0beac9cb5d78fd::t_c7f183b770fb8a 49
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_3d89ede42c5c27 20
+src/components/mobile-patterns.test.ts
+  s_0beac9cb5d78fd::t_06219ebf151c99 134-146
+  s_0beac9cb5d78fd::t_72e05ad6130feb 16
+src/lib/decision-tools.ts
+  s_0beac9cb5d78fd::t_eafb329a2b49b9 1-131
+src/lib/search-index.ts
+  s_0beac9cb5d78fd::t_ff9899ab6fe167 6-7
+  s_0beac9cb5d78fd::t_16be500d1f7a15 26-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "17ace00c34a286a8bd28d34d46c8c6f7f555785a",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

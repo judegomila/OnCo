@@ -1,0 +1,35 @@
+src/data/index.ts
+  s_0beac9cb5d78fd::t_4a223988564e86 34
+  s_0beac9cb5d78fd::t_6cd6748e866140 164
+src/data/lung-subtypes.ts
+  s_0beac9cb5d78fd::t_1db6b525e16bbc 468
+  s_0beac9cb5d78fd::t_511fd340b4e812 184
+public/citations/index.json
+  s_0beac9cb5d78fd::t_ad961cade17768 1
+src/data/papers-watch-2026-09.ts
+  s_0beac9cb5d78fd::t_d8f376e980a6da 1-63
+src/data/trials.ts
+  s_0beac9cb5d78fd::t_454b80ae176b12 181
+  s_0beac9cb5d78fd::t_d90fe7520fa17b 78
+  s_0beac9cb5d78fd::t_5266c648bb9c6a 175
+src/data/spikes/nsclc.ts
+  s_0beac9cb5d78fd::t_a00190c1efab6c 96
+src/data/trial-outcomes.ts
+  s_0beac9cb5d78fd::t_b95e624cf2a304 199-200
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "e47c826f6c7cfb0c8ea166ea5333232bd37e181e",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

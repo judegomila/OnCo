@@ -1,0 +1,100 @@
+src/data/targets-genes-wave.test.ts
+  s_0beac9cb5d78fd::t_60b3e2a43fb58f 1-69
+src/lib/ask.test.ts
+  s_0beac9cb5d78fd::t_a3285fe3fb35d7 382-384
+scripts/fetch-xrefs.ts
+  s_0beac9cb5d78fd::t_7d26efc6a4913f 111-112,120-121
+src/app/[kind]/page.tsx
+  s_0beac9cb5d78fd::t_2a0b6ee452a14b 55
+scripts/fetch-cancer-genes.ts
+  s_0beac9cb5d78fd::t_4344326ac53711 535
+  s_0beac9cb5d78fd::t_5dc9f4e6c45eba 356-358,362
+  s_0beac9cb5d78fd::t_3a8a4f55f82d0b 495
+  s_0beac9cb5d78fd::t_4557e7e66ac325 520
+  s_0beac9cb5d78fd::t_c67085dbdb4921 529
+  s_0beac9cb5d78fd::t_8503842ea9cd5f 279,281-282,291-295,298,301-307,309-312
+  s_0beac9cb5d78fd::t_308566e2673398 216,223,225-245
+  s_0beac9cb5d78fd::t_458c704bee8d51 592-594
+  s_0beac9cb5d78fd::t_eb0081b8721682 246-248
+  s_0beac9cb5d78fd::t_4d1b785cf7b184 576
+  s_0beac9cb5d78fd::t_484ca61aee268f 537
+  s_0beac9cb5d78fd::t_08f79e6a4896ca 604-614
+  s_0beac9cb5d78fd::t_32e78440990dac 137
+  s_0beac9cb5d78fd::t_f5583d649bb3ac 478-479
+  s_0beac9cb5d78fd::t_9d55ea2969e185 132
+  s_0beac9cb5d78fd::t_340fac6b9bd75b 559-560
+  s_0beac9cb5d78fd::t_d9f9574ed13dc0 378-379
+  s_0beac9cb5d78fd::t_733ba901f8c3a7 435-436
+  s_0beac9cb5d78fd::t_2bdb77175e9497 490-491
+  s_0beac9cb5d78fd::t_23ad6940aad5ce 469
+  s_0beac9cb5d78fd::t_b043475b1f9a77 1-103,106-107,110-124,126-131,133-136,138-215,217-222,224,249-278,280,283-290,296-297,299-300,308,313-355,359-361,363-377,380-434,437-443,445-468,470-477,480-489,492-494,496-503,505-519,521-528,530-534,536,538-540,542-546,548-554,557-558,561-571,573-575,577-591,595-603,615-621
+  s_0beac9cb5d78fd::t_e2f8be4e42752c 541
+  s_0beac9cb5d78fd::t_a24a427f054742 444
+  s_0beac9cb5d78fd::t_c063da9593c984 555-556
+  s_0beac9cb5d78fd::t_ccdf961af3b9e8 108-109
+  s_0beac9cb5d78fd::t_fde45842cd9705 104-105
+  s_0beac9cb5d78fd::t_1e74e92ecf71e0 125
+  s_0beac9cb5d78fd::t_2aaf2549bd90c3 547
+  s_0beac9cb5d78fd::t_05a24cdd78b633 572
+  s_0beac9cb5d78fd::t_25a1e3d9da04b0 504
+scripts/enrich-target-ids.ts
+  s_0beac9cb5d78fd::t_bd711a620ecb67 44
+src/lib/ask.ts
+  s_0beac9cb5d78fd::t_1dc95824e4e992 28
+src/data/index.ts
+  s_0beac9cb5d78fd::t_fa5bc0022c8dc9 89
+  s_0beac9cb5d78fd::t_35d2ea4de7edfc 230
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_843576de835b6c 300-313
+  s_0beac9cb5d78fd::t_de02c6c73e4fc2 5
+src/data/target-xrefs.ts
+  s_0beac9cb5d78fd::t_3873fd8b7cac7d 6-7
+  s_0beac9cb5d78fd::t_9d7a532f7ec5be 15-16
+src/data/target-xrefs-genes.ts
+  ai_agent 8
+  s_0beac9cb5d78fd::t_fef1b68806d4fb 6-7
+  s_0beac9cb5d78fd::t_bb2601c623949e 1-5
+src/data/collections.ts
+  s_0beac9cb5d78fd::t_5d70cdeb301ba1 11-12
+  s_0beac9cb5d78fd::t_bdc47726b5b243 17
+  s_0beac9cb5d78fd::t_2043bb78d24df8 10
+  s_0beac9cb5d78fd::t_4100a175b3abbf 2
+  s_0beac9cb5d78fd::t_192e603b6f18da 25
+src/components/XrefStrip.tsx
+  s_0beac9cb5d78fd::t_55da4cbb076bc2 29-30
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_867ea25f1d8a65 2,4-5
+  s_0beac9cb5d78fd::t_61dedcce4a860c 154-159
+src/app/targets/genome/page.tsx
+  s_0beac9cb5d78fd::t_4c5bf644041d40 6,9
+  s_0beac9cb5d78fd::t_2a4419366c5946 1-5,7-8,10-83
+src/lib/tags.ts
+  s_0beac9cb5d78fd::t_16a475b846adfb 8
+src/lib/kinds.ts
+  s_0beac9cb5d78fd::t_8c68805b2066c5 51-67
+src/lib/kind-browser.ts
+  s_0beac9cb5d78fd::t_b99165e45fa70e 112-114
+  s_0beac9cb5d78fd::t_f866e7dedbabb9 7,9
+src/lib/ask-compose.ts
+  s_0beac9cb5d78fd::t_6960f7a2e92b56 598
+src/data/targets-genes-wave.ts
+  s_0beac9cb5d78fd::t_4cc0d6bfaa4a05 14-16
+  s_0beac9cb5d78fd::t_eacc1e85fe254f 1-2,4-5,7-13,17,19-21
+  ai_agent 3,6,18,22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "745432e902de92f0b4f13dc21ea3fc432d10bba2",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+src/data/sections.ts
+  s_0beac9cb5d78fd::t_4d07f0770bac24 105-116
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_97b4dc393f8010 133
+src/data/spikes/colorectal-living.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 360
+src/data/spikes/skin-living.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 219
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_97b4dc393f8010 133
+src/data/spikes/endometrial.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 142
+src/data/nutrition.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 29,39,49,59,348
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_97b4dc393f8010 133
+src/data/terms-jargon.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 241,255
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 955,965,973
+src/data/ideas-waves/wave-access.ts
+  s_0beac9cb5d78fd::t_0d8dc99f8b706f 468,475,504,538,734
+src/data/spikes/colorectal-evidence-roadmap.ts
+  s_0beac9cb5d78fd::t_0d8dc99f8b706f 190
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_97b4dc393f8010 133
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 451,1005,1021,1029,1061
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_97b4dc393f8010 166
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_97b4dc393f8010 133
+src/components/FrontIcon.test.ts
+  s_0beac9cb5d78fd::t_b7c70e20ba4832 1-15
+src/data/complementary.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 81,113,294,421,430,439,448,462,471,480
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_97b4dc393f8010 133
+src/data/companies-yc.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 151
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_97b4dc393f8010 133
+src/data/free-wave.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 220,242,252
+src/data/ideas-waves/wave-people-moonshots.ts
+  s_0beac9cb5d78fd::t_0d8dc99f8b706f 274,291,300,309
+src/data/roadmaps-wave2.ts
+  s_0beac9cb5d78fd::t_0d8dc99f8b706f 140
+src/lib/health.ts
+  s_0beac9cb5d78fd::t_7e32cf0337daa6 308
+src/components/FrontIcon.tsx
+  s_0beac9cb5d78fd::t_c02e80346e67fa 4,262,265
+  s_0beac9cb5d78fd::t_855904db34dd3c 223-225,231-233
+  s_0beac9cb5d78fd::t_2d64665b64dbd1 226-230
+src/data/front-animations.ts
+  s_0beac9cb5d78fd::t_97df8b015f59e2 580-646,648-651
+  s_0beac9cb5d78fd::t_74e350d20d3433 2,672
+  s_0beac9cb5d78fd::t_a09a903ce079f0 647
+src/data/frontier.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 308
+src/data/diagnostics-wave2.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 156,203,215
+src/data/machines-wave2.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 386,390
+src/data/mechanisms.ts
+  s_0beac9cb5d78fd::t_0d8dc99f8b706f 672
+src/lib/ask-lexicon.ts
+  s_0beac9cb5d78fd::t_01aeaa2b30f773 336
+src/data/spikes/breast-treatment.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 73
+src/data/spikes/tnbc-living.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 304,308,312
+src/data/spikes/prostate-treatment.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 54
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_97b4dc393f8010 133
+src/data/spikes/prostate-living.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 263,271,279
+src/data/spikes/breast-living.ts
+  s_0beac9cb5d78fd::t_c9cecb7b8ca824 225
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ba84208bab9867cc952a37cb913b701f21ad8ddd",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+src/components/ValueIcon.tsx
+  s_0beac9cb5d78fd::t_dd81cbb23feb0f 1-36
+src/components/EntityBrowser.tsx
+  s_0beac9cb5d78fd::t_dd81cbb23feb0f 5-6,267-268,272-273,319
+src/lib/valueTone.ts
+  s_0beac9cb5d78fd::t_dd81cbb23feb0f 1-17,20-25,39-44
+  s_0beac9cb5d78fd::t_317ef65e7d87f7 18-19,26-38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "4c12285f5dcfe0e0ab7d8a02741ec960c36cb43c",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+src/data/companies-wave1.ts
+  ai_agent 28,37
+src/data/pipeline-trials-wave6.ts
+  ai_agent 43,511,799,1459,6101,6265,8905
+src/data/companies-sponsors.ts
+  ai_agent 1008
+src/data/companies.ts
+  ai_agent 73,119
+src/data/spikes/breast-her2-positive.ts
+  ai_agent 156
+src/data/companies-sponsors-wave.ts
+  ai_agent 1-78
+src/data/orphans-floor.json
+  ai_agent 2-3
+src/data/institutions.ts
+  ai_agent 128
+src/data/index.ts
+  ai_agent 75-76,207
+src/data/pipeline-trials-wave5.ts
+  ai_agent 1890,2250,2448,3084,3198,3492
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "7113cc82a759010884293706b0f51422f8435020",
+  "prompts": {}
+}

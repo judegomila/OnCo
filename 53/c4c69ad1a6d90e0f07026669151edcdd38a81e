@@ -1,0 +1,21 @@
+public/logos/index.json
+  s_0beac9cb5d78fd::t_766d42122f190b 1
+scripts/fetch-logos.ts
+  s_0beac9cb5d78fd::t_766d42122f190b 109
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "53c4c69ad1a6d90e0f07026669151edcdd38a81e",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

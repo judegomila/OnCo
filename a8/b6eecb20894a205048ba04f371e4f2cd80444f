@@ -1,0 +1,69 @@
+src/data/thyroid-subtypes.ts
+  s_0beac9cb5d78fd::t_0e8f712cc4de96 61
+src/data/pipeline-trials-wave4.ts
+  s_0beac9cb5d78fd::t_a2468865deb116 1478
+src/data/skin-subtypes.ts
+  s_0beac9cb5d78fd::t_10b91b5131824d 185
+public/freshness.json
+  s_0beac9cb5d78fd::t_7ef5f50461efc8 1
+public/newsletter/2026-09-18/index.html
+  s_0beac9cb5d78fd::t_7e311235642eab 2,9-10
+src/data/head-neck-hpv-subtypes.ts
+  s_0beac9cb5d78fd::t_cb173bb715aec9 315
+src/data/upper-gi-liver-subtypes.ts
+  s_0beac9cb5d78fd::t_21ef8909b86a70 121
+  s_0beac9cb5d78fd::t_a9833872de3a7f 20
+  s_0beac9cb5d78fd::t_9b92e208fa3c43 70
+src/data/spikes/gap-cancers.ts
+  s_0beac9cb5d78fd::t_819ec42c211975 386,416
+src/data/sarcoma-lymphoma-subtypes.ts
+  s_0beac9cb5d78fd::t_1783c305efdf67 103
+src/data/trials-subtypes-wave.ts
+  s_0beac9cb5d78fd::t_7db2c8d6b263e7 665-681
+  s_0beac9cb5d78fd::t_00e8b04d8f5a7a 477-587
+src/data/papers-subtypes-wave.ts
+  s_0beac9cb5d78fd::t_e21007785b46db 174,356,779,2909,3270,3542,3630,3641
+src/data/breast-subtypes.ts
+  s_0beac9cb5d78fd::t_ade54e3007d1d6 118
+  s_0beac9cb5d78fd::t_ab65feed5f83ea 184
+CHANGELOG.md
+  s_0beac9cb5d78fd::t_7e311235642eab 31,34
+public/newsletter/feed.xml
+  s_0beac9cb5d78fd::t_7e311235642eab 14-16
+src/data/gynaecological-subtypes.ts
+  s_0beac9cb5d78fd::t_5564370db6ddb1 247
+public/newsletter/index.json
+  s_0beac9cb5d78fd::t_7e311235642eab 1
+src/data/blood-subtypes.ts
+  s_0beac9cb5d78fd::t_9eab846c43a07e 336
+  s_0beac9cb5d78fd::t_760e9f1bf9c5ef 203
+  s_0beac9cb5d78fd::t_df0b4f5b96dbce 177
+  s_0beac9cb5d78fd::t_f66f998b9e21de 441
+  s_0beac9cb5d78fd::t_2de069b3250dc1 363
+  s_0beac9cb5d78fd::t_9df202f591d913 231
+src/data/pipeline-trials-wave6.ts
+  s_0beac9cb5d78fd::t_a2468865deb116 2857,3145
+src/data/cns-subtypes.ts
+  s_0beac9cb5d78fd::t_db241b2549d62d 148
+  s_0beac9cb5d78fd::t_f4454e680ed9b9 78
+public/newsletter/2026-09-18.json
+  s_0beac9cb5d78fd::t_7e311235642eab 1
+public/llms.txt
+  s_0beac9cb5d78fd::t_7e311235642eab 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a8b6eecb20894a205048ba04f371e4f2cd80444f",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

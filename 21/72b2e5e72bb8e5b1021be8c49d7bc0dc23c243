@@ -1,0 +1,35 @@
+src/data/institutions/countries-2026-11-americas.ts
+  s_1e233a6be244f1::t_f8913017bc6471 81-82,98,131-132,152-153,178-179,268,276-277
+  s_1e233a6be244f1::t_6a74d9ba19bc07 509-514
+  s_1e233a6be244f1::t_1ddc3e7233ff65 515-518
+src/data/institutions/countries-2026-11-west-central-africa.ts
+  s_1e233a6be244f1::t_6a74d9ba19bc07 511,514-515
+  s_1e233a6be244f1::t_f8913017bc6471 105-106,115-116,124-125,141-142,176-177,194-195
+src/data/institutions/countries-2026-11-europe-overseas.ts
+  s_1e233a6be244f1::t_6a74d9ba19bc07 682
+  s_1e233a6be244f1::t_f8913017bc6471 65-66,106-107
+src/lib/health-denominators.test.ts
+  s_1e233a6be244f1::t_83e807679fde77 72-76
+src/data/institutions/countries-2026-11-asia-pacific.ts
+  s_1e233a6be244f1::t_f8913017bc6471 94-95,115-116,133-134,149-150
+  s_1e233a6be244f1::t_6a74d9ba19bc07 551-552
+src/data/institutions/countries-2026-11-east-southern-africa.ts
+  s_1e233a6be244f1::t_6a74d9ba19bc07 554
+  s_1e233a6be244f1::t_f8913017bc6471 137-138
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "2172b2e5e72bb8e5b1021be8c49d7bc0dc23c243",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

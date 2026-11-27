@@ -1,0 +1,66 @@
+public/freshness.json
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 1
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 122
+src/data/i18n/zh.ts
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 10938-10942
+src/app/layout.tsx
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 69,120
+src/data/people/us-west.ts
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 225
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 122
+public/newsletter/index.json
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 1
+public/newsletter/2026-09-17/index.html
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 2,9-10
+public/llms.txt
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 5
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 122
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 153
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 122
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 122
+src/components/SearchBox.tsx
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 5,39,86
+CHANGELOG.md
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 10-12
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 122
+src/data/tumour-tests.ts
+  s_0beac9cb5d78fd::t_91c2cd020b579f 131-132
+src/data/index.ts
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 80,156
+public/newsletter/2026-09-17.json
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 1
+src/data/ispy-wave.ts
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 1-47
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 122
+docs/IMPROVEMENTS-100.md
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 160-175
+  s_0beac9cb5d78fd::t_91c2cd020b579f 176
+public/newsletter/feed.xml
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 14-16
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_2c415601c4d4a1 122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "07af851d208c132b1d56269ae42b109518561a93",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

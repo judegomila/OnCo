@@ -1,0 +1,30 @@
+src/data/spikes/rejuvenation-frontier.ts
+  s_0beac9cb5d78fd::t_40d75fb3c637be 154
+  s_0beac9cb5d78fd::t_3b79f26e1fe071 80,92,103,115,127,319,323-327,333-335,337-342,344-345,348-350,354-356
+  s_0beac9cb5d78fd::t_245c2b511ccdaf 1-79,81-91,93-102,104-114,116-126,128-138,140-153,155-215,217-226,228-253,255-313,315-318,320-322,357-361
+  s_0beac9cb5d78fd::t_26102a9a3e5700 139,216,227,254,314,328-332,336,343,346-347,351-353
+scripts/spike-sources.ts
+  ai_agent 108-110
+src/data/schematics.ts
+  ai_agent 566,580
+src/lib/europepmc.ts
+  s_0beac9cb5d78fd::t_5ab397f554a793 123-145
+src/data/index.ts
+  ai_agent 81,250
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "0f0efb89766026004debaf908b27c33f3b2bf1bc",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": null
+    }
+  }
+}

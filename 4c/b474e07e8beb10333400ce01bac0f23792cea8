@@ -1,0 +1,11 @@
+src/data/drugs-approved-wave1.ts
+  ai_agent 373,377
+src/data/issues-2026-09-wave-a.ts
+  ai_agent 214-227,320-329
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "4cb474e07e8beb10333400ce01bac0f23792cea8",
+  "prompts": {}
+}

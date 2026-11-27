@@ -1,0 +1,53 @@
+src/lib/schema.ts
+  s_1e233a6be244f1::t_387ec3e7011d22 2,149-150
+src/lib/kinds.ts
+  s_1e233a6be244f1::t_387ec3e7011d22 63-69
+src/data/radiation-wave1.ts
+  s_1e233a6be244f1::t_387ec3e7011d22 23,35,41,83,89,95,137,143
+src/data/machines-wave.ts
+  s_1e233a6be244f1::t_387ec3e7011d22 49,58,67,76,85,94,103,114,124,134,144,154,164,174,184,196,207,219,229,241,253
+src/data/frontier.ts
+  s_1e233a6be244f1::t_387ec3e7011d22 154,220,495
+src/data/machines-wave3.ts
+  s_1e233a6be244f1::t_387ec3e7011d22 102,113,125,135,145,156,168
+src/data/supporting.ts
+  s_1e233a6be244f1::t_387ec3e7011d22 94,103,112,123,134,241,261,372,480
+src/data/spikes/nsclc.ts
+  s_1e233a6be244f1::t_387ec3e7011d22 227
+src/lib/machines.ts
+  s_1e233a6be244f1::t_387ec3e7011d22 1-65
+src/lib/machines.test.ts
+  s_1e233a6be244f1::t_387ec3e7011d22 1-81
+src/app/machines/page.tsx
+  s_1e233a6be244f1::t_387ec3e7011d22 11,40-41,44-45,66,83,86,131,140-142
+src/data/manufacturing-wave.ts
+  s_1e233a6be244f1::t_387ec3e7011d22 139
+src/data/gap-fill.ts
+  s_1e233a6be244f1::t_387ec3e7011d22 1116,1140
+src/data/machines-wave2.ts
+  ai_agent 30,39,48,59,68,77,86,95,106,115,125,134,143,152,163,172,181,191,200,209,220,229,240
+src/data/technologies.ts
+  ai_agent 10,19,27,36,46,55,64,153,181,361,370,379,388,397,407,437,450,470,480,525,565,977,1074,1085,1095,1196,1206
+src/data/spikes/melanoma.ts
+  s_1e233a6be244f1::t_387ec3e7011d22 225
+src/data/spikes/glioblastoma.ts
+  s_1e233a6be244f1::t_387ec3e7011d22 144,153
+src/data/spikes/urothelial.ts
+  s_1e233a6be244f1::t_387ec3e7011d22 193
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "7f9cee45cae249d9b98f21af52914ec6b5b2304c",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

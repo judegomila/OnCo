@@ -1,0 +1,44 @@
+src/data/spikes/lung-registry-trials.ts
+  s_0beac9cb5d78fd::t_b8f0faaef778d0 1-13
+src/data/spikes/lung-treatment-trials-advanced.ts
+  s_0beac9cb5d78fd::t_ab13d0eac2d5d8 28,39,50,84,95,118
+  s_0beac9cb5d78fd::t_c7b0bb70000968 142,148
+  s_0beac9cb5d78fd::t_f113cdc078c989 1-27,29-38,40-49,51-83,85-94,96-117,119-141,143-147,149-160
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_097978f8405d7d 83-84
+src/data/spikes/lung-treatment-trials.ts
+  s_0beac9cb5d78fd::t_ab13d0eac2d5d8 47,70,87,96,107
+  s_0beac9cb5d78fd::t_07e28757e09ecf 93,104,115
+  s_0beac9cb5d78fd::t_6a38269bef6b69 1-23,25-46,48-69,71-86,88-92,94-95,97-103,105-106,108-114,116-117
+  s_0beac9cb5d78fd::t_e8aa9946bc78fc 24
+src/data/spikes/lung-treatment-shared.ts
+  s_0beac9cb5d78fd::t_b9c6132a23a02e 1-61
+src/data/spikes/lung-registry-trials-2.ts
+  s_0beac9cb5d78fd::t_7cc7a78ba3147d 1-2677
+src/data/spikes/lung-treatment-trials-sclc.ts
+  s_0beac9cb5d78fd::t_bbf84ca398d20b 1-39,41-63,65-74,76-93,95-108
+  s_0beac9cb5d78fd::t_ab13d0eac2d5d8 40,64,75
+  s_0beac9cb5d78fd::t_32918b04b2165d 94
+src/data/spikes/lung-registry-trials-1.ts
+  s_0beac9cb5d78fd::t_7cc7a78ba3147d 1-2678
+src/data/spikes/lung-treatment.ts
+  s_0beac9cb5d78fd::t_8052b3ecc096c2 1-397
+src/lib/corpus-rules.test.ts
+  s_0beac9cb5d78fd::t_fddb4a26b4edae 73-79
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "fc956f08c6fa49873e89ecd41dd6b4cdca937284",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

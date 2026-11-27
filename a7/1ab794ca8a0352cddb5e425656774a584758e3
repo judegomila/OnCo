@@ -1,0 +1,48 @@
+scripts/audit.ts
+  s_1e233a6be244f1::t_9a078dd2142263 202-205
+src/data/drugs-deal-assets.ts
+  s_1e233a6be244f1::t_762b20968ffb65 85
+src/data/veterinary-gaps-2026-11.ts
+  s_1e233a6be244f1::t_9a821dcdce4642 1-68
+src/data/companies-cooperative-groups.ts
+  s_1e233a6be244f1::t_9a078dd2142263 74
+  s_1e233a6be244f1::t_50fe6779b960e2 71-73
+src/data/ideas-waves/wave-biology-1.ts
+  s_1e233a6be244f1::t_20b2199b2fa4f6 534
+src/data/institutions.ts
+  s_1e233a6be244f1::t_4c1493f8f8cdf6 144-145,148-149
+src/data/institutions/bodies.ts
+  s_1e233a6be244f1::t_4c1493f8f8cdf6 4,36,38-40
+src/data/institutions/germany.ts
+  s_1e233a6be244f1::t_4c1493f8f8cdf6 4,38,40-43
+src/data/institutions/us-cancer-charities.ts
+  s_1e233a6be244f1::t_4c1493f8f8cdf6 66,68-71,158,160-163
+CORRECTIONS.md
+  s_1e233a6be244f1::t_50fe6779b960e2 25
+src/data/institutions/donor-foundations.ts
+  s_1e233a6be244f1::t_4c1493f8f8cdf6 4,64,66-69
+src/data/index.ts
+  s_1e233a6be244f1::t_20b2199b2fa4f6 187,397
+  s_1e233a6be244f1::t_a9fb8520a19334 188
+  s_1e233a6be244f1::t_09bda91162121b 398
+src/data/prizes-gaps-2026-11.ts
+  s_1e233a6be244f1::t_d6cf5943529f9c 64
+  s_1e233a6be244f1::t_6aa17828f98d5b 1-26,28-63,65-69
+  s_1e233a6be244f1::t_c26db8ce26c129 27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a71ab794ca8a0352cddb5e425656774a584758e3",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

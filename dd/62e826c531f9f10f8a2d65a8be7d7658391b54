@@ -1,0 +1,32 @@
+src/data/protocols/index.ts
+  s_1e233a6be244f1::t_47d4b70de41b1c 6-7,12,15
+  s_1e233a6be244f1::t_d35788bff9f254 27-28,33,36
+src/data/protocols/chemotherapy-induced-peripheral-neuropathy-assessment-and-prevention.ts
+  s_1e233a6be244f1::t_cffc5492f10cc9 36,65,83,124
+  s_1e233a6be244f1::t_e59b7f8f3de117 1-35,37-64,66-82,84-123,125-132
+src/data/protocols/red-cell-and-platelet-transfusion-thresholds.ts
+  s_1e233a6be244f1::t_41d076b89e7ba1 1-62,64-67,69-139
+  s_1e233a6be244f1::t_851f0fbd256a73 63,68
+src/data/protocols/g-csf-prophylaxis-by-febrile-neutropenia-risk.ts
+  s_1e233a6be244f1::t_55cb104615ea1f 50,92
+  s_1e233a6be244f1::t_01cf72532be2bc 1-49,51-91,93-126
+src/data/protocols/chemotherapy-induced-anaemia-esa-and-iron.ts
+  s_1e233a6be244f1::t_0448bde612d33e 1-49,51-56,58-70,72-135
+  s_1e233a6be244f1::t_91412448a5ea57 50,57,71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "dd62e826c531f9f10f8a2d65a8be7d7658391b54",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

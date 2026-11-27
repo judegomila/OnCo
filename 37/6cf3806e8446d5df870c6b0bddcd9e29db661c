@@ -1,0 +1,52 @@
+src/data/index.ts
+  s_0beac9cb5d78fd::t_9b3fe4a2dae626 97,176
+scripts/fold-zh.ts
+  s_0beac9cb5d78fd::t_1de1fd30de2a33 21,23
+src/data/spikes/all-leukemia.ts
+  s_0beac9cb5d78fd::t_937a516800f125 45,55,84,105,113,137,169,178,183,205
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_186068e3872b9b 57,263,268,1173
+src/data/drugs-approved-wave1.ts
+  s_0beac9cb5d78fd::t_592318ecc2c743 135
+src/data/key-papers/blood-immune-cell.ts
+  s_0beac9cb5d78fd::t_9cb00a65c9e9dc 330,410
+src/data/spikes/neuroblastoma.ts
+  s_0beac9cb5d78fd::t_e718464497ad0a 52,66,70,84,93,103,109,121,128,135,140,148,155,163,173,179
+src/data/organ-schematics.test.ts
+  s_0beac9cb5d78fd::t_a2566f7a8b1436 23-24
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_7cffbd4762591d 139,362,501,694
+src/data/paediatric-fronts.ts
+  s_0beac9cb5d78fd::t_1ec54049207d31 93,133
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_74b54bd68cf54a 187,298,351
+src/data/ideas-waves/wave-access.ts
+  s_0beac9cb5d78fd::t_206f9c4b9d225a 524
+src/data/paediatric-subtypes.ts
+  s_0beac9cb5d78fd::t_bcef52ddf7034a 262
+  s_0beac9cb5d78fd::t_4a8ff1325f3e88 407
+  s_0beac9cb5d78fd::t_31ee3599d538b6 416
+  s_0beac9cb5d78fd::t_ef7d50afb760c8 415
+  s_0beac9cb5d78fd::t_b74338e649904b 158
+  s_0beac9cb5d78fd::t_3d00b31192dfb1 133
+  s_0beac9cb5d78fd::t_07cabb4ad4216d 186
+  s_0beac9cb5d78fd::t_43b4aaf0efb298 1-132,134-157,159-185,187-261,263-345,347-374,376-406,408-414,417
+  s_0beac9cb5d78fd::t_7a29e00f3ae103 375
+  s_0beac9cb5d78fd::t_da8f3f3e7b3e35 346
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "376cf3806e8446d5df870c6b0bddcd9e29db661c",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

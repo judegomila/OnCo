@@ -1,0 +1,106 @@
+src/lib/account.ts
+  s_0beac9cb5d78fd::t_073980df7c1264 23,31-32,38-47
+  s_0beac9cb5d78fd::t_340cc05d0a16ae 113-119,121-124,126-128,137,140
+  s_0beac9cb5d78fd::t_26ea445fe2a5c5 125
+  s_0beac9cb5d78fd::t_2fdbb1782e388b 92-93
+  s_0beac9cb5d78fd::t_0a45aff0301c9b 98
+src/components/WelcomeStep.test.ts
+  s_0beac9cb5d78fd::t_dbaf7e5bfcd1a4 40-41,47,52,54-55,59-68,79,86-89
+src/app/privacy/page.tsx
+  s_0beac9cb5d78fd::t_651e8394c5c671 52
+src/lib/theme.ts
+  s_0beac9cb5d78fd::t_a631bbe426b9cd 1-52
+src/lib/search-index.ts
+  s_0beac9cb5d78fd::t_651e8394c5c671 12
+src/components/ThemeToggle.tsx
+  s_0beac9cb5d78fd::t_086f03b8522b60 4-6,10,18-21,24,26,29,31,39
+src/components/AccountMenu.tsx
+  s_0beac9cb5d78fd::t_e387ff2babdca9 5-8,11-13,15-16,19-29,48-50,52,54-84,87,104-125,137,178,228,249,251,257
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_1e245bbf8514db 86
+  s_0beac9cb5d78fd::t_c519bc62ef7c2a 412-413,425,438-448
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_1e245bbf8514db 113
+  s_0beac9cb5d78fd::t_c519bc62ef7c2a 451-452,464,477-487
+src/lib/preferences.test.ts
+  s_0beac9cb5d78fd::t_66acb7279a9bde 1-109
+src/lib/preferences.ts
+  s_0beac9cb5d78fd::t_87f82bf71c101c 1-76
+src/lib/layer.ts
+  s_0beac9cb5d78fd::t_16134248e3c83a 36-37
+src/components/WelcomePage.tsx
+  s_0beac9cb5d78fd::t_2c64cad588ddc7 1-18,21-28
+  s_0beac9cb5d78fd::t_95a1b27374da33 19-20
+src/lib/profile.test.ts
+  s_0beac9cb5d78fd::t_7b905a7106e406 56-66
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_1e245bbf8514db 86
+  s_0beac9cb5d78fd::t_c519bc62ef7c2a 412-413,425,438-448
+src/components/PreferenceSync.tsx
+  s_0beac9cb5d78fd::t_48295ffb1f8b57 1-43
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_1e245bbf8514db 86
+  s_0beac9cb5d78fd::t_c519bc62ef7c2a 412-413,425,438-448
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_1e245bbf8514db 86
+  s_0beac9cb5d78fd::t_c519bc62ef7c2a 412-413,425,438-448
+src/components/LayerToggle.tsx
+  s_0beac9cb5d78fd::t_651e8394c5c671 28
+src/lib/after-sign-in.test.ts
+  s_0beac9cb5d78fd::t_6838ea67753210 1-42
+src/app/welcome-page.test.ts
+  s_0beac9cb5d78fd::t_4efffdaf697c5a 1-88
+src/lib/after-sign-in.ts
+  s_0beac9cb5d78fd::t_04ac282e66542a 1-35
+src/lib/profile.ts
+  s_0beac9cb5d78fd::t_4424ad735456ce 4-5
+  s_0beac9cb5d78fd::t_9b0d8afdabb681 115-118,120-135,140-154,159
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_1e245bbf8514db 86
+  s_0beac9cb5d78fd::t_c519bc62ef7c2a 412-413,425,438-448
+src/components/SiteChrome.test.ts
+  s_0beac9cb5d78fd::t_e075b93de15cef 6-7
+  s_0beac9cb5d78fd::t_b81fdfb9dfec9d 58-90
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_1e245bbf8514db 86
+  s_0beac9cb5d78fd::t_c519bc62ef7c2a 412-413,425,438-448
+src/components/SignupForm.tsx
+  s_0beac9cb5d78fd::t_870f0cb96b082f 37-38
+  s_0beac9cb5d78fd::t_348a211cc1ef85 4-7,10,20-24,28,32,40,42,44-47,49-50,52,58-63,68,70
+  s_0beac9cb5d78fd::t_98f618540cfb28 51
+src/app/welcome/page.tsx
+  s_0beac9cb5d78fd::t_86f27079c6ceb8 1-29
+src/lib/sitemap-urls.ts
+  s_0beac9cb5d78fd::t_f6977f57beaff1 22
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_1e245bbf8514db 86
+  s_0beac9cb5d78fd::t_c519bc62ef7c2a 412-413,425,438-448
+src/components/SiteChrome.tsx
+  s_0beac9cb5d78fd::t_651e8394c5c671 11,58-59
+src/components/WelcomeStep.tsx
+  s_0beac9cb5d78fd::t_b4906fb1bc16ec 8-9,13-18,32-40,43-45,47-55,57,64-65,70-71,78-90,92,101-132,134-147
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_c519bc62ef7c2a 412-413,425,438-448
+  s_0beac9cb5d78fd::t_1e245bbf8514db 86
+src/lib/region.tsx
+  s_0beac9cb5d78fd::t_698180308abe86 50-57,59
+  s_0beac9cb5d78fd::t_6d93a1a84689ef 11-27
+src/components/RegionToggle.tsx
+  s_0beac9cb5d78fd::t_651e8394c5c671 28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b51e98cdf8e9957fc354127d473cdbbfc4f35e22",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

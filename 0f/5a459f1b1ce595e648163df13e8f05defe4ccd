@@ -1,0 +1,25 @@
+src/app/globals.css
+  s_0beac9cb5d78fd::t_fb87bff6223b73 251-255,257-258
+  s_0beac9cb5d78fd::t_22239286c85f64 240-241
+src/components/ExplainedSection.tsx
+  s_0beac9cb5d78fd::t_267bd64e1e921a 92
+  s_0beac9cb5d78fd::t_ef90e5d9560db1 82
+  s_0beac9cb5d78fd::t_083f319cc4ce4e 74
+  s_0beac9cb5d78fd::t_3fc5aaec7aa69a 87-88
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "0f5a459f1b1ce595e648163df13e8f05defe4ccd",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": null
+    }
+  }
+}

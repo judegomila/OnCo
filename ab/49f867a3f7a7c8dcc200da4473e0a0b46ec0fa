@@ -1,0 +1,33 @@
+src/data/pipeline-trials-wave5.ts
+  ai_agent 852,854-862,1380,1382-1383,1385-1390,1571,1573-1581,1600,1602-1610,1821,1823-1831,2036,2038-2046,2215,2217-2225,2388,2390-2398,2657,2659-2667
+src/data/index.ts
+  ai_agent 5,208
+src/data/trials.ts
+  ai_agent 6,135-139
+src/data/drugs.ts
+  ai_agent 567,579-583,594-597
+src/data/spikes/tnbc-uk.ts
+  ai_agent 167-179
+src/data/drugs-pipeline-wave7.ts
+  ai_agent 120-126,277-283
+src/data/pipeline-trials-wave6.ts
+  ai_agent 2503,2505-2506,2508-2513,4674,4676-4677,4679-4685,5589-5595,7089,7091-7092,7094-7099,7340,7342-7343,7345-7350,7919,7921-7929,8924,8926-8934,9155,9157-9165
+src/data/drugs-pipeline-wave1.ts
+  ai_agent 220-227,1510-1513,1515-1517
+src/data/trial-outcomes.ts
+  ai_agent 117-119,123
+src/data/parp-selective-review.ts
+  ai_agent 1-1249
+src/data/targets.ts
+  ai_agent 657-659,670-671
+CORRECTIONS.md
+  ai_agent 28-32
+src/data/pipeline-trials-wave2.ts
+  ai_agent 391-394,396-402,404-405,407-412
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ab49f867a3f7a7c8dcc200da4473e0a0b46ec0fa",
+  "prompts": {}
+}

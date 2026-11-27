@@ -1,0 +1,39 @@
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_06c62def413472 23,697-715,818
+src/lib/sitemap-urls.ts
+  s_0beac9cb5d78fd::t_06c62def413472 16,106
+scripts/api-layout.ts
+  s_0beac9cb5d78fd::t_06c62def413472 40,103
+src/data/spikes/gallbladder-uk.ts
+  s_0beac9cb5d78fd::t_06c62def413472 1-355
+src/lib/uk-pathway.test.ts
+  s_0beac9cb5d78fd::t_06c62def413472 1-129
+src/app/cancers/[id]/uk/page.tsx
+  s_0beac9cb5d78fd::t_06c62def413472 1-353
+scripts/spike-sources.ts
+  ai_agent 42,48
+src/data/spikes/index.ts
+  ai_agent 61-62
+src/lib/uk-pathway.ts
+  s_0beac9cb5d78fd::t_06c62def413472 1-187
+src/data/coverage-uk.ts
+  s_0beac9cb5d78fd::t_06c62def413472 248
+scripts/build-api.ts
+  s_0beac9cb5d78fd::t_06c62def413472 34,72-73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "12a8f841bdac3e240649903f1a3784055d3ad08a",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

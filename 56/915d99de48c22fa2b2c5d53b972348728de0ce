@@ -1,0 +1,38 @@
+src/lib/ask-harness.ts
+  s_0beac9cb5d78fd::t_8d6ac9b151b70b 36-37
+  s_0beac9cb5d78fd::t_bdfa797726f470 48
+  s_0beac9cb5d78fd::t_4a91b9e1257859 10-11
+src/components/SearchResults.tsx
+  s_0beac9cb5d78fd::t_826480b22d0d65 6
+  s_0beac9cb5d78fd::t_0679b73e780687 192
+src/lib/ask.test.ts
+  s_0beac9cb5d78fd::t_78ff4062dd88bc 9-10
+  s_0beac9cb5d78fd::t_a4ce4ae4564992 370-410,423-427
+  s_0beac9cb5d78fd::t_2ef26aa6eb131d 412-413,418
+scripts/ask-retrieval-diag.ts
+  s_0beac9cb5d78fd::t_1551f06203dad0 7-12
+src/lib/search-client.ts
+  s_0beac9cb5d78fd::t_6231ceabe7a9ff 5
+  s_0beac9cb5d78fd::t_b87843acfdbc60 44-55
+src/lib/semantic.ts
+  s_0beac9cb5d78fd::t_f8bf85739baeca 53-62
+src/components/AskOnco.tsx
+  s_0beac9cb5d78fd::t_e665a6c83efb8b 5
+  s_0beac9cb5d78fd::t_f1c604e7e0a150 51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "56915d99de48c22fa2b2c5d53b972348728de0ce",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

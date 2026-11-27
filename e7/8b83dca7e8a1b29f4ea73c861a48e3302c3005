@@ -1,0 +1,9 @@
+docs/LAUNCH.md
+  ai_agent 23-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "e78b83dca7e8a1b29f4ea73c861a48e3302c3005",
+  "prompts": {}
+}

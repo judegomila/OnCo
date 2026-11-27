@@ -1,0 +1,26 @@
+scripts/universe-gaps.ts
+  s_1e233a6be244f1::t_0c490f6ea1c904 22-23,29
+  s_1e233a6be244f1::t_6b215679f448f3 1-21,24-28,30-43
+scripts/fetch-universe.ts
+  s_1e233a6be244f1::t_2f1c0a32bad84c 523-539,551
+docs/LAUNCH.md
+  s_1e233a6be244f1::t_3c8687b0cc11ca 128-133
+.github/workflows/refresh-universe.yml
+  s_1e233a6be244f1::t_0c490f6ea1c904 11,25-41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a7c499790d7f9045e51cf55fe7e9b288ec69f8c1",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

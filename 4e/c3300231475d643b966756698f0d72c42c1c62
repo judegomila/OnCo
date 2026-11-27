@@ -1,0 +1,94 @@
+src/data/spikes/gallbladder-molecular.ts
+  s_0beac9cb5d78fd::t_4ed8f4d646fb3b 19-21
+  s_0beac9cb5d78fd::t_24eca493767ef2 84
+src/data/spikes/gallbladder-treatment.ts
+  s_0beac9cb5d78fd::t_720157ec6f8fae 453
+  s_0beac9cb5d78fd::t_1916c38135962e 199-200
+  ai_agent 138,140,146,148
+  s_0beac9cb5d78fd::t_42224eadde8ef7 10-12
+  s_0beac9cb5d78fd::t_544bc72f61d0da 351
+  s_0beac9cb5d78fd::t_b441f2d243d945 358
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_aaa1f02163db0b 865
+  s_0beac9cb5d78fd::t_a3fcd07ac507a2 199-201
+  s_0beac9cb5d78fd::t_9b8703eba38dee 6
+  s_0beac9cb5d78fd::t_abc0b6715cd84b 565-575,579-583
+  s_0beac9cb5d78fd::t_1ebbc249cefcf1 862
+src/data/spikes/gallbladder-living.ts
+  s_0beac9cb5d78fd::t_e05b1a0e16718c 192
+  s_0beac9cb5d78fd::t_3c6d5212e66c44 232-233
+  s_0beac9cb5d78fd::t_0d809e4189dc74 36
+  s_0beac9cb5d78fd::t_d3c92a123b4848 38-40
+  s_0beac9cb5d78fd::t_2dd882d0758a48 71-72,74
+  s_0beac9cb5d78fd::t_cce914ce2f116d 227
+  s_0beac9cb5d78fd::t_e83a68b91ff486 67
+  s_0beac9cb5d78fd::t_d7bda20909629a 92-93
+  s_0beac9cb5d78fd::t_96b72418f20d48 20
+  s_0beac9cb5d78fd::t_b9cd92eee37538 185
+  s_0beac9cb5d78fd::t_6d734382b28f24 52-53
+src/data/spikes/gallbladder-evidence-roadmap.ts
+  s_0beac9cb5d78fd::t_bfc9893b85d0d8 98
+  s_0beac9cb5d78fd::t_4cd2b8ee8a0e3f 35
+  s_0beac9cb5d78fd::t_42f39ec87f94c2 89
+  s_0beac9cb5d78fd::t_0ed6fdca652d83 116
+src/components/Neighbours.tsx
+  s_0beac9cb5d78fd::t_e987c5e035ab4b 17-19
+  s_0beac9cb5d78fd::t_8721ee0a1e0758 35
+src/components/ui.tsx
+  s_0beac9cb5d78fd::t_95d5a058cfebfe 47-52,54-55,58,65
+src/data/spikes/gallbladder-evidence-papers-surgery.ts
+  s_0beac9cb5d78fd::t_35c4bc15de4195 155
+src/data/spikes/gallbladder-uk.ts
+  s_0beac9cb5d78fd::t_cec216de58d756 308
+  s_0beac9cb5d78fd::t_65c8ced7d4a8cf 348
+  s_0beac9cb5d78fd::t_d6186249fc3674 59
+  s_0beac9cb5d78fd::t_b6545a396a06fe 34-35
+  s_0beac9cb5d78fd::t_137bebc6e7479e 44
+  s_0beac9cb5d78fd::t_066340c9d47f9a 14-15
+  s_0beac9cb5d78fd::t_c9a36a89589334 55
+  s_0beac9cb5d78fd::t_83992bfa227699 191
+  s_0beac9cb5d78fd::t_49eeb32230e5b6 217
+src/components/CancerPipeline.tsx
+  s_0beac9cb5d78fd::t_65c8120ea0adf3 42-43
+  s_0beac9cb5d78fd::t_81f5bd940f546c 17-18,22
+src/data/spikes/gallbladder-evidence.ts
+  s_0beac9cb5d78fd::t_8e892e851973cb 19-20,25-27
+  s_0beac9cb5d78fd::t_0d02b1cdb0385c 10
+  s_0beac9cb5d78fd::t_e4a8af79fa4090 236
+  s_0beac9cb5d78fd::t_330986a1b54884 208-209,211-212
+  s_0beac9cb5d78fd::t_8aa49eb67acb08 48-74,78-81
+  s_0beac9cb5d78fd::t_edda03cd6a3b55 1,3
+  s_0beac9cb5d78fd::t_dbc12dc193e9dd 40-41
+  s_0beac9cb5d78fd::t_01609cdf2c6bde 113
+  s_0beac9cb5d78fd::t_d5c0c0d0359748 231
+docs/GALLBLADDER-QA.md
+  s_0beac9cb5d78fd::t_e978110e4f8495 1-97,104-117,121-141
+  s_0beac9cb5d78fd::t_30773ee0bdd55f 98-103
+  s_0beac9cb5d78fd::t_974936466e3f51 118-120
+src/data/spikes/gallbladder-core.ts
+  s_0beac9cb5d78fd::t_29ef21f5539a28 167
+  s_0beac9cb5d78fd::t_d01a274f86c947 5-8
+  s_0beac9cb5d78fd::t_1fe063591e829e 230
+  s_0beac9cb5d78fd::t_09dedc4139dc6f 216
+  s_0beac9cb5d78fd::t_60388dae73c715 45
+  s_0beac9cb5d78fd::t_7a846cbc45c1c9 288
+  s_0beac9cb5d78fd::t_9cd876c1acaaa5 225-226
+  s_0beac9cb5d78fd::t_5b91fea1369724 207-208
+  s_0beac9cb5d78fd::t_4327065c141abb 238-241
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "4ec3300231475d643b966756698f0d72c42c1c62",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+src/data/spikes/colorectal.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 244
+src/data/pipeline-trials-wave3.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 54,60
+src/data/orphans-floor.json
+  s_0beac9cb5d78fd::t_e350dba8856383 2
+src/data/cancers.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 44,86,141,166,193,215,290,317,372,389,407,434,451,468,569,615,632,672,722,790
+src/data/companies-startups.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 1318,1546
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 282,702
+src/data/spikes/nci-rare-solid.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 113,364
+src/data/failures.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 61,75,123
+src/data/spikes/aml.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 80
+scripts/orphan-links.ts
+  s_0beac9cb5d78fd::t_7935e2140c0c66 127
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 45,47-49,222,239,251,258
+  s_0beac9cb5d78fd::t_b02a317df92a81 1-44,46,50-68,70-126,128-178,181-221,223-238,240-250,252-257,259-273
+  s_0beac9cb5d78fd::t_93f920645d4b50 69,179-180
+src/data/spikes/esophageal.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 127
+src/data/spikes/sarcoma.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 27
+src/data/spikes/endometrial.ts
+  s_0beac9cb5d78fd::t_805c1704c1dade 116
+src/data/drugs-pipeline-wave6.ts
+  s_0beac9cb5d78fd::t_f17e8872cc24c3 63
+src/data/drugs-pipeline-wave7.ts
+  s_0beac9cb5d78fd::t_f17e8872cc24c3 258,263
+src/data/china.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 117,145,289,299,304,309,369
+src/data/spikes/breast-her2-positive.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 26
+src/data/spikes/gap-cancers.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 51,88,128,244,759,1081
+src/data/institutions.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 20,99
+src/data/radiation-wave1.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 118
+src/data/companies-wave1.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 19,61,64,71
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 78,104,188,198,238,249,360,397,416,493,1017,1082,1098
+src/data/spikes/cll.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 79
+src/data/spikes/hcc.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 25
+src/data/companies.ts
+  s_0beac9cb5d78fd::t_f17e8872cc24c3 37
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 13,17,41,53,57,61,89,95,123,136,506,647
+src/data/spikes/multiple-myeloma.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 22,87
+src/data/spikes/neuroblastoma.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 75
+src/data/pipeline-trials-wave2.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 269,515,671,809,1151
+src/data/companies-sponsors.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 21,61,71,96,116,266,479,800,833,960,1085,1493
+src/data/drugs-approved-wave1.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 216
+src/data/spikes/nci-rare-other.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 374
+src/data/pipeline-trials-wave4.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 42
+src/data/pipeline-trials-wave6.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 83,175,217,583,719,755,791,871,1073,1099,1205,1247,1483,1613,1739,1835,1843,1913,2015,2195,2231,2317,2435,2459,2479,2491,2705,2795,2939,2975,3005,3061,3155,3277,3385,3451,3787,3797,3943,4025,4031,4151,4253,4303,4337,4355,4391,4493,4565,4631,4793,4927,5131,5225,5273,5501,5681,5729,5747,5875,5909,5945,6095,6167,6191,6197,6271,6275,6295,6371,6503,6553,6713,6725,6763,6817,6929,7007,7121,7169,7183,7187,7307,7355,7579,7751,7913,8149,8213,8221,8383,8401,8443,8593,8923,8969,9019,9457
+src/data/supporting.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 683
+src/data/drugs-pipeline-wave1.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 59,641,1055
+src/data/targets.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 1069,1479
+src/data/tests.ts
+  s_0beac9cb5d78fd::t_f17e8872cc24c3 580
+src/data/pipeline-trials-wave5.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 106,142,388,586,838,1036,1236,1456,1576,1840,1876,1908,2242,2578,2644,2662,2712,2752,2830,3012,3472,3552,3598,3912
+src/data/radiation-wave2.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 133
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_786249cd4b4fd0 45,82,203,239,312,320,366,369,481,518,558,584,634,783,806,810,840,873,915,997,1029,1073,1083,1093,1103,1123,1283,1303
+src/data/spikes/ovarian.ts
+  s_0beac9cb5d78fd::t_805c1704c1dade 168
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "f06aa2d39681ad3ad2a1a4e779e44be464509b61",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+src/data/simple/part-p.ts
+  s_0beac9cb5d78fd::t_3dd599b6fbd230 551
+src/data/pipeline-trials-wave6.ts
+  s_0beac9cb5d78fd::t_62a97de8aa81d6 5233-5250
+src/data/i18n/zh.ts
+  s_0beac9cb5d78fd::t_f2f85cf8c24364 8592
+src/data/issues-2026-09-wave-b.ts
+  s_0beac9cb5d78fd::t_490de84d6c1013 404-419
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b4c4763ae56883715ee109ffe5b74f51625744c1",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

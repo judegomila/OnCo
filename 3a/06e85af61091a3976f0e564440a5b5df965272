@@ -1,0 +1,45 @@
+scripts/ship.sh
+  s_0beac9cb5d78fd::t_6c7da6f261a108 51
+public/newsletter/feed.xml
+  s_0beac9cb5d78fd::t_c819b1149823a7 14-16
+CHANGELOG.md
+  s_0beac9cb5d78fd::t_c819b1149823a7 10-24
+package.json
+  s_0beac9cb5d78fd::t_c819b1149823a7 105-106
+public/newsletter/2026-09-28.json
+  s_0beac9cb5d78fd::t_c819b1149823a7 1
+public/freshness.json
+  s_0beac9cb5d78fd::t_c819b1149823a7 1
+scripts/change-class.ts
+  s_0beac9cb5d78fd::t_6c7da6f261a108 36-37,40-55,57
+public/product-queue.json
+  s_0beac9cb5d78fd::t_6c7da6f261a108 4,7-43
+public/newsletter/2026-09-28/index.html
+  s_0beac9cb5d78fd::t_c819b1149823a7 2,9-10
+src/app/admin/page.tsx
+  s_0beac9cb5d78fd::t_c819b1149823a7 1-88
+public/newsletter/index.json
+  s_0beac9cb5d78fd::t_c819b1149823a7 1
+scripts/change-class.test.ts
+  s_0beac9cb5d78fd::t_6c7da6f261a108 42-50
+docs/CANCER-PAGE-PLAN.md
+  s_0beac9cb5d78fd::t_c819b1149823a7 1-506
+scripts/sync-product-queue.ts
+  s_0beac9cb5d78fd::t_c819b1149823a7 1-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "3a06e85af61091a3976f0e564440a5b5df965272",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

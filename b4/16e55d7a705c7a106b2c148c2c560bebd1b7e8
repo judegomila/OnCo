@@ -1,0 +1,29 @@
+src/data/people/asia-pacific.ts
+  s_0beac9cb5d78fd::t_1b60defd23b51e 498
+src/data/people/us-east.ts
+  s_0beac9cb5d78fd::t_0a687f8e7a800c 695
+src/data/people/leaders-wave4.ts
+  s_0beac9cb5d78fd::t_a79c37fb9a4e85 1-16,382
+  s_0beac9cb5d78fd::t_b39eb01c5bb277 255-381
+  s_0beac9cb5d78fd::t_0cbae1d7a1be7d 17-143
+  s_0beac9cb5d78fd::t_00d004355d32b7 144-254
+src/data/people/index.ts
+  s_0beac9cb5d78fd::t_123fb27c7eeb7a 16
+  s_0beac9cb5d78fd::t_c1d5586ad97bf3 13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b416e55d7a705c7a106b2c148c2c560bebd1b7e8",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+src/data/index.ts
+  ai_agent 86,199
+src/data/technologies.ts
+  ai_agent 408,410,413-415,427,429,432-437,440,442,446-447
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "f9c9c72a6383fc5588e563ebf8bb0779b0dd1580",
+  "prompts": {}
+}

@@ -1,0 +1,33 @@
+src/data/papers-soc-wave.ts
+  s_0beac9cb5d78fd::t_450fec25c2244b 146-234
+src/data/spikes/gap-cancers.ts
+  s_0beac9cb5d78fd::t_450fec25c2244b 261
+src/data/spikes/nci-paediatric.ts
+  s_0beac9cb5d78fd::t_450fec25c2244b 123,166,302
+src/data/spikes/glioblastoma.ts
+  s_0beac9cb5d78fd::t_b2ff7f497de6b6 256
+src/data/paediatric-subtypes.ts
+  s_0beac9cb5d78fd::t_450fec25c2244b 309
+src/data/cns-subtypes.ts
+  s_0beac9cb5d78fd::t_450fec25c2244b 218,246,248
+src/data/trials-soc-wave.ts
+  s_0beac9cb5d78fd::t_450fec25c2244b 256-377,400-409
+docs/CONTENT-ROADMAP.md
+  ai_agent 73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "deea53c23770404e1ca3ae6e6d81fcf031424f21",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+src/lib/health.ts
+  s_0beac9cb5d78fd::t_1505cdca6fa7a6 79-84
+  s_0beac9cb5d78fd::t_17b010890070be 245-246,249-250,252-253
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "29a57b70d60134709c5404ae0559e2ac86030670",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

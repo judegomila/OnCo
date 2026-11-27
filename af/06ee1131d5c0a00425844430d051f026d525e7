@@ -1,0 +1,23 @@
+src/data/people/leaders-wave4.ts
+  s_0beac9cb5d78fd::t_a949d8c8ea8e9c 1925-1941
+src/data/institutions/europe.ts
+  s_0beac9cb5d78fd::t_a949d8c8ea8e9c 301,376
+src/data/institutions/centres-wave3.ts
+  s_0beac9cb5d78fd::t_a949d8c8ea8e9c 186,190
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "af06ee1131d5c0a00425844430d051f026d525e7",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

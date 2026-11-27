@@ -1,0 +1,56 @@
+src/data/people/india.ts
+  s_0beac9cb5d78fd::t_5c23b1f6791a95 85
+  s_0beac9cb5d78fd::t_43fc164bb60670 1-84,86-121
+src/data/country-in.ts
+  s_0beac9cb5d78fd::t_105193c00e9335 1-148
+src/lib/corpus-rules.test.ts
+  s_0beac9cb5d78fd::t_6fd8e69156db41 19-21
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_6fd8e69156db41 3,116,134
+src/data/regional-approvals.ts
+  s_0beac9cb5d78fd::t_6fd8e69156db41 2,4,15-16,24,39-41,53,196,242,295,358,362,367,399-402
+src/lib/region.tsx
+  s_0beac9cb5d78fd::t_6fd8e69156db41 10,22
+src/app/regulatory/regions/page.tsx
+  s_0beac9cb5d78fd::t_6fd8e69156db41 10,24,32-33,37
+src/data/india.ts
+  s_0beac9cb5d78fd::t_5c23b1f6791a95 57,89,117,123-124,134
+  s_0beac9cb5d78fd::t_d435abcf672359 203,212,221
+  s_0beac9cb5d78fd::t_e8a64eeedc921a 1-56,58-88,90-116,118-122,125-133,135-202,204-211,213-220,222-373
+src/data/institutions/india.ts
+  s_0beac9cb5d78fd::t_2a7b291cd1ff0d 1-24,26-73,75-101,103-113
+  s_0beac9cb5d78fd::t_5c23b1f6791a95 25,74,102
+src/app/countries/in/page.tsx
+  s_0beac9cb5d78fd::t_52f201a79623f2 1-107,109-164
+  s_0beac9cb5d78fd::t_d435abcf672359 108
+src/components/AssistanceBrowser.tsx
+  s_0beac9cb5d78fd::t_6fd8e69156db41 17-19,56
+src/data/referral-routes.ts
+  s_0beac9cb5d78fd::t_6fd8e69156db41 30,154-173
+src/data/index.ts
+  s_0beac9cb5d78fd::t_6fd8e69156db41 42-43,86-87
+src/data/assistance-schemes.ts
+  s_0beac9cb5d78fd::t_6fd8e69156db41 159-169,173
+src/data/people/index.ts
+  s_0beac9cb5d78fd::t_6fd8e69156db41 7,10
+src/app/countries/page.tsx
+  s_0beac9cb5d78fd::t_6fd8e69156db41 4,29
+src/lib/ask-compose.ts
+  s_0beac9cb5d78fd::t_6fd8e69156db41 172
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "566bda0a948ecace9a8e4f332342a7aeb5f32f0d",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

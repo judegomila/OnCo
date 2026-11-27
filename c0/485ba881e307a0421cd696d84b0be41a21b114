@@ -1,0 +1,25 @@
+src/data/trials-subtypes-wave.ts
+  s_0beac9cb5d78fd::t_6a6e35b9b447bd 517,522,529,538
+src/data/drugs-subtypes-wave.ts
+  s_0beac9cb5d78fd::t_6a6e35b9b447bd 281,299-300,305,309
+src/data/companies-makers-wave4.ts
+  s_0beac9cb5d78fd::t_6a6e35b9b447bd 321,323,327,338,354,358,365,386,391,393
+src/data/i18n/zh.ts
+  ai_agent 11481,11499-11500,11505,11509,11514,11516,11520,11531,11547,11551,11558,11579,11584,11586,11623,11628,11635,11644
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c0485ba881e307a0421cd696d84b0be41a21b114",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

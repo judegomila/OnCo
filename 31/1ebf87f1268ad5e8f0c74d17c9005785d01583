@@ -1,0 +1,21 @@
+src/data/nutrition.ts
+  s_0beac9cb5d78fd::t_e2c84b0c6d29cc 524
+CHANGELOG.md
+  s_0beac9cb5d78fd::t_ceb5758d74f4c8 10,18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "311ebf87f1268ad5e8f0c74d17c9005785d01583",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

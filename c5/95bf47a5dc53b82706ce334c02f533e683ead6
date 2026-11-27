@@ -1,0 +1,59 @@
+src/data/protocols/hyponatraemia-siadh.ts
+  s_1e233a6be244f1::t_17c60b6c620127 1-27,29-34,36-132,134-149
+  s_1e233a6be244f1::t_126123cbc96dc8 28,35,133
+src/data/protocols/car-t-bridging.ts
+  s_1e233a6be244f1::t_ce5efc99387979 1-120,122-142,144-162,164-169
+  s_1e233a6be244f1::t_e5d9b20b7966e1 121,143,163
+src/data/protocols/iec-hs-management.ts
+  s_1e233a6be244f1::t_7c768045a7796a 1-174
+src/data/protocols/malignant-bowel-obstruction.ts
+  s_1e233a6be244f1::t_ebf364bafc0877 24,72,86,141,149
+  s_1e233a6be244f1::t_892935b916fe05 1-23,25-71,73-85,87-140,142-148,150-159
+src/data/protocols/acute-oncology-telephone-triage.ts
+  s_1e233a6be244f1::t_a881f025d362da 1-28,30-111,113-128,130-152
+  s_1e233a6be244f1::t_4bba4449cbadcd 29,112,129
+src/data/protocols/icaht-prolonged-cytopenia.ts
+  s_1e233a6be244f1::t_11414d7fc65f0e 1-183
+src/data/protocols/hyperleukocytosis-leukostasis.ts
+  s_1e233a6be244f1::t_4c060a9ff61eed 1-108,110-112,114-115,117-131
+  s_1e233a6be244f1::t_8614686ecc01fc 109,113,116
+src/data/protocols/car-t-referral-and-eligibility.ts
+  s_1e233a6be244f1::t_6064e7cea1e9ff 1-157
+src/data/protocols/car-t-apheresis.ts
+  s_1e233a6be244f1::t_076abb3be34251 1-138
+src/data/protocols/superior-vena-cava-obstruction.ts
+  s_1e233a6be244f1::t_2a967bb542a73d 49,61-62,98
+  s_1e233a6be244f1::t_94f87ab4e5ac9c 1-48,50-60,63-97,99-142
+src/data/protocols/malignant-pericardial-effusion.ts
+  s_1e233a6be244f1::t_03d0668f37ba5a 1-87,89-93,95-120
+  s_1e233a6be244f1::t_258930192fb61f 88,94
+src/data/protocols/index.ts
+  s_1e233a6be244f1::t_b79f46ad83769d 2-3,5-6,8-9,15-17,19,36-37,39-41,49-50,52-53,55-56,62-64,66,83-84,86-88
+src/data/protocols/car-t-lymphodepletion.ts
+  s_1e233a6be244f1::t_30648658e046bb 1-149
+src/data/protocols/raised-intracranial-pressure.ts
+  s_1e233a6be244f1::t_189a7ae4938412 1-135,137-138
+  s_1e233a6be244f1::t_035199a0d4009d 136
+src/data/protocols/allo-hct-gvhd-prophylaxis.ts
+  s_1e233a6be244f1::t_1b8f4da47f9084 32,74-75
+  s_1e233a6be244f1::t_d4bb37c61518ab 1-31,33-73,76-158
+src/data/protocols/neutropenic-enterocolitis.ts
+  s_1e233a6be244f1::t_3714598df5f2cd 1-63,65-84,86-117,119-125
+  s_1e233a6be244f1::t_9a767332357662 64,85,118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c595bf47a5dc53b82706ce334c02f533e683ead6",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+src/lib/openmedical.ts
+  s_0beac9cb5d78fd::t_cfa426da95f93a 1-25
+scripts/fetch-openmedical.ts
+  s_0beac9cb5d78fd::t_649e8c15f548d4 24
+  s_0beac9cb5d78fd::t_55c28671594786 1-23,25-29,31-100,102-232,234-244,247-267
+  s_0beac9cb5d78fd::t_5ffcb6badd9e44 30,101,233
+  s_0beac9cb5d78fd::t_4283ec2eb5eb3e 245-246
+package.json
+  s_0beac9cb5d78fd::t_17acda095daca5 75-76
+src/data/openmedical.ts
+  s_0beac9cb5d78fd::t_4283ec2eb5eb3e 7-8,1279
+  s_0beac9cb5d78fd::t_cecd7d2130e1d2 1240-1242,1246,1252,1257-1262,1264,1266,1272-1276,1281-1283,1286-1291,1296-1300,1303,1305
+  s_0beac9cb5d78fd::t_17acda095daca5 1-6,9-1239,1243-1245,1247-1251,1253-1256,1263,1265,1267-1271,1277-1278,1280,1284-1285,1292-1295,1301-1302,1304,1306-2293
+src/components/OpenMedicalPanel.tsx
+  s_0beac9cb5d78fd::t_799b3dd853a518 1-54
+src/data/openmedical.test.ts
+  s_0beac9cb5d78fd::t_0b1b51f763875d 1-5,7-61
+  s_0beac9cb5d78fd::t_0480c82d866bbc 6
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_c3dd4f25ce6805 150
+  s_0beac9cb5d78fd::t_4792e84cd74689 81
+src/lib/openmedical-text.ts
+  s_0beac9cb5d78fd::t_e04b8eef5fcaf4 1-18
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_f80bdf21649578 157
+src/app/open-tools/page.tsx
+  s_0beac9cb5d78fd::t_1b8f9edbabc4fa 1-53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "233b575c6a21e23ae90c406b3bd37d5a18c7fcb5",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

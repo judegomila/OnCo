@@ -1,0 +1,33 @@
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_1f584a5509eb65 103,112,248,296,312,320,566,574,662,702
+src/data/index.ts
+  s_0beac9cb5d78fd::t_1f584a5509eb65 96,175
+src/data/spikes/cervical.ts
+  s_0beac9cb5d78fd::t_1f584a5509eb65 37,48,59,69,79,89,96,103,112,125,138
+src/data/gynaecological-subtypes.ts
+  s_0beac9cb5d78fd::t_f74f9f8fdf782d 1-338
+src/data/spikes/ovarian.ts
+  s_0beac9cb5d78fd::t_1f584a5509eb65 40,51,61,68,98,108,118,130,177
+scripts/fold-zh.ts
+  s_0beac9cb5d78fd::t_1f584a5509eb65 20,22
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_1f584a5509eb65 213
+src/data/spikes/endometrial.ts
+  s_0beac9cb5d78fd::t_1f584a5509eb65 40,50,60,70,78,85,92
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "fbbfd3af8f28218759903da24ba9726570cfa5ce",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

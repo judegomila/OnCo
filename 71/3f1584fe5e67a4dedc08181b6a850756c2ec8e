@@ -1,0 +1,23 @@
+src/data/i18n/ar.ts
+  ai_agent 3306-3327,3330-3338,3340-3342,3344-3349,3352,3355-3383,3385-3392,3394-3411,3413-3416
+src/data/i18n/de.ts
+  ai_agent 3306-3327,3330-3338,3340-3342,3344-3349,3352,3355-3383,3385-3392,3394-3411,3413-3416
+src/data/i18n/fr.ts
+  ai_agent 3306-3327,3330-3338,3340-3342,3344-3349,3352,3355-3383,3385-3392,3394-3411,3413-3416
+src/data/i18n/hi.ts
+  ai_agent 3333-3432
+src/data/i18n/es.ts
+  ai_agent 3333-3432
+src/data/i18n/zh.ts
+  ai_agent 3333-3432
+src/data/i18n/ja.ts
+  ai_agent 3306-3327,3330-3338,3340-3342,3344-3349,3352,3355-3383,3385-3392,3394-3411,3413-3416
+src/data/i18n/pt.ts
+  ai_agent 3333-3432
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "713f1584fe5e67a4dedc08181b6a850756c2ec8e",
+  "prompts": {}
+}

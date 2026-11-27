@@ -1,0 +1,25 @@
+src/data/parp-selective-review.ts
+  s_0beac9cb5d78fd::t_ae2297578673b7 1053,1107-1109,1198-1199,1201-1202,1213-1216,1224-1225,1233,1236-1237,1256-1724
+src/data/spikes/ovarian.ts
+  s_0beac9cb5d78fd::t_ae2297578673b7 169,178-179
+src/data/supportive-drugs.ts
+  s_0beac9cb5d78fd::t_ae2297578673b7 26-27
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_ae2297578673b7 566,571-572,575,581,584,590
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a68c70628d15d8eefcc5cdceb47d135a8c0772ed",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

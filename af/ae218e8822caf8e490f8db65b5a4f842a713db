@@ -1,0 +1,63 @@
+src/data/spikes/sclc.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 29,40,51,63,77,82,90,97,110,123,132,142
+src/data/pipeline-trials-wave5.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 382,1096,1774,2764
+src/data/drugs-china-wave1.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 17,22
+src/data/pipeline-trials-wave2.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 149,695
+src/data/radiation-wave4.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 118,125
+src/data/pipeline-trials-wave6.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 2153,2693,2777,2867,2921,7337,7871,9161,9407
+src/data/india.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 195
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 36,50,121,166,174,283,330,370,394,493,501,509,517,542,550,558
+  s_0beac9cb5d78fd::t_bd20e98db58450 261,534
+  s_0beac9cb5d78fd::t_1f584a5509eb65 248,296,320
+src/data/platform-trials-wave.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 67,85
+src/data/spikes/melanoma.ts
+  s_0beac9cb5d78fd::t_bd20e98db58450 195
+src/data/drugs-approved-wave1.ts
+  s_0beac9cb5d78fd::t_bd20e98db58450 70,166
+src/data/radiation-wave2.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 102,109
+src/data/index.ts
+  s_0beac9cb5d78fd::t_3620ea0dbefbe2 101
+  s_0beac9cb5d78fd::t_1f584a5509eb65 178
+src/data/trials.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 25,33,175,181,187,193,205
+src/data/drugs-pipeline-wave1.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 65,359
+src/data/spikes/nsclc.ts
+  s_0beac9cb5d78fd::t_bd20e98db58450 171
+  s_0beac9cb5d78fd::t_a63af6212be669 30,36,42,48,54,60,66,72,78,84,90,96,102,108,114,119,125,131,141,147,153,159,165,177,183,189,195,202,258
+src/data/pipeline-trials-wave4.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 552,876,948,1398,1512
+src/data/drugs-pipeline-wave2.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 43
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 157,162,274,279,284,294,299,304,309,314,319,324,329,334
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_fcbd897d50543e 58
+src/data/china.ts
+  s_0beac9cb5d78fd::t_a63af6212be669 110,166,178,210
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "afae218e8822caf8e490f8db65b5a4f842a713db",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_03e530472e1ebc 177-185
+src/data/spikes/melanoma.ts
+  s_0beac9cb5d78fd::t_9ebe9535fe8252 292
+src/components/XrefStrip.tsx
+  s_0beac9cb5d78fd::t_8baec8aedb710b 2,8-10
+  s_0beac9cb5d78fd::t_536746eff1abd8 51-69
+  s_0beac9cb5d78fd::t_6d7ea899b77738 20
+src/data/targets-wave1.ts
+  s_0beac9cb5d78fd::t_9ebe9535fe8252 35,55,65
+src/data/targets.ts
+  s_0beac9cb5d78fd::t_9ebe9535fe8252 9,25,44,58,74,87,100,113,126,141,154,167,181,194,207,221,233,247,260,274,288,301,313,325,334,347,359,371,384,398,412,429,442,455,470,487,503,517,532,561,576,590,602,646,662,676,704,717,731,761,774,788,802,837,850,860,870,880,890,900,912,922,932,942,954,963,973,983,993,1003,1012,1022,1032,1042,1052,1064,1074,1084,1094,1104,1114,1124,1134,1147,1157,1169,1179,1189,1201,1211,1221,1231,1241,1253,1263,1273,1283,1293,1303,1313,1325,1336,1347,1358,1369,1380,1391,1402,1413,1424,1435,1446,1457,1468,1479,1490,1501
+src/data/spikes/nsclc.ts
+  s_0beac9cb5d78fd::t_9ebe9535fe8252 207
+scripts/enrich-target-ids.ts
+  s_0beac9cb5d78fd::t_90e244cb1cf2a2 1-168
+scripts/rdf.ts
+  s_0beac9cb5d78fd::t_3d3c9cd3a8fe02 13,47
+src/data/spikes/aml.ts
+  s_0beac9cb5d78fd::t_9ebe9535fe8252 41,48,55,62
+src/data/spikes/prostate.ts
+  s_0beac9cb5d78fd::t_9ebe9535fe8252 46,53,60
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_600c6cbc7117f5 96,304
+src/lib/side-data.test.ts
+  s_0beac9cb5d78fd::t_50218527e9b2a9 116-129
+src/components/JsonLd.tsx
+  s_0beac9cb5d78fd::t_95aa55fd15e517 28
+  s_0beac9cb5d78fd::t_4b8f841b88a550 6,27
+src/lib/gene-ids.ts
+  s_0beac9cb5d78fd::t_6a9adb5971628a 1-27
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_9ebe9535fe8252 765,773,781,789,799,807,815,823,842,855,863,871,882,890,901,909,917,925,936
+src/data/spikes/hodgkin-lymphoma.ts
+  s_0beac9cb5d78fd::t_9ebe9535fe8252 22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "4b8ae9d467d8549948762fe9b746e4fc407a07ca",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

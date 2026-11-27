@@ -1,0 +1,81 @@
+src/data/lung-subtypes.ts
+  s_0beac9cb5d78fd::t_128068efc60e71 374
+src/data/spikes/ovarian.ts
+  s_0beac9cb5d78fd::t_54c4e4b86358f4 178
+src/data/spikes/endometrial.ts
+  s_0beac9cb5d78fd::t_259ec001e334e9 117
+src/data/spikes/nci-rare-other.ts
+  s_0beac9cb5d78fd::t_b12dbca230cdec 302,377
+src/data/blood-subtypes.ts
+  s_0beac9cb5d78fd::t_128068efc60e71 327,484
+src/data/spikes/nci-rare-solid.ts
+  s_0beac9cb5d78fd::t_b12dbca230cdec 48,416
+src/data/index.ts
+  s_0beac9cb5d78fd::t_30a8886d534de0 82
+  s_0beac9cb5d78fd::t_cbb5572b3f9524 186
+src/data/spikes/nci-paediatric.ts
+  s_0beac9cb5d78fd::t_b12dbca230cdec 236
+src/data/spikes/neuroendocrine.ts
+  s_0beac9cb5d78fd::t_0df6ce7a488c1e 59
+src/data/sarcoma-lymphoma-subtypes.ts
+  s_0beac9cb5d78fd::t_128068efc60e71 36,101
+src/data/spikes/gap-cancers.ts
+  s_0beac9cb5d78fd::t_b12dbca230cdec 319,443,473,794
+src/data/essential-thrombocythaemia.ts
+  s_0beac9cb5d78fd::t_b12dbca230cdec 65
+src/data/skin-subtypes.ts
+  s_0beac9cb5d78fd::t_128068efc60e71 214,386
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_52b80b4a4c9510 689
+src/data/cns-subtypes.ts
+  s_0beac9cb5d78fd::t_128068efc60e71 105,140
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_527bb8c2bc770a 98
+  s_0beac9cb5d78fd::t_05fdd9150bc1ac 351
+  s_0beac9cb5d78fd::t_a3af0166703c92 427
+  s_0beac9cb5d78fd::t_23f1abafb8b437 356
+src/data/spikes/aml.ts
+  s_0beac9cb5d78fd::t_14f4ffafc6d948 169
+src/data/drugs-subtypes-wave.ts
+  s_0beac9cb5d78fd::t_7929ec3f151fa4 40,176,243,249
+  s_0beac9cb5d78fd::t_9d31823d08ef97 1-39,41-175,177-242,244-248,250-280,282-298,300-313
+  s_0beac9cb5d78fd::t_9123cc39aa8289 281,299
+src/data/polycythaemia-vera.ts
+  s_0beac9cb5d78fd::t_b12dbca230cdec 76
+src/data/drugs-approved-wave1.ts
+  s_0beac9cb5d78fd::t_f6de25ae7a75a9 368
+public/freshness.json
+  s_0beac9cb5d78fd::t_307c66463d61cb 1
+src/data/head-neck-hpv-subtypes.ts
+  s_0beac9cb5d78fd::t_128068efc60e71 97,128,255,281
+src/data/cancers.ts
+  s_0beac9cb5d78fd::t_b12dbca230cdec 91,114,454,542,573,587
+src/data/head-neck-subtypes.ts
+  s_0beac9cb5d78fd::t_128068efc60e71 62
+public/llms.txt
+  s_0beac9cb5d78fd::t_307c66463d61cb 5
+src/data/sarcoma-bone-subtypes.ts
+  s_0beac9cb5d78fd::t_128068efc60e71 44,115
+scripts/fold-zh.ts
+  s_0beac9cb5d78fd::t_a0ef048a742990 30,32
+src/data/neuroendocrine-subtypes.ts
+  s_0beac9cb5d78fd::t_128068efc60e71 53,90,121,153
+src/data/paediatric-subtypes.ts
+  s_0beac9cb5d78fd::t_128068efc60e71 29,261,346
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "402dd51c836db6fa32b160d9cca0a7965a384006",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

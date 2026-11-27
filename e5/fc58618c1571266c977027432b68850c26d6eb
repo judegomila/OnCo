@@ -1,0 +1,52 @@
+src/data/companies.ts
+  s_0beac9cb5d78fd::t_dade2a1ad6c218 14,18,26,50,62,66,74,100,170,184,282,370
+src/data/india.ts
+  ai_agent 25,60
+src/data/companies-makers-wave4.ts
+  ai_agent 44,56
+src/data/china.ts
+  s_0beac9cb5d78fd::t_dade2a1ad6c218 301
+src/data/tests.ts
+  ai_agent 582
+scripts/enrich-company-ids.ts
+  s_0beac9cb5d78fd::t_3541fd715d8765 60-61
+  s_0beac9cb5d78fd::t_f7f924fec5793e 275
+  s_0beac9cb5d78fd::t_6614c0187d5b58 267-273
+  s_0beac9cb5d78fd::t_de19574fce710e 330-331,333
+  s_0beac9cb5d78fd::t_914c9fda66bc8d 293-301
+  s_0beac9cb5d78fd::t_b85444b740c142 1-59,62-266,274,276-292,302-329,332,334-388
+src/data/companies-startups.ts
+  ai_agent 1094
+src/data/wikidata-ids.ts
+  s_0beac9cb5d78fd::t_dade2a1ad6c218 35,45,47,51,71,73-75,84-85,96,102-106,126-129,131,141,144,148,153,161,163-165,175,177-179,187,194,196-198,230,232,242,247,250,260,262,264,273,277-278,282-283,286,288,298,304
+src/data/companies-wave1.ts
+  ai_agent 13
+src/data/supporting.ts
+  ai_agent 539,663,803,827,891,895
+src/data/companies-yc.ts
+  ai_agent 43
+src/data/machines-wave.ts
+  ai_agent 281,316
+src/data/manufacturing-wave.ts
+  ai_agent 194,223
+src/data/spikes/hcc.ts
+  ai_agent 39
+src/data/companies-sponsors.ts
+  s_0beac9cb5d78fd::t_dade2a1ad6c218 108,138
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "e5fc58618c1571266c977027432b68850c26d6eb",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

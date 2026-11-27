@@ -1,0 +1,66 @@
+src/lib/seo.ts
+  s_0beac9cb5d78fd::t_4b14c0d1cf2b03 52-53
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_4b14c0d1cf2b03 182
+  s_0beac9cb5d78fd::t_c51fca3441a5c4 121-123
+LICENSE-DATA
+  s_0beac9cb5d78fd::t_c51fca3441a5c4 8-9,12
+README.md
+  s_0beac9cb5d78fd::t_c51fca3441a5c4 81
+src/app/layout.tsx
+  s_0beac9cb5d78fd::t_c51fca3441a5c4 111
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_4b14c0d1cf2b03 218
+  s_0beac9cb5d78fd::t_c51fca3441a5c4 152-154
+.github/ISSUE_TEMPLATE/new-object.yml
+  s_0beac9cb5d78fd::t_3eec702f18d20b 10
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_31c6ce3a09fc42 100-104
+src/app/about/page.tsx
+  s_0beac9cb5d78fd::t_c51fca3441a5c4 68
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_c51fca3441a5c4 121-123
+  s_0beac9cb5d78fd::t_4b14c0d1cf2b03 182
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_c51fca3441a5c4 121-123
+  s_0beac9cb5d78fd::t_4b14c0d1cf2b03 182
+src/lib/csv.ts
+  s_0beac9cb5d78fd::t_c51fca3441a5c4 11
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_4b14c0d1cf2b03 182
+  s_0beac9cb5d78fd::t_c51fca3441a5c4 121-123
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_c51fca3441a5c4 121-123
+  s_0beac9cb5d78fd::t_4b14c0d1cf2b03 182
+packages/onco-cli/src/client.ts
+  s_0beac9cb5d78fd::t_c51fca3441a5c4 30
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_c51fca3441a5c4 506
+scripts/gen-issue-forms.test.ts
+  s_0beac9cb5d78fd::t_0f68b2f3a6eddc 12
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_4b14c0d1cf2b03 182
+  s_0beac9cb5d78fd::t_c51fca3441a5c4 121-123
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_4b14c0d1cf2b03 182
+  s_0beac9cb5d78fd::t_c51fca3441a5c4 121-123
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_c51fca3441a5c4 121-123
+  s_0beac9cb5d78fd::t_4b14c0d1cf2b03 182
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "41e358aec717c78d0ab27851bece3edca4993a53",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

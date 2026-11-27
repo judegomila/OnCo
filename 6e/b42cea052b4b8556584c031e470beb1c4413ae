@@ -1,0 +1,390 @@
+public/openalex/research/nci.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/jfcr.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/cnio.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/ac-camargo.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/cams-hematology.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/anvisa.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/chris-obrien-lifehouse.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/alfred-health-monash.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/antwerp-university-hospital.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/st-anna-ccri-vienna.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/12-de-octubre.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/carilion-clinic.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/dktk.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/baylor-sammons-dallas.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/data/spikes/gallbladder-living.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 1-242
+public/openalex/research/la-paz.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/data/spikes/gallbladder-uk.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 1-355
+public/openalex/research/tennessee-oncology.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/lmu-munich.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/michigan-rogel.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/heidelberg-nct.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/papers.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/fondazione-michelangelo.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/cz-biohub.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/md-anderson.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/roswell-park.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/queens-university-kingston.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/moffitt.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/peter-mac.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/wits-charlotte-maxeke.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/proposals/applied.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1-161
+public/openalex/research/mayo-clinic.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/data/symptom-paths.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 296,298
+src/lib/first-60-days.test.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 37,54-62
+public/openalex/research/fred-hutch.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/newsletter/index.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/cams-cancer-hospital.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/centre-henri-becquerel.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/agitg.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/vall-dhebron.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/chang-gung-memorial-hospital.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/melanoma-institute-australia.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/components/Navigator.tsx
+  s_0beac9cb5d78fd::t_dada8605ea0883 243
+public/openalex/research/sirio-libanes.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/champalimaud.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/centre-antoine-lacassagne.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+scripts/build-api.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 34,72-73
+src/data/spikes/gallbladder-treatment.ts
+  s_0beac9cb5d78fd::t_3912d721f2ccbe 438-443,445
+  s_0beac9cb5d78fd::t_6f9eea31d05534 88,95-96,112,161,225,241,243,249-250,252,256-257,263-264,270,306,309,397,399,425-427,446,448-449
+public/openalex/research/csco.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/dana-farber.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/roadmap-watch.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 2,1025,1028-1030,1225,1227,1229-1245,1277-1285,1349,1364-1379,1778,2129,2132,2140,2142,2144-2160,2192-2200,3575,5849,5880-5888,6488,7329,7385,7503-7511
+public/openalex/research/university-of-western-australia.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+CHANGELOG.md
+  s_0beac9cb5d78fd::t_dada8605ea0883 9-18
+public/newsletter/2026-09-24.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/ieo-milan.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/big.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/arizona-cancer-center.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/gustave-roussy.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/seattle-childrens.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/app/first-60-days/[id]/page.tsx
+  s_0beac9cb5d78fd::t_dada8605ea0883 25,76-77,120-140
+src/data/index.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 17,157,281-287,340-345
+src/lib/sitemap-urls.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 16,106
+public/openalex/research/us-oncology-network.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/baylor-duncan.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/llms.txt
+  s_0beac9cb5d78fd::t_dada8605ea0883 5
+public/openalex/research/childrens-national-hospital.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/cclg.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/aphp-nord-cancer-institute.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/chulabhorn-hospital.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/chum.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/fuscc.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/kliniken-essen-mitte.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research-index.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/centre-eugene-marquis.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/chu-lille.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/stanford.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/pulse/auto.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/citations/index.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/digests/candidates.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/karmanos.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/samsung-medical-center.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/lib/first-60-days.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 11,26,32-33,47,166-167
+src/lib/uk-pathway.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 1-187
+public/openalex/research/university-of-pisa.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/chu-nantes.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/francis-crick.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/university-of-alberta.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/iosi-bellinzona.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/lib/github-stars.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/aiims-delhi.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/the-christie.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/components/CaregiverPanel.tsx
+  s_0beac9cb5d78fd::t_dada8605ea0883 5,17,20-21,34,40
+src/data/journeys.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 178-192
+public/openalex/research/dkfz.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/centre-oscar-lambret.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/lib/for-me-situation-data.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 25
+public/openalex/research/arpa-h.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/karolinska.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/uke-hamburg.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/int-milan.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/niguarda-cancer-center.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/data/spikes/gallbladder-core.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 1-479
+public/openalex/research/wustl-siteman.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/data/questions.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 8-9,11
+public/openalex/research/cincinnati-cancer-center.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/cmc-vellore.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/components/CancerIcon.tsx
+  s_0beac9cb5d78fd::t_dada8605ea0883 269-271
+public/openalex/research/mskcc.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 123
+public/freshness.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/centre-jean-perrin.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/johns-hopkins.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/mount-sinai.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/royal-marsden.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/university-hospital-leipzig.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/mgh.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/severance.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/sysucc.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/data/spikes/gallbladder-molecular.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 1-626
+public/openalex/research/cold-spring-harbor.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/butaro-cancer-center.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/ulm-university-hospital.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/az-groeninge-kortrijk.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/newsletter/feed.xml
+  s_0beac9cb5d78fd::t_dada8605ea0883 7,9-21
+src/lib/red-cards.test.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 53-65
+public/openalex/research/breast-cancer-trials.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/lungenclinic-grosshansdorf.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/newsletter/2026-09-24/index.html
+  s_0beac9cb5d78fd::t_dada8605ea0883 1-14
+public/openalex/research/canadian-cancer-society.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/nki.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/mcw-cancer-center.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/cleveland-clinic.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/snu-bundang-hospital.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/snuh.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/tgen.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+scripts/api-layout.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 40,103
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_dada8605ea0883 23,697-715,818
+public/openalex/research/hospital-universitario-salamanca.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/princess-margaret.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/data/first-60-days-checklists.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 1-64
+public/openalex/research/anzup.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/krankenhaus-nordwest.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/chu-de-quebec.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/lib/modular.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 147,479-480
+public/openalex/research/uq-frazer-institute.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/houston-methodist-neal-cancer-center.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/ausl-irccs-reggio-emilia.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/data/coverage-uk.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 248
+src/lib/uk-pathway.test.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 1-129
+public/openalex/research/royal-free-hospital.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/institut-curie.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/weill-cornell-meyer-cancer-center.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/bp-beneficencia-portuguesa.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/pla-general-hospital.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/ap-hm-timone.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/arc-institute.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/birmingham-cancer-centre.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/west-china.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/data/regional-approvals.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 486,553-563
+public/openalex/research/aku-karachi.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/ospedali-galliera.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/centre-francois-baclesse.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/airc.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/bahrain-oncology-centre.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/cancer-care-alberta.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/gregorio-maranon.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/icr-london.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/app/cancers/[id]/uk/page.tsx
+  s_0beac9cb5d78fd::t_dada8605ea0883 1-353
+src/components/GuideIcon.tsx
+  s_0beac9cb5d78fd::t_dada8605ea0883 10-11
+src/lib/cancer-families.test.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 24
+public/openalex/research/ccc-freiburg.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/kindai-university-hospital.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/osaka-university.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/chongqing-university-cancer-hospital.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/orlando-health-cancer-institute.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/ucla-jonsson.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/city-of-hope.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/ucsf.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/data/red-flags.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 28-31,49-54,285-322,325-330
+public/openalex/research/charite.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/lib/red-cards.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 4,12-13,44-45,78-84,121-127,130-131,144
+public/openalex/research/nkua-athens.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+public/openalex/research/klinikum-stuttgart-olgahospital.json
+  s_0beac9cb5d78fd::t_dada8605ea0883 1
+src/data/gallbladder-molecular.test.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 1-46
+src/lib/red-flags.test.ts
+  s_0beac9cb5d78fd::t_dada8605ea0883 3,8,27-34
+src/data/schematics.ts
+  s_0beac9cb5d78fd::t_f9afff2ed45934 569
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "6eb42cea052b4b8556584c031e470beb1c4413ae",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

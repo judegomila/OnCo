@@ -1,0 +1,103 @@
+src/components/SearchResults.test.ts
+  s_1e233a6be244f1::t_f99e457b5a38b4 42-46,64-65,105,107-108,126-127,129,141,186
+  s_1e233a6be244f1::t_515d9e06a85bde 89-90,92,96
+scripts/build-api.ts
+  s_1e233a6be244f1::t_6758602cc6f83d 16,62-65
+src/components/CommandPalette.tsx
+  s_1e233a6be244f1::t_255178f6588f8c 209-211
+  s_1e233a6be244f1::t_fd3eb34aa317dd 195
+  s_1e233a6be244f1::t_856eb3dca41704 180-181
+  s_1e233a6be244f1::t_25befc020a4bba 24,213
+  s_1e233a6be244f1::t_058dd2ddcae79c 219-225,227-228
+  s_1e233a6be244f1::t_00280ee87daa03 252-256,282,285
+  s_1e233a6be244f1::t_34efdea5791f1f 226
+  s_1e233a6be244f1::t_736170a553f561 214
+  s_1e233a6be244f1::t_50df8210121e83 203,207
+  s_1e233a6be244f1::t_e71d735dc1013b 116
+  s_1e233a6be244f1::t_10ac88342d99b5 8
+  s_1e233a6be244f1::t_3130687e310b28 103-105,107-109
+  s_1e233a6be244f1::t_374ffd49753998 311
+  s_1e233a6be244f1::t_adc9f452faaf4c 110-111,200-202,206
+  s_1e233a6be244f1::t_65ac3bb676f0e1 283-284,286
+src/components/SearchResults.semantic.test.ts
+  s_1e233a6be244f1::t_f7f471d496cda6 23-30
+src/lib/search-names.ts
+  s_1e233a6be244f1::t_c5f3fbb9e6ba77 4-6
+  s_1e233a6be244f1::t_c9c04436adc5c3 1-3,7-11,14-35,38
+  s_1e233a6be244f1::t_04efb897aa245e 12-13
+  s_1e233a6be244f1::t_f0ee4f57bf6044 36-37
+src/lib/i18n/ui/ja.ts
+  s_1e233a6be244f1::t_f376d265b17b10 81-84
+src/components/CommandPalette.stale.test.ts
+  s_1e233a6be244f1::t_4f2bd6a9bf7c86 77-79,81-82
+  s_1e233a6be244f1::t_00280ee87daa03 80
+scripts/search-health.test.ts
+  s_1e233a6be244f1::t_7239fab04885d8 5,54-78
+src/lib/search-client.ts
+  s_1e233a6be244f1::t_c35d8ef77a5e1b 6,13-21,25,28-29,34,41-47,50,52,62-70,73-75,77,83-84,95-97
+  s_1e233a6be244f1::t_e2d9fc53c55d3e 32-33,56-57,85-93
+  s_1e233a6be244f1::t_58668f06cd28f3 48-49
+  s_1e233a6be244f1::t_fbec4a21bc442d 30,72,76,78-82
+  s_1e233a6be244f1::t_0c8fea89e961b8 35-36,40,55,71
+  s_1e233a6be244f1::t_dc6ee0e438ccc6 31,37-39
+scripts/search-health-lib.ts
+  s_1e233a6be244f1::t_8bc0d83666fe1f 215-219,223
+src/lib/i18n/ui.ts
+  s_1e233a6be244f1::t_f376d265b17b10 100-103
+src/components/SearchBox.test.ts
+  s_1e233a6be244f1::t_ef643de0abb869 5,200
+  s_1e233a6be244f1::t_515d9e06a85bde 77-78,81
+  s_1e233a6be244f1::t_f99e457b5a38b4 31-35,55-56,88-93,103-105,110,118,136,191
+  s_1e233a6be244f1::t_60562416af1480 79-80
+  s_1e233a6be244f1::t_4d8466ee29c7c1 194-199,201-230
+src/components/CommandPalette.focus.test.ts
+  s_1e233a6be244f1::t_891b67bed8e473 35-36
+scripts/api-layout.ts
+  s_1e233a6be244f1::t_6ece1ff6c06fb6 26,88
+src/lib/i18n/ui/ar.ts
+  s_1e233a6be244f1::t_f376d265b17b10 81-84
+src/lib/search-rank.ts
+  s_1e233a6be244f1::t_87738edb0d2c06 214-215,229-230,236-237
+  s_1e233a6be244f1::t_e815eb7ded2275 205-213,216-220,222-228,231-233
+src/lib/i18n/ui/fr.ts
+  s_1e233a6be244f1::t_f376d265b17b10 81-84
+src/lib/i18n/ui/pt.ts
+  s_1e233a6be244f1::t_f376d265b17b10 81-84
+src/lib/i18n/ui/zh.ts
+  s_1e233a6be244f1::t_f376d265b17b10 81-84
+src/components/SearchBox.tsx
+  s_1e233a6be244f1::t_cdaeb0d74fca45 75-76
+  s_1e233a6be244f1::t_34efdea5791f1f 77-81
+  s_1e233a6be244f1::t_15a6b4d28f936f 86,95,105
+  s_1e233a6be244f1::t_417f217f5e71f1 9-10,35-40,42-47,49,51,55-59,153,155-156,158
+src/components/SearchResults.tsx
+  s_1e233a6be244f1::t_5e60366d641994 6-7,129-131,133-134,139-144,148,153,155-157,214-220,286-287,304
+  s_1e233a6be244f1::t_5fd91104228d5e 172-174
+  s_1e233a6be244f1::t_6d5204ab59c2bf 291
+src/components/NotFoundHelper.tsx
+  s_1e233a6be244f1::t_34efdea5791f1f 47
+  s_1e233a6be244f1::t_fcf23b1675585f 38
+  s_1e233a6be244f1::t_8e83b63f34b374 5-6,16,26-27,31,41-46,48-50,52-53,72-74,77
+src/lib/i18n/ui/es.ts
+  s_1e233a6be244f1::t_f376d265b17b10 81-84
+src/lib/i18n/ui/de.ts
+  s_1e233a6be244f1::t_f376d265b17b10 81-84
+src/lib/i18n/ui/hi.ts
+  s_1e233a6be244f1::t_f376d265b17b10 81-84
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "3411d108a33705df440115a3e6d75f993687edab",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

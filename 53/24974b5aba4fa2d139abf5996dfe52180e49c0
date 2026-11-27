@@ -1,0 +1,175 @@
+src/data/spikes/urothelial.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 83,186,192
+src/data/cost-levers.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 41,56
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 297,795
+src/data/ideas-waves/wave-access.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 325
+src/data/institutions/bodies.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 73,202,335
+src/data/people/leaders-wave4.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 178
+src/data/spikes/nsclc.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 170
+src/data/people/us-east.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 28,48,68,130,140,266,271,276,286,296,350,365,370,438,465,470,492,512,522,539,591,596
+src/data/people/leaders-wave2.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 268,288
+src/data/drug-depth.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 517
+src/data/spikes/breast-hr-positive.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 74,130,138,162
+src/data/spikes/thyroid.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 77
+src/data/mechanics-pathways.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 33
+src/data/ideas-waves/wave-trials-1.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 101,479,509
+scripts/apply-factcheck.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 72-81,83
+src/data/investors.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 29
+src/data/spikes/dlbcl.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 3,25-27,50,53,155,195,206,211
+scripts/audit.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 120-131,168-170,182-186,188-189,191,216-231,233-246,250,263-264,267-269,283
+src/data/ideas-waves/wave-prevention.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 547
+scripts/check-links.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 17-19,31-32,128,135-148,150-157,165,167,170-174,184-187
+public/factcheck-patches.json
+  s_0beac9cb5d78fd::t_5fefe67943b71e 1
+scripts/factcheck.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 2,7-21,29-30,32-33,40,43-53,55-61,64,67-70,78-80,126-163,169-171,173-174,176-177,182,191,195,197-217,220-221,223,227,231-239,241-243,261-272,277-278,283-284
+src/data/ideas-waves/wave-data.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 337,719
+src/data/tests.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 44,116,143,161,227,235,250,282,290,330,339,363,372,423,439
+src/data/institutions/india.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 58,62
+src/data/spikes/hodgkin-lymphoma.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 46,49
+src/data/spikes/head-and-neck.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 249
+src/data/spikes/nci-rare-other.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 103,127,453
+src/data/trials.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 72
+src/data/spikes/esophageal.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 13
+src/data/spikes/pancreatic.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 93,98,117
+src/data/sections.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 98
+src/data/spikes/prostate.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 153,184,263,348
+src/data/spikes/cll.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 29,50,128,144
+src/data/india.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 100
+CORRECTIONS.md
+  s_0beac9cb5d78fd::t_5fefe67943b71e 5-92
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 52-56,63-66,68
+src/data/coverage-uk.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 412
+src/data/failures.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 20,29,35,91,129
+src/data/ideas-waves/wave-biology-2.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 24,563,653
+src/data/spikes/nci-rare-solid.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 29,46,129,132-133,144,148,180,283
+src/data/ideas-waves/wave-costs.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 164,258
+src/data/spikes/glioblastoma.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 113,119
+src/data/companies-startups.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 586,597
+src/data/bottlenecks.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 751,809,830,1197,1575,1597,1658
+src/data/spikes/neuroblastoma.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 122
+src/data/ideas-waves/wave-trials-2.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 57,245,600,665
+src/data/people/heroes.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 343
+src/data/spikes/sarcoma.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 3,79-82,261
+public/factcheck.json
+  s_0beac9cb5d78fd::t_5fefe67943b71e 1
+public/audit.json
+  s_0beac9cb5d78fd::t_5fefe67943b71e 1
+src/data/spikes/gastric.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 3,14,63,68,79,124-127
+src/data/regional-approvals.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 206,209,360,401
+src/data/mechanisms.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 568
+src/data/spikes/melanoma.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 104,126
+src/data/spikes/breast-her2-positive.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 89,100,116,124,140,148,156,159,163
+src/data/spikes/ovarian.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 3,91,163-167,188-190,205,312
+src/data/roadmaps-wave2.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 127,194,272,352
+src/data/supplement.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 1-18
+src/data/spikes/cervical.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 97,104,109-110,113,121
+src/data/spikes/neuroendocrine.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 3,68,70-71,133
+src/data/spikes/endometrial.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 3,103,105-106,129,199
+src/lib/corpus-rules.test.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 61-62
+src/data/ideas-waves/wave-funding.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 237,256,266,275,284,313,332,391,410,429,438,457,469,574
+src/app/audit/page.tsx
+  s_0beac9cb5d78fd::t_5fefe67943b71e 26-27
+src/data/supporting.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 949,952
+src/data/journals.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 57
+src/data/spikes/colorectal.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 3,16,213-215
+src/data/trial-outcomes.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 35,110,159,201,217,283,291,310,329,477,549,562,575,579,612,622,712,796
+public/links.json
+  s_0beac9cb5d78fd::t_5fefe67943b71e 1
+src/data/deals.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 174
+src/data/spikes/nci-paediatric.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 125,130,140
+src/data/frontier.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 459
+src/data/institutions/europe.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 51,112,118,131,143,149,185-186,191,203,246,260,265,308,351,370,377,382,400,408,413,419,452,457,477,482,501,507,551
+src/data/ideas-waves/wave-regulation.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 33,49,161,226,433,458,578,634,761
+src/data/paediatric-fronts.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 43,57,212
+src/data/institutions/world.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 98,135,162,166,184,210,214,247,320,350,424,494,498,504
+src/data/spikes/aml.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 263,289,321,353
+src/data/spikes/rcc.ts
+  s_0beac9cb5d78fd::t_5fefe67943b71e 3,41,81,122-125,135-146,187-190
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "5324974b5aba4fa2d139abf5996dfe52180e49c0",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

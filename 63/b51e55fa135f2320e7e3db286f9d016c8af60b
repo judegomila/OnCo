@@ -1,0 +1,141 @@
+src/data/people/country-ch.ts
+  s_1e233a6be244f1::t_cf6b01dfa72db9 20
+src/data/country-ch.ts
+  s_1e233a6be244f1::t_6ef163f157526b 341
+  s_1e233a6be244f1::t_faee22df6d1fe6 197
+  s_1e233a6be244f1::t_997ac10f3cd9fd 198
+  s_1e233a6be244f1::t_45f8a6214e7225 237
+  s_1e233a6be244f1::t_6f5f7fe21606eb 328
+  s_1e233a6be244f1::t_17b6695fae997b 37
+  s_1e233a6be244f1::t_c73381f898a9c3 293
+  s_1e233a6be244f1::t_cf6b01dfa72db9 49,59-60,70,80-81,159-160,186-187,226-227,238,255,266,281,321
+  s_1e233a6be244f1::t_cc10b1e4539274 36
+  s_1e233a6be244f1::t_dc93ef37507bf2 296
+  s_1e233a6be244f1::t_27baf6f75ac636 310
+src/data/people/country-br.ts
+  s_1e233a6be244f1::t_f170a9ceff628b 16,19,57
+src/data/korea-entities.ts
+  s_1e233a6be244f1::t_c2f879d2f25a24 42
+  s_1e233a6be244f1::t_77010f3ea85ba0 118
+  s_1e233a6be244f1::t_0225d304af5662 70
+src/data/canada-entities.ts
+  s_1e233a6be244f1::t_67772f14be9021 68,122
+src/data/italy-entities.ts
+  s_1e233a6be244f1::t_64b0ceb09c070e 72
+  s_1e233a6be244f1::t_f00813fc98036f 74
+  s_1e233a6be244f1::t_ab412e25f23d95 49
+src/data/country-records-br.ts
+  s_1e233a6be244f1::t_f170a9ceff628b 45,61,81,88-89
+src/data/country-au.ts
+  s_1e233a6be244f1::t_256ed6f52d6e4f 161,180-182,203,207,500
+  s_1e233a6be244f1::t_d3df7bbe8461ea 27,34-36,54,67,81,167,177-178,235,238-240,320,330,342,361,385,388-389,447
+src/data/country-es.ts
+  s_1e233a6be244f1::t_4646e9b5bffe39 354
+  s_1e233a6be244f1::t_bbcb70202321e7 211
+  s_1e233a6be244f1::t_2d94a786c04bd5 66
+  s_1e233a6be244f1::t_bfb42076dc3354 91
+  s_1e233a6be244f1::t_96298b2f766653 40
+  s_1e233a6be244f1::t_007275c3d98fc6 305,307,309
+  s_1e233a6be244f1::t_d240d7a48471d6 390
+  s_1e233a6be244f1::t_e7cbcb09f844c1 256
+  s_1e233a6be244f1::t_432a31a933cbe7 209
+  s_1e233a6be244f1::t_66d057fe53b5db 197
+  s_1e233a6be244f1::t_1e3a9582d99e01 313-314
+src/data/country-records-au.ts
+  s_1e233a6be244f1::t_6bdf6898c00846 47,74,76,93,161
+src/data/country-kr.ts
+  s_1e233a6be244f1::t_3a2bffc47b67bd 75
+  s_1e233a6be244f1::t_500aad22ca1fb4 89-90
+  s_1e233a6be244f1::t_6c48388ac2bcf3 200
+  s_1e233a6be244f1::t_d9b618a6feb049 116
+  s_1e233a6be244f1::t_a2e567d82379f3 182-183
+  s_1e233a6be244f1::t_b8eb7ba5548f60 177
+  s_1e233a6be244f1::t_c05a63b8fc82ae 106-107
+  s_1e233a6be244f1::t_ca9d70c0433859 136
+src/app/countries/kr/page.tsx
+  s_1e233a6be244f1::t_901ae4bd379b38 162
+src/data/country-ca.ts
+  s_1e233a6be244f1::t_2084cd7e4b06c6 241-243
+  s_1e233a6be244f1::t_bd3edb12857298 45,58,119,135,160,166
+src/data/netherlands-entities.ts
+  s_1e233a6be244f1::t_aa21f67b72b451 30
+  s_1e233a6be244f1::t_c5051df09389e1 26
+src/data/country-br.ts
+  s_1e233a6be244f1::t_f170a9ceff628b 54-55,70,84,165,169,173,182,255,296,298,308,358,363
+src/data/country-records-ch.ts
+  s_1e233a6be244f1::t_3b4f12ee4f072f 41
+  s_1e233a6be244f1::t_cf6b01dfa72db9 25,54,67,105-106,123,126-127,138,141,143,156,159,171-174
+  s_1e233a6be244f1::t_ac498a39ab028c 42
+src/app/countries/ca/page.tsx
+  s_1e233a6be244f1::t_eadecd7284394c 106,127,130
+src/app/countries/nl/page.tsx
+  s_1e233a6be244f1::t_df920c4b44acf1 127
+src/data/country-fr.ts
+  s_1e233a6be244f1::t_c7bd2d65ecf52e 173
+  s_1e233a6be244f1::t_bdc2b455e6ed26 94
+  s_1e233a6be244f1::t_ea7fed4bcf81e8 70-72
+  s_1e233a6be244f1::t_a6becc26215d10 95-96
+  s_1e233a6be244f1::t_db44969b1a37fd 154
+  s_1e233a6be244f1::t_8a5c04a03e15cf 211
+  s_1e233a6be244f1::t_9ef431fb64976f 172
+  s_1e233a6be244f1::t_21d6ace2044cfa 97
+src/data/country-it.ts
+  s_1e233a6be244f1::t_c54656405a59de 8
+  s_1e233a6be244f1::t_13df648f6c40e0 46,54,102,109,122,130,169,171,185-186,192,218
+src/data/country-nl.ts
+  s_1e233a6be244f1::t_97efd3aa4cb62f 152
+  s_1e233a6be244f1::t_4e196a8a77a8a8 191
+  s_1e233a6be244f1::t_36f2dc46ab448e 84-85
+  s_1e233a6be244f1::t_d18e78e95283a2 192
+  s_1e233a6be244f1::t_351a8f55e094b3 76
+  s_1e233a6be244f1::t_fa75052f4d40fb 115
+  s_1e233a6be244f1::t_31151ed6ee2585 91
+  s_1e233a6be244f1::t_2fbf655c6a1b51 177
+  s_1e233a6be244f1::t_37c35aa1667705 201
+  s_1e233a6be244f1::t_c6058dec889077 184
+  s_1e233a6be244f1::t_634f89279fcdb8 190
+  s_1e233a6be244f1::t_cb048d2b6a6c23 101
+  s_1e233a6be244f1::t_f66182b281fa39 108
+  s_1e233a6be244f1::t_234e7f7f93474c 170
+  s_1e233a6be244f1::t_10cff705380f2b 77
+src/data/country-se.ts
+  s_1e233a6be244f1::t_b22869a1991a62 39,75,147,180,237,396
+  s_1e233a6be244f1::t_9345ec397ddc02 63,77,84,86,102,104,113,164,173,268,270,275,277,279,296,308,325,368,382
+src/data/country-extras.ts
+  s_1e233a6be244f1::t_60fcdddc3ebc40 41-42
+  s_1e233a6be244f1::t_e981572b1f10c2 43-46
+  s_1e233a6be244f1::t_64e4f6a57c45a2 47
+  s_1e233a6be244f1::t_783ff43d356581 37
+  s_1e233a6be244f1::t_478a6358cf58c2 49,57
+  s_1e233a6be244f1::t_a72931cdc359e0 53
+src/data/people/country-se.ts
+  s_1e233a6be244f1::t_9345ec397ddc02 23,40,56
+src/data/country-records-se.ts
+  s_1e233a6be244f1::t_9345ec397ddc02 28,48,104,125,148-149,169-170,192,213-215
+  s_1e233a6be244f1::t_b22869a1991a62 110
+src/data/people/country-au.ts
+  s_1e233a6be244f1::t_6bdf6898c00846 26,32
+src/data/france-entities.ts
+  s_1e233a6be244f1::t_8eb38deafec60b 54
+  s_1e233a6be244f1::t_977f512c658408 66
+  s_1e233a6be244f1::t_d2f454763a1216 71
+  s_1e233a6be244f1::t_830907cd623a81 77
+src/data/country-records-es.ts
+  s_1e233a6be244f1::t_bd3edb12857298 79
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "63b51e55fa135f2320e7e3db286f9d016c8af60b",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "unknown"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

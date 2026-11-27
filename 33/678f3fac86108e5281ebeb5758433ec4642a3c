@@ -1,0 +1,9 @@
+docs/LAUNCH.md
+  ai_agent 199,358,362
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "33678f3fac86108e5281ebeb5758433ec4642a3c",
+  "prompts": {}
+}

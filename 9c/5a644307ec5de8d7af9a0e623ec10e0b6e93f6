@@ -1,0 +1,37 @@
+src/components/SearchBox.tsx
+  s_1e233a6be244f1::t_2812f8501a24c5 53,57
+scripts/search-misses.test.ts
+  s_1e233a6be244f1::t_2812f8501a24c5 1-81
+scripts/search-misses.ts
+  s_1e233a6be244f1::t_2812f8501a24c5 1-168
+src/lib/search-miss.ts
+  s_1e233a6be244f1::t_2812f8501a24c5 1-88
+docs/SEARCH-MISSES.md
+  s_1e233a6be244f1::t_2812f8501a24c5 1-63
+src/app/privacy/page.tsx
+  s_1e233a6be244f1::t_2812f8501a24c5 107
+src/lib/posthog.ts
+  s_1e233a6be244f1::t_2812f8501a24c5 5,12-16,32-45,76-81
+src/lib/posthog.test.ts
+  s_1e233a6be244f1::t_2812f8501a24c5 25-39
+src/lib/search-miss-filter.ts
+  s_1e233a6be244f1::t_2812f8501a24c5 1-49
+src/lib/search-miss.test.ts
+  s_1e233a6be244f1::t_2812f8501a24c5 1-107
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "9c5a644307ec5de8d7af9a0e623ec10e0b6e93f6",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

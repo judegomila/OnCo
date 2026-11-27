@@ -1,0 +1,24 @@
+src/data/index.ts
+  s_0beac9cb5d78fd::t_a773cbb7bee17e 32
+  s_0beac9cb5d78fd::t_78f2dbc4cade41 157
+src/data/rare-subtypes.ts
+  s_0beac9cb5d78fd::t_a0144ef34a5e13 64,93,118,146,175,205,232,261,287,318,347,379,407,437,464,490,520,547,580,608,639,668,701,730,759,788,821,852,883,912,944,973,1000,1031,1062,1095,1123,1155,1183
+src/data/papers-rare-wave.ts
+  ai_agent 1-767
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ed50c4ec85b76f934c3b8f86f8e6f963fe74286c",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

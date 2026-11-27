@@ -1,0 +1,29 @@
+public/.well-known/mcp.json
+  s_0beac9cb5d78fd::t_986704282ae5e2 1-35
+src/lib/agent-surface.test.ts
+  s_0beac9cb5d78fd::t_56539ce4e50026 195-223
+scripts/build-context.ts
+  s_0beac9cb5d78fd::t_986704282ae5e2 170-190
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_df549241a8ffe9 326-327
+vercel.json
+  s_0beac9cb5d78fd::t_1a26e151b45e03 26-33
+public/.well-known/llms.txt
+  s_0beac9cb5d78fd::t_986704282ae5e2 1-244
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "176d56283db3d555907b938e1d9f7ea46a7c9385",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

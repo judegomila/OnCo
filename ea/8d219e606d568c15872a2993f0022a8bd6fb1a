@@ -1,0 +1,250 @@
+src/data/simple/part-e.ts
+  s_0beac9cb5d78fd::t_be915f77f49a6c 187
+public/i18n/summaries/zh/salivary-gland.json
+  s_0beac9cb5d78fd::t_1e5a0696f6d86a 2-3
+src/data/simple/part-b.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 20,127
+src/data/i18n/ja.ts
+  s_0beac9cb5d78fd::t_df91e8c30f5f4c 352,833,1636,2306,4169
+src/data/spikes/nci-paediatric.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 119,128,206,344
+src/data/spikes/tnbc-evidence-roadmap.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 86
+src/data/spikes/prostate-core.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 223
+src/data/platform-trials-wave.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 235
+src/data/spikes/lung-evidence-papers-epidemiology.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 25
+src/data/rare-subtypes.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 588,769
+src/data/spikes/gallbladder-evidence-papers-epidemiology.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 48
+src/data/people/heroes.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 185,251
+src/data/spikes/lung-molecular.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 248,674
+CONTRIBUTING.md
+  s_0beac9cb5d78fd::t_f6269bd5f3e30f 65-67
+src/data/spikes/melanoma.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 351
+src/data/cancers.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 729,749
+src/data/i18n/fr.ts
+  s_0beac9cb5d78fd::t_df91e8c30f5f4c 352,833,1636,2306,4169
+src/data/spikes/lung-uk.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 728
+src/data/cancer-subtypes.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 47
+src/data/spikes/lung-evidence-papers-treatment.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 185
+src/data/simple/part-o.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 6
+src/data/cancers-wave4-colon-kidney-testis.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 125
+src/data/i18n/es.ts
+  s_0beac9cb5d78fd::t_df91e8c30f5f4c 259,668,1739,2376,4180,5439
+src/data/people/heroes-donors.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 281
+src/data/spikes/nci-rare-solid.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 167,269
+src/data/cancers-wave4-haematology.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 298
+src/data/cancers-wave4-endocrine-thoracic-gynae.ts
+  s_0beac9cb5d78fd::t_28509955fa5002 269
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 270
+src/data/simple/part-n.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 587
+  s_0beac9cb5d78fd::t_5efb548ee8d748 584
+src/data/checkpoint-map.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 741
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_5efb548ee8d748 412
+src/data/simple/part-d.ts
+  s_0beac9cb5d78fd::t_5efb548ee8d748 134
+src/data/cancers-wave4-rare.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 101
+src/data/spikes/gallbladder-molecular.ts
+  s_0beac9cb5d78fd::t_5efb548ee8d748 362
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 271,279
+src/data/i18n/hi.ts
+  s_0beac9cb5d78fd::t_df91e8c30f5f4c 259,1739,2376,4180
+src/data/ideas-waves/wave-biology-2.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 476,544
+public/i18n/summaries/zh/craniopharyngioma.json
+  s_0beac9cb5d78fd::t_1e5a0696f6d86a 2
+src/data/i18n/ar.ts
+  s_0beac9cb5d78fd::t_df91e8c30f5f4c 352,833,1636,2306,4169
+src/data/people/us-west.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 286
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 359
+src/data/spikes/tnbc-molecular.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 169,585-586,588
+src/data/simple/part-l.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 281
+src/data/companies.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 212
+src/data/drugs-approved-wave1.ts
+  s_0beac9cb5d78fd::t_5efb548ee8d748 414
+  s_0beac9cb5d78fd::t_7aca897773aa10 429
+src/data/key-papers/prevention-detection-biology.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 613
+src/data/spikes/tnbc-evidence-papers-foundations.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 142,145,299
+src/data/mechanisms.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 300,737
+src/data/neuroendocrine-subtypes.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 133
+public/i18n/summaries/zh/atrt.json
+  s_0beac9cb5d78fd::t_1e5a0696f6d86a 2-3
+src/data/spikes/lung-treatment-trials-sclc.ts
+  s_0beac9cb5d78fd::t_5efb548ee8d748 77
+src/data/spikes/colorectal-uk.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 540
+src/data/blood-subtypes.ts
+  s_0beac9cb5d78fd::t_28509955fa5002 392
+  s_0beac9cb5d78fd::t_7aca897773aa10 500
+src/data/ideas-waves/wave-access.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 394
+src/data/terms-biomarkers-wave.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 152,194
+src/data/spikes/skin-treatment-trials-advanced.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 28
+src/data/people/china.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 27
+src/data/spikes/ovarian.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 252
+src/data/mechanics-pathways.ts
+  s_0beac9cb5d78fd::t_be915f77f49a6c 520
+src/data/breast-subtypes.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 304
+  s_0beac9cb5d78fd::t_7aca897773aa10 250
+src/data/spikes/gap-cancers.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 708,771,773,1063
+  s_0beac9cb5d78fd::t_7aca897773aa10 388,1061
+src/data/people/key-opinion-leaders.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 809
+src/data/spikes/thyroid.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 97-98
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 937
+src/data/roadmaps.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 125
+src/data/papers-subtypes-wave.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 286,712,843,1553,1557,2287,2663
+  s_0beac9cb5d78fd::t_7aca897773aa10 285,1247
+src/data/pairings.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 28-29
+src/data/paediatric-subtypes.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 114
+  s_0beac9cb5d78fd::t_7aca897773aa10 328,340
+src/data/cns-subtypes.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 58
+src/data/sarcoma-bone-subtypes.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 144
+src/data/spikes/pancreatic-molecular.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 299,861,1182
+src/data/terms-basics.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 732
+src/data/key-papers/solid-tumours.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 742,769
+src/data/i18n/de.ts
+  s_0beac9cb5d78fd::t_df91e8c30f5f4c 352,833,1636,2306,4169,5428
+src/data/spikes/lung-treatment-trials-advanced.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 87
+src/data/i18n/zh.ts
+  s_0beac9cb5d78fd::t_df91e8c30f5f4c 259,668,1739,2376,4180,11401,11472
+src/data/simple/part-f.ts
+  s_0beac9cb5d78fd::t_5efb548ee8d748 48
+public/i18n/summaries/zh/ewing-sarcoma.json
+  s_0beac9cb5d78fd::t_1e5a0696f6d86a 2-3
+src/data/spikes/pancreatic-core.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 539
+src/data/targets.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 12,592-593
+src/data/drugs-subtypes-wave.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 116
+src/data/spikes/colorectal-molecular.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 670
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 197,321,376,549,574,602,604,872
+src/data/simple/part-s.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 161
+src/data/spikes/prostate-molecular.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 268,594,659,699,701,1156
+src/data/ovarian-subtypes.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 29
+src/data/head-neck-hpv-subtypes.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 191
+  s_0beac9cb5d78fd::t_df91e8c30f5f4c 350
+  s_0beac9cb5d78fd::t_0b6dbd322c1d61 226
+src/data/bottlenecks.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 262,482
+src/data/spikes/colorectal.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 84
+src/data/spikes/all-leukemia.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 134-135
+src/data/spikes/endometrial.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 178
+src/data/terms-jargon.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 254
+src/data/simple/part-a.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 10
+src/data/pathways-kegg.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 446
+public/i18n/summaries/zh/langerhans-cell-histiocytosis.json
+  s_0beac9cb5d78fd::t_1e5a0696f6d86a 2-3
+src/data/spikes/pancreatic-evidence-papers-foundations.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 145,148
+src/data/simple/part-l2.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 83,349
+src/data/spikes/glioblastoma.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 39
+src/data/cancers-wave4-lung.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 65
+  s_0beac9cb5d78fd::t_7aca897773aa10 166
+src/data/sarcoma-lymphoma-subtypes.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 39
+src/data/cancer-parents-wave2.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 106
+src/data/theories-wave.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 194
+public/i18n/summaries/zh/medulloblastoma.json
+  s_0beac9cb5d78fd::t_1e5a0696f6d86a 2-3
+src/data/i18n/pt.ts
+  s_0beac9cb5d78fd::t_df91e8c30f5f4c 259,668,1739,2376,4180
+src/data/thyroid-subtypes.ts
+  s_0beac9cb5d78fd::t_8ae24a8bcdfe34 90
+src/data/ideas-waves/wave-trials-1.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 484
+src/data/kidney-subtypes.ts
+  s_0beac9cb5d78fd::t_ff0b86d012b0fa 48,70
+docs/HOUSE-STYLE.md
+  s_0beac9cb5d78fd::t_bf70e2a82c0221 1-115
+src/data/roadmaps-wave2.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 355
+src/data/frontier.ts
+  s_0beac9cb5d78fd::t_7aca897773aa10 422
+  s_0beac9cb5d78fd::t_5efb548ee8d748 486
+src/lib/tone.test.ts
+  s_0beac9cb5d78fd::t_af3f3d193f6127 1-65,67-98,100-102,104-153,155-160,162,164-166,168,171-172,174-179
+  s_0beac9cb5d78fd::t_a7e1de5deaa364 161,163,167,169-170,173
+  s_0beac9cb5d78fd::t_ae88d0a5148ddd 154
+  s_0beac9cb5d78fd::t_7ad34e2a54294c 66
+  s_0beac9cb5d78fd::t_dcffc1c86b7b1a 99,103
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ea8d219e606d568c15872a2993f0022a8bd6fb1a",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

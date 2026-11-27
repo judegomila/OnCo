@@ -1,0 +1,44 @@
+src/data/resistance.ts
+  s_0beac9cb5d78fd::t_1613195ee6dcf1 159-221
+src/data/schematics.ts
+  s_0beac9cb5d78fd::t_603cefb2e6ba27 570-572
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_09fbc48615e307 85,96
+src/data/spikes/lymphoma-molecular.ts
+  s_0beac9cb5d78fd::t_ceada501ea7ccc 1
+  s_0beac9cb5d78fd::t_c3553963ceeccf 770
+  s_0beac9cb5d78fd::t_a208258dac586d 1116
+  s_0beac9cb5d78fd::t_14e0287ea9068e 102-103
+  s_0beac9cb5d78fd::t_d6cc99086fab19 584-652
+  s_0beac9cb5d78fd::t_8342f61166c612 2-101,104-150,152-163,165-170,172-180,182-210,212-244,246-248
+  s_0beac9cb5d78fd::t_66476e65550c14 415-583
+  s_0beac9cb5d78fd::t_6776759d9bbe2a 942
+  s_0beac9cb5d78fd::t_5572bac45117c8 1044-1115,1117-1166,1168-1345
+  s_0beac9cb5d78fd::t_82a70afdb360ab 906-941,943-955,971-1043
+  s_0beac9cb5d78fd::t_92e258eb5831ac 164
+  s_0beac9cb5d78fd::t_2526be78a331e3 1167
+  s_0beac9cb5d78fd::t_53b10f07b55f02 653-749
+  s_0beac9cb5d78fd::t_599eae02519f4f 151,171,181,211,245
+  s_0beac9cb5d78fd::t_f8aaba9cb9ab71 956-970
+  s_0beac9cb5d78fd::t_3692d9716ee760 249-414
+  s_0beac9cb5d78fd::t_bed8c2ebe71e41 750-769,771-905
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_daa325d2c6d20d 109
+  s_0beac9cb5d78fd::t_64c8e7489b0338 103
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "383faa5cea5d9eada6aecdfa133deafa1cb76d60",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

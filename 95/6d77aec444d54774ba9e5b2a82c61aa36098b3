@@ -1,0 +1,25 @@
+src/data/papers-soc-wave.ts
+  s_0beac9cb5d78fd::t_b481de26407e87 470-481
+src/data/spikes/gap-cancers.ts
+  s_0beac9cb5d78fd::t_b481de26407e87 1102
+docs/CONTENT-ROADMAP.md
+  ai_agent 86-88
+src/data/trials-soc-wave.ts
+  s_0beac9cb5d78fd::t_b481de26407e87 695-709,766
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "956d77aec444d54774ba9e5b2a82c61aa36098b3",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

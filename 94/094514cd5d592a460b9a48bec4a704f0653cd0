@@ -1,0 +1,36 @@
+src/data/universe-lists/nci-centres.json
+  s_0beac9cb5d78fd::t_0762b1acdb657a 1-4,8,541-542
+  s_0beac9cb5d78fd::t_2e0717bf2e7234 5-7,9-540
+src/data/universe-lists/oeci-centres.json
+  s_0beac9cb5d78fd::t_57f90f12f5126c 1-5,8,843-844
+  s_0beac9cb5d78fd::t_2e0717bf2e7234 6-7,9-842
+src/data/people/us-east.ts
+  s_0beac9cb5d78fd::t_32852d6f1d15a0 688-695
+src/data/institutions/centres-wave3.ts
+  s_0beac9cb5d78fd::t_7595e5826449c4 305
+  s_0beac9cb5d78fd::t_19d0351c82beeb 309-312
+  s_0beac9cb5d78fd::t_dd0e2ed034fcf7 351-354
+  s_0beac9cb5d78fd::t_2e0717bf2e7234 291,293,304,308,324,328,332,336,340,373
+  s_0beac9cb5d78fd::t_8fdfb623d0020f 389-392
+  s_0beac9cb5d78fd::t_56687a4b872e8e 1-66,68-69,71-216,218-219,221-248,250-251,253-290,292,294-303,306-307,313-323,325-327,329-331,333-335,337-339,341-350,355-372,374-388,393-423
+  s_0beac9cb5d78fd::t_358f8417b26ca6 67,70,217,220,249,252
+src/data/index.ts
+  s_0beac9cb5d78fd::t_a2ddb86ec479d2 82
+  s_0beac9cb5d78fd::t_b4b7b2346393f5 38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "94094514cd5d592a460b9a48bec4a704f0653cd0",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+src/data/targets-reader-edits.ts
+  ai_agent 1-43
+CORRECTIONS.md
+  s_0beac9cb5d78fd::t_3cfb212656f607 11
+src/data/index.ts
+  ai_agent 95,237
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "3eed2bd6758e23a08a259f16643eba8adf90e5c2",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

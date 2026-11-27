@@ -1,0 +1,168 @@
+src/components/ThemeToggle.tsx
+  s_0beac9cb5d78fd::t_9ab0d56c519135 4,23,31,33,35,38
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_54e16e99e0a705 141
+  s_0beac9cb5d78fd::t_d583d82ab68dce 164-165
+  s_0beac9cb5d78fd::t_7b4a7c4412b956 97,102,111
+  s_0beac9cb5d78fd::t_2038665d7ad804 47
+  s_0beac9cb5d78fd::t_5b87a198e800fd 213,233,379,381,413-414,493,532,602
+  s_0beac9cb5d78fd::t_e3a8ddb307be74 260
+  s_0beac9cb5d78fd::t_d127d7073f0381 192
+  s_0beac9cb5d78fd::t_aef18742dca8ad 158,160
+  s_0beac9cb5d78fd::t_5a65a773f957dc 380
+  s_0beac9cb5d78fd::t_f66aa6ae3ae95b 555
+  s_0beac9cb5d78fd::t_425a37238da590 412
+  s_0beac9cb5d78fd::t_f7de0ef391b1a6 263
+  s_0beac9cb5d78fd::t_b71c31c9095d50 565
+src/components/EntityBrowser.tsx
+  s_0beac9cb5d78fd::t_dc64201e893c33 15-16
+  s_0beac9cb5d78fd::t_32c80be19f8c67 251,256
+  s_0beac9cb5d78fd::t_c7748cf293ac97 281
+  s_0beac9cb5d78fd::t_bbc04bf0897172 140
+  s_0beac9cb5d78fd::t_7b578606f06d26 286
+  s_0beac9cb5d78fd::t_9e86bd9e18b53a 104
+  s_0beac9cb5d78fd::t_9d43e3559faafb 268
+  s_0beac9cb5d78fd::t_1ba57889be3ed4 228
+  s_0beac9cb5d78fd::t_0b1d0a558ff6be 317-318
+  s_0beac9cb5d78fd::t_024e3865d638e3 224
+  s_0beac9cb5d78fd::t_618be542f25dc6 277
+src/components/SaveViewButton.tsx
+  s_0beac9cb5d78fd::t_da31642241532c 40,45-46,51,55,58-59
+  s_0beac9cb5d78fd::t_826bc1180f1d22 6
+src/app/not-found.tsx
+  s_0beac9cb5d78fd::t_e8547af8b18776 4,9-10,12
+src/components/ui.tsx
+  s_0beac9cb5d78fd::t_22b16b88839f69 113
+  s_0beac9cb5d78fd::t_04ac3f2044c755 37
+  s_0beac9cb5d78fd::t_4f687f50270a6c 4
+  s_0beac9cb5d78fd::t_bc5aaf35b07658 74,77
+  s_0beac9cb5d78fd::t_da2b7425e02a63 9-10,13,18
+src/app/[kind]/page.tsx
+  s_0beac9cb5d78fd::t_39eaa3439f94f9 257
+  s_0beac9cb5d78fd::t_d6886c71c80609 17
+src/components/Tabs.tsx
+  s_0beac9cb5d78fd::t_9e4b59e250e0ba 95,98,100
+  s_0beac9cb5d78fd::t_45555603879c38 80
+  s_0beac9cb5d78fd::t_39d7150cb2ee4f 21
+  s_0beac9cb5d78fd::t_9bf4d7ef18a14a 4,6
+  s_0beac9cb5d78fd::t_ba1c21bad8e691 23
+  s_0beac9cb5d78fd::t_948e106f62eeb3 87
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_d8b07e299ddab2 1-134
+src/lib/layer.ts
+  s_0beac9cb5d78fd::t_84c0285c5cb3e5 8-11,28,31,35,42,49-57,59-60,69
+src/components/SurvivalDisclosure.tsx
+  s_0beac9cb5d78fd::t_91c3a342aba426 3,13,24,27,29-30
+src/components/DiscussLink.tsx
+  s_0beac9cb5d78fd::t_130f49fc6c8e19 15-16
+  s_0beac9cb5d78fd::t_e1e67f4a3ba1ac 3
+src/app/layout.tsx
+  s_0beac9cb5d78fd::t_6a0d1f6dbd2d16 9-10,17-18,57-61,68,73,80,92,103,105,108,111,113-115
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_06deb59e2b8db7 1-492
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_e1862c50828021 1-371
+src/components/GitHubStars.tsx
+  s_0beac9cb5d78fd::t_0423052433a459 4
+  s_0beac9cb5d78fd::t_d2abb6a0903165 13
+  s_0beac9cb5d78fd::t_64ee22fc15504a 35
+src/components/T.tsx
+  s_0beac9cb5d78fd::t_532f74da3817c4 1-53
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_348085162084dc 1-371
+src/components/WhatIsBeingDone.tsx
+  s_0beac9cb5d78fd::t_5d74c1a7f2eb54 5-6
+  s_0beac9cb5d78fd::t_98299b501c8227 166
+  s_0beac9cb5d78fd::t_e6d6534c577587 172
+  s_0beac9cb5d78fd::t_9008a76d435420 197
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_2e4e2454a567fe 1-134
+src/lib/i18n/nav.ts
+  s_0beac9cb5d78fd::t_8bc3b83f7a557d 1-40
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_5ea52f6613d273 1-371
+src/components/NavMenu.tsx
+  s_0beac9cb5d78fd::t_61776d15cf2113 10-11,13,19,44,48,51-53,55,58,61-62,68,71-72,85,87,93,95-96,103-106,113,118,120,127,130,134-135,145
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_46cf59551a6ac6 1-371
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_d4486f988f1348 1-134
+src/components/Breadcrumbs.tsx
+  s_0beac9cb5d78fd::t_ce616cd19e8ec6 3-9,14,18-22,30,32-33
+src/components/CommandPalette.tsx
+  s_0beac9cb5d78fd::t_58384d08c17a0e 279,282,284-285
+  s_0beac9cb5d78fd::t_30c41e0375db76 11
+src/components/TldrText.tsx
+  s_0beac9cb5d78fd::t_3c4754a98f0f32 4,20-25,29,31-32,46,51-53,55-57,59,62
+src/components/filters/FacetSelect.tsx
+  s_0beac9cb5d78fd::t_5b7574a06b4673 4,9,18,26,31-35,56,66,71-72,75,83,97,99
+src/components/WatchButton.tsx
+  s_0beac9cb5d78fd::t_27b1728b5d6452 18
+  s_0beac9cb5d78fd::t_94919263a664b4 6
+  s_0beac9cb5d78fd::t_f83cb6c87244cd 42,45,47
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_d57b70f89d5414 1-134
+src/components/FooterNav.tsx
+  s_0beac9cb5d78fd::t_98750a53569b5d 1-35
+src/components/SkipLink.tsx
+  s_0beac9cb5d78fd::t_d5323ca9711a27 1-2,6
+src/components/filters/ResultsTable.tsx
+  s_0beac9cb5d78fd::t_2d593567e54218 5-6,10,28,36,47-48,52,72-73,78,80-84,88-89
+package.json
+  s_0beac9cb5d78fd::t_317e82dc9a9067 73
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_e3112f85b4f1f5 1-371
+src/components/DownloadTable.tsx
+  s_0beac9cb5d78fd::t_87b18922ce0a0c 4
+  s_0beac9cb5d78fd::t_73b20b38094b40 22,24-25
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_de0fe90954b91b 1-371
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_972dcd2545d57a 1-371
+src/components/RegionToggle.tsx
+  s_0beac9cb5d78fd::t_5d82006049a431 5,10,20-21,24,30-34,36-37,39,46,48-49
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_054cdeaad81047 1-371
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_6d25a65e052696 1-134
+src/app/globals.css
+  s_0beac9cb5d78fd::t_59ad4ef16e68af 263
+  s_0beac9cb5d78fd::t_4fc8b5699dff12 371-375,379-384
+src/components/LayerAware.tsx
+  s_0beac9cb5d78fd::t_ba9f66b24e7fca 4,10,12,16-17
+src/components/LangStrip.tsx
+  s_0beac9cb5d78fd::t_b301a642b0b787 1-57
+src/components/LayerToggle.tsx
+  s_0beac9cb5d78fd::t_11e8c38a416f71 4-5,7,10,23,28-29,33,35-36,40,43-44,47,51-52,58-66
+scripts/check-i18n.ts
+  s_0beac9cb5d78fd::t_c5098d5fd2c4b0 1-49
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_01382ba7bd1903 1-134
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_1168154a9d788e 1-134
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_685308a6991f77 1-134
+src/components/GentleSection.tsx
+  s_0beac9cb5d78fd::t_2e1f8b885c435d 23
+  s_0beac9cb5d78fd::t_b22bae4f6f9967 2,9,28,31,36
+src/lib/i18n/i18n.test.ts
+  s_0beac9cb5d78fd::t_6c65f2c2c4764f 1-86
+src/components/SuggestEdit.tsx
+  s_0beac9cb5d78fd::t_5544fc9b7d7094 7,29,32-33,35,39-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "1f35762852ed5c9c3df51cc06c570ac4384384f4",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

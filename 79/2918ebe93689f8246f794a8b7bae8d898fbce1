@@ -1,0 +1,51 @@
+src/data/spikes/thyroid.ts
+  s_0beac9cb5d78fd::t_7f418db9fce217 165,168,174,177
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_7f418db9fce217 920,930
+src/data/spikes/nsclc.ts
+  s_0beac9cb5d78fd::t_7f418db9fce217 240,244
+src/data/spikes/sarcoma.ts
+  s_0beac9cb5d78fd::t_7f418db9fce217 50
+src/data/spikes/esophageal.ts
+  s_0beac9cb5d78fd::t_7f418db9fce217 139
+src/data/terms.ts
+  s_0beac9cb5d78fd::t_7f418db9fce217 28,34,46,58
+src/data/spikes/colorectal.ts
+  s_0beac9cb5d78fd::t_7f418db9fce217 255
+src/data/spikes/ovarian.ts
+  s_0beac9cb5d78fd::t_7f418db9fce217 235
+src/data/supporting.ts
+  s_0beac9cb5d78fd::t_7f418db9fce217 925
+src/data/mechanisms.ts
+  s_0beac9cb5d78fd::t_7f418db9fce217 616
+src/data/spikes/prostate.ts
+  s_0beac9cb5d78fd::t_7f418db9fce217 107
+src/data/spikes/melanoma.ts
+  s_0beac9cb5d78fd::t_7f418db9fce217 239
+src/data/spikes/aml.ts
+  s_0beac9cb5d78fd::t_7f418db9fce217 139,151
+src/data/spikes/rcc.ts
+  s_0beac9cb5d78fd::t_7f418db9fce217 176
+src/data/spikes/breast-her2-positive.ts
+  s_0beac9cb5d78fd::t_7f418db9fce217 251
+src/data/spikes/multiple-myeloma.ts
+  s_0beac9cb5d78fd::t_7f418db9fce217 40
+src/data/spikes/urothelial.ts
+  s_0beac9cb5d78fd::t_7f418db9fce217 203
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "792918ebe93689f8246f794a8b7bae8d898fbce1",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

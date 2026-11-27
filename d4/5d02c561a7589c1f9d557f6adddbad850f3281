@@ -1,0 +1,54 @@
+src/data/software.ts
+  s_1e233a6be244f1::t_cd1a910e650488 1228
+src/data/institutions/bodies.ts
+  s_1e233a6be244f1::t_a0bf69d82b39f3 43,223
+src/data/institutions/centres-wave3.ts
+  s_1e233a6be244f1::t_a0bf69d82b39f3 329
+scripts/software-curated.ts
+  s_1e233a6be244f1::t_f97ffdaeddf112 993
+src/lib/health-denominators.test.ts
+  s_1e233a6be244f1::t_03b582f336c25a 54-59
+src/data/institutions.ts
+  s_1e233a6be244f1::t_a0bf69d82b39f3 73,113,132,142
+src/data/institutions/us.ts
+  s_1e233a6be244f1::t_a0bf69d82b39f3 95,291,306
+src/data/institutions/uk-cancer-charities.ts
+  s_1e233a6be244f1::t_a0bf69d82b39f3 324
+docs/DATA-SOURCES.md
+  s_1e233a6be244f1::t_2ee1ec633a9645 102-103,105-108
+  s_1e233a6be244f1::t_102027eecb5a4b 80-101,104,109-115
+src/data/institutions/europe.ts
+  s_1e233a6be244f1::t_a0bf69d82b39f3 477
+src/data/institutions/japan-mhlw.ts
+  s_1e233a6be244f1::t_a0bf69d82b39f3 64
+src/data/cancers.ts
+  s_1e233a6be244f1::t_a0bf69d82b39f3 732
+src/data/institutions/world.ts
+  s_1e233a6be244f1::t_a0bf69d82b39f3 230,402,432
+src/data/institutions-wave-investigators.ts
+  s_1e233a6be244f1::t_a0bf69d82b39f3 156
+src/data/institutions/uicc-societies.ts
+  s_1e233a6be244f1::t_0304e8b6324fdf 62-78,80-110
+  s_1e233a6be244f1::t_c374e0c6d6adad 14-27,29-48,50-55,57-61
+  s_1e233a6be244f1::t_3ee7cdf4ec2b02 28,49,56
+  s_1e233a6be244f1::t_f635e0b47f7757 111-132,134-158,160,162-176,178-179,181-187
+  s_1e233a6be244f1::t_d8cb513ee033f3 79
+  s_1e233a6be244f1::t_e10541dbf2b6a9 188-201
+  s_1e233a6be244f1::t_b9dfd756f15a63 133,161,177
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "d45d02c561a7589c1f9d557f6adddbad850f3281",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

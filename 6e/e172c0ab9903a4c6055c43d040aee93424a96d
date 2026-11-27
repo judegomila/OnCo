@@ -1,0 +1,35 @@
+src/data/spikes/neuroendocrine.ts
+  s_0beac9cb5d78fd::t_c2f66700e32dfb 190
+src/data/ideas-waves/wave-trials-2.ts
+  s_0beac9cb5d78fd::t_c2f66700e32dfb 23,110,138,213,260,355,421,430,500,576,689,716
+src/data/ideas-waves/wave-biology-1.ts
+  s_0beac9cb5d78fd::t_c2f66700e32dfb 149,173-174,181,214,226,274,347,362,370,378,480,553,694,767,792,808
+src/data/ideas-waves/wave-trials-1.ts
+  s_0beac9cb5d78fd::t_c2f66700e32dfb 33,41,198-199,205,233,291,360,405,412,426,489,496,532,548,562,569,612,632,638,646,675,690,712,756-757
+src/data/ideas-waves/wave-biology-2.ts
+  s_0beac9cb5d78fd::t_c2f66700e32dfb 36,91,157,190,214,230,262,311,327,343,368,375,440,465,567,599,639,672,697
+src/data/ideas-waves/wave-prevention.ts
+  s_0beac9cb5d78fd::t_c2f66700e32dfb 16,42,66,154-155,203,210,260,291-292,340-341,348,420-421,452,478,502,551,559,590,606,768-769,776-777,784-785,808,816-817
+src/data/spikes/rcc.ts
+  s_0beac9cb5d78fd::t_c2f66700e32dfb 237
+src/data/spikes/urothelial.ts
+  s_0beac9cb5d78fd::t_c2f66700e32dfb 260-261
+src/data/ideas.ts
+  s_0beac9cb5d78fd::t_c2f66700e32dfb 140-141
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "6ee172c0ab9903a4c6055c43d040aee93424a96d",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+src/data/schematics.ts
+  s_0beac9cb5d78fd::t_d12a6031c8635f 568,584
+src/data/drugs-ema-wave.ts
+  s_0beac9cb5d78fd::t_309b540e149c3a 60
+src/data/index.ts
+  s_0beac9cb5d78fd::t_d12a6031c8635f 84,256
+src/data/spikes/rejuvenation-transplant.ts
+  s_0beac9cb5d78fd::t_907f3f8791353c 347
+  s_0beac9cb5d78fd::t_6bc456f2a3ad3a 225-244,246-257,259-267,307-308,511-513
+  s_0beac9cb5d78fd::t_fa85493b8cd6a2 184-186,188-199,201-212,214-222,514-516
+  s_0beac9cb5d78fd::t_5304ef05202b1c 268-270,272-283,285-296,298-306,508-510
+  s_0beac9cb5d78fd::t_d2c6419b59c86d 339-341,343-346,348-354,356-364,504-505
+  s_0beac9cb5d78fd::t_b6ef2b3a9b9d81 455-457,459-480,496-497
+  s_0beac9cb5d78fd::t_59c2f37227fea2 145-147,149-160,162-173,175-183,519-521
+  s_0beac9cb5d78fd::t_6656477ab07a58 1-122,124-127,129-135,137-144,223-224,495,517-518,522-524,526-527
+  s_0beac9cb5d78fd::t_dd31eceb3ca7af 128
+  s_0beac9cb5d78fd::t_4d9401cd7986ad 123,136,148,161,174,187,200,213,245,258,271,284,297,316,329,342,355,374,387,400,413,432,445,458
+  s_0beac9cb5d78fd::t_0cb8c7607b2154 525
+  s_0beac9cb5d78fd::t_ee42d352f02ae0 425-431,433-444,446-454,481-482,498-499
+  s_0beac9cb5d78fd::t_f6b74688d689cf 367-373,375-386,388-396,423-424,502-503
+  s_0beac9cb5d78fd::t_955cbb924c920c 309-315,317-328,330-338,365-366,506-507
+  s_0beac9cb5d78fd::t_c800163eaf24ad 397-399,401-412,414-422,500-501
+  s_0beac9cb5d78fd::t_13e0f6c9f332c1 483-494
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_3c5eefd1a75b1d 864
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_3c5eefd1a75b1d 231,716
+src/lib/tags.ts
+  s_0beac9cb5d78fd::t_44dc7e4c3de642 45-47
+src/data/terms-jargon.ts
+  s_0beac9cb5d78fd::t_3c5eefd1a75b1d 256
+  s_0beac9cb5d78fd::t_68d21dad5249be 175
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_6b7126f6043d5e 110
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a240469ec8bdaf8cb39a424ecc9930081375d17c",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

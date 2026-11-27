@@ -1,0 +1,11 @@
+src/data/targets-genes-wave.ts
+  ai_agent 3,6,18-455,459
+src/data/target-xrefs-genes.ts
+  ai_agent 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "d98a8d09cdeaba31ce5b73d2448caa24d1e87cb4",
+  "prompts": {}
+}

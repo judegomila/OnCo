@@ -1,0 +1,27 @@
+src/data/index.ts
+  s_0beac9cb5d78fd::t_3ff37453d8ed6f 35,195
+src/data/ivermectin.ts
+  s_0beac9cb5d78fd::t_8c13c8f944f463 1-94,96-99,101-103,105-110,112-394
+  s_0beac9cb5d78fd::t_b4cd23284a487c 95,100,104
+  s_0beac9cb5d78fd::t_913984413dbcea 111
+src/data/ivermectin.test.ts
+  s_0beac9cb5d78fd::t_3cc6acacc7fb24 1-18,20-53,55-67,69-81,83-84
+  s_0beac9cb5d78fd::t_a8be99c2e2c81d 82
+  s_0beac9cb5d78fd::t_dff9ada2569d37 19,54,68
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "9a48d13b6ad744cb46a89c0eabd8afea05db8d7b",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

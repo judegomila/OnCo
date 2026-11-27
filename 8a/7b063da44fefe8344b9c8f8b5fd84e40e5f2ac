@@ -1,0 +1,13 @@
+src/data/targets.ts
+  ai_agent 16-18,49,53-55
+src/data/trop2-deeper-registry.ts
+  ai_agent 1-419
+src/data/index.ts
+  ai_agent 3,11-13,213,222-224
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "8a7b063da44fefe8344b9c8f8b5fd84e40e5f2ac",
+  "prompts": {}
+}

@@ -1,0 +1,34 @@
+src/data/people/key-opinion-leaders.ts
+  s_0beac9cb5d78fd::t_7a79f4dda71800 948-1115
+  s_0beac9cb5d78fd::t_1be102b344a553 1391-1577
+  s_0beac9cb5d78fd::t_2504918596ed60 1-162
+  s_0beac9cb5d78fd::t_64a48bdf64d161 262-354,356-408
+  s_0beac9cb5d78fd::t_31fa9a4d10664f 163-261
+  s_0beac9cb5d78fd::t_856bc3b2e3ee16 355
+  s_0beac9cb5d78fd::t_94449867208122 409-548
+  s_0beac9cb5d78fd::t_6c2a65c3247b7a 549-648
+  s_0beac9cb5d78fd::t_e7a1a455712522 688
+  s_0beac9cb5d78fd::t_ff16a35ce9a701 804-817,819-947
+  s_0beac9cb5d78fd::t_755117160575a9 818
+  s_0beac9cb5d78fd::t_845311da551685 649-687,689-803
+  s_0beac9cb5d78fd::t_f6271bbb797324 1116-1233
+  s_0beac9cb5d78fd::t_ea315c66c43c32 1234-1390
+src/data/people/index.ts
+  s_0beac9cb5d78fd::t_cb1f0f6c0d1955 7,10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "8c079df03b70f206072eeeda3668bdac30c461f0",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

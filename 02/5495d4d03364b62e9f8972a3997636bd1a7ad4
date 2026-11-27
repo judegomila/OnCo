@@ -1,0 +1,68 @@
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_9038599b174454 294
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_9038599b174454 294
+src/components/EntityBrowser.tsx
+  s_0beac9cb5d78fd::t_9038599b174454 338
+src/lib/valueTone.ts
+  s_0beac9cb5d78fd::t_9038599b174454 38
+src/lib/rankings.ts
+  s_0beac9cb5d78fd::t_2d354093e53702 292
+  s_0beac9cb5d78fd::t_9038599b174454 8,81-82,95,109,125,138,140,165,175,188,198,210,274-276
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_9dc894ee0fdd08 205-212
+src/app/page.tsx
+  s_0beac9cb5d78fd::t_9038599b174454 23,80-82
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_9038599b174454 294
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_9038599b174454 294
+src/lib/kind-browser.ts
+  s_0beac9cb5d78fd::t_9038599b174454 13,127,129
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_9038599b174454 326
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_2d354093e53702 67-68,149-161,248,896
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_9038599b174454 294
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_9038599b174454 294
+src/components/SupportivePill.tsx
+  s_0beac9cb5d78fd::t_bd81dddd698034 1-35
+scripts/fetch-ema.ts
+  s_0beac9cb5d78fd::t_2d354093e53702 27,36-42,207-209
+scripts/fetch-fda.ts
+  s_0beac9cb5d78fd::t_2d354093e53702 18,23-24,31,69-72
+src/lib/supportive-care.test.ts
+  s_0beac9cb5d78fd::t_6adeddd10dc687 1-73
+src/lib/supportive-care.ts
+  s_0beac9cb5d78fd::t_6c8997e5308b07 1-32,38,42-45,50-68
+  s_0beac9cb5d78fd::t_e174a80843042e 33
+  s_0beac9cb5d78fd::t_67c17939965944 34-37,46
+  s_0beac9cb5d78fd::t_452986a10231f7 39-41,47-49
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_9038599b174454 294
+src/data/index.ts
+  s_0beac9cb5d78fd::t_9038599b174454 49,302-304
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_9038599b174454 294
+src/data/supportive-drugs.ts
+  s_0beac9cb5d78fd::t_dc23c4ebf60e79 57
+  s_0beac9cb5d78fd::t_b701c5bad48ca6 1-56,58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "025495d4d03364b62e9f8972a3997636bd1a7ad4",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_8085f7d4181a21 86
+  s_0beac9cb5d78fd::t_4953e4db7137b9 87
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "3878beaa32022524f51a838fca8b6c54a566a0b0",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+src/data/coverage-uk.ts
+  ai_agent 149-152,167,169,186,210,212,215-216,236,240,247-248
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a6623f878d549150b49d863eab97c3dfcabbea12",
+  "prompts": {}
+}

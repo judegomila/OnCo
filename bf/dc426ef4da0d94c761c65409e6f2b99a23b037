@@ -1,0 +1,9 @@
+src/data/pipeline-trials-wave6.ts
+  ai_agent 6713
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "bfdc426ef4da0d94c761c65409e6f2b99a23b037",
+  "prompts": {}
+}

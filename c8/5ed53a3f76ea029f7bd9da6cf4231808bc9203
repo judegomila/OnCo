@@ -1,0 +1,75 @@
+src/components/CancerRecord.tsx
+  s_0beac9cb5d78fd::t_33dd34587f8195 98-109,112,114,116-122,124-131
+  s_0beac9cb5d78fd::t_f1d90742baddf1 34
+  s_0beac9cb5d78fd::t_ee78cc5468bddf 123
+src/lib/cancer-families.test.ts
+  s_0beac9cb5d78fd::t_2bb5e71108abb6 3,172-224
+src/components/ReadMore.tsx
+  s_0beac9cb5d78fd::t_b3bf40b4ca4012 1-42,44-53
+  s_0beac9cb5d78fd::t_ee78cc5468bddf 43
+src/components/PrintButton.tsx
+  s_0beac9cb5d78fd::t_f8c323de325cb2 11
+  s_0beac9cb5d78fd::t_656d8a65cdada1 29-34,38,43
+  s_0beac9cb5d78fd::t_41202c0449458d 69-70,75
+  s_0beac9cb5d78fd::t_ebfbb5f15ef923 47-61
+  s_0beac9cb5d78fd::t_b29ca72293f0a2 121-122,125-126
+src/app/cancers/[id]/compared/page.tsx
+  s_0beac9cb5d78fd::t_deae690b3fd34f 47
+src/components/ModelPanel.tsx
+  s_0beac9cb5d78fd::t_18993f5f75b324 94-102,104
+src/components/AssistanceBrowser.tsx
+  s_0beac9cb5d78fd::t_deae690b3fd34f 99
+src/components/ReviewBadge.tsx
+  s_0beac9cb5d78fd::t_00679dfed37d72 56
+src/app/record-top.test.ts
+  s_0beac9cb5d78fd::t_5d59173751e798 101
+  s_0beac9cb5d78fd::t_796d1cd54aa2bc 156-158
+  s_0beac9cb5d78fd::t_93474eca4c543a 56,76,111-118,134,162,172-173
+  s_0beac9cb5d78fd::t_314c0e341b0472 8,142-153,159,164-165
+  s_0beac9cb5d78fd::t_58e737ee6244c7 1-7,9-55,57-75,77-100,102-110,119-133,135-141,154-155,160-161,163,166-171,174-194
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_8452ab367a7a41 199-206,258
+  s_0beac9cb5d78fd::t_37b638d920db41 213
+  s_0beac9cb5d78fd::t_599982af676c20 198,207-212,214,233,238
+  s_0beac9cb5d78fd::t_11a801982980e3 6
+  s_0beac9cb5d78fd::t_2402f7c04ddd99 26,175
+  s_0beac9cb5d78fd::t_7b54454906fb68 93
+scripts/cancer-family-order.ts
+  s_0beac9cb5d78fd::t_75daa7a59a9006 1-44
+src/app/globals.css
+  s_0beac9cb5d78fd::t_0e6a04ac30a1ef 684-692
+src/components/record-blocks.tsx
+  s_0beac9cb5d78fd::t_de120ec11d8cf8 77-79
+  s_0beac9cb5d78fd::t_8431a28f23517c 81-94
+  s_0beac9cb5d78fd::t_a1709ed86782d3 6,10
+src/components/SummaryText.tsx
+  s_0beac9cb5d78fd::t_467d7383162fb6 9,27
+  s_0beac9cb5d78fd::t_bb6182b8aaac13 43-44,46-47
+src/components/ui.tsx
+  s_0beac9cb5d78fd::t_744a7c5684588e 88,102
+src/components/AkaLine.tsx
+  s_0beac9cb5d78fd::t_ee78cc5468bddf 52
+  s_0beac9cb5d78fd::t_0ad8a01837d63f 1-8,15,24-25,37-38,40-43,47-51,53-62
+  s_0beac9cb5d78fd::t_8b39c5ac43d16a 9-14,16-23,26-36,39,44-46
+src/lib/cancer-families.ts
+  s_0beac9cb5d78fd::t_33d953070b99e8 1-55
+docs/CONTENT-ROADMAP.md
+  s_0beac9cb5d78fd::t_87a26f53fe66da 244-289
+  s_0beac9cb5d78fd::t_777ac8c000bb32 290-335
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c85ed53a3f76ea029f7bd9da6cf4231808bc9203",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

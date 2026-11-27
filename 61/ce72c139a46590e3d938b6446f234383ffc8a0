@@ -1,0 +1,165 @@
+src/data/spikes/neuroblastoma.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 81,90,100
+src/data/spikes/dlbcl.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 69,79,88,97
+src/data/spikes/prostate-molecular.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 888,892
+scripts/factcheck.test.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 3,32-33,175-201
+src/data/people/asia-pacific.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 621
+scripts/factcheck.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 105-144,208-212
+src/lib/corpus-rules.test.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 68-70
+scripts/paper-ids.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 1-119
+src/data/radiation-wave4.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 38,90,97-98,104
+src/data/spikes/sarcoma.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 64,68,73,76,85,88,96,105,114,123,191,194-197
+src/data/key-papers/prevention-detection-biology.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 31-32,41-42,44,52,88,90-94,130,132-133,162-165,171,173-174,176,221-224,237,244-245,265-266,293,298,307,315,317,319,326-327,336-337,347,355-358,365-367,375-377,396-397,406-407,416,436-437,457-458,467-468,475-478,486-487,489,496-497,499,539,541-542,549,551,569-570,572,580,582,590,592,609-610,612,620,640-641,643-644,651,653,714,723,725,825-826,828,845-846,848,865-866,868-869,875-876,878-879,888,890,897-898,900-901,907-908,910,918,920,927-928,930-931,937-938,940-941,978-979,981,1030
+docs/audits/accuracy/ledger.json
+  s_1e233a6be244f1::t_30b7e2aa959763 1-323
+src/data/platform-trials-wave.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 161
+src/data/trials-soc-wave.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 171
+src/data/spikes/all-leukemia.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 42,52,62,72,82,91
+src/data/companies-makers-wave4.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 165-166
+src/data/spikes/hcc.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 105,115,120,123,132,148
+src/data/pancreatic-subtypes.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 186
+src/data/spikes/neuroendocrine.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 65,77,98
+src/data/spikes/lymphoma-molecular.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 1326
+src/data/paper-identity.test.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 1-84
+src/data/drug-depth.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 121
+src/data/country-de.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 194,379
+src/data/country-in.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 60
+src/data/companies-new-2026-sponsors.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 1481
+src/data/spikes/esophageal.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 30
+src/data/spikes/aml.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 165,175,185,194,204,214,224,234,244,254,264,274
+src/data/spikes/breast-hr-positive.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 225,242,250,259,268,284,292,308,418,459
+src/data/precision-matrix/dosing.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 111,116
+src/data/spikes/sclc.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 14,108,111-113,117,122,131,136,140
+src/data/ivermectin.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 44,76,79,114,134,138,256-258,260-263
+src/data/spikes/melanoma.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 179-181
+src/data/companies.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 657
+src/data/ivermectin.test.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 46,53-57
+src/data/spikes/cervical.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 136,145,155
+src/data/spikes/prostate-evidence-papers-hormonal.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 221
+src/data/spikes/cll.ts
+  ai_agent 24,28,38,48,58,68,77,86,106,114
+src/data/spikes/colorectal-treatment.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 123
+src/data/nutrition.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 433
+src/data/gap-fill.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 48-50
+src/data/trials-subtypes-wave.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 880
+src/data/trials.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 174
+src/data/companies-sponsors.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 1013
+src/data/spikes/colorectal.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 225
+src/data/spikes/ovarian.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 175,187,199,207
+src/data/spikes/urothelial.ts
+  ai_agent 45-46,48,117,122,126,136,141,145-146,154,159,163,168,172
+src/data/spikes/lymphoma-evidence-papers-foundations.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 327
+docs/audits/accuracy/sample-2026-11-03-20261103.json
+  s_1e233a6be244f1::t_30b7e2aa959763 1-3334
+src/data/country-ru.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 68
+src/data/country-gb.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 98
+src/data/investors.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 60
+src/data/spikes/multiple-myeloma.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 58,64,67,72,75,84,100,114,119,122
+src/data/mced-census-tests.ts
+  ai_agent 88,91,183,186
+src/data/cancers.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 760-762,786
+src/data/spikes/breast-her2-positive.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 174,183,191,195-196,199,207,213,216
+src/data/gynaecological-subtypes.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 37,41,47
+src/data/spikes/hodgkin-lymphoma.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 164,220
+src/data/people/key-opinion-leaders.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 550,829,831
+src/data/spikes/rcc.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 128,132,150,154
+src/data/head-neck-subtypes.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 66,87
+src/data/spikes/prostate.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 268,274,442
+src/data/cancer-parents-wave2.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 85,93,102
+CORRECTIONS.md
+  s_1e233a6be244f1::t_30b7e2aa959763 5-18
+scripts/accuracy-sample.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 1-269
+src/data/papers-subtypes-wave.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 3107
+src/data/toxicity-sources.test.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 1-25
+src/data/spikes/gap-cancers.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 843,852-853,860
+src/data/paper-ids.json
+  s_1e233a6be244f1::t_30b7e2aa959763 1-2659
+src/data/spikes/mesothelioma.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 93
+src/data/country-il.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 344
+src/data/spikes/cholangiocarcinoma.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 64,67,75,80,83
+src/data/spikes/endometrial.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 113,122
+src/data/key-papers/solid-tumours.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 714,928
+scripts/accuracy-sample.test.ts
+  s_1e233a6be244f1::t_30b7e2aa959763 1-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "61ce72c139a46590e3d938b6446f234383ffc8a0",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

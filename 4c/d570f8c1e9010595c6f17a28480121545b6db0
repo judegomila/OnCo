@@ -1,0 +1,30 @@
+src/data/schematics.ts
+  s_0beac9cb5d78fd::t_709f73709c2895 18-20
+src/lib/wireframe.ts
+  s_0beac9cb5d78fd::t_eeb9f468d26f38 5-6,11-12,17,53-61,66-67,69-70,76-79,96-101,104-108,112,125-133,143-146,151-152,159-169,174,179,219-220,225,258-259,267-270,274-275,278,311-361,366-429
+src/components/Wireframe3D.tsx
+  s_0beac9cb5d78fd::t_3065840bfb6371 4,9-13,19-63,82-84,86-90,92-94,97-98,102,104-105,108-112,114-115,121,125-126,128-130,133-141,165,167-190,192-193,199-202,205,208,215,217,220,222,227,231,233,236,240,242-243,256,260
+src/app/globals.css
+  s_0beac9cb5d78fd::t_1741aa7572e797 109
+  s_0beac9cb5d78fd::t_0c2c5297c5ea22 197-205
+  s_0beac9cb5d78fd::t_30d42a1d2546b5 100
+  s_0beac9cb5d78fd::t_cd2dfed21a6365 77
+  s_0beac9cb5d78fd::t_a06ab42783d192 24
+  s_0beac9cb5d78fd::t_3f6fb2c0ead924 91
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "4cd570f8c1e9010595c6f17a28480121545b6db0",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+src/data/spikes/melanoma.ts
+  s_0beac9cb5d78fd::t_7a28c5be6785b1 225
+src/data/supporting.ts
+  s_0beac9cb5d78fd::t_7a28c5be6785b1 74,83,134,143,232,479
+src/data/spikes/dlbcl.ts
+  s_0beac9cb5d78fd::t_7a28c5be6785b1 32
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_7a28c5be6785b1 117,843
+src/data/spikes/pancreatic.ts
+  s_0beac9cb5d78fd::t_7a28c5be6785b1 137
+src/data/spikes/head-and-neck.ts
+  s_0beac9cb5d78fd::t_7a28c5be6785b1 175
+src/data/spikes/thyroid.ts
+  s_0beac9cb5d78fd::t_7a28c5be6785b1 147,154
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "4f9321d362f62876b5d20984b5e7f3919bdbf8ea",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

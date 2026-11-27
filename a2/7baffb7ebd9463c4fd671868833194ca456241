@@ -1,0 +1,57 @@
+src/data/drugs-pipeline-wave2.ts
+  ai_agent 68
+src/data/mechanisms.ts
+  ai_agent 82,282,325,332,425,544
+src/data/spikes/multiple-myeloma.ts
+  ai_agent 52
+src/data/target-xrefs.ts
+  ai_agent 2247-2325
+src/data/spikes/dlbcl.ts
+  ai_agent 107
+src/data/gap-fill.ts
+  ai_agent 57,62,67,72,213,218,499,504,755
+src/data/drugs-subtypes-wave.ts
+  ai_agent 99
+src/data/drugs.ts
+  ai_agent 226,354,436,457
+src/data/spikes/sarcoma.ts
+  ai_agent 127
+scripts/enrich-target-ids.ts
+  ai_agent 43
+src/data/pathways.ts
+  ai_agent 54,122,206,246,371,392
+src/data/spikes/melanoma.ts
+  ai_agent 211
+src/data/targets-wave-soc.ts
+  ai_agent 1-251
+src/data/mechanics-pathways.ts
+  ai_agent 50,234,515
+src/data/index.ts
+  s_0beac9cb5d78fd::t_4fdbae7e851d1e 74,205
+src/data/spikes/ovarian.ts
+  ai_agent 188
+src/data/targets.ts
+  s_0beac9cb5d78fd::t_725a7b98e11e52 717
+src/data/failures.ts
+  ai_agent 104
+src/data/spikes/all-leukemia.ts
+  ai_agent 75,84,93
+src/data/drugs-pipeline-wave1.ts
+  ai_agent 59,467,521,551,581,941,989,1331,1595
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "a27baffb7ebd9463c4fd671868833194ca456241",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

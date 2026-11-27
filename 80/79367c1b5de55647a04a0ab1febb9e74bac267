@@ -1,0 +1,9 @@
+public/product-queue.json
+  ai_agent 3-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "8079367c1b5de55647a04a0ab1febb9e74bac267",
+  "prompts": {}
+}

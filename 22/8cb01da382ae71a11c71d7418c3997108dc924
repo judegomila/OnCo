@@ -1,0 +1,27 @@
+src/data/pipeline-trials-wave6.ts
+  ai_agent 887,1313,1445,1937,2573,2717,3161,3269,3461,4295,4517,4781,4847,6119,6341,6509,6515,6689,6713,6882,7398,7758,7998,8532,9060,9234
+src/data/drugs-pipeline-wave1.ts
+  ai_agent 1001,1715
+src/data/companies-sponsors.ts
+  ai_agent 270-271,273,468,577,583-584,588,753,763,805,845,879-880,882,885-886,898-899,901,905,918,929-931,934-935,942,973,978-979,1004-1005,1007,1024-1025,1043,1083,1089,1150-1151,1163,1175,1192-1193,1196,1249-1250,1265,1295,1372,1564-1565
+src/data/people/leaders-wave3.ts
+  ai_agent 499
+src/data/drugs-approved-wave1.ts
+  ai_agent 171
+src/data/drugs-pipeline-wave7.ts
+  ai_agent 33
+src/data/institution-networks-wave.ts
+  ai_agent 40,48,64,79,87
+src/data/drugs-pipeline-wave6.ts
+  ai_agent 138
+src/data/gap-fill.ts
+  ai_agent 598,627,650
+src/data/people/leaders-wave2.ts
+  ai_agent 289,334,937,1073,1305,1359
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "228cb01da382ae71a11c71d7418c3997108dc924",
+  "prompts": {}
+}

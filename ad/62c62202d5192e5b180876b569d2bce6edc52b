@@ -1,0 +1,69 @@
+src/data/spikes/rcc.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 132,168,187
+src/data/spikes/melanoma.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 189,198
+src/data/spikes/urothelial.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 121,140,149,158,167
+src/data/spikes/sclc.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 125,134
+src/data/spikes/head-and-neck.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 139,148
+src/data/spikes/nsclc.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 138,150,156,162,168,199,226
+src/data/spikes/breast-hr-positive.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 229,287,303
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 40,50,60,65,70,80,85,90,100,116,121,126,131,146,156,171,176,181,186,191,201,211,216,222,227,232,242,248,253,258,263,268,273,283,288,293,298,308,318,339,344,360,365,405,430,441,446,451,461,471
+src/data/spikes/ovarian.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 203
+src/data/spikes/prostate.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 54,60,77,116,122,128,134,140,146,152,158,176,181,187,193,205
+src/data/spikes/sarcoma.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 63,72,88,105,113,123,132
+src/data/spikes/mesothelioma.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 89,98
+src/data/spikes/multiple-myeloma.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 64,72,90,97,105,111,119,127,134,139
+src/data/spikes/neuroendocrine.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 77
+src/data/foundation-models.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 95-105,108-115,118-128,131-141,144-148
+src/data/drugs.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 97,106,115,124,133,142,151,178,186,194,202,210,219,227,235,273,306,314,322,340,348,356,364,372,388,414,422,438,456,464,472,486,495,503,511,519,536,544,552,560,576,584,592,600,608,616,624,632,640,648,656,664,672,680,688,696,704,712,737,745,755,773,788,796,803,811,821,829
+src/data/spikes/thyroid.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 129
+src/data/spikes/hcc.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 124,149
+src/data/targets.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 46,89,143,183,196,209,223,235,249,262,290,303,315,327,335,348,360,372,385,413,430,443,456,533,547,562,577,591,619,633,663,677,691,705,732,762,821,838
+src/data/spikes/breast-her2-positive.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 187,195,203,222,229
+src/data/spikes/colorectal.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 203,233
+src/data/spikes/cholangiocarcinoma.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 62,69,78,87,95
+src/data/spikes/dlbcl.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 94,102,109
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 11,28,47,56,65,74,84,119,130,140,151,160,217,279,288,298,317,325,333,341,362,371,380,389,399,410,418,427,436,445,454,464,509,529,549,636,655,703,713,743,821,878,888,898,946,954,971,992,1009,1020,1052,1062
+src/data/spikes/aml.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 250
+src/data/spikes/pancreatic.ts
+  s_0beac9cb5d78fd::t_9e84d3571468c8 21,46,53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ad62c62202d5192e5b180876b569d2bce6edc52b",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

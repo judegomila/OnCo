@@ -1,0 +1,42 @@
+src/data/index.ts
+  s_1e233a6be244f1::t_0b34e486a1f8df 361
+  s_1e233a6be244f1::t_562d9494028a8a 120
+src/lib/health-denominators.test.ts
+  s_1e233a6be244f1::t_de787a80282284 65-69
+src/data/prevention-screening-gaps-2026-11.ts
+  s_1e233a6be244f1::t_99b6d8b637b67c 566-567
+  s_1e233a6be244f1::t_64d0e5376a2442 1-24,26-46,48-52,54-56,58-61,63-104,106-125,127-189,191-206,208-217,219-229,231-233,235-236,239-240,242-248,250-251,253,255-289,291,293-298,300-313,315,317-334,336-446,448-553,601,609
+  s_1e233a6be244f1::t_b13ba6485c1209 207,447
+  s_1e233a6be244f1::t_f99e788b7899fe 47,53,190,218,230,237-238,290
+  s_1e233a6be244f1::t_b99adc5919aeaa 241,249,292
+  s_1e233a6be244f1::t_58aa3c81c94228 62,335
+  s_1e233a6be244f1::t_64b3137885af9f 25
+  s_1e233a6be244f1::t_1e13f5945885b1 234,299
+  s_1e233a6be244f1::t_e744cb3a2ae333 554-565,568-600,602-608
+  s_1e233a6be244f1::t_ae20630fa329b4 57,105,126
+  s_1e233a6be244f1::t_df1ec22c1893b9 252,254,314,316
+src/data/biomarker-readouts.ts
+  s_1e233a6be244f1::t_f2f42759cd365a 292
+  s_1e233a6be244f1::t_0f12859d639d19 303
+src/data/assays.ts
+  s_1e233a6be244f1::t_df1ec22c1893b9 213
+  s_1e233a6be244f1::t_dfe8eb1f2f2cef 211-212,214-224
+src/data/regional-approvals.ts
+  s_1e233a6be244f1::t_7858626d87f14b 480-486
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "2f604464c3547c2e244445c854f8dbd359a2b7ab",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -4,8 +4,8 @@ import type { Trial } from "./schema";
  * Plain-language trial explainer.
  *
  * Turns one structured outcome row into sentences a person without statistics can read:
- * absolute differences per 100 people, rough numbers needed to treat, medians explained as
- * midpoints, hazard ratios as "lower chance at any given time". Pure functions: no graph, no React.
+ * absolute differences per 100 people, medians compared between groups, and hazard ratios.
+ * Pure functions: no graph, no React.
  *
  * Nothing here invents numbers. Every figure is derived from values present on the row; where a
  * value is missing the sentence says so.
@@ -23,19 +23,14 @@ export type ExplainContext = { setting: string; enrolled?: number };
 
 const SURROGATE_RE = /progression[- ]free|disease[- ]free|event[- ]free|recurrence[- ]free|relapse[- ]free|metastasis[- ]free|invasive[- ]disease[- ]free|time to (recurrence|progression)|\bpcr\b|pathologic(al)? complete response|\bpfs\b|\bdfs\b|\befs\b|\bidfs\b|\brfs\b|\bmrd\b|minimal residual disease|measurable residual disease|undetectable mrd|complete remission|complete response|\bcr\b|\bcrh\b|residual cancer burden|major pathological response|\bmpr\b/i;
 const RESPONSE_RE = /response rate|objective response|overall response|\borr\b|confirmed objective response|\bpsa50\b|\bpsa\b response/i;
-const OS_RE = /overall survival|\bos\b|survival at \d+ years|\d+-year (overall )?survival|melanoma-specific survival|cancer-specific survival|death from cancer|mortality/i;
-
-/** Biomarker words a trial setting can carry; results should not be assumed for people without them. */
-const BIOMARKER_RE = /\b(HER2|HER2-low|HER2-positive|HER2-negative|PD-L1|PD-1|EGFR|ALK|ROS1|RET|KRAS|BRAF|NTRK|MET|BRCA1?2?|BRCA|PALB2|HRD|MSI-H|MSI|dMMR|MMR|TMB|ESR1|PIK3CA|AKT1|PTEN|FGFR[1-4]?|IDH[12]?|FLT3|NPM1|TP53|del\(17p\)|17p|Ki-67|HR-positive|HR\+|ER-positive|ER\+|PSMA|SSTR|TROP2|Nectin-4|Claudin ?18\.2|CLDN18\.2|DLL3|BCMA|CD19|CD20|CD30|CD38|GD2|FRα|folate receptor|EGFRvIII|MGMT|1p\/19q|CPS|TPS|PSMA PET|tumour mutational burden)\b/i;
+const OS_RE = /\boverall survival\b|^os(?:$| at | rate|[ (:])/i;
 
 /** Classify what the endpoint is measuring. */
 export function classifyEndpoint(endpoint: string): EndpointType {
   const e = endpoint.trim();
-  // Overall survival wins if named, even in composite labels ("Overall survival at 5 years").
-  if (/overall survival|\bos\b|specific survival|death from cancer|mortality/i.test(e)) return "os";
+  if (OS_RE.test(e)) return "os";
   if (RESPONSE_RE.test(e)) return "response";
   if (SURROGATE_RE.test(e)) return "surrogate";
-  if (OS_RE.test(e)) return "os";
   return "other";
 }
 
@@ -43,7 +38,7 @@ export function classifyEndpoint(endpoint: string): EndpointType {
 export function endpointTypeNote(t: EndpointType): string {
   switch (t) {
     case "os": return "Overall survival counts deaths from any cause, so it is the most direct measure of whether a treatment helps people live longer.";
-    case "surrogate": return "This is a surrogate endpoint: it measures the cancer being controlled or absent on scans and tests, which often, but not always, translates into living longer.";
+    case "surrogate": return "This endpoint is not the same as overall survival. See the trial source for what it counts.";
     case "response": return "A response rate counts how many people had their tumours shrink by a set amount; shrinking is encouraging but does not by itself show that people live longer or feel better.";
     default: return "This endpoint is not one of the standard survival or response measures; read it alongside the trial's primary result.";
   }
@@ -61,19 +56,31 @@ function percentPhrase(endpoint: string, type: EndpointType): string {
   const when = at ? ` at ${at[1]} ${at[2] ?? "years"}` : "";
   if (type === "os") return `alive${when}`;
   if (type === "response") return "had their tumour shrink";
-  if (/progression[- ]free|pfs/.test(e)) return `alive without the cancer growing${when}`;
-  if (/disease[- ]free|dfs|recurrence[- ]free|rfs|relapse[- ]free|invasive/.test(e)) return `alive without the cancer coming back${when}`;
-  if (/event[- ]free|efs/.test(e)) return `free of a major event${when}`;
-  if (/pcr|pathologic/.test(e)) return "had no cancer left at surgery";
-  if (/mrd|residual/.test(e)) return "had no detectable disease on sensitive tests";
-  if (/complete/.test(e)) return "had no sign of cancer on scans or tests";
+  if (/progression[- ]free|\bpfs\b/.test(e)) return `alive without the cancer growing${when}`;
+  if (/invasive[- ]disease[- ]free|\bidfs\b/.test(e)) return `free of an event counted by invasive disease-free survival${when}`;
+  if (/disease[- ]free|\bdfs\b|recurrence[- ]free|\brfs\b|relapse[- ]free/.test(e)) return `free of a disease or recurrence event as defined by the trial${when}`;
+  if (/event[- ]free|\befs\b/.test(e)) return `free of a major event${when}`;
+  if (/ypt0\s*\/\s*tis\s*ypn0/.test(e)) return "had no invasive cancer found in the breast or lymph nodes at surgery";
+  if (/\bpcr\b|pathologic(?:al)? complete response/.test(e)) return "met the trial’s definition of a pathologic complete response";
+  if (/undetectable mrd|mrd[- ]negative|no (?:measurable|minimal) residual disease/.test(e)) return "had no detectable disease on sensitive tests";
   return `reached this endpoint${when}`;
 }
 
-/** Whether a higher value is the good direction for this endpoint (true for survival and response; false for "events" like recurrences). */
-function higherIsBetter(endpoint: string, unit?: string): boolean {
-  if (isEventsUnit(unit)) return false;
-  return !/recurrence(s)?$|deaths?$|events?$|toxicit|adverse|mortality rate|death from cancer/i.test(endpoint);
+/** Include the cohort only when it is recorded on this outcome, not inferred from enrolment. */
+export function outcomePopulation(o: Outcome): string | undefined {
+  if (o.analysis) return `${o.analysis.label} (n = ${o.analysis.n.toLocaleString("en-US")})`;
+  if (o.arms.every((a) => a.n !== undefined && a.n > 0)) {
+    return `Reported arm sizes: ${o.arms.map((a) => `${a.name}: ${a.n!.toLocaleString("en-US")}`).join("; ")}`;
+  }
+  return undefined;
+}
+
+function hazardRatio(o: Outcome): string {
+  const hr = o.hr!;
+  const change = Math.round(Math.abs(1 - hr) * 100);
+  const direction = hr < 1 ? `; about ${change}% lower event rate at a given time among those still at risk`
+    : hr > 1 ? `; about ${change}% higher event rate at a given time among those still at risk` : "";
+  return `Hazard ratio ${hr}${o.ci ? ` (95% confidence interval ${o.ci[0]} to ${o.ci[1]})` : ""}${direction}.`;
 }
 
 /**
@@ -91,16 +98,7 @@ export function explainOutcome(o: Outcome, ctx: ExplainContext): Explanation {
   if (isPercentUnit(o.unit) && withValues.length >= 2 && a.value !== undefined && b.value !== undefined) {
     const phrase = percentPhrase(o.endpoint, type);
     const diff = a.value - b.value;
-    const good = higherIsBetter(o.endpoint, o.unit) ? diff > 0 : diff < 0;
-    sentences.push(`${fmt(a.value)} vs ${fmt(b.value)} out of 100 ${phrase} with ${a.name} compared with ${b.name}; ${fmt(Math.abs(diff))} ${diff >= 0 ? "more" : "fewer"} per 100.`);
-    if (diff !== 0 && good) {
-      const nnt = Math.round(100 / Math.abs(diff));
-      sentences.push(`Roughly one extra person helped for every ${nnt} treated. That is a rough figure taken from the two percentages, not a guarantee for any one person.`);
-    } else if (diff === 0) {
-      sentences.push("No difference between the groups on this measure.");
-    } else {
-      sentences.push("On this measure the first group did worse, not better.");
-    }
+    sentences.push(`${fmt(a.value)} vs ${fmt(b.value)} out of 100 ${phrase} with ${a.name} compared with ${b.name}; ${diff === 0 ? "no difference per 100" : `${fmt(Math.abs(diff))} ${diff > 0 ? "more" : "fewer"} per 100`}.`);
     if (o.arms.length > 2) sentences.push(`Other groups: ${o.arms.slice(2).map((x) => `${x.name} ${x.value !== undefined ? `${fmt(x.value)} of 100` : x.note ?? "not reported"}`).join("; ")}.`);
   } else if (isPercentUnit(o.unit) && withValues.length === 1) {
     const only = withValues[0];
@@ -110,21 +108,18 @@ export function explainOutcome(o: Outcome, ctx: ExplainContext): Explanation {
     for (const m of missing) sentences.push(`${m.name}: ${m.note ?? "number not reported here"}.`);
   } else if (isMonthsUnit(o.unit) && withValues.length >= 2 && a.value !== undefined && b.value !== undefined) {
     const d = a.value - b.value;
-    sentences.push(`Median ${fmt(a.value)} vs ${fmt(b.value)} months with ${a.name} compared with ${b.name}; about ${fmt(Math.abs(d))} months ${d >= 0 ? "longer" : "shorter"} for half the group.`);
-    sentences.push("A median is a midpoint: half the people did better than this and half did worse, so it is not a prediction for any one person.");
+    sentences.push(`Median ${fmt(a.value)} vs ${fmt(b.value)} months with ${a.name} compared with ${b.name}; the group medians ${d === 0 ? "were the same" : `differed by ${fmt(Math.abs(d))} months`}.`);
+    sentences.push("A median is a group midpoint. The difference between medians does not say how much longer any individual benefited.");
     if (o.arms.length > 2) sentences.push(`Other groups: ${o.arms.slice(2).map((x) => `${x.name} ${x.value !== undefined ? `${fmt(x.value)} months` : x.note ?? "not reported"}`).join("; ")}.`);
   } else if (isMonthsUnit(o.unit) && withValues.length === 1) {
     const only = withValues[0];
     sentences.push(`Median ${fmt(only.value as number)} months with ${only.name}.`);
     for (const m of missing) sentences.push(`${m.name}: ${m.note ?? "median not reported here"}.`);
-    if (missing.some((m) => /not reached/i.test(m.note ?? ""))) sentences.push("\"Not reached\" means that, when the data were analysed, more than half of that group had not yet had the event, which is good news for that group.");
-    sentences.push("A median is a midpoint: half the people did better than this and half did worse.");
+    if (missing.some((m) => /not reached/i.test(m.note ?? ""))) sentences.push("\"Not reached\" means that, when the data were analysed, more than half of that group had not yet had the event.");
+    sentences.push("A median is a group midpoint, not an individual prediction.");
   } else if (withValues.length === 0 && o.hr !== undefined) {
-    const pct = Math.round((1 - o.hr) * 100);
-    if (o.hr < 1) sentences.push(`The treated group had about ${pct} percent lower chance of the event at any given time (hazard ratio ${o.hr}).`);
-    else if (o.hr > 1) sentences.push(`The treated group had about ${Math.abs(pct)} percent higher chance of the event at any given time (hazard ratio ${o.hr}).`);
-    else sentences.push(`No difference in the chance of the event at any given time (hazard ratio ${o.hr}).`);
-    sentences.push("The absolute difference, how many more people out of 100 were helped, is not reported here.");
+    sentences.push(hazardRatio(o));
+    sentences.push("The absolute difference between groups is not reported here.");
     const notes = o.arms.map((x) => x.note).filter(Boolean);
     if (notes.length) sentences.push(notes.join(" "));
   } else if (withValues.length === 0) {
@@ -137,18 +132,11 @@ export function explainOutcome(o: Outcome, ctx: ExplainContext): Explanation {
     if (isEventsUnit(o.unit)) sentences.push("These are counts of events, not percentages, so compare them with the group sizes in mind.");
   }
 
-  // Hazard ratio alongside absolute numbers.
-  if (withValues.length > 0 && o.hr !== undefined) {
-    const pct = Math.round(Math.abs(1 - o.hr) * 100);
-    if (o.hr < 1) sentences.push(`Put another way, the treated group had about ${pct} percent lower chance of the event at any given time (hazard ratio ${o.hr}${o.ci ? `, likely range ${o.ci[0]} to ${o.ci[1]}` : ""}).`);
-    else if (o.hr > 1) sentences.push(`Put another way, the treated group had about ${pct} percent higher chance of the event at any given time (hazard ratio ${o.hr}${o.ci ? `, likely range ${o.ci[0]} to ${o.ci[1]}` : ""}).`);
-  }
-  if (o.ci && o.hr !== undefined && o.ci[0] < 1 && o.ci[1] > 1) caveats.push("The likely range for the hazard ratio crosses 1, so the difference could be due to chance.");
-  if (o.p && !o.ci) {
-    const p = o.p.replace(/^[=<>]\s*/, "");
-    const small = o.p.startsWith("<") || parseFloat(p) < 0.05;
-    caveats.push(small ? `The p-value (${o.p}) says a difference this large would rarely happen by chance; it does not say how large or how useful the difference is.` : `The p-value (${o.p}) means the difference could plausibly be due to chance.`);
-  }
+  if (withValues.length > 0 && o.hr !== undefined) sentences.push(hazardRatio(o));
+  if (o.ci && o.hr !== undefined && o.ci[0] <= 1 && o.ci[1] >= 1) caveats.push("The confidence interval includes 1, the value for no difference in hazard.");
+  if (o.p) caveats.push(`Reported p-value: ${o.p}. This is not a measure of the size or clinical importance of the difference.`);
+  if (/ypt0\s*\/\s*tis\s*ypn0/i.test(o.endpoint)) caveats.push("This definition permits residual in situ disease in the breast.");
+  if (/pathologic(?:al)? complete response|\bpcr\b/i.test(o.endpoint)) caveats.push("This response is assessed at surgery; it does not by itself show that people live longer.");
 
   // Endpoint type.
   caveats.push(endpointTypeNote(type));
@@ -157,12 +145,9 @@ export function explainOutcome(o: Outcome, ctx: ExplainContext): Explanation {
   const setting = ctx.setting.trim().replace(/[.;:\s]+$/, "");
   if (setting) {
     caveats.push(`These results apply to the people the trial enrolled: ${setting}. People in a different situation may not see the same effect.`);
-    const bm = setting.match(BIOMARKER_RE);
-    if (bm) caveats.push(`The trial selected people by a biomarker (${bm[1]}); the result should not be assumed for people whose cancer does not have it.`);
   }
-  if (ctx.enrolled !== undefined) {
-    if (ctx.enrolled < 100) caveats.push(`Only ${ctx.enrolled} people took part, so the numbers are less certain than in a large trial.`);
-  }
+  const n = o.analysis?.n ?? ctx.enrolled;
+  if (n !== undefined && n > 0 && n < 100) caveats.push("This is a small study population; consider the uncertainty around the estimate.");
   const armNotes = o.arms.map((x) => x.note).filter((n): n is string => !!n && /not significant|interim|immature|crossover|post hoc|exploratory|subgroup/i.test(n));
   for (const n of armNotes) caveats.push(n.replace(/\.$/, "") + ".");
 
@@ -179,7 +164,8 @@ export function explainTrial(t: Pick<Trial, "outcomes" | "setting" | "enrolled">
 export function explainPrimary(t: Pick<Trial, "outcomes" | "setting" | "enrolled">): string | undefined {
   const o = t.outcomes.find((x) => x.primary) ?? t.outcomes[0];
   if (!o) return undefined;
-  return explainOutcome(o, { setting: t.setting, enrolled: t.enrolled }).sentences[0];
+  const sentence = explainOutcome(o, { setting: t.setting, enrolled: t.enrolled }).sentences[0];
+  return o.analysis ? `${outcomePopulation(o)}: ${sentence}` : sentence;
 }
 
 function dedupe(xs: string[]): string[] {

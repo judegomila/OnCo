@@ -8,7 +8,7 @@ import { phaseLabel } from "./kinds";
  *
  * Trials
  *   phase          3 → 30 · 2/3 → 22 · 2 → 15 · 1/2 → 8 · 1 → 4 · observational/platform → 10
- *   size           5 × log10(enrolled) capped at 20 (100 → 10, 1,000 → 15, 10,000 → 20)
+ *   size           5 × log10(primary analysis size, or enrolment if not reported) capped at 20 (100 → 10, 1,000 → 15, 10,000 → 20)
  *   endpoint       primary endpoint is OS → 20 · PFS/EFS/DFS/RFS/iDFS → 14 · pCR/ORR/other surrogate → 8 · none recorded → 0
  *   result         positive → 15 · mixed → 6 · recruiting/active/planned → 0 · negative/withdrawn → −20
  *   replication    a replication note that does not start with "No", "Not", "Failed", "Ongoing", "Single" → 10 · otherwise 0
@@ -46,7 +46,10 @@ export function trialEvidence(t: Trial): Evidence {
   const parts: EvidencePart[] = [];
   const phase: Record<string, number> = { "3": 30, "2/3": 22, "2": 15, "1/2": 8, "1": 4, "4": 20, observational: 10, platform: 10 };
   parts.push({ label: phaseLabel(t.phase), points: phase[t.phase] ?? 5 });
-  if (t.enrolled) parts.push({ label: `${t.enrolled.toLocaleString()} enrolled`, points: Math.min(20, Math.round(5 * Math.log10(t.enrolled))) });
+  const outcome = t.outcomes.find((x) => x.primary) ?? t.outcomes[0];
+  const analysis = outcome?.analysis;
+  const size = analysis?.n ?? t.enrolled;
+  if (size && size > 0) parts.push({ label: `${size.toLocaleString("en-US")} ${analysis ? "in the scored endpoint analysis" : "trial enrolment (analysis size not recorded)"}`, points: Math.min(20, Math.round(5 * Math.log10(size))) });
   parts.push(endpointPoints(t));
   const s = t.status ?? "";
   parts.push({ label: `Result: ${s || "not reported"}`, points: s === "positive" ? 15 : s === "mixed" ? 6 : s === "negative" || s === "withdrawn" ? -20 : 0 });

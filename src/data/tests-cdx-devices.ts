@@ -310,7 +310,7 @@ const devices: DrugInput[] = [
     tldr: "A tumour sequencing test approved in July 2026 as a companion diagnostic that finds BRAF V600E or V600K in melanoma, the mutations BRAF-targeted drugs act on.",
     summary: "Personal Genome Diagnostics, Inc. received FDA approval for PGDx elio tissue complete CDx on 30 July 2026 (PMA P250036). The FDA approval statement describes a qualitative, hybridisation-capture sequencing test on tumour tissue DNA that detects single-nucleotide variants, small insertions and deletions, copy number amplifications and translocations, intended as a companion diagnostic in melanoma. The FDA companion diagnostic list gives its claim as identifying melanoma with BRAF V600E and V600K for two groups of medicines approved by the FDA for that indication. The BRAF inhibitors it lists are dabrafenib (Tafinlar) and vemurafenib (Zelboraf); the BRAF and MEK inhibitor combinations it lists are cobimetinib (Cotellic) with vemurafenib, encorafenib (Braftovi) with binimetinib (Mektovi), and dabrafenib with trametinib (Mekinist).",
     approvals: [{ region: "US", year: 2026, indication: "BRAF V600E and V600K in melanoma, for BRAF inhibitors and BRAF and MEK inhibitor combinations approved by the FDA for that indication (group labelling)" }],
-    targets: ["braf"], drugs: ["dabrafenib", "vemurafenib", "cobimetinib", "encorafenib", "binimetinib", "trametinib"], cancers: ["melanoma"],
+    targets: ["braf"], drugs: ["dabrafenib", "vemurafenib", "cobimetinib", "encorafenib", "binimetinib", "trametinib"], cancers: ["melanoma"], companies: ["personal-genome-diagnostics"],
     technologies: ["companion-diagnostic"], terms: ["ngs", "companion-diagnostic-term"], related: ["cobas-4800-braf-v600", "thxid-braf"],
     links: [OPENFDA_PMA("P250036"), PMA("P250036"), FDA_CDX_LIST] }),
   d({ id: "her2-cish-pharmdx", asOf: "2026-11-19", name: "HER2 CISH pharmDx Kit", brand: "HER2 CISH pharmDx", modality: "Chromogenic in situ hybridisation test (HER2 gene status, breast tumour tissue)", status: "withdrawn",
@@ -378,6 +378,16 @@ const companies: CompanyInput[] = [
     summary: "One Lambda, Inc., the applicant at West Hills, California on the FDA record for its SeCore CDx HLA Sequencing System (BK241074, 1 August 2024), makes HLA typing products. The FDA companion diagnostic list names it as maker of SeCore CDx HLA for tebentafusp in uveal melanoma and for afamitresgene autoleucel in synovial sarcoma. Thermo Fisher Scientific lists One Lambda, Inc, a California company, among its subsidiaries in the exhibit to its annual report for 2025.",
     drugs: ["secore-cdx-hla"], technologies: ["companion-diagnostic"], cancers: ["uveal-melanoma", "synovial-sarcoma"],
     links: [K510("BK241074"), FDA_CDX_LIST, { label: "Thermo Fisher Scientific 10-K for 2025, Exhibit 21: subsidiaries (SEC)", url: "https://www.sec.gov/Archives/edgar/data/97745/000009774526000018/q4202510-kex21sublist.htm" }] }),
+  // Added 26 November 2026 (gap audit, class 1: the maker named on the BRAF V600E companion diagnostic row had no
+  // record). Sources read that day: openFDA's entry for PMA P250036 (applicant, address, decision date and approval
+  // statement) and the FDA companion diagnostic list. openFDA prints the city as "Blatimore"; the street, state and ZIP
+  // code (3600 Boston St., MD 21224) are Baltimore's. The company's own site was not reachable in this run, so no
+  // website, founding year or owner is given; the Labcorp record says Labcorp Oncology includes it.
+  ({ kind: "company", id: "personal-genome-diagnostics", asOf: "2026-11-26", name: "Personal Genome Diagnostics", aka: ["Personal Genome Diagnostics, Inc."], hq: "Baltimore, MD", country: "US", companyType: "diagnostics", sections: ["diagnostics"],
+    tldr: "Baltimore maker of a tumour sequencing test that the FDA approved in July 2026 as a companion diagnostic for BRAF-targeted drugs in melanoma.",
+    summary: "Personal Genome Diagnostics, Inc., the applicant at Baltimore, Maryland on the FDA record, received approval on 30 July 2026 for PGDx elio tissue complete CDx (PMA P250036). The FDA approval statement describes a sequencing test on DNA from tumour tissue that detects single-nucleotide variants, small insertions and deletions, copy number amplifications and translocations, intended as a companion diagnostic in melanoma. The FDA companion diagnostic list gives its claim as BRAF V600E and V600K in melanoma.",
+    drugs: ["pgdx-elio-tissue-complete-cdx"], technologies: ["companion-diagnostic"], cancers: ["melanoma"], related: ["labcorp"],
+    links: [OPENFDA_PMA("P250036"), PMA("P250036"), FDA_CDX_LIST] } satisfies CompanyInput),
 ];
 
 export const testsCdxDevices: EntityInput[] = [...devices, ...companies];

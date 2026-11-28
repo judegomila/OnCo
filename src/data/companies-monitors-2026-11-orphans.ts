@@ -185,4 +185,24 @@ export const monitorsOrphans: Array<CompanyInput | DrugInput> = [
     cancers: ["ovarian"], companies: ["nadeno-nanoscience"], related: ["cabazitaxel"],
     regulatoryEvents: [{ date: "2026-07-28", type: "designation", region: "EU", note: "EMA orphan designation EU/3/26/3258 of cabazitaxel for ovarian cancer, sponsor Nadeno Nanoscience AS (the company's product PACAB-002)", source: ema("3258"), indication: "Treatment of ovarian cancer" }],
     links: [{ label: "NaDeNo: PACAB-002", url: "https://www.nadeno.com/pacab-002" }, { label: "EMA orphan designation EU/3/26/3258", url: ema("3258") }] }),
+
+  // ---- Bimiralisib (added 26 November 2026, issue #336, EMA orphan designations) ----
+  // The EMA page names Maxia Strategies-Europe Limited, a regulatory representative, as sponsor. The developer is the
+  // existing company record torqur, whose own announcement of this designation that record already cites. Read on 26
+  // November 2026: the EMA designation page, ClinicalTrials.gov (API v2, intervention "bimiralisib" and term "PQR309"),
+  // and the Europe PMC record of the phase 1 paper (PMID 38539472, DOI 10.3390/cancers16061137).
+  ({ ...d({ id: "bimiralisib", name: "Bimiralisib", code: "PQR309", aka: ["PQR309", "PQR 309"], modality: "Oral small-molecule kinase inhibitor", mechanism: "Blocks both phosphoinositide 3-kinase (PI3K, all class I forms) and mTOR, two linked steps in a growth signalling pathway that is overactive in many cancers; the phase 1 report calls it a pan-PI3K/mTOR inhibitor.", status: "phase-2",
+    tldr: "Bimiralisib is an experimental tablet that blocks the PI3K and mTOR growth signals. It has been tested in early trials in lymphoma and solid tumours, and in August 2026 the European Union gave it orphan status for thymic epithelial tumours, rare cancers of the thymus gland.",
+    summary: "Bimiralisib (PQR309) was developed by PIQUR Therapeutics AG of Basel, which sponsored its first trials on ClinicalTrials.gov: phase 1 studies in advanced solid tumours (NCT01940133, NCT02483858), phase 2 studies in relapsed or refractory lymphoma (NCT02249429, NCT03127020) and primary central nervous system lymphoma (NCT02669511), a phase 2 study in glioblastoma (NCT02850744, terminated) and a phase 1/2 study with eribulin in HER2-negative and triple-negative breast cancer (NCT02723877). MD Anderson Cancer Center ran a phase 2 study in head and neck squamous cell cancer with NOTCH1 loss-of-function mutations (NCT03740100, terminated). In the published phase 1 study in advanced solid tumours (Janku and colleagues, Cancers 2024), the maximum tolerated dose on a continuous daily schedule was 80 mg; the commonest side effect on that schedule was high blood sugar (76.2%), intermittent schedules had fewer severe side effects, and there was one partial response, in a head and neck squamous cancer with a NOTCH1 mutation. On 20 August 2026 the EU designated bimiralisib an orphan medicine for the treatment of thymic epithelial tumours (EU/3/26/3281); the EMA names Maxia Strategies-Europe Limited as sponsor. A designation is not an approval, and no trial of bimiralisib in thymic tumours is registered on ClinicalTrials.gov.",
+    notes: ["ClinicalTrials.gov searched on 26 November 2026 for bimiralisib and PQR309: eight cancer studies, six completed and two terminated, none recruiting; a ninth PIQUR study, NCT03120000, was withdrawn before enrolling. Torqur's completed phase 2 study of a bimiralisib gel in actinic keratosis (NCT06319794), a precancerous skin condition, is the only other entry."],
+    targets: ["mtor"], technologies: ["pi3k-akt-mtor-inhibitors"], cancers: ["thymic-epithelial", "primary-cns-lymphoma", "head-and-neck"], companies: ["torqur"],
+    regulatoryEvents: [{ date: "2026-08-20", type: "designation", region: "EU", note: "EMA orphan designation EU/3/26/3281 of bimiralisib for thymic epithelial tumours, sponsor Maxia Strategies-Europe Limited", source: ema("3281"), indication: "treatment of thymic epithelial tumours" }],
+    links: [
+      { label: "EMA orphan designation EU/3/26/3281", url: ema("3281") },
+      { label: "Janku et al., phase 1 study of bimiralisib in advanced solid tumours, Cancers 2024 (PMID 38539472)", url: "https://doi.org/10.3390/cancers16061137" },
+      { label: "ClinicalTrials.gov: NCT02483858 (phase 1, advanced solid tumours)", url: "https://clinicaltrials.gov/study/NCT02483858" },
+      { label: "ClinicalTrials.gov: NCT03127020 (phase 2, relapsed or refractory lymphoma)", url: "https://clinicaltrials.gov/study/NCT03127020" },
+      { label: "ClinicalTrials.gov: NCT02669511 (phase 2, primary CNS lymphoma)", url: "https://clinicaltrials.gov/study/NCT02669511" },
+      { label: "ClinicalTrials.gov: NCT03740100 (phase 2, head and neck cancer with NOTCH1 mutations)", url: "https://clinicaltrials.gov/study/NCT03740100" },
+    ] }), asOf: "2026-11-26", provenance: { editedBy: "OnCo startup monitors", editedOn: "2026-11-26" } }),
 ];

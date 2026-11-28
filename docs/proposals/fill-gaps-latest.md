@@ -1,91 +1,69 @@
-# Fill gaps: 19 November 2026
+# Fill gaps: 26 November 2026
 
-Worklists: issue #336 (weekly refresh, 18 November) and `scripts/gap-audit.ts` output of 19 November. Ten items
-filled. Nothing in either worklist or in any fetched page read as an instruction; none was followed.
+Worklists: issue #336 (weekly refresh, 25 November) and `scripts/gap-audit.ts` output of 26 November. Eight items
+filled. Nothing in either worklist or in any fetched page read as an instruction to me, and I followed none.
 
-The gates (validate, typecheck, lint, vitest) were **not run by me**; this run could only read, edit and fetch.
+**I did not run the gates** (validate, typecheck, lint, vitest). This run could only read, edit and fetch.
 
 ## Filled
 
-1. `cobas-kras-mutation-test`: new device record, `src/data/tests-cdx-devices.ts`; mapped in `CDX_DEVICE_IDS`
-   (`src/data/biomarker-readouts.ts`). Sources: openFDA PMA P140023 original approval
-   (`api.fda.gov/device/pma.json?search=pma_number:P140023`, decision APPR, 2015-05-07, approval statement read);
-   FDA companion diagnostic list (content current 11/03/2026; rows for cetuximab and panitumumab).
-2. `cobas-ezh2-mutation-test`: new device record, same files, status `withdrawn`. openFDA PMA P200014 (approved
-   2020-06-18, decision code APWD); openFDA field definitions `open.fda.gov/fields/devicepma.yaml` (APWD =
-   "Withdrawal after approval."); FDA CDx list (still lists it, tazemetostat).
-3. `pgdx-elio-tissue-complete-cdx`: new device record, same files. openFDA PMA P250036 (APPR, 2026-07-30, applicant
-   Personal Genome Diagnostics, Inc.); FDA CDx list (BRAF V600E/V600K group claim; dabrafenib and vemurafenib read
-   in the list, the rest of the list was not read, so only those two are linked). No company linked.
-4. `her2-cish-pharmdx`: new device record, same files, status `withdrawn`. openFDA PMA P100024 (2011-11-30, APWD);
-   field definitions as above; FDA CDx list (trastuzumab).
-5. `spot-light-her2-cish`: new device record, same files, status `withdrawn`. openFDA PMA P050040 (2008-07-01,
-   applicant Invitrogen Corporation, APWD); FDA CDx list (maker Life Technologies Corporation, trastuzumab).
-6. `/software/` DermaSensor row: `vendorId: "dermasensor-inc"`, `src/data/software.ts` (identity: same name; row's
-   FDA De Novo DEN230008 applicant "Dermasensor, Inc.").
-7. `/software/` QP-Prostate CAD row: `vendorId: "quibim"`, `src/data/software.ts` (FDA applicant "Quibim S.L." is an
-   alias on the company record).
-8. `/software/` COSMIC row: `vendorId: "wellcome-sanger"`, `src/data/software.ts` (hosted at cancer.sanger.ac.uk,
-   the institution's domain).
-9. `SPONSOR_PATTERNS` ANZGOG: `id: "anzgog"`, `src/data/sponsor-aliases.ts` (record `anzgog` in
-   `country-records-au.ts` is a cooperative-group company with alias ANZGOG).
-10. `ascendis-pharma`: new company record, `src/data/companies-portfolio-monitors.ts` (from the issue's RA Capital
-    list). ClinicalTrials.gov v2 API sponsor search "Ascendis Pharma Oncology" (NCT05081609, NCT04799054); EMA EPAR
-    Skytrofa (`ema.europa.eu/en/medicines/human/EPAR/skytrofa`: MAH Ascendis Pharma Endocrinology Division A/S,
-    Hellerup; EU authorisation 11 January 2022). HQ is the MAH address, said so in `notes`. No website, investor,
-    listing or founding year: the company site (ascendispharma.com) and racap.com are not on the allow-list.
-
-Reviewer, please check: three of the five new devices (cobas EZH2, HER2 CISH pharmDx, SPOT-LIGHT), and InSite and
-INFORM (not written), carry openFDA decision code APWD while still printed on the FDA CDx list. Withdrawal dates were
-not read because `www.accessdata.fda.gov` returned its abuse-detection redirect to every script request.
+1. `/software/` Citeline row: added `vendorId: "citeline"` in `src/data/software.ts`. Identity check: the company
+   record `citeline` (`companies-elicit-map.ts`) and the software row both cite citeline.com.
+2. therascreen PDGFRA RGQ PCR Kit: the family record `therascreen-cdx` (`src/data/tests.ts`) now covers it. I
+   added PDGFRA to the name, the 2023 approval, target `pdgfra`, drug `avapritinib` and cancer `gist`, and mapped the
+   device in `CDX_DEVICE_IDS` (`src/data/biomarker-readouts.ts`), so the row on `pdgfra-exon-18-d842v` now links to
+   the record. Sources: openFDA PMA P210002 (applicant QIAGEN GmbH, Hilden; APPR, 2023-06-29; approval statement
+   read); FDA companion diagnostic list (avapritinib, GIST, D842V, P210002 06/29/2023).
+3. `braf-v600e` readout: added `pgdx-elio-tissue-complete-cdx` to `drugs` (`biomarker-readouts-2.ts`). The FDA row is
+   already in `cdx-fda-rows.ts`. Source: FDA CDx list, PGDx row (P250036, 7/30/2026).
+4. `ras-wild-type` readout: added `cobas-kras-mutation-test` to `drugs`, plus one summary sentence saying it reads
+   KRAS codons 12 and 13 only and is listed for both antibodies. Source: FDA CDx list, two rows (cetuximab and
+   panitumumab, "Mutations in codons 12 and 13 of KRAS gene", P140023 05/07/2015).
+5. `kras-g12d` readout: added `cobas-kras-mutation-test` to `drugs`, and the same two FDA rows to `cdx-fda-rows.ts`
+   (they were already on `ras-wild-type`). Source: the same FDA list rows.
+6. `personal-genome-diagnostics`: new company record in `src/data/tests-cdx-devices.ts`, linked from the PGDx device
+   record and the PGDx row in `cdx-fda-rows.ts`. Sources: openFDA PMA P250036 (applicant Personal Genome
+   Diagnostics, Inc., 3600 Boston St., MD 21224; openFDA misspells the city as "Blatimore"); FDA CDx list. The
+   company's own site is not on the allow-list, so the record gives no website, founding year or owner.
+   `related: ["labcorp"]` rests on the existing Labcorp record, which says Labcorp Oncology includes it.
+7. `her2-ish-amplified` readout: added `her2-cish-pharmdx` to `drugs` (`biomarker-readouts.ts`). This is the ISH
+   readout only; the IHC readout was not changed (see below). Source: FDA CDx list, HER2 CISH pharmDx row
+   (trastuzumab). The record already carries status `withdrawn`.
+8. `bimiralisib`: new drug record in `src/data/companies-monitors-2026-11-orphans.ts`, linked to the existing
+   `torqur` company record, whose `drugs` and notes I updated (`companies-new-2026-sponsors.ts`). This comes from the
+   issue's EMA orphan designations list (Maxia Strategies-Europe Limited). Sources: the EMA page EU/3/26/3281
+   (bimiralisib, thymic epithelial tumours, 20/08/2026, sponsor Maxia Strategies-Europe Limited); ClinicalTrials.gov
+   API v2 searches for intervention "bimiralisib" and term "PQR309" (NCT01940133, NCT02483858, NCT02249429,
+   NCT03127020, NCT02669511, NCT02850744, NCT02723877, NCT03740100, NCT03120000, NCT06319794); Europe PMC, PMID
+   38539472 / DOI 10.3390/cancers16061137 (abstract read: MTD 80 mg continuous, hyperglycaemia 76.2%, one partial
+   response). **Reviewer, please check:** the link from bimiralisib to Torqur rests on Torqur's own announcement,
+   which the existing `torqur` record cites. I did not re-read it, because torqur.com is not on the allow-list.
 
 ## Skipped or left open
 
-- Issue, investor portfolios (Abcuro, Alchemab, Alethio, Asher Bio, Canbridge, Odyssey, Casma, YC companies and the
-  rest): each needs its own website or the portfolio page, neither reachable (company domains, racap.com,
-  thirdrockventures.com, ycombinator data). PMV Pharma already has a record (`pmv-pharma`).
-- Issue, SEC S-1/F-1 filers: the filing's business section is on sec.gov, not on the allow-list.
-- Issue, orphan designations: FGK Representative Service and Comac Medical are regulatory agents; the developer was
-  not identified in this run. Wealth Venture US Inc: no reachable source beyond the FDA designation line.
-- Issue, NCI SBIR/STTR awards: reporter.nih.gov is not on the allow-list.
-- Issue, stale sources section: skipped as instructed (fetcher fixes are a script change).
-- Audit class 1, WHO ICTRP vendor: record `who` is the WHO Cancer Programme, not WHO as a whole; not linked.
-- Audit class 1, medium first-word matches (Atlas, Boston University lab, Civica, Dartmouth lab, Indiana University,
-  Institut Curie and CEA, Peter Yang, Stanford University, Stony Brook and Emory, TCIA, Vanderbilt University): the
-  suggested record is a different body or a division; left for a person.
-- Audit class 1, deal assets HRS-9821, MC-339, ORN-252, AraLinQ, "up to seven preclinical ADCs": sources are company
-  releases, not reachable.
-- Audit class 1, Biogenex and Personal Genome Diagnostics as makers: no company record written (HQ not read in a
-  primary source beyond the openFDA applicant address). InSite Her-2/neu (P040030, APWD) and INFORM HER-2/neu
-  (P940004, original approval was a prognostic claim; the trastuzumab supplement was not read): left for next round.
-  therascreen PDGFRA: family record does not name it; not read.
-- Audit class 3, items 1–10: the suggested additions do not match the readout's measurement (an SP263 TC test on
-  the SP142 IC score, FISH kits on an IHC 3+ readout, FISH kits for other genes on HER2 ISH, BRAC Analysis on the
-  somatic readout); not applied.
-- Audit class 3, items 11–31: the gap is which table the "Tests that measure it" box reads, a page choice for a
-  person, not data.
-
-## Process note
-
-At the start of the run I used `ls` and `wc` once to list the two worklists, outside the single permitted command.
-They only listed file names and sizes; nothing else was run.
-
-## Review, 19 November 2026
-
-An independent read of every record above against the raw text of its sources. What changed from the draft:
-
-- The FDA PMA pages (`accessdata.fda.gov`) answered a plain request on review, and each prints a withdrawal date:
-  cobas EZH2 (P200014) 6 July 2026 and HER2 CISH pharmDx (P100024) 24 January 2018. Both records now give the date.
-  For the two left for next round, the same pages read InSite Her-2/neu (P040030) 15 March 2006 and INFORM HER-2/neu
-  (P940004) 22 October 2007.
-- `spot-light-her2-cish` (item 5) was held back, not written: `src/components/biomarker-cdx-link.test.ts` uses that
-  device as its example of a listed device with no record, and a test is not changed to admit a record. Its claims
-  were all supported, and its PMA page reads withdrawal date 7 January 2015. It needs the test's example moved to a
-  device that still has no record, which is a call for a person.
-- `pgdx-elio-tissue-complete-cdx`: the whole list row was read, so the three BRAF and MEK inhibitor combinations it
-  names are in the record, and cobimetinib, encorafenib, binimetinib and trametinib are linked.
-- `cobas-kras-mutation-test`: the CRCDx RAS kit is listed for panitumumab only, and the sentence now says so.
-- `ascendis-pharma`: the company's own home and contact pages were read, giving the website and the headquarters
-  address (Tuborg Boulevard 12, 2900 Hellerup). "Slow-release" became "long-acting", the registry's own word.
-- Each new record is linked from a neighbouring record (`related` on four devices and on tazemetostat, `companies`
-  on trial `nct05081609`), so none is an orphan, and three "as of" date stamps were reworded.
+- Audit class 3, false matches that I did not apply: BRACAnalysis CDx on `brca-somatic` (it is a germline blood
+  test); myChoice CDx and FoundationFocus CDxBRCA on `hrr-gene-mutation` (ovarian claims, while the readout is
+  prostate); ONCO/Reveal Dx on `egfr-t790m` (its claim is exon 19 deletion and L858R, not T790M); VENTANA SP263 on
+  `pd-l1-ic-score` (its atezolizumab row scores tumour cells, ≥1% TC); HER2 CISH and HER2 FISH pharmDx on
+  `her2-ihc-3-plus` (ISH tests on an IHC readout); MMR IHC Panel pharmDx on `msi-high` (it measures dMMR, which has
+  its own readout); UroVysion, Vysis ALK and Vysis CLL on `her2-ish-amplified` (only the FISH technology is shared).
+- Audit class 3, "in drugs, so only under Connected" (21 rows): the box reads `TUMOUR_TESTS` and `assays`. Fixing
+  this means changing what the box reads, which is a product decision for a person, not data.
+- Audit class 1, Biogenex Laboratories (maker of InSite Her-2/neu): openFDA's only addresses are from 2002 to 2004
+  (San Ramon, CA). I could not confirm where the company is today, and accessdata.fda.gov returned its
+  abuse-detection redirect, so I could not read the InSite withdrawal date. No record written. INFORM HER-2/neu and
+  SPOT-LIGHT were not attempted; `biomarker-cdx-link.test.ts` uses SPOT-LIGHT as its example.
+- Audit class 1, medium first-word matches (Atlas, Civica, Dartmouth lab, Indiana University, Institut Curie and
+  CEA, Opentrons Labworks, Peter Yang, Stanford, Stony Brook and Emory, TCIA, Vanderbilt, WHO): left for a person,
+  as last week.
+- Audit class 1, deal assets HRS-9821, MC-339, ORN-252, AraLinQ and "up to seven preclinical ADCs": the only
+  sources are company press releases, which are not on the allow-list.
+- Issue, investor portfolios (Abcuro, Alchemab, Alethio, Canbridge, Odyssey, Casma, the YC companies and the
+  rest): each needs the company's own site or the portfolio page (racap.com, thirdrockventures.com, company
+  domains), none of which is on the allow-list.
+- Issue, SEC S-1 and F-1 filers: the business sections are on sec.gov, which is not on the allow-list.
+- Issue, other orphan designations: Consilienta GmbH (EU/3/26/3301), OncoVITA (EU/3/26/3297) and Starodub B.V.
+  (EU/3/26/3313) were not reached in this run's budget. Wealth Venture US Inc: no developer identified, as on
+  4 November.
+- Issue, NCI SBIR and STTR awards: reporter.nih.gov is not on the allow-list.
+- Issue, stale sources section (evenone-portfolio): skipped as instructed; it needs a fix to the fetcher.

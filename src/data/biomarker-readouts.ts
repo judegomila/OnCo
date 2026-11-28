@@ -27,9 +27,9 @@ export const th = (x: Th): BiomarkerThreshold => ({ status: "current", ...x });
  * names; Signatera CDx (P260004) is the companion diagnostic version of the Signatera record, whose IMvigor011
  * approval it is (src/data/tumour-tests.ts says so). Guardant360 Liquid CDx (P250027, a different PMA from Guardant360
  * CDx) has its own record, guardant360-liquid-cdx, since 17 November 2026. cobas KRAS, cobas EZH2, PGDx elio tissue
- * complete CDx and HER2 CISH pharmDx have records since 19 November 2026 (src/data/tests-cdx-devices.ts). Not mapped,
- * because no record covers the device: INFORM HER-2/neu, InSite Her-2/neu (CB11), SPOT-LIGHT HER2 CISH and
- * therascreen PDGFRA (the therascreen family record does not name it).
+ * complete CDx and HER2 CISH pharmDx have records since 19 November 2026 (src/data/tests-cdx-devices.ts). therascreen
+ * PDGFRA (P210002) is named by the therascreen family record since 26 November 2026 and maps to it. Not mapped,
+ * because no record covers the device: INFORM HER-2/neu, InSite Her-2/neu (CB11) and SPOT-LIGHT HER2 CISH.
  */
 export const CDX_DEVICE_IDS: Record<string, string> = {
   "Abbott RealTime IDH1": "abbott-realtime-idh1",
@@ -91,6 +91,7 @@ export const CDX_DEVICE_IDS: Record<string, string> = {
   "therascreen FGFR RGQ RT-PCR Kit": "therascreen-cdx",
   "therascreen KRAS RGQ PCR Kit": "therascreen-cdx",
   "therascreen PIK3CA RGQ PCR Kit": "therascreen-cdx",
+  "therascreen PDGFRA RGQ PCR Kit": "therascreen-cdx",
   "xT CDx": "tempus-xt-cdx",
 };
 /** One FDA companion diagnostic list row; the device's record id comes from CDX_DEVICE_IDS. */
@@ -386,7 +387,7 @@ export const biomarkerReadouts: BiomarkerInput[] = [
       th({ value: "HER2 gene amplification", drugId: "trastuzumab", cancerId: "breast-her2-positive", regulator: "FDA", source: LABEL.herceptin, quote: "Select patients based on HER2 protein overexpression or HER2 gene amplification in tumor specimens" }),
       th({ value: "HER2 gene amplification", drugId: "pertuzumab", cancerId: "breast-her2-positive", regulator: "FDA", source: DM("17f85d17-ab71-4f5b-9fe3-0b8c822f69ff"), quote: "Assessment of HER2 protein overexpression and HER2 gene amplification should be performed using FDA-approved tests specific for breast cancer by laboratories with demonstrated proficiency." }),
     ],
-    cancers: ["breast-her2-positive", "gastric-her2-positive", "her2-positive-early-breast-cancer"], drugs: ["trastuzumab", "pertuzumab", "trastuzumab-emtansine", "trastuzumab-deruxtecan", "her2-testing-assays"], assays: ["her2-ish"],
+    cancers: ["breast-her2-positive", "gastric-her2-positive", "her2-positive-early-breast-cancer"], drugs: ["trastuzumab", "pertuzumab", "trastuzumab-emtansine", "trastuzumab-deruxtecan", "her2-testing-assays", "her2-cish-pharmdx"], assays: ["her2-ish"],
     companionDiagnostics: [
       cdx("HER2 FISH pharmDx Kit", "Dako Denmark A/S (Agilent)", "Breast Cancer - Tissue", ["trastuzumab"], "P040005 (05/03/2005)", "agilent"),
       cdx("HER2 FISH pharmDx Kit", "Dako Denmark A/S (Agilent)", "Gastric and Gastroesophageal Cancer - Tissue", ["trastuzumab"], "P040005/S005 (10/20/2010)", "agilent"),

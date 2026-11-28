@@ -29,7 +29,7 @@ export const CDX_FDA_ROWS: Record<string, CompanionDiagnostic[]> = {
     cdx("FoundationOne Liquid CDx", "Foundation Medicine, Inc.", "Metastatic Colorectal Cancer (mCRC) - Plasma", ["encorafenib"], "P190032/S010 (06/08/2023)", "foundation-medicine"),
     cdx("MI Cancer Seek (MCS)", "Caris Life Sciences", "Colorectal Cancer - Tissue", ["encorafenib","cetuximab"], "P240010 (11/05/2024)", "caris"),
     cdx("MI Cancer Seek (MCS)", "Caris Life Sciences", "Melanoma - Tissue", ["trametinib"], "P240010 (11/05/2024)", "caris"),
-    cdx("PGDx elio tissue complete CDx", "Personal Genome Diagnostics, Inc.", "Melanoma - Tissue", ["dabrafenib","vemurafenib","cobimetinib","encorafenib","binimetinib","trametinib"], "P250036 (7/30/2026)"),
+    cdx("PGDx elio tissue complete CDx", "Personal Genome Diagnostics, Inc.", "Melanoma - Tissue", ["dabrafenib","vemurafenib","cobimetinib","encorafenib","binimetinib","trametinib"], "P250036 (7/30/2026)", "personal-genome-diagnostics"),
     cdx("MI Cancer Seek", "Caris Life Sciences", "Melanoma - Tissue", ["dabrafenib","vemurafenib"], "P240010 (11/05/2024)", "caris"),
     cdx("MI Cancer Seek", "Caris Life Sciences", "Melanoma - Tissue", ["cobimetinib","vemurafenib","encorafenib","binimetinib","dabrafenib","trametinib"], "P240010 (11/05/2024)", "caris"),
   ],
@@ -96,6 +96,9 @@ export const CDX_FDA_ROWS: Record<string, CompanionDiagnostic[]> = {
     cdx("CRCDx RAS Mutation Detection Assay Kit", "EntroGen, Inc.", "Colorectal Cancer (CRC) - Tissue", ["panitumumab"], "P220005 (09/29/2023)", "entrogen"),
     // Added 17 November 2026 from the FDA list: "KRAS wild-type (absence of mutations in codons 12 and 13)", one row each for Erbitux and Vectibix.
     cdx("ONCO/Reveal Dx Lung & Colon Cancer Assay (O/RDx-LCCA)", "Pillar Biosciences, Inc.", "Colorectal Cancer - Tissue", ["cetuximab", "panitumumab"], "P200011 (07/30/2021)", "pillar-biosciences"),
+    // Added 26 November 2026 from the FDA list read that day: biomarker "Mutations in codons 12 and 13 of KRAS gene", one row each for Erbitux and Vectibix (the same rows are on ras-wild-type).
+    cdx("cobas KRAS Mutation Test", "Roche Molecular Systems, Inc.", "Colorectal Cancer - Tissue", ["cetuximab"], "P140023 (05/07/2015)", "roche-genentech"),
+    cdx("cobas KRAS Mutation Test", "Roche Molecular Systems, Inc.", "Colorectal Cancer - Tissue", ["panitumumab"], "P140023 (05/07/2015)", "roche-genentech"),
   ],
   "met-ex14": [
     cdx("FoundationOne Liquid CDx", "Foundation Medicine, Inc.", "Non-Small Cell Lung Cancer (NSCLC) - Plasma", ["tepotinib"], "P190032/S015 (11/14/2024)", "foundation-medicine"),
